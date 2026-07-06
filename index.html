@@ -103,27 +103,6 @@
     text-transform: uppercase;
     color: var(--ink-faint);
   }
-  .priorities-header {
-    max-width: 880px;
-    margin: 2rem auto 0.75rem;
-    padding: 0 1.5rem;
-  }
-  .priorities-header h2 {
-    font-size: 1.15rem;
-    margin: 0 0 0.2rem;
-    font-weight: bold;
-  }
-  .priorities-header p {
-    margin: 0;
-    font-size: 0.8rem;
-    color: var(--ink-soft);
-    font-style: italic;
-  }
-  .priorities-wrap {
-    max-width: 880px;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-  }
   .regex-toggle {
     font-family: ui-monospace, monospace;
     font-size: 0.72rem;
@@ -195,13 +174,6 @@
     font-weight: bold;
     padding: 0 0.15em;
     border-radius: 2px;
-  }
-  .impact-score-note {
-    font-family: ui-monospace, monospace;
-    font-size: 0.68rem;
-    color: var(--verified);
-    margin-top: 0.2rem;
-    font-style: italic;
   }
 
   /* ================= TABS ================= */
@@ -430,7 +402,6 @@
   <div class="regex-error" id="regex-error"></div>
 </header>
 
-<div id="priorities-section"></div>
 
 <p class="browse-instead" id="browse-instead">— or browse by database —</p>
 
@@ -755,7 +726,7 @@ function oneLinerFor(entry, cfg) {
     return entry.official + " \u2014 " + entry.offense_category + ": " + truncate(entry.status, 150) + tag;
   }
   if (cfg.kind === "tracker") {
-    return (entry.date || "") + " [" + entry.category + "] " + truncate(entry.what_happened, 150);
+    return (entry.date || "") + " " + truncate(entry.what_happened, 150);
   }
   return JSON.stringify(entry).slice(0, 150);
 }
@@ -791,7 +762,8 @@ function buildDetailHtml(entry, cfg) {
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + s.url + '" target="_blank" rel="noopener">' + s.name + '</a></li>').join("") + '</ul>';
   }
   if (cfg.kind === "tracker") {
-    return '<div class="field-label">What happened</div><div class="field-value">' + (entry.what_happened || "") + '</div>' +
+    return '<div class="field-label">Category</div><div class="field-value">' + (entry.category || "Uncategorized") + '</div>' +
+      '<div class="field-label">What happened</div><div class="field-value">' + (entry.what_happened || "") + '</div>' +
       '<div class="field-label">Why it matters</div><div class="field-value">' + (entry.why_it_matters || "") + '</div>' +
       (entry.source_name ? '<div class="field-label">Source</div><ul class="exhibit-list"><li><a href="' + entry.source_url + '" target="_blank" rel="noopener">' + entry.source_name + '</a></li></ul>' : '<div class="field-label">Source</div><div class="field-value" style="color:var(--ink-faint);font-style:italic;">not cited in original post</div>');
   }
@@ -816,7 +788,7 @@ function buildEntryCard(entry, cfg, docketLabel, sourceLabel) {
     metaHtml += '<span class="domain-tag" style="background:' + domainColor(entry.domain) + '22; color:' + domainColor(entry.domain) + '">' + entry.domain + '</span>' +
                '<span>' + (entry.agency || "") + '</span><span>' + (entry.date_of_action || "") + '</span>';
   } else if (cfg.kind === "tracker") {
-    metaHtml += '<span>' + (entry.category || "") + '</span><span>' + (entry.date || "") + '</span>';
+    metaHtml += '<span>' + (entry.date || "") + '</span>';
   } else {
     metaHtml += '<span>' + (entry.offense_category || "") + '</span><span>updated ' + (entry.last_updated || "") + '</span>';
   }
@@ -879,22 +851,17 @@ function renderEntries() {
   const container = document.getElementById("entries");
   const countEl = document.getElementById("count");
 
-  const hasActiveFilter = !!(searchTerm || filterValue);
-
-  // Only show the size-warning placeholder when nothing is actively
-  // narrowing the results yet -- a search term or category filter
-  // should always be allowed to run, regardless of total dataset size.
-  if (activeTracker === "tracker" && cfg.data.length > 200 && !hasActiveFilter) {
-    container.innerHTML = '<div class="empty-state">This dataset (' + cfg.data.length + ' entries) is large for unpaginated display.<br>Type a search term above, or pick a category, to narrow it down.</div>';
-    countEl.textContent = "";
-    return;
-  }
-
   const filtered = cfg.data.filter(e => {
     const matchesSearch = matchesTerm(JSON.stringify(e).toLowerCase(), searchTerm, false);
     const matchesFilter = !filterValue || e[cfg.filterField] === filterValue;
     return matchesSearch && matchesFilter;
   });
+
+  // Prioritization lives inside the browse tabs themselves -- every
+  // tab's entries are sorted by the same impact heuristic used
+  // elsewhere, whether or not a search/filter is active. No separate
+  // "top priorities" section needed.
+  filtered.sort((a, b) => impactScore(b, cfg) - impactScore(a, cfg));
 
   // Safety valve: even a successful search can still match thousands
   // of entries (e.g. a common word against 12,000+ News entries) --
@@ -904,8 +871,8 @@ function renderEntries() {
   const toRender = filtered.slice(0, RENDER_CAP);
 
   countEl.textContent = filtered.length > RENDER_CAP
-    ? toRender.length + " shown of " + filtered.length + " matches — refine your search to narrow further"
-    : filtered.length + " of " + cfg.data.length + " entries shown";
+    ? toRender.length + " shown of " + filtered.length + " entries, sorted by priority — search or filter to narrow further"
+    : filtered.length + " of " + cfg.data.length + " entries shown, sorted by priority";
 
   if (filtered.length === 0) {
     container.innerHTML = '<div class="empty-state">No entries match. Try a different search or filter.</div>';
@@ -955,7 +922,7 @@ function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
 
   countEl.textContent = allMatches.length + " result(s) across all databases for \"" + term + "\"" +
     (useRegex ? " (regex)" : "") + (useOneLiners ? " — 1-liner view" : "") +
-    (useImpactSort ? " — sorted by impact (heuristic, see score on each result)" : "");
+    (useImpactSort ? " — sorted by priority" : "");
 
   if (allMatches.length === 0) {
     container.innerHTML = '<div class="empty-state">No matches found across any database.</div>';
@@ -977,12 +944,6 @@ function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
   if (!useOneLiners) {
     toRender.forEach((m, i) => {
       const card = buildEntryCard(m.entry, m.cfg, "NO. " + String(i + 1).padStart(2, "0"), m.sourceLabel);
-      if (useImpactSort) {
-        const scoreNote = document.createElement("div");
-        scoreNote.className = "impact-score-note";
-        scoreNote.textContent = "Impact score: " + impactScore(m.entry, m.cfg).toFixed(1) + " — " + impactScoreLabel(m.entry, m.cfg);
-        card.querySelector(".entry-meta").after(scoreNote);
-      }
       container.appendChild(card);
     });
     return;
@@ -994,12 +955,9 @@ function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
   toRender.forEach((m, i) => {
     const row = document.createElement("div");
     row.className = "oneliner-row";
-    const scoreHtml = useImpactSort
-      ? '<span class="source-tag" style="background:var(--verified-bg);color:var(--verified);">score ' + impactScore(m.entry, m.cfg).toFixed(1) + '</span>'
-      : "";
     row.innerHTML =
       '<span class="oneliner-caret">▸</span>' +
-      '<span class="oneliner-text"><span class="source-tag">' + m.sourceLabel + '</span>' + scoreHtml + highlightMatches(oneLinerFor(m.entry, m.cfg), term, useRegex) + '</span>';
+      '<span class="oneliner-text"><span class="source-tag">' + m.sourceLabel + '</span>' + highlightMatches(oneLinerFor(m.entry, m.cfg), term, useRegex) + '</span>';
 
     const detail = document.createElement("div");
     detail.className = "oneliner-detail";
@@ -1016,66 +974,6 @@ function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
   container.appendChild(list);
 }
 
-/* Default empty-search view: the same impact heuristic used by the
-   "sort by impact" search toggle, applied across ALL entries in all
-   three databases (no search term needed), showing the top N. This
-   is what a visitor sees before typing anything -- immediately
-   useful content instead of a blank prompt, while tabs remain
-   available below for full browsing of any single database. */
-const PRIORITIES_COUNT = 15;
-
-function renderPriorities() {
-  const section = document.getElementById("priorities-section");
-
-  let all = [];
-  Object.keys(TRACKERS).forEach(key => {
-    const cfg = TRACKERS[key];
-    cfg.data.forEach(entry => all.push({ entry, cfg, sourceLabel: cfg.label }));
-  });
-
-  if (all.length === 0) {
-    section.innerHTML = "";
-    return;
-  }
-
-  all.sort((a, b) => impactScore(b.entry, b.cfg) - impactScore(a.entry, a.cfg));
-  const top = all.slice(0, PRIORITIES_COUNT);
-
-  const wrap = document.createElement("div");
-  wrap.className = "priorities-wrap";
-  const list = document.createElement("div");
-  list.className = "oneliner-list";
-
-  top.forEach(m => {
-    const row = document.createElement("div");
-    row.className = "oneliner-row";
-    const scoreHtml = '<span class="source-tag" style="background:var(--verified-bg);color:var(--verified);">score ' + impactScore(m.entry, m.cfg).toFixed(1) + '</span>';
-    row.innerHTML =
-      '<span class="oneliner-caret">▸</span>' +
-      '<span class="oneliner-text"><span class="source-tag">' + m.sourceLabel + '</span>' + scoreHtml + escapeHtml(oneLinerFor(m.entry, m.cfg)) + '</span>';
-
-    const detail = document.createElement("div");
-    detail.className = "oneliner-detail";
-    detail.innerHTML = buildDetailHtml(m.entry, m.cfg);
-
-    row.addEventListener("click", () => {
-      row.classList.toggle("open");
-      detail.style.display = row.classList.contains("open") ? "block" : "none";
-    });
-
-    list.appendChild(row);
-    list.appendChild(detail);
-  });
-
-  wrap.appendChild(list);
-  section.innerHTML = "";
-  section.appendChild(document.createRange().createContextualFragment(
-    '<div class="priorities-header"><h2>Top Priorities</h2>' +
-    '<p>Highest-impact entries across all three databases, by the same heuristic as the "sort by impact" search toggle -- see each score\'s stated reason, not a hidden ranking.</p></div>'
-  ));
-  section.appendChild(wrap);
-}
-
 /* Top-level dispatcher: global search (if non-empty) takes over the
    whole results area and hides the per-tracker tabs/controls, since
    showing both search modes active at once would be confusing about
@@ -1088,21 +986,17 @@ function renderDispatch() {
   const tabsEl = document.getElementById("tabs");
   const controlsEl = document.getElementById("tab-controls");
   const browseLabelEl = document.getElementById("browse-instead");
-  const prioritiesEl = document.getElementById("priorities-section");
 
   if (term) {
     tabsEl.style.display = "none";
     controlsEl.style.display = "none";
     browseLabelEl.style.display = "none";
-    prioritiesEl.style.display = "none";
     renderGlobalResults(term, useRegex, useOneLiners, useImpactSort);
   } else {
     tabsEl.style.display = "";
     controlsEl.style.display = "";
     browseLabelEl.style.display = "";
-    prioritiesEl.style.display = "";
     document.getElementById("regex-error").textContent = "";
-    renderPriorities();
     renderTabs();
     renderFilterOptions(TRACKERS[activeTracker]);
     renderEntries();
