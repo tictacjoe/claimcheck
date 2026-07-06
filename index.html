@@ -65,28 +65,65 @@
     color: var(--ink-soft);
   }
 
-  /* ================= GLOBAL SEARCH ================= */
+  /* ================= GLOBAL SEARCH (primary interaction) ================= */
   .global-search-box {
-    max-width: 640px;
-    margin: 1.5rem auto 0;
+    max-width: 700px;
+    margin: 2rem auto 0;
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 0.9rem;
     background: var(--paper-card);
-    border: 1px solid var(--brass);
-    border-radius: 4px;
-    padding: 0.5rem 0.75rem;
+    border: 2px solid var(--brass);
+    border-radius: 6px;
+    padding: 0.9rem 1.1rem;
+    box-shadow: 0 2px 10px rgba(29, 34, 32, 0.08);
+  }
+  .global-search-box .search-icon {
+    font-size: 1.1rem;
+    color: var(--brass);
+    flex-shrink: 0;
   }
   .global-search-box input[type="text"] {
     flex: 1;
     border: none;
     background: transparent;
     font-family: ui-monospace, 'SF Mono', 'Courier New', monospace;
-    font-size: 0.9rem;
+    font-size: 1.05rem;
     color: var(--ink);
     outline: none;
   }
   .global-search-box input[type="text"]::placeholder { color: var(--ink-faint); }
+  .browse-instead {
+    max-width: 700px;
+    margin: 1.75rem auto 0;
+    text-align: center;
+    font-family: ui-monospace, monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+  .priorities-header {
+    max-width: 880px;
+    margin: 2rem auto 0.75rem;
+    padding: 0 1.5rem;
+  }
+  .priorities-header h2 {
+    font-size: 1.15rem;
+    margin: 0 0 0.2rem;
+    font-weight: bold;
+  }
+  .priorities-header p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+    font-style: italic;
+  }
+  .priorities-wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
   .regex-toggle {
     font-family: ui-monospace, monospace;
     font-size: 0.72rem;
@@ -99,7 +136,7 @@
   }
   .regex-toggle input { cursor: pointer; }
   .regex-error {
-    max-width: 640px;
+    max-width: 700px;
     margin: 0.5rem auto 0;
     font-family: ui-monospace, monospace;
     font-size: 0.75rem;
@@ -158,6 +195,13 @@
     font-weight: bold;
     padding: 0 0.15em;
     border-radius: 2px;
+  }
+  .impact-score-note {
+    font-family: ui-monospace, monospace;
+    font-size: 0.68rem;
+    color: var(--verified);
+    margin-top: 0.2rem;
+    font-style: italic;
   }
 
   /* ================= TABS ================= */
@@ -378,12 +422,17 @@
   <p class="tagline">Know the claim. Know the cause. Know the comeback.</p>
   <p class="subhead">A falsifiable-claims docket tracking regulatory rollbacks and official conduct — every entry sourced, every confidence level stated, nothing asserted without a citation.</p>
   <div class="global-search-box">
-    <input type="text" id="global-search" placeholder="Search across all three databases (supports regex)...">
-    <label class="regex-toggle"><input type="checkbox" id="global-oneliner" checked> 1-liners</label>
+    <span class="search-icon">🔍</span>
+    <input type="text" id="global-search" placeholder="Search everything — try &quot;OSHA&quot;, &quot;Supreme Court&quot;, or a name...">
+    <label class="regex-toggle"><input type="checkbox" id="global-oneliner"> 1-liners</label>
     <label class="regex-toggle"><input type="checkbox" id="global-regex"> regex</label>
   </div>
   <div class="regex-error" id="regex-error"></div>
 </header>
+
+<div id="priorities-section"></div>
+
+<p class="browse-instead" id="browse-instead">— or browse by database —</p>
 
 <nav class="tabs" id="tabs"></nav>
 
@@ -507,6 +556,81 @@ function domainColor(domain) {
 function truncate(str, n) {
   if (!str) return "";
   return str.length > n ? str.slice(0, n).trim() + "…" : str;
+}
+
+/* Extracts the largest numeric value found in a string like
+   "$300,000,000/year" or "2,577 mortalities" -- used to compare
+   quantified impact figures that come in wildly different units. */
+function extractLargestNumber(str) {
+  if (!str) return 0;
+  const matches = String(str).match(/[\d,]+\.?\d*/g);
+  if (!matches) return 0;
+  const nums = matches.map(m => parseFloat(m.replace(/,/g, ""))).filter(n => !isNaN(n));
+  return nums.length ? Math.max(...nums) : 0;
+}
+
+/* Impact scoring is inherently a heuristic, not an objective measure
+   -- "impact" means genuinely different things across three different
+   schemas. Each kind uses whatever structured signal it actually has:
+
+   - deregulation: log-scaled magnitude of the largest quantified
+     figure (dollars, mortality counts), since these entries carry
+     real numbers that are otherwise hard to compare (a $300M/year
+     figure vs. a 2,577-mortality figure are different units, but log
+     scale keeps huge dollar amounts from always dominating raw counts)
+   - prosecution: confidence tier (HIGH > MODERATE > LOW), since that's
+     the only structured strength signal these entries carry; no
+     quantified figures exist in this schema at all
+   - tracker/News: recency, since there's no other signal available
+
+   The score is shown to the user, not hidden -- consistent with the
+   whole project's "know the cause" transparency standard. */
+function impactScore(entry, cfg) {
+  if (cfg.kind === "deregulation") {
+    const figs = entry.estimated_health_impact?.figures || [];
+    let maxNum = 0;
+    figs.forEach(f => { maxNum = Math.max(maxNum, extractLargestNumber(f.value)); });
+    const magnitudeScore = maxNum > 0 ? Math.log10(maxNum + 1) : 0;
+    const hasFiguresBonus = figs.length > 0 ? 2 : 0;
+    return Math.round((magnitudeScore + hasFiguresBonus) * 10) / 10;
+  }
+  if (cfg.kind === "prosecution") {
+    const tier = String(entry.confidence_note || "").toUpperCase();
+    let tierScore = 0;
+    if (tier.startsWith("HIGH")) tierScore = 10;
+    else if (tier.startsWith("MODERATE-HIGH")) tierScore = 8;
+    else if (tier.startsWith("MODERATE-LOW")) tierScore = 5;
+    else if (tier.startsWith("MODERATE")) tierScore = 6.5;
+    else if (tier.startsWith("LOW-MODERATE")) tierScore = 4;
+    else if (tier.startsWith("LOW")) tierScore = 2;
+    const contestedBonus = entry.contested ? 1 : 0;
+    return tierScore + contestedBonus;
+  }
+  if (cfg.kind === "tracker") {
+    const d = entry.date ? Date.parse(entry.date) : 0;
+    return d ? d / (1000 * 60 * 60 * 24 * 365.25) : 0; // roughly "years since epoch"
+  }
+  return 0;
+}
+
+/* Human-readable label for why something scored the way it did --
+   shown alongside results in impact-sort mode so the ranking isn't
+   a black box. */
+function impactScoreLabel(entry, cfg) {
+  if (cfg.kind === "deregulation") {
+    const figs = entry.estimated_health_impact?.figures || [];
+    if (!figs.length) return "no quantified figures";
+    const top = figs.reduce((a, b) => extractLargestNumber(b.value) > extractLargestNumber(a.value) ? b : a);
+    return "largest figure: " + top.value;
+  }
+  if (cfg.kind === "prosecution") {
+    const tier = String(entry.confidence_note || "").split(" ")[0].replace(/[:-]$/, "");
+    return "confidence tier: " + (tier || "unstated") + (entry.contested ? " (contested)" : "");
+  }
+  if (cfg.kind === "tracker") {
+    return "dated " + (entry.date || "unknown");
+  }
+  return "";
 }
 
 /* Canonical category set for the News/tracker database. The real
@@ -799,7 +923,7 @@ function renderEntries() {
    see flattenTrackerPosts()), applies plain or regex matching, and
    renders either full docket cards or a condensed one-liner list
    depending on the "1-liners" toggle. */
-function renderGlobalResults(term, useRegex, useOneLiners) {
+function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
   const container = document.getElementById("entries");
   const countEl = document.getElementById("count");
   const errorEl = document.getElementById("regex-error");
@@ -825,8 +949,13 @@ function renderGlobalResults(term, useRegex, useOneLiners) {
     return;
   }
 
+  if (useImpactSort) {
+    allMatches.sort((a, b) => impactScore(b.entry, b.cfg) - impactScore(a.entry, a.cfg));
+  }
+
   countEl.textContent = allMatches.length + " result(s) across all databases for \"" + term + "\"" +
-    (useRegex ? " (regex)" : "") + (useOneLiners ? " — 1-liner view" : "");
+    (useRegex ? " (regex)" : "") + (useOneLiners ? " — 1-liner view" : "") +
+    (useImpactSort ? " — sorted by impact (heuristic, see score on each result)" : "");
 
   if (allMatches.length === 0) {
     container.innerHTML = '<div class="empty-state">No matches found across any database.</div>';
@@ -847,7 +976,14 @@ function renderGlobalResults(term, useRegex, useOneLiners) {
 
   if (!useOneLiners) {
     toRender.forEach((m, i) => {
-      container.appendChild(buildEntryCard(m.entry, m.cfg, "NO. " + String(i + 1).padStart(2, "0"), m.sourceLabel));
+      const card = buildEntryCard(m.entry, m.cfg, "NO. " + String(i + 1).padStart(2, "0"), m.sourceLabel);
+      if (useImpactSort) {
+        const scoreNote = document.createElement("div");
+        scoreNote.className = "impact-score-note";
+        scoreNote.textContent = "Impact score: " + impactScore(m.entry, m.cfg).toFixed(1) + " — " + impactScoreLabel(m.entry, m.cfg);
+        card.querySelector(".entry-meta").after(scoreNote);
+      }
+      container.appendChild(card);
     });
     return;
   }
@@ -858,9 +994,12 @@ function renderGlobalResults(term, useRegex, useOneLiners) {
   toRender.forEach((m, i) => {
     const row = document.createElement("div");
     row.className = "oneliner-row";
+    const scoreHtml = useImpactSort
+      ? '<span class="source-tag" style="background:var(--verified-bg);color:var(--verified);">score ' + impactScore(m.entry, m.cfg).toFixed(1) + '</span>'
+      : "";
     row.innerHTML =
       '<span class="oneliner-caret">▸</span>' +
-      '<span class="oneliner-text"><span class="source-tag">' + m.sourceLabel + '</span>' + highlightMatches(oneLinerFor(m.entry, m.cfg), term, useRegex) + '</span>';
+      '<span class="oneliner-text"><span class="source-tag">' + m.sourceLabel + '</span>' + scoreHtml + highlightMatches(oneLinerFor(m.entry, m.cfg), term, useRegex) + '</span>';
 
     const detail = document.createElement("div");
     detail.className = "oneliner-detail";
@@ -877,6 +1016,66 @@ function renderGlobalResults(term, useRegex, useOneLiners) {
   container.appendChild(list);
 }
 
+/* Default empty-search view: the same impact heuristic used by the
+   "sort by impact" search toggle, applied across ALL entries in all
+   three databases (no search term needed), showing the top N. This
+   is what a visitor sees before typing anything -- immediately
+   useful content instead of a blank prompt, while tabs remain
+   available below for full browsing of any single database. */
+const PRIORITIES_COUNT = 15;
+
+function renderPriorities() {
+  const section = document.getElementById("priorities-section");
+
+  let all = [];
+  Object.keys(TRACKERS).forEach(key => {
+    const cfg = TRACKERS[key];
+    cfg.data.forEach(entry => all.push({ entry, cfg, sourceLabel: cfg.label }));
+  });
+
+  if (all.length === 0) {
+    section.innerHTML = "";
+    return;
+  }
+
+  all.sort((a, b) => impactScore(b.entry, b.cfg) - impactScore(a.entry, a.cfg));
+  const top = all.slice(0, PRIORITIES_COUNT);
+
+  const wrap = document.createElement("div");
+  wrap.className = "priorities-wrap";
+  const list = document.createElement("div");
+  list.className = "oneliner-list";
+
+  top.forEach(m => {
+    const row = document.createElement("div");
+    row.className = "oneliner-row";
+    const scoreHtml = '<span class="source-tag" style="background:var(--verified-bg);color:var(--verified);">score ' + impactScore(m.entry, m.cfg).toFixed(1) + '</span>';
+    row.innerHTML =
+      '<span class="oneliner-caret">▸</span>' +
+      '<span class="oneliner-text"><span class="source-tag">' + m.sourceLabel + '</span>' + scoreHtml + escapeHtml(oneLinerFor(m.entry, m.cfg)) + '</span>';
+
+    const detail = document.createElement("div");
+    detail.className = "oneliner-detail";
+    detail.innerHTML = buildDetailHtml(m.entry, m.cfg);
+
+    row.addEventListener("click", () => {
+      row.classList.toggle("open");
+      detail.style.display = row.classList.contains("open") ? "block" : "none";
+    });
+
+    list.appendChild(row);
+    list.appendChild(detail);
+  });
+
+  wrap.appendChild(list);
+  section.innerHTML = "";
+  section.appendChild(document.createRange().createContextualFragment(
+    '<div class="priorities-header"><h2>Top Priorities</h2>' +
+    '<p>Highest-impact entries across all three databases, by the same heuristic as the "sort by impact" search toggle -- see each score\'s stated reason, not a hidden ranking.</p></div>'
+  ));
+  section.appendChild(wrap);
+}
+
 /* Top-level dispatcher: global search (if non-empty) takes over the
    whole results area and hides the per-tracker tabs/controls, since
    showing both search modes active at once would be confusing about
@@ -885,17 +1084,25 @@ function renderDispatch() {
   const term = document.getElementById("global-search").value.trim();
   const useRegex = document.getElementById("global-regex").checked;
   const useOneLiners = document.getElementById("global-oneliner").checked;
+  const useImpactSort = true; // always sorted by impact now -- no toggle
   const tabsEl = document.getElementById("tabs");
   const controlsEl = document.getElementById("tab-controls");
+  const browseLabelEl = document.getElementById("browse-instead");
+  const prioritiesEl = document.getElementById("priorities-section");
 
   if (term) {
     tabsEl.style.display = "none";
     controlsEl.style.display = "none";
-    renderGlobalResults(term, useRegex, useOneLiners);
+    browseLabelEl.style.display = "none";
+    prioritiesEl.style.display = "none";
+    renderGlobalResults(term, useRegex, useOneLiners, useImpactSort);
   } else {
     tabsEl.style.display = "";
     controlsEl.style.display = "";
+    browseLabelEl.style.display = "";
+    prioritiesEl.style.display = "";
     document.getElementById("regex-error").textContent = "";
+    renderPriorities();
     renderTabs();
     renderFilterOptions(TRACKERS[activeTracker]);
     renderEntries();
