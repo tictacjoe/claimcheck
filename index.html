@@ -432,7 +432,7 @@
 
 const TRACKERS = {
   deregulation: {
-    label: "Deregulation",
+    label: "Corporate Deregulation",
     data: [],
     titleField: "rule_name",
     idField: "id",
@@ -443,18 +443,18 @@ const TRACKERS = {
     kind: "deregulation",
   },
   prosecution: {
-    label: "Prosecution",
+    label: "Cabinet-Level Legal Exposure",
     data: [],
     titleField: "official",
     idField: "official",
     dateField: "last_updated",
-    filterField: "offense_category",
-    filterLabel: "category",
+    filterField: "status_category",
+    filterLabel: "status",
     statusField: "status",
     kind: "prosecution",
   },
   tracker: {
-    label: "News",
+    label: "Reporting",
     data: [],
     titleField: "what_happened",
     idField: null,
@@ -672,6 +672,84 @@ function normalizeCategory(raw) {
   return CATEGORY_CANONICAL_MAP[key] || "Uncategorized";
 }
 
+/* Prosecution's offense_category field is a full legal-analysis
+   paragraph per entry, not a short reusable label -- each one is
+   essentially unique. This classifies the raw text into a small,
+   curated set of short category names by keyword, deliberately
+   WITHOUT the specific statute/section citation in the short label
+   (e.g. "Hatch Act Violation", not "Hatch Act Violation (5 U.S.C.
+   §7323)") -- the full citation and legal analysis stays visible in
+   the expanded detail view via offense_category_raw. Order matters:
+   checked roughly in the sequence each concept tends to be the
+   PRIMARY violation named in these entries; first match wins. */
+function classifyOffenseCategory(raw) {
+  if (!raw) return "Uncategorized";
+  const text = raw.toLowerCase();
+
+  const rules = [
+    [/vindictive|selective prosecution/, "Selective/Vindictive Prosecution"],
+    [/appointments clause/, "Appointments Clause Violation"],
+    [/hatch act/, "Hatch Act Violation"],
+    [/administrative procedure act|arbitrary and capricious/, "APA Violation"],
+    [/federal advisory committee act|\bfaca\b/, "FACA / Transparency Violation"],
+    [/impoundment control act/, "Impoundment Control Act Violation"],
+    [/federal vacancies reform act|\bfvra\b/, "Vacancies Act Violation"],
+    [/establishment clause/, "Establishment Clause Violation"],
+    [/criminal contempt|contempt of court/, "Contempt of Court"],
+    [/war crime|law of armed conflict|geneva convention|hors de combat/, "War Crimes / Law of Armed Conflict"],
+    [/dod instruction|nonpublic dod information|793\(f\)|national defense information/, "Mishandling Sensitive Information"],
+    [/conflict of interest|recusal/, "Conflict of Interest"],
+    [/ultra vires/, "Ultra Vires Agency Action"],
+    [/commemorative works act|unauthorized construction/, "Unauthorized Federal Construction"],
+    [/polling places|18 u\.s\.c\. §592/, "Election-Related Statutory Violation"],
+    [/confidential financial data|grand jury material|unauthorized disclosure/, "Misuse of Confidential Data"],
+    [/politicization of intelligence|tradecraft/, "Intelligence Politicization"],
+    [/first amendment/, "First Amendment Retaliation"],
+    [/unlawful agency action/, "Unlawful Agency Action"],
+  ];
+
+  for (const [pattern, label] of rules) {
+    if (pattern.test(text)) return label;
+  }
+  return "Other/Unclassified";
+}
+
+/* Prosecution's real filtering need is procedural STAGE, not
+   violation type -- almost every entry says "no criminal charges"
+   (none of these 28 are criminally charged), so charge-status itself
+   isn't a useful filter dimension. What actually varies and matters
+   is where each matter stands procedurally: has a court ruled, is
+   there an active congressional investigation, was it dismissed,
+   etc. Tested against all 28 real status strings; ordered from most
+   to least procedurally resolved so the strongest applicable finding
+   wins when a status touches multiple stages. */
+function classifyStatus(raw) {
+  if (!raw) return "Uncategorized";
+  const text = raw.toLowerCase();
+
+  const rules = [
+    [/impeachment articles/, "Impeachment Articles Filed"],
+    [/dismissed by a federal judge|prosecution dismissed/, "Case Dismissed"],
+    [/probable cause.*contempt|criminal contempt/, "Contempt Finding"],
+    [/ruled against|ruled on the merits|court has blocked|court has ruled|ordered reversal|has ruled\b/, "Court Ruling Issued — Adverse"],
+    [/\bgao\b/, "GAO Investigation / Finding"],
+    [/inspector general|found by ig\b/, "Inspector General Finding"],
+    [/foia lawsuit|foia litigation/, "FOIA Litigation Ongoing"],
+    [/withdrawn|abandoned rule|mooted/, "Withdrawn / Mooted"],
+    [/congressional investigation|senate judiciary inquiry|congressional requests for investigation|bipartisan congressional investigation/, "Congressional Investigation Ongoing"],
+    [/complaint filed|complaint.*pending/, "Administrative Complaint Filed"],
+    [/ongoing court inquiry/, "Ongoing Court Inquiry"],
+    [/active litigation|active federal litigation|litigation[^;]{0,60}\b(is|remains)\s+ongoing\b|litigation\/arbitration|litigation.*proceeded/, "Active Litigation — Pending Ruling"],
+    [/should be treated as incomplete|revisited with deeper research/, "Needs Further Research"],
+    [/no formal action|no formal.*(finding|violation)|no legal challenge|no.*complaint.*identified|no litigation identified|no.*investigation.*identified|no completed deployment/, "No Formal Action Taken"],
+  ];
+
+  for (const [pattern, label] of rules) {
+    if (pattern.test(text)) return label;
+  }
+  return "Other/Unclassified";
+}
+
 function escapeHtml(str) {
   return String(str)
     .replace(/&/g, "&amp;")
@@ -723,7 +801,7 @@ function oneLinerFor(entry, cfg) {
   }
   if (cfg.kind === "prosecution") {
     const tag = entry.contested ? " [CONTESTED]" : "";
-    return entry.official + " \u2014 " + entry.offense_category + ": " + truncate(entry.status, 150) + tag;
+    return entry.official + " \u2014 " + entry.status_category + ": " + entry.offense_category + tag;
   }
   if (cfg.kind === "tracker") {
     return (entry.date || "") + " " + truncate(entry.what_happened, 150);
@@ -768,7 +846,10 @@ function buildDetailHtml(entry, cfg) {
       (entry.source_name ? '<div class="field-label">Source</div><ul class="exhibit-list"><li><a href="' + entry.source_url + '" target="_blank" rel="noopener">' + entry.source_name + '</a></li></ul>' : '<div class="field-label">Source</div><div class="field-value" style="color:var(--ink-faint);font-style:italic;">not cited in original post</div>');
   }
   // prosecution (default)
-  return '<div class="field-label">Incident summary</div><div class="field-value">' + (entry.incident_summary || "") + '</div>' +
+  return '<div class="field-label">Violation Type</div><div class="field-value">' + (entry.offense_category || "") + '</div>' +
+    '<div class="field-label">Status Stage</div><div class="field-value">' + (entry.status_category || "") + '</div>' +
+    '<div class="field-label">Alleged Violation (full legal citation)</div><div class="field-value">' + (entry.offense_category_raw || entry.offense_category || "") + '</div>' +
+    '<div class="field-label">Incident summary</div><div class="field-value">' + (entry.incident_summary || "") + '</div>' +
     '<div class="field-label">Status</div><div class="field-value">' + (entry.status || "") + '</div>' +
     '<div class="field-label">Confidence note</div><div class="confidence-box">' + (entry.confidence_note || "") + '</div>';
 }
@@ -788,7 +869,7 @@ function buildEntryCard(entry, cfg, docketLabel, sourceLabel) {
   } else if (cfg.kind === "tracker") {
     metaHtml += '<span>' + (entry.date || "") + '</span>';
   } else {
-    metaHtml += '<span>' + (entry.offense_category || "") + '</span><span>updated ' + (entry.last_updated || "") + '</span>';
+    metaHtml += '<span>' + (entry.status_category || "") + '</span><span>updated ' + (entry.last_updated || "") + '</span>';
   }
 
   div.innerHTML =
@@ -819,6 +900,9 @@ function renderTabs() {
 function pluralize(word) {
   if (word.endsWith("y") && !/[aeiou]y$/i.test(word)) {
     return word.slice(0, -1) + "ies";
+  }
+  if (/(s|x|ch|sh)$/i.test(word)) {
+    return word + "es";
   }
   return word + "s";
 }
@@ -867,8 +951,8 @@ function renderEntries() {
   const toRender = filtered.slice(0, RENDER_CAP);
 
   countEl.textContent = filtered.length > RENDER_CAP
-    ? toRender.length + " shown of " + filtered.length + " entries, sorted by priority — search or filter to narrow further"
-    : filtered.length + " of " + cfg.data.length + " entries shown, sorted by priority";
+    ? toRender.length + " shown of " + filtered.length + " entries — search or filter to narrow further"
+    : filtered.length + " of " + cfg.data.length + " entries shown";
 
   if (filtered.length === 0) {
     container.innerHTML = '<div class="empty-state">No entries match. Try a different search or filter.</div>';
@@ -917,8 +1001,7 @@ function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
   }
 
   countEl.textContent = allMatches.length + " result(s) across all databases for \"" + term + "\"" +
-    (useRegex ? " (regex)" : "") + (useOneLiners ? " — 1-liner view" : "") +
-    (useImpactSort ? " — sorted by priority" : "");
+    (useRegex ? " (regex)" : "") + (useOneLiners ? " — 1-liner view" : "");
 
   if (allMatches.length === 0) {
     container.innerHTML = '<div class="empty-state">No matches found across any database.</div>';
@@ -1029,6 +1112,11 @@ async function loadAllData() {
 
   if (prosecutionResult.status === "fulfilled") {
     TRACKERS.prosecution.data = prosecutionResult.value;
+    TRACKERS.prosecution.data.forEach(e => {
+      e.offense_category_raw = e.offense_category;
+      e.offense_category = classifyOffenseCategory(e.offense_category);
+      e.status_category = classifyStatus(e.status);
+    });
   } else {
     loadErrors.push("prosecution.json (" + prosecutionResult.reason.message + ")");
   }
