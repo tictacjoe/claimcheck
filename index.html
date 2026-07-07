@@ -363,6 +363,16 @@
     flex-wrap: wrap;
     align-items: center;
   }
+  .entry-meta span:not(:first-child):not(.domain-tag):not(.source-tag) {
+    position: relative;
+    padding-left: 0.75rem;
+  }
+  .entry-meta span:not(:first-child):not(.domain-tag):not(.source-tag)::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--rule-strong);
+  }
   .domain-tag {
     display: inline-block;
     padding: 0.1rem 0.5rem;
