@@ -997,7 +997,7 @@ function buildEntryCard(entry, cfg, docketLabel, sourceLabel) {
   if (cfg.kind === "deregulation") {
     metaHtml += '<span class="domain-tag" style="background:' + domainColor(entry.domain) + '22; color:' + domainColor(entry.domain) + '">' + entry.domain + '</span>' +
                '<span>' + (entry.agency || "") + '</span><span>' + (entry.date_of_action || "") + '</span>' +
-               '<span>' + truncate(entry.what_changed || "", 100) + '</span>';
+               '<span>' + (entry.short_summary || truncate(entry.what_changed || "", 100)) + '</span>';
   } else if (cfg.kind === "tracker") {
     metaHtml += '<span>' + (entry.date || "") + '</span>';
   } else {

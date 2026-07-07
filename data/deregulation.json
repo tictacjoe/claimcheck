@@ -37,7 +37,8 @@
         "name": "American Nuclear Society — NRC proposes rule changes in response to EO",
         "url": "https://www.ans.org/news/article-7613/nrc-proposes-rule-changes-in-response-to-eo/"
       }
-    ]
+    ],
+    "short_summary": "Energy/environmental rules now auto-expire after 1 year unless agencies act to renew them."
   },
   {
     "id": "cfpb-payday-lending-rollback-trump1",
@@ -83,7 +84,8 @@
         "name": "Consumer Reports Advocacy — Actions Taken By Acting CFPB Director Mick Mulvaney",
         "url": "https://advocacy.consumerreports.org/research/actions-taken-by-acting-cfpb-director-mick-mulvaney-that-undermine-the-cfpbs-ability-to-protect-consumers/"
       }
-    ]
+    ],
+    "short_summary": "Payday lenders no longer required to verify borrowers can actually repay loans."
   },
   {
     "id": "clean-power-plan-repeal-trump1",
@@ -126,7 +128,8 @@
         "name": "Wikipedia — Environmental policy of the first Donald Trump administration",
         "url": "https://en.wikipedia.org/wiki/Environmental_policy_of_the_first_Donald_Trump_administration"
       }
-    ]
+    ],
+    "short_summary": "Replaced binding power-plant carbon caps with a weaker efficiency-only standard."
   },
   {
     "id": "coal-ash-disposal-rollback-trump2",
@@ -167,8 +170,8 @@
       ],
       "caveat": "The February 2026 deadline-extension rule is finalized; the broader April 2026 proposal to exempt most sites from oversight entirely is still proposed, not finalized (comment period extended to June 29, 2026). Frame the two as separate but related actions -- one enacted, one pending."
     },
-    "confidence_note": "Unusually strong entry: EPA's own final rule text contains a direct admission that the delay 'may increase health risks for children,' which is about as close to an admission-against-interest as this tracker contains. Excellent for debate use precisely because it's not an outside estimate.",
-    "last_verified": "2026-07-03",
+    "confidence_note": "Unusually strong entry: EPA's own final rule text contains a direct admission that the delay 'may increase health risks for children,' which is about as close to an admission-against-interest as this tracker contains. Excellent for debate use precisely because it's not an outside estimate. [Rechecked 2026-07-06: no material change to the finalized Feb 10, 2026 deadline extension. The broader April 9, 2026 weakening proposal remains pending, not finalized -- its comment period has been extended/reopened at least once since (through late June 2026 per EELP tracker).]",
+    "last_verified": "2026-07-06",
     "sources": [
       {
         "name": "Utility Dive — EPA extends coal ash landfill monitoring, cleanup deadlines",
@@ -186,7 +189,8 @@
         "name": "Sen. Dick Durbin — Senators' letter opposing the EPA coal ash rollback",
         "url": "https://www.durbin.senate.gov/newsroom/press-releases/durbin-duckworth-markey-booker-lead-letter-slamming-new-trump-epa-rule-that-deregulates-coal-ash-clean-up"
       }
-    ]
+    ],
+    "short_summary": "Delayed coal ash cleanup deadlines ~3 years; broader exemption for most sites still pending."
   },
   {
     "id": "deregulatory-fast-track-memo-trump2",
@@ -226,7 +230,8 @@
         "name": "American Public Power Association — Trump Issues Executive Orders Tied to Energy, Environmental Regulations",
         "url": "https://www.publicpower.org/periodical/article/trump-issues-executive-orders-tied-energy-environmental-regulations"
       }
-    ]
+    ],
+    "short_summary": "Lets agencies repeal rules they deem 'unlawful' by skipping public notice-and-comment."
   },
   {
     "id": "dodd-frank-threshold-amendment-trump1",
@@ -266,7 +271,8 @@
         "name": "Roosevelt Institute — How 2018 Regulatory Rollbacks Set the Stage for the Silicon Valley Bank Collapse",
         "url": "https://rooseveltinstitute.org/blog/how-2018-regulatory-rollbacks-set-the-stage-for-the-silicon-valley-bank-collapse-and-how-to-change-course/"
       }
-    ]
+    ],
+    "short_summary": "Exempted regional banks under $250B in assets from strict post-2008 oversight."
   },
   {
     "id": "endangerment-finding-rescission-trump2",
@@ -274,35 +280,51 @@
     "administration": "Trump II (2025-present)",
     "agency": "EPA",
     "domain": "environmental",
-    "status": "Proposed Repeal (foundational finding, not a standalone standard)",
-    "date_of_action": "2025",
+    "status": "Fully Repealed",
+    "date_of_action": "2026-02-12 (finalized); published 2026-02-18; effective 2026-04-20",
     "original_rule_summary": "2009 EPA scientific and legal finding, based on peer-reviewed climate research, that greenhouse gases endanger public health and welfare -- this finding is the legal foundation obligating EPA to regulate greenhouse gas emissions from vehicles and stationary sources under the Clean Air Act.",
-    "what_changed": "EPA Administrator Lee Zeldin announced plans to rescind the endangerment finding itself, which -- if finalized -- would remove the legal basis EPA has relied on since 2009 to regulate any greenhouse gas emissions under the Clean Air Act, potentially unwinding vehicle and power-plant carbon standards simultaneously rather than one rule at a time.",
+    "what_changed": "EPA finalized the rescission of the 2009 Endangerment Finding on February 12, 2026 (published Feb 18, effective April 20, 2026), removing the legal foundation for EPA's authority to regulate greenhouse gas emissions from motor vehicles under CAA Section 202(a). As part of the same final action, EPA also repealed all GHG emission standards for light-, medium-, and heavy-duty vehicles and engines (model years 2012 through 2027+), eliminating future measurement, control, and reporting obligations for manufacturers -- including retroactively for vehicles already manufactured. EPA's final rule notably dropped its earlier proposed climate-science-based rationale entirely, resting the rescission purely on statutory interpretation (that CAA Section 202(a) does not authorize regulation based on global climate change concerns) and the major questions doctrine. NOTE: this action substantially overlaps with the separately-tracked 'ldmv-ghg-standards-repeal-trump2' entry in this database -- both describe the same vehicle-standards repeal, which occurred as part of this single final rule rather than as two separate actions. Recommend merging or cross-referencing these two entries.",
     "primary_proponent": {
       "name": "Lee Zeldin",
       "role": "EPA Administrator",
-      "note": "Publicly identified the endangerment finding as one of 31 targeted actions and has described it as the central legal vulnerability underpinning EPA's climate regulatory authority."
+      "note": "EPA itself described this as 'the single largest deregulatory action in U.S. history.' Trump directed EPA to evaluate the finding's legality via executive order on his first day in office (Jan 2025); Zeldin formally recommended reconsideration by March 2025."
     },
     "corporate_beneficiaries": [
-      "Fossil fuel producers and fossil-fuel-dependent power generators broadly, as the finding underlies multiple downstream emissions rules"
+      "Fossil fuel producers and fossil-fuel-dependent power generators broadly, as the finding underlies multiple downstream emissions rules",
+      "Vehicle and engine manufacturers, who EPA states no longer have future GHG measurement/control/reporting obligations for any highway vehicle, including past model years"
     ],
     "estimated_health_impact": {
-      "summary": "Because the endangerment finding is the legal foundation for multiple downstream rules rather than a standalone emissions standard, its health impact is best understood as unlocking the rollback of everything built on top of it (vehicle GHG standards, power plant standards, etc.) rather than having an independent quantified impact of its own.",
-      "figures": [],
-      "caveat": "The Institute for Policy Integrity tracker does not assign a standalone dollar/mortality figure to the endangerment finding rescission itself, since its harm is structural/legal (removing EPA's authority) rather than a direct emissions change -- point instead to the combined downstream rules it would enable rolling back."
+      "summary": "EPA's own framing states the rescission will save Americans over $1.3 trillion, though this figure is not broken down between compliance-cost savings and forgone health/climate benefits. Because the endangerment finding is the legal foundation for multiple downstream rules, its fuller health impact is best understood as unlocking rollback of everything built on top of it (vehicle GHG standards already repealed in the same action; power plant standards likely to follow under the same legal theory).",
+      "figures": [
+        {
+          "metric": "EPA's own claimed total savings from this action",
+          "value": "$1,300,000,000,000 (over $1.3 trillion)",
+          "source": "US EPA, Fact Sheet: EPA Delivers Single Largest Deregulatory Action in U.S. History"
+        }
+      ],
+      "caveat": "The $1.3 trillion figure is EPA's own claim and is not disaggregated into cost-savings vs. forgone-benefits components in the sourcing found -- treat as an agency-asserted total, not an independently verified net-benefit calculation. Multiple health and environmental organizations dispute the underlying reasoning; see litigation status below."
     },
-    "confidence_note": "Use this entry for the legal/structural argument (removes the foundation of 40+ years of Clean Air Act climate authority), and pair it with the vehicle-standards and power-plant-standards entries for the quantified health argument -- don't claim a standalone body count for the finding rescission itself.",
-    "last_verified": "2026-07-03",
+    "confidence_note": "This entry now describes a FINALIZED action, not a proposal -- a major upgrade in verifiability from the prior 'Proposed Repeal' status. Litigation is active and significant: 17 health/environmental organizations and a separate youth-plaintiff group (18 individuals) filed petitions for review at the D.C. Circuit on Feb 18, 2026; a California-led multistate AG coalition challenge was also expected. A 25-state coalition led by West Virginia and Kentucky moved to intervene in defense of the rule. This is likely headed to the Supreme Court. Recommend resolving the overlap with the vehicle-standards entry before using both in the same debate context, to avoid double-counting the same action.",
+    "last_verified": "2026-07-06",
     "sources": [
       {
-        "name": "Climate Action Campaign — Trump's Climate and Clean Energy Rollback Tracker",
-        "url": "https://www.actonclimate.com/trumptracker/"
+        "name": "US EPA — Final Rule: Rescission of the Greenhouse Gas Endangerment Finding and Motor Vehicle Greenhouse Gas Emission Standards",
+        "url": "https://www.epa.gov/regulations-emissions-vehicles-and-engines/final-rule-rescission-greenhouse-gas-endangerment"
       },
       {
-        "name": "Harvard T.H. Chan School of Public Health — Trump administration plans to roll back EPA regulations could harm health",
-        "url": "https://hsph.harvard.edu/news/trump-administration-plans-to-roll-back-epa-regulations-could-harm-health/"
+        "name": "World Resources Institute — EPA's Endangerment Finding Repeal, Explained",
+        "url": "https://www.wri.org/insights/endangerment-finding-repeal-explained"
+      },
+      {
+        "name": "Davis Polk — EPA's Endangerment Finding in danger: Key takeaways and uncertainties of repeal",
+        "url": "https://www.davispolk.com/insights/client-update/epa-s-endangerment-finding-danger-key-takeaways-and-uncertainties-repeal"
+      },
+      {
+        "name": "Federal Register — Rescission of the Greenhouse Gas Endangerment Finding and Motor Vehicle GHG Emission Standards",
+        "url": "https://www.federalregister.gov/documents/2026/02/18/2026-03157/rescission-of-the-greenhouse-gas-endangerment-finding-and-motor-vehicle-greenhouse-gas-emission"
       }
-    ]
+    ],
+    "short_summary": "Rescinded the legal basis for EPA to regulate greenhouse gases at all; vehicle standards repealed too."
   },
   {
     "id": "eo-14192-ten-for-one-trump2",
@@ -342,7 +364,8 @@
         "name": "Sabin Center for Climate Change Law, Columbia University — Trump Administration Institutes \"10-to-1\" Deregulation Rule",
         "url": "https://climate.law.columbia.edu/content/trump-administration-institutes-10-1-deregulation-rule"
       }
-    ]
+    ],
+    "short_summary": "Agencies must repeal 10 existing rules for every 1 new rule they issue."
   },
   {
     "id": "fcc-net-neutrality-repeal-trump1",
@@ -378,7 +401,8 @@
         "name": "FCC — Remarks of Chairman Ajit Pai on Restoring Internet Freedom",
         "url": "https://docs.fcc.gov/public/attachments/DOC-347980A1.pdf"
       }
-    ]
+    ],
+    "short_summary": "Let ISPs block, throttle, or prioritize internet traffic without restriction."
   },
   {
     "id": "ftc-click-to-cancel-repeal-trump2",
@@ -410,7 +434,8 @@
         "name": "Federal Register — Revision of the Negative Option Rule, Withdrawal of the CARS Rule, Removal of the Non-Compete Rule",
         "url": "https://www.federalregister.gov/documents/2026/02/12/2026-02866/revision-of-the-negative-option-rule-withdrawal-of-the-cars-rule-removal-of-the-non-compete-rule-to"
       }
-    ]
+    ],
+    "short_summary": "Removed the requirement that canceling a subscription be as easy as signing up."
   },
   {
     "id": "ftc-noncompete-ban-reversal-trump2",
@@ -450,7 +475,8 @@
         "name": "Steptoe — FTC Abandons National Noncompete Rule",
         "url": "https://www.steptoe.com/en/news-publications/stepahead-antitrust-and-competition-insights/ftc-abandons-national-noncompete-rule-but-employer-compliance-risks-remain.html"
       }
-    ]
+    ],
+    "short_summary": "Abandoned the nationwide ban on employee noncompete agreements."
   },
   {
     "id": "gipsa-fair-practices-withdrawal-trump1",
@@ -486,7 +512,8 @@
         "name": "USDA — Announces Farmer Fair Practices Rules (original 2016 rule announcement, for baseline context)",
         "url": "https://www.usda.gov/about-usda/news/press-releases/2016/12/14/usda-announces-farmer-fair-practices-rules-clarifications-industry-protections-farmers"
       }
-    ]
+    ],
+    "short_summary": "Withdrew protections letting farmers challenge unfair meatpacker practices."
   },
   {
     "id": "joint-employer-standard-narrowing-trump2",
@@ -526,7 +553,8 @@
         "name": "Jackson Lewis — NLRB Goes Back to the Employer-Friendly Future",
         "url": "https://www.jacksonlewis.com/insights/nlrb-goes-back-employer-friendly-future-it-reinstates-strict-joint-employer-rule"
       }
-    ]
+    ],
+    "short_summary": "Made it harder to hold parent companies liable for franchisee labor violations."
   },
   {
     "id": "ldmv-ghg-standards-repeal-trump2",
@@ -580,7 +608,8 @@
         "name": "Institute for Policy Integrity, NYU School of Law — Tracking the Damages of Regulatory Rollbacks",
         "url": "https://policyintegrity.org/tracking-regulatory-rollbacks"
       }
-    ]
+    ],
+    "short_summary": "Repealed vehicle emissions standards for new cars, trucks, and SUVs."
   },
   {
     "id": "mats-2026-reset-trump2",
@@ -640,7 +669,8 @@
         "name": "Harvard EELP — Mercury and Air Toxics Standards tracker",
         "url": "https://eelp.law.harvard.edu/tracker/mercury-and-air-toxics-standards/"
       }
-    ]
+    ],
+    "short_summary": "Reverted coal plant mercury limits to 2012 levels, undoing 2024 tightening."
   },
   {
     "id": "mats-cost-benefit-rollback-trump1",
@@ -688,31 +718,33 @@
         "name": "NRDC — How EPA Rollbacks Will Cost Us",
         "url": "https://www.nrdc.org/stories/how-epa-rollbacks-will-cost-us-dollars-and-lives"
       }
-    ]
+    ],
+    "short_summary": "Excluded major health co-benefits from the cost-benefit case for mercury limits."
   },
   {
     "id": "msha-silica-niosh-rollback-trump2",
-    "rule_name": "MSHA silica exposure rule pause and NIOSH functional elimination",
+    "rule_name": "MSHA silica exposure rule reconsideration/pause and NIOSH functional elimination",
     "administration": "Trump II (2025-present)",
     "agency": "Mine Safety and Health Administration (MSHA) / National Institute for Occupational Safety and Health (NIOSH), Dept. of Labor and HHS respectively",
     "domain": "labor",
-    "status": "Delayed/Paused (silica rule); Weakened to point of functional elimination (NIOSH)",
-    "date_of_action": "2025",
-    "original_rule_summary": "A new MSHA silica exposure rule (finalized under the Biden administration) would have halved the allowable exposure limit to respirable crystalline silica dust for coal miners, targeting silicosis and black lung disease. Separately, NIOSH is the federal agency that conducts the injury/fatality research underlying OSHA and MSHA rulemaking.",
-    "what_changed": "MSHA announced it would pause enforcement of the new, stricter silica rule. Separately, the administration's restructuring effectively eliminated NIOSH's research capacity and closed 11 OSHA field offices in states with the highest workplace fatality rates, plus 34 MSHA offices.",
+    "status": "Delayed/Paused, escalating toward reconsideration rulemaking (silica rule); Weakened to point of functional elimination (NIOSH)",
+    "date_of_action": "2025-04-08 (initial enforcement pause); litigation and reconsideration process ongoing as of mid-2025 through at least Oct 2025",
+    "original_rule_summary": "A new MSHA silica exposure rule (finalized April 18, 2024 under the Biden administration; effective June 17, 2024) would halve the allowable exposure limit to respirable crystalline silica dust (to 50 micrograms/cubic meter) for coal and metal/nonmetal (MNM) miners, requiring enhanced monitoring, medical surveillance, and respiratory protection, targeting silicosis, black lung disease, and other respiratory illness. Separately, NIOSH is the federal agency that conducts the injury/fatality research and certifies respiratory protection equipment underlying OSHA and MSHA rulemaking.",
+    "what_changed": "MSHA announced an enforcement pause for coal mine operators on April 8, 2025 (initially through Aug 18, 2025), citing 'unforeseen NIOSH restructuring' affecting the supply of certified respirators and dust monitors. Separately and significantly, the 8th U.S. Circuit Court of Appeals granted industry groups (National Stone, Sand & Gravel Association; National Mining Association) a temporary stay of the rule on April 4, 2025, before MSHA's own pause was announced. By around October 2025, MSHA announced it would 'engage in limited rulemaking to reconsider' portions of the rule under ongoing litigation -- a materially stronger action than an administrative enforcement pause, since it signals MSHA intends to substantively rewrite parts of the rule, not just delay its start date. The metal/nonmetal (MNM) compliance deadline of April 8, 2026 has now passed as of this entry's last verification; this entry's sourcing does not confirm whether that deadline was met, further paused, or is itself subject to the same reconsideration process -- flag for follow-up. Separately, the administration's restructuring eliminated significant NIOSH research capacity (reported layoffs of 870+ NIOSH employees) and closed 11 OSHA field offices in states with the highest workplace fatality rates, plus 34 MSHA offices.",
     "primary_proponent": {
       "name": "Department of Labor leadership under the Trump II administration",
       "role": "MSHA and OSHA are both housed under DOL",
-      "note": "Reporting on the specific individual driving the NIOSH cuts ties them to the administration's broader federal workforce restructuring effort (DOGE-linked); a single named proponent for this specific action was not clearly identified in available sourcing -- flag as lower-confidence on attribution and verify before using in debate."
+      "note": "Reporting on the specific individual driving the NIOSH cuts ties them to the administration's broader federal workforce restructuring effort (DOGE-linked); a single named proponent for this specific action was not clearly identified in available sourcing -- flag as lower-confidence on attribution and verify before using in debate. The litigation itself was initiated by industry petitioners (NSSGA, National Mining Association), not the administration, though MSHA's subsequent reconsideration rulemaking is an administration action responding to that litigation."
     },
     "corporate_beneficiaries": [
-      "Coal mining operators subject to the paused stricter silica exposure limit"
+      "Coal and metal/nonmetal mining operators subject to the paused/reconsidered stricter silica exposure limit",
+      "National Stone, Sand & Gravel Association and National Mining Association member companies specifically, as the litigants who obtained the initial stay"
     ],
     "estimated_health_impact": {
-      "summary": "The Department of Labor's own prior estimate for the silica rule (before the pause) projected substantial prevented deaths and illness -- pausing enforcement puts those prevented cases at risk.",
+      "summary": "The Department of Labor's own prior estimate for the silica rule (before the pause/reconsideration) projected substantial prevented deaths and illness -- pausing enforcement and reconsidering the rule puts those prevented cases at risk. Notably, a bipartisan-leaning congressional signal exists on the other side: the Senate Appropriations Committee approved report language (July 31, 2025) directing MSHA to 'fully and effectively enforce' the rule and not use funds to weaken it -- worth citing as a counterpoint showing this is contested even within Congress, not a uniformly one-sided rollback.",
       "figures": [
         {
-          "metric": "DOL's own estimate of deaths prevented by the (now-paused) silica rule",
+          "metric": "DOL's own estimate of deaths prevented by the (now-paused/reconsidered) silica rule",
           "value": "nearly 1,100 fewer deaths",
           "source": "Department of Labor rule estimate, cited by Economic Policy Institute"
         },
@@ -722,16 +754,29 @@
           "source": "Department of Labor rule estimate, cited by Economic Policy Institute"
         }
       ],
-      "caveat": "These figures are the Department of Labor's own original estimate for the benefit of the rule now being paused (agency's own numbers, strong for debate), as reported secondhand via EPI -- worth verifying against the original DOL rule text directly before using as a primary citation."
+      "caveat": "These figures are the Department of Labor's own original estimate for the benefit of the rule now being paused/reconsidered (agency's own numbers, strong for debate), as reported secondhand via EPI -- worth verifying against the original DOL rule text directly before using as a primary citation."
     },
-    "confidence_note": "Primary proponent attribution is the weak point here -- flag it and don't name a specific individual with high confidence until verified. The health impact figures are agency-originated and strong. Treat this as two linked but separate claims: (1) the silica rule pause, well-sourced with agency's own numbers; (2) the NIOSH/office closures, well-sourced as fact but with a structural rather than single-proponent story.",
-    "last_verified": "2026-07-03",
+    "confidence_note": "Primary proponent attribution remains the weak point -- flag it and don't name a specific individual with high confidence until verified. The health impact figures are agency-originated and strong. Status has escalated since last verification: this is no longer just an administrative 'pause' but an active reconsideration rulemaking under litigation pressure, which is a materially stronger claim about the rule's vulnerability. The passed MNM compliance deadline (April 8, 2026) needs a follow-up check to determine current enforcement status for that sector specifically.",
+    "last_verified": "2026-07-06",
     "sources": [
       {
         "name": "Economic Policy Institute — Too many workers die on the job every year. Trump's attacks on OSHA will kill more.",
         "url": "https://www.epi.org/blog/too-many-workers-die-on-the-job-every-year-trumps-attacks-on-osha-will-kill-more/"
+      },
+      {
+        "name": "Safety+Health Magazine — MSHA to 'reconsider' rule on protecting miners from silica exposure",
+        "url": "https://www.safetyandhealthmagazine.com/articles/27638-msha-to-reconsider-rule-on-protecting-miners-from-silica-exposure"
+      },
+      {
+        "name": "Fisher Phillips LLP — MSHA's Silica Rule Enforcement on Pause After Court Blocks Effective Date",
+        "url": "https://www.fisherphillips.com/en/news-insights/mshas-silica-rule-enforcement-on-pause.html"
+      },
+      {
+        "name": "Safety+Health Magazine — Lawmakers push for changes to MSHA's silica rule",
+        "url": "https://www.safetyandhealthmagazine.com/articles/27138-lawmakers-push-for-changes-to-mshas-silica-rule"
       }
-    ]
+    ],
+    "short_summary": "Paused stricter mine silica dust limits and cut federal mine-safety research capacity."
   },
   {
     "id": "osha-injury-reporting-rollback-trump1",
@@ -777,7 +822,8 @@
         "name": "The Hill — OSHA to reduce Obama-era injury report requirements for large companies",
         "url": "https://thehill.com/regulation/labor/399323-osha-reduces-obama-era-injury-report-requirements-for-large-companies/"
       }
-    ]
+    ],
+    "short_summary": "Ended detailed public reporting of workplace injuries at large employers."
   },
   {
     "id": "pfas-drinking-water-rollback-trump2",
@@ -814,8 +860,8 @@
       ],
       "caveat": "As of this entry, both actions are proposed, not finalized -- comment period closed July 20, 2026. EPA states explicitly it is not accepting comment on the underlying health-risk science, only on the legal/procedural basis for rescission -- worth noting this framing choice in debate, since it forecloses public health argument at the comment stage."
     },
-    "confidence_note": "Strong, EPA's-own-numbers framing available (the ~100 million people figure comes from EPA's own 2024 rule justification, not an outside estimate). Note carefully that this is still proposed, not finalized, and litigation is expected regardless of outcome per legal analysts.",
-    "last_verified": "2026-07-03",
+    "confidence_note": "Strong, EPA's-own-numbers framing available (the ~100 million people figure comes from EPA's own 2024 rule justification, not an outside estimate). Note carefully that this is still proposed, not finalized, and litigation is expected regardless of outcome per legal analysts. [Rechecked 2026-07-06: no material change -- comment period closes July 20, 2026 (as previously noted, confirming those forward-looking dates were accurate, not an error); public hearing held July 7, 2026; EPA states intent to finalize both rules before end of 2026.]",
+    "last_verified": "2026-07-06",
     "sources": [
       {
         "name": "US EPA — Proposed PFOA and PFOS Compliance Extension Rule",
@@ -833,7 +879,8 @@
         "name": "Harvard EELP — PFAS in Drinking Water tracker",
         "url": "https://eelp.law.harvard.edu/tracker/pfas-in-drinking-water/"
       }
-    ]
+    ],
+    "short_summary": "Proposed dropping enforceable limits on 4 of 6 regulated 'forever chemicals.'"
   },
   {
     "id": "power-plant-ghg-standards-repeal-trump2",
@@ -841,21 +888,21 @@
     "administration": "Trump II (2025-present)",
     "agency": "EPA",
     "domain": "environmental",
-    "status": "Proposed Repeal",
-    "date_of_action": "2025 (cites Executive Order 14,154, 'Unleashing American Energy')",
-    "original_rule_summary": "EPA carbon dioxide emissions standards for fossil-fuel-fired power plants (coal and new gas), issued under Clean Air Act Section 111, requiring plants to install carbon capture or otherwise limit CO2 output.",
-    "what_changed": "EPA proposed repealing the standards entirely, citing Executive Order 14,154. As of the tracker's last update this remains a proposed (not finalized) repeal.",
+    "status": "Proposed Repeal (final rule sent to OMB for review as of 2026-05-14, not yet published)",
+    "date_of_action": "2025-06-11 (proposed); sent to OMB/OIRA for final review 2026-05-14",
+    "original_rule_summary": "EPA carbon dioxide emissions standards for fossil-fuel-fired power plants (coal and new gas), issued under Clean Air Act Section 111, requiring plants to install carbon capture or otherwise limit CO2 output. Finalized by the Biden administration May 9, 2024.",
+    "what_changed": "EPA proposed repealing the standards entirely on June 11, 2025, citing Executive Order 14,154 and arguing GHG emissions from fossil-fuel-fired power plants do not 'contribute significantly' to dangerous air pollution. As of May 14, 2026, EPA sent a final rule to the White House Office of Management and Budget (OMB) for review -- the last procedural step before publication in the Federal Register. OMB reviews can take up to 90 days, meaning publication could occur any time through roughly mid-August 2026. This is a status escalation from the prior 'proposed, no further movement noted' state -- the rule is now genuinely close to finalization, though not yet finalized as of this entry's last verification.",
     "primary_proponent": {
       "name": "Lee Zeldin",
       "role": "EPA Administrator",
-      "note": "Part of the same 31-action deregulatory package targeting power plant pollution rules and the endangerment finding."
+      "note": "Part of the same broader deregulatory package targeting power plant pollution rules and the endangerment finding. The related Endangerment Finding rescission (see separate entry) finalized Feb 12, 2026 and rests on the same 'does not contribute significantly' legal theory being applied here."
     },
     "corporate_beneficiaries": [
       "Coal-fired power plant operators",
       "Fossil-gas-fired power plant developers"
     ],
     "estimated_health_impact": {
-      "summary": "Second-largest single rollback in the current-term tracker by dollar value, with the majority of monetized benefits coming from avoided climate damages, but with a substantial monetized public-health component from reduced particulate and other co-pollutant exposure near power plants.",
+      "summary": "Second-largest single rollback in the current-term tracker by dollar value (per Institute for Policy Integrity), with the majority of monetized benefits coming from avoided climate damages, but with a substantial monetized public-health component from reduced particulate and other co-pollutant exposure near power plants. Separately, EPA's own regulatory text for the underlying proposal estimates compliance-cost savings alone (not the broader net-benefit figure below) at $19 billion (3% discount rate) or $9.6 billion (7% discount rate) in present value over the 2026-2047 period -- a narrower, agency-originated figure worth citing alongside the broader Policy Integrity estimate.",
       "figures": [
         {
           "metric": "Annual Net Benefits at Risk",
@@ -871,18 +918,36 @@
           "metric": "Annual Premature Mortalities at Risk",
           "value": "555",
           "source": "Institute for Policy Integrity, NYU School of Law"
+        },
+        {
+          "metric": "EPA's own estimated compliance-cost savings, PV 2026-2047 (3% discount rate)",
+          "value": "$19,000,000,000",
+          "source": "EPA proposed rule, Federal Register, June 17 2025"
         }
       ],
-      "caveat": "Still a proposed, not finalized, repeal as of the tracker's last update -- frame accordingly ('EPA has proposed,' not 'EPA has repealed'). Figures represent modeled annualized risk if the proposal is finalized as written."
+      "caveat": "Still a proposed, not finalized, repeal as of this entry's last update -- frame accordingly ('EPA has proposed, and sent a final rule to OMB for review,' not 'EPA has repealed'). The EPA's own $19B/$9.6B figures are compliance-cost savings only, a narrower measure than Policy Integrity's broader net-benefit estimate which includes health and climate costs -- don't conflate the two when citing."
     },
-    "confidence_note": "Note the status carefully in debate use -- this one is not finalized yet, unlike the vehicle standards repeal. Otherwise same sourcing strength as the vehicle-standards entry.",
-    "last_verified": "2026-07-03",
+    "confidence_note": "Note the status carefully in debate use -- this one is not finalized yet, though it is now at the last procedural stage (OMB review) before publication, unlike its status at last verification. Otherwise same sourcing strength as the vehicle-standards entry. Worth a follow-up check after mid-August 2026 to see whether OMB review concluded and the rule published.",
+    "last_verified": "2026-07-06",
     "sources": [
       {
         "name": "Institute for Policy Integrity, NYU School of Law — Tracking the Damages of Regulatory Rollbacks",
         "url": "https://policyintegrity.org/tracking-regulatory-rollbacks"
+      },
+      {
+        "name": "Environmental and Energy Law Program, Harvard — Regulating Greenhouse Gases for New and Existing Fossil Fuel-Fired Power Plants",
+        "url": "https://eelp.law.harvard.edu/tracker/regulating-greenhouse-gases-for-new-and-existing-fossil-fuel-fired-power-plants/"
+      },
+      {
+        "name": "Non-Ferrous Founders' Society — EPA Power Plant GHG Repeal Rule Under OMB Review",
+        "url": "https://www.nffs.org/news/epa-power-plant-ghg-repeal-rule-under-omb-review"
+      },
+      {
+        "name": "Federal Register — Repeal of Greenhouse Gas Emissions Standards for Fossil Fuel-Fired Electric Generating Units",
+        "url": "https://www.federalregister.gov/documents/2025/06/17/2025-10991/repeal-of-greenhouse-gas-emissions-standards-for-fossil-fuel-fired-electric-generating-units"
       }
-    ]
+    ],
+    "short_summary": "Proposed repealing carbon emissions limits for coal and gas power plants."
   },
   {
     "id": "stream-protection-rule-repeal-trump1",
@@ -918,7 +983,8 @@
         "name": "Sierra Club — The Trump Administration is Reversing 100 Environmental Rules",
         "url": "https://www.sierracluboahu.org/blog/the-trump-administration-is-reversing-100-environmental-rules"
       }
-    ]
+    ],
+    "short_summary": "Repealed limits on dumping coal mining waste into nearby streams."
   },
   {
     "id": "swine-poultry-line-speed-deregulation-trump1-trump2",
@@ -973,7 +1039,8 @@
         "name": "Agri-Pulse — USDA proposes rules to allow faster pork, poultry processing line speeds",
         "url": "https://www.agri-pulse.com/articles/24235-usda-proposes-updates-to-pork-poultry-processing-line-speed-regulations"
       }
-    ]
+    ],
+    "short_summary": "Removed speed caps at meat plants, raising injury and contamination risk."
   },
   {
     "id": "wotus-narrowing-trump2",
@@ -998,8 +1065,8 @@
       "figures": [],
       "caveat": "No agency-produced quantified health impact figure was found for this specific proposal as of this entry's creation. The rule is also not yet finalized -- frame as proposed, not enacted."
     },
-    "confidence_note": "Use a structural/general-risk framing (reduced filtration, increased runoff exposure) rather than citing a specific casualty figure, since none exists yet for this action. Note explicitly that it is a proposed rule, not finalized.",
-    "last_verified": "2026-07-03",
+    "confidence_note": "Use a structural/general-risk framing (reduced filtration, increased runoff exposure) rather than citing a specific casualty figure, since none exists yet for this action. Note explicitly that it is a proposed rule, not finalized. [Rechecked 2026-07-06: no material change -- still awaiting a final rule; comment period closed Jan 5, 2026 as previously noted, no evidence of finalization found.]",
+    "last_verified": "2026-07-06",
     "sources": [
       {
         "name": "US EPA — Waters of the United States",
@@ -1013,6 +1080,7 @@
         "name": "Alston & Bird — EPA, Army Corps Proposal on Revised WOTUS Definition",
         "url": "https://www.alston.com/en/insights/publications/2025/12/epa-army-corps-engineers-revised-wotus-definition"
       }
-    ]
+    ],
+    "short_summary": "Proposed narrowing which wetlands and streams get federal water protections."
   }
 ]
