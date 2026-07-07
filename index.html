@@ -980,7 +980,8 @@ function buildDetailHtml(entry, cfg) {
 function buildEntryCard(entry, cfg, docketLabel, sourceLabel) {
   const div = document.createElement("div");
   div.className = "entry";
-  const title = entry[cfg.titleField] || "Untitled";
+  const rawTitle = entry[cfg.titleField] || "Untitled";
+  const title = cfg.kind === "tracker" ? truncate(rawTitle, 110) : rawTitle;
 
   let metaHtml = sourceLabel ? '<span class="source-tag">' + sourceLabel + '</span>' : "";
   if (cfg.kind === "deregulation") {
