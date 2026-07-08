@@ -794,8 +794,7 @@ const CANONICAL_CATEGORY_ORDER = [
   "Corruption", "Power Consolidation", "Weaponization of Institutions",
   "Media Suppression", "Human & Civil Rights", "Government Services Disruption",
   "Imperial & Geopolitical", "Far-Right & Russian Influence", "Economic Downturn",
-  "Resistance", "Propaganda", "Disinformation", "Supreme Court",
-  "White Supremacist", "Announcement", "Other", "Uncategorized"
+  "Resistance", "Propaganda", "Disinformation", "Supreme Court"
 ];
 
 /* Normalizes one raw scraped category value. Handles known scraper
@@ -1458,7 +1457,11 @@ async function loadAllData() {
   if (trackerResult.status === "fulfilled") {
     const flattened = flattenTrackerPosts(trackerResult.value);
     flattened.forEach(e => { e.category = normalizeCategory(e.category); });
-    TRACKERS.tracker.data = flattened;
+    // These categories are excluded entirely from Reporting -- not
+    // just hidden from the filter dropdown, but removed from
+    // browsing, search, and global search everywhere in the site.
+    const EXCLUDED_TRACKER_CATEGORIES = new Set(["Announcement", "White Supremacist", "Uncategorized", "Other"]);
+    TRACKERS.tracker.data = flattened.filter(e => !EXCLUDED_TRACKER_CATEGORIES.has(e.category));
   } else {
     loadErrors.push("tracker.json (" + trackerResult.reason.message + ")");
   }
