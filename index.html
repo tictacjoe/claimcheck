@@ -1032,9 +1032,7 @@ function buildDetailHtml(entry, cfg) {
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + s.url + '" target="_blank" rel="noopener">' + s.name + '</a></li>').join("") + '</ul>';
   }
   if (cfg.kind === "tracker") {
-    return '<div class="field-label">Category</div><div class="field-value">' + (entry.category || "Uncategorized") + '</div>' +
-      '<div class="field-label">What happened</div><div class="field-value">' + (entry.what_happened || "") + '</div>' +
-      '<div class="field-label">Why it matters</div><div class="field-value">' + (entry.why_it_matters || "") + '</div>' +
+    return '<div class="field-label">What happened</div><div class="field-value">' + (entry.what_happened || "") + '</div>' +
       (entry.source_name ? '<div class="field-label">Source</div><ul class="exhibit-list"><li><a href="' + entry.source_url + '" target="_blank" rel="noopener">' + entry.source_name + '</a></li></ul>' : '<div class="field-label">Source</div><div class="field-value" style="color:var(--ink-faint);font-style:italic;">not cited in original post</div>');
   }
   if (cfg.kind === "govservices") {
