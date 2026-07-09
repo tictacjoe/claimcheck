@@ -1,5 +1,65 @@
 [
   {
+    "id": "bls-commissioner-firing-trump2",
+    "title": "Trump Fired the BLS Commissioner for 'Rigged' Data — His Own First-Term BLS Commissioner Called the Firing 'Totally Groundless'",
+    "institution": "Bureau of Labor Statistics (BLS), Department of Labor",
+    "domain": "data_collection_halted",
+    "status": "Complete (commissioner fired and replaced; broader data-integrity concerns ongoing)",
+    "date_of_action": "2025-08-01",
+    "what_changed": "On August 1, 2025, hours after BLS reported that job growth had slowed to just 73,000 for July -- below expectations -- and revised the two prior months' job gains down sharply by a combined 258,000 (the biggest two-month downward revision since April 2020, at the start of the COVID crisis), Trump fired BLS Commissioner Erika McEntarfer via a Truth Social post, writing: 'I have directed my Team to fire this Biden Political Appointee, IMMEDIATELY... She will be replaced with someone much more competent and qualified.' Trump provided no evidence that McEntarfer, a Biden appointee confirmed to a fixed term in 2024, had manipulated the data, and Labor Secretary Lori Chavez-DeRemer publicly supported the firing the same day, naming Deputy Commissioner William Wiatrowski as acting director. This was the first time in the Bureau's history a commissioner had been fired, rather than completing or being reappointed past their term. Separately, Trump's own budget proposal for the year had already called for an 8% staff reduction at BLS, and the Urban Institute separately documented a broader pattern across federal statistical agencies of data being removed from government websites or having fields altered in connection with executive orders targeting diversity, equity, and inclusion programming.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Directly ordered the firing via social media, framing the weak jobs numbers themselves as evidence of manipulation. Labor Secretary Lori Chavez-DeRemer publicly endorsed the move, stating she supported ensuring 'the American People can trust the important and influential data coming from BLS.' Notably, William Beach -- who served as BLS Commissioner during Trump's own first term -- publicly and specifically rejected the firing on the record: 'The totally groundless firing of Dr. Erika McEntarfer, my successor as Commissioner of Labor Statistics at BLS, sets a dangerous precedent and undermines the statistical mission of the Bureau... This escalates the President's unprecedented attacks on the independence and integrity of the federal statistical system. The President seeks to blame someone for unwelcome economic news.'"
+    },
+    "estimated_impact": {
+      "summary": "Beach, in a subsequent PBS interview, gave a specific technical rebuttal to the manipulation claim rather than a general political objection: he explained the commissioner has no direct access to alter the underlying data collected by career civil servants, and that the July revisions reflected genuinely new information (from state and local education-sector reporting) rather than any political interference -- 'no one disputed that we shouldn't use more information then to correct the initial estimates,' he noted, adding that comparably large revisions occurred during his own tenure as commissioner amid COVID, for unrelated reasons. The Urban Institute warned the firing 'undermines the integrity of the federal statistical agency data ecosystem' broadly, since BLS data (alongside the Census Bureau, Bureau of Economic Analysis, and other statistical agencies) underpins decisions made by governments, businesses, and individuals worth far more than any single jobs report.",
+      "figures": [
+        {
+          "metric": "July 2025 jobs report, jobs added",
+          "value": "73,000 (below market expectations)",
+          "source": "BLS's own August 1, 2025 jobs report"
+        },
+        {
+          "metric": "Combined downward revision to May/June job gains",
+          "value": "258,000 fewer jobs than initially reported -- the largest two-month downward revision since April 2020",
+          "source": "BLS's own data, cited by CNBC and PBS"
+        },
+        {
+          "metric": "BLS staff overseen by the commissioner role",
+          "value": "2,000+ career civil servants (commissioner is the agency's only political appointee)",
+          "source": "Urban Institute, PBS News"
+        },
+        {
+          "metric": "Proposed BLS staffing cut in Trump's own budget plan (predating the firing)",
+          "value": "8%",
+          "source": "CNBC, citing the administration's spending proposal"
+        }
+      ],
+      "caveat": "This entry concerns the firing and the specific, technical dispute over whether commissioner-level political interference in BLS data is even mechanically possible (Beach's rebuttal directly addresses this) -- it is a narrower and more specifically evidenced claim than the broader 'data integrity across federal statistical agencies' concern the Urban Institute raises, which draws on separate incidents (website data removal, DEI-related field changes) not specific to the BLS commissioner firing itself. These are related but distinct concerns and should not be conflated when citing this entry."
+    },
+    "confidence_note": "Exceptionally strong sourcing specifically because the most substantive rebuttal comes from within Trump's own political circle -- his first-term BLS Commissioner, not an opposition figure -- giving both a credibility advantage and a specific technical explanation (rather than just political disagreement) for why the manipulation claim doesn't hold up mechanically. Core facts (the jobs numbers, the firing, the public statements) are corroborated across CNBC, PBS News, and the Urban Institute with no factual dispute about what happened, only about whether it was justified.",
+    "last_verified": "2026-07-08",
+    "sources": [
+      {
+        "name": "CNBC — Trump fires commissioner of labor statistics after weaker-than-expected jobs figures slam markets",
+        "url": "https://www.cnbc.com/2025/08/01/trump-erika-mcentarfer-jobs-report-fired.html"
+      },
+      {
+        "name": "PBS News — Trump fires Bureau of Labor Statistics commissioner after dismal employment report",
+        "url": "https://www.pbs.org/newshour/politics/trump-seeks-to-fire-bureau-of-labor-statistics-director-after-release-of-weak-jobs-report"
+      },
+      {
+        "name": "PBS News — Firing of labor statistics head undermines trust in key data, ex-Trump official warns (interview with William Beach)",
+        "url": "https://www.pbs.org/newshour/show/firing-of-labor-statistics-head-undermines-trust-in-key-data-ex-trump-official-warns"
+      },
+      {
+        "name": "Urban Institute — Why the Firing of the BLS Commissioner Should Concern Every Data User",
+        "url": "https://www.urban.org/urban-wire/why-firing-bls-commissioner-should-concern-every-data-user"
+      }
+    ]
+  },
+  {
     "id": "cdc-acip-vaccine-panel-purge-trump2",
     "title": "RFK Jr. Removes All 17 Members of CDC Vaccine Advisory Committee, Installs Replacements",
     "institution": "Advisory Committee on Immunization Practices (ACIP), Centers for Disease Control and Prevention",
@@ -59,6 +119,80 @@
       {
         "name": "NPR — RFK Jr. names new slate of vaccine advisers after purging CDC panel",
         "url": "https://www.npr.org/sections/shots-health-news/2025/06/11/nx-s1-5430870/cdc-vaccine-experts-rfk-jr"
+      }
+    ]
+  },
+  {
+    "id": "cfpb-dismantlement-trump2",
+    "title": "CFPB Ordered to Stop All Work, Nearly Defunded — Federal Judge Called It 'Hanging by a Thread'",
+    "institution": "Consumer Financial Protection Bureau (CFPB)",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing litigation (court has ordered continued funding through at least March 2026; underlying dismantling effort not abandoned)",
+    "date_of_action": "2025-02-10 (stop-work order issued) through 2025-12-30 (federal judge's 'hanging by a thread' ruling)",
+    "what_changed": "On February 10, 2025, newly installed Acting Director Russell Vought (who simultaneously serves as OMB Director) ordered all CFPB staff and contractors to stop working entirely and not return to agency offices. DOGE personnel were given access to CFPB's HR, payroll, and enforcement-records systems around the same time; Elon Musk posted 'CFPB RIP' on social media. A federal judge issued a temporary restraining order on February 14, 2025 blocking further firings, data destruction, or funding cuts, but by then CFPB's website had already been taken down and staff locked out of buildings and systems. Vought separately moved to cut off the agency's Federal Reserve funding entirely and canceled roughly $100 million in CFPB contracts. In April 2025, despite the court order, about 1,400 employees who had chosen to remain received layoff notices -- a reduction that would have left only about 200 of the agency's original ~1,700 staff. Court filings from CFPB leadership itself, filed in March 2025, proposed shrinking authorized staff from 1,174 to 556, sparing only the legal division (which defends the agency in the litigation over its own dismantling) from cuts. By December 2025, more than 30% of CFPB's authorized staff had departed. On December 30, 2025, the same federal judge overseeing the case rejected the administration's argument that Vought could lawfully withhold the agency's funding, ordering him to request continued Federal Reserve funding, which he did -- keeping CFPB funded through at least March 2026. In May 2026, CFPB removed roughly 1,700 web pages of consumer advisories, press releases, and testimony predating February 2025 from its public website.",
+    "primary_proponent": {
+      "name": "Russell Vought",
+      "role": "Acting Director of CFPB (concurrently Director of the Office of Management and Budget)",
+      "note": "Vought was one of the architects of Project 2025, which explicitly called for Congress to abolish the CFPB (p. 837 of the document). He has publicly criticized CFPB staff in interviews, telling The Charlie Kirk Show that 'all they want to do is weaponize the tools of financial law against basically small mom-and-pop lenders and other small financial institutions.' This is the same official whose separate impoundment-related actions (NIH funding, broader OMB spending disputes) are covered in other entries across this project's Government Services Redirected and Cabinet-Level Legal Exposure trackers."
+    },
+    "estimated_impact": {
+      "summary": "The presiding federal judge's own characterization is unusually direct for a legal ruling: she wrote that the administration was 'actively and unabashedly trying to shut the agency down' through funding cuts after being blocked from doing so through layoffs, and that CFPB 'is hanging by a thread.' The agency's own reporting states it had returned $19.7 billion to consumers since its 2010 creation as of January 2025 -- the scale of consumer-facing enforcement work now substantially curtailed. Former 13-year CFPB attorney Lisa Rosenthal, who resigned after the stop-work order, described the halted work (protecting victims of predatory payday loans, supervising student loan and auto-financing practices) in terms of what it no longer was: 'This work that I had carried out for these decades and that I cared so deeply about -- this was no longer that work.'",
+      "figures": [
+        {
+          "metric": "CFPB staff reduction proposed by the agency's own March 2025 court filing",
+          "value": "1,174 -> 556 authorized positions",
+          "source": "CFPB court filing, cited by NOTUS"
+        },
+        {
+          "metric": "Layoff notices issued in April 2025 (to staff who had chosen to remain)",
+          "value": "~1,400 (would have left ~200 of ~1,700 original staff)",
+          "source": "NPR"
+        },
+        {
+          "metric": "Share of authorized FY2025 staff who had departed by Dec. 2025",
+          "value": "30%+",
+          "source": "NOTUS"
+        },
+        {
+          "metric": "CFPB contracts canceled by Vought",
+          "value": "~$100,000,000",
+          "source": "Democracy 2025 Response Center, citing court filings in Mayor and City Council of Baltimore v. CFPB"
+        },
+        {
+          "metric": "Consumer funds returned by CFPB since its 2010 creation (as of Jan. 2025)",
+          "value": "$19,700,000,000",
+          "source": "CFPB's own reporting, cited by NPR"
+        },
+        {
+          "metric": "Website pages of consumer advisories/press releases removed, May 2026",
+          "value": "~1,700",
+          "source": "NOTUS"
+        }
+      ],
+      "caveat": "As with USAID, this raises a specific, recurring structural question in this tracker: CFPB was created by Congress (via Dodd-Frank) and its constitutionality was upheld by the Supreme Court as recently as 2024 -- meaning the core legal dispute is whether the executive branch can functionally dismantle a congressionally-created independent agency through funding and staffing actions alone, without Congress formally eliminating it. This litigation (NTEU v. Vought and the related Baltimore case) remains ongoing and unresolved as of this entry's last update; the December 2025 ruling addressed only the funding question, not the broader dismantlement question."
+    },
+    "confidence_note": "Very strong sourcing: court filings and judicial rulings are primary legal documents, not characterizations, and are corroborated across NPR, NOTUS, the Economic Policy Institute, and legal-advisory analysis from Arnold & Porter (a law firm tracking the litigation for its own clients, a useful neutral-technical source). Vought's own public statements (the Charlie Kirk Show interview, his Project 2025 authorship) are on the record in his own words.",
+    "last_verified": "2026-07-08",
+    "sources": [
+      {
+        "name": "NPR — 1 year into Trump's new term, an agency that protects your finances is 'hanging by a thread'",
+        "url": "https://www.npr.org/2026/01/21/nx-s1-5683060/cfpb-consumer-watchdog-agency-trump-second-term"
+      },
+      {
+        "name": "NOTUS — CFPB Deletes Consumer Advisories From Its Website",
+        "url": "https://www.notus.org/trump-white-house/cfpb-deletes-consumer-advisories-from-its-website"
+      },
+      {
+        "name": "Economic Policy Institute — Trump administration attempts to close the CFPB, block agency's work",
+        "url": "https://www.epi.org/policywatch/trump-administration-closes-the-cfpb/"
+      },
+      {
+        "name": "Arnold & Porter — Trump Administration Seeks to Dismantle CFPB Amid Legal Challenges",
+        "url": "https://www.arnoldporter.com/en/perspectives/advisories/2025/02/trump-administration-seeks-to-dismantle-cfpb"
+      },
+      {
+        "name": "Democracy 2025 Response Center — The Trump administration is trying to Defund and dismantle the CFPB",
+        "url": "https://www.democracy2025.org/response-center/Q8cmP7"
       }
     ]
   },
@@ -136,6 +270,148 @@
     ]
   },
   {
+    "id": "cpb-defunding-dissolution-trump2",
+    "title": "Congress Rescinded $1.1B From Public Broadcasting; CPB Dissolved After 58 Years",
+    "institution": "Corporation for Public Broadcasting (CPB)",
+    "domain": "funding_redirection",
+    "status": "Complete (CPB formally dissolved January 5, 2026)",
+    "date_of_action": "2025-04 (board members fired) through 2026-01-05 (CPB board votes to dissolve)",
+    "what_changed": "In April 2025, Trump fired three members of CPB's board of directors; the fired directors argued in subsequent legal action that the dismissal was governmental overreach targeting an entity whose congressional charter specifically guarantees its independence from political control. In July 2025, Congress passed a $9 billion rescissions package (canceling previously appropriated funds) requested by the White House, including $1.1 billion earmarked for CPB through fiscal year 2027 -- the first time in nearly 60 years Congress had voted to not fund CPB. The House vote was 216-213, with all but two Republicans in favor; in the Senate, only Susan Collins (R-ME) and Lisa Murkowski (R-AK) broke with their party to vote against the package, alongside two House Republicans (Brian Fitzpatrick, Mike Turner). Trump signed the bill and wrote on Truth Social: 'REPUBLICANS HAVE TRIED DOING THIS FOR 40 YEARS, AND FAILED....BUT NO MORE.' CPB announced August 1, 2025 that it would begin winding down, eliminating most staff positions by the September 30 fiscal year-end and retaining a small transition team through January 2026 to handle compliance and music-rights obligations. When the Senate Appropriations Committee subsequently declined to restore any funding for the following budget year, CPB's board voted to formally dissolve the organization entirely on January 5, 2026, rather than continue to exist in a defunded, vulnerable state -- CPB President and CEO Patricia Harrison described this as protecting 'the integrity of the public media system' by closing on the organization's own terms.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Personally pushed the rescission package and has repeatedly called CPB a 'monstrosity,' arguing public broadcasting -- particularly NPR -- displays 'extreme liberal bias.' OMB Director Russell Vought, who requested the rescissions package on the administration's behalf, told reporters afterward the administration would 'likely' send additional rescissions packages, saying 'there is still a great enthusiasm for these rescissions bills, because Congress wants to be a part of voting for these cuts and making them permanent.'"
+    },
+    "estimated_impact": {
+      "summary": "CPB funded more than 1,500 local radio and television stations nationwide; roughly 70% of its money went directly to 330 PBS and 246 NPR member stations. NPR President and CEO Katherine Maher estimated approximately 96% of all classical music broadcast in the United States airs on public radio stations specifically. The impact fell most heavily on rural and small-market stations with fewer alternative funding sources: specific documented effects include KCTS in Seattle abandoning long-form journalism ambitions, WFAE in Charlotte closing its community engagement facility, and WPSU in State College, Pennsylvania considering shutting down its radio station entirely. Sen. Susan Collins, despite voting to preserve funding, articulated the underlying tension directly: 'I share the frustration with the biased reporting by NPR, and I would support defunding it. Nevertheless, local TV and radio stations continue to provide important coverage' -- citing Maine-specific examples like the emergency alert network and local high school sports coverage.",
+      "figures": [
+        {
+          "metric": "Total funding rescinded from CPB",
+          "value": "$1,100,000,000 (through FY2027)",
+          "source": "NPR, citing the enacted rescissions package"
+        },
+        {
+          "metric": "Local stations that relied on CPB funding",
+          "value": "~1,500 (330 PBS + 246 NPR stations receiving the majority directly)",
+          "source": "NBC News, NPR"
+        },
+        {
+          "metric": "Share of U.S. classical music radio broadcast via public stations",
+          "value": "~96%",
+          "source": "NPR CEO Katherine Maher, cited by AP/PBS News"
+        },
+        {
+          "metric": "House vote margin on the rescissions package",
+          "value": "216-213 (all but 2 Republicans in favor)",
+          "source": "NPR"
+        },
+        {
+          "metric": "Senate Republicans who voted against the cuts",
+          "value": "2 of 53 (Collins, Murkowski)",
+          "source": "Time, NPR"
+        },
+        {
+          "metric": "One of CPB's final grant actions before dissolving",
+          "value": "up to $57,900,000 awarded to a new nonprofit to handle inter-station connections, reducing NPR's historic coordinating role",
+          "source": "CNN Business"
+        }
+      ],
+      "caveat": "This is a case where the underlying policy dispute (concerns about NPR/PBS political bias vs. the value of rural/local public media infrastructure) is genuinely contested and worth presenting fairly -- Sen. Collins's and Sen. Murkowski's own floor statements explicitly hold both positions simultaneously (agreeing bias concerns are legitimate while opposing the scale of the cut), which is a more nuanced position than a simple for/against framing would suggest. The April 2025 board-firing legal dispute over CPB's charter-guaranteed independence remains a separate, not fully resolved legal question from the funding rescission itself."
+    },
+    "confidence_note": "Extremely well-documented with a formal recorded congressional vote (not just an executive action), consistent figures across NPR, NBC News, CNN, PBS News/AP, Fox News, and Time, and specific named station-level impacts rather than general claims. Trump's own statements and the vote tally are matters of public record.",
+    "last_verified": "2026-07-08",
+    "sources": [
+      {
+        "name": "NBC News — Corporation for Public Broadcasting is officially shutting down months after GOP funding cuts",
+        "url": "https://www.nbcnews.com/politics/trump-administration/corporation-public-broadcasting-officially-shutting-months-gop-funding-rcna252443"
+      },
+      {
+        "name": "NPR — Corporation for Public Broadcasting says it's shutting down",
+        "url": "https://www.npr.org/2025/08/01/nx-s1-5489808/cpb-shut-down-public-broadcasting-trump"
+      },
+      {
+        "name": "NPR — Congress rescinds $9 billion meant for foreign aid, NPR and PBS",
+        "url": "https://www.npr.org/2025/07/18/nx-s1-5469912/npr-congress-rescission-funding-trump"
+      },
+      {
+        "name": "PBS News / AP — CPB says it is shutting down after being defunded by Congress, targeted by Trump",
+        "url": "https://www.pbs.org/newshour/politics/cpb-says-it-is-shutting-down-after-being-defunded-by-congress-targeted-by-trump"
+      },
+      {
+        "name": "CNN Business — PBS and NPR funding cuts are hitting home as government shutdown looms",
+        "url": "https://www.cnn.com/2025/09/30/media/pbs-npr-funding-government-shutdown-public-media"
+      },
+      {
+        "name": "Time — What Corp. for Public Broadcasting Shutdown Means For NPR, PBS",
+        "url": "https://time.com/7307069/corporation-for-public-broadcasting-pbs-npr/"
+      }
+    ]
+  },
+  {
+    "id": "doj-civil-rights-division-exodus-trump2",
+    "title": "DOJ Civil Rights Division Lost 70% of Its Attorneys — Voting Section Down From 30 to 3",
+    "institution": "Civil Rights Division, U.S. Department of Justice",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing (DOJ actively soliciting internal transfers to refill the most depleted sections as of August 2025)",
+    "date_of_action": "2025-01 (initial departures begin) through 2025-10 (Justice Connection's most recent departure count)",
+    "what_changed": "Since President Trump's January 2025 inauguration, an estimated 250-260 attorneys -- roughly 70% of the division's approximately 365-person attorney roster -- have resigned, accepted the administration's deferred-resignation offer, or been reassigned elsewhere within DOJ. By October 2025, Justice Connection (a support network founded by former division attorneys) estimated the departure count had grown to nearly 400 people, about 75% of attorneys. The Voting Section specifically -- responsible for enforcing the Voting Rights Act -- fell from an estimated 30 attorneys in January to just 3 by May 2025. The section devoted to ensuring nondiscrimination by recipients of federal funds was left with no attorneys whatsoever, per the Leadership Conference on Civil and Human Rights. Assistant Attorney General for Civil Rights Harmeet Dhillon, confirmed in April 2025, sent new mission statements to each of the division's 11 sections shortly after taking office, redirecting the Voting Section's focus from protecting against discrimination toward pursuing voter fraud, and telling the Educational Opportunities Section that its work required 'the full dedication of this section's resources, attention and energy to the priorities of the president.' Career section-chief managers -- in some cases with decades of institutional tenure spanning multiple administrations of both parties -- were removed from leadership roles and reassigned to processing public records requests or complaint intake, which several described as a deliberate push to induce their resignation. By August 2025, DOJ was actively soliciting permanent internal transfers from other CRT sections to refill the most depleted offices (Voting, Employment Litigation, Educational Opportunities), some of which were themselves already down more than 75% of their attorneys.",
+    "primary_proponent": {
+      "name": "Harmeet Dhillon",
+      "role": "Assistant Attorney General for Civil Rights",
+      "note": "Personally authored and sent the new mission statements redirecting each section's priorities. At a Federalist Society event, she likened the division's work under Democratic administrations to a 'speeding train' and, addressing the departing attorneys directly, said 'we wish them well in their future endeavors and their passions. They need to pursue them elsewhere. That's not going to be happening at the DOJ.'"
+    },
+    "estimated_impact": {
+      "summary": "Stacey Young, an 18-year Civil Rights Division veteran who resigned in January 2025 and founded Justice Connection to support current and former staff, described the scale of change as unprecedented in the division's near-70-year history: 'Every presidential administration has its own policy priorities, but I don't think there's any precedent for an administration almost completely refocusing the civil rights division's enforcement priorities the way this one has.' Joseph Rich, who led the Voting Section from 1999-2005 under both a Democratic and Republican administration, raised a specific operational concern about the reduced Voting Section potentially bringing voter-fraud suits 'right in the middle of an election.'",
+      "figures": [
+        {
+          "metric": "Attorneys who departed the division, initial estimate (through May 2025)",
+          "value": "~250-260 (roughly 70% of ~365 total)",
+          "source": "NPR, The Leadership Conference on Civil and Human Rights, Justice Connection"
+        },
+        {
+          "metric": "Attorneys who departed, updated estimate (through October 2025)",
+          "value": "~400 (about 75%)",
+          "source": "Justice Connection, cited by The Justice Connection's own press summary"
+        },
+        {
+          "metric": "Voting Section attorneys, January 2025 vs. May 2025",
+          "value": "~30 -> 3",
+          "source": "Justice Connection estimate, reported by Democracy Docket"
+        },
+        {
+          "metric": "Attorneys remaining in the section covering nondiscrimination by federal-fund recipients",
+          "value": "0",
+          "source": "The Leadership Conference on Civil and Human Rights"
+        }
+      ],
+      "caveat": "Dhillon and DOJ leadership frame this as a legitimate, if unusually large, exercise of an incoming administration's prerogative to set its own enforcement priorities -- a framing multiple sources acknowledge is normal in kind (priorities do shift between administrations) even while disputing that this instance is normal in scale or process. The 250 vs. 260 vs. 400 figures reflect different snapshot dates from the same source network (Justice Connection) rather than conflicting estimates -- the count grew over the year as departures continued, not because of methodological disagreement."
+    },
+    "confidence_note": "Strong, consistent sourcing across NPR, Government Executive, Democracy Docket, and multiple advocacy organizations, all citing the same core figures traceable to Justice Connection's direct contacts within the division -- a meaningful source since it draws on current employees, not just outside inference. Dhillon's own quotes and mission-statement language are on the record from her own public remarks and DOJ's own internal communications, not disputed characterizations.",
+    "last_verified": "2026-07-08",
+    "sources": [
+      {
+        "name": "NPR — 70% of the DOJ's Civil Rights Division lawyers are leaving because of Trump's reshaping",
+        "url": "https://www.npr.org/2025/05/19/g-s1-66906/trump-civil-rights-justice-exodus"
+      },
+      {
+        "name": "Democracy Docket — DOJ Voting Section Has Just Three Lawyers Left, Watchdog Estimates",
+        "url": "https://www.democracydocket.com/news-alerts/doj-voting-section-has-just-three-lawyers-left-watchdog-estimates/"
+      },
+      {
+        "name": "Government Executive — After shedding most employees, DOJ looks to shift around Civil Rights staff to fill 'deep need'",
+        "url": "https://www.govexec.com/management/2025/08/after-shedding-most-employees-doj-looks-shift-around-civil-rights-staff-fill-deep-need/407175/"
+      },
+      {
+        "name": "The Leadership Conference on Civil and Human Rights — Civil Rights Organizations Call for Oversight of DOJ Civil Rights Division",
+        "url": "https://civilrights.org/resource/civil-rights-organizations-call-for-oversight-of-doj-civil-rights-division/"
+      },
+      {
+        "name": "Justice Connection — Press: Dismantling of DOJ's Civil Rights Division",
+        "url": "https://www.thejusticeconnection.org/press-dismantling-doj-civil-rights-division/"
+      }
+    ]
+  },
+  {
     "id": "education-department-dismantlement-trump2",
     "title": "Department of Education Dismantled via Interagency Transfers, Without Congressional Approval",
     "institution": "U.S. Department of Education",
@@ -206,6 +482,79 @@
       {
         "name": "Bloomberg — How Trump Is Dismantling the Department of Education, Step by Step",
         "url": "https://www.bloomberg.com/graphics/2026-how-to-dismantle-education-department/"
+      }
+    ]
+  },
+  {
+    "id": "epa-ord-elimination-trump2",
+    "title": "EPA Eliminated Its Scientific Research Office, Placing the Successor Directly Under the Administrator's Political Control",
+    "institution": "Office of Research and Development (ORD), Environmental Protection Agency",
+    "domain": "research_suppression",
+    "status": "Complete (formally eliminated; Congress notified February 2026 that closure is finalized)",
+    "date_of_action": "2025-05 (reorganization first announced) through 2026-02-13 (EPA formally notified Congress of ORD's elimination)",
+    "what_changed": "EPA Administrator Lee Zeldin announced in May 2025 that the agency's Office of Research and Development -- described by AFGE Council 238 President Justin Chen as 'the heart and brain of the EPA' -- would be eliminated and its scientists redistributed into other EPA program offices. On July 18, 2025, EPA formally announced ORD's elimination and the creation of a replacement, the Office of Applied Science and Environmental Solutions (OASES). Unlike ORD, which operated as its own independent division, OASES was placed directly under the EPA Administrator's office -- a structural change critics say subjects scientific research directly to political oversight rather than insulating it. Notably, 'research' does not appear anywhere in the new office's name, which former ORD senior science adviser Andy Miller said reflects what the reorganization was actually designed to eliminate: 'the kind of work that points out that there are still problems.' More than 300 ORD staff, including senior scientists, had already left via deferred-resignation offers before the formal announcement. As many as 1,155 of ORD's 1,540 positions -- chemists, biologists, toxicologists, and other scientists across 10 facilities nationwide -- were identified as at risk of layoff in documents reviewed by Democratic staff on the House Science Committee. EPA notified Congress on February 13, 2026 that the office's elimination was finalized, roughly nine months after Zeldin first announced the plan; the agency has not disclosed which offices remaining former-ORD employees were transferred to, or when OASES's top leadership positions would be permanently filled.",
+    "primary_proponent": {
+      "name": "Lee Zeldin",
+      "role": "EPA Administrator",
+      "note": "Personally announced and defended the reorganization, framing the mass layoffs using the government euphemism 'reduction in force' and stating it would ensure the agency could 'better fulfill that mission while being responsible stewards of your hard-earned tax dollars.' An EPA spokesperson separately described the restructuring as reflecting 'an unwavering commitment to gold-standard science' through 'integration of scientific expertise directly into EPA's offices' -- the administration's stated rationale is that embedding scientists in program offices improves rather than diminishes the agency's science capacity, a claim directly disputed by the researchers and former officials quoted below. This is the same EPA Administrator whose actions are covered in several deregulation-tracker entries in this project (endangerment finding rescission, MATS mercury standards, etc.) -- this entry covers the elimination of the scientific research infrastructure underlying those separate regulatory actions, not the regulatory actions themselves."
+    },
+    "estimated_impact": {
+      "summary": "Independent scientists outside EPA identified specific, concrete functions at risk: ORD maintained toxicology databases used by state and local governments, industry, and nonprofits to assess chemical risks, and its atmospheric/hydrologic models are used by researchers worldwide to study pollutants like particulate matter and ozone. Allen Burton, an environmental scientist at the University of Michigan, specifically warned the closure could delay or prevent new methods for assessing risks from chemical mixtures (which can differ meaningfully from individual-substance risk, a core ORD research function). Rep. Zoe Lofgren, ranking Democrat on the House Science Committee, called it a 'travesty' with 'generational impacts on Americans' health and safety.'",
+      "figures": [
+        {
+          "metric": "ORD positions at risk of elimination (of 1,540 total)",
+          "value": "up to 1,155 (chemists, biologists, toxicologists)",
+          "source": "Documents reviewed by Democratic staff on the House Science, Space, and Technology Committee"
+        },
+        {
+          "metric": "ORD staff who had already left via deferred resignation before the formal announcement",
+          "value": "300+",
+          "source": "Science/AAAS, citing retired EPA scientist Robert Kavlock"
+        },
+        {
+          "metric": "Total EPA staffing reduction, agency-wide",
+          "value": "3,700+ employees (~23% of January 2025 staffing level, down to 12,448)",
+          "source": "PBS News, citing EPA's own announcement"
+        },
+        {
+          "metric": "Projected agency savings from the reorganization",
+          "value": "~$750,000,000",
+          "source": "EPA's own announcement, cited by PBS News and AP"
+        },
+        {
+          "metric": "ORD research facilities affected nationwide",
+          "value": "10 (from Florida and North Carolina to Oregon)",
+          "source": "PBS News"
+        }
+      ],
+      "caveat": "EPA disputes the characterization that this reduces the agency's scientific capacity, framing it instead as integrating science more directly into decision-making offices rather than isolating it in a separate research division -- this is a genuine, disputed structural question (does embedding scientists in program offices improve or compromise independence?) rather than a simple factual dispute. The agency has stated all laboratory functions previously conducted by ORD will continue, though it has not detailed which offices retain which specific functions or capacity levels."
+    },
+    "confidence_note": "Very strong, extensively corroborated sourcing across specialist and mainstream outlets (Science/AAAS, C&EN, NPR, PBS News/AP, Harvard's Environmental and Energy Law Program tracker, Columbia's Sabin Center for Climate Change Law) with consistent core figures (1,155 at-risk positions, $750M savings, 3,700+ agency-wide reduction) traceable to EPA's own announcements and congressional document review. The structural critique (OASES under the Administrator's direct office, unlike independent ORD) is a verifiable organizational fact, not an interpretation.",
+    "last_verified": "2026-07-08",
+    "sources": [
+      {
+        "name": "PBS News / AP — EPA eliminates research and development office as it begins thousands of layoffs",
+        "url": "https://www.pbs.org/newshour/politics/epa-eliminates-research-and-development-office-as-it-begins-thousands-of-layoffs"
+      },
+      {
+        "name": "Science/AAAS — In 'blow to the environment,' EPA begins to dismantle its research office",
+        "url": "https://www.science.org/content/article/blow-environment-epa-begins-dismantle-its-research-office"
+      },
+      {
+        "name": "NPR — Trump administration shuts down EPA's scientific research arm",
+        "url": "https://www.npr.org/2025/07/20/nx-s1-5474320/trump-epa-scientific-research-zeldin"
+      },
+      {
+        "name": "C&EN (Chemical & Engineering News) — As the EPA formalizes end of research office, critics fear health impacts",
+        "url": "https://cen.acs.org/policy/EPA-closes-independent-research-office/104/web/2026/03"
+      },
+      {
+        "name": "Sabin Center for Climate Change Law, Columbia Law School — EPA Eliminates Office of Research and Development, Will Cut Over 3,700 Staff",
+        "url": "https://climate.law.columbia.edu/content/epa-eliminates-office-research-and-development-will-cut-over-3700-staff"
+      },
+      {
+        "name": "Harvard Environmental & Energy Law Program — EPA Eliminated Office of Research and Development",
+        "url": "https://eelp.law.harvard.edu/tracker/epa-eliminated-office-of-research-and-development/"
       }
     ]
   },
@@ -407,6 +756,144 @@
     ]
   },
   {
+    "id": "forest-service-firefighter-shortage-trump2",
+    "title": "Forest Service Chief's Own Internal Memo Contradicted Agriculture Secretary's Public 'Fully Staffed' Claims — 5,000 Firefighting Positions Vacant",
+    "institution": "U.S. Forest Service, Department of Agriculture",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing (2025 fire season managed under acknowledged shortfall; further reorganization/consolidation with Interior Dept. underway)",
+    "date_of_action": "2025-02 (initial layoffs) through 2025-08 (peak fire-season staffing crisis and reorganization announcement)",
+    "what_changed": "In February 2025, the Trump administration laid off approximately 700 Forest Service employees who support wildland fire operations -- human resource managers, ecologists, and trail-crew workers who hold 'red card' fire-response certifications even though their primary jobs are not firefighting. Many were subsequently rehired, but the administration then pushed remaining staff toward deferred-resignation and early-retirement offers; ultimately at least 1,800 fire-qualified ('red-carded') employees left the agency, out of 4,800 total Forest Service departures in 2025 (more than 13% of the agency's total workforce). Internal Forest Service data reviewed by ProPublica, High Country News, and Capital & Main found at least 5,000 firefighting positions vacant as of mid-July 2025 -- directly contradicting the agency's own public claim of having exceeded its 2025 hiring goal (11,364 firefighters on board by end of July). USDA spokesperson Cat McRae disputed the vacancy data as reflecting 'outdated org charts and unfunded positions'; ProPublica confirmed its analysis had already excluded unfunded positions. Days after that public dispute, a memo Forest Service Chief Tom Schultz sent to agency leadership -- obtained by High Country News -- stated plainly: 'As expected, the 2025 Fire Year is proving to be extremely challenging... we know the demand for resources outpaces their availability,' and directed that all red-carded employees, including IT and HR staff, be made available for fire assignments. At an internal spring planning meeting, one employee was told directly, 'Help is not on the way' -- a phrase the employee said they had 'never been told before' in their career. The agency subsequently took the unusual step of waiving a statutory 1,039-hour cap on seasonal-employee work hours (raising it to 1,560 hours) and asked 1,400 firefighting-qualified former employees to return; as of August 12, only 100 had accepted. Separately, USDA announced a reorganization eliminating the Forest Service's nine regional offices and consolidating them into five 'hub' locations, with Secretary Brooke Rollins acknowledging up to half of affected staff may not relocate.",
+    "primary_proponent": {
+      "name": "Brooke Rollins",
+      "role": "Secretary of Agriculture",
+      "note": "Publicly maintained the Forest Service was 'fully equipped and operationally ready to protect people and communities from wildfire' even as her own agency's Chief, Tom Schultz, was privately telling leadership the opposite in writing. A USDA spokesperson later attempted to reconcile the two statements by saying Schultz's memo referred to a broader pool of red-carded employees who could be 'called on to bolster' response as fire activity increases, while Rollins's statement referred only to full-time firefighters -- a real distinction, though one that doesn't fully resolve why the agency disputed the underlying vacancy data as inaccurate while its own Chief was independently describing a resource shortfall in nearly identical terms."
+    },
+    "estimated_impact": {
+      "summary": "This is one of the more directly self-contradicting cases in this tracker: the dispute isn't primarily outside advocates versus the administration, but the Agriculture Secretary's public statements versus her own Forest Service Chief's internal, contemporaneous memo -- both documented, both on the record. Frontline accounts corroborate the operational strain described in Schultz's memo: a California Forest Service survey found 26% of engine captain positions and 42% of engineer positions vacant, and wildland firefighters described being assigned non-firefighting duties like trail-building and lawn-mowing due to short-staffing elsewhere in the agency.",
+      "figures": [
+        {
+          "metric": "Firefighting positions listed vacant, mid-July 2025",
+          "value": "5,000+",
+          "source": "Internal Forest Service data reviewed by ProPublica, High Country News, and Capital & Main"
+        },
+        {
+          "metric": "Fire-qualified ('red-carded') employees who left the agency in 2025",
+          "value": "1,800+",
+          "source": "High Country News, citing an anonymous Forest Service employee with knowledge of internal figures"
+        },
+        {
+          "metric": "Total Forest Service employees who left in 2025",
+          "value": "4,800 (13%+ of total workforce)",
+          "source": "High Country News, Capital & Main"
+        },
+        {
+          "metric": "Initial February 2025 layoffs of fire-support-certified staff",
+          "value": "~700",
+          "source": "ProPublica"
+        },
+        {
+          "metric": "Former employees asked to return; number who accepted (as of Aug. 12)",
+          "value": "1,400 asked, only 100 accepted",
+          "source": "Capital & Main, citing USDA spokesperson Larry Moore"
+        },
+        {
+          "metric": "Seasonal staff hour cap, waived from/to",
+          "value": "1,039 hours -> 1,560 hours (a ~50% increase)",
+          "source": "Government Executive"
+        }
+      ],
+      "caveat": "USDA's dispute of the vacancy figures is a genuine, specific rebuttal (citing 'outdated org charts and unfunded positions'), not a blanket denial -- though ProPublica's confirmation that its own data excluded unfunded positions undercuts that specific rebuttal. The practice of Forest Service staffing targets running below actual operational need reportedly predates this administration (a former agency official who co-authored a 2009-2011 personnel needs assessment said selective firefighter counting 'dates back years'), so some caution is warranted before treating the underlying vacancy-counting dispute as unique to 2025 -- what is specific to this period is the scale of departures and Chief Schultz's own memo acknowledging the resulting strain."
+    },
+    "confidence_note": "Very strong, multi-outlet investigative sourcing (ProPublica, High Country News, Capital & Main, Yale E360, Colorado Newsline all independently corroborating the same core figures) plus a genuinely rare document -- an internal Forest Service Chief's memo obtained by a news outlet that directly documents the agency's own leadership acknowledging the shortfall in near-real-time, contemporaneous with USDA's public denial. This internal-vs-external contradiction, documented on both sides, is unusually strong evidentiary material for this kind of tracker entry.",
+    "last_verified": "2026-07-08",
+    "sources": [
+      {
+        "name": "ProPublica — The Forest Service Claims It's Fully Staffed for a Worsening Fire Season. Data Shows Thousands of Unfilled Jobs.",
+        "url": "https://www.propublica.org/article/forest-service-staff-fire-season"
+      },
+      {
+        "name": "High Country News — 'Help is not on the way'",
+        "url": "https://www.hcn.org/articles/help-is-not-on-the-way/"
+      },
+      {
+        "name": "Capital & Main / Colorado Newsline — U.S. Forest Service cuts leave firefighters mowing lawns while morale craters",
+        "url": "https://coloradonewsline.com/2025/08/29/forest-service-cuts-morale-craters/"
+      },
+      {
+        "name": "Government Executive — Amid staffing cuts, Forest Service wants seasonal firefighters to work more hours this year",
+        "url": "https://www.govexec.com/workforce/2025/08/amid-staffing-cuts-forest-service-wants-seasonal-firefighters-work-more-hours-year/407432/"
+      },
+      {
+        "name": "Yale E360 — As Fire Season Ramps Up, Thousands of U.S. Firefighting Positions Are Vacant",
+        "url": "https://e360.yale.edu/digest/forest-service-firefighter-vacancies"
+      }
+    ]
+  },
+  {
+    "id": "imls-dismantlement-reversed-trump2",
+    "title": "IMLS Dismantlement Permanently Blocked by Federal Court — A Rare Full Reversal",
+    "institution": "Institute of Museum and Library Services (IMLS)",
+    "domain": "staff_office_cuts",
+    "status": "Reversed — federal court permanently blocked the dismantlement; agency fully restored via binding DOJ settlement",
+    "date_of_action": "2025-03-14 (executive order issued) through 2026-04-09 (binding settlement agreement finalized)",
+    "what_changed": "On March 14, 2025, Trump issued Executive Order 14238 directing the elimination of IMLS -- the only federal agency dedicated to the nation's libraries and museums. The administration moved quickly: by March 31, all but 12 of the agency's roughly 70-75 employees were placed on administrative leave, with a reduction-in-force notice set for May 4; nearly all IMLS board members were dismissed; and beginning April 1, the agency's Acting Director (Keith Sonderling, who stated he would act 'in lockstep' with the administration) began terminating previously-awarded, congressionally-appropriated grants nationwide, including Grants to States, National Leadership Grants, and Laura Bush 21st Century Librarian grants. Unlike most entries in this tracker, this story does not end in unreversed loss: the American Library Association and AFSCME sued (ALA v. Sonderling), and 21 state attorneys general separately sued in Rhode Island v. Trump. On May 1, 2025, a federal judge issued a temporary restraining order blocking further staff terminations. In November 2025, the U.S. District Court for Rhode Island ruled the dismantlement actions 'arbitrary and capricious and contrary to federal law,' and IMLS reinstated all previously terminated grants that December. On April 6, 2026, the administration withdrew its appeal of that ruling, and on April 9, 2026, ALA, AFSCME, and the Department of Justice signed a binding settlement agreement ensuring IMLS remains intact and continues its congressionally mandated work going forward -- closing the litigation with the agency fully restored, not merely paused.",
+    "primary_proponent": {
+      "name": "Keith Sonderling",
+      "role": "Acting Director of IMLS (appointed to implement the executive order)",
+      "note": "Sonderling stated publicly he would act 'in lockstep' with the administration's directive to eliminate the agency, and personally signed the grant-termination notices sent to states. This is the same official covered in this project's Cabinet-Level Legal Exposure tracker for a related action at the Department of Labor, where a federal court similarly blocked his agency's actions -- a recurring pattern across Sonderling's various acting-director roles during this period."
+    },
+    "estimated_impact": {
+      "summary": "ALA President Sam Helmick called the November 2025 court ruling 'a powerful affirmation of what libraries mean to America,' noting it restored 'shared access to books in rural and remote areas, essential virtual learning tools, children's reading programs and the countless library services available to anyone who walks into a public, school or academic library.' During the roughly 8-month period before reinstatement, real, documented harm occurred at the institutional level: the Dubuque Museum of Art in Iowa had already begun hiring and training staff against a $74,979 grant that was frozen: the Science Center of Iowa's planned internship program, backed by a $196,046 grant, was jeopardized. IMLS awarded $266 million in grants to museums and libraries in 2024, the baseline scale of funding that was disrupted before being restored.",
+      "figures": [
+        {
+          "metric": "IMLS staff placed on administrative leave (of ~70-75 total)",
+          "value": "all but 12",
+          "source": "American Library Association FAQ, citing the agency's own internal notices"
+        },
+        {
+          "metric": "Total IMLS grant funding awarded in 2024 (baseline scale)",
+          "value": "$266,000,000",
+          "source": "NPR"
+        },
+        {
+          "metric": "Time between dismantlement order and full legal restoration",
+          "value": "~13 months (March 2025 - April 2026)",
+          "source": "Timeline compiled from ALA's official case updates"
+        },
+        {
+          "metric": "States that joined the Rhode Island v. Trump lawsuit",
+          "value": "21",
+          "source": "American Library Association"
+        }
+      ],
+      "caveat": "This entry's 'Reversed' status specifically describes the legal outcome of the dismantlement attempt -- it does not mean no harm occurred. Real institutions (documented above) experienced genuine disruption, delayed programming, and staffing uncertainty during the roughly year-long period before restoration, and the Trump administration's FY2027 budget request, released the same day as the settlement, still proposed cutting IMLS funding going forward -- meaning the underlying policy dispute over the agency's funding level remains live even though the dismantlement-without-Congress legal question has been resolved against the administration."
+    },
+    "confidence_note": "Very strong, well-documented sourcing with primary legal source material (ALA's official case-tracking page cites specific court filings, judges, and dates) plus corroboration from NPR, and firsthand institutional accounts (Dubuque Museum of Art, Science Center of Iowa) via Iowa Public Radio. This is one of the more legally definitive entries in the tracker, since it concludes in a binding settlement agreement rather than ongoing, unresolved litigation.",
+    "last_verified": "2026-07-08",
+    "sources": [
+      {
+        "name": "American Library Association — FAQ: Executive Order Targeting IMLS",
+        "url": "https://www.ala.org/faq-executive-order-targeting-imls"
+      },
+      {
+        "name": "American Library Association — Court permanently blocks Trump's executive order to dismantle federal agency for America's libraries",
+        "url": "https://www.ala.org/news/2025/11/court-permanently-blocks-trumps-executive-order-dismantle-federal-agency-americas"
+      },
+      {
+        "name": "NPR — Libraries and museums get federal funding back after Trump cuts",
+        "url": "https://www.npr.org/2025/12/04/nx-s1-5633347/libraries-museums-federal-funding-imls-trump-cuts"
+      },
+      {
+        "name": "Iowa Public Radio — Iowa libraries and museums regain access to frozen federal grants",
+        "url": "https://www.iowapublicradio.org/arts-life/2025-12-05/iowa-museums-libraries-terminated-federal-funding-reinstated"
+      },
+      {
+        "name": "EveryLibrary — EveryLibrary Condemns the Trump Administration's Termination of IMLS Grants",
+        "url": "https://www.everylibrary.org/trump_termination_imls_grants"
+      }
+    ]
+  },
+  {
     "id": "irs-workforce-collapse-trump2",
     "title": "IRS Lost 27% of Its Workforce and a Third of Its Auditors — Independent Watchdogs Project $600B in Lost Revenue",
     "institution": "Internal Revenue Service (IRS)",
@@ -550,6 +1037,80 @@
       {
         "name": "NPR — Government shutdown delays an assistance program households use to heat homes",
         "url": "https://www.npr.org/2025/11/06/nx-s1-5598497/government-shutdown-delays-heat-homes-electric-bills-pennsylvania"
+      }
+    ]
+  },
+  {
+    "id": "national-park-service-staffing-crisis-trump2",
+    "title": "National Park Service Lost 24% of Its Permanent Staff — Internal Report Contradicts Interior's Public 'False Narrative' Denial",
+    "institution": "National Park Service (NPS), Department of the Interior",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing (staffing losses not reversed; administration proposing further FY2026 budget cuts)",
+    "date_of_action": "2025-02-14 (initial mass layoff, dubbed the 'Valentine's Day Massacre' by affected staff) through 2025-08-27 (internal operational-status report surfaces)",
+    "what_changed": "On February 14, 2025, NPS laid off approximately 1,000-1,700 probationary employees just weeks before peak visitor season began across the system's 63 national parks and 370 other managed sites. By July 2025, independent analysis of Interior Department workforce data by the National Parks Conservation Association (NPCA) found NPS had lost 24% of its permanent staff overall (about 4,000 people) since January, while only roughly 4,500 of a promised ~8,000 seasonal positions had been filled. In April 2025, Interior Secretary Doug Burgum issued Secretarial Order 3426, mandating that every park remain 'open and accessible' regardless of staffing levels -- meaning parks could not close facilities or reduce services in response to the shortages, only quietly absorb the strain. Per Order 3426's own reporting requirement, every park unit had to submit an updated operational status by July 25, 2025; an internal NPS report compiled from those submissions, first reported by the New York Times, documented widespread, specific impacts: nearly 70 parks reduced visitor center hours, 22 postponed maintenance, and 11 closed or delayed opening facilities. Specific documented examples include all 13 lifeguard positions vacant at Assateague Island National Seashore (leaving the beach unguarded), the fire management team reduced to one person at Cumberland Island National Seashore, and Indiana Dunes National Park's ranger-led tours cut from 575 to approximately 100 for the year after 4 of 6 interpretive-division supervisors took early retirement. When this internal report became public, Interior deputy press secretary Aubrie Spady called the reporting a 'false narrative,' stating 'staffing levels and operations at our National Parks this summer are on par with previous years. Full Stop' -- a direct denial of findings drawn from the agency's own internal, Order-3426-mandated data collection.",
+    "primary_proponent": {
+      "name": "Department of Government Efficiency (DOGE) / Doug Burgum",
+      "role": "DOGE directed the initial layoffs; Interior Secretary Burgum issued the 'stay open regardless of staffing' order that followed",
+      "note": "Burgum's Secretarial Order 3426 is the specific policy mechanism that turned a staffing shortage into a documented service-quality crisis -- by prohibiting parks from closing or scaling back in response to short-staffing, the order effectively required remaining staff to absorb the gap rather than allowing an official acknowledgment of reduced capacity. Interior's own deputy press secretary's 'false narrative' denial is difficult to reconcile with the fact that the cited findings came from data Interior itself required parks to report under Burgum's own order."
+    },
+    "estimated_impact": {
+      "summary": "NPCA President and CEO Theresa Pierno characterized the situation as predictable: 'This crisis was both predictable and preventable. Gutting staff, freezing seasonal hiring, and pushing out experienced rangers was a recipe for disaster.' Beyond visitor-experience impacts, several documented examples touch public safety and resource protection directly -- the loss of fire response capacity at Cumberland Island, halted pest/disease monitoring (including zoonotic disease surveillance for plague, rabies, and hantavirus) at Grand Canyon, and unstaffed entrance stations at Glacier National Park during normal operating hours.",
+      "figures": [
+        {
+          "metric": "NPS permanent staff lost since January 2025",
+          "value": "24% (~4,000 people)",
+          "source": "National Parks Conservation Association analysis of Interior Department workforce data, July 2025"
+        },
+        {
+          "metric": "Initial February 2025 layoff of probationary employees",
+          "value": "~1,000-1,700",
+          "source": "NPR and Roll Call, both reporting figures in this range from the same layoff event"
+        },
+        {
+          "metric": "Promised vs. filled seasonal positions",
+          "value": "~8,000 promised, ~4,500 filled",
+          "source": "NPCA, July 2025"
+        },
+        {
+          "metric": "Parks reporting reduced visitor center hours/services (of those that submitted data)",
+          "value": "~70 parks",
+          "source": "Internal NPS operational-status report, first reported by The New York Times, corroborated by NPCA"
+        },
+        {
+          "metric": "Parks reporting postponed maintenance",
+          "value": "22",
+          "source": "Internal NPS operational-status report"
+        },
+        {
+          "metric": "Ranger-led tours at Indiana Dunes, before/after",
+          "value": "575 -> ~100 for the year",
+          "source": "National Parks Traveler, citing park-reported data"
+        }
+      ],
+      "caveat": "This is a genuinely documented internal-contradicts-public-statement case: Interior's 'false narrative' denial came after, and in direct response to, an internal report compiled from data the agency itself required parks to submit under Secretarial Order 3426 -- this is not simply outside advocacy groups against the administration, but the administration's own collected data against its own public messaging. Congressional Republicans overseeing NPS (Rep. Ryan Zinke, Rep. Tom Tiffany, Sen. Steve Daines) expressed confidence Secretary Burgum could adequately staff parks for the season, a genuinely different assessment from Democratic members and outside advocacy groups, worth presenting as a real point of disagreement among people with access to the same underlying situation, not just a one-sided finding."
+    },
+    "confidence_note": "Very strong sourcing: the National Parks Conservation Association's analysis is based on official Interior Department workforce data, not estimates; the internal operational-status report was first reported by the New York Times and independently corroborated by NPCA and National Parks Traveler using the same underlying park-by-park submissions; and Interior's own denial is on the record and directly checkable against the data it purports to dispute. Individual park examples (Assateague lifeguards, Cumberland Island fire team, Indiana Dunes tours) are specific, named, and quantified rather than general characterizations.",
+    "last_verified": "2026-07-08",
+    "sources": [
+      {
+        "name": "National Parks Conservation Association — Staffing Crisis at National Parks Reaches Breaking Point, New Data Shows 24% Decline in Permanent Workforce",
+        "url": "https://www.npca.org/articles/9551-staffing-crisis-at-national-parks-reaches-breaking-point-new-data-shows-24"
+      },
+      {
+        "name": "National Parks Conservation Association — Shuttered Visitor Centers, Closed Campgrounds, Slower Emergency Response: Staffing Crisis Hits National Parks Nationwide",
+        "url": "https://www.npca.org/articles/10343-shuttered-visitor-centers-closed-campgrounds-slower-emergency-response"
+      },
+      {
+        "name": "National Parks Traveler — UPDATE | Internal National Park Service Data Show How Parks Are Struggling To Get By",
+        "url": "https://www.nationalparkstraveler.org/2025/08/update-internal-national-park-service-data-show-how-parks-are-struggling-get"
+      },
+      {
+        "name": "NPR — National Park Service layoffs, hiring delays impact visitors",
+        "url": "https://www.npr.org/2025/02/26/nx-s1-5307908/national-parks-layoffs-visitors-disruptions"
+      },
+      {
+        "name": "Roll Call — Workforce cuts raise concerns over national park upkeep",
+        "url": "https://rollcall.com/2025/03/11/workforce-cuts-raise-concerns-over-national-park-upkeep/"
       }
     ]
   },
