@@ -411,6 +411,78 @@
     ]
   },
   {
+    "id": "cpsc-commissioner-mass-firing-quorum-crisis-trump2",
+    "title": "CPSC's Three Democratic Commissioners Fired, Battery-Safety Standard Withdrawn, Agency Left in Republican-Only Rump",
+    "institution": "Consumer Product Safety Commission",
+    "domain": "staff_office_cuts",
+    "status": "Complete (firings litigated and now final following the June 29, 2026 Trump v. Slaughter ruling)",
+    "date_of_action": "2025-05-08 (firings) through 2026-06-29 (Supreme Court finalization)",
+    "what_changed": "On May 8, 2025, President Trump fired three of the CPSC's five commissioners -- Alexander Hoehn-Saric, Mary Boyle, and Richard Trumka Jr., all Biden appointees -- citing 'neglect of duty or malfeasance in office' without further detail, hours after the three had voted to block DOGE representatives from entering CPSC headquarters to fire staff employees. The CPSC's founding statute allows removal only for 'neglect of duty or malfeasance in office' and requires no more than three of five commissioners share a political party, structural protections designed to preserve a bipartisan agency that regulates the safety of thousands of consumer products. The fired commissioners sued; a federal judge in Maryland ruled the firings unlawful and ordered reinstatement, and the Fourth Circuit declined to stay that order, but the Supreme Court granted an emergency stay on July 23, 2025, allowing the firings to proceed while the appeal continued. During the roughly five weeks the three commissioners were absent, the two remaining Republican-aligned commissioners -- Acting Chairman Peter Feldman and Douglas Dziak -- withdrew a previously approved (3-2 vote) e-bike and lithium-ion battery safety testing standard from public comment; lithium-ion battery fires from e-bikes and similar devices have been a rising home-fire and fatality concern nationally. The same two commissioners released a CPSC FY2026 budget request proposing to cut the agency's funding and staffing and to transfer CPSC's functions to the Department of Health and Human Services, led by Secretary Robert F. Kennedy Jr. On June 29, 2026, the Supreme Court's ruling in Trump v. Slaughter -- which held FTC commissioners' for-cause removal protections unconstitutional -- prompted CPSC Acting Chairman Feldman to state publicly that the fired commissioners' 'claims should now fail as a matter of law,' effectively finalizing the terminations. As of this writing the CPSC operates with only two commissioners, both Republican-aligned.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Personally ordered the May 8, 2025 firing of the three Democratic CPSC commissioners; the firings were defended before the Supreme Court by Solicitor General D. John Sauer."
+    },
+    "estimated_impact": {
+      "summary": "A statutorily bipartisan, five-member consumer-safety commission has operated as a two-member, single-party body for over a year, during which a pending battery-fire safety standard was withdrawn and a budget proposal to shrink and fold the agency into HHS was released.",
+      "figures": [
+        {
+          "metric": "CPSC commissioners removed",
+          "value": "3 of 5 (all Democratic appointees)",
+          "source": "CPSC firing notices, reported by NPR, PBS, SCOTUSblog"
+        },
+        {
+          "metric": "Proposed CPSC budget cut, FY2026",
+          "value": "10.5% funding reduction",
+          "source": "CPSC FY2026 budget request, reported by Bicycle Retailer and Industry News"
+        },
+        {
+          "metric": "Proposed CPSC staffing cut, FY2026",
+          "value": "14% staffing reduction",
+          "source": "CPSC FY2026 budget request, reported by Bicycle Retailer and Industry News"
+        },
+        {
+          "metric": "Statutory quorum requirement",
+          "value": "normally 3 of 5 commissioners; reduced to 2 for a 6-month window following a vacancy, per 15 U.S.C. 2053(d)",
+          "source": "Consumer Product Safety Act, as summarized by Stinson LLP"
+        }
+      ],
+      "caveat": "The administration's position, stated by Acting Chairman Feldman, is that the Supreme Court's Trump v. Slaughter decision confirms 'officials who exercise executive power are accountable to the President' and that the prior for-cause removal protections were themselves unconstitutional -- i.e., that the firings were lawful all along, not merely permitted going forward. The withdrawn e-bike/lithium-battery standard had not been finalized and remains a live issue the agency could revisit; its withdrawal reflects the preference of the two remaining commissioners rather than a formal reversal of prior CPSC safety findings. Consumer-safety groups (Consumer Federation of America, National Consumers League, Public Citizen, which represented the fired commissioners) and the fired commissioners themselves argue the firings undermine the bipartisan design Congress built into the agency; the HHS-transfer budget proposal has seen no visible congressional movement as of mid-2026 per Covington & Burling's analysis, so its practical effect remains prospective rather than realized."
+    },
+    "confidence_note": "High confidence throughout: the firings, litigation history, and Supreme Court stay are well documented across NPR, PBS, SCOTUSblog, and CBS News, with direct quotes from the fired commissioners and CPSC's own newsroom statement confirming the post-Slaughter finalization. The budget-cut percentages and e-bike standard withdrawal are sourced to a single trade outlet (Bicycle Retailer and Industry News) corroborated by the underlying CPSC budget request; treated as solid but narrower sourcing than the litigation timeline.",
+    "last_verified": "2026-07-10",
+    "sources": [
+      {
+        "name": "NPR/PBS NewsHour - Supreme Court allows Trump to fire 3 Democratic consumer product safety commissioners",
+        "url": "https://www.pbs.org/newshour/politics/supreme-court-allows-trump-to-fire-3-democratic-consumer-product-safety-commissioners"
+      },
+      {
+        "name": "SCOTUSblog - Supreme Court sides with Trump administration in battle over ability to remove agency commissioners",
+        "url": "https://www.scotusblog.com/2025/07/supreme-court-sides-with-trump-administration-in-battle-over-cpsc-commissioners/"
+      },
+      {
+        "name": "Bicycle Retailer and Industry News - Supreme Court rules Trump has authority to fire CPSC commissioners",
+        "url": "https://www.bicycleretailer.com/industry-news/2025/07/24/supreme-court-rules-trump-has-authority-fire-cpsc-commissioners"
+      },
+      {
+        "name": "CPSC.gov - Statement of Acting Chairman Peter A. Feldman Regarding the Supreme Court's Decision in Trump v. Slaughter",
+        "url": "https://www.cpsc.gov/Newsroom/News-Releases/2026/Statement-of-Acting-Chairman-Peter-A-Feldman-Regarding-Slaughter-Decision"
+      },
+      {
+        "name": "Covington & Burling - The CPSC Under Presidential Control: Implications of Trump v. Slaughter",
+        "url": "https://www.cov.com/en/news-and-insights/insights/2026/06/the-cpsc-under-presidential-control-implications-of-trump-v-slaughter"
+      },
+      {
+        "name": "Stinson LLP - Challenges in the CPSC: What Has Happened and What Comes Next",
+        "url": "https://www.stinson.com/newsroom-publications-challenges-in-the-cpsc-what-has-happened-and-what-comes-next"
+      },
+      {
+        "name": "Consumer Federation of America - Supreme Court Allows Trump Administration to Remove Three Product Safety Commissioners Without Cause",
+        "url": "https://consumerfed.org/press_release/supreme-court-allows-trump-administration-to-remove-three-product-safety-commissioners-without-cause/"
+      }
+    ]
+  },
+  {
     "id": "doj-civil-rights-division-exodus-trump2",
     "title": "DOJ Civil Rights Division Lost 70% of Its Attorneys — Voting Section Down From 30 to 3",
     "institution": "Civil Rights Division, U.S. Department of Justice",
@@ -894,6 +966,65 @@
       {
         "name": "yourNEWS - 'FDA Vaccine Chief Vinay Prasad Departs Again, Deputy Elevated to Lead Biologics Center'",
         "url": "https://yournews.com/2026/05/04/6885169/fda-vaccine-chief-vinay-prasad-departs-again-deputy-elevated-to/"
+      }
+    ]
+  },
+  {
+    "id": "federal-reserve-cook-removal-blocked-trump2",
+    "title": "Trump's Attempt to Fire Fed Governor Lisa Cook Blocked by Supreme Court, Fed Independence Preserved",
+    "institution": "Federal Reserve Board of Governors",
+    "domain": "staff_office_cuts",
+    "status": "Blocked (Supreme Court allowed Cook to remain in office pending further litigation; underlying 'for cause' merits not yet decided)",
+    "date_of_action": "2025-08-25 (attempted firing) through 2026-06-29 (Supreme Court ruling)",
+    "what_changed": "In August 2025, President Trump attempted to fire Federal Reserve Governor Lisa Cook -- the first attempted removal of a sitting Fed governor in the central bank's 111-year history -- citing mortgage-fraud allegations against her from before she joined the Fed, raised by FHFA Director (and later Director of National Intelligence) William Pulte. Cook, who denied the allegations and was never charged, sued, arguing her removal was not 'for cause' as the Federal Reserve Act requires and that she was denied due process. A federal district court blocked the firing with a preliminary injunction; the D.C. Circuit declined to lift it; and on June 29, 2026 -- the same day it ruled against FTC Commissioner Rebecca Slaughter in the companion case Trump v. Slaughter -- the Supreme Court ruled 5-4 in Trump v. Cook that Cook could remain in her position while her lawsuit proceeds. Chief Justice Roberts, writing for a majority that included conservative Justice Kavanaugh alongside the Court's three liberals, held that accepting the administration's position 'would in effect transform the Federal Reserve's for-cause protection into at-will employment' and stressed that 'not only the fact of independence but also the appearance of independence is key to the Federal Reserve's design.' The Court explicitly carved the Federal Reserve out of the broader independence-narrowing logic it applied to the FTC, CPSC, NCUA, and other agencies the same day. Cook remained in her seat throughout, participating in the Fed's September 2025 rate-setting meeting. Trump responded on Truth Social that the ruling was 'strictly procedural' and vowed further action; Pulte stood by his fraud allegations.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Personally announced Cook 'must resign' and then attempted her termination in August 2025, based on allegations forwarded by FHFA Director William Pulte; both the district court and the Supreme Court found the administration had not shown Cook was actually unfit to serve."
+    },
+    "estimated_impact": {
+      "summary": "An attempted removal of a sitting Federal Reserve governor -- widely described by Fed Chair Jerome Powell as 'perhaps the most important legal case in the Fed's 113-year history' -- was blocked, preserving the central bank's independence from at-will presidential removal even as the Court simultaneously stripped similar protections from most other independent agencies the same day.",
+      "figures": [
+        {
+          "metric": "Vote margin blocking the firing",
+          "value": "5-4 (Roberts and Kavanaugh joined the three liberal justices)",
+          "source": "SCOTUSblog, Trump v. Cook opinion"
+        },
+        {
+          "metric": "Time Cook served under injunction before the ruling",
+          "value": "approximately 10 months (August 2025 firing attempt to June 2026 ruling)",
+          "source": "Wikipedia timeline of Trump v. Cook, corroborated by SCOTUSblog and CNBC reporting"
+        },
+        {
+          "metric": "Fed governors' statutory term length",
+          "value": "14 years, staggered, by design to prevent single-president control",
+          "source": "Federal Reserve Act, cited in CNBC and SCOTUSblog coverage"
+        }
+      ],
+      "caveat": "The administration's stated rationale was the mortgage-fraud allegations against Cook, which she denies and for which she has not been charged; Pulte has said he believes she 'will be indicted.' Cook and her attorneys have characterized the allegations as pretextual, arguing the real motive was her refusal to lower interest rates as Trump demanded. The Supreme Court's ruling was explicitly procedural and preliminary -- it found the administration had not shown a likelihood of success on the merits, not that Cook could never be removed; litigation over whether she was fired 'for cause' continues. This is included as a rare reversal/blocked story for balance: unlike the FTC, CPSC, and NCUA entries in this tracker, the Fed's independence held, at least for now."
+    },
+    "confidence_note": "High confidence. Directly sourced to the Supreme Court's own opinion in Trump v. Cook (25A312, decided June 29, 2026), SCOTUSblog's contemporaneous reporting, and on-record statements from Cook, Trump, and Pulte reported by CNBC, Newsweek, and NBC News. The 'for cause' merits question remains genuinely unresolved and is presented as such.",
+    "last_verified": "2026-07-10",
+    "sources": [
+      {
+        "name": "Supreme Court of the United States - Trump v. Cook, 25A312 (June 29, 2026)",
+        "url": "https://www.supremecourt.gov/opinions/25pdf/25a312_5468.pdf"
+      },
+      {
+        "name": "SCOTUSblog - Court prevents Trump from firing Fed governor",
+        "url": "https://www.scotusblog.com/2026/06/court-prevents-trump-from-firing-fed-governor/"
+      },
+      {
+        "name": "CNBC - Supreme Court rules Trump cannot fire Fed Governor Lisa Cook for now",
+        "url": "https://www.cnbc.com/2026/06/29/supreme-court-lisa-cook-trump-federal-reserve.html"
+      },
+      {
+        "name": "NBC News - Supreme Court rules Trump can't fire Fed member Lisa Cook, grants him more power over other independent agencies",
+        "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-rules-trump-cannot-fire-fed-member-lisa-cook-grants-powe-rcna234931"
+      },
+      {
+        "name": "Newsweek - Lisa Cook Responds to Supreme Court Fed Ruling Against Trump",
+        "url": "https://www.newsweek.com/supreme-court-federal-reserve-lisa-cook-donald-trump-12135615"
       }
     ]
   },
@@ -1706,6 +1837,74 @@
     ]
   },
   {
+    "id": "ncua-harper-otsuka-firing-quorum-loss-trump2",
+    "title": "NCUA Board Reduced to a Single Member After Trump Fires Both Democratic Board Members",
+    "institution": "National Credit Union Administration",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing (firings effectively finalized following the June 29, 2026 Trump v. Slaughter ruling; appeal still pending at the D.C. Circuit)",
+    "date_of_action": "2025-04-15 (firings) through 2026-06-29 (Supreme Court ruling narrowed path to reinstatement)",
+    "what_changed": "In April 2025, President Trump fired both Democratic members of the National Credit Union Administration's three-person board -- former Chairman Todd Harper and Tanya Otsuka -- by email, without citing cause, leaving Republican Chair Kyle Hauptman as the sole remaining board member. Harper's term was not set to expire until April 2027 and Otsuka's not until August 2029. The Federal Credit Union Act defines the NCUA board as a three-member body with staggered six-year terms, structured (according to a subsequent district court finding) to mirror the Federal Reserve's governance model and insulate credit union regulation from political turnover. With only one board member, the NCUA could continue routine supervision and enforcement but could not vote on new rulemakings or policy changes; a scheduled board meeting was canceled. Harper and Otsuka sued; in July 2025 U.S. District Judge Amir Ali ruled the firings unlawful and ordered reinstatement, finding Congress had deliberately restricted the president's removal power when it added fixed terms to the statute in 1978. The two briefly returned to a board meeting before an appeals court granted the administration an emergency stay, sidelining them again. The case was held in abeyance pending Trump v. Slaughter; when the Supreme Court ruled for the administration on June 29, 2026, credit-union trade groups and legal analysts concluded the ruling 'effectively ends' the Harper/Otsuka challenge, since the Federal Credit Union Act -- unlike the Federal Reserve Act -- contains no explicit 'for cause' removal language for the NCUA to lean on. Harper and Otsuka's attorneys have since asked the D.C. Circuit to let them argue the NCUA deserves Fed-like treatment given its similar market-regulatory structure, but as of this writing they remain off the board, which continues to operate with a single member.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Personally ordered the firings of Harper and Otsuka by email in April 2025; the administration's Department of Justice has since argued in filings that the Federal Credit Union Act contains no language restricting presidential removal authority."
+    },
+    "estimated_impact": {
+      "summary": "A statutorily three-member, bipartisan financial regulator serving over 140 million credit union members has operated with a single board member for over a year, unable to vote on new rulemakings during that period, with a Supreme Court ruling now narrowing the fired members' path back to the board.",
+      "figures": [
+        {
+          "metric": "NCUA board members fired",
+          "value": "2 of 3 (both Democratic appointees)",
+          "source": "American Banker, Bloomberg, NCUA staff notice"
+        },
+        {
+          "metric": "Credit union members affected by NCUA's regulatory scope",
+          "value": "more than 144 million",
+          "source": "Defense Credit Union Council statement, cited by CUToday.info"
+        },
+        {
+          "metric": "Board members required for quorum on rulemakings",
+          "value": "at least 2, per NCUA regulation 791.2",
+          "source": "America's Credit Unions compliance blog, citing NCUA regulations"
+        },
+        {
+          "metric": "Duration of single-member board operation as of this writing",
+          "value": "approximately 15 months (April 2025 firing to July 2026)",
+          "source": "Banking Dive, America's Credit Unions reporting"
+        }
+      ],
+      "caveat": "The administration's position, per DOJ filings, is that the Federal Credit Union Act contains no explicit 'for cause' removal protection comparable to the FTC Act's, and that Trump v. Slaughter's reasoning therefore applies with even less obstacle at the NCUA than it did at the FTC. Harper and Otsuka counter that Congress deliberately modeled the NCUA's structure on the Federal Reserve -- which the same June 29, 2026 ruling explicitly protected -- and that the district court already found this historical intent persuasive. Industry groups (America's Credit Unions, Defense Credit Union Council) have taken a notably neutral, process-focused position, calling mainly for a restored three-person board regardless of who fills the seats, rather than defending either side's substantive position. The litigation over the underlying legal question remains technically open at the D.C. Circuit even though most analysts consider the practical outcome settled."
+    },
+    "confidence_note": "High confidence on the firing, litigation timeline, and post-Slaughter analysis, sourced to American Banker, Bloomberg, Banking Dive, Jurist, the ABA Banking Journal, and trade-press legal analysis from America's Credit Unions and CUToday.info. The characterization of the ruling as 'effectively ending' the case reflects the near-unanimous view of legal commentators cited rather than a final court holding, and is presented with that caveat.",
+    "last_verified": "2026-07-10",
+    "sources": [
+      {
+        "name": "American Banker / Credit Union Journal - Trump fires Democratic credit union regulators",
+        "url": "https://www.americanbanker.com/news/trump-fires-democratic-credit-union-regulators"
+      },
+      {
+        "name": "Banking Dive - Fired NCUA board members seek quick ruling on reinstatement",
+        "url": "https://www.bankingdive.com/news/fired-ncua-board-members-liken-agency-fed-harper-otsuka-trump-supreme-court/824477/"
+      },
+      {
+        "name": "Jurist - Federal judge rules Trump's firing of credit union board members unlawful",
+        "url": "https://www.jurist.org/news/2025/07/us-federal-judge-orders-reinstatement-of-national-credit-union-administration-board-members/"
+      },
+      {
+        "name": "America's Credit Unions - A New Era of Presidential Authority: The Trump v. Slaughter Decision",
+        "url": "https://www.americascreditunions.org/blogs/compliance/new-era-presidential-authority-trump-v-slaughter-decision"
+      },
+      {
+        "name": "CUToday.info - What Supreme Court's Landmark Ruling Means for Harper, Otsuka -- And The Future Of NCUA",
+        "url": "https://www.cutoday.info/THE-feature/What-Supreme-Court-s-Landmark-Ruling-Means-for-Harper-Otsuka-And-The-Future-Of-NCUA"
+      },
+      {
+        "name": "ABA Banking Journal - Federal court reinstates fired NCUA board members",
+        "url": "https://bankingjournal.aba.com/2025/07/federal-court-reinstates-fired-ncua-board-members/"
+      }
+    ]
+  },
+  {
     "id": "nea-grant-terminations-trump2",
     "title": "NEA Terminates Over Half of Its Open Grants in a Single Weekend",
     "institution": "National Endowment for the Arts",
@@ -2089,6 +2288,78 @@
       {
         "name": "ProPublica, 'White House Proposal Could Gut Climate Modeling the World Depends On'",
         "url": "https://www.propublica.org/article/trump-noaa-budget-cuts-climate-change-modeling-princeton-gfdl"
+      }
+    ]
+  },
+  {
+    "id": "nrc-hanson-firing-independence-erosion-trump2",
+    "title": "NRC Commissioner Fired Without Cause, Agency Independence and Staffing Cut Under DOGE Reorganization",
+    "institution": "Nuclear Regulatory Commission",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing (firing final and unlitigated; DOGE-directed reorganization and regulatory rewrite still in progress)",
+    "date_of_action": "2025-05-23 (executive order) and 2025-06-13 (Hanson firing)",
+    "what_changed": "On June 13, 2025, President Trump fired NRC Commissioner Christopher T. Hanson, effective immediately, via a two-line email from the White House Presidential Personnel Office. It was the first removal of an NRC commissioner since the agency's creation in 1974; Hanson's term was not set to expire until 2029, and no cause was cited beyond a White House spokesperson's comment that 'all organizations are more effective when leaders are rowing in the same direction.' Hanson, originally appointed by Trump in his first term and later chaired the commission under Biden, said he was terminated 'without cause, contrary to existing law and longstanding precedent regarding removal of independent agency appointees.' The firing left the five-member commission at a 2-2 partisan split with one vacancy, and came three weeks after Trump signed Executive Order 14300, 'Ordering the Reform of the Nuclear Regulatory Commission' (May 23, 2025), which directs the NRC to reorganize and undertake reductions in force in consultation with its DOGE Team, shrink the Advisory Committee on Reactor Safeguards to the statutory minimum, and complete a 'wholesale revision' of its safety regulations and guidance documents within 18 months, with rulemaking routed through OMB Director Russell Vought's office -- a process not previously applied to this traditionally arms-length safety regulator. Career staff departures followed; NRC's No. 2 career operations official, a 32-year veteran and self-described two-time Trump voter, retired in May 2025 partly in protest of political operatives being embedded in senior leadership positions with what he called potential to 'significantly influence decision-making.'",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Personally ordered Hanson's termination via the White House Presidential Personnel Office and signed EO 14300 directing DOGE-guided NRC workforce reductions and a wholesale regulatory rewrite routed through OMB Director Russell Vought."
+    },
+    "estimated_impact": {
+      "summary": "Removal of a sitting commissioner outside the agency's 51-year practice of for-cause-only removal, combined with a DOGE-directed reduction in force and an OMB-routed rewrite of nuclear safety regulations, at an agency already short-staffed against its own hiring targets.",
+      "figures": [
+        {
+          "metric": "NRC new-hire shortfall against FY2023 recruitment goal",
+          "value": "281 hired vs. 400 goal (about 160 short)",
+          "source": "2024 NRC Inspector General report, cited by Government Executive"
+        },
+        {
+          "metric": "Minimum dedicated staff reassigned to draft new regulations under EO 14300",
+          "value": "at least 20 officials",
+          "source": "Federal Register, EO 14300 text"
+        },
+        {
+          "metric": "Deadline for wholesale revision of NRC safety regulations",
+          "value": "proposed rules within 9 months, final rules within 18 months of May 23, 2025",
+          "source": "Federal Register, EO 14300"
+        },
+        {
+          "metric": "NRC partisan composition after Hanson's removal",
+          "value": "2 Democratic-aligned to 2 Republican-aligned commissioners, with one vacancy (of 5 seats)",
+          "source": "Morgan Lewis 'Up & Atom' legal analysis, June 2025"
+        }
+      ],
+      "caveat": "The administration's stated rationale, laid out in EO 14300 itself, is that NRC over-regulation has stifled the industry -- only two new reactors have come online since 1978 -- and that reorganization is needed to meet a stated goal of quadrupling U.S. nuclear capacity to 400 GW by 2050 to meet AI-driven electricity demand; the order also directs staffing increases in new-reactor licensing offices even as it mandates cuts elsewhere. Nuclear safety and watchdog groups (Union of Concerned Scientists, American Nuclear Society, Nuclear Innovation Alliance) and congressional Democrats have raised the independence and safety-oversight concerns described above; some pro-nuclear industry voices have also flagged the licensing deadlines and workforce cuts as potentially undermining the very buildout the order seeks to accelerate. No senior administration or NRC official has published a defense of the Hanson firing beyond the 'rowing in the same direction' comment; NRC's own public statement was limited to noting the agency can function with fewer than five commissioners."
+    },
+    "confidence_note": "High confidence on the firing itself and the EO 14300 text (Federal Register, White House, NPR, NOTUS, multiple law-firm summaries) and on Hanson's own on-record statement. The staffing-shortfall figure and career-departure detail (Techdirt/ProPublica) are well-sourced but describe broader trends rather than counts specific to the Hanson firing alone; framed accordingly in the summary above.",
+    "last_verified": "2026-07-10",
+    "sources": [
+      {
+        "name": "NPR - President Trump fires a member of the Nuclear Regulatory Commission",
+        "url": "https://www.npr.org/2025/06/16/nx-s1-5435285/trump-fires-nuclear-regulatory-commission-member-nrc"
+      },
+      {
+        "name": "NOTUS - Trump Fired a Nuclear Regulatory Commissioner He Previously Appointed",
+        "url": "https://www.notus.org/trump-white-house/trump-nuclear-regulatory-commissioner-fired-chris-hanson"
+      },
+      {
+        "name": "Federal Register - Ordering the Reform of the Nuclear Regulatory Commission (EO 14300)",
+        "url": "https://www.federalregister.gov/documents/2025/05/29/2025-09798/ordering-the-reform-of-the-nuclear-regulatory-commission"
+      },
+      {
+        "name": "Government Executive - DOGE reorganization of nuclear regulator prompts concerns",
+        "url": "https://www.govexec.com/workforce/2025/05/doge-reorganization-nuclear-regulator-prompts-concerns-about-agencys-continued-focus-safety/405712/"
+      },
+      {
+        "name": "Morgan Lewis Up & Atom - Leadership at the NRC: Hanson Dismissed, Wright Nominated",
+        "url": "https://www.morganlewis.com/blogs/upandatom/2025/06/leadership-at-the-nrc-hanson-dismissed-wright-nominated-for-reappointment"
+      },
+      {
+        "name": "Techdirt/ProPublica - DOGE Goes Nuclear: How Trump Invited Silicon Valley Into America's Nuclear Power Regulator",
+        "url": "https://www.techdirt.com/2026/04/02/doge-goes-nuclear-how-trump-invited-silicon-valley-into-americas-nuclear-power-regulator/"
+      },
+      {
+        "name": "Senate Environment and Public Works Committee (Minority) - Statement on Trump Firing NRC Commissioner Hanson",
+        "url": "https://www.epw.senate.gov/public/index.cfm/2025/6/whitehouse-murray-heinrich-statement-on-trump-firing-nrc-commissioner-hanson"
       }
     ]
   },
