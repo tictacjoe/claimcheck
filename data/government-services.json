@@ -1100,6 +1100,139 @@
     ]
   },
   {
+    "id": "fws-endangered-species-staff-cuts-trump2",
+    "title": "Fish and Wildlife Service Loses Over 1,500 Staff; Zero New Species Listed as Endangered",
+    "institution": "U.S. Fish and Wildlife Service",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing",
+    "date_of_action": "2025-01 to 2026-02 (staffing reductions); ongoing effects on listing backlog through the last-verified date",
+    "what_changed": "Between January 2025 and February 2026, the Fish and Wildlife Service saw a net reduction of 1,538 employees, according to Office of Personnel Management data compiled by the Congressional Research Service, with independent analyses from the Center for Biological Diversity estimating the cuts included more than 500 biologists specifically. The Interior Department separately proposed a FY2026 budget cutting the agency's Endangered Species Act listing-activity funding by 36% year-over-year, part of an overall reduction in FWS's average annual appropriations from roughly $1.94 billion (2017-2025 average) to approximately $1.6 billion for FY2026; the same budget proposed eliminating funding for the State and Tribal Wildlife Grant program entirely. The Service also discontinued its Refuge System Strategic Growth Policy and, according to conservation groups, has effectively stopped conducting the annual Florida panther population count last performed in 2015. As of reporting in April 2026, the Fish and Wildlife Service had added zero new species to the federal endangered or threatened species list during Trump's second term, compared to 22 species added during the entirety of his first term, a gap the Center for Biological Diversity described as the longest period without a new listing decision since the Endangered Species Act was implemented. A backlog of more than 400 species remains pending final agency listing decisions.",
+    "primary_proponent": {
+      "name": "Doug Burgum",
+      "role": "Secretary of the Interior",
+      "note": "Oversees the Fish and Wildlife Service as part of the Interior Department and directed the FY2026 budget request that cut Endangered Species Act listing funding and proposed eliminating the State and Tribal Wildlife Grant program."
+    },
+    "estimated_impact": {
+      "summary": "The federal agency principally responsible for deciding which plants and animals receive Endangered Species Act protection lost more than a fifth of its workforce and saw its listing-activity budget cut by more than a third, coinciding with the longest stretch without a single new species listing in the Act's history.",
+      "figures": [
+        {
+          "metric": "Net FWS staff reduction, Jan. 2025 to Feb. 2026",
+          "value": "1,538 employees, per official OPM data",
+          "source": "Congressional Research Service report via EveryCRSReport.com, July 2026"
+        },
+        {
+          "metric": "Biologists estimated among those cut",
+          "value": "More than 500",
+          "source": "Center for Biological Diversity FOIA-based analysis, cited by National Parks Traveler, January 2026"
+        },
+        {
+          "metric": "New species listed as endangered or threatened, second Trump term to date",
+          "value": "0, compared to 22 listed during his entire first term",
+          "source": "Center for Biological Diversity database, cited by Alaska Beacon, Oregon Capital Chronicle, and Daily Montanan, April 2026"
+        },
+        {
+          "metric": "FY2026 Endangered Species Act listing-activity budget",
+          "value": "36% smaller than the prior year; overall FWS appropriations reduced from a ~$1.94 billion 2017-2025 average to ~$1.6 billion",
+          "source": "Mountain Journal, January 2026, citing Center for Biological Diversity analysis"
+        },
+        {
+          "metric": "Species backlog awaiting final listing decisions",
+          "value": "400+",
+          "source": "Multiple outlets citing Center for Biological Diversity endangered species co-director Noah Greenwald"
+        }
+      ],
+      "caveat": "FWS's official position, per an agency spokesperson statement, is that it 'remains dedicated to conserving America's wildlife and natural habitats while promoting access, use, and enjoyment of public lands by the American people, all while upholding federal responsibilities with efficiency and accountability.' The Interior Department has simultaneously expanded hunting and fishing access at dozens of refuge sites during the same period, which it points to as evidence of continued investment in the Refuge System even amid budget reductions. Conservation groups and independent researchers, including an Oregon State University economist who studies Endangered Species Act effectiveness, counter that empirical research supports listing and dedicated recovery investment as effective tools for preventing extinction, and that delayed listings carry a real biological cost as at-risk populations continue to decline while awaiting review. The Center for Biological Diversity itself notes that staffing and budget reductions at FWS are 'consistent with what other Republican administrations have done,' while characterizing the scale of this administration's cuts as going significantly further."
+    },
+    "confidence_note": "Very strong. The core staffing figure comes from a Congressional Research Service report citing official OPM data. The zero-new-listings comparison is drawn from a nonprofit tracking database corroborated independently across three separate state-level news outlets (Alaska Beacon, Oregon Capital Chronicle, Daily Montanan) all reporting the same underlying figures consistently, and the budget figures are further corroborated by Bloomberg Law and Mountain Journal reporting.",
+    "last_verified": "2026-07-09",
+    "sources": [
+      {
+        "name": "Congressional Research Service, 'Appropriations for Implementation of the Endangered Species Act Since FY2017'",
+        "url": "https://www.everycrsreport.com/reports/R49021.html"
+      },
+      {
+        "name": "Alaska Beacon, 'Record low number of threatened species get new protections under Trump, zero in second term'",
+        "url": "https://alaskabeacon.com/2026/04/07/record-low-number-of-threatened-species-get-new-protections-under-trump-zero-in-second-term/"
+      },
+      {
+        "name": "Mountain Journal, 'Wolverine Advocates Sue FWS for Missing ESA Deadline. Are Grizzlies Next?'",
+        "url": "https://mountainjournal.org/wolverine-advocates-sue-fws-for-missing-endangered-species-act-deadline-are-grizzlies-next/"
+      },
+      {
+        "name": "National Parks Traveler, 'Conservation Groups Say USFWS Cuts Will Put Wildlife At Risk'",
+        "url": "https://www.nationalparkstraveler.org/2026/01/conservation-groups-say-usfws-cuts-will-put-wildlife-risk"
+      },
+      {
+        "name": "Inside Climate News, 'Amid Cuts to the U.S. Fish and Wildlife Service, Species Like the Florida Panther Languish'",
+        "url": "https://insideclimatenews.org/news/10032026/florida-panther-usfws-cuts/"
+      }
+    ]
+  },
+  {
+    "id": "hud-fair-housing-staff-cuts-trump2",
+    "title": "HUD's Fair Housing Office Cut by Roughly Two-Thirds Amid Whistleblower Allegations",
+    "institution": "U.S. Department of Housing and Urban Development, Office of Fair Housing and Equal Opportunity",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing",
+    "date_of_action": "2025-01 through 2025-11 (staffing reductions); enforcement policy changes ongoing through 2026",
+    "what_changed": "Internal documents revealed in January 2025 that HUD officials, working with the Department of Government Efficiency, planned to cut staff at the Office of Fair Housing and Equal Opportunity (FHEO), which investigates housing discrimination complaints nationwide, by 77%. Following the March 2025 confirmation of Secretary Scott Turner, probationary employees were terminated, according to a former HUD civil rights attorney, 'with no real justification.' By October 2025, Office of Management and Budget data showed 442 total HUD employees had been dismissed since the administration began, including 114 from FHEO specifically, a 45% cut by that count. A subsequent National Fair Housing Alliance analysis published in its November 2025 Fair Housing Trends Report found FHEO then operating with roughly one-third of the staff it had in January 2025, a reduction of nearly two-thirds, reflecting cuts that continued to deepen through an additional 400-plus HUD-wide layoffs issued during the October-November 2025 government shutdown. Outside experts estimated total HUD departures, including voluntary and buyout-driven exits, at as many as 2,300 employees since January 2025. In September 2025, HUD issued a memorandum withdrawing previously issued fair housing enforcement guidance. Days later, four HUD attorneys, including Paul Osadebe, filed a whistleblower complaint with Senator Elizabeth Warren alleging the department was illegally winding down and stalling active fair housing discrimination cases; co-whistleblower Palmer Heenan was fired, and Osadebe was placed on administrative leave before being formally terminated on February 9, 2026.",
+    "primary_proponent": {
+      "name": "Scott Turner",
+      "role": "Secretary of Housing and Urban Development",
+      "note": "Confirmed as HUD Secretary in March 2025, oversaw implementation of the DOGE-directed cuts to FHEO, and the department under his leadership issued the September 2025 memorandum withdrawing prior fair housing enforcement guidance."
+    },
+    "estimated_impact": {
+      "summary": "The federal office responsible for investigating housing discrimination complaints nationwide lost roughly two-thirds of its staff within about a year, coinciding with formal whistleblower allegations that active discrimination cases were being illegally stalled rather than resolved.",
+      "figures": [
+        {
+          "metric": "FHEO staff reduction, per OMB data reported October 2025",
+          "value": "114 employees dismissed, a 45% cut",
+          "source": "Tax Credit Advisor, April 2026, citing Office of Management and Budget data"
+        },
+        {
+          "metric": "FHEO staffing level, per NFHA's November 2025 analysis",
+          "value": "Operating at roughly one-third of January 2025 staffing (a ~two-thirds reduction)",
+          "source": "HousingWire, November 2025, citing the National Fair Housing Alliance's 2025 Fair Housing Trends Report"
+        },
+        {
+          "metric": "Additional HUD-wide layoffs during the Oct-Nov 2025 government shutdown",
+          "value": "400+ employees",
+          "source": "HousingWire, November 2025"
+        },
+        {
+          "metric": "Total estimated HUD-wide departures since January 2025 (RIFs plus voluntary/buyout exits)",
+          "value": "As many as 2,300, per outside experts",
+          "source": "Invisible People, October 2025"
+        }
+      ],
+      "caveat": "HUD's official position, reflected in its own press releases, is that fair housing enforcement remains active and effective; the agency announced in June 2026 that it had cut what it described as a Biden-era case backlog by 27%. This creates a genuine, documented tension with the account from former HUD civil rights attorneys, who allege in a formal whistleblower complaint to Senator Elizabeth Warren that the department illegally wound down and stalled active discrimination cases rather than resolving them, and that one attorney who raised these concerns was fired while another was placed on leave before later termination. The two publicly reported FHEO staffing-reduction figures (45% per October 2025 OMB data versus roughly two-thirds per NFHA's independent November 2025 analysis) are not necessarily contradictory, since they were measured about a month apart during a period when cuts continued to deepen through the government shutdown; both are presented here rather than resolved in favor of one, since each is independently sourced and dated."
+    },
+    "confidence_note": "Strong. Corroborated across Bloomberg, HousingWire (citing the National Fair Housing Alliance's published Fair Housing Trends Report), Tax Credit Advisor (citing OMB's own data and an on-record former HUD attorney), and Invisible People's October 2025 reporting, with HUD's own press releases providing its stated counter-narrative on enforcement outcomes.",
+    "last_verified": "2026-07-09",
+    "sources": [
+      {
+        "name": "Bloomberg, 'HUD Issues Layoff Notices, Targeting Fair Housing Staff With Deep Cuts'",
+        "url": "https://www.bloomberg.com/news/articles/2025-10-11/hud-issues-layoff-notices-targeting-fair-housing-staff-with-deep-cuts"
+      },
+      {
+        "name": "HousingWire, 'Fair housing complaints mount amid HUD staffing cuts'",
+        "url": "https://www.housingwire.com/articles/fair-housing-complaints-mount-amid-hud-staffing-cuts/"
+      },
+      {
+        "name": "Tax Credit Advisor, 'Housing Providers in Limbo after HUD Guts Fair Housing Act Enforcement'",
+        "url": "https://www.taxcreditadvisor.com/articles/hud-fair-housing-act-changes/"
+      },
+      {
+        "name": "Invisible People, 'HUD's Mass Layoffs Threaten The Future Of Fair And Affordable Housing'",
+        "url": "https://invisiblepeople.tv/huds-mass-layoffs-threaten-the-future-of-fair-and-affordable-housing/"
+      },
+      {
+        "name": "HUD.gov, official news releases (agency's stated enforcement outcomes)",
+        "url": "https://www.hud.gov/news"
+      }
+    ]
+  },
+  {
     "id": "ies-nces-research-contract-cancellations-trump2",
     "title": "Education Department Cancels $881M in Research Contracts, Halting Major National Data Collections",
     "institution": "Institute of Education Sciences (U.S. Department of Education)",
@@ -1569,6 +1702,70 @@
       {
         "name": "Roll Call — Workforce cuts raise concerns over national park upkeep",
         "url": "https://rollcall.com/2025/03/11/workforce-cuts-raise-concerns-over-national-park-upkeep/"
+      }
+    ]
+  },
+  {
+    "id": "nea-grant-terminations-trump2",
+    "title": "NEA Terminates Over Half of Its Open Grants in a Single Weekend",
+    "institution": "National Endowment for the Arts",
+    "domain": "funding_redirection",
+    "status": "Complete for terminated grants (effective May 31, 2025); the agency's proposed full elimination was not enacted as of the last-verified date, though grantmaking priorities remain altered under new leadership",
+    "date_of_action": "2025-05-02 to 2025-05-12 (termination notices); leadership confirmed December 19, 2025",
+    "what_changed": "On the evening of May 2, 2025, hours after the administration released a preliminary FY2026 budget proposing to eliminate the NEA entirely, the agency emailed termination or withdrawal notices to hundreds of grantees nationwide, affecting more than half of its open awards, in amounts ranging from $10,000 to $100,000, effective May 31, 2025. A second round of termination notices followed on May 12, 2025. Affected organizations spanned all 50 states, Puerto Rico, and Washington, D.C., including theaters, orchestras, literary magazines, and community arts programs. Some grantees whose projects appeared to match the NEA's own newly stated priorities were terminated anyway; California Symphony, for example, lost funding for a commission specifically written to celebrate the 250th anniversary of American independence, one of the NEA's own listed new priorities. On May 5, 2025, ten NEA discipline directors and two members of senior leadership announced they would take deferred resignation, departing by the end of May. Mary Anne Carter, who had led the NEA during Trump's first term, was serving as senior adviser overseeing the agency at the time the terminations were issued (the previous Biden-appointed chair, Maria Rosario Jackson, had resigned on Inauguration Day); Carter was confirmed by the Senate as permanent NEA Chair on December 19, 2025. Separately, a federal judge in Rhode Island struck down a related NEA policy disfavoring grant applications the agency deemed to 'promote gender ideology' on September 19, 2025.",
+    "primary_proponent": {
+      "name": "Mary Anne Carter",
+      "role": "Senior Adviser overseeing NEA operations at the time of the terminations; later confirmed as NEA Chair (Dec. 19, 2025)",
+      "note": "Was in charge of the agency when the mass grant terminations were issued in May 2025, and the NEA emails were sent under her oversight before her formal confirmation as chair later that year."
+    },
+    "estimated_impact": {
+      "summary": "More than half of the NEA's active grant commitments to arts organizations nationwide were terminated within a single week, with a compressed appeal window and a leadership exodus that left the agency's discipline-specific grantmaking expertise significantly thinned.",
+      "figures": [
+        {
+          "metric": "Share of open NEA awards terminated",
+          "value": "Over 50%, individual grants ranging $10,000-$100,000",
+          "source": "MASSCreative tracker and multiple contemporaneous grantee reports, May 2025"
+        },
+        {
+          "metric": "NEA leadership departures",
+          "value": "10 discipline directors plus 2 senior leadership staff took deferred resignation, effective end of May 2025",
+          "source": "MASSCreative, Chorus America grantee alert"
+        },
+        {
+          "metric": "NEA total annual budget at time of cuts",
+          "value": "~$207-210 million (roughly 60 cents per U.S. resident; ~0.003% of the federal budget)",
+          "source": "NPR and San Francisco Classical Voice, May 2025"
+        },
+        {
+          "metric": "Most recent full grant cycle immediately preceding the cuts",
+          "value": "~$36.8 million across 1,474 awards (announced January 2025)",
+          "source": "KQED, May 2025"
+        }
+      ],
+      "caveat": "The NEA's stated rationale is that funding is being redirected toward specific new priorities, including projects supporting HBCUs and Hispanic-Serving Institutions, the 250th anniversary of American independence, AI competency, disaster recovery, and military/veteran and tribal communities, rather than eliminated outright, and the agency offered a 7-day appeal window for grantees who believed their project matched the new criteria. Critics point to apparent inconsistencies in the rollout, including cases like California Symphony's, where a project matching a stated new priority was terminated anyway, and argue the 7-calendar-day appeal window (which included a weekend) was procedurally unfair given the scale and suddenness of the cuts. It is worth distinguishing this from the separate, better-documented case of the sister agency National Endowment for the Humanities, where a federal court found in a May 2026 summary judgment that a comparable mass grant termination process was unlawful; no equivalent final court ruling specific to these NEA terminations has been identified as of the last-verified date, so that outcome should not be assumed to extend to the NEA."
+    },
+    "confidence_note": "Strong. Corroborated by dozens of independent, named grantee statements, multiple journalism outlets (NPR, KQED, American Theatre, ArtNews, San Francisco Classical Voice), and arts-advocacy organization trackers (MASSCreative, Chorus America, Mid-America Arts Alliance) reporting consistent dates, dollar ranges, and termination language across widely dispersed organizations.",
+    "last_verified": "2026-07-09",
+    "sources": [
+      {
+        "name": "NPR, 'NEA hit with grant cuts after Trump administration's call for elimination'",
+        "url": "https://www.npr.org/2025/05/03/nx-s1-5385888/sweeping-cuts-hit-nea-after-trump-administration-calls-to-eliminate-the-agency"
+      },
+      {
+        "name": "KQED, 'Trump Cancels NEA Grants for Many Bay Area Arts Nonprofits'",
+        "url": "https://www.kqed.org/arts/13975661/national-endowment-for-the-arts-grants-canceled-nonprofits"
+      },
+      {
+        "name": "American Theatre, 'NEA Abruptly Pulls Arts Grants on a Massive Scale'",
+        "url": "https://www.americantheatre.org/2025/05/05/nea-abruptly-pulls-arts-grants-on-a-massive-scale/"
+      },
+      {
+        "name": "MASSCreative, 'Cuts to Federal Funding for the Arts: What We Know and What You Can Do'",
+        "url": "https://www.mass-creative.org/learn/nea-grant-cuts"
+      },
+      {
+        "name": "LitNet, 'Resources Related to the National Endowment for the Arts Funding' (timeline compilation)",
+        "url": "https://litnet.org/resources-related-to-the-nea-guidelines-for-fy26/"
       }
     ]
   },
