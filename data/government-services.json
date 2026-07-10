@@ -977,6 +977,65 @@
     ]
   },
   {
+    "id": "ftc-workforce-independence-erosion-trump2",
+    "title": "FTC Cuts Workforce 10%, Loses Bipartisan Independence After Supreme Court Upholds Commissioner Firings",
+    "institution": "Federal Trade Commission",
+    "domain": "staff_office_cuts",
+    "status": "Complete (workforce reduction implemented in 2025; commissioner-firing litigation permanently resolved by the Supreme Court on June 29, 2026)",
+    "date_of_action": "2025-03-18 (commissioner firings) through 2026-06-29 (Supreme Court ruling); staff reduction implemented through 2025",
+    "what_changed": "On March 18, 2025, President Trump fired the FTC's two Democratic commissioners, Rebecca Slaughter and Alvaro Bedoya, without citing any statutory cause, instead stating their continued service was 'inconsistent with my Administration's priorities.' This left the five-seat Commission with only its two sitting Republican members. Slaughter and Bedoya sued; Bedoya later resigned and dropped his claim, but Slaughter's case proceeded, with a district court initially ordering her reinstated. Separately, on May 15, 2025, Chairman Andrew Ferguson testified to Congress that the FTC was implementing a 10% workforce reduction, bringing headcount to approximately 1,100 employees (down from 1,221), the agency's lowest staffing level in a decade. On June 29, 2026, the Supreme Court ruled 6-3 in Trump v. Slaughter that the FTC's for-cause removal protections for commissioners are unconstitutional, permanently allowing the president to remove commissioners at will and explicitly overruling the 1935 precedent Humphrey's Executor v. United States, which had protected the independence of the FTC and similar agencies for 90 years.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Personally fired both Democratic commissioners in March 2025 without citing statutory cause, and his administration argued through litigation to the Supreme Court that his Article II authority permitted the removals, a position the Court ultimately upheld 6-3."
+    },
+    "estimated_impact": {
+      "summary": "The FTC lost 10% of its staff and, more consequentially, lost its bipartisan structure entirely and any future legal protection against being reduced to single-party control, a change the Supreme Court's ruling extends to roughly two dozen other independent agencies.",
+      "figures": [
+        {
+          "metric": "FTC workforce reduction",
+          "value": "1,221 to ~1,100 employees (10% cut), lowest staffing level in a decade",
+          "source": "Chairman Andrew Ferguson testimony before House Appropriations Committee, May 15, 2025"
+        },
+        {
+          "metric": "Commissioner composition after firings",
+          "value": "5 statutory seats reduced to 2 sitting commissioners, both Republican, no Democratic representation",
+          "source": "Contemporaneous reporting (NYT, Crowell & Moring legal alert), March 2025"
+        },
+        {
+          "metric": "Scope of Supreme Court ruling",
+          "value": "6-3 decision (Trump v. Slaughter) applies the same at-will removal logic to an estimated ~2 dozen other independent multi-member agencies, per the dissent and legal analysis",
+          "source": "SCOTUSblog and ABC News coverage of the June 29, 2026 ruling"
+        }
+      ],
+      "caveat": "The administration and Chairman Ferguson frame the staffing reduction as correcting what Ferguson called the 'previous administration's mismanagement,' and the agency points to continued enforcement activity as evidence the cuts have not weakened its mission, including $333.7 million returned to consumers in FY2024 and ongoing major litigation such as the FTC's monopolization case against Meta and joint suit against Amazon. On the commissioner firings, the administration's position, upheld by the Supreme Court majority, is that the FTC 'unquestionably exercises executive power' and must therefore be fully accountable to the president; Chief Justice Roberts's majority opinion carved out a possible exception for the Federal Reserve. Critics, including Justice Sotomayor's dissent (joined by Kagan and Jackson) and former commissioner Slaughter, argue the ruling eliminates meaningful independence not just at the FTC but across the broader universe of agencies Congress designed to be insulated from single-party control, and that FTC policy will become more responsive to political and campaign considerations going forward. Legal scholars are split on how far the precedent extends beyond the FTC itself."
+    },
+    "confidence_note": "Very strong. The commissioner-firing narrative is anchored in the Supreme Court's own published opinion in Trump v. Slaughter (June 29, 2026), corroborated by SCOTUSblog, ABC News, CNBC, and multiple law-firm client alerts. The staffing figures come directly from Chairman Ferguson's sworn congressional testimony, independently reported by three separate legal-industry outlets.",
+    "last_verified": "2026-07-09",
+    "sources": [
+      {
+        "name": "Trump v. Slaughter, Supreme Court opinion, No. 25-332 (June 29, 2026)",
+        "url": "https://www.supremecourt.gov/opinions/25pdf/25-332_qn12.pdf"
+      },
+      {
+        "name": "SCOTUSblog, 'Supreme Court allows Trump to fire FTC commissioner and overturns major restraint on presidential power'",
+        "url": "https://www.scotusblog.com/2026/06/court-allows-trump-to-fire-ftc-commissioner-and-overturns-major-restraint-on-presidential-power/"
+      },
+      {
+        "name": "CNBC, 'Supreme Court lets presidents fire independent regulators, rules for Trump in FTC case'",
+        "url": "https://www.cnbc.com/2026/06/29/supreme-court-trump-slaughter-ftc.html"
+      },
+      {
+        "name": "FTC Chairman Andrew N. Ferguson Testimony Before House Appropriations Committee",
+        "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/FTC-Chairman-Andrew-N-Ferguson-FSGG-Testimony-05-15-2025.pdf"
+      },
+      {
+        "name": "Crowell & Moring, 'Trump Fires the FTC's Two Democratic Commissioners'",
+        "url": "https://www.crowell.com/en/insights/client-alerts/trump-fires-the-ftcs-two-democratic-commissioners"
+      }
+    ]
+  },
+  {
     "id": "imls-dismantlement-reversed-trump2",
     "title": "IMLS Dismantlement Permanently Blocked by Federal Court — A Rare Full Reversal",
     "institution": "Institute of Museum and Library Services (IMLS)",
@@ -1600,6 +1659,134 @@
       {
         "name": "The Hill — Changes loom for National Weather Service as union official warns of potential staff cuts",
         "url": "https://thehill.com/policy/energy-environment/5843925-nws-national-weather-service/"
+      }
+    ]
+  },
+  {
+    "id": "peace-corps-workforce-reduction-trump2",
+    "title": "Peace Corps Headquarters Staff Cut by Roughly 40%",
+    "institution": "Peace Corps",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing (governmentwide RIF moratorium expired Feb. 13, 2026; agency proceeding toward a 575-FTE headquarters target)",
+    "date_of_action": "2025-03 to present",
+    "what_changed": "Beginning in March 2025, DOGE staff directed Peace Corps supervisors to compile lists of personnel and programs to cut, following the earlier governmentwide 'Fork in the Road' deferred resignation offer. By May 2025, roughly 250 employees took a second deferred-resignation push after being told they faced termination if they declined. In September 2025, the Peace Corps Union received formal notice of intent to involuntarily separate 26 bargaining-unit and 11 non-bargaining-unit employees, part of a plan to bring headquarters down to 575 full-time-equivalent staff. That RIF notice period was tolled during the Oct. 1-Nov. 12, 2025 government shutdown and then again by a continuing-resolution moratorium on RIFs through Jan. 30, 2026. The governmentwide RIF moratorium expired Feb. 13, 2026, clearing the way for the cuts to proceed. Recruitment and placement staff have been hit especially hard, with reporting describing a roughly two-thirds reduction in the office responsible for outreach, application review, and volunteer placement across more than 60 countries. The cuts are paired with an agency goal to more than double the number of active volunteers, from about 3,000 to 8,000 by 2030.",
+    "primary_proponent": {
+      "name": "Richard E. Swarttz",
+      "role": "Acting Director, Peace Corps (Chief of Staff since Sept. 2025; led the Trump-Vance Agency Review Team for Peace Corps during the presidential transition)",
+      "note": "Swarttz led the transition-period review team that first identified the agency for downsizing, then oversaw implementation as Chief of Staff before being named Acting Director on Jan. 30, 2026, the position from which he was formally asked by 21 members of Congress on Feb. 19, 2026 to justify the ongoing reductions before proceeding further."
+    },
+    "estimated_impact": {
+      "summary": "Peace Corps headquarters has lost close to 40% of its personnel since the start of the administration, with recruitment and placement functions cut especially deep even as the agency has set a goal to more than double its volunteer corps by 2030.",
+      "figures": [
+        {
+          "metric": "Headquarters employees, start of term vs. current target",
+          "value": "~953 (Jan. 2025) declining toward a 575 full-time-equivalent target, a ~40% reduction",
+          "source": "21-member congressional letter (Sen. Kaine, Rep. Walkinshaw et al.), Feb. 19-20, 2026"
+        },
+        {
+          "metric": "Formal Sept. 2025 RIF notice",
+          "value": "37 employees noticed for involuntary separation (26 bargaining-unit, 11 non-bargaining-unit)",
+          "source": "Same congressional letter, citing Peace Corps Union notification"
+        },
+        {
+          "metric": "FY2025 to FY2026 budgeted employment",
+          "value": "937 employees (FY25) to 878 employees (FY26), a 6.3% one-year reduction",
+          "source": "OMB FY2026 Technical Supplement (Peace Corps budget, p. 730), via Peace Corps Worldwide analysis, June 2025"
+        },
+        {
+          "metric": "Volunteer Recruitment and Selection office staffing",
+          "value": "Reported ~two-thirds reduction",
+          "source": "Government Executive/Peace Corps Worldwide reporting on internal DOGE-driven restructuring plan, July 2025"
+        }
+      ],
+      "caveat": "Two different figures describe different things and are not contradictory: the ~40% cut (953 to 575) is the lawmakers' cumulative headquarters headcount reduction since January 2025, while the 937-to-878 figure is a single fiscal year's budgeted FTE change from the FY2026 OMB technical supplement, a narrower accounting measure. The agency disputes the framing that cuts are proceeding without adequate review: Peace Corps officials told Government Executive in February 2026 that they had already completed a review of the agency's operational structure before moving forward, and the agency has publicly committed to using expanded AI-assisted screening and predictive analytics to help recruiters do more with fewer staff. Peace Corps also states it has no plans to close additional country posts specifically due to staffing (as distinct from a small number of posts closed for unrelated security reasons, e.g. Mozambique in 2025). Whether the RIF fully proceeded after the Feb. 13, 2026 moratorium expiration, or whether Congress's Feb. 19 request for a pause was granted, is not yet confirmed in public reporting as of this entry's last-verified date."
+    },
+    "confidence_note": "Strong. Anchored in a formal, signed 21-member congressional letter (10 senators, 11 House members plus a delegate) citing specific employee figures the agency itself provided to the Peace Corps Union, corroborated independently by Government Executive, The Hill, and the FY2026 OMB budget technical supplement. The primary remaining uncertainty is the RIF's final implementation status after Feb. 13, 2026, since no public reporting as of the last-verified date confirms completion.",
+    "last_verified": "2026-07-09",
+    "sources": [
+      {
+        "name": "Sen. Tim Kaine press release, 21-member letter to Peace Corps Acting Director",
+        "url": "https://www.kaine.senate.gov/press-releases/walkinshaw-kaine-lead-21-member-letter-demanding-force-analysis-and-answers-on-peace-corps-reorganization-staffing-cuts"
+      },
+      {
+        "name": "Government Executive, 'Trump administration wants to recruit more Peace Corps volunteers with fewer agency personnel'",
+        "url": "https://www.govexec.com/management/2026/02/trump-administration-wants-recruit-more-peace-corps-volunteers-fewer-agency-personnel-puzzling-democratic-lawmakers/411607/"
+      },
+      {
+        "name": "The Hill, 'Peace Corps braces for deep cuts under Trump'",
+        "url": "https://thehill.com/homenews/administration/5291296-peace-corps-staffing-cuts-threaten/"
+      },
+      {
+        "name": "Peace Corps Worldwide, 'Peace Corps Budget Analysis: Workforce Reductions Planned Despite Flat Funding'",
+        "url": "https://peacecorpsworldwide.substack.com/p/peace-corps-budget-analysis-workforce"
+      },
+      {
+        "name": "Peace Corps Worldwide, 'Federal Workforce Update: Peace Corps Faces Significant Cuts'",
+        "url": "https://peacecorpsworldwide.substack.com/p/federal-workforce-update-peace-corps"
+      }
+    ]
+  },
+  {
+    "id": "sba-workforce-reduction-trump2",
+    "title": "Small Business Administration Cuts 43% of Staff",
+    "institution": "Small Business Administration",
+    "domain": "staff_office_cuts",
+    "status": "Complete (reorganization announced and implemented in 2025); a related plan to hand SBA the federal student loan portfolio was separately blocked in court and abandoned",
+    "date_of_action": "2025-03-21 (announced); implemented through 2025",
+    "what_changed": "On March 21, 2025, the SBA announced it would eliminate approximately 2,700 active positions out of a workforce of nearly 6,500, a 43% reduction, through voluntary resignations, the expiration of COVID-era and other term appointments, and a limited number of formal reductions in force. The agency described the goal as returning to staffing levels from the first Trump administration. The same day, President Trump separately announced that the SBA would immediately take over the Education Department's roughly $1.6-1.7 trillion federal student loan portfolio, a move announced on the same day as, and in apparent tension with, an executive order to begin dismantling the Department of Education. A federal judge blocked the loan-portfolio transfer in May 2025 on the grounds the SBA lacked statutory authority to administer student loans under the Higher Education Act. The administration ultimately abandoned the SBA option and, in March 2026, signed an interagency agreement to move the loan portfolio to the Treasury Department instead.",
+    "primary_proponent": {
+      "name": "Kelly Loeffler",
+      "role": "SBA Administrator (confirmed by the Senate in February 2025; former U.S. Senator from Georgia)",
+      "note": "Loeffler announced and publicly defended the cuts in a video statement, saying the SBA had 'doubled its workforce' since the pandemic with 'miserable results' and that it was time to 'rightsize the agency.'"
+    },
+    "estimated_impact": {
+      "summary": "The SBA lost close to half its workforce in a single reorganization, one of the larger proportional staff cuts of any agency in this tracker, while briefly being slated to also absorb a student loan portfolio more than 100 times larger than its existing loan book before that plan was blocked and abandoned.",
+      "figures": [
+        {
+          "metric": "Positions eliminated",
+          "value": "~2,700 of ~6,500 total active positions (43%)",
+          "source": "SBA official press release, March 21, 2025"
+        },
+        {
+          "metric": "Post-reorganization headcount",
+          "value": "~3,800 employees",
+          "source": "Center for American Progress analysis, April 2025, citing SBA figures"
+        },
+        {
+          "metric": "Claimed annual savings",
+          "value": "$435 million per year by the following fiscal year",
+          "source": "SBA official press release, March 21, 2025"
+        },
+        {
+          "metric": "Interim reporting on pace of cuts",
+          "value": "~720 workers (~20% of workforce) already cut as of early May 2025",
+          "source": "Small Business Majority statement, May 12, 2025"
+        }
+      ],
+      "caveat": "The SBA states that 'core services to the public,' including its loan guarantee and disaster assistance programs and its field and veteran operations, were not affected by the cuts, framing this as trimming administrative bloat rather than mission capacity. Critics, including the advocacy group Small Business Majority, dispute this characterization, arguing the agency was already understaffed relative to demand and that the cuts create real risk to service delivery, particularly given a separate federal-funds freeze affecting the $5 billion State Small Business Credit Initiative around the same period. Separately, the plan to route federal student loans through the SBA never took effect: it was blocked by a federal court in May 2025 on statutory-authority grounds and abandoned in March 2026 in favor of a Treasury Department transfer, so the staffing cuts at SBA were not, in the end, paired with the added workload critics had warned the reduced agency could not handle."
+    },
+    "confidence_note": "Strong. The core staffing figures come directly from the SBA's own official press release, corroborated independently by CBS News and PBS NewsHour on the same day, with a converging headcount figure (~3,800 post-reorg) from a Center for American Progress policy analysis. The student-loan-transfer subplot is well corroborated across BestColleges, SoFi, NPR, and a Goldey-Beacom College summary tracking the transfer's eventual redirection to Treasury.",
+    "last_verified": "2026-07-09",
+    "sources": [
+      {
+        "name": "SBA official press release, 'Small Business Administration Announces Agency-Wide Reorganization'",
+        "url": "https://www.sba.gov/article/2025/03/21/small-business-administration-announces-agency-wide-reorganization"
+      },
+      {
+        "name": "CBS News, 'Small Business Administration cutting 43% of staff'",
+        "url": "https://www.cbsnews.com/news/small-business-administration-40-percent-staff-cuts/"
+      },
+      {
+        "name": "PBS News, 'SBA to cut about 2,700 jobs while Trump announces it will take over handling of student loans'",
+        "url": "https://www.pbs.org/newshour/politics/sba-to-cut-about-2700-jobs-while-trump-announces-it-will-take-over-handling-of-student-loans"
+      },
+      {
+        "name": "Small Business Majority statement on SBA dismantlement",
+        "url": "https://smallbusinessmajority.org/press-release/dismantling-small-business-administration-blow-america-s-entrepreneurs"
+      },
+      {
+        "name": "NPR, 'Federal student loans will move to Treasury, further shrinking Education Department'",
+        "url": "https://www.npr.org/2026/03/19/nx-s1-5753906/student-loans-trump-treasury"
       }
     ]
   },
