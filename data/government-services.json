@@ -2640,6 +2640,65 @@
     ]
   },
   {
+    "id": "usadf-iaf-marocco-takeover-trump2",
+    "title": "African Development Foundation Reduced to Near-Nothing Before Courts Fully Reverse Takeover",
+    "institution": "U.S. African Development Foundation and Inter-American Foundation",
+    "domain": "staff_office_cuts",
+    "status": "Reversed (final federal court orders in 2025-2026 fully vacated the takeovers at both agencies)",
+    "date_of_action": "2025-02-19 (executive order) through 2026-03 (final court order restoring USADF)",
+    "what_changed": "On February 19, 2025, President Trump issued an executive order directing USADF, the Inter-American Foundation (IAF), the U.S. Institute of Peace, and the Presidio Trust to be reduced to 'the minimum presence and function required by law.' Peter Marocco, a State Department official who also oversaw the dismantling of USAID, moved to take control of both USADF and IAF within days. At IAF, Marocco held a one-person 'board meeting' outside the agency's locked headquarters on February 28, 2025, after being unable to gain entry, and declared himself acting CEO and president in a notice entered into the Federal Register. At USADF, staff denied DOGE personnel direct access to internal systems, citing privacy and security requirements, while Marocco announced by email that he would chair the agency's board. On March 11, 2025, District Judge Richard Leon initially found that a large reduction in USADF's staff and funding could itself be legal, declining at that stage to block leadership changes, while ordering DOGE staff to explain how they would maintain the agency's minimum required functions. By early April 2025, the government acknowledged in court that IAF had been reduced to a single employee and a single active grant. On April 4, 2025, Judge Loren AliKhan ordered the indefinite reinstatement of ousted IAF president Sara Aviel and blocked Marocco from serving on IAF's board, unwinding his actions including frozen grants. On July 1, 2025, Judge Leon ruled that Trump had violated the Federal Vacancies Reform Act by installing Marocco at USADF without Senate confirmation, voiding the staff terminations and grant cancellations Marocco had directed. A final order in Rural Development Innovations Ltd. v. Marocco fully blocked the USADF dismantlement, and by March 2026, USADF staff were allowed back into their offices for the first time in months.",
+    "primary_proponent": {
+      "name": "Peter Marocco",
+      "role": "State Department official who also led USAID's dismantling",
+      "note": "Personally installed himself as acting head of both USADF and IAF without Senate confirmation and directed what a lawsuit described as a 'slash-and-burn approach' to staff terminations and grant cancellations at both agencies."
+    },
+    "estimated_impact": {
+      "summary": "Two small, independent, congressionally chartered foreign-development agencies were reduced to near-total operational collapse, with one left at a single employee and a single active grant, before federal courts fully reversed both takeovers roughly a year later.",
+      "figures": [
+        {
+          "metric": "USADF pre-takeover scale",
+          "value": "~50 employees; $46 million in FY2023 congressional funding for projects across 22 African countries",
+          "source": "KSAT/Associated Press, March 2025"
+        },
+        {
+          "metric": "IAF staffing at the low point of the takeover",
+          "value": "1 employee, 1 active grant remaining, per the government's own admission in court",
+          "source": "The Hill, April 2025"
+        },
+        {
+          "metric": "Time from executive order to final court reversal at USADF",
+          "value": "~13 months (Feb. 2025 executive order to March 2026 final order)",
+          "source": "Devex, March 2026"
+        }
+      ],
+      "caveat": "The administration's stated legal position, articulated in a Justice Department Office of Legal Counsel memo, was that the president's Article II duty to 'take Care that the Laws be faithfully executed' grants inherent authority to designate acting officers to supervise organizations Congress created to perform executive functions, without requiring Senate confirmation. Court rulings distinguished between two separate legal questions along the way: Judge Leon's initial March 2025 ruling found that a large reduction in USADF's staff and funding could itself be legal, meaning the scale of cuts was not automatically unlawful, while his later July 2025 ruling found the specific mechanism used, installing Marocco without Senate confirmation, violated the Federal Vacancies Reform Act, voiding the actions taken under his leadership. This is a genuine reversal story: both USADF and IAF ultimately had their takeovers fully undone by final court orders, with USADF staff physically returning to their offices in March 2026, though Devex reporting notes the agency's reentry into the foreign-aid sector 'seems to be just beginning' after a year of program cancellations and funding freezes, and separately references newer, unrelated corruption charges connected to the agency as of that report."
+    },
+    "confidence_note": "Strong. Corroborated by direct citation to federal court rulings by judge name and date across The Hill, U.S. News (via Associated Press), Democracy Forward (representing plaintiffs in the USADF case), Devex, and Maryland Daily Record, with the Justice Department's own Office of Legal Counsel memo providing the administration's stated legal rationale in its own words.",
+    "last_verified": "2026-07-09",
+    "sources": [
+      {
+        "name": "The Hill, 'Judge blocks Trump's takeover of Inter-American Foundation'",
+        "url": "https://thehill.com/regulation/court-battles/5233012-inter-american-foundation-trump-blocked/"
+      },
+      {
+        "name": "U.S. News/AP, 'Federal Judge Halts the Trump Administration From Dismantling the US African Development Foundation'",
+        "url": "https://www.usnews.com/news/politics/articles/2025-07-01/federal-judge-halts-the-trump-administration-from-dismantling-the-us-african-development-foundation"
+      },
+      {
+        "name": "Democracy Forward, 'Court Blocks Trump-Vance Administration Attempt to Dismantle U.S. African Development Foundation'",
+        "url": "https://democracyforward.org/news/press-releases/court-blocks-trump-vance-administration-attempt-to-dismantle-u-s-african-development-foundation/"
+      },
+      {
+        "name": "Devex, 'US African Development Foundation wins case against Trump admin'",
+        "url": "https://www.devex.com/news/us-african-development-foundation-wins-case-against-trump-admin-112097"
+      },
+      {
+        "name": "The Hill, 'Inter-American Foundation sues to block takeover as DOJ says Trump can appoint new leaders'",
+        "url": "https://thehill.com/homenews/administration/5201948-justice-department-defends-trump/"
+      }
+    ]
+  },
+  {
     "id": "usaid-dismantlement-trump2",
     "title": "USAID Dismantled and Absorbed Into the State Department, Despite Being a Congressionally-Independent Agency",
     "institution": "U.S. Agency for International Development (USAID)",
@@ -2714,6 +2773,70 @@
       {
         "name": "Newsweek — The Fallout From the Dismantling of USAID Continues",
         "url": "https://www.newsweek.com/fallout-dismantling-usaid-10832387"
+      }
+    ]
+  },
+  {
+    "id": "usip-doge-takeover-trump2",
+    "title": "DOGE Takes Over U.S. Institute of Peace by Force; Building Later Renamed for Trump",
+    "institution": "United States Institute of Peace",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing (a federal district court ruled the takeover unlawful, but a stay pending appeal keeps the administration in control as of the last-verified date)",
+    "date_of_action": "2025-02-19 (executive order) through ongoing appeal; headquarters renamed December 3, 2025",
+    "what_changed": "On February 19, 2025, President Trump signed an executive order directing USIP, a congressionally chartered independent nonprofit created under President Reagan in 1984, to be eliminated 'to the maximum extent consistent with applicable law,' incorrectly characterizing it as a government entity. On March 14, 2025, Trump fired most of USIP's 15-member bipartisan board without stating a reason, leaving only Secretary of State Marco Rubio, Defense Secretary Pete Hegseth, and National Defense University President Peter Garvin, who then removed acting president George Moose and installed DOGE-affiliated Kenneth Jackson. After being turned away once, DOGE staff forced entry into USIP's headquarters on March 17, 2025 using a physical key taken from a former security contractor, with help from D.C. police, following a standoff in which USIP staff had locked the building. Court filings alleged DOGE personnel accessed and disposed of financial records marked 'SHRED' and enlisted a former USIP IT employee to help bypass the institute's cybersecurity to gain full system control. On March 28, 2025, the administration terminated more than 200 remaining USIP staff overnight via personal email and messaging apps, after employees had already lost access to work systems, and headquarters ownership was transferred to the General Services Administration. On May 19, 2025, U.S. District Judge Beryl Howell ruled the board removal was unlawful and declared all subsequent actions, including the staff firings and building transfer, 'null and void,' ordering reinstatement. On June 27, 2025, the D.C. Circuit granted the government a stay pending appeal, citing related Supreme Court precedent allowing presidents to remove independent-agency leaders while litigation proceeds and finding USIP 'exercises substantial executive power,' which returned practical control to the administration. The D.C. Circuit denied USIP's motion to partially lift that stay on November 26, 2025, and held the case in abeyance pending the Supreme Court's Trump v. Slaughter ruling, issued June 29, 2026. On December 3, 2025, the State Department renamed the institute's headquarters the 'Donald J. Trump Institute of Peace,' while the administration's FY2026 budget request eliminated federal funding for the organization entirely.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Signed the February 2025 executive order directing USIP's elimination, personally fired the board members, and the building was ultimately renamed in his honor in December 2025 even as a federal court had already ruled the underlying takeover unlawful."
+    },
+    "estimated_impact": {
+      "summary": "A congressionally chartered independent institute running active peace-building and conflict-resolution programs in more than two dozen countries was forcibly shuttered and its staff terminated overnight, actions a federal court later ruled were entirely unlawful, though a stay pending appeal has kept the administration in operational control.",
+      "figures": [
+        {
+          "metric": "USIP staff terminated",
+          "value": "200+ (nearly all U.S.-based employees)",
+          "source": "NPR, March 30, 2025, and Wikipedia's compiled timeline"
+        },
+        {
+          "metric": "Active conflict zones where USIP was operating at time of shutdown",
+          "value": "26 countries, including Pakistan, Afghanistan, Mali, and Burkina Faso",
+          "source": "NPR, December 4, 2025"
+        },
+        {
+          "metric": "USIP funding at stake",
+          "value": "FY2023 congressional appropriation was $55 million; USIP's FY2026 budget request sought $65 million, which the administration's proposal eliminated entirely",
+          "source": "USIP's own FY2026 Budget in Brief, cited via Wikipedia"
+        },
+        {
+          "metric": "White House's own stated cost figure for the pre-shutdown institute",
+          "value": "$50 million per year, described by a White House spokesperson as wasteful spending",
+          "source": "CNN, December 3, 2025"
+        }
+      ],
+      "caveat": "The White House's official position, stated by spokesperson Anna Kelly, is that USIP 'was once a bloated, useless entity that blew $50 million per year while delivering no peace,' and that renaming it for President Trump celebrates 'a President who ended eight wars in less than a year.' USIP's outside counsel, George Foote, counters that 'a federal judge has already ruled that the government's armed takeover was illegal,' and that the stay pending appeal is 'the only reason the government continues to control the building' -- meaning the administration's continued control rests on a paused legal loss, not a reversed one. The central unresolved legal question, per the D.C. Circuit's own reasoning, is whether USIP 'exercises substantial executive power' subject to at-will presidential control, or is a genuinely independent congressional creation as USIP has argued throughout the litigation; that question remained formally unresolved as of the last-verified date, with the case held in abeyance pending related Supreme Court precedent."
+    },
+    "confidence_note": "Very strong. Anchored in multiple federal court filings and opinions cited by docket number and date (Judge Howell's May 19, 2025 summary judgment; the D.C. Circuit's June 27, 2025 stay order; the November 26, 2025 abeyance ruling), independently corroborated across CNN, NPR, PBS, NBC News, Reuters (via U.S. News), Bloomberg Law, and a formal case-tracking page maintained by the Civil Rights Litigation Clearinghouse.",
+    "last_verified": "2026-07-09",
+    "sources": [
+      {
+        "name": "NPR, 'Federal judge blocks Trump's takeover of U.S. Institute of Peace'",
+        "url": "https://www.npr.org/2025/05/19/g-s1-67681/judge-block-trump-takeover-us-institute-of-peace"
+      },
+      {
+        "name": "NBC News, 'Judge strikes down DOGE takeover of the U.S. Institute of Peace'",
+        "url": "https://www.nbcnews.com/politics/doge/judge-strikes-doge-takeover-us-institute-peace-rcna207741"
+      },
+      {
+        "name": "Civil Rights Litigation Clearinghouse, 'United States Institute of Peace v. Jackson' case page",
+        "url": "https://clearinghouse.net/case/46245/"
+      },
+      {
+        "name": "CNN, 'US Institute of Peace renamed for Trump after his administration gutted it earlier this year'",
+        "url": "https://www.cnn.com/2025/12/03/politics/us-institute-of-peace-renamed-trump"
+      },
+      {
+        "name": "NPR, 'Trump is fighting the Institute of Peace in court. His name is on the building'",
+        "url": "https://www.npr.org/2025/12/04/g-s1-100576/trump-institute-of-peace-name"
       }
     ]
   },
