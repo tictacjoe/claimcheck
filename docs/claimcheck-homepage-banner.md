@@ -4,7 +4,7 @@ Enter a keyword, statement, or topic — or browse by database:
 
 - Corporate Deregulation
 - Cabinet-Level Legal Exposure
-- Government Services Redirected
+- Government Service Redirection
 - Reporting
 
 Every entry backed by a verifiable citation.

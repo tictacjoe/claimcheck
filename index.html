@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A sourced record of corporate deregulation, cabinet-level legal exposure, government services redirected, and daily reporting. Type a claim and see exactly what's documented — every entry sourced, nothing asserted without a citation.">
+<meta name="description" content="A sourced record of corporate deregulation, cabinet-level legal exposure, government service redirection, and daily reporting. Type a claim and see exactly what's documented — every entry sourced, nothing asserted without a citation.">
 <title>Claim Check</title>
 <style>
   :root {
@@ -505,7 +505,7 @@
 
 <header class="masthead">
   <h1>Claim Check</h1>
-  <p class="subhead">A sourced record of corporate deregulation, cabinet-level legal exposure, government services redirected, and daily reporting. Type a claim and see exactly what's documented — every entry sourced, nothing asserted without a citation.</p>
+  <p class="subhead">A sourced record of corporate deregulation, cabinet-level legal exposure, government service redirection, and daily reporting. Type a claim and see exactly what's documented — every entry sourced, nothing asserted without a citation.</p>
   <div class="mode-toggle">
     <button id="mode-search-btn" class="mode-btn active">Search</button>
     <button id="mode-claim-btn" class="mode-btn">Check a Claim</button>
@@ -583,7 +583,7 @@ const TRACKERS = {
     kind: "prosecution",
   },
   govservices: {
-    label: "Government Services Redirected",
+    label: "Government Service Redirection",
     data: [],
     titleField: "title",
     idField: "id",
@@ -682,7 +682,7 @@ function govservicesDomainLabel(domain) {
 
 /* Extracts the first YYYY-MM or YYYY-MM-DD substring from a date
    string and returns a sortable integer (YYYYMMDD, or YYYYMM01 if no
-   day given). Needed because Government Services Redirected entries
+   day given). Needed because Government Service Redirection entries
    often have compound date_of_action strings like "2025-03 (initial
    cuts) through 2026-04 (ongoing)" -- native Date.parse returns NaN
    on the whole string in that case, so this pulls out just the
@@ -1211,7 +1211,7 @@ function renderEntries() {
   // Prioritization lives inside the browse tabs themselves -- every
   // tab's entries are sorted by the same impact heuristic used
   // elsewhere, whether or not a search/filter is active. No separate
-  // "top priorities" section needed. Government Services Redirected
+  // "top priorities" section needed. Government Service Redirection
   // is the exception -- sorted reverse-chronologically by date of
   // action instead, since this tracker updates frequently and recency
   // is the more useful default ordering for it. date_of_action here
