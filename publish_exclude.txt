@@ -8,11 +8,9 @@
 # say so" -- add an ID here to hold it back, remove it once you're
 # ready to publish that entry.
 
-# Flagged LOW confidence, needs primary-source verification at
-# usun.usmission.gov before public use (see systems report, Section 6)
-# Fill in the actual filename (without .json) -- find it with:
-#   ls ~/gjoe/debate-prep/prosecution/cabinet-level/ | grep -i waltz
-# waltz-FILL-IN-ACTUAL-FILENAME
+# waltz-un-iran-infrastructure-statement-2026-04 -- was held here pending
+# primary-source verification; that research was completed 2026-07-18
+# (upgraded to MODERATE-HIGH confidence -- see the entry's own
+# confidence_note) and the exclusion was removed 2026-07-20.
 
 # Add more IDs below as needed, e.g.:
-waltz-un-iran-infrastructure-statement-2026-04
