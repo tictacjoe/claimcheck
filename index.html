@@ -993,13 +993,14 @@ function matchesTerm(haystack, term, useRegex) {
    (tabbed/global card view) and by the one-liner expand-on-click,
    so there's exactly one place that knows how to render each
    tracker kind's fields, not two drifting copies. */
+/* build-detail-html:start */
 function buildDetailHtml(entry, cfg) {
   if (cfg.kind === "deregulation") {
-    return '<div class="field-label">What changed</div><div class="field-value">' + (entry.what_changed || "") + '</div>' +
+    return '<div class="field-label">What changed</div><div class="field-value">' + summaryLineHtml(entry.section_summaries?.what_changed) + (entry.what_changed || "") + '</div>' +
       '<div class="field-label">Primary proponent</div><div class="field-value"><strong>' + (entry.primary_proponent?.name || "") + '</strong> — ' + (entry.primary_proponent?.role || "") + (entry.primary_proponent?.note ? '<br><em>' + entry.primary_proponent.note + '</em>' : '') + '</div>' +
-      '<div class="field-label">Estimated impact</div><div class="field-value">' + (entry.estimated_health_impact?.summary || "") + '</div>' +
+      '<div class="field-label">Estimated impact</div><div class="field-value">' + summaryLineHtml(entry.section_summaries?.estimated_impact) + (entry.estimated_health_impact?.summary || "") + '</div>' +
       (entry.estimated_health_impact?.figures?.length ? '<ul class="exhibit-list">' + entry.estimated_health_impact.figures.map(f => '<li>' + f.metric + ': <strong>' + f.value + '</strong> (' + f.source + ')</li>').join("") + '</ul>' : '') +
-      '<div class="field-label">Confidence note</div><div class="confidence-box">' + (entry.confidence_note || "") + '</div>' +
+      '<div class="field-label">Confidence note</div><div class="confidence-box">' + summaryLineHtml(entry.section_summaries?.confidence_note) + (entry.confidence_note || "") + '</div>' +
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + s.url + '" target="_blank" rel="noopener">' + s.name + '</a></li>').join("") + '</ul>';
   }
   if (cfg.kind === "tracker") {
@@ -1008,22 +1009,23 @@ function buildDetailHtml(entry, cfg) {
   }
   if (cfg.kind === "govservices") {
     return '<div class="field-label">Institution</div><div class="field-value">' + (entry.institution || "") + '</div>' +
-      '<div class="field-label">What changed</div><div class="field-value">' + (entry.what_changed || "") + '</div>' +
+      '<div class="field-label">What changed</div><div class="field-value">' + summaryLineHtml(entry.section_summaries?.what_changed) + (entry.what_changed || "") + '</div>' +
       '<div class="field-label">Primary proponent</div><div class="field-value"><strong>' + (entry.primary_proponent?.name || "") + '</strong> — ' + (entry.primary_proponent?.role || "") + (entry.primary_proponent?.note ? '<br><em>' + entry.primary_proponent.note + '</em>' : '') + '</div>' +
-      '<div class="field-label">Estimated impact</div><div class="field-value">' + (entry.estimated_impact?.summary || "") + '</div>' +
+      '<div class="field-label">Estimated impact</div><div class="field-value">' + summaryLineHtml(entry.section_summaries?.estimated_impact) + (entry.estimated_impact?.summary || "") + '</div>' +
       (entry.estimated_impact?.figures?.length ? '<ul class="exhibit-list">' + entry.estimated_impact.figures.map(f => '<li>' + f.metric + ': <strong>' + f.value + '</strong> (' + f.source + ')</li>').join("") + '</ul>' : '') +
       (entry.estimated_impact?.caveat ? '<div class="field-label">Caveat</div><div class="field-value" style="font-style:italic;">' + entry.estimated_impact.caveat + '</div>' : '') +
-      '<div class="field-label">Confidence note</div><div class="confidence-box">' + (entry.confidence_note || "") + '</div>' +
+      '<div class="field-label">Confidence note</div><div class="confidence-box">' + summaryLineHtml(entry.section_summaries?.confidence_note) + (entry.confidence_note || "") + '</div>' +
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + s.url + '" target="_blank" rel="noopener">' + s.name + '</a></li>').join("") + '</ul>';
   }
   // prosecution (default)
   return '<div class="field-label">Violation Type</div><div class="field-value">' + (entry.offense_category || "") + '</div>' +
     '<div class="field-label">Status Stage</div><div class="field-value">' + (entry.status_category || "") + '</div>' +
     '<div class="field-label">Alleged Violation (full legal citation)</div><div class="field-value">' + (entry.offense_category_raw || entry.offense_category || "") + '</div>' +
-    '<div class="field-label">Incident summary</div><div class="field-value">' + (entry.incident_summary || "") + '</div>' +
+    '<div class="field-label">Incident summary</div><div class="field-value">' + summaryLineHtml(entry.section_summaries?.incident_summary) + (entry.incident_summary || "") + '</div>' +
     '<div class="field-label">Status</div><div class="field-value">' + (entry.status || "") + '</div>' +
-    '<div class="field-label">Confidence note</div><div class="confidence-box">' + (entry.confidence_note || "") + '</div>';
+    '<div class="field-label">Confidence note</div><div class="confidence-box">' + summaryLineHtml(entry.section_summaries?.confidence_note) + (entry.confidence_note || "") + '</div>';
 }
+/* build-detail-html:end */
 
 /* Shared card builder used by both the per-tracker tabbed view and
    the cross-database global search view, so the two stay visually
