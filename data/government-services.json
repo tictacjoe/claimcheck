@@ -39,6 +39,11 @@
       "caveat": "This entry concerns the firing and the specific, technical dispute over whether commissioner-level political interference in BLS data is even mechanically possible (Beach's rebuttal directly addresses this) -- it is a narrower and more specifically evidenced claim than the broader 'data integrity across federal statistical agencies' concern the Urban Institute raises, which draws on separate incidents (website data removal, DEI-related field changes) not specific to the BLS commissioner firing itself. These are related but distinct concerns and should not be conflated when citing this entry."
     },
     "confidence_note": "Exceptionally strong sourcing specifically because the most substantive rebuttal comes from within Trump's own political circle -- his first-term BLS Commissioner, not an opposition figure -- giving both a credibility advantage and a specific technical explanation (rather than just political disagreement) for why the manipulation claim doesn't hold up mechanically. Core facts (the jobs numbers, the firing, the public statements) are corroborated across CNBC, PBS News, and the Urban Institute with no factual dispute about what happened, only about whether it was justified. Re-verified 2026-07-20: no reversal or vindication of the firing has occurred; if anything, the data-integrity concern has broadened institutionally (IG audit, senior-leadership attrition) beyond the single-commissioner dispute this entry originally documented. The 911,000-job benchmark revision should be presented carefully -- it is a much larger number than the original 258,000 two-month revision that preceded the firing, but EPI and BLS's own methodology describe annual benchmark revisions as routine, not as further evidence of manipulation either way; don't conflate the two figures or imply the larger number is itself scandalous without that context.",
+    "section_summaries": {
+      "what_changed": "Trump publicly fired BLS's commissioner over social media hours after a weak jobs report, alleging data manipulation without offering proof.",
+      "estimated_impact": "A former Republican-era BLS chief technically debunked the manipulation claim; a research group warned the ouster damages trust in government data broadly.",
+      "confidence_note": "Very strong sourcing, notably from Trump's own former BLS chief; no reversal since, and a later benchmark revision is routine, not proof of manipulation."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -102,6 +107,11 @@
       "caveat": "The JAMA study is genuinely the strongest available evidence directly contradicting Kennedy's specific stated rationale (that conflicts of interest justified the removal), since it's independent, peer-reviewed research examining the same body of disclosure data Kennedy cited. Characterizations of the new members' qualifications and motives, by contrast, come from advocacy/professional-society statements and should be sourced accordingly, not treated as equally definitive."
     },
     "confidence_note": "Extremely well-documented from many independent angles: HHS's own press release (confirms the action and Kennedy's stated reasoning in his own words), extensive contemporaneous news coverage (NPR, CNN, CBS, Axios, STAT), and -- most valuably for debate use -- a peer-reviewed scientific study specifically testing and rebutting the stated justification. This combination (agency's own stated reasoning + independent peer-reviewed rebuttal of that specific reasoning) is about as strong as sourcing gets for this kind of entry.",
+    "section_summaries": {
+      "what_changed": "RFK Jr. ousted the CDC's entire 17-member vaccine advisory panel by op-ed and installed 8 picks holding vaccine-skeptic records.",
+      "estimated_impact": "A peer-reviewed JAMA study found industry conflicts on the panel were already near historic lows, undercutting Kennedy's stated reason for the purge.",
+      "confidence_note": "Very strong: corroborated by HHS's own statement, multiple news outlets, and a peer-reviewed study that directly examined and refuted the administration's stated reasoning."
+    },
     "last_verified": "2026-07-07",
     "sources": [
       {
@@ -165,6 +175,11 @@
       "caveat": "Commerce's stated rationale is that 'indiscriminate use of noise infusion...ultimately undermined confidence in the department's products and cast doubt on their integrity,' and that coarsening better 'upholds our duty to safeguard the privacy of those who provide information' - i.e., the administration frames this as a pro-privacy, pro-integrity move, not a cut. Independent data-user advocates (Beth Jarosz, Association of Public Data Users; John Abowd, former Census chief scientist) and an anonymous current bureau employee dispute this, calling the change 'cataclysmic' for data production and noting it removed the normal scientific/public review process. Long-running controversy over the differential-privacy system predates this administration - Alabama Republican officials sued to block it in 2021 - so this is a continuation of a genuine, multi-year methodological dispute, not a one-sided fabrication."
     },
     "confidence_note": "High confidence on the existence, timing, and content of the order and the range of expert reaction, based on NPR's direct interviews with the Commerce Department spokesperson, a former Census Bureau chief scientist, and outside data-user advocates, corroborated by a September 2025 Commerce Inspector General audit and a CBPP policy report documenting broader statistical-agency budget and staffing pressure. The ultimate real-world impact on specific datasets is still unfolding and not yet independently audited. Re-verified 2026-07-20: worth noting clearly that the June 2026 noise-infusion ban and the America First Legal lawsuit are related but now legally separate tracks -- the lawsuit that originally challenged differential privacy no longer does, and the ban wasn't a court-ordered outcome. Don't cite the litigation as the ban's legal cause.",
+    "section_summaries": {
+      "what_changed": "Commerce banned the Census Bureau's core statistical-privacy method, leaving only cruder options like withholding or coarsening data, with no public explanation.",
+      "estimated_impact": "2030 redistricting preparation may need reworking from scratch, and data for many small and rural communities could vanish entirely, since nothing of comparable quality replaces what was removed.",
+      "confidence_note": "Well-sourced on what the order does and how experts reacted, though real-world effects are still unfolding; note the ban is legally separate from the narrowed related lawsuit."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -247,6 +262,11 @@
       "caveat": "As with USAID, this raises a specific, recurring structural question in this tracker: CFPB was created by Congress (via Dodd-Frank) and its constitutionality was upheld by the Supreme Court as recently as 2024 -- meaning the core legal dispute is whether the executive branch can functionally dismantle a congressionally-created independent agency through funding and staffing actions alone, without Congress formally eliminating it. This litigation (NTEU v. Vought and the related Baltimore case) remains ongoing and unresolved as of this entry's last update; the December 2025 ruling addressed only the funding question, not the broader dismantlement question."
     },
     "confidence_note": "Very strong sourcing: court filings and judicial rulings are primary legal documents, not characterizations, and are corroborated across NPR, NOTUS, the Economic Policy Institute, and legal-advisory analysis from Arnold & Porter (a law firm tracking the litigation for its own clients, a useful neutral-technical source). Vought's own public statements (the Charlie Kirk Show interview, his Project 2025 authorship) are on the record in his own words. Re-verified 2026-07-20: funding litigation continues in CFPB's favor (a federal judge again rejected the administration's funding-withholding theory); the more significant near-term development is procedural -- Vought's FVRA-based authority to run the agency expires August 1, 2026, and his eventual successor (Johnson if confirmed, otherwise Paoletta) is not yet on record with a stated position on the underlying dismantlement effort.",
+    "section_summaries": {
+      "what_changed": "Acting Director Vought froze CFPB operations and funding and pushed layoffs that courts partly blocked, shrinking the agency toward a fraction of its prior staff.",
+      "estimated_impact": "The presiding judge said officials were openly trying to shut down an agency that had returned nearly $20 billion to consumers, now with enforcement sharply curtailed.",
+      "confidence_note": "Strongly sourced via court filings and rulings, not just reporting; as of re-verification litigation still favors CFPB and the next director's stance is unknown."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -320,6 +340,11 @@
       "caveat": "CISA's own acting leadership disputes that the cuts have reduced operational capability, pointing to 2025 output metrics (incidents triaged, victims assisted) as evidence the agency is 'doing more with less.' This is a genuinely contested empirical question -- output volume from a smaller staff doesn't necessarily mean nothing has degraded (e.g., in depth of engagement, regional relationship continuity, or unaddressed threats never triaged at all), but the tracker should present both the workforce reduction figures and the agency's own counter-claim of maintained capability rather than asserting degraded security as an already-proven fact."
     },
     "confidence_note": "Strong, multi-source documentation (Axios, Cybersecurity Dive, Nextgov/FCW, and direct citation of a sitting senator's formal oversight letters) with specific, verifiable numbers. The MS-ISAC defunding is the most cleanly attributable individual action (a specific dollar figure, a specific named official, a specific date). The broader 'has this made the country less safe' question is genuinely disputed between CISA's own leadership and outside oversight (Warner) -- present both sides rather than picking one as settled fact. Re-verified 2026-07-20: the leadership vacancy this entry already documented has become more entrenched, not resolved -- CISA has now gone through an entire Trump-term nomination cycle (Plankey nominated, stalled, withdrawn) without a confirmed director. The planned 2026 hiring push is a real, sourced development but is prospective as of this update, not yet reflected in workforce totals.",
+    "section_summaries": {
+      "what_changed": "CISA lost roughly a third of its staff to buyouts, layoffs, and forced transfers, leaving about 1,000 positions unfilled and half its regional posts vacant or acting.",
+      "estimated_impact": "Sen. Warner warned the planned rehiring is insufficient against current threats, though acting CISA leadership disputes that its capability has actually declined.",
+      "confidence_note": "Well-documented with specific figures; whether the cuts have actually weakened capability is a live dispute between agency leadership and outside congressional oversight."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -402,6 +427,11 @@
       "caveat": "This is a case where the underlying policy dispute (concerns about NPR/PBS political bias vs. the value of rural/local public media infrastructure) is genuinely contested and worth presenting fairly -- Sen. Collins's and Sen. Murkowski's own floor statements explicitly hold both positions simultaneously (agreeing bias concerns are legitimate while opposing the scale of the cut), which is a more nuanced position than a simple for/against framing would suggest. The April 2025 board-firing legal dispute over CPB's charter-guaranteed independence remains a separate, not fully resolved legal question from the funding rescission itself."
     },
     "confidence_note": "Extremely well-documented with a formal recorded congressional vote (not just an executive action), consistent figures across NPR, NBC News, CNN, PBS News/AP, Fox News, and Time, and specific named station-level impacts rather than general claims. Trump's own statements and the vote tally are matters of public record.",
+    "section_summaries": {
+      "what_changed": "After Trump ousted CPB board members, Congress rescinded its $1.1 billion in funding by a narrow vote, and the board later chose to shut the organization down for good.",
+      "estimated_impact": "Local and rural stations, which relied most heavily on this money, cut programs first -- even Sen. Collins, who voted to save the funding while blasting NPR's bias, said local coverage still mattered.",
+      "confidence_note": "Very solidly sourced: a recorded congressional vote plus consistent reporting across ideologically varied outlets, including named station-level effects."
+    },
     "last_verified": "2026-07-08",
     "sources": [
       {
@@ -470,6 +500,11 @@
       "caveat": "The administration's position, stated by Acting Chairman Feldman, is that the Supreme Court's Trump v. Slaughter decision confirms 'officials who exercise executive power are accountable to the President' and that the prior for-cause removal protections were themselves unconstitutional -- i.e., that the firings were lawful all along, not merely permitted going forward. The withdrawn e-bike/lithium-battery standard had not been finalized and remains a live issue the agency could revisit; its withdrawal reflects the preference of the two remaining commissioners rather than a formal reversal of prior CPSC safety findings. Consumer-safety groups (Consumer Federation of America, National Consumers League, Public Citizen, which represented the fired commissioners) and the fired commissioners themselves argue the firings undermine the bipartisan design Congress built into the agency; the HHS-transfer budget proposal has seen no visible congressional movement as of mid-2026 per Covington & Burling's analysis, so its practical effect remains prospective rather than realized."
     },
     "confidence_note": "High confidence throughout: the firings, litigation history, and Supreme Court stay are well documented across NPR, PBS, SCOTUSblog, and CBS News, with direct quotes from the fired commissioners and CPSC's own newsroom statement confirming the post-Slaughter finalization. The budget-cut percentages and e-bike standard withdrawal are sourced to a single trade outlet (Bicycle Retailer and Industry News) corroborated by the underlying CPSC budget request; treated as solid but narrower sourcing than the litigation timeline.",
+    "section_summaries": {
+      "what_changed": "Trump fired 3 of 5 CPSC commissioners without detailed cause after they blocked DOGE access; litigation reached the Supreme Court, which let the firings stand.",
+      "estimated_impact": "More than a year running, a commission meant by law to stay bipartisan has had just two commissioners from one party, who pulled a pending e-bike battery fire-safety rule.",
+      "confidence_note": "The firing and litigation timeline is well-documented across multiple outlets; the budget and e-bike details rest on one trade publication, corroborated but narrower."
+    },
     "last_verified": "2026-07-10",
     "sources": [
       {
@@ -547,6 +582,11 @@
       "caveat": "DOE's stated rationale, per Secretary Wright, was that the terminated projects lacked economic viability and did not align with the administration's energy priorities, which the department has reoriented toward nuclear, fossil fuels, and critical minerals over renewable and demonstration-stage decarbonization technologies -- a shift DOE frames as 'restoring commonsense to energy policy' and lowering costs. Critics, including the nonprofit Clean Tomorrow and various clean-energy industry voices, argue the cancellations forfeit federal investments specifically designed to de-risk early-stage technology for private capital, citing lost private co-investment (for example, more than $14 billion in private capital tied to the $6 billion Industrial Demonstrations Program alone) and pointing to Project 2025's explicit call to shut OCED down as evidence the outcome was predetermined rather than a case-by-case economic viability review. Some project cancellations and workforce reductions elsewhere in DOE's energy programs (e.g., power marketing administrations) were later partially reversed when operational risks became apparent, suggesting the cuts were not uniformly implemented without pushback internally."
     },
     "confidence_note": "High confidence on the dollar figures, staffing cut, and organizational elimination, which are corroborated across multiple independent trade outlets (Latitude Media, pv magazine USA, Holland & Knight, Politico's E&E News) citing DOE's own announcements and budget documents. The $24 billion cross-office target-list figure is sourced to internal documents obtained by one outlet (Latitude Media) rather than a public DOE statement, and is presented as a reported figure rather than an officially confirmed total.",
+    "section_summaries": {
+      "what_changed": "DOE canceled dozens of clean-energy demonstration project awards worth over $3.7 billion, cut the managing office's staff by about 86%, then erased it from the org chart.",
+      "estimated_impact": "Clean-energy awards worth roughly $3.7 billion are gone for good, the office managing a program worth well over $18 billion no longer exists, and DOE's wider target list reportedly runs toward $24 billion.",
+      "confidence_note": "Core figures are corroborated across trade outlets citing DOE's documents; the larger $24B figure comes from one outlet's internal-document leak, not an official tally."
+    },
     "last_verified": "2026-07-10",
     "sources": [
       {
@@ -615,6 +655,11 @@
       "caveat": "Dhillon and DOJ leadership frame this as a legitimate, if unusually large, exercise of an incoming administration's prerogative to set its own enforcement priorities -- a framing multiple sources acknowledge is normal in kind (priorities do shift between administrations) even while disputing that this instance is normal in scale or process. The 250 vs. 260 vs. 400 figures reflect different snapshot dates from the same source network (Justice Connection) rather than conflicting estimates -- the count grew over the year as departures continued, not because of methodological disagreement."
     },
     "confidence_note": "Strong, consistent sourcing across NPR, Government Executive, Democracy Docket, and multiple advocacy organizations, all citing the same core figures traceable to Justice Connection's direct contacts within the division -- a meaningful source since it draws on current employees, not just outside inference. Dhillon's own quotes and mission-statement language are on the record from her own public remarks and DOJ's own internal communications, not disputed characterizations. Re-verified 2026-07-20: Riordan's appointment and the reported election-observer defunding consideration both extend this entry's existing pattern (priorities redirected toward voter-fraud pursuit, away from voting-rights protection) with new, specific, named developments rather than changing the basic trajectory already documented.",
+    "section_summaries": {
+      "what_changed": "Roughly three-quarters of the Civil Rights Division's attorneys have left since January 2025, with the Voting Section gutted from 30 lawyers to 3 as priorities shifted.",
+      "estimated_impact": "A division veteran called this shift unprecedented in nearly 70 years; a former Voting Section chief warned of fraud suits timed around elections.",
+      "confidence_note": "Strongly sourced, including figures from current employees rather than outside inference; recent developments extend the pattern already documented, not change it."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -693,6 +738,11 @@
       "caveat": "This is a genuinely unusual and legally contested action: an executive branch effectively hollowing out an agency Congress has not defunded or abolished, using interagency agreements rather than legislation -- multiple observers (Frederick Hess, American Enterprise Institute) note this specifically creates friction for any future administration, since agreements would need to be affirmatively unwound rather than simply restored by inaction. The Supreme Court's involvement so far is procedural (allowing the process to continue pending litigation), not a ruling on the ultimate legality of dismantling a congressionally-created department without congressional action."
     },
     "confidence_note": "Extremely well-documented and current (reporting through late June 2026) from AP, NPR, Bloomberg, and Washington Examiner, with specific figures from the department's own Inspector General. McMahon's own public statements and the Project 2025 authorship connection are on the record, not inferred. The tension between congressional funding and executive dismantling is a real, verifiable structural fact, not a partisan characterization. Re-verified 2026-07-20: no material change found since the June 2026 special-education/civil-rights office transfers already documented in this entry -- no new ruling from the Supreme Court or lower courts, no further interagency transfers identified.",
+    "section_summaries": {
+      "what_changed": "McMahon transferred the department's core functions to other agencies through interagency deals, because full abolition requires an act of Congress.",
+      "estimated_impact": "Congress still funds the department near its old level despite the hollowing-out; a former staffer doubted HHS has the educational expertise IDEA requires.",
+      "confidence_note": "Extensively documented, citing the agency's Inspector General findings and McMahon's own public remarks; nothing has changed since the mid-2026 transfers already covered."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -757,6 +807,11 @@
       "caveat": "The administration's position, reflected in DOJ's litigation strategy, is that the President has inherent constitutional authority to remove principal officers of agencies exercising executive power, and the Supreme Court's Trump v. Slaughter ruling vindicated that view as a general matter. Samuels's dismissal of her own suit reflects her own assessment that the ruling foreclosed her specific claim, not an independent court finding that her particular firing was lawful on its individual facts. Quorum has been restored and the EEOC is now fully operational; the lasting impact is less about EEOC's current functioning and more about the removed 8.5-month capacity gap and the broader precedent Trump v. Slaughter sets for every other independent agency in this dataset (cross-reference the NCUA, NLRB/Wilcox, and Federal Reserve/Cook entries, all shaped by the same ruling)."
     },
     "confidence_note": "High confidence on the firing dates, quorum-loss duration, and litigation timeline, corroborated across congressional statements, EPI, NELP, Littler, Seyfarth Shaw, Holland & Knight, and multiple wire-service reports on Samuels's dismissal of her suit (AP via ABC News, Washington Post, The Hill, HR Dive). The characterization of Trump v. Slaughter as overturning Humphrey's Executor reflects the consistent framing across legal-analysis sources cited in this dataset's other quorum-loss entries (NCUA, NLRB), not an independent read of the opinion by this project.",
+    "section_summaries": {
+      "what_changed": "Trump ousted two Democratic EEOC commissioners and the general counsel mid-term -- an unprecedented first -- leaving the agency unable to set policy for roughly eight months.",
+      "estimated_impact": "A bipartisan civil-rights agency couldn't set policy for months, and courts never ruled on the firings' legality -- a broader removal-power case made the question moot.",
+      "confidence_note": "Well-corroborated on dates and outcomes across legal firms and wire services; the historic-precedent framing matches this dataset's other entries, not an independent legal read."
+    },
     "last_verified": "2026-07-18",
     "sources": [
       {
@@ -825,6 +880,11 @@
       "caveat": "The EEOC's stated rationale is that the reporting requirements 'impose significant financial and administrative burdens on the nation's employers' and that demographic data has been misused by some companies to justify race- or sex-conscious practices Chair Lucas considers potentially discriminatory. Critics, including former EEOC General Counsel Karla Gilbride and the advocacy group Equal Rights Advocates, argue the data has been essential to identifying systemic discrimination, citing the decades-long Bass Pro Shops hiring-discrimination case as an example, and that its loss would force investigators to rely on far more laborious subpoena processes going forward, saying 'we cannot change what we cannot measure.' This remains a proposed rule, not a final one: it must still be published in the Federal Register, undergo a public comment period, and be finalized by the EEOC, a process expected to take several more months from the last-verified date."
     },
     "confidence_note": "Very strong. Every procedural date and the proposed rule's exact title are independently corroborated across Morgan Lewis, Saul Ewing, Bloomberg Law, HR Dive, and HR Daily Advisor legal alerts, and NPR's June 2026 reporting includes on-record quotes from both Chair Lucas and former EEOC officials representing both sides of the dispute. Re-verified 2026-07-19: no material change -- still pre-publication, corroborated by the EEOC's own regulatory agenda reporting and the Federal Register's July 17, 2026 Sunshine Act notice.",
+    "section_summaries": {
+      "what_changed": "With Democratic commissioners gone, the EEOC advanced a plan to scrap its EEO-1 through EEO-5 demographic reporting rules, though it hadn't formally published yet.",
+      "estimated_impact": "This 1966-era discrimination-detection tool, tied to billion-dollar settlements, is headed for elimination -- and nothing is lined up to replace what it does.",
+      "confidence_note": "Very strongly sourced: multiple legal-alert firms confirm the rule's exact dates and wording, and reporting includes statements from officials on each side of the dispute."
+    },
     "last_verified": "2026-07-19",
     "sources": [
       {
@@ -898,6 +958,11 @@
       "caveat": "EPA disputes the characterization that this reduces the agency's scientific capacity, framing it instead as integrating science more directly into decision-making offices rather than isolating it in a separate research division -- this is a genuine, disputed structural question (does embedding scientists in program offices improve or compromise independence?) rather than a simple factual dispute. The agency has stated all laboratory functions previously conducted by ORD will continue, though it has not detailed which offices retain which specific functions or capacity levels."
     },
     "confidence_note": "Very strong, extensively corroborated sourcing across specialist and mainstream outlets (Science/AAAS, C&EN, NPR, PBS News/AP, Harvard's Environmental and Energy Law Program tracker, Columbia's Sabin Center for Climate Change Law) with consistent core figures (1,155 at-risk positions, $750M savings, 3,700+ agency-wide reduction) traceable to EPA's own announcements and congressional document review. The structural critique (OASES under the Administrator's direct office, unlike independent ORD) is a verifiable organizational fact, not an interpretation.",
+    "section_summaries": {
+      "what_changed": "EPA dissolved its independent research office, placing the work under the Administrator directly, dropping 'research' from the new name, with most scientists facing layoff risk.",
+      "estimated_impact": "Outside scientists warned this endangers widely used toxicology databases and pollution models, plus methods for gauging combined-chemical risks; a lawmaker called it generational.",
+      "confidence_note": "Strongly corroborated by trade and general-news reporting, with figures traced to EPA's own statements; the office's new reporting line is a verifiable fact, not opinion."
+    },
     "last_verified": "2026-07-08",
     "sources": [
       {
@@ -976,6 +1041,11 @@
       "caveat": "This is the entry in this tracker where administration-specific attribution is weakest -- treat it as documenting an ongoing crisis the current administration inherited, is now responsible for managing, and in some respects (the 2025 shutdown, the blocked second academy) has contributed to worsening, rather than as evidence the shortage was created by this administration. Use the shutdown-specific traffic-cut entry (see related entry) for the more directly attributable acute action."
     },
     "confidence_note": "Extremely well-documented from the strongest possible source types: GAO (the government's own nonpartisan watchdog), the National Academies of Sciences (a congressionally-chartered independent body), and the FAA's own workforce plan and administrator's congressional testimony. The honesty of this entry's attribution caveat is itself important -- overstating this as a Trump-II-created crisis would be inaccurate and would undermine the credibility of the tracker's other, more directly attributable entries. Re-verified 2026-07-20: the attribution caveat in this entry's summary applies with equal force to the 2026 workforce plan -- lowering the staffing target is a genuine agency policy choice worth scrutiny in its own right (is 12,563 a legitimate modernization-driven revision, or a way to declare progress without matching hiring?), distinct from the chronic, multi-administration structural shortage this entry primarily documents. Present both framings; don't treat the new, lower target as simply resolving the original gap.",
+    "section_summaries": {
+      "what_changed": "This shortage predates the administration but worsened in the 2025 shutdown; a 2026 plan closed most of the 'gap' by lowering the target, not by hiring more controllers.",
+      "estimated_impact": "Investigators linked understaffing to a fatal 2025 midair collision, and the controllers' union says thousands more are needed, with many working ten-hour, six-day weeks.",
+      "confidence_note": "Very well-documented via GAO, the National Academies, and FAA congressional testimony; this entry deliberately avoids overstating it as a purely current-administration problem."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -1044,6 +1114,11 @@
       "caveat": "This entry is best understood as a downstream consequence of the broader shutdown (a Congress-White House funding standoff) rather than an independent FAA policy choice -- the FAA/DOT's own framing throughout was that they were responding to a crisis, not creating one. The measure was also broadly described as the technically correct safety response by outside aviation safety experts, not merely criticized. This is a case where the tracker should document real, significant harm from a service disruption without implying the FAA acted in bad faith or unsafely -- quite the opposite is the more accurate reading of the sourcing."
     },
     "confidence_note": "Extremely well-documented in real time by essentially every major outlet (NPR, CNBC, CBS, NBC, Bloomberg) plus the FAA's own official press release with exact percentage ramp-up dates. This is one of the most concretely dated and quantified entries in the tracker, since the FAA published an actual emergency order with a specific schedule.",
+    "section_summaries": {
+      "what_changed": "As unpaid controllers missed shifts in the record 2025 shutdown, officials ordered a phased flight-capacity cut at 40 airports, triggering thousands of cancellations within days.",
+      "estimated_impact": "Safety experts called the cuts reasonable, not punitive, while flagging real economic costs; one airline alone canceled over 12,000 passengers' flights the first day.",
+      "confidence_note": "Covered live by nearly every major outlet, and anchored to the FAA's own emergency order with exact dates -- among the most precisely quantified entries in this tracker."
+    },
     "last_verified": "2026-07-07",
     "sources": [
       {
@@ -1108,6 +1183,11 @@
       "caveat": "FDA leadership frames these as deliberate, evidence-based reforms rather than harmful disruption: Commissioner Makary credited Prasad with four 'long-lasting' reforms (a 2-to-1 pivotal-trial requirement, national priority review vouchers, the risk-stratified vaccine framework, and a new 'plausible mechanism' pathway for ultra-rare diseases), and said CBER hit a record number of approvals in December 2025. FDA officials also point to comparable age/risk-based vaccine policies in Canada, Denmark, and Australia as precedent. On the other side, 12 former FDA commissioners warned the new vaccine evidence bar could make it commercially unworkable for manufacturers to develop new vaccines, more than 75 medical organizations criticized the policy shift, and multiple biotech companies said the agency reversed prior agreements on trial design after their programs were already underway. A November 2025 internal Prasad memo claiming COVID vaccines caused at least 10 pediatric deaths was reported by the Washington Post but no supporting case data was released, leaving that specific claim unverified and contested."
     },
     "confidence_note": "High confidence on the leadership-turnover and policy-change facts themselves, which are corroborated across many independent outlets (STAT, BioSpace, CNBC, Axios, PBS, Fierce Biotech, BioPharma Dive, PharmExec) and FDA's/Makary's own public statements. No formal GAO or Inspector General report on this specific matter has been identified yet; impact figures (drug denial count, population access figures) come from industry analysis (RTW Investments) and the FDA's own framework rather than an independent audit. Re-verified 2026-07-20: this entry's prior update (last_verified 2026-07-09) was already stale on the specific current acting director -- Szarama had already been replaced by Mikhail weeks earlier. Corrected the status and leadership-turnover figure directly per this entry's own real-correction standard, rather than appending a note alongside outdated information.",
+    "section_summaries": {
+      "what_changed": "The FDA's vaccine division churned through six directors in about a year, while leadership narrowed the default COVID-vaccine recommendation to older, higher-risk adults only.",
+      "estimated_impact": "Most Americans under 65 no longer get a standard yearly-shot recommendation by default -- a policy shift that landed alongside six changes in leadership at the division overseeing vaccine approvals.",
+      "confidence_note": "Turnover and policy facts check out across numerous trade outlets and FDA's own statements, though impact numbers trace to industry analysis, not a government audit."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -1195,6 +1275,11 @@
       "caveat": "The administration's stated rationale was the mortgage-fraud allegations against Cook, which she denies and for which she has not been charged; Pulte has said he believes she 'will be indicted.' Cook and her attorneys have characterized the allegations as pretextual, arguing the real motive was her refusal to lower interest rates as Trump demanded. The Supreme Court's ruling was explicitly procedural and preliminary -- it found the administration had not shown a likelihood of success on the merits, not that Cook could never be removed; litigation over whether she was fired 'for cause' continues. This is included as a rare reversal/blocked story for balance: unlike the FTC, CPSC, and NCUA entries in this tracker, the Fed's independence held, at least for now."
     },
     "confidence_note": "High confidence. Directly sourced to the Supreme Court's own opinion in Trump v. Cook (25A312, decided June 29, 2026), SCOTUSblog's contemporaneous reporting, and on-record statements from Cook, Trump, and Pulte reported by CNBC, Newsweek, and NBC News. The 'for cause' merits question remains genuinely unresolved and is presented as such. Re-verified 2026-07-19: no material change to report.",
+    "section_summaries": {
+      "what_changed": "Trump's bid to remove a Fed governor over unproven fraud claims was blocked by courts, then by the Supreme Court, which spared the Fed from a broader removal-power ruling.",
+      "estimated_impact": "Called one of the most consequential legal fights in the Fed's history, the ruling kept the central bank shielded from at-will removal even as similar protections fell elsewhere.",
+      "confidence_note": "Grounded directly in the Court's written opinion, plus public statements each party made themselves; the underlying 'for cause' legal question remains open, not settled here."
+    },
     "last_verified": "2026-07-19",
     "sources": [
       {
@@ -1274,6 +1359,11 @@
       "caveat": "GovFacts' broader analysis of whether cuts affected the flood response itself is careful to note that specific FEMA deployment numbers for the July 2025 disaster weren't fully public at time of writing, and frames the staffing-to-outcome link as 'plausible' rather than definitively proven for every aspect of the response -- the call-center funding lapse specifically, however, is documented via internal agency records, not just inference."
     },
     "confidence_note": "Very strong sourcing on the call-center failure specifically: NPR's reporting is based on an internal memo signed by the acting FEMA administrator himself and contemporaneous call-center logs, which directly contradict FEMA's own public statement on the matter -- a documented instance of the agency's public claims being contradicted by its own internal records. The broader staffing figures come from GAO, the government's own nonpartisan watchdog. The claim that staffing cuts caused specific loss of life or slower rescues is more contested and should be sourced to GovFacts' careful 'plausible link' framing rather than asserted as proven. Re-verified 2026-07-20: the specific, documented call-center failure during the July 2025 Texas floods remains the strongest evidentiary anchor for this entry. The broader staffing/leadership picture has continued to deteriorate into 2026 by the numbers, even as FEMA has begun a modest hiring push and leadership publicly frames current readiness as adequate ahead of a below-normal-forecast hurricane season -- present both the raw staffing trend and the agency's own readiness characterization, since they're not strictly contradictory (a smaller agency can still claim adequate readiness for a lighter-than-average season).",
+    "section_summaries": {
+      "what_changed": "A Noem rule requiring her sign-off on spending over $100,000 delayed FEMA's call-center funding and rescue deployment during the deadly 2025 Texas floods.",
+      "estimated_impact": "Internal FEMA records themselves, not outside inference, connect the sign-off rule directly to the call-center breakdown that happened during a real, fatal flood -- this already occurred, it wasn't a modeled risk.",
+      "confidence_note": "Strongly sourced via internal memos and GAO data; whether the cuts caused specific deaths or slower rescues stays contested, framed as a plausible link, not a proven cause."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -1371,6 +1461,11 @@
       "caveat": "USDA's dispute of the vacancy figures is a genuine, specific rebuttal (citing 'outdated org charts and unfunded positions'), not a blanket denial -- though ProPublica's confirmation that its own data excluded unfunded positions undercuts that specific rebuttal. The practice of Forest Service staffing targets running below actual operational need reportedly predates this administration (a former agency official who co-authored a 2009-2011 personnel needs assessment said selective firefighter counting 'dates back years'), so some caution is warranted before treating the underlying vacancy-counting dispute as unique to 2025 -- what is specific to this period is the scale of departures and Chief Schultz's own memo acknowledging the resulting strain."
     },
     "confidence_note": "Very strong, multi-outlet investigative sourcing (ProPublica, High Country News, Capital & Main, Yale E360, Colorado Newsline all independently corroborating the same core figures) plus a genuinely rare document -- an internal Forest Service Chief's memo obtained by a news outlet that directly documents the agency's own leadership acknowledging the shortfall in near-real-time, contemporaneous with USDA's public denial. This internal-vs-external contradiction, documented on both sides, is unusually strong evidentiary material for this kind of tracker entry. Re-verified 2026-07-20: the 2026 seasonal-hiring goal being met is a real, sourced fact and shouldn't be omitted or downplayed -- but it answers a narrower question (seasonal firefighter headcount) than the permanent-staff attrition and red-card-capacity concerns this entry was built around, which independent sourcing says remain unresolved. Present both: the agency's legitimate 2026 hiring win, and the continuing structural capacity concern outside observers raise about a bad fire year testing a smaller permanent workforce.",
+    "section_summaries": {
+      "what_changed": "Layoffs and buyouts pushed thousands of fire-qualified Forest Service staff out, and a leaked internal memo confirmed real strain even as USDA disputed reports of vacant firefighting jobs.",
+      "estimated_impact": "This entry rests on the Agriculture Secretary's own public claims contradicting her agency chief's leaked memo, backed by frontline surveys showing high vacancy rates in some units.",
+      "confidence_note": "Very strongly documented across multiple investigative outlets plus a rare leaked memo; meeting this year's seasonal target doesn't resolve the separate permanent-staff attrition concern."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -1438,6 +1533,11 @@
       "caveat": "The administration and Chairman Ferguson frame the staffing reduction as correcting what Ferguson called the 'previous administration's mismanagement,' and the agency points to continued enforcement activity as evidence the cuts have not weakened its mission, including $333.7 million returned to consumers in FY2024 and ongoing major litigation such as the FTC's monopolization case against Meta and joint suit against Amazon. On the commissioner firings, the administration's position, upheld by the Supreme Court majority, is that the FTC 'unquestionably exercises executive power' and must therefore be fully accountable to the president; Chief Justice Roberts's majority opinion carved out a possible exception for the Federal Reserve. Critics, including Justice Sotomayor's dissent (joined by Kagan and Jackson) and former commissioner Slaughter, argue the ruling eliminates meaningful independence not just at the FTC but across the broader universe of agencies Congress designed to be insulated from single-party control, and that FTC policy will become more responsive to political and campaign considerations going forward. Legal scholars are split on how far the precedent extends beyond the FTC itself."
     },
     "confidence_note": "Very strong. The commissioner-firing narrative is anchored in the Supreme Court's own published opinion in Trump v. Slaughter (June 29, 2026), corroborated by SCOTUSblog, ABC News, CNBC, and multiple law-firm client alerts. The staffing figures come directly from Chairman Ferguson's sworn congressional testimony, independently reported by three separate legal-industry outlets. Re-verified 2026-07-19: no material change to report.",
+    "section_summaries": {
+      "what_changed": "Both Democratic FTC commissioners were removed without stated cause, and staff fell 10%; the Supreme Court later ended their removal protections, closing a 90-year-old precedent.",
+      "estimated_impact": "Beyond the staff cuts, the bigger loss is structural: the FTC's bipartisan makeup and legal shield against single-party control are gone, part of a shift affecting about two dozen agencies.",
+      "confidence_note": "Very strongly grounded in the Court's written ruling and Chairman Ferguson's sworn testimony on staffing, both independently corroborated; no material change found on re-check."
+    },
     "last_verified": "2026-07-19",
     "sources": [
       {
@@ -1511,6 +1611,11 @@
       "caveat": "FWS's official position, per an agency spokesperson statement, is that it 'remains dedicated to conserving America's wildlife and natural habitats while promoting access, use, and enjoyment of public lands by the American people, all while upholding federal responsibilities with efficiency and accountability.' The Interior Department has simultaneously expanded hunting and fishing access at dozens of refuge sites during the same period, which it points to as evidence of continued investment in the Refuge System even amid budget reductions. Conservation groups and independent researchers, including an Oregon State University economist who studies Endangered Species Act effectiveness, counter that empirical research supports listing and dedicated recovery investment as effective tools for preventing extinction, and that delayed listings carry a real biological cost as at-risk populations continue to decline while awaiting review. The Center for Biological Diversity itself notes that staffing and budget reductions at FWS are 'consistent with what other Republican administrations have done,' while characterizing the scale of this administration's cuts as going significantly further."
     },
     "confidence_note": "Very strong. The core staffing figure comes from a Congressional Research Service report citing official OPM data. The zero-new-listings comparison is drawn from a nonprofit tracking database corroborated independently across three separate state-level news outlets (Alaska Beacon, Oregon Capital Chronicle, Daily Montanan) all reporting the same underlying figures consistently, and the budget figures are further corroborated by Bloomberg Law and Mountain Journal reporting. Re-verified 2026-07-20: no new species listings found through mid-July 2026 -- the zero-listings figure in this entry's core finding still holds and is now further corroborated by multiple recent 'not warranted'/90-day-finding actions that fall short of an actual listing. The Colossal Biosciences partnership is a real, sourced development but shouldn't be conflated with resumed listing activity -- it's a separate genetic-preservation project.",
+    "section_summaries": {
+      "what_changed": "FWS lost over 1,500 staff and saw its listing budget cut more than a third, coinciding with zero new species protections added -- versus 22 in the prior term.",
+      "estimated_impact": "No species has gained federal protection this entire term -- the longest such gap on record -- while the office deciding those cases shed roughly 20% of its people and a third of its budget.",
+      "confidence_note": "Strongly sourced via CRS/OPM data and multiple corroborating state outlets; a newer genetic-preservation partnership is real but distinct from actual species listings."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -1579,6 +1684,11 @@
       "caveat": "HUD's official position, reflected in its own press releases, is that fair housing enforcement remains active and effective; the agency announced in June 2026 that it had cut what it described as a Biden-era case backlog by 27%. This creates a genuine, documented tension with the account from former HUD civil rights attorneys, who allege in a formal whistleblower complaint to Senator Elizabeth Warren that the department illegally wound down and stalled active discrimination cases rather than resolving them, and that one attorney who raised these concerns was fired while another was placed on leave before later termination. The two publicly reported FHEO staffing-reduction figures (45% per October 2025 OMB data versus roughly two-thirds per NFHA's independent November 2025 analysis) are not necessarily contradictory, since they were measured about a month apart during a period when cuts continued to deepen through the government shutdown; both are presented here rather than resolved in favor of one, since each is independently sourced and dated."
     },
     "confidence_note": "Strong. Corroborated across Bloomberg, HousingWire (citing the National Fair Housing Alliance's published Fair Housing Trends Report), Tax Credit Advisor (citing OMB's own data and an on-record former HUD attorney), and Invisible People's October 2025 reporting, with HUD's own press releases providing its stated counter-narrative on enforcement outcomes. Re-verified 2026-07-20: the whistleblower allegations this entry already documented have escalated from an internal complaint to sworn congressional testimony and formal litigation -- a meaningful evidentiary upgrade (testimony under oath, a filed complaint with specific factual allegations) even though the underlying substance of the allegations is consistent with what was already in this entry.",
+    "section_summaries": {
+      "what_changed": "After DOGE-directed cuts hollowed out the office under new Secretary Turner, attorneys who blew the whistle on the fallout were pushed out and later sued HUD.",
+      "estimated_impact": "Whistleblowers formally alleged that officials were illegally sitting on live housing-bias cases instead of resolving them, inside an office now operating with barely a third of the staff it had a year before.",
+      "confidence_note": "Well-corroborated across several outlets citing HUD's own data, though HUD's releases offer a counter-narrative; whistleblower claims have since escalated to sworn testimony and suit."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -1652,6 +1762,11 @@
       "caveat": "The Department's stated rationale, in its own words, is that IES spent '$14 billion and countless contracts later' without evidence that student outcomes improved, and it specifically flagged $101 million in DEI-related contracts and line items such as $4.6 million 'to coordinate Zoom and in-person meetings.' Notably, this is a genuinely mixed-reception story: Mark Schneider, who led IES during Trump's first term, said in a public LinkedIn discussion that the agency needed significant modernization and called the disruption 'an opportunity' rather than a catastrophe, even while acknowledging DOGE had not articulated a modernization plan. Researcher and data organizations, including AERA, the Council of Professional Associations on Federal Statistics, and the Data Quality Campaign, countered that the specific programs cut, especially the National Postsecondary Student Aid Study and international assessment participation, are congressionally mandated, multi-year data series that lose scientific value once interrupted, since gaps cannot be retroactively filled. The Department confirmed core public-facing tools (NAEP, College Scorecard, College Navigator) were not affected, indicating the cuts targeted specific research contracts rather than IES's full range of functions."
     },
     "confidence_note": "Strong. Corroborated by a formal bicameral congressional oversight letter to the Department of Education, multiple independent education-press outlets (Inside Higher Ed, K-12 Dive, Higher Ed Dive, Hechinger Report, Washington Times) with some factual disagreement between sources on exact contract counts and dollar figures (which is itself documented and included above), and the Department of Education's own public statement providing its stated rationale.",
+    "section_summaries": {
+      "what_changed": "DOGE directed the cancellation of 89 education-research contracts worth roughly $881 million, halting major surveys and peer-review panels, though some flagship data tools were spared.",
+      "estimated_impact": "Researchers warn some of these data series are hard to restart once broken, and it took only a single week to gut the government's main outside check on how well its education programs work.",
+      "confidence_note": "Well-corroborated by a two-chamber congressional oversight letter and several education-press outlets, though the precise contract totals and dollar amounts differ slightly by source."
+    },
     "last_verified": "2026-07-09",
     "sources": [
       {
@@ -1716,6 +1831,11 @@
       "caveat": "This entry's 'Reversed' status specifically describes the legal outcome of the dismantlement attempt -- it does not mean no harm occurred. Real institutions (documented above) experienced genuine disruption, delayed programming, and staffing uncertainty during the roughly year-long period before restoration, and the Trump administration's FY2027 budget request, released the same day as the settlement, still proposed cutting IMLS funding going forward -- meaning the underlying policy dispute over the agency's funding level remains live even though the dismantlement-without-Congress legal question has been resolved against the administration."
     },
     "confidence_note": "Very strong, well-documented sourcing with primary legal source material (ALA's official case-tracking page cites specific court filings, judges, and dates) plus corroboration from NPR, and firsthand institutional accounts (Dubuque Museum of Art, Science Center of Iowa) via Iowa Public Radio. This is one of the more legally definitive entries in the tracker, since it concludes in a binding settlement agreement rather than ongoing, unresolved litigation.",
+    "section_summaries": {
+      "what_changed": "After Trump ordered IMLS eliminated and its grants cut off, courts ruled the dismantling unlawful, and a settlement later fully restored the agency rather than just pausing the fight.",
+      "estimated_impact": "Real harm hit specific institutions in the roughly eight months before reinstatement -- frozen grants disrupted named museum and library projects -- even though funding was later restored.",
+      "confidence_note": "Very strongly documented via primary court filings plus direct institutional accounts; unusually conclusive for this tracker since the dispute closed via signed settlement, not open litigation."
+    },
     "last_verified": "2026-07-08",
     "sources": [
       {
@@ -1805,6 +1925,11 @@
       "caveat": "This is a case with real, substantive dispute about outcomes, not just framing: Bisignano's testimony that filing-season results held up despite the cuts is corroborated by the IRS's own throughput data for 2026 (134M+ returns received, 90%+ refunds within 21 days) -- the disagreement is more about longer-term enforcement/audit capacity and phone-service quality than about whether the basic return-processing pipeline broke down, which by the government's own numbers it did not. The $600B revenue projection is a modeled estimate from an academic institution (Yale Budget Lab), not a government-produced figure, and should be cited as such."
     },
     "confidence_note": "Exceptionally strong sourcing: the core staffing figures come from the National Taxpayer Advocate (a statutorily independent watchdog office within the IRS itself that reports directly to Congress) and TIGTA (Treasury's independent Inspector General), both nonpartisan government oversight bodies, not advocacy groups. GAO's audit finding that the cuts were 'not targeted or strategic' is a formal government audit conclusion. The Yale Budget Lab revenue projection is a reputable academic model but should be clearly labeled as a projection, not a realized fact. Re-verified 2026-07-20: the FY2027 request is a proposal, not enacted -- Congress rejected comparably aggressive agency-elimination proposals elsewhere (see this tracker's NOAA entry) in the FY2026 cycle, so enactment isn't assured. But the request itself is a further, concrete escalation of the pattern this entry already documents, concentrated specifically on enforcement rather than taxpayer-facing services.",
+    "section_summaries": {
+      "what_changed": "The IRS lost about 27% of its staff and a third of its auditors in under a year, and Congress cut its budget too; a further cut is now proposed, mostly aimed at enforcement.",
+      "estimated_impact": "A Yale model projects nearly $600 billion in lost revenue over ten years, and the IRS's own taxpayer advocate warns the 2026 filing season carries markedly different risks.",
+      "confidence_note": "Exceptionally strong: core figures trace to the IRS's own independent taxpayer advocate and Treasury's inspector general, not advocacy groups; the revenue-loss number is a model, not fact."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -1877,6 +2002,11 @@
       "caveat": "The funding delay itself is directly attributable to the broader government shutdown (a Congress-White House standoff, not LIHEAP-specific), and HHS's public position is that the delay is Congress's fault. What is specifically attributable to the administration is the April 2025 decision to eliminate the program's entire dedicated staff -- which several outlets (PBS explicitly) raised as a contributing factor to how slowly funding moved even after the shutdown ended, though HHS did not directly answer that question on the record."
     },
     "confidence_note": "Well-documented from many state-level and national sources (PBS, NPR, CT Mirror, WBUR, New York Focus, plus multiple state agency press releases with hard dollar figures). The connection between the April staff cuts and the November processing delay is suggested by PBS's reporting and unanswered by HHS, but not definitively proven causal -- frame as 'the program had already lost its entire federal staff before the delay occurred' rather than asserting the staff cuts directly caused the specific delay length.",
+    "section_summaries": {
+      "what_changed": "The administration fired LIHEAP's entire federal staff, and when the record 2025 shutdown hit months later, funding to states was delayed for weeks with no one left to speed the process.",
+      "estimated_impact": "Millions of households rely on this aid, and most also get SNAP, meaning one shutdown squeezed the same families twice; advocates warn millions of homes risk winter disconnection.",
+      "confidence_note": "Well-documented across many state and national outlets; reporting suggests but doesn't confirm that the staffing cuts drove the delay's length -- treat that connection as suggestive, not proven."
+    },
     "last_verified": "2026-07-07",
     "sources": [
       {
@@ -1936,6 +2066,11 @@
       "caveat": "Harris's central legal argument, still pending before the Supreme Court as of the last-verified date, is that MSPB is meaningfully different from the FTC at issue in Slaughter: it performs a purely adjudicatory function, sets no policy, and its structure traces to a roughly 150-year tradition of multimember independent bodies the Constitutional Accountability Center argues the Supreme Court has repeatedly declined to disturb. The administration's position, accepted by the D.C. Circuit's December 2025 majority, is that MSPB nonetheless 'wields substantial executive power' and therefore its members must be removable by the president at will. Whistleblower advocates warn the practical stakes are severe because MSPB has exclusive jurisdiction over most federal whistleblower retaliation claims, meaning a quorum loss leaves affected employees with 'no realistic recourse' in the interim. This is a genuinely contested legal question rather than a settled one: a federal district court and the full en banc D.C. Circuit both sided with Harris before a later divided panel reversed course, and her Supreme Court petition remains pending."
     },
     "confidence_note": "Strong. The full litigation timeline is corroborated by direct citation to court rulings and dates across Government Executive, the National Whistleblower Center, the Constitutional Accountability Center's case-tracking page for Harris v. Bessent, and Democracy Docket's public case docket, which independently confirm each procedural stage. Re-verified 2026-07-19: the cert denial is independently corroborated by Bloomberg Law's contemporaneous reporting, confirmed dated June 30, 2026.",
+    "section_summaries": {
+      "what_changed": "Trump fired MSPB's Chair years early; after repeated court reversals over her reinstatement, the justices ultimately turned away her appeal, leaving her lower-court defeat standing unchallenged.",
+      "estimated_impact": "The only federal venue where fired civil servants and whistleblowers can appeal couldn't function for months, echoing an earlier multi-year gap that built a massive case backlog.",
+      "confidence_note": "Strongly sourced via direct citations to court rulings across multiple legal-tracking outlets; Bloomberg Law's own contemporaneous reporting separately confirms the Court's denial."
+    },
     "last_verified": "2026-07-19",
     "sources": [
       {
@@ -2004,6 +2139,11 @@
       "caveat": "NARA's official position is that these changes reflect efficiency-driven 'organizational realignment,' and the agency states the Office of Innovation's functions are being 'transferred elsewhere within NARA' rather than discontinued, with presidential libraries described as receiving continued full support through increased investment in the agency's Office of Research Services. Critics, including former Archivist Colleen Shogan herself and Jason Baron, a University of Maryland professor and former NARA director of litigation, argue the cuts arrive precisely when NARA faces its greatest resource strain in decades, citing existing FOIA processing backlogs at presidential libraries and the billions of pages of electronic records still arriving from other federal agencies that require both staff and technology to preserve. It is worth noting that reduced public access to government records has been a broader theme researchers and transparency advocates have raised across multiple agencies in this period, though those other agencies' actions are separate from NARA's own decisions described here."
     },
     "confidence_note": "Strong. Corroborated across Government Executive, Federal News Network (citing NARA's own internal budget justification documents and named current and former officials), and Wikipedia's compiled leadership timeline, which itself cites original reporting from Government Executive, the Boston Globe, and the New York Times. Re-verified 2026-07-20: leadership instability continues -- this entry's 'four acting archivists since February 2025' count should now be understood as a still-open sequence, with a fifth arrangement (Forst's dual-hatted role) in place and a permanent nominee (Wilson) not yet confirmed.",
+    "section_summaries": {
+      "what_changed": "After firing the Archivist without cause, several acting leaders followed -- one holding the job alongside an unrelated Cabinet post -- while staff cuts hit key digital-records functions.",
+      "estimated_impact": "Electronic records keep piling up even as the office built to modernize digital access to them was cut, on top of the agency losing confirmed leadership altogether.",
+      "confidence_note": "Well-corroborated across several outlets citing NARA's own budget documents; leadership churn has only continued, with another dual-hatted arrangement and no permanent nominee confirmed."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -2078,6 +2218,11 @@
       "caveat": "This is a genuinely documented internal-contradicts-public-statement case: Interior's 'false narrative' denial came after, and in direct response to, an internal report compiled from data the agency itself required parks to submit under Secretarial Order 3426 -- this is not simply outside advocacy groups against the administration, but the administration's own collected data against its own public messaging. Congressional Republicans overseeing NPS (Rep. Ryan Zinke, Rep. Tom Tiffany, Sen. Steve Daines) expressed confidence Secretary Burgum could adequately staff parks for the season, a genuinely different assessment from Democratic members and outside advocacy groups, worth presenting as a real point of disagreement among people with access to the same underlying situation, not just a one-sided finding."
     },
     "confidence_note": "Very strong sourcing: the National Parks Conservation Association's analysis is based on official Interior Department workforce data, not estimates; the internal operational-status report was first reported by the New York Times and independently corroborated by NPCA and National Parks Traveler using the same underlying park-by-park submissions; and Interior's own denial is on the record and directly checkable against the data it purports to dispute. Individual park examples (Assateague lifeguards, Cumberland Island fire team, Indiana Dunes tours) are specific, named, and quantified rather than general characterizations. Re-verified 2026-07-20: no evidence the underlying permanent-staffing crisis was addressed; 2026 seasonal hiring again missed its own target, though the target itself was smaller than 2025's (5,000+ vs. ~8,000), which somewhat complicates a direct year-over-year comparison -- cite the 2026 figures as their own data point rather than implying they're directly comparable in scale to 2025's.",
+    "section_summaries": {
+      "what_changed": "NPS shed about a quarter of its year-round workforce and missed seasonal hiring goals, while an order barred parks from cutting services -- leaving staff to silently stretch to cover it.",
+      "estimated_impact": "Beyond visitor inconvenience, documented effects touched safety directly: reduced fire-response capacity, paused disease surveillance, and entrance stations left unstaffed during normal hours.",
+      "confidence_note": "Very strongly sourced via official workforce data and an internal report independently corroborated by multiple outlets, with specific named examples rather than vague claims."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -2146,6 +2291,11 @@
       "caveat": "The administration's position, per DOJ filings, is that the Federal Credit Union Act contains no explicit 'for cause' removal protection comparable to the FTC Act's, and that Trump v. Slaughter's reasoning therefore applies with even less obstacle at the NCUA than it did at the FTC. Harper and Otsuka counter that Congress deliberately modeled the NCUA's structure on the Federal Reserve -- which the same June 29, 2026 ruling explicitly protected -- and that the district court already found this historical intent persuasive. Industry groups (America's Credit Unions, Defense Credit Union Council) have taken a notably neutral, process-focused position, calling mainly for a restored three-person board regardless of who fills the seats, rather than defending either side's substantive position. The litigation over the underlying legal question remains technically open at the D.C. Circuit even though most analysts consider the practical outcome settled."
     },
     "confidence_note": "High confidence on the firing, litigation timeline, and post-Slaughter analysis, sourced to American Banker, Bloomberg, Banking Dive, Jurist, the ABA Banking Journal, and trade-press legal analysis from America's Credit Unions and CUToday.info. The characterization of the ruling as 'effectively ending' the case reflects the near-unanimous view of legal commentators cited rather than a final court holding, and is presented with that caveat. Re-verified 2026-07-19: the July filing is corroborated by CUToday.info's contemporaneous coverage.",
+    "section_summaries": {
+      "what_changed": "Trump removed both Democratic NCUA board members years early, leaving one member who can handle routine supervision but not approve new rules; courts have so far let the firings stand.",
+      "estimated_impact": "A regulator Congress designed as a three-person, bipartisan board overseeing the credit union system has run with a single member for more than a year, blocked from new rulemaking.",
+      "confidence_note": "Well-sourced across banking trade press and legal analysis; describing the case as 'effectively over' reflects near-unanimous commentator opinion, not yet a final court ruling on the matter."
+    },
     "last_verified": "2026-07-19",
     "sources": [
       {
@@ -2218,6 +2368,11 @@
       "caveat": "The NEA's stated rationale is that funding is being redirected toward specific new priorities, including projects supporting HBCUs and Hispanic-Serving Institutions, the 250th anniversary of American independence, AI competency, disaster recovery, and military/veteran and tribal communities, rather than eliminated outright, and the agency offered a 7-day appeal window for grantees who believed their project matched the new criteria. Critics point to apparent inconsistencies in the rollout, including cases like California Symphony's, where a project matching a stated new priority was terminated anyway, and argue the 7-calendar-day appeal window (which included a weekend) was procedurally unfair given the scale and suddenness of the cuts. It is worth distinguishing this from the separate, better-documented case of the sister agency National Endowment for the Humanities, where a federal court found in a May 2026 summary judgment that a comparable mass grant termination process was unlawful; no equivalent final court ruling specific to these NEA terminations has been identified as of the last-verified date, so that outcome should not be assumed to extend to the NEA."
     },
     "confidence_note": "Strong. Corroborated by dozens of independent, named grantee statements, multiple journalism outlets (NPR, KQED, American Theatre, ArtNews, San Francisco Classical Voice), and arts-advocacy organization trackers (MASSCreative, Chorus America, Mid-America Arts Alliance) reporting consistent dates, dollar ranges, and termination language across widely dispersed organizations.",
+    "section_summaries": {
+      "what_changed": "Hours after a budget plan that would zero out NEA funding, the agency sent termination notices covering more than half its open grants, even some matching its own stated priorities.",
+      "estimated_impact": "A majority of the agency's currently active arts grants were pulled within one week, compounded by a wave of departures that left grant-review expertise significantly thinned.",
+      "confidence_note": "Strongly backed by numerous named grantee accounts, several journalism outlets, and arts-advocacy trackers, whose dates, dollar figures, and termination language all line up consistently."
+    },
     "last_verified": "2026-07-09",
     "sources": [
       {
@@ -2282,6 +2437,11 @@
       "caveat": "The administration's FY2026 budget request proposes eliminating NED funding outright, citing claims that NED has funded organizations engaged in activities against administration officials and allies; NED's own published fact sheet directly disputes the specific claim cited (regarding a Ukrainian firm called Molfar), stating it has never been a NED grantee. Separately, the administration and allied think tanks (e.g., the Center for Renewing America) have longstanding, previously stated ideological objections to NED's mission, characterizing it as a 'partisan political weapon' -- a position predating this specific funding dispute. The court's ruling was narrowly about the legality of withholding already-appropriated funds outside statutory process, not a ruling on whether Congress should fund NED going forward, which remains a live and separate political question in the FY2026 appropriations process. This entry is included partly for balance: it is a case where a court, including a Trump-appointed judge, ordered relief and the administration partially complied -- though the underlying funding fight continues on appeal and into FY2026."
     },
     "confidence_note": "High confidence on the litigation timeline, dollar figures, and judicial findings, which are corroborated across NPR, Newsweek, the Washington Times, and the independent Civil Rights Litigation Clearinghouse case docket summary (itself drawing on PACER filings). The FY2026 status is current only as of the most recent available joint status report (referenced in court docket entries through early-to-mid 2026); this should be rechecked periodically given the case remains active on appeal. Re-verified 2026-07-20: no material change -- the D.C. Circuit appeal (docket 25-5361) remains held in abeyance pending district-court proceedings, consistent with this entry's existing account; parties continued filing periodic joint status reports (most recently referenced for late January 2026) without a further ruling identified as of this update.",
+    "section_summaries": {
+      "what_changed": "Officials blocked NED's access to already-approved funds for months, forcing mass furloughs, until a Trump-appointed judge called the justification implausible and ordered the money released.",
+      "estimated_impact": "A four-decade-old, congressionally chartered group funding democracy work abroad saw about $240 million frozen outside normal channels, with only partial funds recovered via lawsuit.",
+      "confidence_note": "Well-corroborated across news outlets and an independent court-docket tracker; the FY2026 funding status reflects only the latest status report and could shift while the appeal stays active."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -2350,6 +2510,11 @@
       "caveat": "This entry covers NEH specifically; the same DOGE-driven pattern was applied concurrently to the related Institute of Museum and Library Services (IMLS) and National Endowment for the Arts (NEA) -- worth building as separate, related entries rather than conflating all three into one, since each has its own specific timeline and figures."
     },
     "confidence_note": "Strong multi-outlet sourcing (NPR, Inside Higher Ed, The Art Newspaper, Rep. Chellie Pingree's official statement, and a detailed CBPP legal/policy analysis citing court filings from State of Rhode Island et al. v. Trump et al.). The $40M sculpture-garden redirection is a particularly strong, concrete example of funds moving from competitive peer-reviewed grants to a specific administration priority -- useful as a quantified 'redirection' example, not just a cut.",
+    "section_summaries": {
+      "what_changed": "NEH canceled over a thousand already-awarded grants, cut most of its staff, forced out its chair beforehand, and later redirected $40 million toward a presidential sculpture-garden project.",
+      "estimated_impact": "As the nation's largest humanities funder, NEH's cuts reached named projects nationwide, including a Tulsa Race Massacre survivor-history collection and a historic-records digitization effort.",
+      "confidence_note": "Strongly corroborated across multiple outlets and a detailed policy write-up drawing on litigation records; the sculpture-garden funding redirect is an unusually concrete, quantified example."
+    },
     "last_verified": "2026-07-07",
     "sources": [
       {
@@ -2413,6 +2578,11 @@
       "caveat": "GAO findings are not legally binding -- they carry no automatic enforcement mechanism, though GAO does have authority to sue the executive branch and has not yet done so as of this entry. A federal court separately ruled in June 2025 that the underlying grant cancellations were illegal in a different proceeding. HHS's public response pointed to a partial resumption of grant review meetings (837 held between March 24-June 30, 2025, more than the same period the prior year) as evidence of good-faith correction, but GAO found this did not address the core funding-obligation shortfall, and could not confirm whether a subsequent July 2025 OMB-directed pause on NIH grants/contracts/training had been fully reversed."
     },
     "confidence_note": "Very strong sourcing: this is a formal GAO legal finding (the same evidentiary weight as the Impoundment Control Act findings already used in the Vought entry in Cabinet-Level Legal Exposure), not an advocacy-group characterization. Multiple independent outlets (The Hill, STAT News, Government Executive, Washington Examiner, Healthcare Dive) confirm the same facts. The $8 billion figure and the 1,800+ terminated grants count both come directly from GAO's own report text, not a secondhand estimate.",
+    "section_summaries": {
+      "what_changed": "NIH canceled over 1,800 grants and cut new research funding by close to $8 billion compared with the year before -- actions a nonpartisan watchdog found broke federal impoundment law.",
+      "estimated_impact": "GAO itself concluded roughly $8 billion in funding Congress had already approved was illegally held back, one of five similar findings issued about the administration within the same few weeks.",
+      "confidence_note": "Very strong: this rests on an official GAO legal determination, not an advocacy claim, corroborated across several outlets; the core figures are lifted straight from GAO's published report."
+    },
     "last_verified": "2026-07-07",
     "sources": [
       {
@@ -2482,6 +2652,11 @@
       "caveat": "The administration frames the cuts as fiscal discipline and a redirection away from programs it considers outside NIST's core mission - the FY2026 budget documents specifically criticize environmental-sustainability research grants as advancing 'a radical climate agenda,' and argue MEP has outgrown its original rationale after 37 years. House appropriators, controlled by the same party as the administration, disagreed on the scale of cuts and restored $980 million to NIST's Scientific and Technical Research and Services program (a $237 million increase over the administration's request) and full funding for MEP, suggesting the final outcome remains contested within Congress rather than settled. Congressional critics (the Maryland/Colorado delegation letter) warn of a 'brain drain' effect and cite estimates that federal MEP dollars generate nine times their value in economic output, though that multiplier figure originates from program advocates rather than an independent audit."
     },
     "confidence_note": "High confidence on the staffing-loss figures, which come from NIST's own director speaking on the record at a public advisory board meeting, and on the budget figures, which come directly from NIST's FY2026 Congressional Budget Submission. Moderate confidence on downstream real-world impact (e.g., effects on the AI Risk Management Framework or post-quantum cryptography rollout), which is based on expert commentary rather than a formal audit. Re-verified 2026-07-20: this is now one of the clearer documented cases in this tracker of an agency proceeding with workforce cuts to a program Congress has affirmatively and fully funded, rather than merely a disputed budget proposal -- MEP's RIF notices went out despite, not because of, the enacted appropriation. Frame as a live congressional-oversight dispute (Coons letter, not yet answered as of this update), not a resolved question either direction.",
+    "section_summaries": {
+      "what_changed": "NIST lost over 700 staff to resignations and early exits; even after Congress fully funded its manufacturing-extension program, the agency laid off that program's entire staff regardless.",
+      "estimated_impact": "Industry and other federal agencies lean on NIST for encryption, AI-safety, and manufacturing-support standards -- exactly the capacity now strained by staff losses and threatened cuts.",
+      "confidence_note": "Staffing figures trace to on-record comments from NIST's director, and budget figures to its own filings; broader real-world impact rests on expert commentary, not a formal audit."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -2553,6 +2728,11 @@
       "caveat": "The administration's position, ultimately validated in substance by the Supreme Court's Slaughter ruling, is that the President's Article II authority requires the ability to remove officials exercising executive power at will, regardless of statutory for-cause protections. Labor advocates and a 20-state coalition of attorneys general (led by California AG Bonta, in an amicus brief) argued the firing created a 'dangerous regulatory vacuum' that left workers without a functioning forum to resolve unfair-labor-practice complaints or conduct union elections for most of a year. Notably, the legal question was genuinely unsettled for over a year: a federal district court and an initial D.C. Circuit panel sided with Wilcox, before the en banc D.C. Circuit, a Supreme Court emergency stay, and ultimately the Slaughter precedent sided with the administration, reflecting real legal uncertainty rather than a one-sided dispute."
     },
     "confidence_note": "Very strong. Anchored in multiple federal court opinions cited directly by name (Judge Howell's summary judgment order, the D.C. Circuit's en banc and panel rulings, the Supreme Court's emergency stay and later Slaughter opinion), a California Department of Justice press release quoting the district court's language, and extensive corroborating litigation tracking from four independent labor-and-employment law firms.",
+    "section_summaries": {
+      "what_changed": "Trump fired an NLRB board member without any statutory cause, and after her reinstatement was reversed repeatedly in court, a later Supreme Court ruling effectively settled the issue against her.",
+      "estimated_impact": "The only federal body handling private-sector labor disputes and union elections couldn't issue binding decisions for almost all of 2025, having lost its required quorum.",
+      "confidence_note": "Very strongly anchored in named court opinions at every stage, plus independent litigation tracking from several labor-law firms confirming the same timeline."
+    },
     "last_verified": "2026-07-09",
     "sources": [
       {
@@ -2617,6 +2797,11 @@
       "caveat": "The administration's stated rationale, per the Commerce Department's own announcement, is that the affected Princeton research 'fosters fear rather than rational, balanced discussion' and that eliminating it will 'streamline and reduce the cost and size of the Federal Government.' Critics, including former NOAA research director Craig McLean, argue the cuts amount to dismantling the scientific basis for hurricane and severe-weather forecasting, and ProPublica reporting noted that Secretary Lutnick's former firm, Cantor Fitzgerald, had itself described climate change in prior public materials as 'the defining issue of our time' and warned it would be 'disastrous and life threatening' if unchecked, a contrast critics cite as evidence the funding decision reflects political priorities rather than a reassessment of the science. It is also important to note the FY2026 budget eliminating NOAA's climate research entirely is a proposal, not enacted law: congressional appropriators in both parties have been reported as skeptical of the scale of the cuts and have not approved the request as written, even though the administration has moved ahead with some individual actions, such as satellite contract terminations, independent of congressional approval."
     },
     "confidence_note": "Very strong for the Princeton funding termination, sourced directly to the Commerce Department's own press release with named, quoted officials. Strong for the FY2026 budget proposal and OAR elimination plan, independently corroborated across NPR, Colorado Public Radio, Eos, Science/AAAS, PBS NewsHour, and ProPublica, with the important caveat clearly noted that this remains a budget proposal Congress has not enacted as of the last-verified date. Re-verified 2026-07-20: this is now a repeating pattern rather than a one-time proposal -- the administration has proposed eliminating OAR in back-to-back budget cycles (FY2026 and FY2027) and Congress rejected it the first time; whether that holds again for FY2027 was not yet resolved as of this update (House subcommittee markup only, not enacted). Frame as an annual recurring fight, not a settled outcome either direction.",
+    "section_summaries": {
+      "what_changed": "Commerce cut climate-research funding to a top university partnership and proposed zeroing out NOAA's climate budget, though Congress rejected full elimination and the fight keeps recurring.",
+      "estimated_impact": "Nearly six decades of research collaboration with a globally top-ranked climate-modeling lab is over, and on paper, the line item for this agency's climate work now reads zero.",
+      "confidence_note": "Very strongly sourced on the Princeton cut itself via Commerce's own release; the wider elimination plan is a recurring annual proposal, turned down once and still unresolved for next cycle."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -2689,6 +2874,11 @@
       "caveat": "The administration's stated rationale, laid out in EO 14300 itself, is that NRC over-regulation has stifled the industry -- only two new reactors have come online since 1978 -- and that reorganization is needed to meet a stated goal of quadrupling U.S. nuclear capacity to 400 GW by 2050 to meet AI-driven electricity demand; the order also directs staffing increases in new-reactor licensing offices even as it mandates cuts elsewhere. Nuclear safety and watchdog groups (Union of Concerned Scientists, American Nuclear Society, Nuclear Innovation Alliance) and congressional Democrats have raised the independence and safety-oversight concerns described above; some pro-nuclear industry voices have also flagged the licensing deadlines and workforce cuts as potentially undermining the very buildout the order seeks to accelerate. No senior administration or NRC official has published a defense of the Hanson firing beyond the 'rowing in the same direction' comment; NRC's own public statement was limited to noting the agency can function with fewer than five commissioners."
     },
     "confidence_note": "High confidence on the firing itself and the EO 14300 text (Federal Register, White House, NPR, NOTUS, multiple law-firm summaries) and on Hanson's own on-record statement. The staffing-shortfall figure and career-departure detail (Techdirt/ProPublica) are well-sourced but describe broader trends rather than counts specific to the Hanson firing alone; framed accordingly in the summary above. Re-verified 2026-07-20: the reorganization and regulatory rewrite are proceeding essentially on the EO's original schedule, not stalled -- this is a case where the executive order's stated timeline has held up in practice so far, worth noting since that isn't true of every entry in this tracker.",
+    "section_summaries": {
+      "what_changed": "Trump fired an NRC commissioner without cause -- a first in the agency's history -- alongside an order forcing a reorganization and safety-rule rewrite routed through a White House budget office.",
+      "estimated_impact": "This breaks decades of practice requiring cause to remove a commissioner at the nuclear safety regulator, paired with a mandated staff cut and outside control over its safety-rule rewrite.",
+      "confidence_note": "Well-sourced via the Federal Register, multiple outlets, and Hanson's own public statement; unusually, the reorganization has stuck to its original schedule rather than stalling."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -2770,6 +2960,11 @@
       "caveat": "NSF has not published an official rationale or list for the specific 1,752 terminated grants, so the word-frequency pattern ('Black,' 'climate,' 'justice,' etc.) comes from independent researchers (Grant Watch) reconstructing the pattern from public grant abstracts, not from an NSF-published criteria document -- a real transparency gap worth naming directly rather than treating the independent analysis as equivalent to an official record. NSF's own stated reason for the December 2025 peer-review changes (backlog and workforce reductions) is a genuine alternative explanation distinct from the DOGE terminations, and should be presented as the agency's own account rather than dismissed."
     },
     "confidence_note": "Strong sourcing across specialist science-policy outlets with direct agency access (Nature, Science/AAAS, Scientific American, C&EN) plus mainstream coverage (Washington Post) and a detailed later quantitative analysis (FundingLandscape, cross-referenced against Grant Watch's independently compiled dataset). The DOGE personnel names and their system-access level are corroborated by internal NSF staff speaking to Nature under granted anonymity -- a meaningful sourcing strength since it reflects direct agency insider accounts, not just outside inference.",
+    "section_summaries": {
+      "what_changed": "DOGE staff gained direct access to NSF's grant systems and pushed cancellation of thousands of approved grants using a senator's keyword list; NSF separately loosened its review standards.",
+      "estimated_impact": "NSF's overall budget survived after lawmakers turned down a much steeper proposed cut, but that fight was separate from -- and didn't undo -- the targeted grant terminations or loosened review rules done at the same time.",
+      "confidence_note": "Strongly sourced across several research-policy publications and a detailed quantitative analysis, including anonymous NSF staff accounts to Nature -- stronger than outside inference alone."
+    },
     "last_verified": "2026-07-08",
     "sources": [
       {
@@ -2843,6 +3038,11 @@
       "caveat": "NWS's own spokesperson disputes the 'staff cuts' framing directly, stating in April 2026 'there are no staff cuts planned' and pointing to active hiring (200+ positions filled since late 2025) -- though this is a forward-looking statement about a subsequent reorganization, not a rebuttal of the documented ~600-person loss earlier in 2025, which multiple independent sources (CAP, CBS, NBC) consistently confirm. The claim that the Texas floods' death toll was directly caused by the staffing vacancy is contested and not established as fact -- CAP's own analysis credits the Austin/San Antonio office with accurate, timely forecasts despite the vacancy; the more defensible claim is that a specific, relevant coordination role was vacant at the time, not that its vacancy caused specific deaths."
     },
     "confidence_note": "Well-documented from multiple independent, non-advocacy sources (CBS News, NBC News, Center for American Progress with named individuals on the record) plus a direct union vacancy tally. The Texas-flood-specific vacancy is a verified fact (confirmed timing of the retirement, confirmed role description) -- the caveat above about causation should be maintained carefully in any debate use, since overclaiming direct causation would be both inaccurate and vulnerable to easy rebuttal given CAP's own even-handed framing.",
+    "section_summaries": {
+      "what_changed": "DOGE-driven cuts left roughly 15% of Weather Service jobs empty, and a key coordination role near the site of the deadly 2025 Texas flood had already gone vacant months earlier.",
+      "estimated_impact": "One analysis found the flood forecasts stayed accurate despite the staffing gap, while noting the vacant role's public-coordination function was exactly what came under scrutiny afterward.",
+      "confidence_note": "Well-documented via multiple non-advocacy sources and a union vacancy count; the vacancy is verified, but claiming it directly caused the disaster's toll would overreach the actual evidence."
+    },
     "last_verified": "2026-07-07",
     "sources": [
       {
@@ -2917,6 +3117,11 @@
       "caveat": "Two different figures describe different things and are not contradictory: the ~40% cut (953 to 575) is the lawmakers' cumulative headquarters headcount reduction since January 2025, while the 937-to-878 figure is a single fiscal year's budgeted FTE change from the FY2026 OMB technical supplement, a narrower accounting measure. The agency disputes the framing that cuts are proceeding without adequate review: Peace Corps officials told Government Executive in February 2026 that they had already completed a review of the agency's operational structure before moving forward, and the agency has publicly committed to using expanded AI-assisted screening and predictive analytics to help recruiters do more with fewer staff. Peace Corps also states it has no plans to close additional country posts specifically due to staffing (as distinct from a small number of posts closed for unrelated security reasons, e.g. Mozambique in 2025). Update, 2026-07-20: the RIF's completion is now confirmed via the agency's own FY2027 budget justification (see updated figures below); Congress's Feb. 19 force-analysis request does not appear to have been granted or formally answered as of this update."
     },
     "confidence_note": "Strong. Anchored in a formal, signed 21-member congressional letter (10 senators, 11 House members plus a delegate) citing specific employee figures the agency itself provided to the Peace Corps Union, corroborated independently by Government Executive, The Hill, and the FY2026 OMB budget technical supplement. The primary remaining uncertainty is the RIF's final implementation status after Feb. 13, 2026, since no public reporting as of the last-verified date confirms completion. Re-verified 2026-07-20: this entry's previously open question -- whether the RIF actually completed after the Feb. 13, 2026 moratorium expiration -- is now resolved by the agency's own subsequent FY2027 budget submission, which reports the reduction as an accomplished fact (~40% USDH/expert staff cut) rather than a pending target. This is a stronger source than the earlier congressional-letter figures, since it's the agency confirming its own realized headcount after the fact, not lawmakers citing a plan.",
+    "section_summaries": {
+      "what_changed": "Peace Corps pushed through cuts via deferred-resignation offers and layoff notices delayed twice by a shutdown and moratorium, with a later agency budget filing confirming the cuts stuck.",
+      "estimated_impact": "Roughly two of every five headquarters jobs are now gone, hitting recruitment and placement hardest, while officials still aim to push active-volunteer numbers well beyond double their current level by 2030.",
+      "confidence_note": "Strongly grounded in a signed congressional letter citing agency figures, later confirmed as accomplished fact in a budget filing the agency itself submitted -- firmer than earlier reports."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -2985,6 +3190,11 @@
       "caveat": "The SBA states that 'core services to the public,' including its loan guarantee and disaster assistance programs and its field and veteran operations, were not affected by the cuts, framing this as trimming administrative bloat rather than mission capacity. Critics, including the advocacy group Small Business Majority, dispute this characterization, arguing the agency was already understaffed relative to demand and that the cuts create real risk to service delivery, particularly given a separate federal-funds freeze affecting the $5 billion State Small Business Credit Initiative around the same period. Separately, the plan to route federal student loans through the SBA never took effect: it was blocked by a federal court in May 2025 on statutory-authority grounds and abandoned in March 2026 in favor of a Treasury Department transfer, so the staffing cuts at SBA were not, in the end, paired with the added workload critics had warned the reduced agency could not handle."
     },
     "confidence_note": "Strong. The core staffing figures come directly from the SBA's own official press release, corroborated independently by CBS News and PBS NewsHour on the same day, with a converging headcount figure (~3,800 post-reorg) from a Center for American Progress policy analysis. The student-loan-transfer subplot is well corroborated across BestColleges, SoFi, NPR, and a Goldey-Beacom College summary tracking the transfer's eventual redirection to Treasury.",
+    "section_summaries": {
+      "what_changed": "SBA cut 43% of its workforce the same day it announced absorbing Education's trillion-dollar student loan book -- a plan courts later blocked, sending those loans to Treasury instead.",
+      "estimated_impact": "This is one of the largest proportional staff cuts in the tracker, and the agency was briefly set to absorb a loan portfolio over a hundred times bigger than its existing book.",
+      "confidence_note": "Strongly sourced: staffing numbers come from SBA's own release, corroborated same-day by multiple outlets, with the loan-transfer saga independently tracked through to its Treasury redirect."
+    },
     "last_verified": "2026-07-09",
     "sources": [
       {
@@ -3049,6 +3259,11 @@
       "caveat": "The White House frames this as restoring historical accuracy and 'American exceptionalism' rather than suppressing content, and its July 2026 report argues specific exhibits (e.g., 'The Shape of Power,' framing on 'White culture' at NMAAHC) promote an ideological rather than factual narrative. The Smithsonian has consistently maintained its independence, stating its content is grounded in 'scholarly excellence, rigorous research, and the accurate, factual presentation of history,' has said it was not directed by the administration to remove the impeachment references (calling that specific placard 'temporary' and not meeting museum standards on its own), and Secretary Bunch has publicly reaffirmed the institution's independence from political influence in a September 2025 letter to staff. The Smithsonian's unique legal status as a congressionally chartered 'trust instrumentality' - not a standard executive-branch agency - is itself a live, unresolved legal question about whether the White House has authority to compel these changes at all."
     },
     "confidence_note": "High confidence on the executive order, the review letter, and the individual episodes (impeachment placard, Sajet resignation, Sherald cancellation), which are corroborated across NPR, CNN, CBS, ABC News, and a Yale Law Journal legal analysis. The characterization of specific exhibit content and the White House's July 2026 findings report reflect the administration's own framing and are presented here as such, not verified as fact. Re-verified 2026-07-20: Bunch's July 2026 response is worth citing specifically rather than only the earlier general September 2025 statement, since it directly addresses the content of the report this entry's status already references. No news found yet on which museums comprise the review's 'second phase.'",
+    "section_summaries": {
+      "what_changed": "White House officials launched a content review of major Smithsonian museums, threatening funds over 'ideology'; pressure already forced an exhibit edit, a resignation, and a canceled show.",
+      "estimated_impact": "A museum system drawing ~17 million annual visitors has already lost two leaders and a planned show, and seen its own exhibit text rewritten, under threat of lost funding.",
+      "confidence_note": "Well-corroborated across several major outlets on the core events; the White House's specific accusations reflect its own framing, not verified fact, and the director has directly rebutted them."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -3124,6 +3339,11 @@
       "caveat": "This was ultimately resolved via the shutdown-ending funding bill rather than a definitive court ruling on the merits -- the Supreme Court explicitly avoided ruling on whether the lower court's orders were correct, taking 'the path of least resistance' per NPR's characterization. The 'arbitrary and capricious' finding is Judge McConnell's, a single district court, not an appellate or Supreme Court determination."
     },
     "confidence_note": "Strong, multi-outlet sourcing (NPR, CNN, NBC, Time, PBS, Axios, The Hill, UPI) all confirming the same core timeline and figures. The judicial 'arbitrary and capricious' finding and named-official statements (Bondi, Penn, multiple governors) make this well-documented and attributable, though the underlying legal question was never fully resolved on the merits -- frame as 'the administration's conduct during this episode was found arbitrary and capricious by one federal judge,' not as a final, appellate-level legal determination. Re-verified 2026-07-20: no material change -- confirmed the litigation timeline already in this entry (Judge Talwani's Massachusetts ruling, Judge McConnell's Rhode Island ruling and 'arbitrary and capricious' finding, the 1st Circuit appeal, the Supreme Court's administrative stay) matches independent sourcing (NBC, CNN, FindLaw). The dispute remains formally mooted by the funding CR through September 2026, not resolved on the merits by any appellate ruling.",
+    "section_summaries": {
+      "what_changed": "During the shutdown, officials first said food aid wouldn't go out at all, then courts forced partial and full funding, before a Supreme Court stay left a chaotic state-by-state patchwork.",
+      "estimated_impact": "Roughly 42 million people saw their food aid interrupted or cut off for a stretch, pushing food banks into what several reports called unprecedented demand, with amounts varying by state.",
+      "confidence_note": "Strongly corroborated across many outlets and named court rulings, though only one judge called the conduct 'arbitrary and capricious' -- funding later mooted the dispute before any appeal."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -3198,6 +3418,11 @@
       "caveat": "SSA leadership disputes the characterization that more staffing is the answer, and Commissioner Bisignano has publicly staked out a contrary position (efficiency over headcount) -- this is a genuinely disputed policy question, not just a factual one, and should be presented with his stated rationale alongside the outside critique. However, the decision to stop publishing key service metrics specifically after bad press is a separately verifiable action, not itself a matter of policy disagreement -- CBPP's and NPR's sourcing on that point is direct and specific. A direct, unresolved factual tension has emerged as of mid-2026: SSA's own reported metrics (touted by Commissioner Bisignano in congressional testimony and an official SSA press release) claim dramatic service improvements -- faster phone answer times, shorter backlogs -- achieved with a smaller workforce, which is the opposite of this entry's core framing. These are the agency's own self-reported figures, not yet independently corroborated by GAO or an outside body the way the original staffing-loss and metrics-suppression figures were; CBPP and government-oversight reporting have also noted Bisignano has been evasive when pressed on methodology in congressional testimony. Present both: the agency's claimed 2026 performance turnaround, sourced explicitly to SSA/Bisignano, alongside the independently-sourced staffing-loss and prior metrics-suppression findings -- don't treat either claim as simply resolving the other."
     },
     "confidence_note": "Very strong sourcing: CBPP is a well-regarded, frequently-cited nonpartisan policy institute with detailed, footnoted figures drawn substantially from the agency's own data (OPM staffing records, SSA's own performance metrics) rather than estimates. NPR's on-the-ground reporting from field-office employees corroborates the top-line figures with direct testimony. Sen. Baldwin's official congressional investigation adds a formal oversight dimension. The metrics-suppression angle is corroborated by multiple independent sources (CBPP, Nash Disability Law, 401k Specialist) describing the same June 2025 timing and the same specific withheld metrics. Re-verified 2026-07-20: SSA/Bisignano's June 2026 claimed performance turnaround is a genuine, on-the-record complication for this entry's existing negative framing -- it should be presented as a disputed, agency-self-reported claim (see updated caveat), not omitted and not accepted as settling the question. Independent corroboration of the specific 2026 numbers (8-minute wait time, 266-day hearing wait) was not found as of this recheck; CBPP's underlying staffing and metrics-suppression findings are unaffected.",
+    "section_summaries": {
+      "what_changed": "SSA lost its largest single-year staff share on record even as beneficiary numbers grew sharply, and stopped publishing some service-quality metrics after they drew bad press.",
+      "estimated_impact": "Notably, an internal staff survey found most SSA employees themselves reported worse service and slower speed -- a rare case of insiders confirming outside critics instead of disputing them.",
+      "confidence_note": "Very strongly sourced via a respected policy institute drawing on official records and field-level reporting; the agency's later claimed 2026 turnaround is a disputed, unconfirmed, self-reported claim."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -3274,6 +3499,11 @@
       "caveat": "Some of the more drastic changes reported in leaked draft proposals before the official April 22 announcement did not materialize in the final plan -- offices for Africa affairs, migration/refugee issues, and democracy efforts survived, at least as named bureaus on the org chart, contrary to earlier leaked drafts. The State Department's own spokesperson explicitly stated 'DOGE was not in charge of this' reorganization, distinguishing it from the more centralized DOGE-driven cuts at other agencies covered elsewhere in this tracker -- worth noting since it suggests a more department-specific policy choice by Rubio rather than a directive imposed externally."
     },
     "confidence_note": "Strong, consistent multi-outlet sourcing (AP's obtained internal documents, corroborated independently by NBC, NPR, CNN, PBS, and Newsweek) with specific office names and headcounts rather than vague characterizations. Rubio's own quotes and the department's own internal notices are the primary sourcing for what changed; outside criticism (Shannon, American Academy of Diplomacy, Shaheen) is clearly attributed as external assessment rather than blended with the factual record of what changed. Re-verified 2026-07-20: no material change found since the July 2025 layoff execution already documented in this entry -- no new reorganization phase or ruling identified in current reporting.",
+    "section_summaries": {
+      "what_changed": "Rubio consolidated hundreds of State Department offices, eliminating dozens focused on human rights and conflict stabilization, then laid off over 1,300 staff once courts cleared the way.",
+      "estimated_impact": "A former Republican State Department official called the cuts an act of institutional vandalism, warning that specialized skills developed over many years of service can't be quickly rebuilt.",
+      "confidence_note": "Strongly sourced via internal documents and consistent reporting across several major outlets, citing specific offices and numbers rather than general claims; nothing has shifted since the layoffs occurred."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -3333,6 +3563,11 @@
       "caveat": "The administration's stated legal position, articulated in a Justice Department Office of Legal Counsel memo, was that the president's Article II duty to 'take Care that the Laws be faithfully executed' grants inherent authority to designate acting officers to supervise organizations Congress created to perform executive functions, without requiring Senate confirmation. Court rulings distinguished between two separate legal questions along the way: Judge Leon's initial March 2025 ruling found that a large reduction in USADF's staff and funding could itself be legal, meaning the scale of cuts was not automatically unlawful, while his later July 2025 ruling found the specific mechanism used, installing Marocco without Senate confirmation, violated the Federal Vacancies Reform Act, voiding the actions taken under his leadership. This is a genuine reversal story: both USADF and IAF ultimately had their takeovers fully undone by final court orders, with USADF staff physically returning to their offices in March 2026, though Devex reporting notes the agency's reentry into the foreign-aid sector 'seems to be just beginning' after a year of program cancellations and funding freezes, and separately references newer, unrelated corruption charges connected to the agency as of that report."
     },
     "confidence_note": "Strong. Corroborated by direct citation to federal court rulings by judge name and date across The Hill, U.S. News (via Associated Press), Democracy Forward (representing plaintiffs in the USADF case), Devex, and Maryland Daily Record, with the Justice Department's own Office of Legal Counsel memo providing the administration's stated legal rationale in its own words.",
+    "section_summaries": {
+      "what_changed": "One official took control of two small foreign-development agencies within days of an order, shrinking one to a single worker and grant, before courts reversed both takeovers a year later.",
+      "estimated_impact": "One of these agencies was briefly down to just one worker and one grant left -- that's how close both congressionally chartered bodies came to disappearing before courts stepped in and undid both roughly twelve months later.",
+      "confidence_note": "Strongly corroborated via named court rulings across multiple outlets, plus an internal Justice Department memo laying out officials' own reasoning for the action."
+    },
     "last_verified": "2026-07-09",
     "sources": [
       {
@@ -3407,6 +3642,11 @@
       "caveat": "The State Department disputes the Lancet methodology directly and sharply -- a senior official called it a 'failed journal' and said such studies reflect 'outdated thinking.' This is a genuinely disputed empirical question about mortality modeling, not merely a political disagreement, and modelers themselves (including ones unaffiliated with the study) caution the precise death-toll numbers carry real uncertainty even while endorsing the general conclusion. Separately, the administration's own stated justification (that USAID had significant oversight and accountability failures) has some independent support -- USAID itself failed to conduct legally-required financial reviews for over 70% of the international organizations receiving its funding in 2023, per the agency's own inspector general -- though fact-checkers found most of the administration's specific waste examples cited publicly were false or highly misleading."
     },
     "confidence_note": "Exceptionally strong sourcing across the full political spectrum of outlets (NPR, CNN, ABC News, Newsweek) plus a peer-reviewed medical journal (The Lancet) with two independent studies a year apart, plus USAID's own Inspector General's report before that office was itself eliminated. The legal status question (independent agency status under the 1998 statute) is a matter of public record, not interpretation. Rubio's 'no one has died' claim and the mortality studies represent a genuine, sourced factual conflict -- present both sides with their actual sourcing rather than treating either claim as simply settled. Re-verified 2026-07-20: no material change to USAID's operational or legal status -- still operationally dissolved, still legally unresolved. Litigation is active but slow-moving (argued in April 2026, undecided as of this update); the Musk deposition development is a discovery-stage procedural win for plaintiffs, not a ruling on the merits.",
+    "section_summaries": {
+      "what_changed": "USAID was operationally shuttered and absorbed into State after a near-total funding freeze shrank its staff by more than 97% -- though legally, only Congress can abolish it, and hasn't.",
+      "estimated_impact": "A peer-reviewed Lancet study credited this funding with preventing tens of millions of deaths and projected millions more by 2030 if the cuts hold, calling the toll avoidable, not inevitable.",
+      "confidence_note": "Exceptionally strong sourcing, including two independent peer-reviewed medical studies and the agency's own Inspector General; official statements and the death-toll research genuinely disagree -- present both."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -3479,6 +3719,11 @@
       "caveat": "The White House's official position, stated by spokesperson Anna Kelly, is that USIP 'was once a bloated, useless entity that blew $50 million per year while delivering no peace,' and that renaming it for President Trump celebrates 'a President who ended eight wars in less than a year.' USIP's outside counsel, George Foote, counters that 'a federal judge has already ruled that the government's armed takeover was illegal,' and that the stay pending appeal is 'the only reason the government continues to control the building' -- meaning the administration's continued control rests on a paused legal loss, not a reversed one. The central unresolved legal question, per the D.C. Circuit's own reasoning, is whether USIP 'exercises substantial executive power' subject to at-will presidential control, or is a genuinely independent congressional creation as USIP has argued throughout the litigation; that question remained formally unresolved as of the last-verified date, with the case held in abeyance pending related Supreme Court precedent."
     },
     "confidence_note": "Very strong. Anchored in multiple federal court filings and opinions cited by docket number and date (Judge Howell's May 19, 2025 summary judgment; the D.C. Circuit's June 27, 2025 stay order; the November 26, 2025 abeyance ruling), independently corroborated across CNN, NPR, PBS, NBC News, Reuters (via U.S. News), Bloomberg Law, and a formal case-tracking page maintained by the Civil Rights Litigation Clearinghouse. Re-verified 2026-07-19: the July 2/July 8 filings are corroborated by the case's CourtListener docket.",
+    "section_summaries": {
+      "what_changed": "Officials forced their way into USIP's headquarters, fired its board and staff overnight, and transferred the building, treating it wrongly as a federal agency -- later ruled unlawful.",
+      "estimated_impact": "An independent institute running peace-building work in dozens of countries was shut down overnight; courts ruled it unlawful, yet an appeals stay left officials still in practical control.",
+      "confidence_note": "Very strongly anchored in named rulings at each stage of the litigation, independently corroborated by several major outlets and an independent docket-tracking project."
+    },
     "last_verified": "2026-07-19",
     "sources": [
       {
@@ -3557,6 +3802,11 @@
       "caveat": "This entry should be presented as a genuine, substantive dispute rather than a one-sided finding -- the VA's rebuttal is specific and cites real, checkable numbers (vacancy rates), not just a generic denial. The OIG report itself states plainly that a 'severe shortage' designation does not necessarily correspond to an actual vacant position, and that it did not independently verify facility-level survey responses. Both the shortage-count increase and the comparatively low vacancy-rate figures can be simultaneously accurate, since they measure different things (recruitment/retention difficulty vs. currently-unfilled positions)."
     },
     "confidence_note": "Strong, well-corroborated sourcing on the base facts (Federal News Network, Newsweek, CBS News, MDedge, Nurse.org, and regional outlets like WPR all report the same OIG figures consistently), and unusually good sourcing on the administration's counter-argument as well, since VA's spokesperson gave detailed, specific, on-record statements to multiple outlets rather than a vague denial. The ProPublica hiring-decline data is a valuable independent data point not dependent on either the OIG or VA's framing.",
+    "section_summaries": {
+      "what_changed": "Every one of the VA's 139 hospitals now reports a severe staffing shortage, a sharp jump from a year earlier that its own inspector general documented, after a large planned workforce cut.",
+      "estimated_impact": "A retired VA physician described surgeons scrubbing down operating rooms on their own and delaying procedures due to short-staffing; lawmakers on both VA committees called this confirmation of worsening care.",
+      "confidence_note": "Well-corroborated across many outlets on the core figures, and unusually, the administration's own rebuttal is solidly on record too; separate hiring data adds an independent point beyond either side."
+    },
     "last_verified": "2026-07-08",
     "sources": [
       {
@@ -3616,6 +3866,11 @@
       "caveat": "The administration's stated rationale, articulated by Kari Lake, was that VOA was 'rife with ideological bias and waste.' That framing gained some support in 2026 reporting: The New York Times found VOA had run stories under Lake's leadership that appeared to violate the law mandating unbiased coverage, including a January 2026 Chinese-language article that uncritically praised Trump. Critics, including press freedom groups Reporters Sans Frontieres and Reporters Without Borders (both formal plaintiffs in the litigation), argue the shutdown itself, not editorial complaints about individual stories, was the primary harm, warning that the loss of VOA's international reach benefited authoritarian governments that restrict independent press access in their countries. Notably, this is a partial-reversal story: a federal court ultimately ruled the entire leadership and staffing effort legally void due to Lake's lack of confirmed authority, and Congress passed bipartisan funding preserving VOA's budget, even as full operational restoration remains a work in progress with hundreds of contractor positions likely permanently lost."
     },
     "confidence_note": "Very strong. Anchored in multiple federal court rulings cited by name, date, and docket outcome (Judge Royce Lamberth's March 2025 TRO, March 2026 summary judgment, and March 2026 reinstatement order), corroborated independently by NPR, AFGE's litigation summary, Democracy Forward's case tracker, and a detailed Poynter investigation into the human impact one year after the initial cuts.",
+    "section_summaries": {
+      "what_changed": "An unconfirmed acting director drove USAGM's broadcast networks down to a fraction of their staff and languages, until a judge ruled every action she took was void for lack of legal authority.",
+      "estimated_impact": "One of the nation's longest-running foreign broadcasting arms shrank to roughly 15% of its former size at one point, until a federal judge voided the effort and had staff brought back.",
+      "confidence_note": "Very strongly anchored in named federal court rulings at each stage, independently corroborated by labor and press-freedom trackers plus an investigative look at the human toll a year later."
+    },
     "last_verified": "2026-07-09",
     "sources": [
       {

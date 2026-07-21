@@ -23,6 +23,11 @@
       "caveat": "No quantified health impact figure exists for the EO itself, since it is a process mechanism rather than a rule targeting a specific pollutant or practice -- and as of mid-2026, agencies are still in the process of identifying which specific regulations are 'covered' and issuing their individual sunset rules (e.g. NRC's Dec. 2025 proposal found most of its regulations could NOT be sunset because they're statutorily required for safety, and only sunset a small number of unused/obsolete rules). The real-world impact will depend heavily on which agencies let which specific regulations lapse -- track individual agency sunset-rule outcomes as they finalize."
     },
     "confidence_note": "Strong 'process is the harm' entry, similar to EO 14192 but energy-specific and more severe in mechanism -- automatic expiration by default, rather than requiring agencies to affirmatively act to repeal. Worth noting the NRC's early implementation actually sunset very few regulations (found most were statutorily protected), which is a useful nuance: the mechanism is structurally risky, but agency-by-agency outcomes so far are mixed, not uniformly severe.",
+    "section_summaries": {
+      "what_changed": "Agencies must give existing rules automatic expiration dates; unless renewed, they lapse from the CFR with no further action needed.",
+      "estimated_impact": "Flips the default from rules staying in force to lapsing automatically, risking rolling gaps in emissions, safety, and species protections.",
+      "confidence_note": "A structurally risky mechanism, though NRC's early rollout sunset few rules since most turned out statutorily protected -- a real mixed-outcomes nuance."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -70,6 +75,11 @@
       "caveat": "The $7B figure is a financial-savings estimate, not a direct health/mortality figure -- the health linkage (debt-trap stress correlating with mental and physical health harm) is drawn from general research on financial stress, not a rule-specific health study."
     },
     "confidence_note": "Strong sourcing on the regulatory action, the proponent (Mulvaney, with documented conflicts of interest), and a real agency-originated dollar figure. The mental/physical health linkage should be framed as 'debt-trap stress is well-documented to correlate with anxiety and physical health harm' rather than implying a rule-specific quantified health study exists.",
+    "section_summaries": {
+      "what_changed": "CFPB dropped the requirement that payday lenders verify borrowers can repay loans, despite its own 5-year research finding the practice unfair.",
+      "estimated_impact": "CFPB's own estimate: the dropped repayment-check rule would have saved consumers (and cost lenders) $7 billion a year, on top of debt-trap stress harms.",
+      "confidence_note": "Well-sourced on the rollback and Mulvaney's conflicts of interest; frame health harm as debt-stress correlation, not a rule-specific health study."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -118,6 +128,11 @@
       "caveat": "This is EPA's own regulatory impact analysis comparing ACE to alternative approaches, not an outside advocacy estimate -- a notably strong data point since the agency implementing the rollback produced the mortality estimate itself."
     },
     "confidence_note": "Very strong for debate: the mortality estimate came from EPA's own regulatory impact analysis, not an opposing advocacy group. This is close to an admission-against-interest and should be framed that way.",
+    "section_summaries": {
+      "what_changed": "EPA scrapped binding plant-by-plant emissions targets for coal power and replaced them with a much weaker per-plant efficiency-upgrade requirement.",
+      "estimated_impact": "EPA's own analysis found the replacement could cause more pollution and premature deaths than the original rule, via a coal-plant 'rebound effect.'",
+      "confidence_note": "Very strong for debate -- the premature-death estimate comes from EPA's own impact analysis, close to an admission against interest."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -171,6 +186,11 @@
       "caveat": "The February 2026 deadline-extension rule is finalized; the broader April 2026 proposal to exempt most sites from oversight entirely is still proposed, not finalized (comment period extended to June 29, 2026). Frame the two as separate but related actions -- one enacted, one pending."
     },
     "confidence_note": "Unusually strong entry: EPA's own final rule text contains a direct admission that the delay 'may increase health risks for children,' which is about as close to an admission-against-interest as this tracker contains. Excellent for debate use precisely because it's not an outside estimate. [Rechecked 2026-07-06: no material change to the finalized Feb 10, 2026 deadline extension. The broader April 9, 2026 weakening proposal remains pending, not finalized -- its comment period has been extended/reopened at least once since (through late June 2026 per EELP tracker).] Re-verified 2026-07-18: no material change -- the April 9, 2026 broader exemption proposal remains pending (comment period reopened through June 29, 2026 per EPA's own docket), not finalized; litigation is expected regardless of outcome per legal analysts.",
+    "section_summaries": {
+      "what_changed": "EPA finalized a roughly 3-year delay in coal-ash cleanup and monitoring deadlines, and separately proposed exempting most sites from oversight.",
+      "estimated_impact": "EPA's own final rule admits the delay 'may increase health risks for children' from coal-ash toxins like mercury, arsenic, and chromium.",
+      "confidence_note": "Unusually strong -- EPA's own rule text admits increased child health risk; the broader exemption proposal remains pending, not finalized."
+    },
     "last_verified": "2026-07-18",
     "sources": [
       {
@@ -216,6 +236,11 @@
       "caveat": "No quantified health impact figure exists for the memo itself, since it is a process mechanism enabling repeal of other rules, not a rule targeting a specific pollutant or practice. Its harm is best argued as procedural (loss of public input) rather than via a body-count claim. Downstream rules repealed under its authority may have their own quantified figures in other entries of this tracker."
     },
     "confidence_note": "Strong 'process is the harm' entry, similar in category to EO 14192 and the sunset rule mandate. The specific mechanism here -- invoking APA 'good cause' to skip notice-and-comment based on an agency's own legal judgment that a rule is 'unlawful' -- is a distinct and arguably more aggressive procedural shortcut than either of the other two structural entries, since it removes public input entirely rather than just accelerating repeal volume or adding expiration dates.",
+    "section_summaries": {
+      "what_changed": "Directs agencies to repeal rules they deem 'unlawful' by invoking an APA emergency exception, skipping normal notice-and-comment review entirely.",
+      "estimated_impact": "Eliminates the main formal channel for health experts and communities to object before a rule is repealed -- a procedural, not substantive, harm.",
+      "confidence_note": "A 'process is the harm' entry -- skipping public comment entirely is a more aggressive shortcut than the EO 14192 or sunset-rule entries."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -257,6 +282,11 @@
       "caveat": "No formal quantified mortality/illness estimate exists for this rollback, as is typical for financial (rather than environmental/health) regulation -- the strength of this entry is the documented causal chain to an actual bank failure (SVB, 2023), not a modeled health figure."
     },
     "confidence_note": "This is legislation, not a unilateral executive rollback -- note the mechanism is different from most other entries in this tracker. Strongest framing: cite the direct causal chain to the Silicon Valley Bank collapse as a real-world materialized harm, rather than an abstract 'increases risk' claim.",
+    "section_summaries": {
+      "what_changed": "Congress freed regional banks up to $250B in assets from post-2008 stress tests and living-will requirements, a fivefold jump from the original $50B cutoff.",
+      "estimated_impact": "A think tank has since drawn a direct line from these exemptions to an actual bank failure -- Silicon Valley Bank's 2023 collapse.",
+      "confidence_note": "Legislative, not executive, rollback; strongest framing ties it to SVB's real-world collapse rather than an abstract risk claim."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -317,6 +347,11 @@
       "caveat": "DOL's stated rationale, echoed by the Fifth Circuit's earlier reasoning on the 2019 rule, is that Congress intended the white-collar exemption to turn primarily on job duties rather than a compensation test, and that the 2024 rule's salary jump effectively substituted a bright-line pay threshold for that duties analysis -- a view two federal judges accepted when vacating the rule. Critics, including the bill's Senate sponsors, argue the rescission simply strips overtime protection from workers who would have newly qualified, and that the reinstated $684/week threshold has not been adjusted for inflation since 2019. Both sides agree the practical effect since late 2024 has been the same: employers have been operating under the 2019 thresholds since the district court rulings, so this technical amendment formalizes an already-realized status quo rather than changing day-to-day practice by itself."
     },
     "confidence_note": "High confidence throughout. The rescission, its effective date, and both salary threshold figures are drawn directly from DOL's own May 14, 2026 news release and corroborated by multiple independent legal-alert summaries (Foley Hoag, Ogletree, Stein Adler Dabah & Zelkowitz). The 4.3-million-worker figure originates from DOL's own 2024 rule impact projections, cited secondhand via a Senate office fact sheet; treated as a solid but administration-sourced estimate rather than an independently audited figure.",
+    "section_summaries": {
+      "what_changed": "DOL formally rescinded the 2024 overtime rule after courts vacated it, reverting to 2019's lower salary thresholds for overtime exemption.",
+      "estimated_impact": "Not a health rule -- the harm is economic: millions of salaried workers lose overtime eligibility and pay under the reinstated lower threshold.",
+      "confidence_note": "High confidence throughout, drawn from DOL's own release; the 4.3-million-worker figure is DOL's own but cited secondhand via a Senate fact sheet."
+    },
     "last_verified": "2026-07-10",
     "sources": [
       {
@@ -372,6 +407,11 @@
       "caveat": "The $1.3 trillion figure is EPA's own claim and is not disaggregated into cost-savings vs. forgone-benefits components in the sourcing found -- treat as an agency-asserted total, not an independently verified net-benefit calculation. Multiple health and environmental organizations dispute the underlying reasoning; see litigation status below."
     },
     "confidence_note": "This entry now describes a FINALIZED action, not a proposal -- a major upgrade in verifiability from the prior 'Proposed Repeal' status. Litigation is active and significant: 17 health/environmental organizations and a separate youth-plaintiff group (18 individuals) filed petitions for review at the D.C. Circuit on Feb 18, 2026; a California-led multistate AG coalition challenge was also expected. A 25-state coalition led by West Virginia and Kentucky moved to intervene in defense of the rule. This is likely headed to the Supreme Court. Recommend resolving the overlap with the vehicle-standards entry before using both in the same debate context, to avoid double-counting the same action.",
+    "section_summaries": {
+      "what_changed": "EPA rescinded the 2009 Endangerment Finding and repealed all vehicle GHG standards built on it, resting solely on statutory interpretation.",
+      "estimated_impact": "EPA claims $1.3 trillion in savings; because the finding underlies many rules, its real impact is unlocking further rollbacks built on top of it.",
+      "confidence_note": "Now finalized, not proposed -- a major credibility upgrade; heavy litigation is active and this overlaps with the separate vehicle-standards entry."
+    },
     "last_verified": "2026-07-06",
     "sources": [
       {
@@ -417,6 +457,11 @@
       "caveat": "No quantified health impact figure exists for the EO itself, since it is a process mandate rather than a rule targeting a specific pollutant, product, or practice -- its harm is best argued structurally (the mechanism itself deprioritizes public-health benefit analysis) rather than with a body-count claim. Downstream rules repealed under its authority may have their own quantified figures (see other entries in this tracker)."
     },
     "confidence_note": "This is one of the strongest 'process is the harm' entries in the tracker -- the EO's text itself, not a critic's characterization, establishes that repeal volume/cost savings are the stated goal, independent of the safety value of any given rule. Good for framing a systemic argument distinct from any single rollback.",
+    "section_summaries": {
+      "what_changed": "Requires agencies to repeal 10 existing rules for every new one issued, and to make new FY2025 rules' total cost 'significantly less than zero.'",
+      "estimated_impact": "By design, prioritizes repeal volume and cost-cutting over case-by-case review of which specific protections are worth keeping.",
+      "confidence_note": "One of the strongest 'process is the harm' entries -- the EO's own text, not a critic, states cost/volume as the goal over safety value."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -477,6 +522,11 @@
       "caveat": "EPA's stated rationale is that RMP-reportable accidents already declined substantially (147 to 81, 2014-2023) before the 2024 SCCAP requirements took effect, which the agency argues shows the prior, less stringent framework was already working, and that realigning with OSHA's existing PSM standard removes genuine duplication rather than protection. Public health, labor, and environmental groups (Union of Concerned Scientists, various labor unions who testified at the March 2026 hearing) dispute that the accident-decline trend justifies removing forward-looking safeguards like natural-hazard assessment, given the increasing frequency of hurricanes and extreme weather cited as a specific risk factor. This entry describes a proposed, not yet finalized, rule -- EPA has stated an intent to finalize in late 2026, and the specific provisions could still change before then."
     },
     "confidence_note": "High confidence on the rule's content, timeline, and both sides' stated rationale, sourced to EPA's own Federal Register notice and fact sheet plus multiple independent law-firm summaries (Holland & Knight, Holland & Hart, DLA Piper, Beveridge & Diamond, Haynes Boone) that are consistent with each other on the substantive changes. The cost-savings and accident-decline figures are EPA's own; the population and past-cost figures are EPA's own from the prior (2024) rulemaking it is now rolling back, which is a useful internal-consistency data point. Because this is a proposed rather than final rule, `status` and the specific provisions should be rechecked before EPA's expected late-2026 final action. Re-verified 2026-07-18: no material change -- comment period closed May 11, 2026 as previously noted, EPA has not yet issued a final rule; status unchanged.",
+    "section_summaries": {
+      "what_changed": "EPA proposed rolling back most 2024 chemical-safety rules for high-risk plants: narrower audits, less public disclosure, fewer worker protections.",
+      "estimated_impact": "EPA's own 2024 rulemaking tied over $540M/year in accident costs, and a real prevented-explosion case, to the safeguards now being rolled back.",
+      "confidence_note": "High confidence on content and figures, both EPA's own across two rulemakings; still a proposal, not final, as of comment close in May 2026."
+    },
     "last_verified": "2026-07-18",
     "sources": [
       {
@@ -529,6 +579,11 @@
       "caveat": "This is fundamentally a digital-access/market-structure issue, not a health rollback in the sense of the environmental or labor entries in this tracker -- use the telehealth-throttling angle cautiously as a theoretical risk, not a documented realized harm."
     },
     "confidence_note": "Very well-documented, uncontroversial factually (clear vote, clear date, clear named proponent). Weakest entry in the tracker for a health-impact argument specifically -- best used for a consumer/market-access argument, not paired with the health-focused entries.",
+    "section_summaries": {
+      "what_changed": "FCC voted 3-2 to reclassify broadband as lightly regulated, dropping bans on blocking, throttling, and paid prioritization by ISPs.",
+      "estimated_impact": "Little direct physical health impact; the main health-adjacent worry is theoretical throttling of telehealth traffic, not a documented real harm.",
+      "confidence_note": "Well-documented and uncontroversial factually, but the weakest entry here for a health argument -- better used for a consumer/market-access angle."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -566,6 +621,11 @@
       "caveat": "This entry is a financial/consumer-protection harm, not a health harm in the sense used elsewhere in this tracker -- keep framing accordingly and don't overstate it as a health rollback."
     },
     "confidence_note": "Solid on the facts (Federal Register citation, clear timeline), but this is the weakest entry in the tracker for a health-impact argument specifically, since there is no health angle at all -- use it for a financial/consumer-harm argument, not alongside the environmental/labor entries in a 'health impact' framing.",
+    "section_summaries": {
+      "what_changed": "FTC reverted its simplified-cancellation rule to pre-2024 text after a court vacatur, in the same action that also dropped the CARS and noncompete rules.",
+      "estimated_impact": "No physical health impact -- the harm is financial: more billing friction and stress from difficulty canceling unwanted recurring subscriptions.",
+      "confidence_note": "Solid on the facts, but the weakest health-argument entry in the tracker -- use for a financial/consumer-harm framing only."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -599,6 +659,11 @@
       "caveat": "This is a labor-mobility/economic harm claim, not a health claim in the environmental-rollback sense -- keep the framing accordingly. Commissioner Rebecca Slaughter's dissent is a useful sourced counter-voice noting the scale of public support for the original rule (25,000 of 26,000 comments)."
     },
     "confidence_note": "Strong on the facts of the action itself (well-documented, named proponent, clear timeline). The health/wellbeing impact argument is necessarily indirect -- don't overstate it as a physical-health rollback comparable to the environmental entries in this tracker.",
+    "section_summaries": {
+      "what_changed": "After courts vacated the rule, FTC abandoned its nationwide noncompete ban and returned to case-by-case enforcement against specific agreements.",
+      "estimated_impact": "No physical-health pathway here -- the harm case rests on workers stuck in jobs facing stagnant pay and, researchers argue, worse access to care.",
+      "confidence_note": "Solid on the facts of the reversal itself; don't overstate the health angle -- it's indirect, unlike the tracker's environmental entries."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -640,6 +705,11 @@
       "caveat": "This entry originally included an unsourced rural-suicide-rate claim, which has been removed after verification found no supporting source. Use only the sourced economic/negotiating-leverage framing; do not reintroduce a health-mortality claim without a real epidemiological citation."
     },
     "confidence_note": "The regulatory action itself is well-sourced. Two things need caution: (1) the primary proponent is not a clearly identified individual -- verify further before naming one in debate; (2) the original health-impact framing (rural suicide rates) is unsupported and should not be used.",
+    "section_summaries": {
+      "what_changed": "USDA withdrew new protections against processors retaliating against organizing farmers, before those protections ever took effect.",
+      "estimated_impact": "The often-cited link to rural suicide rates is unsupported by any source found; the real, sourced harm is to farm income and negotiating leverage.",
+      "confidence_note": "The regulatory action is well-sourced, but don't name a specific proponent or repeat the unsupported suicide-rate health claim in debate."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -677,6 +747,11 @@
       "caveat": "No quantified health/safety figure exists for this rule -- it is a liability-allocation rule, not a safety standard itself. The health-relevant argument is indirect: reduced accountability for the entity best positioned to enforce safety standards across a franchise/contractor network."
     },
     "confidence_note": "Solid on the facts and timeline (Federal Register citation, clear before/after standard). Two things to flag: (1) this is a Trump II action from Feb. 2026, not Trump I as an earlier version of this tracker listed -- the 2020 rule referenced here was Trump I, but the specific rollback being tracked (reversing the 2023 expansion) happened this year; (2) no individual proponent is clearly named in sourcing, unlike most other entries in this tracker.",
+    "section_summaries": {
+      "what_changed": "NLRB withdrew the 2023 joint-employer rule and reinstated the narrower 2020 standard, requiring direct and exercised control to count.",
+      "estimated_impact": "Minimal direct health impact; the real harm is reduced corporate accountability, since parent firms are less liable for a contractor's safety violations.",
+      "confidence_note": "Solid on facts, but this is a Trump II action from 2026, not Trump I as an earlier tracker version listed -- no individual proponent is named."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -740,6 +815,11 @@
       "caveat": "Institute for Policy Integrity is an NYU academic policy center, not a neutral government source, but its methodology is built from the agencies' own prior regulatory impact analyses of the rules being repealed -- cite it as 'built from EPA's own prior cost-benefit analysis of the standard being repealed' rather than as an independent outside estimate."
     },
     "confidence_note": "Strong, quantified, and traceable to agency-originated modeling (the underlying numbers trace back to EPA's own RIA for the rule before repeal). Good headline figure for debate use: 2,577 estimated annual premature mortalities at risk is the largest single figure in the entire current-term tracker.",
+    "section_summaries": {
+      "what_changed": "EPA fully repealed light/medium-duty vehicle GHG standards, citing EO 14,154, eliminating both emissions limits and fuel-savings benefits.",
+      "estimated_impact": "By dollar value, this ranks as the biggest rollback tracked in the current term once fuel, health, and climate losses are added together.",
+      "confidence_note": "Figures trace back to EPA's own pre-repeal analysis, and the mortality toll here outranks every other entry in the tracker."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -789,6 +869,11 @@
       "caveat": "These figures come from EPA's own 2024 analysis of the standards being repealed, not an outside advocacy estimate -- strong for debate use. EPA's own 2026 RIA for the repeal itself notably declines to monetize the health benefits being forfeited, which is itself a useful procedural point (an agency choosing not to quantify what it's giving up)."
     },
     "confidence_note": "Strong on the facts of the rule change itself (EPA.gov primary source, clear before/after numeric limits) and now strong on health impact too, with EPA's own prior cost-benefit figures. The 'EPA's new RIA declines to monetize health benefits' point remains a good secondary procedural argument.",
+    "section_summaries": {
+      "what_changed": "EPA repealed the 2024 mercury-limit strengthening for lignite plants, reverting to the 2012 baseline and dropping continuous PM monitoring.",
+      "estimated_impact": "EPA's own 2024 analysis valued the now-repealed strengthening at $300M/year in health benefits, but its 2026 repeal analysis won't monetize the loss.",
+      "confidence_note": "Strong on both the rule change and health impact, both from EPA's own figures across two rulemakings; a solid before/after comparison exists."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -846,6 +931,11 @@
       "caveat": "The 2020 finding reversal did not itself change emissions in the short term since numeric standards stayed in place; the health risk is prospective -- it removed the legal basis that makes the standards defensible against future non-enforcement or repeal."
     },
     "confidence_note": "Strong, agency's-own-numbers framing: the cost-benefit dispute is about whether to count co-benefits the EPA itself originally calculated, not a competing outside estimate. Good for a standards-based debate framing -- ask why co-benefits were excluded only for this rule.",
+    "section_summaries": {
+      "what_changed": "EPA reversed MATS's 'appropriate and necessary' legal finding, arguing costs outweighed benefits only by excluding particulate co-benefits.",
+      "estimated_impact": "Those excluded particulate co-benefits made up most of MATS's total $37-90 billion in annual benefits versus roughly $9.6 billion in costs.",
+      "confidence_note": "Strong, uses EPA's own original numbers -- the dispute is whether to count co-benefits EPA itself calculated, not a competing outside estimate."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -895,6 +985,11 @@
       "caveat": "These figures are the Department of Labor's own original estimate for the benefit of the rule now being paused/reconsidered (agency's own numbers, strong for debate), as reported secondhand via EPI -- worth verifying against the original DOL rule text directly before using as a primary citation."
     },
     "confidence_note": "Primary proponent attribution remains the weak point -- flag it and don't name a specific individual with high confidence until verified. The health impact figures are agency-originated and strong. Status has escalated since last verification: this is no longer just an administrative 'pause' but an active reconsideration rulemaking under litigation pressure, which is a materially stronger claim about the rule's vulnerability. The passed MNM compliance deadline (April 8, 2026) needs a follow-up check to determine current enforcement status for that sector specifically. Re-verified 2026-07-18: the passed-MNM-deadline follow-up flagged at the prior update is now resolved -- MSHA's April 6, 2026 Federal Register notice confirms the MNM deadline is covered by the same judicial stay as the coal-sector provisions, not a separate, unaddressed lapse. Primary proponent attribution remains the weak point, unchanged.",
+    "section_summaries": {
+      "what_changed": "MSHA paused silica-rule enforcement and began reconsidering it under litigation, while related restructuring cut NIOSH and MSHA field staff.",
+      "estimated_impact": "DOL's own prior estimate projected substantial prevented deaths and illness from the silica rule, now put at risk by the pause and reconsideration.",
+      "confidence_note": "Health figures are agency-originated and strong, but proponent attribution remains unverified; status has escalated to active reconsideration."
+    },
     "last_verified": "2026-07-18",
     "sources": [
       {
@@ -946,6 +1041,11 @@
       "caveat": "No agency or independent body has published a quantified estimate of additional deaths/injuries directly attributable to this specific reporting rollback -- the harm argument is about degraded detection/prevention capacity, not a modeled body count. Present it that way rather than implying a specific casualty figure."
     },
     "confidence_note": "Frame as a transparency/detection-capacity rollback, not a body-count claim -- this is the more defensible, harder-to-rebut version of the argument. Unions (IBEW) and NELP are the sourced critics; note them as advocacy voices, not neutral analysts.",
+    "section_summaries": {
+      "what_changed": "OSHA dropped the requirement to submit detailed injury logs, leaving only aggregated summary data; anti-retaliation protections stayed in place.",
+      "estimated_impact": "The harm here is blindness, not body count -- regulators lose the itemized data needed to spot injury patterns and aim enforcement.",
+      "confidence_note": "The stronger, harder-to-rebut argument is reduced injury-detection capacity, not a death count -- and unions/NELP are advocacy sources, not neutral analysts."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -999,6 +1099,11 @@
       "caveat": "As of this entry, both actions are proposed, not finalized -- comment period closed July 20, 2026. EPA states explicitly it is not accepting comment on the underlying health-risk science, only on the legal/procedural basis for rescission -- worth noting this framing choice in debate, since it forecloses public health argument at the comment stage."
     },
     "confidence_note": "Strong, EPA's-own-numbers framing available (the ~100 million people figure comes from EPA's own 2024 rule justification, not an outside estimate). Note carefully that this is still proposed, not finalized, and litigation is expected regardless of outcome per legal analysts. [Rechecked 2026-07-06: no material change -- comment period closes July 20, 2026 (as previously noted, confirming those forward-looking dates were accurate, not an error); public hearing held July 7, 2026; EPA states intent to finalize both rules before end of 2026.] Re-verified 2026-07-18: no material change -- comment period closes July 20, 2026 (2 days from this update) as previously noted, not yet finalized. Re-verified 2026-07-20: comment period closed today as scheduled -- more than 15,000 public comments submitted on the rescission rule, EPA has stated intent to finalize both rules before end of 2026 but no final rule issued yet. Environmental Working Group publicly opposed the rescission (\"condemning millions of Americans to drink contaminated water for years to come\"). Litigation from environmental/public-health groups is expected if finalized, likely invoking the Safe Drinking Water Act's anti-backsliding provision; industry litigation is expected if the rescission is NOT finalized. Neither rule has changed in substance since the May 2026 proposal.",
+    "section_summaries": {
+      "what_changed": "EPA proposed dropping enforceable limits for 4 of 6 regulated PFAS chemicals and extending the compliance deadline for the remaining two by two years.",
+      "estimated_impact": "EPA's own 2024 rule projected the full six-chemical rule would prevent PFAS exposure for ~100 million people; that benefit is now partly unwound.",
+      "confidence_note": "Strong, EPA's-own-numbers framing; still proposed as of comment close July 2026, with litigation expected from either side regardless of outcome."
+    },
     "last_verified": "2026-07-20",
     "sources": [
       {
@@ -1070,6 +1175,11 @@
       "caveat": "Still a proposed, not finalized, repeal as of this entry's last update -- frame accordingly ('EPA has proposed, and sent a final rule to OMB for review,' not 'EPA has repealed'). The EPA's own $19B/$9.6B figures are compliance-cost savings only, a narrower measure than Policy Integrity's broader net-benefit estimate which includes health and climate costs -- don't conflate the two when citing."
     },
     "confidence_note": "Note the status carefully in debate use -- this one is not finalized yet, though it is now at the last procedural stage (OMB review) before publication, unlike its status at last verification. Otherwise same sourcing strength as the vehicle-standards entry. Worth a follow-up check after mid-August 2026 to see whether OMB review concluded and the rule published. Re-verified 2026-07-18: no material change -- the rule remains under OMB/OIRA review (sent May 14, 2026), not yet published in the Federal Register; publication remains expected later in 2026 per legal-analyst tracking, within the up-to-90-day OMB review window.",
+    "section_summaries": {
+      "what_changed": "EPA proposed fully repealing power-plant GHG standards and has now sent a final rule to OMB for review, the last step before publication.",
+      "estimated_impact": "Second-largest dollar-value rollback in the current-term tracker, with most benefits from avoided climate damage plus real public-health co-benefits.",
+      "confidence_note": "Not finalized yet, but now at the last procedural stage before publication -- a status escalation worth rechecking after OMB review concludes."
+    },
     "last_verified": "2026-07-18",
     "sources": [
       {
@@ -1115,6 +1225,11 @@
       "caveat": "No agency-produced quantified mortality/illness estimate exists specifically for this repeal (unlike MATS or the ACE Rule); health linkage is drawn from separate academic literature on mountaintop-removal mining exposure generally, not a rule-specific impact study."
     },
     "confidence_note": "Use with a general-harm framing, not a specific body-count figure -- be explicit that the health literature concerns mountaintop-removal mining exposure broadly, and connect it to the repealed rule's purpose rather than citing a specific number of cases caused by the repeal itself.",
+    "section_summaries": {
+      "what_changed": "Coal-waste stream limits died fast -- a CRA vote within Trump's first month in office, which also blocks any similar future rule absent new legislation.",
+      "estimated_impact": "Mining-waste contamination is linked in peer-reviewed research to birth defects and cardiovascular disease in Appalachia, though not re-studied for this repeal.",
+      "confidence_note": "Use a general-harm framing tied to mountaintop-removal mining broadly -- don't cite a specific case count caused by the repeal itself."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -1163,6 +1278,11 @@
       "caveat": "USDA has disputed the interpretation of this same underlying data, with a spokesperson citing the same studies to conclude 'no direct link between line speeds and workplace injuries' -- the National Chicken Council makes a similar counter-claim for poultry specifically. Note this contested interpretation when using the figures; the raw MSD risk percentages are not disputed, but their causal link to line speed specifically is contested by industry and USDA."
     },
     "confidence_note": "Strong current-term entry with a named proponent (Rollins) and government-originated worker-safety data, but flag the industry/USDA counter-interpretation explicitly -- this is a case where the underlying data is solid but the causal narrative is actively disputed, which is exactly the kind of nuance a debate opponent would raise.",
+    "section_summaries": {
+      "what_changed": "USDA moved to make faster slaughter line speeds permanent for pork and poultry and ended worker-safety data collection at modernized plants.",
+      "estimated_impact": "Government studies found 81% of poultry and 46% of swine workers evaluated were at high risk of musculoskeletal disorders from faster line speeds.",
+      "confidence_note": "Solid government-sourced worker-safety data with a named proponent, but industry disputes the causal narrative -- flag that nuance in debate."
+    },
     "last_verified": "2026-07-03",
     "sources": [
       {
@@ -1208,6 +1328,11 @@
       "caveat": "No agency-produced quantified health impact figure was found for this specific proposal as of this entry's creation. The rule is also not yet finalized -- frame as proposed, not enacted."
     },
     "confidence_note": "Use a structural/general-risk framing (reduced filtration, increased runoff exposure) rather than citing a specific casualty figure, since none exists yet for this action. Note explicitly that it is a proposed rule, not finalized. [Rechecked 2026-07-06: no material change -- still awaiting a final rule; comment period closed Jan 5, 2026 as previously noted, no evidence of finalization found.] Re-verified 2026-07-18: no finalization yet. Nearly 11,000 public comments were filed by mid-December 2025 per docket tracking; legal analysts expected a final rule 'within the next six months' of the January 5, 2026 comment-period close (i.e., around mid-2026), but no publication has been confirmed as of this update -- still proposed, not finalized.",
+    "section_summaries": {
+      "what_changed": "EPA proposed the sixth WOTUS narrowing in a decade, dropping 'interstate waters' from federal jurisdiction and tightening wetland-connection tests.",
+      "estimated_impact": "Shrinking federal wetland jurisdiction reduces natural filtration of runoff before it reaches drinking water -- a structural, not quantified, risk.",
+      "confidence_note": "Still proposed, not finalized, as of mid-2026; use a structural-risk framing rather than citing any specific casualty figure."
+    },
     "last_verified": "2026-07-18",
     "sources": [
       {
