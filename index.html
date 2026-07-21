@@ -170,6 +170,26 @@
     margin-right: 0.5rem;
   }
 
+  /* ================= REPORTING LINK (global search) ================= */
+  .reporting-link {
+    margin: 0 0 1.25rem;
+    padding: 0.6rem 1rem;
+    background: var(--brass-light);
+    border: 1px solid var(--brass);
+    border-radius: 4px;
+    text-align: center;
+    font-family: ui-monospace, monospace;
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+  }
+  .reporting-link a {
+    color: var(--brass);
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .reporting-link a:hover { opacity: 0.8; }
+
   /* ================= ONE-LINER ROWS ================= */
   .oneliner-row {
     display: flex;
@@ -698,7 +718,15 @@ function impactScore(entry, cfg) {
   }
   if (cfg.kind === "tracker") {
     const d = entry.date ? Date.parse(entry.date) : 0;
-    return d ? d / (1000 * 60 * 60 * 24 * 365.25) : 0; // roughly "years since epoch"
+    if (!d) return 0;
+    // Scaled to roughly the same 0-11 range as the other trackers'
+    // magnitude/confidence scores (was previously raw "years since
+    // epoch", ~56, which swamped every other tracker's score whenever
+    // results were merged and sorted together across trackers). Still
+    // a straight linear function of date, so recency ordering within
+    // this tracker alone is unchanged.
+    const daysAgo = (Date.now() - d) / (1000 * 60 * 60 * 24);
+    return 11 - daysAgo / 30;
   }
   if (cfg.kind === "govservices") {
     const figs = entry.estimated_impact?.figures || [];
@@ -1135,6 +1163,42 @@ function renderEntries() {
    see flattenTrackerPosts()), applies plain or regex matching, and
    renders either full docket cards or a condensed one-liner list
    depending on the "1-liners" toggle. */
+/* Builds the "N more matches in Reporting" callout shown above global
+   search results. Reporting is excluded from the merged results below
+   because at 500+ entries -- an order of magnitude more than the three
+   curated trackers combined -- it would otherwise flood the list; this
+   link is the way back to it, landing on Reporting's own tab with its
+   own independent search box pre-filled with the same term. */
+function buildReportingLink(term, count) {
+  if (!count) return null;
+  const p = document.createElement("p");
+  p.className = "reporting-link";
+  const a = document.createElement("a");
+  a.href = "#";
+  a.textContent = count + " more match" + (count === 1 ? "" : "es") + " in Reporting →";
+  a.addEventListener("click", (e) => {
+    e.preventDefault();
+    jumpToReportingSearch(term);
+  });
+  p.appendChild(a);
+  return p;
+}
+
+/* Leaves global-search mode entirely and lands on the Reporting tab
+   with its own per-tracker search box carrying over the same term --
+   reuses the existing tab/search-box machinery rather than building a
+   second results renderer. */
+function jumpToReportingSearch(term) {
+  document.getElementById("global-search").value = "";
+  activeTracker = "tracker";
+  filterValue = "";
+  searchTerm = term;
+  document.getElementById("search").value = term;
+  document.getElementById("filter").value = "";
+  renderDispatch();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
 function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
   const container = document.getElementById("entries");
   const countEl = document.getElementById("count");
@@ -1144,7 +1208,10 @@ function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
   let allMatches = [];
   let hadRegexError = false;
 
+  // Reporting is deliberately excluded here -- see buildReportingLink()
+  // above for why -- and searched separately below just for its count.
   Object.keys(TRACKERS).forEach(key => {
+    if (key === "tracker") return;
     const cfg = TRACKERS[key];
     cfg.data.forEach(entry => {
       const haystack = JSON.stringify(entry);
@@ -1161,21 +1228,35 @@ function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
     return;
   }
 
+  // Always plain-text matching here, regardless of the regex toggle --
+  // Reporting's own tab search box doesn't support regex, so this count
+  // needs to match what actually shows up after following the link.
+  const reportingMatchCount = TRACKERS.tracker.data.filter(entry =>
+    matchesTerm(JSON.stringify(entry), term, false)
+  ).length;
+  const reportingLink = buildReportingLink(term, reportingMatchCount);
+
   if (useImpactSort) {
     allMatches.sort((a, b) => impactScore(b.entry, b.cfg) - impactScore(a.entry, a.cfg));
   }
 
-  countEl.textContent = allMatches.length + " result(s) across all databases for \"" + term + "\"" +
+  countEl.textContent = allMatches.length + " result(s) across 3 databases for \"" + term + "\"" +
     (useRegex ? " (regex)" : "") + (useOneLiners ? " — 1-liner view" : "");
 
+  container.innerHTML = "";
+
   if (allMatches.length === 0) {
-    container.innerHTML = '<div class="empty-state">No matches found across any database.</div>';
+    const empty = document.createElement("div");
+    empty.className = "empty-state";
+    empty.textContent = "No matches in Corporate Deregulation, Cabinet-Level Legal Exposure, or Government Service Redirection.";
+    container.appendChild(empty);
+    if (reportingLink) container.appendChild(reportingLink);
     return;
   }
 
-  // Safety valve: a broad term (especially a short regex) could match
-  // thousands of News entries -- cap rendering so the page stays
-  // responsive, and say so explicitly rather than silently truncating.
+  // Safety valve: a broad term could still match hundreds of entries
+  // across the three curated trackers -- cap what's actually rendered
+  // so the page doesn't choke, and be explicit that there are more.
   const RENDER_CAP = 300;
   const overCap = allMatches.length > RENDER_CAP;
   const toRender = allMatches.slice(0, RENDER_CAP);
@@ -1183,7 +1264,7 @@ function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
     countEl.textContent = toRender.length + " shown of " + allMatches.length + " results — refine your search to narrow further";
   }
 
-  container.innerHTML = "";
+  if (reportingLink) container.appendChild(reportingLink);
 
   if (!useOneLiners) {
     toRender.forEach((m, i) => {
