@@ -1397,6 +1397,86 @@
     ]
   },
   {
+    "id": "fema-disaster-aid-partisan-approval-gap-trump2",
+    "title": "FEMA Disaster Aid Approvals Skewed Toward Republican-Led States",
+    "institution": "Federal Emergency Management Agency (FEMA), Department of Homeland Security",
+    "domain": "funding_redirection",
+    "status": "Ongoing pattern -- most recent documented denial episode July 2026, no reversal or independent (GAO/IG) audit announced as of this writing",
+    "date_of_action": "2025-2026 (pattern); most recent documented episode 2026-07 (four-state blizzard aid denial)",
+    "what_changed": "An E&E News/POLITICO analysis of roughly 2,500 major disaster declaration decisions dating back to the Reagan administration found that under Trump, Democratic-led states have had disaster aid requests approved at a 23% rate, compared to 89% for Republican-led states -- the lowest approval rate for Democratic-led states of any president since Reagan (every prior president approved at least 67% of their requests). The same analysis found Democratic-led states waited an average of 80 days for a decision versus 39 days for Republican-led states, and documented at least $250 million in specific state disaster requests blocked or left pending, including $34 million to Washington, $41 million to Colorado, and $46 million and $83 million in separate Illinois storm-damage requests. The pattern produced a concrete, dated episode in July 2026: Trump denied Major Disaster Declaration requests from New York, New Jersey, Massachusetts, and Rhode Island -- a combined $227 million sought after a February 2026 blizzard that buried New York City, Long Island, and the Mid-Hudson region, with Rhode Island separately citing record snowfall and cold -- after all four states' damage assessments exceeded FEMA's own threshold for triggering aid. The denials came two days after Trump approved disaster declarations for six Republican-led states; Trump has publicly touted having granted over $846 million in disaster relief to Republican-led states. White House spokesperson Abigail Jackson defended the pattern, saying Trump \"provides a more thorough review of disaster declaration requests than any Administration has before him.\" This is a distinct mechanism from a separate, later legal fight over FEMA's Homeland Security Grant Program: on July 24, 2026, a coalition of 23 Democratic-led states, two Democratic governors, and DC sued DHS in Rhode Island federal court alleging it illegally conditioned that separate grant program on states adopting specific election policies (hand-marked paper ballots, manual audits, the SAVE program) -- a related pattern of FEMA/DHS funding being used as leverage, but a different funding stream and a different specific demand than the major-disaster-declaration approvals this entry tracks.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President (Stafford Act major disaster declarations require the President's personal approval)",
+      "note": "Publicly touted approving over $846 million in disaster aid to Republican-led states two days after personally denying $227 million in disaster-declaration requests from New York, New Jersey, Massachusetts, and Rhode Island for the same category of disaster."
+    },
+    "estimated_impact": {
+      "summary": "A quantified, multi-figure partisan gap in a core federal safety-net function -- whether disaster survivors get federal aid -- tied to which party controls their state government rather than to documented need, since all four denied states in the flagship episode exceeded FEMA's own damage threshold.",
+      "figures": [
+        {
+          "metric": "Disaster aid request approval rate, Democratic-led states",
+          "value": "23%",
+          "source": "E&E News/POLITICO analysis of ~2,500 major disaster declarations since the Reagan administration"
+        },
+        {
+          "metric": "Disaster aid request approval rate, Republican-led states",
+          "value": "89%",
+          "source": "E&E News/POLITICO, same analysis"
+        },
+        {
+          "metric": "Prior floor for Democratic-state approval rate under any president since Reagan",
+          "value": "67%+ (comparison baseline; Trump's 23% is the lowest on record)",
+          "source": "E&E News/POLITICO"
+        },
+        {
+          "metric": "Average decision wait time, Democratic-led vs. Republican-led states",
+          "value": "80 days vs. 39 days",
+          "source": "E&E News/POLITICO"
+        },
+        {
+          "metric": "Specific state disaster aid documented as blocked or left pending",
+          "value": "$250 million+ (incl. $34M Washington, $41M Colorado, $46M + $83M Illinois)",
+          "source": "E&E News/POLITICO"
+        },
+        {
+          "metric": "Combined aid requested and denied, four-state February 2026 blizzard",
+          "value": "$227 million (New York, New Jersey, Massachusetts, Rhode Island)",
+          "source": "The New Republic"
+        },
+        {
+          "metric": "Disaster relief Trump has publicly touted granting to Republican-led states",
+          "value": "$846 million+",
+          "source": "The New Republic, citing Trump's own public statements"
+        }
+      ],
+      "caveat": "The approval-rate and wait-time figures come from a single outlet's original analysis (E&E News/POLITICO) of public FEMA declaration data going back decades -- a large, verifiable dataset, but not yet independently replicated by a second outlet or a government watchdog (GAO/IG) as of this writing. The four-state February 2026 denial is separately and directly documented via the affected states' own public statements (e.g. Gov. Hochul) and FEMA's own stated damage threshold."
+    },
+    "confidence_note": "HIGH confidence on the core disparity: the 23%/89% approval-rate gap and 80-day/39-day wait-time gap come from E&E News/POLITICO's own analysis of a large, verifiable public dataset (~2,500 disaster declarations since Reagan), not secondhand characterization, and multiple named Democratic officials (Gov. Hochul, Gov. Polis, Gov. Pritzker, Sen. Murray) are on record with matching accounts of specific denials. The White House has offered a stated rationale (spokesperson Jackson's 'more thorough review' quote) rather than disputing the underlying numbers, which strengthens rather than undercuts the pattern. MODERATE-HIGH on causal framing: the analysis is strong evidence of a partisan pattern in outcomes, but a full GAO-style audit isolating partisan lean as the specific causal factor (versus, say, differing damage-documentation quality) doesn't yet exist -- frame as 'a documented statistical pattern with specific, matching individual episodes,' not as a proven, adjudicated finding. Keep this entry's scope limited to major-disaster-declaration approvals; do not conflate with the separate, later Homeland Security Grant Program election-policy lawsuit (filed 2026-07-24), which is a different program and a different specific demand, tracked here only as related context.",
+    "section_summaries": {
+      "what_changed": "FEMA/Trump approved only 23% of Democratic-state disaster aid requests vs. 89% for Republican states (E&E News/POLITICO), including a documented $227M four-state denial.",
+      "estimated_impact": "A statistically significant, multi-figure partisan gap in whether disaster survivors get federal aid -- not tied to documented need, since denied states exceeded FEMA's own damage threshold.",
+      "confidence_note": "Strong: based on a large public-record dataset analyzed by one outlet, matched by named officials' specific accounts; not yet independently replicated by a second outlet or GAO."
+    },
+    "last_verified": "2026-07-25",
+    "sources": [
+      {
+        "name": "E&E News (POLITICO) — It's three times harder for blue states to get disaster funding under Trump",
+        "url": "https://www.eenews.net/articles/its-three-times-harder-for-blue-states-to-get-disaster-funding-under-trump/"
+      },
+      {
+        "name": "The New Republic — Trump Denies Disaster Aid for Four States That Didn't Vote for Him",
+        "url": "https://newrepublic.com/post/212851/trump-denies-disaster-aid-four-democratic-states"
+      },
+      {
+        "name": "The New Republic — FEMA Caught Blocking Grants to States That Didn't Vote for Trump",
+        "url": "https://newrepublic.com/post/210200/fema-block-grants-democratic-states"
+      },
+      {
+        "name": "Votebeat — Democratic states, officials sue Trump administration for tying FEMA grants to election policies (related context, separate legal action)",
+        "url": "https://www.votebeat.org/national/2026/07/24/democratic-states-trump-election-priorities-fema-grants-lawsuit/"
+      }
+    ]
+  },
+  {
     "id": "forest-service-firefighter-shortage-trump2",
     "title": "Forest Service Chief's Own Internal Memo Contradicted Agriculture Secretary's Public 'Fully Staffed' Claims — 5,000 Firefighting Positions Vacant",
     "institution": "U.S. Forest Service, Department of Agriculture",
