@@ -30,14 +30,6 @@ tests/
 test_publish.py
 ```
 
-## Related repo
-
-`tictacjoe/claimcheck-submissions` — separate public repo, no code, holds
-claim suggestions as GitHub Issues. `index.html`'s "Suggest a Claim" link
-points there. See the private repo's file map (link above) for its layout
-and `~/gjoe/debate-prep/docs/claimcheck-submission-triage.md` for the
-triage process.
-
 ## Live site
 
 `https://tictacjoe.github.io/claimcheck/` — served directly from `data/*.json`
