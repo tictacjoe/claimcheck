@@ -17,7 +17,7 @@ schemas, and workflows. This file is a pointer, not a source of truth.
 - `docs/claimcheck-homepage-banner.md`, `docs/claimcheck-methodology.md` —
   site-specific content
 - `docs/claimcheck-file-map.md` — this repo's own file map; points to the
-  private repo's `docs/claimcheck-file-map.md` for the full two-repo picture
+  private repo's `docs/claimcheck-file-map.md` for the full three-repo picture
 - `publish_exclude.txt` — entries withheld from publish; needs periodic
   review against each entry's *current* confidence, not just checked when
   originally excluded (see `~/gjoe/debate-prep/docs/handoffs/` for the
