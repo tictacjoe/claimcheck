@@ -476,6 +476,7 @@
   <div class="controls" id="tab-controls">
     <input type="text" id="search" placeholder="Search entries...">
     <select id="filter"></select>
+    <label class="regex-toggle" id="sort-added-label"><input type="checkbox" id="sort-newest-added"> newest added first</label>
   </div>
   <div class="result-count" id="count"></div>
   <div id="entries"></div>
@@ -497,6 +498,7 @@ const TRACKERS = {
     titleField: "rule_name",
     idField: "id",
     dateField: "date_of_action",
+    dateAddedField: "date_added",
     filterField: "domain",
     filterLabel: "domain",
     statusField: "status",
@@ -508,6 +510,7 @@ const TRACKERS = {
     titleField: "official",
     idField: "official",
     dateField: "last_updated",
+    dateAddedField: "date_added",
     filterField: "status_category",
     filterLabel: "status",
     statusField: "status",
@@ -519,6 +522,7 @@ const TRACKERS = {
     titleField: "title",
     idField: "id",
     dateField: "date_of_action",
+    dateAddedField: "date_added",
     filterField: "domain",
     filterLabel: "domain",
     statusField: "status",
@@ -530,6 +534,7 @@ const TRACKERS = {
     titleField: "what_happened",
     idField: null,
     dateField: "date",
+    dateAddedField: null,
     filterField: null,
     filterLabel: null,
     statusField: null,
@@ -1110,6 +1115,16 @@ function renderFilterOptions(cfg) {
   sel.value = filterValue;
 }
 
+/* The "newest added first" toggle only makes sense for the three
+   curated trackers, which carry a hand-stamped date_added field --
+   Reporting is a mechanical Substack scrape ingested in batches, not
+   a target for individually-added claims, so it has no dateAddedField
+   and the toggle is hidden rather than sorting on an absent value. */
+function renderSortToggle(cfg) {
+  const label = document.getElementById("sort-added-label");
+  label.style.display = cfg.dateAddedField ? "" : "none";
+}
+
 function renderEntries() {
   const cfg = TRACKERS[activeTracker];
   const container = document.getElementById("entries");
@@ -1120,6 +1135,16 @@ function renderEntries() {
     const matchesFilter = !filterValue || e[cfg.filterField] === filterValue;
     return matchesSearch && matchesFilter;
   });
+
+  // "Newest added first" overrides every other default sort when
+  // checked -- it's an explicit ask for "what's new in the database,"
+  // not the usual impact/recency-of-event ordering below. date_added
+  // is always a plain YYYY-MM-DD stamped once at creation (never a
+  // compound range like date_of_action can be), so a straight string
+  // comparison sorts correctly with no extractFirstDate() parsing
+  // needed. Missing values sort last (empty string collates lowest).
+  const sortNewestAdded = cfg.dateAddedField &&
+    document.getElementById("sort-newest-added").checked;
 
   // Prioritization lives inside the browse tabs themselves -- every
   // tab's entries are sorted by the same impact heuristic used
@@ -1132,7 +1157,9 @@ function renderEntries() {
   // 2026-04 (ongoing)") that native Date.parse cannot handle at all
   // (returns NaN on the whole string) -- extractFirstDate() pulls out
   // just the first YYYY-MM or YYYY-MM-DD substring instead.
-  if (cfg.kind === "govservices") {
+  if (sortNewestAdded) {
+    filtered.sort((a, b) => (b[cfg.dateAddedField] || "").localeCompare(a[cfg.dateAddedField] || ""));
+  } else if (cfg.kind === "govservices") {
     filtered.sort((a, b) => extractFirstDate(b.date_of_action) - extractFirstDate(a.date_of_action));
   } else {
     filtered.sort((a, b) => impactScore(b, cfg) - impactScore(a, cfg));
@@ -1326,6 +1353,7 @@ function renderDispatch() {
     document.getElementById("regex-error").textContent = "";
     renderTabs();
     renderFilterOptions(TRACKERS[activeTracker]);
+    renderSortToggle(TRACKERS[activeTracker]);
     renderEntries();
   }
 }
@@ -1338,6 +1366,7 @@ document.getElementById("filter").addEventListener("change", (e) => {
   filterValue = e.target.value;
   renderEntries();
 });
+document.getElementById("sort-newest-added").addEventListener("change", renderEntries);
 document.getElementById("global-search").addEventListener("input", renderDispatch);
 document.getElementById("global-regex").addEventListener("change", renderDispatch);
 document.getElementById("global-oneliner").addEventListener("change", renderDispatch);
@@ -1356,6 +1385,7 @@ document.getElementById("start-over-btn").addEventListener("click", () => {
   document.getElementById("global-oneliner").checked = false;
   document.getElementById("search").value = "";
   document.getElementById("filter").value = "";
+  document.getElementById("sort-newest-added").checked = false;
   activeTracker = "deregulation";
   searchTerm = "";
   filterValue = "";

@@ -45,6 +45,7 @@
       "confidence_note": "Very strong sourcing, notably from Trump's own former BLS chief; no reversal since, and a later benchmark revision is routine, not proof of manipulation."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "CNBC — Trump fires commissioner of labor statistics after weaker-than-expected jobs figures slam markets",
@@ -113,6 +114,7 @@
       "confidence_note": "Very strong: corroborated by HHS's own statement, multiple news outlets, and a peer-reviewed study that directly examined and refuted the administration's stated reasoning."
     },
     "last_verified": "2026-07-07",
+    "date_added": "2026-07-07",
     "sources": [
       {
         "name": "HHS.gov — official press release announcing the ACIP reconstitution",
@@ -181,6 +183,7 @@
       "confidence_note": "Well-sourced on what the order does and how experts reacted, though real-world effects are still unfolding; note the ban is legally separate from the narrowed related lawsuit."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "NPR - 'A Trump push to cut statistical noise could mean less data from the Census Bureau'",
@@ -268,6 +271,7 @@
       "confidence_note": "Strongly sourced via court filings and rulings, not just reporting; as of re-verification litigation still favors CFPB and the next director's stance is unknown."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "NPR — 1 year into Trump's new term, an agency that protects your finances is 'hanging by a thread'",
@@ -346,6 +350,7 @@
       "confidence_note": "Well-documented with specific figures; whether the cuts have actually weakened capability is a live dispute between agency leadership and outside congressional oversight."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-07",
     "sources": [
       {
         "name": "Axios — Exclusive: One-third of top U.S. cybersecurity agency has left since Trump took office",
@@ -433,6 +438,7 @@
       "confidence_note": "Very solidly sourced: a recorded congressional vote plus consistent reporting across ideologically varied outlets, including named station-level effects."
     },
     "last_verified": "2026-07-08",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "NBC News — Corporation for Public Broadcasting is officially shutting down months after GOP funding cuts",
@@ -506,6 +512,7 @@
       "confidence_note": "The firing and litigation timeline is well-documented across multiple outlets; the budget and e-bike details rest on one trade publication, corroborated but narrower."
     },
     "last_verified": "2026-07-10",
+    "date_added": "2026-07-16",
     "sources": [
       {
         "name": "NPR/PBS NewsHour - Supreme Court allows Trump to fire 3 Democratic consumer product safety commissioners",
@@ -588,6 +595,7 @@
       "confidence_note": "Core figures are corroborated across trade outlets citing DOE's documents; the larger $24B figure comes from one outlet's internal-document leak, not an official tally."
     },
     "last_verified": "2026-07-10",
+    "date_added": "2026-07-16",
     "sources": [
       {
         "name": "Latitude Media -- The Department of Energy is reorganizing",
@@ -661,6 +669,7 @@
       "confidence_note": "Strongly sourced, including figures from current employees rather than outside inference; recent developments extend the pattern already documented, not change it."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "NPR — 70% of the DOJ's Civil Rights Division lawyers are leaving because of Trump's reshaping",
@@ -744,6 +753,7 @@
       "confidence_note": "Extensively documented, citing the agency's Inspector General findings and McMahon's own public remarks; nothing has changed since the mid-2026 transfers already covered."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "AP News — Trump Ramps up Education Department's Dismantling With Changes on Special Education and Civil Rights",
@@ -813,6 +823,7 @@
       "confidence_note": "Well-corroborated on dates and outcomes across legal firms and wire services; the historic-precedent framing matches this dataset's other entries, not an independent legal read."
     },
     "last_verified": "2026-07-18",
+    "date_added": "2026-07-18",
     "sources": [
       {
         "name": "Congressman Bobby Scott - Scott Statement on Firing of EEOC Commissioners Burrows and Samuels",
@@ -886,6 +897,7 @@
       "confidence_note": "Very strongly sourced: multiple legal-alert firms confirm the rule's exact dates and wording, and reporting includes statements from officials on each side of the dispute."
     },
     "last_verified": "2026-07-19",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "NPR, 'Trump's EEOC plans to scrap discrimination-fighting tools'",
@@ -964,6 +976,7 @@
       "confidence_note": "Strongly corroborated by trade and general-news reporting, with figures traced to EPA's own statements; the office's new reporting line is a verifiable fact, not opinion."
     },
     "last_verified": "2026-07-08",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "PBS News / AP — EPA eliminates research and development office as it begins thousands of layoffs",
@@ -1047,6 +1060,7 @@
       "confidence_note": "Very well-documented via GAO, the National Academies, and FAA congressional testimony; this entry deliberately avoids overstating it as a purely current-administration problem."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-07",
     "sources": [
       {
         "name": "U.S. GAO — Air Traffic Control Workforce: FAA Should Establish Goals and Better Assess Its Hiring Processes (GAO-26-107320)",
@@ -1120,6 +1134,7 @@
       "confidence_note": "Covered live by nearly every major outlet, and anchored to the FAA's own emergency order with exact dates -- among the most precisely quantified entries in this tracker."
     },
     "last_verified": "2026-07-07",
+    "date_added": "2026-07-07",
     "sources": [
       {
         "name": "FAA — DOT & FAA Announce Temporary 10% Reduction in Flights at 40 Airports (official press release)",
@@ -1189,6 +1204,7 @@
       "confidence_note": "Turnover and policy facts check out across numerous trade outlets and FDA's own statements, though impact numbers trace to industry analysis, not a government audit."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "STAT News - 'FDA's Vinay Prasad, controversial CBER chief, to depart'",
@@ -1281,6 +1297,7 @@
       "confidence_note": "Grounded directly in the Court's written opinion, plus public statements each party made themselves; the underlying 'for cause' legal question remains open, not settled here."
     },
     "last_verified": "2026-07-19",
+    "date_added": "2026-07-16",
     "sources": [
       {
         "name": "Supreme Court of the United States - Trump v. Cook, 25A312 (June 29, 2026)",
@@ -1365,6 +1382,7 @@
       "confidence_note": "Strongly sourced via internal memos and GAO data; whether the cuts caused specific deaths or slower rescues stays contested, framed as a plausible link, not a proven cause."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-07",
     "sources": [
       {
         "name": "NPR — FEMA failed to staff disaster hotline after Texas floods",
@@ -1457,6 +1475,7 @@
       "confidence_note": "Strong: based on a large public-record dataset analyzed by one outlet, matched by named officials' specific accounts; not yet independently replicated by a second outlet or GAO."
     },
     "last_verified": "2026-07-25",
+    "date_added": "2026-07-25",
     "sources": [
       {
         "name": "E&E News (POLITICO) — It's three times harder for blue states to get disaster funding under Trump",
@@ -1547,6 +1566,7 @@
       "confidence_note": "Very strongly documented across multiple investigative outlets plus a rare leaked memo; meeting this year's seasonal target doesn't resolve the separate permanent-staff attrition concern."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "ProPublica — The Forest Service Claims It's Fully Staffed for a Worsening Fire Season. Data Shows Thousands of Unfilled Jobs.",
@@ -1619,6 +1639,7 @@
       "confidence_note": "Very strongly grounded in the Court's written ruling and Chairman Ferguson's sworn testimony on staffing, both independently corroborated; no material change found on re-check."
     },
     "last_verified": "2026-07-19",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "Trump v. Slaughter, Supreme Court opinion, No. 25-332 (June 29, 2026)",
@@ -1697,6 +1718,7 @@
       "confidence_note": "Strongly sourced via CRS/OPM data and multiple corroborating state outlets; a newer genetic-preservation partnership is real but distinct from actual species listings."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "Congressional Research Service, 'Appropriations for Implementation of the Endangered Species Act Since FY2017'",
@@ -1770,6 +1792,7 @@
       "confidence_note": "Well-corroborated across several outlets citing HUD's own data, though HUD's releases offer a counter-narrative; whistleblower claims have since escalated to sworn testimony and suit."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "Bloomberg, 'HUD Issues Layoff Notices, Targeting Fair Housing Staff With Deep Cuts'",
@@ -1848,6 +1871,7 @@
       "confidence_note": "Well-corroborated by a two-chamber congressional oversight letter and several education-press outlets, though the precise contract totals and dollar amounts differ slightly by source."
     },
     "last_verified": "2026-07-09",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "Bicameral congressional oversight letter, 'DOGE Cuts to Important Education Research'",
@@ -1917,6 +1941,7 @@
       "confidence_note": "Very strongly documented via primary court filings plus direct institutional accounts; unusually conclusive for this tracker since the dispute closed via signed settlement, not open litigation."
     },
     "last_verified": "2026-07-08",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "American Library Association — FAQ: Executive Order Targeting IMLS",
@@ -2011,6 +2036,7 @@
       "confidence_note": "Exceptionally strong: core figures trace to the IRS's own independent taxpayer advocate and Treasury's inspector general, not advocacy groups; the revenue-loss number is a model, not fact."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "IRS — National Taxpayer Advocate Delivers Annual Report to Congress",
@@ -2088,6 +2114,7 @@
       "confidence_note": "Well-documented across many state and national outlets; reporting suggests but doesn't confirm that the staffing cuts drove the delay's length -- treat that connection as suggestive, not proven."
     },
     "last_verified": "2026-07-07",
+    "date_added": "2026-07-07",
     "sources": [
       {
         "name": "PBS News — Shutdown threatens to delay home heating aid for millions of low-income families",
@@ -2152,6 +2179,7 @@
       "confidence_note": "Strongly sourced via direct citations to court rulings across multiple legal-tracking outlets; Bloomberg Law's own contemporaneous reporting separately confirms the Court's denial."
     },
     "last_verified": "2026-07-19",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "Government Executive, 'Appeals court upholds firing of Democratic Merit Systems Protection Board member'",
@@ -2225,6 +2253,7 @@
       "confidence_note": "Well-corroborated across several outlets citing NARA's own budget documents; leadership churn has only continued, with another dual-hatted arrangement and no permanent nominee confirmed."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "Federal News Network, 'Former archivist raises red flags over NARA cuts'",
@@ -2304,6 +2333,7 @@
       "confidence_note": "Very strongly sourced via official workforce data and an internal report independently corroborated by multiple outlets, with specific named examples rather than vague claims."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "National Parks Conservation Association — Staffing Crisis at National Parks Reaches Breaking Point, New Data Shows 24% Decline in Permanent Workforce",
@@ -2377,6 +2407,7 @@
       "confidence_note": "Well-sourced across banking trade press and legal analysis; describing the case as 'effectively over' reflects near-unanimous commentator opinion, not yet a final court ruling on the matter."
     },
     "last_verified": "2026-07-19",
+    "date_added": "2026-07-16",
     "sources": [
       {
         "name": "American Banker / Credit Union Journal - Trump fires Democratic credit union regulators",
@@ -2454,6 +2485,7 @@
       "confidence_note": "Strongly backed by numerous named grantee accounts, several journalism outlets, and arts-advocacy trackers, whose dates, dollar figures, and termination language all line up consistently."
     },
     "last_verified": "2026-07-09",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "NPR, 'NEA hit with grant cuts after Trump administration's call for elimination'",
@@ -2523,6 +2555,7 @@
       "confidence_note": "Well-corroborated across news outlets and an independent court-docket tracker; the FY2026 funding status reflects only the latest status report and could shift while the appeal stays active."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-16",
     "sources": [
       {
         "name": "NPR -- National Endowment for Democracy sues Trump administration",
@@ -2596,6 +2629,7 @@
       "confidence_note": "Strongly corroborated across multiple outlets and a detailed policy write-up drawing on litigation records; the sculpture-garden funding redirect is an unusually concrete, quantified example."
     },
     "last_verified": "2026-07-07",
+    "date_added": "2026-07-07",
     "sources": [
       {
         "name": "NPR — Cultural groups across U.S. told that federal humanities grants are terminated",
@@ -2664,6 +2698,7 @@
       "confidence_note": "Very strong: this rests on an official GAO legal determination, not an advocacy claim, corroborated across several outlets; the core figures are lifted straight from GAO's published report."
     },
     "last_verified": "2026-07-07",
+    "date_added": "2026-07-07",
     "sources": [
       {
         "name": "Government Executive — Trump illegally froze 1,800 NIH medical research grants, Congress' watchdog says",
@@ -2738,6 +2773,7 @@
       "confidence_note": "Staffing figures trace to on-record comments from NIST's director, and budget figures to its own filings; broader real-world impact rests on expert commentary, not a formal audit."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "CyberScoop - 'NIST officials detail impact of staff cuts on encryption and other priorities'",
@@ -2814,6 +2850,7 @@
       "confidence_note": "Very strongly anchored in named court opinions at every stage, plus independent litigation tracking from several labor-law firms confirming the same timeline."
     },
     "last_verified": "2026-07-09",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "California DOJ press release, 'Court Finds That Trump's Termination of NLRB Member Gwynne Wilcox Was Unlawful and Void'",
@@ -2883,6 +2920,7 @@
       "confidence_note": "Very strongly sourced on the Princeton cut itself via Commerce's own release; the wider elimination plan is a recurring annual proposal, turned down once and still unresolved for next cycle."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "U.S. Department of Commerce, 'Ending Cooperative Agreements' Funding to Princeton University'",
@@ -2960,6 +2998,7 @@
       "confidence_note": "Well-sourced via the Federal Register, multiple outlets, and Hanson's own public statement; unusually, the reorganization has stuck to its original schedule rather than stalling."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-16",
     "sources": [
       {
         "name": "NPR - President Trump fires a member of the Nuclear Regulatory Commission",
@@ -3046,6 +3085,7 @@
       "confidence_note": "Strongly sourced across several research-policy publications and a detailed quantitative analysis, including anonymous NSF staff accounts to Nature -- stronger than outside inference alone."
     },
     "last_verified": "2026-07-08",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "Nature — Trump team freezes new NSF awards — and could soon axe hundreds of grants",
@@ -3124,6 +3164,7 @@
       "confidence_note": "Well-documented via multiple non-advocacy sources and a union vacancy count; the vacancy is verified, but claiming it directly caused the disaster's toll would overreach the actual evidence."
     },
     "last_verified": "2026-07-07",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "Center for American Progress — The Lasting Threat of Trump's Cuts to NOAA and NWS on American Communities",
@@ -3203,6 +3244,7 @@
       "confidence_note": "Very strong on the staffing cuts and site list (NOAA's own notice, multiple outlets); moderate-high on the forecast-impact link, which rests on expert attribution rather than a formal causal audit."
     },
     "last_verified": "2026-07-26",
+    "date_added": "2026-07-26",
     "sources": [
       {
         "name": "Inside Climate News -- NOAA Cuts Weather Balloon Launches Due to Staff Shortages After DOGE Layoffs",
@@ -3298,6 +3340,7 @@
       "confidence_note": "Strongly grounded in a signed congressional letter citing agency figures, later confirmed as accomplished fact in a budget filing the agency itself submitted -- firmer than earlier reports."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "Sen. Tim Kaine press release, 21-member letter to Peace Corps Acting Director",
@@ -3371,6 +3414,7 @@
       "confidence_note": "Strongly sourced: staffing numbers come from SBA's own release, corroborated same-day by multiple outlets, with the loan-transfer saga independently tracked through to its Treasury redirect."
     },
     "last_verified": "2026-07-09",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "SBA official press release, 'Small Business Administration Announces Agency-Wide Reorganization'",
@@ -3440,6 +3484,7 @@
       "confidence_note": "Well-corroborated across several major outlets on the core events; the White House's specific accusations reflect its own framing, not verified fact, and the director has directly rebutted them."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "White House - Executive Order 'Restoring Truth and Sanity to American History'",
@@ -3520,6 +3565,7 @@
       "confidence_note": "Strongly corroborated across many outlets and named court rulings, though only one judge called the conduct 'arbitrary and capricious' -- funding later mooted the dispute before any appeal."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-07",
     "sources": [
       {
         "name": "NPR — Supreme Court extends its order blocking full SNAP payments",
@@ -3599,6 +3645,7 @@
       "confidence_note": "Very strongly sourced via a respected policy institute drawing on official records and field-level reporting; the agency's later claimed 2026 turnaround is a disputed, unconfirmed, self-reported claim."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "Center on Budget and Policy Priorities — Trump Administration Personnel Policies Harming Social Security Customer Service, Risk Lasting Damage",
@@ -3680,6 +3727,7 @@
       "confidence_note": "Strongly sourced via internal documents and consistent reporting across several major outlets, citing specific offices and numbers rather than general claims; nothing has shifted since the layoffs occurred."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "NPR — State Department undergoes deep cuts in sweeping overhaul",
@@ -3744,6 +3792,7 @@
       "confidence_note": "Strongly corroborated via named court rulings across multiple outlets, plus an internal Justice Department memo laying out officials' own reasoning for the action."
     },
     "last_verified": "2026-07-09",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "The Hill, 'Judge blocks Trump's takeover of Inter-American Foundation'",
@@ -3823,6 +3872,7 @@
       "confidence_note": "Exceptionally strong sourcing, including two independent peer-reviewed medical studies and the agency's own Inspector General; official statements and the death-toll research genuinely disagree -- present both."
     },
     "last_verified": "2026-07-20",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "NPR — USAID officially shuts down and merges remaining operations with State Department",
@@ -3900,6 +3950,7 @@
       "confidence_note": "Very strongly anchored in named rulings at each stage of the litigation, independently corroborated by several major outlets and an independent docket-tracking project."
     },
     "last_verified": "2026-07-19",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "NPR, 'Federal judge blocks Trump's takeover of U.S. Institute of Peace'",
@@ -3983,6 +4034,7 @@
       "confidence_note": "Well-corroborated across many outlets on the core figures, and unusually, the administration's own rebuttal is solidly on record too; separate hiring data adds an independent point beyond either side."
     },
     "last_verified": "2026-07-08",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "Federal News Network — VA's severe health care staffing shortages are on the rise, watchdog finds",
@@ -4047,6 +4099,7 @@
       "confidence_note": "Very strongly anchored in named federal court rulings at each stage, independently corroborated by labor and press-freedom trackers plus an investigative look at the human toll a year later."
     },
     "last_verified": "2026-07-09",
+    "date_added": "2026-07-10",
     "sources": [
       {
         "name": "NPR, 'Voice of America to cut nearly all staff under Trump official's plan'",
