@@ -23,6 +23,7 @@ data/                        published JSON, read directly by index.html — not
 docs/                        site-specific content (separate from the private repo's docs/)
   claimcheck-methodology.md
   claimcheck-homepage-banner.md
+  claimcheck-about.md        new-user intro: accuracy methodology + how info is presented
   claimcheck-file-map.md     this file
 
 tests/
