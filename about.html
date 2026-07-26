@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="How Claim Check verifies its entries and how it presents information — an introduction for new users.">
+<title>About — Claim Check</title>
+<style>
+  :root {
+    --paper: #EDEFE7;
+    --paper-card: #F7F8F2;
+    --ink: #1D2220;
+    --ink-soft: #52564F;
+    --ink-faint: #8A8D82;
+    --rule: #C7CABB;
+    --rule-strong: #A9AC9A;
+    --brass: #96762C;
+    --brass-light: #EFE7D2;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+    line-height: 1.6;
+  }
+
+  header.masthead {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 1.5rem;
+    text-align: center;
+    border-bottom: 3px double var(--rule-strong);
+  }
+  header.masthead h1 {
+    margin: 0;
+    font-size: 2.6rem;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  header.masthead .tagline {
+    margin: 0.6rem 0 0;
+    font-size: 0.85rem;
+    letter-spacing: 0.03em;
+    color: var(--brass);
+    font-style: italic;
+  }
+
+  main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  main h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 0.4rem;
+    margin-top: 2.5rem;
+  }
+
+  main p { color: var(--ink-soft); }
+  main strong { color: var(--ink); }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background: var(--paper-card);
+    font-size: 0.92rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  th {
+    background: var(--brass-light);
+    color: var(--brass);
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    font-family: ui-monospace, monospace;
+  }
+
+  .closing {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    font-style: italic;
+    color: var(--ink-soft);
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-top: 2rem;
+    font-family: ui-monospace, monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--brass);
+    text-decoration: none;
+  }
+  .back-link:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <h1>About Claim Check</h1>
+  <p class="tagline">Know the claim. Show the receipts.</p>
+</header>
+
+<main>
+  <p>Claim Check is a sourced database of documented government actions, built
+  on one core commitment: every claim should be falsifiable and checkable,
+  not just asserted. Nothing on the site asks to be taken on faith.</p>
+
+  <h2>How accuracy is built in</h2>
+
+  <p><strong>Primary sources come first, wherever they exist.</strong> Each
+  of the three curated trackers ranks its sourcing differently based on what's
+  actually available for that subject matter — Corporate Deregulation and
+  Cabinet-Level Legal Exposure lean most heavily on agency filings, court
+  dockets, and official statements; Government Service Redirection leans more
+  on investigative and mainstream reporting, since primary documentation is
+  often thinner for that kind of change. In every case, the strongest
+  available source type is used first, and the entry says which kind of
+  source it's relying on.</p>
+
+  <p><strong>Claims are framed to a legal standard, not a political one.</strong>
+  Especially in the Cabinet-Level Legal Exposure tracker, each entry lays out
+  the actual legal elements that would need to be proven, then maps specific
+  evidence to each element. Alleged conduct and proven conduct are always
+  kept distinct — an open investigation is never presented as a settled
+  finding.</p>
+
+  <p><strong>Every entry carries a confidence note.</strong> This is a
+  plain-language flag for how strongly a claim should be relied on — whether
+  the sourcing is solid, contested, or still developing. A user can see at a
+  glance whether they're looking at something well-established or something
+  with acknowledged limits.</p>
+
+  <p><strong>Individuals are named, not vague institutions.</strong> Where it
+  can be documented, an entry says which specific official did what, rather
+  than attributing an action to "the administration" generically.</p>
+
+  <p><strong>Genuine disputes get fair treatment.</strong> If a fact or
+  characterization is actually contested, the entry says so and presents the
+  other side's rationale — it doesn't quietly pick a side.</p>
+
+  <p><strong>Entries get rechecked, not just written once.</strong> Every
+  tracker has an automated staleness check that flags entries whose
+  underlying status may have changed (ongoing litigation, a "proposed" action
+  that may since have been finalized, or an entry that simply hasn't been
+  reverified in over 60 days). Flagged entries are worked through in batches,
+  and corrections get made when something's found to be out of date — this
+  has already caught and fixed real errors, like a claim about active
+  litigation that had actually been dismissed months earlier.</p>
+
+  <h2>How information gets presented</h2>
+
+  <p>Four trackers, organized by kind of claim, not by target:</p>
+
+  <table>
+    <tr><th>Tracker</th><th>What it covers</th></tr>
+    <tr><td>Corporate Deregulation</td><td>Actions reducing or removing regulatory oversight of corporate or industry activity</td></tr>
+    <tr><td>Cabinet-Level Legal Exposure</td><td>Documented prosecution exposure for current officials, framed to legal standards</td></tr>
+    <tr><td>Government Service Redirection</td><td>Changes in how government services are delivered, funded, or reassigned</td></tr>
+    <tr><td>Reporting</td><td>A running archive of relevant news coverage — broader in scope, sourced to established news organizations by design</td></tr>
+  </table>
+
+  <p>Each entry is built the same way, no matter the tracker: a plain-language
+  summary of what happened, a hand-written short summary of each key section
+  (never machine-generated), the confidence note, and a list of sources with
+  links back to the original material — so any claim can be checked
+  independently in a couple of clicks.</p>
+
+  <p>Search or browse. Search by keyword, statement, or topic across
+  everything, or browse tracker by tracker to stay within one kind of
+  claim.</p>
+
+  <p class="closing">The underlying idea is simple: Claim Check exists so
+  that a claim can be handed to someone skeptical of it, and the receipts
+  are already attached.</p>
+
+  <a class="back-link" href="index.html">&larr; Back to Claim Check</a>
+</main>
+
+<script data-goatcounter="https://claimcheck.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

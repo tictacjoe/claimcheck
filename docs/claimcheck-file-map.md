@@ -11,6 +11,7 @@ GitHub: `tictacjoe/claimcheck`
 ```
 CLAUDE.md                    orientation for Claude Code
 index.html                   the site itself
+about.html                   About page, linked from index.html's nav-actions bar
 publish.py                   run from here, reads ../debate-prep
 publish_exclude.txt          entries held back from publish
 
