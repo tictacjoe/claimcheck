@@ -39,14 +39,15 @@ attributing an action to "the administration" generically.
 actually contested, the entry says so and presents the other side's
 rationale — it doesn't quietly pick a side.
 
-**Entries get rechecked, not just written once.** Every tracker has an
-automated staleness check that flags entries whose underlying status may
-have changed (ongoing litigation, a "proposed" action that may since have
-been finalized, or an entry that simply hasn't been reverified in over 60
-days). Flagged entries are worked through in batches, and corrections get
-made when something's found to be out of date — this has already caught
-and fixed real errors, like a claim about active litigation that had
-actually been dismissed months earlier.
+**Entries get rechecked, not just written once.** Each of the three
+curated trackers has an automated staleness check that flags entries
+whose underlying status may have changed (ongoing litigation, a
+"proposed" action that may since have been finalized, or an entry that
+simply hasn't been reverified in over 60 days). Flagged entries are
+worked through in batches, and corrections get made when something's
+found to be out of date — this has already caught and fixed real errors,
+like a claim about active litigation that had actually been dismissed
+months earlier.
 
 ## How information gets presented
 
@@ -59,11 +60,17 @@ Four trackers, organized by kind of claim, not by target:
 | Government Service Redirection | Changes in how government services are delivered, funded, or reassigned |
 | Reporting | A running archive of relevant news coverage — broader in scope, sourced to established news organizations by design |
 
-Each entry is built the same way, no matter the tracker: a plain-language
-summary of what happened, a hand-written short summary of each key
-section (never machine-generated), the confidence note, and a list of
-sources with links back to the original material — so any claim can be
-checked independently in a couple of clicks.
+The three curated trackers — Corporate Deregulation, Cabinet-Level Legal
+Exposure, and Government Service Redirection — are built the same way:
+a plain-language summary of what happened, a hand-written short summary
+of each key section (never machine-generated), a confidence note, and a
+list of sources with links back to the original material. Reporting
+works differently by design: it's a mechanical archive of scraped news
+coverage, so each entry carries a plain description of what happened and
+why it matters, plus a source link on roughly 9 in 10 entries — without
+a hand-written summary or confidence note layered on top. Either way,
+the underlying source is a click away, so a claim can be checked
+independently rather than taken on faith.
 
 Search or browse. Search by keyword, statement, or topic across
 everything, or browse tracker by tracker to stay within one kind of claim.
