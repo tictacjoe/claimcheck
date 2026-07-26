@@ -3148,6 +3148,101 @@
     ]
   },
   {
+    "id": "nws-weather-balloon-launch-cuts-trump2",
+    "title": "NWS Suspends or Cuts Weather Balloon Launches at Multiple Sites Following Staffing Cuts, Coinciding With Missed Tornado Warnings",
+    "institution": "National Weather Service (NOAA, Department of Commerce)",
+    "domain": "data_collection_halted",
+    "status": "Ongoing -- suspensions/reductions announced March 2025 remained in effect through mid-2026, with some restored launches shifted to midday rather than the original schedule",
+    "date_of_action": "2025-03-20 (initial suspension/reduction announcement) through 2026 (ongoing effect)",
+    "what_changed": "On February 26, 2025, OMB Director Russell Vought and then-Acting OPM Director Charles Ezell issued a memo directing federal agencies to prepare for mass layoffs. The next day, February 27, 2025, the Office of Personnel Management fired approximately 880 NOAA employees; NOAA followed roughly two months later by approving over 1,000 additional deferred resignations or buyouts. Citing the resulting staffing shortages, the National Weather Service announced on March 20, 2025 that it would suspend or reduce twice-daily weather balloon (radiosonde) launches at 11 upper-air observation sites: full suspension at Kotzebue, Alaska; Omaha, Nebraska; and Rapid City, South Dakota; reduction to once daily at Aberdeen, South Dakota; Grand Junction, Colorado; Green Bay, Wisconsin; Gaylord, Michigan; North Platte, Nebraska; and Riverton, Wyoming; and intermittent suspension at Albany, New York, and Gray, Maine, with NWS stating twice-daily launches would resume 'when staffing permits.' At sites that kept launching, many shifted the traditional early-morning flight to midday to align with when day-shift staff are on duty, rather than the pre-dawn atmospheric-sampling window the schedule was originally designed around. The disruption continued into the 2026 severe-weather season: NPR and NBC News reported that meteorologists in Kansas and Missouri linked reduced balloon data to tornado outbreaks catching forecasters by surprise, including a specific April 13, 2026 episode in which NWS forecast almost no chance of tornadoes in East Central Kansas and a balloon was launched only after storms had already begun forming. The Boston Globe reported that March 2026 saw 202 tornadoes nationally -- more than double the 30-year average for that month -- and April 2026 saw 250 versus a 180 average, with forecasters attributing part of the shortfall in advance warning to staffing and resource gaps at NWS offices, of which 122 exist nationwide.",
+    "primary_proponent": {
+      "name": "Russell Vought",
+      "role": "Director, White House Office of Management and Budget",
+      "note": "Co-signed, with then-Acting OPM Director Charles Ezell, the February 26, 2025 memo directing federal agencies to prepare for mass layoffs, one day before OPM's firing of roughly 880 NOAA employees -- the staffing loss NWS itself cited when announcing the balloon-launch suspensions the next month."
+    },
+    "estimated_impact": {
+      "summary": "A federal agency's core atmospheric data-collection network -- used as direct input into forecast models -- was suspended or reduced at 11 sites due to staffing losses, with meteorologists on the record tying the resulting data gap to specific missed or delayed severe-weather warnings during an above-average 2026 tornado season.",
+      "figures": [
+        {
+          "metric": "NOAA employees fired, February 27, 2025",
+          "value": "~880",
+          "source": "OPM action, as reported by Inside Climate News and Alabama Reflector, April 2025"
+        },
+        {
+          "metric": "Additional NOAA deferred resignations/buyouts approved",
+          "value": "1,000+",
+          "source": "Inside Climate News, April 2025"
+        },
+        {
+          "metric": "Upper-air sites with fully suspended radiosonde launches",
+          "value": "3 (Kotzebue AK, Omaha NE, Rapid City SD)",
+          "source": "NOAA/NWS Public Information Notice PNS25-08 (weather.gov)"
+        },
+        {
+          "metric": "Upper-air sites reduced from twice- to once-daily launches",
+          "value": "6 (Aberdeen SD, Grand Junction CO, Green Bay WI, Gaylord MI, North Platte NE, Riverton WY)",
+          "source": "NOAA/NWS Public Information Notice, as compiled by Inside Climate News"
+        },
+        {
+          "metric": "National tornado count, March 2026 vs. 30-year average",
+          "value": "202 tornadoes -- more than double the historical average for the month",
+          "source": "Boston Globe, April 28, 2026"
+        },
+        {
+          "metric": "National tornado count, April 2026 vs. 30-year average",
+          "value": "250 tornadoes vs. 180 average",
+          "source": "Boston Globe, April 28, 2026"
+        }
+      ],
+      "caveat": "NWS characterized the suspensions as staffing-contingent and reversible ('when staffing permits'), not a permanent policy decision, and full twice-daily service had not been confirmed restored at all 11 sites as of the last-verified date. The link between missing balloon data specifically (as opposed to broader forecaster staffing shortages at the same offices) and any individual missed tornado warning is attributed by on-record meteorologists in NPR, NBC News, and KCUR reporting, not by a formal NWS or GAO/IG post-incident review isolating radiosonde data as the determinative cause -- frame as an expert-attributed contributing factor within a documented above-average tornado season, not an adjudicated single cause."
+    },
+    "confidence_note": "HIGH confidence on the staffing cuts and the specific launch-site suspension/reduction list -- sourced to NOAA's own public information notice plus independent corroboration from Inside Climate News, Alabama Reflector, Spectrum News, and CBS Minnesota, all converging on the same 11-site breakdown. MODERATE-HIGH on the 2026 forecast-degradation link -- multiple named meteorologists and NPR/NBC News/KCUR/Boston Globe reporting tie the balloon-data gap to specific missed or delayed tornado warnings during a documented above-average tornado season, but no GAO/IG or NWS internal post-mortem has yet isolated balloon data alone as the determinative cause versus broader office staffing shortages. Distinct from the separately tracked NOAA climate-research defunding entry (research_suppression domain, FY2026/FY2027 budget fight) -- this entry covers the operational radiosonde network specifically, not climate-research funding.",
+    "section_summaries": {
+      "what_changed": "DOGE-era NOAA staffing cuts forced NWS to suspend or reduce weather balloon launches at 11 sites starting March 2025, still affecting service into 2026.",
+      "estimated_impact": "Core forecast-model input data was cut at 11 sites; meteorologists tied the resulting gap to specific missed tornado warnings during a well-above-average 2026 tornado season.",
+      "confidence_note": "Very strong on the staffing cuts and site list (NOAA's own notice, multiple outlets); moderate-high on the forecast-impact link, which rests on expert attribution rather than a formal causal audit."
+    },
+    "last_verified": "2026-07-26",
+    "sources": [
+      {
+        "name": "Inside Climate News -- NOAA Cuts Weather Balloon Launches Due to Staff Shortages After DOGE Layoffs",
+        "url": "https://insideclimatenews.org/news/25032025/noaa-cuts-weather-balloon-launches-due-to-staff-shortages-after-doge-layoffs/"
+      },
+      {
+        "name": "Alabama Reflector -- NOAA cuts weather balloon launches due to staff shortages after DOGE layoffs",
+        "url": "https://alabamareflector.com/2025/04/01/noaa-cuts-weather-balloon-launches-due-to-staff-shortages-after-doge-layoffs/"
+      },
+      {
+        "name": "Spectrum News -- National Weather Service cuts back weather balloon launches",
+        "url": "https://spectrumlocalnews.com/us/snplus/weather/2025/03/26/noaa-national-weather-service-suspends-balloon-launches"
+      },
+      {
+        "name": "NOAA/NWS Public Information Notice PNS25-08 -- Kotzebue AK Upper Air Suspension",
+        "url": "https://www.weather.gov/media/notification/pdf_2025/pns25-08_kotzebue_ak_upper_air_suspension.pdf"
+      },
+      {
+        "name": "NBC News -- 'We are missing data': NWS weather balloon changes scrutinized as tornadoes hit Midwest",
+        "url": "https://www.nbcnews.com/weather/tornadoes/tornadoes-kansas-concerns-changes-national-weather-service-rcna331826"
+      },
+      {
+        "name": "NPR -- Tornado outbreaks catch forecasters by surprise after National Weather Service cuts",
+        "url": "https://www.npr.org/2026/05/06/nx-s1-5805228/tornado-outbreaks-catch-forecasters-by-surprise-after-national-weather-service-cuts"
+      },
+      {
+        "name": "KCUR -- Kansas and Missouri are surprised by tornadoes after weather service cuts reduce early warnings",
+        "url": "https://www.kcur.org/environment-agriculture/2026-06-22/kansas-and-missouri-are-surprised-by-tornadoes-after-weather-service-cuts-reduce-early-warnings"
+      },
+      {
+        "name": "Boston Globe -- Weather balloon changes result in weather forecasting shortfalls",
+        "url": "https://www.bostonglobe.com/2026/04/28/metro/tornadoes-severe-weather-balloons-storms/"
+      },
+      {
+        "name": "NBC Washington -- Russell Vought, a Project 2025 author, carries out vision for federal layoffs",
+        "url": "https://www.nbcwashington.com/news/national-international/a-project-2025-author-carries-out-his-vision-for-mass-federal-layoffs/3853767/"
+      }
+    ]
+  },
+  {
     "id": "peace-corps-workforce-reduction-trump2",
     "title": "Peace Corps Headquarters Staff Cut by Roughly 40%",
     "institution": "Peace Corps",
