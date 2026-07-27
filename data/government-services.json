@@ -207,7 +207,7 @@
     "domain": "research_suppression",
     "status": "Complete (new panel seated and has already voted on policy changes)",
     "date_of_action": "2025-06-09 (removal); 2025-06-11 (replacements announced); first new-panel meeting 2025-06-25",
-    "what_changed": "HHS Secretary Robert F. Kennedy Jr. removed all 17 sitting members of ACIP -- the CDC's expert panel that recommends the vaccine schedule guiding clinical practice and insurance coverage nationwide -- announcing the move via a Wall Street Journal op-ed rather than through the committee's standard process. He cited industry conflicts of interest as justification, calling the prior panel a 'rubber stamp for industry profit-taking agendas.' Two days later, Kennedy named 8 hand-picked replacements, several with documented public records of vaccine skepticism or affiliations with anti-vaccine advocacy organizations (e.g. the National Vaccine Information Center). Committee members are ordinarily not political appointees and typically serve staggered four-year terms specifically to prevent any single administration from controlling a majority of the panel; removing the entire sitting panel let the administration seat a full majority immediately rather than waiting until 2028, as Kennedy himself acknowledged in his op-ed. The reconstituted panel has since voted to remove thimerosal from flu vaccines and end the universal newborn Hepatitis B birth-dose recommendation.",
+    "what_changed": "HHS Secretary Robert F. Kennedy Jr. removed all 17 sitting members of ACIP -- the CDC's expert panel that recommends the vaccine schedule guiding clinical practice and insurance coverage nationwide -- announcing the move via a Wall Street Journal op-ed rather than through the committee's standard process. He cited industry conflicts of interest as justification, calling the prior panel a 'rubber stamp for industry profit-taking agendas.' Two days later, Kennedy named 8 hand-picked replacements, several with documented public records of vaccine skepticism, affiliations with anti-vaccine advocacy organizations (e.g. the National Vaccine Information Center), or ties to lawsuits against vaccine makers -- notable given that Kennedy himself had collected referral fees from such litigation before becoming HHS Secretary. Former CDC Chief Medical Officer Dr. Debra Houry later cited this purge, alongside Kennedy's handling of the 2025 measles outbreak, as a reason for her own resignation in protest (see the related entry on RFK Jr.'s measles-outbreak conduct in this database for her fuller account). Committee members are ordinarily not political appointees and typically serve staggered four-year terms specifically to prevent any single administration from controlling a majority of the panel; removing the entire sitting panel let the administration seat a full majority immediately rather than waiting until 2028, as Kennedy himself acknowledged in his op-ed. The reconstituted panel has since voted to remove thimerosal from flu vaccines and end the universal newborn Hepatitis B birth-dose recommendation.",
     "primary_proponent": {
       "name": "Robert F. Kennedy Jr.",
       "role": "Secretary of Health and Human Services",
@@ -240,7 +240,7 @@
       "estimated_impact": "A peer-reviewed JAMA study found industry conflicts on the panel were already near historic lows, undercutting Kennedy's stated reason for the purge.",
       "confidence_note": "Very strong: corroborated by HHS's own statement, multiple news outlets, and a peer-reviewed study that directly examined and refuted the administration's stated reasoning."
     },
-    "last_verified": "2026-07-07",
+    "last_verified": "2026-07-27",
     "date_added": "2026-07-07",
     "sources": [
       {
@@ -971,6 +971,64 @@
         "url": "https://www.eenews.net/articles/wright-overhauls-doe-reflecting-shift-in-us-energy-priorities/"
       }
     ]
+  },
+  {
+    "id": "doge-nlrb-records-deletion-2025-2026",
+    "title": "NLRB Deleted DOGE System-Access Records Before GAO Investigators Could Examine Them",
+    "institution": "National Labor Relations Board (NLRB)",
+    "domain": "data_collection_halted",
+    "status": "Complete -- GAO report published; the underlying account-access records cannot be recovered",
+    "date_of_action": "2025-04-16 (DOGE detail begins) through 2025-08 (access records deleted, after DOGE detail ended and before GAO could examine them)",
+    "what_changed": "Two DOGE staffers were formally detailed to the National Labor Relations Board beginning April 16, 2025, under agreements running through July 25, 2025, and requested access to seven internal HR systems covering personnel records, payroll, and hiring databases -- a request that prompted an NLRB IT staffer to file a whistleblower disclosure with Congress and the agency's inspector general to open an investigation into a potential data breach. A Government Accountability Office report -- titled 'National Labor Relations Board Detailees Did Not Access IT Systems Between April 16 and July 25, 2025' -- found no evidence the DOGE detailees accessed those systems during that specific window. However, GAO also found that in August 2025, after the DOGE detail had ended but before GAO investigators requested to observe the systems, NLRB deleted the team members' system-access accounts and associated audit-trail records -- eliminating the digital evidence needed to independently verify what access, if any, occurred, and undercutting confidence in the agency's own account. Access logs for sensitive systems are generally subject to a six-year retention requirement under the General Records Schedule; the deleted records were only months old.",
+    "primary_proponent": {
+      "name": "National Labor Relations Board",
+      "role": "Independent federal agency (IT/records management under agency leadership)",
+      "note": "NLRB deleted the DOGE detailees' system-access accounts and associated audit-trail records in August 2025, before GAO investigators could examine them -- a records-retention violation that prevented independent verification of the agency's own no-access finding."
+    },
+    "estimated_impact": {
+      "summary": "GAO's finding of 'no evidence of access' during the specific detail window is undercut by NLRB's own deletion of the access records that would have made that finding independently verifiable -- the deletion itself, occurring within a records-retention period that should have preserved the data for six years, is the more significant and independently confirmed problem, regardless of what DOGE staffers did or did not do.",
+      "figures": [
+        {
+          "metric": "DOGE staffers detailed to NLRB",
+          "value": "2",
+          "source": "GAO report, cited by Wired/beSpacific, 2026"
+        },
+        {
+          "metric": "Internal HR systems DOGE staffers requested access to",
+          "value": "7",
+          "source": "GAO report, cited by Wired/beSpacific, 2026"
+        },
+        {
+          "metric": "Standard retention period for sensitive system access logs (General Records Schedule)",
+          "value": "6 years",
+          "source": "General Records Schedule, cited in GAO report coverage"
+        }
+      ],
+      "caveat": "GAO's report is a genuinely two-sided finding: it did NOT find evidence that DOGE staffers improperly accessed NLRB systems during their detail, which some outlets (RedState, Legis1) have characterized as clearing DOGE of the data-breach allegation. The more significant, less-disputed finding is procedural: NLRB deleted the underlying access records months before their required retention period expired and before investigators could examine them, which independently undermines confidence in any conclusion -- favorable or unfavorable to DOGE -- drawn from the remaining evidence. Present both halves of this finding together rather than emphasizing only one side."
+    },
+    "confidence_note": "HIGH confidence -- based directly on a GAO report (the government's own independent auditor), corroborated in coverage by Wired, beSpacific, FedScoop, and outlets across the political spectrum (including RedState and Legis1, which emphasize the no-access finding). The deleted-records finding and the no-evidence-of-access finding are both drawn from the same GAO report and are not in tension with each other, though commentary on the report differs sharply in emphasis depending on outlet.",
+    "section_summaries": {
+      "what_changed": "GAO found no evidence DOGE staffers accessed NLRB systems during their April-July 2025 detail, but also found NLRB deleted the underlying access-account records in August 2025, before investigators could examine them and years before required retention rules allowed.",
+      "estimated_impact": "The records deletion -- not the access question itself -- is the more clearly established problem, since it eliminated the evidence needed to independently verify the agency's account either way.",
+      "confidence_note": "Based directly on a GAO report; the no-access and deleted-records findings are both established facts from that report, though commentary across outlets varies sharply in which half it emphasizes."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "beSpacific — Federal Investigators Say Certain DOGE Records Were Deleted",
+        "url": "https://www.bespacific.com/federal-investigators-say-certain-doge-records/"
+      },
+      {
+        "name": "FedScoop — National Labor Relations Board watchdog investigating DOGE, potential data breach",
+        "url": "https://fedscoop.com/national-labor-relations-board-watchdog-investigating-doge-potential-data-breach/"
+      },
+      {
+        "name": "The Mindful Federal Employee — GAO's DOGE-NLRB Report: The Deleted-Logs Footnote",
+        "url": "https://www.themindfulfederalemployee.com/blog/gao-report-doge-nlrb-deleted-access-records"
+      }
+    ],
+    "last_updated": "2026-07-27"
   },
   {
     "id": "doj-civil-rights-division-exodus-trump2",
@@ -2100,6 +2158,69 @@
       }
     ],
     "last_updated": "2026-07-26"
+  },
+  {
+    "id": "gun-violence-prevention-dismantlement-2025-2026",
+    "title": "Trump Closed the White House Gun Violence Prevention Office and Cut $150M+ From Community Violence Intervention Grants",
+    "institution": "White House Office of Gun Violence Prevention; DOJ Office of Justice Programs Community Violence Intervention and Prevention Initiative",
+    "domain": "funding_redirection",
+    "status": "Ongoing -- office remains closed, grant terminations and budget cuts in effect, hospital-based programs continuing to lose funding as of mid-2026",
+    "date_of_action": "2025-01-21 (White House office closed) through 2026-07 (continued hospital-based program funding losses reported)",
+    "what_changed": "Less than 24 hours into his second term, on January 21, 2025, Trump closed the White House Office of Gun Violence Prevention and took its website offline. The Department of Justice's Office of Justice Programs subsequently cut roughly half of its $300 million Community Violence Intervention and Prevention Initiative -- about $145 million in grants for violence-intervention programs and training/technical assistance, plus $8.6 million for evaluation and research -- and in April 2025 terminated 365 previously awarded grants affecting more than 550 organizations across 48 states. The DOJ's 2026 budget proposal further reduced funding for these programs by $850 million, a 15% year-over-year decrease. Lawmakers sent a May 2, 2025 letter urging the White House to reinstate more than $150 million in canceled DOJ grants. Separately, hospital-based violence intervention programs -- which pair trauma-informed case management with gunshot-injury patients to reduce repeat violence -- have reduced staff or shut down entirely after losing federal funding, despite a documented evidence base showing these programs reduce repeat victimization and retaliatory violence. Justice Department officials have also directed the department to challenge state-level gun restrictions.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Personally ordered the closure of the White House Office of Gun Violence Prevention on his first full day in office; the subsequent DOJ grant terminations and budget cuts followed under his administration's Justice Department."
+    },
+    "estimated_impact": {
+      "summary": "More than 550 organizations across 48 states lost previously awarded federal violence-prevention grants, and hospital-based violence intervention programs with a documented record of reducing repeat shootings have shut down or scaled back after losing funding -- cuts that continue into 2026 with a proposed further 15% DOJ funding reduction for these programs.",
+      "figures": [
+        {
+          "metric": "Community Violence Intervention and Prevention Initiative funding cut (of ~$300M total)",
+          "value": "~$145,000,000 in program grants + $8,600,000 in evaluation/research funding",
+          "source": "Council on Criminal Justice / Brennan Center reporting, 2026"
+        },
+        {
+          "metric": "Previously awarded grants terminated, April 2025",
+          "value": "365 grants, 550+ organizations, 48 states",
+          "source": "Reporting cited by Council on Criminal Justice, 2026"
+        },
+        {
+          "metric": "Proposed DOJ 2026 budget cut to these programs",
+          "value": "$850,000,000 (15% year-over-year decrease)",
+          "source": "DOJ 2026 budget proposal, cited by Council on Criminal Justice"
+        },
+        {
+          "metric": "DOJ grants lawmakers sought to have reinstated (May 2025 letter)",
+          "value": "$150,000,000+",
+          "source": "Congressional letter to the White House, May 2, 2025"
+        }
+      ],
+      "caveat": "The White House office closure (January 2025) is a stale, day-one action on its own; this entry treats it as context for the ongoing funding cuts and program closures that continued reporting documents through mid-2026, which is the more current and evolving part of the story. The evidence base for community violence intervention programs' effectiveness is described in reporting as well-documented, but a full academic literature review was not independently reviewed for this entry."
+    },
+    "confidence_note": "HIGH confidence on the office closure and the DOJ grant-termination figures, corroborated across the Brennan Center, Council on Criminal Justice, and multiple advocacy/watchdog reporting sources citing DOJ's own budget and grant data. MODERATE confidence on the specific causal link between funding losses and individual hospital-based program closures, since the entry relies on aggregated reporting rather than a single documented case-by-case accounting.",
+    "section_summaries": {
+      "what_changed": "Trump closed the White House gun violence prevention office on day one and DOJ subsequently cut roughly half of its community violence intervention funding, terminating 365 grants to 550+ organizations and proposing a further 15% cut for 2026.",
+      "estimated_impact": "Hospital-based violence intervention programs with documented effectiveness have shut down or reduced staff after losing federal funding, even as evidence shows these programs reduce repeat shootings.",
+      "confidence_note": "Well-corroborated funding and grant-termination figures from DOJ's own budget data and watchdog reporting; the specific causal link to individual program closures rests on aggregated rather than case-by-case sourcing."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "Brennan Center for Justice — Crime-Prevention Efforts Face Setbacks After Federal Cuts",
+        "url": "https://www.brennancenter.org/our-work/research-reports/crime-prevention-efforts-face-setbacks-after-federal-cuts"
+      },
+      {
+        "name": "Council on Criminal Justice — DOJ Funding Update: A Deeper Look at the Cuts",
+        "url": "https://counciloncj.org/doj-funding-update-a-deeper-look-at-the-cuts/"
+      },
+      {
+        "name": "Center for American Progress — The Trump Administration's Unprecedented Cuts to DOJ Grants Undermine Public Safety",
+        "url": "https://www.americanprogress.org/article/the-trump-administrations-unprecedented-cuts-to-doj-grants-undermine-public-safety/"
+      }
+    ],
+    "last_updated": "2026-07-27"
   },
   {
     "id": "hegseth-dote-weapons-testing-cuts-2025-2026",
@@ -3861,6 +3982,51 @@
     ]
   },
   {
+    "id": "opm-douglas-factors-elimination-2026",
+    "title": "OPM/MSPB Propose Scrapping the Douglas Factors, the 44-Year-Old Framework Protecting Federal Employees From Arbitrary Discipline",
+    "institution": "Office of Personnel Management (OPM) and Merit Systems Protection Board (MSPB)",
+    "domain": "staff_office_cuts",
+    "status": "Proposed rule -- published in the Federal Register July 7, 2026, not yet finalized as of this entry",
+    "date_of_action": "2026-07-07 (proposed rule published)",
+    "what_changed": "OPM and the Merit Systems Protection Board jointly proposed eliminating the 'Douglas factors' -- a 12-part framework established by a 1981 MSPB case that agencies have used for over four decades to ensure federal employee discipline is proportionate and considers factors like offense severity, past performance, and rehabilitation potential. The proposed rule, published in the Federal Register on July 7, 2026, would replace the Douglas factors with a vaguer 'totality of the circumstances' standard, which OPM and MSPB argue is more flexible than what they characterized as agencies' 'rigid, mechanistic' application of Douglas. The same proposal includes shortening performance improvement plans to 30 days, banning settlement agreements that remove misconduct documentation from personnel files, and eliminating union officials' paid 'official time' for handling adverse-action appeals.",
+    "primary_proponent": {
+      "name": "Office of Personnel Management",
+      "role": "Federal civil service's central HR agency, acting jointly with the Merit Systems Protection Board",
+      "note": "OPM and MSPB jointly authored and published the proposed rule eliminating the Douglas factors, framing the current framework as overly rigid and an obstacle to agency discipline."
+    },
+    "estimated_impact": {
+      "summary": "The proposal would give federal agency managers substantially more discretion to discipline or remove career employees by replacing an established, 12-factor proportionality test with a vaguer standard -- critics warn this would let agencies remove employees for a single instance of misconduct with no prior discipline, undermining protections designed to prevent politically motivated firings across the career civil service.",
+      "figures": [
+        {
+          "metric": "Age of the Douglas factors framework being eliminated",
+          "value": "44 years (established 1981)",
+          "source": "Defense One, July 2026"
+        },
+        {
+          "metric": "Agency success rate defending discipline decisions under current Douglas framework, per former MSPB member Raymond Limon",
+          "value": "80%+",
+          "source": "Defense One, July 2026, citing Raymond Limon"
+        }
+      ],
+      "caveat": "OPM and MSPB's stated rationale -- that Douglas has been applied too rigidly, discouraging warranted discipline -- is a genuine policy argument, not merely pretextual, and is presented alongside the critical response. Former MSPB member Raymond Limon disputes the premise, noting the Douglas factors were designed to be 'illustrative' rather than rigid and that agencies already win the large majority of contested discipline cases under the current standard. Federal employment attorney Michael Fallings warns the 'totality of circumstances' language would let agencies ignore factors favoring the employee, enabling removal for a single incident with no disciplinary history."
+    },
+    "confidence_note": "HIGH confidence -- based on the proposed rule's own Federal Register text and detailed reporting in Defense One, which includes on-record reactions from a former MSPB member and a federal employment attorney. This is a proposed rule, not yet finalized, so its ultimate scope and effective date remain open; treat the specific practical impact as anticipated/contested rather than settled.",
+    "section_summaries": {
+      "what_changed": "OPM and MSPB proposed replacing the 44-year-old Douglas factors discipline framework with a vaguer 'totality of the circumstances' standard, alongside shortened performance-improvement periods and eliminated union official time for appeals.",
+      "estimated_impact": "Critics warn the change would let agencies fire career employees for a single incident with no prior discipline, weakening protections against politically motivated removals across the federal workforce.",
+      "confidence_note": "Well-sourced to the proposed rule itself and detailed reporting with named experts on both sides; not yet a final rule, so ultimate impact is anticipated, not yet realized."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "Defense One — Trump wants to scrap key framework for federal employee discipline",
+        "url": "https://www.defenseone.com/policy/2026/07/trump-wants-scrap-key-framework-federal-employee-discipline/414663/"
+      }
+    ],
+    "last_updated": "2026-07-27"
+  },
+  {
     "id": "patel-fbi-field-office-purge-2025-2026",
     "title": "FBI Director Kash Patel Runs Successive Purges of Field-Office Leaders and Agents Tied to Trump-Related Investigations",
     "institution": "Federal Bureau of Investigation",
@@ -4007,16 +4173,16 @@
   },
   {
     "id": "rfk-jr-measles-data-diversion-2025",
-    "title": "RFK Jr. Diverted CDC Staff to Compile 15 Years of Measles Data During Active 2025 Outbreak Response",
+    "title": "RFK Jr. Diverted CDC Staff to Compile Measles Data, Blocked Briefings, Spread Vaccine Disinformation -- CDC Chief Medical Officer Resigned in Protest",
     "institution": "Centers for Disease Control and Prevention (CDC)",
     "domain": "research_suppression",
-    "status": "Reported as a completed episode during the 2025 outbreak; no indication in sourcing reviewed that this data-request pattern has recurred or been formally addressed since",
-    "date_of_action": "2025 (during the active measles outbreak response)",
-    "what_changed": "Former CDC Chief Medical Officer Dr. Debra Houry said that while CDC staff were actively responding to the largest U.S. measles outbreak in decades -- more than 2,000 cases nationwide in 2025, including two child deaths linked to a West Texas outbreak cluster, with 93% of cases involving people who were unvaccinated or had unknown vaccination status -- HHS Secretary Robert F. Kennedy Jr. and his aides requested 15 years of historical data on every individual measles case, including comorbidities among the deceased. Houry said the requests diverted CDC staff time and attention away from active outbreak management, stating publicly that 'the active measles response has to take priority,' and characterized the data requests as 'not based on science or reality, but trying to answer an agenda that was already in place' -- describing them as aimed at supporting Kennedy's preexisting skepticism about measles and vaccines rather than guiding the public health response to the ongoing outbreak.",
+    "status": "Reported as a completed episode during the 2025 outbreak; Houry's resignation was final as of summer 2025, no indication in sourcing reviewed that the underlying dynamic has been addressed since",
+    "date_of_action": "2025 (during the active measles outbreak response, through Houry's resignation in summer 2025)",
+    "what_changed": "Former CDC Chief Medical Officer Dr. Debra Houry said that while CDC staff were actively responding to the largest U.S. measles outbreak in decades -- more than 2,000 cases nationwide in 2025, including two child deaths linked to a West Texas outbreak cluster, with 93% of cases involving people who were unvaccinated or had unknown vaccination status -- HHS Secretary Robert F. Kennedy Jr. and his aides requested 15 years of historical data on every individual measles case, including comorbidities among the deceased. Houry said the requests diverted CDC staff time and attention away from active outbreak management, stating publicly that 'the active measles response has to take priority,' and characterized the data requests as 'not based on science or reality, but trying to answer an agenda that was already in place.' Houry said Kennedy separately declined briefings from CDC's top medical officials on the measles epidemic despite CDC's offers to provide 'correct statistics, correct information,' spread false claims about vaccines (including the MMR vaccine) that CDC experts were prevented from countering, and relied on advisers she said lacked medical, scientific, or government background. Houry resigned in protest in summer 2025, saying she could no longer protect the agency's scientific integrity and citing measles, whooping cough, and flu deaths she witnessed: 'I couldn't stand behind that.' Her resignation followed Kennedy's June 9, 2025 removal of all 17 members of CDC's vaccine advisory committee (ACIP, tracked separately in this database), whose replacements included members with ties to lawsuits against vaccine makers -- notable given that Kennedy himself had collected referral fees from such lawsuits before becoming HHS Secretary.",
     "primary_proponent": {
       "name": "Robert F. Kennedy Jr.",
       "role": "Secretary of Health and Human Services",
-      "note": "Personally, along with his aides, requested the 15-year historical measles dataset from CDC staff during the active 2025 outbreak response, according to the agency's own former Chief Medical Officer."
+      "note": "Personally, along with his aides, requested the 15-year historical measles dataset from CDC staff during the active 2025 outbreak response, declined briefings from CDC's top medical officials, and spread vaccine disinformation CDC experts were prevented from countering -- according to the agency's own former Chief Medical Officer, who resigned over these practices."
     },
     "estimated_impact": {
       "summary": "CDC staff time and attention were diverted from managing an active, historically large measles outbreak to compile 15 years of case-level historical data at the Secretary's request -- a diversion the agency's own former Chief Medical Officer says was driven by an ideological agenda rather than the outbreak response itself.",
@@ -4042,13 +4208,13 @@
           "source": "CBS News, July 2026"
         }
       ],
-      "caveat": "This entry rests on the account of a single named, credible former CDC official (Houry) rather than multiple independent outlets or documentary evidence of the data request itself; CBS News stated it sought comment from HHS but no substantive HHS/Kennedy response or denial was available as of the article's publication. Treat the characterization of Kennedy's motive ('not based on science or reality') as Houry's attributed opinion, not an independently established fact, even though the underlying request for 15 years of data is a specific, falsifiable claim from a named on-the-record source."
+      "caveat": "This entry rests primarily on the account of a single named, credible former CDC official (Houry), reported across two separate CBS News pieces, rather than multiple independent outlets or documentary evidence of the data requests themselves; CBS News stated it sought comment from HHS but no substantive HHS/Kennedy response or denial was available in either article. Treat the characterization of Kennedy's motives as Houry's attributed opinion, not an independently established fact, even though the underlying claims (the data request, declined briefings, her resignation) are specific and falsifiable statements from a named on-the-record source with direct personal knowledge as the agency's own Chief Medical Officer."
     },
-    "confidence_note": "MODERATE-HIGH confidence on the core factual claim (a 15-year historical measles data request during the 2025 outbreak) since it comes from a named, credentialed former CDC Chief Medical Officer speaking on the record, but confidence is tempered by reliance on a single source outlet and the absence of an HHS/Kennedy response or independent corroboration identified in sourcing reviewed for this entry. The 2025 outbreak scale figures (case counts, deaths, vaccination status) are independently well-documented public health data, not disputed.",
+    "confidence_note": "MODERATE-HIGH confidence on the core factual claims (the 15-year data request, declined briefings, Houry's resignation and stated reasons) since they come from a named, credentialed former CDC Chief Medical Officer speaking on the record across two separate CBS News reports, but confidence is tempered by reliance on a single source individual/outlet and the absence of an HHS/Kennedy response or independent corroboration identified in sourcing reviewed for this entry. The 2025 outbreak scale figures (case counts, deaths, vaccination status) are independently well-documented public health data, not disputed. The claim about new ACIP members having 'ties to lawsuits against vaccine makers' is reported without further specifics on individual financial arrangements.",
     "section_summaries": {
-      "what_changed": "RFK Jr. and aides asked CDC staff to compile 15 years of measles case data during the active 2025 outbreak response, according to the agency's former Chief Medical Officer, who said the request served a preexisting agenda rather than the outbreak response.",
-      "estimated_impact": "Staff time was diverted from managing the largest measles outbreak in decades (2,000+ cases, 2 child deaths) to fulfill a historical data request Houry said wasn't grounded in the outbreak response's actual needs.",
-      "confidence_note": "Rests on one named, credible on-record source without independent corroboration or an HHS response identified; the outbreak-scale figures themselves are well-established and undisputed."
+      "what_changed": "RFK Jr. and aides diverted CDC staff to compile historical measles data, declined outbreak briefings, and spread vaccine disinformation during the 2025 outbreak, according to the agency's former Chief Medical Officer, who resigned in protest.",
+      "estimated_impact": "Staff time was diverted from managing the largest measles outbreak in decades (2,000+ cases, 2 child deaths); Houry says she resigned because she could no longer protect the agency's scientific integrity.",
+      "confidence_note": "Rests on one named, credible on-record source (across two CBS reports) without independent corroboration or an HHS response identified; the outbreak-scale figures themselves are well-established and undisputed."
     },
     "last_verified": "2026-07-27",
     "date_added": "2026-07-27",
@@ -4056,6 +4222,10 @@
       {
         "name": "CBS News — Former CDC chief medical officer describes RFK Jr.'s data requests during 2025 measles outbreak",
         "url": "https://www.cbsnews.com/news/debra-houry-cdc-measles-outbreak-rfk-jr/"
+      },
+      {
+        "name": "CBS News — Dr. Debra Houry's emails and resignation over RFK Jr.'s handling of the vaccine advisory panel",
+        "url": "https://www.cbsnews.com/news/debra-houry-emails-resignation-rfk-jr-vaccine-panel/"
       }
     ],
     "last_updated": "2026-07-27"
@@ -4446,6 +4616,69 @@
       }
     ],
     "last_updated": "2026-07-26"
+  },
+  {
+    "id": "teen-pregnancy-prevention-grants-cancelled-2026",
+    "title": "HHS Cancels 53 Teen Pregnancy Prevention Grants ($67M), Citing \"Normalizing Sexual Activity for Minors\"",
+    "institution": "HHS Office of Population Affairs, Teen Pregnancy Prevention Program",
+    "domain": "funding_redirection",
+    "status": "Complete for the 53 canceled grants; HHS has opened a new $63M-plus grant round prioritizing abstinence-based programming, with awards expected later in 2026",
+    "date_of_action": "2026-06 (grants canceled)",
+    "what_changed": "In late June 2026, HHS's Office of Population Affairs canceled 53 teen pregnancy prevention grants totaling $67 million, affecting university, community, and public health grantees across more than two dozen states. HHS's termination notices stated the grants were being canceled for 'normalizing sexual activity for minors.' Trump's proposed 2027 budget calls for eliminating the teen pregnancy prevention program entirely, stating the grants have gone to groups that 'promote radical leftist ideology' and asserting there is no evidence the programs contributed to the historic decline in the U.S. teen pregnancy rate, which the administration notes is now at an all-time low. Trump's first-term administration canceled the same grant program's predecessor round as well. Simultaneously with the June 2026 cancellations, the Office of Population Affairs opened a new round of grant applications worth just over $63 million, prioritizing programs that promote abstinence before marriage, reproductive health awareness, and long-term fertility goals, with awards expected later in 2026.",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services",
+      "note": "HHS under Kennedy issued the termination notices citing the 'normalizing sexual activity for minors' rationale; the administration's 2027 budget proposal separately seeks to eliminate the program's funding line entirely."
+    },
+    "estimated_impact": {
+      "summary": "Fifty-three university, community, and public-health organizations across more than two dozen states lost $67 million in federal teen pregnancy prevention funding, with the administration simultaneously redirecting a similar dollar amount toward abstinence-focused programming instead -- a funding reallocation, not a net elimination of federal spending in this area, though critics argue it removes evidence-based, comprehensive sex-education approaches in favor of an ideologically preferred model.",
+      "figures": [
+        {
+          "metric": "Teen pregnancy prevention grants canceled",
+          "value": "53",
+          "source": "NPR / The Hill / Stateline, July 2026"
+        },
+        {
+          "metric": "Total dollar value of canceled grants",
+          "value": "$67,000,000",
+          "source": "NPR / The Hill / Stateline, July 2026"
+        },
+        {
+          "metric": "New abstinence-prioritized grant round opened simultaneously",
+          "value": "~$63,000,000+",
+          "source": "NPR, July 2026"
+        },
+        {
+          "metric": "States with affected grantees",
+          "value": "24+",
+          "source": "NPR, July 2026"
+        }
+      ],
+      "caveat": "This is a redirection of funding toward a different programmatic approach (abstinence-focused) rather than a simple net funding elimination, since a comparably sized new grant round opened concurrently -- present it accurately as a redirection, not solely as a cut, even though the specific canceled grantees and their program models lost funding outright. The administration's claim that the canceled programs have no evidence base is contested by public-health researchers and grantees, per reporting, but a detailed evidence review was not independently conducted for this entry."
+    },
+    "confidence_note": "HIGH confidence -- corroborated across NPR, The Hill, Stateline, IBTimes UK, and other outlets, with HHS's own termination-notice language and the 2027 budget proposal's stated rationale directly quoted in reporting.",
+    "section_summaries": {
+      "what_changed": "HHS canceled 53 teen pregnancy prevention grants worth $67 million, citing that they 'normalize sexual activity for minors,' while opening a similarly sized new grant round prioritizing abstinence-focused programming.",
+      "estimated_impact": "More than two dozen states' worth of university, community, and public-health grantees lost funding; the administration reallocated a comparable dollar amount toward a different, abstinence-based programmatic approach rather than eliminating spending outright.",
+      "confidence_note": "Well-corroborated across multiple independent outlets, with HHS's own stated rationale directly quoted."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "NPR — Trump administration cancels grants aimed at reducing teen pregnancies",
+        "url": "https://www.npr.org/2026/07/07/nx-s1-5875464/trump-administration-cancels-grants-aimed-at-reducing-teen-pregnancies"
+      },
+      {
+        "name": "The Hill — Trump administration cancels millions of dollars in teen pregnancy prevention grants",
+        "url": "https://thehill.com/policy/healthcare/5948545-hhs-terminates-millions-teen-pregnancy-funding/"
+      },
+      {
+        "name": "Stateline — Federal health agency cancels most of its teen pregnancy prevention grants",
+        "url": "https://stateline.org/2026/06/26/federal-health-agency-cancels-most-of-its-teen-pregnancy-prevention-grants/"
+      }
+    ],
+    "last_updated": "2026-07-27"
   },
   {
     "id": "usadf-iaf-marocco-takeover-trump2",
