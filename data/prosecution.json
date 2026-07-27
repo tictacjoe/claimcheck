@@ -111,6 +111,49 @@
   },
   {
     "official": "Todd Blanche, Acting Attorney General (nominated to permanent post)",
+    "offense_category": "DOJ Weaponization Against the Legal Profession / Executive Privilege Misuse -- DOJ using civil-litigation subpoena power against private law firms to shield a presidential adviser's communications from a bar association's discovery request, while its own public justification concedes those communications are relevant",
+    "incident_summary": "On July 18, 2026, the Justice Department issued subpoenas to roughly a dozen major law firms -- both the nine firms that reached deals pledging free legal services to the administration and the four firms that successfully challenged Trump's executive orders targeting them in court -- seeking the firms' communications with Trump adviser Boris Epshteyn about those executive orders, plus any communications the firms had with the American Bar Association regarding Epshteyn. The subpoenas were disclosed in the ABA's ongoing lawsuit alleging its members face harm from the administration's law-firm policy; DOJ's stated position was that the ABA should seek this information from its own members or the firms rather than from the White House directly, while simultaneously invoking executive privilege to withhold Epshteyn's communications from direct disclosure, framing them as confidential presidential advice.",
+    "contested": false,
+    "elements_required": [
+      "DOJ, as a defendant in the ABA's litigation, subpoenaed law firms with pre-existing relationships to the administration (both firms that struck deals and firms that beat the executive orders in court) seeking their communications with a specific presidential adviser",
+      "The subpoenas were issued as DOJ's own litigation strategy in pending ABA litigation, not as an independent DOJ investigation",
+      "DOJ simultaneously invoked executive privilege over the same adviser's communications when sought more directly, while subpoenaing third parties for that same category of material",
+      "No named, accountable DOJ official has been publicly identified as having authorized the subpoena strategy -- only an unnamed department spokesperson has been quoted"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "DOJ subpoenaed 14 major law firms on July 18, 2026, seeking documents and testimony regarding the firms' communications with Boris Epshteyn about the executive orders and any correspondence with the ABA regarding Epshteyn; disclosed in the ABA's pending lawsuit against the administration's law-firm policy",
+        "source_url": "https://molawyersmedia.com/2026/07/20/doj-discloses-subpoenas-to-law-firms-in-fight-with-us-lawyer-group/",
+        "maps_to_element": "DOJ subpoenaed law firms for adviser communications as part of its own litigation defense"
+      },
+      {
+        "type": "public_record",
+        "description": "Bloomberg Law's breakdown: 13 firms subpoenaed total (9 firms that made ~$940 million in pledged free-legal-service deals with the White House, plus 4 firms hit with executive orders that are currently on appeal), all sought for communications with Epshteyn regarding the deals/executive orders; DOJ simultaneously invoked executive privilege, framing Epshteyn's communications as confidential presidential advice deserving protection from the ABA's discovery request",
+        "source_url": "https://news.bloomberglaw.com/business-and-practice/doj-says-big-law-subpoenas-protect-privacy-of-trump-legal-advice",
+        "maps_to_element": "DOJ subpoenaed third parties for the same adviser communications it was withholding under privilege claims"
+      },
+      {
+        "type": "analysis",
+        "description": "Above the Law's analysis notes the DOJ's public explanation is internally inconsistent -- by subpoenaing firms specifically for Epshteyn's communications about the executive orders, DOJ effectively concedes those communications are relevant to the ABA's claims, while still asserting privilege over the same category of material; also flags the unusual step of DOJ disclosing litigation strategy to reporters mid-discovery",
+        "source_url": "https://abovethelaw.com/2026/07/the-dojs-biglaw-subpoena-explanation-raises-more-questions-than-it-answers/",
+        "maps_to_element": "DOJ's own justification concedes relevance while claiming privilege over the same material"
+      }
+    ],
+    "status": "Ongoing as of July 2026 -- ABA litigation pending in federal district court; appeal of the underlying executive orders (already struck down for the four affected firms) pending before the U.S. Court of Appeals for the D.C. Circuit",
+    "rebuttal_anticipated": "Likely defense: these are ordinary defensive-litigation subpoenas issued because DOJ is a defendant in the ABA's lawsuit, not a prosecutorial or investigative act against the firms themselves, and shielding a senior presidential adviser's confidential communications is a legitimate executive-privilege interest distinct from the merits of the underlying executive orders.",
+    "comeback": "DOJ's own stated rationale undercuts itself: subpoenaing firms specifically for their communications with Epshteyn about the executive orders concedes that material is relevant to the ABA's claims, while DOJ simultaneously tries to withhold that same category of material as privileged when sought more directly -- using third-party law firms, including ones that beat the administration in court, as a discovery choke point rather than DOJ answering the discovery request it is itself a party to defending against.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with this tracker's broader pattern of DOJ litigation and subpoena power being directed to advantage the administration's position in matters where DOJ itself is a party (here, the ABA suit) rather than exercised as neutral law enforcement -- a distinct mechanism from, but thematically adjacent to, this tracker's leak-investigation entries (Patel/NYT, Hegseth task force, Blanche/journalist subpoenas).",
+    "last_updated": "2026-07-27",
+    "date_added": "2026-07-27",
+    "confidence_note": "HIGH confidence on the core facts -- subpoenas issued July 18, 2026 seeking law-firm communications with Epshteyn, disclosed in the ABA's pending litigation -- corroborated across Bloomberg Law, Above the Law, and Maryland Daily Record/MoLawyersMedia. MODERATE confidence on the exact firm count (Bloomberg Law's own breakdown of 9 deal-firms + 4 EO-firms totals 13; several other outlets report 14 -- treated here as a minor, unresolved discrepancy across otherwise-consistent reporting). LOW confidence on personal attribution to Blanche specifically, since every source reviewed quotes only an unnamed DOJ spokesperson, not the Acting Attorney General himself.",
+    "section_summaries": {
+      "incident_summary": "DOJ subpoenaed roughly a dozen major law firms -- both those that made deals with the White House and those that beat Trump's executive orders in court -- for their communications with adviser Boris Epshteyn, while separately claiming privilege over those same communications, in the ABA's pending lawsuit against the administration's law-firm policy.",
+      "confidence_note": "Core facts well-corroborated across independent legal-trade outlets; exact firm count has a minor unresolved discrepancy (13 vs. 14), and no source names an accountable official beyond an unnamed DOJ spokesperson."
+    }
+  },
+  {
+    "official": "Todd Blanche, Acting Attorney General (nominated to permanent post)",
     "offense_category": "Prosecutorial/Grand Jury Overreach and Voter/Election-Worker Intimidation Pattern -- no criminal charge against Blanche personally; DOJ's subpoena was itself judicially found unreasonable",
     "incident_summary": "Following an FBI search warrant executed at Fulton County, Georgia's election hub in January 2026 (seizing hundreds of boxes of ballots and other 2020 election records), DOJ issued a grand jury subpoena demanding the names and personal contact information of every Fulton County employee and volunteer poll worker who worked the 2020 election. Fulton County challenged the subpoena, arguing it was meant to 'target, harass and punish the President's perceived political opponents.' On July 7, 2026, U.S. District Judge William Ray -- a Trump appointee -- quashed the subpoena, calling its scope 'staggering' and writing that 'given the low need for the subpoenaed information and the highly burdensome nature of the disclosure of the same, the Subpoena is unreasonable and must be quashed.' Judge Ray added that grand juries working with federal prosecutors 'does not give the DOJ the right to use the Grand Jury to do whatever the DOJ wants.'",
     "contested": false,
@@ -193,6 +236,12 @@
         "description": "Acting Attorney General Todd Blanche declined to comment on the subpoenas or the withdrawal decision when asked by reporters",
         "source_url": "https://apnews.com/article/justice-department-fbi-media-c4fcb4d718d8313940f7c19a8f3f8e26",
         "maps_to_element": "Accountable official's response"
+      },
+      {
+        "type": "reporting",
+        "description": "The Atlantic reports that ahead of his confirmation hearing, Blanche personally defended DOJ's earlier subpoena efforts against the Washington Post and Wall Street Journal reporters (this entry) while also continuing the department's subpoenas of New York Times reporters over the separate Air Force One leak story, framing both as following direct pressure from Trump over coverage that angered him",
+        "source_url": "https://www.theatlantic.com/newsletters/2026/07/todd-blanche-doj-war-against-journalism/687908/",
+        "maps_to_element": "Accountable official's response"
       }
     ],
     "status": "Subpoenas withdrawn as of June 2026; no public DOJ Inspector General or congressional finding yet on whether the AG-personal-approval requirement under 28 C.F.R. 50.10 was satisfied before the subpoenas issued",
@@ -201,10 +250,10 @@
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern of DOJ leak investigations under this administration prioritizing identifying and deterring sources over the narrower, policy-constrained use of subpoena power against the press that 28 C.F.R. 50.10 was designed to enforce.",
     "last_updated": "2026-07-27",
     "date_added": "2026-07-27",
-    "confidence_note": "HIGH confidence on the underlying facts (subpoenas issued, home search occurred, subpoenas withdrawn) -- corroborated by the Washington Post's own direct reporting, CNN, and wire coverage. MODERATE confidence on attributing personal culpability to Blanche specifically for the approval decision, since no source confirms he personally signed off versus a subordinate acting under delegated authority, and DOJ has not commented on its internal approval process for this matter.",
+    "confidence_note": "HIGH confidence on the underlying facts (subpoenas issued, home search occurred, subpoenas withdrawn) -- corroborated by the Washington Post's own direct reporting, CNN, and wire coverage. MODERATE confidence on attributing personal culpability to Blanche specifically for the original approval decision, since no source confirms he personally signed off versus a subordinate acting under delegated authority -- though The Atlantic reports Blanche personally defended these subpoenas ahead of his confirmation hearing, which strengthens (without fully resolving) his personal accountability for the underlying decision.",
     "section_summaries": {
-      "incident_summary": "DOJ subpoenaed Washington Post and Wall Street Journal reporters over Iran-war leak reporting, following an earlier FBI home search of another Post journalist, then withdrew the subpoenas after legal challenge.",
-      "confidence_note": "Facts are well-corroborated by direct reporting from the targeted outlets; Blanche's personal role in approving the subpoenas is unconfirmed, since DOJ has not detailed its internal approval process."
+      "incident_summary": "DOJ subpoenaed Washington Post and Wall Street Journal reporters over Iran-war leak reporting, following an earlier FBI home search of another Post journalist, then withdrew the subpoenas after legal challenge; Blanche later personally defended the effort ahead of his confirmation hearing.",
+      "confidence_note": "Facts are well-corroborated by direct reporting from the targeted outlets; Blanche's personal role in the original approval is still not fully confirmed, though he has since defended the subpoenas publicly."
     }
   },
   {
@@ -1198,6 +1247,18 @@
         "description": "Follow-up CNN reporting indicates the leak probe intensified further, with officials asked to turn over phones at the White House as Chief of Staff Susie Wiles and Patel jointly led the expanding investigation",
         "source_url": "https://www.cnn.com/2026/07/15/politics/susie-wiles-kash-patel-leak",
         "maps_to_element": "Continuation/escalation of the White-House-directed investigation"
+      },
+      {
+        "type": "public_record",
+        "description": "Politico reporting identifies U.S. Attorney Jay Clayton as the prosecutor who issued the July 11 grand jury subpoenas to four New York Times reporters over the Air Force One security story",
+        "source_url": "https://www.politico.com/news/2026/07/11/trump-administration-new-york-times-subpoenas-00994052",
+        "maps_to_element": "Investigation produced subpoenas targeting journalists over the specific reporting"
+      },
+      {
+        "type": "public_record",
+        "description": "AP reporting confirms five New York Times reporters were subpoenaed, and specifies the subpoenas followed a lengthy White House meeting between Kash Patel and other senior Justice Department officials",
+        "source_url": "https://apnews.com/article/trump-administration-media-new-york-times-a1100f027095e07ffb5fbd1708e70942",
+        "maps_to_element": "White House direction and Patel's personal, White-House-based oversight"
       }
     ],
     "status": "Ongoing as of mid-July 2026 -- investigation reportedly expanded to include White House staff phone collection under Wiles and Patel's joint direction",
