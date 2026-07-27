@@ -1542,15 +1542,21 @@
         "description": "AP reporting confirms five New York Times reporters were subpoenaed, and specifies the subpoenas followed a lengthy White House meeting between Kash Patel and other senior Justice Department officials",
         "source_url": "https://apnews.com/article/trump-administration-media-new-york-times-a1100f027095e07ffb5fbd1708e70942",
         "maps_to_element": "White House direction and Patel's personal, White-House-based oversight"
+      },
+      {
+        "type": "public_record",
+        "description": "The New York Times reported that DOJ withdrew the subpoenas seeking NYT journalists' phone records and grand jury testimony on July 23, 2026, after a federal judge questioned whether prosecutors had followed the legal requirements (28 C.F.R. 50.10) for subpoenaing the press; the underlying leak investigation itself was not reported as closed",
+        "source_url": "https://www.nytimes.com/2026/07/23/business/media/new-york-times-subpoenas-withdraw.html",
+        "maps_to_element": "Investigation produced subpoenas targeting journalists over the specific reporting -- updated with the subpoenas' subsequent withdrawal"
       }
     ],
-    "status": "Ongoing as of mid-July 2026 -- investigation reportedly expanded to include White House staff phone collection under Wiles and Patel's joint direction",
+    "status": "Ongoing as of July 2026 -- DOJ withdrew the NYT subpoenas on July 23, 2026 after a federal judge questioned their legal compliance, but the underlying leak investigation was not reported as closed; investigation had separately expanded to include White House staff phone collection under Wiles and Patel's joint direction",
     "rebuttal_anticipated": "Likely defense: leaks of information touching on presidential security and travel logistics are a legitimate, serious concern regardless of the underlying story's political sensitivity, and the FBI Director personally engaging on a high-priority national-security-adjacent matter is not inherently improper.",
     "comeback": "The specific facts distinguishing this from a routine leak investigation are the White House's direct tasking of the FBI Director, the investigation being run from the White House building itself rather than FBI or DOJ facilities, and the speed and personal scale of the response (an eight-hour, director-led effort producing home-delivered subpoenas within days) -- all following a story that embarrassed rather than genuinely endangered the president, since the security concern being reported was itself the news, not a secret compromised by the reporting.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Part of the same broader pattern this tracker documents elsewhere (Blanche/DOJ's May 2026 WaPo/WSJ subpoenas, Hegseth's July 2026 Pentagon-DOJ leak task force) of leak investigations increasingly directed at identifying sources for stories embarrassing to the president, using DOJ/FBI subpoena power against journalists themselves.",
     "last_updated": "2026-07-27",
     "date_added": "2026-07-27",
-    "confidence_note": "HIGH confidence -- corroborated extensively across independent outlets (NPR, CNN, Philadelphia Inquirer, Irish Star) including direct on-record detail (Patel's canceled Chicago trip, the eight-hour White House timeframe) that would be difficult to fabricate and has not been disputed by the White House or FBI.",
+    "confidence_note": "HIGH confidence -- corroborated extensively across independent outlets (NPR, CNN, Philadelphia Inquirer, Irish Star, New York Times) including direct on-record detail (Patel's canceled Chicago trip, the eight-hour White House timeframe) that would be difficult to fabricate and has not been disputed by the White House or FBI. The July 23, 2026 subpoena withdrawal is independently reported by the New York Times, the subpoenas' target.",
     "section_summaries": {
       "incident_summary": "The White House directed FBI Director Patel to personally run a leak probe from the White House itself after NYT reporting embarrassed Trump over Air Force One security, producing home-delivered subpoenas to reporters within days.",
       "confidence_note": "Extensively corroborated across independent outlets with specific, undisputed on-record detail."

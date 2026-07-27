@@ -1374,6 +1374,59 @@
     ]
   },
   {
+    "id": "education-dept-disparate-impact-rescission-2026",
+    "title": "Education Department Rescinds Disparate-Impact Standard From Title VI Civil Rights Enforcement",
+    "institution": "U.S. Department of Education, Office for Civil Rights",
+    "domain": "staff_office_cuts",
+    "status": "Final rule, effective July 24, 2026",
+    "date_of_action": "2026-07-24 (final rule effective)",
+    "what_changed": "Citing Executive Order 14281, the Department of Education finalized a rule rescinding disparate-impact provisions from its regulations implementing Title VI of the Civil Rights Act of 1964, effective July 24, 2026. Disparate-impact provisions had allowed investigators to find a school policy violated federal civil rights law based on its disproportionate effect on students of a particular race or ethnicity -- demographic outcome data alone -- even without a facially discriminatory policy or proof of discriminatory intent. Under the rescinded standard, federal investigators could challenge practices like discipline policies, tracking/placement decisions, or resource allocation that produced racially disparate outcomes, regardless of intent. The new rule clarifies that Title VI 'prohibit[s] intentional discrimination and do[es] not prohibit conduct or activities that have an unintentional disparate impact,' meaning investigators must now prove a school district specifically intended to discriminate -- a substantially higher evidentiary bar. Roughly 60 civil rights and education organizations publicly condemned the change, warning it 'will hurt Black, Latino, Asian American, and Native American students, other students of color, and other marginalized students who face higher rates of discrimination.'",
+    "primary_proponent": {
+      "name": "Linda McMahon",
+      "role": "Secretary of Education",
+      "note": "The Education Department, under McMahon, finalized the rule rescinding disparate-impact enforcement under Title VI, implementing the broader Executive Order 14281 disparate-impact policy across federal civil rights enforcement."
+    },
+    "estimated_impact": {
+      "summary": "Federal civil rights investigators can no longer use demographic outcome data alone to challenge school policies with racially disparate effects -- they must now prove intentional discrimination, a substantially harder standard to meet, narrowing the practical reach of Title VI enforcement in education even where the outcomes of a policy remain unequal.",
+      "figures": [
+        {
+          "metric": "Civil rights and education organizations that publicly condemned the change",
+          "value": "~60",
+          "source": "Washington Post / AP, July 2026"
+        },
+        {
+          "metric": "Years the disparate-impact standard had been part of Title VI regulatory enforcement",
+          "value": "Decades (since shortly after Title VI's 1964 enactment, per longstanding regulatory interpretation)",
+          "source": "Washington Post / EdWeek, July 2026"
+        }
+      ],
+      "caveat": "This rule implements the broader, government-wide Executive Order 14281 on disparate-impact liability, not an Education-Department-specific policy choice in isolation -- similar disparate-impact rescissions are likely to appear or have appeared at other federal agencies under the same EO, which is relevant context for evaluating whether this is part of a coordinated administration-wide legal strategy rather than an isolated Education Department decision."
+    },
+    "confidence_note": "HIGH confidence -- the rule and its effective date are drawn directly from the Department of Education's own press release and the Federal Register final rule text, corroborated across the Washington Post, AP (widely syndicated to ABC News, NBC Bay Area, WKBN), and EdWeek.",
+    "section_summaries": {
+      "what_changed": "Education finalized a rule rescinding the disparate-impact standard from Title VI civil rights enforcement, meaning investigators must now prove intentional discrimination rather than relying on demographic outcome data alone.",
+      "estimated_impact": "This raises the evidentiary bar for challenging school policies with racially unequal effects; roughly 60 civil rights and education groups condemned the change as harmful to students of color.",
+      "confidence_note": "Well-documented via the agency's own press release and Federal Register filing, corroborated across multiple independent outlets."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "U.S. Department of Education — U.S. Department of Education Removes Disparate-Impact from Title VI Regulations",
+        "url": "https://www.ed.gov/about/news/press-release/us-department-of-education-removes-disparate-impact-title-vi-regulations"
+      },
+      {
+        "name": "Washington Post — Education Department rescinds disparate impact rule, a key tool used to assess school discrimination",
+        "url": "https://www.washingtonpost.com/politics/2026/07/23/disparate-impact-discrimination-education-department/b77cf70a-86d2-11f1-9cec-0fb26676f07e_story.html"
+      },
+      {
+        "name": "Federal Register — Rescinding Portions of the Department of Education Title VI Regulations To Align With the Statutory Text and Conform to Executive Order 14281",
+        "url": "https://www.federalregister.gov/documents/2026/07/24/2026-15019/rescinding-portions-of-the-department-of-education-title-vi-regulations-to-align-with-the-statutory"
+      }
+    ],
+    "last_updated": "2026-07-27"
+  },
+  {
     "id": "eeoc-commissioner-firing-quorum-loss-trump2",
     "title": "EEOC Loses Quorum for Nine Months After Trump Fires Two Democratic Commissioners",
     "institution": "Equal Employment Opportunity Commission",
@@ -4253,9 +4306,9 @@
     "title": "Acting DNI Bill Pulte purges Office of the Director of National Intelligence staff",
     "institution": "Office of the Director of National Intelligence (ODNI)",
     "domain": "staff_office_cuts",
-    "status": "Ongoing -- 4th round of cuts completed as of 2026-07-27",
+    "status": "Ongoing -- 4th round of cuts completed as of 2026-07-27; Washington Post reports ~200 total employees purged since June 1, workforce reduced to ~1,300 (roughly half of ODNI's size when Trump returned to office)",
     "date_of_action": "2026-06-01 - 2026-07-27 (ongoing)",
-    "what_changed": "Beginning about a week after Tulsi Gabbard resigned as DNI, Acting Director Bill Pulte began firing and reassigning ODNI staff in successive rounds of cuts. An initial round removed 6 career and political intelligence staff and sent 45 others back to their home agencies -- just over 50 people removed from ODNI roles in total. A source told NBC News that Pulte had ordered staff to identify roughly 400 employees for termination at the National Counterterrorism Center, though other sources said the Center itself was ultimately not hit by that specific round; the National Counterintelligence and Security Center was separately reported as expected to face significant cuts. Pulte has said publicly that his goal is to reduce the size of ODNI and refocus it on national security. As of July 27, 2026, his office confirmed a 4th round of what it called 'measured layoffs' had just been completed, indicating the reductions are continuing rather than a single one-time action. Separately, Pulte's authority to hold the role at all has been disputed: the DNI has no supervisor other than the president, making it a 'principal officer' under the Constitution's Appointments Clause that legal analysts (Cato Institute, Lawfare) say should require Senate confirmation even in an acting capacity, and federal law arguably required the Senate-confirmed principal deputy DNI to assume the role automatically once it became vacant rather than a new outside appointee. A Project on Government Oversight legal expert said the appointment meets the Vacancies Reform Act's technical requirements but flagged that the Act's eligibility rules are so broad (allowing the president to choose from 350+ federal officials regardless of relevant qualifications) that they may not satisfy the Constitution's stricter requirement for principal officers. Senate Intelligence Vice Chairman Mark Warner publicly objected to the appointment, and Sen. Elissa Slotkin introduced the MERIT Act on July 16, 2026 to require any acting DNI to have national security experience -- legislative responses that read as a direct rebuke of the Pulte pick. If a court ultimately found the appointment invalid, Pulte's purge decisions and other agency actions taken under his tenure could themselves be legally exposed to challenge.",
+    "what_changed": "Beginning about a week after Tulsi Gabbard resigned as DNI, Acting Director Bill Pulte began firing and reassigning ODNI staff in successive rounds of cuts. An initial round removed 6 career and political intelligence staff and sent 45 others back to their home agencies -- just over 50 people removed from ODNI roles in total. A source told NBC News that Pulte had ordered staff to identify roughly 400 employees for termination at the National Counterterrorism Center, though other sources said the Center itself was ultimately not hit by that specific round; the National Counterintelligence and Security Center was separately reported as expected to face significant cuts. Pulte has said publicly that his goal is to reduce the size of ODNI and refocus it on national security. As of July 27, 2026, his office confirmed a 4th round of what it called 'measured layoffs' had just been completed, indicating the reductions are continuing rather than a single one-time action. Separately, Pulte's authority to hold the role at all has been disputed: the DNI has no supervisor other than the president, making it a 'principal officer' under the Constitution's Appointments Clause that legal analysts (Cato Institute, Lawfare) say should require Senate confirmation even in an acting capacity, and federal law arguably required the Senate-confirmed principal deputy DNI to assume the role automatically once it became vacant rather than a new outside appointee. A Project on Government Oversight legal expert said the appointment meets the Vacancies Reform Act's technical requirements but flagged that the Act's eligibility rules are so broad (allowing the president to choose from 350+ federal officials regardless of relevant qualifications) that they may not satisfy the Constitution's stricter requirement for principal officers. Senate Intelligence Vice Chairman Mark Warner publicly objected to the appointment, and Sen. Elissa Slotkin introduced the MERIT Act on July 16, 2026 to require any acting DNI to have national security experience -- legislative responses that read as a direct rebuke of the Pulte pick. If a court ultimately found the appointment invalid, Pulte's purge decisions and other agency actions taken under his tenure could themselves be legally exposed to challenge. Update 2026-07-27: The Washington Post reported ODNI has purged approximately 200 employees through firings and reassignments since June 1, 2026, reducing the office's workforce to roughly 1,300 -- just over half its size when Trump returned to office -- describing the cuts as part of a broader campaign to replace experienced civil servants with political loyalists.",
     "primary_proponent": {
       "name": "Bill Pulte",
       "role": "Acting Director of National Intelligence",
@@ -4278,6 +4331,11 @@
           "metric": "Rounds of ODNI layoffs completed as of this entry",
           "value": "4",
           "source": "Pulte's own public statement, cited July 27, 2026"
+        },
+        {
+          "metric": "Total employees purged since June 1, 2026 / resulting workforce size",
+          "value": "~200 purged; ~1,300 remaining (roughly half of ODNI's original size)",
+          "source": "Washington Post, July 23, 2026"
         }
       ],
       "caveat": "The 400-position National Counterterrorism Center figure is specifically disputed within the same set of reporting -- some sources say that Center was not actually cut in that round -- so it's included as a reported-but-contested figure, not a confirmed one. The 51-person initial-round figure and the confirmation of a 4th cut round are more consistently corroborated. This entry covers an ongoing process; later rounds beyond the 4th (as of 2026-07-27) are not yet captured here and should be added on recheck. No court has yet ruled on the appointment's legality -- the Vacancies Act/Appointments Clause dispute is a live legal question, not a settled finding, and should be framed as such."
@@ -4322,6 +4380,10 @@
       {
         "name": "MS NOW -- 'Pulte firings intelligence officials deep state Trump'",
         "url": "https://www.ms.now/news/pulte-firings-intelligence-officials-deep-state-trump"
+      },
+      {
+        "name": "Washington Post -- 'US intelligence agency quietly cut about 200 jobs since June 1'",
+        "url": "https://www.washingtonpost.com/national-security/2026/07/23/us-intelligence-agency-quietly-cut-about-200-jobs-since-june-1/"
       }
     ]
   },
