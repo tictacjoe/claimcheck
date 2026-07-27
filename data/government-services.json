@@ -1958,6 +1958,82 @@
     "last_updated": "2026-07-26"
   },
   {
+    "id": "hegseth-dote-weapons-testing-cuts-2025-2026",
+    "title": "Hegseth Cuts Pentagon's Independent Weapons Testing Office by 76%, GAO Finds Oversight Gaps",
+    "institution": "Office of the Director, Operational Test and Evaluation (DOT&E), Department of Defense",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing -- cuts implemented 2025, staffing partially recovered to 45 by September 2025 (still far below the original 126), GAO findings on resulting oversight gaps published June 30, 2026",
+    "date_of_action": "2025-05 (Hegseth memo ordering the cuts) through 2026-06-30 (GAO report on resulting impact)",
+    "what_changed": "In May 2025, Defense Secretary Pete Hegseth ordered DOT&E -- the Pentagon's independent office responsible for testing weapons systems before they reach troops -- cut from 126 authorized civilian positions to 30, a 76% reduction. The memo Hegseth issued eliminated all but one Senior Executive Service position in the office and ended contractor support within seven days. Reduction-in-force notices were issued between June and October 2025; staffing partially recovered to 45 positions by September 2025, still well below the original authorized level. Hegseth's memo projected the cuts would save $300 million annually and framed the changes as intended to 'improve the lethality, readiness, and efficiency of our Armed Forces,' later stating 'speed to delivery is now our organizing principle.' A GAO report released June 30, 2026, based on an audit conducted January through June 2026, found the reduced staff has produced concrete oversight gaps: DOT&E's list of programs under independent oversight dropped from 265 in fiscal 2024 to 173 in fiscal 2025, and as of February 2026 the office was overseeing only 15 of roughly 110 active programs under the Pentagon's fast-track Middle Tier Acquisition pathway. Remaining 'action officers' have been assigned more programs than before, including programs in warfare areas -- electronic warfare specifically identified -- outside their area of expertise.",
+    "primary_proponent": {
+      "name": "Pete Hegseth",
+      "role": "Secretary of Defense",
+      "note": "Personally ordered the DOT&E staffing cut via a May 2025 memo, framing it as a lethality/readiness/efficiency initiative projected to save $300 million annually, and later stated 'speed to delivery is now our organizing principle' regarding the broader acquisition-reform push this cut is part of."
+    },
+    "estimated_impact": {
+      "summary": "GAO, the government's own independent watchdog, found the cuts have measurably reduced the Pentagon's capacity to catch defects in weapons systems before they reach troops -- fewer programs receive independent operational testing oversight, and the remaining reviewers are stretched across more programs, including some outside their subject-matter expertise, with electronic warfare specifically flagged as an expertise gap.",
+      "figures": [
+        {
+          "metric": "DOT&E authorized civilian positions before/after the cut",
+          "value": "126 -> 30 (76% reduction)",
+          "source": "GAO report (GAO-26-108859), June 30, 2026, citing Hegseth's May 2025 memo"
+        },
+        {
+          "metric": "Staffing level after partial recovery",
+          "value": "45 (as of September 2025)",
+          "source": "GAO report, June 30, 2026"
+        },
+        {
+          "metric": "Programs under DOT&E oversight, fiscal 2024 vs. fiscal 2025",
+          "value": "265 -> 173",
+          "source": "GAO report, June 30, 2026"
+        },
+        {
+          "metric": "Active Middle Tier Acquisition programs currently overseen by DOT&E, out of ~110 total (as of Feb. 2026)",
+          "value": "15",
+          "source": "GAO report, June 30, 2026"
+        },
+        {
+          "metric": "Projected annual savings claimed by Hegseth's memo",
+          "value": "$300,000,000",
+          "source": "Hegseth's May 2025 memo, cited by GAO"
+        }
+      ],
+      "caveat": "No documented on-record response from Hegseth or the Pentagon to the GAO's specific findings was identified in reporting reviewed for this entry -- DOD's public rationale is limited to the original May 2025 memo's stated goals (speed, lethality, cost savings), not a direct rebuttal of the oversight-gap findings. GAO's report describes increased risk of undetected flaws reaching fielded weapons systems; it does not (as of this entry) document a specific weapons failure directly traced to the reduced testing oversight."
+    },
+    "confidence_note": "HIGH confidence -- the staffing cut figures and program-oversight-gap findings come directly from a GAO report (the government's own independent auditor), corroborated in press coverage by Military Times, Breaking Defense, Federal News Network, Bloomberg, DefenseScoop, and Yahoo News. Hegseth's own memo and public statements on rationale are on the record. No dispute identified over the underlying facts of the cut or GAO's findings; the only gap is the absence of a specific Pentagon rebuttal to GAO in reporting reviewed.",
+    "section_summaries": {
+      "what_changed": "Hegseth cut the Pentagon's independent weapons-testing office by 76% in 2025; a June 2026 GAO audit found the reduced staff now oversees far fewer programs, with remaining reviewers stretched across areas including electronic warfare outside their expertise.",
+      "estimated_impact": "GAO's own audit found DOT&E's oversight coverage dropped by over a third of its program list in one year and now covers just 15 of ~110 fast-track acquisition programs, raising the risk of undetected weapons defects reaching troops.",
+      "confidence_note": "GAO-sourced figures, well-corroborated across multiple independent defense-trade and wire outlets; no Pentagon rebuttal to the specific findings identified."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "Bloomberg — Hegseth Cuts to Weapons Testing Office Hurt Oversight, GAO Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-30/hegseth-cuts-to-weapons-testing-office-hurt-oversight-gao-says"
+      },
+      {
+        "name": "Military Times — Pentagon's push to field weapons faster risks outrunning its own oversight, watchdog finds",
+        "url": "https://www.militarytimes.com/news/pentagon-congress/2026/07/01/pentagons-push-to-field-weapons-faster-risks-outrunning-its-own-oversight-watchdog-finds/"
+      },
+      {
+        "name": "Federal News Network — Cuts to DoD's independent testing office increase risk of undetected flaws in weapons",
+        "url": "https://federalnewsnetwork.com/defense-news/2026/07/cuts-to-dods-independent-testing-office-increase-risk-of-undetected-flaws-in-weapons/"
+      },
+      {
+        "name": "Breaking Defense — Recent DoD changes risk fielding weapons with hidden problems, watchdog warns",
+        "url": "https://breakingdefense.com/2026/06/recent-dod-changes-risk-fielding-weapons-with-hidden-problems-watchdog-warns/"
+      },
+      {
+        "name": "DefenseScoop — Pentagon to restructure weapons testing office, cut personnel as part of Hegseth-directed shakeup",
+        "url": "https://defensescoop.com/2025/05/28/hegseth-restructure-odote-test-evaluation-office-workforce/"
+      }
+    ],
+    "last_updated": "2026-07-27"
+  },
+  {
     "id": "hud-fair-housing-staff-cuts-trump2",
     "title": "HUD's Fair Housing Office Cut by Roughly Two-Thirds Amid Whistleblower Allegations",
     "institution": "U.S. Department of Housing and Urban Development, Office of Fair Housing and Equal Opportunity",
@@ -4116,7 +4192,7 @@
     "domain": "staff_office_cuts",
     "status": "Operationally dissolved (July 1, 2025) but legally unresolved -- USAID was made an independent agency by Congress in 1998 and can only be formally abolished by an act of Congress, which has not occurred",
     "date_of_action": "2025-01-24 (foreign aid freeze ordered) through 2025-07-01 (official dissolution and merger into State Department)",
-    "what_changed": "On his first days in office, Trump ordered a near-total freeze on foreign aid, and within weeks the administration placed most USAID employees on administrative leave. By March 10, 2025, Secretary of State Rubio announced 83% of USAID's programs (roughly 5,200 contracts) had been terminated following an internal review; on March 28 he formally notified Congress that USAID would be dissolved and its remaining functions absorbed into the State Department. USAID officially ceased independent operations on July 1, 2025, after 63 years. Staffing was reduced from over 10,000 employees to fewer than 300. USAID's own Inspector General issued a report warning the spending pause and staff furloughs limited the agency's ability to ensure funds didn't reach terrorist-linked recipients, and separately warned that $489 million in humanitarian food aid risked spoiling due to the furloughs; the White House Office of Presidential Personnel fired that Inspector General less than 30 minutes after the report's publication -- despite a federal law requiring 30 days' advance notice to Congress before removing an inspector general. A significant, largely unresolved legal question underlies the entire action: USAID was reorganized by Congress as an independent agency in 1998 specifically to give it statutory protection, and per that same statute can only be formally abolished by an act of Congress -- which has not happened. USAID therefore legally still exists even though it has been operationally dissolved. On the litigation front, the D.C. Circuit held oral argument on April 23, 2026 (before Judges Srinivasan, Pillard, and Pan) on the appeal of the core USAID dismantlement case; no ruling had issued as of this update. In a related case, briefing continues on a schedule running into summer 2026, with the government's reply brief due July 31, 2026. Separately, a federal court in Maryland denied efforts to block depositions of Elon Musk and other DOGE-linked officials in a class-action suit over USAID's shutdown; that case is proceeding through discovery. Re-verified 2026-07-26: no ruling identified yet from the D.C. Circuit panel (Srinivasan, Pillard, Pan) that heard oral argument April 23, 2026; the appeal remains undecided and USAID's operational/legal status is unchanged from the prior update.",
+    "what_changed": "On his first days in office, Trump ordered a near-total freeze on foreign aid, and within weeks the administration placed most USAID employees on administrative leave. By March 10, 2025, Secretary of State Rubio announced 83% of USAID's programs (roughly 5,200 contracts) had been terminated following an internal review; on March 28 he formally notified Congress that USAID would be dissolved and its remaining functions absorbed into the State Department. USAID officially ceased independent operations on July 1, 2025, after 63 years. Staffing was reduced from over 10,000 employees to fewer than 300. USAID's own Inspector General issued a report warning the spending pause and staff furloughs limited the agency's ability to ensure funds didn't reach terrorist-linked recipients, and separately warned that $489 million in humanitarian food aid risked spoiling due to the furloughs; the White House Office of Presidential Personnel fired that Inspector General less than 30 minutes after the report's publication -- despite a federal law requiring 30 days' advance notice to Congress before removing an inspector general. A significant, largely unresolved legal question underlies the entire action: USAID was reorganized by Congress as an independent agency in 1998 specifically to give it statutory protection, and per that same statute can only be formally abolished by an act of Congress -- which has not happened. USAID therefore legally still exists even though it has been operationally dissolved. On the litigation front, the D.C. Circuit held oral argument on April 23, 2026 (before Judges Srinivasan, Pillard, and Pan) on the appeal of the core USAID dismantlement case; no ruling had issued as of this update. In a related case, briefing continues on a schedule running into summer 2026, with the government's reply brief due July 31, 2026. Separately, a federal court in Maryland denied efforts to block depositions of Elon Musk and other DOGE-linked officials in a class-action suit over USAID's shutdown; that case is proceeding through discovery. Re-verified 2026-07-26: no ruling identified yet from the D.C. Circuit panel (Srinivasan, Pillard, Pan) that heard oral argument April 23, 2026; the appeal remains undecided and USAID's operational/legal status is unchanged from the prior update. Added 2026-07-27: former USAID Administrator Samantha Power said in a Bloomberg interview that she does not believe the Ebola outbreak spreading across the Democratic Republic of the Congo and Uganda -- which has killed more than 400 people -- would be spiraling as it has if USAID had not been dismantled, citing the loss of the agency's early-warning disease-surveillance systems and cold-chain infrastructure (whose degradation contributed to delayed detection, since transported swab samples were no longer reliably preserved). The administration's separate withdrawal from the World Health Organization compounded the effect by removing another layer of international outbreak-response coordination. This is presented as a concrete, on-the-ground consequence of the dismantlement documented above, not a new or separate action.",
     "primary_proponent": {
       "name": "Marco Rubio",
       "role": "Secretary of State",
@@ -4154,17 +4230,22 @@
           "metric": "Humanitarian food aid at risk of spoiling due to furloughs",
           "value": "$489,000,000",
           "source": "USAID's own Inspector General report"
+        },
+        {
+          "metric": "Deaths in the 2026 DRC/Uganda Ebola outbreak, linked by experts to weakened US-backed outbreak response",
+          "value": "400+",
+          "source": "Bloomberg, citing Samantha Power interview and on-the-ground reporting, June 2026"
         }
       ],
       "caveat": "The State Department disputes the Lancet methodology directly and sharply -- a senior official called it a 'failed journal' and said such studies reflect 'outdated thinking.' This is a genuinely disputed empirical question about mortality modeling, not merely a political disagreement, and modelers themselves (including ones unaffiliated with the study) caution the precise death-toll numbers carry real uncertainty even while endorsing the general conclusion. Separately, the administration's own stated justification (that USAID had significant oversight and accountability failures) has some independent support -- USAID itself failed to conduct legally-required financial reviews for over 70% of the international organizations receiving its funding in 2023, per the agency's own inspector general -- though fact-checkers found most of the administration's specific waste examples cited publicly were false or highly misleading."
     },
-    "confidence_note": "Exceptionally strong sourcing across the full political spectrum of outlets (NPR, CNN, ABC News, Newsweek) plus a peer-reviewed medical journal (The Lancet) with two independent studies a year apart, plus USAID's own Inspector General's report before that office was itself eliminated. The legal status question (independent agency status under the 1998 statute) is a matter of public record, not interpretation. Rubio's 'no one has died' claim and the mortality studies represent a genuine, sourced factual conflict -- present both sides with their actual sourcing rather than treating either claim as simply settled. Re-verified 2026-07-20: no material change to USAID's operational or legal status -- still operationally dissolved, still legally unresolved. Litigation is active but slow-moving (argued in April 2026, undecided as of this update); the Musk deposition development is a discovery-stage procedural win for plaintiffs, not a ruling on the merits. Re-verified 2026-07-26: no material change to report.",
+    "confidence_note": "Exceptionally strong sourcing across the full political spectrum of outlets (NPR, CNN, ABC News, Newsweek) plus a peer-reviewed medical journal (The Lancet) with two independent studies a year apart, plus USAID's own Inspector General's report before that office was itself eliminated. The legal status question (independent agency status under the 1998 statute) is a matter of public record, not interpretation. Rubio's 'no one has died' claim and the mortality studies represent a genuine, sourced factual conflict -- present both sides with their actual sourcing rather than treating either claim as simply settled. Re-verified 2026-07-20: no material change to USAID's operational or legal status -- still operationally dissolved, still legally unresolved. Litigation is active but slow-moving (argued in April 2026, undecided as of this update); the Musk deposition development is a discovery-stage procedural win for plaintiffs, not a ruling on the merits. Re-verified 2026-07-26: no material change to report. Added 2026-07-27: the Ebola/Power reporting is corroborated across Bloomberg (Power's own on-record interview), CNN, The Hill, and CNBC; it is presented as attributed expert opinion linking a real, ongoing outbreak to the dismantlement documented in this entry, not as an independently adjudicated causal finding.",
     "section_summaries": {
-      "what_changed": "USAID was operationally shuttered and absorbed into State after a near-total funding freeze shrank its staff by more than 97% -- though legally, only Congress can abolish it, and hasn't.",
-      "estimated_impact": "A peer-reviewed Lancet study credited this funding with preventing tens of millions of deaths and projected millions more by 2030 if the cuts hold, calling the toll avoidable, not inevitable.",
-      "confidence_note": "Exceptionally strong sourcing, including two independent peer-reviewed medical studies and the agency's own Inspector General; official statements and the death-toll research genuinely disagree -- present both."
+      "what_changed": "USAID was operationally shuttered and absorbed into State after a near-total funding freeze shrank its staff by more than 97% -- though legally, only Congress can abolish it, and hasn't. Former Administrator Samantha Power has since linked the dismantlement to a worsening Ebola outbreak in the DRC and Uganda.",
+      "estimated_impact": "A peer-reviewed Lancet study credited this funding with preventing tens of millions of deaths and projected millions more by 2030 if the cuts hold, calling the toll avoidable, not inevitable; a 2026 Ebola outbreak (400+ deaths) is cited as a concrete real-world instance of that lost capacity.",
+      "confidence_note": "Exceptionally strong sourcing, including two independent peer-reviewed medical studies and the agency's own Inspector General; official statements and the death-toll research genuinely disagree -- present both. The Ebola link is attributed expert opinion, well-corroborated but not an adjudicated causal finding."
     },
-    "last_verified": "2026-07-26",
+    "last_verified": "2026-07-27",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -4194,9 +4275,17 @@
       {
         "name": "Democracy Defenders Fund — Judge clears way for Musk deposition over dismantling of USAID",
         "url": "https://www.democracydefendersfund.org/prs/02.05.26-pr"
+      },
+      {
+        "name": "Bloomberg — Ebola Outbreak in Congo, Uganda Strained by US Aid Cuts, Power Warns",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-26/trump-s-usaid-cuts-hobbled-ebola-response-ex-agency-head-says"
+      },
+      {
+        "name": "The Hill — Donald Trump's USAID, WHO cuts impact Ebola response",
+        "url": "https://thehill.com/policy/healthcare/5892230-ebola-outbreak-trump-cuts/"
       }
     ],
-    "last_updated": "2026-07-26"
+    "last_updated": "2026-07-27"
   },
   {
     "id": "usip-doge-takeover-trump2",
