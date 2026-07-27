@@ -111,6 +111,55 @@
   },
   {
     "official": "Todd Blanche, Acting Attorney General (nominated to permanent post)",
+    "offense_category": "Prosecutorial Discretion Override / Corporate Accountability Failure -- DOJ senior leadership overruled its own Criminal Division's recommendation to pursue felony charges over infant deaths and hospitalizations, in favor of a civil settlement, against a company represented by a law firm with a pro-bono services deal benefiting pro-Trump causes",
+    "incident_summary": "Federal prosecutors investigated Cronobacter bacterial contamination at Abbott Laboratories' Sturgis, Michigan infant-formula plant, which the FDA linked to five infant hospitalizations and contributed to two infant deaths. Prosecutors recommended felony charges against Abbott and several of its executives under the Food, Drug and Cosmetic Act. Tysen Duva, the DOJ Criminal Division's assistant attorney general, supported pursuing the felony charges, but was overruled by senior DOJ leadership -- now under Acting Attorney General Todd Blanche -- which ordered the criminal investigation closed. DOJ instead pursued a civil False Claims Act settlement, stating this was 'the best mechanism to achieve accountability, deterrence and protection of the public' and noting the settlement included a 'significant' monetary penalty, though it did not specify the amount in the reporting reviewed. Sen. Adam Schiff opened an inquiry into the decision, writing to DOJ: 'Under your management, DOJ does not consider a case involving deadly risks to medically sensitive infants, after a recommendation of a felony charge, to be worthy of criminal prosecution,' and demanding an explanation for why prosecutors' advice was rejected. Abbott is represented by Kirkland & Ellis, one of the law firms that struck a deal with the White House providing pro-bono legal services to pro-Trump causes -- the same firm documented elsewhere in this tracker's entry on DOJ's subpoenas of law firms over Boris Epshteyn communications.",
+    "contested": true,
+    "elements_required": [
+      "DOJ's own Criminal Division recommended felony charges based on a specific, documented public-health harm (infant hospitalizations and deaths linked to bacterial contamination)",
+      "Senior DOJ leadership under Blanche overrode that internal recommendation in favor of a civil resolution",
+      "The company's outside counsel has a documented relationship with the administration (pro-bono services deal) that is at minimum a notable coincidence given the outcome",
+      "DOJ has not provided a detailed public accounting of why the felony recommendation was rejected beyond a general statement about the chosen mechanism's adequacy"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "FDA and prosecutorial findings that Cronobacter contamination at Abbott's Sturgis, Michigan plant was linked to five infant hospitalizations and contributed to two infant deaths, with prosecutors recommending felony charges against Abbott and several executives under the Food, Drug and Cosmetic Act",
+        "source_url": "https://www.cbsnews.com/news/doj-abbott-labs-adam-schiff/",
+        "maps_to_element": "DOJ's own Criminal Division recommended felony charges based on documented harm"
+      },
+      {
+        "type": "public_record",
+        "description": "Criminal Division Assistant Attorney General Tysen Duva supported the felony-charge recommendation but was overruled by senior DOJ leadership, which ordered the investigation closed in favor of a civil False Claims Act settlement",
+        "source_url": "https://www.cbsnews.com/news/doj-abbott-labs-adam-schiff/",
+        "maps_to_element": "Senior DOJ leadership under Blanche overrode the internal recommendation"
+      },
+      {
+        "type": "public_record",
+        "description": "Sen. Adam Schiff's July 8, 2026 letter, addressed directly to Acting Attorney General Todd Blanche, questioning why a case involving 'deadly risks to medically sensitive infants' was not deemed worthy of criminal prosecution after a felony recommendation from Trump's own political appointees",
+        "source_url": "https://www.schiff.senate.gov/news/press-releases/news-who-killed-the-abbott-case-schiff-opens-inquiry-into-reports-that-department-of-justice-closed-criminal-case-against-abbott-laboratories-recommended-by-trumps-own-political-appointees/",
+        "maps_to_element": "DOJ has not provided a detailed public accounting of the decision"
+      },
+      {
+        "type": "analysis",
+        "description": "Bloomberg Law analysis framing the Abbott case closure as part of a wider retreat from corporate criminal prosecution under the current DOJ leadership",
+        "source_url": "https://news.bloomberglaw.com/us-law-week/doj-closing-abbott-labs-case-spurs-wider-corporate-crime-retreat",
+        "maps_to_element": "Pattern context for the charging-decision override"
+      }
+    ],
+    "status": "Case resolved via civil settlement; Schiff's inquiry into the decision was ongoing as of this entry, with no detailed DOJ response to the specific override allegation identified",
+    "rebuttal_anticipated": "Likely defense: prosecutorial discretion routinely involves weighing internal recommendations against practical considerations (likelihood of conviction, resource allocation, adequacy of civil remedies), and DOJ's stated rationale -- that a civil settlement with a 'significant' penalty achieves accountability and deterrence -- is a legitimate, commonly used resolution mechanism in corporate food-safety cases generally, independent of any law-firm relationship.",
+    "comeback": "DOJ's own Criminal Division recommended felony charges specifically because it judged the harm (infant deaths and hospitalizations) serious enough to warrant criminal rather than civil treatment -- senior leadership's override of that internal judgment, without a detailed public explanation, in a case involving a company represented by a firm with a documented pro-bono services arrangement benefiting pro-Trump causes, is the specific pattern Schiff's inquiry and this entry flag, not prosecutorial discretion in the abstract.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of DOJ decisions under Blanche appearing to favor entities with documented relationships to the administration (see also this tracker's entry on DOJ's law-firm subpoenas in the Epshteyn/ABA litigation, which involves several of the same firms, including Kirkland & Ellis, that made pro-bono deals with the White House).",
+    "last_updated": "2026-07-27",
+    "date_added": "2026-07-27",
+    "confidence_note": "HIGH confidence on the core facts -- DOJ's Criminal Division recommendation, Duva's support for felony charges, senior leadership's override, and Schiff's July 8, 2026 inquiry letter to Blanche are corroborated across CBS News, Schiff's own official Senate press release, Bloomberg Law, Food Safety Magazine, and AOL. The Kirkland & Ellis connection is a documented fact (the firm's pro-bono arrangement is independently established elsewhere in this tracker) but the inferential link between that arrangement and this specific charging decision is presented as a notable coincidence flagged by this entry's analysis, not as a proven causal claim.",
+    "section_summaries": {
+      "incident_summary": "DOJ's Criminal Division recommended felony charges against Abbott over infant deaths and hospitalizations linked to formula-plant contamination, but senior leadership under Blanche overrode that recommendation for a civil settlement instead; Schiff is investigating why.",
+      "confidence_note": "Well-corroborated across CBS News, Schiff's own Senate press release, and Bloomberg Law; the Kirkland & Ellis connection is flagged as a notable coincidence, not a proven causal link."
+    }
+  },
+  {
+    "official": "Todd Blanche, Acting Attorney General (nominated to permanent post)",
     "offense_category": "DOJ Weaponization Against the Legal Profession / Executive Privilege Misuse -- DOJ using civil-litigation subpoena power against private law firms to shield a presidential adviser's communications from a bar association's discovery request, while its own public justification concedes those communications are relevant",
     "incident_summary": "On July 18, 2026, the Justice Department issued subpoenas to roughly a dozen major law firms -- both the nine firms that reached deals pledging free legal services to the administration and the four firms that successfully challenged Trump's executive orders targeting them in court -- seeking the firms' communications with Trump adviser Boris Epshteyn about those executive orders, plus any communications the firms had with the American Bar Association regarding Epshteyn. The subpoenas were disclosed in the ABA's ongoing lawsuit alleging its members face harm from the administration's law-firm policy; DOJ's stated position was that the ABA should seek this information from its own members or the firms rather than from the White House directly, while simultaneously invoking executive privilege to withhold Epshteyn's communications from direct disclosure, framing them as confidential presidential advice.",
     "contested": false,
@@ -771,6 +820,105 @@
     "section_summaries": {
       "incident_summary": "Hegseth created a joint Pentagon-DOJ task force with broad, fast-turnaround authority to hunt and prosecute media leaks, announced two days after DOJ subpoenaed NYT reporters over an embarrassing Air Force One story.",
       "confidence_note": "Well-corroborated across many outlets and Hegseth's own public statement; no dispute over the facts of the task force's creation or structure."
+    }
+  },
+  {
+    "official": "Pete Hegseth, Secretary of Defense",
+    "offense_category": "Potential Law of Armed Conflict Violation / Command Accountability Failure -- a U.S. strike killed 168 children and 14 teachers at a school based on intelligence commanders knew was out of date, followed by an unprecedented failure to conduct the standard post-strike intelligence review and active resistance to sharing findings with Congress -- NOT charged, contested facts, included for reference only",
+    "incident_summary": "On February 28, 2026, a U.S. missile struck the Shajareh Tayyebeh girls' school in Minab, Iran, killing at least 168 children and 14 teachers, according to Iranian state media -- part of the broader U.S. military campaign against Iran. CNN reported, citing sources, that senior U.S. military commanders bypassed explicit warnings in intelligence databases that targeting information about potential sites in Iran was severely out of date, and approved strikes -- including the one that hit the school -- anyway. An initial internal investigation, whose findings were first reported in March 2026, showed U.S. forces were likely responsible for the strike and attributed it to outdated intelligence. As of mid-July 2026, CENTCOM (led by Admiral Brad Cooper) had not ordered the standard, more rigorous intelligence review that normally follows a strike of this significance -- which CNN's sources described as unprecedented for a strike of this magnitude. Information from post-strike interviews that could help commanders avoid similar mistakes in ongoing strikes against Iran has reportedly been 'locked down' by CENTCOM, with only a small number of officers granted access. Sources told CNN that intense White House pressure on Hegseth and Cooper to portray the Iran war as successful has made both men resistant to sharing information about the strike with the rest of the military and intelligence community. More than two dozen Senate Democrats, led by Sen. Kirsten Gillibrand, publicly demanded in July 2026 that the Pentagon release the complete, unredacted investigation findings within a week, along with a concrete corrective-action plan -- Hegseth's Pentagon had not complied as of this entry, telling reporters only that it had 'no updates to announce.'",
+    "contested": true,
+    "elements_required": [
+      "Commanders had specific, documented warnings that targeting intelligence for the relevant area was out of date before approving the strike",
+      "The strike killed a large number of civilians, specifically children, at a school -- a protected civilian object under the law of armed conflict absent evidence of military use",
+      "The military failed to conduct the standard, more rigorous post-incident intelligence review that strikes of this significance normally receive",
+      "Investigation findings and related information have been restricted even within the military/intelligence community, not merely withheld from the public",
+      "Senior officials (Hegseth, Cooper) face and have not overcome specific, sourced allegations of resisting information-sharing due to political pressure to portray the broader campaign favorably"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "CNN exclusive reporting, citing sources, that senior U.S. military commanders bypassed warnings in intelligence databases indicating targeting information was severely out of date, and approved strikes -- including the one that hit the Minab school -- anyway",
+        "source_url": "https://www.cnn.com/2026/07/07/politics/us-commanders-intelligence-iran-school",
+        "maps_to_element": "Commanders had documented warnings and approved the strike anyway"
+      },
+      {
+        "type": "public_record",
+        "description": "CNN exclusive reporting that CENTCOM has not ordered the standard intelligence review months after the strike, that post-strike interview material has been 'locked down' with only a handful of officers granted access, and that White House pressure on Hegseth and Cooper to portray the Iran war favorably has made both resistant to sharing findings",
+        "source_url": "https://www.cnn.com/2026/07/16/politics/us-military-intelligence-review-iran-school-strike",
+        "maps_to_element": "Failure to conduct standard review; information restricted even internally"
+      },
+      {
+        "type": "public_record",
+        "description": "Sen. Jack Reed and colleagues' public letter/press release demanding the Pentagon release the complete, unredacted investigation findings and a corrective-action plan without further delay",
+        "source_url": "https://www.reed.senate.gov/news/releases/reed-colleagues-demand-pentagon-release-investigation-of-deadly-iran-school-strike-without-further-delay",
+        "maps_to_element": "Senior officials have not overcome sourced allegations of withholding findings"
+      },
+      {
+        "type": "reporting",
+        "description": "Military Times reporting confirms the February 28, 2026 strike date, the 175+ death toll cited by Iranian officials, and CENTCOM Commander Admiral Brad Cooper's May 2026 congressional testimony that the investigation was 'complex,' plus the Pentagon's 'no updates to announce' response to the senators' July 2026 demand",
+        "source_url": "https://www.militarytimes.com/news/pentagon-congress/2026/07/13/lawmakers-demand-pentagon-release-findings-from-probe-of-iran-school-strike/",
+        "maps_to_element": "Strike killed a large number of civilian children; investigation timeline and stonewalling"
+      }
+    ],
+    "status": "Ongoing as of July 2026 -- investigation findings remain unreleased to Congress and the public; no standard post-strike intelligence review has been ordered as of the most recent reporting reviewed",
+    "rebuttal_anticipated": "Likely defense: wartime targeting decisions inherently involve imperfect, time-sensitive intelligence, and demanding a full public accounting of an active military campaign's internal investigation risks operational security; the initial investigation attributing the strike to 'outdated intelligence' may itself represent a good-faith, if tragic, acknowledgment of error rather than concealment.",
+    "comeback": "The specific facts distinguishing this from an ordinary wartime targeting tragedy are that commanders are reported to have had explicit, documented warnings the intelligence was stale before striking, that the standard, more rigorous review such incidents normally receive was never ordered months later, and that findings have been restricted even from other parts of the military and intelligence community -- not merely the public -- specifically, per CNN's sourcing, because of White House pressure to portray the broader campaign favorably. An operational-security rationale does not explain withholding an unclassified summary from Congress, which senators have specifically requested.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of military and intelligence findings being withheld or restricted specifically where they might reflect poorly on the administration's stated narrative (see also this tracker's Hegseth boat-strike 'leave no survivors' entry and the Kuwait drone-strike command-negligence allegations reported around the same time), rather than for genuine operational-security reasons.",
+    "last_updated": "2026-07-27",
+    "date_added": "2026-07-27",
+    "confidence_note": "HIGH confidence on the strike's occurrence, death toll, and the investigation's existence and delay -- corroborated across CNN (two separate exclusive reports), Military Times, Sen. Reed's official press release, and additional wire/regional coverage (JPost, NBC News, Al Jazeera). MODERATE-HIGH confidence on the more serious allegations (commanders knowingly bypassing stale-intelligence warnings, deliberate information restriction driven by White House pressure), since these rest on CNN's sourced-but-anonymous reporting rather than documentary evidence or on-record confirmation from Hegseth, Cooper, or the Pentagon, none of which have been obtained as of this entry.",
+    "section_summaries": {
+      "incident_summary": "A U.S. strike killed 168 children and 14 teachers at an Iranian school after commanders bypassed warnings that targeting intelligence was outdated; CENTCOM has since failed to order the standard post-strike review and, per CNN sourcing, restricted findings under White House pressure to avoid undermining the Iran campaign's public narrative.",
+      "confidence_note": "Strike facts and investigation delay are well-corroborated across multiple outlets and a Senate press release; the more serious bypassed-warnings and deliberate-restriction allegations rest on anonymous CNN sourcing without official confirmation."
+    }
+  },
+  {
+    "official": "Pete Hegseth, Secretary of Defense",
+    "offense_category": "Command Negligence / Public Misrepresentation of a Combat Incident -- Hegseth publicly described a facility soldiers say was essentially undefended against drones as 'fortified,' while survivors allege commanders ignored specific warnings and abandoned the wounded -- NOT charged, contested facts, included for reference only",
+    "incident_summary": "On March 1, 2026, an Iranian one-way attack drone struck a tactical operations center at Port Shuaiba, Kuwait, killing six soldiers of the U.S. Army's 103rd Sustainment Command and wounding more than 20 others. The Washington Post, based on interviews with 17 soldiers and other witnesses, reported that commanders had received repeated, specific warnings before the attack that the facility was highly vulnerable to drone strikes, and ignored them. Survivors told CBS News the facility's defenses -- T-walls designed to stop mortar and rocket fragments, not aerial drone strikes, with vertical blast barricades but no overhead protection -- were essentially nonexistent against the actual threat: one survivor rated the position's drone-specific defense as 'none.' Survivors also said the unit had been positioned within Iranian missile and drone range even as other units in the area were relocated, and that after the strike, senior officers abandoned the building rather than organizing aid for the wounded, leaving triage disorganized amid chaotic, severe injuries (perforated eardrums, heavy bleeding, head wounds). Secretary Hegseth publicly described the attacking drone as a 'squirter' that penetrated the defenses of a 'fortified' position -- a characterization survivors directly dispute, with one soldier stating: 'Painting a picture that 'one squeaked through' is a falsehood. I want people to know the unit was unprepared to provide any defense for itself.' Soldiers who were present say they fear no one will be held accountable for the command decisions that left them exposed.",
+    "contested": true,
+    "elements_required": [
+      "Commanders received specific, repeated warnings before the attack that the facility was vulnerable to drone strikes and did not act on them",
+      "The facility's actual defensive infrastructure was inadequate against the specific threat (drones) despite public characterization as 'fortified'",
+      "Senior officers' conduct after the strike (allegedly abandoning the building rather than organizing aid) is itself put at issue by survivor accounts, separate from the pre-strike positioning decision",
+      "The Secretary of Defense's public characterization of the incident is directly and specifically disputed by on-record survivor accounts, not merely general criticism"
+    ],
+    "evidence": [
+      {
+        "type": "testimony",
+        "description": "Washington Post interviews with 17 soldiers and other witnesses reporting that commanders received repeated warnings the facility was highly vulnerable to drone strikes and ignored them, and that soldiers were sent to a deliberately unsafe location without adequate drone protection",
+        "source_url": "https://www.washingtonpost.com/national-security/2026/07/12/survivors-iranian-attack-that-killed-6-us-troops-say-generals-ignored-warnings/",
+        "maps_to_element": "Commanders received specific warnings and did not act on them"
+      },
+      {
+        "type": "testimony",
+        "description": "CBS News interviews with survivors describing the facility's defenses as designed for mortar/rocket fragments rather than aerial drone attack, with one soldier rating drone-specific defense as 'none,' and directly disputing Secretary Hegseth's public 'fortified'/'squirter' characterization of the incident",
+        "source_url": "https://www.cbsnews.com/news/iran-war-kuwait-drone-attack-survivors-us-army/",
+        "maps_to_element": "Facility's actual defenses were inadequate despite official 'fortified' characterization"
+      },
+      {
+        "type": "testimony",
+        "description": "Survivors reported senior officers abandoned the building after the strike rather than organizing aid for the wounded, contributing to disorganized triage amid severe injuries",
+        "source_url": "https://www.cbsnews.com/news/iran-war-kuwait-drone-attack-survivors-us-army/",
+        "maps_to_element": "Senior officers' post-strike conduct is separately at issue"
+      },
+      {
+        "type": "public_record",
+        "description": "Washington Post investigative reporting with satellite/ground imagery documenting the base's minimal protective infrastructure against the March 1, 2026 strike that killed 6 and wounded 20+",
+        "source_url": "https://www.washingtonpost.com/investigations/2026/03/04/troops-killed-kuwait-base-iran-attack/",
+        "maps_to_element": "Facility's actual defenses were inadequate"
+      }
+    ],
+    "status": "Ongoing as of July 2026 -- soldiers who survived say they fear the investigation will not result in accountability for the command decisions involved; no public findings assigning responsibility identified as of this entry",
+    "rebuttal_anticipated": "Likely defense: wartime positioning and infrastructure decisions involve resource and threat-assessment tradeoffs made under uncertainty, and any forward-deployed logistics unit faces some residual risk that cannot be fully eliminated regardless of prior warnings; Secretary Hegseth's public characterization may reflect the information available to him at the time rather than a deliberate misrepresentation.",
+    "comeback": "The specific facts distinguishing this from an inherent wartime risk are the survivors' detailed, on-record account of repeated specific warnings that went unheeded, positioning within a known threat radius while other units were relocated out of it, and post-strike conduct (officers allegedly abandoning wounded soldiers) that is a separate and additional issue from the initial positioning decision -- none of which is explained by ordinary wartime uncertainty, and all of which directly contradicts the Secretary's own public description of the facility as 'fortified.'",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of military leadership downplaying or contesting unfavorable accounts of specific incidents during the Iran campaign (see also this tracker's Iran school-strike entry, where CENTCOM similarly restricted findings under reported White House pressure to portray the campaign favorably).",
+    "last_updated": "2026-07-27",
+    "date_added": "2026-07-27",
+    "confidence_note": "HIGH confidence on the strike's occurrence, casualty figures, and the specific, detailed survivor accounts -- corroborated by two separate Washington Post investigations (one with satellite imagery) and a detailed CBS News report with named, on-record quotes from soldiers who were present, including their direct rebuttal of Hegseth's specific public characterization. MODERATE confidence on attributing the pre-strike positioning decision to a specific named commander, since sourcing describes 'commanders' generally rather than identifying a single accountable individual by name in reporting reviewed.",
+    "section_summaries": {
+      "incident_summary": "Six soldiers died and 20+ were wounded in a March 2026 Iranian drone strike on an undefended-against-drones Kuwait facility that commanders had been specifically warned about; survivors dispute Hegseth's public 'fortified' characterization and say officers abandoned the wounded after the strike.",
+      "confidence_note": "Well-corroborated by two Washington Post investigations and detailed, named CBS News survivor testimony directly rebutting Hegseth's own public account; the specific commander responsible for the positioning decision is not individually named in sourcing reviewed."
     }
   },
   {
@@ -1476,6 +1624,43 @@
     }
   },
   {
+    "official": "Robert F. Kennedy Jr., Secretary of Health and Human Services",
+    "offense_category": "Hatch Act Violation -- using the authority of a federal office to influence the outcome of an election by pressuring third-party candidates to withdraw from congressional races",
+    "incident_summary": "Sen. Ron Wyden filed a complaint with the U.S. Office of Special Counsel (OSC) alleging that HHS Secretary Robert F. Kennedy Jr. violated the Hatch Act by placing phone calls urging two Libertarian congressional candidates in Iowa to withdraw from their races: a June 8, 2026 call to Marco Battaglia, running in Iowa's 3rd congressional district, and a June 11, 2026 call to Rick Stewart, running in Iowa's 2nd congressional district. Donald Sherman, president of the nonpartisan watchdog group Citizens for Responsibility and Ethics in Washington (CREW), reviewed a recording of at least one call and said Kennedy invoked his official position and responsibilities as HHS Secretary multiple times during the conversation, calling it a 'clear violation' of the Hatch Act warranting OSC investigation. The complaint seeks an OSC investigation into whether Kennedy improperly used his cabinet position to influence the composition of two competitive U.S. House races. Trump has separately taken steps during his second term to assert greater control over OSC, including firing the office's head earlier in the term, raising questions about whether the currently constituted office will investigate the complaint independently.",
+    "contested": true,
+    "elements_required": [
+      "A federal employee covered by the Hatch Act (a cabinet secretary) made direct contact with declared candidates in ongoing federal elections",
+      "The official invoked or referenced their federal office/authority during those contacts, rather than acting purely in a private political capacity",
+      "The purpose or effect of the contact was to influence the outcome of the election (here, by seeking candidate withdrawal)",
+      "The Office of Special Counsel is institutionally positioned to investigate and act on the complaint independently of the administration"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Sen. Ron Wyden's Hatch Act complaint filed with OSC, alleging Kennedy called Libertarian candidates Marco Battaglia (Iowa's 3rd district, June 8, 2026) and Rick Stewart (Iowa's 2nd district, June 11, 2026) urging them to withdraw from their races",
+        "source_url": "https://apnews.com/article/rfk-jr-kennedy-hatch-act-iowa-wyden-cd81a5163a091b939121df539bf35330",
+        "maps_to_element": "Direct contact with declared candidates in ongoing federal elections"
+      },
+      {
+        "type": "testimony",
+        "description": "CREW president Donald Sherman's on-record assessment, based on a review of a recording, that Kennedy invoked his official HHS position and responsibilities multiple times during at least one of the calls, calling it a 'clear violation' warranting OSC investigation",
+        "source_url": "https://apnews.com/article/rfk-jr-kennedy-hatch-act-iowa-wyden-cd81a5163a091b939121df539bf35330",
+        "maps_to_element": "Official invoked federal office/authority during the contacts"
+      }
+    ],
+    "status": "Complaint filed with OSC as of July 2026; no OSC finding or investigation outcome identified as of this entry",
+    "rebuttal_anticipated": "Likely defense: cabinet officials, like other public figures, retain some capacity for personal political activity and commentary on elections, and encouraging a candidate to withdraw is not per se unlawful unless it specifically leverages federal office/authority as the complaint alleges; the calls' full content and context have not been independently verified beyond the recording CREW reviewed and Wyden's complaint characterization.",
+    "comeback": "The specific allegation is not that Kennedy expressed a personal political opinion, but that he invoked his HHS position and responsibilities during the calls themselves, which is the precise conduct the Hatch Act's use-of-official-authority provisions are designed to prevent -- and a nonpartisan ethics watchdog's independent review of the recording, not merely the complaining senator's characterization, supports that specific reading.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Given Trump's documented efforts to assert control over OSC, including firing its prior head, there is a genuine open question -- flagged in reporting itself, not merely by critics -- about whether OSC in its current form will investigate a complaint against a sitting cabinet official independently; this doesn't bear on whether the underlying conduct occurred, but is relevant context for assessing whether accountability is likely to follow.",
+    "last_updated": "2026-07-27",
+    "date_added": "2026-07-27",
+    "confidence_note": "MODERATE-HIGH confidence -- the complaint's existence, its specific factual allegations (dates, candidates, districts), and CREW's independent on-record assessment based on a reviewed recording are corroborated across AP's widely syndicated reporting. MODERATE confidence on the ultimate legal characterization, since no OSC finding exists yet and this entry relies on a senator's complaint plus one watchdog's assessment rather than an adjudicated determination.",
+    "section_summaries": {
+      "incident_summary": "Wyden filed an OSC Hatch Act complaint alleging RFK Jr. called two Libertarian Iowa House candidates urging them to drop out, with a CREW watchdog reviewing a recording and calling it a 'clear violation' based on Kennedy's invocation of his HHS role during the calls.",
+      "confidence_note": "The complaint's factual specifics and CREW's assessment are well-corroborated by widely syndicated AP reporting; no OSC ruling exists yet, and there's an open question about whether the current OSC will investigate independently."
+    }
+  },
+  {
     "official": "Brooke Rollins, Secretary of Agriculture",
     "offense_category": "Potential First Amendment Establishment Clause Violation (government endorsement/coercion of religion) and related APA claims — active federal civil litigation (not criminal); filed in U.S. District Court for the Northern District of California",
     "incident_summary": "USDA employees filed a lawsuit against Rollins over a series of escalating religious messages sent department-wide, culminating in an April 2026 Easter email referencing 'sin,' being 'destroyed,' and Christ's resurrection as 'the foundation of our faith.' The formal complaint, National Federation of Federal Employees, et al. v. Rollins (No. 3:26-cv-04406, N.D. Cal., filed May 13, 2026), was brought by the National Federation of Federal Employees (representing more than 19,000 USDA employees) together with seven individual USDA employees from Jewish, Buddhist, Pagan, and atheist backgrounds. Plaintiffs allege the messages, which grew markedly more explicitly Christian over a roughly 10-month period beginning July 2025, were 'unconstitutionally coercive' and left non-Christian or non-religious employees feeling 'unwelcome, excluded and like outsiders,' with one plaintiff reporting she was told requesting removal from the distribution list would 'create trouble' for her, and another stating he felt the messaging conveyed he was 'going to hell' for not sharing Rollins's beliefs. The complaint notably cites USDA's own November 2025 internal memorandum, which explicitly forbids officials from using 'official authority to pressure subordinates' regarding religious beliefs, arguing Rollins's own department policy contradicts her conduct.",
@@ -1553,6 +1738,55 @@
     "section_summaries": {
       "incident_summary": "USDA staff sued Rollins over months of increasingly explicit religious emails, arguing the messages violated the department's own anti-coercion policy.",
       "confidence_note": "The email pattern and the lawsuit itself are well documented, but whether courts will call this unconstitutional is a genuinely open question."
+    }
+  },
+  {
+    "official": "Marco Rubio, Secretary of State",
+    "offense_category": "Federal Records Act Compliance / Candor to the Court -- Rubio's own legal team told a federal court he does not use Signal's auto-delete function, then roughly two months later Rubio personally activated disappearing messages in an official chat, and the State Department subsequently walked back its no-auto-delete claim -- NOT charged, contested facts, included for reference only",
+    "incident_summary": "After The Atlantic revealed Rubio had participated in an auto-deleting Signal chat with other senior national-security officials discussing Yemen strike war plans (the chat at the center of this tracker's separate Hegseth Signal/Yemen entry), Democracy Forward sued for the underlying records under FOIA. In that litigation, a federal judge (Boasberg) sought assurances the Signal records had been preserved. Rubio's legal team told the court he uses software called LeapXpert, installed on his government phone as of July 21, 2025, that preserves 'all messages sent or received, regardless of whether the sender configures a message to auto-delete'; a State Department adviser stated separately that 'Secretary Rubio does not use the auto-deletion functions in third-party messaging applications when sending communications that may include federal records.' Approximately two months after those assurances were made to the court, Rubio activated disappearing-message settings in a Signal chat with senior officials discussing administration matters -- directly contradicting his own legal team's representation. Subsequently, as part of a broader settlement in which multiple State Department components disclosed their recordkeeping practices, the department quietly walked back its earlier claim, instead stating only that the LeapXpert application 'collected messages even if those messages otherwise have a deletion timeline setting enabled' -- an acknowledgment that Rubio does, in fact, use auto-delete, contrary to what the court had been told.",
+    "contested": false,
+    "elements_required": [
+      "Rubio's legal team made a specific representation to a federal court that he does not use auto-delete messaging functions for records that may include federal records",
+      "Rubio personally activated auto-delete/disappearing messages in an official chat within a matter of months of that representation",
+      "The State Department subsequently altered its official position, walking back the original no-auto-delete claim rather than defending it",
+      "The underlying records relate to an official matter (Yemen war-plan discussions) already subject to preservation obligations under the Federal Records Act"
+    ],
+    "evidence": [
+      {
+        "type": "court_filing",
+        "description": "Rubio's legal team's representation to the federal court that LeapXpert software preserves 'all messages sent or received, regardless of whether the sender configures a message to auto-delete,' and a State Department adviser's statement that Rubio 'does not use the auto-deletion functions' for records that may include federal records",
+        "source_url": "https://www.rawstory.com/marco-rubio-2677224368/",
+        "maps_to_element": "Specific representation made to a federal court"
+      },
+      {
+        "type": "public_record",
+        "description": "Reporting that approximately two months after the court representation, Rubio activated disappearing-message settings in a Signal chat with senior officials on administration matters, directly contradicting the earlier claim",
+        "source_url": "https://www.rawstory.com/marco-rubio-2677224368/",
+        "maps_to_element": "Rubio personally activated auto-delete shortly after the court representation"
+      },
+      {
+        "type": "public_record",
+        "description": "The Atlantic's reporting that the State Department, in disclosures made as part of a broader settlement, walked back its earlier no-auto-delete claim, instead acknowledging the LeapXpert application 'collected messages even if those messages otherwise have a deletion timeline setting enabled'",
+        "source_url": "https://www.theatlantic.com/national-security/2026/07/marco-rubio-signal-state-department/687906/",
+        "maps_to_element": "The State Department subsequently altered its official position"
+      },
+      {
+        "type": "court_filing",
+        "description": "A federal judge (Boasberg) ordered assurances regarding preservation of Trump officials' Signal messages tied to the Yemen war-plan chat FOIA litigation",
+        "source_url": "https://noticias.foxnews.com/politics/judge-boasberg-orders-rubio-refer-trump-officials-signal-messages-doj-ensure-preservation.print",
+        "maps_to_element": "Underlying records relate to an official matter already subject to preservation obligations"
+      }
+    ],
+    "status": "Ongoing -- FOIA litigation and recordkeeping disclosures continuing as of July 2026; no court finding on the credibility of Rubio's original representation identified as of this entry",
+    "rebuttal_anticipated": "Likely defense: the LeapXpert software's message-capture function may operate independently of whether a user's own auto-delete setting is enabled, meaning Rubio's team's original representation (that records are preserved regardless of auto-delete settings) could remain technically accurate even if Rubio himself later enabled auto-delete on his end -- the underlying records may still exist in the preservation system regardless of the optics of the setting change.",
+    "comeback": "Even under the most charitable reading (that LeapXpert continued capturing messages despite Rubio's setting change), the specific representation to the court was that 'Secretary Rubio does not use the auto-deletion functions' -- a factual claim about his own behavior, not merely about whether records are ultimately recoverable -- and that claim was contradicted within months by Rubio's own conduct, then quietly abandoned by the department itself rather than defended, which is the more direct accountability problem this entry documents.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Connects to this tracker's separate Hegseth Signal/Yemen entry (the same underlying war-plan chat) and reflects a broader pattern of senior officials' use of auto-deleting messaging platforms for official business creating downstream federal-records and litigation-credibility problems.",
+    "last_updated": "2026-07-27",
+    "date_added": "2026-07-27",
+    "confidence_note": "HIGH confidence -- the court representations, the timeline of Rubio's setting change, and the State Department's walked-back position are corroborated across The Atlantic's original reporting and Raw Story's account of the court filings, with direct quotation of both the original and revised State Department claims. MODERATE confidence on whether this rises to a formal Federal Records Act violation or contempt-adjacent issue, since no court has yet ruled on the credibility or legal consequences of the contradiction as of this entry.",
+    "section_summaries": {
+      "incident_summary": "Rubio's lawyers told a federal court he doesn't use Signal auto-delete for records that may include federal records; two months later he activated disappearing messages in an official chat, and the State Department quietly walked back its original claim rather than defend it.",
+      "confidence_note": "Well-corroborated by The Atlantic's reporting and court-filing coverage with direct quotes from both the original and revised State Department positions; no court ruling yet on the legal consequences of the contradiction."
     }
   },
   {
