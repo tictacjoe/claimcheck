@@ -47,6 +47,76 @@
     "short_summary": "Energy/environmental rules now auto-expire after 1 year unless agencies act to renew them."
   },
   {
+    "id": "bears-ears-grand-staircase-monuments-shrunk-2026",
+    "rule_name": "Presidential proclamations reducing Bears Ears and Grand Staircase-Escalante National Monuments by ~90%",
+    "administration": "Trump II",
+    "agency": "Department of the Interior / Executive Office of the President",
+    "domain": "environmental",
+    "status": "Signed -- proclamations take effect September 11, 2026 (60 days after signing); legal challenges from tribes and conservation groups expected",
+    "date_of_action": "2026-07-13 (executive orders/proclamations signed) through 2026-09-11 (effective date)",
+    "original_rule_summary": "Bears Ears National Monument (established 2016, roughly 1.36 million acres) and Grand Staircase-Escalante National Monument (established 1996, roughly 1.87 million acres) had federal Antiquities Act protection preventing most commercial development, including oil, gas, uranium, coal, and mineral extraction, within their boundaries. Bears Ears in particular was designated to protect land sacred to multiple Native American tribes. This is not the first attempt to shrink these monuments -- Trump previously reduced them substantially in his first term, a move Biden reversed in 2021.",
+    "what_changed": "On July 13, 2026, Trump signed a pair of executive orders/proclamations in the Oval Office, surrounded by Utah's full congressional delegation, Gov. Spencer Cox, and state House Speaker Mike Schultz, reducing Bears Ears National Monument from approximately 1.36 million acres to about 121,000 acres and Grand Staircase-Escalante from approximately 1.87 million acres to about 182,000 acres -- a combined reduction of nearly 3 million acres, roughly 90% of both monuments' prior size. The proclamations take effect 60 days after signing, on September 11, 2026. The move is part of Trump's broader push to expand oil, gas, uranium, coal, and mineral development on public lands following his early-2025 declaration of a national energy emergency, and follows a similar, smaller reduction attempt in Trump's first term that Biden reversed in 2021. Conservationists and tribal representatives are expected to challenge the move in court and warn it opens previously protected land -- including sites sacred to multiple Native American tribes -- to extraction industry development.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Personally signed both proclamations in the Oval Office, with Utah's congressional delegation and state officials present, framing the move as part of the administration's broader public-lands energy-development agenda."
+    },
+    "corporate_beneficiaries": [
+      {
+        "name": "Oil, gas, uranium, coal, and mineral extraction companies with interests in the affected Utah public lands",
+        "connection": "Nearly 3 million acres previously under Antiquities Act monument protection would become newly available for extraction leasing and development under the reduced monument boundaries."
+      }
+    ],
+    "estimated_health_impact": {
+      "summary": "This entry documents a public-lands and environmental/cultural-heritage rollback rather than a direct public-health standard; the primary harms alleged are to protected ecosystems, archaeological and cultural sites (particularly land sacred to Native American tribes), and the durability of federal land protections generally, given this is the second such reduction attempt in a decade.",
+      "figures": [
+        {
+          "metric": "Bears Ears National Monument acreage, before and after",
+          "value": "~1,360,000 acres -> ~121,000 acres",
+          "source": "Utah News Dispatch / KUER, July 2026"
+        },
+        {
+          "metric": "Grand Staircase-Escalante National Monument acreage, before and after",
+          "value": "~1,870,000 acres -> ~182,000 acres",
+          "source": "Utah News Dispatch / KUER, July 2026"
+        },
+        {
+          "metric": "Combined acreage removed from monument protection",
+          "value": "~3,000,000 acres (~90% reduction)",
+          "source": "Outside Online / Washington Post, July 2026"
+        }
+      ],
+      "caveat": "This is the second time Trump has reduced these specific monuments -- his first-term reduction was reversed by the Biden administration in 2021 -- so the durability of this action is itself uncertain and will likely depend on litigation outcomes and future administrations, not solely on this proclamation."
+    },
+    "confidence_note": "HIGH confidence -- corroborated extensively across Deseret News, Utah News Dispatch, Salt Lake Tribune, KUER, Washington Post, Newsweek, Outside, and CBS News, with consistent acreage figures and signing details across outlets.",
+    "section_summaries": {
+      "what_changed": "Trump signed proclamations cutting Bears Ears and Grand Staircase-Escalante national monuments by about 90% combined (nearly 3 million acres), opening the removed land to oil, gas, uranium, coal, and mineral development, effective September 11, 2026.",
+      "estimated_impact": "The reduction reopens land -- including sites sacred to Native American tribes -- to extraction industry development; this is the second such reduction of these monuments in a decade, following a first-term cut that Biden reversed.",
+      "confidence_note": "Extensively corroborated across many independent regional and national outlets with consistent acreage and signing details."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "Utah News Dispatch — President Trump shrinks Bears Ears and Grand Staircase-Escalante — again",
+        "url": "https://utahnewsdispatch.com/2026/07/13/president-trump-shrinks-bears-ears-and-grand-staircase-escalante-again/"
+      },
+      {
+        "name": "KUER — Trump slashes Utah's Bears Ears and Grand Staircase-Escalante by 90%",
+        "url": "https://www.kuer.org/politics-government/2026-07-13/trump-shrinks-bears-ears-grand-staircase-escalante-utah"
+      },
+      {
+        "name": "Washington Post — Trump dramatically shrinks two national monuments in the West — again",
+        "url": "https://www.washingtonpost.com/climate-environment/2026/07/13/trump-again-dramatically-cuts-size-two-national-monuments-utah/"
+      },
+      {
+        "name": "Deseret News — Trump signs order shrinking Bears Ears, Grand Staircase Escalante national monuments",
+        "url": "https://www.deseret.com/politics/2026/07/13/trump-sign-order-shrinking-bears-ears-grand-staircase-escalante/"
+      }
+    ],
+    "short_summary": "Trump cut Bears Ears and Grand Staircase-Escalante monuments by ~90% combined (~3M acres), opening the land to oil/gas/uranium/coal/mineral development -- the second such reduction in a decade after Biden reversed the first."
+  },
+  {
     "id": "cfpb-payday-lending-rollback-trump1",
     "rule_name": "CFPB Payday Lending Underwriting Rollback",
     "administration": "Trump I (2017-2021)",
@@ -566,6 +636,59 @@
     ]
   },
   {
+    "id": "esa-harm-definition-rollback-2026",
+    "rule_name": "Rescission of the Endangered Species Act's regulatory definition of \"harm\" to include habitat destruction (50 C.F.R. § 17.3)",
+    "administration": "Trump II",
+    "agency": "Department of the Interior (Fish and Wildlife Service) and Department of Commerce (NOAA/NMFS)",
+    "domain": "environmental",
+    "status": "Finalized -- rule uploaded to the Federal Register July 2026, effective September 14, 2026; multiple lawsuits filed or noticed",
+    "date_of_action": "2026-07-11 (rule announced) through 2026-09-14 (effective date)",
+    "original_rule_summary": "Since 1975 (revised 1981), federal regulations defined 'harm' to a protected species under the Endangered Species Act to include 'significant habitat modification or degradation where it actually kills or injures wildlife by significantly impairing essential behavioral patterns, including breeding, feeding, or sheltering.' This definition meant that destroying or significantly degrading a species' critical habitat -- not just directly killing or injuring an individual animal -- could itself violate the ESA's prohibition on 'take' of a listed species, and was the legal basis on which courts and agencies had evaluated development, logging, mining, and drilling proposals in critical habitat for nearly five decades.",
+    "what_changed": "On July 11, 2026, the Departments of the Interior and Commerce announced they were rescinding the regulatory definition of 'harm' that had included significant habitat modification or degradation, eliminating that language entirely from the operative regulation. The rule was uploaded to the Federal Register and takes effect September 14, 2026. Under the new, narrower definition, development activities that destroy or degrade a protected species' habitat would no longer, on their own, constitute unlawful 'harm' to that species -- only actions that directly kill or injure individual animals would qualify. The Center for Biological Diversity, Sierra Club, and Conservation Law Foundation immediately filed suit, arguing the rescission 'violates the core purpose of the statute and decades of legal precedent'; Defenders of Wildlife separately sent a notice of intent to sue, arguing that 'destroying the habitat of endangered wildlife harms that species.'",
+    "primary_proponent": {
+      "name": "Doug Burgum",
+      "role": "Secretary of the Interior",
+      "note": "Interior, jointly with the Department of Commerce, announced and finalized the rescission of the habitat-modification language from the ESA 'harm' definition."
+    },
+    "corporate_beneficiaries": [
+      {
+        "name": "Logging, mining, and oil and gas development interests operating in or near critical habitat for listed species",
+        "connection": "Development projects that significantly degrade protected species' habitat -- without directly killing or injuring individual animals -- would no longer require the same level of ESA review or mitigation that the habitat-modification definition had required for nearly 50 years."
+      }
+    ],
+    "estimated_health_impact": {
+      "summary": "This entry documents an environmental/conservation regulatory rollback rather than a direct public-health standard; the harm alleged is to protected species and their habitats (forests, streams, deserts, oceans, coastlines) rather than to human health directly, though habitat and ecosystem degradation carries broader environmental consequences.",
+      "figures": [
+        {
+          "metric": "Years the habitat-modification 'harm' definition had been in effect before rescission",
+          "value": "~51 (1975, revised 1981, rescinded 2026)",
+          "source": "ABC News, July 2026"
+        },
+        {
+          "metric": "Environmental organizations that filed suit or noticed intent to sue",
+          "value": "4 (Center for Biological Diversity, Sierra Club, Conservation Law Foundation, Defenders of Wildlife)",
+          "source": "ABC News, July 2026"
+        }
+      ],
+      "caveat": "The rule is not yet in effect as of this entry (effective date September 14, 2026) and is already subject to active litigation; its ultimate legal survival is not yet determined. This entry does not catalog specific development projects that would proceed under the new definition, since sourcing reviewed did not identify named projects directly tied to this rule change."
+    },
+    "confidence_note": "HIGH confidence -- the rule's substance, timeline, and litigation response are corroborated in detailed ABC News reporting naming the specific plaintiff organizations and quoting their legal arguments directly; the underlying Federal Register filing is a public record.",
+    "section_summaries": {
+      "what_changed": "Interior and Commerce rescinded the ESA's ~50-year-old regulatory definition of 'harm' that included significant habitat destruction, meaning only direct killing or injury of individual animals -- not habitat degradation -- now counts as unlawful harm to a protected species.",
+      "estimated_impact": "Development in critical habitat (logging, mining, drilling) faces less ESA-based scrutiny under the new definition; four environmental organizations have sued or noticed intent to sue, arguing the change contradicts the statute's purpose and decades of legal precedent.",
+      "confidence_note": "Well-corroborated by detailed reporting naming the specific rule, its effective date, and the plaintiff organizations' legal arguments; the rule's ultimate survival in litigation is undetermined."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "ABC News — Environmentalists decry Trump admin's changing of \"harm\" under Endangered Species Act",
+        "url": "https://abcnews.com/US/environmentalists-decry-trump-admins-changing-harm-endangered-species/story?id=134744300"
+      }
+    ],
+    "short_summary": "Interior/Commerce rescinded the ~50-year-old ESA definition of \"harm\" that included habitat destruction, so only direct killing/injury of animals now counts -- easing ESA review for development in critical habitat; 4 environmental groups suing."
+  },
+  {
     "id": "fcc-net-neutrality-repeal-trump1",
     "rule_name": "FCC Net Neutrality Repeal (\"Restoring Internet Freedom Order\")",
     "administration": "Trump I (2017-2021)",
@@ -1030,6 +1153,90 @@
     ],
     "short_summary": "Paused stricter mine silica dust limits and cut federal mine-safety research capacity.",
     "last_updated": "2026-07-26"
+  },
+  {
+    "id": "offshore-wind-coal-taxpayer-funded-rollback-2025-2026",
+    "rule_name": "Federal buyouts to cancel offshore wind leases; DOE Section 202(c) emergency orders forcing aging coal plants to stay online",
+    "administration": "Trump II",
+    "agency": "Department of the Interior (offshore wind leasing); Department of Energy (Section 202(c) emergency orders); Department of the Treasury (buyout payments)",
+    "domain": "cross-cutting (structural/process rule, energy/environmental focus)",
+    "status": "Ongoing -- buyouts and emergency coal orders both continuing as of mid-2026",
+    "date_of_action": "2025-05 (first DOE Section 202(c) coal emergency orders) through 2026-07 (continued buyouts and coal-plant orders)",
+    "original_rule_summary": "Offshore wind leases had been awarded and projects were underway (including by TotalEnergies off New York and North Carolina) under normal federal leasing and permitting processes established under prior administrations; separately, aging coal plant operators had scheduled retirements through normal grid-planning and utility-commission processes, coordinated with regional grid operators to ensure adequate replacement capacity.",
+    "what_changed": "After federal courts blocked Trump's attempts to halt offshore wind development through direct executive action, the administration shifted to a buyout strategy: paying developers to voluntarily forfeit already-awarded offshore wind leases. As of mid-2026, buyout agreements have canceled nine future wind farms on the East and West coasts at a cost of roughly $2.7 billion in taxpayer funds. French energy company TotalEnergies forfeited its leases for New York and North Carolina offshore wind projects in exchange for $928 million reimbursing its original lease expenditures -- money TotalEnergies has said it will reinvest into oil and gas projects, including a liquefied natural gas export facility in Texas. Separately, starting in May 2025, the Department of Energy began issuing 90-day emergency orders under Section 202(c) of the Federal Power Act to prevent the retirement of aging coal-fired power plants, overriding operators' own retirement schedules; DOE has used this authority on at least five plants from Michigan to Washington State, including preventing Colorado's Craig Station Unit 1 from retiring one day before its scheduled date. A 2025 Grid Strategies report estimated the cost of keeping these plants open at over $200 million so far, with total ratepayer costs potentially exceeding $3 billion annually if the practice extends to more plants scheduled for retirement before 2028; Mother Jones separately reported the administration has directed roughly $1.1 billion specifically toward extending coal plant life, alongside lowered federal coal royalty rates and expanded coal leasing.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Directed the shift toward using federal buyouts to cancel offshore wind leases after courts blocked direct executive action, and DOE's use of Section 202(c) emergency authority to keep coal plants operating beyond their scheduled retirements."
+    },
+    "corporate_beneficiaries": [
+      {
+        "name": "TotalEnergies",
+        "connection": "Received $928 million in federal buyout payments to forfeit its New York and North Carolina offshore wind leases, which it has said it will reinvest into oil and gas projects including a Texas LNG export facility."
+      },
+      {
+        "name": "Aging coal-plant operators (Michigan, Colorado, Indiana, Washington State, among others)",
+        "connection": "Benefit from DOE emergency orders that keep otherwise-scheduled-for-retirement coal plants operating and generating revenue, with the added costs passed to ratepayers rather than absorbed by the operators."
+      }
+    ],
+    "estimated_health_impact": {
+      "summary": "This entry primarily documents a fiscal and energy-policy rollback rather than a direct public-health regulatory rollback -- the harm alleged is financial (taxpayer and ratepayer cost) and climate-related (extending fossil fuel generation, foregoing clean energy capacity), rather than a specific health-standard being loosened.",
+      "figures": [
+        {
+          "metric": "Total taxpayer cost of offshore wind lease buyouts",
+          "value": "$2,700,000,000 (9 wind farms canceled)",
+          "source": "Washington Examiner / Fortune, 2026"
+        },
+        {
+          "metric": "Buyout payment to TotalEnergies specifically",
+          "value": "$928,000,000",
+          "source": "Fortune / Stateline, 2026"
+        },
+        {
+          "metric": "Cost of coal-plant-retention emergency orders identified so far",
+          "value": "$200,000,000+ (potentially $3,000,000,000+/year if scaled to more plants)",
+          "source": "Grid Strategies 2025 report, cited by Stateline"
+        },
+        {
+          "metric": "Additional coal-life-extension spending reported separately",
+          "value": "~$1,100,000,000",
+          "source": "Mother Jones, July 2026 -- not independently corroborated in other sourcing reviewed for this entry"
+        },
+        {
+          "metric": "Coal plants kept open via DOE Section 202(c) emergency orders",
+          "value": "5+ (Michigan, Colorado, Indiana, Washington State, among others)",
+          "source": "Stateline / DOE press releases, 2026"
+        }
+      ],
+      "caveat": "The specific $1.1 billion coal-extension figure comes from a single outlet (Mother Jones) and was not independently corroborated across the other sources reviewed for this entry, which instead documented the DOE 202(c) mechanism and a lower, more conservatively sourced $200 million+ current cost estimate (with $3 billion/year as a projection, not a current total). Present the $1.1 billion figure with appropriately lower confidence than the well-corroborated $2.7 billion wind-buyout figure."
+    },
+    "confidence_note": "HIGH confidence on the offshore wind buyout figures and the TotalEnergies reinvestment detail, corroborated across Washington Examiner, Fortune (two separate articles), Stateline, and The Conversation. HIGH confidence on the DOE Section 202(c) coal-plant mechanism and its use on multiple named plants, corroborated across DOE's own press releases, Stateline, EDF, Earthjustice, and NRDC. MODERATE confidence on the specific $1.1 billion coal-extension figure and the royalty-rate/leasing details, which rest on a single outlet (Mother Jones) not independently corroborated in sourcing reviewed.",
+    "section_summaries": {
+      "what_changed": "After courts blocked direct executive action, Trump's administration paid $2.7 billion to cancel 9 offshore wind farms (including $928M to TotalEnergies, which is reinvesting in oil/gas), while DOE used emergency authority to keep at least 5 aging coal plants running past their scheduled retirements.",
+      "estimated_impact": "TotalEnergies is redirecting its buyout payment into oil and gas projects; ratepayers face rising costs from coal plants kept open past retirement, potentially reaching billions annually if the practice scales up.",
+      "confidence_note": "Wind-buyout figures and the DOE coal mechanism are well-corroborated across multiple independent outlets and DOE's own statements; the specific $1.1B coal-extension figure rests on a single source."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "Washington Examiner — Trump administration spending nearly $3 billion to kill offshore wind projects",
+        "url": "https://www.washingtonexaminer.com/policy/4634237/trump-administration-spending-billions-kill-offshore-wind-projects/"
+      },
+      {
+        "name": "Fortune — Trump spent nearly $2 billion of taxpayer money to undo wind projects already underway",
+        "url": "https://fortune.com/2026/04/29/trump-spent-nearly-2-billion-of-taxpayer-money-to-undo-wind-projects-already-underway-dems-demand-answers/"
+      },
+      {
+        "name": "Stateline — Trump is forcing coal plants to stay open. It could cost customers billions.",
+        "url": "https://stateline.org/2026/03/19/trump-is-forcing-coal-plants-to-stay-open-it-could-cost-customers-billions/"
+      },
+      {
+        "name": "Mother Jones — Trump's Energy Policies: Offshore Wind, Coal Subsidies, and Public Taxpayer Spending",
+        "url": "https://www.motherjones.com/politics/2026/07/trump-energy-policies-offshore-wind-coal-subsidies-public-taxpayer-spending/"
+      }
+    ],
+    "short_summary": "Federal buyouts canceled 9 offshore wind farms ($2.7B, including $928M to TotalEnergies now reinvesting in oil/gas) while DOE used emergency orders to keep aging coal plants running past retirement, at growing ratepayer cost."
   },
   {
     "id": "osha-injury-reporting-rollback-trump1",
