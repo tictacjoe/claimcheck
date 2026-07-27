@@ -111,6 +111,55 @@
   },
   {
     "official": "Todd Blanche, Acting Attorney General (nominated to permanent post)",
+    "offense_category": "Prosecutorial/Grand Jury Overreach and Voter/Election-Worker Intimidation Pattern -- no criminal charge against Blanche personally; DOJ's subpoena was itself judicially found unreasonable",
+    "incident_summary": "Following an FBI search warrant executed at Fulton County, Georgia's election hub in January 2026 (seizing hundreds of boxes of ballots and other 2020 election records), DOJ issued a grand jury subpoena demanding the names and personal contact information of every Fulton County employee and volunteer poll worker who worked the 2020 election. Fulton County challenged the subpoena, arguing it was meant to 'target, harass and punish the President's perceived political opponents.' On July 7, 2026, U.S. District Judge William Ray -- a Trump appointee -- quashed the subpoena, calling its scope 'staggering' and writing that 'given the low need for the subpoenaed information and the highly burdensome nature of the disclosure of the same, the Subpoena is unreasonable and must be quashed.' Judge Ray added that grand juries working with federal prosecutors 'does not give the DOJ the right to use the Grand Jury to do whatever the DOJ wants.'",
+    "contested": false,
+    "elements_required": [
+      "DOJ sought sweeping personal information (names and contact details of every 2020 Fulton County poll worker/employee) far beyond what a legitimate, narrowly-targeted investigation would require",
+      "A federal court independently found the subpoena's burden disproportionate to any legitimate investigative need -- not merely a characterization by the targeted party",
+      "The subpoena followed a documented pattern of DOJ action specifically targeting a jurisdiction Trump has publicly and falsely blamed for his 2020 loss",
+      "Acting Attorney General Blanche is the accountable DOJ official for the department's subpoena practices, whether or not he personally reviewed this specific request"
+    ],
+    "evidence": [
+      {
+        "type": "court_filing",
+        "description": "U.S. District Judge William Ray -- a Trump appointee -- quashed the subpoena, calling its scope 'staggering' and finding it 'unreasonable' given the 'low need for the subpoenaed information' relative to the 'highly burdensome nature of the disclosure'",
+        "source_url": "https://www.pressdemocrat.com/2026/07/07/judge-blocks-doj-subpoena-fulton-election-workers/",
+        "maps_to_element": "A federal court independently found the subpoena's burden disproportionate to legitimate need"
+      },
+      {
+        "type": "court_filing",
+        "description": "Judge Ray wrote that grand juries working with federal prosecutors 'does not give the DOJ the right to use the Grand Jury to do whatever the DOJ wants'",
+        "source_url": "https://domepolitics.com/2026/07/judge-quashes-dojs-subpoena-on-fulton-county-election-workers/",
+        "maps_to_element": "Judicial characterization of DOJ subpoena practice as overreach"
+      },
+      {
+        "type": "public_record",
+        "description": "Fulton County argued in its motion that the subpoena was meant to 'target, harass and punish the President's perceived political opponents' -- an argument the court's ruling on burden and scope effectively credited",
+        "source_url": "https://apnews.com/article/2020-georgia-election-workers-trump-justice-department-22ed0f675d7793a272c9acb6048a4417",
+        "maps_to_element": "Pattern of targeting a jurisdiction tied to Trump's 2020 loss grievance"
+      },
+      {
+        "type": "public_record",
+        "description": "The subpoena followed an FBI search warrant executed at Fulton County's election hub in January 2026, in which agents seized hundreds of boxes of ballots and other 2020 election records -- establishing this as part of a continuing DOJ effort targeting the same jurisdiction",
+        "source_url": "https://apnews.com/article/2020-georgia-election-workers-trump-justice-department-22ed0f675d7793a272c9acb6048a4417",
+        "maps_to_element": "Pattern evidence of continuing DOJ action against this jurisdiction"
+      }
+    ],
+    "status": "Subpoena quashed by federal court July 7, 2026; DOJ has not indicated whether it will appeal or seek a narrower subpoena",
+    "rebuttal_anticipated": "Likely defense: investigating potential 2020 election irregularities is legitimate DOJ business regardless of the outcome of any single subpoena, and a court correcting an overly broad request through the normal adversarial process is the system working as intended, not evidence of bad faith.",
+    "comeback": "A Trump-appointed judge -- not a partisan adversary -- independently found the request's scope 'staggering' and explicitly rejected the premise that grand jury process gives DOJ unlimited discretion; the subpoena sought contact information for every poll worker, not a targeted investigative lead, which is difficult to square with a narrowly legitimate investigative purpose.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern already documented in the Fulton County FBI search warrant and other DOJ actions this tracker records against jurisdictions and individuals connected to Trump's 2020 election grievances.",
+    "last_updated": "2026-07-27",
+    "date_added": "2026-07-27",
+    "confidence_note": "HIGH confidence -- the subpoena's scope, the court's ruling quashing it, and the judge's specific language are all directly documented in the court's own order and corroborated by multiple independent outlets (AP, Press Democrat, Dome Politics). MODERATE confidence attributing personal responsibility to Blanche specifically for this subpoena's scope, since no source confirms his personal, individual review versus department-level action under his authority.",
+    "section_summaries": {
+      "incident_summary": "DOJ subpoenaed the names and contact info of every 2020 Fulton County poll worker; a Trump-appointed federal judge quashed it as 'staggering' in scope and unreasonable.",
+      "confidence_note": "Well-documented via the court's own ruling and multiple outlets; Blanche's personal role in the subpoena's scope is not individually confirmed."
+    }
+  },
+  {
+    "official": "Todd Blanche, Acting Attorney General (nominated to permanent post)",
     "offense_category": "Press Freedom / DOJ News Media Policy Violation (28 C.F.R. § 50.10, which requires the Attorney General's personal, written approval before subpoenaing a journalist's testimony or records, plus specific negotiation-and-notice safeguards) -- no criminal charge against Blanche personally; this tracks DOJ leadership accountability for the subpoena decision",
     "incident_summary": "In May 2026, DOJ issued grand jury subpoenas seeking to compel testimony from Washington Post national security reporter Ellen Nakashima and three Wall Street Journal reporters, as part of a leak investigation into Department of Defense reporting on the Iran war. This followed an earlier, separate escalation in January 2026 in which the FBI searched the home of another Washington Post journalist and seized electronic devices as part of the same broader leak crackdown. After legal challenges from both news organizations, DOJ withdrew the subpoenas in June 2026. Acting Attorney General Todd Blanche, who under DOJ's own media-subpoena policy must personally approve subpoenas targeting journalists, declined to comment on either the subpoenas or the decision to withdraw them.",
     "contested": false,
@@ -633,6 +682,49 @@
     }
   },
   {
+    "official": "Pete Hegseth, Secretary of Defense",
+    "offense_category": "Press Freedom / Institutionalized Leak-Prosecution Apparatus -- no criminal charge against Hegseth personally; this documents the creation of a standing enforcement mechanism rather than a single prosecutorial act",
+    "incident_summary": "On July 13, 2026 -- two days after DOJ subpoenaed New York Times reporters over the paper's Air Force One security reporting -- Defense Secretary Pete Hegseth announced a new joint Pentagon-DOJ task force to identify and prosecute unauthorized disclosures of information to the news media. Hegseth delegated tasking authority to the Department of Defense's Office of General Counsel (OGC), empowering it to request and receive information, records, and support from across the department for media-leak investigations. Under the new authority, any OGC tasking requires a 'full and complete' response from the relevant department component within two days. Hegseth said leaks endanger service members and warrant prosecution 'with the full force of the law.'",
+    "contested": false,
+    "elements_required": [
+      "Creation of a standing, institutionalized task force (not a single ad hoc investigation) specifically targeting media leaks, jointly staffed across two cabinet departments",
+      "The task force was announced in immediate proximity (two days) to a separate, high-profile leak investigation targeting journalists over a story embarrassing to the president",
+      "The task force grants unusually broad and fast-turnaround authority (2-day mandatory response) to compel internal Pentagon information for leak investigations",
+      "Secretary Hegseth personally announced and is accountable for authorizing the task force's creation and scope"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Hegseth announced the joint Pentagon-DOJ task force on July 13, 2026, delegating tasking authority to the DoD Office of General Counsel with a mandatory 2-day response requirement across all department components",
+        "source_url": "https://www.militarytimes.com/news/pentagon-congress/2026/07/13/us-creates-task-force-to-prosecute-leaks-to-news-media-hegseth-says/",
+        "maps_to_element": "Creation of a standing task force with specific, broad internal authority"
+      },
+      {
+        "type": "public_record",
+        "description": "Hegseth stated leaks of sensitive information endanger American service members and warrant prosecution 'with the full force of the law'",
+        "source_url": "https://www.foxnews.com/politics/hegseth-announces-joint-task-force-doj-prosecute-leaks-journalists-full-force-law",
+        "maps_to_element": "Secretary's personal announcement and stated rationale"
+      },
+      {
+        "type": "public_record",
+        "description": "Reporting explicitly ties the task force's announcement to DOJ's subpoenas of New York Times reporters days earlier over the Air Force One security story, describing it as directly following that episode",
+        "source_url": "https://thehill.com/policy/defense/5965945-hegeseth-crackdown-media-leaks/",
+        "maps_to_element": "Proximity to the NYT/Air Force One leak investigation"
+      }
+    ],
+    "status": "Task force established and operational as of July 2026; no reported prosecutions under it yet as of this entry",
+    "rebuttal_anticipated": "Likely defense: unauthorized disclosure of sensitive defense information is a legitimate and long-standing prosecutorial priority regardless of any single story's political context, and creating a formal, resourced structure to pursue leak investigations is a reasonable institutional response rather than evidence of press-freedom targeting.",
+    "comeback": "The task force's creation two days after -- and explicitly linked in coverage to -- the NYT/Air Force One subpoenas suggests it formalizes and expands the same leak-hunting effort already directed at journalists over a story that embarrassed rather than compromised national security (the 'leak' was itself a security concern being reported, not a secret whose disclosure created new risk), making the 'full force of the law' framing hard to separate from the immediately preceding episode.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Represents an institutionalization of the same pattern already documented in this tracker's Blanche/DOJ journalist-subpoena and Patel/NYT leak-probe entries -- moving from case-by-case leak investigations to a standing, fast-turnaround cross-department enforcement structure.",
+    "last_updated": "2026-07-27",
+    "date_added": "2026-07-27",
+    "confidence_note": "HIGH confidence -- the task force's creation, its structure (OGC tasking authority, 2-day response requirement), and Hegseth's own quoted rationale are corroborated across numerous independent outlets (Military Times, The Hill, Fox News, Democracy Now, IBTimes UK) and Hegseth's own public statement, not contested.",
+    "section_summaries": {
+      "incident_summary": "Hegseth created a joint Pentagon-DOJ task force with broad, fast-turnaround authority to hunt and prosecute media leaks, announced two days after DOJ subpoenaed NYT reporters over an embarrassing Air Force One story.",
+      "confidence_note": "Well-corroborated across many outlets and Hegseth's own public statement; no dispute over the facts of the task force's creation or structure."
+    }
+  },
+  {
     "official": "Pete Hegseth, Secretary of Defense (later 'Secretary of War')",
     "offense_category": "Policy/Regulatory Violation — DoD Instruction 8170.01 (mishandling of nonpublic DoD information); closest criminal analogue: 18 U.S.C. §793(f), gross negligence in handling national defense information — NOT charged, included for reference only",
     "incident_summary": "On March 15, 2025, Hegseth shared sensitive operational details (aircraft quantities, strike timing) about an imminent strike on Houthi targets in Yemen via Signal on his personal phone, in a chat that inadvertently included a journalist. He also shared similar information in a separate personal Signal chat with his wife, brother, and personal attorney.",
@@ -672,6 +764,55 @@
     "section_summaries": {
       "incident_summary": "Hegseth texted operational strike details on an unofficial app, once by accident to a reporter and separately to family members.",
       "confidence_note": "Investigators confirmed the facts, but the more accurate label is a narrow process lapse, not anything approaching a prosecutable offense."
+    }
+  },
+  {
+    "official": "Corey Lewandowski, former senior adviser to DHS Secretary Kristi Noem, serving as an unpaid 'Special Government Employee'",
+    "offense_category": "Federal Procurement Authority Violation -- exercising contracting authority he did not legally hold as a Special Government Employee, potentially implicating federal procurement regulations governing who may bind the government to a contract; DHS OIG (Inspector General Joseph Cuffari) is weighing a criminal referral, but none has been made as of this entry",
+    "incident_summary": "Corey Lewandowski, a former Trump campaign manager who served as an unpaid Special Government Employee and senior adviser to then-DHS Secretary Kristi Noem, is under investigation by the DHS Office of Inspector General for allegedly improperly participating in the award of DHS contracts -- a function he had no legal authority to perform in his SGE capacity. Investigators found evidence he personally signed certain contracts or had knowledge of approvals, unusual for someone who was not a full-time federal official with formal contracting-officer authority. DHS Secretary Markwayne Mullin and White House officials have been briefed on the inquiry. Separately, House Oversight Committee Ranking Member Robert Garcia has expanded a related congressional investigation into allegations that DHS contractors were told to pay Lewandowski as part of an alleged pay-to-play scheme. Lewandowski, through a spokesperson, has denied issuing contracts at DHS and said he has not been contacted by investigators.",
+    "contested": true,
+    "elements_required": [
+      "Lewandowski held only Special Government Employee status, which does not confer formal contracting-officer authority under federal procurement regulations",
+      "Investigators found evidence he personally signed contracts or had direct knowledge of contract approvals despite lacking that authority",
+      "A federal Inspector General's office (not merely a political or advocacy source) is actively investigating and considering a criminal referral",
+      "Separate, independently-sourced allegations (the pay-to-play claims investigated by House Oversight) point to a financial motive consistent with -- though not proof of -- the alleged unauthorized contracting activity"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "DHS Inspector General investigators (led by IG Joseph Cuffari) found evidence Lewandowski may have been involved in improperly awarding DHS contracts, including personally signing certain contracts or having knowledge of approvals, unusual for someone who was not a full-time federal official",
+        "source_url": "https://www.msn.com/en-us/news/politics/investigators-find-corey-lewandowski-may-have-been-involved-in-improper-dhs-contracts/ar-AA27F7ex",
+        "maps_to_element": "Investigators found evidence of unauthorized contracting activity"
+      },
+      {
+        "type": "public_record",
+        "description": "Investigators are weighing a criminal referral to the Justice Department, though it is not reported as imminent; DHS Secretary Markwayne Mullin and White House officials have been briefed on the inquiry",
+        "source_url": "https://www.yahoo.com/news/politics/articles/dhs-investigators-weigh-criminal-referral-005243068.html",
+        "maps_to_element": "Active federal Inspector General investigation with criminal-referral consideration"
+      },
+      {
+        "type": "public_record",
+        "description": "House Oversight Committee Ranking Member Robert Garcia expanded a congressional investigation into allegations that DHS contractors were told to pay Lewandowski as part of an alleged pay-to-play scheme",
+        "source_url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-expands-corey-lewandowski-investigation-into-alleged-pay-to-play-scheme-with-dhs-contracts",
+        "maps_to_element": "Independently-sourced pay-to-play allegations suggesting financial motive"
+      },
+      {
+        "type": "public_record",
+        "description": "A spokesperson for Lewandowski denied that he issued contracts while at DHS and said he had not been contacted by investigators regarding the inquiry",
+        "source_url": "https://www.rawstory.com/corey-lewandowski-investigation/",
+        "maps_to_element": "Lewandowski's denial and rebuttal position"
+      }
+    ],
+    "status": "Ongoing -- DHS OIG investigation active, criminal referral under consideration but not yet made; House Oversight's pay-to-play investigation also ongoing; no charges filed against Lewandowski",
+    "rebuttal_anticipated": "Lewandowski's own stated defense: he did not issue contracts at DHS and has not been contacted by investigators. A broader defense could argue informal advisers routinely participate in agency decision-making in some capacity without that constituting unlawful exercise of contracting authority, and that 'knowledge of approvals' is different from actually signing or binding the government.",
+    "comeback": "Investigators reportedly found evidence going beyond mere informal advisory involvement -- specifically, evidence he personally signed certain contracts, which is a materially different and more serious claim than general influence or awareness. The parallel, independently-sourced House Oversight pay-to-play allegations (contractors reportedly told to pay him) provide corroborating context for a financial motive, distinct from the OIG's procurement-authority findings.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern of unpaid, informally-empowered Trump loyalists exercising outsized authority over federal agency functions (contracting, personnel, policy) without matching formal legal authority or accountability structures -- a distinct pattern from this tracker's press-freedom-focused entries, closer to a procurement-integrity/self-dealing concern.",
+    "last_updated": "2026-07-27",
+    "date_added": "2026-07-27",
+    "confidence_note": "MODERATE confidence -- sourced to WSJ's original reporting (paywalled, not directly fetched, but corroborated by multiple independent secondary outlets including Raw Story, Yahoo/AP wire, and Mediaite) and a formal, named House Oversight congressional investigation. No criminal referral has actually been made yet, and Lewandowski disputes the core allegation, so this should be framed as 'under active investigation with reported evidentiary findings,' not an established violation. Marked `contested: true` accordingly.",
+    "section_summaries": {
+      "incident_summary": "DHS's own Inspector General is investigating whether Lewandowski, an unpaid Trump adviser with no contracting authority, personally signed or approved DHS contracts -- with a criminal referral under consideration and a related House pay-to-play probe ongoing.",
+      "confidence_note": "Corroborated across multiple outlets and a named congressional investigation, but no referral or charges yet, and Lewandowski disputes the claim -- an active, unresolved matter."
     }
   },
   {
@@ -1020,6 +1161,55 @@
     "section_summaries": {
       "incident_summary": "After a reporter wrote about his girlfriend riding FBI jets, Patel had the bureau investigate her — a move his own DOJ colleagues flagged as retaliatory.",
       "confidence_note": "That internal DOJ pushback strengthens the retaliation claim considerably, though separate personal-conduct allegations remain contested in ongoing litigation."
+    }
+  },
+  {
+    "official": "Kash Patel, FBI Director",
+    "offense_category": "Press Freedom / Politicization of Federal Law Enforcement -- FBI Director personally directing a criminal leak investigation from the White House at presidential direction, rather than through normal DOJ/FBI process insulated from political control",
+    "incident_summary": "After the New York Times reported security concerns about President Trump's new Qatari-donated Air Force One (specifically, that Trump left a NATO summit in Turkey aboard the older presidential aircraft over Secret Service security concerns with the new plane), the White House directed FBI Director Kash Patel to personally oversee a leak investigation into the Times's sourcing. Patel canceled a scheduled trip to Chicago and spent approximately eight hours at the White House itself -- not FBI headquarters -- personally running the investigation. On Friday, July 11, 2026, the investigation produced grand jury subpoenas to multiple New York Times reporters, with federal agents delivering some subpoenas directly to journalists' homes. Legal observers described the White House directing and hosting an FBI leak investigation as a major departure from the decades-old norm of insulating criminal investigations from direct political control.",
+    "contested": false,
+    "elements_required": [
+      "The White House, not DOJ/FBI leadership through independent process, directed the FBI Director to personally take charge of a specific criminal investigation",
+      "The investigation was conducted from the White House itself rather than FBI headquarters, with the FBI Director present for an extended period",
+      "The investigation targeted journalists specifically over reporting that embarrassed or angered the president, not an investigation independent of the story's political content",
+      "The investigation produced subpoenas, including some delivered to journalists at their homes, within days of the triggering news report"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "The White House directed FBI Director Kash Patel to personally oversee the leak investigation into the Times's Air Force One security reporting; Patel canceled a Chicago trip and spent about eight hours at the White House running the investigation rather than at FBI headquarters",
+        "source_url": "https://www.inquirer.com/news/nation-world/trump-patel-fbi-subpoena-journalists-new-york-times-leaks-air-force-one-security-concerns-20260712.html",
+        "maps_to_element": "White House direction and Patel's personal, White-House-based oversight"
+      },
+      {
+        "type": "public_record",
+        "description": "DOJ issued subpoenas to multiple New York Times reporters on July 11, 2026, seeking their grand jury testimony over the Air Force One security reporting; federal agents delivered some subpoenas directly to journalists' homes",
+        "source_url": "https://www.npr.org/2026/07/13/nx-s1-5890969/doj-subpoenas-new-york-times-reporters-over-air-force-one-reporting",
+        "maps_to_element": "Investigation produced subpoenas targeting journalists over the specific reporting"
+      },
+      {
+        "type": "public_record",
+        "description": "CNN reporting characterized the White-House-directed, White-House-based leak investigation as a major departure from decades of practice meant to insulate criminal investigations from political direction, per legal observers cited",
+        "source_url": "https://www.cnn.com/2026/07/11/politics/new-york-times-trump-subpoenas-journalists",
+        "maps_to_element": "Departure from normal investigative independence"
+      },
+      {
+        "type": "public_record",
+        "description": "Follow-up CNN reporting indicates the leak probe intensified further, with officials asked to turn over phones at the White House as Chief of Staff Susie Wiles and Patel jointly led the expanding investigation",
+        "source_url": "https://www.cnn.com/2026/07/15/politics/susie-wiles-kash-patel-leak",
+        "maps_to_element": "Continuation/escalation of the White-House-directed investigation"
+      }
+    ],
+    "status": "Ongoing as of mid-July 2026 -- investigation reportedly expanded to include White House staff phone collection under Wiles and Patel's joint direction",
+    "rebuttal_anticipated": "Likely defense: leaks of information touching on presidential security and travel logistics are a legitimate, serious concern regardless of the underlying story's political sensitivity, and the FBI Director personally engaging on a high-priority national-security-adjacent matter is not inherently improper.",
+    "comeback": "The specific facts distinguishing this from a routine leak investigation are the White House's direct tasking of the FBI Director, the investigation being run from the White House building itself rather than FBI or DOJ facilities, and the speed and personal scale of the response (an eight-hour, director-led effort producing home-delivered subpoenas within days) -- all following a story that embarrassed rather than genuinely endangered the president, since the security concern being reported was itself the news, not a secret compromised by the reporting.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Part of the same broader pattern this tracker documents elsewhere (Blanche/DOJ's May 2026 WaPo/WSJ subpoenas, Hegseth's July 2026 Pentagon-DOJ leak task force) of leak investigations increasingly directed at identifying sources for stories embarrassing to the president, using DOJ/FBI subpoena power against journalists themselves.",
+    "last_updated": "2026-07-27",
+    "date_added": "2026-07-27",
+    "confidence_note": "HIGH confidence -- corroborated extensively across independent outlets (NPR, CNN, Philadelphia Inquirer, Irish Star) including direct on-record detail (Patel's canceled Chicago trip, the eight-hour White House timeframe) that would be difficult to fabricate and has not been disputed by the White House or FBI.",
+    "section_summaries": {
+      "incident_summary": "The White House directed FBI Director Patel to personally run a leak probe from the White House itself after NYT reporting embarrassed Trump over Air Force One security, producing home-delivered subpoenas to reporters within days.",
+      "confidence_note": "Extensively corroborated across independent outlets with specific, undisputed on-record detail."
     }
   },
   {
