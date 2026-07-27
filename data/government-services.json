@@ -337,6 +337,47 @@
     ]
   },
   {
+    "id": "census-bureau-noise-infusion-ban-trump2",
+    "title": "Commerce Department bans Census Bureau's main privacy technique, forcing coarser or withheld data",
+    "institution": "Census Bureau and Bureau of Economic Analysis (U.S. Department of Commerce)",
+    "domain": "data_collection_halted",
+    "status": "Finalized -- Department Administrative Order 216-26 in effect",
+    "date_of_action": "2026-06 (order reported)",
+    "what_changed": "The Commerce Department issued Department Administrative Order 216-26, banning the Census Bureau and the Bureau of Economic Analysis from using 'noise infusion' -- a widely-used disclosure-avoidance technique that adds small random statistical variation to published data so individuals can't be re-identified while still allowing detailed, granular statistics to be released. The order designates 'coarsening' (releasing less granular, more aggregated statistics, or withholding some datasets outright) as the preferred disclosure-avoidance method instead, and bars noise infusion for any statistical product going forward. Data scientists and demographers warned the change would force the bureau to either publish blurrier, less-detailed data or withhold some datasets entirely, since coarsening and noise infusion aren't interchangeable substitutes for the same privacy goal.",
+    "primary_proponent": {
+      "name": "Howard Lutnick",
+      "role": "Secretary of Commerce",
+      "note": "Department Administrative Order 216-26 was issued under his department's authority; reporting attributes the order to the Commerce Department generally rather than quoting Lutnick personally on this specific decision, so this entry follows the schema's standard for using the highest-ranking accountable official when no more specific individual is on record."
+    },
+    "estimated_impact": {
+      "summary": "Detailed Census Bureau and BEA statistics used for redistricting, disaster response, housing policy, and economic planning are expected to become less granular or unavailable, since agencies now have to choose between coarser aggregation and withholding data rather than using the noise-based method that let them publish detailed figures while still protecting privacy.",
+      "figures": [],
+      "caveat": "No dollar or headcount figure has been reported for this policy -- the harm is a data-quality/availability degradation rather than a budget or staffing cut, so this entry has no quantified 'figures' the way most GSR entries do. Impact is described by data experts and demographers (Census Bureau's own disclosure-avoidance researchers, academics cited by NPR/Science) rather than an independent audit."
+    },
+    "confidence_note": "Well-corroborated by numerous independent outlets (NPR, Science, Wyoming Public Media, South Carolina Public Radio, FlowingData) and the Commerce Department's own order text/framing as reported. No formal GAO or Inspector General finding on this specific policy has been identified.",
+    "section_summaries": {
+      "what_changed": "Commerce Dept order (DAO 216-26) bans the Census Bureau's noise-infusion privacy technique, forcing it toward coarser or withheld data instead.",
+      "estimated_impact": "Detailed Census/BEA statistics used for redistricting, disaster response, and economic planning are expected to get less granular or disappear -- no dollar figure, this is a data-quality loss.",
+      "confidence_note": "Well-corroborated across independent outlets and the order's own reported text; no formal watchdog finding yet."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "NPR -- 'A Trump push to cut \"statistical noise\" could mean less data from the Census Bureau'",
+        "url": "https://www.npr.org/2026/06/12/nx-s1-5855734/census-bureau-data-differential-privacy"
+      },
+      {
+        "name": "Science -- 'Scientists attack ban on adding \"noise\" to U.S. census data'",
+        "url": "https://www.science.org/content/article/scientists-attack-ban-adding-noise-u-s-census-data-and-many-surveys"
+      },
+      {
+        "name": "FlowingData -- 'Administration orders for less detailed census data'",
+        "url": "https://flowingdata.com/2026/06/30/administration-orders-for-less-detailed-census-data/"
+      }
+    ]
+  },
+  {
     "id": "cfpb-dismantlement-trump2",
     "title": "CFPB Ordered to Stop All Work, Nearly Defunded — Federal Judge Called It 'Hanging by a Thread'",
     "institution": "Consumer Financial Protection Bureau (CFPB)",
@@ -428,7 +469,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing (Kristi Noem was replaced as DHS Secretary by Markwayne Mullin, confirmed March 24, 2026; Mullin says the president has met with a likely CISA director nominee; DHS plans roughly 600 new CISA hires once a director is confirmed, with an initial 329-role 'mission-critical' hiring plan already underway -- about 180 tentative offers were out by the end of June 2026)",
     "date_of_action": "2025-01 through 2026-06 (rolling cuts across multiple rounds: buyouts, layoffs, forced reassignments)",
-    "what_changed": "Since January 2025, CISA -- the nation's primary civilian cyber-defense agency, created in 2018 specifically to coordinate federal response to critical infrastructure attacks -- lost roughly 1,000 employees, about one-third of its workforce, through a combination of buyout offers, early retirements, formal layoffs (reduction-in-force notices), and Management Directed Reassignments transferring CISA staff to ICE, CBP, FEMA, and the Federal Protective Service (refusing a reassignment could be grounds for termination). By June 2026, of CISA's authorized 3,292 positions, only 2,324 were actually filled -- a nearly 1,000-position gap. Five of the agency's ten regional directors were serving only in acting capacity, disrupting the primary points of contact state and local governments rely on for federal cybersecurity assistance. Separately and specifically, DHS Secretary Kristi Noem personally halted federal funding for the Multi-State Information Sharing and Analysis Center (MS-ISAC) in March 2025, eliminating roughly $8.3 million of its remaining 2025 budget -- MS-ISAC provided threat-sharing services to state and local governments. The cuts disproportionately hit CISA's election security and disinformation-monitoring functions, which had drawn Republican criticism as politically biased 'censorship' under the prior administration. The agency has operated without a permanent, Senate-confirmed director since January 2025; Trump's first nominee, Sean Plankey, withdrew after senior senators blocked his confirmation. Sean Plankey, Trump's nominee to lead CISA, withdrew his own nomination in April 2026, writing 'After thirteen months since my initial nomination, it has become clear the Senate will not confirm me' -- the nomination had been held up by a mix of Democratic senators (Ron Wyden, over a withheld telecom-security report) and Republican senators (Rick Scott, over an unrelated Coast Guard shipbuilding dispute), plus broader holds affecting all DHS nominees. CISA is now led by acting director Nick Andersen. Separately, CISA announced plans for a 2026 hiring push, with agency officials citing the workforce reductions as having hampered preparedness for potential conflict with China. Update 2026-07-26 (correction): Kristi Noem was replaced as DHS Secretary by Markwayne Mullin, confirmed by the Senate 54-45 on March 24, 2026 -- a leadership change this entry's prior recheck missed. Mullin has since said the president has met with a likely CISA director nominee (not yet named or formally nominated as of this update) and that DHS believes CISA needs roughly 600 new hires, though a full rebuild can't proceed in earnest until a director is confirmed. In the meantime, CISA has begun an initial hiring plan for 329 'mission-critical' roles, with about 180 tentative job offers extended by the end of June 2026 -- the first concrete numbers behind the 'planned 2026 hiring push' this entry previously described only in general terms.",
+    "what_changed": "Since January 2025, CISA -- the nation's primary civilian cyber-defense agency, created in 2018 specifically to coordinate federal response to critical infrastructure attacks -- lost roughly 1,000 employees, about one-third of its workforce, through a combination of buyout offers, early retirements, formal layoffs (reduction-in-force notices), and Management Directed Reassignments transferring CISA staff to ICE, CBP, FEMA, and the Federal Protective Service (refusing a reassignment could be grounds for termination). By June 2026, of CISA's authorized 3,292 positions, only 2,324 were actually filled -- a nearly 1,000-position gap. Five of the agency's ten regional directors were serving only in acting capacity, disrupting the primary points of contact state and local governments rely on for federal cybersecurity assistance. Separately and specifically, DHS Secretary Kristi Noem personally halted federal funding for the Multi-State Information Sharing and Analysis Center (MS-ISAC) in March 2025, eliminating roughly $8.3 million of its remaining 2025 budget -- MS-ISAC provided threat-sharing services to state and local governments. The cuts disproportionately hit CISA's election security and disinformation-monitoring functions, which had drawn Republican criticism as politically biased 'censorship' under the prior administration. The agency has operated without a permanent, Senate-confirmed director since January 2025; Trump's first nominee, Sean Plankey, withdrew after senior senators blocked his confirmation. Sean Plankey, Trump's nominee to lead CISA, withdrew his own nomination in April 2026, writing 'After thirteen months since my initial nomination, it has become clear the Senate will not confirm me' -- the nomination had been held up by a mix of Democratic senators (Ron Wyden, over a withheld telecom-security report) and Republican senators (Rick Scott, over an unrelated Coast Guard shipbuilding dispute), plus broader holds affecting all DHS nominees. CISA is now led by acting director Nick Andersen. Separately, CISA announced plans for a 2026 hiring push, with agency officials citing the workforce reductions as having hampered preparedness for potential conflict with China. Update 2026-07-26 (correction): Kristi Noem was replaced as DHS Secretary by Markwayne Mullin, confirmed by the Senate 54-45 on March 24, 2026 -- a leadership change this entry's prior recheck missed. Mullin has since said the president has met with a likely CISA director nominee (not yet named or formally nominated as of this update) and that DHS believes CISA needs roughly 600 new hires, though a full rebuild can't proceed in earnest until a director is confirmed. In the meantime, CISA has begun an initial hiring plan for 329 'mission-critical' roles, with about 180 tentative job offers extended by the end of June 2026 -- the first concrete numbers behind the 'planned 2026 hiring push' this entry previously described only in general terms. Update 2026-07-27: state election officials from both parties told USA Today that, ahead of the 2026 midterms, they no longer expect federal agencies to reliably share election-threat intelligence with them -- a direct downstream consequence of the CISA staffing cuts and reduced regional-director capacity already described above. States say they're increasingly relying on private technology companies and nonprofits to fill the gap in federal threat-sharing coordination.",
     "primary_proponent": {
       "name": "Kristi Noem (at the time of the MS-ISAC defunding action) / Markwayne Mullin (current DHS Secretary, confirmed March 24, 2026, replacing Noem)",
       "role": "Secretary of Homeland Security (CISA's parent department)",
@@ -467,11 +508,11 @@
     },
     "confidence_note": "Strong, multi-source documentation (Axios, Cybersecurity Dive, Nextgov/FCW, and direct citation of a sitting senator's formal oversight letters) with specific, verifiable numbers. The MS-ISAC defunding is the most cleanly attributable individual action (a specific dollar figure, a specific named official, a specific date). The broader 'has this made the country less safe' question is genuinely disputed between CISA's own leadership and outside oversight (Warner) -- present both sides rather than picking one as settled fact. Re-verified 2026-07-20: the leadership vacancy this entry already documented has become more entrenched, not resolved -- CISA has now gone through an entire Trump-term nomination cycle (Plankey nominated, stalled, withdrawn) without a confirmed director. The planned 2026 hiring push is a real, sourced development but is prospective as of this update, not yet reflected in workforce totals. Re-verified 2026-07-26: the DHS Secretary change is corroborated by DHS's own press release and CNBC, Time, and CNN reporting on Mullin's March 2026 confirmation -- a factual correction to this entry's leadership attribution, not merely a new development. The hiring-plan specifics (600 total need, 329-role initial plan, ~180 June offers) are corroborated by Cybersecurity Dive, The Record, Federal News Network, and HSToday.",
     "section_summaries": {
-      "what_changed": "CISA lost roughly a third of its staff to buyouts, layoffs, and forced transfers, leaving about 1,000 positions unfilled and half its regional posts vacant or acting.",
+      "what_changed": "CISA lost roughly a third of its staff to buyouts, layoffs, and forced transfers, leaving about 1,000 positions unfilled and half its regional posts vacant or acting; states now say they can't count on federal election-threat sharing ahead of the 2026 midterms as a result.",
       "estimated_impact": "Sen. Warner warned the planned rehiring is insufficient against current threats, though acting CISA leadership disputes that its capability has actually declined.",
       "confidence_note": "Well-documented with specific figures; whether the cuts have actually weakened capability is a live dispute between agency leadership and outside congressional oversight."
     },
-    "last_verified": "2026-07-26",
+    "last_verified": "2026-07-27",
     "date_added": "2026-07-07",
     "sources": [
       {
@@ -501,6 +542,10 @@
       {
         "name": "Federal News Network — Plankey withdraws as CISA nominee",
         "url": "https://federalnewsnetwork.com/cybersecurity/2026/04/plankey-withdraws-as-cisa-nominee/"
+      },
+      {
+        "name": "USA Today -- state election officials no longer expect reliable federal election-threat sharing",
+        "url": "https://www.usatoday.com/story/news/politics/2026/06/28/states-election-security-information-midterm-elections/90647531007/"
       }
     ],
     "last_updated": "2026-07-26"
@@ -3425,7 +3470,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing -- 4th round of cuts completed as of 2026-07-27",
     "date_of_action": "2026-06-01 - 2026-07-27 (ongoing)",
-    "what_changed": "Beginning about a week after Tulsi Gabbard resigned as DNI, Acting Director Bill Pulte began firing and reassigning ODNI staff in successive rounds of cuts. An initial round removed 6 career and political intelligence staff and sent 45 others back to their home agencies -- just over 50 people removed from ODNI roles in total. A source told NBC News that Pulte had ordered staff to identify roughly 400 employees for termination at the National Counterterrorism Center, though other sources said the Center itself was ultimately not hit by that specific round; the National Counterintelligence and Security Center was separately reported as expected to face significant cuts. Pulte has said publicly that his goal is to reduce the size of ODNI and refocus it on national security. As of July 27, 2026, his office confirmed a 4th round of what it called 'measured layoffs' had just been completed, indicating the reductions are continuing rather than a single one-time action.",
+    "what_changed": "Beginning about a week after Tulsi Gabbard resigned as DNI, Acting Director Bill Pulte began firing and reassigning ODNI staff in successive rounds of cuts. An initial round removed 6 career and political intelligence staff and sent 45 others back to their home agencies -- just over 50 people removed from ODNI roles in total. A source told NBC News that Pulte had ordered staff to identify roughly 400 employees for termination at the National Counterterrorism Center, though other sources said the Center itself was ultimately not hit by that specific round; the National Counterintelligence and Security Center was separately reported as expected to face significant cuts. Pulte has said publicly that his goal is to reduce the size of ODNI and refocus it on national security. As of July 27, 2026, his office confirmed a 4th round of what it called 'measured layoffs' had just been completed, indicating the reductions are continuing rather than a single one-time action. Separately, Pulte's authority to hold the role at all has been disputed: the DNI has no supervisor other than the president, making it a 'principal officer' under the Constitution's Appointments Clause that legal analysts (Cato Institute, Lawfare) say should require Senate confirmation even in an acting capacity, and federal law arguably required the Senate-confirmed principal deputy DNI to assume the role automatically once it became vacant rather than a new outside appointee. A Project on Government Oversight legal expert said the appointment meets the Vacancies Reform Act's technical requirements but flagged that the Act's eligibility rules are so broad (allowing the president to choose from 350+ federal officials regardless of relevant qualifications) that they may not satisfy the Constitution's stricter requirement for principal officers. Senate Intelligence Vice Chairman Mark Warner publicly objected to the appointment, and Sen. Elissa Slotkin introduced the MERIT Act on July 16, 2026 to require any acting DNI to have national security experience -- legislative responses that read as a direct rebuke of the Pulte pick. If a court ultimately found the appointment invalid, Pulte's purge decisions and other agency actions taken under his tenure could themselves be legally exposed to challenge.",
     "primary_proponent": {
       "name": "Bill Pulte",
       "role": "Acting Director of National Intelligence",
@@ -3450,13 +3495,13 @@
           "source": "Pulte's own public statement, cited July 27, 2026"
         }
       ],
-      "caveat": "The 400-position National Counterterrorism Center figure is specifically disputed within the same set of reporting -- some sources say that Center was not actually cut in that round -- so it's included as a reported-but-contested figure, not a confirmed one. The 51-person initial-round figure and the confirmation of a 4th cut round are more consistently corroborated. This entry covers an ongoing process; later rounds beyond the 4th (as of 2026-07-27) are not yet captured here and should be added on recheck."
+      "caveat": "The 400-position National Counterterrorism Center figure is specifically disputed within the same set of reporting -- some sources say that Center was not actually cut in that round -- so it's included as a reported-but-contested figure, not a confirmed one. The 51-person initial-round figure and the confirmation of a 4th cut round are more consistently corroborated. This entry covers an ongoing process; later rounds beyond the 4th (as of 2026-07-27) are not yet captured here and should be added on recheck. No court has yet ruled on the appointment's legality -- the Vacancies Act/Appointments Clause dispute is a live legal question, not a settled finding, and should be framed as such."
     },
-    "confidence_note": "Multiple independent outlets corroborate the pattern and the initial-round headcount (CNN, CBS News, The Hill), and Pulte's own public statements confirm the 4th round. The specific 400-position NCTC figure is contested within the sourcing itself and should be framed as reported-but-disputed, not established fact, in debate use.",
+    "confidence_note": "Multiple independent outlets corroborate the pattern and the initial-round headcount (CNN, CBS News, The Hill), and Pulte's own public statements confirm the 4th round. The specific 400-position NCTC figure is contested within the sourcing itself and should be framed as reported-but-disputed, not established fact, in debate use. The appointment-legality analysis is corroborated by two independent legal-analysis outlets (Cato Institute, Lawfare) plus on-record Senate objection (Warner) and legislation (Slotkin's MERIT Act), but remains an unresolved legal dispute, not an adjudicated finding.",
     "section_summaries": {
-      "what_changed": "Acting DNI Bill Pulte has run four successive rounds of staff cuts at ODNI since June 2026, concentrated in counterterrorism/counterintelligence functions.",
+      "what_changed": "Acting DNI Bill Pulte has run four successive rounds of staff cuts at ODNI since June 2026, concentrated in counterterrorism/counterintelligence functions; his authority to hold the post at all is separately disputed as a Vacancies Act/Appointments Clause violation.",
       "estimated_impact": "At least 51 ODNI staff removed in the first round alone, with a disputed report of ~400 more targeted at the National Counterterrorism Center; lawmakers have raised alarm about lost expertise.",
-      "confidence_note": "Well-corroborated overall pattern and headcount; the 400-position NCTC figure is specifically disputed within the sourcing itself."
+      "confidence_note": "Well-corroborated overall pattern and headcount; the 400-position NCTC figure is disputed, and the appointment-legality question remains an open legal dispute, not a court ruling."
     },
     "last_verified": "2026-07-27",
     "date_added": "2026-07-27",
@@ -3476,6 +3521,18 @@
       {
         "name": "The Hill -- 'Bill Pulte's first days as acting DNI set off alarms with lawmakers'",
         "url": "https://thehill.com/homenews/administration/5936923-pulte-firings-counterterrorism-center/"
+      },
+      {
+        "name": "Cato Institute -- 'Pulte's Appointment Shows Flaws in the Vacancies Act'",
+        "url": "https://www.cato.org/commentary/pultes-appointment-shows-flaws-vacancies-act"
+      },
+      {
+        "name": "Lawfare -- 'Pulte's Appointment Shows Flaws in the Vacancies Act'",
+        "url": "https://www.lawfaremedia.org/article/pulte-s-appointment-shows-flaws-in-the-vacancies-act"
+      },
+      {
+        "name": "The Hill -- 'Warner introduces bill to require Senate-confirmed acting DNIs in wake of Pulte controversy'",
+        "url": "https://thehill.com/homenews/senate/5936246-bill-warner-dni-bill-pulte/"
       }
     ]
   },
