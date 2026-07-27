@@ -67,6 +67,127 @@
     "last_updated": "2026-07-27"
   },
   {
+    "id": "acl-disability-research-grants-cut-2026",
+    "title": "Only National Research Center for Parents With Disabilities Faces Closure After ACL Withdraws Its Federal Grant, One of 36 Disability Research Grants Cut",
+    "institution": "Administration for Community Living (HHS)",
+    "domain": "research_suppression",
+    "status": "Ongoing -- current grant funding runs out August 31, 2026; center expected to close absent restored funding as of this entry",
+    "date_of_action": "2026-07 (grant non-renewal disclosed)",
+    "what_changed": "The Administration for Community Living (ACL), the $2.5 billion HHS agency that funds disability and aging services and research nationally, withdrew planned renewal of the federal grant funding Brandeis University's National Research Center for Parents with Disabilities -- the only federally funded research center in the country dedicated to the needs and experiences of parents with disabilities and their families. The center's current grant runs out August 31, 2026, and researchers say the center's work (research, training, and translating findings into resources for parents, professionals, advocates, and policymakers) will end abruptly unless funding is restored within weeks. The Brandeis center's grant is one of approximately 36 disability research grants that ACL has announced and then withdrawn in recent weeks.",
+    "primary_proponent": {
+      "name": "Administration for Community Living",
+      "role": "HHS sub-agency funding disability and aging research and services",
+      "note": "ACL withdrew its planned renewal of the Brandeis center's grant as part of a broader wave of approximately 36 disability research grant cancellations."
+    },
+    "estimated_impact": {
+      "summary": "The only federally funded U.S. research center focused specifically on parents with disabilities is expected to close by the end of August 2026 absent restored funding, part of a broader pattern of roughly three dozen disability research grants being cut by the agency responsible for funding this work nationally.",
+      "figures": [
+        {
+          "metric": "Disability research grants withdrawn by ACL in recent weeks",
+          "value": "~36",
+          "source": "Mother Jones, July 2026"
+        },
+        {
+          "metric": "ACL's total annual budget",
+          "value": "$2,500,000,000",
+          "source": "Mother Jones, July 2026"
+        },
+        {
+          "metric": "Date the Brandeis center's current grant funding runs out",
+          "value": "2026-08-31",
+          "source": "Boston University Sargent College / Imprint News, July 2026"
+        }
+      ],
+      "caveat": "No specific stated rationale from ACL or HHS for withdrawing this or the other 35 disability research grants was identified in sourcing reviewed for this entry; this entry documents the funding withdrawal and its immediate operational consequence (expected closure), not an agency-provided justification, since none was found."
+    },
+    "confidence_note": "HIGH confidence on the Brandeis center's specific situation, corroborated across Boston University's own Sargent College announcement, Imprint News, and Mother Jones. MODERATE confidence on the broader '~36 disability research grants' figure, which rests primarily on Mother Jones' reporting without independent corroboration from a second outlet identified in sourcing reviewed.",
+    "section_summaries": {
+      "what_changed": "ACL withdrew the federal grant funding Brandeis's National Research Center for Parents with Disabilities -- the only center of its kind -- one of roughly 36 disability research grants the agency has cut recently.",
+      "estimated_impact": "The center is expected to close by August 31, 2026 absent restored funding, ending the only federally funded U.S. research program specifically studying parents with disabilities.",
+      "confidence_note": "The Brandeis center's specific situation is well-corroborated by the university's own announcement and independent press coverage; the broader 36-grant figure rests on a single outlet's reporting."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "Boston University Sargent College — National Research Center for Parents with Disabilities at Risk of Closing",
+        "url": "https://www.bu.edu/psych-rehab/2026/07/16/national-research-center-for-parents-with-disabilities-at-risk-of-closing/"
+      },
+      {
+        "name": "The Imprint — Leading Research Center for Parents With Disabilities Faces Closure After Canceled Federal Grant",
+        "url": "https://imprintnews.org/youth-services-insider/leading-research-center-for-parents-with-disabilities-faces-closure-after-canceled-federal-grant/276174"
+      },
+      {
+        "name": "Mother Jones — The only research center for disabled parents is losing federal funding",
+        "url": "https://www.motherjones.com/politics/2026/07/brandeis-hhs-omb-research-grant-parents-disabilities-funding/"
+      }
+    ],
+    "last_updated": "2026-07-27"
+  },
+  {
+    "id": "arizona-snap-enrollment-collapse-2025-2026",
+    "title": "Arizona SNAP Enrollment Cut in Half as State Adds Paperwork, Cuts Caseworkers to Avoid Federal Penalties Under Trump's Benefits Law",
+    "institution": "Arizona Department of Economic Security (implementing federal SNAP rules under HR1/OBBBA)",
+    "domain": "funding_redirection",
+    "status": "Ongoing -- enrollment decline continuing as of May 2026, steeper federal error-rate penalties phase in starting October 2027",
+    "date_of_action": "2025-07 (HR1/OBBBA enacted) through 2026-05 (enrollment data)",
+    "what_changed": "Following passage of Trump's HR1 ('One Big Beautiful Bill') tax and spending law, which imposes steep financial penalties on states with high SNAP payment error rates (Arizona's 2025 error rate was 10.8%, putting the state at risk of up to $300 million in penalties by fiscal year 2028 if the rate continues) and shifts more administrative costs onto states, Arizona increased the paperwork required of SNAP applicants while simultaneously cutting the caseworker staff available to process it. The number of Department of Economic Security staff reviewing SNAP eligibility fell from 1,370 in July 2024 to 880 by mid-2026. As a direct result, Arizona's SNAP enrollment collapsed from approximately 910,000 people in June 2025 to about 452,000 by May 2026 -- roughly a 50% decline in under a year. Applicants have described being unable to reach a caseworker despite placing up to 100 phone calls to the program. Food bank visits in the state now exceed SNAP enrollment for the first time, as many people who remain legally eligible for benefits are unable to navigate the increased paperwork burden with reduced staff support to process it.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Signed HR1 into law, establishing the SNAP error-rate penalty structure that states including Arizona say has driven them to add paperwork requirements and cut caseworker capacity to avoid steep federal financial penalties."
+    },
+    "estimated_impact": {
+      "summary": "Arizona's SNAP enrollment fell by roughly half in under a year as the state responded to federal penalty incentives by adding paperwork burdens and cutting caseworker staff rather than absorbing the administrative cost -- resulting in eligible families losing access to food assistance not because they no longer qualify, but because they cannot navigate the process with reduced state support, with food bank demand now exceeding SNAP enrollment for the first time.",
+      "figures": [
+        {
+          "metric": "Arizona SNAP enrollment, June 2025 vs. May 2026",
+          "value": "~910,000 -> ~452,000 (roughly 50% decline)",
+          "source": "US News, June 2026"
+        },
+        {
+          "metric": "Arizona DES staff reviewing SNAP eligibility, July 2024 vs. mid-2026",
+          "value": "1,370 -> 880",
+          "source": "US News, June 2026"
+        },
+        {
+          "metric": "Arizona's 2025 SNAP payment error rate",
+          "value": "10.8%",
+          "source": "US News, June 2026"
+        },
+        {
+          "metric": "Potential federal penalty Arizona faces in FY2028 if error rate continues",
+          "value": "up to $300,000,000",
+          "source": "US News, June 2026"
+        }
+      ],
+      "caveat": "This entry documents a state-level implementation response to a federal law's incentive structure (HR1's error-rate penalties), not a direct federal action cutting Arizona's caseworker staff -- Arizona's own choices about how to respond to the federal penalty risk (adding paperwork, cutting staff rather than investing more in accuracy) are a proximate cause alongside the federal law's penalty design. Other states may respond differently to the same federal incentive structure."
+    },
+    "confidence_note": "HIGH confidence -- corroborated across US News (original detailed report, widely syndicated to Detroit News, SRN News, Yahoo), Jezebel, Copper Courier, and Popular Info, with consistent enrollment, staffing, and error-rate figures across outlets.",
+    "section_summaries": {
+      "what_changed": "Facing steep federal penalties under Trump's HR1 for SNAP payment errors, Arizona added paperwork requirements while cutting caseworker staff from 1,370 to 880, and enrollment collapsed from 910,000 to 452,000 in under a year.",
+      "estimated_impact": "Food bank visits now exceed SNAP enrollment in Arizona for the first time, as eligible families struggle to navigate increased paperwork with fewer caseworkers available to help -- people describe placing 100 calls without reaching anyone.",
+      "confidence_note": "Well-corroborated across multiple independent outlets with consistent enrollment, staffing, and error-rate figures."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "US News — Millions Lose Food Stamps Under Trump Cuts. Arizona Is Hardest Hit",
+        "url": "https://www.usnews.com/news/politics/articles/2026-06-24/millions-lose-food-stamps-under-trump-cuts-arizona-is-hardest-hit"
+      },
+      {
+        "name": "Copper Courier — Arizona kids are losing food help fast under Trump's 'Big Beautiful' SNAP overhaul",
+        "url": "https://coppercourier.com/news/politics/arizona-snap-trump-bill/"
+      },
+      {
+        "name": "Popular Information — Trump's 'Big Beautiful Bill' is making kids go hungry",
+        "url": "https://popular.info/p/trumps-big-beautiful-bill-is-making"
+      }
+    ],
+    "last_updated": "2026-07-27"
+  },
+  {
     "id": "army-europe-africa-donahue-ouster-trump2",
     "title": "Hegseth blocks career extension, forces out U.S. Army Europe and Africa commander",
     "institution": "U.S. Army Europe and Africa",
@@ -488,7 +609,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing litigation (Senate Banking Committee held a confirmation hearing for permanent-director nominee Brian Johnson on July 23, 2026; committee vote expected before the August recess, full Senate vote anticipated September 2026); Vought's acting-director authority under the Federal Vacancies Reform Act expires August 1, 2026",
     "date_of_action": "2025-02-10 (stop-work order issued) through 2025-12-30 (federal judge's 'hanging by a thread' ruling)",
-    "what_changed": "On February 10, 2025, newly installed Acting Director Russell Vought (who simultaneously serves as OMB Director) ordered all CFPB staff and contractors to stop working entirely and not return to agency offices. DOGE personnel were given access to CFPB's HR, payroll, and enforcement-records systems around the same time; Elon Musk posted 'CFPB RIP' on social media. A federal judge issued a temporary restraining order on February 14, 2025 blocking further firings, data destruction, or funding cuts, but by then CFPB's website had already been taken down and staff locked out of buildings and systems. Vought separately moved to cut off the agency's Federal Reserve funding entirely and canceled roughly $100 million in CFPB contracts. In April 2025, despite the court order, about 1,400 employees who had chosen to remain received layoff notices -- a reduction that would have left only about 200 of the agency's original ~1,700 staff. Court filings from CFPB leadership itself, filed in March 2025, proposed shrinking authorized staff from 1,174 to 556, sparing only the legal division (which defends the agency in the litigation over its own dismantling) from cuts. By December 2025, more than 30% of CFPB's authorized staff had departed. On December 30, 2025, the same federal judge overseeing the case rejected the administration's argument that Vought could lawfully withhold the agency's funding, ordering him to request continued Federal Reserve funding, which he did -- keeping CFPB funded through at least March 2026. In May 2026, CFPB removed roughly 1,700 web pages of consumer advisories, press releases, and testimony predating February 2025 from its public website. In June 2026, Trump nominated Brian Johnson -- a former CFPB deputy director under Kathy Kraninger and current Capital One executive -- to be permanent CFPB Director; as of this update, Senate confirmation is pending. Sen. Elizabeth Warren, ranking member of the Senate Banking Committee, said: 'Starting in August, Russ Vought can no longer legally serve as Donald Trump's hatchet man at the CFPB. So here comes the next hatchet man to try to finish the job.' If Johnson is not confirmed by August 1, 2026, Acting Deputy Director Mark Paoletta would become acting director in Vought's place. Update 2026-07-26: The Senate Banking Committee held Brian Johnson's confirmation hearing on July 23, 2026. Johnson declined to endorse eliminating the CFPB and said he keeps an 'open mind' about staffing levels, while deflecting questions about the agency reportedly dropping 42 enforcement cases against presidential donors. Separately, the D.C. Circuit remanded NTEU v. CFPB (the litigation over the Bureau's proposed 2026 reduction-in-force) back to the district court and held the appeal in abeyance, after CFPB and NTEU jointly asked for a stay pending Johnson's confirmation so he could decide whether to proceed with, modify, or abandon the RIF plan. Committee advancement is expected before the August recess, with a full Senate vote anticipated in September 2026 -- meaning Johnson is very unlikely to be confirmed before Vought's August 1 FVRA deadline, raising the practical likelihood that Acting Deputy Director Mark Paoletta becomes acting director in the interim.",
+    "what_changed": "On February 10, 2025, newly installed Acting Director Russell Vought (who simultaneously serves as OMB Director) ordered all CFPB staff and contractors to stop working entirely and not return to agency offices. DOGE personnel were given access to CFPB's HR, payroll, and enforcement-records systems around the same time; Elon Musk posted 'CFPB RIP' on social media. A federal judge issued a temporary restraining order on February 14, 2025 blocking further firings, data destruction, or funding cuts, but by then CFPB's website had already been taken down and staff locked out of buildings and systems. Vought separately moved to cut off the agency's Federal Reserve funding entirely and canceled roughly $100 million in CFPB contracts. In April 2025, despite the court order, about 1,400 employees who had chosen to remain received layoff notices -- a reduction that would have left only about 200 of the agency's original ~1,700 staff. Court filings from CFPB leadership itself, filed in March 2025, proposed shrinking authorized staff from 1,174 to 556, sparing only the legal division (which defends the agency in the litigation over its own dismantling) from cuts. By December 2025, more than 30% of CFPB's authorized staff had departed. On December 30, 2025, the same federal judge overseeing the case rejected the administration's argument that Vought could lawfully withhold the agency's funding, ordering him to request continued Federal Reserve funding, which he did -- keeping CFPB funded through at least March 2026. In May 2026, CFPB removed roughly 1,700 web pages of consumer advisories, press releases, and testimony predating February 2025 from its public website. In June 2026, Trump nominated Brian Johnson -- a former CFPB deputy director under Kathy Kraninger and current Capital One executive -- to be permanent CFPB Director; as of this update, Senate confirmation is pending. Sen. Elizabeth Warren, ranking member of the Senate Banking Committee, said: 'Starting in August, Russ Vought can no longer legally serve as Donald Trump's hatchet man at the CFPB. So here comes the next hatchet man to try to finish the job.' If Johnson is not confirmed by August 1, 2026, Acting Deputy Director Mark Paoletta would become acting director in Vought's place. Update 2026-07-26: The Senate Banking Committee held Brian Johnson's confirmation hearing on July 23, 2026. Johnson declined to endorse eliminating the CFPB and said he keeps an 'open mind' about staffing levels, while deflecting questions about the agency reportedly dropping 42 enforcement cases against presidential donors. Separately, the D.C. Circuit remanded NTEU v. CFPB (the litigation over the Bureau's proposed 2026 reduction-in-force) back to the district court and held the appeal in abeyance, after CFPB and NTEU jointly asked for a stay pending Johnson's confirmation so he could decide whether to proceed with, modify, or abandon the RIF plan. Committee advancement is expected before the August recess, with a full Senate vote anticipated in September 2026 -- meaning Johnson is very unlikely to be confirmed before Vought's August 1 FVRA deadline, raising the practical likelihood that Acting Deputy Director Mark Paoletta becomes acting director in the interim. Update 2026-07-27: Ahead of a Vought oversight hearing, Sen. Elizabeth Warren released a report estimating the CFPB rollbacks have cost consumers $26.5 billion so far: ~$15 billion from abandoning the rule capping most credit card late fees at $8, ~$7.5 billion from repealing the rule limiting overdraft fees to $5, and ~$4 billion from dropped enforcement actions and abandoned settlements/consent orders -- including the previously reported 42 dropped enforcement cases against presidential donors.",
     "primary_proponent": {
       "name": "Russell Vought",
       "role": "Acting Director of CFPB (concurrently Director of the Office of Management and Budget)",
@@ -526,6 +647,11 @@
           "metric": "Website pages of consumer advisories/press releases removed, May 2026",
           "value": "~1,700",
           "source": "NOTUS"
+        },
+        {
+          "metric": "Estimated total consumer cost of CFPB rollbacks (Warren report)",
+          "value": "$26,500,000,000 ($15B late-fee cap abandonment + $7.5B overdraft-fee rule repeal + $4B dropped enforcement/settlements)",
+          "source": "Sen. Elizabeth Warren report, cited by CNBC/UPI/Benzinga, July 2026"
         }
       ],
       "caveat": "As with USAID, this raises a specific, recurring structural question in this tracker: CFPB was created by Congress (via Dodd-Frank) and its constitutionality was upheld by the Supreme Court as recently as 2024 -- meaning the core legal dispute is whether the executive branch can functionally dismantle a congressionally-created independent agency through funding and staffing actions alone, without Congress formally eliminating it. This litigation (NTEU v. Vought and the related Baltimore case) remains ongoing and unresolved as of this entry's last update; the December 2025 ruling addressed only the funding question, not the broader dismantlement question."
@@ -536,7 +662,7 @@
       "estimated_impact": "The presiding judge said officials were openly trying to shut down an agency that had returned nearly $20 billion to consumers, now with enforcement sharply curtailed.",
       "confidence_note": "Strongly sourced via court filings and rulings, not just reporting; as of re-verification litigation still favors CFPB and the next director's stance is unknown."
     },
-    "last_verified": "2026-07-26",
+    "last_verified": "2026-07-27",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -562,6 +688,10 @@
       {
         "name": "HousingWire — Awaiting the CFPB's next act ahead of Vought's departure",
         "url": "https://www.housingwire.com/articles/cfpb-vought-new-nomination/"
+      },
+      {
+        "name": "CNBC — Trump's CFPB overhaul has cost Americans $26.5 billion, Sen. Warren says",
+        "url": "https://www.cnbc.com/2026/07/16/trumps-cfpb-overhaul-cost-americans-26point5-billion-sen-warren-says.html"
       }
     ],
     "last_updated": "2026-07-26"
@@ -1106,6 +1236,64 @@
     "last_updated": "2026-07-26"
   },
   {
+    "id": "dol-ofccp-civil-rights-enforcement-halted-2025",
+    "title": "Trump Halted Labor Department Contractor Civil-Rights Enforcement on Day One, Killing a Near-Complete BAE Systems Sexual-Harassment Case",
+    "institution": "Department of Labor / Office of Federal Contract Compliance Programs (OFCCP)",
+    "domain": "staff_office_cuts",
+    "status": "Complete -- enforcement office's core function halted; underlying investigations, including BAE Systems, not resolved",
+    "date_of_action": "2025-01-20 (executive order revoking EO 11246) through 2025-01-24 (DOL acting secretary's cease-and-desist order)",
+    "what_changed": "On January 20, 2025 -- his first day back in office -- Trump signed an executive order revoking Executive Order 11246, the 1965 order requiring federal contractors to comply with anti-discrimination and affirmative-action obligations, and directed the Department of Labor office enforcing it to stop most of its work. Acting Labor Secretary Vincent Micone followed on January 24 with an order directing DOL staff to 'immediately cease and desist' enforcing contractor compliance under the revoked framework. This effectively shut down the Office of Federal Contract Compliance Programs' active enforcement docket, including a nearly-complete two-year investigation into BAE Systems -- a defense contractor holding roughly $8 billion in annual federal contracts for weapons, vehicles, and cybersecurity tools -- over findings that male managers at a Norfolk, Virginia Navy shipyard had demanded oral sex and other sexual contact from female employees in exchange for promotions and overtime pay, and that Black women had been paid and promoted at lower rates than men. Investigators had been preparing to propose a resolution requiring BAE to make seven-figure payouts to affected workers and adopt reforms, or risk losing its federal contracts; that resolution was never presented as a result of the halt.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Personally signed the executive order revoking EO 11246 on his first day in office; Acting Labor Secretary Vincent Micone implemented the halt at DOL days later."
+    },
+    "estimated_impact": {
+      "summary": "A near-complete, two-year federal investigation that had documented specific, serious findings -- sexual coercion tied to promotions and pay discrimination against Black women at a major defense contractor's shipyard -- was shut down before any resolution, payout, or reform requirement could be imposed, as part of a government-wide halt to contractor civil-rights enforcement that took effect on Trump's first day in office.",
+      "figures": [
+        {
+          "metric": "Years the BAE Systems investigation had been underway before the halt",
+          "value": "~2",
+          "source": "New York Times, July 2026"
+        },
+        {
+          "metric": "BAE Systems' approximate annual federal contract value at risk",
+          "value": "$8,000,000,000",
+          "source": "New York Times, July 2026"
+        },
+        {
+          "metric": "Days after inauguration the enforcement halt took full effect",
+          "value": "4 (Jan. 20 EO; Jan. 24 DOL cease-and-desist order)",
+          "source": "New York Times, July 2026"
+        }
+      ],
+      "caveat": "This entry documents one specific, well-detailed case (BAE Systems) as illustrative of a broader, government-wide policy change (the EO 11246 revocation and OFCCP enforcement halt) rather than claiming BAE Systems was uniquely targeted -- the halt applied to OFCCP's enforcement function generally, and BAE was one investigation among an unspecified number affected."
+    },
+    "confidence_note": "HIGH confidence -- the executive order (EO 14173, revoking EO 11246) and Micone's implementing order (Secretary's Order 03-2025, ordering OFCCP to cease and desist all EO 11246 enforcement/investigative activity) are independently corroborated across multiple employment-law trade publications (SHRM, Littler, National Law Review, FortneyScott, Mondaq); the specific BAE Systems investigation findings and timeline come from detailed New York Times reporting.",
+    "section_summaries": {
+      "what_changed": "Trump revoked the 60-year-old EO 11246 contractor anti-discrimination framework on his first day in office, and DOL's acting secretary ordered enforcement staff to cease and desist days later, halting a nearly-complete investigation into BAE Systems over sexual-coercion and pay-discrimination findings at a Navy shipyard.",
+      "estimated_impact": "The halt killed a resolution that would have required BAE Systems to pay affected workers seven-figure sums and adopt reforms, or risk its $8 billion in annual federal contracts -- among an unspecified broader set of contractor civil-rights cases affected by the policy change.",
+      "confidence_note": "Well-documented via detailed New York Times reporting and the underlying, publicly available executive actions themselves."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "New York Times — Trump Gutted a Civil Rights Agency, Stifling U.S. Scrutiny of Workplace Bias",
+        "url": "https://www.nytimes.com/2026/07/19/us/politics/trump-gutted-civil-rights-agency-stifling-us-scrutiny-of-workplace-bias.html"
+      },
+      {
+        "name": "SHRM — OFCCP Stops All Enforcement Activity Under Rescinded EO 11246",
+        "url": "https://www.shrm.org/topics-tools/employment-law-compliance/ofccp-stops-all-enforcement-activity-under-rescinded-eo"
+      },
+      {
+        "name": "Littler — Acting Secretary of Labor Brings All OFCCP Activities Under Executive Order 11246 to a Halt",
+        "url": "https://www.littler.com/news-analysis/asap/acting-secretary-labor-brings-all-ofccp-activities-under-executive-order-11246"
+      }
+    ],
+    "last_updated": "2026-07-27"
+  },
+  {
     "id": "education-department-dismantlement-trump2",
     "title": "Department of Education Dismantled via Interagency Transfers, Without Congressional Approval",
     "institution": "U.S. Department of Education",
@@ -1566,6 +1754,54 @@
         "url": "https://www.nbcnews.com/news/us-news/faa-flights-canceled-airport-cuts-government-shutdown-what-know-rcna242488"
       }
     ]
+  },
+  {
+    "id": "fbi-defers-ice-investigations-hsi-2026",
+    "title": "FBI Told to Stop Investigating Confrontations Involving Immigration Agents, Shifting Oversight to ICE's Own Investigative Arm",
+    "institution": "Federal Bureau of Investigation / DHS Homeland Security Investigations",
+    "domain": "data_collection_halted",
+    "status": "Guidance reportedly distributed and in effect per internal emails reviewed by CBS News; DOJ and DHS have publicly denied any policy change",
+    "date_of_action": "2026-07 (guidance distributed to FBI agents)",
+    "what_changed": "The New York Times reported, and CBS News independently confirmed via internal emails reviewed by its reporters, that FBI agents around the country were told in mid-July 2026 that the FBI would no longer investigate confrontations involving immigration agents -- including assault-on-a-federal-officer cases that can arise from violent encounters between ICE agents and members of the public. Under the change, responsibility for these investigations would shift to Homeland Security Investigations (HSI), which is itself a component of ICE -- meaning cases involving potential misconduct by immigration agents would be investigated by an arm of the same agency employing those agents, rather than by the FBI as an independent investigative body. FBI and HSI personnel were advised the FBI would defer on all assault-on-federal-officer inquiries involving DHS agents to HSI, according to the emails CBS reviewed. The Justice Department and DHS both publicly denied that any policy change had occurred, despite the written guidance already having been distributed to FBI and ICE personnel.",
+    "primary_proponent": {
+      "name": "Todd Blanche, Acting Attorney General (nominated to permanent post)",
+      "role": "Acting Attorney General",
+      "note": "The FBI operates under DOJ, and Blanche's department publicly denied the policy change existed even as written guidance implementing it had already been distributed to FBI and ICE agents, per emails reviewed by CBS News."
+    },
+    "estimated_impact": {
+      "summary": "Shifting investigative responsibility for confrontations involving immigration agents from the FBI -- an independent investigative body -- to HSI, ICE's own internal investigative arm, creates a structural conflict of interest in which the agency effectively investigates its own personnel's conduct, at a time of heightened public scrutiny over multiple fatal ICE shootings.",
+      "figures": [
+        {
+          "metric": "Agencies whose emails/internal guidance corroborate the policy shift",
+          "value": "FBI and HSI personnel both received the guidance, per CBS News's review of internal emails",
+          "source": "CBS News, July 2026"
+        }
+      ],
+      "caveat": "DOJ and DHS have both publicly denied any policy change occurred -- this entry documents that denial alongside the internal email evidence CBS News says it independently reviewed, which appears to contradict the public denial; present both the denial and the documentary evidence rather than treating the shift as fully confirmed by official acknowledgment, since none has been given."
+    },
+    "confidence_note": "HIGH confidence on the substance of the reported policy shift, since it originates from The New York Times and was independently corroborated by CBS News's review of actual internal emails (not merely anonymous characterization), with further pickup across the Philadelphia Inquirer/AP, The New Republic, Common Dreams, and CNBC. MODERATE confidence on the shift's final, official status, since DOJ and DHS have publicly denied it and no on-the-record government confirmation exists -- the tension between the documentary evidence and the official denial is itself a notable, sourced fact, not a gap in this entry's sourcing.",
+    "section_summaries": {
+      "what_changed": "FBI agents were told via internal guidance to stop investigating confrontations involving ICE agents, shifting that responsibility to ICE's own HSI investigative arm; DOJ and DHS publicly denied the change despite the guidance already being distributed.",
+      "estimated_impact": "The shift means ICE would effectively investigate its own agents' conduct rather than an independent body, raising oversight concerns amid multiple recent fatal ICE shootings.",
+      "confidence_note": "Well-corroborated by NYT reporting and CBS News's independent review of internal emails; DOJ/DHS's public denial directly contradicts the documented internal guidance."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "CBS News — FBI agents told to stand down on assault probes involving ICE officers; DOJ denies policy shift",
+        "url": "https://www.cbsnews.com/news/fbi-immigration-agent-cases-deferred-hsi/"
+      },
+      {
+        "name": "Philadelphia Inquirer (AP) — Federal agents were told FBI will no longer investigate ICE confrontations",
+        "url": "https://www.inquirer.com/news/nation-world/fbi-stop-investigation-homeland-security-ice-shooting-confrontation-assault-federal-officer-blanche-trump-20260719.html"
+      },
+      {
+        "name": "CNBC — FBI will no longer investigate ICE confrontations, The New York Times reports",
+        "url": "https://www.cnbc.com/2026/07/19/ice-assault-claims-fbi.html"
+      }
+    ],
+    "last_updated": "2026-07-27"
   },
   {
     "id": "fda-cber-vaccine-leadership-turmoil",
@@ -2416,6 +2652,69 @@
         "url": "https://whistlebloweraid.org/hud-whistleblowers-to-testify-before-senate-banking-committee-after-facing-retaliation-from-the-trump-administration-for-defending-fair-housing/"
       }
     ]
+  },
+  {
+    "id": "ice-body-cameras-undeployed-2026",
+    "title": "Six Months After Promising Body Cameras for All Immigration Agents, DHS Still Hasn't Deployed Them -- Agents in Subsequent Fatal Shootings Had None",
+    "institution": "Department of Homeland Security / Immigration and Customs Enforcement",
+    "domain": "data_collection_halted",
+    "status": "Ongoing -- partial deployment as of the most recent reporting reviewed (~3,000 of ~13,000 ICE agents equipped as of February 2026), full nationwide rollout not completed as promised",
+    "date_of_action": "2026-01 (body camera pledge made) through 2026-07 (still not fully deployed, additional fatal shootings without cameras)",
+    "what_changed": "After immigration agents fatally shot two U.S. citizens (Alex Pretti, a VA hospital ICU nurse, and Renee Good) in Minneapolis in January 2026, then-DHS Secretary Kristi Noem pledged to rapidly expand body camera deployment to immigration agents nationwide. Congress allocated $20 million in FY2026 DHS funding for body camera procurement, deployment, and operations, with plans to purchase more than 5,000 body-worn cameras; as of February 2026, roughly 3,000 of approximately 13,000 ICE agents wore body cameras, with another 6,000 in the deployment pipeline. Nearly six months after the pledge, none of the officers involved in two subsequent fatal ICE shootings -- of Lorenzo Salgado Araujo and Johan Duran Guerrero -- were wearing body cameras, according to NPR reporting; a separate fatal shooting in Houston also involved ICE agents without body cameras despite the DHS funding allocation.",
+    "primary_proponent": {
+      "name": "Department of Homeland Security",
+      "role": "Federal agency (pledge made under then-Secretary Kristi Noem)",
+      "note": "DHS publicly pledged rapid, nationwide body camera deployment for immigration agents following the January 2026 Minneapolis shootings, but deployment remained incomplete six months later, including for agents involved in subsequent fatal shootings."
+    },
+    "estimated_impact": {
+      "summary": "Despite a public pledge and $20 million in dedicated federal funding, roughly six months after the promise fewer than a quarter of ICE's approximately 13,000 agents had body cameras, and agents involved in at least two additional fatal shootings after the pledge -- plus one in Houston -- had none, leaving no video record of exactly the kind of encounters the pledge was meant to address.",
+      "figures": [
+        {
+          "metric": "FY2026 DHS funding allocated for body camera procurement/deployment",
+          "value": "$20,000,000",
+          "source": "US News, July 2026"
+        },
+        {
+          "metric": "ICE agents equipped with body cameras vs. total, as of Feb. 2026",
+          "value": "~3,000 of ~13,000 (with 6,000 more in the pipeline)",
+          "source": "CNN, July 2026"
+        },
+        {
+          "metric": "Body-worn cameras planned for purchase under the FY2026 allocation",
+          "value": "5,000+",
+          "source": "US News, July 2026"
+        },
+        {
+          "metric": "Fatal ICE shootings after the pledge where involved agents lacked body cameras",
+          "value": "3 (Salgado Araujo and Duran Guerrero in the incident described, plus a separate Houston shooting)",
+          "source": "NPR / US News, July 2026"
+        }
+      ],
+      "caveat": "DHS's stated pledge and the appropriated $20 million funding are both real and on the record -- this entry documents an implementation gap between the pledge/funding and actual deployment pace, not a claim that DHS took no action at all. Partial deployment (~3,000 agents) had occurred by the time of the most recent fatal shootings reviewed for this entry, meaning the gap is one of incomplete rollout speed and coverage, not zero progress."
+    },
+    "confidence_note": "HIGH confidence -- corroborated across NPR (the original detailed report), CNN, US News, and Fox News/AOL coverage of the original Noem pledge, with consistent figures on funding and deployment pace across outlets.",
+    "section_summaries": {
+      "what_changed": "DHS pledged rapid nationwide body camera deployment for ICE agents after January 2026 Minneapolis shootings killed two U.S. citizens, backed by $20 million in federal funding, but six months later only about a quarter of agents were equipped.",
+      "estimated_impact": "Agents involved in at least three subsequent fatal shootings, including two specifically named in NPR's reporting, had no body cameras despite the pledge and funding, leaving no video record of those encounters.",
+      "confidence_note": "Well-corroborated across NPR, CNN, and US News with consistent funding and deployment figures."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "NPR — DHS pledged body cams for all immigration agents. Months later, that hasn't happened",
+        "url": "https://www.npr.org/2026/07/16/nx-s1-5894825/body-cams-ice-shootings"
+      },
+      {
+        "name": "CNN — Lack of body cameras on ICE agents fuels more uncertainty over fatal shootings",
+        "url": "https://www.cnn.com/2026/07/14/us/body-cameras-ice-agents-shootings"
+      },
+      {
+        "name": "US News — DHS Was Granted $20M for Body Cameras. ICE Agents in Fatal Houston Shooting Had None",
+        "url": "https://www.usnews.com/news/politics/articles/2026-07-10/dhs-was-granted-20m-for-body-cameras-ice-agents-in-fatal-houston-shooting-had-none"
+      }
+    ],
+    "last_updated": "2026-07-27"
   },
   {
     "id": "ies-nces-research-contract-cancellations-trump2",
@@ -4217,11 +4516,79 @@
     ]
   },
   {
+    "id": "pepfar-cuts-hiv-treatment-sites-closed-2025-2026",
+    "title": "PEPFAR Funding Disruptions Close 1,714 HIV Treatment Sites Worldwide, Cut Treatment for 77,000+ Children",
+    "institution": "PEPFAR (President's Emergency Plan for AIDS Relief) / USAID / State Department",
+    "domain": "funding_redirection",
+    "status": "Ongoing -- surveyed impacts cover November 2025-April 2026; disruption effects continuing as of mid-2026",
+    "date_of_action": "2025 (funding disruptions begin) through 2026-07 (amfAR study findings presented at AIDS 2026/IAS 2026)",
+    "what_changed": "amfAR and partner organizations surveyed country-level PEPFAR implementing partner organizations worldwide from November 2025 to April 2026, receiving responses from 166 of 708 organizations contacted (23% response rate), and presented findings at the AIDS 2026 conference. The survey found that Trump-administration funding disruptions to PEPFAR -- the two-decade-old U.S. global HIV/AIDS program -- led to 1,714 HIV service delivery sites closing worldwide, including 1,010 public health facilities, 325 community access points, and 126 drop-in centers. In the 21 countries surveyed, 77,163 fewer children living with HIV received PEPFAR-supported treatment in 2025 (when disruptions began) compared with 2024. More than 16,000 healthcare workers lost their jobs after PEPFAR awards were delayed or canceled. Among partner organizations, 21% had permanently stopped at least one HIV clinical care activity, and roughly three-quarters had stopped serving populations at highest risk of HIV -- including sex workers, transgender people, gay men, and people who inject drugs -- the populations survey respondents said were most likely to have services permanently discontinued.",
+    "primary_proponent": {
+      "name": "Marco Rubio",
+      "role": "Secretary of State",
+      "note": "PEPFAR operates under State Department oversight (following USAID's dismantlement, tracked separately in this database), and the funding disruptions surveyed occurred during Rubio's tenure as Secretary of State."
+    },
+    "estimated_impact": {
+      "summary": "A survey-based study by amfAR and partner organizations found the PEPFAR funding disruptions closed over 1,700 HIV service sites globally, cut treatment access for tens of thousands of children, cost more than 16,000 healthcare workers their jobs, and disproportionately eliminated services for the populations at greatest risk of HIV infection.",
+      "figures": [
+        {
+          "metric": "HIV service delivery sites closed worldwide",
+          "value": "1,714 (1,010 public health facilities + 325 access points + 126 drop-in centers)",
+          "source": "amfAR survey, presented at AIDS 2026/IAS 2026"
+        },
+        {
+          "metric": "Fewer children with HIV receiving PEPFAR-supported treatment, 2025 vs. 2024 (21 countries)",
+          "value": "77,163",
+          "source": "amfAR survey, presented at AIDS 2026/IAS 2026"
+        },
+        {
+          "metric": "Healthcare workers who lost jobs after awards delayed/canceled",
+          "value": "16,000+",
+          "source": "amfAR survey, presented at AIDS 2026/IAS 2026"
+        },
+        {
+          "metric": "Partner organizations that permanently stopped at least one HIV clinical care activity",
+          "value": "21%",
+          "source": "amfAR survey, presented at AIDS 2026/IAS 2026"
+        },
+        {
+          "metric": "Organizations that stopped serving key at-risk populations (sex workers, transgender people, gay men, people who inject drugs)",
+          "value": "~75%",
+          "source": "amfAR survey, presented at AIDS 2026/IAS 2026"
+        }
+      ],
+      "caveat": "The survey's response rate was 23% (166 of 708 organizations contacted), so figures should be understood as based on a partial, self-selected sample of PEPFAR implementing partners rather than a full census -- though the sample size and consistency of findings across a wide range of countries lend the results credibility as indicative of broader impact, per public-health researchers reporting on the study."
+    },
+    "confidence_note": "HIGH confidence -- this is a named research study (amfAR and partner organizations) presented at a major international conference (AIDS 2026/IAS 2026), with consistent figures corroborated across Managed Healthcare Executive (two separate articles), 76crimes, The Advocate, The Nation, and Al Jazeera. MODERATE confidence on generalizing beyond the surveyed sample, given the 23% survey response rate, though this is an inherent limitation of the underlying study rather than a sourcing gap in this entry.",
+    "section_summaries": {
+      "what_changed": "A survey-based study found PEPFAR funding disruptions closed 1,714 HIV treatment sites worldwide and cut treatment for 77,000+ children, with over 16,000 healthcare workers losing jobs.",
+      "estimated_impact": "About three-quarters of surveyed partner organizations stopped serving the populations at highest risk of HIV, and one in five permanently ended at least one clinical care activity.",
+      "confidence_note": "Well-corroborated named research study presented at a major conference and covered consistently across multiple outlets; based on a 23% survey response rate, an inherent limitation of the underlying study."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "Managed Healthcare Executive — 1,700 sites closed, 77,000 fewer children received PEPFAR-supported treatment after PEPFAR disruption",
+        "url": "https://www.managedhealthcareexecutive.com/view/1-700-sites-closed-77-000-fewer-children-received-pepfar-supported-treatment-after-pepfar-disruption-ias-2026"
+      },
+      {
+        "name": "Al Jazeera — US funding cuts deal blow to global HIV treatment: Report",
+        "url": "https://www.aljazeera.com/news/2026/7/21/us-funding-cuts-deal-blow-to-global-hiv-treatment-report"
+      },
+      {
+        "name": "The Advocate — Donald Trump's assault on foreign aid shuttered 1,700 HIV care sites worldwide",
+        "url": "https://www.advocate.com/politics/national/hiv-care-stopped-trump-pepfar"
+      }
+    ],
+    "last_updated": "2026-07-27"
+  },
+  {
     "id": "rfk-jr-measles-data-diversion-2025",
     "title": "RFK Jr. Diverted CDC Staff to Compile Measles Data, Blocked Briefings, Spread Vaccine Disinformation -- CDC Chief Medical Officer Resigned in Protest",
     "institution": "Centers for Disease Control and Prevention (CDC)",
     "domain": "research_suppression",
-    "status": "Reported as a completed episode during the 2025 outbreak; Houry's resignation was final as of summer 2025, no indication in sourcing reviewed that the underlying dynamic has been addressed since",
+    "status": "Reported as a completed episode during the 2025 outbreak; Houry's resignation was final as of summer 2025. Update 2026-07-27: the Washington Post reports the U.S. recorded 2,295 measles cases in 2026 as of late July -- the highest annual total since 1991 -- with more than five months remaining in the year, which public health experts attribute to declining vaccination rates and sustained outbreaks across multiple states.",
     "date_of_action": "2025 (during the active measles outbreak response, through Houry's resignation in summer 2025)",
     "what_changed": "Former CDC Chief Medical Officer Dr. Debra Houry said that while CDC staff were actively responding to the largest U.S. measles outbreak in decades -- more than 2,000 cases nationwide in 2025, including two child deaths linked to a West Texas outbreak cluster, with 93% of cases involving people who were unvaccinated or had unknown vaccination status -- HHS Secretary Robert F. Kennedy Jr. and his aides requested 15 years of historical data on every individual measles case, including comorbidities among the deceased. Houry said the requests diverted CDC staff time and attention away from active outbreak management, stating publicly that 'the active measles response has to take priority,' and characterized the data requests as 'not based on science or reality, but trying to answer an agenda that was already in place.' Houry said Kennedy separately declined briefings from CDC's top medical officials on the measles epidemic despite CDC's offers to provide 'correct statistics, correct information,' spread false claims about vaccines (including the MMR vaccine) that CDC experts were prevented from countering, and relied on advisers she said lacked medical, scientific, or government background. Houry resigned in protest in summer 2025, saying she could no longer protect the agency's scientific integrity and citing measles, whooping cough, and flu deaths she witnessed: 'I couldn't stand behind that.' Her resignation followed Kennedy's June 9, 2025 removal of all 17 members of CDC's vaccine advisory committee (ACIP, tracked separately in this database), whose replacements included members with ties to lawsuits against vaccine makers -- notable given that Kennedy himself had collected referral fees from such lawsuits before becoming HHS Secretary.",
     "primary_proponent": {
@@ -4271,6 +4638,10 @@
       {
         "name": "CBS News — Dr. Debra Houry's emails and resignation over RFK Jr.'s handling of the vaccine advisory panel",
         "url": "https://www.cbsnews.com/news/debra-houry-emails-resignation-rfk-jr-vaccine-panel/"
+      },
+      {
+        "name": "Washington Post — US measles cases hit 35-year record with months left in 2026",
+        "url": "https://www.washingtonpost.com/health/2026/07/21/us-measles-cases-hit-35-year-record-with-months-left-2026/"
       }
     ],
     "last_updated": "2026-07-27"
@@ -5230,6 +5601,64 @@
         "url": "https://en.wikipedia.org/wiki/Voice_of_America"
       }
     ]
+  },
+  {
+    "id": "white-house-200b-research-funding-overhaul-2026",
+    "title": "White House Plan Shifts $200 Billion in Annual Federal Research Funding Away From Universities, Peer Review, Toward Political-Appointee Discretion",
+    "institution": "Office of Science and Technology Policy (OSTP) / Office of Management and Budget (OMB) -- government-wide federal R&D funding",
+    "domain": "research_suppression",
+    "status": "Plan unveiled -- directives to shape federal R&D funding for the remainder of Trump's second term, implementation across federal research agencies ongoing as of this entry",
+    "date_of_action": "2026-07 (plan unveiled)",
+    "what_changed": "The White House unveiled a plan, co-signed by OSTP Director Michael Kratsios and OMB Director Russell Vought, to reshape the roughly $200 billion annual federal research and development budget for the remainder of Trump's second term. The plan directs every federal research agency to supplement traditional, consensus-driven peer review with faster funding mechanisms -- described as 'golden tickets,' 'fast grants,' and portable awards that follow individual researchers rather than their host institutions -- shifting emphasis toward individual scientists and away from universities as institutions, which could particularly affect large universities reliant on federal grants. The plan directs research priorities toward artificial intelligence specifically, alongside stated goals of deploying a functioning quantum computer by 2028 and having 10 new large nuclear reactors under construction by 2030. A related proposed OMB rule would give political appointees greater direct influence over individual grant decisions, aligning funded research more closely with administration priorities rather than independent scientific merit review alone.",
+    "primary_proponent": {
+      "name": "Michael Kratsios",
+      "role": "Director, Office of Science and Technology Policy",
+      "note": "Co-signed the plan alongside OMB Director Russell Vought, directing federal research agencies to adopt faster, less peer-review-dependent funding mechanisms and to give political appointees greater influence over grant decisions."
+    },
+    "estimated_impact": {
+      "summary": "Nearly the entire federal research and development budget -- roughly $200 billion annually -- is being redirected via new mechanisms that bypass or supplement traditional peer review with faster, appointee-influenced funding pathways, prioritizing AI research and individual researchers over universities as institutions; critics warn this risks narrowing the range of research pursued and substituting political priorities for independent scientific judgment.",
+      "figures": [
+        {
+          "metric": "Annual federal R&D budget affected by the plan",
+          "value": "~$200,000,000,000",
+          "source": "Wall Street Journal, July 2026"
+        },
+        {
+          "metric": "Target year for a functioning federal quantum computer",
+          "value": "2028",
+          "source": "Wall Street Journal, July 2026"
+        },
+        {
+          "metric": "Target for new large nuclear reactors under construction",
+          "value": "10 by 2030",
+          "source": "Wall Street Journal, July 2026"
+        }
+      ],
+      "caveat": "The plan's stated rationale -- that traditional peer review is too slow and consensus-driven, and that individual-researcher-focused, faster mechanisms could accelerate breakthrough research -- is a genuine, debatable policy position on scientific funding methodology, not solely a pretext; skeptics cited in reporting warn specifically about AI models' error-proneness and the risk of narrowing research diversity, which is a distinct concern from the political-appointee-influence question. Present both the efficiency rationale and the independence concerns."
+    },
+    "confidence_note": "HIGH confidence -- based on detailed original Wall Street Journal reporting, corroborated across TradingView, Yahoo Finance, and multiple independent newsletter/analysis pieces (Kyle Saunders, Higher Ed Science) with consistent figures and named officials (Kratsios, Vought).",
+    "section_summaries": {
+      "what_changed": "The White House unveiled a plan reshaping the $200 billion annual federal R&D budget, shifting funding away from universities and traditional peer review toward AI-focused, appointee-influenced mechanisms benefiting individual researchers.",
+      "estimated_impact": "Nearly the entire federal research budget faces new appointee-influenced funding pathways prioritizing AI and specific technology goals (quantum computing by 2028, 10 nuclear reactors by 2030), with critics warning of narrowed research diversity and reduced scientific independence.",
+      "confidence_note": "Well-corroborated via detailed original WSJ reporting and consistent independent pickup, with named officials and figures."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "Wall Street Journal — White House to Redirect Billions in Research Funds Toward AI, Away From Colleges",
+        "url": "https://www.wsj.com/politics/policy/white-house-to-redirect-billions-in-research-funds-toward-ai-away-from-colleges-942dacb8"
+      },
+      {
+        "name": "TradingView News — White House to shift federal research funds to AI, away from colleges",
+        "url": "https://www.tradingview.com/news/forexlive:8c799ec3f094b:0-white-house-to-shift-federal-research-funds-to-ai-away-from-colleges/"
+      },
+      {
+        "name": "Yahoo Finance — Trump is pulling billions in research money out of America's universities — and handing it to AI and scientists instead",
+        "url": "https://finance.yahoo.com/technology/ai/articles/trump-pulling-billions-research-money-203000932.html"
+      }
+    ],
+    "last_updated": "2026-07-27"
   },
   {
     "id": "wildland-fire-service-suppression-policy-2026",
