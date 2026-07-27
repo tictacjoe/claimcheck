@@ -2299,6 +2299,51 @@
     "last_updated": "2026-07-27"
   },
   {
+    "id": "hegseth-pentagon-union-contracts-terminated-2026",
+    "title": "Hegseth Orders Termination of Most Pentagon Union Contracts on 24 Hours' Notice, Unions Sue",
+    "institution": "Department of Defense",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing -- lawsuit filed and pending in U.S. District Court for Maryland as of this entry",
+    "date_of_action": "2026-04 (Hegseth directive) through 2026-07 (union lawsuit filed)",
+    "what_changed": "In April 2026, Defense Secretary Pete Hegseth directed the Department of Defense to terminate most of its collective bargaining agreements with federal employee unions, giving only 24 hours' notice. The move implements, at DoD specifically, a broader Trump executive order stripping collective bargaining rights from federal employees at agencies with national security functions -- an order that explicitly exempted 'local employing offices' covering police officers, firefighters, and security guards. Two unions, the American Federation of Government Employees (AFGE) and the National Federation of Federal Employees (NFFE), sued in U.S. District Court for Maryland, alleging Hegseth's implementation violated the Administrative Procedure Act by failing to explain the abrupt policy reversal after DoD had continued honoring the agreements for nearly a year, providing no implementation plan (which the unions say caused widespread 'confusion and misinformation'), and acting without adequate notice or procedural safeguards. The lawsuit also alleges DoD swept in employees -- including dispatchers, IT workers, and other staff who work alongside exempted first responders -- whose bargaining rights should have remained protected under the terms of Trump's own executive order.",
+    "primary_proponent": {
+      "name": "Pete Hegseth",
+      "role": "Secretary of Defense",
+      "note": "Personally directed DoD to terminate most of its union collective bargaining agreements on 24 hours' notice, implementing Trump's broader executive order stripping federal-employee bargaining rights at the Pentagon specifically."
+    },
+    "estimated_impact": {
+      "summary": "Pentagon civilian employees represented by AFGE and NFFE lost collective bargaining protections with almost no notice, including some categories of employees the underlying executive order was not supposed to reach, according to the unions' lawsuit -- creating what the suit describes as widespread confusion over which contracts and protections still apply.",
+      "figures": [
+        {
+          "metric": "Notice period given before contract terminations took effect",
+          "value": "24 hours",
+          "source": "Defense One, July 2026, citing the unions' lawsuit"
+        },
+        {
+          "metric": "Unions party to the lawsuit",
+          "value": "2 (AFGE, NFFE)",
+          "source": "Defense One, July 2026"
+        }
+      ],
+      "caveat": "This entry documents the unions' allegations as stated in their lawsuit; no Pentagon or Hegseth response to the specific allegations was identified in sourcing reviewed, and the litigation is pending, so the legal questions raised (APA violation, improper scope beyond the executive order's stated exemptions) are unresolved, not adjudicated facts."
+    },
+    "confidence_note": "MODERATE-HIGH confidence on the core facts (the April 2026 directive, the 24-hour notice period, the lawsuit and its allegations) since they're drawn from detailed Defense One reporting on the filed lawsuit, but the entry relies on a single detailed source rather than multiple independent outlets, and no Pentagon response was available to present the other side.",
+    "section_summaries": {
+      "what_changed": "Hegseth ordered most Pentagon union contracts terminated with 24 hours' notice in April 2026; AFGE and NFFE sued, alleging APA violations and improper termination of contracts for employees who should have been exempt.",
+      "estimated_impact": "Pentagon civilian employees lost bargaining protections abruptly, including some categories the underlying executive order didn't intend to reach, according to the unions' suit.",
+      "confidence_note": "Based on detailed single-source reporting of the filed lawsuit; no Pentagon response identified, and the litigation's legal questions remain unresolved."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "Defense One — Unions sue Hegseth over Pentagon worker rights",
+        "url": "https://www.defenseone.com/policy/2026/07/unions-sue-hegseth-pentagon-worker-rights/414675/"
+      }
+    ],
+    "last_updated": "2026-07-27"
+  },
+  {
     "id": "hud-fair-housing-staff-cuts-trump2",
     "title": "HUD's Fair Housing Office Cut by Roughly Two-Thirds Amid Whistleblower Allegations",
     "institution": "U.S. Department of Housing and Urban Development, Office of Fair Housing and Equal Opportunity",
@@ -4843,6 +4888,59 @@
       {
         "name": "The Hill — Donald Trump's USAID, WHO cuts impact Ebola response",
         "url": "https://thehill.com/policy/healthcare/5892230-ebola-outbreak-trump-cuts/"
+      }
+    ],
+    "last_updated": "2026-07-27"
+  },
+  {
+    "id": "usda-food-security-survey-cancellation-2025",
+    "title": "USDA Cancels 30-Year Household Food Security Survey as 4.7 Million Lose SNAP Benefits",
+    "institution": "U.S. Department of Agriculture",
+    "domain": "data_collection_halted",
+    "status": "Complete -- survey terminated; Democratic members of Congress have introduced bills to reinstate it, not yet enacted",
+    "date_of_action": "2025-09-20 (survey termination announced)",
+    "what_changed": "In September 2025, USDA terminated its annual Household Food Security Survey, which for 30 years had been the government's primary tool for measuring whether American households have reliable access to enough food, and which researchers and policymakers widely regarded as the 'gold standard' for understanding food access nationally. USDA's own press release described the survey as 'redundant, costly, politicized, and extraneous.' The cancellation followed passage of Trump's tax and spending law (HR1/OBBBA) in July 2025, which shifted significant SNAP funding responsibility to states and expanded work requirements; since then, roughly 4.7 million people -- about 11% of prior participants -- have lost SNAP benefits, with further losses expected as states continue implementing the changes. Food-security researchers said the survey's elimination will make it substantially harder to measure whether hunger is increasing as a result of the SNAP changes, since no comparable federal data source currently exists. Democratic members of Congress have introduced legislation to reinstate the survey; it has not been enacted as of this entry.",
+    "primary_proponent": {
+      "name": "U.S. Department of Agriculture",
+      "role": "Federal agency (under Secretary Brooke Rollins)",
+      "note": "USDA's own press release announced and justified the survey's termination, describing it as 'redundant, costly, politicized, and extraneous.'"
+    },
+    "estimated_impact": {
+      "summary": "Researchers describe the survey's loss as a significant void in the government's ability to track food insecurity nationally, arriving at the same time SNAP eligibility changes have already removed benefits from millions of participants -- making it substantially harder to measure whether those changes are increasing hunger, exactly when independent measurement would matter most.",
+      "figures": [
+        {
+          "metric": "Years the Household Food Security Survey had been conducted before cancellation",
+          "value": "30",
+          "source": "Reuters (widely syndicated), July 2026"
+        },
+        {
+          "metric": "People who lost SNAP benefits since HR1's passage",
+          "value": "~4,700,000 (~11% of prior participants)",
+          "source": "Reuters, citing SNAP participation data, July 2026"
+        }
+      ],
+      "caveat": "USDA's stated justification (that the survey was 'redundant, costly, politicized, and extraneous') is the agency's own characterization and is disputed by food-security researchers, who call the survey the field's 'gold standard'; present both framings rather than treating either as settled. The 4.7 million SNAP-loss figure stems from separate HR1 eligibility changes, not from the survey cancellation itself -- the survey's cancellation is presented here as removing the primary tool for measuring the SNAP changes' hunger impact, not as a cause of the SNAP losses."
+    },
+    "confidence_note": "HIGH confidence -- the cancellation and USDA's own stated rationale are drawn directly from USDA's press release, and the analysis of its impact is corroborated by a Reuters wire report syndicated across dozens of outlets (Detroit News, US News, Hawaii Tribune-Herald, and others), plus independent commentary from named food-security economists (Craig Gundersen, Baylor University; Michele Ver Ploeg, National Center for Food and Agricultural Policy) and advocacy organizations (Project Bread).",
+    "section_summaries": {
+      "what_changed": "USDA canceled its 30-year Household Food Security Survey in September 2025, calling it 'redundant, costly, politicized, and extraneous,' just as HR1's SNAP eligibility changes stripped benefits from 4.7 million people.",
+      "estimated_impact": "Food-security researchers call the survey's loss a major void in measuring US hunger, arriving right as SNAP cuts make that measurement most needed; Congress has introduced bills to reinstate it.",
+      "confidence_note": "Well-corroborated by USDA's own press release, a widely syndicated Reuters analysis, and named independent food-security researchers and advocates."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "USDA — USDA Terminates Redundant Food Insecurity Survey (official press release, Sept. 20, 2025)",
+        "url": "https://www.usda.gov/about-usda/news/press-releases/2025/09/20/usda-terminates-redundant-food-insecurity-survey"
+      },
+      {
+        "name": "Reuters (via Detroit News) — Trump cut to food security survey could make measuring US hunger harder",
+        "url": "https://www.detroitnews.com/story/news/nation/2026/07/09/trump-cut-food-security-survey-could-make-measuring-us-hunger-harder/90859319007/"
+      },
+      {
+        "name": "Project Bread — Canceling the Annual USDA Household Food Security Survey is a Cop Out",
+        "url": "https://projectbread.org/news/canceling-usda-household-food-security-survey"
       }
     ],
     "last_updated": "2026-07-27"
