@@ -381,6 +381,81 @@
     "short_summary": "Exempted regional banks under $250B in assets from strict post-2008 oversight."
   },
   {
+    "id": "doe-clean-energy-grants-political-cancellation-2026",
+    "rule_name": "DOE cancellation of clean energy manufacturing/project grants, including admitted targeting by state political identity",
+    "administration": "Trump II",
+    "agency": "Department of Energy",
+    "domain": "cross-cutting (structural/process rule, energy/environmental focus)",
+    "status": "Ongoing -- a federal court has ruled part of the cancellations illegal; broader rollback (223 projects, $82.9B) continues per a July 2026 BlueGreen Alliance analysis",
+    "date_of_action": "2025 (grant cancellations begin) through 2026-07 (court admission and BlueGreen Alliance analysis)",
+    "original_rule_summary": "Biden-era clean energy incentives -- including manufacturing and project grants funded through the Inflation Reduction Act and related programs -- had been awarded or were pending to hundreds of clean energy and manufacturing projects nationwide, including in Republican- and Democratic-leaning states alike, based on standard DOE project-merit review criteria.",
+    "what_changed": "A July 14, 2026 analysis by the labor-and-environmental coalition BlueGreen Alliance found that 223 clean energy manufacturing and project awards, representing $82.9 billion in investment and 111,765 projected jobs, have been delayed or canceled during Trump's second term, attributing the rollback to Trump's tax and spending law (which repealed or curtailed Biden-era clean energy incentives) and other administration actions reducing federal support for renewable energy and electric vehicles. Separately, in court filings unsealed around July 25, 2026, federal lawyers acknowledged that the Department of Energy canceled $7.6 billion in grants for clean energy projects specifically located in the 16 states that voted for Kamala Harris in the 2024 election -- an admission that the cancellations were based 'solely on the political identity of the grant recipient's state,' contradicting Energy Secretary Chris Wright's repeated public statements that the projects were canceled because they failed to adequately advance national energy needs or represented poor investments. DOE's own lawyers acknowledged using keywords related to diversity, gender, vaccine hesitancy, and COVID-19 to screen projects for cancellation. A federal court has since ruled that the administration illegally blocked billions of dollars in clean energy grants to Democratic-leaning states.",
+    "primary_proponent": {
+      "name": "Chris Wright",
+      "role": "Secretary of Energy",
+      "note": "Publicly and repeatedly stated the grant cancellations were based on projects' merits and national energy needs -- a claim DOE's own lawyers subsequently contradicted in court filings, acknowledging the cancellations were based on the political identity of the recipient state."
+    },
+    "corporate_beneficiaries": [
+      {
+        "name": "Fossil fuel and traditional energy interests benefiting from reduced clean energy competition",
+        "connection": "Clean energy manufacturing and project cancellations reduce competing capacity and investment in renewable energy and electric vehicle manufacturing, indirectly benefiting incumbent fossil-fuel-aligned energy interests, consistent with this tracker's related entry on offshore wind/coal taxpayer-funded rollbacks."
+      }
+    ],
+    "estimated_health_impact": {
+      "summary": "This entry documents an economic and process-integrity rollback rather than a direct public-health standard: the primary harms alleged are lost investment and jobs, and -- more seriously for democratic accountability -- a documented instance of DOE officials publicly misrepresenting the actual (politically motivated) basis for agency funding decisions, which a federal court has since found illegal in at least the $7.6 billion Democratic-state-targeting instance.",
+      "figures": [
+        {
+          "metric": "Clean energy/manufacturing projects delayed or canceled",
+          "value": "223",
+          "source": "BlueGreen Alliance analysis, July 14, 2026, cited by Reuters"
+        },
+        {
+          "metric": "Total investment represented by delayed/canceled projects",
+          "value": "$82,900,000,000",
+          "source": "BlueGreen Alliance analysis, July 14, 2026"
+        },
+        {
+          "metric": "Projected jobs lost/delayed",
+          "value": "111,765",
+          "source": "BlueGreen Alliance analysis, July 14, 2026"
+        },
+        {
+          "metric": "Grants DOE admitted canceling based on recipient state's political identity (16 Harris-voting states)",
+          "value": "$7,600,000,000",
+          "source": "Federal court filings, reported by Fortune/AP/ABC News, July 2026"
+        }
+      ],
+      "caveat": "The $82.9 billion/223-project figure (BlueGreen Alliance, a labor-and-environmental advocacy coalition, not a neutral government auditor) attributes the broader rollback generally to Trump's tax law and administration policy, while the $7.6 billion figure is independently and more directly established via DOE's own court admission -- present the two figures with their different evidentiary weight rather than treating them as equally certain. A federal court has ruled on the legality of the $7.6 billion in state-targeted cancellations specifically; the broader $82.9 billion figure has not been the subject of a comparable legal finding."
+    },
+    "confidence_note": "HIGH confidence on the $7.6 billion state-targeting admission, since it comes directly from DOE's own federal court filings, corroborated across Fortune, ABC News, NBC Washington, Yahoo, and Utility Dive, and has already been the basis for a federal court ruling against the administration. MODERATE-HIGH confidence on the broader $82.9 billion/223-project/111,765-job figures, which are corroborated across Reuters-sourced wire coverage (GV Wire, Virginia Business, Spokesman-Review, US News) but originate from an advocacy-coalition analysis (BlueGreen Alliance) rather than a government or fully independent academic source.",
+    "section_summaries": {
+      "what_changed": "DOE canceled hundreds of clean energy projects worth $82.9 billion under Trump's second term, and admitted in court that $7.6 billion of those cancellations specifically targeted the 16 states that voted for Harris -- directly contradicting Energy Secretary Chris Wright's public claims that cancellations were merit-based.",
+      "estimated_impact": "223 projects and 111,765 projected jobs were delayed or canceled; a federal court has already ruled the politically-targeted portion of the cancellations illegal.",
+      "confidence_note": "The $7.6B political-targeting admission is directly documented in DOE's own court filings and independently corroborated; the broader $82.9B figure comes from an advocacy-coalition analysis, not a government auditor, though it is widely wire-corroborated."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "Fortune — Trump administration admits it canceled $7.6 billion in clean energy projects 'based solely on the political identity of the grant recipient's state'",
+        "url": "https://fortune.com/2026/07/25/trump-administration-clean-energy-projects-cenceled-political-identity-kamala-harris-election/"
+      },
+      {
+        "name": "ABC News (AP) — Trump administration admits grants for clean energy were canceled based on politics",
+        "url": "https://abcnews.com/Business/wireStory/trump-administration-admits-grants-clean-energy-canceled-based-135071063"
+      },
+      {
+        "name": "Utility Dive — Trump's 'vindictive' use of energy, other grants sparks backlash",
+        "url": "https://www.utilitydive.com/news/backlash-trumps-vindictive-grant-cancellations-doe-energy/826226/"
+      },
+      {
+        "name": "GV Wire (Reuters) — Trump Cuts to Clean Energy Linked to $83 Billion in Delayed or Canceled Projects",
+        "url": "https://gvwire.com/2026/07/14/trump-cuts-to-clean-energy-linked-to-83-billion-in-delayed-or-canceled-projects/"
+      }
+    ],
+    "short_summary": "DOE canceled $82.9B/223 clean energy projects (111,765 jobs) under Trump; court filings show $7.6B of that specifically targeted the 16 states that voted for Harris, contradicting Sec. Wright's public merit-based justification -- a court has already ruled this illegal."
+  },
+  {
     "id": "dol-overtime-threshold-rescission-trump2",
     "rule_name": "Overtime Salary Threshold Expansion Rescission",
     "administration": "Trump II",
