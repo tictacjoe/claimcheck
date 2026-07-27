@@ -750,6 +750,83 @@
     ]
   },
   {
+    "id": "disease-surveillance-cuts-emerging-threats-2026",
+    "title": "Federal Disease Surveillance Cuts Coincide With Emergence of Flesh-Eating Bacteria, Screwworm, and Malaria-Reintroduction Risk",
+    "institution": "HHS/CDC and USDA disease-surveillance programs",
+    "domain": "data_collection_halted",
+    "status": "Ongoing -- most surveillance reductions remain in place as of mid-2026; the ocean-monitoring-instrument removal was reversed after congressional opposition",
+    "date_of_action": "2025 (surveillance program cuts begin) through 2026-07 (reporting on emerging health threats)",
+    "what_changed": "The Trump administration reduced or eliminated multiple federal disease-surveillance programs beginning in 2025. As of July 1, 2025, CDC's FoodNet (the Foodborne Diseases Active Surveillance Network, a CDC/USDA/FDA/state partnership covering 10 sites) stopped requiring reporting on six of the eight pathogens it was built to track -- Campylobacter, Cyclospora, Listeria, Shigella, Vibrio, and Yersinia all became optional, leaving only Salmonella and STEC (E. coli) mandatory; Cyclospora surveillance had been mandatory since 1997. The administration also began removing hundreds of deep-sea ocean-monitoring instruments used to track ocean conditions that help predict pathogen proliferation, including Vibrio; this removal was later reversed following congressional opposition. USDA lost 18% of its workforce (more than 20,000 employees) in the first half of 2025. USAID, dismantled entirely in 2025, had provided global disease-surveillance and response funding, including stripping more than $300 million from the UN Food and Agriculture Organization and targeting roughly 80% of global malaria grants for termination, ending a U.S. malaria-prevention investment that had exceeded $9 billion since 2005. These reductions coincided with the emergence or resurgence of multiple disease threats in 2026: a 2026 Cyclospora outbreak that food-safety commentators say the weakened surveillance system was slower to detect and characterize (though some analyses argue the surveillance changes did not directly cause the outbreak itself -- see caveat); Vibrio vulnificus ('flesh-eating bacteria') cases in Florida and detections in New York coastal waters (CDC estimates roughly 80,000 Vibrio infections annually, with about 1 in 5 Vibrio vulnificus wound infections fatal, sometimes within days); the first confirmed U.S. case of New World Screwworm in June 2026, with over a dozen animals infected, threatening the cattle industry; and a CDC warning in May 2026 that 'the country remains susceptible to malaria reintroduction' despite the disease's 1951 eradication in the U.S.",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services",
+      "note": "Oversees the HHS restructuring that included the FoodNet reporting changes and broader public-health surveillance reductions; HHS spokesperson Emily Hilliard defended the reforms in response to press inquiries. Agriculture Secretary Brooke Rollins separately denied that USDA staffing cuts caused the screwworm's return."
+    },
+    "estimated_impact": {
+      "summary": "Public health experts, including former CDC director Tom Frieden and infectious-disease specialists, warn the surveillance reductions have left the country less able to detect emerging disease threats before they spread widely -- a concern illustrated concretely by the near-simultaneous emergence of flesh-eating bacteria in new coastal areas, the first U.S. screwworm case in decades, and a CDC-flagged malaria-reintroduction risk.",
+      "figures": [
+        {
+          "metric": "FoodNet pathogens with reporting downgraded from mandatory to optional",
+          "value": "6 of 8",
+          "source": "CBS News, July 2026"
+        },
+        {
+          "metric": "USDA workforce reduction, first half of 2025",
+          "value": "18% (20,000+ employees)",
+          "source": "CBS News, citing USDA data, July 2026"
+        },
+        {
+          "metric": "USAID funding stripped from UN Food and Agriculture Organization",
+          "value": "$300,000,000+",
+          "source": "CBS News, July 2026"
+        },
+        {
+          "metric": "Global malaria grants targeted for termination",
+          "value": "~80%",
+          "source": "CBS News, July 2026"
+        },
+        {
+          "metric": "Vibrio infections estimated annually (CDC)",
+          "value": "~80,000",
+          "source": "CDC, cited by CBS News, July 2026"
+        },
+        {
+          "metric": "Vibrio vulnificus wound/foodborne cases over the past five years",
+          "value": "429 wound infections, 135 foodborne",
+          "source": "CBS News, citing CDC data, July 2026"
+        }
+      ],
+      "caveat": "Agency officials dispute a direct causal link between the staffing/surveillance cuts and the specific emerging threats -- HHS's Hilliard defended the reforms generally, and Agriculture Secretary Rollins specifically denied that USDA cuts caused the screwworm's return. On the 2026 Cyclospora outbreak specifically, at least one political-response piece (Will Campbell for Texas) explicitly argues the surveillance changes did not cause that outbreak, while food-safety trade commentary (Food Safety News, eFoodAlert) argues the weakened system slowed detection and characterization -- present this as a genuinely disputed point, not settled either way. Broadly, the surveillance reductions and the emerging-threat reports are documented as a concerning coincidence by public-health experts, not as a proven causal chain for any single case."
+    },
+    "confidence_note": "HIGH confidence on the underlying facts of the surveillance-program changes -- the FoodNet pathogen-reporting downgrade is independently corroborated across CBS News, CIDRAP, Food Safety Magazine, Food Safety News, and trade coverage, not resting on a single source; USDA/USAID staffing and funding figures come from CBS News citing agency data. MODERATE confidence on the causal link between the cuts and any specific outbreak (including the 2026 Cyclospora outbreak), since administration officials and at least one independent commentary explicitly dispute that link, while other food-safety commentators argue the opposite -- this is a live, disputed question, not an established fact.",
+    "section_summaries": {
+      "what_changed": "The administration downgraded mandatory foodborne-pathogen reporting to optional, cut USDA staff by 18%, and eliminated USAID's global malaria/surveillance funding, while flesh-eating bacteria, screwworm, and malaria-reintroduction risk all emerged or resurfaced in 2026.",
+      "estimated_impact": "Public health experts warn reduced surveillance capacity leaves the country less able to catch emerging threats early; administration officials dispute that the cuts caused any specific outbreak.",
+      "confidence_note": "Facts well-corroborated in detailed CBS News reporting citing CDC data and named officials; causal link to specific outbreaks is disputed by the administration and not independently established."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "CBS News — Disease threats emerge as Trump administration cuts health surveillance programs",
+        "url": "https://www.cbsnews.com/news/disease-threats-trump-administration-health-program-cuts/"
+      },
+      {
+        "name": "CIDRAP — CDC cuts back foodborne illness surveillance program",
+        "url": "https://www.cidrap.umn.edu/foodborne-disease/cdc-cuts-back-foodborne-illness-surveillance-program"
+      },
+      {
+        "name": "Food Safety Magazine — CDC Slashes FoodNet Surveillance From Eight Foodborne Pathogens to Two",
+        "url": "https://www.food-safety.com/articles/10646-cdc-slashes-foodnet-surveillance-from-eight-foodborne-pathogens-to-two"
+      },
+      {
+        "name": "Food Safety News — Publisher's Platform: They stopped counting, and now they say they can't see",
+        "url": "https://www.foodsafetynews.com/2026/07/publishers-platform-they-stopped-counting-and-now-they-say-they-cant-see/"
+      }
+    ],
+    "last_updated": "2026-07-27"
+  },
+  {
     "id": "doe-oced-dismantlement-trump2",
     "title": "DOE Dismantles Office of Clean Energy Demonstrations, Cancels $3.7B+ in Awarded Projects",
     "institution": "Department of Energy (Office of Clean Energy Demonstrations)",
@@ -3577,6 +3654,69 @@
     ]
   },
   {
+    "id": "ny-essential-plan-hr1-funding-cut-2026",
+    "title": "HR1 (\"One Big Beautiful Bill\") Federal Funding Cuts Strip Essential Plan Coverage From ~450,000 New Yorkers",
+    "institution": "New York State of Health Essential Plan (federal Basic Health Program, funded through HHS/CMS)",
+    "domain": "funding_redirection",
+    "status": "Ongoing -- eligibility changes took effect July 1, 2026; New York State has taken some mitigating action but has not restored coverage to all affected enrollees",
+    "date_of_action": "2026-07-01 (eligibility changes take effect, following earlier-2026 enactment of HR1)",
+    "what_changed": "HR1, the reconciliation law Trump signed in 2026 and that the administration has branded the 'One Big Beautiful Bill,' cut federal funding underlying New York's Essential Plan -- a Basic Health Program that had provided low-cost coverage to low- and middle-income residents who earn too much for Medicaid but still qualify for ACA marketplace subsidy support. As of July 1, 2026, New Yorkers earning between 200% and 250% of the federal poverty level (a single-person household income of roughly $31,920 to $39,900 per year) lost eligibility for subsidized Essential Plan coverage entirely, and an estimated 450,000 New Yorkers lost coverage as a result. The law is projected to eliminate $7.5 billion in annual federal funding for the program, which had covered nearly 1.7 million low- and middle-income New Yorkers before the cuts. New York Governor Kathy Hochul's administration used a Basic Health Program waiver mechanism to access billions in a federal trust fund and partially mitigate the impact, preserving coverage for a majority of enrollees, but did not fully offset the loss for the affected income band. Additional Medicaid work-requirement provisions in the same law are expected to strip coverage from hundreds of thousands more Americans nationally beginning in 2027.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Signed HR1 (the 'One Big Beautiful Bill') into law in 2026, which included the ACA marketplace subsidy and Basic Health Program funding reductions underlying the Essential Plan eligibility cuts."
+    },
+    "estimated_impact": {
+      "summary": "An estimated 450,000 New Yorkers -- working adults in a specific income band who earned too much for Medicaid but relied on subsidized marketplace-adjacent coverage -- lost health insurance as of July 1, 2026, out of nearly 1.7 million total Essential Plan enrollees; New York State's own mitigation efforts preserved coverage for most, but not all, of those affected, and further nationwide Medicaid work-requirement losses are expected in 2027.",
+      "figures": [
+        {
+          "metric": "New Yorkers who lost Essential Plan coverage as of July 1, 2026",
+          "value": "~450,000",
+          "source": "City & State New York, July 2026, citing NY State of Health data"
+        },
+        {
+          "metric": "Total New Yorkers enrolled in the Essential Plan before the cuts",
+          "value": "~1,700,000",
+          "source": "NY State of Health, cited in coverage of the HR1 impact"
+        },
+        {
+          "metric": "Annual federal funding for the Essential Plan eliminated by HR1",
+          "value": "$7,500,000,000",
+          "source": "NY State of Health impact analysis, cited in coverage of HR1"
+        },
+        {
+          "metric": "Income band losing eligibility (% of federal poverty level)",
+          "value": "200%-250% FPL (~$31,920-$39,900 for a single household)",
+          "source": "City & State New York, July 2026"
+        }
+      ],
+      "caveat": "New York's own mitigation response (using a Basic Health Program waiver to access federal trust-fund money) means the 450,000 figure reflects the gap remaining after the state's partial fix, not the full scale of the original federal cut -- other states without a comparable Basic Health Program waiver mechanism may see different outcomes from the same federal law. This entry documents New York's specific, well-reported impact rather than a national tally, which was not identified in sourcing reviewed."
+    },
+    "confidence_note": "HIGH confidence on the core facts (eligibility change effective date, income thresholds, ~450,000 affected, HR1 as the causal federal law) -- corroborated across City & State New York and New York State of Health's own published impact analysis. MODERATE confidence on the precise total dollar figure ($7.5 billion) and the exact mechanics of New York's mitigation, since only one detailed secondary source was reviewed for this entry beyond the state's own materials.",
+    "section_summaries": {
+      "what_changed": "HR1 cut federal funding for New York's Essential Plan, stripping subsidized coverage eligibility from residents earning 200-250% of the federal poverty level effective July 1, 2026.",
+      "estimated_impact": "About 450,000 New Yorkers lost coverage out of nearly 1.7 million enrollees, even after the state used a federal waiver to partially mitigate the $7.5 billion funding cut; more losses are expected nationally in 2027 from related Medicaid work requirements.",
+      "confidence_note": "Core facts corroborated by New York State's own published impact data and press coverage; broader national scope and precise cut mechanics rest on more limited sourcing."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "City & State New York — Congressional Democrats blast Trump, Blakeman over newly enacted Essential Plan cuts",
+        "url": "https://www.cityandstateny.com/politics/2026/07/congressional-democrats-blast-trump-blakeman-over-newly-enacted-essential-plan-cuts/414576/"
+      },
+      {
+        "name": "NY State of Health — Impact of Essential Plan Changes",
+        "url": "https://info.nystateofhealth.ny.gov/impact-essential-plan-changes"
+      },
+      {
+        "name": "NY State of Health — Impact of HR1 Legislation on Essential Plan (PDF, April 2026)",
+        "url": "https://info.nystateofhealth.ny.gov/sites/default/files/Impact%20of%20HR1%20Legislation%20on%20Essential%20Plan%20April%202026.pdf"
+      }
+    ],
+    "last_updated": "2026-07-27"
+  },
+  {
     "id": "odni-pulte-staff-purge-trump2",
     "title": "Acting DNI Bill Pulte purges Office of the Director of National Intelligence staff",
     "institution": "Office of the Director of National Intelligence (ODNI)",
@@ -3648,6 +3788,67 @@
         "url": "https://thehill.com/homenews/senate/5936246-bill-warner-dni-bill-pulte/"
       }
     ]
+  },
+  {
+    "id": "patel-fbi-field-office-purge-2025-2026",
+    "title": "FBI Director Kash Patel Runs Successive Purges of Field-Office Leaders and Agents Tied to Trump-Related Investigations",
+    "institution": "Federal Bureau of Investigation",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing -- multiple rounds since 2025, most recently the July 2026 Chicago field office departure",
+    "date_of_action": "2025 (initial rounds of forced exits) through 2026-07 (Chicago field office head departure)",
+    "what_changed": "FBI Director Kash Patel has conducted multiple successive rounds of forced removals, reassignments, and administrative-leave actions against senior FBI leaders and agents, concentrated among personnel connected to investigations touching Trump, the January 6 Capitol attack, or the Mar-a-Lago classified-documents case. In a January 2026 round described as 'renewed,' at least a dozen personnel were removed in a single week, including: Vanessa Tibbits, a 20-year veteran and former senior adviser to ex-FBI Director Christopher Wray, placed on administrative leave from her role as acting assistant director in charge of the New York field office; Lyonel Myrthil, removed from the New Orleans field office after previously overseeing part of the January 6 investigation response in Washington; the Atlanta field office's special agent in charge, forced out; a former Washington office leader who had overseen January 6 investigations, terminated; and multiple Miami agents who had worked the Mar-a-Lago classified-documents case. In several of these cases, the FBI's own Office of Professional Responsibility had recommended lesser discipline (short suspensions), but Patel personally overrode those determinations and removed the employees instead. The purge continued into mid-2026: on July 12, 2026, Douglas DePodesta, head of the FBI's Chicago field office, left after colleagues said he had been pushed to retire, in what reporting described as a continuation of Patel's pattern of forcing out agents and supervisors viewed as insufficiently supportive of Trump. Patel has denied the removals constitute political retaliation, saying the personnel involved failed to meet bureau standards; the FBI declined further comment on individual personnel actions when asked by reporters.",
+    "primary_proponent": {
+      "name": "Kash Patel",
+      "role": "FBI Director",
+      "note": "Personally ordered and, in multiple documented instances, personally overrode internal disciplinary recommendations to remove or force out FBI leaders and agents connected to Trump-related investigations; has publicly denied the removals are political retaliation, characterizing them instead as standards-based personnel actions."
+    },
+    "estimated_impact": {
+      "summary": "A group of former senior government officials has publicly described the pattern as 'without precedent in the modern history of the bureau,' warning it raises questions about whether the FBI is being turned into an instrument of presidential will rather than an independent law enforcement agency; the removals have concentrated specifically among personnel who worked January 6, Mar-a-Lago documents, or other Trump-adjacent investigations, spanning at least five field offices (New York, New Orleans, Atlanta, Washington, Miami) plus Chicago.",
+      "figures": [
+        {
+          "metric": "Personnel removed in the single January 2026 round described in reporting",
+          "value": "at least a dozen",
+          "source": "Bloomberg Law, January 2026"
+        },
+        {
+          "metric": "Field offices with documented leadership/agent removals (Jan 2026 - Jul 2026)",
+          "value": "at least 6 (New York, New Orleans, Atlanta, Washington, Miami, Chicago)",
+          "source": "Bloomberg Law (Jan. 2026) and AP News (Jul. 2026)"
+        }
+      ],
+      "caveat": "Patel disputes the political-retaliation characterization and has stated publicly that removed personnel failed to meet bureau standards; this entry presents both the pattern documented by multiple independent outlets and Patel's own stated justification, since no independent adjudication of the individual personnel decisions' merits was identified in sourcing reviewed."
+    },
+    "confidence_note": "HIGH confidence on the pattern and specific instances -- corroborated across Bloomberg Law, AP News, The New Republic, MS NOW (Rachel Maddow Show reporting), and a public letter from former government officials; the OPR-override detail (Patel personally overriding internal discipline recommendations) is independently reported, not merely alleged by critics. MODERATE confidence on the total cumulative headcount across all rounds, since reporting documents specific named instances and one 'at least a dozen' figure for a single week rather than a single comprehensive tally across the full 2025-2026 period.",
+    "section_summaries": {
+      "what_changed": "Patel has run successive rounds of removals targeting FBI leaders and agents connected to Trump-related investigations (Jan. 6, Mar-a-Lago documents), including overriding internal discipline recommendations to force out at least a dozen personnel in one January 2026 week alone, continuing into a July 2026 Chicago field-office departure.",
+      "estimated_impact": "Former officials call the pattern unprecedented in modern FBI history; removals span at least six field offices and specifically concentrate on personnel tied to investigations that touched Trump.",
+      "confidence_note": "Well-corroborated across multiple independent outlets and a public letter from former officials; Patel disputes the retaliation framing and no independent tally of the full cumulative headcount was identified."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "AP News — FBI Chicago field office head departure amid Patel bureau reshaping",
+        "url": "https://apnews.com/article/fbi-chicago-justice-department-b2aff0aea41b8843ecf051fac9aeff8a"
+      },
+      {
+        "name": "Bloomberg Law — Patel Pushes Out More FBI Leaders and Agents in Renewed Purge",
+        "url": "https://news.bloomberglaw.com/us-law-week/patel-pushes-out-more-fbi-leaders-and-agents-in-renewed-purge"
+      },
+      {
+        "name": "The New Republic — Kash Patel Launches Fresh Purge at FBI Over Trump Probes",
+        "url": "https://newrepublic.com/post/205609/kash-patel-purge-fbi-trump-probes"
+      },
+      {
+        "name": "MS NOW — Patel ousts senior FBI agents linked to Trump probes, say sources",
+        "url": "https://www.ms.now/news/kash-patel-fbi-senior-agents-ousted-trump-jan-6-mar-a-lago"
+      },
+      {
+        "name": "Fox News — Ex-government officials pen letter blasting Kash Patel's FBI 'purge'",
+        "url": "https://www.foxnews.com/politics/ex-government-officials-pen-letter-blasting-kash-patels-fbi-purge.amp"
+      }
+    ],
+    "last_updated": "2026-07-27"
   },
   {
     "id": "peace-corps-workforce-reduction-trump2",
@@ -4505,5 +4706,68 @@
         "url": "https://en.wikipedia.org/wiki/Voice_of_America"
       }
     ]
+  },
+  {
+    "id": "wildland-fire-service-suppression-policy-2026",
+    "title": "U.S. Wildland Fire Service Created Without Congressional Approval, Reverses to Discredited Full-Suppression Policy -- Three Firefighters Killed",
+    "institution": "U.S. Wildland Fire Service (Department of the Interior)",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing -- agency operational since early 2026, full-suppression order in effect; no congressional ratification of the agency's creation identified as of this entry",
+    "date_of_action": "2026 (agency creation and full-suppression order) through 2026-06-27 (Colorado firefighter deaths)",
+    "what_changed": "Interior Secretary Doug Burgum established the U.S. Wildland Fire Service in 2026 by consolidating wildland firefighting personnel from four existing Interior Department agencies -- the Bureau of Land Management, Fish and Wildlife Service, Bureau of Indian Affairs, and National Park Service -- without the customary congressional approval such a reorganization would typically receive. The new agency, headed by Brian Fennessy (formerly chief of the Orange County Fire Authority), operates under a Burgum order requiring 'full suppression for every wildfire under its management' -- a reversal of decades of fire-management policy that had accepted controlled and naturally-occurring fire as a land-management tool, and a return to an approach fire scientists compare to the discredited 1935 '10 a.m. rule' (extinguish every fire by the following morning). On June 27, 2026, three federal firefighters were killed and two more hospitalized with burn injuries battling a fast-growing wildfire near the Utah border in Colorado; the crew was overrun by flames and deployed emergency shelters. At least one of the deceased worked for the new Wildland Fire Service. Critics, including retired BLM official Steve Ellis, argue that severing forest management from firefighting operations 'will make firefighting less safe and put communities at greater risk,' and fire scientist David Calkin noted that suppressing every fire allows fuel to accumulate, making future fires harder to contain. Critics also note the four original agencies already extinguished 98% of the fires they handled before the reorganization, raising questions about what problem the full-suppression policy and new agency structure are meant to solve.",
+    "primary_proponent": {
+      "name": "Doug Burgum",
+      "role": "Secretary of the Interior",
+      "note": "Personally ordered the consolidation of four agencies' wildland firefighting personnel into the new U.S. Wildland Fire Service and issued the directive requiring full suppression of every wildfire under the new agency's management."
+    },
+    "estimated_impact": {
+      "summary": "Three federal firefighters died and two were hospitalized in the first major test of the new agency's full-suppression approach, in a policy reversal that fire-management experts warn increases long-term wildfire risk by allowing fuel to accumulate, and that critics say endangers firefighters by severing forest management from fire suppression decisions.",
+      "figures": [
+        {
+          "metric": "Interior agencies consolidated into the new service",
+          "value": "4 (BLM, Fish and Wildlife Service, Bureau of Indian Affairs, National Park Service)",
+          "source": "Colorado Sun / AP, June 30, 2026"
+        },
+        {
+          "metric": "Federal firefighters killed in the June 27, 2026 Colorado wildfire",
+          "value": "3",
+          "source": "Colorado Sun / AP, June 30, 2026"
+        },
+        {
+          "metric": "Firefighters hospitalized with burn injuries in the same incident",
+          "value": "2",
+          "source": "Colorado Sun / AP, June 30, 2026"
+        },
+        {
+          "metric": "Fires already extinguished successfully by the four original agencies before reorganization",
+          "value": "98%",
+          "source": "Critics cited by Colorado Sun / AP, disputing the stated rationale for the policy change"
+        }
+      ],
+      "caveat": "The connection between the new agency's full-suppression policy specifically and the three June 27 deaths is the framing used by critics and cited fire scientists in reporting reviewed -- it is not established by any official investigation or after-action report identified as of this entry. The 98%-success figure is presented by critics of the reorganization to question its stated rationale, not confirmed via an independent audit."
+    },
+    "confidence_note": "HIGH confidence on the core facts -- the agency's creation without congressional approval, its four constituent agencies, the full-suppression order, and the June 27, 2026 firefighter deaths are corroborated across AP, Colorado Sun, Washington Post, and other wire/regional coverage. MODERATE confidence on the causal link between the suppression policy and the specific deaths, since that connection is drawn by critics and fire scientists in the reporting rather than by an official incident investigation.",
+    "section_summaries": {
+      "what_changed": "Burgum created a new wildland firefighting agency by merging four Interior offices without congressional approval and ordered full suppression of every wildfire, reversing decades of science-based fire management; three firefighters were killed in the policy's first major test.",
+      "estimated_impact": "Fire scientists warn the full-suppression approach lets fuel build up and makes future fires worse, while critics say severing forest management from firefighting endangers crews -- three deaths and two hospitalizations resulted from the June 2026 Colorado incident.",
+      "confidence_note": "Core facts well-corroborated across wire and regional press; the causal link to the specific deaths is expert/critic framing, not an official finding."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "Colorado Sun / AP — Trump administration seeks to stomp out all fires quickly, reviving policy that has been discredited",
+        "url": "https://coloradosun.com/2026/06/30/colorado-firefighter-deaths/"
+      },
+      {
+        "name": "AP News — Wildfire, wildland firefighting, Colorado, Trump administration",
+        "url": "https://apnews.com/article/wildfire-wildland-firefighting-colorado-trump-administration-549b10807a4491bc50ba42d9450de9cc"
+      },
+      {
+        "name": "Washington Post — Trump administration seeks to stomp out all fires quickly, reviving policy that has been discredited",
+        "url": "https://www.washingtonpost.com/national/2026/06/30/wildfire-wildland-firefighting-colorado-trump-administration/05403f2a-74b2-11f1-b665-5f8be87f3787_story.html"
+      }
+    ],
+    "last_updated": "2026-07-27"
   }
 ]
