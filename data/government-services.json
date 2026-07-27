@@ -264,6 +264,43 @@
     ]
   },
   {
+    "id": "cdc-harm-reduction-defunding-threat-trump2",
+    "title": "CDC orders federally funded health programs to drop harm reduction, adopt 'parental authority' priorities on short deadline",
+    "institution": "Centers for Disease Control and Prevention (CDC)",
+    "domain": "funding_redirection",
+    "status": "Complete -- notice issued with a fixed compliance deadline",
+    "date_of_action": "2026-06-26 (notice reported) - 2026-07-01 (compliance deadline)",
+    "what_changed": "The CDC issued a notice to state, territorial, tribal, and local health programs receiving federal funding -- covering immunization, HIV, hepatitis, tobacco, and overdose-prevention work -- requiring them to agree to a new set of priorities within five business days, or by July 1, 2026. The new priorities deprioritize 'housing first,' harm reduction, and safe consumption approaches to substance use (evidence-based strategies with a documented record of reducing overdose deaths) in favor of 'parental authority' framing and abstinence/'public disorder' oriented approaches. The notice referenced an earlier CDC statement that funding could be canceled for non-compliance, though the notice itself did not explicitly and unambiguously tie compliance to funding continuation -- reporting describes the funding link as implied/referenced rather than stated as a formal, guaranteed consequence in this specific document. HHS Secretary Robert F. Kennedy Jr. has publicly signaled support for the broader policy direction, though the memo itself originated from CDC leadership rather than being personally signed by him.",
+    "primary_proponent": {
+      "name": "CDC leadership (institutional; no single named individual signer identified in reporting)",
+      "role": "Centers for Disease Control and Prevention",
+      "note": "Issued the notice and priorities directly; HHS Secretary Robert F. Kennedy Jr. has publicly supported the broader shift away from harm reduction but reporting does not show him as the notice's personal signer -- see caveat."
+    },
+    "estimated_impact": {
+      "summary": "Programs across immunization, HIV, hepatitis, tobacco, and overdose-prevention work -- serving state, territorial, tribal, and local populations -- were given roughly one week to abandon evidence-based harm-reduction and housing-first strategies or risk their federal funding, based on a referenced but not fully explicit funding-cancellation threat.",
+      "figures": [],
+      "caveat": "No dollar figure or program count has been reported for this specific notice. The funding-cancellation consequence is referenced from an earlier CDC statement rather than stated outright in this notice, per the reporting -- this entry should be framed as 'a implied funding threat with a short compliance window,' not a confirmed funding cutoff, until stronger sourcing on the consequence is found."
+    },
+    "confidence_note": "Sourced to the Guardian's original reporting (which obtained a copy of the memo) and corroborated by wire/aggregator pickup (AOL). Single-original-source story (one outlet obtained the memo directly) -- solid but not yet corroborated by a second independent outlet with direct memo access, and the funding-consequence detail specifically is softer than the compliance-deadline detail.",
+    "section_summaries": {
+      "what_changed": "CDC gave federally funded health programs five business days to drop harm-reduction/housing-first approaches for 'parental authority' priorities.",
+      "estimated_impact": "Immunization, HIV, hepatitis, tobacco, and overdose-prevention programs nationwide faced a one-week deadline with a referenced (not explicit) funding threat for non-compliance.",
+      "confidence_note": "Sourced to the Guardian's original memo reporting, picked up by wire aggregators; funding-cancellation detail is softer than the deadline detail."
+    },
+    "last_verified": "2026-07-27",
+    "date_added": "2026-07-27",
+    "sources": [
+      {
+        "name": "The Guardian -- 'Trump administration orders US health programs to move away from overdose prevention'",
+        "url": "https://www.theguardian.com/us-news/2026/jun/26/trump-administration-overdose-prevention-health-program"
+      },
+      {
+        "name": "AOL (wire pickup) -- 'Trump administration orders US health programs to move away from overdose prevention'",
+        "url": "https://www.aol.com/articles/white-house-mandates-move-away-202521000.html"
+      }
+    ]
+  },
+  {
     "id": "census-bureau-differential-privacy-ban",
     "title": "Commerce Department ban on Census Bureau statistical-noise privacy protections",
     "institution": "U.S. Census Bureau and Bureau of Economic Analysis (Department of Commerce)",

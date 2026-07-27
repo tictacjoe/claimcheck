@@ -61,6 +61,104 @@
     }
   },
   {
+    "official": "Todd Blanche, Acting Attorney General (nominated to permanent post)",
+    "offense_category": "Vindictive/Selective Prosecution (violates Due Process; established legal doctrine, e.g. United States v. Goodwin) -- underlying investigation into Brennan is ongoing and no charges have been filed; Blanche himself has not been personally charged with anything",
+    "incident_summary": "DOJ has pursued two separate grand jury investigations (Southern District of Florida, opened November 2025 and January 2026) into former CIA Director John Brennan's role in the intelligence community's 2016 assessment that Russia sought to help Donald Trump's presidential campaign. A career prosecutor assigned to the matter raised concerns about the investigation and was removed from the case in April 2026; Joseph DiGenova -- a Trump ally, former Trump campaign lawyer, and now a counselor to Acting Attorney General Todd Blanche -- was installed to lead the investigation in the career prosecutor's place. On July 1, 2026, Brennan sued DOJ seeking a court order requiring the department to preserve records related to both investigations, laying groundwork for an anticipated vindictive/selective-prosecution defense should charges be filed.",
+    "contested": true,
+    "elements_required": [
+      "A career prosecutor's removal from the case coincided with that prosecutor raising concerns about the investigation, rather than an unrelated staffing decision",
+      "The replacement lead (DiGenova) has documented political ties to Trump and the current DOJ leadership, rather than being an arms-length career assignment",
+      "The investigation targets a prominent, named Trump adversary (Brennan, who has been a vocal Trump critic) over conduct connected to the 2016 Russia-interference assessment, a subject of longstanding public presidential grievance",
+      "No indictment has yet been returned, despite the investigations having been open since November 2025 -- consistent with (though not proof of) an evidentiary basis weaker than the resources devoted to the case would suggest"
+    ],
+    "evidence": [
+      {
+        "type": "court_filing",
+        "description": "Brennan's lawsuit states DOJ approached federal grand juries in the Southern District of Florida in November 2025 and January 2026, obtaining two sets of subpoenas, examining his role in the 2016 Russia-interference intelligence assessment",
+        "source_url": "https://courthousenews.com/former-cia-director-john-brennan-sues-doj-over-dual-criminal-probes/",
+        "maps_to_element": "Existence and scope of the investigation"
+      },
+      {
+        "type": "public_record",
+        "description": "A career prosecutor who expressed concerns about the case was removed in April 2026; Joseph DiGenova, a Trump ally, former Trump campaign lawyer, and counselor to the Acting Attorney General, was tapped to lead the investigation in his place",
+        "source_url": "https://www.usnews.com/news/world/articles/2026-07-01/ex-cia-chief-brennan-a-trump-target-seeks-to-force-doj-to-preserve-records",
+        "maps_to_element": "Career prosecutor removal coincided with raised concerns; replacement has political ties"
+      },
+      {
+        "type": "court_filing",
+        "description": "Brennan's suit argues DOJ has violated prosecutorial norms and his civil rights, laying the basis for a vindictive/selective-prosecution challenge to any future indictment, and seeks a court order to preserve records before any charges are filed",
+        "source_url": "https://www.usnews.com/news/world/articles/2026-07-01/ex-cia-chief-brennan-a-trump-target-seeks-to-force-doj-to-preserve-records",
+        "maps_to_element": "Formal vindictive-prosecution allegation and records-preservation request"
+      },
+      {
+        "type": "public_record",
+        "description": "The existing Bondi-era entry on the James prosecution (bondi-james-vindictive-prosecution-2025-2026.json) documents that DOJ investigations into Brennan, alongside Powell, Schiff, and Clapper, were already part of a broader pattern of investigations into named Trump adversaries as of Bondi's tenure -- this entry covers the case's escalation (prosecutor removal, DiGenova's installation, and Brennan's lawsuit) after Bondi's April 2026 removal, under Blanche",
+        "source_url": "https://www.npr.org/2026/04/02/g-s1-115077/trump-bondi-attorney-general-departure",
+        "maps_to_element": "Pattern evidence connecting this case to the administration's broader named-adversary investigation pattern"
+      }
+    ],
+    "status": "Ongoing -- no indictment filed as of this entry; Brennan's records-preservation lawsuit is pending; case is a continuation, under new DOJ leadership (Blanche/DiGenova), of an investigation pattern that began under Bondi",
+    "rebuttal_anticipated": "Likely defense: reassigning a case from one career prosecutor to a politically-connected appointee is a personnel decision within the Attorney General's normal authority, not itself evidence of vindictiveness; a 2016 intelligence assessment with acknowledged, still-debated methodological criticism is a legitimate subject for investigation independent of who currently criticizes the president.",
+    "comeback": "The timing -- a prosecutor removed specifically after raising concerns, replaced by a Trump campaign-connected appointee, investigating a prominent and outspoken Trump critic over a matter of long-standing personal presidential grievance -- mirrors the exact pattern (presidential pressure, non-independent prosecutorial substitution, thin evidentiary basis) already documented in the James case under Bondi. Brennan is proactively litigating for records preservation before any charges exist specifically because that pattern is already established and on the public record.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Same structural cause as the Bondi-James entry: DOJ's traditional independence from White House direction in prosecutorial targeting of named political adversaries has continued to erode under the current Acting Attorney General, not just the prior one -- suggesting an institutional pattern rather than one official's individual conduct.",
+    "last_updated": "2026-07-27",
+    "date_added": "2026-07-27",
+    "confidence_note": "MODERATE-HIGH confidence on the documented facts (dual grand jury investigations, prosecutor removal, DiGenova's installation, and Brennan's lawsuit) -- corroborated across multiple independent outlets and Brennan's own court filing. LOW-MODERATE confidence on the vindictive-prosecution characterization itself, since it is Brennan's own legal argument, no charges have been filed, and no court has yet ruled on the merits -- marked `contested: true` accordingly.",
+    "section_summaries": {
+      "incident_summary": "DOJ investigations into Brennan continued under new leadership after Bondi's exit -- a concerned career prosecutor was replaced by Trump-connected DiGenova, prompting Brennan to sue for records preservation ahead of expected charges.",
+      "confidence_note": "Underlying facts are well-corroborated across outlets and Brennan's own filing; the vindictive-prosecution claim itself is Brennan's contested legal argument, not yet tested in court."
+    }
+  },
+  {
+    "official": "Todd Blanche, Acting Attorney General (nominated to permanent post)",
+    "offense_category": "Press Freedom / DOJ News Media Policy Violation (28 C.F.R. § 50.10, which requires the Attorney General's personal, written approval before subpoenaing a journalist's testimony or records, plus specific negotiation-and-notice safeguards) -- no criminal charge against Blanche personally; this tracks DOJ leadership accountability for the subpoena decision",
+    "incident_summary": "In May 2026, DOJ issued grand jury subpoenas seeking to compel testimony from Washington Post national security reporter Ellen Nakashima and three Wall Street Journal reporters, as part of a leak investigation into Department of Defense reporting on the Iran war. This followed an earlier, separate escalation in January 2026 in which the FBI searched the home of another Washington Post journalist and seized electronic devices as part of the same broader leak crackdown. After legal challenges from both news organizations, DOJ withdrew the subpoenas in June 2026. Acting Attorney General Todd Blanche, who under DOJ's own media-subpoena policy must personally approve subpoenas targeting journalists, declined to comment on either the subpoenas or the decision to withdraw them.",
+    "contested": false,
+    "elements_required": [
+      "DOJ policy (28 C.F.R. § 50.10) requires the Attorney General's personal, written approval before a subpoena compelling journalist testimony or records may issue",
+      "The subpoenas and the January home search/device seizure targeted working journalists specifically in connection with their newsgathering (national security reporting on the Iran war), not as ordinary case witnesses unconnected to their reporting",
+      "DOJ ultimately withdrew the subpoenas following legal challenge, which is consistent with either an initial approval that did not survive scrutiny, or a decision that should not have been approved in the first place",
+      "The Acting Attorney General is the accountable official for DOJ's media-subpoena policy compliance, whether or not he personally signed each individual subpoena"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "The Washington Post confirmed that one of its journalists (Ellen Nakashima) received a grand jury subpoena from DOJ as part of a broader, aggressive leak crackdown that in January 2026 also included an FBI search of another Post journalist's home and seizure of electronic devices",
+        "source_url": "https://www.washingtonpost.com/national-security/2026/06/23/doj-issued-then-withdrew-subpoenas-force-post-wsj-reporters-testify/",
+        "maps_to_element": "Subpoenas and search targeted journalists in connection with their newsgathering"
+      },
+      {
+        "type": "public_record",
+        "description": "DOJ subpoenaed three Wall Street Journal reporters in addition to the Washington Post's Nakashima, seeking their testimony about Iran-war-related Pentagon leak reporting",
+        "source_url": "https://www.cnn.com/2026/06/23/media/trump-doj-subpoenas-washington-post-wall-street-journal-reporters",
+        "maps_to_element": "Subpoenas targeted journalists in connection with their newsgathering"
+      },
+      {
+        "type": "public_record",
+        "description": "DOJ withdrew the subpoenas in June 2026 after the news organizations mounted legal challenges",
+        "source_url": "https://firstamendment.mtsu.edu/post/justice-department-withdraws-subpoenas-that-sought-reporters-grand-jury-testimony/",
+        "maps_to_element": "DOJ ultimately withdrew the subpoenas following legal challenge"
+      },
+      {
+        "type": "public_record",
+        "description": "Acting Attorney General Todd Blanche declined to comment on the subpoenas or the withdrawal decision when asked by reporters",
+        "source_url": "https://apnews.com/article/justice-department-fbi-media-c4fcb4d718d8313940f7c19a8f3f8e26",
+        "maps_to_element": "Accountable official's response"
+      }
+    ],
+    "status": "Subpoenas withdrawn as of June 2026; no public DOJ Inspector General or congressional finding yet on whether the AG-personal-approval requirement under 28 C.F.R. 50.10 was satisfied before the subpoenas issued",
+    "rebuttal_anticipated": "Likely defense: leak investigations into unauthorized disclosure of national-security information (Iran war DoD reporting) are legitimate DOJ business regardless of who received the leaked information, and DOJ ultimately withdrew the subpoenas rather than pursuing them to a contempt confrontation, showing the process worked as a check.",
+    "comeback": "Withdrawal after legal challenge is not the same as showing the subpoenas were properly approved in the first place -- DOJ's own media policy exists specifically to prevent subpoenas like these from being issued casually, and both the January home search and the May subpoenas targeted journalists for stories on a matter of significant public interest (an active war), not run-of-the-mill unauthorized disclosures. No public accounting has been given for how the AG-approval requirement was satisfied before either action.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern of DOJ leak investigations under this administration prioritizing identifying and deterring sources over the narrower, policy-constrained use of subpoena power against the press that 28 C.F.R. 50.10 was designed to enforce.",
+    "last_updated": "2026-07-27",
+    "date_added": "2026-07-27",
+    "confidence_note": "HIGH confidence on the underlying facts (subpoenas issued, home search occurred, subpoenas withdrawn) -- corroborated by the Washington Post's own direct reporting, CNN, and wire coverage. MODERATE confidence on attributing personal culpability to Blanche specifically for the approval decision, since no source confirms he personally signed off versus a subordinate acting under delegated authority, and DOJ has not commented on its internal approval process for this matter.",
+    "section_summaries": {
+      "incident_summary": "DOJ subpoenaed Washington Post and Wall Street Journal reporters over Iran-war leak reporting, following an earlier FBI home search of another Post journalist, then withdrew the subpoenas after legal challenge.",
+      "confidence_note": "Facts are well-corroborated by direct reporting from the targeted outlets; Blanche's personal role in approving the subpoenas is unconfirmed, since DOJ has not detailed its internal approval process."
+    }
+  },
+  {
     "official": "Todd Blanche, Acting Attorney General (nominated for permanent position, former personal defense attorney to President Trump)",
     "offense_category": "Conflict of Interest / Breach of Sworn Recusal Commitment (relevant standards: DOJ ethics regulations on personal/substantial participation in matters involving a former client; professional conduct rules, New York Rules of Professional Conduct, subject of a pending state bar complaint) — NOT charged criminally; this is a professional-ethics and conflict-of-interest matter, addressed via bar complaint and congressional inquiry, not criminal prosecution",
     "incident_summary": "Within two weeks of becoming Deputy Attorney General in early 2025, Blanche was formally advised by DOJ's top career ethics lawyer that he needed to recuse himself from any matters involving Donald Trump in his personal capacity, given Blanche's prior work as Trump's personal defense attorney. At his confirmation hearing, Blanche testified under oath that he would follow ethics officials' guidance on recusal. Reporting indicates he did not recuse himself from matters including a settlement (Trump v. IRS) that granted Trump and his family an IRS audit shield and was connected to a proposed $1.776 billion compensation fund; DOJ never contested Trump's claims in that litigation and never made a court appearance before settling.",
