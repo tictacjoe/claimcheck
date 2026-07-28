@@ -2017,6 +2017,58 @@
     ]
   },
   {
+    "id": "fda-vaccine-safety-study-suppression-2025-2026",
+    "title": "FDA Blocked Publication of Its Own Studies Finding COVID-19 and Shingles Vaccines Safe",
+    "institution": "U.S. Food and Drug Administration",
+    "domain": "research_suppression",
+    "status": "Documented via reporting first published May 2026; no reversal or republication identified as of this entry",
+    "date_of_action": "2025-10 (two COVID-19 vaccine studies withdrawn after acceptance) through 2026-02 (Shingrix/shingles vaccine conference-abstract submission blocked)",
+    "what_changed": "In October 2025, FDA scientists were directed to withdraw two COVID-19 vaccine safety studies that had already been accepted for publication in medical journals, based on data drawn from millions of patient records and finding serious side effects to be rare. In February 2026, top FDA officials declined to approve submission of study abstracts on the safety of Shingrix, the recombinant shingles vaccine, to a major drug-safety conference. Andrew Nixon, a spokesman for the Department of Health and Human Services (which oversees FDA), defended both actions: on the COVID-19 studies, he said they 'were withdrawn because the authors drew broad conclusions that were not supported by the underlying data'; on the blocked shingles research, he said 'the design of that study fell outside the agency's purview.' Independent experts who reviewed the withdrawn studies disputed that characterization -- Caleb Alexander, a drug-safety and methodology expert at Johns Hopkins University, said after reviewing the reports that 'there is nothing inherently problematic regarding these reports.'",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services",
+      "note": "Oversees FDA as part of HHS; has a documented public record of vaccine skepticism, which multiple outlets and experts cited as the likely context for the withdrawals, though the specific withdrawal and abstract-rejection decisions were executed by FDA scientists and officials and defended publicly by HHS spokesperson Andrew Nixon rather than by Kennedy personally on the record in the sourcing reviewed."
+    },
+    "estimated_impact": {
+      "summary": "The withdrawn and blocked material covered vaccines used by tens of millions of Americans (COVID-19 and shingles vaccines), based on analyses of millions of patient records finding serious side effects to be rare; independent outside review of the withdrawn studies found no substantive methodological problem, contradicting HHS's stated rationale for pulling them.",
+      "figures": [
+        {
+          "metric": "COVID-19 vaccine safety studies withdrawn after journal acceptance",
+          "value": "2 (October 2025)",
+          "source": "U.S. News/AP wire reporting, May 2026"
+        },
+        {
+          "metric": "Shingles (Shingrix) vaccine-safety conference abstract submissions blocked",
+          "value": "blocked from submission to a major drug-safety conference (February 2026)",
+          "source": "CNBC, May 2026"
+        }
+      ],
+      "caveat": "HHS's stated rationale (methodological concerns) is a genuine, on-the-record justification, not a bare denial -- but an independent outside expert (Johns Hopkins' Caleb Alexander) who reviewed the withdrawn studies directly disputed that the reports were methodologically problematic, which is the strongest evidence available that the stated rationale doesn't hold up to outside scrutiny."
+    },
+    "confidence_note": "HIGH confidence on the documented facts -- the withdrawals and blocked submission are confirmed on the record by HHS's own spokesperson, and reported consistently across U.S. News, CNBC, The Hill, ABC News, Healthline, Pharmacy Times, and Health Policy Watch. MODERATE confidence on framing this as politically motivated suppression rather than legitimate methodological review, since HHS has offered a specific (if disputed) scientific rationale for each action -- the independent expert review disputing that rationale is the strongest evidence for the suppression framing, but it is one named expert's assessment, not a formal, independent scientific body's finding.",
+    "last_verified": "2026-07-28",
+    "date_added": "2026-07-28",
+    "sources": [
+      {
+        "name": "U.S. News & World Report (AP/NYT wire) -- US FDA Blocked Publication of COVID, Shingles Vaccine Safety Studies",
+        "url": "https://www.usnews.com/news/us/articles/2026-05-05/us-fda-blocked-research-publication-that-covid-and-shingles-vaccines-are-safe-nyt-reports"
+      },
+      {
+        "name": "CNBC -- FDA withdrew studies finding Covid and shingles vaccines were safe",
+        "url": "https://www.cnbc.com/2026/05/05/fda-studies-covid-shingles-vaccines-safe.html"
+      },
+      {
+        "name": "The Hill -- FDA stopped publication of studies showing COVID, shingles vaccines were safe",
+        "url": "https://thehill.com/homenews/5866143-fda-blocks-covid-vaccine-studies/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "FDA scientists were ordered to pull two already-accepted COVID vaccine safety studies, and officials separately blocked shingles-vaccine safety research from a major conference -- both found safe outcomes.",
+      "estimated_impact": "The suppressed research covered vaccines used by tens of millions of Americans; an outside Johns Hopkins expert who reviewed the withdrawn studies found nothing methodologically wrong with them, undercutting HHS's stated rationale.",
+      "confidence_note": "Well-documented on the record via HHS's own spokesperson and consistent multi-outlet reporting; whether this reflects political suppression versus legitimate review rests on one independent expert's disputed assessment of the stated rationale."
+    }
+  },
+  {
     "id": "federal-reserve-cook-removal-blocked-trump2",
     "title": "Trump's Attempt to Fire Fed Governor Lisa Cook Blocked by Supreme Court, Fed Independence Preserved",
     "institution": "Federal Reserve Board of Governors",
@@ -2264,7 +2316,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing, with a genuine mixed 2026 update -- the Forest Service met its 2026 seasonal wildland-firefighter hiring goal (crediting recent pay raises), even as permanent-staff attrition (~6,000 lost since January 2025) and consolidation continue, and the 2026 fire season itself has been severe",
     "date_of_action": "2025-02 (initial layoffs) through 2025-08 (peak fire-season staffing crisis and reorganization announcement)",
-    "what_changed": "In February 2025, the Trump administration laid off approximately 700 Forest Service employees who support wildland fire operations -- human resource managers, ecologists, and trail-crew workers who hold 'red card' fire-response certifications even though their primary jobs are not firefighting. Many were subsequently rehired, but the administration then pushed remaining staff toward deferred-resignation and early-retirement offers; ultimately at least 1,800 fire-qualified ('red-carded') employees left the agency, out of 4,800 total Forest Service departures in 2025 (more than 13% of the agency's total workforce). Internal Forest Service data reviewed by ProPublica, High Country News, and Capital & Main found at least 5,000 firefighting positions vacant as of mid-July 2025 -- directly contradicting the agency's own public claim of having exceeded its 2025 hiring goal (11,364 firefighters on board by end of July). USDA spokesperson Cat McRae disputed the vacancy data as reflecting 'outdated org charts and unfunded positions'; ProPublica confirmed its analysis had already excluded unfunded positions. Days after that public dispute, a memo Forest Service Chief Tom Schultz sent to agency leadership -- obtained by High Country News -- stated plainly: 'As expected, the 2025 Fire Year is proving to be extremely challenging... we know the demand for resources outpaces their availability,' and directed that all red-carded employees, including IT and HR staff, be made available for fire assignments. At an internal spring planning meeting, one employee was told directly, 'Help is not on the way' -- a phrase the employee said they had 'never been told before' in their career. The agency subsequently took the unusual step of waiving a statutory 1,039-hour cap on seasonal-employee work hours (raising it to 1,560 hours) and asked 1,400 firefighting-qualified former employees to return; as of August 12, only 100 had accepted. Separately, USDA announced a reorganization eliminating the Forest Service's nine regional offices and consolidating them into five 'hub' locations, with Secretary Brooke Rollins acknowledging up to half of affected staff may not relocate. For the 2026 fire season, the Forest Service set a goal of 11,300 wildland firefighters onboard by mid-July and reported 11,816 onboard as of July 6, 2026 -- 104% of goal, which Chief Tom Schultz attributed to recent pay raises improving seasonal recruitment. This is a genuine, verifiable improvement on that specific metric, distinct from the broader permanent-workforce attrition: the agency has still lost close to 6,000 permanent staff (rangers, timber technicians, and others who also held fire-response 'red card' certifications) to layoffs, buyouts, and early retirement since January 2025, and outside observers (including Washington's public lands commissioner) warn this erodes surge capacity in a severe fire year even with seasonal hiring goals met. As of mid-July 2026, more than 17,000 personnel were assigned to 46 large, uncontained fires nationwide, with over 3.6 million acres burned for the year. Update 2026-07-26: the 2026 fire season's severity escalated further -- on July 18, 2026, the country reached 'Preparedness Level 5,' the highest level on the scale measuring how taxed wildfire resources are nationally, only the third time since 2010 that threshold has been reached this early in the season (after 2021 and 2024). This reinforces, rather than changes, the entry's existing point: seasonal hiring goals being met doesn't resolve the separate concern about permanent-staff attrition eroding surge capacity in a severe fire year.",
+    "what_changed": "In February 2025, the Trump administration laid off approximately 700 Forest Service employees who support wildland fire operations -- human resource managers, ecologists, and trail-crew workers who hold 'red card' fire-response certifications even though their primary jobs are not firefighting. Many were subsequently rehired, but the administration then pushed remaining staff toward deferred-resignation and early-retirement offers; ultimately at least 1,800 fire-qualified ('red-carded') employees left the agency, out of 4,800 total Forest Service departures in 2025 (more than 13% of the agency's total workforce). Internal Forest Service data reviewed by ProPublica, High Country News, and Capital & Main found at least 5,000 firefighting positions vacant as of mid-July 2025 -- directly contradicting the agency's own public claim of having exceeded its 2025 hiring goal (11,364 firefighters on board by end of July). USDA spokesperson Cat McRae disputed the vacancy data as reflecting 'outdated org charts and unfunded positions'; ProPublica confirmed its analysis had already excluded unfunded positions. Days after that public dispute, a memo Forest Service Chief Tom Schultz sent to agency leadership -- obtained by High Country News -- stated plainly: 'As expected, the 2025 Fire Year is proving to be extremely challenging... we know the demand for resources outpaces their availability,' and directed that all red-carded employees, including IT and HR staff, be made available for fire assignments. At an internal spring planning meeting, one employee was told directly, 'Help is not on the way' -- a phrase the employee said they had 'never been told before' in their career. The agency subsequently took the unusual step of waiving a statutory 1,039-hour cap on seasonal-employee work hours (raising it to 1,560 hours) and asked 1,400 firefighting-qualified former employees to return; as of August 12, only 100 had accepted. Separately, USDA announced a reorganization eliminating the Forest Service's nine regional offices and consolidating them into five 'hub' locations, with Secretary Brooke Rollins acknowledging up to half of affected staff may not relocate. For the 2026 fire season, the Forest Service set a goal of 11,300 wildland firefighters onboard by mid-July and reported 11,816 onboard as of July 6, 2026 -- 104% of goal, which Chief Tom Schultz attributed to recent pay raises improving seasonal recruitment. This is a genuine, verifiable improvement on that specific metric, distinct from the broader permanent-workforce attrition: the agency has still lost close to 6,000 permanent staff (rangers, timber technicians, and others who also held fire-response 'red card' certifications) to layoffs, buyouts, and early retirement since January 2025, and outside observers (including Washington's public lands commissioner) warn this erodes surge capacity in a severe fire year even with seasonal hiring goals met. As of mid-July 2026, more than 17,000 personnel were assigned to 46 large, uncontained fires nationwide, with over 3.6 million acres burned for the year. Update 2026-07-26: the 2026 fire season's severity escalated further -- on July 18, 2026, the country reached 'Preparedness Level 5,' the highest level on the scale measuring how taxed wildfire resources are nationally, only the third time since 2010 that threshold has been reached this early in the season (after 2021 and 2024). This reinforces, rather than changes, the entry's existing point: seasonal hiring goals being met doesn't resolve the separate concern about permanent-staff attrition eroding surge capacity in a severe fire year. Update 2026-07-28: NPR reported that fire-prevention work itself, not just firefighter staffing, declined sharply in 2025 -- prescribed burning fell to about 900,000 acres, roughly half of the 1.6 million-plus acres burned in each of 2023 and 2024, and total vegetation-management work (which reduces the dense underbrush that fuels catastrophic fires) fell to 2.6 million acres in 2025 from more than 4 million acres in 2024, a decline of almost 1.5 million acres. This directly connects the staffing losses already documented in this entry to a concrete reduction in the preventive work meant to reduce wildfire severity, distinct from firefighting-response capacity alone.",
     "primary_proponent": {
       "name": "Brooke Rollins",
       "role": "Secretary of Agriculture",
@@ -2317,17 +2369,27 @@
           "metric": "2026 fire season scale, mid-July",
           "value": "46 large uncontained fires, 17,000+ personnel assigned, 3.6M+ acres burned",
           "source": "NPR, July 15, 2026"
+        },
+        {
+          "metric": "Prescribed burning acreage, 2025 vs. 2023-2024",
+          "value": "~900,000 acres in 2025, down from 1.6M+ acres in each of 2023 and 2024 (roughly half)",
+          "source": "NPR, May 2026"
+        },
+        {
+          "metric": "Total vegetation-management acreage, 2025 vs. 2024",
+          "value": "2.6M acres in 2025, down from 4M+ acres in 2024",
+          "source": "NPR, May 2026"
         }
       ],
       "caveat": "USDA's dispute of the vacancy figures is a genuine, specific rebuttal (citing 'outdated org charts and unfunded positions'), not a blanket denial -- though ProPublica's confirmation that its own data excluded unfunded positions undercuts that specific rebuttal. The practice of Forest Service staffing targets running below actual operational need reportedly predates this administration (a former agency official who co-authored a 2009-2011 personnel needs assessment said selective firefighter counting 'dates back years'), so some caution is warranted before treating the underlying vacancy-counting dispute as unique to 2025 -- what is specific to this period is the scale of departures and Chief Schultz's own memo acknowledging the resulting strain."
     },
-    "confidence_note": "Very strong, multi-outlet investigative sourcing (ProPublica, High Country News, Capital & Main, Yale E360, Colorado Newsline all independently corroborating the same core figures) plus a genuinely rare document -- an internal Forest Service Chief's memo obtained by a news outlet that directly documents the agency's own leadership acknowledging the shortfall in near-real-time, contemporaneous with USDA's public denial. This internal-vs-external contradiction, documented on both sides, is unusually strong evidentiary material for this kind of tracker entry. Re-verified 2026-07-20: the 2026 seasonal-hiring goal being met is a real, sourced fact and shouldn't be omitted or downplayed -- but it answers a narrower question (seasonal firefighter headcount) than the permanent-staff attrition and red-card-capacity concerns this entry was built around, which independent sourcing says remain unresolved. Present both: the agency's legitimate 2026 hiring win, and the continuing structural capacity concern outside observers raise about a bad fire year testing a smaller permanent workforce. Re-verified 2026-07-26: the Preparedness Level 5 date and historical comparison are corroborated by NOTUS and Spokesman-Review reporting citing the Forest Service chief directly.",
+    "confidence_note": "Very strong, multi-outlet investigative sourcing (ProPublica, High Country News, Capital & Main, Yale E360, Colorado Newsline all independently corroborating the same core figures) plus a genuinely rare document -- an internal Forest Service Chief's memo obtained by a news outlet that directly documents the agency's own leadership acknowledging the shortfall in near-real-time, contemporaneous with USDA's public denial. This internal-vs-external contradiction, documented on both sides, is unusually strong evidentiary material for this kind of tracker entry. Re-verified 2026-07-20: the 2026 seasonal-hiring goal being met is a real, sourced fact and shouldn't be omitted or downplayed -- but it answers a narrower question (seasonal firefighter headcount) than the permanent-staff attrition and red-card-capacity concerns this entry was built around, which independent sourcing says remain unresolved. Present both: the agency's legitimate 2026 hiring win, and the continuing structural capacity concern outside observers raise about a bad fire year testing a smaller permanent workforce. Re-verified 2026-07-26: the Preparedness Level 5 date and historical comparison are corroborated by NOTUS and Spokesman-Review reporting citing the Forest Service chief directly. Re-verified 2026-07-28: NPR (widely syndicated across public radio affiliates) corroborates a concrete downstream effect of the staffing crisis already documented here -- prescribed burning and vegetation-management acreage both fell sharply in 2025, directly tying the personnel losses to reduced wildfire-prevention capacity, not just firefighting response capacity.",
     "section_summaries": {
       "what_changed": "Layoffs and buyouts pushed thousands of fire-qualified Forest Service staff out, and a leaked internal memo confirmed real strain even as USDA disputed reports of vacant firefighting jobs.",
-      "estimated_impact": "This entry rests on the Agriculture Secretary's own public claims contradicting her agency chief's leaked memo, backed by frontline surveys showing high vacancy rates in some units.",
+      "estimated_impact": "This entry rests on the Agriculture Secretary's own public claims contradicting her agency chief's leaked memo, backed by frontline surveys showing high vacancy rates in some units. Prescribed burning and vegetation management both roughly halved in 2025, tying the staffing losses directly to reduced fire-prevention work, not just response capacity.",
       "confidence_note": "Very strongly documented across multiple investigative outlets plus a rare leaked memo; meeting this year's seasonal target doesn't resolve the separate permanent-staff attrition concern."
     },
-    "last_verified": "2026-07-26",
+    "last_verified": "2026-07-28",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -2357,9 +2419,13 @@
       {
         "name": "NPR — How the federal government is responding to the worsening western fire season",
         "url": "https://www.npr.org/2026/07/15/nx-s1-5887628/how-the-federal-government-is-responding-to-the-worsening-western-fire-season"
+      },
+      {
+        "name": "NPR -- Trump administration falls behind on wildfire prevention with risky fire season ahead",
+        "url": "https://www.npr.org/2026/05/04/nx-s1-5801475/forest-service-wildfire-prevention-vegetation-burns"
       }
     ],
-    "last_updated": "2026-07-26"
+    "last_updated": "2026-07-28"
   },
   {
     "id": "ftc-workforce-independence-erosion-trump2",
@@ -5093,7 +5159,7 @@
     "domain": "staff_office_cuts",
     "status": "Largely complete (first-stage cuts executed following Supreme Court ruling clearing the way; further changes ongoing)",
     "date_of_action": "2025-04-22 (reorganization announced) through 2025-07-11 (first mass layoffs executed)",
-    "what_changed": "Secretary of State Marco Rubio announced a sweeping State Department reorganization in April 2025, describing the existing structure as 'bloated bureaucracy that stifles innovation.' The plan consolidated 734 bureaus and offices down to 602, and specifically eliminated 132 domestic offices, including the entire Undersecretary of State for Civilian Security, Democracy, and Human Rights position, the Office of Global Criminal Justice (which supports international war-crimes prosecutions), the Bureau of Conflict and Stabilization Operations, and the Office of Global Women's Issues. Refugee, religious-freedom, and human-trafficking offices were downgraded and folded under a general foreign-assistance coordination office rather than retained as standalone bureaus. In July 2025, following a Supreme Court ruling that cleared the way for the dismissals despite ongoing legal challenges, the department executed layoffs affecting more than 1,300 employees (1,107 civil servants and 246 foreign service officers with domestic assignments); affected foreign service officers were placed on 120 days of administrative leave before formal termination, civil servants on a 60-day separation period. The reorganization is explicitly stated to be 'highly complementary' to the concurrent dismantling of USAID, whose remaining functions were folded into State with reduced independence. Re-verified 2026-07-26: no material change -- no new reorganization phase or ruling identified since the July 2025 layoff execution already documented.",
+    "what_changed": "Secretary of State Marco Rubio announced a sweeping State Department reorganization in April 2025, describing the existing structure as 'bloated bureaucracy that stifles innovation.' The plan consolidated 734 bureaus and offices down to 602, and specifically eliminated 132 domestic offices, including the entire Undersecretary of State for Civilian Security, Democracy, and Human Rights position, the Office of Global Criminal Justice (which supports international war-crimes prosecutions), the Bureau of Conflict and Stabilization Operations, and the Office of Global Women's Issues. Refugee, religious-freedom, and human-trafficking offices were downgraded and folded under a general foreign-assistance coordination office rather than retained as standalone bureaus. In July 2025, following a Supreme Court ruling that cleared the way for the dismissals despite ongoing legal challenges, the department executed layoffs affecting more than 1,300 employees (1,107 civil servants and 246 foreign service officers with domestic assignments); affected foreign service officers were placed on 120 days of administrative leave before formal termination, civil servants on a 60-day separation period. The reorganization is explicitly stated to be 'highly complementary' to the concurrent dismantling of USAID, whose remaining functions were folded into State with reduced independence. Re-verified 2026-07-26: no material change -- no new reorganization phase or ruling identified since the July 2025 layoff execution already documented. Update 2026-07-28: Federal News Network reported the ~250 foreign service officers laid off in the July 2025 wave had their terminations finalized as of May 2026, with former employees, federal unions (AFGE), and lawmakers continuing to press for reinstatement, warning the reduction has weakened agency expertise and harmed national security. The affected officers are explicitly ineligible to compete for vacant State Department positions even as the department simultaneously runs a new Foreign Service recruitment campaign -- a documented recruit-while-firing contradiction distinct from the original 2025 reorganization announcement.",
     "primary_proponent": {
       "name": "Marco Rubio",
       "role": "Secretary of State",
@@ -5121,17 +5187,22 @@
           "metric": "Separately proposed State Department budget cut (OMB, preliminary)",
           "value": "~50%, including eliminating U.S. funding for the UN and NATO headquarters",
           "source": "AP, cited by NBC News -- reported as a preliminary proposal, not enacted"
+        },
+        {
+          "metric": "Foreign service officers whose 2025 layoffs were finalized (May 2026), ineligible to reapply for vacant positions",
+          "value": "approx. 250, finalized while a new recruitment campaign runs concurrently",
+          "source": "Federal News Network, May 2026"
         }
       ],
       "caveat": "Some of the more drastic changes reported in leaked draft proposals before the official April 22 announcement did not materialize in the final plan -- offices for Africa affairs, migration/refugee issues, and democracy efforts survived, at least as named bureaus on the org chart, contrary to earlier leaked drafts. The State Department's own spokesperson explicitly stated 'DOGE was not in charge of this' reorganization, distinguishing it from the more centralized DOGE-driven cuts at other agencies covered elsewhere in this tracker -- worth noting since it suggests a more department-specific policy choice by Rubio rather than a directive imposed externally."
     },
-    "confidence_note": "Strong, consistent multi-outlet sourcing (AP's obtained internal documents, corroborated independently by NBC, NPR, CNN, PBS, and Newsweek) with specific office names and headcounts rather than vague characterizations. Rubio's own quotes and the department's own internal notices are the primary sourcing for what changed; outside criticism (Shannon, American Academy of Diplomacy, Shaheen) is clearly attributed as external assessment rather than blended with the factual record of what changed. Re-verified 2026-07-20: no material change found since the July 2025 layoff execution already documented in this entry -- no new reorganization phase or ruling identified in current reporting. Re-verified 2026-07-26: no material change to report.",
+    "confidence_note": "Strong, consistent multi-outlet sourcing (AP's obtained internal documents, corroborated independently by NBC, NPR, CNN, PBS, and Newsweek) with specific office names and headcounts rather than vague characterizations. Rubio's own quotes and the department's own internal notices are the primary sourcing for what changed; outside criticism (Shannon, American Academy of Diplomacy, Shaheen) is clearly attributed as external assessment rather than blended with the factual record of what changed. Re-verified 2026-07-20: no material change found since the July 2025 layoff execution already documented in this entry -- no new reorganization phase or ruling identified in current reporting. Re-verified 2026-07-26: no material change to report. Re-verified 2026-07-28: Federal News Network and The Hill confirm the ~250 foreign service officer layoffs from the 2025 wave were finalized in May 2026, with continued union/lawmaker advocacy for reinstatement and a documented irony -- the department recruiting new Foreign Service applicants while barring laid-off officers from reapplying.",
     "section_summaries": {
-      "what_changed": "Rubio consolidated hundreds of State Department offices, eliminating dozens focused on human rights and conflict stabilization, then laid off over 1,300 staff once courts cleared the way.",
+      "what_changed": "Rubio consolidated hundreds of State Department offices, eliminating dozens focused on human rights and conflict stabilization, then laid off over 1,300 staff once courts cleared the way. Update: the ~250 foreign service officer layoffs were finalized in May 2026, with affected officers barred from reapplying even as the department runs a new recruiting campaign.",
       "estimated_impact": "A former Republican State Department official called the cuts an act of institutional vandalism, warning that specialized skills developed over many years of service can't be quickly rebuilt.",
       "confidence_note": "Strongly sourced via internal documents and consistent reporting across several major outlets, citing specific offices and numbers rather than general claims; nothing has shifted since the layoffs occurred."
     },
-    "last_verified": "2026-07-26",
+    "last_verified": "2026-07-28",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -5153,9 +5224,13 @@
       {
         "name": "Newsweek — Trump Admin to Cut 1,300 Jobs in State Department Reorganization",
         "url": "https://www.newsweek.com/state-department-layoffs-trump-rubio-reorganization-2025-2097778"
+      },
+      {
+        "name": "Federal News Network -- Amid hiring push, State Dept finalizes hundreds of layoffs initiated last summer",
+        "url": "https://federalnewsnetwork.com/workforce/2026/05/amid-hiring-push-state-dept-finalizes-layoffs-for-nearly-250-foreign-service-officers/"
       }
     ],
-    "last_updated": "2026-07-26"
+    "last_updated": "2026-07-28"
   },
   {
     "id": "teen-pregnancy-prevention-grants-cancelled-2026",
