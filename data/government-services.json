@@ -1638,6 +1638,63 @@
     "last_updated": "2026-07-26"
   },
   {
+    "id": "epa-noaa-cdc-data-tools-erasure-2026",
+    "title": "EPA's Environmental-Justice Screening Tool and NOAA's Billion-Dollar Disaster Database Both Discontinued",
+    "institution": "Environmental Protection Agency; National Oceanic and Atmospheric Administration; Centers for Disease Control and Prevention",
+    "domain": "data_collection_halted",
+    "status": "Both discontinuations are final as of this entry -- EJScreen taken offline, the NOAA disaster database retired with no updates beyond 2024",
+    "date_of_action": "2025-02 (EPA's EJScreen taken offline) through 2026-05 (NOAA announces retirement of its billion-dollar disaster database)",
+    "what_changed": "EPA's EJScreen -- a mapping and screening tool combining environmental and demographic indicators to identify communities facing higher combined environmental and socioeconomic burdens -- was taken offline by the Trump administration between February 3 and February 5, 2025; a nonprofit, the Public Environmental Data Project, has since built a replica to keep the underlying data accessible. Separately, NOAA announced it will retire its 'Billion-Dollar Weather and Climate Disasters' database, which had tracked the frequency and cost of major U.S. weather and climate disasters for decades -- the agency will keep historical data through calendar year 2024 available but will not add further updates, as part of a Trump 2026 fiscal year budget proposal cutting NOAA's overall budget by $1.52 billion, concentrated in climate-related research, data, and grant programs. Separately, CDC removed multiple web pages addressing health disparities among LGBTQ+ youth, and USDA (which oversees the Forest Service) removed pages referencing climate change, as part of the same broader wave of federal data and web-content removal reported across agencies in 2025-2026. (Note: the parallel removal of USDA's 30-year Household Food Security Survey is documented separately in this tracker's usda-food-security-survey-cancellation-2025.json entry and is not duplicated here.)",
+    "primary_proponent": {
+      "name": "Multiple agency heads -- no single named official directs all three actions",
+      "role": "EPA, NOAA (Commerce Department), and HHS/CDC leadership each independently discontinued or removed tools/data within their own agencies",
+      "note": "Reporting reviewed does not identify one official personally ordering all three actions; each agency's leadership (EPA, NOAA under Commerce Secretary Howard Lutnick's broader NOAA budget cuts, and CDC under HHS Secretary Robert F. Kennedy Jr.) is responsible for the removal within its own domain."
+    },
+    "estimated_impact": {
+      "summary": "Each tool served a distinct, widely-used public function: EJScreen was used by researchers, journalists, and local governments to identify environmental-justice burdens; the NOAA disaster database was the standard reference for the cost and frequency of major U.S. weather and climate disasters, used by researchers, insurers, and policymakers; the CDC pages provided health-disparity data specific to LGBTQ+ youth. Outside groups have moved to independently preserve the EJScreen and NOAA disaster data specifically because federal versions were discontinued.",
+      "figures": [
+        {
+          "metric": "NOAA disaster database coverage",
+          "value": "historical data preserved through calendar year 2024; no further updates",
+          "source": "NOAA announcement, reported by ESG Dive, Scripps News, and others, May 2026"
+        },
+        {
+          "metric": "EJScreen offline period before third-party replication",
+          "value": "Taken offline February 3-5, 2025",
+          "source": "Reporting on the Public Environmental Data Project's replica tool"
+        },
+        {
+          "metric": "NOAA FY2026 budget proposal cut",
+          "value": "$1.52 billion overall reduction, concentrated in climate research/data/grants",
+          "source": "Trump administration FY2026 budget proposal, as reported"
+        }
+      ],
+      "caveat": "These are three separate agency actions grouped here because they share the same domain (halting or removing a public federal dataset/tool) and were reported together as part of a broader pattern in contemporaneous coverage -- each has independent sourcing and should be evaluated on its own facts rather than treated as a single coordinated directive."
+    },
+    "confidence_note": "HIGH confidence on the EJScreen removal and NOAA disaster-database retirement, each independently corroborated across multiple outlets (ESG Dive, Utility Dive, Scripps News, HSToday, Time, E&E News/POLITICO for NOAA; NBC News, Context/Thomson Reuters Foundation for EJScreen). MODERATE confidence on grouping the CDC LGBTQ+ youth page removals and USDA climate-change page removals into this same entry, since those are documented via fewer, less-detailed sources in the reporting reviewed -- treat the EJScreen and NOAA facts as the strongest-sourced parts of this entry.",
+    "last_verified": "2026-07-28",
+    "date_added": "2026-07-28",
+    "sources": [
+      {
+        "name": "Scripps News -- NOAA says it will discontinue its billion-dollar disaster database",
+        "url": "https://www.scrippsnews.com/science-and-tech/climate-change/noaa-says-it-will-discontinue-its-billion-dollar-disaster-database"
+      },
+      {
+        "name": "Time -- Trump Axed NOAA's Climate Disaster Data. This Group Saved It",
+        "url": "https://time.com/7327517/saving-noaas-billion-dollar-climate-disaster-data/"
+      },
+      {
+        "name": "NBC News -- As Trump hits delete, the race is on to save LGBTQ and climate data",
+        "url": "https://www.nbcnews.com/nbc-out/out-politics-and-policy/trump-hits-delete-race-lgbtq-climate-data-rcna191652"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "EPA's environmental-justice mapping tool (EJScreen) and NOAA's decades-old billion-dollar disaster database were both discontinued, alongside CDC LGBTQ+ youth health pages and USDA climate-change pages being removed.",
+      "estimated_impact": "Both discontinued tools were standard references for researchers, journalists, and policymakers; outside groups have had to independently preserve the data since the federal versions went away.",
+      "confidence_note": "EJScreen and the NOAA database removals are each strongly multi-sourced; the CDC/USDA page removals grouped in here rest on thinner sourcing."
+    }
+  },
+  {
     "id": "epa-ord-elimination-trump2",
     "title": "EPA Eliminated Its Scientific Research Office, Placing the Successor Directly Under the Administrator's Political Control",
     "institution": "Office of Research and Development (ORD), Environmental Protection Agency",

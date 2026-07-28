@@ -1507,6 +1507,53 @@
     "short_summary": "Proposed repealing carbon emissions limits for coal and gas power plants."
   },
   {
+    "id": "sec-climate-disclosure-rescission-2026",
+    "rule_name": "SEC Climate-Related Disclosure Rules (adopted March 2024)",
+    "administration": "Trump II (2025-present)",
+    "agency": "SEC",
+    "domain": "financial",
+    "status": "Proposed Repeal (60-day public comment period opened May 29, 2026; a final commission vote is still required, with rescission unlikely before late 2026 or early 2027)",
+    "date_of_action": "2026-05-07 (SEC tells the Eighth Circuit it will no longer defend the rules in pending litigation) through 2026-05-29 (formal rescission proposal published)",
+    "original_rule_summary": "Adopted by the SEC in March 2024, the rules required public companies to disclose climate-related risks material to their business, strategy, or financial outlook, along with certain greenhouse-gas emissions data (Scope 1 and 2 for larger filers) and the financial impact of severe weather events and other climate-related costs -- giving investors a standardized way to assess companies' exposure to climate-related financial risk.",
+    "what_changed": "In a May 7, 2026 letter to the U.S. Court of Appeals for the Eighth Circuit (where the rules had been under legal challenge since adoption), the SEC advised the court it 'does not intend to renew its defense of the Rules.' On May 29, 2026, the Commission formally proposed to rescind the climate-disclosure regime in its entirety, opening a 60-day public comment period. SEC Chair Paul Atkins framed the move as part of a broader return to a 'materiality-focused' approach to securities regulation, rolling back disclosure requirements for U.S.-listed companies more generally.",
+    "primary_proponent": {
+      "name": "Paul Atkins",
+      "role": "SEC Chair",
+      "note": "Publicly announced and defended the rescission proposal in an official SEC statement, framing it as restoring a materiality-focused disclosure standard; leadership under Atkins has more broadly prioritized rolling back corporate disclosure requirements adopted under the prior SEC chair."
+    },
+    "corporate_beneficiaries": [
+      "Publicly traded companies broadly, relieved of standardized climate-risk and greenhouse-gas emissions disclosure obligations -- most directly, heavy-emitting and climate-exposed industries (energy, utilities, heavy manufacturing, insurance) that would have faced the most burdensome reporting under the original rules"
+    ],
+    "estimated_health_impact": {
+      "summary": "Indirect: the rules did not regulate emissions or operations directly, only investor-facing disclosure of climate-related financial risk -- so the harm at risk is reduced market transparency (investors losing a standardized way to assess a company's climate exposure) rather than a direct physical or environmental harm pathway.",
+      "figures": [],
+      "caveat": "As is typical for financial-disclosure rollbacks in this tracker, no formal quantified health or environmental impact estimate exists -- the rule's function was information disclosure to investors, not a direct emissions or safety standard, so this entry is best framed around lost transparency and accountability rather than a modeled harm figure."
+    },
+    "confidence_note": "HIGH confidence on the documented facts -- the SEC's own May 7 court letter and May 29 official press release/proposing release are primary-source, on-the-record government documents, corroborated by Reuters, the SEC's own newsroom, and legal-industry reporting (D&O Diary, Duane Morris, Journal of Accountancy). This is a proposed rule still subject to a comment period and a final commission vote, not yet a completed rescission -- status should be re-checked as the comment period closes and a final vote approaches.",
+    "section_summaries": {
+      "what_changed": "The SEC told a federal appeals court it would stop defending its own 2024 climate-disclosure rule, then formally proposed rescinding it entirely under Chair Paul Atkins.",
+      "estimated_impact": "The rule only required disclosure, not emissions cuts, so the loss here is investors' standardized visibility into companies' climate-related financial risk, not a direct environmental harm.",
+      "confidence_note": "Well-documented via the SEC's own court filing and official proposing release; still a proposal pending a comment period and final vote, not yet finalized."
+    },
+    "last_verified": "2026-07-28",
+    "date_added": "2026-07-28",
+    "sources": [
+      {
+        "name": "SEC.gov -- SEC Proposes Rescission of Climate-Related Disclosure Rules",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-49-sec-proposes-rescission-climate-related-disclosure-rules"
+      },
+      {
+        "name": "SEC.gov -- Atkins Statement on Proposing Release for Rescission of Climate-Related Disclosure Rules",
+        "url": "https://www.sec.gov/newsroom/speeches-statements/atkins-statement-rescission-climate-related-disclosure-rules-052926"
+      },
+      {
+        "name": "The D&O Diary -- SEC Moves to Rescind Climate Disclosure Rule",
+        "url": "https://www.dandodiary.com/2026/05/articles/esg/sec-moves-to-rescind-climate-disclosure-rule/"
+      }
+    ],
+    "short_summary": "SEC proposed scrapping its 2024 rule requiring companies to disclose climate risk and emissions data to investors."
+  },
+  {
     "id": "stream-protection-rule-repeal-trump1",
     "rule_name": "Stream Protection Rule repeal (Congressional Review Act)",
     "administration": "Trump I (2017-2021)",
