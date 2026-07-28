@@ -62,15 +62,16 @@ Four trackers, organized by kind of claim, not by target:
 
 The three curated trackers — Corporate Deregulation, Cabinet-Level Legal
 Exposure, and Government Service Redirection — are built the same way:
-a plain-language summary of what happened, a hand-written short summary
-of each key section (never machine-generated), a confidence note, and a
-list of sources with links back to the original material. Reporting
-works differently by design: it's a mechanical archive of scraped news
-coverage, so each entry carries a plain description of what happened and
-why it matters, plus a source link on roughly 9 in 10 entries — without
-a hand-written summary or confidence note layered on top. Either way,
-the underlying source is a click away, so a claim can be checked
-independently rather than taken on faith.
+a plain-language summary of what happened, a short summary of each key
+section composed specifically for that entry (not an automated
+truncation of the longer text), a confidence note, and a list of sources
+with links back to the original material. Reporting works differently by
+design: it's a mechanical archive of scraped news coverage, so each entry
+carries a plain description of what happened and why it matters, plus a
+source link on roughly 9 in 10 entries — without a composed summary or
+confidence note layered on top. Either way, the underlying source is a
+click away, so a claim can be checked independently rather than taken on
+faith.
 
 Search or browse. Search by keyword, statement, or topic across
 everything, or browse tracker by tracker to stay within one kind of claim.
