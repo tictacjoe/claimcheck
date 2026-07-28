@@ -3287,6 +3287,47 @@
     ]
   },
   {
+    "id": "makary-fda-commissioner-resignation-2026",
+    "title": "FDA Commissioner Marty Makary Resigned After Being Pressured to Approve Flavored Vapes and Restrict the Abortion Pill",
+    "institution": "U.S. Food and Drug Administration",
+    "domain": "staff_office_cuts",
+    "status": "Resignation effective as of May 12, 2026; Deputy Commissioner for Food Kyle Diamantas serving as acting commissioner",
+    "date_of_action": "2026-05-06 (FDA approves flavored e-cigarettes under reported White House pressure) through 2026-05-12 (Makary's resignation)",
+    "what_changed": "FDA Commissioner Marty Makary resigned on May 12, 2026, amid internal conflicts over two major policy disputes. On flavored vaping products: the FDA approved flavored e-cigarettes from vaping company Glas Inc. on May 6, 2026, a move the Wall Street Journal reported came only after President Trump personally pressured Makary to approve the fruit-flavored vapes, which Makary had been refusing to authorize; a source told CBS News Makary is leaving specifically over this dispute, having been forced by other administration officials to approve products he did not want to approve. On the abortion pill: officials within HHS separately pushed Makary to impose tighter restrictions on mifepristone, a second point of friction cited in his departure. Kyle Diamantas, the FDA's deputy commissioner for food, stepped into the role on an acting basis. This resignation is distinct from, but adds to, the extensive leadership churn already documented in this tracker's separate entry on FDA's CBER (vaccine/biologics) division, where Makary had previously intervened as Commissioner during 2025-2026 turmoil -- this entry covers Makary's own departure from the top FDA post over non-vaccine disputes (vaping and the abortion pill).",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Reported by the Wall Street Journal to have personally pressured Makary to approve the flavored e-cigarettes over Makary's own objections, a dispute CBS News's sourcing identifies as the direct cause of Makary's resignation."
+    },
+    "estimated_impact": {
+      "summary": "The FDA now has its third form of top-level instability documented in this tracker within roughly a year -- following extensive CBER (vaccine division) leadership churn -- with the Commissioner position itself now vacant and filled only on an acting basis, adding uncertainty at the top of an agency already experiencing serial leadership turnover in its biologics division.",
+      "figures": [],
+      "caveat": "No dollar or capacity figure applies directly to a single resignation; the impact here is institutional -- leadership instability and uncertainty about forthcoming policy direction on vaping and reproductive-health-related drug regulation -- rather than a quantifiable loss."
+    },
+    "confidence_note": "HIGH confidence on the documented facts -- Makary's resignation and both cited disputes (flavored vapes, mifepristone) are corroborated across CBS News, the Wall Street Journal (via CBS's citation), Time, NBC News, The Washington Post, and PBS NewsHour. The specific causal attribution (that the vape dispute was the direct trigger) rests on a single sourced CBS News claim ('one source familiar with the matter'), though multiple outlets independently corroborate both disputes as contributing factors.",
+    "last_verified": "2026-07-28",
+    "date_added": "2026-07-28",
+    "sources": [
+      {
+        "name": "CBS News -- Marty Makary resigns as FDA commissioner after internal tensions",
+        "url": "https://www.cbsnews.com/news/marty-makary-fda-commissioner-resigns-trump/"
+      },
+      {
+        "name": "The Washington Post -- FDA chief Marty Makary resigns amid agency turmoil",
+        "url": "https://www.washingtonpost.com/health/2026/05/12/fda-chief-plans-resign-amid-agency-turmoil/"
+      },
+      {
+        "name": "NBC News -- Dr. Marty Makary is out as FDA commissioner",
+        "url": "https://www.nbcnews.com/health/health-news/dr-marty-makary-fda-commissioner-rcna344765"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Makary quit as FDA Commissioner after Trump pushed him to approve flavored vapes he didn't want to approve, plus separate internal pressure to restrict the abortion pill.",
+      "estimated_impact": "The FDA's top job is now vacant and filled only on an acting basis, on top of the vaccine division's already well-documented leadership chaos.",
+      "confidence_note": "Well-corroborated across major outlets; the specific claim that the vape dispute was the direct trigger for resignation traces to one sourced CBS News claim, though both disputes are independently confirmed as contributing factors."
+    }
+  },
+  {
     "id": "mspb-harris-firing-quorum-loss-trump2",
     "title": "MSPB Loses Quorum for 8 Months After Trump Fires Whistleblower Board Chair Cathy Harris",
     "institution": "Merit Systems Protection Board",
@@ -4970,6 +5011,68 @@
       "what_changed": "Kennedy had the CDC contradict its own decades-old guidance that vaccines don't cause autism, tasked an adviser with hunting for evidence of a link, and revived a task force disbanded in 1998 to reexamine childhood vaccine safety.",
       "estimated_impact": "Federal scientific resources are being redirected to re-litigate a question the scientific and public-health establishment already considers settled.",
       "confidence_note": "Very well documented -- Kennedy has publicly and personally confirmed directing the CDC guidance change himself, corroborated across CNN, BBC, and AP reporting."
+    }
+  },
+  {
+    "id": "samhsa-fentanyl-test-strip-funding-ban-2026",
+    "title": "SAMHSA Banned Federal Grant Funding for Fentanyl and Xylazine Test Strips, Reversing Harm-Reduction Policy",
+    "institution": "Substance Abuse and Mental Health Services Administration (SAMHSA), Department of Health and Human Services",
+    "domain": "funding_redirection",
+    "status": "Final guidance in effect as of April 24, 2026; no reversal identified as of this entry",
+    "date_of_action": "2026-04-24 (SAMHSA guidance issued) through 2026-05 (reporting on the resulting funding losses)",
+    "what_changed": "On April 24, 2026, SAMHSA issued guidance prohibiting federal grant funds from being used to purchase 'substance test kits, including fentanyl test strips and xylazine test strips,' as well as test strips for medetomidine, a veterinary sedative increasingly found contaminating the illicit drug supply -- reversing the prior (Biden-era) policy that had funded harm-reduction organizations' distribution of these low-cost testing supplies. Test strips cost approximately $1 each and allow drug users to check street drugs for the presence of fentanyl, xylazine, or medetomidine before use, a widely-used harm-reduction measure. The Kentucky Harm Reduction Coalition, one specific organization affected, learned it would lose a $400,000 federal grant that had supported distribution of 48,465 fentanyl test strips in the first quarter of 2026 alone; organizations nationally that relied on SAMHSA grants for this purpose now face cutting services or finding alternative funding.",
+    "primary_proponent": {
+      "name": "Substance Abuse and Mental Health Services Administration leadership, under HHS Secretary Robert F. Kennedy Jr.",
+      "role": "SAMHSA issued the guidance; HHS Secretary Kennedy oversees SAMHSA as part of his broader restructuring of federal health agencies",
+      "note": "Reporting reviewed attributes the guidance to SAMHSA as an agency rather than to a single named individual signer; it fits the broader pattern of harm-reduction and public-health-infrastructure rollbacks documented elsewhere under Kennedy's HHS."
+    },
+    "estimated_impact": {
+      "summary": "The policy arrives as overdose deaths have declined roughly 19% nationally since their August 2023 peak, a reduction public health experts substantially credit to expanded harm-reduction measures including widespread test-strip distribution -- cutting funding for this specific, low-cost tool risks reversing recent progress at a moment overdose deaths, while declining, still number in the tens of thousands annually.",
+      "figures": [
+        {
+          "metric": "Cost per fentanyl/xylazine test strip",
+          "value": "approximately $1",
+          "source": "STAT News, CBS News, April-May 2026"
+        },
+        {
+          "metric": "Kentucky Harm Reduction Coalition federal grant lost",
+          "value": "$400,000",
+          "source": "Reporting on the SAMHSA policy shift, May 2026"
+        },
+        {
+          "metric": "Fentanyl test strips distributed by that same Kentucky organization, Q1 2026 alone",
+          "value": "48,465",
+          "source": "Reporting on the SAMHSA policy shift, May 2026"
+        },
+        {
+          "metric": "National overdose death decline since August 2023 peak",
+          "value": "~19%",
+          "source": "STAT News, citing federal overdose data, April 2026"
+        }
+      ],
+      "caveat": "The 19% overdose-decline figure is a national trend correlated with, but not proven to be solely caused by, expanded harm-reduction measures including test strips -- multiple factors (naloxone access, fentanyl supply shifts, treatment expansion) plausibly contribute to the same trend, so this entry presents the correlation as context rather than a proven causal claim."
+    },
+    "confidence_note": "HIGH confidence on the documented facts -- the SAMHSA guidance itself, its specific prohibited items, and the Kentucky Harm Reduction Coalition's lost funding are corroborated across STAT News, CBS News, The New Republic, and multiple harm-reduction and pharmacy trade publications (ASHP). Public health organizations (ASHP among them) have formally opposed the policy, calling it inconsistent with evidence on overdose prevention.",
+    "last_verified": "2026-07-28",
+    "date_added": "2026-07-28",
+    "sources": [
+      {
+        "name": "STAT News -- Trump administration warns against using federal dollars on fentanyl test strips",
+        "url": "https://www.statnews.com/2026/04/27/trump-administration-samhsa-clear-shift-from-harm-reduction/"
+      },
+      {
+        "name": "CBS News -- Trump administration ends funding for fentanyl test strips, baffling public health groups",
+        "url": "https://www.cbsnews.com/news/trump-administration-fentanyl-xylazine-test-strips-drugs-overdose-samhsa/"
+      },
+      {
+        "name": "The New Republic -- Trump Makes It Harder to See if Drugs Are Laced With Fentanyl",
+        "url": "https://newrepublic.com/post/209884/trump-drugs-fentanyl-test-strips"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "SAMHSA banned federal grants from paying for fentanyl and xylazine test strips, cutting off funding organizations relied on to distribute the $1 supplies that let drug users check for deadly contaminants.",
+      "estimated_impact": "The cut hits a tool credited alongside others for helping drive a 19% national drop in overdose deaths since 2023 -- one Kentucky group alone lost $400,000 and had distributed nearly 50,000 strips in a single quarter.",
+      "confidence_note": "Well-corroborated across health-policy and news outlets; the overdose-decline figure is contextual correlation, not a proven causal claim tied specifically to test strips."
     }
   },
   {

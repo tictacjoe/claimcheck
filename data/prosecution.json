@@ -635,6 +635,55 @@
     }
   },
   {
+    "official": "Todd Blanche, Acting Attorney General (DOJ leadership overseeing the U.S. Attorney's Office for the Northern District of Texas, which issued the subpoena)",
+    "offense_category": "Overreaching/politically-motivated use of grand jury subpoena power implicating patient privacy and First/Fourteenth Amendment concerns -- no criminal charges have been filed against NYU Langone, any provider, or any patient; this is a subpoena/investigative-power matter, not a completed prosecution",
+    "incident_summary": "On May 7, 2026, NYU Langone Health received a federal grand jury subpoena from the U.S. Attorney's Office for the Northern District of Texas, demanding information on all patients under 18 who received gender-affirming care at the hospital system between 2020 and 2026, along with the names of the medical providers and others involved in offering that care. The hospital's notice indicated several other institutions had received similar subpoenas as part of the same investigation. In response, transgender patients, families, and advocacy groups sued, and a federal judge in the Southern District of New York granted a temporary restraining order blocking disclosure of the requested medical information pending further review. California Attorney General Rob Bonta joined a multistate legal opposition to the subpoenas, calling them 'an assault on privacy.'",
+    "contested": true,
+    "elements_required": [
+      "A criminal grand jury subpoena sought identifying medical records of minors and their treating providers based on a category of lawful medical care (gender-affirming care), rather than a specific allegation of criminal conduct by a named individual",
+      "The subpoena was issued from a district (Northern District of Texas) with no apparent jurisdictional connection to the New York hospital system it targeted",
+      "Multiple institutions beyond NYU Langone received similar subpoenas, indicating a coordinated campaign rather than an isolated, case-specific investigation",
+      "A federal court found sufficient grounds to block disclosure on an emergency basis pending further review, rather than allowing immediate compliance"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "NYU Langone's own public notice to patients confirmed receipt of the May 7, 2026 grand jury subpoena from the U.S. Attorney's Office for the Northern District of Texas, seeking records on gender-affirming care provided to minors between 2020 and 2026",
+        "source_url": "https://nyulangone.org/public-notices/tyhpsubpoena",
+        "maps_to_element": "Existence and scope of the subpoena, confirmed by the subpoenaed party itself"
+      },
+      {
+        "type": "public_record",
+        "description": "The subpoena notice stated that 'several' other institutions had received similar subpoenas seeking the same category of information",
+        "source_url": "https://www.hrc.org/press-releases/nyu-langone-criminally-subpoenaed-by-texas-court-for-trans-youth-care-records-a-dangerous-escalation-in-the-attacks-on-health-care-providers",
+        "maps_to_element": "Coordinated, multi-institution scope rather than an isolated case-specific inquiry"
+      },
+      {
+        "type": "court_filing",
+        "description": "A federal judge in the Southern District of New York granted a temporary restraining order blocking disclosure of the requested medical information, in response to a lawsuit from affected patients and families",
+        "source_url": "https://www.nbcnews.com/news/us-news/judge-temporarily-blocks-subpoenas-criminal-probe-transgender-care-new-rcna351612",
+        "maps_to_element": "Judicial finding of sufficient grounds to block enforcement on an emergency basis"
+      },
+      {
+        "type": "public_record",
+        "description": "California Attorney General Rob Bonta joined a multistate legal opposition to the DOJ subpoenas, describing them as 'an assault on privacy' targeting transgender youth medical records",
+        "source_url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-subpoenas-targeting-medical-records-transgender-youth-are",
+        "maps_to_element": "Independent state-level legal opposition corroborating the scope and stakes of the subpoenas"
+      }
+    ],
+    "status": "Disclosure of the requested medical records is blocked by a temporary restraining order as of this entry; the underlying litigation over the subpoenas' validity was ongoing as of June 2026 reporting, with no criminal charges filed against any institution, provider, or patient",
+    "rebuttal_anticipated": "DOJ's likely position: the subpoenas are part of a legitimate investigation into potential violations of federal law related to gender-affirming care for minors, and the department has broad grand jury investigative authority that does not require a specific individual target to be named at the subpoena stage.",
+    "comeback": "A federal court found the request serious enough to block on an emergency basis before even reaching the merits -- an unusual outcome for a routine, properly-scoped grand jury subpoena. The subpoena's origin in a Texas district with no apparent connection to the New York hospital, its demand for identifying information on minors and providers rather than evidence tied to a specific alleged crime, and its issuance to multiple institutions simultaneously are all more consistent with a broad investigative campaign targeting a category of legal medical care than with an ordinary, narrowly-tailored criminal inquiry.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the administration's broader documented campaign against transgender healthcare access (including the Smith College Title IX matter and other entries in this project), using federal investigative power to pressure institutions and chill provision of, and access to, gender-affirming care rather than pursuing a specific, individualized criminal allegation.",
+    "last_updated": "2026-07-28",
+    "date_added": "2026-07-28",
+    "confidence_note": "HIGH confidence on the documented facts -- the subpoena's existence and scope are confirmed by NYU Langone's own public notice, and the multi-institution scope, the SDNY restraining order, and Bonta's multistate opposition are all corroborated across NBC News, Fierce Healthcare, HRC, Lambda Legal, and The Intercept. MODERATE confidence on characterizing this as a specifically 'vindictive' or bad-faith use of prosecutorial power, since DOJ has not publicly detailed its legal theory in the sourcing reviewed -- the strongest evidence for that characterization is the court's willingness to block disclosure on an emergency basis and the subpoena's broad, multi-institution, cross-jurisdictional scope.",
+    "section_summaries": {
+      "incident_summary": "DOJ subpoenaed NYU Langone (and reportedly other hospitals) for records on every minor who received gender-affirming care since 2020 plus their providers' names -- a judge blocked disclosure while several states' AGs joined the fight against it.",
+      "confidence_note": "Well-documented via the hospital's own notice and multiple outlets; whether this reflects bad-faith targeting rests on the subpoena's unusual scope and the court's willingness to block it on an emergency basis, since DOJ hasn't detailed its legal theory publicly."
+    }
+  },
+  {
     "official": "Sean Duffy, Secretary of Transportation",
     "offense_category": "Potential Federal Advisory Committee Act (FACA, 5 U.S.C. App.) transparency violations and procurement-integrity concerns regarding use of a private, unaccountable actor (SpaceX) in federal aviation safety decision-making — NOT charged; this documents a transparency/accountability concern raised by senators, not a confirmed legal violation",
     "incident_summary": "Following a January 29, 2026 mid-air collision near Washington National Airport and a string of other aviation incidents in the following weeks, Duffy oversaw mass firings of FAA personnel during the same period that SpaceX employees and DOGE staff became involved in 'critical aviation safety decision making,' according to Duffy's own public statements about SpaceX 'delivering a new, world-class air traffic control system.' Senators sent a formal letter raising concerns about the lack of accountability and public process around this private-sector involvement in safety-critical government functions.",
