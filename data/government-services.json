@@ -1236,6 +1236,68 @@
     "last_updated": "2026-07-26"
   },
   {
+    "id": "doj-law-enforcement-staffing-cuts-immigration-redirect-2026",
+    "title": "DOJ Cuts Over 4,000 Jobs at FBI, ATF, DEA, and National Security Division While Immigration Enforcement Gets More Funding",
+    "institution": "U.S. Department of Justice (FBI, ATF, DEA, National Security Division)",
+    "domain": "staff_office_cuts",
+    "status": "Documented via DOJ's own management-unit records, obtained by Reuters under FOIA and reported April 23, 2026; no reversal or correction identified as of this entry",
+    "date_of_action": "Cuts accumulated across fiscal year 2024 through early 2026; reported 2026-04-23",
+    "what_changed": "Justice Department management-unit records obtained by Reuters under the Freedom of Information Act show the Trump administration cut more than 4,000 employees from several of the DOJ's top law-enforcement components even as the administration publicly vowed to get tough on crime. The FBI's total employee count dropped more than 7% since fiscal year 2024, a loss of about 2,600 people. The Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) lost about 14% of its staff. The Drug Enforcement Administration (DEA) lost about 6% of its staff. The National Security Division, which handles intelligence and terrorism matters, lost nearly 38% of its staff -- the steepest cut of any of the components named. One notable exception to the pattern: the arm of DOJ handling immigration enforcement secured billions of dollars in additional funding over the same period, as the administration pushed to increase deportations -- making this both a staffing cut at the named components and a funding redirection toward immigration enforcement specifically.",
+    "primary_proponent": {
+      "name": "Pam Bondi",
+      "role": "Then-Attorney General (served 2025-2026, removed by Trump April 2, 2026)",
+      "note": "Oversaw the Department of Justice, including the FBI, ATF, DEA, and National Security Division, for the bulk of the period over which these cuts accumulated (fiscal year 2024 through her April 2026 removal); the Reuters FOIA report surfaced three weeks after her departure, under successor Acting Attorney General Todd Blanche, who inherited the findings rather than having personally directed the buildup."
+    },
+    "estimated_impact": {
+      "summary": "Reuters describes the records as 'the most detailed accounting to date' of how far the Trump administration has downsized several of the nation's premier federal law-enforcement agencies, with the steepest cuts concentrated in the division responsible for intelligence and terrorism matters, even as the administration's public rhetoric emphasized being tough on crime.",
+      "figures": [
+        {
+          "metric": "FBI staffing decline since FY2024",
+          "value": "more than 7% (~2,600 employees)",
+          "source": "DOJ management-unit records via Reuters, April 2026"
+        },
+        {
+          "metric": "ATF staffing decline",
+          "value": "about 14%",
+          "source": "DOJ management-unit records via Reuters, April 2026"
+        },
+        {
+          "metric": "DEA staffing decline",
+          "value": "about 6%",
+          "source": "DOJ management-unit records via Reuters, April 2026"
+        },
+        {
+          "metric": "National Security Division staffing decline",
+          "value": "nearly 38%",
+          "source": "DOJ management-unit records via Reuters, April 2026"
+        }
+      ],
+      "caveat": "Figures come from DOJ's own internal management-unit records, obtained by Reuters via FOIA, not from a GAO or Inspector General finding -- a strong primary-source type, but not yet independently audited by a watchdog body as of this entry. The immigration-enforcement funding increase is described qualitatively ('billions of dollars') rather than with a single precise figure in the reporting reviewed."
+    },
+    "confidence_note": "HIGH confidence on the reported staffing figures -- Reuters' reporting is corroborated by wide syndication (U.S. News, Hawaii Tribune-Herald, Tucson.com, The Mirror, KELO, The New Republic, and others all ran the same underlying figures) and is sourced to DOJ's own records rather than characterization by critics. MODERATE confidence on attributing responsibility to a single named official, since the cuts accumulated across the tenures of both Pam Bondi and her successor, and no single memo or decision-maker is identified in the sourcing reviewed as personally ordering the reductions -- Bondi is named as the official who oversaw DOJ for most of the period in which the cuts built up.",
+    "last_verified": "2026-07-28",
+    "date_added": "2026-07-28",
+    "sources": [
+      {
+        "name": "U.S. News & World Report -- Exclusive: Trump's DOJ Has Cut Thousands of Law-Enforcement Jobs While Vowing to Get Tough on Crime",
+        "url": "https://www.usnews.com/news/politics/articles/2026-04-23/exclusive-trumps-doj-has-cut-thousands-of-law-enforcement-jobs-while-vowing-to-get-tough-on-crime"
+      },
+      {
+        "name": "The New Republic -- Tough on Crime? Trump Justice Department Purges Law Enforcement Jobs",
+        "url": "https://newrepublic.com/post/209451/justice-department-law-enforcement-layoffs"
+      },
+      {
+        "name": "Hawaii Tribune-Herald (syndicated Reuters) -- Trump's DOJ has cut thousands of law-enforcement jobs while vowing to get tough on crime",
+        "url": "https://www.hawaiitribune-herald.com/2026/04/24/nation-world-news/trumps-doj-has-cut-thousands-of-law-enforcement-jobs-while-vowing-to-get-tough-on-crime/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "DOJ's own FOIA'd records show 4,000+ law-enforcement jobs cut at FBI, ATF, DEA, and National Security Division (down as much as 38%), while the immigration-enforcement arm got billions more in funding over the same stretch.",
+      "estimated_impact": "Reuters calls it the most detailed accounting yet of how far these agencies have been downsized, with the steepest losses in the division that handles terrorism and intelligence work.",
+      "confidence_note": "Well-corroborated across many outlets and sourced to DOJ's own records; no single named decision-maker for the cuts specifically, so responsibility is attributed to Bondi as the AG who oversaw most of the buildup period."
+    }
+  },
+  {
     "id": "dol-ofccp-civil-rights-enforcement-halted-2025",
     "title": "Trump Halted Labor Department Contractor Civil-Rights Enforcement on Day One, Killing a Near-Complete BAE Systems Sexual-Harassment Case",
     "institution": "Department of Labor / Office of Federal Contract Compliance Programs (OFCCP)",

@@ -1563,6 +1563,61 @@
     }
   },
   {
+    "official": "Jeanine Pirro, U.S. Attorney for the District of Columbia",
+    "offense_category": "Vindictive/Selective Prosecution (violates Due Process; established legal doctrine, e.g. United States v. Goodwin) -- Federal Reserve Chair Jerome Powell was never charged, and the underlying grand jury subpoenas were quashed by a federal court for lack of evidence; Pirro herself has not been personally charged with anything",
+    "incident_summary": "The U.S. Attorney's Office for the District of Columbia, under Jeanine Pirro, opened a criminal investigation in November 2025 into Federal Reserve Chair Jerome Powell over a roughly $2.5 billion headquarters renovation project, tied to Powell's June 2025 testimony about the project before the Senate Banking Committee. In January 2026, Pirro's office served grand jury subpoenas on the Fed. Powell publicly called the investigation a pretext, saying it was not really about his testimony or the renovation but a consequence of the Fed setting interest rates independent of the president's preferences, amid Trump's escalating public pressure campaign for Powell to cut rates and eventually leave the Fed. On March 13, 2026, Chief Judge James Boasberg of the U.S. District Court for the District of Columbia quashed the subpoenas, finding the government had produced 'essentially zero evidence' to suspect Powell of a crime and that the record supported the appearance of political pressure over rates rather than a genuine criminal predicate. Pirro subsequently announced on X that she was closing the criminal probe, with the Fed's own inspector general taking over review of the renovation cost overruns. On May 3, 2026, however, appearing on CNN's 'State of the Union,' Pirro said her office was continuing to litigate the issue, confirmed she would appeal Boasberg's ruling, and stated that once the inspector general's report concluded, her office 'will not hesitate to restart a criminal investigation should the facts warrant doing so.' The same day, Trump publicly said the Powell probe should continue: 'Take it to the end and see.'",
+    "contested": true,
+    "elements_required": [
+      "Investigation targeted a named, prominent official (Powell) who had publicly and repeatedly resisted a specific presidential demand (interest-rate cuts), rather than arising from an independent evidentiary lead",
+      "A federal court reviewing the specific subpoenas found 'essentially zero evidence' of a crime -- not merely insufficient evidence to indict, but a finding that undercuts the stated investigative predicate",
+      "The President's own public statements tie the investigation's value to Powell's rate decisions rather than to the stated renovation-testimony rationale",
+      "Despite judicial rejection and an announced closure, the prosecutor publicly kept the threat of revival open rather than concluding the matter, and confirmed an appeal of the ruling that found no evidentiary basis"
+    ],
+    "evidence": [
+      {
+        "type": "court_filing",
+        "description": "Chief Judge James Boasberg quashed the grand jury subpoenas Pirro's office served on the Federal Reserve, ruling on March 13, 2026 that 'the Government has produced essentially zero evidence to suspect Chair Powell of a crime'",
+        "source_url": "https://www.npr.org/2026/01/11/nx-s1-5674034/fed-powell-subpoena-doj-building-renovation",
+        "maps_to_element": "Judicial finding of no evidentiary basis for the subpoenas"
+      },
+      {
+        "type": "public_record",
+        "description": "Powell confirmed the Fed had been served grand jury subpoenas threatening criminal indictment tied to his Senate Banking Committee testimony on the renovation project, and stated the investigation was a pretext connected to his refusal to cut interest rates at the President's request",
+        "source_url": "https://www.cbsnews.com/news/doj-subpoenas-federal-reserve-building-renovations-jerome-powell/",
+        "maps_to_element": "Named target's public statement connecting the investigation to a specific presidential policy grievance"
+      },
+      {
+        "type": "public_record",
+        "description": "Pirro announced on X that she was closing the criminal probe into Powell after the subpoenas were quashed, with the Fed's inspector general taking over review of the renovation cost overruns in its place",
+        "source_url": "https://www.cnn.com/2026/04/24/business/doj-criminal-probe-of-powell",
+        "maps_to_element": "Formal closure of the criminal matter following the adverse court ruling"
+      },
+      {
+        "type": "public_record",
+        "description": "On CNN's 'State of the Union' (May 3, 2026), Pirro said her office 'will not hesitate to restart a criminal investigation should the facts warrant doing so' once the Fed inspector general's report concludes, and confirmed she is appealing Judge Boasberg's ruling; the same day, Trump said publicly the Powell probe should continue, 'Take it to the end and see'",
+        "source_url": "https://www.cnbc.com/2026/05/03/pirro-fed-powell.html",
+        "maps_to_element": "Prosecutor and President both publicly keeping the investigation's revival open after its stated closure"
+      },
+      {
+        "type": "public_record",
+        "description": "The existing Bondi-era entry on the James prosecution documents that DOJ investigations into Powell, alongside James, Comey, Schiff, Clapper, and Brennan, were already part of a broader pattern of investigations into named Trump adversaries -- this entry covers the Powell case specifically as it escalated to subpoenas, a court ruling, an announced closure, and a subsequent revival threat",
+        "source_url": "https://www.forbes.com/sites/zacharyfolk/2026/05/03/prosecutors-could-restart-jerome-powell-investigation-jeanine-pirro-suggests/",
+        "maps_to_element": "Pattern evidence connecting this case to the administration's broader named-adversary investigation pattern documented elsewhere in this tracker"
+      }
+    ],
+    "status": "Closed as an active grand jury matter in April 2026 (Pirro announced the closure on X, with the Fed's inspector general assuming review of the renovation cost overruns), but Pirro publicly reserved the right to restart the criminal investigation pending the inspector general's findings and confirmed in May 2026 that she is appealing Judge Boasberg's ruling; no charges have been filed against Powell as of this entry",
+    "rebuttal_anticipated": "Pirro's and the administration's stated justification: the investigation concerns Powell's own sworn testimony to Congress about a specific, large cost overrun on a federal building project -- a matter DOJ has independent authority to examine on its own terms, unconnected to the Fed's monetary-policy decisions.",
+    "comeback": "Judge Boasberg -- reviewing the specific subpoenas on their evidentiary merits, not weighing in on monetary policy -- found 'essentially zero evidence' to suspect Powell of a crime, directly undercutting the stated renovation-testimony rationale. Trump's own public comments (both during the investigation and in reaction to its closure) explicitly frame the probe's value in terms of Powell's refusal to cut interest rates, not the testimony. Announcing a closure while simultaneously keeping revival on the table and appealing the only adverse ruling in the case mirrors the same 'keep the threat alive against a resistant, independent official' pattern already documented for James, Comey, Schiff, Clapper, and Brennan elsewhere in this tracker.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Same structural pattern documented across this tracker's other entries: DOJ's traditional independence from White House direction in prosecutorial targeting of named political adversaries and resistant independent officials continues to erode, with investigations against a sitting Fed Chair used as leverage in a broader monetary-policy pressure campaign rather than concluded on their evidentiary merits alone.",
+    "last_updated": "2026-07-28",
+    "date_added": "2026-07-28",
+    "confidence_note": "HIGH confidence on the documented facts -- the subpoenas, Judge Boasberg's ruling, the announced closure, and Pirro's May 2026 revival statement are all corroborated across CBS News, NPR, CNN, CNBC, and Forbes. MODERATE confidence on the vindictive-prosecution characterization itself, since no court has ruled on that specific claim (only on the evidentiary basis for the subpoenas), and Pirro and the administration dispute the political-pressure framing -- marked `contested: true` accordingly.",
+    "section_summaries": {
+      "incident_summary": "Pirro's office subpoenaed Powell over Fed renovation costs, a judge found zero evidence of a crime and quashed the subpoenas, Pirro announced the probe closed -- then said in May she'd restart it and is appealing the ruling.",
+      "confidence_note": "The court ruling, closure, and revival statement are all well-corroborated; whether the investigation itself was vindictive is Pirro's disputed characterization, not yet tested in court on that specific question."
+    }
+  },
+  {
     "official": "William (Bill) Pulte, Director of the Federal Housing Finance Agency; Acting Director of National Intelligence (dual role, beginning June 2026)",
     "offense_category": "Potential Misuse of Federal Authority/Confidential Financial Data (relevant standards: 12 U.S.C. provisions governing FHFA's regulatory data access; potential 18 U.S.C. §1905, unauthorized disclosure of confidential information by a government employee; potential Privacy Act of 1974 violation); separately, potential unlawful disclosure of grand jury material (Fed. R. Crim. P. 6(e)) — NOT charged; GAO investigation formally opened and underway, federal grand jury reportedly investigating a related matter, no findings or charges confirmed",
     "incident_summary": "Beginning April 2025, as FHFA director, Pulte made a series of criminal referrals to DOJ against prominent Trump critics and political opponents -- including NY AG Letitia James, Sen. Adam Schiff, Federal Reserve Governor Lisa Cook, and Rep. Eric Swalwell -- alleging mortgage fraud, using mortgage data accessible through his oversight of Fannie Mae and Freddie Mac. Public records showed Pulte paid fees to obtain Lisa Cook's mortgage documents in August 2025, the day before making a criminal referral against her. Fannie Mae officials who internally investigated whether Pulte improperly obtained Democratic officials' mortgage records were themselves removed: chief ethics officer Suzanne Libby was removed, general counsel Danielle McCoy resigned under pressure, and FHFA's acting inspector general Joe Allen, who had forwarded the internal findings to prosecutors, was asked to step down. On November 17, 2025, eight Senate Democrats led by Elizabeth Warren formally requested a GAO investigation; GAO confirmed on December 4, 2025 that it had accepted the request and opened a formal investigation into whether Pulte and FHFA employees misused federal authority and resources. Separately, Rep. Eric Swalwell filed a civil lawsuit against Pulte on November 25, 2025, alleging Pulte violated the Privacy Act of 1974 by accessing his mortgage records for political purposes. A federal grand jury in Maryland has also reportedly investigated whether Pulte and DOJ official Ed Martin illegally shared grand jury material with unauthorized parties in connection with the Schiff referral.",
