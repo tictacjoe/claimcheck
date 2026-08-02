@@ -272,7 +272,7 @@
     "domain": "funding_redirection",
     "status": "Ongoing -- shortfall and resulting cuts were still in effect as of May 2026 reporting",
     "date_of_action": "2026-05 (reporting of internal Army budget documents)",
-    "what_changed": "Internal Army documents showed the service facing a $4-6 billion budget shortfall, driving cancellation of training courses, cuts to pilot flight hours, and warnings of reduced overall readiness. The Army's premier combat-engineering school, the Sapper Course, was canceled, as was an artillery course set to begin at Fort Campbell, Kentucky. Aviation readiness was hit particularly hard, with pilots limited to minimum required flight hours. III Armored Corps, the Texas-based headquarters overseeing roughly 70,000 troops and hundreds of tanks, saw its training budget cut by nearly $292 million in late April 2026. Officials linked the shortfall to costs from the Iran war, an expanded southern-border military mission, rising personnel and fuel costs, and an ongoing National Guard deployment to Washington, D.C. projected to cost roughly $1.1 billion for the year -- money originally budgeted for training and readiness effectively redirected to cover these other mission costs.",
+    "what_changed": "Internal Army documents showed the service facing a $4-6 billion budget shortfall, driving cancellation of training courses, cuts to pilot flight hours, and warnings of reduced overall readiness. The Army's premier combat-engineering school, the Sapper Course, was canceled, as was an artillery course set to begin at Fort Campbell, Kentucky. Aviation readiness was hit particularly hard, with pilots limited to minimum required flight hours. III Armored Corps, the Texas-based headquarters overseeing roughly 70,000 troops and hundreds of tanks, saw its training budget cut by nearly $292 million in late April 2026. Officials linked the shortfall to costs from the Iran war, an expanded southern-border military mission, rising personnel and fuel costs, and an ongoing National Guard deployment to Washington, D.C. projected to cost roughly $1.1 billion for the year -- money originally budgeted for training and readiness effectively redirected to cover these other mission costs. Update 2026-08-02: Surging fuel prices tied to the Iran war are a specifically quantified driver of the shortfall -- the average price the Pentagon paid per barrel of fuel climbed from $154.14 in October 2025 to $195.72 in April 2026, a nearly 27% increase in six months, adding more than $1 billion in unplanned costs to power jets, tanks, and other equipment. The Air Force alone is burning through roughly 10% more fuel than it had projected amid the ongoing Iran war.",
     "primary_proponent": {
       "name": "Pete Hegseth",
       "role": "Secretary of Defense",
@@ -295,11 +295,21 @@
           "metric": "Projected cost of D.C. National Guard deployment (contributing cost driver)",
           "value": "~$1.1 billion for the year",
           "source": "CNN, May 2026"
+        },
+        {
+          "metric": "Unplanned Pentagon-wide fuel costs tied to Iran-war-driven price surge",
+          "value": ">$1,000,000,000",
+          "source": "ABC News, June 2026"
+        },
+        {
+          "metric": "Pentagon average fuel price per barrel, Oct. 2025 -> Apr. 2026",
+          "value": "$154.14 -> $195.72 (~27% increase)",
+          "source": "ABC News, citing Defense Department fuel-pricing data"
         }
       ],
       "caveat": "Figures are from internal Army budget documents as characterized by reporters (ABC News, CNN, and syndicated wire coverage); no independent GAO or Inspector General accounting has yet confirmed the exact shortfall total."
     },
-    "confidence_note": "HIGH confidence -- corroborated across multiple independent outlets (ABC News, CNN, Hoodline, and wide wire syndication) citing internal Army budget documents and named cost drivers; the specific dollar figures for III Armored Corps and the D.C. Guard deployment are independently reported by more than one outlet.",
+    "confidence_note": "HIGH confidence -- corroborated across multiple independent outlets (ABC News, CNN, Hoodline, and wide wire syndication) citing internal Army budget documents and named cost drivers; the specific dollar figures for III Armored Corps and the D.C. Guard deployment are independently reported by more than one outlet. Re-verified 2026-08-02: the specific fuel-cost figures ($1B+ unplanned cost, per-barrel price increase, Air Force's 10% fuel-consumption overage) are corroborated by ABC News's original reporting and wide syndication (Newsweek, Mediaite, Newsmax).",
     "last_verified": "2026-08-02",
     "date_added": "2026-08-02",
     "sources": [
@@ -314,13 +324,18 @@
       {
         "name": "Hoodline -- 'Budget Bombshell: Army Slashes Training as D.C. Cash Crunch Hits Combat Readiness'",
         "url": "https://hoodline.com/2026/05/budget-bombshell-army-slashes-training-as-d-c-cash-crunch-hits-combat-readiness/"
+      },
+      {
+        "name": "Newsweek -- Surging Gas Prices Are Hitting the Pentagon: Most Affected Equipment",
+        "url": "https://www.newsweek.com/surging-gas-prices-are-hitting-pentagon-most-affected-equipment-12030530"
       }
     ],
     "section_summaries": {
       "what_changed": "A $4-6 billion Army budget shortfall, driven largely by Iran-war and border-deployment costs, forced cancellation of major training courses and cuts to pilot flight hours.",
       "estimated_impact": "III Armored Corps alone lost ~$292 million in training funds; officials warned of broader readiness degradation across the force.",
       "confidence_note": "Well-corroborated across multiple independent outlets citing internal Army budget documents."
-    }
+    },
+    "last_updated": "2026-08-02"
   },
   {
     "id": "bls-commissioner-firing-trump2",
@@ -3122,6 +3137,78 @@
     }
   },
   {
+    "id": "house-wic-fruit-vegetable-benefit-cut-2026",
+    "title": "House Passes Agriculture Spending Bill Cutting WIC Fruit-and-Vegetable Benefits for 5.4 Million Women and Children",
+    "institution": "U.S. House of Representatives / USDA Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)",
+    "domain": "funding_redirection",
+    "status": "Passed the House (213-210) June 2026; pending Senate action -- not yet law as of this entry's sourcing",
+    "date_of_action": "2026-06-04 (House floor vote)",
+    "what_changed": "The House passed a fiscal year agriculture appropriations bill by a 213-210 vote, with five Republicans voting against and four Democrats (Reps. Donald Davis, Adam Gray, Vicente Gonzalez, and Marie Glusenkamp Perez) voting for it, providing the margin of passage. The bill, aiming to trim 1.5% from federal agriculture spending, underfunds WIC overall and specifically cuts the program's Cash Value Benefit for fruits and vegetables. Per the Center on Budget and Policy Priorities, the bill would cut WIC fruit-and-vegetable funding by $141 million, affecting benefits for nearly 5.4 million enrolled children and pregnant/postpartum women. The National WIC Association estimated the specific benefit reduction: from $52 to $13 per month for breastfeeding mothers, and from $26 to $10 per month for young children. The bill also fails to make WIC's pandemic-era virtual/telehealth service option permanent. As of this entry's sourcing, the bill awaits Senate action and is not yet law.",
+    "primary_proponent": {
+      "name": "House Republican leadership (bill passed primarily on a party-line vote, 213-210, with 4 Democratic votes providing the margin)",
+      "role": "House majority controlling the agriculture appropriations process",
+      "note": "The bill passed with a narrow, largely party-line House majority; its ultimate fate depends on Senate action, and this entry should be rechecked once the Senate acts or the fiscal year appropriations process concludes."
+    },
+    "estimated_impact": {
+      "summary": "WIC's fruit-and-vegetable Cash Value Benefit is specifically designed to help low-income pregnant women, new mothers, and young children afford fresh produce; advocates say cutting it by roughly three-quarters for the affected populations (per the National WIC Association's per-recipient figures) removes a targeted nutrition benefit at a time of rising grocery prices, for a program serving nearly half of all infants born in the U.S.",
+      "figures": [
+        {
+          "metric": "House vote margin",
+          "value": "213-210",
+          "source": "Washington Post, CBPP"
+        },
+        {
+          "metric": "WIC fruit/vegetable funding cut",
+          "value": "$141,000,000",
+          "source": "Center on Budget and Policy Priorities"
+        },
+        {
+          "metric": "WIC enrollees affected (children and pregnant/postpartum women)",
+          "value": "~5,400,000",
+          "source": "CBPP, cited by Newsweek"
+        },
+        {
+          "metric": "Monthly fruit/vegetable benefit reduction, breastfeeding mothers",
+          "value": "$52 -> $13/month",
+          "source": "National WIC Association"
+        },
+        {
+          "metric": "Monthly fruit/vegetable benefit reduction, young children",
+          "value": "$26 -> $10/month",
+          "source": "National WIC Association"
+        }
+      ],
+      "caveat": "This bill has passed only the House as of this entry's sourcing and is not yet law -- the Senate could reject, modify, or decline to take up the House's specific WIC provisions before any final appropriations bill is enacted. Bill proponents frame the overall package as a modest 1.5% agriculture-spending trim within broader fiscal constraints, not a targeted attack on nutrition assistance specifically."
+    },
+    "confidence_note": "HIGH confidence on the House vote, its margin, and the specific benefit-reduction figures, corroborated across the Washington Post, CBPP, Newsweek, The New Republic, Common Dreams, and the Food Research & Action Center, with CBPP and the National WIC Association as the specific figures' primary sources (a nonpartisan budget-policy research organization and the program's own national advocacy association, respectively). Entry should be rechecked once the Senate acts, since House-passed appropriations language frequently changes before final enactment.",
+    "last_verified": "2026-08-02",
+    "sources": [
+      {
+        "name": "Washington Post -- House bill rolls back food aid for pregnant women, children",
+        "url": "https://www.washingtonpost.com/politics/2026/06/04/house-bill-rolls-back-food-aid-pregnant-women-children/"
+      },
+      {
+        "name": "Center on Budget and Policy Priorities -- House Agriculture Bill Underfunds WIC, Cuts Fruit and Vegetable Benefit",
+        "url": "https://www.cbpp.org/blog/house-agriculture-bill-underfunds-wic-cuts-fruit-and-vegetable-benefit-and-fails-to-make"
+      },
+      {
+        "name": "Newsweek -- Millions of Children, Mothers Could Face Food Aid Cut Under Bill",
+        "url": "https://www.newsweek.com/millions-of-children-mothers-could-face-food-aid-cut-under-bill-12036794"
+      },
+      {
+        "name": "Food Research & Action Center -- House Spending Bill Cuts WIC and SNAP, Escalating Hunger for Millions of Families",
+        "url": "https://frac.org/news/agricultureappropriationsbillapr2026"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "The House narrowly passed an agriculture spending bill cutting WIC's fruit-and-vegetable benefit by $141 million, affecting roughly 5.4 million women and children, with per-recipient benefits cut by roughly three-quarters.",
+      "estimated_impact": "Monthly produce benefits for breastfeeding mothers and young children would fall from $52/$26 to $13/$10, a targeted cut to a nutrition program at a time of rising grocery prices.",
+      "confidence_note": "Well-corroborated House-passage facts and figures from CBPP and the National WIC Association; the bill is not yet law and could still change in the Senate."
+    },
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02"
+  },
+  {
     "id": "hud-fair-housing-staff-cuts-trump2",
     "title": "HUD's Fair Housing Office Cut by Roughly Two-Thirds Amid Whistleblower Allegations",
     "institution": "U.S. Department of Housing and Urban Development, Office of Fair Housing and Equal Opportunity",
@@ -3677,7 +3764,7 @@
     "domain": "funding_redirection",
     "status": "In effect -- interim final rule published June 1, 2026; national enforcement deadline January 1, 2027; several states (Nebraska, Montana, Arkansas) already implementing ahead of that deadline; public comment period on the rule remains open",
     "date_of_action": "2026-06-01 (CMS interim final rule published)",
-    "what_changed": "The One Big Beautiful Bill Act (OBBBA), signed into law July 4, 2025, required Medicaid expansion-population adults aged 19-64 to complete at least 80 hours per month of qualifying work, education, job training, or volunteer service to keep coverage, with a statutory exemption for individuals who are 'medically frail.' On June 1, 2026, CMS -- under Administrator Dr. Mehmet Oz -- published an interim final rule implementing the requirement nationwide. Rather than applying the statute's medical-frailty categories as written, CMS added an additional functional-capacity requirement: individuals must affirmatively demonstrate that their condition 'significantly impairs' their ability to perform the 80 hours of required activity, a threshold not present in the underlying statute. In practice, advocates and reporting say this leaves out people with early-stage cancer who are undergoing radiation treatment but are still nominally capable of some work, and people with HIV who are stable on treatment but technically employable -- both groups are not automatically exempted under CMS's narrower reading, and must instead navigate state reporting/paperwork processes to prove exemption eligibility or ongoing compliance. The Congressional Budget Office estimated the work-requirement provisions would cause roughly 5 million people to lose Medicaid coverage, out of a program covering about 68 million low-income Americans, and that the requirements account for roughly a third of the $900 billion in Medicaid savings scored under OBBBA overall (i.e., roughly $300 billion of that total tied to work-requirement-driven disenrollment). Nebraska became the first state to implement the requirement on May 1, 2026; Montana and Arkansas followed by July 1, 2026 (Arkansas delayed enforcement to January 2027), with additional states phasing in through the January 2027 national deadline.",
+    "what_changed": "The One Big Beautiful Bill Act (OBBBA), signed into law July 4, 2025, required Medicaid expansion-population adults aged 19-64 to complete at least 80 hours per month of qualifying work, education, job training, or volunteer service to keep coverage, with a statutory exemption for individuals who are 'medically frail.' On June 1, 2026, CMS -- under Administrator Dr. Mehmet Oz -- published an interim final rule implementing the requirement nationwide. Rather than applying the statute's medical-frailty categories as written, CMS added an additional functional-capacity requirement: individuals must affirmatively demonstrate that their condition 'significantly impairs' their ability to perform the 80 hours of required activity, a threshold not present in the underlying statute. In practice, advocates and reporting say this leaves out people with early-stage cancer who are undergoing radiation treatment but are still nominally capable of some work, and people with HIV who are stable on treatment but technically employable -- both groups are not automatically exempted under CMS's narrower reading, and must instead navigate state reporting/paperwork processes to prove exemption eligibility or ongoing compliance. The Congressional Budget Office estimated the work-requirement provisions would cause roughly 5 million people to lose Medicaid coverage, out of a program covering about 68 million low-income Americans, and that the requirements account for roughly a third of the $900 billion in Medicaid savings scored under OBBBA overall (i.e., roughly $300 billion of that total tied to work-requirement-driven disenrollment). Nebraska became the first state to implement the requirement on May 1, 2026; Montana and Arkansas followed by July 1, 2026 (Arkansas delayed enforcement to January 2027), with additional states phasing in through the January 2027 national deadline. Update 2026-08-02 (detail): Per CNN's June 6, 2026 reporting on the same rule, the medical-frailty exemption requires more than a diagnosis -- enrollees must submit documentation, such as a signed statement from a medical professional, affirmatively showing their condition 'significantly impairs' their ability to meet the 80-hour work standard. A cancer patient in active chemotherapy who remains physically able to sit at a desk part-time may not qualify for the exemption on that documentation standard alone, regardless of diagnosis.",
     "primary_proponent": {
       "name": "Dr. Mehmet Oz",
       "role": "CMS Administrator",
@@ -3709,7 +3796,7 @@
       ],
       "caveat": "CMS and the administration argue the requirement is a legitimate work-promotion policy applying only to a defined expansion population, that statutory exemptions remain available for parents, pregnant individuals, former foster youth, and Native American/Alaska Native beneficiaries, and that some coverage loss reflects genuinely ineligible enrollees being removed rather than eligible people being wrongly cut off. The specific accountability question this entry documents is narrower: whether CMS's discretionary choice to layer an additional functional-capacity threshold onto the statute's medical-frailty exemption -- rather than applying Congress's own listed categories -- was a reasonable implementation choice or an administrative narrowing of an exemption Congress wrote more broadly. That legal/administrative question was not resolved as of this entry's sourcing."
     },
-    "confidence_note": "HIGH confidence on the rule's publication date, its core mechanics, and CBO's ~5 million coverage-loss estimate, corroborated across NPR/KPBS/BET/multiple NPR-affiliate reprints, Holland & Knight, Foley Hoag, and McDermott+ regulatory analyses, and CMS's own fact sheet. HIGH confidence on the medical-frailty exemption being narrower than the statutory categories, per the American Medical Association's direct analysis of the rule's functional-capacity add-on. MODERATE confidence on the precise real-world disenrollment numbers for cancer/HIV patients specifically, since implementation is still in its early, staggered, state-by-state phase as of this entry's sourcing.",
+    "confidence_note": "HIGH confidence on the rule's publication date, its core mechanics, and CBO's ~5 million coverage-loss estimate, corroborated across NPR/KPBS/BET/multiple NPR-affiliate reprints, Holland & Knight, Foley Hoag, and McDermott+ regulatory analyses, and CMS's own fact sheet. HIGH confidence on the medical-frailty exemption being narrower than the statutory categories, per the American Medical Association's direct analysis of the rule's functional-capacity add-on. MODERATE confidence on the precise real-world disenrollment numbers for cancer/HIV patients specifically, since implementation is still in its early, staggered, state-by-state phase as of this entry's sourcing. Re-verified 2026-08-02: the documentation-requirement mechanism is independently corroborated by CNN's June 6, 2026 reporting and STAT News, describing the same underlying June 1, 2026 CMS interim final rule as the NPR/AMA sourcing above -- not a separate policy action.",
     "last_verified": "2026-08-02",
     "sources": [
       {
@@ -3731,6 +3818,14 @@
       {
         "name": "AJMC -- CMS Medicaid Work Requirements May Reshape Coverage for Millions by 2027",
         "url": "https://www.ajmc.com/view/cms-medicaid-work-requirements-may-reshape-coverage-for-millions-by-2027"
+      },
+      {
+        "name": "CNN -- Trump administration makes it harder for some sick Americans to maintain Medicaid",
+        "url": "https://www.cnn.com/2026/06/06/politics/medicaid-work-requirement-rules-cancer-patients"
+      },
+      {
+        "name": "STAT News -- New Medicaid work requirements are catastrophic for cancer patients",
+        "url": "https://www.statnews.com/2026/06/04/medicaid-work-requirements-final-rule-cancer-patients/"
       }
     ],
     "section_summaries": {
@@ -5302,14 +5397,14 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing -- multiple rounds since 2025, most recently the July 2026 Chicago field office departure",
     "date_of_action": "2025 (initial rounds of forced exits) through 2026-07 (Chicago field office head departure)",
-    "what_changed": "FBI Director Kash Patel has conducted multiple successive rounds of forced removals, reassignments, and administrative-leave actions against senior FBI leaders and agents, concentrated among personnel connected to investigations touching Trump, the January 6 Capitol attack, or the Mar-a-Lago classified-documents case. In a January 2026 round described as 'renewed,' at least a dozen personnel were removed in a single week, including: Vanessa Tibbits, a 20-year veteran and former senior adviser to ex-FBI Director Christopher Wray, placed on administrative leave from her role as acting assistant director in charge of the New York field office; Lyonel Myrthil, removed from the New Orleans field office after previously overseeing part of the January 6 investigation response in Washington; the Atlanta field office's special agent in charge, forced out; a former Washington office leader who had overseen January 6 investigations, terminated; and multiple Miami agents who had worked the Mar-a-Lago classified-documents case. In several of these cases, the FBI's own Office of Professional Responsibility had recommended lesser discipline (short suspensions), but Patel personally overrode those determinations and removed the employees instead. The purge continued into mid-2026: on July 12, 2026, Douglas DePodesta, head of the FBI's Chicago field office, left after colleagues said he had been pushed to retire, in what reporting described as a continuation of Patel's pattern of forcing out agents and supervisors viewed as insufficiently supportive of Trump. Patel has denied the removals constitute political retaliation, saying the personnel involved failed to meet bureau standards; the FBI declined further comment on individual personnel actions when asked by reporters. Update 2026-08-02: In response to the scale of the firings and reassignments described above, former FBI officials launched the FBI Support Network in June 2026 to provide legal, mental health, and career assistance to current and former employees affected by Patel's purges and by firings the group says were tied to Trump-related investigations and allegations of political bias -- itself evidence of the purges' documented scale and impact on agency personnel.",
+    "what_changed": "FBI Director Kash Patel has conducted multiple successive rounds of forced removals, reassignments, and administrative-leave actions against senior FBI leaders and agents, concentrated among personnel connected to investigations touching Trump, the January 6 Capitol attack, or the Mar-a-Lago classified-documents case. In a January 2026 round described as 'renewed,' at least a dozen personnel were removed in a single week, including: Vanessa Tibbits, a 20-year veteran and former senior adviser to ex-FBI Director Christopher Wray, placed on administrative leave from her role as acting assistant director in charge of the New York field office; Lyonel Myrthil, removed from the New Orleans field office after previously overseeing part of the January 6 investigation response in Washington; the Atlanta field office's special agent in charge, forced out; a former Washington office leader who had overseen January 6 investigations, terminated; and multiple Miami agents who had worked the Mar-a-Lago classified-documents case. In several of these cases, the FBI's own Office of Professional Responsibility had recommended lesser discipline (short suspensions), but Patel personally overrode those determinations and removed the employees instead. The purge continued into mid-2026: on July 12, 2026, Douglas DePodesta, head of the FBI's Chicago field office, left after colleagues said he had been pushed to retire, in what reporting described as a continuation of Patel's pattern of forcing out agents and supervisors viewed as insufficiently supportive of Trump. Patel has denied the removals constitute political retaliation, saying the personnel involved failed to meet bureau standards; the FBI declined further comment on individual personnel actions when asked by reporters. Update 2026-08-02: In response to the scale of the firings and reassignments described above, former FBI officials launched the FBI Support Network in June 2026 to provide legal, mental health, and career assistance to current and former employees affected by Patel's purges and by firings the group says were tied to Trump-related investigations and allegations of political bias -- itself evidence of the purges' documented scale and impact on agency personnel. Update 2026-08-02: In June 2026, Patel's FBI fired several analysts -- four intelligence analysts and a supervisory analyst -- tied to a 2023 internal memo (the 'Richmond memo') that examined a potential link between 'Radical Traditionalist Catholic' ideology and racially/ethnically motivated violent extremism. FBI leadership had previously condemned the memo's findings once it became public, and prior internal reviews had found no intentional misconduct by the analysts who produced it. The analysts' attorney, David Laufman, called the firings 'manifestly unjust, completely unsupported by the facts, and subverts standard FBI policy and procedure.' Unlike the Jan. 6/Mar-a-Lago-linked personnel actions detailed above, this round targeted analysts over a substantive intelligence-assessment topic (domestic religious-extremism research) rather than direct involvement in a Trump-related investigation -- but follows the same documented pattern of Patel personally overriding prior internal findings (here, a prior review clearing the analysts of misconduct) to remove personnel whose work became politically inconvenient.",
     "primary_proponent": {
       "name": "Kash Patel",
       "role": "FBI Director",
       "note": "Personally ordered and, in multiple documented instances, personally overrode internal disciplinary recommendations to remove or force out FBI leaders and agents connected to Trump-related investigations; has publicly denied the removals are political retaliation, characterizing them instead as standards-based personnel actions."
     },
     "estimated_impact": {
-      "summary": "A group of former senior government officials has publicly described the pattern as 'without precedent in the modern history of the bureau,' warning it raises questions about whether the FBI is being turned into an instrument of presidential will rather than an independent law enforcement agency; the removals have concentrated specifically among personnel who worked January 6, Mar-a-Lago documents, or other Trump-adjacent investigations, spanning at least five field offices (New York, New Orleans, Atlanta, Washington, Miami) plus Chicago.",
+      "summary": "A group of former senior government officials has publicly described the pattern as 'without precedent in the modern history of the bureau,' warning it raises questions about whether the FBI is being turned into an instrument of presidential will rather than an independent law enforcement agency; the removals have concentrated specifically among personnel who worked January 6, Mar-a-Lago documents, or other Trump-adjacent investigations, spanning at least five field offices (New York, New Orleans, Atlanta, Washington, Miami) plus Chicago. The June 2026 Richmond-memo firings extend the documented pattern beyond Trump-investigation-linked personnel to intelligence analysts whose properly-vetted research work became politically inconvenient, with the affected analysts' attorney calling the action unsupported by the facts and contrary to standard FBI procedure.",
       "figures": [
         {
           "metric": "Personnel removed in the single January 2026 round described in reporting",
@@ -5324,7 +5419,7 @@
       ],
       "caveat": "Patel disputes the political-retaliation characterization and has stated publicly that removed personnel failed to meet bureau standards; this entry presents both the pattern documented by multiple independent outlets and Patel's own stated justification, since no independent adjudication of the individual personnel decisions' merits was identified in sourcing reviewed."
     },
-    "confidence_note": "HIGH confidence on the pattern and specific instances -- corroborated across Bloomberg Law, AP News, The New Republic, MS NOW (Rachel Maddow Show reporting), and a public letter from former government officials; the OPR-override detail (Patel personally overriding internal discipline recommendations) is independently reported, not merely alleged by critics. MODERATE confidence on the total cumulative headcount across all rounds, since reporting documents specific named instances and one 'at least a dozen' figure for a single week rather than a single comprehensive tally across the full 2025-2026 period. Re-verified 2026-08-02: the formation of a dedicated former-official support network for affected FBI personnel, reported by CNN, corroborates the scale and severity of the purges already documented in this entry from the perspective of those personally affected, independent of DOJ's own characterization of the actions.",
+    "confidence_note": "HIGH confidence on the pattern and specific instances -- corroborated across Bloomberg Law, AP News, The New Republic, MS NOW (Rachel Maddow Show reporting), and a public letter from former government officials; the OPR-override detail (Patel personally overriding internal discipline recommendations) is independently reported, not merely alleged by critics. MODERATE confidence on the total cumulative headcount across all rounds, since reporting documents specific named instances and one 'at least a dozen' figure for a single week rather than a single comprehensive tally across the full 2025-2026 period. Re-verified 2026-08-02: the formation of a dedicated former-official support network for affected FBI personnel, reported by CNN, corroborates the scale and severity of the purges already documented in this entry from the perspective of those personally affected, independent of DOJ's own characterization of the actions. Re-verified 2026-08-02: the Richmond-memo firings are corroborated by AP News (original reporting) and wide syndication (Washington Times, WFMZ, Sun Chronicle), including the analysts' attorney's on-record statement and the memo's own documented history (FBI leadership's contemporaneous condemnation, prior internal review finding no misconduct).",
     "section_summaries": {
       "what_changed": "Patel has run successive rounds of removals targeting FBI leaders and agents connected to Trump-related investigations (Jan. 6, Mar-a-Lago documents), including overriding internal discipline recommendations to force out at least a dozen personnel in one January 2026 week alone, continuing into a July 2026 Chicago field-office departure.",
       "estimated_impact": "Former officials call the pattern unprecedented in modern FBI history; removals span at least six field offices and specifically concentrate on personnel tied to investigations that touched Trump.",
@@ -5356,9 +5451,13 @@
       {
         "name": "CNN -- 'Former FBI officials launch support network for employees affected by Patel purges'",
         "url": "https://www.cnn.com/2026/06/01/politics/fbi-employees-support-group-kash-patel"
+      },
+      {
+        "name": "AP News -- FBI analysts tied to disputed 'Catholic ideology' memo told they're being fired, AP sources say",
+        "url": "https://www.wdbo.com/news/national/fbi-analysts-tied/277TPE3KFAYDZEI6KJNPIAKIOM/"
       }
     ],
-    "last_updated": "2026-07-27",
+    "last_updated": "2026-08-02",
     "evidence": []
   },
   {
@@ -5687,19 +5786,19 @@
     "domain": "research_suppression",
     "status": "Ongoing as of May-July 2026 reporting -- CDC website guidance has been changed; the multi-agency review and reinstated task force are active",
     "date_of_action": "2026-05 (NYT reports the multi-agency initiative) through 2026-07 (CNN reports on the broader dismantling effort)",
-    "what_changed": "HHS Secretary Robert F. Kennedy Jr. personally directed the CDC to update its website to contradict the agency's longtime public guidance that vaccines do not cause autism -- a position supported by decades of scientific consensus and numerous large-scale studies. Kennedy tasked Stefanie Spear, one of his closest advisers, with leading an HHS effort to search for evidence of a vaccine-autism link. HHS separately reinstated the Task Force on Safer Childhood Vaccines, a body disbanded in 1998, to reexamine childhood immunization safety. A broader multi-agency initiative, reported by the New York Times, involves researchers across several federal agencies comparing long-term health outcomes between vaccinated and unvaccinated children and revisiting questions about vaccine ingredients including thimerosal, a mercury-based preservative removed from most childhood vaccines decades ago -- millions of dollars in federal funding have been redirected toward this effort.",
+    "what_changed": "HHS Secretary Robert F. Kennedy Jr. personally directed the CDC to update its website to contradict the agency's longtime public guidance that vaccines do not cause autism -- a position supported by decades of scientific consensus and numerous large-scale studies. Kennedy tasked Stefanie Spear, one of his closest advisers, with leading an HHS effort to search for evidence of a vaccine-autism link. HHS separately reinstated the Task Force on Safer Childhood Vaccines, a body disbanded in 1998, to reexamine childhood immunization safety. A broader multi-agency initiative, reported by the New York Times, involves researchers across several federal agencies comparing long-term health outcomes between vaccinated and unvaccinated children and revisiting questions about vaccine ingredients including thimerosal, a mercury-based preservative removed from most childhood vaccines decades ago -- millions of dollars in federal funding have been redirected toward this effort. Update 2026-08-02: The scientific basis Kennedy has relied on to justify this reexamination has itself been collapsing under independent scrutiny. At least three studies frequently cited by Kennedy to promote vaccine-safety doubts -- a 2021 Neil Z. Miller paper in Toxicology Reports linking vaccines to SIDS, a 2020 Miller/Brian S. Hooker paper in Sage Open Medicine claiming vaccinated children had higher rates of developmental delays and asthma, and a 2010 Carolyn Gallagher/Melody Goodman paper in the Journal of Toxicology and Environmental Health linking early Hepatitis B vaccination to autism -- have all been removed, retracted, or placed under additional scrutiny by their publishing journals within a roughly two-month span reported in June 2026. Kennedy relied on two of these three studies in a 2023 book he co-wrote arguing unvaccinated children were healthier than vaccinated children. Separately, Kennedy demanded a different vaccine-aluminum study be retracted; the journal declined.",
     "primary_proponent": {
       "name": "Robert F. Kennedy Jr.",
       "role": "Secretary of Health and Human Services",
       "note": "Personally directed the CDC website change and personally tasked his closest adviser, Stefanie Spear, with searching for evidence of a vaccine-autism link -- both actions attributed directly to Kennedy in reporting, not to career agency staff acting independently."
     },
     "estimated_impact": {
-      "summary": "The initiative reverses federal agencies' own longstanding public position, built on a large body of peer-reviewed research, that vaccines do not cause autism -- redirecting federal scientific resources toward re-litigating a question the scientific and public-health establishment considers settled, rather than toward emerging or unresolved public-health priorities.",
+      "summary": "The initiative reverses federal agencies' own longstanding public position, built on a large body of peer-reviewed research, that vaccines do not cause autism -- redirecting federal scientific resources toward re-litigating a question the scientific and public-health establishment considers settled, rather than toward emerging or unresolved public-health priorities. The specific studies Kennedy has publicly relied on to support his position -- including two cited in his own 2023 book -- have themselves been retracted, removed, or placed under scrutiny by the journals that published them, undercutting the evidentiary basis for the reexamination he is directing.",
       "figures": [],
       "caveat": "No single precise dollar figure for the redirected funding was identified in the reporting reviewed beyond 'millions' of dollars; this entry should be updated if a more specific figure is reported."
     },
-    "confidence_note": "HIGH confidence on the documented facts -- the CDC website change, the Spear assignment, and the reinstated task force are reported across CNN, the New York Times, BBC, and AP/AOL coverage, including Kennedy's own on-the-record statement that he personally directed the CDC guidance change. This is a case where the primary proponent's own public statements are the strongest evidence, not merely outside characterization.",
-    "last_verified": "2026-07-28",
+    "confidence_note": "HIGH confidence on the documented facts -- the CDC website change, the Spear assignment, and the reinstated task force are reported across CNN, the New York Times, BBC, and AP/AOL coverage, including Kennedy's own on-the-record statement that he personally directed the CDC guidance change. This is a case where the primary proponent's own public statements are the strongest evidence, not merely outside characterization. Re-verified 2026-08-02: the three studies' retraction/scrutiny status is corroborated by the Guardian, Truthout, Protect Our Care (summarizing the Guardian reporting), and Retraction Watch; Kennedy's reliance on two of the three in his 2023 book, and his separate unsuccessful demand that a vaccine-aluminum study be retracted, are corroborated by Nature and Scientific American.",
+    "last_verified": "2026-08-02",
     "date_added": "2026-07-28",
     "sources": [
       {
@@ -5713,13 +5812,22 @@
       {
         "name": "AOL/AP -- RFK Jr. says he personally directed CDC's new guidance on vaccines and autism",
         "url": "https://www.aol.com/articles/rfk-jr-says-personally-directed-233203173.html"
+      },
+      {
+        "name": "Truthout -- 3 of RFK Jr.'s Favorite Anti-Vax Studies Are Being Retracted or Scrutinized",
+        "url": "https://truthout.org/articles/3-of-rfk-jr-s-favorite-anti-vax-studies-are-being-retracted-or-scrutinized/"
+      },
+      {
+        "name": "Nature -- RFK Jr demanded a vaccine study be retracted -- the journal said no",
+        "url": "https://www.nature.com/articles/d41586-025-02682-9"
       }
     ],
     "section_summaries": {
       "what_changed": "Kennedy had the CDC contradict its own decades-old guidance that vaccines don't cause autism, tasked an adviser with hunting for evidence of a link, and revived a task force disbanded in 1998 to reexamine childhood vaccine safety.",
       "estimated_impact": "Federal scientific resources are being redirected to re-litigate a question the scientific and public-health establishment already considers settled.",
       "confidence_note": "Very well documented -- Kennedy has publicly and personally confirmed directing the CDC guidance change himself, corroborated across CNN, BBC, and AP reporting."
-    }
+    },
+    "last_updated": "2026-08-02"
   },
   {
     "id": "samhsa-fentanyl-test-strip-funding-ban-2026",

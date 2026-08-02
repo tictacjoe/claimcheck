@@ -1,5 +1,54 @@
 [
   {
+    "official": "Ben Black, CEO of the U.S. International Development Finance Corporation (DFC)",
+    "offense_category": "Undisclosed Personal Ties to Jeffrey Epstein by an Appointee Overseeing $205 Billion in Taxpayer-Backed Investments -- no criminal charge; a public-integrity/vetting-and-disclosure concern given a direct denial contradicted by documentary evidence",
+    "contested": true,
+    "incident_summary": "Ben Black, the 40-year-old son of Apollo Global Management co-founder Leon Black, was appointed by Trump to lead the U.S. International Development Finance Corporation (DFC), a federal agency overseeing $205 billion in taxpayer-backed international investments, and was sworn in at a White House ceremony. Justice Department records and a Guardian review of more than 5,000 pages of Jeffrey Epstein's private correspondence found that Ben Black invested in the same company as Epstein in 2011 and maintained a personal and business relationship with him for several years afterward, including shared investments and direct communications. This is distinct from, though connected to, his father Leon Black's far larger and separately documented relationship with Epstein: a four-year Senate Finance Committee investigation led by Sen. Ron Wyden found Leon Black paid Epstein $170 million between 2012 and 2017 -- payments made after Epstein's 2008 sex-crimes conviction, which the committee's March 2026 findings said bore the hallmarks of 'hush money' and funded surveillance of women. A spokesperson for Ben Black stated: 'Ben Black had no personal or professional relationship with Jeffrey Epstein,' a denial that directly contradicts the documentary evidence in the DOJ records and Guardian's review of Epstein's own correspondence.",
+    "elements_required": [
+      "Ben Black holds a powerful, taxpayer-funded federal position (DFC CEO, overseeing $205 billion in investments), a matter of public record established at his White House swearing-in",
+      "Documentary evidence -- DOJ records and Epstein's own private correspondence, independently reviewed by the Guardian -- establishes a personal and business relationship between Ben Black and Jeffrey Epstein, including a shared 2011 investment, not merely an assertion by critics",
+      "Ben Black's own spokesperson issued a direct public denial of any personal or professional relationship with Epstein, a denial the documentary record contradicts -- relevant to assessing candor about his own vetting rather than the underlying relationship alone",
+      "The relationship is distinct from, but occurred within the same family and social circle as, his father Leon Black's much larger, separately investigated financial relationship with Epstein, which a Senate committee found bore the hallmarks of hush-money payments"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Justice Department records disclosing Ben Black's personal and business interactions with Jeffrey Epstein over several years, including shared investments and communications",
+        "source_url": "https://www.theguardian.com/us-news/2026/jun/03/ben-black-investment-trump-epstein",
+        "maps_to_element": "Establishes the documented relationship as a matter of DOJ record, not merely characterization"
+      },
+      {
+        "type": "news_report",
+        "description": "Reporting on the Guardian's review of more than 5,000 pages of Epstein's private correspondence, finding Ben Black invested in the same company as Epstein in 2011 and maintained a relationship for several years afterward, alongside his spokesperson's denial",
+        "source_url": "https://english.punjabkesari.com/world/trump-dfc-epstein-links-26/",
+        "maps_to_element": "Documents both the underlying relationship and the spokesperson's contradicted denial"
+      },
+      {
+        "type": "public_record",
+        "description": "Senate Finance Committee findings (March 2026, led by Sen. Ron Wyden) establishing Leon Black paid Jeffrey Epstein $170 million between 2012 and 2017, post-conviction payments the committee characterized as bearing the hallmarks of hush money and funding surveillance of women",
+        "source_url": "https://en.wikipedia.org/wiki/Benjamin_Black_(investor)",
+        "maps_to_element": "Establishes the separately-documented, larger family context (Leon Black's relationship with Epstein) within which Ben Black's own appointment and ties are being scrutinized"
+      },
+      {
+        "type": "public_record",
+        "description": "DFC's own official record of Ben Black's appointment and swearing-in as CEO at a White House ceremony, and the agency's $205 billion investment portfolio",
+        "source_url": "https://www.dfc.gov/media/press-releases/dfc-ceo-ben-black-sworn-white-house-ceremony",
+        "maps_to_element": "Establishes the position and its scope as a matter of the agency's own official record"
+      }
+    ],
+    "status": "Ben Black remains DFC CEO as of this entry's sourcing; no removal, resignation, or formal ethics review was identified in reporting reviewed",
+    "rebuttal_anticipated": "Black's team could argue a decade-old, disclosed-on-request business investment overlap is not evidence of a substantive personal relationship, that he was never implicated in any Epstein-related wrongdoing himself, and that scrutiny of his father's separate, far larger financial relationship with Epstein is being unfairly imputed to him.",
+    "comeback": "The concern isn't the decade-old investment overlap alone -- it's that Black's own spokesperson issued a categorical denial of any personal or professional relationship with Epstein that the documentary record (DOJ files and Epstein's own correspondence, independently reviewed by the Guardian) directly contradicts, raising a candor question distinct from the underlying relationship's substance, for an official now overseeing $205 billion in taxpayer-backed investments.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented pattern in this tracker of appointees with limited public vetting of personal associations receiving significant government positions or authority.",
+    "confidence_note": "HIGH confidence on the DFC appointment, the DOJ records, and the Guardian's correspondence review, corroborated across the Guardian's original reporting and wide syndication (Punjab Kesari, Forbes, Globelynews). HIGH confidence on the Leon Black-Epstein Senate Finance Committee findings, a formal congressional investigative record. MODERATE confidence on the precise substance/duration of Ben Black's own relationship with Epstein beyond the documented 2011 shared investment, since the Guardian's characterization of a 'relationship for several years afterward' is not itself broken down into specific dated interactions in the sourcing reviewed.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "DOJ records and a Guardian review of Epstein's correspondence show Trump's DFC CEO, Ben Black, had a personal investment relationship with Epstein starting in 2011, contradicting his own spokesperson's denial of any relationship.",
+      "confidence_note": "Well-corroborated via DOJ records and an independent documentary review; the exact scope of the relationship beyond the 2011 investment isn't fully detailed in sourcing reviewed."
+    }
+  },
+  {
     "official": "Scott Bessent, Secretary of the Treasury (also performing duties of acting IRS Commissioner)",
     "offense_category": "Potential Conflict of Interest / Improper Personal Benefit via Official Position (possible analogues: 18 U.S.C. §208, federal conflict-of-interest statute; or broader abuse-of-office concerns regarding personal tax benefit obtained through a settlement reached by subordinate DOJ/Treasury officials) — NOT charged, settlement terms substantially undisclosed, litigation ongoing",
     "incident_summary": "The administration reached a legal settlement that reportedly grants President Trump and his family continued immunity from IRS audits, after abandoning separate plans for a $1.776 billion compensation fund that would have benefited individuals (including the president's allies) who claimed to have been unfairly targeted by the Biden administration. Bessent, who oversees Treasury and is performing IRS Commissioner duties during a vacancy, has repeatedly declined to confirm or detail the audit-immunity terms, citing ongoing litigation.",
