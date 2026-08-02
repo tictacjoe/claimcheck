@@ -486,13 +486,19 @@
         "description": "CBS News reporting that federal investigators spent years examining SPLC's informant-payment program specifically for possible tax violations, and that IRS attorneys concluded the program complied with federal regulations, resulting in no tax charges being filed -- after which DOJ revived the broader investigation into the same informant-payment program and indicted SPLC on the wire fraud, false-statement, and money-laundering charges this entry documents",
         "source_url": "https://www.cbsnews.com/news/tax-probe-southern-poverty-law-center/",
         "maps_to_element": "Directly supports the vindictive-prosecution theory: DOJ's own IRS attorneys cleared the underlying program of the specific violation type they investigated, and DOJ proceeded with a different criminal theory against the same conduct anyway"
+      },
+      {
+        "type": "public_record",
+        "description": "On June 2, 2026, a federal grand jury in the Middle District of Alabama returned a superseding indictment against SPLC, alleging $4.1 million in tax-exempt funds were used to pay informants inside extremist organizations who then recruited new members and purchased materials including KKK robes, hoods, and cross-burning supplies -- still 11 counts (six wire fraud, four false statements to a federally insured bank, one conspiracy to commit money laundering), with no new charges or defendants added, but with the word 'misleading' dropped from the original indictment's language, addressing a weakness the Supreme Court had highlighted in Thompson v. United States",
+        "source_url": "https://www.cbsnews.com/news/southern-poverty-law-center-superseding-indictment/",
+        "maps_to_element": "Documents the case's continued escalation via a superseding indictment with more specific, inflammatory allegations, while confirming DOJ made no new-charge additions -- relevant to evaluating whether the case has grown stronger on the merits or simply been more aggressively framed"
       }
     ],
     "status": "Ongoing -- SPLC's motion to dismiss was pending as of this entry's sourcing; no trial date or ruling on the motion identified",
     "rebuttal_anticipated": "DOJ could argue the underlying financial conduct (undisclosed payments to individuals affiliated with hate groups, characterized as fraud on SPLC's own donors) is independently prosecutable regardless of SPLC's broader public profile or the administration's views of the organization, and that timing alone doesn't establish vindictive intent.",
     "comeback": "SPLC's motion doesn't just argue timing is suspicious -- it alleges a specific, checkable false statement by the Acting Attorney General himself about whether SPLC shared informant information with law enforcement, which if true would undercut DOJ's own public framing of the case, independent of whether the underlying financial conduct is ultimately provable. Prosecuting a decades-old civil rights watchdog for compensating sources used to monitor hate groups -- a fairly standard investigative-journalism and watchdog practice -- after years of the administration publicly clashing with the organization is the kind of fact pattern vindictive-prosecution doctrine exists to scrutinize.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented pattern in this tracker of DOJ prosecutions targeting individuals and organizations publicly critical of the administration (see also this tracker's Bondi/James, Blanche/Brennan, Halligan/Comey, and Pirro/Powell vindictive-prosecution entries).",
-    "confidence_note": "HIGH confidence on the indictment's existence and specific charges, sourced to DOJ's own press release. MODERATE confidence on the vindictive-prosecution characterization and the specific false-statement allegation against Blanche -- these are SPLC's own litigation claims in a pending motion, not yet a judicial finding, and should be framed as contested allegations rather than established fact. Re-verified 2026-08-02: CBS News reporting that IRS attorneys had already cleared SPLC's informant-payment program of tax violations before DOJ revived the investigation under a different (fraud/money-laundering) theory materially strengthens the vindictive-prosecution characterization, since it documents the government's own prior, favorable determination on the same underlying conduct.",
+    "confidence_note": "HIGH confidence on the indictment's existence and specific charges, sourced to DOJ's own press release. MODERATE confidence on the vindictive-prosecution characterization and the specific false-statement allegation against Blanche -- these are SPLC's own litigation claims in a pending motion, not yet a judicial finding, and should be framed as contested allegations rather than established fact. Re-verified 2026-08-02: CBS News reporting that IRS attorneys had already cleared SPLC's informant-payment program of tax violations before DOJ revived the investigation under a different (fraud/money-laundering) theory materially strengthens the vindictive-prosecution characterization, since it documents the government's own prior, favorable determination on the same underlying conduct. Re-verified 2026-08-02: DOJ's June 2, 2026 superseding indictment is well-corroborated (CBS News, Bloomberg Law, Fox News, Just The News) and specifically dropped the word 'misleading' from the original charging language -- a technical correction addressing a Supreme Court-flagged weakness (Thompson v. United States) rather than new substantive evidence, worth noting explicitly since it could be characterized either as DOJ strengthening its case or as DOJ patching a legal vulnerability.",
     "last_updated": "2026-08-02",
     "date_added": "2026-08-02",
     "section_summaries": {
@@ -1587,6 +1593,49 @@
     "section_summaries": {
       "incident_summary": "The Acting Navy Secretary said a $14B Taiwan arms sale was paused because Iran-war operations had depleted munitions stockpiles -- contradicting the administration's separate public assurances that stockpiles were adequate, and Taiwan wasn't notified before the disclosure became public.",
       "confidence_note": "Well-corroborated across multiple outlets; whether this reflects deliberate misrepresentation or just uncoordinated messaging isn't independently established."
+    }
+  },
+  {
+    "official": "Department of Defense leadership (hiring authority within the Office of Special Operations and Low-Intensity Conflict)",
+    "offense_category": "Appointment of a Convicted January 6 Participant to a Sensitive National-Security Role -- no criminal or procedural violation established in the hiring itself; this is a public-integrity/qualifications-and-vetting concern given internal Pentagon objections",
+    "contested": true,
+    "incident_summary": "The Pentagon hired Elias Irizarry, a 24-year-old who pleaded guilty in 2022 to a federal misdemeanor for entering and remaining in the U.S. Capitol during the January 6, 2026 insurrection at age 19 (sentenced to 14 days in jail, later pardoned along with more than 1,500 other January 6 participants on Trump's first day back in office), to a position in the Pentagon's Office of Special Operations and Low-Intensity Conflict, working on irregular warfare and counterterrorism issues in a role requiring security clearance access to some of the military's most sensitive operations. Irizarry has no prior background or career experience in counterterrorism or special operations; after his guilty plea, he was readmitted to The Citadel, graduated in 2024, and unsuccessfully ran for a South Carolina state House seat as a Republican. The Department of Defense defended the hire, stating Irizarry was 'a qualified, patriotic young professional,' despite reported concerns raised internally by Pentagon officials about the appointment.",
+    "elements_required": [
+      "Irizarry has a documented federal criminal conviction (guilty plea) for conduct during the January 6 Capitol breach, a matter of public record, not contested characterization",
+      "The position to which he was appointed involves access to sensitive military operations and counterterrorism/irregular warfare policy work, a substantively different function than an ordinary administrative role",
+      "Irizarry has no documented prior professional background or experience in counterterrorism, special operations, or irregular warfare, per reporting -- relevant to assessing whether the appointment reflects standard merit-based hiring",
+      "Pentagon officials internally raised concerns about the appointment, per reporting, indicating the hire was not uncontroversial even within the department making it"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "The Washington Post's original reporting establishing Irizarry's hire, his 2022 guilty plea and sentence, his subsequent pardon, and the sensitive nature of the Special Operations and Low-Intensity Conflict role",
+        "source_url": "https://www.washingtonpost.com/national-security/2026/06/02/pentagon-hires-convicted-jan-6-rioter-sensitive-counterterrorism-job/",
+        "maps_to_element": "Establishes the conviction, the role's sensitivity, and the hire as documented facts"
+      },
+      {
+        "type": "news_report",
+        "description": "Newsweek reporting detailing Irizarry's lack of prior counterterrorism or special-operations background, his post-conviction path (readmission to The Citadel, 2024 graduation, unsuccessful state House run), and DOD's 'qualified, patriotic young professional' defense of the hire",
+        "source_url": "https://www.newsweek.com/pentagon-hired-convicted-capitol-rioter-qualified-elias-irizarry-12023596",
+        "maps_to_element": "Documents the absence of relevant professional background and DOD's own stated justification"
+      },
+      {
+        "type": "news_report",
+        "description": "The Hill's reporting confirming the appointment and the role's placement within the office managing highly classified special-operations and irregular-warfare matters, with concerns reportedly raised by Pentagon officials",
+        "source_url": "https://thehill.com/policy/defense/5906798-pentagon-appointment-jan-6-special-operations/",
+        "maps_to_element": "Independent corroboration of the role's sensitivity and internal Pentagon concerns about the appointment"
+      }
+    ],
+    "status": "Hire in effect as of June 2026 reporting; no reversal, removal, or formal review of the appointment identified in reporting reviewed",
+    "rebuttal_anticipated": "DOD could argue Irizarry's underlying conviction was a low-level misdemeanor for which he served his sentence and was subsequently pardoned, that a pardon restores full standing for federal employment and clearance purposes, and that specific qualifications for the role were assessed through the normal hiring process regardless of his political history.",
+    "comeback": "The concern isn't that a pardoned individual is legally barred from federal employment -- it's the specific combination of a documented Capitol-breach conviction, a complete absence of counterterrorism or special-operations background, placement in a role with access to some of the military's most sensitive operations, and internal Pentagon officials' own reported concerns about the hire, which together are difficult to square with a purely merit-based selection process.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented pattern in this tracker of pardoned January 6 participants and other politically-connected individuals receiving government positions or benefits from the administration.",
+    "confidence_note": "HIGH confidence on Irizarry's conviction, pardon, hire, and the role's sensitivity, corroborated across many independent outlets (Washington Post, Newsweek, The Hill, Democracy Now, MS NOW). MODERATE confidence on the specific claim of internal Pentagon dissent, since reporting characterizes 'concerns reportedly raised by Pentagon officials' without naming the officials or detailing the concerns' substance.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "The Pentagon hired a pardoned January 6 Capitol rioter with no counterterrorism background into a sensitive special-operations policy role, defending the hire despite reported internal objections.",
+      "confidence_note": "Well-corroborated across multiple independent outlets; the specific substance of internal Pentagon objections isn't detailed in reporting reviewed."
     }
   },
   {
