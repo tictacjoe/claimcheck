@@ -452,6 +452,49 @@
     }
   },
   {
+    "official": "Todd Blanche, Acting Attorney General",
+    "offense_category": "Vindictive/Selective Prosecution (violates Due Process; established legal doctrine, e.g. United States v. Goodwin) -- DOJ criminally indicted a nonprofit civil rights watchdog organization long critical of the administration; SPLC has moved to dismiss on vindictive-prosecution grounds; no conviction, charges contested",
+    "contested": true,
+    "incident_summary": "A federal grand jury indicted the Southern Poverty Law Center on 11 counts -- six counts of wire fraud, four counts of false statements to a federally insured bank, and one count of conspiracy to commit money laundering -- announced by Acting Attorney General Todd Blanche. The indictment alleges that between 2014 and 2023, SPLC secretly funneled more than $3 million to 'field sources' affiliated with extremist groups including the Ku Klux Klan, the National Socialist Movement, and the American Front, characterizing this as defrauding SPLC's own donors. On May 26, 2026, SPLC moved to dismiss the indictment, arguing the charges are 'vindictive' and part of a broader 'retribution campaign' against organizations and individuals the administration perceives as its enemies. SPLC's lawyers argue law enforcement agencies have long known the organization paid informants to monitor hate groups' movements as part of its investigative and watchdog work, and separately allege that Blanche made a false statement at a news conference and in interviews when he claimed SPLC had not shared informant-derived information with law enforcement.",
+    "elements_required": [
+      "DOJ brought a formal 11-count federal indictment against a nonprofit organization with a decades-long public record of monitoring and criticizing extremist and hate groups, a documented, concrete prosecutorial action",
+      "The underlying conduct alleged (paying informants embedded in extremist organizations to gather intelligence) is, per SPLC's motion, conduct law enforcement itself has long been aware of, raising the vindictive-prosecution question of why charges are being brought now",
+      "SPLC's motion to dismiss alleges a specific, checkable factual claim: that Acting AG Blanche made a false public statement (at a news conference and in interviews) about whether SPLC shared informant information with law enforcement",
+      "The prosecution fits a documented pattern already in this tracker of DOJ actions against organizations and individuals publicly critical of or adversarial to the administration"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "DOJ's own Office of Public Affairs press release announcing the federal grand jury indictment and its specific charges (wire fraud, false statements to a federally insured bank, conspiracy to commit money laundering)",
+        "source_url": "https://www.justice.gov/opa/pr/federal-grand-jury-charges-southern-poverty-law-center-wire-fraud-false-statements-and",
+        "maps_to_element": "Establishes the indictment and its specific charges as a matter of the government's own record"
+      },
+      {
+        "type": "court_filing",
+        "description": "SPLC's motion to dismiss the indictment, arguing the charges are vindictive and part of a broader retribution campaign, and specifically alleging Acting AG Blanche made a false public statement about SPLC's information-sharing with law enforcement",
+        "source_url": "https://www.pbs.org/newshour/politics/southern-poverty-law-center-seeks-dismissal-of-vindictive-justice-department-indictment",
+        "maps_to_element": "Documents the vindictive-prosecution legal theory and the specific false-statement allegation against Blanche"
+      },
+      {
+        "type": "public_record",
+        "description": "NPR reporting on the indictment's background and SPLC's characterization of the prosecution as retaliation for its history of scrutinizing the administration and allied groups",
+        "source_url": "https://www.npr.org/2026/04/22/nx-s1-5794620/doj-indicts-southern-poverty-law-center-on-federal-fraud-charges",
+        "maps_to_element": "Independent corroboration of the indictment's terms and the retaliation allegation"
+      }
+    ],
+    "status": "Ongoing -- SPLC's motion to dismiss was pending as of this entry's sourcing; no trial date or ruling on the motion identified",
+    "rebuttal_anticipated": "DOJ could argue the underlying financial conduct (undisclosed payments to individuals affiliated with hate groups, characterized as fraud on SPLC's own donors) is independently prosecutable regardless of SPLC's broader public profile or the administration's views of the organization, and that timing alone doesn't establish vindictive intent.",
+    "comeback": "SPLC's motion doesn't just argue timing is suspicious -- it alleges a specific, checkable false statement by the Acting Attorney General himself about whether SPLC shared informant information with law enforcement, which if true would undercut DOJ's own public framing of the case, independent of whether the underlying financial conduct is ultimately provable. Prosecuting a decades-old civil rights watchdog for compensating sources used to monitor hate groups -- a fairly standard investigative-journalism and watchdog practice -- after years of the administration publicly clashing with the organization is the kind of fact pattern vindictive-prosecution doctrine exists to scrutinize.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented pattern in this tracker of DOJ prosecutions targeting individuals and organizations publicly critical of the administration (see also this tracker's Bondi/James, Blanche/Brennan, Halligan/Comey, and Pirro/Powell vindictive-prosecution entries).",
+    "confidence_note": "HIGH confidence on the indictment's existence and specific charges, sourced to DOJ's own press release. MODERATE confidence on the vindictive-prosecution characterization and the specific false-statement allegation against Blanche -- these are SPLC's own litigation claims in a pending motion, not yet a judicial finding, and should be framed as contested allegations rather than established fact.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "DOJ indicted the Southern Poverty Law Center on 11 fraud/money-laundering counts over historical informant payments; SPLC is moving to dismiss, alleging vindictive prosecution and a specific false statement by Acting AG Blanche.",
+      "confidence_note": "The indictment itself is a matter of DOJ's own record; the vindictive-prosecution and false-statement claims are SPLC's own pending litigation allegations, not yet judicially resolved."
+    }
+  },
+  {
     "official": "Pam Bondi, Attorney General Jan 2025-Apr 2026 (oversaw the dismantling); Todd Blanche, Acting Attorney General since April 2026, has not restored the unit",
     "offense_category": "Deliberate impairment of federal public-corruption enforcement combined with a pattern of pardons for politically-connected allies -- no criminal charge against Bondi or Blanche personally; this is an institutional-capacity and accountability-evasion claim, not a completed prosecution",
     "contested": false,
@@ -1326,6 +1369,49 @@
     }
   },
   {
+    "official": "Donald Trump and Pete Hegseth, Secretary of Defense -- contradicted by Acting Navy Secretary Hung Cao's own public statement",
+    "offense_category": "Public Misrepresentation of a Foreign Military Sale Decision -- Trump's administration publicly characterized the pause differently than its own Acting Navy Secretary's on-record explanation; NOT charged, a characterization/transparency dispute",
+    "contested": true,
+    "incident_summary": "Acting Navy Secretary Hung Cao publicly disclosed that the Trump administration paused a $14 billion arms sale to Taiwan while the Pentagon reviews munitions stockpiles depleted by U.S. operations against Iran, telling reporters, 'Right now we're doing a pause in order to make sure we have the munitions we need for Epic Fury -- which we have plenty. We're just making sure we have everything, but then the foreign military sales will continue when the administration deems necessary.' Cao's explanation directly undercuts the administration's separate public assurances that U.S. munitions stockpiles remained adequate and that weapons commitments to allies were not being affected by the Iran campaign. Cao acknowledged he had not personally spoken with Taipei about the pause, and Taiwanese officials said they had not been notified; Taiwan's foreign minister told lawmakers that Cao was 'not the final policymaker' on foreign arms sales, an attempt by Taiwan to downplay or distance itself from Cao's account.",
+    "elements_required": [
+      "A senior on-record U.S. official (the Acting Navy Secretary) publicly gave a specific, substantive reason for the arms-sale pause -- depleted Iran-war munitions stockpiles -- that differs from the administration's separate public characterization of stockpile adequacy",
+      "The affected ally (Taiwan) was not notified before the pause became public through Cao's own statement, an accountability/transparency gap distinct from the substance of the contradiction itself",
+      "Taiwan's own government publicly and specifically disputed Cao's authority to characterize the policy, itself evidence that the administration's messaging on this decision was not coordinated or consistent",
+      "The $14 billion dollar figure and the pause itself are not disputed by any party -- only the stated reason and its policy implications are contested"
+    ],
+    "evidence": [
+      {
+        "type": "testimony",
+        "description": "Acting Navy Secretary Hung Cao's on-record statement to reporters explicitly tying the Taiwan arms-sale pause to Iran-war munitions stockpile concerns, while simultaneously claiming stockpiles were adequate ('which we have plenty')",
+        "source_url": "https://thehill.com/policy/defense/5890471-us-arms-sales-taiwan-paused-iran/",
+        "maps_to_element": "Core on-record contradiction between the stated reason and the administration's separate stockpile-adequacy assurances"
+      },
+      {
+        "type": "news_report",
+        "description": "The Hill's follow-up reporting characterizing Cao's disclosure as undercutting Trump and Hegseth's separate public statements about the Iran war and Taiwan policy",
+        "source_url": "https://thehill.com/policy/defense/5892374-navy-secretary-taiwan-arms-sale-pause-iran/",
+        "maps_to_element": "Independent characterization of the contradiction as significant enough to undercut administration messaging, not merely a minor inconsistency"
+      },
+      {
+        "type": "news_report",
+        "description": "Reporting that Cao had not personally notified Taipei of the pause, that Taiwanese officials said they had not been informed, and that Taiwan's foreign minister told lawmakers Cao was 'not the final policymaker' on the matter",
+        "source_url": "https://maritime-executive.com/article/taiwan-attempts-to-row-back-us-navy-secretary-s-comments-on-arms-sales",
+        "maps_to_element": "Documents the ally-notification gap and Taiwan's own public distancing from Cao's characterization"
+      }
+    ],
+    "status": "Ongoing as of the reporting period -- foreign military sales to Taiwan remained paused, with resumption contingent on an unspecified Pentagon determination; no public reconciliation between Cao's stated reason and the administration's separate stockpile-adequacy claims was identified",
+    "rebuttal_anticipated": "The administration could argue that a temporary munitions-review pause during an active conflict is ordinary military-logistics prudence, that Cao's remarks reflect his own view rather than a coordinated administration statement, and that Taiwan's arms sale was only paused, not cancelled.",
+    "comeback": "The specific problem isn't that a pause happened -- it's that a sitting Acting Navy Secretary gave a specific, substantive reason (depleted Iran-war stockpiles) in direct tension with the administration's own separate public assurances that stockpiles remained adequate, and that a treaty-adjacent security partner learned of a $14 billion sale's pause without direct notification. That gap between what officials say privately drives policy and what they say publicly to allies and the press is the accountability issue, independent of whether the pause itself is defensible on the merits.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of officials' public characterizations of military and foreign-policy decisions being contradicted by other administration officials' own on-record statements (see also this tracker's Hegseth Kuwait entry).",
+    "confidence_note": "HIGH confidence on Cao's statement and its content, and on Taiwan's public response, corroborated across many independent outlets (The Hill in two separate pieces, CBS News, Al Jazeera, OAN, Maritime Executive). MODERATE confidence on characterizing this as a deliberate misrepresentation versus an off-message but honest disclosure by Cao -- no source establishes which administration account (Cao's stockpile-shortage explanation or the broader public adequacy assurances) is the more accurate one.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "The Acting Navy Secretary said a $14B Taiwan arms sale was paused because Iran-war operations had depleted munitions stockpiles -- contradicting the administration's separate public assurances that stockpiles were adequate, and Taiwan wasn't notified before the disclosure became public.",
+      "confidence_note": "Well-corroborated across multiple outlets; whether this reflects deliberate misrepresentation or just uncoordinated messaging isn't independently established."
+    }
+  },
+  {
     "official": "Corey Lewandowski, former senior adviser to DHS Secretary Kristi Noem, serving as an unpaid 'Special Government Employee'",
     "offense_category": "Federal Procurement Authority Violation -- exercising contracting authority he did not legally hold as a Special Government Employee, potentially implicating federal procurement regulations governing who may bind the government to a contract; DHS OIG (Inspector General Joseph Cuffari) is weighing a criminal referral, but none has been made as of this entry",
     "incident_summary": "Corey Lewandowski, a former Trump campaign manager who served as an unpaid Special Government Employee and senior adviser to then-DHS Secretary Kristi Noem, is under investigation by the DHS Office of Inspector General for allegedly improperly participating in the award of DHS contracts -- a function he had no legal authority to perform in his SGE capacity. Investigators found evidence he personally signed certain contracts or had knowledge of approvals, unusual for someone who was not a full-time federal official with formal contracting-officer authority. DHS Secretary Markwayne Mullin and White House officials have been briefed on the inquiry. Separately, House Oversight Committee Ranking Member Robert Garcia has expanded a related congressional investigation into allegations that DHS contractors were told to pay Lewandowski as part of an alleged pay-to-play scheme. Lewandowski, through a spokesperson, has denied issuing contracts at DHS and said he has not been contacted by investigators.",
@@ -1702,6 +1788,49 @@
     "section_summaries": {
       "incident_summary": "DHS kept two El Salvador-bound deportation flights airborne even after a federal judge ordered their reversal.",
       "confidence_note": "A court already concluded there's enough basis to pursue contempt, but the process for naming who personally is responsible was halted before finishing."
+    }
+  },
+  {
+    "official": "Kristi Noem, Secretary of Homeland Security",
+    "offense_category": "Misuse of Administrative Subpoena Power to Target Protected Speech -- no criminal charge; this is a First Amendment/investigative-power-abuse accountability claim, distinguished from a judicial subpoena because administrative subpoenas require no judge's approval",
+    "contested": true,
+    "incident_summary": "A Washington Post investigation found DHS used administrative subpoenas -- which, unlike grand jury or judicial subpoenas, require no judge's sign-off -- to obtain personal data on government critics and people engaged in constitutionally protected speech, including at least one case in which DHS sought to identify a person who had emailed a DHS attorney criticizing the agency's handling of an asylum seeker's case. The ACLU separately moved to quash a DHS administrative subpoena it characterized as aimed at tracking down a man who had criticized the department. Following the Post's reporting, a bipartisan group of three Democratic and three Republican lawmakers, led by Sen. Ron Wyden and Rep. Adriano Espaillat, introduced the Subpoena Abuse Prevention Act, which would require government officials to certify under penalty of perjury that they are not using subpoenas to monitor or retaliate against people exercising free-speech or other constitutionally protected activity, and would separately limit the government's ability to obtain phone records without a judge's order.",
+    "elements_required": [
+      "DHS used administrative subpoenas -- issued without judicial approval -- to obtain personal identifying data on individuals whose only documented connection to any DHS matter was criticizing the agency or a specific case, not any alleged unlawful conduct",
+      "At least one specific, named instance is documented (the individual who emailed a DHS attorney with criticism) and a second is independently corroborated by the ACLU's own motion to quash a similar subpoena",
+      "The response to this pattern was bipartisan, not partisan criticism -- three Republican and three Democratic members of Congress co-sponsored corrective legislation specifically citing this conduct",
+      "Secretary Noem, as the DHS official ultimately accountable for the department's use of its subpoena authority, is the accountable official, whether or not she personally authorized each individual subpoena"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "Washington Post investigation documenting DHS's use of administrative subpoenas to obtain personal data from government critics, including the specific case of a person who emailed a DHS attorney to criticize the agency's handling of an asylum case",
+        "source_url": "https://www.washingtonpost.com/investigations/2026/02/03/homeland-security-administrative-subpoena/",
+        "maps_to_element": "Core documented pattern of subpoena misuse against critics, not alleged wrongdoers"
+      },
+      {
+        "type": "public_record",
+        "description": "ACLU press release describing its motion to quash a DHS administrative subpoena it characterizes as aimed at identifying a man who had criticized the department",
+        "source_url": "https://www.aclu.org/press-releases/aclu-moves-to-quash-abusive-subpoena-aimed-at-tracking-down-man-who-criticized-department-of-homeland-security",
+        "maps_to_element": "Second, independently documented instance corroborating the pattern beyond a single case"
+      },
+      {
+        "type": "public_record",
+        "description": "The bipartisan Subpoena Abuse Prevention Act, introduced by three Democratic and three Republican members of Congress led by Sen. Ron Wyden and Rep. Adriano Espaillat, which would require officials to certify under penalty of perjury that subpoenas aren't used to monitor or retaliate against protected speech, introduced specifically in response to the Post's reporting",
+        "source_url": "https://www.washingtonpost.com/nation/2026/05/21/us-lawmakers-propose-bill-curtail-administrative-subpoenas/",
+        "maps_to_element": "Bipartisan legislative response as corroborating evidence of the pattern's documented severity, not a partisan characterization"
+      }
+    ],
+    "status": "Ongoing -- the Subpoena Abuse Prevention Act had not passed as of this entry's sourcing; DHS's practice of using administrative subpoenas was not reported to have changed",
+    "rebuttal_anticipated": "DHS could argue administrative subpoenas are a longstanding, lawful investigative tool available to the agency for legitimate purposes, and that any individual instance of overreach is a case-by-case error rather than department policy; a bill's introduction doesn't establish the underlying conduct was actually unlawful.",
+    "comeback": "This isn't a single disputed instance -- the Washington Post's investigation and the ACLU's own independent motion to quash document at least two separate cases where the common thread was the target's criticism of DHS, not any alleged unlawful conduct, and the corrective response was bipartisan, co-sponsored by three Republicans as well as three Democrats, which is hard to square with this being a partisan mischaracterization of ordinary law enforcement activity.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern already documented in this tracker of DOJ and DHS using investigative and subpoena powers against people and institutions perceived as critical of the administration.",
+    "confidence_note": "HIGH confidence on the documented pattern of subpoena misuse, corroborated by an independent Washington Post investigation, the ACLU's own separate case, and bipartisan congressional legislation citing the same conduct. MODERATE confidence attributing personal responsibility to Noem specifically for any individual subpoena's issuance, since sourcing describes departmental practice rather than her personal, individual authorization of each instance.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "DHS used administrative subpoenas -- which need no judge's approval -- to identify people who had criticized the agency, prompting a bipartisan bill requiring officials to certify subpoenas aren't used against protected speech.",
+      "confidence_note": "Well-corroborated via an independent Washington Post investigation, the ACLU's own case, and bipartisan legislation; Noem's personal, individual role in any specific subpoena isn't confirmed."
     }
   },
   {
@@ -2412,6 +2541,49 @@
     "section_summaries": {
       "incident_summary": "Rubio stacked several acting government roles atop his Cabinet job, giving up the Archivist title only once its statutory clock ran out.",
       "confidence_note": "The roles and dates aren't in dispute, but no court ruling or agency finding says stacking them this way actually broke the law."
+    }
+  },
+  {
+    "official": "David Sacks, White House AI and Crypto Czar (through March 2026) and Co-Chair, President's Council of Advisors on Science and Technology (PCAST) thereafter",
+    "offense_category": "Conflict of Interest in Policy Influence -- an administration adviser with personal financial holdings in the AI industry personally intervened to shelve federal AI-safety oversight; no criminal charge, and the specific conflict-of-interest waiver on record covers crypto-industry matters, not AI specifically -- flagged accordingly",
+    "contested": true,
+    "incident_summary": "White House adviser David Sacks personally called President Trump ahead of a planned signing ceremony and persuaded him to abruptly shelve a draft executive order that would have required advanced AI models to be shared with the government for safety testing 90 days before public release (industry had sought a 14-day window). Sacks argued the voluntary-verification framework 'could effectively turn into a licensing system' and could slow U.S. AI development relative to China. Sacks, a venture capitalist whose firm holds AI-industry investments, had separately been the subject of a formal Democratic congressional ethics inquiry and reporting (NPR, December 2025) examining his 'vast AI investments' while serving as a White House adviser on AI policy. Earlier in his tenure as the formal White House AI and Crypto Czar (a Special Government Employee position, subject to a 130-day time limit), Sacks received a blanket ethics waiver from White House Counsel covering conflicts of interest in matters 'of general applicability concerning the digital asset industry' -- a waiver specific to crypto, not established in reporting reviewed to extend to AI-industry matters. Sacks stepped down from the formal AI/Crypto Czar role in March 2026 after reaching the 130-day SGE limit, moving to the PCAST co-chair position he held at the time of the May 2026 AI executive order intervention.",
+    "elements_required": [
+      "Sacks personally and directly intervened with the President to change a specific federal AI-safety policy outcome, a documented action (the phone call and the order's shelving) rather than general policy advocacy",
+      "Sacks has personal financial holdings in the AI industry through his venture capital firm, documented via NPR reporting and a formal congressional ethics inquiry",
+      "A formal conflict-of-interest waiver exists on the record for Sacks covering crypto-industry matters specifically -- documenting that the administration itself recognized his financial holdings created conflicts requiring formal waiver in an adjacent policy area he also worked on",
+      "No source reviewed confirms the crypto-specific waiver extends to AI-industry matters, or that a comparable AI-specific waiver exists -- this entry should be framed around the documented pattern of financial-conflict waivers plus a specific policy intervention, not an established, waiver-confirmed AI conflict"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "Reporting that Sacks called Trump directly ahead of the AI executive order's signing ceremony and persuaded him to shelve it, warning it could function as a licensing system and slow U.S. AI competitiveness against China",
+        "source_url": "https://fortune.com/2026/05/22/tech-billionaires-convince-trump-to-back-off-ai-executive-order-but-much-of-maga-favors-ai-regulation/",
+        "maps_to_element": "Documents the direct, personal intervention with a specific policy outcome"
+      },
+      {
+        "type": "news_report",
+        "description": "NPR reporting (December 2025) on Sacks' 'vast AI investments' and the conflicts they raise given his White House AI-policy role",
+        "source_url": "https://www.npr.org/2025/12/12/nx-s1-5631823/david-sacks-ai-advisor-investment-conflicts",
+        "maps_to_element": "Documents Sacks' personal financial stake in the industry whose oversight he intervened to weaken"
+      },
+      {
+        "type": "public_record",
+        "description": "White House Counsel David Warrington's March 5, 2025 memo granting Sacks a blanket waiver for conflicts of interest in matters of general applicability concerning the digital asset (crypto) industry, documenting the administration's own recognition that Sacks' financial holdings required formal ethics accommodation",
+        "source_url": "https://www.levernews.com/trump-issues-ethics-waiver-for-his-ai-crypto-czar/",
+        "maps_to_element": "Establishes the administration's own documented practice of issuing conflict-of-interest waivers for Sacks in an adjacent policy area, though not confirmed to cover AI specifically"
+      }
+    ],
+    "status": "Resolved as to this specific order -- the draft AI-safety executive order was shelved and a different, narrower order was signed weeks later (per Axios, June 2, 2026); ongoing congressional scrutiny of Sacks' conflicts generally continued as of this entry's sourcing",
+    "rebuttal_anticipated": "Sacks and the administration could argue his advocacy reflected genuine industry-competitiveness concerns shared broadly across the tech sector (not just his own portfolio), that his formal AI/Crypto Czar role had already ended under its statutory time limit when this intervention occurred, and that the documented ethics waiver covers crypto specifically, not AI, so no confirmed conflict-of-interest violation applies to this specific incident.",
+    "comeback": "Regardless of his exact title at the moment of the phone call, Sacks retained a formal White House advisory position (PCAST co-chair) and used it to kill a specific federal AI-safety measure while holding personal financial stakes in the industry that measure would have regulated -- the administration's own prior willingness to issue him a conflict-of-interest waiver for an adjacent, financially-connected policy area (crypto) undercuts any claim that his AI-industry holdings are irrelevant to his AI-policy advocacy.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern of Silicon Valley-connected advisers with direct financial stakes shaping federal technology policy with reduced conflict-of-interest scrutiny compared to Senate-confirmed cabinet officials.",
+    "confidence_note": "HIGH confidence on the fact of Sacks' intervention and the order's shelving, corroborated across many independent outlets (Fortune, Axios, Yahoo/AP, Seoul Economic Daily). MODERATE-LOW confidence on the specific conflict-of-interest characterization as applied to this AI incident -- the documented ethics waiver on record covers crypto-industry matters, not AI, and no source reviewed confirms an AI-specific waiver or a formal finding that Sacks' AI intervention itself violated conflict-of-interest law; this should be framed as a documented pattern-and-financial-stake concern, not a confirmed violation.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "White House adviser David Sacks personally called Trump and got him to shelve a draft AI-safety executive order, while holding personal AI-industry investments the administration had already issued him a conflict-of-interest waiver for in the adjacent crypto-policy area.",
+      "confidence_note": "The intervention itself is well-documented; the conflict-of-interest framing is moderate-to-low confidence since the specific ethics waiver on record covers crypto, not AI."
     }
   },
   {

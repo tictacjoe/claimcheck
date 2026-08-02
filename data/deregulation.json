@@ -1027,6 +1027,48 @@
     "short_summary": "Withdrew protections letting farmers challenge unfair meatpacker practices."
   },
   {
+    "id": "hud-emotional-support-animal-guidance-rescission-2026",
+    "rule_name": "HUD Office of Fair Housing and Equal Opportunity (FHEO) guidance on assistance animal accommodations under the Fair Housing Act",
+    "administration": "Trump II (2025-present)",
+    "agency": "HUD",
+    "domain": "consumer_safety / disability housing accommodation",
+    "status": "Finalized (guidance permanently rescinded and replaced)",
+    "date_of_action": "2026-05-22",
+    "original_rule_summary": "HUD's longstanding guidance treated a broad category of 'assistance animals' -- including untrained emotional support animals (ESAs) providing comfort to people with mental health or emotional disabilities -- as presumptively reasonable accommodation requests under the Fair Housing Act, requiring housing providers to accommodate them on largely the same footing as trained service animals, without a training requirement.",
+    "what_changed": "HUD's FHEO permanently rescinded its longstanding ESA guidance and issued a new enforcement standard realigning federal fair-housing practice closer to the ADA's stricter service-animal framework. Under the new standard, requests involving trained assistance animals remain presumptively reasonable, but requests involving untrained emotional support animals are not -- the operative requirement is now training to perform a disability-related task, not emotional comfort alone (though unlike the ADA, the new HUD standard still permits species other than dogs, provided the animal is trained). The memorandum directs all open ESA cases to be reevaluated under the new, stricter standard. Disability-rights advocates (DREDF) characterized HUD as now 'an enforcement agency that won't enforce' emotional-support-animal accommodation claims it previously treated as presumptively valid.",
+    "primary_proponent": {
+      "name": "HUD FHEO leadership (agency action)",
+      "role": "U.S. Department of Housing and Urban Development, Office of Fair Housing and Equal Opportunity",
+      "note": "FHEO issued the May 22, 2026 guidance rescission and new enforcement memorandum; no single named political appointee was identified in reporting reviewed as personally authoring the change, as distinct from the agency action itself."
+    },
+    "corporate_beneficiaries": [
+      "Landlords and housing providers who previously had to accommodate untrained emotional support animals under threat of fair-housing liability now face a narrower accommodation obligation"
+    ],
+    "estimated_health_impact": {
+      "summary": "Disability-rights advocates warn the change will leave people with mental health and emotional disabilities -- who relied on ESA accommodations that required no formal training -- more vulnerable to housing denial, with all previously-filed and pending ESA cases now subject to reevaluation under the stricter standard.",
+      "figures": [],
+      "caveat": "No quantified figure for the number of current ESA accommodation-holders or pending cases affected was identified in reporting reviewed; the impact assessment here is qualitative, from disability-housing advocacy organizations (DREDF, National Low Income Housing Coalition) rather than a government-produced estimate."
+    },
+    "confidence_note": "HIGH confidence on the guidance rescission and its substantive terms, corroborated across legal-industry and disability-advocacy sources (Mondaq/Duane Morris, DREDF, National Low Income Housing Coalition) describing the same May 22, 2026 memorandum consistently. The claim that Fair Housing Act statutory protections for disabled tenants remain technically intact even as enforcement practice narrows is worth noting explicitly in debate use -- this is a guidance/enforcement-standard change, not a change to the underlying statute.",
+    "short_summary": "HUD rescinded its longstanding guidance treating untrained emotional support animals as presumptively valid housing accommodations, adopting a stricter, ADA-like training requirement instead.",
+    "last_verified": "2026-08-02",
+    "date_added": "2026-08-02",
+    "sources": [
+      {
+        "name": "DREDF -- 'An Enforcement Agency That Won't Enforce: HUD's Policy Reversal On Emotional Support Animals'",
+        "url": "https://dredf.org/huds-esa-policy-reversal/"
+      },
+      {
+        "name": "Mondaq/Duane Morris -- 'The End Of An Era: HUD's 2026 Guidance Upends Emotional Support Animal Accommodations In Housing'",
+        "url": "https://www.mondaq.com/unitedstates/constitutional-administrative-law/1803526/the-end-of-an-era-huds-2026-guidance-upends-emotional-support-animal-accommodations-in-housing"
+      },
+      {
+        "name": "National Low Income Housing Coalition -- 'HUD Announces Shift Away from Disability Discrimination Cases Involving Emotional Support Animals'",
+        "url": "https://nlihc.org/resource/hud-announces-shift-away-disability-discrimination-cases-involving-emotional-support"
+      }
+    ]
+  },
+  {
     "id": "joint-employer-standard-narrowing-trump2",
     "rule_name": "Joint-Employer Standard Narrowing (NLRB)",
     "administration": "Trump II (2025-present) -- corrected from an earlier draft that misdated this as a First Term action",
