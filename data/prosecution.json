@@ -2817,6 +2817,12 @@
         "description": "CIDRAP (Center for Infectious Disease Research and Policy) reporting characterizing the order as directing CDC to 'realign' childhood vaccine recommendations, with context on the underlying HHS assessment's peer-country comparison methodology",
         "source_url": "https://www.cidrap.umn.edu/childhood-vaccines/trump-executive-order-directs-cdc-realign-childhood-vaccine-recommendations",
         "maps_to_element": "Independent public-health-policy-focused corroboration and methodological context"
+      },
+      {
+        "type": "court_filing",
+        "description": "The U.S. District Court for the District of Massachusetts's March 16, 2026 stay -- the same ruling documented in this tracker's rfk-jr-acip-apa-violation-2026-03.json entry -- which reverted the childhood immunization schedule to its May 2025 version pending litigation and remained in effect when EO 14407 was signed May 29, 2026",
+        "source_url": "https://en.wikipedia.org/wiki/Robert_F._Kennedy_Jr.",
+        "maps_to_element": "Establishes the active court stay the order was issued alongside, distinct from the order's own content or justification"
       }
     ],
     "status": "Ongoing -- the order's directive to CDC/ACIP had not been implemented as a finalized schedule change as of this entry's sourcing; the March 16, 2026 court stay on the related prior schedule overhaul remained in effect, reverting the childhood immunization schedule to its May 2025 version pending litigation",
