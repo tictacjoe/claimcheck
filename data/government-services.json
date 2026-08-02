@@ -1095,6 +1095,73 @@
     "last_updated": "2026-07-27"
   },
   {
+    "id": "doe-nuclear-waste-cleanup-staffing-collapse-2026",
+    "title": "DOE's nuclear waste cleanup office loses nearly half its workforce, GAO finds",
+    "institution": "Department of Energy, Office of Environmental Management",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing -- 45% vacancy rate at end of FY2025 per GAO, with site-level rates as high as 100%; DOE plans to hire 174 workers in FY2026",
+    "date_of_action": "2025 (staff departures) through 2026-05 (GAO report)",
+    "what_changed": "A Government Accountability Office report found the Department of Energy's Office of Environmental Management -- responsible for cleaning up nuclear contamination from World War II- and Cold War-era weapons programs at sites across the country -- ended FY2025 with a 45% vacancy rate, roughly half its needed workforce. Of 409 staff who left in 2025, 76% (312) departed through the White House's deferred resignation program; nearly half of those departures (180) were in positions GAO classified as mission-critical, spanning engineering, contracting, physical sciences, and IT management. Vacancy rates varied sharply by site: 62% at Los Alamos National Laboratory, and 100% -- every position empty -- at the Carlsbad Field Office. GAO further warned that 35% of DOE-EM's remaining 856 employees will be eligible to retire by the end of 2030, meaning attrition is likely to continue independent of any further resignation programs. DOE has said it plans to hire 174 workers in FY2026, which GAO's analysis indicates would still leave significant workforce gaps.",
+    "primary_proponent": {
+      "name": "Trump administration (White House deferred resignation program)",
+      "role": "Government-wide policy driving the departures",
+      "note": "The deferred resignation program offered government-wide accounted for more than three-quarters of DOE-EM's 2025 departures; no single named DOE or EM official was identified in reporting reviewed as personally directing this specific office's staffing reduction, distinguishing this from entries with an individually accountable official."
+    },
+    "estimated_impact": {
+      "summary": "The federal office responsible for overseeing radioactive waste disposal and contamination cleanup at some of the nation's most hazardous nuclear sites lost nearly half its workforce, with some sites left entirely unstaffed, per the government's own independent watchdog.",
+      "figures": [
+        {
+          "metric": "DOE-EM vacancy rate, end of FY2025",
+          "value": "45%",
+          "source": "GAO report GAO-26-108674, May 2026"
+        },
+        {
+          "metric": "Staff who left DOE-EM in 2025 via deferred resignation program",
+          "value": "312 of 409 total departures (76%)",
+          "source": "GAO report GAO-26-108674"
+        },
+        {
+          "metric": "Departed staff in GAO-classified mission-critical roles",
+          "value": "180",
+          "source": "GAO report GAO-26-108674"
+        },
+        {
+          "metric": "Carlsbad Field Office vacancy rate",
+          "value": "100%",
+          "source": "GAO report GAO-26-108674"
+        },
+        {
+          "metric": "Los Alamos National Laboratory vacancy rate",
+          "value": "62%",
+          "source": "GAO report GAO-26-108674"
+        }
+      ],
+      "caveat": "GAO's report documents current staffing levels and departure patterns rigorously; it does not itself quantify a specific cleanup-delay or safety-risk impact in dollar or timeline terms, so any claim about concrete cleanup delays should be sourced to GAO's qualitative risk-warning language rather than presented as a quantified projection."
+    },
+    "confidence_note": "HIGH confidence -- based directly on a GAO report (GAO-26-108674), the strongest source type this tracker prioritizes, corroborated by NOTUS, E&E News/POLITICO, Government Executive, and Nuclear Newswire reporting on the same report.",
+    "last_verified": "2026-08-02",
+    "date_added": "2026-08-02",
+    "sources": [
+      {
+        "name": "GAO -- 'Nuclear Waste Cleanup: DOE Shortages in Mission-Critical Positions Have Continued to Increase' (GAO-26-108674)",
+        "url": "https://www.gao.gov/products/gao-26-108674"
+      },
+      {
+        "name": "NOTUS -- 'The Trump Administration Pushed Out Nearly Half of Its Nuclear Waste Cleanup Team'",
+        "url": "https://www.notus.org/climate-environment/trump-administration-nuclear-waste-cleanup-team-staff"
+      },
+      {
+        "name": "Government Executive -- 'Nuclear waste oversight at risk as staffing vacancies mount, watchdog warns'",
+        "url": "https://www.govexec.com/workforce/2026/05/nuclear-waste-oversight-risk-staffing-vacancies/413650/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "DOE's nuclear waste cleanup office ended FY2025 with a 45% vacancy rate after losing 312 staff to the deferred resignation program, per a GAO report -- some sites, like Carlsbad, are now 100% vacant.",
+      "estimated_impact": "The office overseeing cleanup of the nation's most hazardous radioactive sites is operating at roughly half its needed staffing, per the government's own watchdog.",
+      "confidence_note": "Based directly on a GAO report, the strongest source type this tracker prioritizes."
+    }
+  },
+  {
     "id": "doe-oced-dismantlement-trump2",
     "title": "DOE Dismantles Office of Clean Energy Demonstrations, Cancels $3.7B+ in Awarded Projects",
     "institution": "Department of Energy (Office of Clean Energy Demonstrations)",
@@ -4778,6 +4845,53 @@
         "url": "https://www.washingtonpost.com/national-security/2026/07/23/us-intelligence-agency-quietly-cut-about-200-jobs-since-june-1/"
       }
     ]
+  },
+  {
+    "id": "office-government-ethics-director-vacancy-2026",
+    "title": "Office of Government Ethics goes over a year without a permanent or acting director after Trump firing",
+    "institution": "U.S. Office of Government Ethics",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing -- no permanent or acting director in place as of May 2026 reporting, more than a year after the firing",
+    "date_of_action": "2025-02 (firing) through 2026-05 (ongoing vacancy)",
+    "what_changed": "In February 2025, Trump removed David Huitema as Director of the Office of Government Ethics -- the federal agency responsible for monitoring executive-branch financial conflicts of interest and ethics violations -- despite Huitema having been confirmed by the Senate in November 2024 to a five-year term. More than a year later, as of May 2026, no permanent or acting director has been named; a series of acting directors filled the role temporarily before the position went fully vacant, with no one currently serving in an acting capacity and no nominee put forward. Senate Democrats, led by Sens. Elissa Slotkin and Adam Schiff, sent a formal letter pressing the White House on the vacancy. Critics say the leadership gap has curtailed, delayed, or put on hold some of the office's work; the agency had not published its usual annual increase in ethics-violation fines for 2026 as of this reporting.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Personally removed the Senate-confirmed OGE Director in February 2025 and has not nominated a permanent successor or maintained an acting director in the 15+ months since, despite formal congressional inquiry."
+    },
+    "estimated_impact": {
+      "summary": "The federal government's dedicated ethics-oversight office -- responsible for monitoring executive-branch officials' financial conflicts of interest -- has operated without any director, acting or permanent, for over a year, with reported effects on its enforcement and publication functions.",
+      "figures": [
+        {
+          "metric": "Time elapsed with no permanent OGE director",
+          "value": "15+ months (Feb. 2025 firing to May 2026 reporting)",
+          "source": "CBS News, Senate Democrats' letter"
+        }
+      ],
+      "caveat": "The specific claim that the agency's usual 2026 fines-increase publication was skipped is sourced to reporting characterizing the office's curtailed activity, not an OGE self-report explaining the omission; the office continues to function at a staff level even without a director."
+    },
+    "confidence_note": "HIGH confidence -- Huitema's removal and the subsequent extended vacancy are corroborated by CBS News, Snopes' fact-check, and a formal bipartisan-targeted Senate Democrats' letter (Slotkin, Schiff, and colleagues) that is itself a public record of the vacancy's duration and effects.",
+    "last_verified": "2026-08-02",
+    "date_added": "2026-08-02",
+    "sources": [
+      {
+        "name": "CBS News -- 'Trump ousts director of Office of Government Ethics'",
+        "url": "https://www.cbsnews.com/news/trump-office-of-government-ethics-director/"
+      },
+      {
+        "name": "Sen. Elissa Slotkin -- 'Slotkin, Schiff and Colleagues Press White House on Critical Office of Government Ethics Vacancy'",
+        "url": "https://www.slotkin.senate.gov/2026/05/20/slotkin-schiff-and-colleagues-press-white-house-on-critical-office-of-government-ethics-vacancy/"
+      },
+      {
+        "name": "Snopes -- 'Did Trump fire ethics watchdog overseeing executive branch?'",
+        "url": "https://www.snopes.com/fact-check/trump-government-ethics-watchdog/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Trump fired the Senate-confirmed OGE Director in February 2025 and left the post -- and eventually even the acting-director role -- vacant for over a year despite Senate Democrats' formal inquiry.",
+      "estimated_impact": "The federal ethics-oversight office has operated without any director for 15+ months, with reported effects on its enforcement and publication functions.",
+      "confidence_note": "Well-corroborated via CBS News, a Snopes fact-check, and a formal Senate Democrats' letter documenting the vacancy."
+    }
   },
   {
     "id": "opm-douglas-factors-elimination-2026",

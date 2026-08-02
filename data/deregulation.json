@@ -855,6 +855,49 @@
     "short_summary": "Let ISPs block, throttle, or prioritize internet traffic without restriction."
   },
   {
+    "id": "fda-flavored-vapes-authorization-2026",
+    "rule_name": "FDA premarket tobacco product authorization standard for flavored e-cigarettes (informal reversal of the agency's longstanding practice of denying most flavored vape authorizations, including fruit and mint flavors, on youth-appeal grounds)",
+    "administration": "Trump II (2025-present)",
+    "agency": "FDA",
+    "domain": "consumer_safety",
+    "status": "Finalized (specific product authorizations issued)",
+    "date_of_action": "2026-05-06",
+    "original_rule_summary": "Under FDA's premarket tobacco product application standard, the agency had for years denied the large majority of applications for flavored e-cigarette products -- including fruit and mint flavors -- on the grounds that their appeal to youth outweighed any public-health benefit to adult smokers switching from combustible cigarettes, banning most flavored vaping products from the market.",
+    "what_changed": "FDA authorized the marketing of fruit-flavored e-cigarettes for the first time in the agency's history, approving pods including 'Gold' (mango) and 'Sapphire' (blueberry) flavors manufactured by Glas, Inc., alongside menthol variants. The decision followed a Wall Street Journal report that Trump had personally rebuked FDA Commissioner Marty Makary over the weekend for not approving flavored vapes more quickly, consistent with a 2024 campaign promise to 'save' vaping. The Vapor Technology Association and other industry groups had met with administration officials in the preceding weeks specifically pushing for faster action on flavors. FDA's stated safeguard is a digital age-verification system requiring users to verify age via government ID and pair the device to their phone via Bluetooth before use.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Per Wall Street Journal reporting, personally pressured FDA Commissioner Makary to approve flavored vapes faster, consistent with his 2024 campaign pledge to 'save' vaping; the approval followed direct meetings between the Vapor Technology Association and administration officials."
+    },
+    "corporate_beneficiaries": [
+      "Glas, Inc. -- the specific manufacturer whose fruit- and menthol-flavored pods received the first-ever FDA authorization",
+      "Vapor Technology Association and the broader e-cigarette/vaping industry, which lobbied administration officials directly for the policy change"
+    ],
+    "estimated_health_impact": {
+      "summary": "Public health and parent advocacy groups warn the authorization of fruit-flavored vapes -- a category FDA had specifically excluded for years due to documented youth appeal -- risks reversing progress made in reducing underage vaping, notwithstanding the digital age-verification safeguard FDA cited.",
+      "figures": [],
+      "caveat": "No quantified projection of youth-uptake impact from this specific 2026 authorization was found in reporting reviewed; health groups' warnings are qualitative, based on the well-documented general pattern that flavored products appeal disproportionately to minors, not a modeled figure specific to this authorization."
+    },
+    "confidence_note": "HIGH confidence on the facts of the authorization, Trump's personal pressure on Makary, and industry lobbying -- corroborated across many independent outlets (CNBC, CBS News, NPR, STAT News, Scientific American, Fox Business). No quantified health-harm projection specific to this action was identified, so the health-impact framing should stay qualitative rather than citing a specific figure.",
+    "short_summary": "FDA authorized fruit-flavored e-cigarettes for the first time after Trump personally pressured the FDA Commissioner to move faster following industry lobbying.",
+    "last_verified": "2026-08-02",
+    "date_added": "2026-08-02",
+    "sources": [
+      {
+        "name": "CNBC -- 'FDA announces its first approval of fruit-flavored e-cigarettes for adults in major shift under Trump'",
+        "url": "https://www.cnbc.com/2026/05/06/fda-announces-first-approval-of-fruit-flavored-e-cigarettes-for-adults.html"
+      },
+      {
+        "name": "STAT News -- 'FDA approval of fruit-flavored vapes raises political concerns'",
+        "url": "https://www.statnews.com/2026/05/06/fda-approval-new-flavored-vapes-trump-role-questioned/"
+      },
+      {
+        "name": "NPR -- 'The FDA has approved the sale of fruit-flavored vapes. What's behind the shift?'",
+        "url": "https://www.npr.org/2026/05/07/nx-s1-5813637/the-fda-has-approved-the-sale-of-fruit-flavored-vapes-whats-behind-the-shift"
+      }
+    ]
+  },
+  {
     "id": "ftc-click-to-cancel-repeal-trump2",
     "rule_name": "FTC \"Click to Cancel\" / Negative Option Rule Repeal",
     "administration": "Trump II (2025-present)",
@@ -1454,17 +1497,22 @@
           "metric": "PFAS compounds losing enforceable federal limits under the 2026 proposal",
           "value": "4 of 6 (PFHxS, PFNA, HFPO-DA, Hazard Index mixture)",
           "source": "US EPA, May 2026 proposed rules"
+        },
+        {
+          "metric": "Americans estimated to have PFAS in their drinking water (broader population-exposure estimate, distinct from EPA's rule-specific protected-population figure above)",
+          "value": "176-200+ million",
+          "source": "Environmental Working Group, based on 2020 EWG scientist estimate (200M+) and 2026 EPA testing data analysis (176M) -- an advocacy-group figure, not an EPA estimate"
         }
       ],
       "caveat": "As of this entry, both actions are proposed, not finalized -- comment period closed July 20, 2026. EPA states explicitly it is not accepting comment on the underlying health-risk science, only on the legal/procedural basis for rescission -- worth noting this framing choice in debate, since it forecloses public health argument at the comment stage."
     },
-    "confidence_note": "Strong, EPA's-own-numbers framing available (the ~100 million people figure comes from EPA's own 2024 rule justification, not an outside estimate). Note carefully that this is still proposed, not finalized, and litigation is expected regardless of outcome per legal analysts. [Rechecked 2026-07-06: no material change -- comment period closes July 20, 2026 (as previously noted, confirming those forward-looking dates were accurate, not an error); public hearing held July 7, 2026; EPA states intent to finalize both rules before end of 2026.] Re-verified 2026-07-18: no material change -- comment period closes July 20, 2026 (2 days from this update) as previously noted, not yet finalized. Re-verified 2026-07-20: comment period closed today as scheduled -- more than 15,000 public comments submitted on the rescission rule, EPA has stated intent to finalize both rules before end of 2026 but no final rule issued yet. Environmental Working Group publicly opposed the rescission (\"condemning millions of Americans to drink contaminated water for years to come\"). Litigation from environmental/public-health groups is expected if finalized, likely invoking the Safe Drinking Water Act's anti-backsliding provision; industry litigation is expected if the rescission is NOT finalized. Neither rule has changed in substance since the May 2026 proposal. Re-verified 2026-07-26: no material change -- comment period closed July 20, 2026 as previously noted; EPA has not yet issued a final rule on either proposal.",
+    "confidence_note": "Strong, EPA's-own-numbers framing available (the ~100 million people figure comes from EPA's own 2024 rule justification, not an outside estimate). Note carefully that this is still proposed, not finalized, and litigation is expected regardless of outcome per legal analysts. [Rechecked 2026-07-06: no material change -- comment period closes July 20, 2026 (as previously noted, confirming those forward-looking dates were accurate, not an error); public hearing held July 7, 2026; EPA states intent to finalize both rules before end of 2026.] Re-verified 2026-07-18: no material change -- comment period closes July 20, 2026 (2 days from this update) as previously noted, not yet finalized. Re-verified 2026-07-20: comment period closed today as scheduled -- more than 15,000 public comments submitted on the rescission rule, EPA has stated intent to finalize both rules before end of 2026 but no final rule issued yet. Environmental Working Group publicly opposed the rescission (\"condemning millions of Americans to drink contaminated water for years to come\"). Litigation from environmental/public-health groups is expected if finalized, likely invoking the Safe Drinking Water Act's anti-backsliding provision; industry litigation is expected if the rescission is NOT finalized. Neither rule has changed in substance since the May 2026 proposal. Re-verified 2026-07-26: no material change -- comment period closed July 20, 2026 as previously noted; EPA has not yet issued a final rule on either proposal. Re-verified 2026-08-02: added a broader population-exposure figure (176-200+ million Americans with PFAS detected in their tap water) from the Environmental Working Group -- this is a different metric than EPA's own ~100 million 'protected by the 2024 rule' figure already in this entry, and should be sourced explicitly to EWG (an advocacy group, albeit one whose methodology draws on EPA's own testing data) rather than presented as an EPA estimate.",
     "section_summaries": {
       "what_changed": "EPA proposed dropping enforceable limits for 4 of 6 regulated PFAS chemicals and extending the compliance deadline for the remaining two by two years.",
       "estimated_impact": "EPA's own 2024 rule projected the full six-chemical rule would prevent PFAS exposure for ~100 million people; that benefit is now partly unwound.",
       "confidence_note": "Strong, EPA's-own-numbers framing; still proposed as of comment close July 2026, with litigation expected from either side regardless of outcome."
     },
-    "last_verified": "2026-07-26",
+    "last_verified": "2026-08-02",
     "date_added": "2026-07-03",
     "sources": [
       {
