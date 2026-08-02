@@ -611,6 +611,49 @@
     }
   },
   {
+    "official": "Andrew Boutros, U.S. Attorney for the Northern District of Illinois",
+    "offense_category": "Prosecutorial Misconduct in Grand Jury Proceedings -- U.S. Attorney personally confirmed the misconduct and dismissed all charges; contested as to individual prosecutor culpability versus office-wide accountability, but the misconduct finding itself is not disputed by DOJ",
+    "contested": false,
+    "incident_summary": "Federal prosecutors dismissed all charges against the 'Broadview Six,' a group of ICE-facility protesters, after a federal judge detailed prosecutorial misconduct during the grand jury proceedings that had produced the indictment. Released grand jury transcripts showed prosecutors improperly 'vouched' for the case to grand jurors (suggesting the case wouldn't have been brought if it weren't just), a prosecutor had an improper conversation with a grand juror outside the jury room, and grand jurors who expressed skepticism about the case were prevented from participating further after an initial panel declined to indict. Defense attorneys further alleged prosecutors intentionally redacted portions of the grand jury transcripts to conceal the misconduct from the court; presiding Judge Perry said she was 'incredibly shocked' by the government's redactions. U.S. Attorney for the Northern District of Illinois Andrew Boutros personally attended the dismissal hearing to acknowledge the case was dismissed due to improper handling of the grand jury process by the lead prosecutor.",
+    "elements_required": [
+      "A federal judge and the U.S. Attorney's own office both confirmed specific grand jury misconduct occurred -- improper prosecutorial vouching, an improper out-of-room conversation with a juror, and exclusion of skeptical jurors after an initial panel declined to indict -- not merely a defense characterization",
+      "Defense attorneys allege the transcript redactions were intentional attempts to conceal the misconduct from judicial review, a claim the presiding judge's own reaction ('incredibly shocked') lends credibility to, though it remains a characterization rather than an independent finding of intent",
+      "The U.S. Attorney personally appeared to acknowledge the misconduct and dismiss the case, rather than the matter being resolved through a lower-level or unexplained withdrawal",
+      "The underlying prosecution targeted protesters at an ICE facility, tying this entry to the broader documented pattern of DOJ action against immigration-policy critics and protesters"
+    ],
+    "evidence": [
+      {
+        "type": "court_filing",
+        "description": "Released grand jury transcripts documenting prosecutorial vouching, an improper juror conversation, and the exclusion of skeptical grand jurors from further participation after an initial panel declined to indict",
+        "source_url": "https://www.cbsnews.com/chicago/news/broadview-6-grand-jury-transcripts-partially-released-alleged-prosecutor-misconduct/",
+        "maps_to_element": "Documents the specific grand jury misconduct via the transcripts themselves, not characterization alone"
+      },
+      {
+        "type": "testimony",
+        "description": "U.S. Attorney Andrew Boutros's personal appearance at the dismissal hearing to acknowledge the case was dismissed due to the lead prosecutor's improper handling of the grand jury process",
+        "source_url": "https://www.wbez.org/crime/2026/05/21/broadview-ice-protest-grand-jury-transcript-kat-abughazaleh-trump",
+        "maps_to_element": "DOJ's own office confirms the misconduct rather than the dismissal resting solely on a defense or judicial characterization"
+      },
+      {
+        "type": "court_filing",
+        "description": "Judge Perry's on-record statement that she was 'incredibly shocked' by the government's redactions of the grand jury transcripts, and defense attorneys' allegation that the redactions were intended to conceal the misconduct from the court",
+        "source_url": "https://capitolnewsillinois.com/news/transcripts-show-grand-jurors-dismissed-for-disagreeing-with-governments-case-against-broadview-six/",
+        "maps_to_element": "Documents the redaction allegation and the presiding judge's own strong reaction to it"
+      }
+    ],
+    "status": "Resolved as to the charges -- all charges against the Broadview Six were dismissed; no indication in reporting reviewed of disciplinary action against the individual prosecutor(s) involved as of this entry's sourcing",
+    "rebuttal_anticipated": "DOJ could argue that dismissing the case and publicly acknowledging the misconduct demonstrates the system's self-correcting integrity working as intended, and that isolated prosecutorial errors by one individual don't establish an office-wide or administration-wide pattern.",
+    "comeback": "The self-correction argument cuts against DOJ here: the misconduct was severe enough (vouching, improper juror contact, alleged intentional transcript concealment) that the presiding judge herself was 'incredibly shocked,' and it occurred in a case specifically targeting protesters criticizing the administration's immigration enforcement -- a pattern of targeting critics that recurs across other entries in this tracker, distinguishing this from an isolated, politically-neutral prosecutorial error.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented pattern in this tracker of DOJ using irregular or improper process against individuals and groups protesting the administration's immigration policies.",
+    "confidence_note": "HIGH confidence -- the misconduct is confirmed by the U.S. Attorney's own office, not merely alleged by the defense, and corroborated across many independent local and national outlets (CBS Chicago, ABC7 Chicago, WBEZ, Block Club Chicago, WTTW, Chicago Sun-Times, Capitol News Illinois). The intentional-concealment characterization of the redactions is a defense allegation the judge's reaction lends credibility to, but is not itself an independent judicial finding of intent.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "Federal prosecutors dismissed all charges against the 'Broadview Six' ICE-facility protesters after a judge and the U.S. Attorney's own office confirmed grand jury misconduct, including improper vouching, an improper juror conversation, and alleged intentional transcript concealment.",
+      "confidence_note": "The misconduct is confirmed by DOJ's own office, not just the defense, and well-corroborated across many local and national outlets."
+    }
+  },
+  {
     "official": "DOJ/Federal Bureau of Prisons leadership under Todd Blanche, Acting Attorney General",
     "offense_category": "Appearance of Pardon-Connected Insider Benefit in Federal Contracting -- no criminal charge or procurement-law violation established; this is a public-integrity/conflict-of-interest concern, not a completed finding of contracting fraud",
     "contested": true,
@@ -1367,6 +1410,49 @@
     "section_summaries": {
       "incident_summary": "Six soldiers died and 20+ were wounded in a March 2026 Iranian drone strike on an undefended-against-drones Kuwait facility that commanders had been specifically warned about; survivors dispute Hegseth's public 'fortified' characterization and say officers abandoned the wounded after the strike.",
       "confidence_note": "Well-corroborated by two Washington Post investigations and detailed, named CBS News survivor testimony directly rebutting Hegseth's own public account; the specific commander responsible for the positioning decision is not individually named in sourcing reviewed."
+    }
+  },
+  {
+    "official": "Pete Hegseth, Secretary of Defense",
+    "offense_category": "Politicization of a Merit-Based Military Promotion Process -- no criminal charge; this is an accountability claim about breaking longstanding norms insulating officer promotions from political interference, with a disparate-impact pattern along race and gender lines",
+    "contested": true,
+    "incident_summary": "Secretary of Defense Pete Hegseth personally removed nine officers from a list of 22 selected for promotion to one-star admiral, a list that had been approved by a board of senior Navy admirals through the Navy's standard vetting process. Three of the nine officers removed are women and two are Black men. The resulting, publicly released promotion list contains no women at all, despite women comprising roughly 21% of active-duty Navy personnel, and appears to include only two nonwhite officers, despite racial minorities comprising roughly 38% of active-duty Navy personnel. Four current and former defense officials told reporters they could not recall a defense secretary previously selectively removing individual officers from an already-vetted promotion slate -- a break from the longstanding norm that promotion boards, not the secretary personally, determine individual selections. Reporting indicates officers were removed for reasons including past participation in military Diversity, Equity, and Inclusion initiatives.",
+    "elements_required": [
+      "A senior Navy promotion board -- the standard, merit-based vetting mechanism -- had already approved the original 22-officer list before Hegseth personally intervened to remove nine specific individuals",
+      "The removals produced a documented, quantifiable disparate outcome: zero women on the revised list against a 21% active-duty Navy population, and roughly two nonwhite officers against a 38% active-duty Navy population",
+      "Multiple current and former defense officials, speaking on the record about institutional practice, characterized personal secretarial removal of individually vetted officers as a break from longstanding norms rather than ordinary oversight",
+      "Reporting connects specific removals to officers' past involvement in DEI initiatives, establishing a stated or inferred rationale beyond individual merit review"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "Reporting (via multiple outlets) that Hegseth removed nine officers -- three women, two Black men -- from the 22-officer one-star admiral promotion list approved by a Navy board, leaving zero women and roughly two nonwhite officers on the revised list",
+        "source_url": "https://www.spokesman.com/stories/2026/jun/01/hegseth-strikes-female-and-black-navy-officers-fro/",
+        "maps_to_element": "Establishes the board-approved list, Hegseth's specific removals, and the resulting demographic composition"
+      },
+      {
+        "type": "testimony",
+        "description": "Four current and former defense officials' on-record statements that they could not recall a defense secretary previously selectively removing individual officers from a vetted promotion slate, characterizing it as a break from longstanding institutional norms",
+        "source_url": "https://newrepublic.com/post/211207/hegseth-black-women-promotions",
+        "maps_to_element": "Documents the departure from institutional norms via named officials' direct comparison to past practice"
+      },
+      {
+        "type": "analysis",
+        "description": "Georgetown Institute for Women, Peace and Security analysis comparing the demographic composition of the revised list against active-duty Navy demographic data (21% women, 38% racial minorities)",
+        "source_url": "https://giwps.georgetown.edu/2026/03/31/giwps-analysis-hegseth-removes-black-and-female-officers-from-promotion-list/",
+        "maps_to_element": "Quantifies the disparate-impact pattern against baseline Navy demographic data"
+      }
+    ],
+    "status": "Ongoing as of the reporting period -- the revised, Hegseth-modified promotion list was publicly released in late May 2026; no reversal or restoration of the removed officers was identified in reporting reviewed",
+    "rebuttal_anticipated": "DOD could argue the Secretary of Defense retains ultimate statutory authority over military promotions regardless of board recommendations, that individual removals reflected legitimate concerns about specific officers' records (including DEI program involvement, which the administration has characterized as a legitimate basis for review), and that the resulting demographic composition is a byproduct of individual review, not its intended target.",
+    "comeback": "The scale and pattern are what distinguish this from ordinary secretarial oversight: removing enough individually-vetted officers to eliminate every woman from the list and reduce minority representation from a proportionate 38% baseline to roughly two officers, combined with multiple officials' on-record statements that they'd never seen a secretary intervene this way before, supports a characterization of systematic rather than individualized review.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented pattern of the administration targeting military personnel and programs associated with diversity, equity, and inclusion initiatives.",
+    "confidence_note": "HIGH confidence on the removals, the resulting list composition, and the officials' characterization of the norm departure, corroborated across many independent outlets (NYT, ABC News, TheGrio, New Republic, Spokesman-Review) and a demographic analysis from Georgetown's GIWPS. MODERATE confidence on the specific individual rationale for each removal, since DOD did not provide an official public explanation for each officer in reporting reviewed.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "Hegseth personally struck nine board-approved officers -- three women, two Black men -- from a Navy promotion list, leaving zero women and roughly two minority officers on the revised list, which officials say breaks longstanding norms against secretarial interference in individual promotions.",
+      "confidence_note": "Well-corroborated across multiple outlets and a demographic analysis; DOD's specific rationale for each individual removal isn't officially documented in sourcing reviewed."
     }
   },
   {

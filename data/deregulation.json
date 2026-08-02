@@ -47,6 +47,65 @@
     "short_summary": "Energy/environmental rules now auto-expire after 1 year unless agencies act to renew them."
   },
   {
+    "id": "atf-gun-trafficking-enforcement-rollback-2026",
+    "rule_name": "ATF zero-tolerance dealer-license revocation policy and gun-show sales background-check rule (Biden-era gun trafficking enforcement framework)",
+    "administration": "Trump II (2025-present)",
+    "agency": "ATF (Bureau of Alcohol, Tobacco, Firearms and Explosives) / DOJ",
+    "domain": "consumer_safety",
+    "status": "Finalized (policy repeals and license reinstatements already in effect)",
+    "date_of_action": "2025 through 2026-07 (ongoing rollback, per ProPublica's reporting period)",
+    "original_rule_summary": "Under Biden-era policy, ATF pursued a 'zero-tolerance' approach to federal firearms licensees who knowingly violated gun laws, revoking dealer licenses for serious violations, and pursued gun-trafficking referrals for prosecution at a higher rate, with a rule addressing the so-called 'gun show loophole' around private/unlicensed sales.",
+    "what_changed": "The Trump administration reversed the ATF's zero-tolerance dealer-license enforcement policy, inviting dealers who had lost their licenses under Biden to reapply; nearly a dozen previously revoked gun shops had been relicensed and were selling firearms again as of July 2026, with at least 23 stores receiving new licenses after resubmitting applications. ProPublica found a 69% reduction in dealers losing their licenses under the new approach. Federal gun-trafficking referrals for prosecution fell approximately 30% year-over-year. The administration also repealed the ATF's gun-show-loophole rule and shifted hundreds of ATF agents to immigration enforcement work, reducing the personnel available for firearms-trafficking investigations.",
+    "primary_proponent": {
+      "name": "Pam Bondi and Todd Blanche (DOJ leadership overseeing ATF policy during the relevant period)",
+      "role": "Attorney General / Acting Attorney General",
+      "note": "DOJ, which oversees ATF, directed the zero-tolerance policy's repeal and the broader enforcement rollback; individual attribution between Bondi's and Blanche's respective tenures was not fully disambiguated in reporting reviewed."
+    },
+    "corporate_beneficiaries": [
+      "Federal firearms licensees (gun dealers) previously revoked for zero-tolerance violations, at least 23 of which received reinstated licenses",
+      "The firearms retail industry broadly, which benefits from reduced regulatory compliance burden and enforcement risk"
+    ],
+    "estimated_health_impact": {
+      "summary": "Public-safety advocates and ProPublica's reporting connect the reduced dealer accountability and trafficking-referral decline to an increased risk of firearms flowing into illegal markets, though this entry does not assert a specific quantified crime-outcome figure tied to the policy change.",
+      "figures": [
+        {
+          "metric": "Reduction in dealers losing licenses under the new approach",
+          "value": "69%",
+          "source": "ProPublica analysis, 2026"
+        },
+        {
+          "metric": "Reduction in federal gun-trafficking referrals for prosecution",
+          "value": "~30% year-over-year",
+          "source": "ProPublica, citing ATF data"
+        },
+        {
+          "metric": "Previously revoked dealers relicensed as of July 2026",
+          "value": "~23 stores",
+          "source": "CNN, July 2026"
+        }
+      ],
+      "caveat": "ProPublica's figures are the strongest quantified evidence in this entry; no source reviewed provides a direct, quantified causal link between the enforcement rollback and a specific increase in trafficking-related crime, which would require longer-term data."
+    },
+    "confidence_note": "HIGH confidence -- ProPublica's investigative reporting is corroborated by CNN's independent confirmation of specific relicensed dealers, and by trade/legal-press summaries (The Trace, FindLaw) of the same underlying ATF policy changes.",
+    "short_summary": "ATF reversed its zero-tolerance dealer-license enforcement policy, reinstating licenses for previously revoked gun shops as trafficking referrals fell 30%.",
+    "last_verified": "2026-08-02",
+    "date_added": "2026-08-02",
+    "sources": [
+      {
+        "name": "ProPublica -- ''No One Is Watching': How Trump Reversed Biden's Crackdown on Gun Trafficking'",
+        "url": "https://www.propublica.org/article/how-trump-reversed-biden-gun-crackdown-atf"
+      },
+      {
+        "name": "CNN -- 'Gun shops who lost licenses under Biden got them back under Trump'",
+        "url": "https://www.cnn.com/2026/07/23/politics/gun-licenses-biden-trump-invs"
+      },
+      {
+        "name": "The Trace -- 'The ATF Repealed Gun Show Loophole Rule. It Won't Change Much'",
+        "url": "https://www.thetrace.org/2026/06/atf-gun-show-loophole-rule-repeal/"
+      }
+    ]
+  },
+  {
     "id": "bears-ears-grand-staircase-monuments-shrunk-2026",
     "rule_name": "Presidential proclamations reducing Bears Ears and Grand Staircase-Escalante National Monuments by ~90%",
     "administration": "Trump II",

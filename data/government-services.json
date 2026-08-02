@@ -3253,6 +3253,59 @@
     ]
   },
   {
+    "id": "ilo-us-appointment-rescinded-unpaid-dues-2026",
+    "title": "International Labour Organization rescinds US deputy director-general appointment over $328 million in unpaid U.S. dues",
+    "institution": "U.S. participation in the International Labour Organization",
+    "domain": "funding_redirection",
+    "status": "Ongoing -- appointment rescinded as of June 1, 2026 reporting; ILO says it could be restored if the U.S. pays its arrears, which had not occurred as of this entry's sourcing",
+    "date_of_action": "2026-06-01 (ILO's rescission announcement)",
+    "what_changed": "The International Labour Organization rescinded the planned July 2026 appointment of U.S. nominee Sheng Li as Deputy Director-General after the United States failed to pay its outstanding contributions -- 257 million Swiss francs (roughly $328 million) in arrears for 2026 and prior years (2024-2025) -- to the agency. The U.S. has historically held the deputy role by virtue of being the ILO's largest financial contributor, paying roughly 22% of the agency's budget. The ILO said the appointment could be restored if the U.S. settles its arrears, but the delay is straining the agency's finances: if member states, including the U.S., have not paid arrears by September 2026, the ILO projects a 27 million-franc liquidity gap that would trigger emergency measures, with as many as 120 ILO staff positions at risk of elimination by January 2027 as a result.",
+    "primary_proponent": {
+      "name": "Trump administration (non-payment of assessed U.S. dues to the ILO)",
+      "role": "Executive branch budget/foreign-organization funding decisions",
+      "note": "No single named administration official was identified in reporting reviewed as personally responsible for the specific decision not to pay ILO arrears, as distinct from the broader administration pattern of withholding payments to international organizations (see also this tracker's WHO-withdrawal entry)."
+    },
+    "estimated_impact": {
+      "summary": "U.S. non-payment of assessed dues cost the United States its customary leadership role at a major international labor-standards body and is separately projected to force staff cuts at the agency if the arrears remain unpaid, reducing U.S. influence over international labor policy at the same time it weakens the institution's own operating capacity.",
+      "figures": [
+        {
+          "metric": "Total U.S. arrears owed to the ILO (2024-2026)",
+          "value": "257 million Swiss francs (~$328 million)",
+          "source": "ILO, cited by Reuters, May 2026"
+        },
+        {
+          "metric": "U.S. share of the ILO's total budget as largest contributor",
+          "value": "~22%",
+          "source": "Reuters"
+        },
+        {
+          "metric": "Projected ILO staff positions at risk if arrears remain unpaid by September 2026",
+          "value": "Up to 120",
+          "source": "ILO liquidity-gap projection, cited by Reuters"
+        }
+      ],
+      "caveat": "The appointment rescission is confirmed and current; the projected staff-cut figure (120 positions) is the ILO's own forward-looking projection contingent on continued nonpayment through September 2026, not yet a realized cut as of this entry's sourcing."
+    },
+    "confidence_note": "HIGH confidence -- based on Reuters' direct reporting (an exclusive) corroborated by multiple syndicated and independent outlets (Yahoo/AOL, Times of Israel, Investing.com), with specific figures attributed to the ILO itself.",
+    "last_verified": "2026-08-02",
+    "date_added": "2026-08-02",
+    "sources": [
+      {
+        "name": "Reuters -- 'UN labour agency freezes US official's appointment over unpaid dues'",
+        "url": "https://www.investing.com/news/stock-market-news/exclusiveun-labour-agency-freezes-us-officials-appointment-over-unpaid-dues-4719500"
+      },
+      {
+        "name": "Yahoo News -- 'Trump appointee to UN labour agency 'frozen' over funding and influence concerns'",
+        "url": "https://www.yahoo.com/news/articles/trump-appointee-un-labour-agency-144937639.html"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "The ILO rescinded a U.S. official's deputy director-general appointment after the U.S. failed to pay $328 million in dues, and warned of a liquidity crisis that could cost the agency 120 jobs if the arrears go unpaid through September 2026.",
+      "estimated_impact": "The U.S. lost its customary leadership seat at a major international labor body over unpaid dues, with a knock-on staffing-cut risk to the institution itself.",
+      "confidence_note": "Well-sourced to Reuters' direct reporting with figures attributed to the ILO."
+    }
+  },
+  {
     "id": "imls-dismantlement-reversed-trump2",
     "title": "IMLS Dismantlement Permanently Blocked by Federal Court — A Rare Full Reversal",
     "institution": "Institute of Museum and Library Services (IMLS)",
@@ -4959,7 +5012,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing -- multiple rounds since 2025, most recently the July 2026 Chicago field office departure",
     "date_of_action": "2025 (initial rounds of forced exits) through 2026-07 (Chicago field office head departure)",
-    "what_changed": "FBI Director Kash Patel has conducted multiple successive rounds of forced removals, reassignments, and administrative-leave actions against senior FBI leaders and agents, concentrated among personnel connected to investigations touching Trump, the January 6 Capitol attack, or the Mar-a-Lago classified-documents case. In a January 2026 round described as 'renewed,' at least a dozen personnel were removed in a single week, including: Vanessa Tibbits, a 20-year veteran and former senior adviser to ex-FBI Director Christopher Wray, placed on administrative leave from her role as acting assistant director in charge of the New York field office; Lyonel Myrthil, removed from the New Orleans field office after previously overseeing part of the January 6 investigation response in Washington; the Atlanta field office's special agent in charge, forced out; a former Washington office leader who had overseen January 6 investigations, terminated; and multiple Miami agents who had worked the Mar-a-Lago classified-documents case. In several of these cases, the FBI's own Office of Professional Responsibility had recommended lesser discipline (short suspensions), but Patel personally overrode those determinations and removed the employees instead. The purge continued into mid-2026: on July 12, 2026, Douglas DePodesta, head of the FBI's Chicago field office, left after colleagues said he had been pushed to retire, in what reporting described as a continuation of Patel's pattern of forcing out agents and supervisors viewed as insufficiently supportive of Trump. Patel has denied the removals constitute political retaliation, saying the personnel involved failed to meet bureau standards; the FBI declined further comment on individual personnel actions when asked by reporters.",
+    "what_changed": "FBI Director Kash Patel has conducted multiple successive rounds of forced removals, reassignments, and administrative-leave actions against senior FBI leaders and agents, concentrated among personnel connected to investigations touching Trump, the January 6 Capitol attack, or the Mar-a-Lago classified-documents case. In a January 2026 round described as 'renewed,' at least a dozen personnel were removed in a single week, including: Vanessa Tibbits, a 20-year veteran and former senior adviser to ex-FBI Director Christopher Wray, placed on administrative leave from her role as acting assistant director in charge of the New York field office; Lyonel Myrthil, removed from the New Orleans field office after previously overseeing part of the January 6 investigation response in Washington; the Atlanta field office's special agent in charge, forced out; a former Washington office leader who had overseen January 6 investigations, terminated; and multiple Miami agents who had worked the Mar-a-Lago classified-documents case. In several of these cases, the FBI's own Office of Professional Responsibility had recommended lesser discipline (short suspensions), but Patel personally overrode those determinations and removed the employees instead. The purge continued into mid-2026: on July 12, 2026, Douglas DePodesta, head of the FBI's Chicago field office, left after colleagues said he had been pushed to retire, in what reporting described as a continuation of Patel's pattern of forcing out agents and supervisors viewed as insufficiently supportive of Trump. Patel has denied the removals constitute political retaliation, saying the personnel involved failed to meet bureau standards; the FBI declined further comment on individual personnel actions when asked by reporters. Update 2026-08-02: In response to the scale of the firings and reassignments described above, former FBI officials launched the FBI Support Network in June 2026 to provide legal, mental health, and career assistance to current and former employees affected by Patel's purges and by firings the group says were tied to Trump-related investigations and allegations of political bias -- itself evidence of the purges' documented scale and impact on agency personnel.",
     "primary_proponent": {
       "name": "Kash Patel",
       "role": "FBI Director",
@@ -4981,13 +5034,13 @@
       ],
       "caveat": "Patel disputes the political-retaliation characterization and has stated publicly that removed personnel failed to meet bureau standards; this entry presents both the pattern documented by multiple independent outlets and Patel's own stated justification, since no independent adjudication of the individual personnel decisions' merits was identified in sourcing reviewed."
     },
-    "confidence_note": "HIGH confidence on the pattern and specific instances -- corroborated across Bloomberg Law, AP News, The New Republic, MS NOW (Rachel Maddow Show reporting), and a public letter from former government officials; the OPR-override detail (Patel personally overriding internal discipline recommendations) is independently reported, not merely alleged by critics. MODERATE confidence on the total cumulative headcount across all rounds, since reporting documents specific named instances and one 'at least a dozen' figure for a single week rather than a single comprehensive tally across the full 2025-2026 period.",
+    "confidence_note": "HIGH confidence on the pattern and specific instances -- corroborated across Bloomberg Law, AP News, The New Republic, MS NOW (Rachel Maddow Show reporting), and a public letter from former government officials; the OPR-override detail (Patel personally overriding internal discipline recommendations) is independently reported, not merely alleged by critics. MODERATE confidence on the total cumulative headcount across all rounds, since reporting documents specific named instances and one 'at least a dozen' figure for a single week rather than a single comprehensive tally across the full 2025-2026 period. Re-verified 2026-08-02: the formation of a dedicated former-official support network for affected FBI personnel, reported by CNN, corroborates the scale and severity of the purges already documented in this entry from the perspective of those personally affected, independent of DOJ's own characterization of the actions.",
     "section_summaries": {
       "what_changed": "Patel has run successive rounds of removals targeting FBI leaders and agents connected to Trump-related investigations (Jan. 6, Mar-a-Lago documents), including overriding internal discipline recommendations to force out at least a dozen personnel in one January 2026 week alone, continuing into a July 2026 Chicago field-office departure.",
       "estimated_impact": "Former officials call the pattern unprecedented in modern FBI history; removals span at least six field offices and specifically concentrate on personnel tied to investigations that touched Trump.",
       "confidence_note": "Well-corroborated across multiple independent outlets and a public letter from former officials; Patel disputes the retaliation framing and no independent tally of the full cumulative headcount was identified."
     },
-    "last_verified": "2026-07-27",
+    "last_verified": "2026-08-02",
     "date_added": "2026-07-27",
     "sources": [
       {
@@ -5009,9 +5062,14 @@
       {
         "name": "Fox News — Ex-government officials pen letter blasting Kash Patel's FBI 'purge'",
         "url": "https://www.foxnews.com/politics/ex-government-officials-pen-letter-blasting-kash-patels-fbi-purge.amp"
+      },
+      {
+        "name": "CNN -- 'Former FBI officials launch support network for employees affected by Patel purges'",
+        "url": "https://www.cnn.com/2026/06/01/politics/fbi-employees-support-group-kash-patel"
       }
     ],
-    "last_updated": "2026-07-27"
+    "last_updated": "2026-07-27",
+    "evidence": []
   },
   {
     "id": "peace-corps-workforce-reduction-trump2",
@@ -5147,6 +5205,58 @@
       "what_changed": "A DoD Inspector General found the Pentagon quietly dismantled its congressionally mandated civilian-harm-reduction program -- cutting funding, reassigning staff, and abandoning its casualty-tracking system without a formal decision to end it.",
       "estimated_impact": "The military can no longer comply with two federal statutes requiring a functioning civilian-casualty policy, per the Pentagon's own watchdog.",
       "confidence_note": "Based on a formal Inspector General finding, the strongest source type this tracker prioritizes; well-corroborated elsewhere."
+    }
+  },
+  {
+    "id": "pentagon-civilian-workforce-cuts-no-analysis-2026",
+    "title": "GAO finds Pentagon eliminated 78,000 civilian jobs -- 10% of its workforce -- without required impact analysis",
+    "institution": "Department of Defense (Department of War) -- civilian workforce",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing -- GAO report released May 29, 2026; DOD had no formal plan to assess the cuts' impact as of the report's release",
+    "date_of_action": "2025 (workforce reductions) through 2026-05-29 (GAO report release)",
+    "what_changed": "A Government Accountability Office report found the Department of Defense eliminated approximately 78,000 civilian positions in 2025 -- roughly 10% of a civilian workforce that had exceeded 793,000 -- through a combination of involuntary layoffs, voluntary resignations, and a hiring freeze that resulted in nearly 60,000 fewer new hires than in recent years. GAO found that federal law prohibits DOD from reducing its full-time civilian workforce without an appropriate analysis of the impacts, but that DOD 'didn't consistently analyze the impacts of these reductions, either in 2025 or in prior years,' and had no formal plan in place to assess the cuts' effects going forward. Despite the absence of formal analysis, GAO documented specific operational impacts already occurring, including delays in Navy shipyard maintenance and readiness challenges for the Space Force tied to the loss of specialized technical skillsets and expertise.",
+    "primary_proponent": {
+      "name": "Trump administration (DOD-wide civilian workforce reduction policy)",
+      "role": "Executive branch workforce-reduction policy applied across DOD",
+      "note": "No single named DOD official was identified in reporting reviewed as personally responsible for the specific decision not to conduct the legally required impact analysis, as distinct from the broader administration-wide civilian workforce reduction policy."
+    },
+    "estimated_impact": {
+      "summary": "The Pentagon cut roughly one in ten civilian positions -- specialists in engineering, logistics, maintenance, and other technical fields that support military readiness -- without the legally required analysis of how those cuts would affect the department's ability to do its job, and GAO already found concrete readiness impacts at Navy shipyards and the Space Force despite the missing analysis.",
+      "figures": [
+        {
+          "metric": "Civilian positions eliminated in 2025",
+          "value": "~78,000 (~10% of a workforce of 793,000+)",
+          "source": "GAO report, May 29, 2026"
+        },
+        {
+          "metric": "Reduction in new civilian hires vs. recent years, tied to the hiring freeze",
+          "value": "~60,000 fewer new hires",
+          "source": "GAO report"
+        }
+      ],
+      "caveat": "GAO's report documents the absence of consistent impact analysis and specific, already-observed operational effects (Navy shipyard maintenance delays, Space Force readiness challenges); it does not provide a comprehensive, department-wide quantification of total readiness impact, which is itself part of the report's core finding -- that such an assessment doesn't exist."
+    },
+    "confidence_note": "HIGH confidence -- based directly on a GAO report, the strongest source type this tracker prioritizes, corroborated by extensive independent reporting (Government Executive, Military Times, Stars and Stripes, MOAA, Defense One) all citing the same underlying report and figures.",
+    "last_verified": "2026-08-02",
+    "date_added": "2026-08-02",
+    "sources": [
+      {
+        "name": "Defense One -- 'Ready, fire, aim: Pentagon cut workforce with little analysis before or since, GAO finds'",
+        "url": "https://www.defenseone.com/policy/2026/06/ready-fire-aim-pentagon-cut-workforce-little-analysis-or-gao-finds/413892/"
+      },
+      {
+        "name": "Military Times -- 'Pentagon failed to assess impact of cuts to civilian workforce, watchdog finds'",
+        "url": "https://www.militarytimes.com/news/pentagon-congress/2026/05/29/pentagon-failed-to-assess-impact-of-cuts-to-civilian-workforce-watchdog-finds/"
+      },
+      {
+        "name": "Government Executive -- 'Ready, fire, aim: Pentagon cut workforce with little analysis before or since, GAO finds'",
+        "url": "https://www.govexec.com/defense/2026/06/ready-fire-aim-pentagon-cut-workforce-little-analysis-or-gao-finds/413894/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "GAO found the Pentagon cut 78,000 civilian jobs -- 10% of its workforce -- in 2025 without the legally required analysis of the cuts' impact, and had no plan to assess the effects going forward.",
+      "estimated_impact": "GAO already documented concrete readiness impacts, including Navy shipyard maintenance delays and Space Force skill-gap challenges, despite the absence of a formal department-wide impact analysis.",
+      "confidence_note": "Based directly on a GAO report, the strongest source type this tracker prioritizes; extensively corroborated elsewhere."
     }
   },
   {
