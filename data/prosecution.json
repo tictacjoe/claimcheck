@@ -605,6 +605,43 @@
     }
   },
   {
+    "official": "DOJ/Federal Bureau of Prisons leadership under Todd Blanche, Acting Attorney General",
+    "offense_category": "Appearance of Pardon-Connected Insider Benefit in Federal Contracting -- no criminal charge or procurement-law violation established; this is a public-integrity/conflict-of-interest concern, not a completed finding of contracting fraud",
+    "contested": true,
+    "incident_summary": "The Federal Bureau of Prisons awarded a five-year, $106 million contract to LEO Technologies -- founded and led by Elliott Broidy, a Republican fundraiser and longtime Trump ally -- to provide AI-powered transcription, translation, and monitoring of federal prison phone calls. Broidy pleaded guilty in 2020 to conspiracy to violate the Foreign Agents Registration Act after being caught secretly lobbying Trump White House officials on behalf of Chinese and Malaysian interests, and separately pleaded guilty to a felony bribery charge in New York state court in 2009 involving payments to state comptroller's office staffers; Trump pardoned Broidy for the FARA conviction in 2021. LEO Technologies stated Broidy played no personal role in the competitive bidding process for the BOP contract.",
+    "elements_required": [
+      "A Trump-pardoned individual with two separate prior guilty pleas for corruption-adjacent federal and state offenses (FARA conspiracy, bribery) leads a company that won a substantial ($106 million) federal contract from the same administration that pardoned him",
+      "The contract falls within DOJ's own component (Bureau of Prisons), the same department whose leadership the pardoning administration controls, distinguishing this from a contract awarded by an unrelated agency",
+      "LEO Technologies has publicly stated Broidy had no personal role in the bidding process -- a claim not independently verified via procurement records in reporting reviewed",
+      "No formal procurement-law violation, competitive-bidding irregularity, or ethics-office finding was identified in reporting reviewed -- this entry is calibrated as an appearance/pattern concern, not a proven violation"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Correctional News trade-press report confirming the Federal Bureau of Prisons selected LEO Technologies for a five-year, $106 million contract for AI-based inmate phone call transcription, translation, and monitoring",
+        "source_url": "https://correctionalnews.com/2026/05/14/federal-bureau-of-prisons-selects-leo-technologies-for-5-year-106-million-contract/",
+        "maps_to_element": "Establishes the contract's award, value, and scope from a primary trade-press source"
+      },
+      {
+        "type": "news_report",
+        "description": "The Guardian's reporting connecting the contract award to Broidy's 2020 FARA conspiracy guilty plea, his 2021 Trump pardon, and his separate 2009 New York bribery guilty plea, alongside LEO Technologies' statement that Broidy had no role in the bidding process",
+        "source_url": "https://www.theguardian.com/us-news/2026/may/27/trump-elliott-broidy-contract",
+        "maps_to_element": "Documents Broidy's corruption-adjacent history and the company's own denial of his direct involvement in bidding"
+      }
+    ],
+    "status": "Contract awarded and reported as in effect as of May 2026; no procurement challenge, inspector general review, or ethics-office finding identified in reporting reviewed",
+    "rebuttal_anticipated": "DOJ and LEO Technologies could argue the contract was won through ordinary competitive bidding on the technology's merits, that Broidy's personal history is irrelevant to a company-level contract award if he had no direct role in the bid, and that a pardon legally restores the individual's standing to conduct business without special restriction.",
+    "comeback": "The concern isn't that Broidy is legally barred from running a company that contracts with the government -- it's the pattern of a politically-connected, twice-convicted ally whose most serious federal offense was pardoned by the same administration now winning a substantial contract from that administration's own Justice Department, with the company's no-personal-involvement claim resting on its own say-so rather than independently disclosed procurement records.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented pattern in this tracker of politically-connected individuals with pardons or favorable legal treatment from the administration subsequently receiving government benefits or contracts.",
+    "confidence_note": "HIGH confidence on the contract's existence, value, and Broidy's ownership of LEO Technologies, and on his prior guilty pleas and pardon, corroborated by Correctional News (a primary trade-press source) and The Guardian. LOW confidence on any claim of an actual procurement irregularity or quid pro quo -- no such finding was identified in reporting reviewed, and the company's denial of Broidy's involvement in bidding is unrebutted in sourcing reviewed.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "The Bureau of Prisons awarded a $106 million AI-surveillance contract to a company led by Elliott Broidy, a Trump-pardoned Republican fundraiser with two prior corruption-adjacent guilty pleas.",
+      "confidence_note": "The contract and Broidy's history are well-documented; no procurement irregularity or ethics finding has been identified, so this is framed as a pattern/appearance concern, not a proven violation."
+    }
+  },
+  {
     "official": "Doug Burgum, Secretary of the Interior",
     "offense_category": "Statutory Violation — Commemorative Works Act (40 U.S.C. §§8901-8909) and 40 U.S.C. §8106 (unauthorized construction of a monument on federal land in the National Capital area) — NOT charged; this is a planning/permitting-stage dispute, not yet a completed unauthorized construction, and is most likely to be resolved via litigation or congressional action rather than criminal process",
     "incident_summary": "The Interior Department, under Burgum, has proceeded with planning and environmental review (Section 106 Assessment) for a 'Triumphal Arch' monument at Memorial Circle in Washington, D.C. -- nicknamed the 'Arch de Trump' by critics -- despite the Commemorative Works Act requiring specific congressional authorization for any new memorial on federal land in the capital, which Congress has not provided for this project. Senate and House committee ranking members, citing their own Congressional Research Service analysis, formally notified Burgum and NPS officials that the project lacks the legal authorization the Act requires.",
@@ -736,6 +773,49 @@
     "section_summaries": {
       "incident_summary": "A VA rule changing how medications factor into veterans' disability ratings got shelved within 48 hours, after a wave of veteran-group backlash and a lawsuit.",
       "confidence_note": "What was unresolved is now settled — the rule's formal withdrawal and a dismissed lawsuit both confirm how this wrapped up."
+    }
+  },
+  {
+    "official": "DOJ leadership (Eastern District of North Carolina U.S. Attorney's Office) -- separate indictment from this tracker's existing Halligan/Eastern District of Virginia Comey entry",
+    "offense_category": "Selective/Vindictive Prosecution and First Amendment concerns -- DOJ indicted former FBI Director James Comey a second time, in a different federal district, over a social media post; Comey has moved to dismiss, arguing the post is protected speech and not a 'true threat'; contested, no conviction",
+    "contested": true,
+    "incident_summary": "In April 2026, a federal grand jury in the Eastern District of North Carolina indicted former FBI Director James Comey over an Instagram post depicting seashells arranged on a beach to spell '86 47,' which prosecutors characterized as a threat against President Trump. This is a legally separate indictment from the 'lying to Congress' case this tracker already documents (prosecution/cabinet-level/halligan-comey-vindictive-prosecution-2025-2026.json), which was brought in the Eastern District of Virginia by Lindsey Halligan and dismissed in November 2025 after a court found Halligan's appointment unlawful; the two cases share only their target and their connection to the broader pattern of prosecutions against Comey. In late May 2026, Matthew Petracca, the lone prosecutor from the U.S. Attorney's Office for the Eastern District of North Carolina assigned to the seashells case, withdrew without public explanation; DOJ filed a notice replacing him with Assistant U.S. Attorney Timothy Severo. Comey's legal team has moved to dismiss the case on selective- and vindictive-prosecution grounds and separately argues the seashell image does not meet the legal standard for a 'true threat.' Comey has also alleged in a July 2026 court filing that the Secret Service illegally surveilled him in connection with the case. The case is set for trial in October 2026 after Judge Louise Wood Flanagan granted a defense request to delay proceedings.",
+    "elements_required": [
+      "A federal grand jury returned an indictment against a former FBI Director over a social media post, in a case legally and geographically distinct from the already-dismissed EDVA prosecution of the same individual, establishing this as a second, separate prosecutorial track rather than a continuation of the dismissed case",
+      "The image at issue (seashells forming '86 47') requires an inferential leap from arrangement to threat that Comey's defense argues fails the constitutional 'true threat' standard, a contestable legal question distinct from a factual dispute",
+      "The case's sole assigned lead prosecutor withdrew without any public explanation from DOJ, a documented, unexplained departure in a high-profile politically sensitive case",
+      "A separate court filing alleges Secret Service surveillance of Comey connected to this case, an additional, independently checkable factual claim"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "DOJ's own court filing replacing lead prosecutor Matthew Petracca with Assistant U.S. Attorney Timothy Severo, with no explanation given for the change",
+        "source_url": "https://www.cbsnews.com/news/prosecutor-leaves-doj-case-james-comey-threatening-trump-seashells-matthew-petracca/",
+        "maps_to_element": "Documents the unexplained prosecutor withdrawal as a matter of DOJ's own court record"
+      },
+      {
+        "type": "court_filing",
+        "description": "Comey's motion to dismiss the indictment, arguing the seashell image does not constitute a 'true threat' under governing First Amendment case law and that the prosecution is selective and vindictive",
+        "source_url": "https://www.democracydocket.com/news-alerts/comey-dismissal-motion-trump-justice-department-86-47-seashell-case/",
+        "maps_to_element": "Documents the specific legal theory and its constitutional basis, not merely a general political characterization"
+      },
+      {
+        "type": "court_filing",
+        "description": "A July 2026 court filing alleging the Secret Service illegally surveilled Comey in connection with the '8647' threat case",
+        "source_url": "https://www.cnbc.com/2026/07/29/james-comey-trump-8647-seashells-threat-secret-service.html",
+        "maps_to_element": "Additional, separately documented factual allegation of investigative overreach connected to this specific case"
+      }
+    ],
+    "status": "Ongoing -- trial set for October 2026 after a defense-requested delay; Comey's motions to dismiss on true-threat and vindictive-prosecution grounds were pending as of this entry's sourcing",
+    "rebuttal_anticipated": "DOJ could argue the indictment reflects an independent grand jury's assessment of probable cause based on a threat assessment, that prosecutor reassignments happen routinely for reasons unrelated to case merits, and that the surveillance allegation is Comey's own contested characterization, not an established fact.",
+    "comeback": "The pattern across both of this tracker's Comey prosecutions -- an unlawfully appointed prosecutor in one district, an unexplained lead-prosecutor withdrawal in a second, separate district -- goes beyond the kind of routine turnover DOJ's rebuttal would suggest, especially layered on a 'true threat' theory resting on an arrangement of seashells rather than any direct statement, and a separate, specific allegation of Secret Service surveillance tied to the same case.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker already documents in the EDVA Comey case and elsewhere of DOJ prosecutions pursued against prominent critics of the administration through irregular or unexplained personnel and process choices.",
+    "confidence_note": "HIGH confidence on the indictment's existence, the prosecutor withdrawal, and the pending motions, corroborated across many independent outlets (ABC News, CBS News, NBC News, Fox News, The Hill, CNBC). MODERATE confidence on the Secret Service surveillance allegation specifically, since it is Comey's own court filing characterization and had not been independently confirmed or ruled on as of this entry's sourcing.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "DOJ indicted Comey a second time, in a different federal district, over an Instagram seashell image characterized as a threat to Trump; the case's sole prosecutor then withdrew without explanation, and Comey alleges Secret Service surveillance connected to the case.",
+      "confidence_note": "The indictment and prosecutor withdrawal are well-documented via DOJ's own court filings; the surveillance allegation is Comey's own contested claim, not yet independently confirmed."
     }
   },
   {
@@ -1611,15 +1691,21 @@
         "description": "More than half of the Office for Civil Rights' lawyers and staff were fired in March 2025, and seven of twelve regional OCR offices were closed, reducing investigative capacity for disability and other civil rights discrimination complaints during the same period as the broader program transfers",
         "source_url": "https://www.npr.org/2026/04/28/nx-s1-5802968/education-secretary-linda-mcmahon-senate-hearing",
         "maps_to_element": "Documents practical reduction in enforcement capacity contemporaneous with the transfers"
+      },
+      {
+        "type": "public_record",
+        "description": "The Government Accountability Office confirmed to Sen. Elizabeth Warren, at her request, that it has opened and is expanding an investigation into the Education Department's interagency transfers, including the specific transfer of student-loan default collections -- affecting more than 9 million borrowers in default -- to the Treasury Department, the first step toward moving the entire $1.7 trillion federal student loan portfolio to Treasury; a separate GAO report already found the administration had shut down 130+ Education Department teams, ended $500 million in grants, and fired over 1,200 staff",
+        "source_url": "https://www.warren.senate.gov/newsroom/press-releases/following-warren-request-independent-government-watchdog-expands-investigation-into-trump-admin-efforts-to-dismantle-education-department",
+        "maps_to_element": "A formal GAO investigation -- the strongest source type this tracker prioritizes -- corroborating and quantifying the scope of the interagency transfers already documented in this entry"
       }
     ],
-    "status": "Formal impeachment articles filed in House (first against a cabinet secretary in this administration); no realistic path to passage given Republican control of the House and the two-thirds Senate threshold required for conviction; no court ruling on the legality of the interagency transfers identified as of this entry's last update; McMahon disputes the characterization but has not specifically rebutted the dated-transfer evidence, instead pivoting to broader policy defense of department dismantling",
+    "status": "Formal impeachment articles filed in House (first against a cabinet secretary in this administration); no realistic path to passage given Republican control of the House and the two-thirds Senate threshold required for conviction; no court ruling on the legality of the interagency transfers identified as of this entry's last update; McMahon disputes the characterization but has not specifically rebutted the dated-transfer evidence, instead pivoting to broader policy defense of department dismantling Update 2026-08-02: GAO confirmed it has opened a formal investigation, at Sen. Warren's request, into the Education-to-Treasury student loan transfer specifically (affecting 9M+ borrowers in default, the first step toward moving the full $1.7T loan portfolio), expanding on an existing GAO probe of the Education/Labor interagency agreements; a separate GAO report found 130+ Education Department teams shut down, $500 million in grants ended, and over 1,200 staff fired.",
     "rebuttal_anticipated": "McMahon's own public response: the effort reflects Democrats protecting 'entrenched bureaucracy' rather than addressing 'chronic failures' like low test scores and the FAFSA rollout; she maintains parents will 'still get the same treatment, the same funding' regardless of which agency administers programs.",
     "comeback": "Whether program administration is equally effective elsewhere is a policy question; whether the executive branch has legal authority to unilaterally relocate programs Congress assigned to a specific department by statute is a separate, legal question that policy arguments don't resolve. The documented OCR staffing cuts and resulting halt to active discrimination investigations is concrete, measurable evidence of reduced capacity -- not merely a relocation with 'the same treatment,' as McMahon claims, but a demonstrated reduction in enforcement during the transition.",
     "cause": "Documented via Trump's own public direction: Trump appointed McMahon with an explicit instruction to 'put herself out of a job,' confirming the program transfers reflect a deliberate strategy to functionally dissolve the Department of Education without the congressional action that would formally be required to abolish it outright. Using interagency agreements to achieve through administrative action what hasn't been authorized through legislation is the same structural approach documented in the Vought entry (acting on legal theory courts haven't yet ratified) and the Sonderling/IMLS entry (sweeping agency dismantling via executive action before Congress can respond). This is an administration-wide pattern, not an isolated McMahon judgment call.",
-    "last_updated": "2026-06-30",
+    "last_updated": "2026-08-02",
     "date_added": "2026-07-03",
-    "confidence_note": "HIGH confidence on the documented facts -- the specific transfer dates and statutory programs affected are listed with precision in the impeachment resolution and corroborated by McMahon's own congressional testimony confirming the broader effort. MODERATE confidence on the legal characterization as an actual violation, since whether interagency agreements can lawfully accomplish these transfers without new congressional authorization is a genuinely unresolved administrative-law question, not yet tested in court as of this entry. Best framed in debate as 'documented, dated unilateral transfers of programs Congress assigned to a specific department, with a live legal question about whether this exceeds executive authority' -- impeachment has been filed but has no realistic path to conviction, so this should not be overstated as 'McMahon was impeached.'",
+    "confidence_note": "HIGH confidence on the documented facts -- the specific transfer dates and statutory programs affected are listed with precision in the impeachment resolution and corroborated by McMahon's own congressional testimony confirming the broader effort. MODERATE confidence on the legal characterization as an actual violation, since whether interagency agreements can lawfully accomplish these transfers without new congressional authorization is a genuinely unresolved administrative-law question, not yet tested in court as of this entry. Best framed in debate as 'documented, dated unilateral transfers of programs Congress assigned to a specific department, with a live legal question about whether this exceeds executive authority' -- impeachment has been filed but has no realistic path to conviction, so this should not be overstated as 'McMahon was impeached.' Re-verified 2026-08-02: a formal, ongoing GAO investigation -- corroborated by ABC News, Bloomberg Government, and Sen. Warren's own office -- adds independent watchdog scrutiny to this entry's existing evidence, quantifying the transfers' scope beyond what was previously documented.",
     "section_summaries": {
       "incident_summary": "McMahon signed off on shipping over a hundred Education Department programs to other agencies without Congress ever approving the move.",
       "confidence_note": "The transfer dates and programs are nailed down precisely, but courts haven't decided whether skipping new legislation here is actually unlawful."
