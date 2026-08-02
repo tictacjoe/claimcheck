@@ -1441,6 +1441,12 @@
         "description": "Georgetown Institute for Women, Peace and Security analysis comparing the demographic composition of the revised list against active-duty Navy demographic data (21% women, 38% racial minorities)",
         "source_url": "https://giwps.georgetown.edu/2026/03/31/giwps-analysis-hegseth-removes-black-and-female-officers-from-promotion-list/",
         "maps_to_element": "Quantifies the disparate-impact pattern against baseline Navy demographic data"
+      },
+      {
+        "type": "news_report",
+        "description": "Reporting identifying the primary cited reason for the removals as the affected officers' participation or involvement in military Diversity, Equity, and Inclusion initiatives",
+        "source_url": "https://nationalinterest.org/blog/buzz/secretary-hegseth-blocked-promotions-of-black-female-naval-officers-ps-060326",
+        "maps_to_element": "Documents the stated rationale connecting specific removals to DEI-initiative participation"
       }
     ],
     "status": "Ongoing as of the reporting period -- the revised, Hegseth-modified promotion list was publicly released in late May 2026; no reversal or restoration of the removed officers was identified in reporting reviewed",
