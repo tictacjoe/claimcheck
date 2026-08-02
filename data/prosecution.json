@@ -2117,6 +2117,49 @@
   },
   {
     "official": "Kash Patel, FBI Director",
+    "offense_category": "Directing a Cross-Case Campaign to Manufacture Criminal Prosecutions Against Perceived Political Opponents, With Career Prosecutors Removed for Refusing to Proceed -- no criminal charge against Patel personally; this entry documents the pattern-level accountability claim underlying this tracker's separate, official-specific vindictive-prosecution entries for the Comey, Brennan, and James cases",
+    "contested": true,
+    "incident_summary": "New York Times and New Republic reporting, drawing on current and former DOJ/FBI officials, describes FBI Director Kash Patel as the driving force behind a sustained, multi-target effort throughout 2025-2026 to build criminal cases against James Comey, John Brennan, Sen. Adam Schiff, and New York Attorney General Letitia James, despite what officials internally characterized as weak evidence. Career prosecutors who examined the evidence and declined to proceed -- including at least one attorney who, under direct White House pressure, found nothing irregular in the underlying documents and refused to impanel a grand jury -- were removed, reassigned, or saw their investigations transferred to more compliant colleagues. This tracker separately documents three of the resulting individual prosecutions in detail: the Comey case (via Lindsey Halligan, an unlawfully-appointed interim U.S. Attorney, in halligan-comey-vindictive-prosecution-2025-2026.json), the Brennan investigation (via Todd Blanche, in blanche-brennan-vindictive-prosecution-2026.json), and the James case (via Pam Bondi, in bondi-james-vindictive-prosecution-2025-2026.json). This entry documents the pattern-level claim that Patel personally drove the underlying push across all of these cases plus Schiff, and that DOJ personnel who resisted were removed -- a distinct accountability claim from any single case's merits, since it concerns the process by which targets were selected and prosecutors were pressured, not any one prosecution's individual legal footing.",
+    "elements_required": [
+      "Reporting from multiple outlets, based on current/former DOJ and FBI officials, attributes a sustained, personal push to build cases against Comey, Brennan, Schiff, and James specifically to Patel, not merely to the White House or DOJ leadership in the abstract",
+      "At least one specific, named instance is documented of a career prosecutor examining the evidence, finding nothing irregular, and refusing to proceed (declining to impanel a grand jury) despite direct pressure to do so",
+      "Prosecutors and investigators who declined to pursue these cases were removed, reassigned, or had their investigations transferred to other personnel, establishing a documented consequence for resistance rather than a hypothetical chilling effect",
+      "The pattern spans at least four distinct targets across multiple DOJ components and time periods, three of which independently resulted in charges or grand jury activity now documented in this tracker's separate case-specific entries -- indicating a coordinated campaign rather than four unrelated prosecutorial decisions"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "New York Times reporting describing how the drive to find a conspiracy against Trump, driven by Patel, 'rocked the Justice Department,' including the White House's demand that low-level prosecutors indict Comey, James, and Schiff even when the evidence was flimsy",
+        "source_url": "https://www.inquirer.com/news/nation-world/department-justice-blanche-trump-fbi-patel-comey-james-schiff-grand-juries-indict-seashells-20260608.html",
+        "maps_to_element": "Establishes the cross-target pattern and Patel's central role, and the White House-level pressure on line prosecutors"
+      },
+      {
+        "type": "news_report",
+        "description": "New Republic reporting on how Patel's pursuit of a 'deep state' conspiracy against Trump 'ruined multiple federal employees' careers and turned judges against the Justice Department,' including the specific instance of an attorney refusing to impanel a grand jury after finding nothing irregular despite intense pressure",
+        "source_url": "https://newrepublic.com/post/211509/kash-patel-cobbled-together-conspiracy-donald-trump",
+        "maps_to_element": "Establishes the specific instance of a prosecutor's refusal and the broader career-consequence pattern for DOJ/FBI personnel"
+      },
+      {
+        "type": "news_report",
+        "description": "CNN and CBS News reporting that DOJ leaned on Southern District of Florida prosecutors to bring the Brennan case to a grand jury despite the team's own doubts about a sufficient factual basis, and that DOJ veterans feared the investigation was being 'stacked with Trump loyalists,' including agents also involved in the Comey prosecution and serving on Patel's own Director's Advisory Team",
+        "source_url": "https://www.cnn.com/2026/03/10/politics/brennan-trump-political-foe-prosecution",
+        "maps_to_element": "Extends the documented pattern to the fourth target (Brennan) with independent sourcing, and ties personnel staffed across multiple cases directly back to Patel's own advisory team"
+      }
+    ],
+    "status": "Ongoing -- the Comey, Brennan, and James cases documented elsewhere in this tracker remain in active litigation or contested procedural postures as of this entry's sourcing; no independent investigation or accountability finding regarding Patel's personal role has been identified",
+    "rebuttal_anticipated": "Patel and the administration could argue that pursuing credible leads against public officials is a legitimate law-enforcement function regardless of the officials' political prominence, that personnel changes reflect ordinary staffing decisions rather than retaliation for declining to prosecute, and that the resulting cases (where charges were ultimately filed) demonstrate the underlying conduct warranted scrutiny.",
+    "comeback": "The specific, named instance of a career prosecutor finding nothing irregular and refusing to proceed despite direct pressure -- followed by that resistance being followed by personnel changes rather than the investigation simply closing -- is difficult to square with ordinary, evidence-driven prosecutorial decision-making, and is the same pattern (internal findings overridden, personnel who resist replaced) already independently documented in this tracker's FBI field-office purge entry.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented pattern in this tracker of DOJ and FBI leadership under Patel and Bondi/Blanche pursuing politically-motivated investigations and removing personnel who resist, as separately documented in this tracker's individual case entries and the FBI field-office purge entry.",
+    "confidence_note": "HIGH confidence on the overarching pattern and Patel's central attributed role, corroborated by New York Times/Philadelphia Inquirer syndication and New Republic's detailed reporting, both drawing on multiple current/former DOJ and FBI officials. MODERATE confidence on the full scope of personnel actions taken against every resisting prosecutor, since reporting documents specific named instances rather than a comprehensive tally; readers should treat this entry as documenting a well-sourced pattern claim, with the underlying case merits addressed in this tracker's separate, official-specific entries.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "Reporting attributes a sustained campaign to prosecute Comey, Brennan, Schiff, and James -- despite weak evidence -- to Kash Patel personally, with prosecutors who refused to proceed removed or reassigned.",
+      "confidence_note": "Well-corroborated pattern-level reporting from NYT and New Republic; the full scope of personnel consequences isn't comprehensively tallied in sourcing reviewed."
+    }
+  },
+  {
+    "official": "Kash Patel, FBI Director",
     "offense_category": "Misuse of federal law-enforcement resources and personnel for personal benefit -- no criminal charge; this is a resource-misuse/ethics accountability claim, distinguished from an ordinary personal-conduct story by the diversion of operational FBI staffing",
     "contested": true,
     "incident_summary": "A New York Times investigation, corroborated by multiple follow-on outlets, documented a pattern of FBI Director Kash Patel using federal jets, security resources, and FBI personnel for personal and leisure purposes involving his girlfriend, country singer Alexis Wilkins. On May 10, 2025, Patel and Wilkins flew from Washington, D.C. to Philadelphia on an FBI Gulfstream V jet to attend a Chris Stapleton/George Strait concert, watching from a private suite reported to cost between $35,000 and $50,000; through an FBI spokesperson, Patel declined to say who paid for the suite, and representatives for the performers did not confirm the FBI's claim that Wilkins was their invited guest. Separately, Wilkins -- who does not reside with Patel -- was assigned a full-time security detail made up of elite FBI agents previously assigned to the Nashville field office's SWAT team, reportedly the first time a senior FBI official's romantic partner (rather than spouse or dependent) has received a full FBI protective detail. The reporting also documented an earlier trip using a $60 million FBI jet to Penn State to watch Wilkins perform, with the flight crew and security detail collecting overtime pay past 11 p.m. waiting for the concert to end. This NYT investigation is also the original source for a separately-reported episode in which Patel joined a 'VIP snorkel' excursion at the USS Arizona Memorial during an official Hawaii trip.",
@@ -3025,6 +3068,98 @@
     "section_summaries": {
       "incident_summary": "Trump signed an executive order directing CDC/ACIP to cut the recommended childhood vaccine count from 17 to 11, issued while a federal court stay already blocks a related prior schedule overhaul pending litigation.",
       "confidence_note": "Well-documented via the White House's own fact sheet and independent reporting; how the order's directive interacts with the existing court stay isn't resolved in sourcing reviewed."
+    }
+  },
+  {
+    "official": "Donald Trump, President",
+    "offense_category": "Presidential Imposition of an Unauthorized Tax Via Proclamation -- a federal court found the $100,000 H-1B visa fee exceeded executive authority, violated the Administrative Procedure Act, and violated separation-of-powers principles by usurping Congress's exclusive taxing authority",
+    "contested": true,
+    "incident_summary": "In September 2025, Trump announced by proclamation a $100,000 fee on new H-1B visa petitions, dramatically increasing the cost of hiring highly skilled foreign workers. A coalition of 20 Democratic state attorneys general sued, and on June 8, 2026, U.S. District Judge Leo Sorokin in Boston ruled the fee unlawful, finding it constituted a tax Trump imposed without congressional authorization -- an authority the Constitution reserves to Congress -- and that the administration's implementation violated both the Administrative Procedure Act and constitutional separation-of-powers principles. Despite the ruling, the court's order blocking the fee was temporarily paused on June 12, 2026 to allow an appeals court to consider the government's request for a stay; as a result, USCIS remained permitted to continue collecting the $100,000 fee pending appeal even after a federal court found it unlawful.",
+    "elements_required": [
+      "Trump imposed the $100,000 H-1B fee via presidential proclamation rather than through congressional legislation, a documented procedural fact",
+      "A federal court (Judge Sorokin, D. Mass.) issued a reasoned ruling -- not merely a preliminary characterization -- finding the fee constituted an unauthorized tax exceeding executive authority, in violation of the APA and separation of powers",
+      "The fee's practical effect (a $100,000 per-petition cost) was substantial enough to function as a de facto barrier to H-1B hiring, relevant to assessing the fee as a policy lever rather than a routine administrative charge",
+      "Despite the unlawfulness finding, the fee remained collectible pending appeal after a stay was granted June 12, 2026 -- meaning the administration's unlawful policy continued to have real-world effect even after judicial rejection"
+    ],
+    "evidence": [
+      {
+        "type": "court_filing",
+        "description": "Judge Leo Sorokin's June 8, 2026 ruling in the U.S. District Court for the District of Massachusetts, finding the $100,000 H-1B fee an unlawful, unauthorized tax that violated the APA and separation-of-powers principles",
+        "source_url": "https://www.reuters.com/world/trumps-100000-h-1b-visa-fee-is-unlawful-us-judge-rules-2026-06-08/",
+        "maps_to_element": "Establishes both the proclamation's procedural origin and the court's specific legal findings"
+      },
+      {
+        "type": "news_report",
+        "description": "NPR reporting on the ruling and the fee's practical effect on H-1B hiring costs",
+        "source_url": "https://www.npr.org/2026/06/09/nx-s1-5851474/federal-judge-fee-h1b-visa",
+        "maps_to_element": "Independent corroboration of the fee's substance and practical barrier effect"
+      },
+      {
+        "type": "public_record",
+        "description": "Legal-industry analysis (Vorys, CDF Labor Law) confirming the June 12, 2026 stay pending appeal, under which USCIS continued requiring the $100,000 fee despite the unlawfulness ruling",
+        "source_url": "https://www.vorys.com/publication-court-strikes-down-100-000-h-1b-entry-fee-but-fee-still-applies-pending-appeal",
+        "maps_to_element": "Establishes that the fee remained in practical effect after the court's ruling, pending appeal"
+      }
+    ],
+    "status": "Fee remains collectible pending appeal as of this entry's sourcing -- the June 8, 2026 unlawfulness ruling was stayed June 12, 2026 while an appeals court considers the government's request for a stay",
+    "rebuttal_anticipated": "The administration could argue the fee was a legitimate exercise of the President's authority to regulate immigration and protect domestic labor markets, that the proclamation followed established precedent for immigration-related fee-setting, and that the pending appeal could still vindicate the fee's legality.",
+    "comeback": "A federal court's specific finding that this was an unauthorized tax -- not merely a disputed policy choice -- distinguishes this from ordinary immigration-fee-setting; the fee's continued collection during the appeal, despite that finding, means the administration is still collecting revenue a court has already ruled it had no legal authority to impose.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented pattern in this tracker of executive actions found by courts to exceed statutory or constitutional authority.",
+    "confidence_note": "HIGH confidence on the ruling, its legal basis, and the subsequent stay, corroborated across Reuters, NPR, CNBC, U.S. News, and multiple immigration-law firm analyses (Clark Hill, Vorys, CDF Labor Law, CUPA-HR). This entry should be rechecked once the appeals court rules on the stay request, since the fee's ultimate legal status remains unresolved.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "A federal judge ruled Trump's $100,000 H-1B visa fee an unlawful, unauthorized tax, but a subsequent stay let USCIS keep collecting it pending appeal.",
+      "confidence_note": "Well-corroborated ruling and stay; the fee's ultimate legal status awaits the appeals court's decision."
+    }
+  },
+  {
+    "official": "Donald Trump, President; Todd Blanche, Acting Attorney General",
+    "offense_category": "Use of a DOJ Settlement Fund to Enable Taxpayer-Funded Payments to January 6 Defendants -- no criminal charge; a public-integrity and appropriations-propriety concern given Trump's personal financial interest in the underlying settlement and his own public support for compensating people convicted of crimes committed in his name",
+    "contested": true,
+    "incident_summary": "The Justice Department created a $1.776 billion 'anti-weaponization' fund as part of a settlement of Trump's own lawsuit against the executive branch he oversees, which he filed over the leak of his tax returns and other claimed damages -- a settlement in which DOJ agreed to pay to resolve claims brought by its own boss. The fund was intended to compensate people who 'suffered weaponization and lawfare' at the hands of the government, and was widely reported to be positioned to include payments to January 6 Capitol riot defendants. After congressional Republicans balked and critics labeled it a 'slush fund' benefiting Trump allies, and after a court had already temporarily blocked it, Acting Attorney General Todd Blanche told Congress DOJ was 'not moving forward' with the fund as originally structured. Despite the fund's official abandonment, hundreds of Capitol rioters -- at least 600 as of reporting -- have separately filed claims under the Federal Tort Claims Act seeking taxpayer-funded payouts for their arrests and prosecutions. When asked directly, Trump said he supports compensating January 6 defendants and refused to rule out taxpayer-funded payments to people convicted or charged in connection with the Capitol attack.",
+    "elements_required": [
+      "The $1.776 billion fund originated from a settlement of Trump's personal lawsuit against the federal government he leads, a documented conflict-of-interest structure regardless of the fund's ultimate use",
+      "The fund was reported and understood, including by Capitol rioters themselves, to be a vehicle for compensating January 6 defendants -- 'All J6ers will apply,' as one report characterized the reaction -- not a generic legal-claims settlement mechanism",
+      "DOJ's own acting leadership (Blanche) publicly confirmed abandoning the fund only after congressional and public backlash, not on its own initiative, and a court had already temporarily blocked it before that reversal",
+      "Trump personally, when asked directly, declined to rule out taxpayer-funded compensation for January 6 defendants even after the formal fund was abandoned, and separate FTCA claims by hundreds of rioters remain a live avenue for exactly that outcome"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "NBC News reporting that a DOJ official told a GOP ally that big payouts were coming for January 6 defendants, and CBS News reporting that Capitol rioters were rushing to apply for the fund ('All J6ers will apply')",
+        "source_url": "https://www.cbsnews.com/news/trump-anti-weaponization-fund-january-6-capitol-riot/",
+        "maps_to_element": "Establishes the fund's understood purpose and use as a Jan. 6 compensation vehicle"
+      },
+      {
+        "type": "public_record",
+        "description": "Reporting on the fund's origin as a settlement of Trump's personal lawsuit against the executive branch, and on the fund's temporary court block prior to Blanche's abandonment announcement",
+        "source_url": "https://www.yahoo.com/news/politics/articles/trump-slush-fund-dead-still-201437596.html",
+        "maps_to_element": "Establishes the conflict-of-interest origin and the sequence (court block, then abandonment) rather than a voluntary DOJ reversal"
+      },
+      {
+        "type": "news_report",
+        "description": "ABC News reporting that Trump said he supports compensating January 6 defendants and refused to rule out taxpayer-funded payments even after the fund's abandonment",
+        "source_url": "https://abcnews.com/Politics/trump-rule-payments-jan-6-rioters/story?id=133665729",
+        "maps_to_element": "Establishes Trump's own personal, on-record position following the fund's formal abandonment"
+      },
+      {
+        "type": "news_report",
+        "description": "NBC News reporting that DOJ could still pay Jan. 6 rioters even without the formal 'anti-weaponization' fund, via at least 600 separate Federal Tort Claims Act claims already filed",
+        "source_url": "https://www.nbcnews.com/politics/justice-department/doj-still-pay-jan-6-rioters-even-anti-weaponization-fund-rcna348426",
+        "maps_to_element": "Establishes that the underlying compensation outcome remains live through an alternate legal mechanism despite the fund's abandonment"
+      }
+    ],
+    "status": "The $1.776B fund itself has been abandoned per Blanche's statement to Congress, but at least 600 individual Federal Tort Claims Act claims by January 6 defendants remain pending as of this entry's sourcing",
+    "rebuttal_anticipated": "The administration could argue the settlement fund was a legitimate resolution of Trump's personal legal claims against the government, structurally separate from any individual January 6 defendant's FTCA claims, and that DOJ's abandonment of the broader fund demonstrates responsiveness to legitimate process concerns rather than an intent to reward political allies.",
+    "comeback": "The concern isn't whether the fund's formal structure was legally permissible -- it's that a settlement of the President's own lawsuit against his own executive branch became the vehicle reporters, GOP allies, and rioters themselves all understood as a mechanism for compensating people convicted of attacking the Capitol on his behalf, and that Trump's own refusal to rule out compensating them, even after the formal fund's collapse, keeps that outcome alive through an alternate legal channel.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented pattern in this tracker of the administration extending benefits, protections, or government positions to individuals connected to Trump's political movement or personal legal history.",
+    "confidence_note": "HIGH confidence on the fund's creation, its settlement origin, its temporary court block, and Blanche's abandonment statement, corroborated across CBS News, NBC News, Yahoo/Ms. Now, and ABC7. HIGH confidence on Trump's own on-record statement declining to rule out compensation, per ABC News's direct reporting. MODERATE confidence on the precise current status and likely outcome of the 600+ individual FTCA claims, since their resolution is an ongoing, case-by-case legal process not yet concluded as of this entry's sourcing.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "DOJ created and then abandoned a $1.776B fund -- originating from a settlement of Trump's own lawsuit against his executive branch -- that was widely understood as a vehicle to compensate January 6 defendants; Trump has refused to rule out compensating them by other means.",
+      "confidence_note": "Well-corroborated across multiple independent outlets; the ultimate outcome of hundreds of individual rioter compensation claims remains an open, ongoing legal process."
     }
   },
   {
