@@ -5743,6 +5743,47 @@
     }
   },
   {
+    "id": "state-department-diplomat-evaluation-overhaul-2026",
+    "title": "State Department overhauls diplomat performance reviews into a forced-competition, zero-sum ratings system",
+    "institution": "U.S. Department of State / Foreign Service",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing -- new Employee Evaluation Report (EER) system implemented for the 2026 review cycle, with the submission deadline postponed to May 29, 2026 and some already-submitted evaluations ordered revised downward",
+    "date_of_action": "2026-03 (reporting of the planned overhaul) through 2026-05 (implementation, deadline postponement, and 'revise and recalibrate' directive)",
+    "what_changed": "The State Department rolled out a new, data-driven Employee Evaluation Report (EER) system for Foreign Service officers, requiring diplomats to compete for a limited, fixed number of top ratings rather than being evaluated against an independent standard -- with supervisors themselves facing consequences if they award too many top scores. In May 2026, the department directed some managers to go back and 'revise and recalibrate' scores on evaluations they had already submitted, lowering them, and postponed the overall evaluation deadline to May 29, 2026. The American Foreign Service Association (AFSA), the union representing Foreign Service officers, formally objected, with AFSA President John Dinkelman warning the new format 'risks making career-defining decisions less fair, less transparent, and more vulnerable to bias' and creates 'a seemingly intentional...zero-sum game' among diplomats. The overhaul follows the mass layoffs State undertook in 2025 and is reported to be positioned to push out additional diplomats.",
+    "primary_proponent": {
+      "name": "Marco Rubio",
+      "role": "Secretary of State",
+      "note": "Oversees the State Department's implementation of the new evaluation system, which follows the department's 2025 mass layoffs and is reported to be designed to further reduce Foreign Service ranks through forced competitive attrition."
+    },
+    "estimated_impact": {
+      "summary": "Career Foreign Service officers now compete against each other for a capped number of top ratings under a system their own union says increases bias and politicization risk, on top of the department's 2025 mass layoffs -- with managers directed to lower already-submitted scores after the fact.",
+      "figures": [],
+      "caveat": "No specific figure for the number of officers expected to be pushed out under the new system was identified in reporting reviewed; AFSA's and reporters' characterizations are qualitative assessments of the system's design and likely effects, not a quantified projection."
+    },
+    "confidence_note": "HIGH confidence on the mechanics of the new evaluation system and AFSA's formal objection, corroborated across multiple independent outlets (Federal News Network in two separate pieces, ABC News, Newsmax, Daily Wire) including State's own internal directive to managers to revise already-submitted scores.",
+    "last_verified": "2026-08-02",
+    "date_added": "2026-08-02",
+    "sources": [
+      {
+        "name": "Federal News Network -- 'State Dept evaluations could push out more diplomats, after mass layoffs last year'",
+        "url": "https://federalnewsnetwork.com/workforce/2026/03/revised-state-department-evaluations-could-push-out-more-diplomats-after-mass-layoffs-last-year/"
+      },
+      {
+        "name": "Federal News Network -- 'State Dept directs managers to revise and recalibrate scores for employee evaluations they've already submitted'",
+        "url": "https://federalnewsnetwork.com/workforce/2026/05/state-dept-directs-managers-to-revise-and-recalibrate-scores-for-employee-evaluations-theyve-already-submitted/"
+      },
+      {
+        "name": "ABC News -- 'US diplomats undergoing divisive new review process'",
+        "url": "https://abcnews.com/US/us-diplomats-undergoing-divisive-new-review-process/story?id=133200525"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "State rolled out a zero-sum diplomat evaluation system forcing officers to compete for capped top ratings, then directed managers to lower already-submitted scores -- drawing formal objection from the Foreign Service's own union.",
+      "estimated_impact": "The Foreign Service union warns the system increases bias and politicization risk and is positioned to push out more diplomats after 2025's mass layoffs.",
+      "confidence_note": "Well-corroborated across multiple independent outlets, including State's own internal directive to managers."
+    }
+  },
+  {
     "id": "state-department-reorganization-trump2",
     "title": "Rubio Eliminated 132+ State Department Offices and Cut 1,300+ Positions, Including Human Rights and War-Crimes Functions",
     "institution": "U.S. Department of State",
@@ -5949,6 +5990,67 @@
         "url": "https://thehill.com/homenews/administration/5201948-justice-department-defends-trump/"
       }
     ]
+  },
+  {
+    "id": "usaid-cdc-cuts-drc-ebola-response-2026",
+    "title": "USAID DRC mission closure and CDC global-health staffing cuts hampered detection and response to 2026 Ebola outbreak",
+    "institution": "USAID (dissolved into State Department) / CDC global health security programs",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing -- outbreak still active and growing as of late July 2026; USAID's DRC mission and broader global-health staffing cuts remain in effect, unreversed",
+    "date_of_action": "2025 (USAID DRC mission closure, CDC global-health staffing cuts) -- outbreak detected April 2026, still growing as of July 2026",
+    "what_changed": "A Bundibugyo-strain Ebola outbreak, first detected in April 2026 in DRC's Ituri province, grew into the fastest-growing Ebola outbreak on record, reaching 3,442 confirmed cases and 1,521 deaths in the DRC by late July 2026, with additional cases and deaths in neighboring Uganda; WHO and Africa CDC declared it a Public Health Emergency of International Concern. USAID's DRC mission had been shuttered in 2025 as part of the agency's broader 83% program-termination and dissolution into the State Department (see this tracker's usaid-dismantlement entry); the International Rescue Committee said the resulting reduction in country-level surveillance capacity contributed to delayed detection, and Bloomberg's public-health commentary and multiple outlets identified reduced CDC staffing and USAID/WHO funding cuts as having limited the surveillance, laboratory, and response-team capacity available to catch and contain the outbreak early. The disease is reported to have spread undetected for several weeks before health authorities officially confirmed it on May 15, 2026.",
+    "primary_proponent": {
+      "name": "Trump administration (USAID dissolution and CDC global-health staffing decisions)",
+      "role": "Executive branch policy dismantling USAID and reducing CDC global-health staffing in 2025",
+      "note": "The USAID DRC mission closure and CDC global-health staffing reductions are documented, dated 2025 administration actions (see the usaid-dismantlement-trump2.json entry for the underlying decision); no single named official was identified in reporting reviewed as personally responsible for the DRC mission closure specifically, as distinct from the broader USAID dissolution already documented in that entry."
+    },
+    "estimated_impact": {
+      "summary": "A rapidly growing, unusually deadly Ebola outbreak spread for weeks before formal detection, in a country where U.S. surveillance and response capacity had been reduced by mission closures and staffing cuts -- though the outbreak's biological origin (a suspected wildlife spillover event) is independently unrelated to those cuts.",
+      "figures": [
+        {
+          "metric": "Confirmed DRC cases, late July 2026",
+          "value": "3,442",
+          "source": "CDC/ECDC situation reporting, cited by multiple outlets"
+        },
+        {
+          "metric": "Confirmed DRC deaths, late July 2026",
+          "value": "1,521",
+          "source": "CDC/ECDC situation reporting"
+        },
+        {
+          "metric": "USAID program terminations enabling the DRC mission closure (context, from existing usaid-dismantlement entry)",
+          "value": "83% of USAID programs (~5,200 contracts)",
+          "source": "Secretary of State Rubio, March 2025, cited in this tracker's usaid-dismantlement-trump2.json entry"
+        }
+      ],
+      "caveat": "IMPORTANT: reporting reviewed does not establish that surveillance/aid cuts caused the outbreak's origin -- scientists attribute that to a suspected wildlife (fruit bat) spillover event, a cause independent of any U.S. policy. The defensible, well-sourced claim is narrower: cuts to USAID's in-country presence and CDC global-health staffing reduced the surveillance and response capacity available once the outbreak began, plausibly contributing to weeks of undetected spread before the May 15, 2026 official confirmation -- this is the framing used throughout this entry, and should not be broadened to a causation claim about the outbreak's origin."
+    },
+    "confidence_note": "MODERATE-HIGH confidence on the surveillance-capacity-reduction claim, corroborated across multiple independent outlets (Bloomberg, Infection Control Today, Think Global Health, NPR, the Borgen Project) and the International Rescue Committee's direct field assessment. LOW confidence on any claim that cuts caused the outbreak itself, which independent reporting attributes to an unrelated wildlife spillover event -- this entry should be framed strictly as a response/detection-capacity claim, not an origin-causation claim, matching the standard this tracker applies to similarly structured claims (see the WHO-withdrawal-surveillance-access-loss entry for the same distinction).",
+    "last_verified": "2026-08-02",
+    "date_added": "2026-08-02",
+    "sources": [
+      {
+        "name": "Bloomberg Opinion -- 'Ebola Fight Is Hampered by US Cuts to CDC, WHO and USAID'",
+        "url": "https://www.bloomberg.com/opinion/articles/2026-05-19/ebola-fight-is-hampered-by-us-cuts-to-cdc-who-and-usaid"
+      },
+      {
+        "name": "NPR -- 'This Ebola outbreak raises questions about when it all began -- and the U.S. response'",
+        "url": "https://www.npr.org/2026/05/18/g-s1-122655/ebola-outbreak-democratic-republic-congo-uganda"
+      },
+      {
+        "name": "Infection Control Today -- '2026 Ebola Outbreak Spreads Across Central Africa as WHO Warns of Growing Crisis Amid CDC and USAID Cuts'",
+        "url": "https://www.infectioncontroltoday.com/view/2026-ebola-outbreak-spreads-central-africa-who-warns-growing-crisis-amid-cdc-usaid-cuts"
+      },
+      {
+        "name": "Politico -- 'Relief group says Trump cuts forced it to scale back surveillance in Ebola-affected region'",
+        "url": "https://www.politico.com/news/2026/05/19/relief-group-says-trump-cuts-forced-it-to-scale-back-surveillance-in-ebola-affected-region-00928578"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "The 2026 DRC Ebola outbreak became the fastest-growing on record after spreading undetected for weeks; USAID's DRC mission closure and CDC global-health staffing cuts had already reduced the surveillance capacity available to catch it early.",
+      "estimated_impact": "3,442 confirmed cases and 1,521 deaths as of late July 2026, in a country where U.S. surveillance capacity had been reduced -- though the outbreak's biological origin is unrelated to those cuts.",
+      "confidence_note": "Well-corroborated on the capacity-reduction claim across multiple outlets and IRC's field assessment; the outbreak's origin itself is attributed to an unrelated wildlife spillover event, and this entry is framed accordingly."
+    }
   },
   {
     "id": "usaid-dismantlement-trump2",

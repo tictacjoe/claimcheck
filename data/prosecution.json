@@ -2158,6 +2158,49 @@
   },
   {
     "official": "Robert F. Kennedy Jr., Secretary of Health and Human Services",
+    "offense_category": "Embedding a disciplined, non-credentialed conspiracy promoter in a federal vaccine-safety data role, combined with a broken transparency commitment to Congress -- no criminal charge; this is an accountability/transparency claim",
+    "contested": true,
+    "incident_summary": "HHS hired David Geier -- a longtime promoter of the debunked vaccine-autism link who was disciplined by Maryland regulators for practicing medicine without a license and has never held a medical license -- as a 'senior data analyst' with access to the CDC's Vaccine Safety Datalink. Secretary Kennedy told Congress that Geier's work protocols were public and that Geier was not conducting or leading autism research, but according to reporting and a formal Senate inquiry (Sen. Ben Ray Lujan), those protocols have not been produced or identified anywhere in the public domain despite Kennedy's claim. House Energy and Commerce Committee Democrats formally opened an inquiry into the hiring, and the Autistic Self Advocacy Network and other disability-rights and public-health groups condemned the appointment.",
+    "elements_required": [
+      "Geier's documented disciplinary history (Maryland regulatory action for practicing medicine without a license, no medical license ever held) is a matter of public record, not disputed characterization",
+      "Kennedy told Congress that Geier's work protocols were public, but reporting and a formal Senate letter document that no such protocols have been located or produced despite that representation",
+      "Geier has direct access to protected federal vaccine-safety data (the CDC Vaccine Safety Datalink) in his HHS role",
+      "Kennedy, as HHS Secretary, is the accountable official for both the hiring decision and the representations he made to Congress about it"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Reporting confirming Geier's prior Maryland disciplinary action for practicing medicine without a license and that he has never held a medical license, alongside HHS's own directory listing him as a 'senior data analyst'",
+        "source_url": "https://www.yahoo.com/news/fact-check-hhs-hired-researcher-020000611.html",
+        "maps_to_element": "Documented disciplinary history and lack of credentials for a role involving federal vaccine-safety data"
+      },
+      {
+        "type": "public_record",
+        "description": "Sen. Ben Ray Lujan's formal letter to Secretary Kennedy stating that despite requests, the protocols for Geier's work at HHS have not been produced or identified in any public domain, contradicting Kennedy's claim that the protocols are public",
+        "source_url": "https://www.lujan.senate.gov/wp-content/uploads/2026/04/Sen-Lujan-Letter-to-Sec-Kennedy-re-David-Geier-Study-Protocols.pdf",
+        "maps_to_element": "Documents the gap between Kennedy's public representation to Congress and what has actually been disclosed"
+      },
+      {
+        "type": "public_record",
+        "description": "House Energy and Commerce Committee Democrats' formal press release announcing an investigation into HHS's hiring of Geier, characterizing him as an 'anti-science conspiracy theorist'",
+        "source_url": "https://democrats-energycommerce.house.gov/media/press-releases/ec-democrats-investigate-hhs-hiring-anti-science-conspiracy-theorist-david",
+        "maps_to_element": "Establishes formal congressional inquiry into the hiring, not merely advocacy-group criticism"
+      }
+    ],
+    "status": "Ongoing -- Geier remained employed at HHS as of this entry's sourcing; his specific work protocols had not been publicly produced despite Kennedy's claim they were public; congressional inquiries (Senate and House Energy and Commerce) remained open",
+    "rebuttal_anticipated": "HHS could argue Geier was hired for a narrow data-review role (reviewing historical Vaccine Datalink records) rather than to conduct or direct autism research, and that his personal views on vaccines don't disqualify him from a data-analyst position; Kennedy could argue any confusion about protocol availability is an administrative delay, not a deliberate withholding.",
+    "comeback": "The dispute isn't just about Geier's views -- it's that HHS's own Secretary told Congress the work protocols were public record, and a formal Senate letter documents that they have not been produced anywhere. Combined with Geier's documented disciplinary history for practicing medicine without a license, embedding him in a role with access to protected federal vaccine-safety data -- while declining to substantiate the transparency Kennedy himself promised -- goes beyond an ordinary personnel disagreement.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern already documented in this tracker's rfk-jr-acip-apa-violation entry of Kennedy embedding vaccine-skeptic figures in federal public-health roles while restricting the transparency normally expected of the underlying process.",
+    "confidence_note": "HIGH confidence on Geier's disciplinary history, his HHS role, and the existence of formal congressional inquiries (Senate and House), corroborated across multiple independent outlets (Mother Jones, Yahoo/AP fact-check, Autistic Self Advocacy Network, House Energy and Commerce Committee's own press release) and a Senator's own letter. MODERATE confidence on characterizing the protocol-disclosure gap as a deliberate broken promise versus administrative delay, since HHS has not provided its own account of why the protocols haven't surfaced.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "HHS hired David Geier, a discredited vaccine-autism conspiracy promoter disciplined for practicing medicine without a license, to review CDC vaccine-safety data; Kennedy told Congress Geier's work protocols were public, but they haven't been produced.",
+      "confidence_note": "Well-corroborated disciplinary history and congressional inquiries; whether the protocol gap is deliberate or administrative delay isn't independently confirmed."
+    }
+  },
+  {
+    "official": "Robert F. Kennedy Jr., Secretary of Health and Human Services",
     "offense_category": "Hatch Act Violation -- using the authority of a federal office to influence the outcome of an election by pressuring third-party candidates to withdraw from congressional races",
     "incident_summary": "Sen. Ron Wyden filed a complaint with the U.S. Office of Special Counsel (OSC) alleging that HHS Secretary Robert F. Kennedy Jr. violated the Hatch Act by placing phone calls urging two Libertarian congressional candidates in Iowa to withdraw from their races: a June 8, 2026 call to Marco Battaglia, running in Iowa's 3rd congressional district, and a June 11, 2026 call to Rick Stewart, running in Iowa's 2nd congressional district. Donald Sherman, president of the nonpartisan watchdog group Citizens for Responsibility and Ethics in Washington (CREW), reviewed a recording of at least one call and said Kennedy invoked his official position and responsibilities as HHS Secretary multiple times during the conversation, calling it a 'clear violation' of the Hatch Act warranting OSC investigation. The complaint seeks an OSC investigation into whether Kennedy improperly used his cabinet position to influence the composition of two competitive U.S. House races. Trump has separately taken steps during his second term to assert greater control over OSC, including firing the office's head earlier in the term, raising questions about whether the currently constituted office will investigate the complaint independently.",
     "contested": true,
