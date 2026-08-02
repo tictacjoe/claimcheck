@@ -1682,6 +1682,55 @@
   },
   {
     "official": "Kash Patel, FBI Director",
+    "offense_category": "Misuse of federal law-enforcement resources and personnel for personal benefit -- no criminal charge; this is a resource-misuse/ethics accountability claim, distinguished from an ordinary personal-conduct story by the diversion of operational FBI staffing",
+    "contested": true,
+    "incident_summary": "A New York Times investigation, corroborated by multiple follow-on outlets, documented a pattern of FBI Director Kash Patel using federal jets, security resources, and FBI personnel for personal and leisure purposes involving his girlfriend, country singer Alexis Wilkins. On May 10, 2025, Patel and Wilkins flew from Washington, D.C. to Philadelphia on an FBI Gulfstream V jet to attend a Chris Stapleton/George Strait concert, watching from a private suite reported to cost between $35,000 and $50,000; through an FBI spokesperson, Patel declined to say who paid for the suite, and representatives for the performers did not confirm the FBI's claim that Wilkins was their invited guest. Separately, Wilkins -- who does not reside with Patel -- was assigned a full-time security detail made up of elite FBI agents previously assigned to the Nashville field office's SWAT team, reportedly the first time a senior FBI official's romantic partner (rather than spouse or dependent) has received a full FBI protective detail. The reporting also documented an earlier trip using a $60 million FBI jet to Penn State to watch Wilkins perform, with the flight crew and security detail collecting overtime pay past 11 p.m. waiting for the concert to end. This NYT investigation is also the original source for a separately-reported episode in which Patel joined a 'VIP snorkel' excursion at the USS Arizona Memorial during an official Hawaii trip.",
+    "elements_required": [
+      "FBI resources (a Gulfstream V jet, and separately a $60 million jet) were used to transport Patel and a non-official companion to leisure events, with FBI flight crew and security personnel logging overtime pay to accommodate the personal schedule",
+      "A dedicated FBI protective detail -- agents pulled from an operational SWAT team -- was assigned full-time to a romantic partner who does not reside with Patel, a documented, unprecedented departure from how FBI protective resources have been allocated to officials' family members historically",
+      "Patel, through an FBI spokesperson, declined to identify who paid for a $35,000-50,000 private concert suite, and the FBI's account that the couple attended as the performers' invited guests was not corroborated by the performers' own representatives",
+      "Patel, as FBI Director, is personally the subject of this reporting and the official accountable for how FBI aircraft, security personnel, and protective-detail assignments under his direction are used"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "New York Times investigation documenting the pattern of jet use, the concert suite, and the girlfriend's security detail -- the original source for this reporting",
+        "source_url": "https://www.nytimes.com/2026/05/15/us/politics/patel-fbi-travel-snorkeling-pearl-harbor.html",
+        "maps_to_element": "Core documented pattern of resource use"
+      },
+      {
+        "type": "news_report",
+        "description": "Reporting that Wilkins's security detail was staffed by agents previously assigned to the Nashville FBI field office's SWAT team, and that this was the first time a senior FBI official's romantic partner received a full protective detail while not residing with the official",
+        "source_url": "https://www.ibtimes.co.uk/fbi-director-luxury-travel-security-scrutiny-1797201",
+        "maps_to_element": "Diversion of operational FBI personnel to a personal protective assignment"
+      },
+      {
+        "type": "news_report",
+        "description": "Reporting that Patel, via an FBI spokesperson, refused to say who paid for the $35,000-50,000 concert suite, and that representatives for the performers did not confirm the FBI's account that Wilkins was their invited guest",
+        "source_url": "https://www.mediaite.com/media/news/kash-patel-refuses-to-say-who-paid-for-him-and-his-girlfriend-to-see-george-strait-concert-from-private-luxury-suite/",
+        "maps_to_element": "Unresolved question of who funded the personal benefit"
+      },
+      {
+        "type": "news_report",
+        "description": "Reporting on the earlier $60 million FBI jet trip to Penn State, with flight crew and security detail collecting overtime pay past 11 p.m. awaiting the end of a personal outing",
+        "source_url": "https://www.thedailybeast.com/make-a-wish-fbi-director-kash-patel-took-girlfriend-to-50000-suite-for-concert/",
+        "maps_to_element": "Documented pattern (not a single incident) and quantifiable taxpayer cost via overtime pay"
+      }
+    ],
+    "status": "Ongoing -- no formal ethics investigation or FBI disciplinary action publicly confirmed as of this entry's sourcing; FBI has declined to answer key funding questions",
+    "rebuttal_anticipated": "FBI could argue security details for officials' associates are a discretionary protective judgment call within the Director's authority, that jet usage for a sitting FBI Director traveling with a companion is not inherently improper absent a specific misuse-of-funds finding, and that no criminal or civil violation has been charged or found.",
+    "comeback": "The specific fact pattern goes beyond ordinary security discretion: assigning a dedicated, SWAT-trained protective detail to a romantic partner who does not live with the official is reported as unprecedented for a senior FBI official, and Patel's own spokesperson declined to answer the direct question of who paid for a $35,000-50,000 private suite -- an unwillingness to account for public resources that itself supports scrutiny, independent of whether any law was ultimately broken.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern already noted in reporting of senior Trump administration officials treating federal agencies' resources and personnel as personal perks.",
+    "confidence_note": "HIGH confidence on the underlying facts (jet flights, concert suite cost range, security-detail staffing), sourced to a New York Times investigation and corroborated across multiple independent follow-on outlets (IBTimes, Daily Beast, Mediaite). MODERATE confidence on characterizing this as a legal/ethics violation specifically, since no formal finding (IG, ethics office, or criminal) had been reported as of this entry's sourcing -- marked `contested` because the FBI disputes elements of the framing (e.g., its claim that Wilkins was the performers' invited guest, which the performers' own representatives did not confirm).",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "An NYT investigation found FBI Director Kash Patel used FBI jets for leisure trips with his girlfriend and had elite FBI SWAT agents reassigned to a full-time protective detail for her, an unprecedented arrangement for a non-cohabitating romantic partner, plus an unexplained $35-50K concert suite.",
+      "confidence_note": "Well-sourced to an NYT investigation and corroborated elsewhere; whether this rises to a formal ethics/legal violation is not yet independently confirmed, and the FBI disputes parts of the framing."
+    }
+  },
+  {
+    "official": "Kash Patel, FBI Director",
     "offense_category": "First Amendment Retaliation Under Color of Law (potential civil/criminal exposure: 18 U.S.C. §242, deprivation of rights under color of law; misuse of federal investigative authority; possible Antideficiency Act / misuse-of-government-resources issues for the underlying jet travel) — NOT charged, no criminal referral identified in available reporting",
     "incident_summary": "After journalist Sarah Fitzpatrick (and earlier reporting) covered Patel's girlfriend's use of FBI jet travel and bodyguard resources, Patel directed FBI personnel to investigate the journalist. DOJ officials internally raised concern the investigation was retaliatory and lacked legal basis; no action was ultimately taken against the journalist. Separately, Patel later ordered polygraph examinations of more than two dozen of his own staff to identify sources who spoke to reporters.",
     "contested": false,

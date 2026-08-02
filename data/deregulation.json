@@ -711,6 +711,54 @@
     ]
   },
   {
+    "id": "epa-vehicle-pollution-standards-delay-2026",
+    "rule_name": "Multi-Pollutant Emissions Standards for Model Years 2027 and Later Light-Duty and Medium-Duty Vehicles (Biden-era vehicle pollution rule)",
+    "administration": "Trump II (2025-present)",
+    "agency": "EPA",
+    "domain": "environmental",
+    "status": "Proposed Repeal",
+    "date_of_action": "2026-05-14 (proposed rule announced)",
+    "original_rule_summary": "The Biden-era rule required a 50% reduction through 2032 in criteria pollutants (ozone, particulate matter, carbon monoxide, nitrogen dioxide, sulfur dioxide, lead) for light-duty vehicles and a 58% cut for medium-duty vehicles, phased in starting with model year 2027.",
+    "what_changed": "EPA proposed delaying enforcement of the Biden-era vehicle pollution standards by two years, pushing the compliance deadline to model year 2029. The agency argued that slowing electric vehicle sales make the original timeline difficult for automakers to meet. In the interim, automakers would continue following the existing, less-stringent Tier 3 standards through 2028, which EPA states already deliver up to an 80% reduction in emissions. EPA's own estimate projects the delay will save automakers $1.7 billion. Automakers have publicly backed the delay.",
+    "primary_proponent": {
+      "name": "EPA Administrator (agency action)",
+      "role": "U.S. Environmental Protection Agency",
+      "note": "EPA itself issued the proposed delay and produced the $1.7 billion savings estimate cited in its own announcement."
+    },
+    "corporate_beneficiaries": [
+      "U.S. automakers broadly -- EPA's own announcement frames the $1.7 billion savings as accruing to manufacturers, and automaker groups publicly supported the delay"
+    ],
+    "estimated_health_impact": {
+      "summary": "Environmental and public-health groups say the two-year delay will mean higher tailpipe pollution exposure for longer, increasing preventable illness tied to ozone, particulate matter, and other criteria pollutants covered by the original rule.",
+      "figures": [
+        {
+          "metric": "Automaker compliance savings from the delay (EPA's own estimate)",
+          "value": "$1.7 billion",
+          "source": "EPA press release, May 2026"
+        }
+      ],
+      "caveat": "The $1.7 billion figure is EPA's own cost-savings estimate for industry, not an independent health-harm estimate; no comparably specific mortality/illness figure from EPA or an independent source was found for this specific delay as of this entry's sourcing."
+    },
+    "confidence_note": "HIGH confidence on the proposed delay's terms and the $1.7 billion figure -- both come directly from EPA's own press release and are corroborated by Reuters and multiple trade/policy outlets. This is a Proposed Repeal, not yet finalized -- worth rechecking for a final rule.",
+    "short_summary": "EPA proposed a two-year delay of Biden-era vehicle pollution standards, to model year 2029, saving automakers an estimated $1.7 billion.",
+    "last_verified": "2026-08-02",
+    "date_added": "2026-08-02",
+    "sources": [
+      {
+        "name": "EPA -- 'EPA Proposes to Delay Unattainable Biden-era Vehicle Standards, Projecting $1.7 Billion in Savings'",
+        "url": "https://www.epa.gov/newsreleases/epa-proposes-delay-unattainable-biden-era-vehicle-standards-projecting-17-billion"
+      },
+      {
+        "name": "Reuters -- 'US EPA proposes delaying enforcement of Biden vehicle pollution rule'",
+        "url": "https://www.reuters.com/legal/litigation/us-epa-proposes-delaying-enforcement-biden-vehicle-pollution-rule-2026-05-14/"
+      },
+      {
+        "name": "Detroit News -- 'Automakers back EPA's plan for two-year delay on emissions cuts'",
+        "url": "https://www.detroitnews.com/story/business/autos/2026/06/03/automakers-back-epas-plan-for-two-year-delay-on-emissions-cuts/90385520007/"
+      }
+    ]
+  },
+  {
     "id": "esa-harm-definition-rollback-2026",
     "rule_name": "Rescission of the Endangered Species Act's regulatory definition of \"harm\" to include habitat destruction (50 C.F.R. § 17.3)",
     "administration": "Trump II",

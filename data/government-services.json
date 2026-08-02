@@ -2889,6 +2889,63 @@
     "last_updated": "2026-07-27"
   },
   {
+    "id": "hhs-schedule-f-civil-service-reclassification-2026",
+    "title": "HHS reclassifies career civil servants under revived Schedule F, stripping removal protections",
+    "institution": "Department of Health and Human Services (including CDC science positions)",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing -- OPM final rule in effect since February 2026, HHS implementation underway as of May 2026",
+    "date_of_action": "2026-02 (OPM final rule) through 2026-05 (HHS supervisor memo)",
+    "what_changed": "The Office of Personnel Management issued a final rule in February 2026 implementing 'Schedule Policy/Career' (the revived Schedule F framework), estimated to affect roughly 50,000 federal positions government-wide by stripping them of traditional competitive-service protections and making them removable at will, without advance notice or the right to appeal to the Merit Systems Protection Board. A May 2026 memo sent to HHS supervisors announced that over 100 HHS positions were being moved into this category, with CDC separately reclassifying a number of science-focused roles -- including research biologists, epidemiologists, and other health scientists -- into the same at-will status. Trump subsequently signed an executive order in June 2026 formally converting nearly 10,000 career federal workers government-wide into Schedule Policy/Career.",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services",
+      "note": "Oversaw implementation of the Schedule Policy/Career reclassification within HHS and CDC, moving career scientific and public-health staff into an at-will employment category as part of the administration's broader OPM-driven Schedule F rollout."
+    },
+    "estimated_impact": {
+      "summary": "Career civil servants at HHS and CDC, including scientists directly responsible for public-health research and disease surveillance, lost job-protection rights and became removable without the standard due-process and appeal protections competitive-service employees have historically had.",
+      "figures": [
+        {
+          "metric": "HHS positions reclassified per initial May 2026 supervisor memo",
+          "value": "100+",
+          "source": "FedSmith, citing the internal HHS memo, May 2026"
+        },
+        {
+          "metric": "Federal positions estimated affected government-wide by the OPM final rule",
+          "value": "~50,000",
+          "source": "OPM final rule, February 2026, as reported by Partnership for Public Service"
+        },
+        {
+          "metric": "Career federal workers converted government-wide per Trump's June 2026 executive order",
+          "value": "~10,000 (nearly)",
+          "source": "Government Executive, June 2026"
+        }
+      ],
+      "caveat": "The 50,000 figure is a government-wide OPM estimate at the time of the final rule, not an HHS-specific count; the 100+ HHS figure is from an initial internal memo and may have grown as implementation continued through mid-2026."
+    },
+    "confidence_note": "HIGH confidence -- the OPM final rule, the HHS supervisor memo, and the subsequent executive order are all independently corroborated across multiple outlets (FedSmith, STAT News, Federal News Network, Government Executive, NARFE), with consistent figures across close reporting dates.",
+    "last_verified": "2026-08-02",
+    "date_added": "2026-08-02",
+    "sources": [
+      {
+        "name": "FedSmith -- 'Trump Administration Moves To Reclassify HHS Jobs As At-Will Positions'",
+        "url": "https://www.fedsmith.com/2026/05/18/trump-administration-moves-to-reclassify-hhs-jobs-as-at-will-positions/"
+      },
+      {
+        "name": "STAT News -- 'What stripping civil service protections for thousands of federal workers will mean for HHS'",
+        "url": "https://www.statnews.com/2026/06/05/schedule-f-changes-impacts-nih-cdc-fda/"
+      },
+      {
+        "name": "Government Executive -- 'Trump signs order moving thousands of federal employees into Schedule F'",
+        "url": "https://www.govexec.com/workforce/2026/06/trump-federal-employees-schedule-f/413945/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "HHS moved 100+ positions, including CDC scientists, into the revived Schedule F 'at-will' category as part of a government-wide OPM rule ultimately converting nearly 10,000 career federal workers.",
+      "estimated_impact": "Career public-health scientists and other HHS staff lost standard due-process and appeal protections against removal.",
+      "confidence_note": "Well-corroborated across multiple independent outlets with consistent figures."
+    }
+  },
+  {
     "id": "hud-fair-housing-staff-cuts-trump2",
     "title": "HUD's Fair Housing Office Cut by Roughly Two-Thirds Amid Whistleblower Allegations",
     "institution": "U.S. Department of Housing and Urban Development, Office of Fair Housing and Equal Opportunity",
@@ -4897,6 +4954,58 @@
         "url": "https://files.peacecorps.gov/documents/Peace_Corps_FY_2027_CBJ.pdf"
       }
     ]
+  },
+  {
+    "id": "pentagon-civilian-harm-reduction-program-dismantled-2026",
+    "title": "Pentagon dismantles civilian harm reduction program despite congressional mandate, watchdog finds",
+    "institution": "Department of Defense (Department of War) -- Civilian Harm Mitigation and Response Action Plan / Civilian Protection Center of Excellence",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing -- Inspector General found continued noncompliance as of May 2026; Congress has not acted on Pentagon's 2025 proposal to repeal the underlying statutes",
+    "date_of_action": "2026-05 (Inspector General report and congressional hearing)",
+    "what_changed": "A Department of War Inspector General report found the Pentagon had begun dismantling its Civilian Harm Mitigation and Response Action Plan and associated Civilian Protection Center of Excellence -- programs Congress mandated by statute to reduce and respond to civilian casualties in U.S. military operations -- even though no formal decision to end them had been announced. The IG found meetings had stopped, staff had been reassigned away from the program, funding was cut, and the data-tracking system used to log civilian-harm incidents had been abandoned, leaving the military without the personnel, tools, or infrastructure needed to comply with the two federal statutes requiring the program. The Pentagon had separately sent Congress a proposal in May 2025 to repeal the underlying laws, but Congress has not acted on it. At a May 2026 House Armed Services Committee hearing, lawmakers pressed Army Secretary Dan Driscoll and the Acting Army Chief of Staff on the cuts; a group of 11 senators led by Elizabeth Warren and Chris Van Hollen separately opened an inquiry demanding the Pentagon account for the dismantling.",
+    "primary_proponent": {
+      "name": "Pete Hegseth",
+      "role": "Secretary of Defense (Secretary of War)",
+      "note": "As head of the Department of War, accountable for the department's decision to reassign staff, cut funding, and abandon the data system underlying a program Congress mandated by statute, without a formal announcement ending it."
+    },
+    "estimated_impact": {
+      "summary": "The U.S. military lost the dedicated staff, funding, and data infrastructure needed to track and mitigate civilian casualties from its own operations, in apparent violation of two federal statutes, per the Department's own Inspector General.",
+      "figures": [
+        {
+          "metric": "Federal statutes the IG found the Pentagon no longer able to comply with",
+          "value": "2",
+          "source": "Department of War Inspector General report, May 2026"
+        },
+        {
+          "metric": "Senators formally demanding accounting for the cuts",
+          "value": "11 (led by Warren and Van Hollen)",
+          "source": "Sen. Warren's July 2026 letter to Secretary Hegseth"
+        }
+      ],
+      "caveat": "The IG report documents a pattern of de facto dismantling (meetings stopped, staff reassigned, funding cut, data system abandoned) rather than a single formal decision, which is itself part of the finding -- the Pentagon avoided the accountability that would come with an announced policy change."
+    },
+    "confidence_note": "HIGH confidence -- based on a Department of War Inspector General finding, the strongest source type this tracker prioritizes, and independently corroborated across multiple outlets (Washington Times, Army Times, Stars and Stripes, The Intercept) plus a formal Senate oversight letter.",
+    "last_verified": "2026-08-02",
+    "date_added": "2026-08-02",
+    "sources": [
+      {
+        "name": "Washington Times -- 'Pentagon cutting civilian harm mitigation program may break the law, says watchdog report'",
+        "url": "https://www.washingtontimes.com/news/2026/may/16/pentagon-cutting-civilian-harm-mitigation-program-may-break-law/"
+      },
+      {
+        "name": "Army Times -- 'Congress clashes with Pentagon over civilian harm reduction program'",
+        "url": "https://www.armytimes.com/news/pentagon-congress/2026/05/15/congress-clashes-with-pentagon-over-civilian-harm-reduction-program/"
+      },
+      {
+        "name": "Sen. Elizabeth Warren -- Letter from Senator Warren and colleagues to Secretary Hegseth on the CHMR-AP IG Report",
+        "url": "https://www.warren.senate.gov/wp-content/uploads/2026/07/Letter-from-Senator-Warren-Colleagues-to-Secretary-Hegseth-on-CHMR-AP-IG-Report.pdf"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "A DoD Inspector General found the Pentagon quietly dismantled its congressionally mandated civilian-harm-reduction program -- cutting funding, reassigning staff, and abandoning its casualty-tracking system without a formal decision to end it.",
+      "estimated_impact": "The military can no longer comply with two federal statutes requiring a functioning civilian-casualty policy, per the Pentagon's own watchdog.",
+      "confidence_note": "Based on a formal Inspector General finding, the strongest source type this tracker prioritizes; well-corroborated elsewhere."
+    }
   },
   {
     "id": "pepfar-cuts-hiv-treatment-sites-closed-2025-2026",
