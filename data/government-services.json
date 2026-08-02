@@ -2311,17 +2311,27 @@
           "metric": "FEMA senior leadership positions vacant, mid-2026",
           "value": "18 of 38",
           "source": "Federal News Network"
+        },
+        {
+          "metric": "FEMA incident management workforce available, June 1, 2026",
+          "value": "12%",
+          "source": "House Democrats' oversight letter, cited by Government Executive, May 2026"
+        },
+        {
+          "metric": "Total FEMA employees departed since January 2025",
+          "value": "5,000+",
+          "source": "Government Executive / multi-outlet reporting, May 2026"
         }
       ],
       "caveat": "GovFacts' broader analysis of whether cuts affected the flood response itself is careful to note that specific FEMA deployment numbers for the July 2025 disaster weren't fully public at time of writing, and frames the staffing-to-outcome link as 'plausible' rather than definitively proven for every aspect of the response -- the call-center funding lapse specifically, however, is documented via internal agency records, not just inference."
     },
-    "confidence_note": "Very strong sourcing on the call-center failure specifically: NPR's reporting is based on an internal memo signed by the acting FEMA administrator himself and contemporaneous call-center logs, which directly contradict FEMA's own public statement on the matter -- a documented instance of the agency's public claims being contradicted by its own internal records. The broader staffing figures come from GAO, the government's own nonpartisan watchdog. The claim that staffing cuts caused specific loss of life or slower rescues is more contested and should be sourced to GovFacts' careful 'plausible link' framing rather than asserted as proven. Re-verified 2026-07-20: the specific, documented call-center failure during the July 2025 Texas floods remains the strongest evidentiary anchor for this entry. The broader staffing/leadership picture has continued to deteriorate into 2026 by the numbers, even as FEMA has begun a modest hiring push and leadership publicly frames current readiness as adequate ahead of a below-normal-forecast hurricane season -- present both the raw staffing trend and the agency's own readiness characterization, since they're not strictly contradictory (a smaller agency can still claim adequate readiness for a lighter-than-average season). Re-verified 2026-07-26: the committee vote and Hamilton's hearing pledge are corroborated by Government Executive, HSToday, and contemporaneous reporting (Craig Caplan/press pool coverage of the committee vote).",
+    "confidence_note": "Very strong sourcing on the call-center failure specifically: NPR's reporting is based on an internal memo signed by the acting FEMA administrator himself and contemporaneous call-center logs, which directly contradict FEMA's own public statement on the matter -- a documented instance of the agency's public claims being contradicted by its own internal records. The broader staffing figures come from GAO, the government's own nonpartisan watchdog. The claim that staffing cuts caused specific loss of life or slower rescues is more contested and should be sourced to GovFacts' careful 'plausible link' framing rather than asserted as proven. Re-verified 2026-07-20: the specific, documented call-center failure during the July 2025 Texas floods remains the strongest evidentiary anchor for this entry. The broader staffing/leadership picture has continued to deteriorate into 2026 by the numbers, even as FEMA has begun a modest hiring push and leadership publicly frames current readiness as adequate ahead of a below-normal-forecast hurricane season -- present both the raw staffing trend and the agency's own readiness characterization, since they're not strictly contradictory (a smaller agency can still claim adequate readiness for a lighter-than-average season). Re-verified 2026-07-26: the committee vote and Hamilton's hearing pledge are corroborated by Government Executive, HSToday, and contemporaneous reporting (Craig Caplan/press pool coverage of the committee vote). Re-verified 2026-08-02: a formal House Democrats oversight letter (ranking members of the Homeland Security Committee and its FEMA subcommittee) independently corroborates the staffing decline with a specific new figure -- only 12% of FEMA's incident management workforce was available as of June 1, 2026 -- and frames it as the worst readiness posture 'in a generation' heading into hurricane season. No change to the entry's core facts, just additional congressional-record corroboration of the existing trend.",
     "section_summaries": {
       "what_changed": "A Noem rule requiring her sign-off on spending over $100,000 delayed FEMA's call-center funding and rescue deployment during the deadly 2025 Texas floods.",
       "estimated_impact": "Internal FEMA records themselves, not outside inference, connect the sign-off rule directly to the call-center breakdown that happened during a real, fatal flood -- this already occurred, it wasn't a modeled risk.",
       "confidence_note": "Strongly sourced via internal memos and GAO data; whether the cuts caused specific deaths or slower rescues stays contested, framed as a plausible link, not a proven cause."
     },
-    "last_verified": "2026-07-26",
+    "last_verified": "2026-08-02",
     "date_added": "2026-07-07",
     "sources": [
       {
@@ -2351,6 +2361,10 @@
       {
         "name": "Federal News Network — FEMA begins limited hiring campaign after wave of departures",
         "url": "https://federalnewsnetwork.com/hiring-retention/2026/05/fema-begins-limited-hiring-campaign-after-wave-of-departures/"
+      },
+      {
+        "name": "Government Executive -- 'FEMA is not ready for hurricane season due to Trump upheaval, House Democrats argue'",
+        "url": "https://www.govexec.com/management/2026/05/fema-not-ready-hurricane-season-due-trump-upheaval-house-democrats-argue/413585/"
       }
     ],
     "last_updated": "2026-07-26"
