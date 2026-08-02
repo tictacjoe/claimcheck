@@ -440,6 +440,55 @@
     }
   },
   {
+    "official": "Pam Bondi, Attorney General Jan 2025-Apr 2026 (oversaw the dismantling); Todd Blanche, Acting Attorney General since April 2026, has not restored the unit",
+    "offense_category": "Deliberate impairment of federal public-corruption enforcement combined with a pattern of pardons for politically-connected allies -- no criminal charge against Bondi or Blanche personally; this is an institutional-capacity and accountability-evasion claim, not a completed prosecution",
+    "contested": false,
+    "incident_summary": "Under Attorney General Pam Bondi, DOJ's Public Integrity Section -- the unit responsible for prosecuting public corruption by federal, state, and local officials -- was reduced from roughly 36-40 full-time attorneys handling 175-200 open matters at the start of the second Trump term to just two attorneys overseeing about 20 remaining investigations by May 2026, per current and former DOJ officials. The section, the oldest of its kind since its 1976 creation, has never been this small. The staffing cut coincided with parallel rollbacks elsewhere in DOJ's anti-corruption infrastructure: a pause in enforcing the Foreign Corrupt Practices Act against U.S. executives who bribe foreign officials, disbanding of an FBI squad devoted to investigating congressional misconduct, disbanding of a task force pursuing Russian oligarchs' assets, and a pullback in enforcing the Foreign Agents Registration Act. Over the same period, Trump pardoned at least 15 people who had been charged with or convicted of public corruption, including political allies and supporters. Sen. Sheldon Whitehouse sent DOJ a formal oversight letter demanding answers on the section's dismantling. Bondi left DOJ in April 2026; Deputy Attorney General Todd Blanche, Trump's former personal defense attorney, became acting Attorney General and has not publicly moved to restore the section's staffing.",
+    "elements_required": [
+      "DOJ's dedicated public-corruption prosecution unit was cut from roughly 36-40 full-time attorneys handling 175-200 open matters to 2 attorneys handling about 20 matters -- a quantified, documented ~90% reduction in dedicated capacity, confirmed by multiple named and unnamed current/former DOJ officials",
+      "The staffing cut was accompanied by parallel dismantling of adjacent anti-corruption enforcement infrastructure (FCPA pause, disbanded congressional-corruption FBI squad, disbanded oligarch-asset task force, pulled-back FARA enforcement), establishing a pattern rather than an isolated staffing decision",
+      "Trump pardoned at least 15 individuals charged with or convicted of public corruption during the same period the prosecuting unit was being gutted, per named reporting",
+      "Bondi, as the Attorney General overseeing DOJ during the period the cuts occurred, and Blanche, as her successor who has not reversed them, are the accountable officials for the department's public-corruption enforcement capacity"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "NBC News reporting, citing current and former DOJ officials, that the Public Integrity Section dropped from a unit with dozens of employees to roughly a half-dozen remaining, no longer directly handling investigations or prosecutions",
+        "source_url": "https://www.nbcnews.com/politics/justice-department/justice-department-office-prosecutes-public-corruption-slashed-size-so-rcna195928",
+        "maps_to_element": "Quantified reduction in dedicated prosecutorial capacity"
+      },
+      {
+        "type": "news_report",
+        "description": "NOTUS reporting the section went from 36 full-time corruption attorneys to two under Trump",
+        "source_url": "https://www.notus.org/courts/doj-public-integrity",
+        "maps_to_element": "Quantified reduction in dedicated prosecutorial capacity"
+      },
+      {
+        "type": "news_report",
+        "description": "NPR reporting connecting the Public Integrity Section's rollback to Trump's pardons for politicians, allies, and supporters accused or convicted of corruption",
+        "source_url": "https://www.npr.org/2026/05/13/g-s1-121485/trump-pardons-public-corruption-justice",
+        "maps_to_element": "Pardon pattern for corruption-connected allies during the same period"
+      },
+      {
+        "type": "public_record",
+        "description": "Sen. Sheldon Whitehouse's formal oversight letter to DOJ demanding answers on the Public Integrity Section's dismantling",
+        "source_url": "https://www.whitehouse.senate.gov/news/release/whitehouse-demands-answers-from-justice-department-on-dismantling-of-public-integrity-section/",
+        "maps_to_element": "Documented congressional concern establishing the dismantling as a matter of public record, not just press characterization"
+      }
+    ],
+    "status": "Ongoing -- Public Integrity Section remained reduced to a skeleton staff as of May 2026 reporting, with no public indication of restaffing under Acting AG Blanche",
+    "rebuttal_anticipated": "DOJ could argue the staffing changes reflect a legitimate reorganization of prosecutorial priorities, that the pardon power is constitutionally unreviewable and each pardon can be defended on its individual merits, and that reduced headquarters staffing doesn't necessarily mean corruption cases aren't being pursued through U.S. Attorney's offices instead.",
+    "comeback": "The scale of the cut (roughly 90%, from dozens of attorneys and 175-200 open matters down to two attorneys and about 20) is corroborated by multiple independent outlets citing named and unnamed DOJ officials, not a single source's characterization, and it happened in parallel with the dismantling of several other, unrelated anti-corruption units (FCPA, FARA, the oligarch-asset task force) -- a pattern harder to explain as ordinary reallocation than a single office's staffing change would be. Layering at least 15 corruption pardons for politically-connected figures on top of that capacity cut is what former officials point to as producing a documented chilling effect on the prosecutors who remain.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern already documented elsewhere in this tracker of directing DOJ's investigative and prosecutorial resources away from matters that could implicate the administration's political allies.",
+    "confidence_note": "HIGH confidence on the staffing-reduction figures and the pardon count, both corroborated across multiple independent outlets (NBC, NOTUS, NPR) citing named and unnamed current/former DOJ officials. MODERATE confidence on directly attributing coordinated intent to Bondi or Blanche specifically -- the causal link between the cuts and the pardons is drawn by outside experts and former officials, not an on-the-record admission from either official.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "DOJ's Public Integrity Section was cut from ~36-40 attorneys handling 175-200 matters to 2 attorneys handling ~20, under AG Bondi, while Trump pardoned at least 15 people convicted or charged with public corruption over the same period.",
+      "confidence_note": "Well-corroborated staffing and pardon figures across NBC, NOTUS, and NPR; the causal link between the two is analyst/former-official characterization, not an on-the-record admission."
+    }
+  },
+  {
     "official": "Pam Bondi, then-Attorney General (served 2025-2026, removed April 2026)",
     "offense_category": "Vindictive/Selective Prosecution (violates Due Process; established legal doctrine, e.g. United States v. Goodwin) and Appointments Clause Violation (U.S. Const. Art. II, §2, re: unlawful appointment of the prosecuting U.S. Attorney) — the underlying CHARGES against James were brought and then dismissed; Bondi herself was not charged with anything personally",
     "incident_summary": "Following repeated public calls by President Trump for Bondi's DOJ to prosecute New York Attorney General Letitia James (who had brought a civil fraud case against Trump and his businesses), DOJ pursued criminal charges against James. A federal judge dismissed the case after finding the interim U.S. Attorney who secured the indictment had been unlawfully appointed. Two separate federal grand juries also declined to indict James. Congressional Judiciary Democrats opened an investigation into the matter, characterizing it as retaliatory prosecutorial abuse.",
@@ -684,6 +733,49 @@
     }
   },
   {
+    "official": "Todd Blanche, Acting Attorney General overseeing DOJ's nationwide gender-affirming-care subpoena campaign",
+    "offense_category": "Prosecutorial/Grand Jury Overreach implicating patient privacy -- no criminal charges have been filed against Rhode Island Hospital, any provider, or any patient; this is a subpoena/investigative-power matter, not a completed prosecution",
+    "contested": false,
+    "incident_summary": "DOJ subpoenaed Rhode Island Hospital (part of Brown University Health/Lifespan) for the birth dates, Social Security numbers, and addresses of every patient who received transgender care there over the prior five years, plus all documentation of adverse side effects in minor patients, assessments for puberty blockers or hormone therapy, patient intake forms, and guardian authorizations. On May 13-14, 2026, U.S. District Judge Mary McElroy (D.R.I.) blocked the subpoena, writing that DOJ had 'proven unworthy' of the trust ordinarily extended to federal prosecutors. McElroy wrote that the administration 'has publicly characterized gender-affirming care for minors as abuse, directed the justice department to bring its practice to an end, and celebrated when hospitals curtailed such programs as a result of this subpoena campaign' -- tying the subpoena to a stated political goal rather than a neutral investigative need. This is one of at least seven federal districts, including Massachusetts, where judges have now blocked DOJ subpoenas seeking hospitals' transgender-care patient records as part of the same nationwide campaign (see also this tracker's NYU Langone entry, a separate subpoena in the same campaign issued out of the Northern District of Texas).",
+    "elements_required": [
+      "DOJ subpoenaed highly sensitive personal-identifying and medical information (Social Security numbers, birth dates, addresses, treatment and consent records) for an entire patient population, not narrowly tied to any specific individual investigation",
+      "A federal judge independently found DOJ's conduct in this specific case warranted a rebuke beyond ordinary subpoena-scope narrowing, stating DOJ had 'proven unworthy' of prosecutorial trust",
+      "This is part of a broader, documented pattern: DOJ has now been blocked by judges in at least seven different federal districts pursuing the same category of subpoena against different hospitals nationwide",
+      "The court itself found DOJ's public characterization of gender-affirming care for minors as 'abuse,' and its stated goal of ending the practice, tied this subpoena to a political objective rather than a neutral evidentiary need"
+    ],
+    "evidence": [
+      {
+        "type": "court_filing",
+        "description": "Judge Mary McElroy's ruling that DOJ had 'proven unworthy' of prosecutorial trust, and her finding that the administration's public 'abuse' framing and celebration of hospitals curtailing care tied the subpoena to a political goal",
+        "source_url": "https://www.bostonglobe.com/2026/05/13/metro/ri-judge-blocks-doj-transgender-records/",
+        "maps_to_element": "Judicial finding of DOJ misconduct beyond ordinary overbreadth"
+      },
+      {
+        "type": "news_report",
+        "description": "The Hill's reporting detailing the specific scope of the subpoenaed records (SSNs, birth dates, addresses, adverse-event and treatment-assessment records)",
+        "source_url": "https://thehill.com/policy/healthcare/judge-blocks-doj-demand-rhode-island-transgender-kids-records/",
+        "maps_to_element": "Sweeping scope of subpoenaed information"
+      },
+      {
+        "type": "news_report",
+        "description": "Reporting that the Trump administration has been blocked in at least seven federal districts, including Massachusetts, pursuing similar subpoenas against hospitals nationwide",
+        "source_url": "https://www.nbcnews.com/nbc-out/out-news/judge-blocks-trump-admins-subpoena-trans-kids-medical-records-boston-h-rcna230310",
+        "maps_to_element": "Multi-district pattern establishing this as a coordinated campaign, not an isolated subpoena"
+      }
+    ],
+    "status": "Blocked -- TRO/injunction granted May 2026 preventing disclosure; DOJ's broader subpoena campaign against other hospitals continues in other districts",
+    "rebuttal_anticipated": "DOJ could argue investigating potential Medicaid fraud or standard-of-care violations connected to gender-affirming care is a legitimate law-enforcement purpose regardless of any single subpoena's outcome, and that a court narrowing an overly broad request is the adversarial system working as intended.",
+    "comeback": "A federal judge did not merely narrow the subpoena's scope -- she found DOJ itself 'unworthy' of the trust the request depended on, and grounded that finding in the administration's own public statements tying the subpoena campaign to a stated goal of ending gender-affirming care for minors nationwide, not a neutral fraud inquiry. That the same category of subpoena has now been blocked in seven separate federal districts undercuts the idea that any single ruling reflects an isolated overreach rather than a deliberate, repeated pattern.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern already documented in this tracker's NYU Langone entry -- DOJ pursuing the same category of subpoena against multiple hospitals nationwide as part of a single coordinated campaign.",
+    "confidence_note": "HIGH confidence -- the subpoena's scope and the court's ruling are directly documented in the judge's own order and corroborated by multiple independent outlets (Boston Globe, The Hill, PinkNews, Insurance Journal, NBC News). MODERATE confidence attributing personal responsibility to Blanche specifically for this individual subpoena's scope, since no source confirms his personal review versus department-level or U.S. Attorney's-office-level action under his authority.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "DOJ subpoenaed Rhode Island Hospital for the identifying and medical records of every transgender patient it treated; a federal judge blocked it, finding DOJ 'unworthy' of prosecutorial trust and tying the subpoena to the administration's stated goal of ending such care.",
+      "confidence_note": "Well-documented via the court's own ruling and multiple outlets; Blanche's personal role in this specific subpoena's scope is not individually confirmed."
+    }
+  },
+  {
     "official": "Sean Duffy, Secretary of Transportation",
     "offense_category": "Potential Federal Advisory Committee Act (FACA, 5 U.S.C. App.) transparency violations and procurement-integrity concerns regarding use of a private, unaccountable actor (SpaceX) in federal aviation safety decision-making — NOT charged; this documents a transparency/accountability concern raised by senators, not a confirmed legal violation",
     "incident_summary": "Following a January 29, 2026 mid-air collision near Washington National Airport and a string of other aviation incidents in the following weeks, Duffy oversaw mass firings of FAA personnel during the same period that SpaceX employees and DOGE staff became involved in 'critical aviation safety decision making,' according to Duffy's own public statements about SpaceX 'delivering a new, world-class air traffic control system.' Senators sent a formal letter raising concerns about the lack of accountability and public process around this private-sector involvement in safety-critical government functions.",
@@ -736,6 +828,55 @@
     "section_summaries": {
       "incident_summary": "Following a fatal near-DC collision, Duffy cut FAA staff while letting SpaceX and DOGE personnel into safety-critical air-traffic decisions.",
       "confidence_note": "Senators put pointed accountability questions in writing, and nothing on record shows DOT ever actually answered them."
+    }
+  },
+  {
+    "official": "Kash Patel, FBI Director; Todd Blanche, Acting Attorney General overseeing DOJ's 2020-election investigations",
+    "offense_category": "Federal law-enforcement pattern targeting already-resolved 2020-election claims through intimidation-adjacent investigative tactics -- no criminal charge against any official; this is an abuse-of-investigative-power claim",
+    "contested": false,
+    "incident_summary": "FBI agents visited the private home of Milwaukee County Elections Director Michelle Hawley in May 2026, leaving a business card after she was unavailable, as part of a widening federal probe into Wisconsin's handling of the 2020 election. Milwaukee County Clerk George Christenson publicly criticized the visit, saying it was 'unfortunate that the FBI chose to visit the private residence of Milwaukee County's Elections Director rather than contact the Election Commission's office directly,' while reaffirming the county's position that the 2020 election was 'fair and transparent.' The visit is one part of a broader, multi-state DOJ/FBI effort demanding 2020 ballots and election records specifically from counties Trump has publicly and falsely blamed for his loss: agents have separately seized roughly 600 boxes of ballots from Fulton County, Georgia, subpoenaed records from Maricopa County, Arizona, and in Milwaukee are pursuing roughly 180,000 preserved absentee ballots as well as follow-up interviews with Milwaukee police officers who were on duty on election night 2020. Wisconsin Gov. Tony Evers said he would resist federal efforts to seize Milwaukee's ballots. A June 2026 Votebeat analysis, citing election-law experts, characterized the pattern of investigations as more plausibly aimed at building a pretext ahead of the 2026 midterms than at genuinely investigating events from six years earlier.",
+    "elements_required": [
+      "FBI agents went to a named local election official's private residence rather than contacting her through her official office -- a documented departure from normal investigative practice, called out publicly by the county clerk",
+      "The visit is part of a broader, multi-state pattern of DOJ/FBI demands for 2020 ballots and records specifically targeting counties Trump has publicly and falsely blamed for his loss (Milwaukee WI, Fulton County GA, Maricopa County AZ), rather than a neutral nationwide review",
+      "The underlying 2020 election-fraud claims driving the investigation were already resolved through audits, recounts, and court rulings in 2020-2021, a matter of settled public record",
+      "FBI Director Patel and Acting AG Blanche are the accountable officials for the bureau's and department's conduct of an investigation opened and pursued under their leadership"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "Wisconsin Examiner and CBS News reporting that FBI agents visited Hawley's home and left a card; County Clerk Christenson's public statement criticizing the home visit as inappropriate given the Elections Commission office was the normal point of contact",
+        "source_url": "https://www.cbsnews.com/news/fbi-milwaukee-county-wisconsin-election-official/",
+        "maps_to_element": "Documented departure from normal investigative practice, called out by a named county official"
+      },
+      {
+        "type": "news_report",
+        "description": "Reporting on the same DOJ/FBI campaign's actions in Fulton County, GA (ballot seizure) and Maricopa County, AZ (subpoena), establishing the multi-state pattern",
+        "source_url": "https://apnews.com/article/2020-georgia-election-workers-trump-justice-department-22ed0f675d7793a272c9acb6048a4417",
+        "maps_to_element": "Multi-state pattern targeting counties tied to Trump's 2020 loss narrative"
+      },
+      {
+        "type": "analysis",
+        "description": "Votebeat analysis, citing named election-law experts, characterizing the investigation pattern as more plausibly a 2026-midterm pretext than genuine 2020 fact-finding",
+        "source_url": "https://www.votebeat.org/national/2026/06/08/fbi-investigation-2020-election-trump-milwaukee-fulton-maricopa/",
+        "maps_to_element": "Expert characterization of investigative purpose"
+      },
+      {
+        "type": "public_record",
+        "description": "Gov. Tony Evers's public statement that he would resist federal efforts to seize Milwaukee's 2020 ballots",
+        "source_url": "https://www.yahoo.com/news/articles/evers-says-ll-resist-trump-222823526.html",
+        "maps_to_element": "State-level pushback establishing the dispute as a matter of public record"
+      }
+    ],
+    "status": "Ongoing -- investigation remained in a preliminary phase as of June 2026 reporting, with the FBI moving next to interview Milwaukee police officers on duty election night 2020; no ballots have been seized in Wisconsin",
+    "rebuttal_anticipated": "DOJ/FBI could argue any investigative avenue -- including a home visit when an official is otherwise unreachable -- is legitimate absent a specific finding of misconduct, and that investigating a past election isn't inherently improper regardless of prior audit results.",
+    "comeback": "The home-visit tactic itself, the specific pattern of targeting only counties tied to Trump's 2020 loss narrative rather than a neutral nationwide sample, and the fact the underlying fraud claims were already resolved through the normal legal process in 2020-2021 together support a characterization of investigative pressure rather than genuine fact-finding -- a characterization multiple named election-law experts have made on the record, not merely the targeted county's own framing.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented DOJ 2020-election-grievance pattern already in this tracker (the Fulton County, GA ballot-seizure and subpoena entries).",
+    "confidence_note": "HIGH confidence on the home-visit fact and the county clerk's public criticism, corroborated across multiple independent local and national outlets (CBS News, WPR, Wisconsin Examiner, NBC News). MODERATE confidence on the '2026-midterm pretext' characterization, which is sourced to named election-law experts' analysis rather than an on-the-record DOJ admission of purpose.",
+    "last_updated": "2026-08-02",
+    "date_added": "2026-08-02",
+    "section_summaries": {
+      "incident_summary": "FBI agents visited Milwaukee's elections director at her home rather than her office as part of a widening DOJ probe into 2020 election counties Trump has blamed for his loss; the county clerk publicly criticized the tactic.",
+      "confidence_note": "Well-corroborated across multiple independent outlets; the 'pretext for 2026' framing is expert analysis, not an on-the-record DOJ admission."
     }
   },
   {
