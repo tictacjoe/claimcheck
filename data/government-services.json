@@ -36,15 +36,15 @@
           "source": "HHS, cited by InsuranceNewsNet/CNBC, July 2026 -- disputed figure, see caveat"
         }
       ],
-      "caveat": "HHS's fraud/'phantom enrollment' figure and the overall enrollment-decline figure are coincidentally similar in scale (~2.6 million each) but represent different HHS and independent-analyst framings of the same underlying decline -- this entry presents both explanations as competing, disputed accounts rather than treating either as settled. Independent analysts and state officials attribute the bulk of the decline to subsidy expiration and premium increases, not fraud; HHS's own estimate of historical improper-enrollment growth (2021-2024) is itself a contested figure disputed by ACA-marketplace advocates, though a detailed rebuttal was not reviewed for this entry."
+      "caveat": "HHS's fraud/'phantom enrollment' figure and the overall enrollment-decline figure are coincidentally similar in scale (~2.6 million each) but represent different HHS and independent-analyst framings of the same underlying decline -- this entry presents both explanations as competing, disputed accounts rather than treating either as settled. Independent analysts and state officials attribute the bulk of the decline to subsidy expiration and premium increases, not fraud; HHS's own estimate of historical improper-enrollment growth (2021-2024) is itself a contested figure disputed by ACA-marketplace advocates, though a detailed rebuttal was not reviewed for this entry. Separately, insurance-market analysts warned in May 2026 reporting that the enrollment drop -- disproportionately among healthier, price-sensitive enrollees who leave first when subsidies shrink -- will leave insurers pricing 2027 plans against a smaller, sicker risk pool, projecting a further round of rate increases; this is a forward-looking analyst projection, not yet an observed 2027 rate figure, and should be framed as such."
     },
-    "confidence_note": "HIGH confidence on the core enrollment-decline figures and state-level breakdowns, sourced to federal data and corroborated across PBS News, CNBC, Washington Times, and HHS's own ASPE enrollment report. MODERATE confidence on attributing primary causation to either explanation (subsidy expiration/premiums vs. fraud crackdown) -- this is a genuinely disputed empirical question between HHS and independent analysts, not a settled one, and should be presented as such in debate use.",
+    "confidence_note": "HIGH confidence on the core enrollment-decline figures and state-level breakdowns, sourced to federal data and corroborated across PBS News, CNBC, Washington Times, and HHS's own ASPE enrollment report. MODERATE confidence on attributing primary causation to either explanation (subsidy expiration/premiums vs. fraud crackdown) -- this is a genuinely disputed empirical question between HHS and independent analysts, not a settled one, and should be presented as such in debate use. The 2027 rate-hike warning is a LOWER-confidence forward projection from insurance-market analysts, not a realized figure.",
     "section_summaries": {
       "what_changed": "Enhanced ACA subsidies expired at the end of 2025 without congressional renewal; 2.6 million fewer Americans had marketplace coverage a year later, with Ohio and Oklahoma losing nearly a third of enrollees each, while HHS blamed the drop mainly on enrollment fraud rather than the subsidy lapse.",
       "estimated_impact": "Premiums rose 114% on average for enrollees keeping coverage; independent analysts dispute HHS's fraud framing and point to the subsidy expiration and tightened immigrant eligibility rules as the more direct causes.",
       "confidence_note": "Enrollment figures are federally sourced and well-corroborated; the competing causal explanations (fraud vs. subsidy expiration) remain a genuinely disputed question between HHS and independent analysts."
     },
-    "last_verified": "2026-07-27",
+    "last_verified": "2026-08-02",
     "date_added": "2026-07-27",
     "sources": [
       {
@@ -62,9 +62,13 @@
       {
         "name": "Washington Times — Obamacare rolls shrank dramatically in many states over the past year, new federal data shows",
         "url": "https://www.washingtontimes.com/news/2026/jul/6/obamacare-rolls-shrank-dramatically-many-states-past-year-new-federal/"
+      },
+      {
+        "name": "CBS News — ACA enrollment falls, insurers brace for another round of rate hikes",
+        "url": "https://www.cbsnews.com/news/aca-enrollment-healthcare-insurance-rates/"
       }
     ],
-    "last_updated": "2026-07-27"
+    "last_updated": "2026-08-02"
   },
   {
     "id": "acl-disability-research-grants-cut-2026",
