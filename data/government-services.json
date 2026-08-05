@@ -3092,6 +3092,69 @@
     "last_updated": "2026-07-27"
   },
   {
+    "id": "hegseth-flu-vaccine-mandate-rollback-outbreak-2026",
+    "title": "Hegseth Ended the Military's 80-Year Flu Vaccine Mandate; A Recruit Outbreak Followed Within Weeks",
+    "institution": "Department of Defense (Army, Navy, Air Force)",
+    "domain": "protection_rollback",
+    "status": "Reversed for basic trainees -- the Army, Navy, and Air Force reinstated the flu-shot requirement for recruits after the outbreak; the broader end of the mandate for active-duty/reserve personnel generally has not been reported as reversed",
+    "date_of_action": "2026-04 (mandate ended) through 2026-07 (outbreak reported, recruit training branches reinstate the requirement)",
+    "what_changed": "In April 2026, Defense Secretary Pete Hegseth ended the flu vaccine requirement that had applied to all active-duty and reserve U.S. military personnel since 1945, making the annual flu shot optional and citing 'medical autonomy' and religious freedom, describing the prior mandate as 'overly broad and not rational.' At Joint Base San Antonio-Lackland -- the Air Force's primary basic training base -- the flu vaccination rate among incoming recruits fell from nearly 100% under the mandate to about 40% after it became optional. A flu outbreak began among recruits in early June 2026; by the time it was reported, at least 159 recruits had confirmed cases (with reporting citing a total of at least 275 cases as the outbreak grew) and at least two recruits were hospitalized. The death of recruit Keon McDaniel, who experienced a medical emergency during his sixth week of Basic Military Training on June 12 and died after being transported to Brooke Army Medical Center, is under investigation; it is not confirmed whether his death is linked to the flu outbreak. In response, the Army, Navy, and Air Force reinstated mandatory flu vaccination for recruits in basic training, while the underlying policy change for the broader active-duty and reserve force was not reported as reversed.",
+    "primary_proponent": {
+      "name": "Pete Hegseth",
+      "role": "Secretary of Defense",
+      "note": "Personally announced ending the 80-year-old mandatory flu vaccine requirement in April 2026, citing 'medical autonomy' and calling the prior policy 'overly broad and not rational.'"
+    },
+    "estimated_impact": {
+      "summary": "Ending a decades-old vaccination requirement caused recruit flu-vaccination rates at a major training base to collapse from near-universal to a minority of recruits, followed within about two months by a documented outbreak that hospitalized recruits and prompted three of the four service branches' training commands to reinstate the mandate specifically for basic trainees.",
+      "figures": [
+        {
+          "metric": "Flu vaccination rate among Lackland AFB recruits before the mandate ended",
+          "value": "~100%",
+          "source": "ABC News, citing base health data"
+        },
+        {
+          "metric": "Flu vaccination rate among Lackland AFB recruits after the mandate became optional",
+          "value": "~40%",
+          "source": "ABC News, citing base health data"
+        },
+        {
+          "metric": "Confirmed flu cases among recruits at Joint Base San Antonio-Lackland",
+          "value": "159 confirmed as of initial reporting; at least 275 cited as the outbreak grew",
+          "source": "ABC News / The Mirror US"
+        },
+        {
+          "metric": "Recruits hospitalized",
+          "value": "at least 2",
+          "source": "ABC News"
+        }
+      ],
+      "caveat": "A causal link between the vaccination-rate drop and the outbreak's scale is a reasonable inference from the timeline and vaccination-rate data, not a formal epidemiological finding in reporting reviewed. Recruit Keon McDaniel's death is under investigation and is NOT confirmed as flu-outbreak-related -- present it as a death under investigation during the outbreak period, not as a confirmed causal result, per The Conversation and ABC News's own careful framing."
+    },
+    "confidence_note": "Strong sourcing: the mandate's end, Hegseth's stated rationale, the vaccination-rate collapse, and the outbreak figures are corroborated across ABC News, The Conversation, and Wonkette, with ABC News independently reporting the subsequent reinstatement of the recruit-specific mandate. The McDaniel death is reported factually but explicitly as unconfirmed-cause, which this entry preserves rather than overstates.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "sources": [
+      {
+        "name": "ABC News -- Flu outbreak among Air Force recruits at Joint Base San Antonio after Hegseth ends mandatory flu vaccine",
+        "url": "https://abcnews.com/Health/flu-outbreak-air-force-recruits-joint-base-san/story?id=133994394"
+      },
+      {
+        "name": "ABC News -- Military services again requiring recruits to get flu shots as Air Force outbreak grows",
+        "url": "https://abcnews.com/Health/military-services-requiring-recruits-flu-shots-air-force/story?id=134126794"
+      },
+      {
+        "name": "The Conversation -- The military traded its flu vaccine mandate for 'medical freedom' -- an outbreak quickly followed",
+        "url": "https://theconversation.com/the-military-traded-its-flu-vaccine-mandate-for-medical-freedom-an-outbreak-quickly-followed-286094"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Hegseth ended the military's 80-year mandatory flu vaccine requirement in April 2026; recruit vaccination rates at a major training base collapsed from ~100% to ~40%, and a flu outbreak followed within weeks.",
+      "estimated_impact": "At least 159-275 recruits were infected and at least 2 hospitalized before three service branches reinstated the mandate specifically for basic trainees; a recruit's death during the outbreak period remains under investigation, not confirmed as outbreak-related.",
+      "confidence_note": "Strong: mandate change, vaccination-rate collapse, and outbreak figures are corroborated across multiple outlets; the one unconfirmed causal claim (the recruit's death) is presented as such, not overstated."
+    },
+    "last_updated": "2026-08-05"
+  },
+  {
     "id": "hegseth-pentagon-loyalty-culture-suspicion-2026",
     "title": "CNN Investigation: Hegseth's Culture of Loyalty Tests and Suspicion Has Sidelined Military Planners During an Active War",
     "institution": "Department of Defense (Pentagon)",
@@ -5979,6 +6042,52 @@
     "last_updated": "2026-08-05"
   },
   {
+    "id": "rfk-jr-journal-retraction-pressure-2026",
+    "title": "RFK Jr. and Sen. Ron Johnson Pressured a Scientific Journal to Justify Retracting a Flawed Vaccine-SIDS Study",
+    "institution": "HHS / Toxicology Reports (Elsevier journal)",
+    "domain": "research_suppression",
+    "status": "Ongoing -- journal given a deadline to respond as of this entry's sourcing",
+    "date_of_action": "2026-06 (Kennedy's letter) through 2026-07 (Johnson's follow-up letter to Elsevier made public)",
+    "what_changed": "HHS Secretary Robert F. Kennedy Jr. sent a letter demanding the editor of Toxicology Reports explain the journal's retraction of a single-author study by vaccine critic Neil Z. Miller, which had used Vaccine Adverse Event Reporting System (VAERS) data to claim 75% of reported SIDS cases occurred within seven days of a vaccination. The journal's April 9, 2026 retraction notice cited serious methodological flaws in the paper's use of VAERS data to infer a vaccine-SIDS correlation and warned of 'potential implications for medical practice' if the flawed conclusions were relied upon. Kennedy called the retraction notice 'woefully insufficient' and demanded the journal explain, by June 25, how the retraction decision was reached and what experts were consulted. Sen. Ron Johnson separately sent a letter dated June 29 (made public July 13) directly to both the Toxicology Reports editor-in-chief and Elsevier's CEO, demanding release of all internal records related to the retraction decision. Miller's study had previously been cited to support CDC/ACIP childhood immunization schedule changes made under Kennedy.",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services",
+      "note": "Personally wrote to the journal's editor demanding justification for a peer-review/editorial retraction decision and set a response deadline, with Sen. Ron Johnson separately escalating to demand internal Elsevier records."
+    },
+    "estimated_impact": {
+      "summary": "A sitting HHS Secretary and a U.S. Senator applied direct pressure on a scientific journal's editorial independence over a routine retraction driven by identified methodological flaws, in a case where the underlying (now-retracted) study had itself been used to support the administration's own vaccine-schedule policy changes -- raising the prospect that federal pressure could be used to reverse or discourage legitimate scientific self-correction.",
+      "figures": [],
+      "caveat": "No quantified impact (e.g., a reversed retraction, disciplinary action against the journal) had occurred as of this entry's sourcing -- the documented impact so far is the pressure campaign itself (two separate federal officials demanding a journal justify or reverse a peer-reviewed editorial decision), not yet a confirmed outcome. The journal's own retraction rationale (methodological flaws in VAERS-data use) is treated here as the journal's stated position, consistent with independent science-integrity commentary (Retraction Watch) rather than adopted uncritically."
+    },
+    "confidence_note": "Strong sourcing: Kennedy's letter and its contents are corroborated across The Guardian, The Hill, Inside Higher Ed, and Just The News. Johnson's follow-up letter to Elsevier is independently reported. Retraction Watch -- a specialist outlet focused on scientific retractions, not a political or health-advocacy source -- independently characterizes Kennedy's broader approach to retractions as inconsistent/selectively applied ('politicizing'), which is useful context on pattern but is Retraction Watch's own characterization, not an official finding.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "sources": [
+      {
+        "name": "The Guardian -- RFK Jr letter medical journal vaccine study",
+        "url": "https://www.theguardian.com/us-news/2026/jun/15/rfk-jr-letter-medical-journal-vaccine-study"
+      },
+      {
+        "name": "The Hill -- RFK Jr. demands journal explain removal of vaccine study used to support his childhood immunization changes",
+        "url": "https://thehill.com/policy/healthcare/5924878-kennedy-demands-answers-vaccine-study/"
+      },
+      {
+        "name": "Retraction Watch -- RFK Jr. has various stances on retractions. Critics say he's 'politicizing' them",
+        "url": "https://retractionwatch.com/2026/06/18/rfk-jr-vaccines-infant-deaths-retractions-critics-politicizing/"
+      },
+      {
+        "name": "Inside Higher Ed -- RFK Jr. Asks Journal Editor Why Vaccine Article Was Removed",
+        "url": "https://www.insidehighered.com/news/quick-takes/2026/06/18/rfk-jr-asks-journal-editor-why-vaccine-article-was-removed"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "RFK Jr. and Sen. Ron Johnson pressured a journal and its publisher Elsevier to justify or reverse the retraction of a flawed vaccine-SIDS study that had itself been used to support Kennedy's own vaccine-schedule changes.",
+      "estimated_impact": "No reversal has occurred yet -- the documented impact is the pressure campaign itself, using federal office to challenge an editorial decision grounded in identified methodological flaws.",
+      "confidence_note": "Strong: corroborated across multiple outlets including Retraction Watch, a specialist outlet independent of the political debate."
+    },
+    "last_updated": "2026-08-05"
+  },
+  {
     "id": "rfk-jr-measles-data-diversion-2025",
     "title": "RFK Jr. Diverted CDC Staff to Compile Measles Data, Blocked Briefings, Spread Vaccine Disinformation -- CDC Chief Medical Officer Resigned in Protest",
     "institution": "Centers for Disease Control and Prevention (CDC)",
@@ -6317,6 +6426,69 @@
       }
     ],
     "last_updated": "2026-07-26"
+  },
+  {
+    "id": "snap-770000-children-lost-benefits-2026",
+    "title": "770,000+ Children Lost SNAP Benefits in the Year After Trump's Domestic Policy Law, Despite Promises Children Would Be Protected",
+    "institution": "USDA / Supplemental Nutrition Assistance Program (SNAP)",
+    "domain": "funding_redirection",
+    "status": "Ongoing -- ProPublica's analysis covers the 12 months following the law's July 2025 enactment, published June 2026",
+    "date_of_action": "2025-07-04 (One Big Beautiful Bill Act signed) through 2026-06 (ProPublica analysis published)",
+    "what_changed": "A ProPublica analysis published June 17, 2026 found at least 776,134 children stopped receiving SNAP benefits in the 12 states that report participation by age, in the year following Trump's signing of the One Big Beautiful Bill Act on July 4, 2025 -- legislation that cut roughly $186 billion from SNAP over a decade, the largest cut in the program's history, imposed new work requirements on older adults and parents of teenagers, and shifted billions in administrative and benefit costs onto states. Children made up nearly half of everyone cut from the program across the states studied. The impact was highly uneven: Arizona alone lost 205,223 children from its SNAP rolls since July 2025, a 55% decline (driven in part by the state's own error-rate-penalty response, tracked separately in this database), while Louisiana recorded the second-steepest child decline at 22%. Republicans had promised during the law's passage that children and other vulnerable groups would be shielded from its effects.",
+    "primary_proponent": {
+      "name": "Trump administration / Congressional Republicans (One Big Beautiful Bill Act)",
+      "role": "Signed and enacted the underlying SNAP funding cuts and work-requirement changes",
+      "note": "No single administration official was identified in reporting as personally driving the children-specific impact; the law's passage and signing is the traceable action, with the child-enrollment decline as its measured downstream consequence."
+    },
+    "estimated_impact": {
+      "summary": "Hundreds of thousands of children lost federal food assistance as a direct downstream consequence of SNAP funding cuts and administrative changes that Republicans specifically promised would not affect children, with impact concentrated heavily in a handful of states.",
+      "figures": [
+        {
+          "metric": "Children who stopped receiving SNAP in the 12 reporting states, July 2025-mid 2026",
+          "value": "776,134+",
+          "source": "ProPublica analysis of state SNAP data"
+        },
+        {
+          "metric": "Total decade-long SNAP funding cut under the One Big Beautiful Bill Act",
+          "value": "~$186,000,000,000",
+          "source": "ProPublica, citing CBO/legislative analysis"
+        },
+        {
+          "metric": "Arizona children who lost SNAP since July 2025",
+          "value": "205,223 (a 55% decline)",
+          "source": "ProPublica, citing Arizona state SNAP data"
+        },
+        {
+          "metric": "Louisiana child SNAP decline",
+          "value": "22%",
+          "source": "ProPublica, citing Louisiana state SNAP data"
+        }
+      ],
+      "caveat": "The 776,134 figure covers only the 12 states that publicly report SNAP participation broken out by age, so it understates the true national child-loss total. Some of the decline reflects state-level administrative-burden responses to the law's error-rate penalties (see this tracker's separate Arizona SNAP entry) rather than direct federal eligibility changes alone -- both mechanisms trace back to the same underlying federal law."
+    },
+    "confidence_note": "Strong sourcing: this is ProPublica's own original data analysis of state-reported SNAP participation figures, corroborated by independent secondary coverage (Newsweek, IBTimes UK, the Equal Justice Initiative) and citing on-record commentary from the Center on Budget and Policy Priorities. The state-level breakdowns come from state agencies' own published data, not modeled estimates.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "sources": [
+      {
+        "name": "ProPublica -- More Than 770,000 Children Are No Longer Receiving SNAP Benefits After Trump Changes Federal Food Program",
+        "url": "https://www.propublica.org/article/snap-benefits-children-food-stamps"
+      },
+      {
+        "name": "Newsweek -- SNAP Update: Hundreds of Thousands of Kids Lose Benefits, Analyses Shows",
+        "url": "https://www.newsweek.com/snap-update-hundreds-of-thousands-of-kids-lose-benefits-analyses-shows-12087525"
+      },
+      {
+        "name": "Equal Justice Initiative -- Nearly Half of People Who Have Lost SNAP Benefits Are Children",
+        "url": "https://eji.org/news/nearly-half-of-people-who-have-lost-snap-benefits-are-children/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "At least 776,134 children lost SNAP benefits in the year after Trump's 2025 domestic policy law cut ~$186B from the program, despite promises children would be protected.",
+      "estimated_impact": "Children made up nearly half of everyone cut from SNAP across the 12 states studied, with Arizona (55% child decline) and Louisiana (22%) hit hardest.",
+      "confidence_note": "Strong: ProPublica's own original analysis of state-reported data, independently corroborated and citing on-record policy-analyst commentary."
+    },
+    "last_updated": "2026-08-05"
   },
   {
     "id": "snap-shutdown-funding-freeze-trump2",

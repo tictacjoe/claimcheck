@@ -1976,6 +1976,64 @@
     "short_summary": "Removed speed caps at meat plants, raising injury and contamination risk."
   },
   {
+    "id": "va-firearm-fiduciary-mental-illness-rollback-2026",
+    "rule_name": "VA fiduciary-based firearm-purchase prohibition, and related mental-illness firearm restrictions, as part of a nearly three-dozen-rule ATF/DOJ gun-regulation rollback",
+    "administration": "Trump II (2025-present)",
+    "agency": "DOJ / ATF / VA",
+    "domain": "consumer_safety",
+    "status": "Finalized (VA fiduciary rule, February 2026) / Proposed (broader ~36-rule DOJ/ATF package, unveiled spring 2026 with a July 4, 2026 target)",
+    "date_of_action": "2026-02 (VA fiduciary rule change) through 2026-07 (DOJ/ATF rollback package target date)",
+    "original_rule_summary": "Under a rule dating to the Obama administration, veterans who require a VA-appointed fiduciary to manage their benefits because they have been deemed unable to manage their own affairs -- including for certain mental-illness-related determinations -- were reported to the National Instant Criminal Background Check System (NICS) as a prohibited category for firearm purchases, a restriction Congress had already partially curtailed via a 2017 Congressional Review Act resolution.",
+    "what_changed": "In February 2026, the Department of Veterans Affairs removed the requirement that veterans needing a fiduciary to manage their VA benefits be reported to NICS as prohibited firearm purchasers, restoring gun-purchase eligibility to veterans who have been formally found unable to manage their own financial affairs. This was one piece of a broader Washington Post-documented effort in which DOJ unveiled plans to eliminate or revise more than three dozen firearms regulations -- including rules restricting sales to people with documented mental illness and rules governing private weapons transfers -- while DOGE separately sent staff into ATF with a mandate to revise or eliminate more than 50 rules and gun restrictions by July 4, 2026. Senior DOJ officials described the changes collectively as cutting 'unnecessary government bureaucracy without risking public safety'; gun-safety groups objected specifically to the mental-illness and fiduciary-status rollbacks as removing an existing, narrowly targeted safeguard.",
+    "primary_proponent": {
+      "name": "U.S. Department of Justice (senior officials, unnamed in reporting reviewed) / Department of Veterans Affairs",
+      "role": "DOJ unveiled and is implementing the ~36-rule rollback package; VA implemented the fiduciary-reporting change specifically",
+      "note": "DOGE also directly staffed ATF with a mandate to revise or eliminate 50+ rules by a July 4, 2026 target, per Washington Post reporting; no single named DOJ or VA official driving these specific changes was identified in reporting reviewed."
+    },
+    "corporate_beneficiaries": [
+      "Firearms dealers and manufacturers (broadly, via reduced compliance/background-check burden across the ~36-rule package)"
+    ],
+    "estimated_health_impact": {
+      "summary": "Restores firearm-purchase eligibility to a category of veterans specifically found unable to manage their own affairs, and is part of a much broader package reducing federal gun-sale oversight -- gun-safety advocacy groups warn this removes a narrowly targeted, evidence-based restriction, though DOJ characterizes the same changes as removing unnecessary bureaucracy rather than a public-safety-relevant category.",
+      "figures": [
+        {
+          "metric": "Total firearms regulations DOJ has proposed to eliminate/revise",
+          "value": "~36 (\"nearly three dozen\")",
+          "source": "Washington Post"
+        },
+        {
+          "metric": "Rules DOGE was tasked with revising/eliminating at ATF by July 4, 2026",
+          "value": "50+",
+          "source": "Washington Post"
+        }
+      ],
+      "caveat": "No independent, quantified estimate of resulting firearm deaths/injuries attributable specifically to this rollback was found in reporting reviewed -- the documented impact so far is the removal of the eligibility restriction itself and the scale of the broader rollback package, not yet a measured safety outcome. DOJ's own stated position (bureaucracy reduction without public-safety risk) is presented as the agency's characterization, not adopted as fact."
+    },
+    "confidence_note": "Strong sourcing on the VA fiduciary-rule change and the broader ~36-rule DOJ package scope, corroborated across The Washington Post, PBS NewsHour, and the Philadelphia Inquirer. MODERATE confidence on individual rule-by-rule detail beyond the fiduciary/mental-illness and private-transfer pieces specifically named in reporting, since the full DOJ rule list was not itemized in sources reviewed.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "sources": [
+      {
+        "name": "Washington Post -- Inside the Trump administration's rapid rollback of gun regulations",
+        "url": "https://www.washingtonpost.com/national-security/2026/06/15/inside-trump-administrations-rapid-rollback-gun-regulations/"
+      },
+      {
+        "name": "PBS NewsHour -- Trump administration takes major steps to roll back gun regulations",
+        "url": "https://www.pbs.org/newshour/show/trump-administration-takes-major-steps-to-roll-back-gun-regulations"
+      },
+      {
+        "name": "Philadelphia Inquirer -- Trump administration rolls back dozens of gun regulations",
+        "url": "https://www.inquirer.com/news/nation-world/trump-administration-gun-laws-rollback-illigeal-private-sales-mental-illness-bondi-blanche-biden-atf-20260705.html"
+      }
+    ],
+    "short_summary": "VA stopped reporting fiduciary-assigned veterans to the gun-purchase background-check system, part of a ~36-rule DOJ/ATF rollback.",
+    "section_summaries": {
+      "what_changed": "VA restored gun-purchase eligibility to veterans found unable to manage their own affairs, part of a much broader DOJ/ATF effort to eliminate or revise 36+ firearms regulations including mental-illness sales restrictions.",
+      "estimated_impact": "Gun-safety groups warn this removes a narrowly targeted safeguard; DOJ characterizes it as bureaucracy reduction. No quantified safety-outcome estimate exists yet.",
+      "confidence_note": "Strong: corroborated across Washington Post, PBS, and Philadelphia Inquirer; full itemized rule list not available in sources reviewed."
+    }
+  },
+  {
     "id": "wotus-narrowing-trump2",
     "rule_name": "Waters of the United States (WOTUS) Narrowing — Post-Sackett Redefinition",
     "administration": "Trump II (2025-present)",

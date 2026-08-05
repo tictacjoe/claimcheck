@@ -598,21 +598,23 @@ function domainColor(domain) {
     environmental: "#4B6B4F", labor: "#3E5C76", financial: "#8B6F3E",
     consumer_safety: "#7A4B3E", "cross-cutting": "#5C5A52",
     research_suppression: "#6B4B7A", funding_redirection: "#8B6F3E",
-    staff_office_cuts: "#3E5C76", data_collection_halted: "#7A4B3E"
+    staff_office_cuts: "#3E5C76", data_collection_halted: "#7A4B3E",
+    protection_rollback: "#7A3E4B"
   };
   return map[domain] || "#5C5A52";
 }
 
 /* govservices domain values are snake_case in the data
    (research_suppression, funding_redirection, staff_office_cuts,
-   data_collection_halted) -- this converts them to a readable label
-   for the filter dropdown and card meta line. */
+   data_collection_halted, protection_rollback) -- this converts them to
+   a readable label for the filter dropdown and card meta line. */
 function govservicesDomainLabel(domain) {
   const map = {
     research_suppression: "Research Suppression",
     funding_redirection: "Funding Redirection",
     staff_office_cuts: "Staff/Office Cuts",
-    data_collection_halted: "Data Collection Halted"
+    data_collection_halted: "Data Collection Halted",
+    protection_rollback: "Protection Rollback"
   };
   return map[domain] || domain;
 }
