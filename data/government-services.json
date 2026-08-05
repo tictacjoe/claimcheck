@@ -471,7 +471,7 @@
     "domain": "research_suppression",
     "status": "Complete (new panel seated and has already voted on policy changes)",
     "date_of_action": "2025-06-09 (removal); 2025-06-11 (replacements announced); first new-panel meeting 2025-06-25",
-    "what_changed": "HHS Secretary Robert F. Kennedy Jr. removed all 17 sitting members of ACIP -- the CDC's expert panel that recommends the vaccine schedule guiding clinical practice and insurance coverage nationwide -- announcing the move via a Wall Street Journal op-ed rather than through the committee's standard process. He cited industry conflicts of interest as justification, calling the prior panel a 'rubber stamp for industry profit-taking agendas.' Two days later, Kennedy named 8 hand-picked replacements, several with documented public records of vaccine skepticism, affiliations with anti-vaccine advocacy organizations (e.g. the National Vaccine Information Center), or ties to lawsuits against vaccine makers -- notable given that Kennedy himself had collected referral fees from such litigation before becoming HHS Secretary. Former CDC Chief Medical Officer Dr. Debra Houry later cited this purge, alongside Kennedy's handling of the 2025 measles outbreak, as a reason for her own resignation in protest (see the related entry on RFK Jr.'s measles-outbreak conduct in this database for her fuller account). Committee members are ordinarily not political appointees and typically serve staggered four-year terms specifically to prevent any single administration from controlling a majority of the panel; removing the entire sitting panel let the administration seat a full majority immediately rather than waiting until 2028, as Kennedy himself acknowledged in his op-ed. The reconstituted panel has since voted to remove thimerosal from flu vaccines and end the universal newborn Hepatitis B birth-dose recommendation.",
+    "what_changed": "HHS Secretary Robert F. Kennedy Jr. removed all 17 sitting members of ACIP -- the CDC's expert panel that recommends the vaccine schedule guiding clinical practice and insurance coverage nationwide -- announcing the move via a Wall Street Journal op-ed rather than through the committee's standard process. He cited industry conflicts of interest as justification, calling the prior panel a 'rubber stamp for industry profit-taking agendas.' Two days later, Kennedy named 8 hand-picked replacements, several with documented public records of vaccine skepticism, affiliations with anti-vaccine advocacy organizations (e.g. the National Vaccine Information Center), or ties to lawsuits against vaccine makers -- notable given that Kennedy himself had collected referral fees from such litigation before becoming HHS Secretary. Former CDC Chief Medical Officer Dr. Debra Houry later cited this purge, alongside Kennedy's handling of the 2025 measles outbreak, as a reason for her own resignation in protest (see the related entry on RFK Jr.'s measles-outbreak conduct in this database for her fuller account). Committee members are ordinarily not political appointees and typically serve staggered four-year terms specifically to prevent any single administration from controlling a majority of the panel; removing the entire sitting panel let the administration seat a full majority immediately rather than waiting until 2028, as Kennedy himself acknowledged in his op-ed. The reconstituted panel has since voted to remove thimerosal from flu vaccines and end the universal newborn Hepatitis B birth-dose recommendation. The CDC canceled its scheduled February 2026 ACIP meeting entirely, with no new date set, as RFK Jr. continued reshaping federal vaccine policy -- a further disruption to the committee's normal operating cadence beyond the original member purge.",
     "primary_proponent": {
       "name": "Robert F. Kennedy Jr.",
       "role": "Secretary of Health and Human Services",
@@ -500,11 +500,11 @@
     },
     "confidence_note": "Extremely well-documented from many independent angles: HHS's own press release (confirms the action and Kennedy's stated reasoning in his own words), extensive contemporaneous news coverage (NPR, CNN, CBS, Axios, STAT), and -- most valuably for debate use -- a peer-reviewed scientific study specifically testing and rebutting the stated justification. This combination (agency's own stated reasoning + independent peer-reviewed rebuttal of that specific reasoning) is about as strong as sourcing gets for this kind of entry.",
     "section_summaries": {
-      "what_changed": "RFK Jr. ousted the CDC's entire 17-member vaccine advisory panel by op-ed and installed 8 picks holding vaccine-skeptic records.",
+      "what_changed": "RFK Jr. ousted the CDC's entire 17-member vaccine advisory panel by op-ed and installed 8 picks holding vaccine-skeptic records. CDC also canceled its Feb. 2026 ACIP meeting entirely with no new date set.",
       "estimated_impact": "A peer-reviewed JAMA study found industry conflicts on the panel were already near historic lows, undercutting Kennedy's stated reason for the purge.",
       "confidence_note": "Very strong: corroborated by HHS's own statement, multiple news outlets, and a peer-reviewed study that directly examined and refuted the administration's stated reasoning."
     },
-    "last_verified": "2026-07-27",
+    "last_verified": "2026-08-05",
     "date_added": "2026-07-07",
     "sources": [
       {
@@ -530,6 +530,10 @@
       {
         "name": "NPR — RFK Jr. names new slate of vaccine advisers after purging CDC panel",
         "url": "https://www.npr.org/sections/shots-health-news/2025/06/11/nx-s1-5430870/cdc-vaccine-experts-rfk-jr"
+      },
+      {
+        "name": "Reuters -- 'Meeting of US CDC vaccine advisers will not be held in February'",
+        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/meeting-us-cdc-vaccine-advisers-will-not-be-held-february-2026-02-19/"
       }
     ]
   },

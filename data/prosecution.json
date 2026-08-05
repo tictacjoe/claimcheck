@@ -978,6 +978,55 @@
     }
   },
   {
+    "official": "Lori Chavez-DeRemer, then-Secretary of Labor (resigned April 2026)",
+    "offense_category": "Retaliation Against Employees Who Reported Sexual Misconduct by the Secretary's Own Husband -- an EEO-complaint-substantiated accountability claim distinct from her husband's underlying alleged conduct, which is a separate matter",
+    "incident_summary": "Two female political staffers at the Department of Labor alleged that Secretary Lori Chavez-DeRemer's husband, Dr. Shawn DeRemer, an anesthesiologist, subjected them to unwanted sexual touching at the department's Washington headquarters in late 2025, including an incident on December 18 captured on office security cameras. The Labor Department's Inspector General recommended DeRemer be banned from the building, and he was; federal prosecutors ultimately declined to bring charges against him after reviewing the evidence, including the security footage. Separately, at least three people filed formal EEO discrimination/retaliation complaints against Chavez-DeRemer herself, alleging she created a hostile workplace, retaliated against the female staffers who reported her husband's conduct, fostered a climate in which employees feared retaliation for opposing agency policy, and directed staff to perform personal errands for her (including cleaning her closet). Chavez-DeRemer resigned as Labor Secretary in April 2026 amid the mounting allegations -- the third member of Trump's Cabinet to leave within two months -- and, per reporting, falsely claimed a 'deep state' conspiracy was behind the scrutiny on her way out.",
+    "contested": true,
+    "elements_required": [
+      "Formal EEO complaints -- not merely media allegations -- were filed against Chavez-DeRemer herself specifically alleging retaliation against the staffers who reported her husband's conduct",
+      "The Department's own Inspector General found the underlying allegations against her husband serious enough to recommend a building ban, corroborating that the reporting staffers raised a substantiated concern rather than a frivolous one",
+      "The retaliation and hostile-workplace allegations against Chavez-DeRemer are a distinct accountability claim from her husband's conduct -- concerning her own response to the complaints, not the underlying incidents themselves",
+      "She resigned amid the allegations, one of three Cabinet departures within two months, and made a public claim about the circumstances (a 'deep state' conspiracy) reporting characterized as false"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "The New York Times' original reporting confirms the sexual-touching allegations against Shawn DeRemer, the December 18 security-camera-documented incident, the IG-recommended building ban, and that federal prosecutors declined to bring charges",
+        "source_url": "https://www.cbsnews.com/news/labor-secretary-lori-chavez-deremer-husband-shawn-sexual-assault-accusation/",
+        "maps_to_element": "Underlying allegations against the husband and the IG's building-ban recommendation"
+      },
+      {
+        "type": "public_record",
+        "description": "Just the News's reporting confirms at least three formal EEO discrimination/retaliation complaints were filed against Chavez-DeRemer herself, alleging she retaliated against staffers who reported her husband and created a hostile workplace where employees feared retaliation for opposing agency policy",
+        "source_url": "https://justthenews.com/government/federal-agencies/labor-secretary-accused-retaliation-against-staffers-who-made",
+        "maps_to_element": "Formal EEO complaints against Chavez-DeRemer's own retaliatory conduct"
+      },
+      {
+        "type": "reporting",
+        "description": "The Washington Times' reporting confirms Chavez-DeRemer's resignation in April 2026 amid the mounting scandals, as the third Cabinet member to leave within two months",
+        "source_url": "https://www.washingtontimes.com/news/2026/apr/20/labor-secretary-lori-chavez-deremer-resigns-scandals-mount/",
+        "maps_to_element": "Resignation outcome"
+      },
+      {
+        "type": "reporting",
+        "description": "MSNBC's reporting characterizes Chavez-DeRemer's claim of a 'deep state' conspiracy against her, made upon resignation, as false",
+        "source_url": "https://www.ms.now/rachel-maddow-show/maddowblog/resigning-labor-secretary-falsely-claims-there-was-a-deep-state-conspiracy-against-her",
+        "maps_to_element": "Chavez-DeRemer's own public characterization of her departure and its disputed accuracy"
+      }
+    ],
+    "status": "Resolved as a personnel matter -- Chavez-DeRemer resigned in April 2026. The formal EEO complaints' individual resolutions were not confirmed in sourcing reviewed as of this entry's addition.",
+    "rebuttal_anticipated": "Likely defense: EEO complaints are allegations, not adjudicated findings, a spouse's personal conduct should not automatically implicate the Secretary's own official actions, and her resignation does not itself establish the retaliation allegations were true.",
+    "comeback": "The Department's own Inspector General independently substantiated the underlying husband-conduct allegations seriously enough to recommend a building ban -- corroborating that the complaining staffers raised a good-faith, credible concern -- which strengthens rather than undermines the separate claim that retaliating against them would itself be a further abuse of power; her resignation amid the allegations, alongside her own disputed 'deep state' framing of the departure, are both consistent with the underlying retaliation claims having substance rather than being purely partisan.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] An individual Cabinet-official accountability matter concerning her own alleged retaliatory conduct, not directly connected to this tracker's broader institutional patterns.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the sequence of events (allegations, IG building-ban recommendation, EEO complaints, resignation) -- independently corroborated across CBS News, Just the News, and The Washington Times. MODERATE confidence on whether the retaliation allegations against Chavez-DeRemer herself will ultimately be substantiated, since EEO complaints are allegations pending resolution, not adjudicated findings, as of this entry's addition.",
+    "section_summaries": {
+      "incident_summary": "After her husband was banned from Labor Department HQ over sexual-touching allegations the IG found credible enough to act on, Chavez-DeRemer herself faced EEO complaints alleging she retaliated against the reporting staffers and ran a hostile workplace; she resigned in April 2026, the third Cabinet departure in two months.",
+      "confidence_note": "The event sequence is well-corroborated; whether the retaliation allegations against her personally will be substantiated remains pending as of this entry's addition."
+    }
+  },
+  {
     "official": "Doug Collins, Secretary of Veterans Affairs",
     "offense_category": "Administrative Procedure Act Violation — Final Rule Issued Without Required Notice-and-Comment (5 U.S.C. §553) — NOT charged criminally; this is a civil administrative law matter; the rule was withdrawn following public backlash, and at least one lawsuit was filed seeking review before the withdrawal",
     "incident_summary": "In February 2026, the VA issued a regulation -- with no public notice and as a final decision -- requiring medical examiners to factor in the effects of medication when determining veterans' disability ratings, departing from prior practice. The rule had a documented potential economic impact of $100 million per year and could have affected readjudication of 350,000 existing claims. After fewer than 60 hours of public reaction (more than 10,000 Federal Register comments) and condemnation from major veterans service organizations (VFW, Disabled American Veterans, American Legion, Paralyzed Veterans of America), at least one lawsuit was filed, and Collins announced within two days that the rule would not be enforced, while not formally rescinding it.",
@@ -1214,6 +1263,43 @@
     "section_summaries": {
       "incident_summary": "DHS issued hundreds of administrative subpoenas to major tech platforms demanding identifying data on ICE critics, documentarians, and protesters -- including a 67-year-old citizen subpoenaed over a critical email to a DHS official -- then withdrew specific subpoenas when challenged in court and stonewalled a FOIA request until EFF sued.",
       "confidence_note": "Core facts are well-corroborated across multiple independent outlets and a formal policy-tracking project; the total program scale is a reported estimate, not an official DHS-confirmed figure."
+    }
+  },
+  {
+    "official": "Kristi Noem, then-Secretary of Homeland Security",
+    "offense_category": "Publishing and Promoting an Inaccurate Public 'Worst of the Worst' Immigrant Database to Justify Enforcement Operations -- misrepresents the actual severity of arrestees' records to the public",
+    "incident_summary": "DHS created a public website in December 2025 branding a list of roughly 25,000 arrested immigrants as the 'worst of the worst,' which Secretary Noem, DHS, and the White House heavily promoted on social media to justify the administration's aggressive immigration enforcement operations. A CNN analysis found the site's crime descriptions were riddled with errors, with hundreds of individuals' listed charges misrepresenting the severity of their actual offenses -- for example, minor offenses characterized in ways suggesting serious criminality. After CNN presented its findings, a DHS spokesperson admitted the charges against hundreds of listed immigrants had been described incorrectly, attributing the errors to a 'glitch' the agency said it worked to fix, and the agency updated the site the same week. John Sandweg, who served as acting ICE director under the Obama administration, said the vast majority of so-called 'criminal aliens' are actually people charged with or convicted of traffic offenses, DUIs, and immigration-related offenses -- not violent or serious crime.",
+    "contested": true,
+    "elements_required": [
+      "DHS branded and heavily promoted a 25,000-person public database specifically using 'worst of the worst' framing to characterize the severity of arrestees' criminal records",
+      "An independent media analysis (CNN) found hundreds of listings misrepresented arrestees' actual offenses",
+      "DHS itself admitted the inaccuracies once confronted with the analysis, rather than disputing CNN's findings",
+      "The website served a specific public-justification function for the administration's enforcement operations, meaning the inaccuracies directly affected the public record used to defend that enforcement's scale and severity"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "CNN's exclusive reporting documents the website's creation, its 'worst of the worst' branding, DHS's heavy promotion of it, the roughly 25,000-person scope, and DHS's own admission -- after CNN's questions -- that hundreds of listed charges were described incorrectly due to a 'glitch'",
+        "source_url": "https://www.cnn.com/2026/02/19/politics/homeland-security-worst-immigrants-website",
+        "maps_to_element": "Website's branding/promotion, the inaccuracies found, and DHS's own admission"
+      },
+      {
+        "type": "reporting",
+        "description": "Reporting confirms former acting ICE Director John Sandweg's assessment that the vast majority of individuals DHS characterizes as 'criminal aliens' are actually charged with or convicted of traffic offenses, DUIs, and immigration-related offenses rather than serious or violent crime",
+        "source_url": "https://kare11.com/article/news/local/ice-in-minnesota/worst-of-the-worst-website-rife-with-errors-cnn/89-f052d30f-4ce0-4334-ae87-cc7bf3948936",
+        "maps_to_element": "Broader context on the gap between DHS's severity framing and arrestees' actual offense profile"
+      }
+    ],
+    "status": "Site updated following CNN's inquiry; DHS characterized the inaccuracies as a technical 'glitch' rather than acknowledging any intentional misrepresentation. No independent audit of the site's current accuracy was identified in sourcing reviewed.",
+    "rebuttal_anticipated": "Likely defense: managing a 25,000-entry public database inevitably produces some data-entry errors, DHS corrected the errors promptly once identified, and the 'glitch' characterization reflects a genuine technical issue rather than deliberate misrepresentation.",
+    "comeback": "The specific concern is not that isolated errors occurred in a large database, but that the errors ran specifically in the direction of overstating offense severity to support the 'worst of the worst' framing used to justify the administration's enforcement operations -- combined with independent assessment (from a former acting ICE director) that the underlying enforcement population is overwhelmingly composed of minor and immigration-status offenders rather than serious criminals, the pattern suggests a systemic framing problem rather than random data-entry noise.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DHS using selectively-framed public messaging to justify the scale of its immigration-enforcement operations (see also ice-misconduct-oversight-weakened-2026.json and noem-dhs-dysfunction-wsj-2026.json).",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the website's existence, branding, promotion, and DHS's own admission of inaccuracies are all confirmed directly by CNN's reporting and DHS's own on-record response, not disputed by DHS beyond the 'glitch' characterization.",
+    "section_summaries": {
+      "incident_summary": "DHS's heavily-promoted 'worst of the worst' immigrant website, listing ~25,000 people, was found by CNN to misrepresent hundreds of arrestees' actual offense severity; DHS admitted the errors after being confronted, attributing them to a 'glitch.'",
+      "confidence_note": "Confirmed directly by CNN's reporting and DHS's own on-record admission of the inaccuracies."
     }
   },
   {
@@ -2869,6 +2955,12 @@
         "description": "The New York Times reported that DOJ has lost 21% of its attorneys (more than 2,600 lawyers) in 16 months and about 5,500 employees overall since the start of Trump's second term, and that support for the President has become an unusual and unprecedented prerequisite for career employees -- with the Times noting this dynamic appears to be contributing to the same staffing shortages Mizelle's recruitment call was intended to solve",
         "source_url": "https://www.nytimes.com/2026/02/07/us/politics/doj-prosecutors-recruiting-trump.html",
         "maps_to_element": "Downstream recruitment/retention impact of loyalty-screened hiring"
+      },
+      {
+        "type": "public_record",
+        "description": "CBS News's follow-up reporting confirms the DOJ departure total has grown to more than 5,000 employees (resigned, retired, or fired) in the first year of Trump's second term, specifically including at least 35 firings (with up to 15 more anticipated) of DOJ employees who worked on Special Counsel Jack Smith's classified-documents and 2020-election investigations of Trump; the exodus has become a hiring boon for private law firms, legal advocacy groups, and political campaigns absorbing the departing talent",
+        "source_url": "https://www.cbsnews.com/news/mass-departures-justice-dept-boon-for-law-firms-legal-groups-campaigns/",
+        "maps_to_element": "Downstream recruitment/retention impact -- updated total and specific targeting of Jack Smith investigation staff"
       }
     ],
     "status": "The call itself was a public solicitation; The New York Times subsequently reported concrete downstream data showing DOJ has shed 21% of its attorneys -- more than 2,600 lawyers -- in the 16 months since, and about 5,500 total employees have left through firings, resignations, or retirements since the start of Trump's second term, with the Times reporting the loyalty-screened recruitment approach itself contributing to the very staffing shortages Mizelle's call was meant to address.",
@@ -3218,6 +3310,43 @@
     "section_summaries": {
       "incident_summary": "Reporting attributes a sustained campaign to prosecute Comey, Brennan, Schiff, and James -- despite weak evidence -- to Kash Patel personally, with prosecutors who refused to proceed removed or reassigned.",
       "confidence_note": "Well-corroborated pattern-level reporting from NYT and New Republic; the full scope of personnel consequences isn't comprehensively tallied in sourcing reviewed."
+    }
+  },
+  {
+    "official": "Kash Patel, FBI Director",
+    "offense_category": "Removing Screening Safeguards for FBI Special Agent Applicants to Meet a Hiring Quota -- weakens a career-track vetting standard designed to assess judgment and communication skills, not itself a legal violation but an accountability-relevant standards rollback",
+    "incident_summary": "FBI Director Kash Patel is set to eliminate the requirement that existing FBI support staff applying to become special agents complete an in-person interview and a writing assessment -- two long-standing vetting steps. Under the new process, internal candidates who pass a written exam through an online portal can proceed directly to new-agent training at the FBI Academy in Quantico. The change is part of Patel's internal push to hire 700 new special agents in a single year to bolster the bureau's roughly 10,000-agent workforce amid a documented staffing crunch (see also patel-fbi-field-office-purge-2025-2026.json, this tracker's separate entry on FBI staffing losses). FBI leadership maintains standards remain intact and that the change removes only duplicative steps for already-vetted internal employees. Critics, including retired supervisory special agent Jeff Crocker, argue the removed steps are key screening safeguards -- in-person interviews, Crocker told Reuters, are essential for evaluating a candidate's maturity, verbal communication, and analytical problem-solving skills that a written exam alone cannot assess.",
+    "contested": true,
+    "elements_required": [
+      "FBI is formally eliminating two established vetting steps (interview, writing assessment) for a specific category of special-agent applicants (internal support staff)",
+      "The stated driver is an internal hiring-volume target (700 new agents in one year) rather than an assessment that the removed steps were unnecessary on their own merits",
+      "A retired supervisory special agent with direct relevant experience specifically disputes FBI leadership's characterization that the steps were merely duplicative",
+      "This occurs against the backdrop of documented FBI staffing losses under the same administration, creating pressure to fill roles quickly that did not previously exist at this scale"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "Reuters' exclusive reporting confirms Patel is eliminating the interview and writing-assessment requirements for internal candidates, that this is part of a push to hire 700 new agents in a year, that FBI leadership says standards remain intact, and that retired supervisory special agent Jeff Crocker disputes that characterization, citing the interview's value in assessing maturity, communication, and problem-solving",
+        "source_url": "https://www.investing.com/news/world-news/exclusivefbi-plans-to-reduce-vetting-of-some-applying-to-be-agents-sources-say-4514799",
+        "maps_to_element": "The specific vetting steps removed, the stated rationale, and the disputing expert assessment"
+      },
+      {
+        "type": "reporting",
+        "description": "MSNBC's coverage situates this change within what it characterizes as a broader pattern of the FBI lowering standards for agents under the current leadership",
+        "source_url": "https://www.ms.now/rachel-maddow-show/maddowblog/fbi-reportedly-lowers-standards-for-agents-adding-to-an-unfortunate-pattern",
+        "maps_to_element": "Pattern characterization"
+      }
+    ],
+    "status": "Planned/in progress as of Reuters' February 19, 2026 reporting -- no confirmed implementation completion date or outcome data (e.g., agent performance or misconduct rates among the fast-tracked cohort) identified in sourcing reviewed.",
+    "rebuttal_anticipated": "Likely defense: internal FBI support staff have already undergone a full background investigation and security clearance process to work at the bureau, making a separate interview and writing assessment genuinely duplicative for this specific applicant pool, and streamlining hiring is a reasonable response to a documented staffing shortage.",
+    "comeback": "The specific concern raised by career law-enforcement critics is not about background-check duplication but about the interview and writing assessment's distinct function -- evaluating judgment, communication, and analytical skill specifically relevant to special-agent work, which existing employment at the FBI in a different capacity does not necessarily demonstrate; removing this evaluation specifically to hit a numerical hiring target raises the concern that speed is being prioritized over the qualitative judgment these steps were designed to assess.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of FBI leadership under Patel prioritizing rapid staffing targets and loyalty considerations over established institutional safeguards (see also patel-fbi-field-office-purge-2025-2026.json and patel-doj-prosecution-conspiracy-campaign-2026.json).",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the specific vetting changes, the 700-agent hiring target, and both FBI leadership's and the critic's characterizations are all confirmed directly by Reuters' sourced reporting, with wide, consistent wire pickup.",
+    "section_summaries": {
+      "incident_summary": "FBI Director Patel is removing the interview and writing-assessment requirements for internal staff applying to become special agents, part of a push to hire 700 new agents in a year; a retired supervisory agent disputes FBI leadership's claim the steps were merely duplicative.",
+      "confidence_note": "Confirmed directly by Reuters' sourced reporting, including both FBI leadership's position and the disputing expert's assessment."
     }
   },
   {
@@ -4387,6 +4516,49 @@
     "section_summaries": {
       "incident_summary": "A federal judge ruled Trump's $100,000 H-1B visa fee an unlawful, unauthorized tax, but a subsequent stay let USCIS keep collecting it pending appeal.",
       "confidence_note": "Well-corroborated ruling and stay; the fee's ultimate legal status awaits the appeals court's decision."
+    }
+  },
+  {
+    "official": "Donald Trump, President",
+    "offense_category": "Pardon Followed by Federal Bureau of Prisons Special-Treatment Assistance to a Convicted Foreign Drug Trafficker -- extends this tracker's pardon-power pattern (see trump-kidan-donor-pardon-2026.json) to include post-pardon logistical favoritism by a federal agency",
+    "incident_summary": "On November 28, 2025, Trump announced he would pardon Juan Orlando Hernández, the former president of Honduras, who had been convicted by a U.S. federal jury in June 2024 on cocaine-trafficking-conspiracy and related firearms charges and sentenced to 45 years -- one of the most significant international narcotics prosecutions in DOJ history. Trump formally granted the pardon on December 1, 2025, and Hernández was released the same day. ProPublica's investigation found that despite Hernández having an active ICE immigration detainer in place at the time of his release -- a standard hold requiring law enforcement to turn a noncitizen over to ICE -- the Federal Bureau of Prisons scrambled to have the detainer lifted (records show it was removed just after 11 p.m. that night) so Hernández could walk free rather than be transferred to ICE custody. BOP then paid a four-person tactical team overtime to personally drive Hernández roughly six hours from a West Virginia high-security facility to the Waldorf Astoria hotel in Manhattan, rather than providing standard transportation. Immigration attorney Lena Graber told ProPublica, 'Most people with drug convictions would never get their ICE detainer removed just because the conviction was pardoned.'",
+    "contested": false,
+    "elements_required": [
+      "Trump pardoned a foreign head-of-state convicted in a major U.S. narcotics-trafficking prosecution, erasing a 45-year sentence",
+      "BOP took affirmative steps to remove Hernández's active ICE detainer specifically because of the pardon, a step immigration law experts say is not standard practice for pardoned drug offenders",
+      "BOP provided bespoke, taxpayer-funded logistical assistance (a paid tactical-team drive to a luxury Manhattan hotel) rather than standard release procedures",
+      "This favorable treatment occurred contemporaneously with the administration's own mass ICE enforcement operations against far less serious immigration violators, documented elsewhere in this tracker"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "ProPublica's investigation documents the ICE detainer's existence and removal timing (just after 11 p.m. the night of release), BOP's tactical-team-driven transport to the Waldorf Astoria, and immigration attorney Lena Graber's assessment that this treatment is atypical even for pardoned drug offenders",
+        "source_url": "https://www.propublica.org/article/trump-ice-pardon-juan-orlando-hernandez-honduras-prison-special-treatment",
+        "maps_to_element": "Detainer removal timing and bespoke BOP transport arrangements"
+      },
+      {
+        "type": "public_record",
+        "description": "Bloomberg's feature reporting confirms the pardon's scale (erasing a 45-year sentence in a landmark DOJ narcotics case) and situates the pardon within the broader disruption to the underlying prosecution's legacy",
+        "source_url": "https://www.bloomberg.com/news/features/2025-12-26/trump-s-pardon-of-honduras-former-president-rewrites-a-landmark-us-drug-case",
+        "maps_to_element": "Scale and significance of the underlying conviction being pardoned"
+      },
+      {
+        "type": "reporting",
+        "description": "Follow-up ProPublica reporting confirms a member of Congress (Rep. Norma Torres) is pushing for legislation banning this kind of special treatment for pardoned drug traffickers specifically in response to this case",
+        "source_url": "https://www.propublica.org/article/trump-bureau-prisons-pardons-juan-orlando-hernandez-norma-torres",
+        "maps_to_element": "Congressional response to the special-treatment pattern"
+      }
+    ],
+    "status": "Resolved as a completed pardon and release -- Hernández returned to Honduras (per later reporting). Rep. Torres's proposed legislative response was pending as of the reporting reviewed.",
+    "rebuttal_anticipated": "Likely defense: a full presidential pardon eliminates the underlying legal basis for continued detention or an immigration detainer tied to the pardoned conviction, and BOP's logistical arrangements for a former head of state's release, while unusual, reflect legitimate security and diplomatic considerations rather than favoritism.",
+    "comeback": "Immigration law experts specifically dispute that a pardon routinely results in detainer removal for other pardoned drug offenders, and the specific choice to fund a dedicated tactical-team drive to a luxury hotel -- rather than standard release transport -- goes beyond any security rationale tied to the pardon itself, especially set against the administration's simultaneous, aggressive ICE enforcement posture toward far less serious immigration violations documented elsewhere in this tracker.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of pardon power benefiting politically-connected recipients with preferential post-pardon treatment from federal agencies (see also trump-kidan-donor-pardon-2026.json), here extended to a foreign head of state convicted of large-scale narcotics trafficking.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the pardon, the detainer removal timing, and the tactical-team transport are all independently corroborated by ProPublica's own documented investigation (records and named sources), Bloomberg's feature reporting, and wide wire pickup, with no facts disputed by BOP or the White House in sourcing reviewed.",
+    "section_summaries": {
+      "incident_summary": "After pardoning Honduras's former president Hernández -- erasing a 45-year cocaine-trafficking sentence -- BOP rushed to remove his ICE detainer and paid a tactical team to drive him to the Waldorf Astoria, treatment immigration experts say is atypical even for pardoned drug offenders.",
+      "confidence_note": "Independently corroborated by ProPublica's documented investigation and Bloomberg's reporting, with no facts disputed by BOP or the White House."
     }
   },
   {
