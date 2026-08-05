@@ -923,6 +923,49 @@
     }
   },
   {
+    "official": "Darin Smith, Interim/Confirmed U.S. Attorney for the District of Wyoming",
+    "offense_category": "Prosecutorial Misconduct Before a Grand Jury -- calling defendants 'murderers' to grand jurors, telling them deliberations 'won't take long,' and engaging in off-the-record conversations with jurors during breaks between indictments",
+    "contested": false,
+    "incident_summary": "On May 15, 2026, three federal judges in the U.S. District Court for the District of Wyoming jointly dismissed felony grand jury indictments against nine defendants -- Cheyenne Swett, Richard Allen, Michael Scott Hopper, Brian Joseph Johnson, Dennison Jay Antelope, Mathew Christopher Jacoby, Matthew Miller Jr., Wolf Elkins Duran, and Jose Benito Ocon -- citing 'deeply concerning' misconduct by then-interim U.S. Attorney Darin Smith. The judges found Smith called defendants 'murderers' to the grand jury, told jurors deliberations 'won't take long,' and had improper off-the-record conversations with jurors during breaks between indictments, writing that 'this misconduct began with some of the first words spoken to the grand jury' and calling it 'one of the few rare cases that rises to the level of dismissal.' The indictments, which included a murder charge, were dismissed without prejudice, allowing the U.S. Attorney's office to re-present the cases to a new grand jury. Despite these findings, the U.S. Senate confirmed Smith as Wyoming's permanent U.S. Attorney days later.",
+    "elements_required": [
+      "A sitting federal prosecutor made inflammatory, prejudicial statements directly to a grand jury -- calling defendants 'murderers' before any conviction and pressuring jurors that deliberations 'won't take long' -- rather than simply presenting evidence",
+      "The misconduct was not an isolated lapse but, per the judges' own order, began with 'some of the first words' to the grand jury and continued through improper off-the-record conversations across multiple indictments",
+      "Three separate federal judges, acting jointly, found the cumulative misconduct left 'grave doubt' the indictment decisions were free of its influence -- a threshold the judges themselves described as meeting one of the 'few rare cases' warranting dismissal, not a routine or borderline call",
+      "The U.S. Senate confirmed Smith to the permanent U.S. Attorney position after these findings were public, with no reporting reviewed indicating any consequence to his confirmation"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "WyoFile and Cowboy State Daily's detailed reporting on the judges' joint order, including direct quotations from the ruling and the nine defendants' names",
+        "source_url": "https://wyofile.com/judges-toss-charges-against-9-over-u-s-attorney-darin-smiths-deeply-concerning-misconduct/",
+        "maps_to_element": "Establishes the specific misconduct findings and the judges' own characterization of their severity"
+      },
+      {
+        "type": "news_report",
+        "description": "U.S. News/AP wire coverage corroborating the dismissal and the 'deeply concerning' characterization from the court",
+        "source_url": "https://www.usnews.com/news/best-states/wyoming/articles/2026-05-18/judges-toss-charges-against-9-over-us-attorney-darin-smiths-deeply-concerning-misconduct",
+        "maps_to_element": "Independent wire-service corroboration of the judicial findings"
+      },
+      {
+        "type": "news_report",
+        "description": "ABA Journal reporting on Smith's Senate confirmation occurring days after the misconduct findings were made public",
+        "source_url": "https://www.abajournal.com/news/article/senate-confirms-darin-smith-as-wyoming-us-attorney-despite-misconduct-allegations",
+        "maps_to_element": "Establishes the confirmation timeline relative to the misconduct findings"
+      }
+    ],
+    "status": "Concluded on the misconduct finding itself -- indictments dismissed without prejudice; DOJ retained the option to re-present cases to a new grand jury, outcome of any re-presentation not identified in reporting reviewed",
+    "rebuttal_anticipated": "DOJ could argue that dismissal without prejudice (rather than with prejudice) reflects that the underlying cases may still have merit, and that the misconduct finding concerns process, not the guilt or innocence of the nine defendants.",
+    "comeback": "The dismissal-without-prejudice distinction doesn't diminish the misconduct finding itself: three federal judges, acting jointly and describing the case as one of the 'few rare' instances warranting dismissal, found the prosecutor's own conduct -- not a technicality -- compromised the grand jury process from its opening words, and the Senate confirmed him to the permanent post regardless.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented pattern in this tracker of newly appointed, comparatively inexperienced Trump-administration U.S. Attorneys facing misconduct findings (see also this tracker's Broadview Six/Boutros entry).",
+    "confidence_note": "HIGH confidence: the misconduct findings come directly from a joint federal court order, quoted extensively and consistently across WyoFile, Cowboy State Daily, U.S. News/AP, and Bloomberg Law. The confirmation timeline is independently corroborated by the ABA Journal.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "section_summaries": {
+      "incident_summary": "Three federal judges dismissed nine felony indictments, including a murder charge, after finding Wyoming U.S. Attorney Darin Smith called defendants 'murderers' to the grand jury and had improper off-the-record contact with jurors; the Senate confirmed him days later anyway.",
+      "confidence_note": "HIGH: findings come directly from a joint federal court order, corroborated across multiple independent outlets."
+    }
+  },
+  {
     "official": "Todd Blanche, Acting Attorney General (DOJ leadership overseeing the U.S. Attorney's Office for the Northern District of Texas, which issued the subpoena)",
     "offense_category": "Overreaching/politically-motivated use of grand jury subpoena power implicating patient privacy and First/Fourteenth Amendment concerns -- no criminal charges have been filed against NYU Langone, any provider, or any patient; this is a subpoena/investigative-power matter, not a completed prosecution",
     "incident_summary": "On May 7, 2026, NYU Langone Health received a federal grand jury subpoena from the U.S. Attorney's Office for the Northern District of Texas, demanding information on all patients under 18 who received gender-affirming care at the hospital system between 2020 and 2026, along with the names of the medical providers and others involved in offering that care. The hospital's notice indicated several other institutions had received similar subpoenas as part of the same investigation. In response, transgender patients, families, and advocacy groups sued, and a federal judge in the Southern District of New York granted a temporary restraining order blocking disclosure of the requested medical information pending further review. California Attorney General Rob Bonta joined a multistate legal opposition to the subpoenas, calling them 'an assault on privacy.'",

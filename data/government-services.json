@@ -2747,6 +2747,63 @@
     "last_updated": "2026-07-28"
   },
   {
+    "id": "forest-service-research-station-closures-2026",
+    "title": "Forest Service Plans to Close 57 of 77 Research Stations, Including a Key Pacific Northwest Wildfire Smoke Lab, Ahead of Fire Season",
+    "institution": "U.S. Forest Service (USDA)",
+    "domain": "research_suppression",
+    "status": "Ongoing -- closures announced and reported as proceeding as of June 2026, ahead of the 2026 Western fire season",
+    "date_of_action": "2026-04 (closure plan first reported) through 2026-06 (NPR coverage as fire season begins)",
+    "what_changed": "The Forest Service announced plans to close 57 of its 77 research stations across 31 states, merging remaining functions into a single organization headquartered in Fort Collins, Colorado, as part of a broader agencywide restructuring that also moves Forest Service headquarters from Washington, D.C. to Salt Lake City and replaces nine regional offices with 15 state-level offices. Among the stations slated for closure is the Pacific Wildland Fire Sciences Laboratory in Seattle, which issues wildfire smoke forecasts relied on throughout the Pacific Northwest, along with research centers in Portland and Wenatchee, Washington. Ongoing research projects at risk include work on the most effective ways to reduce fire hazards in degraded forests and updated maps of fire threats to rural communities, wildlife habitats, and carbon storage. The agency has said scientists will not lose their jobs and that research programs themselves will not be ended, but fire researchers and Sen. Maria Cantwell (D-WA) have said the closures could hamper firefighting and smoke-forecasting capability as soon as the 2026 fire season. This is distinct from, though related to, this tracker's separate entry on Forest Service fire-operations staffing cuts -- that entry covers personnel reductions among fire-qualified ('red card') staff, while this entry covers the closure of dedicated research infrastructure.",
+    "primary_proponent": {
+      "name": "U.S. Forest Service leadership (Trump administration)",
+      "role": "USDA Forest Service",
+      "note": "Announced as part of an agencywide restructuring plan; no single named individual driving the research-station closures specifically was identified in reporting reviewed, unlike the headquarters-relocation and regional-office-consolidation pieces of the same plan."
+    },
+    "estimated_impact": {
+      "summary": "Consolidating 57 of 77 research stations into one Colorado headquarters removes dedicated, geographically distributed wildfire and forest-science research capacity -- including a smoke-forecasting lab the Pacific Northwest specifically relies on -- just as the region enters a severe fire season, according to fire researchers and the region's senior U.S. Senator.",
+      "figures": [
+        {
+          "metric": "Research stations slated for closure",
+          "value": "57 of 77 (across 31 states)",
+          "source": "KUOW / Washington State Standard, citing Forest Service closure plan"
+        },
+        {
+          "metric": "Research labs specifically named for closure in Washington state",
+          "value": "3 (Seattle, Portland, Wenatchee)",
+          "source": "Washington State Standard"
+        }
+      ],
+      "caveat": "The Forest Service's own public position is that no scientists will lose jobs and that research programs will continue in consolidated form, not end -- a materially different characterization from outside critics' framing that this guts wildfire research capacity. No independent, quantified estimate of specific research-output or forecast-quality loss was found in reporting reviewed; the impact here is presented as the closure of dedicated physical/geographic research infrastructure, not yet a measured degradation in forecast accuracy or fire outcomes."
+    },
+    "confidence_note": "Strong sourcing: the closure plan and station count are corroborated across KUOW, Washington State Standard, Stateline, and NPR, with Sen. Cantwell's office independently confirming concern about the cuts. The Forest Service's own no-layoffs, research-continues position is included and should be presented as the agency's stated rebuttal, not dismissed.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "sources": [
+      {
+        "name": "NPR -- Trump is taking aim at forest and wildfire research just as the West is poised to burn",
+        "url": "https://www.npr.org/2026/06/12/nx-s1-5819899/president-trump-is-taking-aim-at-forest-and-wildfire-research-just-as-the-west-is-poised-to-burn"
+      },
+      {
+        "name": "KUOW -- Forest Service axes research stations as severe fire season threatens Pacific Northwest",
+        "url": "https://www.kuow.org/environment/2026-04-09/forest-service-axes-most-research-stations-as-severe-fire-season-builds-in-pacific-northwest"
+      },
+      {
+        "name": "Washington State Standard -- Forest Service plans to close two research labs in WA",
+        "url": "https://washingtonstatestandard.com/2026/04/10/forest-service-plans-to-close-two-research-labs-in-wa/"
+      },
+      {
+        "name": "Sen. Maria Cantwell -- Cantwell decries cuts to federal wildfire research",
+        "url": "https://www.cantwell.senate.gov/news/news-about-maria/cantwell-decries-cuts-to-federal-wildfire-research"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "The Forest Service plans to close 57 of 77 research stations, including a Seattle lab that issues Pacific Northwest wildfire smoke forecasts, consolidating research into one Colorado headquarters ahead of the 2026 fire season.",
+      "estimated_impact": "Fire researchers and Sen. Cantwell warn the closures could hamper firefighting and smoke forecasting as soon as this fire season, though the Forest Service says no jobs will be lost and research will continue in consolidated form.",
+      "confidence_note": "Strong: the closure plan and specific stations are corroborated across multiple independent outlets, and the agency's own counter-framing is included."
+    },
+    "last_updated": "2026-08-05"
+  },
+  {
     "id": "ftc-workforce-independence-erosion-trump2",
     "title": "FTC Cuts Workforce 10%, Loses Bipartisan Independence After Supreme Court Upholds Commissioner Firings",
     "institution": "Federal Trade Commission",
@@ -7219,6 +7276,69 @@
       "estimated_impact": "The administration is publicly promising housing it hasn't funded while actively resisting the one legally enforceable housing requirement that already exists for the same site.",
       "confidence_note": "The executive order, the budget's lack of dedicated funding, and the pending court appeal are all well-corroborated; whether funding will ultimately materialize depends on an implementation plan not yet produced."
     }
+  },
+  {
+    "id": "vance-fraud-task-force-hospice-suspensions-2026",
+    "title": "Vance's Anti-Fraud Task Force Suspended Medicare Reimbursements for Hundreds of LA Hospices; At Least 43 Legitimate Providers Caught Up",
+    "institution": "Centers for Medicare and Medicaid Services (CMS) / VP-led anti-fraud task force",
+    "domain": "funding_redirection",
+    "status": "Ongoing -- suspensions continuing through mid-2026, with legitimate providers seeking reinstatement",
+    "date_of_action": "2026-04 through 2026-06 (suspension count grew from 70 to 447 hospices over this period)",
+    "what_changed": "Vice President JD Vance's anti-fraud task force, working through CMS, suspended Medicare reimbursements for 447 hospices and 23 home health agencies in the Los Angeles area -- a Southern California region both state and federal authorities have identified as a hospice-fraud hot spot -- over more than $600 million in suspected fraud, up roughly 539% from the 70 suspensions reported at the start of April 2026. CMS also paired the suspensions with nationwide site inspections, expanded background checks for high-risk agencies, and a new public hospice-scoring system. The Washington Post identified at least 43 of the suspended agencies as legitimate providers now seeking to get their funding restored, despite clean records, accreditation, and no formal complaints -- including one hospice whose owner and nurse wife served a couple dozen patients at a time, held the industry's most rigorous and expensive accreditation, and had no formal complaint in five years, yet received a CMS letter accusing the company of fraud and cutting off its reimbursements. Vance and other officials have publicly downplayed evidence of this collateral damage.",
+    "primary_proponent": {
+      "name": "JD Vance",
+      "role": "Vice President; leads the administration's anti-fraud task force",
+      "note": "Publicly touted the suspension totals (later citing 780 hospices shut down nationally) while downplaying reports that legitimate providers were swept up in the crackdown."
+    },
+    "estimated_impact": {
+      "summary": "Hundreds of hospice and home-health providers lost Medicare reimbursements -- the funding source most rely on to operate -- based on suspicion rather than proven fraud findings, and independent reporting identified dozens of specific legitimate operators with clean compliance histories now facing closure while trying to get reinstated.",
+      "figures": [
+        {
+          "metric": "LA-area hospices suspended (April-June 2026)",
+          "value": "447 (up from 70 in early April, a ~539% increase)",
+          "source": "Fox News / Washington Examiner, citing CMS task force data"
+        },
+        {
+          "metric": "Home health agencies suspended alongside hospices",
+          "value": "23",
+          "source": "Fox News"
+        },
+        {
+          "metric": "Total suspected fraud amount cited by the task force",
+          "value": "$600,000,000+",
+          "source": "Fox News, Washington Examiner"
+        },
+        {
+          "metric": "Legitimate hospice agencies identified by the Washington Post as wrongfully suspended, seeking reinstatement",
+          "value": "43+",
+          "source": "Washington Post"
+        }
+      ],
+      "caveat": "This is a genuinely mixed case: Los Angeles is an authentic, well-documented hospice-fraud hot spot, and CMS's task force has surfaced real fraud alongside legitimate providers -- this entry does not dispute that fraud exists, only that the enforcement method (suspension first, based on suspicion, before individualized proof) has demonstrably swept up businesses with clean records and full accreditation. The 43-provider figure is the Washington Post's own count of cases it verified as legitimate, not the task force's total suspension count, and should be cited as such."
+    },
+    "confidence_note": "Strong sourcing: the suspension totals and dollar figures are corroborated across Fox News, Washington Examiner, Hospice News, and ABC affiliate reporting citing CMS data -- pro-administration-leaning outlets reporting the same figures. The collateral-damage finding (43 legitimate providers) comes from the Washington Post's own reporting with a specific, named, detailed case example, independently identified rather than sourced from the task force itself.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "sources": [
+      {
+        "name": "Washington Post -- Vance's fraud task force is sweeping up legitimate small businesses",
+        "url": "https://www.washingtonpost.com/politics/2026/06/15/vances-fraud-task-force-is-sweeping-up-legitimate-small-businesses/"
+      },
+      {
+        "name": "Fox News -- Vance anti-fraud task force suspends 447 hospices in Los Angeles over more than $600M in suspected fraud",
+        "url": "https://www.foxnews.com/politics/vance-anti-fraud-task-force-suspends-447-hospices-los-angeles-600m-suspected-fraud"
+      },
+      {
+        "name": "Hospice News -- Anti-Fraud Task Force Suspends 447 Hospices",
+        "url": "https://hospicenews.com/2026/04/15/anti-fraud-task-force-suspends-447-hospices/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Vance's anti-fraud task force suspended Medicare reimbursements for 447 LA-area hospices and 23 home health agencies over $600M in suspected fraud; the Washington Post identified at least 43 of them as legitimate providers with clean records.",
+      "estimated_impact": "Providers lost their primary funding source based on suspicion rather than individualized proof, and specific legitimate operators -- fully accredited, no complaints in years -- are now fighting to get reinstated while officials downplay the collateral damage.",
+      "confidence_note": "Strong: suspension figures corroborated across multiple outlets including administration-friendly ones; the collateral-damage finding comes from the Washington Post's own independently verified reporting."
+    },
+    "last_updated": "2026-08-05"
   },
   {
     "id": "voa-usagm-dismantlement-trump2",
