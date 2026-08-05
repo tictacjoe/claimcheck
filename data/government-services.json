@@ -1721,7 +1721,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing (Supreme Court allowed dismantling to continue pending lower-court challenges; Congress has not abolished the department and continues funding it)",
     "date_of_action": "2025-03 (executive order) through 2026-06 (special education and civil rights transfers, the last core offices remaining)",
-    "what_changed": "Following a March 2025 Trump executive order directing the department's effective abolition and return of control to the states, Education Secretary Linda McMahon -- following a strategy explicitly drawn from Project 2025, written in part by her now-deputy chief of staff Lindsey Burke -- has signed 14 interagency agreements transferring the department's functions elsewhere, since only Congress can formally eliminate the department itself. K-12, higher education, and workforce training oversight moved to the Department of Labor. The $1.7 trillion student loan portfolio and federal financial aid administration began transferring to Treasury in March 2026. In June 2026, the department's last two core offices -- the Office for Civil Rights (moving to DOJ) and the Office of Special Education and Rehabilitative Services, which administers IDEA protections for students with disabilities (moving to HHS) -- were also transferred, over the objection of disability advocates who participated in months of listening sessions McMahon's own office convened. McMahon sought to lay off roughly 1,400 of the department's 4,200 employees in March 2025 (litigated but largely proceeded); an Education Department Inspector General report found 135 of the department's divisions were left with zero employees after the layoffs, and fewer than 20 retained more than five staff. During the 43-day Oct-Nov 2025 shutdown, 87% of the department's staff were furloughed -- which McMahon later cited as proof the agency was 'nonessential.' The Supreme Court allowed the dismantling to proceed in August 2025 while litigation continues in lower courts. Re-verified 2026-07-26: no material change to the core dismantlement/interagency-transfer narrative -- a Ninth Circuit ruling in the related Sweet v. McMahon case (July 17, 2026, on student-loan borrower claim deadlines) concerns a distinct piece of litigation over SAVE-plan borrower claims, not the interagency-transfer dismantlement this entry primarily documents, and is not folded in here. A February 2026 GAO report found the department's March 2025 OCR reduction-in-force -- which laid off nearly half of OCR's staff and shuttered 7 of its 12 regional offices -- cost taxpayers up to $38 million, since the affected employees were kept on paid administrative leave for nine months while barred from working; the RIF was rescinded in early January 2026. During the period OCR was short-staffed (March-September 2025), the office received over 9,000 discrimination complaints and dismissed roughly 90% of them without full review. GAO concluded the department 'lacks reasonable assurance that its actions achieved the stated goal of reforming the federal workforce' and 'cannot ensure that OCR improved service to the American people.'",
+    "what_changed": "Following a March 2025 Trump executive order directing the department's effective abolition and return of control to the states, Education Secretary Linda McMahon -- following a strategy explicitly drawn from Project 2025, written in part by her now-deputy chief of staff Lindsey Burke -- has signed 14 interagency agreements transferring the department's functions elsewhere, since only Congress can formally eliminate the department itself. K-12, higher education, and workforce training oversight moved to the Department of Labor. The $1.7 trillion student loan portfolio and federal financial aid administration began transferring to Treasury in March 2026. In June 2026, the department's last two core offices -- the Office for Civil Rights (moving to DOJ) and the Office of Special Education and Rehabilitative Services, which administers IDEA protections for students with disabilities (moving to HHS) -- were also transferred, over the objection of disability advocates who participated in months of listening sessions McMahon's own office convened. McMahon sought to lay off roughly 1,400 of the department's 4,200 employees in March 2025 (litigated but largely proceeded); an Education Department Inspector General report found 135 of the department's divisions were left with zero employees after the layoffs, and fewer than 20 retained more than five staff. During the 43-day Oct-Nov 2025 shutdown, 87% of the department's staff were furloughed -- which McMahon later cited as proof the agency was 'nonessential.' The Supreme Court allowed the dismantling to proceed in August 2025 while litigation continues in lower courts. Re-verified 2026-07-26: no material change to the core dismantlement/interagency-transfer narrative -- a Ninth Circuit ruling in the related Sweet v. McMahon case (July 17, 2026, on student-loan borrower claim deadlines) concerns a distinct piece of litigation over SAVE-plan borrower claims, not the interagency-transfer dismantlement this entry primarily documents, and is not folded in here. A February 2026 GAO report found the department's March 2025 OCR reduction-in-force -- which laid off nearly half of OCR's staff and shuttered 7 of its 12 regional offices -- cost taxpayers up to $38 million, since the affected employees were kept on paid administrative leave for nine months while barred from working; the RIF was rescinded in early January 2026. During the period OCR was short-staffed (March-September 2025), the office received over 9,000 discrimination complaints and dismissed roughly 90% of them without full review. GAO concluded the department 'lacks reasonable assurance that its actions achieved the stated goal of reforming the federal workforce' and 'cannot ensure that OCR improved service to the American people.' The Century Foundation found nearly 25% of student-loan borrowers with payments due were delinquent as of February 2026, up from about 9% in 2019 -- roughly 7.9 million borrowers newly entering delinquency -- a sharp rise coinciding with the $1.7 trillion loan portfolio's transfer to Treasury and the department's broader administrative disruption.",
     "primary_proponent": {
       "name": "Linda McMahon",
       "role": "Secretary of Education (former WWE CEO)",
@@ -1765,7 +1765,7 @@
     },
     "confidence_note": "Extremely well-documented and current (reporting through late June 2026) from AP, NPR, Bloomberg, and Washington Examiner, with specific figures from the department's own Inspector General. McMahon's own public statements and the Project 2025 authorship connection are on the record, not inferred. The tension between congressional funding and executive dismantling is a real, verifiable structural fact, not a partisan characterization. Re-verified 2026-07-20: no material change found since the June 2026 special-education/civil-rights office transfers already documented in this entry -- no new ruling from the Supreme Court or lower courts, no further interagency transfers identified. Re-verified 2026-07-26: no material change to report on the core narrative.",
     "section_summaries": {
-      "what_changed": "McMahon transferred the department's core functions to other agencies through interagency deals, because full abolition requires an act of Congress; a Feb. 2026 GAO report found the OCR reduction-in-force alone wasted up to $38 million paying idled staff while nearly 90% of discrimination complaints went dismissed without review.",
+      "what_changed": "McMahon transferred the department's core functions to other agencies through interagency deals, because full abolition requires an act of Congress; a Feb. 2026 GAO report found the OCR reduction-in-force alone wasted up to $38 million paying idled staff while nearly 90% of discrimination complaints went dismissed without review. Student-loan delinquency has also jumped to nearly 25% (from ~9% in 2019), coinciding with the loan portfolio's disrupted transfer to Treasury.",
       "estimated_impact": "Congress still funds the department near its old level despite the hollowing-out; a former staffer doubted HHS has the educational expertise IDEA requires.",
       "confidence_note": "Extensively documented, citing the agency's Inspector General findings and McMahon's own public remarks; nothing has changed since the mid-2026 transfers already covered."
     },
@@ -1803,6 +1803,10 @@
       {
         "name": "19th News -- 'Trump's Education Department has dismissed 90% of student civil rights complaints'",
         "url": "https://19thnews.org/2026/02/student-civil-rights-cases-dismissed-trump-education-department/"
+      },
+      {
+        "name": "CNBC, citing The Century Foundation -- 'Student loan delinquency rate soars'",
+        "url": "https://www.cnbc.com/2026/02/20/student-loan-delinquency.html"
       }
     ]
   },
@@ -7603,6 +7607,64 @@
       "what_changed": "A Senate Democratic staff report found DHS spent at least $40 million to deport ~300 migrants to third countries with no connection to them, including lump-sum payments up to $7.5 million to countries like Rwanda and Equatorial Guinea for as few as 29 deportees.",
       "estimated_impact": "Some individual deportations cost as much as $1 million each; the report's author called the practice 'the epitome' of 'fraud, waste, and abuse.'",
       "confidence_note": "Figures are drawn from the Senate committee's own published report and corroborated by AP-sourced coverage; the 'fraud, waste, and abuse' characterization is the minority staff's own assessment, not an independent audit finding."
+    }
+  },
+  {
+    "id": "tsa-precheck-global-entry-shutdown-suspension-2026",
+    "title": "DHS Suspended, Then Partially Reversed, TSA PreCheck and Global Entry During a Funding Lapse",
+    "institution": "Transportation Security Administration / Customs and Border Protection, DHS",
+    "domain": "staff_office_cuts",
+    "status": "Partially reversed -- TSA PreCheck restored within about a day; Global Entry remained suspended as the shutdown continued",
+    "date_of_action": "2026-02-20 (suspension announced) through 2026-02-21/22 (PreCheck reversal)",
+    "what_changed": "DHS Secretary Kristi Noem announced the suspension of TSA PreCheck and CBP's Global Entry expedited-traveler programs, citing the funding lapse from the ongoing partial government shutdown. Less than a day later, TSA reversed the PreCheck suspension after significant pushback from airlines and lawmakers; Global Entry, however, remained suspended as the shutdown continued. Airlines for America president Chris Sununu criticized the suspension, saying the traveling public was 'once again... used as a political football amid another government shutdown.' Sen. Mark Warner noted that in 2025 more than 18 million travelers used Global Entry, saving over 300,000 CBP officer-hours across 79 ports of entry, and that both programs had remained operational throughout the 43-day government shutdown the prior fall -- undercutting DHS's funding-lapse rationale for this specific suspension.",
+    "primary_proponent": {
+      "name": "Kristi Noem",
+      "role": "Secretary of Homeland Security",
+      "note": "DHS's stated rationale was the funding lapse itself; Sen. Warner's office specifically disputed that rationale by noting both programs operated through a longer prior shutdown without suspension."
+    },
+    "estimated_impact": {
+      "summary": "A sudden suspension of widely-used expedited traveler-screening programs disrupted air travel and border crossings nationwide with less than a day's notice, reversed for PreCheck only after industry and congressional pushback, while Global Entry -- used by 18+ million travelers in 2025 -- remained suspended.",
+      "figures": [
+        {
+          "metric": "Global Entry users, 2025",
+          "value": "18+ million",
+          "source": "Sen. Mark Warner's office"
+        },
+        {
+          "metric": "CBP officer-hours saved by Global Entry, 2025",
+          "value": "300,000+, across 79 ports of entry",
+          "source": "Sen. Mark Warner's office"
+        },
+        {
+          "metric": "Time between suspension and PreCheck reversal",
+          "value": "<1 day",
+          "source": "ABC News/CNBC"
+        }
+      ],
+      "caveat": "This entry documents the suspension and its partial reversal as reported; it does not resolve whether the funding-lapse rationale was itself pretextual, though Sen. Warner's office's comparison to the prior 43-day shutdown (where the programs remained operational) is included as directly relevant context."
+    },
+    "confidence_note": "HIGH confidence -- the suspension, its reversal timeline, and the specific usage/officer-hour figures are independently corroborated across ABC News, CNBC, The Hill, The Washington Post, and Sen. Warner's own office statement.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "Washington Post -- 'DHS reverses TSA PreCheck suspension during shutdown; Global Entry still paused'",
+        "url": "https://www.washingtonpost.com/nation/2026/02/21/tsa-precheck-global-entry-shutdown/"
+      },
+      {
+        "name": "Sen. Mark Warner -- 'Warner Slams Global Entry Suspension'",
+        "url": "https://www.warner.senate.gov/public/index.cfm/2026/2/warner-slams-global-entry-suspension"
+      },
+      {
+        "name": "The Hill -- 'DHS reverses on TSA PreCheck amid shutdown; Global Entry suspended'",
+        "url": "https://thehill.com/policy/transportation/5750551-dhs-reverses-tsa-precheck-shutdown-global-entry-suspended/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "DHS suspended TSA PreCheck and Global Entry during a funding lapse, reversing the PreCheck suspension within a day after industry/congressional pushback while Global Entry remained suspended.",
+      "estimated_impact": "Disrupted travel for the 18+ million annual Global Entry users; Sen. Warner noted both programs stayed operational through a longer prior shutdown, undercutting the funding-lapse rationale.",
+      "confidence_note": "Independently corroborated across multiple outlets and a senator's own office statement, with no facts disputed."
     }
   },
   {
