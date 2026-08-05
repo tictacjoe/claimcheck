@@ -978,6 +978,43 @@
     }
   },
   {
+    "official": "Dr. Casey Means, Surgeon General nominee",
+    "offense_category": "Surgeon General Nominee's Refusal to Reject a Debunked Vaccine-Autism Link, Despite Endorsing Vaccines Generally -- an accountability-relevant confirmation-process concern about the nation's leading public-health messaging role, not an allegation of a completed action",
+    "incident_summary": "Dr. Casey Means, President Trump's nominee for Surgeon General, testified before the Senate HELP Committee amid scrutiny over her positions on vaccines, contraception, and antidepressant use during pregnancy. When directly questioned by Sens. Bill Cassidy (R-LA) and Bernie Sanders (I-VT) about whether vaccines cause autism -- a claim HHS Secretary RFK Jr. has made and decades of scientific research have debunked -- Means declined to say she did not believe vaccines cause autism, instead saying 'no stone should be left unturned' in researching autism's causes. She did state that vaccines save lives and that 'anti-vaccine rhetoric has never been a part of my message,' but repeatedly redirected specific questions about recommending vaccines like MMR and the flu shot back to the importance of 'informed conversations between parents and physicians' rather than affirmatively encouraging vaccination.",
+    "contested": true,
+    "elements_required": [
+      "Means was directly and repeatedly asked by senators from both parties whether vaccines cause autism -- a specific, falsifiable scientific question with a well-established answer",
+      "She declined to give a direct 'no' despite the question's clear scientific answer, instead using open-ended language ('no stone should be left unturned') that leaves room for the debunked claim",
+      "She did affirmatively state vaccines save lives and disclaimed anti-vaccine rhetoric, distinguishing her position from an outright vaccine-autism endorsement",
+      "As the nominee for the nation's top public-health messaging role, her specific word choices carry outsized signaling weight for public vaccine confidence, distinct from a private citizen's views"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "CIDRAP's reporting on the Senate hearing confirms Means's specific 'no stone should be left unturned' response when directly asked about the vaccine-autism link, and that she stopped short of urging universal vaccination",
+        "source_url": "https://www.cidrap.umn.edu/public-health/us-surgeon-general-nominee-dodges-vaccine-questions-senate-hearing",
+        "maps_to_element": "Means's specific evasive language on the vaccine-autism question"
+      },
+      {
+        "type": "public_record",
+        "description": "NPR's reporting confirms Means was questioned by both Sen. Cassidy (R) and Sen. Sanders (I) -- a bipartisan line of questioning -- and that she affirmed vaccines save lives while disclaiming anti-vaccine rhetoric",
+        "source_url": "https://www.npr.org/2026/02/25/nx-s1-5725399/surgeon-general-casey-means-vaccines-birth-control",
+        "maps_to_element": "Bipartisan nature of the questioning and Means's affirmative pro-vaccine statements"
+      }
+    ],
+    "status": "Nomination pending as of this entry's addition -- no confirmation vote outcome identified in sourcing reviewed.",
+    "rebuttal_anticipated": "Likely defense: 'no stone should be left unturned' reflects scientific open-mindedness rather than endorsing the debunked claim, Means explicitly stated vaccines save lives and disclaimed anti-vaccine rhetoric, and emphasizing informed parent-physician conversations is a legitimate public-health communication approach rather than discouraging vaccination.",
+    "comeback": "The specific concern is that the vaccine-autism question has a clear, well-established scientific answer (no causal link), unlike genuinely open scientific questions -- declining to state that answer directly, even while affirming vaccines' general value, leaves ambiguity a Surgeon General nominee's platform specifically should not leave, given the office's outsized influence on public vaccine confidence and the active, ongoing measles outbreak this tracker separately documents.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of HHS-aligned officials and nominees declining to affirmatively counter vaccine misinformation even while formally disclaiming it (see also rfk-jr-vaccine-autism-reexamination-2026.json).",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence -- Means's specific quoted responses and the senators who questioned her are directly corroborated across CIDRAP and NPR's reporting on the hearing itself, not characterization from secondary sources.",
+    "section_summaries": {
+      "incident_summary": "Surgeon General nominee Casey Means declined to directly reject the debunked vaccine-autism link when questioned by senators from both parties, instead saying 'no stone should be left unturned,' while affirming vaccines save lives and disclaiming anti-vaccine rhetoric.",
+      "confidence_note": "Directly corroborated by reporting on the hearing itself, including Means's own quoted statements."
+    }
+  },
+  {
     "official": "Lori Chavez-DeRemer, then-Secretary of Labor (resigned April 2026)",
     "offense_category": "Retaliation Against Employees Who Reported Sexual Misconduct by the Secretary's Own Husband -- an EEO-complaint-substantiated accountability claim distinct from her husband's underlying alleged conduct, which is a separate matter",
     "incident_summary": "Two female political staffers at the Department of Labor alleged that Secretary Lori Chavez-DeRemer's husband, Dr. Shawn DeRemer, an anesthesiologist, subjected them to unwanted sexual touching at the department's Washington headquarters in late 2025, including an incident on December 18 captured on office security cameras. The Labor Department's Inspector General recommended DeRemer be banned from the building, and he was; federal prosecutors ultimately declined to bring charges against him after reviewing the evidence, including the security footage. Separately, at least three people filed formal EEO discrimination/retaliation complaints against Chavez-DeRemer herself, alleging she created a hostile workplace, retaliated against the female staffers who reported her husband's conduct, fostered a climate in which employees feared retaliation for opposing agency policy, and directed staff to perform personal errands for her (including cleaning her closet). Chavez-DeRemer resigned as Labor Secretary in April 2026 amid the mounting allegations -- the third member of Trump's Cabinet to leave within two months -- and, per reporting, falsely claimed a 'deep state' conspiracy was behind the scrutiny on her way out.",
@@ -2701,6 +2738,43 @@
     }
   },
   {
+    "official": "Pete Hegseth, Secretary of Defense / Gen. Dan Caine, Chairman of the Joint Chiefs of Staff",
+    "offense_category": "Unexplained Removal of a Senior Military Officer From a Key Pentagon Post After Only ~90 Days -- part of a broader pattern of abrupt, unexplained senior-military personnel changes this tracker documents",
+    "incident_summary": "Vice Adm. Fred Kacher, a career surface warfare officer who previously commanded the Navy's Japan-based Seventh Fleet, was removed as Director of the Joint Staff -- one of the most significant three-star posts in the Pentagon, providing key support to the Chairman of the Joint Chiefs -- after only about 90 days in the role, which he had assumed December 5, 2025. The removal was ordered by Joint Chiefs Chairman Gen. Dan Caine. The Pentagon's Joint Staff spokesperson did not provide a public reason for the removal; one source told reporters only that Kacher 'was not the right fit for the position.' Kacher is returning to a Navy role rather than another Pentagon post. This follows this tracker's separately-documented removal of Col. Dave Butler from his Army public-affairs role over his association with Trump critic Gen. Mark Milley (hegseth-butler-firing-milley-association-2026.json).",
+    "contested": true,
+    "elements_required": [
+      "A senior three-star officer was removed from one of the Pentagon's most significant support-to-the-Chairman posts after an unusually short ~90-day tenure",
+      "No public reason was given by the Pentagon beyond a vague, unattributed 'not the right fit' characterization",
+      "This is at least the second such abrupt, unexplained senior-officer removal this tracker documents within a similar timeframe (alongside the Butler removal), suggesting a pattern rather than an isolated personnel decision",
+      "Kacher's return to a Navy role rather than a lateral Pentagon reassignment suggests the removal ended his tenure in Pentagon-level leadership rather than simply moving him to a different headquarters post"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "Breaking Defense's reporting confirms Kacher's December 5, 2025 start date, his ~90-day tenure, his return to Navy service, and that Gen. Dan Caine ordered the removal",
+        "source_url": "https://breakingdefense.com/2026/02/joint-staff-director-returning-to-navy-after-only-months-on-job/",
+        "maps_to_element": "Timeline, removing authority, and destination of the removal"
+      },
+      {
+        "type": "reporting",
+        "description": "The Hill's and Washington Examiner's reporting confirm the Pentagon did not provide a public reason for the removal, with one source characterizing it only as Kacher 'not being the right fit'",
+        "source_url": "https://www.washingtonexaminer.com/news/4472724/pentagon-removes-joint-staff-director-after-less-than-90-days-on-the-job/",
+        "maps_to_element": "Absence of a stated public rationale"
+      }
+    ],
+    "status": "Resolved as a personnel matter -- Kacher returned to Navy service; no further public explanation was provided in sourcing reviewed as of this entry's addition.",
+    "rebuttal_anticipated": "Likely defense: senior military leadership changes, including early departures from a specific post, are a normal exercise of the Chairman's and Secretary's personnel discretion, and not every personnel decision requires a detailed public explanation, particularly for a role as sensitive as Director of the Joint Staff.",
+    "comeback": "The specific concern is the pattern this removal fits within -- an unusually short tenure in one of the Pentagon's most significant posts, no public rationale beyond a vague fit characterization, occurring within the same period this tracker documents another senior officer (Butler) removed for reasons connected to a past association with a Trump critic -- raising the question of whether unexplained removals of this kind reflect legitimate personnel management or a broader pattern of politically-motivated senior-officer churn this tracker is positioned to track as further reporting emerges.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Possibly connected to the broader pattern this tracker documents of unexplained senior military personnel changes under the current Pentagon leadership (see also hegseth-butler-firing-milley-association-2026.json), though no specific motive for Kacher's removal was confirmed in sourcing reviewed.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the removal's occurrence, timeline, and the absence of a stated public rationale -- corroborated across Breaking Defense, The Hill, and Washington Examiner. LOW confidence on the underlying motive, since no source provided a substantive reason beyond an unattributed 'not the right fit' characterization -- this entry documents the unexplained removal itself, not a confirmed improper motive.",
+    "section_summaries": {
+      "incident_summary": "Vice Adm. Fred Kacher was removed as Director of the Joint Staff after only ~90 days, with no public reason given beyond an unattributed 'not the right fit' characterization -- the second unexplained senior-officer removal this tracker documents in a similar timeframe.",
+      "confidence_note": "The removal and absence of a stated rationale are well-corroborated; the underlying motive is not confirmed by any source, so this entry documents an unexplained pattern, not a proven improper cause."
+    }
+  },
+  {
     "official": "Corey Lewandowski, former senior adviser to DHS Secretary Kristi Noem, serving as an unpaid 'Special Government Employee'",
     "offense_category": "Federal Procurement Authority Violation -- exercising contracting authority he did not legally hold as a Special Government Employee, potentially implicating federal procurement regulations governing who may bind the government to a contract; DHS OIG (Inspector General Joseph Cuffari) is weighing a criminal referral, but none has been made as of this entry",
     "incident_summary": "Corey Lewandowski, a former Trump campaign manager who served as an unpaid Special Government Employee and senior adviser to then-DHS Secretary Kristi Noem, is under investigation by the DHS Office of Inspector General for allegedly improperly participating in the award of DHS contracts -- a function he had no legal authority to perform in his SGE capacity. Investigators found evidence he personally signed certain contracts or had knowledge of approvals, unusual for someone who was not a full-time federal official with formal contracting-officer authority. DHS Secretary Markwayne Mullin and White House officials have been briefed on the inquiry. Separately, House Oversight Committee Ranking Member Robert Garcia has expanded a related congressional investigation into allegations that DHS contractors were told to pay Lewandowski as part of an alleged pay-to-play scheme. Lewandowski, through a spokesperson, has denied issuing contracts at DHS and said he has not been contacted by investigators.",
@@ -3659,6 +3733,49 @@
     "section_summaries": {
       "incident_summary": "The White House directed FBI Director Patel to personally run a leak probe from the White House itself after NYT reporting embarrassed Trump over Air Force One security, producing home-delivered subpoenas to reporters within days; DOJ later withdrew the subpoenas under judicial pressure and now faces a Senate Judiciary Democrats oversight inquiry into whether the White House directed them.",
       "confidence_note": "Extensively corroborated across independent outlets with specific, undisputed on-record detail, including the judge's stated reasoning for the withdrawal and the Senate Judiciary Committee's own public release on its oversight letter."
+    }
+  },
+  {
+    "official": "Kash Patel, FBI Director",
+    "offense_category": "Firing FBI Personnel Connected to a Biden-Era Investigation Into Patel's Own Phone Records -- raises a direct personal-conflict-of-interest concern, since the FBI Director used his removal authority against staff connected to an investigation of himself",
+    "incident_summary": "The FBI fired at least 10 agents and staff members who had been connected to obtaining 'toll records' (call timing and recipient logs, not call content) for phone numbers belonging to Kash Patel and White House Chief of Staff Susie Wiles, sought in 2022-2023 as part of the Biden-era federal investigation into Trump's handling of classified documents at Mar-a-Lago. Patel told Reuters the toll-record collection was 'outrageous and deeply alarming,' characterizing it as Biden-administration overreach. Legal observers noted that subpoenaing phone toll records -- which reveal only call metadata, not conversation content -- is a routine, unremarkable step in major federal investigations, including ones involving prominent officials' associates. It was not confirmed in sourcing reviewed whether the specific fired staff had personally sought, approved, or executed the toll-record request, or were terminated simply for having been assigned to the broader investigation.",
+    "contested": true,
+    "elements_required": [
+      "Patel, now FBI Director, personally ordered the firing of FBI staff connected to an investigation that had obtained his own and a senior White House official's phone toll records",
+      "This creates a direct conflict of interest -- the FBI Director exercising personnel authority over staff connected to scrutiny of himself, rather than the matter being handled through an independent process",
+      "Toll-record subpoenas are, per legal observers, a routine investigative step rather than an unusual or improper one, undercutting Patel's 'outrageous' characterization as the sole basis for termination",
+      "No source confirmed the specific fired individuals personally requested or approved the toll-record subpoena, as opposed to being connected to the broader investigation in some other capacity"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "CNN's reporting confirms at least 10 FBI staffers were fired over their connection to the toll-record collection on Patel and Wiles during the Trump classified-documents investigation",
+        "source_url": "https://www.cnn.com/2026/02/25/politics/fbi-agents-fired-classified-documents-kash-patel-toll-records",
+        "maps_to_element": "Scale and basis of the firings"
+      },
+      {
+        "type": "public_record",
+        "description": "Reuters' direct reporting (via Patel's own quoted comments) confirms Patel characterized the toll-record collection as 'outrageous and deeply alarming,' and that the underlying subpoenas targeted his and Wiles's 2022-2023 phone records",
+        "source_url": "https://www.foxnews.com/politics/fbi-subpoenaed-kash-patel-susie-wiles-phone-records-federal-trump-investigation.amp",
+        "maps_to_element": "Patel's own stated rationale and the specific records at issue"
+      },
+      {
+        "type": "reporting",
+        "description": "Axios's reporting notes toll-record requests are a routine, unremarkable step in major federal investigations that reveal only call metadata, not content, providing context that cuts against Patel's characterization of the collection itself as improper",
+        "source_url": "https://www.axios.com/2026/02/26/fbi-patel-wiles-phone-records-biden",
+        "maps_to_element": "Routine nature of toll-record subpoenas as an investigative tool"
+      }
+    ],
+    "status": "Resolved as a personnel action -- the firings occurred as reported; no independent review of whether the terminations were individually justified was identified in sourcing reviewed.",
+    "rebuttal_anticipated": "Likely defense: as FBI Director, Patel has legitimate authority over personnel decisions, and obtaining the phone records of a senior incoming administration official and a soon-to-be FBI Director -- even via a routine investigative tool -- reasonably raised his concerns about the investigation's scope and motivations.",
+    "comeback": "The specific conflict-of-interest concern is that Patel personally exercised termination authority over staff connected to scrutiny of his own communications, a decision an independent process (rather than the subject of the original inquiry) would ordinarily handle; combined with legal observers' assessment that toll-record subpoenas are routine rather than improper, the firings read as retaliation for investigative work that touched Patel himself rather than a neutral personnel-conduct review.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of Patel using FBI personnel authority to remove staff connected to investigations or matters he personally objects to (see also patel-fbi-field-office-purge-2025-2026.json and patel-journalist-retaliation-2025-2026.json).",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the firings' occurrence and scale, and on Patel's own quoted rationale -- independently corroborated across CNN, Fox News, Axios, and NBC News, drawing on Patel's own statements to Reuters. MODERATE confidence on whether the specific fired individuals were personally responsible for the toll-record request versus merely connected to the broader investigation, since this distinction was not resolved in sourcing reviewed.",
+    "section_summaries": {
+      "incident_summary": "FBI Director Patel fired at least 10 staff connected to a Biden-era investigation that had obtained his and Susie Wiles's phone toll records, calling the records collection 'outrageous' despite legal observers noting toll-record subpoenas are a routine investigative tool.",
+      "confidence_note": "Well-corroborated across multiple outlets including Patel's own quoted statements; whether the specific fired staff personally handled the toll-record request is unresolved in sourcing reviewed."
     }
   },
   {
