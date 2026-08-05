@@ -124,7 +124,7 @@
   {
     "official": "Todd Blanche, Acting Attorney General (nominated to permanent post)",
     "offense_category": "Vindictive/Selective Prosecution (violates Due Process; established legal doctrine, e.g. United States v. Goodwin) -- underlying investigation into Brennan is ongoing and no charges have been filed; Blanche himself has not been personally charged with anything",
-    "incident_summary": "DOJ has pursued two separate grand jury investigations (Southern District of Florida, opened November 2025 and January 2026) into former CIA Director John Brennan's role in the intelligence community's 2016 assessment that Russia sought to help Donald Trump's presidential campaign. A career prosecutor assigned to the matter raised concerns about the investigation and was removed from the case in April 2026; Joseph DiGenova -- a Trump ally, former Trump campaign lawyer, and now a counselor to Acting Attorney General Todd Blanche -- was installed to lead the investigation in the career prosecutor's place. On July 1, 2026, Brennan sued DOJ seeking a court order requiring the department to preserve records related to both investigations, laying groundwork for an anticipated vindictive/selective-prosecution defense should charges be filed. Update 2026-07-28: Reuters reported (May 12, 2026) that the FBI began questioning current and former CIA officers as part of the DOJ investigation into Brennan's role in the 2017 intelligence assessment concluding Russia interfered in the 2016 election to help Trump -- an active investigative step examining Brennan's role and testimony despite multiple prior independent reviews having already affirmed Russia's 2016 election interference.",
+    "incident_summary": "DOJ has pursued two separate grand jury investigations (Southern District of Florida, opened November 2025 and January 2026) into former CIA Director John Brennan's role in the intelligence community's 2016 assessment that Russia sought to help Donald Trump's presidential campaign. A career prosecutor assigned to the matter raised concerns about the investigation and was removed from the case in April 2026; Joseph DiGenova -- a Trump ally, former Trump campaign lawyer, and now a counselor to Acting Attorney General Todd Blanche -- was installed to lead the investigation in the career prosecutor's place. On July 1, 2026, Brennan sued DOJ seeking a court order requiring the department to preserve records related to both investigations, laying groundwork for an anticipated vindictive/selective-prosecution defense should charges be filed. Update 2026-07-28: Reuters reported (May 12, 2026) that the FBI began questioning current and former CIA officers as part of the DOJ investigation into Brennan's role in the 2017 intelligence assessment concluding Russia interfered in the 2016 election to help Trump -- an active investigative step examining Brennan's role and testimony despite multiple prior independent reviews having already affirmed Russia's 2016 election interference. AP reporting (Feb. 17, 2026) confirmed DOJ expanded the same Florida-based investigation with a new wave of subpoenas targeting additional former FBI officials Peter Strzok and Lisa Page over their roles in the 2016-2017 Russia intelligence assessment -- alongside DOJ's separately-documented subpoena of former FBI Director James Comey over the same assessment (see halligan-comey-vindictive-prosecution-2025-2026.json). Brennan's lawyers said they had been told he is a target but had not been told of any 'legally justifiable basis for undertaking this investigation.'",
     "contested": true,
     "elements_required": [
       "A career prosecutor's removal from the case coincided with that prosecutor raising concerns about the investigation, rather than an unrelated staffing decision",
@@ -162,13 +162,19 @@
         "description": "Reuters reported the FBI had begun questioning current and former CIA officers as part of the Brennan investigation, examining his role and testimony regarding the 2017 Russia-interference intelligence assessment",
         "source_url": "https://www.reuters.com/legal/government/fbi-questions-cia-officers-over-russia-assessment-brennan-probe-sources-say-2026-05-12/",
         "maps_to_element": "Active investigative escalation -- FBI questioning of CIA personnel -- continuing after the case's earlier documented escalation (prosecutor removal, DiGenova's installation)"
+      },
+      {
+        "type": "public_record",
+        "description": "AP's reporting confirms DOJ issued a new wave of subpoenas in February 2026 expanding the same Florida investigation to former FBI officials Peter Strzok and Lisa Page, in addition to Brennan, and that Brennan's lawyers say they have not been given a legally justifiable basis for the investigation",
+        "source_url": "https://www.inquirer.com/politics/nation/trump-russia-brennan-justice-department-20260217.html",
+        "maps_to_element": "Expansion of the same investigation to additional named former officials"
       }
     ],
     "status": "Ongoing -- no indictment filed as of this entry; Brennan's records-preservation lawsuit is pending; case is a continuation, under new DOJ leadership (Blanche/DiGenova), of an investigation pattern that began under Bondi",
     "rebuttal_anticipated": "Likely defense: reassigning a case from one career prosecutor to a politically-connected appointee is a personnel decision within the Attorney General's normal authority, not itself evidence of vindictiveness; a 2016 intelligence assessment with acknowledged, still-debated methodological criticism is a legitimate subject for investigation independent of who currently criticizes the president.",
     "comeback": "The timing -- a prosecutor removed specifically after raising concerns, replaced by a Trump campaign-connected appointee, investigating a prominent and outspoken Trump critic over a matter of long-standing personal presidential grievance -- mirrors the exact pattern (presidential pressure, non-independent prosecutorial substitution, thin evidentiary basis) already documented in the James case under Bondi. Brennan is proactively litigating for records preservation before any charges exist specifically because that pattern is already established and on the public record.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Same structural cause as the Bondi-James entry: DOJ's traditional independence from White House direction in prosecutorial targeting of named political adversaries has continued to erode under the current Acting Attorney General, not just the prior one -- suggesting an institutional pattern rather than one official's individual conduct.",
-    "last_updated": "2026-07-28",
+    "last_updated": "2026-08-05",
     "date_added": "2026-07-27",
     "confidence_note": "MODERATE-HIGH confidence on the documented facts (dual grand jury investigations, prosecutor removal, DiGenova's installation, and Brennan's lawsuit) -- corroborated across multiple independent outlets and Brennan's own court filing. LOW-MODERATE confidence on the vindictive-prosecution characterization itself, since it is Brennan's own legal argument, no charges have been filed, and no court has yet ruled on the merits -- marked `contested: true` accordingly. Re-verified 2026-07-28: Reuters confirms the FBI actively questioning CIA officers as part of this investigation, corroborating that the case remains actively staffed and pursued, not merely dormant since Brennan's records-preservation lawsuit.",
     "section_summaries": {
@@ -1696,6 +1702,43 @@
     }
   },
   {
+    "official": "Kristi Noem, then-Secretary of Homeland Security / Joseph Cuffari, DHS Inspector General",
+    "offense_category": "GAO Investigation Into DHS's Handling of Whistleblower Complaints, Opened Amid Separate Concerns About the DHS Inspector General's Independence -- documents an ongoing oversight inquiry, not a completed finding of wrongdoing",
+    "incident_summary": "The Government Accountability Office opened an investigation into DHS's handling of whistleblower complaints spanning from October 1, 2017 (Trump's first term) through September 30, 2025 (the first year of his second term), at the request of Rep. Bennie Thompson, top Democrat on the House Homeland Security Committee, and Sen. Gary Peters. GAO is seeking interviews with DHS whistleblowers who filed complaints during that roughly eight-year window, spanning both Trump administrations and the Biden administration, to gather firsthand accounts of how their complaints were handled. The investigation's launch coincided with DHS separately asking Inspector General Joseph Cuffari -- himself a first-Trump-term appointee -- to turn over a list of all his office's active investigations, a request the Project on Government Oversight's reporting flagged as relevant context for concerns about the DHS watchdog's independence.",
+    "contested": false,
+    "elements_required": [
+      "GAO, an independent legislative-branch auditor, opened a formal investigation into DHS whistleblower handling at the explicit request of congressional oversight members",
+      "The review's scope spans multiple administrations (both Trump terms and Biden), indicating a structural inquiry into DHS whistleblower-handling practices generally, not a partisan complaint about only the current administration",
+      "GAO's request for direct whistleblower interviews indicates an intent to gather firsthand, systemic evidence rather than relying solely on DHS's own self-reporting",
+      "The investigation's launch coincided with DHS's own request that IG Cuffari disclose his office's active investigations -- a request raising independent oversight-independence concerns documented separately by POGO"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "The Hill's reporting confirms GAO's investigation launch, its request for whistleblower interviews spanning October 2017 through September 2025, and that it was requested by Rep. Bennie Thompson and Sen. Gary Peters",
+        "source_url": "https://thehill.com/homenews/administration/5742600-gao-investigates-dhs-whistleblowers/",
+        "maps_to_element": "GAO investigation's existence, scope, and congressional requesters"
+      },
+      {
+        "type": "public_record",
+        "description": "The Project on Government Oversight's reporting, based on an email it obtained, confirms the investigation's scope and details, and separately documents DHS's request that IG Cuffari turn over a list of his office's active investigations as relevant context",
+        "source_url": "https://www.pogo.org/investigates/dhs-treatment-of-whistleblowers-under-investigation-by-gao",
+        "maps_to_element": "Independent documentary confirmation and the DHS-IG-independence context"
+      }
+    ],
+    "status": "Ongoing as of this entry's addition (February 2026 launch) -- no findings or conclusions had been published in sourcing reviewed as of this entry's addition.",
+    "rebuttal_anticipated": "Likely defense: a GAO review spanning multiple administrations, including years before the current one, is a routine, bipartisan-appropriate oversight exercise rather than evidence of current administration-specific wrongdoing, and DHS requesting a list of its own IG's active investigations is a legitimate internal management inquiry rather than interference.",
+    "comeback": "This entry does not assert GAO has found wrongdoing -- it documents that Congress found DHS whistleblower handling serious enough to warrant a formal, multi-year GAO review with direct whistleblower interviews, occurring in the same period DHS separately sought visibility into its own Inspector General's active investigation list, a combination worth tracking for its eventual findings rather than asserting a conclusion prematurely.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DHS oversight and accountability mechanisms facing structural strain under the current administration (see also the ICE biometric-surveillance IG audit and DHS critic-subpoena entries), though this entry concerns a multi-administration review rather than a claim specific to the current administration alone.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the investigation's existence, scope, and requesters -- independently corroborated by The Hill and POGO's own documentary reporting (an email POGO obtained directly). This entry documents an open inquiry, not a completed finding, so no confidence assessment of underlying wrongdoing is applicable yet.",
+    "section_summaries": {
+      "incident_summary": "GAO opened a formal, multi-administration investigation into DHS's handling of whistleblower complaints (2017-2025) at congressional Democrats' request, seeking direct whistleblower interviews, launched around the same time DHS asked its own Inspector General for a list of active investigations.",
+      "confidence_note": "Well-corroborated by The Hill and POGO's own documentary reporting; this documents an open inquiry, not yet a completed finding."
+    }
+  },
+  {
     "official": "Jamieson Greer, United States Trade Representative",
     "offense_category": "Ultra Vires Agency Action — Tariffs Imposed Without Statutory Authority (the Supreme Court ruled the International Emergency Economic Powers Act, IEEPA, did not authorize the administration's global tariff program) — NOT charged criminally; this is a completed Supreme Court ruling on the merits, the highest-authority legal finding of any entry in this dataset; remedy was invalidation of the tariffs, not personal liability for Greer",
     "incident_summary": "The Trump administration imposed sweeping global tariffs -- including 'Reciprocal' and 'Fentanyl' tariffs -- relying on the International Emergency Economic Powers Act as legal authority, with Greer as US Trade Representative implementing and defending the program. On February 20, 2026, the Supreme Court ruled against the use of IEEPA as the legal foundation for these tariffs, invalidating roughly 70% of the tariffs the administration had imposed worldwide. The administration responded within two days by shifting to Section 122 of the Trade Act of 1974 to impose temporary 10% global tariffs, with Greer publicly stating the policy 'hasn't changed, just the legal playbook.'",
@@ -1894,6 +1937,49 @@
     "section_summaries": {
       "incident_summary": "Survivors of a Caribbean drug-boat strike were killed in a follow-up hit that anonymous sources tie to a verbal Hegseth kill order.",
       "confidence_note": "Whether Hegseth actually gave that order is genuinely disputed, but the campaign's now-massive death toll and scale are not."
+    }
+  },
+  {
+    "official": "Pete Hegseth, Secretary of Defense",
+    "offense_category": "Removal of a Career Officer Over Association With a Trump Critic, Overriding the Officer's Own Service Secretary -- distinct from this tracker's Harvard entry, which concerns an academic institutional relationship rather than an individual officer's career",
+    "incident_summary": "Defense Secretary Pete Hegseth ordered Army Secretary Dan Driscoll to remove Col. Dave Butler from his position as Chief of Army Public Affairs and chief advisor to Driscoll, while Driscoll was in Geneva serving on the U.S. negotiating team to end the Ukraine war. Butler, a 28-year Army veteran, had previously served as head of public affairs for the Joint Chiefs under Gen. Mark Milley -- who became a public critic of President Trump -- and reporting indicates Hegseth's objection to Butler stemmed specifically from that prior association with Milley, not from any performance issue in Butler's current role. Driscoll, an Army veteran and close ally of Vice President JD Vance, had reportedly resisted Hegseth's pressure to remove Butler for months given his contributions to Army modernization efforts. Hegseth had separately held up a promotion list for nearly four months, reportedly over concerns about four to five officers on it. Butler ultimately transitioned out of his position and retired after 28 years of service, rather than being reassigned elsewhere in the Army.",
+    "contested": true,
+    "elements_required": [
+      "Hegseth personally ordered the removal of a career officer from a position advising his own service secretary, overriding that secretary's documented resistance",
+      "The stated basis for the removal, per reporting, was the officer's prior professional association with Gen. Milley -- a Trump critic -- not a performance concern in the officer's current assignment",
+      "The officer's own chain of command (Secretary Driscoll) had resisted the removal for months, indicating the decision came from outside normal personnel-management channels",
+      "The outcome was retirement after 28 years of service rather than reassignment, ending the officer's career rather than merely changing his post"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "Fox News's Jennifer Griffin confirmed via sourcing that Hegseth ordered Army Secretary Driscoll to remove Butler from his role as Chief of Army Public Affairs while Driscoll was in Geneva on Ukraine negotiations, and that Butler had served under Gen. Milley and was slated for his first star",
+        "source_url": "https://x.com/JenGriffinFNC/status/2023760364718944390?lang=en",
+        "maps_to_element": "The removal order and Butler's prior Milley association"
+      },
+      {
+        "type": "reporting",
+        "description": "The Hill's reporting confirms Hegseth's ouster of Butler as a top Driscoll adviser, and situates it within a broader pattern of Hegseth-directed personnel actions",
+        "source_url": "https://thehill.com/policy/defense/5741827-hegseth-ousts-top-army-advisor/",
+        "maps_to_element": "Institutional context of the removal"
+      },
+      {
+        "type": "reporting",
+        "description": "The Week's reporting confirms Driscoll had resisted the pressure to remove Butler for months given Butler's contributions to Army transformation efforts, and that Hegseth's underlying objection was Butler's connection to Milley rather than performance",
+        "source_url": "https://theweek.com/politics/pete-hegseth-dan-driscoll-david-butler",
+        "maps_to_element": "Months of resistance from Butler's own chain of command; stated motive"
+      }
+    ],
+    "status": "Resolved as a personnel matter -- Butler transitioned out of his position and retired after 28 years of service, as of reporting reviewed.",
+    "rebuttal_anticipated": "Likely defense: the Secretary of Defense has broad authority over senior personnel assignments within the Department of Defense, public affairs officers serve at leadership's discretion given the sensitivity of their role, and disagreements over personnel choices between the Defense Secretary and a service secretary are a normal, internal management dynamic rather than evidence of improper motive.",
+    "comeback": "The specific facts distinguishing this from ordinary personnel discretion are that the officer's own service secretary resisted the removal for months on substantive performance grounds, that the stated trigger was a past professional association with a Trump critic rather than any current performance issue, and that the removal occurred while Driscoll -- the officer directly affected -- was abroad on a sensitive diplomatic mission, limiting his ability to contest the decision in real time.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of career personnel across agencies facing removal for associations or histories connected to Trump critics rather than for performance in their current roles (see also the Ed Martin and Mizelle entries, though this is a Defense Department example rather than DOJ).",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the removal, its timing during Driscoll's Geneva trip, Butler's Milley association, and Driscoll's months of resistance are corroborated across Fox News sourcing, The Hill, and The Week, with no facts disputed by the Pentagon in sourcing reviewed.",
+    "section_summaries": {
+      "incident_summary": "Hegseth ordered Army Secretary Driscoll to remove Col. Dave Butler as Chief of Army Public Affairs -- reportedly over Butler's past association with Trump-critic Gen. Milley rather than performance -- overriding months of Driscoll's resistance; Butler retired after 28 years rather than being reassigned.",
+      "confidence_note": "Well-corroborated across multiple outlets with no facts disputed by the Pentagon."
     }
   },
   {
@@ -2929,6 +3015,43 @@
     "section_summaries": {
       "incident_summary": "DHS kept two El Salvador-bound deportation flights airborne even after a federal judge ordered their reversal.",
       "confidence_note": "A court already concluded there's enough basis to pursue contempt, but the process for naming who personally is responsible was halted before finishing."
+    }
+  },
+  {
+    "official": "Kristi Noem, then-Secretary of Homeland Security",
+    "offense_category": "Diverting Coast Guard Search-and-Rescue Assets for Deportation Operations, Including a Contested Mid-Mission Diversion During an Active Search for a Missing Coast Guardsman -- distinct from this tracker's other Noem entries, which concern DHS management culture and subpoena practices rather than operational decisions with an alleged life-safety cost",
+    "incident_summary": "NBC News reporting found that under Secretary Noem, more than 750 Coast Guard flights were diverted from routine missions -- including maritime patrols and search-and-rescue -- to transport detained migrants to deportation hubs, with migrant-transport flights surging from 14 in June 2025 to 149 by November. The most serious specific incident reported: shortly after Noem's confirmation, a 23-year-old Coast Guard member went overboard and a C-130 was actively searching for him when Noem told acting Coast Guard Commandant Admiral Kevin Lunday to pull the plane from the search mid-flight to avoid missing a migrant-transport window; Lunday relayed the instruction to the National Command Center, which diverted the plane to San Diego to complete its role in DHS's 'Alien Expulsion Operation.' Coast Guard command in San Diego found two other available aircraft to handle the migrant transport, allowing the C-130 to return to the search after about an hour. The missing Coast Guardsman was never found. A DHS spokesperson disputed the account, telling NBC 'the C-130 never left the search' and that there is no documentation the plane was pulled off the mission.",
+    "contested": true,
+    "elements_required": [
+      "A documented, large-scale diversion of Coast Guard aircraft from their core missions (patrol, search-and-rescue) to deportation-related transport, evidenced by a specific flight-count surge (14 to 149 monthly)",
+      "A specific, named incident in which Noem personally directed a plane be pulled from an active search for a missing Coast Guard member, relayed through the chain of command to the National Command Center",
+      "DHS's own spokesperson disputes the core factual claim (that the plane was pulled from the search), creating a direct factual conflict rather than a mere characterization dispute",
+      "The missing Coast Guardsman was never found, though no source claims the diversion caused that outcome -- the accountability concern is the decision itself, not a proven causal link to the search's failure"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "NBC News's reporting documents the flight-count surge (14 in June to 149 in November), the specific mid-search diversion incident involving Noem's instruction to Admiral Lunday, the National Command Center's diversion of the plane to San Diego, and DHS's on-record dispute of the account",
+        "source_url": "https://www.nbcnews.com/politics/immigration/noems-use-coast-guard-resources-strains-relationship-military-branch-s-rcna258904",
+        "maps_to_element": "Both the aggregate diversion pattern and the specific contested incident"
+      },
+      {
+        "type": "reporting",
+        "description": "The New Republic's reporting confirms Coast Guard leadership's frustration with the diversion of resources to what DHS terms 'alien expulsion operations,' describing effects on morale and other Coast Guard duties",
+        "source_url": "https://newrepublic.com/post/206642/noem-pulled-coast-guard-plane-search-rescue-deportations",
+        "maps_to_element": "Broader institutional strain and morale impact"
+      }
+    ],
+    "status": "Contested and unresolved as of this entry's addition -- DHS disputes the specific mid-search diversion account and says there is no documentation the plane was pulled off the mission; NBC News's reporting is based on other sourcing. No independent investigation outcome identified in sourcing reviewed.",
+    "rebuttal_anticipated": "Likely defense (DHS's own stated position): the C-130 never left the search for the missing Coast Guardsman, no documentation supports the claim that it was diverted, and using Coast Guard assets flexibly across missions -- including immigration enforcement support -- is within DHS's lawful discretion over its component agencies.",
+    "comeback": "NBC News's reporting attributes the specific instruction-and-diversion sequence to sourcing describing the chain of command (Noem to Lunday to the National Command Center) rather than a single unconfirmed account, and the aggregate flight-diversion data (14 to 149 monthly) is not disputed by DHS even as the specific search-and-rescue incident is -- meaning the broader resource-diversion pattern is established even if the most serious individual incident remains contested.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DHS leadership subordinating other agency missions and safety considerations to immigration-enforcement priorities (see also cbp-drone-laser-faa-el-paso-airspace-2026.json and noem-dhs-dysfunction-wsj-2026.json).",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the aggregate flight-diversion pattern (14 to 149 monthly), which DHS did not dispute. MODERATE confidence on the specific mid-search diversion incident, since DHS has directly and specifically disputed that account, creating a genuine factual conflict between NBC's sourcing and DHS's on-record denial rather than a one-sided or uncontested claim.",
+    "section_summaries": {
+      "incident_summary": "Noem diverted over 750 Coast Guard flights from patrol/search-and-rescue to deportation transport, including a contested incident where she reportedly pulled a plane from an active search for a missing Coast Guardsman -- an account DHS specifically disputes.",
+      "confidence_note": "The aggregate diversion pattern is undisputed by DHS; the specific mid-search incident is directly contested by DHS's own on-record denial."
     }
   },
   {

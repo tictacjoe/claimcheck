@@ -7120,6 +7120,39 @@
     "last_updated": "2026-07-26"
   },
   {
+    "id": "ssa-suicide-caller-guidance-undertrained-staff-2026",
+    "title": "SSA Instructed Newly Reassigned, Minimally-Trained Phone Agents to Tell Suicidal Callers That 'Suicide Is Only One Option'",
+    "institution": "Social Security Administration",
+    "domain": "staff_office_cuts",
+    "status": "In effect as of February 2026 reporting -- no reversal or policy correction confirmed in sourcing reviewed",
+    "date_of_action": "2026-02 (reporting period)",
+    "what_changed": "As part of SSA's broader staffing collapse (see ssa-staffing-service-collapse-trump2.json), the agency reassigned employees from other roles to newly-created phone duty with as little as three hours of training, according to GovExec's reporting. Internal guidance reviewed by GovExec instructed these newly-reassigned, minimally-trained agents that when a caller expressed suicidal thoughts, they should tell the caller that 'suicide is only one option' rather than following established crisis-response protocols used by trained crisis counselors. Current and former SSA employees raised concerns that agents with only a few hours of training were being placed in a position to respond -- with agency-scripted language -- to callers in acute mental health crisis, a role normally requiring specialized training SSA phone agents do not have.",
+    "primary_proponent": {
+      "name": "Social Security Administration",
+      "role": "Federal agency issuing the scripted guidance and reassigning undertrained staff to phone duty",
+      "note": "This entry documents the guidance and staffing context GovExec's reporting surfaced; it does not allege any specific caller was harmed, only that the practice and script raised concerns among current/former employees."
+    },
+    "estimated_impact": {
+      "summary": "Placing agents with as little as three hours of training in a position to respond to suicidal callers -- using scripted language that current/former employees themselves flagged as inappropriate -- is a direct consequence of SSA's broader staffing collapse (over 8,000 employees driven out since January 2025) forcing untrained reassignment to fill service gaps, with a specific, documented risk to vulnerable callers.",
+      "caveat": "No specific caller-harm outcome was confirmed in sourcing reviewed -- this entry documents the guidance and training-gap as reported, a process/practice concern rather than a documented individual-harm case."
+    },
+    "confidence_note": "HIGH confidence -- the reassignment, the three-hour training figure, and the specific scripted guidance quoted are drawn directly from GovExec's reporting, which is based on internal documents and current/former employee accounts; no SSA rebuttal was identified in sourcing reviewed.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "GovExec -- 'Suicide Is Only One Option': Social Security Staff Newly Assigned Phone Duties Raise Concerns Over Training'",
+        "url": "https://www.govexec.com/management/2026/02/suicide-only-one-option-social-security-staff-newly-assigned-phone-duties-raise-concerns-over-training/411429/?oref=ge-home-top-story"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "SSA reassigned staff to phone duty with as little as three hours of training and instructed them to tell suicidal callers that 'suicide is only one option,' rather than following trained crisis-response protocols.",
+      "estimated_impact": "A direct consequence of SSA's broader staffing collapse forcing undertrained reassignment into a role requiring specialized crisis training the agents don't have.",
+      "confidence_note": "Drawn directly from GovExec's reporting based on internal documents and employee accounts; no SSA rebuttal identified."
+    }
+  },
+  {
     "id": "state-department-ambassador-vacancies-2026",
     "title": "More than 100 U.S. ambassador posts left vacant, more than double the rate of Trump's first term",
     "institution": "U.S. Department of State / Foreign Service",
@@ -8064,6 +8097,39 @@
       "what_changed": "Trump ordered VA to house 6,000 homeless veterans on the West LA campus by 2028, but his own budget funds none of it -- while the VA separately appeals a court order requiring 1,800 units of permanent veteran housing on the same campus.",
       "estimated_impact": "The administration is publicly promising housing it hasn't funded while actively resisting the one legally enforceable housing requirement that already exists for the same site.",
       "confidence_note": "The executive order, the budget's lack of dedicated funding, and the pending court appeal are all well-corroborated; whether funding will ultimately materialize depends on an implementation plan not yet produced."
+    }
+  },
+  {
+    "id": "vaccine-manufacturers-pullback-rfk-policy-2026",
+    "title": "Vaccine Manufacturers Scale Back Research, Cancel Factory Plans, and Lay Off Workers Amid Hostile Federal Vaccine Policy",
+    "institution": "HHS / FDA / CDC (policy environment) affecting the private vaccine-manufacturing industry",
+    "domain": "research_suppression",
+    "status": "Ongoing as of this entry's addition (Feb. 2026 reporting)",
+    "date_of_action": "2025-2026 (ongoing industry response to federal policy shift)",
+    "what_changed": "The New York Times reported that vaccine manufacturers are scaling back research programs, canceling planned factory investments, and laying off workers in response to federal vaccine policy under HHS Secretary RFK Jr. turning increasingly hostile toward vaccines. Moderna paused a late-stage vaccine trial as part of this broader pullback. This industry-wide contraction is a downstream consequence of, and connects to, several federal actions this tracker separately documents -- including FDA's refusal to even review Moderna's mRNA flu vaccine application (fda-moderna-mrna-flu-vaccine-refusal-2026.json) and RFK Jr. allies' state-level campaign against school vaccine mandates (rfk-allies-state-vaccine-mandate-repeal-2026.json) -- representing the private-sector investment and R&D response to a federal policy environment manufacturers now judge as unfavorable to vaccine development.",
+    "primary_proponent": {
+      "name": "HHS Secretary Robert F. Kennedy Jr.",
+      "role": "Federal official whose policy direction manufacturers cite as driving the industry pullback",
+      "note": "This entry documents private companies' investment decisions in response to the federal policy environment, not a specific federal rule or directive causing the pullback directly."
+    },
+    "estimated_impact": {
+      "summary": "A broad industry-wide pullback in vaccine R&D investment, factory construction, and employment -- including a major manufacturer (Moderna) pausing a late-stage trial -- represents a longer-term reduction in future vaccine development capacity and pipeline, distinct from any single federal action's immediate effect.",
+      "caveat": "This entry documents an industry-response trend reported by the New York Times rather than a single discrete federal action; the precise causal weight of federal policy versus other market factors (e.g., post-pandemic vaccine demand normalization) in manufacturers' investment decisions is not fully isolated in sourcing reviewed."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- The New York Times' reporting is the primary source identified, and the Moderna late-stage trial pause is a specific, verifiable data point within it; the broader industry-wide characterization (multiple manufacturers scaling back) relies on the Times' own investigative synthesis rather than a single manufacturer's public disclosure for every claim.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "New York Times -- 'Vaccine manufacturers are scaling back research, canceling factory plans, and laying off workers' (RFK vaccine policy environment)",
+        "url": "https://www.nytimes.com/2026/02/16/health/rfk-vaccine-manufacturers.html"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Vaccine manufacturers are scaling back R&D, canceling factory plans, and laying off workers -- including Moderna pausing a late-stage trial -- as federal vaccine policy under RFK Jr. turns increasingly hostile.",
+      "estimated_impact": "Represents a longer-term reduction in future U.S. vaccine development capacity, connected to this tracker's separately-documented FDA and state-mandate-repeal entries.",
+      "confidence_note": "Primary source is the NYT's own investigative reporting; the precise causal weight of federal policy versus other market factors is not fully isolated."
     }
   },
   {
