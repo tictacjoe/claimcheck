@@ -5458,6 +5458,40 @@
     "last_updated": "2026-07-27"
   },
   {
+    "id": "oas-mission-diplomat-exodus-rizzuto-2026",
+    "title": "Senior Diplomats Depart U.S. Mission to the OAS After Clashes With Ambassador Rizzuto, a Trump Ally",
+    "institution": "U.S. Mission to the Organization of American States (OAS) / State Department",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing -- departures reported as of June 2026, no indication of reversal in reporting reviewed",
+    "date_of_action": "2026-06 (Reuters reporting on departures)",
+    "what_changed": "Several senior U.S. diplomats at the U.S. Mission to the Organization of American States resigned or were pushed out following clashes with Ambassador Leandro Rizzuto Jr., a personal friend of President Trump and billionaire heir to a cosmetics fortune, whose management style struck many career officials as confrontational and erratic. Rizzuto forced out his deputy chief of mission and chief of staff, while the mission's political counselor resigned; in one internal interaction, Rizzuto reportedly compared staff who raised concerns about the mission directly with State Department leadership to 'rats.' The departures stripped the mission of much of its senior leadership and institutional expertise on Latin America policy. Rizzuto has also moved to shift the OAS mission's focus away from human rights and democracy issues toward economic matters, a change that has unsettled career State Department staff working the region.",
+    "primary_proponent": {
+      "name": "Leandro Rizzuto Jr.",
+      "role": "U.S. Ambassador to the Organization of American States",
+      "note": "Forced out his deputy chief of mission and chief of staff and is reported to have created a work environment that drove out the mission's political counselor and other senior career staff."
+    },
+    "estimated_impact": {
+      "summary": "A career diplomatic mission responsible for U.S. engagement with the OAS on Latin America policy lost several of its most senior, experienced officials in a short period, coinciding with an ambassador-driven shift away from the mission's traditional human-rights and democracy focus.",
+      "figures": [],
+      "caveat": "No numeric staff-loss total (e.g., total headcount reduction) was found in reporting reviewed -- the documented impact is the departure of specific senior leadership roles (deputy chief of mission, chief of staff, political counselor), not a quantified overall reduction in mission staffing."
+    },
+    "confidence_note": "Strong sourcing: this is Reuters' own exclusive reporting, based on accounts from people familiar with the situation, and is corroborated by wire syndication across U.S. News and other outlets. No numeric total staff-loss figure exists to cite, which should be flagged when using this entry in debate.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "sources": [
+      {
+        "name": "Reuters -- Exclusive: US diplomats depart Latin America-focused mission amid clashes with Trump ally",
+        "url": "https://www.reuters.com/world/us-diplomats-depart-latin-america-focused-mission-amid-clashes-with-trump-ally-2026-06-18/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Ambassador Leandro Rizzuto Jr., a Trump ally, forced out or drove away his deputy chief of mission, chief of staff, and political counselor at the U.S. Mission to the OAS, while shifting the mission's focus away from human rights and democracy.",
+      "estimated_impact": "The mission lost much of its senior Latin America policy expertise in a short period, though no numeric total staffing loss has been reported.",
+      "confidence_note": "Strong: Reuters' own exclusive reporting, corroborated via wire syndication; no total headcount figure exists to cite."
+    },
+    "last_updated": "2026-08-05"
+  },
+  {
     "id": "odni-pulte-staff-purge-trump2",
     "title": "Acting DNI Bill Pulte purges Office of the Director of National Intelligence staff",
     "institution": "Office of the Director of National Intelligence (ODNI)",

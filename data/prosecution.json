@@ -966,6 +966,49 @@
     }
   },
   {
+    "official": "Justice Department political appointees (individuals not named in reporting reviewed), under Attorney General Pam Bondi",
+    "offense_category": "Halting a Criminal Investigation Into Alleged Improper Payments Connected to a Presidential Clemency Grant -- no charges have been filed against anyone involved, and the investigation itself was shut down before reaching a conclusion",
+    "contested": true,
+    "incident_summary": "Federal prosecutors in Brooklyn opened a criminal inquiry into how David Gentile -- founder of GPB Capital, convicted in 2024 of defrauding more than 10,000 investors in a roughly $1.6 billion fraud scheme -- received a presidential commutation of his seven-year sentence less than two weeks after reporting to prison. Investigators reportedly obtained jailhouse messages in which Gentile discussed paying $2.5 million or more to people or companies to help secure clemency, and the inquiry examined whether the commutation involved improper payments or communications that could support federal charges. Reporting ties retired Brooklyn priest Frank Mann to alleged payments linked to the commutation effort; Mann denied any involvement in an email to the New York Times, though people with knowledge of the prison communications said he corresponded with Gentile about lobbying the president on his behalf. Political appointees at the Justice Department halted the inquiry before it reached a conclusion.",
+    "elements_required": [
+      "A federal criminal inquiry was opened specifically into whether payments were made to secure a presidential commutation -- not a routine clemency review, but an investigation into potential public corruption connected to the president's own clemency power",
+      "Investigators had already obtained jailhouse messages in which the commutation's beneficiary himself discussed paying $2.5 million or more to help secure clemency, evidence sufficient to warrant continued investigation rather than an obviously baseless inquiry",
+      "The investigation was halted by DOJ political appointees rather than career prosecutors closing it for lack of evidence -- a decision reported as coming from political leadership rather than the line prosecutors handling the case",
+      "The commutation itself is publicly unusual on its face regardless of the payments question: releasing a defendant convicted of defrauding 10,000+ investors in a $1.6 billion scheme less than two weeks into a seven-year sentence"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "New York Times original reporting establishing the investigation, the jailhouse messages discussing $2.5 million in payments, the priest connection, and that Trump political appointees halted the inquiry",
+        "source_url": "https://www.nytimes.com/2026/06/21/us/politics/trump-fraudster-priest-investigation-brooklyn.html",
+        "maps_to_element": "Establishes the investigation's existence, the evidence it had already gathered, and that it was halted by political rather than career DOJ officials"
+      },
+      {
+        "type": "news_report",
+        "description": "NBC News reporting on the underlying commutation itself -- Gentile's conviction, sentence, and release less than two weeks into serving it",
+        "source_url": "https://www.nbcnews.com/politics/white-house/trump-commutes-7-year-prison-sentence-former-private-equity-ceo-david-rcna246744",
+        "maps_to_element": "Establishes the scale of the fraud and the unusual timing of the commutation"
+      },
+      {
+        "type": "news_report",
+        "description": "Secondary reporting on U.S. senators seeking answers about the killed investigation, indicating congressional interest and corroborating the investigation's shutdown",
+        "source_url": "https://tonyortega.substack.com/p/us-senators-want-answers-about-killed",
+        "maps_to_element": "Corroborates that the investigation's halt drew formal congressional scrutiny, not just press interest"
+      }
+    ],
+    "status": "Investigation halted -- no charges filed against Gentile, Mann, or any other individual as of this entry's sourcing; congressional inquiries into the shutdown are pending",
+    "rebuttal_anticipated": "DOJ could argue that public corruption cases tied to clemency decisions are legally complex, require proof of an explicit quid-pro-quo, and that the investigation may have been halted for genuine evidentiary reasons rather than to protect anyone connected to the president's clemency power.",
+    "comeback": "The 'insufficient evidence' framing is undercut by the reported timeline: prosecutors had already obtained the beneficiary's own jailhouse messages discussing a specific $2.5 million payment figure before the inquiry was shut down by political appointees rather than allowed to run its course through career prosecutors -- the halt itself, not just the final evidentiary picture, is what raises the concern.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented pattern in this tracker of DOJ leadership intervening to halt or redirect investigations touching the president's own conduct or allies (see also this tracker's other DOJ-intervention entries).",
+    "confidence_note": "Strong sourcing: this is the New York Times' own original investigative reporting, with the underlying commutation facts independently corroborated by NBC News. MODERATE confidence on the full internal DOJ decision-making, since the specific political appointees who ordered the halt were not named in reporting reviewed.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "section_summaries": {
+      "incident_summary": "DOJ political appointees halted a Brooklyn criminal inquiry into whether $2.5M+ in payments helped secure Trump's commutation of fraudster David Gentile, despite investigators already having Gentile's own jailhouse messages discussing the payments.",
+      "confidence_note": "Strong: original NYT investigative reporting, with the underlying commutation independently corroborated by NBC News; the specific officials who ordered the halt aren't named in reporting reviewed."
+    }
+  },
+  {
     "official": "Todd Blanche, Acting Attorney General (DOJ leadership overseeing the U.S. Attorney's Office for the Northern District of Texas, which issued the subpoena)",
     "offense_category": "Overreaching/politically-motivated use of grand jury subpoena power implicating patient privacy and First/Fourteenth Amendment concerns -- no criminal charges have been filed against NYU Langone, any provider, or any patient; this is a subpoena/investigative-power matter, not a completed prosecution",
     "incident_summary": "On May 7, 2026, NYU Langone Health received a federal grand jury subpoena from the U.S. Attorney's Office for the Northern District of Texas, demanding information on all patients under 18 who received gender-affirming care at the hospital system between 2020 and 2026, along with the names of the medical providers and others involved in offering that care. The hospital's notice indicated several other institutions had received similar subpoenas as part of the same investigation. In response, transgender patients, families, and advocacy groups sued, and a federal judge in the Southern District of New York granted a temporary restraining order blocking disclosure of the requested medical information pending further review. California Attorney General Rob Bonta joined a multistate legal opposition to the subpoenas, calling them 'an assault on privacy.'",
@@ -1055,6 +1098,49 @@
     "section_summaries": {
       "incident_summary": "DOJ subpoenaed Rhode Island Hospital for the identifying and medical records of every transgender patient it treated; a federal judge blocked it, finding DOJ 'unworthy' of prosecutorial trust and tying the subpoena to the administration's stated goal of ending such care.",
       "confidence_note": "Well-documented via the court's own ruling and multiple outlets; Blanche's personal role in this specific subpoena's scope is not individually confirmed."
+    }
+  },
+  {
+    "official": "DOJ prosecutors (individuals not named in reporting reviewed), issued under the Trump DOJ's immigration-enforcement obstruction investigation",
+    "offense_category": "Grand Jury Subpoenas Quashed as Harassment/Retaliation for Constitutionally Protected Conduct -- a federal judge found the subpoenas served no legitimate investigative purpose",
+    "contested": false,
+    "incident_summary": "On January 20, 2026, DOJ prosecutors issued sweeping grand jury subpoenas to Minnesota Governor Tim Walz, Minneapolis Mayor Jacob Frey, St. Paul Mayor Kaohly Her, Minnesota Attorney General Keith Ellison, and the Hennepin County Attorney's Office and Board of Commissioners, seeking an expansive range of information as part of a stated investigation into obstruction of federal immigration enforcement, issued against the backdrop of the administration's aggressive immigration surge in Minnesota that had drawn widespread protests. On June 22, 2026, U.S. District Judge Patrick Schiltz quashed the subpoenas, writing that 'the Department has struggled -- without success -- to identify a single plausible investigatory justification for the subpoenas,' calling the requests 'extraordinarily broad' and finding they sought materials 'that largely if not entirely relate to constitutionally protected conduct.' The judge ruled the government issued the subpoenas 'to harass and retaliate against' the officials for opposing the administration's immigration policies -- a finding reporting characterized as an almost unheard-of judicial rebuke of DOJ grand jury subpoenas.",
+    "elements_required": [
+      "DOJ issued grand jury subpoenas -- a coercive criminal-investigative tool -- to a sitting governor, two mayors, a state attorney general, and a county prosecutor's office and elected board, an unusually broad and high-profile set of targets",
+      "A federal judge found, after DOJ's own attempt to justify the subpoenas in court, that the Department could not identify any plausible investigatory purpose for them",
+      "The court found the material sought largely or entirely related to constitutionally protected conduct (public officials' policy positions and statements), not conduct ordinarily subject to grand jury investigation",
+      "The judge made an explicit judicial finding -- not just an inference invited by advocates -- that the subpoenas were issued 'to harass and retaliate against' the targeted officials specifically for opposing the administration's immigration policy"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "Washington Post and ABC News reporting on Judge Schiltz's order, including direct quotations finding no plausible investigatory justification and characterizing the subpoenas as 'extraordinarily broad'",
+        "source_url": "https://www.washingtonpost.com/national-security/2026/06/22/federal-judge-rejects-doj-subpoenas-issued-gov-walz-minneapolis-mayor/",
+        "maps_to_element": "Establishes the judge's specific findings on lack of investigatory purpose and overbreadth"
+      },
+      {
+        "type": "news_report",
+        "description": "Forbes and The Hill reporting on the ruling's finding that the subpoenas were meant to harass and retaliate, and on how rare this type of judicial rebuke of DOJ grand jury subpoenas is",
+        "source_url": "https://www.forbes.com/sites/alisondurkee/2026/06/22/court-kills-trump-dojs-subpoenas-against-minnesota-officials-ruling-theyre-meant-to-harass/",
+        "maps_to_element": "Corroborates the harassment/retaliation finding and its rarity as a form of judicial pushback"
+      },
+      {
+        "type": "news_report",
+        "description": "Minnesota Reformer and ABC News reporting establishing the full list of subpoenaed officials and the January 20, 2026 issuance date, tying the subpoenas to the immigration-enforcement surge in Minnesota",
+        "source_url": "https://abcnews.com/Politics/federal-judge-tosses-doj-subpoenas-minnesota-gov-tim/story?id=134102990",
+        "maps_to_element": "Establishes the full scope of targeted officials and the subpoenas' timing relative to the immigration enforcement dispute"
+      }
+    ],
+    "status": "Concluded -- subpoenas quashed by court order; no indication in reporting reviewed that DOJ has re-issued narrower subpoenas or appealed the ruling",
+    "rebuttal_anticipated": "DOJ could argue the subpoenas were part of a legitimate obstruction investigation and that the court's ruling reflects a single judge's disagreement over scope rather than proof of retaliatory intent.",
+    "comeback": "The ruling wasn't a dispute over scope alone -- the judge made an explicit factual finding, after DOJ's own opportunity to justify the subpoenas in court, that the Department could not identify any plausible investigatory purpose at all, and that the subpoenas targeted constitutionally protected conduct specifically to harass and retaliate against officials for their public opposition to administration immigration policy.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented pattern in this tracker of DOJ subpoena power being directed at state and local officials and institutions perceived as adversarial to the administration's immigration enforcement (see also this tracker's DHS administrative-subpoena-abuse and ICE/HHS legal-aid-visit entries).",
+    "confidence_note": "HIGH confidence: the judicial findings come directly from Judge Schiltz's written order, quoted extensively and consistently across the Washington Post, ABC News, Forbes, The Hill, and Minnesota Reformer. This is an adjudicated court ruling, not a contested allegation -- among the strongest-sourced entries in this tracker's pattern of subpoena-abuse findings.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "section_summaries": {
+      "incident_summary": "A federal judge quashed DOJ grand jury subpoenas targeting Gov. Walz, Minneapolis Mayor Frey, and other Minnesota officials, finding DOJ could identify no legitimate investigatory purpose and that the subpoenas were meant 'to harass and retaliate' over their opposition to immigration enforcement.",
+      "confidence_note": "HIGH: this is an adjudicated court ruling with the findings quoted directly and corroborated across multiple major outlets, not a contested allegation."
     }
   },
   {

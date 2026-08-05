@@ -1239,6 +1239,69 @@
     ]
   },
   {
+    "id": "interior-public-lands-drilling-bonding-methane-rollback-2026",
+    "rule_name": "Public-lands oil, gas, and coal extraction rules -- bonding requirements and methane venting/flaring standards",
+    "administration": "Trump II (2025-present)",
+    "agency": "DOI",
+    "domain": "environmental",
+    "status": "Proposed Repeal -- rulemaking announced June 2026",
+    "date_of_action": "2026-06 (Interior's proposal announced)",
+    "original_rule_summary": "Biden-era Interior Department rules required oil and gas companies drilling on public lands to post financial bonds of up to $500,000 to guarantee funds are available to clean up and plug wells after extraction ends, and required companies to detail plans to limit methane emissions -- including restrictions on venting and flaring, both of which release methane, a potent greenhouse gas -- when applying for drilling permits.",
+    "what_changed": "The Interior Department, under Secretary Doug Burgum, proposed rolling back regulations for oil, gas, and coal extraction on public lands. The proposal would cut the bonding amount companies must post to guarantee well cleanup from $500,000 to $25,000 -- a 95% reduction -- weaken environmental reporting obligations, and eliminate the requirement that companies detail methane-limiting plans when applying for drilling permits, while revising the definitions governing when venting and flaring are authorized. Burgum characterized the changes as advancing 'energy dominance' by cutting red tape that has 'historically deterred investment.'",
+    "primary_proponent": {
+      "name": "Doug Burgum",
+      "role": "Secretary of the Interior",
+      "note": "Publicly announced and defended the rollback as an 'energy dominance' measure to reduce regulatory burden on drilling companies."
+    },
+    "corporate_beneficiaries": [
+      "Oil, gas, and coal companies operating on federal public lands (broadly -- no single named company identified as a specific beneficiary in reporting reviewed)"
+    ],
+    "estimated_health_impact": {
+      "summary": "Cutting required cleanup bonds by 95% shifts financial risk of well-abandonment cleanup costs from drilling companies toward taxpayers if companies go bankrupt or abandon wells, while loosened methane venting/flaring rules would allow more of a potent greenhouse gas to be released during extraction.",
+      "figures": [
+        {
+          "metric": "Required bonding amount, before rollback",
+          "value": "up to $500,000",
+          "source": "Center for Western Priorities, E&E News, citing Interior's proposal"
+        },
+        {
+          "metric": "Required bonding amount, proposed",
+          "value": "$25,000",
+          "source": "Center for Western Priorities, E&E News, citing Interior's proposal"
+        },
+        {
+          "metric": "Reduction in required bonding",
+          "value": "95%",
+          "source": "Calculated from Interior's own proposed figures"
+        }
+      ],
+      "caveat": "No independent, quantified estimate of resulting methane emissions increase or taxpayer cleanup-cost exposure was found in reporting reviewed -- the documented impact so far is the scale of the regulatory rollback itself (the bonding-amount cut and the elimination of methane-plan permit requirements), not yet a measured environmental or fiscal outcome, since this remains a proposed rule as of this entry's sourcing."
+    },
+    "confidence_note": "Strong sourcing: the proposal's specific terms (bonding reduction to $25,000, methane venting/flaring rule changes) are corroborated across Democracy Now!, E&E News/POLITICO, the Center for Western Priorities, and Interior's own press release confirming the proposal's existence and stated rationale. As a Proposed Repeal, this entry should be rechecked periodically for finalization status.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "sources": [
+      {
+        "name": "E&E News / POLITICO -- Interior announces eased requirements for public lands oil drilling",
+        "url": "https://www.eenews.net/articles/interior-announces-eased-requirements-for-public-lands-oil-drilling/"
+      },
+      {
+        "name": "Center for Western Priorities -- Interior proposes weakened oil and gas drilling rules for public lands",
+        "url": "https://westernpriorities.org/2026/06/interior-proposes-weakened-oil-and-gas-drilling-rules-for-public-lands/"
+      },
+      {
+        "name": "U.S. Department of the Interior -- Department of the Interior Proposes Streamlined Regulations for Oil, Gas and Coal",
+        "url": "https://www.doi.gov/pressreleases/department-interior-proposes-streamlined-regulations-oil-gas-and-coal"
+      }
+    ],
+    "short_summary": "Interior proposed cutting required well-cleanup bonds by 95% and eliminating methane-limiting plan requirements for public-lands drilling.",
+    "section_summaries": {
+      "what_changed": "Interior proposed cutting the required cleanup bond for public-lands drilling from $500,000 to $25,000 and eliminating methane-limiting permit requirements, framed by Secretary Burgum as 'energy dominance.'",
+      "estimated_impact": "Shifts well-cleanup financial risk toward taxpayers and loosens methane venting/flaring rules, though no quantified emissions or cost estimate exists yet since this remains a proposed rule.",
+      "confidence_note": "Strong: the proposal's specific terms are corroborated across multiple independent outlets plus Interior's own press release confirming the rationale."
+    }
+  },
+  {
     "id": "joint-employer-standard-narrowing-trump2",
     "rule_name": "Joint-Employer Standard Narrowing (NLRB)",
     "administration": "Trump II (2025-present) -- corrected from an earlier draft that misdated this as a First Term action",
