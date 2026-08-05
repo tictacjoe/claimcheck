@@ -1211,6 +1211,45 @@
     ]
   },
   {
+    "id": "fda-single-trial-approval-standard-2026",
+    "rule_name": "FDA's longstanding requirement that new drugs be supported by two independent clinical studies before approval",
+    "administration": "Trump II (2025-present)",
+    "agency": "Food and Drug Administration",
+    "domain": "consumer_safety",
+    "status": "Finalized (policy change announced)",
+    "date_of_action": "2026-02-18 (announcement, per AP reporting)",
+    "original_rule_summary": "FDA has long applied a default expectation that new drug approvals be supported by two independent, adequate, and well-controlled clinical studies -- a standard intended to guard against a single trial's results being a statistical fluke, methodological artifact, or site-specific anomaly, and to provide independent replication of a drug's safety and efficacy findings before it reaches the market.",
+    "what_changed": "FDA announced it will end its longstanding two-independent-study requirement for new drug approvals, moving to a default standard of a single trial, with the stated goal of accelerating drug approvals. The change was led by FDA Commissioner Marty Makary and vaccine/biologics official Dr. Vinay Prasad -- the same official whose office separately refused to even review Moderna's mRNA flu vaccine application over trial-design objections (see fda-moderna-mrna-flu-vaccine-refusal-2026.json), creating an apparent tension between accelerating approval standards for new drugs generally while applying an unusually strict, refusal-to-file standard in that specific vaccine case.",
+    "primary_proponent": {
+      "name": "Dr. Marty Makary / Dr. Vinay Prasad",
+      "role": "FDA Commissioner / FDA vaccine and biologics official",
+      "note": "The administration's stated rationale is accelerating the pace of drug approvals and reducing development costs and timelines for pharmaceutical companies."
+    },
+    "corporate_beneficiaries": [
+      "Pharmaceutical companies seeking faster, lower-cost paths to drug approval, since a single required trial substantially reduces development time and cost compared to two independent studies"
+    ],
+    "estimated_health_impact": {
+      "summary": "Replication across independent studies has historically served as a safeguard against approving drugs based on results that don't hold up under a second trial -- a single-trial default standard increases the risk that approved drugs' safety/efficacy profiles rest on findings that would not have replicated, a tradeoff FDA is making explicitly in favor of faster approval timelines.",
+      "caveat": "FDA retains discretion to require additional studies for specific drugs under the new default policy; this entry documents the announced change in the default standard, not a claim that every future approval under it will prove unsafe or ineffective."
+    },
+    "confidence_note": "HIGH confidence -- the policy announcement, its FDA leadership attribution (Makary and Prasad), and its stated acceleration rationale are confirmed by AP's direct reporting, with no dispute of the underlying facts identified in sourcing reviewed.",
+    "short_summary": "FDA ended its default two-independent-study requirement for new drug approvals, moving to a single-trial standard to accelerate approvals.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "AP -- 'FDA announced it will end its longstanding requirement that new drugs be supported by two independent studies'",
+        "url": "https://apnews.com/article/fda-drug-approval-studies-makary-prasad-a5aaa5501ae15f264bbd20d0dffa4dc4"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "FDA ended its default two-independent-study requirement for new drug approvals, moving to a single-trial standard under Makary and Prasad to accelerate approvals.",
+      "estimated_impact": "Increases the risk that approved drugs rest on unreplicated findings, a tradeoff made explicitly in favor of faster approval timelines.",
+      "confidence_note": "Confirmed directly by AP's reporting with clear FDA leadership attribution; no facts disputed."
+    }
+  },
+  {
     "id": "ftc-click-to-cancel-repeal-trump2",
     "rule_name": "FTC \"Click to Cancel\" / Negative Option Rule Repeal",
     "administration": "Trump II (2025-present)",
@@ -1885,6 +1924,45 @@
     "short_summary": "Ended detailed public reporting of workplace injuries at large employers."
   },
   {
+    "id": "osha-inspections-decline-2025-2026",
+    "rule_name": "OSHA workplace-safety inspection and enforcement activity (not a specific rule repeal -- documents an enforcement-practice decline achieved without formally changing underlying safety standards)",
+    "administration": "Trump II (2025-present)",
+    "agency": "Occupational Safety and Health Administration / Department of Labor",
+    "domain": "labor",
+    "status": "Finalized as a completed comparison-period figure (late 2025 vs. late 2024); ongoing as an enforcement posture into 2026",
+    "date_of_action": "Late 2025 (comparison period), data released 2026-02-18",
+    "original_rule_summary": "OSHA conducts workplace inspections and issues violation findings -- including 'willful' violation findings, reserved for the most serious, knowing violations of safety standards -- as its primary enforcement mechanism for existing workplace-safety rules, independent of any specific rule needing to change.",
+    "what_changed": "Data released by Sen. Elizabeth Warren's office showed OSHA conducted roughly 20% fewer workplace inspections in late 2025 compared to the same period in 2024, alongside a 42% drop in findings of 'willful' violations -- the most serious enforcement category, reserved for violations OSHA determines were committed with plain indifference to or intentional disregard for employee safety. As with this tracker's separately-documented EPA civil-enforcement collapse (epa-civil-enforcement-collapse-2025.json), this decline was achieved through reduced enforcement activity rather than any formal repeal of the underlying workplace-safety standards, meaning the rules remain on the books but are being enforced against far fewer violators.",
+    "primary_proponent": {
+      "name": "Department of Labor / OSHA",
+      "role": "Federal agency responsible for the reduced inspection and enforcement activity",
+      "note": "No specific DOL rationale for the decline was quoted in sourcing reviewed beyond the data itself."
+    },
+    "corporate_beneficiaries": [
+      "Employers facing substantially reduced likelihood of a workplace-safety inspection or a 'willful' violation finding for serious, knowing safety violations"
+    ],
+    "estimated_health_impact": {
+      "summary": "A 42% drop in 'willful' violation findings -- OSHA's most serious enforcement category -- alongside a 20% drop in inspections overall suggests reduced deterrence against the most serious, knowing workplace-safety violations, at a time when the underlying safety standards remain formally in place but are being enforced against fewer employers.",
+      "caveat": "This entry documents Sen. Warren's office's data release characterizing OSHA's own enforcement statistics; a single comparison period can be affected by staffing transitions and other administrative factors, though the specific and simultaneous decline in both inspection volume and the most serious violation-finding category suggests more than ordinary year-to-year variance."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- the specific percentage figures are drawn from Sen. Warren's office's data release as reported by The New York Times; this is a Democratic senator's office characterization of OSHA's own data rather than an independent nonpartisan audit, though the underlying inspection/violation-finding statistics themselves are OSHA's own enforcement records.",
+    "short_summary": "OSHA conducted 20% fewer inspections and found 42% fewer 'willful' violations in late 2025 than the same period in 2024, per data released by Sen. Warren's office.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "New York Times -- 'Data released by Sen. Elizabeth Warren shows OSHA conducted roughly 20% fewer workplace inspections'",
+        "url": "https://www.nytimes.com/2026/02/18/us/politics/workplace-inspections-decrease-osha.html"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "OSHA conducted 20% fewer workplace inspections and found 42% fewer 'willful' safety violations in late 2025 vs. late 2024, per data released by Sen. Warren's office.",
+      "estimated_impact": "Suggests reduced deterrence against the most serious, knowing workplace-safety violations even as the underlying safety standards remain formally in place.",
+      "confidence_note": "Underlying figures are OSHA's own enforcement statistics, released and characterized by a Democratic senator's office rather than an independent nonpartisan audit."
+    }
+  },
+  {
     "id": "pfas-drinking-water-rollback-trump2",
     "rule_name": "PFAS Drinking Water Rule Rollback (Compliance Extension + Partial Rescission)",
     "administration": "Trump II (2025-present)",
@@ -2285,5 +2363,46 @@
       }
     ],
     "short_summary": "Proposed narrowing which wetlands and streams get federal water protections."
+  },
+  {
+    "id": "wright-iea-net-zero-ultimatum-2026",
+    "title": "Energy Secretary Wright Threatens U.S. Withdrawal From the International Energy Agency Over Its Climate Modeling, Prompting the Agency to Soften Its Forecasts",
+    "institution": "Department of Energy",
+    "domain": "environmental",
+    "status": "Ongoing as of this entry's addition -- ultimatum issued Feb. 2026 with a stated one-year deadline; the U.S. has not withdrawn from the IEA, but the agency has already altered its public forecasting in apparent response",
+    "date_of_action": "2026-02-19 (IEA Ministerial Meeting, Paris)",
+    "what_changed": "At the IEA's 2026 Ministerial Meeting in Paris, U.S. Energy Secretary Chris Wright delivered a one-year ultimatum demanding the International Energy Agency abandon its 'net-zero' climate-transition modeling and pivot toward a traditional energy-security framing, warning the U.S. would use 'all the pressure we have' to force the change or reconsider its IEA membership. Wright accused countries prioritizing net-zero goals of committing 'economic suicide' and criticized IEA's scenario modeling as based on 'climate ambitions' rather than 'energy data.' The Paris meeting notably ended without a joint communique, underscoring the depth of the U.S.-IEA rift. In apparent response, the IEA subsequently softened its public forecasting, signaling a shift toward projecting continued oil-demand growth through mid-century rather than its prior net-zero-aligned trajectory -- a substantive change in the independent international agency's own published analysis following direct U.S. political pressure.",
+    "primary_proponent": {
+      "name": "Chris Wright",
+      "role": "U.S. Secretary of Energy",
+      "note": "Wright's stated rationale is that IEA's net-zero-oriented modeling misrepresents actual energy-market data and disadvantages fossil-fuel-producing nations, including the U.S."
+    },
+    "estimated_impact": {
+      "summary": "An international energy-data agency long relied upon for independent, non-political demand and supply forecasting altered its public analysis following a direct U.S. political ultimatum -- a documented instance of political pressure producing a substantive change in an ostensibly technical/independent international body's output, distinct from and more concrete than an unexercised private threat.",
+      "caveat": "The U.S. has not actually withdrawn from the IEA as of this entry's addition -- Wright's ultimatum carries a stated one-year deadline, and IEA's forecast shift, while reported as connected, was not accompanied by an explicit IEA statement confirming the U.S. pressure as the specific cause."
+    },
+    "confidence_note": "HIGH confidence on Wright's ultimatum, its specific terms, and the absence of a joint communique -- corroborated across CNBC, Washington Examiner, and Euronews. MODERATE confidence on the direct causal link between Wright's pressure and IEA's subsequent forecast softening, since IEA did not explicitly attribute the change to U.S. pressure in sourcing reviewed, though the timing and outlets' own characterization support the connection.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "CNBC -- 'U.S. renews threat to quit the International Energy Agency over net zero agenda'",
+        "url": "https://www.cnbc.com/2026/02/19/us-energy-iea-climate-net-zero-peak-oil-trump.html"
+      },
+      {
+        "name": "Washington Examiner -- 'Chris Wright gives IEA one year to ditch 'net-zero' climate agenda or lose US'",
+        "url": "https://www.washingtonexaminer.com/policy/energy-and-environment/4463358/chris-wright-iea-ditch-net-zero-climate-agenda/"
+      },
+      {
+        "name": "Euronews -- 'US energy leader slams IEA's net zero agenda, suggests Washington could walk out'",
+        "url": "https://www.euronews.com/my-europe/2026/02/19/us-energy-leader-slams-ieas-net-zero-agenda-suggests-washington-could-walk-out"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Energy Secretary Wright gave the IEA a one-year ultimatum to abandon net-zero climate modeling or risk U.S. withdrawal; the Paris meeting ended without a joint communique, and IEA subsequently softened its forecasts.",
+      "estimated_impact": "A documented case of U.S. political pressure producing a substantive shift in an international agency's independent forecasting, though the U.S. has not yet actually withdrawn.",
+      "confidence_note": "The ultimatum and its terms are well-corroborated; the direct causal link to IEA's forecast change is supported by timing and outlet characterization but not an explicit IEA admission."
+    }
   }
 ]
