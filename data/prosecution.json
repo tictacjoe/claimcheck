@@ -1027,6 +1027,55 @@
     }
   },
   {
+    "official": "Adm. Kevin Lunday, Coast Guard Commandant / Kristi Noem, then-Secretary of Homeland Security",
+    "offense_category": "Repeated Policy Flip-Flopping on Classifying Swastikas and Nooses as Hate Symbols, Followed by an Actual Swastika Incident at a Recruit Training Center -- documents an institutional policy failure rather than any single official's criminal conduct",
+    "incident_summary": "In November 2025, The Washington Post reported the Coast Guard would no longer classify swastikas and nooses as hate symbols under a new workplace-harassment policy, instead labeling them merely 'potentially divisive.' Within a day, the Coast Guard reversed course and said both would again be classified as hate symbols. Despite that public reversal, Commandant Adm. Kevin Lunday's order to maintain the hate-symbol classification was never actually incorporated into the policy for reasons that remain unclear, and the more lenient 'potentially divisive' language was allowed to take effect in mid-December 2025 despite objections from members of Congress. Facing renewed uproar, the Coast Guard deleted the downgraded language again on December 18, 2025, restoring the hate-symbol classification for a second time. Roughly two months later, on February 19-20, 2026, an instructor found a swastika hand-drawn on a bathroom wall at the Coast Guard's primary recruit training center in Cape May, New Jersey; Lunday personally flew to the base to address roughly 900 recruits and staff, condemning the symbol's use, and the Coast Guard referred the incident to its Investigative Service.",
+    "contested": true,
+    "elements_required": [
+      "The Coast Guard's official written policy classified swastikas and nooses as merely 'potentially divisive' rather than hate symbols for a period in December 2025, despite the Commandant's own stated intent to maintain the stricter classification",
+      "This downgraded language took effect and remained in place for a period despite congressional objections, indicating a governance failure in how the Commandant's order was (or wasn't) implemented",
+      "The policy was reversed twice in response to public and congressional pressure rather than through a considered, stable policymaking process",
+      "An actual swastika incident occurred at a Coast Guard training facility within about two months of the second reversal, providing a concrete test of whether the final policy and its enforcement culture were adequate"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "The Washington Post's original and follow-up reporting documents the November 2025 policy downgrade, the Commandant's order to reverse it that was never incorporated, the policy actually taking effect in mid-December despite congressional objections, and the Coast Guard deleting the downgraded language again on December 18, 2025",
+        "source_url": "https://www.washingtonpost.com/national-security/2025/12/18/coast-guard-swastikas-nooses-kristi-noem/",
+        "maps_to_element": "The repeated policy flip-flopping and the implementation failure of Lunday's reversal order"
+      },
+      {
+        "type": "public_record",
+        "description": "NPR's reporting confirms the Coast Guard's initial reclassification of swastikas and nooses as hate symbols following the first public reversal in November 2025",
+        "source_url": "https://www.npr.org/2025/11/21/nx-s1-5616396/coast-guard-changes-course-reclassifies-swastikas-and-nooses-as-hate-symbols",
+        "maps_to_element": "Timeline confirmation of the first reversal"
+      },
+      {
+        "type": "public_record",
+        "description": "The Washington Post's February 2026 reporting confirms the swastika found at the Cape May recruit training center, Lunday's personal response addressing roughly 900 recruits and staff, and the referral to the Coast Guard Investigative Service",
+        "source_url": "https://www.washingtonpost.com/national-security/2026/02/23/coast-guard-swastika-cape-may/",
+        "maps_to_element": "The concrete hate-symbol incident following the policy saga"
+      },
+      {
+        "type": "public_record",
+        "description": "Rep. Joe Courtney's statement confirms congressional objection to the Coast Guard allowing the downgraded policy manual language to take effect",
+        "source_url": "https://courtney.house.gov/media-center/press-releases/courtney-statement-after-coast-guard-allows-its-official-policy-manual",
+        "maps_to_element": "Congressional objection during the period the downgraded policy was in effect"
+      }
+    ],
+    "status": "Resolved as to the written policy -- the hate-symbol classification was restored as of December 18, 2025. The February 2026 Cape May incident was under active investigation by the Coast Guard Investigative Service as of this entry's addition, with no findings reported in sourcing reviewed.",
+    "rebuttal_anticipated": "Likely defense: the final, current policy classifies swastikas and nooses as hate symbols, the December lapse was reportedly an implementation/coordination failure rather than an intentional policy choice, and a single vandalism incident at a large training facility does not by itself establish an institutional culture problem.",
+    "comeback": "The specific concern is not the current written policy, which is now corrected, but that the Commandant's own reversal order went unincorporated for weeks despite public commitments and congressional objection -- suggesting either a governance breakdown in implementing leadership's own stated decisions or that the downgraded classification reflected the administration's actual preference until public pressure forced a second reversal; the subsequent swastika incident, while not proof of a causal link to the policy episode, occurred at the same institution within a short window and prompted the Commandant's own direct, urgent response.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] An institution-specific governance and culture concern; this entry does not allege a direct causal link between the policy-manual episode and the February incident, only that both concern the same institution's handling of hate-symbol classification within a short timeframe.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the full sequence of events (both policy reversals, the congressional objection, and the February incident) -- independently corroborated across The Washington Post's sustained coverage, NPR, and Rep. Courtney's own statement, with no facts disputed by the Coast Guard.",
+    "section_summaries": {
+      "incident_summary": "The Coast Guard downgraded swastikas/nooses from hate symbols to merely 'potentially divisive' in its harassment policy, reversed course twice amid public and congressional pressure, and then found an actual swastika at its Cape May recruit training center about two months after the policy was finally corrected.",
+      "confidence_note": "The full policy-reversal sequence and the February incident are both well-corroborated across sustained Washington Post coverage, NPR, and a member of Congress's own statement."
+    }
+  },
+  {
     "official": "Doug Collins, Secretary of Veterans Affairs",
     "offense_category": "Administrative Procedure Act Violation — Final Rule Issued Without Required Notice-and-Comment (5 U.S.C. §553) — NOT charged criminally; this is a civil administrative law matter; the rule was withdrawn following public backlash, and at least one lawsuit was filed seeking review before the withdrawal",
     "incident_summary": "In February 2026, the VA issued a regulation -- with no public notice and as a final decision -- requiring medical examiners to factor in the effects of medication when determining veterans' disability ratings, departing from prior practice. The rule had a documented potential economic impact of $100 million per year and could have affected readjudication of 350,000 existing claims. After fewer than 60 hours of public reaction (more than 10,000 Federal Register comments) and condemnation from major veterans service organizations (VFW, Disabled American Veterans, American Legion, Paralyzed Veterans of America), at least one lawsuit was filed, and Collins announced within two days that the rule would not be enforced, while not formally rescinding it.",
@@ -2588,6 +2637,12 @@
         "description": "AP's companion piece confirms Congress's $75 billion appropriation for ICE expansion and cites experts warning that misconduct risk could accelerate given the volume of new employees empowered to use aggressive tactics amid weakened oversight",
         "source_url": "https://www.yahoo.com/news/articles/ice-expands-ap-review-crimes-051435501.html",
         "maps_to_element": "Compounding risk from rapid expansion combined with weakened oversight"
+      },
+      {
+        "type": "public_record",
+        "description": "A former ICE attorney who oversaw deportation-officer training testified to Congress that the agency's training program is 'deficient, defective and broken,' accusing DHS of shortening required courses -- offering a specific, on-the-record institutional explanation for the misconduct pattern this entry documents",
+        "source_url": "https://apnews.com/article/ice-immigration-enforcement-congress-training-trump-466a19105e6dfd4990a9b58361b6963d",
+        "maps_to_element": "Institutional root-cause testimony connecting weakened training to the misconduct pattern"
       }
     ],
     "status": "Ongoing structural concern as of this entry's addition -- most documented cases predate the recent ICE expansion, meaning AP's review largely quantifies pre-expansion misconduct risk (some cases originating under the prior administration) while flagging that the current environment (rapid hiring, 'absolute immunity' posture, weakened oversight) could increase future misconduct rates. No systemic accountability reform identified in sourcing reviewed as of this entry's addition.",
@@ -3500,6 +3555,12 @@
         "description": "CNN's dedicated reporting on Patel's FBI jet use explains the practical security/communications constraints on FBI-director travel generally, providing context for evaluating whether the trip's justification was adequate",
         "source_url": "https://www.cnn.com/2026/02/24/politics/kash-patel-fbi-jet-use-explained",
         "maps_to_element": "Context on FBI-director travel constraints and jet-use norms"
+      },
+      {
+        "type": "public_record",
+        "description": "Reuters' follow-up reporting confirms Patel personally defended the beer-drinking, locker-room celebration footage, maintaining he was in Italy on official business (the Italian law-enforcement security-liaison rationale) rather than disputing the video's contents",
+        "source_url": "https://www.reuters.com/world/fbis-patel-defends-beer-soaked-olympic-celebration-while-italy-trip-2026-02-23/",
+        "maps_to_element": "Patel's continued defense of the trip's official-business characterization"
       }
     ],
     "status": "Resolved as a controversy -- no formal disciplinary or ethics finding against Patel was identified in sourcing reviewed; Trump's disapproval was expressed directly and personally but did not result in a reported personnel consequence.",
