@@ -1746,6 +1746,64 @@
     ]
   },
   {
+    "id": "education-dept-community-schools-grants-cancellation-2026",
+    "title": "Education Department Canceled $168 Million in Community Schools Grants Mid-Year, Cutting Programs Across 11 States and D.C.",
+    "institution": "U.S. Department of Education",
+    "domain": "funding_redirection",
+    "status": "In effect as of December 2025/February 2026 reporting -- legal challenges and some partial fund restoration reported by March 2026, with more funds remaining frozen",
+    "date_of_action": "2025-12-12 (notification to grantees) through 2026-02-13 (Washington Post reporting on downstream impact)",
+    "what_changed": "On December 12, 2025, the Education Department notified recipients of 19 Full-Service Community Schools grants -- spread across 11 states (including California, Connecticut, Illinois, Kentucky, Maryland, North Carolina, New Jersey, New York, Texas, and Wisconsin) and Washington, D.C. -- that they would not receive their remaining two to three years of expected funding, totaling $168 million: roughly $61 million that was due to flow by January 1, 2026, and another $107 million due by 2028. The Full-Service Community Schools Program funds school districts, colleges, and nonprofits to provide food and housing assistance, medical care, and other wraparound services delivered through schools. The abrupt, mid-academic-year cancellation resulted in hundreds of public school employees losing their jobs, with more layoffs anticipated. Legal challenges followed; by March 2026, some halted funds began flowing again for certain grantees, though EdWeek's reporting confirmed more funds remained frozen.",
+    "primary_proponent": {
+      "name": "U.S. Department of Education",
+      "role": "Federal agency canceling the previously-awarded, multi-year grants mid-cycle",
+      "note": "This cancellation is part of a broader pattern of Education Department grant terminations tied to the administration's anti-DEI enforcement priorities; a federal judge separately ruled the department could not revoke federal education grants specifically for anti-DEI-priority reasons, per EdSource's reporting, though that ruling's direct applicability to this specific grant program was not confirmed in sourcing reviewed."
+    },
+    "estimated_impact": {
+      "summary": "Cutting off multi-year, already-awarded funding halfway through an academic year forced immediate layoffs of public school employees delivering food, housing, and medical-assistance services through schools, with recipients across 11 states and D.C. affected simultaneously.",
+      "figures": [
+        {
+          "metric": "Total canceled funding",
+          "value": "$168 million",
+          "source": "EdWeek/Washington Post"
+        },
+        {
+          "metric": "Funding due to flow by Jan. 1, 2026 alone",
+          "value": "~$61 million",
+          "source": "EdWeek"
+        },
+        {
+          "metric": "Grants affected",
+          "value": "19, across 11 states + D.C.",
+          "source": "EdWeek/Washington Post"
+        }
+      ],
+      "caveat": "A federal judge has ruled the Trump administration cannot revoke federal education grants specifically for anti-DEI-priority reasons in a separate case; some funds began flowing again for certain grantees by March 2026 following legal challenges, indicating partial, ongoing reversal rather than a fully static outcome."
+    },
+    "confidence_note": "HIGH confidence -- the $168 million figure, the December 12, 2025 notification date, the 11-state-plus-D.C. scope, and the resulting layoffs are independently corroborated across EdWeek's extensive dedicated coverage and The Washington Post's own reporting.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "Washington Post -- 'Services cut. Staff laid off. New Trump cuts hit schools in 11 states.'",
+        "url": "https://www.washingtonpost.com/education/2026/02/13/trump-cuts-community-schools/"
+      },
+      {
+        "name": "EdWeek -- 'A Gut Punch': What Trump's New $168 Million Cut Means for Community Schools'",
+        "url": "https://www.edweek.org/policy-politics/a-gut-punch-what-trumps-new-168-million-cut-means-for-community-schools/2025/12"
+      },
+      {
+        "name": "EdWeek -- 'Some Halted Federal Funds for Community Schools Will Flow, But More Remain Frozen'",
+        "url": "https://www.edweek.org/policy-politics/some-halted-federal-funds-for-community-schools-will-flow-but-more-remain-frozen/2026/03"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Education Department canceled $168 million in Full-Service Community Schools grants mid-academic-year across 19 grantees in 11 states and D.C., cutting wraparound food/housing/medical services delivered through schools.",
+      "estimated_impact": "Forced hundreds of school-employee layoffs; some funds later resumed for certain grantees by March 2026 following legal challenges, but more remained frozen.",
+      "confidence_note": "Well-corroborated across EdWeek's dedicated coverage and The Washington Post; a separate court ruling limits anti-DEI-motivated grant revocations, with unclear direct applicability confirmed here."
+    }
+  },
+  {
     "id": "education-dept-disparate-impact-rescission-2026",
     "title": "Education Department Rescinds Disparate-Impact Standard From Title VI Civil Rights Enforcement",
     "institution": "U.S. Department of Education, Office for Civil Rights",
@@ -4646,6 +4704,50 @@
     "last_updated": "2026-07-26"
   },
   {
+    "id": "ncar-supercomputer-removal-2026",
+    "title": "Trump Administration Moves to Remove Supercomputers From NCAR, Disrupting Weather and Climate Research for 1,500+ Scientists",
+    "institution": "National Science Foundation / National Center for Atmospheric Research (NCAR)",
+    "domain": "research_suppression",
+    "status": "In progress as of this entry's addition -- removal plan confirmed via NSF letter; scientific community formally objected",
+    "date_of_action": "2026-01 (White House announces intent to 'break up' NSF NCAR) through 2026-02-13 (NSF letter confirming supercomputer removal plan)",
+    "what_changed": "Following a January 2026 White House announcement of intent to 'break up' the National Science Foundation's National Center for Atmospheric Research (NCAR) in Boulder, Colorado, an NSF letter released February 13, 2026 confirmed plans to remove NCAR's supercomputing facility and transfer it to an unspecified third party. The facility supports weather forecasting models, climate simulations, and extreme-weather prediction research used by approximately 1,500 researchers across more than 500 universities; NOAA itself relies on the facility to run some of its current forecasting models. Former NCAR director James Hurrell and other prominent colleagues in the weather and climate research community warned NSF that 'any path that leads to the fragmentation or dismantling of NSF NCAR is fundamentally not in the nation's interest,' and that the move could further set back NOAA's own weather-modeling capabilities, which the researchers noted have already lagged behind international competitors.",
+    "primary_proponent": {
+      "name": "National Science Foundation (executing White House direction)",
+      "role": "Federal agency overseeing NCAR, executing the supercomputer removal",
+      "note": "The White House's stated rationale for wanting to 'break up' NSF NCAR was not detailed in sourcing reviewed."
+    },
+    "estimated_impact": {
+      "summary": "Removing the supercomputing facility disrupts a shared national research resource relied on by 1,500+ scientists at 500+ universities and by NOAA's own forecasting operations, at a time when U.S. weather-modeling capability already trails international competitors according to the researchers who objected.",
+      "figures": [
+        {
+          "metric": "Researchers relying on the facility",
+          "value": "~1,500, across 500+ universities",
+          "source": "CNN"
+        }
+      ],
+      "caveat": "The removal plan was confirmed via an NSF letter but was still in progress as of this entry's addition -- the ultimate destination and fate of the transferred supercomputer, and whether NOAA's forecasting capability was measurably degraded, were not yet confirmed outcomes in sourcing reviewed."
+    },
+    "confidence_note": "HIGH confidence -- the removal plan, NSF's own confirming letter, the researcher count, and the objecting scientists' quoted statement are all independently corroborated across CNN, KRDO, and multiple wire pickups, with the core facts drawn from NSF's own letter rather than anonymous sourcing.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "CNN -- 'Trump admin is pulling supercomputers out of NCAR weather research center'",
+        "url": "https://www.cnn.com/2026/02/13/weather/trump-colorado-lab-ncar-supercomputer-climate"
+      },
+      {
+        "name": "KRDO -- 'Trump admin is pulling supercomputers out of key weather and climate research center'",
+        "url": "https://krdo.com/cnn-weather-environment/2026/02/13/trump-admin-is-pulling-supercomputers-out-of-key-weather-and-climate-research-center/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "NSF confirmed plans to remove NCAR's supercomputing facility, disrupting weather/climate research relied on by 1,500+ scientists and NOAA's own forecasting, following a January 2026 White House announcement to 'break up' NCAR.",
+      "estimated_impact": "Warned by former NCAR leadership to further set back already-lagging U.S. weather-modeling capability relative to international competitors.",
+      "confidence_note": "Core facts drawn from NSF's own confirming letter and independently corroborated across multiple outlets."
+    }
+  },
+  {
     "id": "ncua-harper-otsuka-firing-quorum-loss-trump2",
     "title": "NCUA Board Reduced to a Single Member After Trump Fires Both Democratic Board Members",
     "institution": "National Credit Union Administration",
@@ -7234,6 +7336,50 @@
       }
     ],
     "last_updated": "2026-07-28"
+  },
+  {
+    "id": "state-dept-library-passport-services-2026",
+    "title": "State Department Ordered Nonprofit Public Libraries to Stop Processing Passport Applications, Affecting ~1,400 Libraries",
+    "institution": "U.S. Department of State",
+    "domain": "funding_redirection",
+    "status": "In effect as of February 13, 2026 -- bipartisan congressional pushback ongoing, no reversal confirmed in sourcing reviewed",
+    "date_of_action": "2025 (cease-and-desist letters begin, per reporting) through 2026-02-13 (effective date reported)",
+    "what_changed": "The State Department began issuing cease-and-desist letters to nonprofit public libraries starting in late fall 2025, informing them they were no longer authorized to participate in the Passport Acceptance Facility program, with the order taking effect February 13, 2026. A State Department spokesperson said the change was required because federal law and regulations 'clearly prohibit non-governmental organizations' from collecting and retaining passport-application fees. The American Library Association estimated approximately 1,400 public libraries nationwide -- about 15% of all public libraries -- could be affected, ending a long-standing, convenient passport-application channel for many communities, particularly ones without a nearby post office or passport agency. A bipartisan group of members of Congress from Connecticut, Pennsylvania, New York, New Jersey, and Maryland sent a letter to Secretary of State Marco Rubio asking him to extend the existing library program until Congress finds a permanent solution.",
+    "primary_proponent": {
+      "name": "Marco Rubio",
+      "role": "Secretary of State",
+      "note": "State's stated legal rationale (that federal law bars nonprofits from collecting/retaining these fees) was not independently adjudicated in sourcing reviewed -- it is the agency's own characterization for the policy change."
+    },
+    "estimated_impact": {
+      "summary": "Roughly 1,400 public libraries -- about 15% of all public libraries nationwide -- lose their ability to process passport applications, ending a convenient, often free or low-cost service point for residents, particularly in communities without easy access to a post office or dedicated passport agency.",
+      "figures": [
+        {
+          "metric": "Libraries potentially affected",
+          "value": "~1,400 (~15% of all U.S. public libraries)",
+          "source": "American Library Association, cited by AP/US News"
+        }
+      ],
+      "caveat": "This entry documents a service-access change rather than a claim that State's stated legal rationale is pretextual -- the bipartisan congressional pushback concerns the change's public-service impact and timing, not necessarily a dispute over the underlying legal interpretation."
+    },
+    "confidence_note": "HIGH confidence -- the cease-and-desist letters, the effective date, State's stated rationale, the ALA's impact estimate, and the bipartisan congressional letter are all independently corroborated across AP-sourced reporting (US News, Press Democrat, WHYY, PBS NewsHour) and the senators' own published letter.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "AP via U.S. News -- 'State Department Orders Nonprofit Libraries to Stop Processing Passport Applications'",
+        "url": "https://www.usnews.com/news/us/articles/2026-02-13/state-department-orders-nonprofit-libraries-to-stop-processing-passport-applications"
+      },
+      {
+        "name": "Sen. Fetterman's office -- Letter to Sec. Rubio RE Passports at Libraries",
+        "url": "https://www.fetterman.senate.gov/wp-content/uploads/2026/02/Letter-to-Sec.-Rubio-RE-Passports-at-Libraries.pdf"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "State Department ordered ~1,400 nonprofit public libraries to stop processing passport applications, citing a legal restriction on nonprofits collecting application fees, effective Feb. 13, 2026.",
+      "estimated_impact": "Ends a convenient passport-application channel for about 15% of U.S. public libraries, drawing bipartisan congressional pushback.",
+      "confidence_note": "Well-corroborated across AP-sourced reporting and the senators' own published letter; State's legal rationale is the agency's own characterization, not independently adjudicated in sourcing reviewed."
+    }
   },
   {
     "id": "teen-pregnancy-prevention-grants-cancelled-2026",
