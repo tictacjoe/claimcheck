@@ -573,6 +573,54 @@
     "short_summary": "DOE canceled $82.9B/223 clean energy projects (111,765 jobs) under Trump; court filings show $7.6B of that specifically targeted the 16 states that voted for Harris, contradicting Sec. Wright's public merit-based justification -- a court has already ruled this illegal."
   },
   {
+    "id": "doe-dod-coal-plant-subsidy-2026",
+    "rule_name": "Federal support for aging coal-fired power plants -- not a rule rollback in the traditional sense, but a taxpayer-funded market intervention propping up generation capacity that would otherwise face retirement absent federal subsidy",
+    "administration": "Trump II (2025-present)",
+    "agency": "Department of Energy / Department of Defense",
+    "domain": "environmental",
+    "status": "Finalized (executive order and DOE funding announcement, effective February 2026)",
+    "date_of_action": "2026-02-11",
+    "original_rule_summary": "Absent federal intervention, aging coal-fired power plants face economic pressure to retire as they compete against lower-cost natural gas and renewable generation; no specific prior rule is being rolled back here, but this entry documents a market-distorting subsidy analogous in effect to other entries in this tracker that redirect public funds toward favored, less-competitive industries.",
+    "what_changed": "President Trump signed an executive order directing the Department of Energy to issue $175 million (part of a stated $525 million total effort) to fund upgrades at six aging coal-fired power plants across Kentucky, North Carolina, Ohio, Virginia, and West Virginia, extending their operational life. The same order directs the Pentagon to enter purchase agreements to buy electricity from coal-fired power plants, with the specific purchase volume ('a lot of' coal power, per Trump's own characterization) unspecified in the announcement. The administration frames the effort as boosting energy security and reliability amid rising electricity demand from AI data centers, extending the useful life of existing, already-connected coal infrastructure rather than building new capacity.",
+    "primary_proponent": {
+      "name": "Donald Trump / Department of Energy",
+      "role": "President (executive order) and DOE (fund administration)",
+      "note": "The Department of Energy's own public messaging frames the funding as 'keeping affordable, reliable power online,' emphasizing grid reliability and AI-driven demand growth rather than climate or emissions considerations."
+    },
+    "corporate_beneficiaries": [
+      "Owners/operators of the six named coal-fired power plants receiving DOE upgrade funding",
+      "The broader U.S. coal-fired generation industry, which benefits from a new guaranteed federal purchaser (the Pentagon) and a signal of continued federal support extending plant operational life"
+    ],
+    "estimated_health_impact": {
+      "summary": "Extending the operational life of aging coal plants -- rather than allowing planned retirements to proceed -- means continued emissions (including particulate matter and greenhouse gases) from generation sources that would otherwise be phased out on market timelines, at direct taxpayer expense rather than through market competition.",
+      "caveat": "DOE's stated rationale (grid reliability amid AI-driven demand growth) is a genuine and non-trivial policy consideration independent of any environmental effect; this entry does not evaluate whether the reliability justification is sound, only documents the subsidy's existence, scale, and stated purpose."
+    },
+    "confidence_note": "HIGH confidence -- the executive order, the $175 million DOE funding figure (part of a stated $525 million total effort), the five named states, and the Pentagon purchase directive are all confirmed directly by DOE's own public announcement and independently corroborated by U.S. News, The Hill, and Fox Business.",
+    "short_summary": "Trump directed DOE to spend $175M upgrading six aging coal plants and ordered the Pentagon to buy coal-generated electricity, extending coal plants' operational life at taxpayer expense.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "U.S. News -- 'Trump Directs Energy Department to Issue Funds to Keep Coal Plants Online'",
+        "url": "https://www.usnews.com/news/us/articles/2026-02-11/trump-directs-energy-department-to-issue-funds-to-keep-coal-plants-online"
+      },
+      {
+        "name": "Department of Energy -- 'Energy Department Announces $175 Million to Modernize Coal Plants'",
+        "url": "https://netl.doe.gov/node/15267"
+      },
+      {
+        "name": "The Hill -- 'Trump directs Pentagon to boost coal use as Energy Department announces $175M infusion for plants'",
+        "url": "https://thehill.com/policy/energy-environment/5734350-coal-power-trump-doe-pentagon/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Trump ordered DOE to spend $175M upgrading six aging coal plants and directed the Pentagon to buy coal-generated electricity, extending coal plants' operational life at taxpayer/federal expense.",
+      "estimated_impact": "Extends emissions from aging generation sources that would otherwise face market-driven retirement, at direct taxpayer expense, though DOE frames this as grid-reliability policy amid rising demand.",
+      "confidence_note": "Confirmed directly by DOE's own announcement and independently corroborated by multiple outlets, with no facts disputed."
+    }
+  },
+  {
     "id": "doe-nuclear-reactor-nepa-exemption-2026",
     "rule_name": "National Environmental Policy Act (NEPA) review requirements for advanced nuclear reactor authorization, siting, construction, operation, and decommissioning",
     "administration": "Trump II (2025-present)",
