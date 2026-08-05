@@ -1460,9 +1460,15 @@
         "description": "CBS News's live coverage confirms DOJ ultimately released more than 3 million pages of documents and photos in the Epstein files disclosure",
         "source_url": "https://www.cbsnews.com/live-updates/epstein-files-released-doj-2026/",
         "maps_to_element": "Eventual scope of the disclosure once it occurred"
+      },
+      {
+        "type": "reporting",
+        "description": "The Daily Beast reported DOJ removed a photo from its own Epstein files website that appeared to show Commerce Secretary Howard Lutnick walking with Jeffrey Epstein, after the photo had already been published as part of the files' release -- an editorial removal of previously-public material connected to the Epstein disclosure this entry documents, and to the separate Lutnick-Epstein ties entry (lutnick-epstein-business-ties-2026.json)",
+        "source_url": "https://www.thedailybeast.com/doj-gives-shameless-reason-for-hiding-photo-of-howard-lutnick-and-jeffrey-epstein/",
+        "maps_to_element": "Post-release editorial handling of the disclosed files"
       }
     ],
-    "status": "Files were ultimately released (over 3 million pages, including the 21-slide presentation) as of the reporting reviewed; no independent finding on the presentation's intended use, or formal accountability action for the missed statutory and internal deadlines, was identified in sourcing reviewed as of this entry's addition.",
+    "status": "Files were ultimately released (over 3 million pages, including the 21-slide presentation) as of the reporting reviewed; no independent finding on the presentation's intended use, or formal accountability action for the missed statutory and internal deadlines, was identified in sourcing reviewed as of this entry's addition. DOJ was subsequently reported to have removed a photo showing Commerce Secretary Lutnick with Epstein from its own Epstein files website after the photo had already been part of the public release.",
     "rebuttal_anticipated": "Likely defense: producing and redacting millions of pages of sensitive material involving crime survivors is a genuinely difficult logistical task justifying delay beyond a fixed statutory deadline, and FBI compiling a summary of allegations found within investigative files -- even about prominent figures -- is a standard step in processing material for potential release or referral, not evidence of improper intent.",
     "comeback": "The specific concern is not solely the delay's length but its combination with a bespoke internal presentation summarizing unverified 'salacious' allegations against named prominent figures -- material that, if selectively leaked or withheld rather than processed evenhandedly, would function as leverage rather than transparency; the same DOJ leadership responsible for the statutory deadline missed its own self-imposed 24-hour and 14-day deadlines by a wide margin without a public accounting.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of DOJ/FBI leadership under this administration exercising selective, discretionary control over the release and use of sensitive investigative material (see also the Ed Martin grand-jury-leak and Blanche/Patel journalist-subpoena entries).",
@@ -2692,6 +2698,49 @@
     "section_summaries": {
       "incident_summary": "An AP review found at least two dozen ICE employees/contractors charged with crimes since 2020 -- physical abuse, sexual abuse, corruption -- while the administration claims agents have 'absolute immunity' and has weakened oversight even as ICE undergoes a $75 billion hiring expansion experts warn could accelerate future misconduct.",
       "confidence_note": "Documented past cases are well-corroborated across AP's own review and independent outlets; the claim that expansion will increase future misconduct is expert opinion, not yet an observed outcome."
+    }
+  },
+  {
+    "official": "Todd Lyons, ICE Acting Director",
+    "offense_category": "ICE Vehicle Pursuit Causing a Multi-Vehicle Crash Injuring Children, in Apparent Departure From State Pursuit Guidelines -- documents a specific public-safety incident from aggressive enforcement tactics",
+    "incident_summary": "ICE agents attempted to pull over a van in Newark, New Jersey on February 25, 2026; when the driver fled, agents pursued, and the chase ended in a multi-vehicle crash at Clinton Avenue and 10th Street. Three children -- two 15-year-olds and a 12-year-old -- were among those injured and taken to University Hospital for evaluation; the fleeing driver was also injured and hospitalized. Newark police were not involved in the pursuit and responded only to the resulting crash. Newark Mayor Ras Baraka publicly said ICE failed to follow New Jersey's vehicle pursuit guidelines and called for accountability. In response, Baraka signed an executive order barring immigration enforcement operations in Newark city buildings without a judicial warrant and directing city employees to report suspected unauthorized federal enforcement activity.",
+    "contested": true,
+    "elements_required": [
+      "ICE agents initiated a vehicle pursuit through city streets over an immigration stop rather than a violent-crime matter",
+      "The pursuit resulted in a multi-vehicle crash injuring bystanders, including three minors, none of whom were the subject of the enforcement action",
+      "Newark's mayor specifically alleged the pursuit did not comply with New Jersey's vehicle pursuit guidelines -- a specific, checkable procedural claim distinct from general criticism of ICE tactics",
+      "Local police were not involved in and did not authorize the pursuit, indicating it was conducted under federal rather than coordinated local authority"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "NBC News's and the Washington Times' reporting confirm the pursuit, the resulting multi-vehicle crash, the three injured children (ages 12 and 15), and Mayor Baraka's public statement that ICE caused the crash",
+        "source_url": "https://www.nbcnews.com/news/us-news/newark-mayor-says-ice-operation-caused-multi-vehicle-crash-injuries-rcna260796",
+        "maps_to_element": "Circumstances and injuries from the pursuit-caused crash"
+      },
+      {
+        "type": "public_record",
+        "description": "Newark's official city government statement from Mayor Baraka confirms his position that ICE failed to follow New Jersey's vehicle pursuit guidelines and his call for accountability",
+        "source_url": "https://www.newarknj.gov/CivicAlerts.aspx?AID=193",
+        "maps_to_element": "Specific allegation of a pursuit-guideline violation"
+      },
+      {
+        "type": "reporting",
+        "description": "TheGrio's reporting confirms Baraka's subsequent executive order barring immigration enforcement in Newark city buildings without a judicial warrant and directing city employees to report suspected unauthorized federal enforcement activity",
+        "source_url": "https://thegrio.com/2026/02/27/newark-mayor-blames-ice-high-speed-crash/",
+        "maps_to_element": "Local governmental response to the incident"
+      }
+    ],
+    "status": "Ongoing as of this entry's addition -- no ICE or DHS response to the specific pursuit-guideline allegation, nor any independent investigation outcome, was identified in sourcing reviewed.",
+    "rebuttal_anticipated": "Likely defense: the driver's decision to flee rather than comply with a lawful stop, not the pursuing agents' conduct, is the proximate cause of the crash, and ICE agents have legitimate authority to pursue fleeing subjects of enforcement actions.",
+    "comeback": "The specific concern Mayor Baraka raised is not that ICE pursued a fleeing vehicle at all, but that the pursuit specifically failed to follow New Jersey's own vehicle pursuit guidelines -- rules presumably calibrated to weigh the enforcement interest against the public-safety risk of a high-speed chase through city streets -- and that the resulting harm fell on bystanders, including three minors, who had no connection to the underlying immigration matter.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of aggressive ICE enforcement tactics producing public-safety harms to bystanders (see also cbp-drone-laser-faa-el-paso-airspace-2026.json for a separate uncoordinated-tactics safety incident).",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the pursuit, the crash, and the injuries -- independently corroborated across NBC News, the Washington Times, and Newark's own official government statement. MODERATE confidence on whether ICE specifically violated state pursuit guidelines, since that is Mayor Baraka's allegation rather than an independently adjudicated finding as of this entry's addition.",
+    "section_summaries": {
+      "incident_summary": "An ICE vehicle pursuit through Newark ended in a multi-vehicle crash injuring three children who had no connection to the underlying enforcement matter; Mayor Baraka alleged ICE violated state pursuit guidelines and barred warrantless immigration enforcement from city buildings in response.",
+      "confidence_note": "The pursuit and injuries are well-corroborated including by Newark's own official statement; whether ICE specifically violated pursuit guidelines is Baraka's allegation, not yet independently adjudicated."
     }
   },
   {
@@ -4744,6 +4793,43 @@
     "section_summaries": {
       "incident_summary": "Trump signed an executive order directing CDC/ACIP to cut the recommended childhood vaccine count from 17 to 11, issued while a federal court stay already blocks a related prior schedule overhaul pending litigation.",
       "confidence_note": "Well-documented via the White House's own fact sheet and independent reporting; how the order's directive interacts with the existing court stay isn't resolved in sourcing reviewed."
+    }
+  },
+  {
+    "official": "Donald Trump, President",
+    "offense_category": "Executive Order Stripping Collective Bargaining Rights From Two-Thirds of the Federal Workforce, Upheld on Appeal Over a Retaliation Challenge -- documents a contested but now judicially-sustained administration action, not an allegation of illegality",
+    "incident_summary": "In 2025, President Trump issued an executive order eliminating collective bargaining rights for wide swaths of the federal workforce, citing national security grounds. Federal employee unions sued, arguing the order was actually issued to retaliate against unions for challenging other administration policies, in violation of their free-speech rights; U.S. District Judge James Donato in San Francisco temporarily blocked the order. On appeal, a three-judge panel of the 9th U.S. Circuit Court of Appeals reversed Donato's injunction on February 26, 2026, finding the order was legitimately grounded in national security concerns and that Trump would have taken the same action regardless of any intent to punish the unions -- rejecting the retaliation theory. The 9th Circuit had already paused Donato's block pending the appeal's outcome since August 2025. The ruling affects an estimated two-thirds of the federal civilian workforce's bargaining rights.",
+    "contested": true,
+    "elements_required": [
+      "The executive order eliminated collective bargaining rights for a specifically large share of the federal workforce -- roughly two-thirds, per reporting -- rather than a narrow, security-specific carve-out",
+      "Unions specifically alleged retaliatory motive tied to their opposition to other administration policies, a First Amendment theory distinct from a pure policy disagreement",
+      "A district court initially found the retaliation theory sufficiently credible to issue an injunction, indicating the claim was not frivolous on its face",
+      "The appellate panel's rejection of the retaliation theory rested on a but-for analysis (Trump would have acted the same regardless of retaliatory intent) rather than a finding that no retaliatory motive existed at all"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Government Executive's and Reuters' reporting confirm the 9th Circuit's February 26, 2026 reversal of Judge Donato's injunction, the panel's finding that the order was legitimately grounded in national security concerns, and its rejection of the unions' retaliation theory on a but-for basis",
+        "source_url": "https://www.govexec.com/workforce/2026/02/appeals-court-declines-block-trumps-anti-union-eos/411726/?oref=ge-home-top-story",
+        "maps_to_element": "The appellate ruling, its reasoning, and the retaliation theory's rejection"
+      },
+      {
+        "type": "public_record",
+        "description": "Courthouse News's reporting confirms the 9th Circuit had already stayed Donato's injunction pending appeal since August 2025, and characterizes the order as stripping bargaining rights from roughly two-thirds of the federal workforce",
+        "source_url": "https://www.courthousenews.com/ninth-circuit-lifts-block-on-trump-limits-to-collective-bargaining-for-federal-workers/",
+        "maps_to_element": "Scale of the order's effect and the procedural history"
+      }
+    ],
+    "status": "Resolved on appeal as of February 26, 2026 -- the 9th Circuit's reversal allows the order to take effect; a further appeal (en banc or to the Supreme Court) was not confirmed in sourcing reviewed as of this entry's addition.",
+    "rebuttal_anticipated": "Likely defense: the 9th Circuit -- an independent Article III court, not the administration itself -- reviewed the retaliation claim on the merits and rejected it, finding the order legitimately grounded in national security concerns and that Trump would have issued it regardless of any retaliatory motive, which is the strongest possible institutional validation of the order's lawfulness.",
+    "comeback": "The appellate panel's reasoning rests on a but-for causation standard, not a finding that no retaliatory motive was present -- meaning the order can be simultaneously partly retaliatory in intent and still lawful under this specific legal test, a narrower vindication than an outright finding of clean motive; the sheer scale (two-thirds of the federal workforce losing bargaining rights via a single order citing broad national-security grounds) remains a significant labor-rights rollback regardless of the retaliation claim's specific legal outcome.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of the administration using national-security or efficiency rationales to justify large-scale rollbacks of federal-employee protections (see also hegseth-pentagon-union-contracts-terminated-2026.json for the Pentagon-specific analog).",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the ruling, its date, its reasoning, and the order's scope are independently corroborated across Government Executive, Reuters (via Investing.com), Courthouse News, and Federal News Network, with no facts disputed by any party.",
+    "section_summaries": {
+      "incident_summary": "The 9th Circuit reversed a lower-court injunction and allowed Trump's 2025 executive order stripping collective bargaining rights from roughly two-thirds of the federal workforce to take effect, rejecting unions' retaliation claim on a but-for basis while crediting the order's stated national-security rationale.",
+      "confidence_note": "Well-corroborated across multiple outlets with no facts disputed by any party; this entry documents a judicially-sustained action, not an unresolved allegation."
     }
   },
   {

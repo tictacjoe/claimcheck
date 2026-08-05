@@ -420,6 +420,65 @@
     ]
   },
   {
+    "id": "bop-staffing-collapse-ice-poaching-2026",
+    "title": "Federal Prisons Losing Corrections Officers to ICE en Masse After BOP Wage Cuts and a Canceled Union Contract",
+    "institution": "Federal Bureau of Prisons",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing as of this entry's addition -- House Judiciary Democrats sent a formal letter to BOP Director William Marshall III in February 2026 demanding an immediate response; no confirmed remediation identified in sourcing reviewed",
+    "date_of_action": "2025 (ongoing through Feb. 2026 reporting)",
+    "what_changed": "A ProPublica investigation found BOP has lost more than 1,400 staff members as corrections officers left federal lockups nationwide -- from Florida to California -- for ICE, which more than doubled its officer and agent headcount during a monthslong recruiting blitz offering $50,000 signing bonuses and substantially higher pay. Compounding the exodus, BOP itself cut wages by as much as 25% for frontline officers, instituted a hiring freeze, and canceled its collective bargaining agreement covering more than 30,000 federal correctional employees. ProPublica's reporting described federal prisons running low on basic supplies including food and toilet paper amid the staffing collapse. One BOP official told ProPublica: 'We're broken and we're being poached by ICE.' In response, four House Judiciary Democrats sent BOP Director William Marshall III a six-page letter in February 2026 demanding he explain how he plans to address the 'persistent, unsafe conditions' and 'pervasive shortage of critical staff.'",
+    "primary_proponent": {
+      "name": "William K. Marshall III",
+      "role": "Director, Federal Bureau of Prisons",
+      "note": "The wage cuts, hiring freeze, and collective-bargaining cancellation are BOP's own internal decisions, occurring simultaneously with -- and compounding -- the separate pull of ICE's higher-paying recruitment drive."
+    },
+    "estimated_impact": {
+      "summary": "A federal law-enforcement agency responsible for the custody and safety of the federal prison population has lost over 1,400 staff to internal wage/benefit cuts and external poaching by a higher-paying sister agency, with conditions inside facilities reportedly degraded enough that basic supplies are running short.",
+      "figures": [
+        {
+          "metric": "BOP staff lost",
+          "value": "1,400+",
+          "source": "ProPublica"
+        },
+        {
+          "metric": "Frontline officer wage cut",
+          "value": "up to 25%",
+          "source": "ProPublica"
+        },
+        {
+          "metric": "Employees covered by the canceled collective bargaining agreement",
+          "value": "30,000+",
+          "source": "ProPublica"
+        },
+        {
+          "metric": "ICE signing bonus draw",
+          "value": "$50,000",
+          "source": "ProPublica"
+        }
+      ],
+      "caveat": "ICE's recruitment expansion reflects a legitimate, separately-funded administration enforcement priority rather than a decision specifically targeting BOP; the accountability concern here is BOP's own compounding wage cuts and bargaining-agreement cancellation occurring at the same time as that external pull, rather than the ICE recruitment itself."
+    },
+    "confidence_note": "HIGH confidence -- the staffing-loss figures, wage cuts, hiring freeze, and canceled bargaining agreement are drawn directly from ProPublica's investigative reporting (based on internal sourcing and an official's on-record quote), independently corroborated by the House Judiciary Democrats' own published letter to Director Marshall.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "ProPublica -- 'As Federal Prisons Run Low on Food and Toilet Paper, Corrections Officers Leave in Droves for ICE'",
+        "url": "https://www.propublica.org/article/ice-bop-federal-prisons-corrections-officers"
+      },
+      {
+        "name": "House Judiciary Committee Democrats -- 'Judiciary Democrats Demand BOP Immediately Address Pervasive Staffing Shortages and Safety Failures'",
+        "url": "https://democrats-judiciary.house.gov/media-center/press-releases/judiciary-democrats-demand-bop-immediately-address-pervasive-staffing-shortages-and-safety-failures"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "BOP lost 1,400+ corrections officers to ICE's higher-paying recruitment drive while simultaneously cutting its own frontline wages up to 25%, freezing hiring, and canceling a 30,000-employee collective bargaining agreement.",
+      "estimated_impact": "Federal prisons reportedly ran low on basic supplies amid the staffing collapse; House Judiciary Democrats demanded BOP's director explain his remediation plan.",
+      "confidence_note": "Drawn directly from ProPublica's investigative reporting and independently corroborated by House Judiciary Democrats' own published letter."
+    }
+  },
+  {
     "id": "cbp-drone-laser-faa-el-paso-airspace-2026",
     "title": "Pentagon Allowed CBP to Test an Anti-Drone Laser Near Fort Bliss Without FAA Coordination, Forcing an Abrupt El Paso Airspace Closure",
     "institution": "Department of Defense / Customs and Border Protection / FAA",
@@ -3381,6 +3440,60 @@
       }
     ],
     "last_updated": "2026-07-27"
+  },
+  {
+    "id": "healthcare-worker-emigration-canada-2026",
+    "title": "Hundreds of U.S.-Trained Nurses Are Emigrating to Canada Amid Healthcare Workforce Policy Turmoil",
+    "institution": "N/A -- documents a workforce-emigration trend attributed by affected workers and Canadian officials to the federal policy environment, not one specific federal action",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing as of this entry's addition -- accelerating trend since April 2025, per British Columbia licensing data",
+    "date_of_action": "2025-04 through Feb. 2026 reporting",
+    "what_changed": "NPR reported that the flow of U.S.-trained nurses relocating to Canada accelerated sharply since Trump returned to office: British Columbia alone approved 1,028 American nurses for licensure since April 2025, up from just 112 approvals in all of 2023 and 127 in 2024 -- roughly an eightfold increase. Ontario and British Columbia streamlined licensing specifically to capture this talent, with British Columbia launching a $5 million advertising campaign targeting nurses in California, Oregon, and Washington state; the province's health minister said, 'With the chaos and uncertainty happening in the U.S., we are seizing the opportunity to attract the talent we need.' Nurses interviewed cited Canada's universal healthcare, predictable schedules, and fast-track licensing (3-6 months vs. years elsewhere) as draws, specifically amid U.S. healthcare workforce cuts and policy uncertainty under the administration.",
+    "primary_proponent": {
+      "name": "N/A",
+      "role": "This entry documents a workforce trend attributed to the broader federal policy environment (cited by affected nurses and Canadian officials) rather than one identifiable federal decision-maker or action.",
+      "note": "Included in GSR because it's a quantified, concrete downstream indicator of healthcare workforce attrition connected to federal policy uncertainty, even though causation isn't traceable to a single rule or directive the way most entries in this tracker are."
+    },
+    "estimated_impact": {
+      "summary": "An eightfold increase in U.S.-trained nurses gaining Canadian licensure in a single province represents a measurable loss of U.S. healthcare workforce capacity, compounding other entries this tracker documents regarding federal healthcare-agency staffing and policy turmoil (e.g. cdc-leadership-vacancy-crisis-2026.json, fda-cber-vaccine-leadership-turmoil.json).",
+      "figures": [
+        {
+          "metric": "American nurses approved for BC licensure since April 2025",
+          "value": "1,028",
+          "source": "NPR, citing British Columbia licensing data"
+        },
+        {
+          "metric": "Prior-year approvals, for comparison",
+          "value": "112 (2023), 127 (2024)",
+          "source": "NPR"
+        },
+        {
+          "metric": "BC's recruitment ad-campaign budget",
+          "value": "$5 million",
+          "source": "NPR"
+        }
+      ],
+      "caveat": "This entry documents a real, quantified trend but not a single attributable federal action -- nurses and Canadian officials cite general 'chaos and uncertainty' and workforce cuts rather than one specific rule; the causal claim is necessarily more diffuse than other entries in this tracker, and other factors (pay, cost of living, personal circumstances) likely also contribute to any individual's relocation decision."
+    },
+    "confidence_note": "MODERATE-HIGH confidence on the quantified licensure figures, which are independently corroborated across NPR, KFF Health News, and Nurse.org, all citing the same British Columbia government data. LOWER confidence on the specific causal attribution to federal policy specifically (versus general economic/personal factors), since this is nurses' and officials' own stated reasoning rather than an independently isolated causal analysis.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "NPR/Houston Public Media -- 'Hundreds of American nurses choose Canada over the U.S. under Trump'",
+        "url": "https://www.houstonpublicmedia.org/npr/2026/02/25/nx-s1-5725354/hundreds-of-american-nurses-choose-canada-over-the-u-s-under-trump/"
+      },
+      {
+        "name": "KFF Health News -- ''You Aren't Trapped': Hundreds of US Nurses Choose Canada Over Trump's America'",
+        "url": "https://kffhealthnews.org/news/article/us-nurses-move-to-canada-trump-policies-care-shortages/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "U.S.-trained nurse emigration to Canada accelerated roughly eightfold since April 2025, with British Columbia alone approving 1,028 American nurses versus ~112-127/year previously, prompting provinces to launch fast-track licensing and recruitment ad campaigns.",
+      "estimated_impact": "Represents a measurable, quantified loss of U.S. healthcare workforce capacity, though attributed to general policy uncertainty rather than one specific federal action.",
+      "confidence_note": "Licensure figures are well-corroborated across multiple outlets citing the same government data; the causal link to federal policy specifically is nurses' and officials' own stated reasoning, not independently isolated."
+    }
   },
   {
     "id": "hegseth-dote-weapons-testing-cuts-2025-2026",

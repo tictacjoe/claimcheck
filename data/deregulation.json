@@ -1234,7 +1234,7 @@
     "status": "Finalized (policy change announced)",
     "date_of_action": "2026-02-18 (announcement, per AP reporting)",
     "original_rule_summary": "FDA has long applied a default expectation that new drug approvals be supported by two independent, adequate, and well-controlled clinical studies -- a standard intended to guard against a single trial's results being a statistical fluke, methodological artifact, or site-specific anomaly, and to provide independent replication of a drug's safety and efficacy findings before it reaches the market.",
-    "what_changed": "FDA announced it will end its longstanding two-independent-study requirement for new drug approvals, moving to a default standard of a single trial, with the stated goal of accelerating drug approvals. The change was led by FDA Commissioner Marty Makary and vaccine/biologics official Dr. Vinay Prasad -- the same official whose office separately refused to even review Moderna's mRNA flu vaccine application over trial-design objections (see fda-moderna-mrna-flu-vaccine-refusal-2026.json), creating an apparent tension between accelerating approval standards for new drugs generally while applying an unusually strict, refusal-to-file standard in that specific vaccine case.",
+    "what_changed": "FDA announced it will end its longstanding two-independent-study requirement for new drug approvals, moving to a default standard of a single trial, with the stated goal of accelerating drug approvals. The change was led by FDA Commissioner Marty Makary and vaccine/biologics official Dr. Vinay Prasad -- the same official whose office separately refused to even review Moderna's mRNA flu vaccine application over trial-design objections (see fda-moderna-mrna-flu-vaccine-refusal-2026.json), creating an apparent tension between accelerating approval standards for new drugs generally while applying an unusually strict, refusal-to-file standard in that specific vaccine case. Days later, Commissioner Makary announced a related acceleration measure: a pilot 'Reviewer Recognition and Excellence' program offering quarterly cash bonuses (starting around August 2026) to drug reviewers who complete evaluations ahead of schedule, tied to 'weighted time savings' and work-quality/complexity metrics. Makary told FDA staff the payments were meant to 'recognize and reward staff who find ways to be more efficient,' and that securing approval for the bonuses took 'some wrangling.'",
     "primary_proponent": {
       "name": "Dr. Marty Makary / Dr. Vinay Prasad",
       "role": "FDA Commissioner / FDA vaccine and biologics official",
@@ -1256,10 +1256,14 @@
       {
         "name": "AP -- 'FDA announced it will end its longstanding requirement that new drugs be supported by two independent studies'",
         "url": "https://apnews.com/article/fda-drug-approval-studies-makary-prasad-a5aaa5501ae15f264bbd20d0dffa4dc4"
+      },
+      {
+        "name": "AP -- 'FDA to offer bonus payments to staffers who complete speedy drug reviews'",
+        "url": "https://www.usnews.com/news/us/articles/2026-02-26/fda-to-offer-bonus-payments-to-staffers-who-complete-speedy-drug-reviews"
       }
     ],
     "section_summaries": {
-      "what_changed": "FDA ended its default two-independent-study requirement for new drug approvals, moving to a single-trial standard under Makary and Prasad to accelerate approvals.",
+      "what_changed": "FDA ended its default two-independent-study requirement for new drug approvals, moving to a single-trial standard under Makary and Prasad to accelerate approvals. Makary also introduced a bonus-pay pilot program rewarding reviewers who complete evaluations ahead of schedule.",
       "estimated_impact": "Increases the risk that approved drugs rest on unreplicated findings, a tradeoff made explicitly in favor of faster approval timelines.",
       "confidence_note": "Confirmed directly by AP's reporting with clear FDA leadership attribution; no facts disputed."
     }
