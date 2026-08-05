@@ -2386,6 +2386,49 @@
   },
   {
     "official": "Jeanine Pirro, U.S. Attorney for the District of Columbia",
+    "offense_category": "Use of Federal Subpoena Power to Pressure Regulated Financial Institutions Over Lawful Account-Closure Decisions -- a novel application of FIRREA (a bank-fraud statute) to political \"debanking\" claims; no criminal charge has been identified against any bank",
+    "contested": true,
+    "incident_summary": "The U.S. Attorney's Office for the District of Columbia, led by Jeanine Pirro, issued subpoenas to several of the nation's largest banks -- including JPMorgan Chase, Bank of America, and Wells Fargo -- as part of an investigation into alleged politically or religiously motivated \"debanking\" of customers. Investigators are seeking the names of individuals and businesses who had accounts closed, plus internal records explaining the rationale for those closures. The Justice Department is examining whether the banks' conduct violated the Financial Institutions Reform, Recovery and Enforcement Act of 1989 (FIRREA), a statute historically used to prosecute bank fraud rather than customer-selection decisions. The probe extends a broader Trump administration campaign against alleged debanking of conservatives and Trump allies; in August 2025 Trump signed an executive order directing regulators to examine \"politicized or unlawful debanking.\"",
+    "elements_required": [
+      "A U.S. Attorney's office issued subpoenas to major, systemically important banks demanding customer names and internal rationale for account closures -- not merely a regulatory inquiry, but a federal law-enforcement subpoena carrying the coercive weight of a criminal investigation",
+      "The legal theory invoked (FIRREA) is, per an outside consumer-finance expert, a \"novel\" application of a bank-fraud statute to ordinary account-closure business decisions, raising the question of whether the statute's elements can actually be met",
+      "The investigation follows a presidential executive order specifically directing scrutiny of banks' treatment of politically disfavored customers, establishing a direct line from a political grievance to a prosecutorial subpoena campaign",
+      "The scope targets banks' routine risk-management and compliance decisions (which customers to serve) rather than any specific allegation of fraud against a named victim, the conduct FIRREA was designed to reach"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "Wall Street Journal reporting establishing that prosecutors under Pirro subpoenaed several of the largest U.S. banks as part of the debanking probe, and framing it as an expansion of Trump's campaign against institutions he says discriminated against him and his allies",
+        "source_url": "https://www.wsj.com/finance/regulation/jeanine-pirros-prosecutors-probe-big-banks-for-alleged-debanking-13568e9b",
+        "maps_to_element": "Establishes the subpoenas' existence, issuing office, and political framing"
+      },
+      {
+        "type": "news_report",
+        "description": "American Banker and Forbes reporting confirming JPMorgan Chase, Bank of America, and Wells Fargo as subpoena recipients, and that DOJ is investigating potential FIRREA violations",
+        "source_url": "https://www.americanbanker.com/news/doj-subpoenas-banks-in-widening-trump-campaign-against-debanking",
+        "maps_to_element": "Corroborates the specific banks targeted and the legal theory invoked"
+      },
+      {
+        "type": "expert_commentary",
+        "description": "A director of investor protection at the Consumer Federation of America characterizing Pirro's FIRREA theory as \"novel\" and noting the litigation cost is a risk even large, well-lawyered banks may not want to take -- i.e., a subpoena campaign that can extract compliance through litigation-cost pressure regardless of its ultimate legal merit",
+        "source_url": "https://finance.yahoo.com/economy/policy/articles/justice-department-issues-subpoenas-major-115556909.html",
+        "maps_to_element": "Documents the contested legal theory and the coercive effect independent of a final legal ruling"
+      }
+    ],
+    "status": "Ongoing -- subpoenas issued and banks responding as of this entry's sourcing (June 2026); no charges filed against any bank in reporting reviewed",
+    "rebuttal_anticipated": "DOJ could argue banks have market power over access to the financial system and that politically or religiously motivated account closures, if proven, are a legitimate target for federal investigation regardless of which statute is used to pursue it, and that a subpoena is an investigative step, not a prosecution.",
+    "comeback": "Even taking the underlying debanking grievance at face value, using FIRREA -- a fraud statute -- to compel banks to disclose internal customer-selection rationale is, per an independent consumer-finance expert, a \"novel\" legal theory whose primary effect may be extracting compliance through litigation-cost pressure rather than pursuing conduct FIRREA was written to address; that dynamic fits this tracker's broader pattern of federal investigative power being aimed at institutions perceived as adversarial to the administration.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented pattern in this tracker of DOJ investigative/subpoena power being directed at institutions and individuals the administration views as having wronged Trump or his allies (see also this tracker's other Pirro-led subpoena entries).",
+    "confidence_note": "HIGH confidence on the subpoenas' existence, issuing office, and targeted banks, corroborated across WSJ, American Banker, Forbes, and Yahoo Finance. MODERATE confidence on how the \"novel\" FIRREA legal theory will ultimately fare, since no court has yet ruled on it.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "section_summaries": {
+      "incident_summary": "Pirro's DOJ office subpoenaed JPMorgan, Bank of America, and Wells Fargo over alleged political \"debanking,\" invoking a bank-fraud statute an outside expert called a \"novel\" stretch to reach ordinary account-closure decisions.",
+      "confidence_note": "Well-corroborated across major financial and mainstream outlets; the legal theory's ultimate viability is untested in court."
+    }
+  },
+  {
+    "official": "Jeanine Pirro, U.S. Attorney for the District of Columbia",
     "offense_category": "Vindictive/Selective Prosecution (violates Due Process; established legal doctrine, e.g. United States v. Goodwin) -- Federal Reserve Chair Jerome Powell was never charged, and the underlying grand jury subpoenas were quashed by a federal court for lack of evidence; Pirro herself has not been personally charged with anything",
     "incident_summary": "The U.S. Attorney's Office for the District of Columbia, under Jeanine Pirro, opened a criminal investigation in November 2025 into Federal Reserve Chair Jerome Powell over a roughly $2.5 billion headquarters renovation project, tied to Powell's June 2025 testimony about the project before the Senate Banking Committee. In January 2026, Pirro's office served grand jury subpoenas on the Fed. Powell publicly called the investigation a pretext, saying it was not really about his testimony or the renovation but a consequence of the Fed setting interest rates independent of the president's preferences, amid Trump's escalating public pressure campaign for Powell to cut rates and eventually leave the Fed. On March 13, 2026, Chief Judge James Boasberg of the U.S. District Court for the District of Columbia quashed the subpoenas, finding the government had produced 'essentially zero evidence' to suspect Powell of a crime and that the record supported the appearance of political pressure over rates rather than a genuine criminal predicate. Pirro subsequently announced on X that she was closing the criminal probe, with the Fed's own inspector general taking over review of the renovation cost overruns. On May 3, 2026, however, appearing on CNN's 'State of the Union,' Pirro said her office was continuing to litigate the issue, confirmed she would appeal Boasberg's ruling, and stated that once the inspector general's report concluded, her office 'will not hesitate to restart a criminal investigation should the facts warrant doing so.' The same day, Trump publicly said the Powell probe should continue: 'Take it to the end and see.'",
     "contested": true,

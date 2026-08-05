@@ -3656,7 +3656,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing (2026 filing season completed under reduced staff; FY2027 budget request proposes a further ~4,800-employee cut, concentrated almost entirely in enforcement)",
     "date_of_action": "2025-02 (initial probationary firings) through 2026-04 (most recent GAO/TIGTA reporting)",
-    "what_changed": "Beginning February 2025, the IRS workforce was cut by approximately 27%, falling from roughly 102,000 employees in January 2025 to about 74,000 by December 2025 -- a reduction of nearly 28,000 people, primarily via probationary-employee terminations (~7,300), deferred-resignation buyouts (~4,700), and further attrition. The cuts were not evenly distributed: Taxpayer Services (which processes returns, answers phones, and handles correspondence) lost about 21-22% of its staff; the agency's IT function lost 27%; and revenue agents -- the specialists who conduct complex audits of high-income individuals, partnerships, and large corporations -- lost roughly 3,600 people, about 31% of the entire auditing workforce. Congress separately cut the IRS enforcement budget by 8% for FY2026 (the lowest inflation-adjusted level since 1988) and cut $1.1 billion (12%) from the IRS's base budget overall, rescinding most of the remaining Inflation Reduction Act funding that had been allocated to rebuild the agency; the base budget is now about 40% below its 2010 level after inflation. The IRS responded by lowering its own phone-service target from 85% to 70% of calls answered, and an independent analysis by the Center for Taxpayer Rights found call wait times on the main line increased more than 70% between February 2025 and February 2026. A March 2026 GAO audit found the IRS's staffing reductions 'were not targeted or strategic' and that the agency still lacks an updated strategic workforce plan. Notably, IRS Commissioner Frank Bisignano simultaneously serves as the Senate-confirmed Commissioner of the Social Security Administration -- see the related SSA entry in this tracker -- splitting his attention across both agencies during this period. The IRS's FY2027 budget request, released in 2026, seeks $9.8 billion in discretionary funding, down $1.4 billion from the $11.2 billion Congress enacted for FY2026, and proposes eliminating roughly 4,800 more positions (about 17% of remaining staff) on top of the 27% already lost in 2025. Nearly all of the proposed staffing reduction falls on enforcement -- examinations and collections -- which would see an 18% budget cut, while taxpayer-service funding would see a small 3% increase. The IRS's own budget documents describe the enforcement-side cuts as yielding roughly $778 million in savings once implemented. Re-verified 2026-07-26: no material change -- the FY2027 budget request remains a proposal, not enacted; no new congressional action identified since the prior update.",
+    "what_changed": "Beginning February 2025, the IRS workforce was cut by approximately 27%, falling from roughly 102,000 employees in January 2025 to about 74,000 by December 2025 -- a reduction of nearly 28,000 people, primarily via probationary-employee terminations (~7,300), deferred-resignation buyouts (~4,700), and further attrition. The cuts were not evenly distributed: Taxpayer Services (which processes returns, answers phones, and handles correspondence) lost about 21-22% of its staff; the agency's IT function lost 27%; and revenue agents -- the specialists who conduct complex audits of high-income individuals, partnerships, and large corporations -- lost roughly 3,600 people, about 31% of the entire auditing workforce. Congress separately cut the IRS enforcement budget by 8% for FY2026 (the lowest inflation-adjusted level since 1988) and cut $1.1 billion (12%) from the IRS's base budget overall, rescinding most of the remaining Inflation Reduction Act funding that had been allocated to rebuild the agency; the base budget is now about 40% below its 2010 level after inflation. The IRS responded by lowering its own phone-service target from 85% to 70% of calls answered, and an independent analysis by the Center for Taxpayer Rights found call wait times on the main line increased more than 70% between February 2025 and February 2026. A March 2026 GAO audit found the IRS's staffing reductions 'were not targeted or strategic' and that the agency still lacks an updated strategic workforce plan. Notably, IRS Commissioner Frank Bisignano simultaneously serves as the Senate-confirmed Commissioner of the Social Security Administration -- see the related SSA entry in this tracker -- splitting his attention across both agencies during this period. The IRS's FY2027 budget request, released in 2026, seeks $9.8 billion in discretionary funding, down $1.4 billion from the $11.2 billion Congress enacted for FY2026, and proposes eliminating roughly 4,800 more positions (about 17% of remaining staff) on top of the 27% already lost in 2025. Nearly all of the proposed staffing reduction falls on enforcement -- examinations and collections -- which would see an 18% budget cut, while taxpayer-service funding would see a small 3% increase. The IRS's own budget documents describe the enforcement-side cuts as yielding roughly $778 million in savings once implemented. Re-verified 2026-07-26: no material change -- the FY2027 budget request remains a proposal, not enacted; no new congressional action identified since the prior update. Re-verified 2026-08-05: despite Bisignano's 'less people and better results' framing, internal documents reported by NOTUS show the IRS has been rushing to backfill critical staffing gaps, hiring roughly 2,000 employees as of January 2026 -- a partial rehire that still leaves the agency at a net ~28% workforce reduction from its January 2025 level, and that reporting characterizes as evidence of operational strain the agency's public statements had downplayed.",
     "primary_proponent": {
       "name": "Frank Bisignano",
       "role": "IRS Chief Executive Officer / Commissioner (concurrently SSA Commissioner)",
@@ -3709,17 +3709,22 @@
           "metric": "Additional positions proposed for elimination, FY2027 request",
           "value": "~4,800 (enforcement FTEs down ~17%)",
           "source": "Forbes, citing IRS FY2027 budget documents"
+        },
+        {
+          "metric": "Employees hired to backfill critical gaps after the 2025 cuts (as of Jan 2026)",
+          "value": "~2,000",
+          "source": "NOTUS, citing internal IRS documents"
         }
       ],
       "caveat": "This is a case with real, substantive dispute about outcomes, not just framing: Bisignano's testimony that filing-season results held up despite the cuts is corroborated by the IRS's own throughput data for 2026 (134M+ returns received, 90%+ refunds within 21 days) -- the disagreement is more about longer-term enforcement/audit capacity and phone-service quality than about whether the basic return-processing pipeline broke down, which by the government's own numbers it did not. The $600B revenue projection is a modeled estimate from an academic institution (Yale Budget Lab), not a government-produced figure, and should be cited as such."
     },
-    "confidence_note": "Exceptionally strong sourcing: the core staffing figures come from the National Taxpayer Advocate (a statutorily independent watchdog office within the IRS itself that reports directly to Congress) and TIGTA (Treasury's independent Inspector General), both nonpartisan government oversight bodies, not advocacy groups. GAO's audit finding that the cuts were 'not targeted or strategic' is a formal government audit conclusion. The Yale Budget Lab revenue projection is a reputable academic model but should be clearly labeled as a projection, not a realized fact. Re-verified 2026-07-20: the FY2027 request is a proposal, not enacted -- Congress rejected comparably aggressive agency-elimination proposals elsewhere (see this tracker's NOAA entry) in the FY2026 cycle, so enactment isn't assured. But the request itself is a further, concrete escalation of the pattern this entry already documents, concentrated specifically on enforcement rather than taxpayer-facing services. Re-verified 2026-07-26: no material change to report.",
+    "confidence_note": "Exceptionally strong sourcing: the core staffing figures come from the National Taxpayer Advocate (a statutorily independent watchdog office within the IRS itself that reports directly to Congress) and TIGTA (Treasury's independent Inspector General), both nonpartisan government oversight bodies, not advocacy groups. GAO's audit finding that the cuts were 'not targeted or strategic' is a formal government audit conclusion. The Yale Budget Lab revenue projection is a reputable academic model but should be clearly labeled as a projection, not a realized fact. Re-verified 2026-07-20: the FY2027 request is a proposal, not enacted -- Congress rejected comparably aggressive agency-elimination proposals elsewhere (see this tracker's NOAA entry) in the FY2026 cycle, so enactment isn't assured. But the request itself is a further, concrete escalation of the pattern this entry already documents, concentrated specifically on enforcement rather than taxpayer-facing services. Re-verified 2026-07-26: no material change to report. Re-verified 2026-08-05: NOTUS's rehiring reporting is drawn from internal IRS documents obtained by the outlet, corroborated by Accounting Today's independent coverage of the same backfill effort.",
     "section_summaries": {
       "what_changed": "The IRS lost about 27% of its staff and a third of its auditors in under a year, and Congress cut its budget too; a further cut is now proposed, mostly aimed at enforcement.",
       "estimated_impact": "A Yale model projects nearly $600 billion in lost revenue over ten years, and the IRS's own taxpayer advocate warns the 2026 filing season carries markedly different risks.",
       "confidence_note": "Exceptionally strong: core figures trace to the IRS's own independent taxpayer advocate and Treasury's inspector general, not advocacy groups; the revenue-loss number is a model, not fact."
     },
-    "last_verified": "2026-07-26",
+    "last_verified": "2026-08-05",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -3749,8 +3754,17 @@
       {
         "name": "Forbes — IRS Enforcement Takes Another Big Hit As Budget Request Shrinks",
         "url": "https://www.forbes.com/sites/kellyphillipserb/2026/04/22/irs-enforcement-takes-another-big-hit-as-budget-request-shrinks/"
+      },
+      {
+        "name": "NOTUS — The IRS Cut Staff. Now It's Rushing to Hire Thousands.",
+        "url": "https://www.notus.org/policy/irs-staff-cuts-hiring"
+      },
+      {
+        "name": "Accounting Today — IRS needed to backfill thousands of jobs after cutbacks",
+        "url": "https://www.accountingtoday.com/news/irs-needed-to-backfill-thousands-of-jobs-after-cutbacks"
       }
-    ]
+    ],
+    "last_updated": "2026-08-05"
   },
   {
     "id": "liheap-staff-elimination-funding-delay-trump2",
@@ -4081,6 +4095,73 @@
       }
     ],
     "last_updated": "2026-07-26"
+  },
+  {
+    "id": "national-park-service-grant-backlog-political-review-2026",
+    "title": "$362 Million in National Park Service Grants Stalled Awaiting Political Review in Burgum's Office",
+    "institution": "National Park Service / Department of the Interior",
+    "domain": "funding_redirection",
+    "status": "Ongoing -- backlog reported as of early June 2026, with no reporting reviewed indicating it had been cleared",
+    "date_of_action": "2026-06 (backlog reported); consolidation of grant-approval authority into the Secretary's office occurred earlier in 2025-2026",
+    "what_changed": "More than 1,400 active NPS grants worth roughly $362 million are sitting unapproved at the Department of the Interior, awaiting political review after the department consolidated grants-management sign-off into Secretary Doug Burgum's office. The stalled projects include nonprofit youth-program deployments to clear trails, work to prevent washouts during heavy rain, and wildlife surveys. Interior is managing the backlog with a significantly reduced staff, after the department shed roughly 13,000 employees (about 20% of its workforce) in 2025, including about 4,000 at NPS specifically. An Interior Department spokesperson described the added review layer as a 'common-sense stewardship measure' intended to 'streamline internal processes' and 'reduce unnecessary bureaucracy.'",
+    "primary_proponent": {
+      "name": "Doug Burgum",
+      "role": "Secretary of the Interior",
+      "note": "Consolidated grants-management approval authority into his own office, the mechanism reporting identifies as the direct cause of the backlog"
+    },
+    "estimated_impact": {
+      "summary": "Congressionally appropriated conservation, maintenance, wildfire-mitigation, and youth-program funding sitting unspent and undelivered pending a political sign-off step that did not previously exist at this level, on top of an NPS workforce already cut by roughly a quarter",
+      "figures": [
+        {
+          "metric": "Value of stalled active NPS grants",
+          "value": "$362,000,000",
+          "source": "NOTUS analysis, citing Interior Department data"
+        },
+        {
+          "metric": "Number of stalled active grants",
+          "value": "1,400",
+          "source": "NOTUS analysis, citing Interior Department data"
+        },
+        {
+          "metric": "Interior Department workforce reduction (2025)",
+          "value": "~13,000 employees (~20%)",
+          "source": "NOTUS reporting"
+        },
+        {
+          "metric": "NPS-specific workforce reduction (2025)",
+          "value": "~4,000 employees",
+          "source": "NOTUS reporting"
+        }
+      ],
+      "caveat": "The $362M/1,400-grant figure is a snapshot as of early June 2026, not a fixed total -- it will move as some grants clear review and new ones enter the queue. Interior's own framing (a routine stewardship/anti-bureaucracy measure) is a genuinely different characterization from the backlog framing and is presented here as the department's stated position, not adopted as fact."
+    },
+    "confidence_note": "Strong sourcing: NOTUS's reporting is corroborated by contemporaneous coverage (Salt Lake Tribune) and by Rep. Elfreth's and Ranking Member Merkley's direct questioning of Burgum in committee about the grants-approval process, indicating the backlog is acknowledged in a congressional-oversight setting, not just reported by outside journalists. The $362M/1,400-grant figure comes from Interior Department data itself via NOTUS's analysis, not an outside advocacy estimate.",
+    "section_summaries": {
+      "what_changed": "Interior consolidated grants sign-off into Burgum's office, and 1,400 NPS grants worth $362M -- trail work, flood/washout prevention, wildlife surveys -- are now stalled awaiting that review.",
+      "estimated_impact": "Congressionally appropriated conservation and maintenance funding sits unspent behind a new political-review layer, on top of an NPS workforce already cut by about a quarter.",
+      "confidence_note": "Strong: the backlog figures trace to Interior's own data and were raised directly to Burgum in congressional committee questioning, not just outside reporting."
+    },
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "sources": [
+      {
+        "name": "NOTUS -- Political Reviews Are Causing a Huge Grant Backlog at the National Park Service",
+        "url": "https://www.notus.org/climate-environment/political-reviews-grant-backlog-national-park-service"
+      },
+      {
+        "name": "Salt Lake Tribune -- Political reviews are causing a huge grant backlog at the National Park Service",
+        "url": "https://www.sltrib.com/news/politics/2026/06/11/political-reviews-are-causing-huge/"
+      },
+      {
+        "name": "Rep. Sarah Elfreth -- Elfreth Presses Burgum on Federal Workforce Cuts, Partisan National Park Passes & Changes to the Grants Approval Process",
+        "url": "https://elfreth.house.gov/media/press-releases/elfreth-presses-burgum-federal-workforce-cuts-partisan-national-park-passes"
+      },
+      {
+        "name": "Sen. Jeff Merkley -- Ranking Member Merkley Presses Secretary Burgum on Misusing National Park Service Funding for America 250",
+        "url": "https://www.merkley.senate.gov/ranking-member-merkley-presses-secretary-burgum-on-misusing-national-park-service-funding-for-america-250/"
+      }
+    ],
+    "last_updated": "2026-08-05"
   },
   {
     "id": "national-park-service-staffing-crisis-trump2",

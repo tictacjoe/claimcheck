@@ -176,6 +176,64 @@
     "short_summary": "Trump cut Bears Ears and Grand Staircase-Escalante monuments by ~90% combined (~3M acres), opening the land to oil/gas/uranium/coal/mineral development -- the second such reduction in a decade after Biden reversed the first."
   },
   {
+    "id": "big-bend-border-wall-environmental-waiver-2026",
+    "rule_name": "Environmental and historic-preservation law waivers for border barrier construction in Big Bend National Park",
+    "administration": "Trump II (2025-present)",
+    "agency": "DHS",
+    "domain": "environmental",
+    "status": "Weakened (not fully repealed) -- waived for a specific project area, not a nationwide rule change",
+    "date_of_action": "2026-06 (initial waiver) through 2026-07-27 (subsequent waiver by Secretary Mullin extending the project area)",
+    "original_rule_summary": "A body of federal environmental and preservation statutes -- including the National Environmental Policy Act, Endangered Species Act, National Park Service Organic Act, Clean Water Act, Historic Preservation Act, Migratory Bird Treaty Act, Migratory Bird Conservation Act, Archaeological Resources Protection Act, Paleontological Resources Protection Act, and Federal Caves Protection Act -- that normally require environmental review, habitat/species protection, and preservation safeguards before construction affecting protected federal land.",
+    "what_changed": "DHS invoked its statutory waiver authority under the REAL ID Act's border-infrastructure provision to bypass the above laws and authorize construction of border barriers, roads, lighting, cameras, and sensors through Big Bend National Park and Big Bend Ranch State Park -- protected federal and state land not previously subject to this kind of border-wall construction. DHS had already awarded a $1.7 billion contract in May 2026 explicitly described as 'for border wall through Big Bend.' A subsequent waiver signed by DHS Secretary Markwayne Mullin took effect July 27, 2026, extending the covered project area across the Border Patrol's Big Bend and Del Rio sectors.",
+    "primary_proponent": {
+      "name": "Markwayne Mullin",
+      "role": "Secretary of Homeland Security",
+      "note": "Signed the July 27, 2026 waiver extending the project area to the full Big Bend and Del Rio sectors; the initial June 2026 waiver was issued under DHS during the same border-infrastructure push."
+    },
+    "corporate_beneficiaries": [
+      "Contractor(s) awarded the $1.7 billion border-construction contract for the Big Bend project (specific firm not identified in reporting reviewed)"
+    ],
+    "estimated_health_impact": {
+      "summary": "Construction proceeds through protected national park and state park land without the environmental review, endangered-species protection, water-quality safeguards, and archaeological/paleontological/historic-preservation review that would otherwise apply -- litigation is ongoing over whether this exceeds DHS's waiver authority.",
+      "figures": [
+        {
+          "metric": "Value of border-construction contract explicitly covering Big Bend",
+          "value": "$1,700,000,000",
+          "source": "Contract award reporting, Center for Biological Diversity / Houston Public Media"
+        },
+        {
+          "metric": "Number of distinct federal/state environmental and preservation statutes waived",
+          "value": "9 (NEPA, ESA, NPS Organic Act, Clean Water Act, Historic Preservation Act, Migratory Bird Treaty Act, Migratory Bird Conservation Act, Archaeological Resources Protection Act, Paleontological Resources Protection Act) plus the Federal Caves Protection Act",
+          "source": "Center for Biological Diversity, TPR/Houston Public Media reporting on the waiver notice"
+        }
+      ],
+      "caveat": "No agency or independent quantified estimate of specific ecological/habitat harm was found in reporting reviewed -- the impact here is the removal of the legal review and protection mechanisms themselves, not yet a measured environmental outcome. A lawsuit (Center for Biological Diversity, Friends of the Ruidosa Church, and a river guide) is pending, arguing the waivers violate the major-questions doctrine; that legal challenge's outcome is unresolved."
+    },
+    "confidence_note": "Strong sourcing on the waiver's existence, scope, and the specific statutes covered -- corroborated across Center for Biological Diversity's press release (a party to the subsequent lawsuit, so read its framing as advocacy, but its factual claims about the waiver notice's contents are independently corroborated by TPR/Houston Public Media and National Parks Traveler). The $1.7B contract figure and its explicit 'through Big Bend' description are independently reported.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "sources": [
+      {
+        "name": "Center for Biological Diversity -- Trump Administration Waives Environmental Laws to Blast Border Barriers, Roads Through Big Bend National Park",
+        "url": "https://biologicaldiversity.org/w/news/press-releases/trump-administration-waives-environmental-laws-to-blast-border-barriers-roads-through-big-bend-national-park-2026-06-08/"
+      },
+      {
+        "name": "TPR / Houston Public Media -- DHS waives environmental laws for border barriers and roads from Big Bend to Lake Amistad",
+        "url": "https://www.houstonpublicmedia.org/articles/environment/2026/07/29/558200/dhs-waives-environmental-laws-for-border-barriers-and-roads-from-big-bend-to-lake-amistad/"
+      },
+      {
+        "name": "National Parks Traveler -- UPDATED | Trump Administration Waives Environmental Laws To Allow Border Wall In Big Bend National Park",
+        "url": "https://www.nationalparkstraveler.org/2026/06/updated-trump-administration-waives-environmental-laws-allow-border-wall-big-bend-national"
+      }
+    ],
+    "short_summary": "DHS waived NEPA, the Endangered Species Act, and 7 other laws to build a border wall through Big Bend National Park.",
+    "section_summaries": {
+      "what_changed": "DHS waived nine federal environmental/preservation statutes to build border barriers, roads, and sensors through Big Bend National Park and Ranch State Park under a $1.7B contract.",
+      "estimated_impact": "Removes environmental review, endangered-species protection, and historic/archaeological safeguards for construction on protected park land; a lawsuit challenging the waiver's legality is pending.",
+      "confidence_note": "Strong: the waiver's scope and statutes covered are independently corroborated across multiple outlets beyond the litigating advocacy group."
+    }
+  },
+  {
     "id": "cfpb-payday-lending-rollback-trump1",
     "rule_name": "CFPB Payday Lending Underwriting Rollback",
     "administration": "Trump I (2017-2021)",
