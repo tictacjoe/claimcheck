@@ -5842,7 +5842,7 @@
     "domain": "funding_redirection",
     "status": "Ongoing -- surveyed impacts cover November 2025-April 2026; disruption effects continuing as of mid-2026",
     "date_of_action": "2025 (funding disruptions begin) through 2026-07 (amfAR study findings presented at AIDS 2026/IAS 2026)",
-    "what_changed": "amfAR and partner organizations surveyed country-level PEPFAR implementing partner organizations worldwide from November 2025 to April 2026, receiving responses from 166 of 708 organizations contacted (23% response rate), and presented findings at the AIDS 2026 conference. The survey found that Trump-administration funding disruptions to PEPFAR -- the two-decade-old U.S. global HIV/AIDS program -- led to 1,714 HIV service delivery sites closing worldwide, including 1,010 public health facilities, 325 community access points, and 126 drop-in centers. In the 21 countries surveyed, 77,163 fewer children living with HIV received PEPFAR-supported treatment in 2025 (when disruptions began) compared with 2024. More than 16,000 healthcare workers lost their jobs after PEPFAR awards were delayed or canceled. Among partner organizations, 21% had permanently stopped at least one HIV clinical care activity, and roughly three-quarters had stopped serving populations at highest risk of HIV -- including sex workers, transgender people, gay men, and people who inject drugs -- the populations survey respondents said were most likely to have services permanently discontinued.",
+    "what_changed": "amfAR and partner organizations surveyed country-level PEPFAR implementing partner organizations worldwide from November 2025 to April 2026, receiving responses from 166 of 708 organizations contacted (23% response rate), and presented findings at the AIDS 2026 conference. The survey found that Trump-administration funding disruptions to PEPFAR -- the two-decade-old U.S. global HIV/AIDS program -- led to 1,714 HIV service delivery sites closing worldwide, including 1,010 public health facilities, 325 community access points, and 126 drop-in centers. In the 21 countries surveyed, 77,163 fewer children living with HIV received PEPFAR-supported treatment in 2025 (when disruptions began) compared with 2024. More than 16,000 healthcare workers lost their jobs after PEPFAR awards were delayed or canceled. Among partner organizations, 21% had permanently stopped at least one HIV clinical care activity, and roughly three-quarters had stopped serving populations at highest risk of HIV -- including sex workers, transgender people, gay men, and people who inject drugs -- the populations survey respondents said were most likely to have services permanently discontinued. A separate UNAIDS/UNICEF/WHO report published June 2026 found the number of people receiving pre-exposure prophylaxis (PrEP) medication fell 38% between 2024 and 2025 across initial data from 62 countries -- more than a million fewer people -- with the report attributing most of the overall decline to U.S. HIV disbursement cuts, since the U.S. had provided roughly 75% of global donated HIV funding. The same report found condom-distribution funding cut by more than 90% in some countries, and a related 2026 survey of 79 organizations across 47 countries found PrEP delivery by community-led organizations down 50%, HIV testing down 22% in resource-limited countries (especially sub-Saharan Africa), and support services for people living with HIV down 50%.",
     "primary_proponent": {
       "name": "Marco Rubio",
       "role": "Secretary of State",
@@ -5875,17 +5875,27 @@
           "metric": "Organizations that stopped serving key at-risk populations (sex workers, transgender people, gay men, people who inject drugs)",
           "value": "~75%",
           "source": "amfAR survey, presented at AIDS 2026/IAS 2026"
+        },
+        {
+          "metric": "Global decline in people receiving PrEP (HIV prevention medication), 2024 vs. 2025 (62 countries)",
+          "value": "38% (1,000,000+ fewer people)",
+          "source": "UNAIDS/UNICEF/WHO report, June 2026"
+        },
+        {
+          "metric": "U.S. share of global donated HIV funding prior to cuts",
+          "value": "~75%",
+          "source": "UNAIDS/UNICEF/WHO report, June 2026"
         }
       ],
       "caveat": "The survey's response rate was 23% (166 of 708 organizations contacted), so figures should be understood as based on a partial, self-selected sample of PEPFAR implementing partners rather than a full census -- though the sample size and consistency of findings across a wide range of countries lend the results credibility as indicative of broader impact, per public-health researchers reporting on the study."
     },
-    "confidence_note": "HIGH confidence -- this is a named research study (amfAR and partner organizations) presented at a major international conference (AIDS 2026/IAS 2026), with consistent figures corroborated across Managed Healthcare Executive (two separate articles), 76crimes, The Advocate, The Nation, and Al Jazeera. MODERATE confidence on generalizing beyond the surveyed sample, given the 23% survey response rate, though this is an inherent limitation of the underlying study rather than a sourcing gap in this entry.",
+    "confidence_note": "HIGH confidence -- this is a named research study (amfAR and partner organizations) presented at a major international conference (AIDS 2026/IAS 2026), with consistent figures corroborated across Managed Healthcare Executive (two separate articles), 76crimes, The Advocate, The Nation, and Al Jazeera. MODERATE confidence on generalizing beyond the surveyed sample, given the 23% survey response rate, though this is an inherent limitation of the underlying study rather than a sourcing gap in this entry. The UNAIDS/UNICEF/WHO PrEP-decline figures are a UN-agency joint report, independently corroborated across the Washington Post, Boston Globe, and UNAIDS' own press materials -- HIGH confidence, though the report itself notes other wealthy countries' aid trims and domestic funding shortfalls also contributed alongside the dominant U.S. cuts.",
     "section_summaries": {
-      "what_changed": "A survey-based study found PEPFAR funding disruptions closed 1,714 HIV treatment sites worldwide and cut treatment for 77,000+ children, with over 16,000 healthcare workers losing jobs.",
-      "estimated_impact": "About three-quarters of surveyed partner organizations stopped serving the populations at highest risk of HIV, and one in five permanently ended at least one clinical care activity.",
-      "confidence_note": "Well-corroborated named research study presented at a major conference and covered consistently across multiple outlets; based on a 23% survey response rate, an inherent limitation of the underlying study."
+      "what_changed": "A survey-based study found PEPFAR funding disruptions closed 1,714 HIV treatment sites worldwide and cut treatment for 77,000+ children; a separate UN report found HIV prevention medication use fell 38% globally over the same period.",
+      "estimated_impact": "About three-quarters of surveyed partner organizations stopped serving the populations at highest risk of HIV, and a UN report found over a million fewer people receiving HIV-prevention medication worldwide.",
+      "confidence_note": "Well-corroborated named research study plus an independent UN-agency report, both covered consistently across multiple outlets."
     },
-    "last_verified": "2026-07-27",
+    "last_verified": "2026-08-05",
     "date_added": "2026-07-27",
     "sources": [
       {
@@ -5899,16 +5909,24 @@
       {
         "name": "The Advocate — Donald Trump's assault on foreign aid shuttered 1,700 HIV care sites worldwide",
         "url": "https://www.advocate.com/politics/national/hiv-care-stopped-trump-pepfar"
+      },
+      {
+        "name": "Washington Post — Global HIV prevention declined drastically after Trump aid cuts, U.N. finds",
+        "url": "https://www.washingtonpost.com/world/2026/06/13/global-hiv-prevention-declined-drastically-after-trump-aid-cuts-un-finds/"
+      },
+      {
+        "name": "UNAIDS — 'Perilous moment' for the response to HIV warns UNAIDS",
+        "url": "https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2026/june/20260612_PR_global_aids_brief"
       }
     ],
-    "last_updated": "2026-07-27"
+    "last_updated": "2026-08-05"
   },
   {
     "id": "rfk-jr-measles-data-diversion-2025",
     "title": "RFK Jr. Diverted CDC Staff to Compile Measles Data, Blocked Briefings, Spread Vaccine Disinformation -- CDC Chief Medical Officer Resigned in Protest",
     "institution": "Centers for Disease Control and Prevention (CDC)",
     "domain": "research_suppression",
-    "status": "Reported as a completed episode during the 2025 outbreak; Houry's resignation was final as of summer 2025. Update 2026-07-27: the Washington Post reports the U.S. recorded 2,295 measles cases in 2026 as of late July -- the highest annual total since 1991 -- with more than five months remaining in the year, which public health experts attribute to declining vaccination rates and sustained outbreaks across multiple states.",
+    "status": "Reported as a completed episode during the 2025 outbreak; Houry's resignation was final as of summer 2025. Update 2026-07-27: the Washington Post reports the U.S. recorded 2,295 measles cases in 2026 as of late July -- the highest annual total since 1991 -- with more than five months remaining in the year, which public health experts attribute to declining vaccination rates and sustained outbreaks across multiple states. Update 2026-08-05: Utah's outbreak, part of the sustained 2026 transmission WSJ and CIDRAP report has continued since early 2025, has reached 679 cumulative cases (197 in 2025, 482 in 2026) with measles detected in every health jurisdiction in the state; the CDC has said the U.S. is at risk of losing its measles elimination status -- unbroken since 2000 -- if any transmission chain remains continuous for a full year, a threshold Utah's outbreak is approaching. Utah's kindergarten MMR vaccination rate (78.5% in 2023-2024) is well below the ~95% threshold public health officials say is needed to prevent sustained spread.",
     "date_of_action": "2025 (during the active measles outbreak response, through Houry's resignation in summer 2025)",
     "what_changed": "Former CDC Chief Medical Officer Dr. Debra Houry said that while CDC staff were actively responding to the largest U.S. measles outbreak in decades -- more than 2,000 cases nationwide in 2025, including two child deaths linked to a West Texas outbreak cluster, with 93% of cases involving people who were unvaccinated or had unknown vaccination status -- HHS Secretary Robert F. Kennedy Jr. and his aides requested 15 years of historical data on every individual measles case, including comorbidities among the deceased. Houry said the requests diverted CDC staff time and attention away from active outbreak management, stating publicly that 'the active measles response has to take priority,' and characterized the data requests as 'not based on science or reality, but trying to answer an agenda that was already in place.' Houry said Kennedy separately declined briefings from CDC's top medical officials on the measles epidemic despite CDC's offers to provide 'correct statistics, correct information,' spread false claims about vaccines (including the MMR vaccine) that CDC experts were prevented from countering, and relied on advisers she said lacked medical, scientific, or government background. Houry resigned in protest in summer 2025, saying she could no longer protect the agency's scientific integrity and citing measles, whooping cough, and flu deaths she witnessed: 'I couldn't stand behind that.' Her resignation followed Kennedy's June 9, 2025 removal of all 17 members of CDC's vaccine advisory committee (ACIP, tracked separately in this database), whose replacements included members with ties to lawsuits against vaccine makers -- notable given that Kennedy himself had collected referral fees from such lawsuits before becoming HHS Secretary.",
     "primary_proponent": {
@@ -5948,7 +5966,7 @@
       "estimated_impact": "Staff time was diverted from managing the largest measles outbreak in decades (2,000+ cases, 2 child deaths); Houry says she resigned because she could no longer protect the agency's scientific integrity.",
       "confidence_note": "Rests on one named, credible on-record source (across two CBS reports) without independent corroboration or an HHS response identified; the outbreak-scale figures themselves are well-established and undisputed."
     },
-    "last_verified": "2026-07-27",
+    "last_verified": "2026-08-05",
     "date_added": "2026-07-27",
     "sources": [
       {
@@ -5962,9 +5980,17 @@
       {
         "name": "Washington Post — US measles cases hit 35-year record with months left in 2026",
         "url": "https://www.washingtonpost.com/health/2026/07/21/us-measles-cases-hit-35-year-record-with-months-left-2026/"
+      },
+      {
+        "name": "KUTV — Utah reports nearly 700 measles cases since outbreak began, threatens elimination status",
+        "url": "https://kutv.com/news/local/utah-reports-nearly-700-measles-cases-since-outbreak-began-threatens-elimination-status"
+      },
+      {
+        "name": "CIDRAP — US nears 1,700 measles cases, with 73 new infections in Utah",
+        "url": "https://www.cidrap.umn.edu/measles/us-nears-1700-measles-cases-73-new-infections-utah"
       }
     ],
-    "last_updated": "2026-07-27"
+    "last_updated": "2026-08-05"
   },
   {
     "id": "rfk-jr-vaccine-autism-reexamination-2026",

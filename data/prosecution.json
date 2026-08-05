@@ -1645,6 +1645,49 @@
     }
   },
   {
+    "official": "ICE Homeland Security Investigations (HSI) and HHS Office of Inspector General, under DHS Secretary Markwayne Mullin",
+    "offense_category": "Warrantless Federal Agent Visits to Legal Aid Organizations Seeking Client and Financial Records -- no warrant, subpoena, or other legal instrument was presented; no criminal charge has been identified against any organization or individual",
+    "contested": true,
+    "incident_summary": "During a roughly 48-hour sweep around June 11-12, 2026, agents from ICE's Homeland Security Investigations and the HHS Office of Inspector General showed up in person at the Washington, D.C.-area offices of at least three nonprofit legal aid organizations that represent unaccompanied migrant children -- the Amica Center for Immigrant Rights, Kids in Need of Defense (KIND), and Ayuda -- seeking client files, financial records, and information about the children the organizations serve. The agents presented no warrant, no subpoena, and cited no legal authority for the requests. All three organizations refused access, and the agents left empty-handed. Amica executive director Michael Lukens called the visits 'a blatant abuse of power to try to intimidate child advocates,' and KIND president Wendy Young said the pattern reflects 'an overarching approach which is to harass and intimidate those organizations that are set up to provide services to this very vulnerable population.' No public record -- no warrant, no OIG report, no agency statement -- has explained what specific misconduct HSI or HHS OIG believed they were investigating.",
+    "elements_required": [
+      "Federal agents from two different agencies (ICE HSI and HHS OIG) visited multiple legal aid nonprofits in a coordinated, near-simultaneous sweep, indicating a planned operation rather than isolated, unrelated inquiries",
+      "Agents sought client files and financial records -- categories of sensitive information a warrant or subpoena would ordinarily be required to compel -- without presenting any such legal instrument",
+      "No public agency statement, warrant application, or OIG report has articulated a specific factual basis or legal theory for the visits, despite all three organizations declining and the agents departing without incident",
+      "The targeted organizations share a common, narrow function -- providing legal representation to unaccompanied migrant children -- establishing a viewpoint/mission-based pattern rather than a neutral fraud or compliance sweep untethered to the organizations' advocacy role"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "ABC News and Migrant Insider reporting establishing the June 11-12, 2026 sweep, the three organizations visited, and that agents left without obtaining any records after being refused",
+        "source_url": "https://abcnews.com/US/dhs-agents-visit-offices-legal-aid-organizations-assist/story?id=133828340",
+        "maps_to_element": "Establishes the coordinated, multi-organization, multi-agency nature of the visits and their outcome"
+      },
+      {
+        "type": "testimony",
+        "description": "On-record statements from Amica executive director Michael Lukens and KIND president Wendy Young characterizing the visits as intimidation aimed at organizations serving migrant children",
+        "source_url": "https://migrantinsider.com/p/federal-agents-showed-up-at-a-childrens",
+        "maps_to_element": "Documents the organizations' own characterization of intent, and that no legal instrument was presented"
+      },
+      {
+        "type": "news_report",
+        "description": "Associated Press wire coverage corroborating the visits and the 'attempt at intimidation' characterization from the legal groups involved",
+        "source_url": "https://apnews.com/article/border-immigration-children-legal-services-homeland-security-investigations-035cd451ecc8449ad0919a02dc141555",
+        "maps_to_element": "Independent wire-service corroboration of the incident"
+      }
+    ],
+    "status": "Reported as a completed episode -- no follow-up warrant, subpoena, or charges against any organization identified in reporting reviewed as of this entry's sourcing",
+    "rebuttal_anticipated": "DHS/HHS could argue federal investigators are permitted to make voluntary, non-compulsory inquiries at any organization without a warrant, that no rights were violated since the organizations were free to refuse (and did), and that scrutiny of organizations handling federal funds or vulnerable populations is a legitimate oversight function regardless of the organizations' advocacy mission.",
+    "comeback": "A voluntary-inquiry framing is undercut by the operation's own shape: two separate federal agencies coordinated visits to multiple organizations that share only one thing in common -- representing migrant children against the government's own immigration enforcement -- within a 48-hour window, sought categories of records that would normally require a warrant or subpoena to compel, and to date have offered no public explanation of what conduct prompted the sweep, a pattern consistent with pressure/intimidation rather than a neutral compliance inquiry.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented pattern in this tracker of federal investigative visits/subpoenas being directed at organizations and individuals critical of or adversarial to the administration's immigration enforcement (see also this tracker's DHS administrative-subpoena-abuse and Pirro anonymous-ICE-critic-subpoena entries).",
+    "confidence_note": "Strong sourcing: the visits, the three organizations involved, the absence of any warrant or subpoena, and the organizations' on-record statements are corroborated across ABC News, AP, and Migrant Insider. MODERATE confidence on investigative intent/purpose specifically, since no agency has publicly stated a rationale for the visits.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "section_summaries": {
+      "incident_summary": "ICE HSI and HHS OIG agents showed up unannounced at three nonprofits representing migrant children seeking client and financial records with no warrant or subpoena; all three refused and the agents left empty-handed.",
+      "confidence_note": "Well-corroborated across ABC News, AP, and Migrant Insider; no agency has stated what it was investigating, so intent is inferred from the pattern, not confirmed."
+    }
+  },
+  {
     "official": "Department of Defense leadership (hiring authority within the Office of Special Operations and Low-Intensity Conflict)",
     "offense_category": "Appointment of a Convicted January 6 Participant to a Sensitive National-Security Role -- no criminal or procedural violation established in the hiring itself; this is a public-integrity/qualifications-and-vetting concern given internal Pentagon objections",
     "contested": true,
