@@ -1347,7 +1347,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing (departure rate now over 75%; Voting Section led in acting capacity by a former Public Interest Legal Foundation attorney; White House reportedly considering defunding a related election-observer program)",
     "date_of_action": "2025-01 (initial departures begin) through 2025-10 (Justice Connection's most recent departure count)",
-    "what_changed": "Since President Trump's January 2025 inauguration, an estimated 250-260 attorneys -- roughly 70% of the division's approximately 365-person attorney roster -- have resigned, accepted the administration's deferred-resignation offer, or been reassigned elsewhere within DOJ. By October 2025, Justice Connection (a support network founded by former division attorneys) estimated the departure count had grown to nearly 400 people, about 75% of attorneys. The Voting Section specifically -- responsible for enforcing the Voting Rights Act -- fell from an estimated 30 attorneys in January to just 3 by May 2025. The section devoted to ensuring nondiscrimination by recipients of federal funds was left with no attorneys whatsoever, per the Leadership Conference on Civil and Human Rights. Assistant Attorney General for Civil Rights Harmeet Dhillon, confirmed in April 2025, sent new mission statements to each of the division's 11 sections shortly after taking office, redirecting the Voting Section's focus from protecting against discrimination toward pursuing voter fraud, and telling the Educational Opportunities Section that its work required 'the full dedication of this section's resources, attention and energy to the priorities of the president.' Career section-chief managers -- in some cases with decades of institutional tenure spanning multiple administrations of both parties -- were removed from leadership roles and reassigned to processing public records requests or complaint intake, which several described as a deliberate push to induce their resignation. By August 2025, DOJ was actively soliciting permanent internal transfers from other CRT sections to refill the most depleted offices (Voting, Employment Litigation, Educational Opportunities), some of which were themselves already down more than 75% of their attorneys. The Voting Section is now led in an acting capacity by Maureen Riordan, previously an attorney at the Public Interest Legal Foundation, a conservative legal group whose stated mission is to 'fight against lawlessness in American elections' -- a notable leadership choice for a section this entry documents was redirected toward pursuing voter fraud rather than voting-rights enforcement. As of March 2026, the White House was reportedly considering ending funding for a separate, longstanding DOJ election-observer program aimed at protecting minority voting rights, according to CBS News sources. Departures across the division have continued to be counted at roughly 75%, consistent with Justice Connection's October 2025 estimate already in this entry, rather than climbing further as of this update. Update 2026-07-26: a DOJ spokesperson has since gone on the record denying the reported consideration of ending the election-observer program's funding, stating the Department 'has no plans to end its monitorship program which is integral to assessing compliance with federal voting rights laws across the country.' This resolves the 'reportedly considering' item from the prior update with an explicit denial, though it does not address or retract the underlying reporting that such defunding had been discussed internally.",
+    "what_changed": "Since President Trump's January 2025 inauguration, an estimated 250-260 attorneys -- roughly 70% of the division's approximately 365-person attorney roster -- have resigned, accepted the administration's deferred-resignation offer, or been reassigned elsewhere within DOJ. By October 2025, Justice Connection (a support network founded by former division attorneys) estimated the departure count had grown to nearly 400 people, about 75% of attorneys. The Voting Section specifically -- responsible for enforcing the Voting Rights Act -- fell from an estimated 30 attorneys in January to just 3 by May 2025. The section devoted to ensuring nondiscrimination by recipients of federal funds was left with no attorneys whatsoever, per the Leadership Conference on Civil and Human Rights. Assistant Attorney General for Civil Rights Harmeet Dhillon, confirmed in April 2025, sent new mission statements to each of the division's 11 sections shortly after taking office, redirecting the Voting Section's focus from protecting against discrimination toward pursuing voter fraud, and telling the Educational Opportunities Section that its work required 'the full dedication of this section's resources, attention and energy to the priorities of the president.' Career section-chief managers -- in some cases with decades of institutional tenure spanning multiple administrations of both parties -- were removed from leadership roles and reassigned to processing public records requests or complaint intake, which several described as a deliberate push to induce their resignation. By August 2025, DOJ was actively soliciting permanent internal transfers from other CRT sections to refill the most depleted offices (Voting, Employment Litigation, Educational Opportunities), some of which were themselves already down more than 75% of their attorneys. The Voting Section is now led in an acting capacity by Maureen Riordan, previously an attorney at the Public Interest Legal Foundation, a conservative legal group whose stated mission is to 'fight against lawlessness in American elections' -- a notable leadership choice for a section this entry documents was redirected toward pursuing voter fraud rather than voting-rights enforcement. As of March 2026, the White House was reportedly considering ending funding for a separate, longstanding DOJ election-observer program aimed at protecting minority voting rights, according to CBS News sources. Departures across the division have continued to be counted at roughly 75%, consistent with Justice Connection's October 2025 estimate already in this entry, rather than climbing further as of this update. Update 2026-07-26: a DOJ spokesperson has since gone on the record denying the reported consideration of ending the election-observer program's funding, stating the Department 'has no plans to end its monitorship program which is integral to assessing compliance with federal voting rights laws across the country.' This resolves the 'reportedly considering' item from the prior update with an explicit denial, though it does not address or retract the underlying reporting that such defunding had been discussed internally. Reuters reporting (Feb. 2026) found the division's unit prosecuting police and federal-agent misconduct lost roughly two-thirds of its attorneys, from about 40 down to as few as 13, with charges under the civil rights statute most commonly used in federal excessive-force cases falling about 36% to 54 total in 2025 -- the lowest since 2020. Section supervisors reportedly instructed staff early in the administration that law-enforcement-misconduct investigations would proceed only in egregious circumstances (e.g. a death in custody or sexual assault), with state and local authorities expected to lead most other cases. Former DOJ lawyers cited in the reporting expressed doubt the diminished section could conduct thorough investigations of recent incidents, including the fatal shootings of Renee Good and Alex Pretti by federal immigration agents in Minneapolis -- the same shootings this tracker's prosecution/cabinet-level/bondi-doj-renee-good-widow-investigation-2026.json entry documents DOJ leadership blocking a standard investigation of and instead pressuring an investigation of Good's widow.",
     "primary_proponent": {
       "name": "Harmeet Dhillon",
       "role": "Assistant Attorney General for Civil Rights",
@@ -1381,11 +1381,11 @@
     },
     "confidence_note": "Strong, consistent sourcing across NPR, Government Executive, Democracy Docket, and multiple advocacy organizations, all citing the same core figures traceable to Justice Connection's direct contacts within the division -- a meaningful source since it draws on current employees, not just outside inference. Dhillon's own quotes and mission-statement language are on the record from her own public remarks and DOJ's own internal communications, not disputed characterizations. Re-verified 2026-07-20: Riordan's appointment and the reported election-observer defunding consideration both extend this entry's existing pattern (priorities redirected toward voter-fraud pursuit, away from voting-rights protection) with new, specific, named developments rather than changing the basic trajectory already documented. Re-verified 2026-07-26: the DOJ denial is corroborated by CBS News's own follow-up reporting and Election Law Blog's contemporaneous coverage.",
     "section_summaries": {
-      "what_changed": "Roughly three-quarters of the Civil Rights Division's attorneys have left since January 2025, with the Voting Section gutted from 30 lawyers to 3 as priorities shifted.",
+      "what_changed": "Roughly three-quarters of the Civil Rights Division's attorneys have left since January 2025, with the Voting Section gutted from 30 lawyers to 3 as priorities shifted. Its police/federal-agent-misconduct unit specifically lost two-thirds of its attorneys (40 to 13) and was ordered to pursue only egregious cases, raising doubts about its ability to investigate the Good and Pretti shootings.",
       "estimated_impact": "A division veteran called this shift unprecedented in nearly 70 years; a former Voting Section chief warned of fraud suits timed around elections.",
       "confidence_note": "Strongly sourced, including figures from current employees rather than outside inference; recent developments extend the pattern already documented, not change it."
     },
-    "last_verified": "2026-07-26",
+    "last_verified": "2026-08-05",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -1411,6 +1411,10 @@
       {
         "name": "CBS News — White House mulls defunding DOJ civil rights election observer program",
         "url": "https://www.cbsnews.com/amp/news/white-house-doj-civil-rights-election-observer-program-minority-voting-rights/"
+      },
+      {
+        "name": "Reuters -- 'Exclusive: Justice Department unit on police misconduct sees staffing plunge and probes scaled back, sources say'",
+        "url": "https://www.investing.com/news/economy-news/exclusivejustice-department-unit-on-police-misconduct-sees-staffing-plunge-and-probes-scaled-back-sources-say-4487051"
       }
     ],
     "last_updated": "2026-07-26"
@@ -3789,6 +3793,46 @@
         "url": "https://www.everylibrary.org/trump_termination_imls_grants"
       }
     ]
+  },
+  {
+    "id": "immigration-habeas-surge-usao-strain-2026",
+    "title": "Surge in Immigration-Detention Habeas Corpus Cases Is Pulling Prosecutors Off Criminal Casework Nationwide",
+    "institution": "U.S. Attorney's Offices nationwide, Department of Justice",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing as of this entry's addition (February 2026 reporting) -- no indication in sourcing reviewed that DOJ has added prosecutorial capacity to offset the habeas caseload surge",
+    "date_of_action": "2025-2026 (surge intensifying alongside expanded immigration-detention enforcement)",
+    "what_changed": "A sharp increase in immigration detentions under the administration's enforcement push has produced a corresponding wave of habeas corpus petitions -- detainees' court challenges to the legality of their detention -- that CBS News's reporting describes as overwhelming U.S. Attorney's offices nationwide. Prosecutors are being pulled away from criminal casework to respond to the volume of habeas filings, straining offices already reduced by earlier staffing cuts and departures. The strain compounds separately-documented office-specific staffing collapses this tracker records elsewhere (e.g. the Minnesota U.S. Attorney's Office exodus, prosecution/cabinet-level/bondi-doj-renee-good-widow-investigation-2026.json), applying the same underlying dynamic -- civil/immigration litigation demand outpacing available career prosecutorial staff -- at a national scale rather than a single office.",
+    "primary_proponent": {
+      "name": "Department of Justice / Executive Office for Immigration enforcement policy",
+      "role": "Federal agencies whose expanded detention enforcement drove the underlying habeas caseload surge",
+      "note": "The strain is a downstream consequence of the administration's detention-enforcement volume rather than a discrete standalone policy decision by DOJ leadership."
+    },
+    "estimated_impact": {
+      "summary": "CBS News's reporting describes the habeas surge as a 'tsunami' straining U.S. Attorney's offices across the country, with career prosecutors diverted from criminal casework -- a nationwide capacity strain distinct from, but structurally similar to, the office-specific staffing collapses documented elsewhere in this tracker.",
+      "figures": [
+        {
+          "metric": "Scope of impact",
+          "value": "Described as affecting U.S. Attorney's offices 'across America,' not limited to border-adjacent districts",
+          "source": "CBS News"
+        }
+      ],
+      "caveat": "This entry documents a resource-strain consequence of detention-enforcement volume and existing staffing levels rather than a discrete rule, memo, or directive -- precise nationwide figures on prosecutor-hours diverted or criminal-case delays caused were not available in sourcing reviewed."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- CBS News's reporting is the primary source identified and describes a nationwide pattern corroborated by the same underlying dynamic (habeas surge, staffing strain) independently documented in this tracker's office-specific entries; no independent DOJ data confirming the precise national scale was identified.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "CBS News -- 'Tsunami' of immigration detention cases strains DOJ, U.S. Attorney's offices across America",
+        "url": "https://www.cbsnews.com/news/tsunami-immigration-detention-cases-strains-doj-us-attorneys-offices-across-america/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "A surge in immigration-detention habeas corpus filings, driven by expanded enforcement, is pulling U.S. Attorney's office prosecutors nationwide off criminal casework to respond to the volume.",
+      "estimated_impact": "Described as a 'tsunami' straining offices across the country, structurally similar to the office-specific staffing collapses documented elsewhere in this tracker but at national scale.",
+      "confidence_note": "Sourced to a single but detailed CBS News investigation; no independent DOJ data on the precise national scale was found."
+    }
   },
   {
     "id": "irs-ice-data-sharing-errors-2026",
