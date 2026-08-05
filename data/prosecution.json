@@ -694,9 +694,15 @@
         "description": "The Washington Post's reporting situates the resignations within broader prosecutor frustration over the office's handling of both the Good and Pretti shooting cases",
         "source_url": "https://www.washingtonpost.com/national-security/2026/01/29/minneapolis-shootings-prosecutor-resignations/",
         "maps_to_element": "Broader context and pattern characterization"
+      },
+      {
+        "type": "public_record",
+        "description": "CBS News reporting identifies the four lead prosecutors on the $250 million Feeding Our Future fraud case as Joe Thompson, Harry Jacobs, Daniel Bobier, and Matthew Ebert -- all of whom left the office amid the broader resignation wave -- and reports the office was left with as few as 17 assistant U.S. attorneys, down from 70 under the Biden administration; two newer prosecutors, Rebecca Kline and Matthew Murphy, were left to lead the fraud case's April 2026 trial.",
+        "source_url": "https://www.cbsnews.com/news/minnesota-fraud-case-prosecutors-quit/",
+        "maps_to_element": "Scale of the resulting staffing collapse at the U.S. Attorney's Office"
       }
     ],
-    "status": "Ongoing as of this entry's addition -- no independent investigation of ICE agent Jonathan Ross's shooting of Renee Good had been confirmed completed in sourcing reviewed, no public resolution of the reported investigation into Becca Good, and the U.S. Attorney's Office for the District of Minnesota had lost at least 14 career prosecutors within a roughly three-week span. Bondi was removed as Attorney General in April 2026, for reasons not confirmed by sourcing reviewed to be connected to this matter specifically.",
+    "status": "Ongoing as of this entry's addition -- no independent investigation of ICE agent Jonathan Ross's shooting of Renee Good had been confirmed completed in sourcing reviewed, no public resolution of the reported investigation into Becca Good, and the U.S. Attorney's Office for the District of Minnesota had lost at least 14 career prosecutors within a roughly three-week span. Bondi was removed as Attorney General in April 2026, for reasons not confirmed by sourcing reviewed to be connected to this matter specifically. CBS News reports the office's assistant U.S. attorney roster fell to as few as 17, down from 70 under the Biden administration, as the resignation wave continued into February 2026.",
     "rebuttal_anticipated": "Likely defense: DOJ has discretion over investigative priorities and resource allocation, agent-involved shooting investigations routinely examine the broader context of an incident including any organized activity connected to it, and prosecutor resignations reflect policy disagreements rather than evidence of an underlying legal violation.",
     "comeback": "The specific fact pattern here is not ordinary declination or investigative-priority discretion -- it is DOJ leadership affirmatively pressuring both an FBI supervisor and a U.S. Attorney's Office to stand down from investigating the agent who fired the fatal shot while simultaneously pressuring an investigation of the victim's own widow, a sequence that at least fourteen career federal prosecutors and law enforcement personnel found serious enough to resign over within weeks of each other -- a scale and specificity of internal objection this tracker treats as substantively different from routine policy disagreement.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of DOJ leadership using prosecutorial discretion and investigative direction to protect federal agents and pressure administration critics or their associates, rather than applying use-of-force review standards evenhandedly.",
@@ -1352,6 +1358,49 @@
     }
   },
   {
+    "official": "Ed Martin, DOJ Pardon Attorney (formerly head of DOJ's Weaponization Working Group)",
+    "offense_category": "Improper Disclosure of Grand Jury Material (Rule 6(e) of the Federal Rules of Criminal Procedure, which strictly limits who may access secret grand jury material and to whom it may be disclosed) -- compounded by an initial false denial to DOJ leadership",
+    "incident_summary": "A Justice Department internal review, overseen by Deputy Attorney General Todd Blanche's office, found that Ed Martin improperly shared secret grand jury material gathered in DOJ's mortgage-fraud investigations of Sen. Adam Schiff and New York Attorney General Letitia James -- both perceived political opponents of President Trump -- with people not authorized to possess it. When department leadership first asked Martin whether he had shared the material, he denied doing so; emails later surfaced showing he had in fact shared it. The disclosure was reportedly intended to help discredit Schiff and James publicly. The finding was at least part of why Martin was removed as head of DOJ's Weaponization Working Group on the first day of 2026 and relocated from DOJ headquarters to a separate building housing the Office of the Pardon Attorney.",
+    "contested": false,
+    "elements_required": [
+      "Grand jury material is secret by law (Federal Rule of Criminal Procedure 6(e)), and disclosure to unauthorized persons is itself a violation independent of whether the underlying investigation had merit",
+      "A DOJ internal review, overseen by the Deputy Attorney General's office, made an affirmative finding that Martin shared this specific material with unauthorized people",
+      "Martin initially denied sharing the material when directly asked by department leadership, and that denial was later contradicted by documentary evidence (emails)",
+      "The material concerned investigations of two individuals -- Schiff and James -- publicly identified as targets of the administration's broader effort against perceived political opponents"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "CNN's reporting on the DOJ internal review -- overseen by Deputy AG Todd Blanche's office -- confirms the finding that Martin shared secret grand jury material from the Schiff mortgage-fraud investigation with unauthorized people, that he initially denied doing so when asked, and that emails later surfaced showing he had shared it",
+        "source_url": "https://www.cnn.com/2026/02/04/politics/ed-martin-review-improperly-handled-grand-jury",
+        "maps_to_element": "DOJ's own finding of improper disclosure and the initial false denial"
+      },
+      {
+        "type": "reporting",
+        "description": "Reporting on Martin's removal confirms he was pushed out as head of DOJ's Weaponization Working Group on January 1, 2026 and relocated to a separate building housing the Office of the Pardon Attorney, with the grand jury disclosure finding cited as at least part of the reason",
+        "source_url": "https://theconservativetreehouse.com/blog/2026/02/04/ed-martin-removed-from-now-dissolved-doj-weaponization-working-group-report-of-leaked-grand-jury-information/comment-page-1/",
+        "maps_to_element": "Consequence -- removal from the Weaponization Working Group and relocation"
+      },
+      {
+        "type": "reporting",
+        "description": "Reporting characterizes the disclosure as intended to help discredit Trump 'enemies' Adam Schiff and Letitia James, both subjects of the underlying grand jury investigation",
+        "source_url": "https://upolitics.com/news/maga-loyalist-ed-martin-shared-confidential-grand-jury-material-to-discredit-trump-enemies-adam-schiff-letitia-james-doj-review-finds/",
+        "maps_to_element": "The material concerned investigations of named political-opponent targets"
+      }
+    ],
+    "status": "DOJ's internal finding against Martin is final as reported; no criminal charge against Martin himself has been identified in sourcing reviewed as of this entry's addition. Martin remains employed at DOJ in the relocated Pardon Attorney role rather than being terminated.",
+    "rebuttal_anticipated": "Likely defense: the underlying mortgage-fraud allegations against Schiff and James were themselves under legitimate DOJ investigation, and Martin's DOJ superiors -- not an outside body -- both investigated and disciplined him, showing the department's own internal accountability process functioned as intended.",
+    "comeback": "DOJ's finding against one of its own -- reached by Deputy AG Blanche's office, not an outside investigator -- is itself the strongest evidence here, since it establishes the underlying facts (improper disclosure plus an initial false denial to superiors) without relying on any outside source's characterization; the notable accountability gap is that Martin was reassigned rather than terminated or referred for a Rule 6(e) contempt proceeding despite DOJ's own finding that he lied to leadership about it.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DOJ personnel using investigative material against named political opponents for public discrediting purposes rather than solely for the investigations' own legal ends (see also the Patel-driven prosecution-campaign and Blanche/Patel journalist-subpoena entries).",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the finding is DOJ's own internal conclusion, reported by CNN with independent wire pickup across dozens of local affiliates, and not disputed by DOJ or by Martin in sourcing reviewed. MODERATE confidence on the specific motive characterization (discrediting Schiff/James), which is reporters' framing of DOJ's finding rather than a direct quotation from the DOJ review itself.",
+    "section_summaries": {
+      "incident_summary": "A DOJ internal review overseen by Deputy AG Blanche's office found Ed Martin improperly shared secret grand jury material from the Schiff/James mortgage-fraud investigations, that he initially lied about it to DOJ leadership, and that this was part of why he was removed from the Weaponization Working Group and relocated within DOJ.",
+      "confidence_note": "This is DOJ's own internal finding, independently reported by CNN and not disputed by DOJ or Martin; the specific discrediting-motive framing is reporters' characterization rather than a direct DOJ quotation."
+    }
+  },
+  {
     "official": "Kash Patel, FBI Director; Todd Blanche, Acting Attorney General overseeing DOJ's 2020-election investigations",
     "offense_category": "Federal law-enforcement pattern targeting already-resolved 2020-election claims through intimidation-adjacent investigative tactics -- no criminal charge against any official; this is an abuse-of-investigative-power claim",
     "contested": false,
@@ -1435,9 +1484,15 @@
         "description": "PBS NewsHour reporting confirms congressional Republicans on the relevant committees rejected the complaint's substance while Democrats continued to press specifically on the length of the delay before Congress was notified",
         "source_url": "https://www.pbs.org/newshour/amp/politics/republicans-reject-complaint-about-gabbard-as-democrats-question-time-it-took-to-see-it",
         "maps_to_element": "Partisan split on the underlying complaint vs. the separate delay question"
+      },
+      {
+        "type": "public_record",
+        "description": "The Wall Street Journal reported that when Congress finally received the classified whistleblower complaint, it arrived heavily redacted, with large sections blacked out under claims of executive privilege -- limiting lawmakers' ability to independently evaluate the underlying allegation even after the eight-month delay.",
+        "source_url": "https://www.wsj.com/politics/national-security/congress-receives-redacted-version-of-whistleblower-complaint-against-gabbard-35a767d8?mod=lead_feature_below_a_pos1",
+        "maps_to_element": "Timeline of the complaint's filing and eventual transmission to Congress -- the transmission itself was incomplete due to redactions"
       }
     ],
-    "status": "Unresolved as of this entry's addition (February-August 2026 reporting) -- the ICIG has defended the delay as justified and found the underlying allegation not credible, Gabbard denies wrongdoing, and Senate/House Intelligence Democrats have not received a full public accounting of why transmission took eight months. No independent investigation outcome (e.g., DOJ IG or a bipartisan committee finding) identified in sourcing reviewed.",
+    "status": "Unresolved as of this entry's addition (February-August 2026 reporting) -- the ICIG has defended the delay as justified and found the underlying allegation not credible, Gabbard denies wrongdoing, and Senate/House Intelligence Democrats have not received a full public accounting of why transmission took eight months. No independent investigation outcome (e.g., DOJ IG or a bipartisan committee finding) identified in sourcing reviewed. When the complaint was finally transmitted, it arrived heavily redacted under executive-privilege claims, further limiting congressional oversight of the underlying allegation.",
     "rebuttal_anticipated": "Likely defense: the complaint and underlying report were highly classified, requiring careful handling before transmission to Congress, the Inspector General's own office -- an independent overseer, not ODNI itself -- concluded both that the delay was justified and the underlying allegation not credible, and Republican committee members reviewing the same material agreed the complaint lacked substance.",
     "comeback": "The IG's justification for the delay and its conclusion about the complaint's credibility are two separate questions -- even accepting that the underlying allegation was ultimately found not credible, an eight-month gap between a whistleblower's June 2025 request for congressional transmission and the material actually reaching the Gang of Eight in February 2026 is a long delay for a statutory notification process designed to keep congressional overseers informed in something close to real time, and neither Gabbard nor the IG's office has offered a specific, itemized public account of what consumed those eight months.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of intelligence and law-enforcement leadership under this administration slow-walking or resisting information-sharing with congressional overseers (see also the ODNI Pulte staff-purge and CIA politicization entries), though this entry concerns a discrete statutory-notification dispute rather than a personnel or politicization claim.",
