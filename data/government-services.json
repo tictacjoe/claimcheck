@@ -6357,6 +6357,59 @@
     "last_updated": "2026-08-05"
   },
   {
+    "id": "rfk-allies-state-vaccine-mandate-repeal-2026",
+    "title": "RFK Jr. Allies Launch Coordinated Multi-State Campaign to Repeal School Vaccination Requirements",
+    "institution": "HHS (RFK Jr.'s network of allied advocacy organizations, operating at the state level)",
+    "domain": "protection_rollback",
+    "status": "Ongoing as of this entry's addition -- bills introduced in at least 9 states as of February 2026, with the coordinating group (the Medical Freedom Act Coalition) stating its goal is eventually introducing repeal legislation in all 50 states; most bills' prospects were described as uncertain",
+    "date_of_action": "2026 (state legislative sessions, campaign ongoing)",
+    "what_changed": "Allies of HHS Secretary Robert F. Kennedy Jr., organized under the Medical Freedom Act Coalition, launched a coordinated campaign to repeal or weaken state laws requiring childhood vaccinations (including for measles and polio) as a condition of school and day care attendance. Bills eliminating or weakening these mandates were introduced in at least nine states, including Florida, West Virginia, South Carolina, California, Connecticut, Maine, and New York, as of February 2026. Public health experts warned that dismantling school-entry vaccine requirements could sharply reduce immunization rates and trigger outbreaks of vaccine-preventable diseases -- a concern the campaign coincides with an active South Carolina measles outbreak that had affected more than 900 people, including at least 19 hospitalized with complications including pneumonia and brain swelling, as of the reporting reviewed. This state-level campaign follows a separately-documented federal-level push (RFK Jr.'s own reexamination of the childhood vaccine schedule) this tracker records elsewhere.",
+    "primary_proponent": {
+      "name": "Medical Freedom Act Coalition (RFK Jr.-aligned advocacy network)",
+      "role": "State-level advocacy coalition coordinating the multi-state legislative campaign",
+      "note": "While Kennedy himself holds the federal HHS Secretary role, this specific campaign is organized by allied state-level advocacy groups rather than being a direct HHS action -- included in GSR because it represents a coordinated effort connected to and enabled by the administration's broader vaccine-policy shift, targeting an existing public-health protection."
+    },
+    "estimated_impact": {
+      "summary": "Public health experts warn that repealing or weakening school-entry vaccination requirements -- among the most effective tools for maintaining herd immunity against measles, polio, and other diseases -- risks measurable increases in outbreak frequency and severity, a risk the campaign coincides with an active, serious South Carolina measles outbreak.",
+      "figures": [
+        {
+          "metric": "States with repeal/weakening bills introduced",
+          "value": "At least 9 as of Feb. 2026 (incl. FL, WV, SC, CA, CT, ME, NY)",
+          "source": "New York Times, GV Wire"
+        },
+        {
+          "metric": "South Carolina measles outbreak size (concurrent)",
+          "value": "900+ cases, 19+ hospitalized with complications incl. pneumonia and brain swelling",
+          "source": "New York Times"
+        }
+      ],
+      "caveat": "This entry documents a coordinated advocacy and legislative campaign, not yet a completed nationwide policy change -- most of the introduced state bills' prospects were described as uncertain, and the campaign's ultimate legislative success rate was not yet determinable as of this entry's addition."
+    },
+    "confidence_note": "HIGH confidence -- the campaign's existence, its state-by-state scope, and the coalition's stated 50-state goal are corroborated by GV Wire and STAT News reporting; the concurrent South Carolina measles outbreak figures are independently corroborated by the New York Times' own coverage.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "GV Wire -- 'Kennedy Allies Target States to Overturn Vaccine Mandates for Schoolchildren'",
+        "url": "https://gvwire.com/2026/02/13/kennedy-allies-target-states-to-overturn-vaccine-mandates-for-schoolchildren/"
+      },
+      {
+        "name": "STAT News -- 'With new vaccine schedule secured, RFK Jr. allies head to statehouses'",
+        "url": "https://www.statnews.com/2026/01/29/vaccine-requirements-state-challenges/"
+      },
+      {
+        "name": "Protect Our Care, citing NYT -- 'Parents Tried to Shield Their Children From Vaccines. Instead They Got Measles'",
+        "url": "https://www.protectourcare.org/icymi-nyt-parents-tried-to-shield-their-children-from-vaccines-instead-they-got-measles/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "RFK Jr.-allied advocacy groups launched a coordinated campaign, with bills introduced in at least 9 states, to repeal or weaken school vaccination mandates for diseases including measles and polio.",
+      "estimated_impact": "Coincides with an active South Carolina measles outbreak of 900+ cases; experts warn weakening school-entry mandates risks further outbreaks, though most bills' legislative prospects remain uncertain.",
+      "confidence_note": "The campaign's scope and the concurrent outbreak figures are independently corroborated; the campaign's ultimate legislative success was not yet determinable as of this entry's addition."
+    }
+  },
+  {
     "id": "rfk-jr-journal-retraction-pressure-2026",
     "title": "RFK Jr. and Sen. Ron Johnson Pressured a Scientific Journal to Justify Retracting a Flawed Vaccine-SIDS Study",
     "institution": "HHS / Toxicology Reports (Elsevier journal)",
