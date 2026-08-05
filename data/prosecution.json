@@ -1536,7 +1536,50 @@
     }
   },
   {
-    "official": "Tulsi Gabbard, Director of National Intelligence",
+    "official": "Tulsi Gabbard, then-Director of National Intelligence (2025-2026, succeeded by Bill Pulte mid-2026)",
+    "offense_category": "Creation and Use of an Intelligence Task Force for Partisan Political Attacks Under the Declared Guise of Depoliticizing Intelligence Agencies -- no criminal charge implicated; this tracks accountability for the gap between the task force's stated purpose and its documented use",
+    "incident_summary": "In April 2025, DNI Gabbard launched the Director's Initiatives Group (DIG), declaring its purpose was to root out politicization within U.S. intelligence agencies. In practice, the group issued reports attacking the intelligence community's own investigation into Russian interference in the 2016 election and the Biden administration's handling of domestic terrorism -- output critics, including Democrats and some intelligence-community insiders, characterized as a vehicle for Trump's political-retribution campaign rather than genuine depoliticization. A memo and the resulting internal controversy prompted a pause in DIG's work in December 2025, and Gabbard ultimately dissolved the group entirely in January 2026 following what Reuters described as 'alleged missteps.' Gabbard confirmed the wind-down to Reuters in a February 2026 exclusive.",
+    "contested": true,
+    "elements_required": [
+      "DIG was publicly launched with a stated depoliticization mission but produced work product attacking politically salient intelligence-community findings (the Russia investigation, domestic-terrorism handling under the prior administration)",
+      "Critics from within the intelligence community itself, not solely partisan opponents, raised concerns the group was being used for political retribution rather than its stated purpose",
+      "An internal memo and controversy directly preceded both the group's December 2025 work pause and its January 2026 dissolution, indicating the shutdown followed specific internal problems rather than routine completion of its mission",
+      "The group operated for less than a year before being wound down, a short lifespan for a task force whose stated mission (rooting out politicization) was not reported as accomplished"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Reuters' exclusive reporting confirms Gabbard told Reuters directly that she wound down the Director's Initiatives Group, which she had launched with the declared goal of rooting out politicization from intelligence agencies but which critics accused of being a tool for partisan attacks",
+        "source_url": "https://www.usnews.com/news/world/articles/2026-02-10/exclusive-trumps-spy-chief-gabbard-winds-down-intelligence-task-force",
+        "maps_to_element": "DIG's stated purpose versus its documented critical characterization, confirmed by Gabbard's own statement"
+      },
+      {
+        "type": "reporting",
+        "description": "Federal News Network's reporting confirms DIG was formed in April 2025, issued reports attacking the Russia-interference investigation and the prior administration's domestic-terrorism response, and was dissolved after less than a year",
+        "source_url": "https://federalnewsnetwork.com/intelligence-community/2026/02/gabbard-ends-intelligence-reform-task-force-after-less-than-a-year-of-work/",
+        "maps_to_element": "DIG's specific work product and its short operational lifespan"
+      },
+      {
+        "type": "reporting",
+        "description": "The Hill's reporting confirms an internal memo and resulting controversy preceded DIG's December 2025 work pause and its January 2026 full dissolution",
+        "source_url": "https://thehill.com/homenews/administration/5733533-tulsi-gabbard-ends-task-force/",
+        "maps_to_element": "Internal problems directly preceding the shutdown, rather than routine mission completion"
+      }
+    ],
+    "status": "Resolved -- DIG was fully dissolved in January 2026, confirmed by Gabbard herself in February 2026 reporting. Gabbard subsequently left the DNI role, succeeded by Bill Pulte (see government-services/entries/odni-pulte-staff-purge-trump2.json for the transition and its own separate accountability concerns).",
+    "rebuttal_anticipated": "Likely defense: reassessing intelligence agencies' past politically sensitive work is a legitimate function of a depoliticization effort, criticism of the Russia-interference investigation is not inherently partisan retaliation, and Gabbard's decision to wind down the group when internal problems surfaced reflects responsiveness rather than an admission the group was improperly used from the outset.",
+    "comeback": "The specific concern is not that DIG examined past intelligence work, but that its output specifically targeted findings politically inconvenient to the current administration (the Russia investigation, the prior administration's domestic-terrorism record) while operating under a neutral-sounding 'depoliticization' banner, and that its own internal memo and controversy -- not external criticism alone -- were what triggered the pause and dissolution, suggesting the concerns had substance recognized even inside the intelligence community.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of ostensibly neutral oversight or reform bodies being used for partisan political ends under this administration (see also the Ed Martin Weaponization Working Group grand-jury-leak entry).",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence -- Gabbard's own confirmation to Reuters that she wound down the group, its stated mission, and its documented output are all independently corroborated across Reuters, Federal News Network, and The Hill, with no facts disputed by Gabbard's own account.",
+    "section_summaries": {
+      "incident_summary": "Gabbard launched an intelligence task force in 2025 under a depoliticization banner, but it produced reports attacking the Russia-interference investigation and the prior administration's domestic-terrorism record before an internal memo and controversy forced its dissolution within a year, which Gabbard confirmed to Reuters.",
+      "confidence_note": "Confirmed directly by Gabbard's own statement to Reuters and independently corroborated by Federal News Network and The Hill, with no facts disputed."
+    }
+  },
+  {
+    "official": "Tulsi Gabbard, then-Director of National Intelligence (2025-2026, succeeded by Bill Pulte mid-2026)",
     "offense_category": "Withholding a Whistleblower Complaint and Underlying Intelligence from Congress -- potential violation of statutory whistleblower-disclosure and congressional-notification obligations governing the intelligence community",
     "incident_summary": "A whistleblower, represented by Whistleblower Aid, first raised a concern with the Intelligence Community Inspector General (ICIG) in May 2025 and in June 2025 requested the disclosure be transmitted to Congress; the complaint alleges that Gabbard's ODNI general counsel failed to report a potential crime to the Department of Justice. The complaint and an underlying classified intelligence report were not provided to the congressional intelligence committees until February 3, 2026 -- nearly eight months later -- when the ICIG's office finally handed it to the Gang of Eight lawmakers because of its classified contents. Senate Intelligence Committee Vice Chair Mark Warner and House Intelligence Committee Ranking Member Jim Himes publicly demanded answers from Gabbard about the delay. Gabbard denied any wrongdoing, calling claims that she or ODNI 'hid' the complaint 'a blatant lie'; the ICIG's office separately stated it found the underlying allegation against Gabbard not credible and that the eight-month delay was justified. Congressional Republicans on the relevant committees rejected the complaint's substance, while Democrats continued to press over the length of the delay itself, a separate question from the complaint's underlying merits. The Guardian's later reporting (Feb. 7, 2026) revealed the complaint's underlying substance: in spring 2025, the NSA intercepted a call in which a foreign-intelligence-linked figure discussed a person close to President Trump (later reporting from The New York Times and Wall Street Journal indicated the discussion involved Iran). Rather than allow the NSA to publish its own intelligence report through normal channels, Gabbard personally carried a paper copy of the intelligence to White House Chief of Staff Susie Wiles, then instructed the NSA not to publish the report and to transmit details directly to her office instead -- the whistleblower's underlying allegation concerns this handling, not merely an administrative delay. Gabbard's office has said every action taken was fully within her legal and statutory authority.",
     "contested": true,
@@ -3063,6 +3106,55 @@
     "section_summaries": {
       "incident_summary": "The White House directed FBI Director Patel to personally run a leak probe from the White House itself after NYT reporting embarrassed Trump over Air Force One security, producing home-delivered subpoenas to reporters within days; DOJ later withdrew the subpoenas under judicial pressure and now faces a Senate Judiciary Democrats oversight inquiry into whether the White House directed them.",
       "confidence_note": "Extensively corroborated across independent outlets with specific, undisputed on-record detail, including the judge's stated reasoning for the withdrawal and the Senate Judiciary Committee's own public release on its oversight letter."
+    }
+  },
+  {
+    "official": "Jeanine Pirro, U.S. Attorney for the District of Columbia",
+    "offense_category": "Failed Attempt to Criminally Indict Sitting Members of Congress Over Protected Legislative/Political Speech -- a grand jury's own refusal to indict is itself strong evidence the underlying prosecution theory lacked merit",
+    "incident_summary": "In November 2025, six Democratic lawmakers -- Sens. Elissa Slotkin and Mark Kelly, and Reps. Chris Deluzio, Chrissy Houlahan, Maggie Goodlander, and Jason Crow -- released a joint video urging U.S. military servicemembers and intelligence community personnel to refuse illegal orders, following the administration's deadly boat strikes in the Caribbean. President Trump publicly called their statements 'seditious' and demanded the lawmakers be 'arrested and put on trial.' U.S. Attorney Jeanine Pirro's office subsequently sought to indict the six lawmakers for allegedly violating a federal law barring interference with the loyalty, morale, or discipline of the armed forces. On February 10, 2026, a federal grand jury in Washington, D.C. declined to return an indictment -- the latest in a series of grand jury rebukes of Pirro's office's prosecution attempts in the capital.",
+    "contested": false,
+    "elements_required": [
+      "The video's content -- reminding servicemembers of their existing legal duty to refuse illegal orders -- reflects established military law rather than incitement to disobey lawful orders",
+      "President Trump publicly and personally called for the lawmakers' arrest and prosecution before any indictment was sought, indicating the prosecution effort followed presidential direction rather than an independent prosecutorial judgment",
+      "A grand jury -- ordinary D.C. citizens, not a judge or the defendants' own attorneys -- independently declined to return an indictment despite hearing only the prosecution's evidence, the customary one-sided grand jury process",
+      "This was one of a documented series of grand jury rejections of Pirro's office's prosecution attempts in Washington, indicating a pattern rather than an isolated case of a good-faith theory that simply fell short"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "CBS News's reporting confirms the grand jury's February 10, 2026 refusal to indict the six lawmakers, identifies all six by name, and confirms Pirro's office sought charges under the federal law barring interference with armed forces loyalty, morale, or discipline",
+        "source_url": "https://www.cbsnews.com/news/grand-jury-declines-charges-against-6-democrats/",
+        "maps_to_element": "Grand jury's independent refusal to indict; identity of the lawmakers and the legal theory pursued"
+      },
+      {
+        "type": "public_record",
+        "description": "NBC News's reporting confirms the video followed the administration's Caribbean boat strikes and that Trump publicly called the lawmakers' statements 'seditious' and demanded they be 'arrested and put on trial'",
+        "source_url": "https://www.nbcnews.com/politics/trump-administration/doj-fails-secure-indictment-democrats-involved-illegal-orders-video-rcna258385",
+        "maps_to_element": "Trump's public demand for arrest and prosecution preceding the indictment attempt"
+      },
+      {
+        "type": "public_record",
+        "description": "The Hill's reporting characterizes the grand jury's action as 'the latest in a series' of grand jury rebukes of prosecutors in the nation's capital, situating this within a documented pattern rather than an isolated incident",
+        "source_url": "https://thehill.com/regulation/court-battles/5732714-democrats-lawmakers-illegal-orders-video-indictment-fails/",
+        "maps_to_element": "Pattern of grand jury rejections of the same office's prosecution attempts"
+      },
+      {
+        "type": "public_record",
+        "description": "House Oversight Democrats' formal letter to DOJ and Pirro following the failed indictment documents lawmakers' response and demands for accountability",
+        "source_url": "https://oversightdemocrats.house.gov/imo/media/doc/20260219garciaraskintodojpirrorefailedmemberindictments.pdf",
+        "maps_to_element": "Congressional oversight response"
+      }
+    ],
+    "status": "Resolved -- the grand jury's February 10, 2026 refusal to indict ends this specific prosecution attempt; no appeal or renewed indictment effort identified in sourcing reviewed as of this entry's addition.",
+    "rebuttal_anticipated": "Likely defense: DOJ has discretion to present cases to a grand jury even where the outcome is uncertain, urging servicemembers to consider disobeying orders during an active military operation could reasonably be viewed as raising legitimate morale/discipline concerns, and a grand jury's refusal to indict does not itself establish prosecutorial misconduct.",
+    "comeback": "The specific facts distinguishing this from an ordinary close call are that the video's core content -- reminding servicemembers of their existing legal duty to refuse illegal orders -- restates established military law rather than urging disobedience of lawful orders, that the President personally and publicly called for the lawmakers' arrest before any charges were sought, and that this was one of a documented series of grand jury rejections of the same U.S. Attorney's office's prosecution attempts, suggesting a pattern of pursuing cases based on political direction rather than independent prosecutorial assessment of the merits.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DOJ prosecutorial power being directed at the administration's perceived political opponents based on presidential direction rather than independent case assessment (see also the Patel-driven prosecution-campaign entry and Pirro's other entries in this tracker).",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the grand jury's refusal to indict, the six lawmakers' identities, Trump's public 'seditious'/arrest comments, and the characterization of this as part of a series of grand jury rejections are all independently corroborated by CBS News, NBC News, and The Hill, with no facts disputed by any party.",
+    "section_summaries": {
+      "incident_summary": "After Trump publicly demanded the arrest of six Democratic lawmakers over a video reminding servicemembers of their duty to refuse illegal orders, U.S. Attorney Pirro's office sought to indict them, but a federal grand jury in Washington refused to return charges -- one of a documented series of grand jury rejections of the same office's prosecution attempts.",
+      "confidence_note": "Independently corroborated across CBS News, NBC News, and The Hill; no facts disputed by any party."
     }
   },
   {
