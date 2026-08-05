@@ -1452,13 +1452,14 @@
   {
     "official": "Tulsi Gabbard, Director of National Intelligence",
     "offense_category": "Withholding a Whistleblower Complaint and Underlying Intelligence from Congress -- potential violation of statutory whistleblower-disclosure and congressional-notification obligations governing the intelligence community",
-    "incident_summary": "A whistleblower, represented by Whistleblower Aid, first raised a concern with the Intelligence Community Inspector General (ICIG) in May 2025 and in June 2025 requested the disclosure be transmitted to Congress; the complaint alleges that Gabbard's ODNI general counsel failed to report a potential crime to the Department of Justice. The complaint and an underlying classified intelligence report were not provided to the congressional intelligence committees until February 3, 2026 -- nearly eight months later -- when the ICIG's office finally handed it to the Gang of Eight lawmakers because of its classified contents. Senate Intelligence Committee Vice Chair Mark Warner and House Intelligence Committee Ranking Member Jim Himes publicly demanded answers from Gabbard about the delay. Gabbard denied any wrongdoing, calling claims that she or ODNI 'hid' the complaint 'a blatant lie'; the ICIG's office separately stated it found the underlying allegation against Gabbard not credible and that the eight-month delay was justified. Congressional Republicans on the relevant committees rejected the complaint's substance, while Democrats continued to press over the length of the delay itself, a separate question from the complaint's underlying merits.",
+    "incident_summary": "A whistleblower, represented by Whistleblower Aid, first raised a concern with the Intelligence Community Inspector General (ICIG) in May 2025 and in June 2025 requested the disclosure be transmitted to Congress; the complaint alleges that Gabbard's ODNI general counsel failed to report a potential crime to the Department of Justice. The complaint and an underlying classified intelligence report were not provided to the congressional intelligence committees until February 3, 2026 -- nearly eight months later -- when the ICIG's office finally handed it to the Gang of Eight lawmakers because of its classified contents. Senate Intelligence Committee Vice Chair Mark Warner and House Intelligence Committee Ranking Member Jim Himes publicly demanded answers from Gabbard about the delay. Gabbard denied any wrongdoing, calling claims that she or ODNI 'hid' the complaint 'a blatant lie'; the ICIG's office separately stated it found the underlying allegation against Gabbard not credible and that the eight-month delay was justified. Congressional Republicans on the relevant committees rejected the complaint's substance, while Democrats continued to press over the length of the delay itself, a separate question from the complaint's underlying merits. The Guardian's later reporting (Feb. 7, 2026) revealed the complaint's underlying substance: in spring 2025, the NSA intercepted a call in which a foreign-intelligence-linked figure discussed a person close to President Trump (later reporting from The New York Times and Wall Street Journal indicated the discussion involved Iran). Rather than allow the NSA to publish its own intelligence report through normal channels, Gabbard personally carried a paper copy of the intelligence to White House Chief of Staff Susie Wiles, then instructed the NSA not to publish the report and to transmit details directly to her office instead -- the whistleblower's underlying allegation concerns this handling, not merely an administrative delay. Gabbard's office has said every action taken was fully within her legal and statutory authority.",
     "contested": true,
     "elements_required": [
       "A whistleblower complaint concerning the Director of National Intelligence's own office was filed with the Intelligence Community Inspector General in mid-2025",
       "The whistleblower requested transmission to Congress in June 2025, but the complaint and underlying classified report were not provided to the Gang of Eight until February 3, 2026 -- an approximately eight-month gap",
       "Members of the congressional intelligence committees from both parties have publicly disputed whether the delay was justified, with Democrats demanding answers and Republicans siding with ODNI",
-      "The Inspector General's office has taken the position that the delay was justified and the underlying allegation not credible, a determination Gabbard and her critics dispute in different directions -- she says the 'hiding' characterization is false, while the whistleblower's counsel maintains the delay itself violated the law regardless of the complaint's ultimate merits"
+      "The Inspector General's office has taken the position that the delay was justified and the underlying allegation not credible, a determination Gabbard and her critics dispute in different directions -- she says the 'hiding' characterization is false, while the whistleblower's counsel maintains the delay itself violated the law regardless of the complaint's ultimate merits",
+      "The underlying intelligence concerned a call flagged by NSA analysts involving discussion of a person close to President Trump -- Gabbard personally routed this intelligence to the White House Chief of Staff and blocked its normal publication rather than allowing standard NSA reporting channels to proceed"
     ],
     "evidence": [
       {
@@ -1490,6 +1491,12 @@
         "description": "The Wall Street Journal reported that when Congress finally received the classified whistleblower complaint, it arrived heavily redacted, with large sections blacked out under claims of executive privilege -- limiting lawmakers' ability to independently evaluate the underlying allegation even after the eight-month delay.",
         "source_url": "https://www.wsj.com/politics/national-security/congress-receives-redacted-version-of-whistleblower-complaint-against-gabbard-35a767d8?mod=lead_feature_below_a_pos1",
         "maps_to_element": "Timeline of the complaint's filing and eventual transmission to Congress -- the transmission itself was incomplete due to redactions"
+      },
+      {
+        "type": "reporting",
+        "description": "The Guardian's reporting, citing whistleblower attorney Andrew Bakaj, details that NSA analysts flagged a call between two foreign-intelligence figures discussing a person close to Trump, and that Gabbard took a paper copy of the intelligence to White House Chief of Staff Susie Wiles before directing NSA not to publish its report and instead route details to her office directly",
+        "source_url": "https://www.theguardian.com/us-news/2026/feb/07/nsa-foreign-intelligence-trump-whistleblower",
+        "maps_to_element": "Substance of the underlying whistleblower allegation -- Gabbard's specific handling of the NSA intercept, not merely a transmission delay"
       }
     ],
     "status": "Unresolved as of this entry's addition (February-August 2026 reporting) -- the ICIG has defended the delay as justified and found the underlying allegation not credible, Gabbard denies wrongdoing, and Senate/House Intelligence Democrats have not received a full public accounting of why transmission took eight months. No independent investigation outcome (e.g., DOJ IG or a bipartisan committee finding) identified in sourcing reviewed. When the complaint was finally transmitted, it arrived heavily redacted under executive-privilege claims, further limiting congressional oversight of the underlying allegation.",
@@ -1498,7 +1505,7 @@
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of intelligence and law-enforcement leadership under this administration slow-walking or resisting information-sharing with congressional overseers (see also the ODNI Pulte staff-purge and CIA politicization entries), though this entry concerns a discrete statutory-notification dispute rather than a personnel or politicization claim.",
     "last_updated": "2026-08-05",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence on the underlying timeline (complaint filed, June 2025 transmission request, February 3, 2026 delivery to the Gang of Eight) -- corroborated by the whistleblower's own representation, congressional Democrats' public statement, and NBC News reporting including Gabbard's on-record response. LOW-MODERATE confidence on whether the delay itself constitutes a legal violation, since this is genuinely contested: the Inspector General's office (an independent overseer) has defended the delay as justified, and no court or independent investigative body has found otherwise as of this entry's addition.",
+    "confidence_note": "HIGH confidence on the underlying timeline (complaint filed, June 2025 transmission request, February 3, 2026 delivery to the Gang of Eight) -- corroborated by the whistleblower's own representation, congressional Democrats' public statement, and NBC News reporting including Gabbard's on-record response. LOW-MODERATE confidence on whether the delay itself constitutes a legal violation, since this is genuinely contested: the Inspector General's office (an independent overseer) has defended the delay as justified, and no court or independent investigative body has found otherwise as of this entry's addition. The Guardian's Feb. 7, 2026 reporting on the intercept's substance (routed to Wiles, publication blocked) is attributed to the whistleblower's attorney and is HIGH confidence as to what the whistleblower alleges, though Gabbard's office disputes any characterization of wrongdoing and maintains her actions were within her statutory authority.",
     "section_summaries": {
       "incident_summary": "A whistleblower complaint and classified intelligence report concerning DNI Gabbard's office took roughly eight months to reach the congressional Gang of Eight after the whistleblower requested transmission, prompting a bipartisan-attention but partisan-outcome dispute -- Gabbard denies wrongdoing, the Inspector General defended the delay as justified, and Senate/House Intelligence Democrats continue to press for a fuller accounting.",
       "confidence_note": "Timeline is well-corroborated across the whistleblower's own statement, congressional Democrats, and independent reporting; whether the delay itself was unlawful remains genuinely contested and unresolved by any independent body."
@@ -1746,6 +1753,49 @@
     "section_summaries": {
       "incident_summary": "Hegseth created a joint Pentagon-DOJ task force with broad, fast-turnaround authority to hunt and prosecute media leaks, announced two days after DOJ subpoenaed NYT reporters over an embarrassing Air Force One story.",
       "confidence_note": "Well-corroborated across many outlets and Hegseth's own public statement; no dispute over the facts of the task force's creation or structure."
+    }
+  },
+  {
+    "official": "Pete Hegseth, Secretary of Defense",
+    "offense_category": "Viewpoint-Based Retaliation Against Academic Institutions Through Withdrawal of Federal Military-Education Relationships -- potential First Amendment concern given the explicitly ideological, rather than programmatic-quality, stated rationale",
+    "incident_summary": "Defense Secretary Pete Hegseth announced the Pentagon is ending all military training, fellowships, and certificate programs with Harvard University beginning the 2026-27 academic year, explicitly citing the university's perceived ideology as the reason rather than any programmatic-quality or cost concern. Hegseth stated Harvard 'no longer meets the needs of the War Department or the military services,' and said that officers sent to Harvard for professional military education too often 'came back looking too much like Harvard -- heads full of globalist and radical ideologies that do not improve our fighting ranks.' The same announcement extended the funding cutoff to several other elite universities, including Princeton, Columbia, MIT, Brown, and Yale, starting the same academic year. This followed the administration's broader, prolonged standoff with Harvard over White House demands for institutional reforms. Hegseth later announced replacement schools to host the military fellowship program previously run through the affected Ivy League institutions.",
+    "contested": true,
+    "elements_required": [
+      "The Secretary of Defense ended long-standing federal military-education relationships with specific universities",
+      "The stated rationale was explicitly ideological ('globalist and radical ideologies') rather than programmatic quality, cost, or a specific policy violation",
+      "Multiple universities were targeted in the same action, indicating a categorical rather than institution-specific decision",
+      "The action occurred within the context of the administration's broader campaign of funding pressure against universities it has characterized as ideologically hostile"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "CBS News's reporting quotes Hegseth's full statement, including his characterization of Harvard as no longer meeting War Department/military needs and his description of returning officers as having 'heads full of globalist and radical ideologies'",
+        "source_url": "https://www.cbsnews.com/news/pentagon-says-its-cutting-ties-with-woke-harvard-discontinuing-military-training-fellowships/",
+        "maps_to_element": "Explicitly ideological stated rationale for the funding/relationship cutoff"
+      },
+      {
+        "type": "public_record",
+        "description": "CBS News's companion reporting confirms Hegseth extended the cutoff to Princeton, Columbia, MIT, Brown, Yale, and other institutions he characterized as 'woke breeding grounds,' beginning the same 2026-27 academic year",
+        "source_url": "https://www.cbsnews.com/news/hegseth-pentagon-cutting-ties-with-top-universities-woke/",
+        "maps_to_element": "Categorical, multi-institution scope of the action"
+      },
+      {
+        "type": "reporting",
+        "description": "Military.com's reporting confirms the order ends Pentagon-funded attendance at several elite universities, situating it within the administration's broader funding-pressure campaign against universities",
+        "source_url": "https://www.military.com/feature/2026/02/28/pete-hegseth-orders-end-pentagon-funded-attendance-several-elite-universities.html",
+        "maps_to_element": "Broader context of administration funding pressure on universities"
+      }
+    ],
+    "status": "Finalized as policy, effective the 2026-27 academic year; Hegseth has since (as of July 2026 reporting) announced replacement schools for the military fellowship program previously run through the affected institutions. No legal challenge outcome identified in sourcing reviewed.",
+    "rebuttal_anticipated": "Likely defense: the Secretary of Defense has broad discretion over where the military invests its professional-education resources, no university has an entitlement to a Pentagon-funded relationship, and the decision reflects a legitimate assessment that these programs were not producing officers aligned with military mission needs.",
+    "comeback": "Hegseth's own stated rationale is explicitly viewpoint-based rather than programmatic -- he did not cite curriculum quality, cost-effectiveness, or a specific compliance failure, but rather officers returning with ideological views he disfavors, a categorical judgment applied simultaneously across multiple elite universities rather than an individualized assessment of any one program's military value. This pattern of using federal relationships/funding as leverage against institutions over their perceived political viewpoint, rather than program-specific performance, is the same concern this tracker documents in the administration's DHS critic-subpoena and DOJ-politicization entries.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of federal relationships and funding being conditioned on institutions' or individuals' perceived political alignment rather than neutral, program-specific criteria.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence -- Hegseth's own on-record statements, quoted directly by CBS News, are the primary evidence and are not disputed by the Pentagon or Harvard in sourcing reviewed.",
+    "section_summaries": {
+      "incident_summary": "Hegseth ended Pentagon military training, fellowships, and certificate programs with Harvard and several other elite universities, explicitly citing officers returning with 'globalist and radical ideologies' rather than any programmatic-quality concern.",
+      "confidence_note": "Hegseth's own on-record statements are the primary evidence, directly quoted by CBS News and undisputed by the Pentagon."
     }
   },
   {
@@ -2028,6 +2078,55 @@
     "section_summaries": {
       "incident_summary": "The Acting Navy Secretary said a $14B Taiwan arms sale was paused because Iran-war operations had depleted munitions stockpiles -- contradicting the administration's separate public assurances that stockpiles were adequate, and Taiwan wasn't notified before the disclosure became public.",
       "confidence_note": "Well-corroborated across multiple outlets; whether this reflects deliberate misrepresentation or just uncoordinated messaging isn't independently established."
+    }
+  },
+  {
+    "official": "Todd Lyons, ICE Acting Director / Kristi Noem, Secretary of Homeland Security",
+    "offense_category": "Expansion of Biometric and Location-Surveillance Technology Against the Public, Now Under Formal Inspector General Investigation for Possible Legal Violations -- distinct from this tracker's DHS subpoena entry (dhs-critic-data-subpoenas-2026.json), which concerns compelling third-party data rather than DHS's own surveillance infrastructure",
+    "incident_summary": "DHS Inspector General Joseph Cuffari launched a formal audit of DHS privacy practices, focused first on ICE and the Office of Biometric Identity Management (OBIM), examining how the agencies collect, share, and secure personally identifiable and biometric data used in immigration enforcement -- explicitly including whether the practices violate federal law or privacy/unlawful-search protections. The audit's initial scope covers DHS's contracts with Palantir, facial-recognition tools, a face-scanning mobile app, and DHS's use of government biometric databases. Internal footage obtained by 404 Media showed ICE officers using facial-recognition apps to determine the citizenship status of teenagers who were not carrying identification; one app, Mobile Fortify, draws from a combined pool of more than 200 million images stored across DHS, FBI, and State Department databases. Senators had separately urged DHS's watchdog to investigate the expanding use of biometric and surveillance data by ICE and CBP. Auditors indicated the probe's scope could expand to other parts of DHS as it examines the agency's growing reliance on biometric markers in immigration enforcement.",
+    "contested": true,
+    "elements_required": [
+      "DHS's Inspector General opened a formal audit specifically examining whether ICE/OBIM's biometric and surveillance-data practices comply with federal law, regulation, and departmental privacy policy",
+      "The technology under review includes facial-recognition tools capable of identifying individuals -- including minors -- without them carrying identification, drawing on a combined database of over 200 million images from three federal agencies",
+      "Senators had already raised concerns and formally urged the DHS watchdog to investigate before the audit was confirmed, indicating the concern was not solely internal",
+      "The audit's findings on legality were not yet complete as of this entry's addition -- the underlying facts of the technology's scope and use are established, but a formal determination of lawfulness is still pending"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "404 Media's reporting confirms DHS Inspector General Joseph Cuffari's audit is examining whether ICE's use of facial recognition, license-plate tracking, phone surveillance tools, and biometric databases violates federal law",
+        "source_url": "https://www.404media.co/inspector-general-investigating-whether-ices-surveillance-tech-breaks-the-law/",
+        "maps_to_element": "Formal IG audit examining legality of ICE's surveillance-technology use"
+      },
+      {
+        "type": "reporting",
+        "description": "CyberScoop's reporting confirms the audit's initial focus on ICE and OBIM biometric tracking, including DHS's Palantir contracts, and that auditors indicated the probe could expand to other parts of DHS",
+        "source_url": "https://cyberscoop.com/dhs-ig-audit-ice-obim-biometric-data-privacy-facial-recognition/",
+        "maps_to_element": "Scope of the technology and contracts under review"
+      },
+      {
+        "type": "reporting",
+        "description": "404 Media's separate reporting on internal ICE footage shows officers using a facial-recognition app (Mobile Fortify, drawing on 200+ million images from DHS, FBI, and State Department databases) to determine the citizenship status of teenagers not carrying ID",
+        "source_url": "https://www.americanimmigrationcouncil.org/blog/ice-ai-surveillance-tracking-americans/",
+        "maps_to_element": "Concrete documented use of the technology against individuals, including minors, without identification"
+      },
+      {
+        "type": "public_record",
+        "description": "Biometric Update's reporting confirms senators formally urged the DHS Inspector General to investigate ICE and CBP's expanding use of biometric and surveillance data prior to the audit being confirmed",
+        "source_url": "https://www.biometricupdate.com/202601/senators-urge-dhs-watchdog-to-probe-expanding-use-of-biometric-and-surveillance-data-by-ice-cbp",
+        "maps_to_element": "External congressional concern predating the confirmed audit"
+      }
+    ],
+    "status": "Audit ongoing as of this entry's addition (February 2026) -- no findings or conclusions on legality had been published in sourcing reviewed. Auditors indicated the scope could expand beyond ICE/OBIM to other DHS components.",
+    "rebuttal_anticipated": "Likely defense: facial recognition and biometric database tools are lawful, widely-used law enforcement technologies, DHS has statutory authority to verify immigration status, and the launching of an IG audit reflects the oversight system functioning as intended rather than evidence of an underlying violation.",
+    "comeback": "The specific facts distinguishing this from routine, well-established law-enforcement technology use are the scale of the combined database (200+ million images spanning three federal agencies), documented use against minors lacking any independent basis for suspicion beyond not carrying ID, and that the audit was prompted in part by senators' formal concerns rather than being a purely internal, routine review -- all reasons the IG's audit is examining whether the practices exceed DHS's lawful authority rather than merely documenting settled, uncontroversial practice.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of DHS/ICE surveillance and data-collection capabilities expanding faster than independent oversight can evaluate their legality (see also dhs-critic-data-subpoenas-2026.json), with this entry specifically concerning DHS's own biometric infrastructure rather than compelled third-party data.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the audit's existence, scope, and the underlying technology facts (Mobile Fortify's 200M+ image pool, the documented teenager identification footage) -- corroborated across 404 Media, CyberScoop, Biometric Update, and the American Immigration Council. The audit's ultimate legal conclusions are not yet available, so this entry documents an ongoing investigation and its factual predicate, not a completed legal finding.",
+    "section_summaries": {
+      "incident_summary": "DHS's Inspector General opened a formal audit into whether ICE's rapidly-expanded facial-recognition and biometric surveillance tools -- including a 200-million-image database used to identify teenagers lacking ID -- violate federal law, after senators formally urged the probe.",
+      "confidence_note": "The audit's existence and the underlying technology's scale are well-corroborated across multiple outlets; the audit's legal conclusions were not yet available as of this entry's addition."
     }
   },
   {

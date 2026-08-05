@@ -579,6 +579,59 @@
     ]
   },
   {
+    "id": "census-2026-test-citizenship-question-2030",
+    "title": "Census Bureau to Test a Citizenship Question Ahead of the 2030 Census, Breaking 75 Years of Practice",
+    "institution": "U.S. Census Bureau, Department of Commerce",
+    "domain": "data_collection_halted",
+    "status": "Field test underway as of this entry's addition (2026) -- conducted in Huntsville, AL and Spartanburg, SC, pared down from an originally-planned six locations to two",
+    "date_of_action": "2026 (2026 Census Test field period)",
+    "what_changed": "The Census Bureau plans to include a citizenship question -- drawn from American Community Survey (ACS) question wording never before used in a census field test -- as part of its 2026 practice test ahead of the 2030 census. Standard decennial census forms have not asked about citizenship for 75 years. The test, originally planned across six locations, was pared down to two (Huntsville, Alabama and Spartanburg, South Carolina). The change follows an August 2025 directive from President Trump instructing the Commerce Department to have the Census Bureau begin work on a census methodology that would exclude immigrants without legal status from the population count used for congressional apportionment. Critics, including congressional Democrats, have formally demanded the administration halt the citizenship-question test, and NY AG Letitia James and NYC Council Speaker Adrienne Menin sent a joint letter opposing it.",
+    "primary_proponent": {
+      "name": "U.S. Census Bureau / Department of Commerce",
+      "role": "Federal agency conducting the census test under presidential direction",
+      "note": "Acting on President Trump's August 2025 directive to develop a census approach excluding undocumented immigrants from apportionment counts."
+    },
+    "estimated_impact": {
+      "summary": "Census methodology experts warn that testing a citizenship question risks depressing response rates among immigrant and mixed-status households -- a well-documented chilling effect from the first Trump administration's own abandoned citizenship-question effort, which the Supreme Court blocked in 2019 -- undermining the accuracy of the 2030 count itself, independent of the separate legal question of whether undocumented immigrants may be excluded from apportionment.",
+      "figures": [
+        {
+          "metric": "Years since citizenship question last appeared on standard census forms",
+          "value": "75",
+          "source": "AP/U.S. News reporting"
+        },
+        {
+          "metric": "Test locations, as planned vs. as conducted",
+          "value": "6 planned, reduced to 2 (Huntsville, AL; Spartanburg, SC)",
+          "source": "AP/U.S. News reporting"
+        }
+      ],
+      "caveat": "This is a field test, not the final 2030 census questionnaire -- the Bureau has not confirmed a citizenship question will appear on the actual 2030 census, and Census.gov's own FAQ characterizes the test as exploratory. The apportionment-exclusion question (whether undocumented immigrants can lawfully be excluded from the count used to allocate congressional seats) is a separate legal dispute from the survey-methodology question this entry documents."
+    },
+    "confidence_note": "HIGH confidence -- the test's use of ACS citizenship-question wording, the reduction from six to two test locations, and the connection to Trump's August 2025 directive are corroborated across AP-sourced reporting (U.S. News, Washington Times, AOL) and official congressional/Census Bureau documentation (Congress.gov CRS report, Census.gov's own test FAQ).",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "AP via U.S. News -- 'Census Bureau Plans to Use Survey With a Citizenship Question in Its Test for 2030, Alarming Experts'",
+        "url": "https://www.usnews.com/news/best-states/florida/articles/2026-02-05/census-bureau-plans-to-use-survey-with-a-citizenship-question-in-its-test-for-2030-alarming-experts"
+      },
+      {
+        "name": "Congress.gov CRS -- 'The 2026 Census Test: Overview and Recent Developments'",
+        "url": "https://www.congress.gov/crs-product/IN12676"
+      },
+      {
+        "name": "U.S. Census Bureau -- '2026 Census Test Frequently Asked Questions'",
+        "url": "https://www.census.gov/programs-surveys/2026-census-test/faq.html"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "The Census Bureau's 2026 pre-2030 field test will include a citizenship question for the first time in 75 years, following Trump's August 2025 directive to develop a census approach excluding undocumented immigrants from apportionment counts.",
+      "estimated_impact": "Experts warn the question risks depressing census response rates among immigrant households, echoing the chilling effect documented around the first Trump administration's citizenship-question effort, which the Supreme Court blocked in 2019.",
+      "confidence_note": "Well-corroborated by AP-sourced reporting and official Census Bureau/congressional documentation; this is a field test, not a confirmed final 2030 questionnaire."
+    }
+  },
+  {
     "id": "census-bureau-differential-privacy-ban",
     "title": "Commerce Department ban on Census Bureau statistical-noise privacy protections",
     "institution": "U.S. Census Bureau and Bureau of Economic Analysis (Department of Commerce)",
@@ -2461,7 +2514,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing institutional instability (four different acting/nominated administrators within roughly a year; agency's future role still under review; staffing continued to decline into 2026 even as a limited hiring campaign began ahead of hurricane season)",
     "date_of_action": "Staff departures throughout 2025; acute failure documented July 4-10, 2025 during Texas floods",
-    "what_changed": "Throughout 2025, FEMA underwent a wave of staff departures -- about 18% of the agency's permanent full-time employees had left as of June 2025, including 24 senior-level staffers, per GAO. In May 2025 alone, 16 senior officials departed, taking with them a combined 200+ years of disaster-response expertise. Separately, DHS Secretary Kristi Noem implemented a rule requiring her personal sign-off on any FEMA expenditure over $100,000 -- for an agency whose disaster costs routinely run into the billions, officials described this threshold as effectively 'pennies.' This bottleneck had direct, documented consequences during the deadly July 4, 2025 Texas Hill Country floods: FEMA's disaster survivor call-center contract funding lapsed on July 5, and it took Noem five days -- until July 10 -- to approve renewed funding, during which most survivor calls went unanswered (an internal memo documented the call-answer rate collapsing from 99.9% to 20%, with survivors waiting over 90 minutes). Noem also did not authorize deployment of FEMA's Urban Search and Rescue teams until more than 72 hours after the flooding began. Acting FEMA Administrator David Richardson did not travel to Texas for a full week after the disaster, telling a House committee he had stayed in Washington to 'kick down the doors of bureaucracy' -- and separately acknowledged he had been camping with his sons over the July 4 weekend when the floods hit. Richardson resigned in November 2025 after six months in the role, the second of three different acting administrators to lead FEMA within the year. By March 2026, FEMA's overall staffing had fallen further, from roughly 26,000 employees in January 2025 to about 21,100 -- an approximately 19% decline -- with 18 of the agency's 38 senior leadership positions vacant, including deputy administrator and chief of staff. Robert Fenton (FEMA's Region 9 administrator) took over as senior official performing the duties of administrator; Trump has nominated Cameron Hamilton as permanent administrator, not yet confirmed as of this update. Facing the 2026 hurricane season, FEMA began a limited hiring campaign: it rehired 14 staff Secretary Noem had fired for signing the 'Katrina Declaration,' and DHS approved roughly 300 near-term new hires with hopes of filling up to 700 vacancies. Fenton told reporters FEMA has about 30-40% of its disaster workforce available at any given time, which he characterized as normal availability rather than a crisis-level shortfall; NOAA's 2026 Atlantic hurricane season outlook predicts a below-normal season (8-14 named storms, 3-6 hurricanes). Update 2026-07-26: Cameron Hamilton's nomination for permanent FEMA Administrator advanced out of the Senate Homeland Security and Governmental Affairs Committee on an 8-4 vote, roughly a month after his June 17, 2026 confirmation hearing, and now awaits a full Senate floor vote whose timing before the August recess is not yet clear. At his hearing, Hamilton pledged to be 'fair and reasonable' in assessing disaster-aid requests -- a notable pledge given the separate, related pattern this tracker documents in the FEMA disaster-aid partisan-approval-gap entry. Hamilton previously served as acting FEMA administrator from January-May 2025 before being fired for telling Congress he did not believe eliminating FEMA was in the public interest.",
+    "what_changed": "Throughout 2025, FEMA underwent a wave of staff departures -- about 18% of the agency's permanent full-time employees had left as of June 2025, including 24 senior-level staffers, per GAO. In May 2025 alone, 16 senior officials departed, taking with them a combined 200+ years of disaster-response expertise. Separately, DHS Secretary Kristi Noem implemented a rule requiring her personal sign-off on any FEMA expenditure over $100,000 -- for an agency whose disaster costs routinely run into the billions, officials described this threshold as effectively 'pennies.' This bottleneck had direct, documented consequences during the deadly July 4, 2025 Texas Hill Country floods: FEMA's disaster survivor call-center contract funding lapsed on July 5, and it took Noem five days -- until July 10 -- to approve renewed funding, during which most survivor calls went unanswered (an internal memo documented the call-answer rate collapsing from 99.9% to 20%, with survivors waiting over 90 minutes). Noem also did not authorize deployment of FEMA's Urban Search and Rescue teams until more than 72 hours after the flooding began. Acting FEMA Administrator David Richardson did not travel to Texas for a full week after the disaster, telling a House committee he had stayed in Washington to 'kick down the doors of bureaucracy' -- and separately acknowledged he had been camping with his sons over the July 4 weekend when the floods hit. Richardson resigned in November 2025 after six months in the role, the second of three different acting administrators to lead FEMA within the year. By March 2026, FEMA's overall staffing had fallen further, from roughly 26,000 employees in January 2025 to about 21,100 -- an approximately 19% decline -- with 18 of the agency's 38 senior leadership positions vacant, including deputy administrator and chief of staff. Robert Fenton (FEMA's Region 9 administrator) took over as senior official performing the duties of administrator; Trump has nominated Cameron Hamilton as permanent administrator, not yet confirmed as of this update. Facing the 2026 hurricane season, FEMA began a limited hiring campaign: it rehired 14 staff Secretary Noem had fired for signing the 'Katrina Declaration,' and DHS approved roughly 300 near-term new hires with hopes of filling up to 700 vacancies. Fenton told reporters FEMA has about 30-40% of its disaster workforce available at any given time, which he characterized as normal availability rather than a crisis-level shortfall; NOAA's 2026 Atlantic hurricane season outlook predicts a below-normal season (8-14 named storms, 3-6 hurricanes). Update 2026-07-26: Cameron Hamilton's nomination for permanent FEMA Administrator advanced out of the Senate Homeland Security and Governmental Affairs Committee on an 8-4 vote, roughly a month after his June 17, 2026 confirmation hearing, and now awaits a full Senate floor vote whose timing before the August recess is not yet clear. At his hearing, Hamilton pledged to be 'fair and reasonable' in assessing disaster-aid requests -- a notable pledge given the separate, related pattern this tracker documents in the FEMA disaster-aid partisan-approval-gap entry. Hamilton previously served as acting FEMA administrator from January-May 2025 before being fired for telling Congress he did not believe eliminating FEMA was in the public interest. In January 2026, FEMA abruptly stopped renewing contracts for its Cadre of On-Call Response/Recovery (CORE) employees -- term-limited hires who can hold senior disaster-response roles -- then paused the cuts in late January as a major winter storm affecting roughly half the country's population approached. FEMA managers confirmed in early February 2026 that the CORE staff reductions would resume once the storm passed, though no specific restart date was given. Homeland Security Secretary Kristi Noem, who has overseen FEMA's cuts, separately received a draft report from the Trump-appointed FEMA Review Council recommending the agency's workforce be cut in half.",
     "primary_proponent": {
       "name": "Kristi Noem",
       "role": "Secretary of Homeland Security (FEMA's parent department)",
@@ -2520,11 +2573,11 @@
     },
     "confidence_note": "Very strong sourcing on the call-center failure specifically: NPR's reporting is based on an internal memo signed by the acting FEMA administrator himself and contemporaneous call-center logs, which directly contradict FEMA's own public statement on the matter -- a documented instance of the agency's public claims being contradicted by its own internal records. The broader staffing figures come from GAO, the government's own nonpartisan watchdog. The claim that staffing cuts caused specific loss of life or slower rescues is more contested and should be sourced to GovFacts' careful 'plausible link' framing rather than asserted as proven. Re-verified 2026-07-20: the specific, documented call-center failure during the July 2025 Texas floods remains the strongest evidentiary anchor for this entry. The broader staffing/leadership picture has continued to deteriorate into 2026 by the numbers, even as FEMA has begun a modest hiring push and leadership publicly frames current readiness as adequate ahead of a below-normal-forecast hurricane season -- present both the raw staffing trend and the agency's own readiness characterization, since they're not strictly contradictory (a smaller agency can still claim adequate readiness for a lighter-than-average season). Re-verified 2026-07-26: the committee vote and Hamilton's hearing pledge are corroborated by Government Executive, HSToday, and contemporaneous reporting (Craig Caplan/press pool coverage of the committee vote). Re-verified 2026-08-02: a formal House Democrats oversight letter (ranking members of the Homeland Security Committee and its FEMA subcommittee) independently corroborates the staffing decline with a specific new figure -- only 12% of FEMA's incident management workforce was available as of June 1, 2026 -- and frames it as the worst readiness posture 'in a generation' heading into hurricane season. No change to the entry's core facts, just additional congressional-record corroboration of the existing trend.",
     "section_summaries": {
-      "what_changed": "A Noem rule requiring her sign-off on spending over $100,000 delayed FEMA's call-center funding and rescue deployment during the deadly 2025 Texas floods.",
+      "what_changed": "A Noem rule requiring her sign-off on spending over $100,000 delayed FEMA's call-center funding and rescue deployment during the deadly 2025 Texas floods. FEMA also paused, then resumed, cuts to its CORE term-employee workforce, and a Trump-appointed review council has recommended cutting FEMA's overall workforce in half.",
       "estimated_impact": "Internal FEMA records themselves, not outside inference, connect the sign-off rule directly to the call-center breakdown that happened during a real, fatal flood -- this already occurred, it wasn't a modeled risk.",
       "confidence_note": "Strongly sourced via internal memos and GAO data; whether the cuts caused specific deaths or slower rescues stays contested, framed as a plausible link, not a proven cause."
     },
-    "last_verified": "2026-08-02",
+    "last_verified": "2026-08-05",
     "date_added": "2026-07-07",
     "sources": [
       {
@@ -2558,6 +2611,10 @@
       {
         "name": "Government Executive -- 'FEMA is not ready for hurricane season due to Trump upheaval, House Democrats argue'",
         "url": "https://www.govexec.com/management/2026/05/fema-not-ready-hurricane-season-due-trump-upheaval-house-democrats-argue/413585/"
+      },
+      {
+        "name": "Washington Post -- 'FEMA will resume staff reductions that were paused during winter storm, managers say'",
+        "url": "https://www.washingtonpost.com/politics/2026/02/06/fema-staff-cuts-kristi-noem-winter-storm-fern/052b76b0-0394-11f1-ad9f-6f689ec6b060_story.html"
       }
     ],
     "last_updated": "2026-07-26"
