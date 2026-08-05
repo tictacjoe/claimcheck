@@ -3528,14 +3528,15 @@
   },
   {
     "official": "Kash Patel, FBI Director",
-    "offense_category": "Personal Use of Government Aircraft for Recreational Travel, Contradicted by the Stated Official Justification -- raises questions about resource use and candor rather than alleging a specific statutory violation",
-    "incident_summary": "FBI Director Kash Patel traveled to Milan, Italy on a government jet during the 2026 Winter Olympics and was recorded in a roughly 45-second video celebrating in the U.S. men's hockey team's locker room after their gold-medal win over Canada, drinking beer, singing along to a Toby Keith song, and having a gold medal draped around his neck. When questioned by media, Patel said he was 'extremely humbled' that his 'friends' on the team invited him to celebrate, and separately defended the trip as an official visit to meet with Italian law enforcement to help provide security for American athletes and fans. President Trump told Patel directly that he was displeased both with the viral locker-room video and with Patel's use of a government jet for the trip. CNN's follow-up reporting examined the FBI jet-use controversy and the practical constraints (security, communications needs) that shape how FBI directors typically travel.",
+    "offense_category": "Personal/Recreational Misuse of FBI Aircraft Delaying Real Investigations, Including Mass-Shooting Responses -- expanded from an initial Olympics-trip controversy to a documented pattern with concrete investigative harm, per whistleblower disclosures to the Senate Judiciary Committee",
+    "incident_summary": "FBI Director Kash Patel traveled to Milan, Italy on a government jet during the 2026 Winter Olympics and was recorded in a roughly 45-second video celebrating in the U.S. men's hockey team's locker room after their gold-medal win over Canada, drinking beer, singing along to a Toby Keith song, and having a gold medal draped around his neck. When questioned by media, Patel said he was 'extremely humbled' that his 'friends' on the team invited him to celebrate, and separately defended the trip as an official visit to meet with Italian law enforcement to help provide security for American athletes and fans. President Trump told Patel directly that he was displeased both with the viral locker-room video and with Patel's use of a government jet for the trip. CNN's follow-up reporting examined the FBI jet-use controversy and the practical constraints (security, communications needs) that shape how FBI directors typically travel. Whistleblowers separately disclosed to Senate Judiciary Committee Ranking Member Dick Durbin's staff (February 2026) that Patel's personal use of FBI aircraft delayed responses to at least two major investigations: during the Brown University mass shooting, Patel was in south Florida with one of the FBI's two available jets, forcing the bureau's evidence response team to drive through the night in a snowstorm to reach Providence, Rhode Island; and the FBI's shooting-reconstruction team response to conservative activist Charlie Kirk's assassination in Utah was delayed because a pilot shortage -- caused by Patel's personal travel -- required pilots to complete a mandatory rest period before flying investigators to the scene. Sen. Durbin publicly called for an investigation into what he characterized as Patel 'joyriding' on FBI aircraft.",
     "contested": true,
     "elements_required": [
       "Patel used a government aircraft to travel to an event (the Winter Olympics hockey final) with a documented recreational/celebratory dimension, not solely an official law-enforcement purpose",
       "Patel's own public response emphasized the personal, celebratory nature of the visit ('my friends,' being 'humbled' to join the celebration) before pivoting to the official security-liaison justification",
       "President Trump himself -- not merely outside critics -- expressed direct displeasure with both the celebratory video and the jet usage",
-      "The stated official justification (meeting Italian law enforcement for athlete/fan security) is not independently verified in sourcing reviewed as the primary purpose of the trip, as opposed to a post-hoc rationale"
+      "The stated official justification (meeting Italian law enforcement for athlete/fan security) is not independently verified in sourcing reviewed as the primary purpose of the trip, as opposed to a post-hoc rationale",
+      "Whistleblower disclosures to a sitting U.S. Senator's staff identify at least two specific, named investigations (the Brown University shooting and the Charlie Kirk assassination) where Patel's personal aircraft use is alleged to have caused concrete operational delays"
     ],
     "evidence": [
       {
@@ -3561,15 +3562,21 @@
         "description": "Reuters' follow-up reporting confirms Patel personally defended the beer-drinking, locker-room celebration footage, maintaining he was in Italy on official business (the Italian law-enforcement security-liaison rationale) rather than disputing the video's contents",
         "source_url": "https://www.reuters.com/world/fbis-patel-defends-beer-soaked-olympic-celebration-while-italy-trip-2026-02-23/",
         "maps_to_element": "Patel's continued defense of the trip's official-business characterization"
+      },
+      {
+        "type": "public_record",
+        "description": "Sen. Dick Durbin's office released whistleblower disclosures detailing that Patel's aircraft use delayed the FBI evidence response team's arrival at the Brown University mass shooting (forcing an overnight drive through a snowstorm) and delayed the shooting-reconstruction team's response to the Charlie Kirk assassination due to a pilot-rest-period requirement triggered by Patel's personal travel",
+        "source_url": "https://www.durbin.senate.gov/newsroom/press-releases/durbin-reveals-new-whistleblower-information-for-investigation-into-kash-patel-joyriding-to-the-olympics",
+        "maps_to_element": "Specific, named investigations allegedly delayed by Patel's personal aircraft use"
       }
     ],
-    "status": "Resolved as a controversy -- no formal disciplinary or ethics finding against Patel was identified in sourcing reviewed; Trump's disapproval was expressed directly and personally but did not result in a reported personnel consequence.",
+    "status": "Resolved as a controversy -- no formal disciplinary or ethics finding against Patel was identified in sourcing reviewed; Trump's disapproval was expressed directly and personally but did not result in a reported personnel consequence. Sen. Durbin has called for a formal investigation into Patel's use of FBI aircraft based on the whistleblower disclosures; no investigation outcome was identified in sourcing reviewed as of this entry's addition.",
     "rebuttal_anticipated": "Likely defense: FBI directors typically must travel via secure government aircraft regardless of destination for security and continuous-communications reasons, meeting with Italian law enforcement to help secure American athletes and fans at a major international event is a legitimate official function, and briefly celebrating with medal-winning American athletes is not itself improper.",
-    "comeback": "The specific concern is less the jet use in isolation -- which CNN's own reporting notes has practical justifications for FBI directors generally -- than the sequencing and framing of Patel's own public response, which led with the personal/celebratory rationale ('my friends,' being 'humbled') before the official security-liaison justification was offered, and that the President himself, not merely outside critics, found the optics and jet use inappropriate.",
+    "comeback": "The specific concern is less the jet use in isolation -- which CNN's own reporting notes has practical justifications for FBI directors generally -- than the sequencing and framing of Patel's own public response, which led with the personal/celebratory rationale ('my friends,' being 'humbled') before the official security-liaison justification was offered, and that the President himself, not merely outside critics, found the optics and jet use inappropriate. The whistleblower disclosures to Sen. Durbin's staff go beyond the Olympics trip's optics, alleging concrete operational harm -- a snowstorm overnight drive substituting for prompt evidence-response-team arrival at a mass shooting, and a pilot-rest-period delay affecting the response to a high-profile assassination -- which, if accurate, would represent tangible investigative cost from personal aircraft use rather than a purely image-based controversy.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] An individual official-conduct matter concerning resource use and public messaging judgment, not directly connected to this tracker's broader institutional patterns.",
     "last_updated": "2026-08-05",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence -- the video, Patel's own public statement, and Trump's direct expression of displeasure are all independently corroborated across CNN, NBC News, and The Hill, including direct quotations from Patel and sourced reporting on Trump's reaction.",
+    "confidence_note": "HIGH confidence -- the video, Patel's own public statement, and Trump's direct expression of displeasure are all independently corroborated across CNN, NBC News, and The Hill, including direct quotations from Patel and sourced reporting on Trump's reaction. MODERATE-HIGH confidence on the whistleblower allegations specifically, since they are formally disclosed to a sitting Senator's staff (a higher-reliability channel than anonymous media sourcing) and independently reported by multiple outlets, though they remain whistleblower allegations pending any formal investigation finding, not yet independently adjudicated facts.",
     "section_summaries": {
       "incident_summary": "FBI Director Patel used a government jet to attend the Winter Olympics hockey final in Milan and was recorded celebrating in the team's locker room; Trump personally told him he was displeased with both the video and the jet use, though no formal consequence was reported.",
       "confidence_note": "Well-corroborated across multiple outlets including Patel's own public statement and sourced reporting on Trump's direct reaction."
@@ -4534,6 +4541,43 @@
     "section_summaries": {
       "incident_summary": "Sonderling gutted the federal library and museum agency's staff and board, only for a judge to block the whole effort.",
       "confidence_note": "This is now fully resolved, not just blocked — a permanent bar and binding settlement confirm the administration's loss stuck."
+    }
+  },
+  {
+    "official": "Scott Bessent, Treasury Secretary / White House",
+    "offense_category": "Enhanced Financial Surveillance Targeting an Ethnic Community, Over Internal Treasury Objections -- raises civil-liberties and discriminatory-targeting concerns given the surveillance's specific focus on Minneapolis's Somali community rather than a general anti-fraud program",
+    "incident_summary": "John Hurley, head of Treasury's Office of Terrorism and Financial Intelligence (the sanctions/anti-money-laundering chief), told associates he would resign after his objections to White House-directed enhanced financial surveillance of Minneapolis's Somali community went unheeded. Hurley had raised the concerns directly to Treasury Secretary Scott Bessent before the surveillance began, specifically warning that subjecting Somali residents' finances to enhanced monitoring would raise data-privacy issues. The Washington Post's reporting notes some Trump administration allies are themselves uneasy with the extent of White House directives deploying law-enforcement and financial-surveillance tools specifically against Minneapolis's Somali community, tied to the administration's broader Feeding Our Future-adjacent fraud-crackdown efforts in the state (see also this tracker's bondi-doj-renee-good-widow-investigation-2026.json entry, documenting the related Minnesota U.S. Attorney's Office turmoil). Hurley's departure follows several other senior Treasury exits since August 2025, including Deputy Treasury Secretary Michael Faulkender and two successive Bessent chiefs of staff.",
+    "contested": true,
+    "elements_required": [
+      "Treasury's own sanctions/financial-intelligence chief raised a specific, documented data-privacy objection to the surveillance program before it began, directly to the Treasury Secretary",
+      "The surveillance program specifically targeted an ethnic community's financial transactions (Minneapolis's Somali community) rather than a facially neutral anti-fraud criterion",
+      "Hurley's objection went unheeded, and he chose to resign over it rather than continue implementing the program",
+      "Reporting indicates some administration allies themselves expressed unease with the program's scope, suggesting the concern was not limited to political opponents"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "The Washington Post's reporting confirms Hurley's objection to Bessent before the surveillance began, his warning about data-privacy issues from monitoring Somali residents' finances specifically, his decision to resign over the unheeded objection, and that some Trump allies in government are themselves uneasy with the program's scope",
+        "source_url": "https://www.washingtonpost.com/business/2026/02/25/sanctions-chief-treasury/",
+        "maps_to_element": "Hurley's specific objection, its rejection, and his resulting resignation"
+      },
+      {
+        "type": "reporting",
+        "description": "The Washington Post's reporting confirms Hurley's exit follows a pattern of senior Treasury departures under Bessent, including Deputy Secretary Michael Faulkender and two successive chiefs of staff",
+        "source_url": "https://www.washingtonpost.com/business/2026/02/25/sanctions-chief-treasury/",
+        "maps_to_element": "Broader pattern of senior Treasury turnover"
+      }
+    ],
+    "status": "Ongoing as of this entry's addition -- Hurley's departure was reported February 25, 2026, though later reporting (April 2026) indicates he may instead be named to an OECD ambassador role rather than fully leaving government, suggesting the situation remained fluid.",
+    "rebuttal_anticipated": "Likely defense: Treasury has legitimate authority to conduct enhanced financial surveillance in connection with documented fraud concerns (referencing the same Feeding Our Future-related fraud issues this tracker's Minnesota entries document), and internal policy disagreements between career/senior officials and political leadership are a normal feature of government rather than evidence of improper discriminatory targeting.",
+    "comeback": "The specific concern raised by Treasury's own sanctions chief -- not an outside critic -- was that the surveillance targeted a community defined by ethnicity/national origin rather than a facially neutral fraud-detection criterion, a distinction that matters because it raises equal-protection and discriminatory-targeting concerns beyond ordinary anti-fraud enforcement; that even some administration allies reportedly share this unease strengthens rather than undermines the substance of the objection.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of Minnesota's Somali and immigrant communities facing enhanced federal scrutiny tied to the administration's fraud-enforcement and immigration priorities in the state (see also the Minnesota U.S. Attorney's Office turmoil documented in bondi-doj-renee-good-widow-investigation-2026.json).",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on Hurley's objection, its timing, and his resignation decision -- corroborated directly by The Washington Post's sourced reporting. MODERATE confidence on the program's ultimate scope and legal basis, since the surveillance program's specific parameters were not fully detailed in sourcing reviewed, and Hurley's own on-record denial of the article's premise (per the Post's own reporting) introduces some factual uncertainty about the full picture.",
+    "section_summaries": {
+      "incident_summary": "Treasury's sanctions chief John Hurley resigned after his objections to White House-directed financial surveillance of Minneapolis's Somali community -- which he warned raised data-privacy issues -- went unheeded by Secretary Bessent.",
+      "confidence_note": "Well-corroborated by The Washington Post's sourced reporting, though Hurley himself denied the article's premise, introducing some factual uncertainty."
     }
   },
   {
