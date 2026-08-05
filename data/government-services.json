@@ -412,6 +412,59 @@
     ]
   },
   {
+    "id": "cbp-drone-laser-faa-el-paso-airspace-2026",
+    "title": "Pentagon Allowed CBP to Test an Anti-Drone Laser Near Fort Bliss Without FAA Coordination, Forcing an Abrupt El Paso Airspace Closure",
+    "institution": "Department of Defense / Customs and Border Protection / FAA",
+    "domain": "staff_office_cuts",
+    "status": "Resolved as an immediate incident (airspace reopened within hours) -- a second, related drone-laser incident triggered a further Texas airspace closure later the same month (Feb. 27, 2026), indicating the underlying coordination problem was not fully resolved after the first incident",
+    "date_of_action": "2026-02-11 (initial incident); 2026-02-27 (second incident)",
+    "what_changed": "The Pentagon allowed CBP to use an anti-drone laser near Fort Bliss, Texas without coordinating in advance with the FAA. The laser deployment forced the FAA to abruptly close all flight traffic over El Paso -- announced initially as a 10-day closure, though it ultimately lasted only a few hours and stranded some travelers. The Trump administration said the laser use was part of a joint Pentagon-FAA effort to stop Mexican cartel drone incursions, but the deployment occurred despite a Pentagon-FAA meeting on the same issue already scheduled for later in the month -- meaning the technology was used before the two agencies' own planned coordination process had run its course. Sen. Tammy Duckworth characterized the incident as illustrating 'the lack of coordination that's endemic in this Trump administration,' and Rep. Veronica Escobar, whose district includes El Paso, said neither her office nor local officials received any advance notice of the closure. A second, related drone-laser incident triggered a further airspace closure in the area on February 27, 2026.",
+    "primary_proponent": {
+      "name": "Department of Defense / Customs and Border Protection",
+      "role": "Federal agencies whose uncoordinated laser deployment triggered the FAA's emergency airspace closure",
+      "note": "The administration's stated justification (countering cartel drone incursions) was not disputed by critics -- the accountability concern is the lack of interagency coordination before deployment, not the underlying counter-drone objective."
+    },
+    "estimated_impact": {
+      "summary": "An abrupt, uncoordinated military technology deployment forced an emergency civilian airspace closure over a major U.S. city, stranding travelers and occurring without any advance notice to the affected city's own congressional representative or local officials -- a coordination failure serious enough to draw bipartisan-adjacent congressional criticism and to recur in a second incident weeks later.",
+      "figures": [
+        {
+          "metric": "Initially announced closure duration vs. actual",
+          "value": "10 days announced, ~a few hours actual",
+          "source": "Multiple outlets (Military Times, CNN, The Hill)"
+        },
+        {
+          "metric": "Days between the first and second related incident",
+          "value": "~16 days (Feb. 11 to Feb. 27, 2026)",
+          "source": "NPR, Al Jazeera"
+        }
+      ],
+      "caveat": "This entry documents an interagency coordination failure with a public-safety dimension (uncoordinated airspace risk), not a claim that CBP's underlying counter-drone mission itself was improper."
+    },
+    "confidence_note": "HIGH confidence -- the laser deployment, the lack of prior FAA coordination, the scheduled-but-not-yet-held Pentagon-FAA meeting, and the second February 27 incident are all independently corroborated across Military Times, CNN, The Hill, NPR, and Al Jazeera, including on-record statements from Sen. Duckworth and Rep. Escobar.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "Military Times -- 'Pentagon let CBP use anti-drone laser before FAA closed El Paso airspace: Report'",
+        "url": "https://www.militarytimes.com/news/pentagon-congress/2026/02/12/pentagon-let-cbp-use-anti-drone-laser-before-faa-closed-el-paso-airspace-report/"
+      },
+      {
+        "name": "CNN -- 'Surprise US military plans to use counter-drone laser triggered airspace closure, Sources say'",
+        "url": "https://www.cnn.com/2026/02/11/us/faa-el-paso-texas-flight-restrictions-hnk"
+      },
+      {
+        "name": "NPR -- 'Lawmakers say US military used laser to take down Border Protection drone'",
+        "url": "https://www.npr.org/2026/02/27/g-s1-111794/lawmakers-say-us-military-used-laser-to-take-down-border-protection-drone"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "The Pentagon let CBP test an anti-drone laser near Fort Bliss without FAA coordination, forcing an emergency El Paso airspace closure with no advance notice to local officials; a second related incident occurred 16 days later.",
+      "estimated_impact": "Stranded travelers and drew bipartisan-adjacent congressional criticism of the administration's interagency coordination, recurring in a second incident weeks later.",
+      "confidence_note": "Independently corroborated across multiple outlets including on-record statements from the affected district's own representative and a senator."
+    }
+  },
+  {
     "id": "cdc-acip-vaccine-panel-purge-trump2",
     "title": "RFK Jr. Removes All 17 Members of CDC Vaccine Advisory Committee, Installs Replacements",
     "institution": "Advisory Committee on Immunization Practices (ACIP), Centers for Disease Control and Prevention",
@@ -2329,6 +2382,47 @@
         "url": "https://www.aabb.org/news-resources/news/article/2026/05/20/szarama-departs-cber--karim-mikhail-named-acting-director"
       }
     ]
+  },
+  {
+    "id": "fda-moderna-mrna-flu-vaccine-refusal-2026",
+    "title": "FDA Refused to Even Review Moderna's mRNA Flu Vaccine Despite a 40,000-Person Trial Showing Stronger Protection for Older Adults",
+    "institution": "Food and Drug Administration",
+    "domain": "research_suppression",
+    "status": "Contested and unresolved as of this entry's addition -- Moderna disputes FDA's rationale; regulators in Canada, Europe, and Australia accepted the same application for review",
+    "date_of_action": "2026-02-03 (FDA's refusal-to-file letter)",
+    "what_changed": "Moderna submitted an application in December 2025 for FDA approval of its new mRNA flu vaccine for adults 50 and older, supported by a clinical trial of more than 40,000 people that found the new vaccine somewhat more effective than a standard flu shot. Rather than reviewing the application on its merits, the FDA issued a 'refusal-to-file' letter dated February 3, 2026 -- declining to even begin substantive review. FDA vaccine director Dr. Vinay Prasad's letter stated the agency did not consider the trial 'adequate and well-controlled' because Moderna compared its vaccine to a flu shot Prasad's letter characterized as not the 'best-available standard of care,' rather than rejecting the vaccine's efficacy or safety data itself. Moderna disputes this characterization, saying it ran the trial in the manner regulators had previously discussed and agreed to. Notably, drug regulators in Canada, Europe, and Australia accepted the same application for substantive review rather than issuing a refusal-to-file.",
+    "primary_proponent": {
+      "name": "Dr. Vinay Prasad",
+      "role": "FDA vaccine division director",
+      "note": "Prasad's letter objected to the trial's comparator vaccine choice as the stated basis for refusing to file, not to the vaccine's safety or the trial's underlying efficacy findings."
+    },
+    "estimated_impact": {
+      "summary": "A refusal-to-file is procedurally more severe than a rejection after review -- it prevents the FDA from ever substantively evaluating a 40,000-person trial's safety and efficacy data for a vaccine that showed improved protection for older adults, a population at elevated risk from flu, at the same time peer regulators internationally accepted the identical application for review.",
+      "caveat": "This entry documents the refusal-to-file decision and its immediate reception; FDA's institutional rationale (comparator-vaccine standard-of-care requirements) is not without precedent in FDA regulatory practice generally, and this entry does not resolve whether Moderna's trial design was in fact non-compliant with FDA's own prior guidance -- that dispute is unresolved as of this entry's addition."
+    },
+    "confidence_note": "HIGH confidence on the refusal-to-file letter's existence, date, and stated rationale, and on the divergence from Canadian/European/Australian regulators' acceptance of the same application -- independently corroborated across NBC News, CIDRAP, Time, and The Conversation. MODERATE confidence on characterizing the decision as scientifically unjustified, since FDA's comparator-vaccine rationale is disputed rather than independently adjudicated, though CIDRAP's own op-ed and The Conversation's headline both characterize the stated reasons as lacking legal basis.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "NBC News -- 'FDA defends its decision not to review Moderna's mRNA flu shot'",
+        "url": "https://www.nbcnews.com/health/health-news/fda-defends-decision-not-review-modernas-mrna-flu-shot-rcna258642"
+      },
+      {
+        "name": "CIDRAP -- 'FDA reverses course, refuses to review Moderna's application for new mRNA flu vaccine'",
+        "url": "https://www.cidrap.umn.edu/influenza-vaccines/fda-reverses-course-refuses-review-moderna-s-application-new-mrna-flu-vaccine"
+      },
+      {
+        "name": "The Conversation -- 'FDA rejects Moderna's mRNA flu vaccine application - for reasons with no basis in the law'",
+        "url": "https://theconversation.com/fda-rejects-modernas-mrna-flu-vaccine-application-for-reasons-with-no-basis-in-the-law-275771"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "FDA refused to even review Moderna's mRNA flu vaccine application for older adults, despite a 40,000-person trial showing improved efficacy, while Canada, Europe, and Australia accepted the same application for review.",
+      "estimated_impact": "Blocks any substantive FDA safety/efficacy evaluation of a vaccine showing improved protection for a flu-vulnerable population, diverging sharply from peer regulators' response to the identical data.",
+      "confidence_note": "The refusal and its stated rationale are well-corroborated; whether the rationale itself was scientifically justified is disputed between FDA and Moderna and not independently resolved."
+    }
   },
   {
     "id": "fda-vaccine-safety-study-suppression-2025-2026",

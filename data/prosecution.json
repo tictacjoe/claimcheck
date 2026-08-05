@@ -2302,6 +2302,49 @@
     }
   },
   {
+    "official": "Todd Lyons, ICE Acting Director / Kristi Noem, Secretary of Homeland Security",
+    "offense_category": "Weakened Oversight and 'Absolute Immunity' Claims Enabling ICE Employee Misconduct at Elevated Risk as the Agency Rapidly Expands -- documents the administration's stated legal posture and oversight choices, not an allegation that officials personally committed the underlying crimes",
+    "incident_summary": "An Associated Press review found at least two dozen ICE employees and contractors have been charged with crimes since 2020, involving patterns of physical and sexual abuse, corruption, and other misuse of authority. Specific documented cases include a former top official at a Texas ICE contract facility sentenced to probation in February 2026 after admitting he grabbed a handcuffed detainee by the neck and slammed him into a wall; an ICE contractor who pleaded guilty in December 2025 to sexually abusing a detainee over a five-month period at a Louisiana facility; and two Minnesota ICE employees who faced federal sexual-misconduct charges involving underage girls, including an ICE investigator who pleaded guilty to sending images and videos of himself having sex with a 17-year-old. While AP found most documented cases predated Congress's recent $75 billion appropriation to expand ICE hiring and detention capacity, the review reports that legal experts warn such misconduct could accelerate given the volume of new hires and their empowerment to use aggressive tactics. The Trump administration has argued ICE agents have 'absolute immunity' for on-duty actions and has weakened independent oversight mechanisms.",
+    "contested": true,
+    "elements_required": [
+      "AP's review documents a substantiated pattern of criminal charges against ICE personnel spanning physical abuse, sexual abuse, and corruption, not isolated allegations",
+      "The administration has taken an affirmative legal position ('absolute immunity') regarding on-duty ICE agent conduct, a stance distinct from a neutral posture on accountability",
+      "Independent oversight mechanisms that would otherwise surface and address this misconduct have been weakened under the current administration, per AP's reporting and outside experts cited",
+      "ICE's workforce and enforcement volume are expanding rapidly (the $75 billion appropriation) at the same time as this weakened-oversight environment, which experts warn compounds the underlying risk"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "The Associated Press's review documents at least two dozen ICE employees/contractors charged with crimes since 2020, including the specific Texas contract-facility, Louisiana, and Minnesota cases, and reports the Trump administration has argued ICE agents have 'absolute immunity' for on-duty actions while weakening oversight",
+        "source_url": "https://www.washingtonpost.com/politics/2026/02/11/ice-agents-arrested-misconduct-abuse-corruption-charged/a529f06a-0709-11f1-b196-5e1986b3575c_story.html",
+        "maps_to_element": "Substantiated pattern of charged misconduct; administration's stated immunity position and oversight weakening"
+      },
+      {
+        "type": "reporting",
+        "description": "CBS Minnesota's coverage of the same AP review confirms the specific Minnesota cases and situates the review within concerns about how ICE's expanding powers can be abused",
+        "source_url": "https://www.cbsnews.com/minnesota/news/ice-agents-criminal-charges-associated-press-review/",
+        "maps_to_element": "Specific documented Minnesota cases"
+      },
+      {
+        "type": "reporting",
+        "description": "AP's companion piece confirms Congress's $75 billion appropriation for ICE expansion and cites experts warning that misconduct risk could accelerate given the volume of new employees empowered to use aggressive tactics amid weakened oversight",
+        "source_url": "https://www.yahoo.com/news/articles/ice-expands-ap-review-crimes-051435501.html",
+        "maps_to_element": "Compounding risk from rapid expansion combined with weakened oversight"
+      }
+    ],
+    "status": "Ongoing structural concern as of this entry's addition -- most documented cases predate the recent ICE expansion, meaning AP's review largely quantifies pre-expansion misconduct risk (some cases originating under the prior administration) while flagging that the current environment (rapid hiring, 'absolute immunity' posture, weakened oversight) could increase future misconduct rates. No systemic accountability reform identified in sourcing reviewed as of this entry's addition.",
+    "rebuttal_anticipated": "Likely defense: most of the documented misconduct cases predate the current administration's ICE expansion and reflect isolated individual wrongdoing rather than a policy-driven pattern, prosecuting the specific individuals named shows the accountability system is functioning, and legitimate legal immunity doctrines exist to protect officers from frivolous litigation for good-faith enforcement actions, not to shield actual criminal conduct.",
+    "comeback": "The specific accountability concern this entry documents is prospective and structural, not solely retrospective: the administration's own stated 'absolute immunity' legal position and its weakening of independent oversight mechanisms are contemporaneous policy choices layered on top of a documented historical misconduct pattern and a rapid, unprecedented workforce expansion -- a combination outside experts specifically warn increases future risk, independent of how any single past case was resolved.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of the administration narrowing oversight and accountability mechanisms for federal law enforcement personnel (see also the DOJ Civil Rights Division police-misconduct-unit staffing plunge and the ICE biometric-surveillance IG audit entries) even as ICE's own operational scale and authority expand.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the documented criminal cases themselves (independently corroborated across AP's own review, The Washington Post, and CBS Minnesota, with specific named cases and court outcomes). MODERATE confidence on the prospective risk-acceleration claim, which is expert opinion cited in AP's reporting rather than a measured outcome, since the expansion's effects had not yet been empirically observed as of this entry's addition.",
+    "section_summaries": {
+      "incident_summary": "An AP review found at least two dozen ICE employees/contractors charged with crimes since 2020 -- physical abuse, sexual abuse, corruption -- while the administration claims agents have 'absolute immunity' and has weakened oversight even as ICE undergoes a $75 billion hiring expansion experts warn could accelerate future misconduct.",
+      "confidence_note": "Documented past cases are well-corroborated across AP's own review and independent outlets; the claim that expansion will increase future misconduct is expert opinion, not yet an observed outcome."
+    }
+  },
+  {
     "official": "Department of Defense leadership (hiring authority within the Office of Special Operations and Low-Intensity Conflict)",
     "offense_category": "Appointment of a Convicted January 6 Participant to a Sensitive National-Security Role -- no criminal or procedural violation established in the hiring itself; this is a public-integrity/qualifications-and-vetting concern given internal Pentagon objections",
     "contested": true,
@@ -3143,9 +3186,15 @@
         "description": "House Oversight Democrats' formal letter to DOJ and Pirro following the failed indictment documents lawmakers' response and demands for accountability",
         "source_url": "https://oversightdemocrats.house.gov/imo/media/doc/20260219garciaraskintodojpirrorefailedmemberindictments.pdf",
         "maps_to_element": "Congressional oversight response"
+      },
+      {
+        "type": "reporting",
+        "description": "Bloomberg Law's reporting confirms Pirro's office brought in outside hires with limited federal prosecutorial experience to work the case against the six lawmakers, including Steven Vandervelden, a former local prosecutor who runs a dance photography business, raising questions about the staffing and preparation behind the failed indictment attempt",
+        "source_url": "https://news.bloomberglaw.com/us-law-week/pirro-enlists-dance-photographer-lawyer-in-lawmaker-video-case",
+        "maps_to_element": "Staffing and preparation behind the case that the grand jury rejected"
       }
     ],
-    "status": "Resolved -- the grand jury's February 10, 2026 refusal to indict ends this specific prosecution attempt; no appeal or renewed indictment effort identified in sourcing reviewed as of this entry's addition.",
+    "status": "Resolved -- the grand jury's February 10, 2026 refusal to indict ends this specific prosecution attempt; no appeal or renewed indictment effort identified in sourcing reviewed as of this entry's addition. Bloomberg Law reported Pirro's office staffed the case in part with outside hires with limited federal experience, including a former local prosecutor now running a dance photography business.",
     "rebuttal_anticipated": "Likely defense: DOJ has discretion to present cases to a grand jury even where the outcome is uncertain, urging servicemembers to consider disobeying orders during an active military operation could reasonably be viewed as raising legitimate morale/discipline concerns, and a grand jury's refusal to indict does not itself establish prosecutorial misconduct.",
     "comeback": "The specific facts distinguishing this from an ordinary close call are that the video's core content -- reminding servicemembers of their existing legal duty to refuse illegal orders -- restates established military law rather than urging disobedience of lawful orders, that the President personally and publicly called for the lawmakers' arrest before any charges were sought, and that this was one of a documented series of grand jury rejections of the same U.S. Attorney's office's prosecution attempts, suggesting a pattern of pursuing cases based on political direction rather than independent prosecutorial assessment of the merits.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DOJ prosecutorial power being directed at the administration's perceived political opponents based on presidential direction rather than independent case assessment (see also the Patel-driven prosecution-campaign entry and Pirro's other entries in this tracker).",
@@ -4074,6 +4123,49 @@
     "section_summaries": {
       "incident_summary": "DOJ created and then abandoned a $1.776B fund -- originating from a settlement of Trump's own lawsuit against his executive branch -- that was widely understood as a vehicle to compensate January 6 defendants; Trump has refused to rule out compensating them by other means.",
       "confidence_note": "Well-corroborated across multiple independent outlets; the ultimate outcome of hundreds of individual rioter compensation claims remains an open, ongoing legal process."
+    }
+  },
+  {
+    "official": "Donald Trump, President",
+    "offense_category": "Consequences of the Blanket January 6 Pardons -- a pardoned defendant's subsequent unrelated violent crime, illustrating the accountability tracker's broader clemency-pattern concern rather than alleging Trump had advance knowledge of this specific individual's later conduct",
+    "incident_summary": "Andrew Paul Johnson, who received a full pardon from President Trump for his role in the January 6, 2021 Capitol riot as part of Trump's blanket pardon of hundreds of Jan. 6 defendants in January 2025, was arrested in August 2025 -- roughly seven months after his pardon -- and subsequently convicted by a Hernando County, Florida jury in February 2026 on five felony charges, including molesting a child under 12, molesting a child under 16, and lewd and lascivious exhibition. Johnson was sentenced to life in prison in March 2026. Prosecutors said Johnson attempted to bribe one victim using money he claimed he would receive as restitution owed to Jan. 6 defendants. NPR's reporting characterized this as the latest in a documented pattern of pardoned Capitol rioters committing new crimes after receiving clemency.",
+    "contested": false,
+    "elements_required": [
+      "Johnson received a full, unconditional pardon for his Jan. 6 conduct as part of Trump's blanket January 2025 pardon of hundreds of defendants, without individualized review of clemency appropriateness",
+      "Johnson was arrested for an unrelated, serious violent crime against children within months of receiving that pardon",
+      "A jury convicted Johnson on multiple felony counts, and he received a life sentence",
+      "NPR's reporting situates this within a broader, previously-documented pattern of pardoned January 6 defendants committing new crimes -- this is not reported as an isolated incident"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "NPR's reporting confirms Johnson's pardon, his August 2025 arrest, and situates the case within a broader pattern of pardoned Capitol rioters committing new crimes after receiving clemency",
+        "source_url": "https://www.npr.org/2026/02/11/nx-s1-5711294/trump-jan-6-pardons-child-sex-abuse",
+        "maps_to_element": "Pardon-to-new-crime timeline and the broader documented pattern"
+      },
+      {
+        "type": "public_record",
+        "description": "NBC News's reporting confirms the Hernando County, Florida jury conviction on five felony counts and the life sentence handed down in March 2026",
+        "source_url": "https://www.nbcnews.com/politics/justice-department/jan-6-rioter-pardoned-trump-jan-6-case-gets-life-sentence-child-sex-cr-rcna261963",
+        "maps_to_element": "Conviction and sentencing outcome"
+      },
+      {
+        "type": "public_record",
+        "description": "Snopes' fact-check corroborates the pardon-to-life-sentence timeline and confirms Johnson attempted to bribe a victim using anticipated Jan. 6 restitution funds",
+        "source_url": "https://www.snopes.com/fact-check/jan-6-trump-pardon-sex-abuse/",
+        "maps_to_element": "Attempted bribery using anticipated restitution funds"
+      }
+    ],
+    "status": "Resolved as a criminal matter -- Johnson was convicted and sentenced to life in prison in March 2026. This entry documents the case as an illustration of the blanket-pardon accountability pattern this tracker follows, not an ongoing investigation.",
+    "rebuttal_anticipated": "Likely defense: a pardon for a specific past offense (Jan. 6 conduct) does not immunize a recipient from prosecution for later, unrelated crimes, and no evidence suggests Trump had any knowledge of or responsibility for Johnson's subsequent conduct -- the criminal justice system functioned correctly in charging, convicting, and sentencing Johnson for the new offense.",
+    "comeback": "This entry does not allege Trump bears legal responsibility for Johnson's later crime -- the accountability question it documents is the wisdom and process of a blanket, non-individualized clemency grant to hundreds of defendants, of which this is reported as one of multiple subsequent-crime cases, raising a policy question about whether categorical pardons without individualized risk assessment carry a documented public-safety cost.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level accountability question about categorical, non-individualized clemency rather than any specific legal violation by Trump personally.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the pardon, arrest, conviction, and sentencing are all independently corroborated by NPR, NBC News, and Snopes' fact-check, with no facts disputed by any party.",
+    "section_summaries": {
+      "incident_summary": "Andrew Paul Johnson, pardoned by Trump for Jan. 6 conduct in a blanket clemency grant, was arrested months later for child molestation and sentenced to life in prison in March 2026 -- reported as one of multiple cases of pardoned Jan. 6 defendants committing new crimes.",
+      "confidence_note": "Well-corroborated across NPR, NBC News, and an independent fact-check, with no facts disputed."
     }
   },
   {
