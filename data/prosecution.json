@@ -1297,6 +1297,55 @@
     }
   },
   {
+    "official": "Tulsi Gabbard, Director of National Intelligence",
+    "offense_category": "Withholding a Whistleblower Complaint and Underlying Intelligence from Congress -- potential violation of statutory whistleblower-disclosure and congressional-notification obligations governing the intelligence community",
+    "incident_summary": "A whistleblower, represented by Whistleblower Aid, first raised a concern with the Intelligence Community Inspector General (ICIG) in May 2025 and in June 2025 requested the disclosure be transmitted to Congress; the complaint alleges that Gabbard's ODNI general counsel failed to report a potential crime to the Department of Justice. The complaint and an underlying classified intelligence report were not provided to the congressional intelligence committees until February 3, 2026 -- nearly eight months later -- when the ICIG's office finally handed it to the Gang of Eight lawmakers because of its classified contents. Senate Intelligence Committee Vice Chair Mark Warner and House Intelligence Committee Ranking Member Jim Himes publicly demanded answers from Gabbard about the delay. Gabbard denied any wrongdoing, calling claims that she or ODNI 'hid' the complaint 'a blatant lie'; the ICIG's office separately stated it found the underlying allegation against Gabbard not credible and that the eight-month delay was justified. Congressional Republicans on the relevant committees rejected the complaint's substance, while Democrats continued to press over the length of the delay itself, a separate question from the complaint's underlying merits.",
+    "contested": true,
+    "elements_required": [
+      "A whistleblower complaint concerning the Director of National Intelligence's own office was filed with the Intelligence Community Inspector General in mid-2025",
+      "The whistleblower requested transmission to Congress in June 2025, but the complaint and underlying classified report were not provided to the Gang of Eight until February 3, 2026 -- an approximately eight-month gap",
+      "Members of the congressional intelligence committees from both parties have publicly disputed whether the delay was justified, with Democrats demanding answers and Republicans siding with ODNI",
+      "The Inspector General's office has taken the position that the delay was justified and the underlying allegation not credible, a determination Gabbard and her critics dispute in different directions -- she says the 'hiding' characterization is false, while the whistleblower's counsel maintains the delay itself violated the law regardless of the complaint's ultimate merits"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Whistleblower Aid's public statement on behalf of its client states the whistleblower first alerted the ICIG in May 2025, requested congressional transmission in June 2025, and that the complaint and underlying intelligence report reached the Gang of Eight only on February 3, 2026",
+        "source_url": "https://whistlebloweraid.org/whistlebloweraid-org-client-reveals-dni-director-gabbard-violated-the-law-by-hiding-high-level-intelligence-from-congress-for-nearly-eight-months/",
+        "maps_to_element": "Timeline of the complaint's filing and eventual transmission to Congress"
+      },
+      {
+        "type": "public_record",
+        "description": "Senate Intelligence Vice Chair Mark Warner and House Intelligence Ranking Member Jim Himes issued a joint statement demanding answers from DNI Gabbard about the delayed whistleblower complaint and withheld intelligence report",
+        "source_url": "https://democrats-intelligence.house.gov/news/documentsingle.aspx?DocumentID=1444",
+        "maps_to_element": "Congressional dispute over whether the delay was justified"
+      },
+      {
+        "type": "public_record",
+        "description": "NBC News reporting confirms Gabbard's on-the-record denial, calling the 'hid it in a safe for eight months' characterization 'a blatant lie,' and that the Intelligence Community Inspector General's office found the underlying allegation not credible while defending the delay as justified given the material's classified nature",
+        "source_url": "https://www.nbcnews.com/politics/trump-administration/tulsi-gabbard-responds-senators-criticism-handling-whistleblower-compl-rcna257952",
+        "maps_to_element": "Accountable official's response and the IG's competing justification"
+      },
+      {
+        "type": "reporting",
+        "description": "PBS NewsHour reporting confirms congressional Republicans on the relevant committees rejected the complaint's substance while Democrats continued to press specifically on the length of the delay before Congress was notified",
+        "source_url": "https://www.pbs.org/newshour/amp/politics/republicans-reject-complaint-about-gabbard-as-democrats-question-time-it-took-to-see-it",
+        "maps_to_element": "Partisan split on the underlying complaint vs. the separate delay question"
+      }
+    ],
+    "status": "Unresolved as of this entry's addition (February-August 2026 reporting) -- the ICIG has defended the delay as justified and found the underlying allegation not credible, Gabbard denies wrongdoing, and Senate/House Intelligence Democrats have not received a full public accounting of why transmission took eight months. No independent investigation outcome (e.g., DOJ IG or a bipartisan committee finding) identified in sourcing reviewed.",
+    "rebuttal_anticipated": "Likely defense: the complaint and underlying report were highly classified, requiring careful handling before transmission to Congress, the Inspector General's own office -- an independent overseer, not ODNI itself -- concluded both that the delay was justified and the underlying allegation not credible, and Republican committee members reviewing the same material agreed the complaint lacked substance.",
+    "comeback": "The IG's justification for the delay and its conclusion about the complaint's credibility are two separate questions -- even accepting that the underlying allegation was ultimately found not credible, an eight-month gap between a whistleblower's June 2025 request for congressional transmission and the material actually reaching the Gang of Eight in February 2026 is a long delay for a statutory notification process designed to keep congressional overseers informed in something close to real time, and neither Gabbard nor the IG's office has offered a specific, itemized public account of what consumed those eight months.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of intelligence and law-enforcement leadership under this administration slow-walking or resisting information-sharing with congressional overseers (see also the ODNI Pulte staff-purge and CIA politicization entries), though this entry concerns a discrete statutory-notification dispute rather than a personnel or politicization claim.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the underlying timeline (complaint filed, June 2025 transmission request, February 3, 2026 delivery to the Gang of Eight) -- corroborated by the whistleblower's own representation, congressional Democrats' public statement, and NBC News reporting including Gabbard's on-record response. LOW-MODERATE confidence on whether the delay itself constitutes a legal violation, since this is genuinely contested: the Inspector General's office (an independent overseer) has defended the delay as justified, and no court or independent investigative body has found otherwise as of this entry's addition.",
+    "section_summaries": {
+      "incident_summary": "A whistleblower complaint and classified intelligence report concerning DNI Gabbard's office took roughly eight months to reach the congressional Gang of Eight after the whistleblower requested transmission, prompting a bipartisan-attention but partisan-outcome dispute -- Gabbard denies wrongdoing, the Inspector General defended the delay as justified, and Senate/House Intelligence Democrats continue to press for a fuller accounting.",
+      "confidence_note": "Timeline is well-corroborated across the whistleblower's own statement, congressional Democrats, and independent reporting; whether the delay itself was unlawful remains genuinely contested and unresolved by any independent body."
+    }
+  },
+  {
     "official": "Jamieson Greer, United States Trade Representative",
     "offense_category": "Ultra Vires Agency Action — Tariffs Imposed Without Statutory Authority (the Supreme Court ruled the International Emergency Economic Powers Act, IEEPA, did not authorize the administration's global tariff program) — NOT charged criminally; this is a completed Supreme Court ruling on the merits, the highest-authority legal finding of any entry in this dataset; remedy was invalidation of the tariffs, not personal liability for Greer",
     "incident_summary": "The Trump administration imposed sweeping global tariffs -- including 'Reciprocal' and 'Fentanyl' tariffs -- relying on the International Emergency Economic Powers Act as legal authority, with Greer as US Trade Representative implementing and defending the program. On February 20, 2026, the Supreme Court ruled against the use of IEEPA as the legal foundation for these tariffs, invalidating roughly 70% of the tariffs the administration had imposed worldwide. The administration responded within two days by shifting to Section 122 of the Trade Act of 1974 to impose temporary 10% global tariffs, with Greer publicly stating the policy 'hasn't changed, just the legal playbook.'",
