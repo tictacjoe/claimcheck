@@ -178,6 +178,55 @@
   },
   {
     "official": "Todd Blanche, Acting Attorney General (nominated to permanent post)",
+    "offense_category": "Press Freedom / DOJ News Media Policy Violation (28 C.F.R. § 50.10) -- a separate leak investigation from this tracker's other DOJ-journalist-subpoena entries, notable because DOJ has refused to withdraw it after backing down from comparable subpoenas of other reporters",
+    "incident_summary": "DOJ subpoenaed Matthew Cole, a freelance journalist who co-wrote a 2025 New York Times story on a botched 2019 Navy SEAL Team 6 mission in North Korea (in which SEALs killed several unarmed North Koreans while attempting to plant a listening device, based on reporting from roughly two dozen unnamed sources), demanding his testimony and more than two years of his notes and communications to identify his sources. The subpoena was issued in Virginia in February 2026; FBI agents attempted to deliver it in person at Cole's New York City residence, then delivered it to his lawyer when he was not home. Its existence was not made public until August 1, 2026, when The Times disclosed it at Cole's request -- the paper said it supported his decision to make public a subpoena the government had tried to keep secret, and is paying for his legal representation. Unlike DOJ's subpoenas of Washington Post/Wall Street Journal reporters (Iran-war leak investigation) and New York Times reporters (Air Force One security story), both of which DOJ withdrew after legal challenges, DOJ has refused to withdraw the Cole subpoena as of this entry's addition.",
+    "contested": false,
+    "elements_required": [
+      "DOJ policy (28 C.F.R. § 50.10) requires the Attorney General's personal, written approval before a subpoena compelling journalist testimony or records may issue",
+      "The subpoena targeted a journalist specifically in connection with his newsgathering (identifying confidential sources for a national-security story), not as an ordinary case witness unconnected to his reporting",
+      "DOJ sought an unusually broad scope -- more than two years of notes and communications -- to identify sources for a single story",
+      "DOJ has maintained the subpoena even after withdrawing comparable subpoenas against other reporters at three other news organizations following legal challenges, indicating the withdrawals were not a general policy change"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "The New York Times' own reporting on the subpoena confirms it was issued in February 2026 by prosecutors in Virginia, sought more than two years of Cole's notes and contacts to identify sources for the SEAL Team 6/North Korea story, and that the paper is funding Cole's legal defense",
+        "source_url": "https://www.nytimes.com/2026/08/01/us/politics/times-subpoena-reporter-trump-north-korea.html",
+        "maps_to_element": "Subpoena scope and target's connection to newsgathering"
+      },
+      {
+        "type": "reporting",
+        "description": "US News & World Report reporting confirms DOJ has refused to withdraw the Cole subpoena even after backing down from subpoenas targeting reporters at The Washington Post, The Wall Street Journal, and other New York Times journalists",
+        "source_url": "https://www.usnews.com/news/world/articles/2026-08-01/us-justice-department-subpoenas-new-york-times-freelancer-over-north-korea-story-paper-says",
+        "maps_to_element": "DOJ maintained this subpoena despite withdrawing comparable ones elsewhere"
+      },
+      {
+        "type": "reporting",
+        "description": "Al Jazeera's coverage details that FBI agents attempted to serve the subpoena at Cole's home in person before it was delivered to his attorney, and that its existence remained secret for roughly six months until The Times disclosed it in August 2026",
+        "source_url": "https://www.aljazeera.com/news/2026/8/1/new-york-times-reveals-trump-administration-subpoena-over-north-korea-story",
+        "maps_to_element": "Manner and secrecy of the subpoena's service"
+      },
+      {
+        "type": "reporting",
+        "description": "Democracy Now's summary situates the Cole subpoena within DOJ's broader pattern of the period of pursuing journalists' sources on national-security-adjacent stories",
+        "source_url": "https://www.democracynow.org/2026/8/5/headlines/justice_department_subpoenaed_freelance_reporter_matthew_cole",
+        "maps_to_element": "Pattern characterization"
+      }
+    ],
+    "status": "Active and unresolved as of this entry's addition (August 2026) -- DOJ has not withdrawn the subpoena or publicly explained why this case is being treated differently from the WaPo/WSJ and NYT Air Force One subpoenas it withdrew under legal pressure. No court ruling on a motion to quash identified in sourcing reviewed.",
+    "rebuttal_anticipated": "Likely defense: the underlying 2019 SEAL Team 6 mission story involved the deaths of foreign nationals during a classified special-operations mission, a matter of unusually high national-security sensitivity distinguishable from the Air Force One and Iran-leak stories, justifying DOJ's decision to pursue this subpoena to conclusion rather than withdraw it.",
+    "comeback": "DOJ's own media-subpoena policy (28 C.F.R. 50.10) does not carve out a broader-scope exception for stories DOJ deems more sensitive -- the policy's personal-approval and less-intrusive-means requirements apply regardless of subject matter, and DOJ has not publicly identified what less-intrusive investigative steps it took before subpoenaing more than two years of a freelancer's notes, the same category of procedural question a federal judge raised in the Air Force One subpoenas before DOJ withdrew those.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Part of the same broader pattern this tracker documents elsewhere (Blanche's WaPo/WSJ Iran-leak subpoenas, Patel's Air Force One leak probe) of DOJ leak investigations under this administration targeting journalists' sources directly; notable here for DOJ's willingness to hold firm on this one subpoena even after conceding procedural problems in comparable cases.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence -- corroborated by The New York Times' own direct reporting on a subpoena targeting its own freelancer (an account with direct institutional knowledge and reason to be precise), plus independent corroboration from US News, Al Jazeera, and Democracy Now. No party has disputed the underlying facts as reported.",
+    "section_summaries": {
+      "incident_summary": "DOJ subpoenaed NYT freelancer Matthew Cole for two-plus years of notes to identify sources for a 2025 story on a botched SEAL Team 6 mission in North Korea, and -- unlike comparable subpoenas of other reporters this tracker documents -- has refused to withdraw it.",
+      "confidence_note": "Corroborated by the New York Times' own direct reporting plus multiple independent outlets, with no facts disputed by any party."
+    }
+  },
+  {
+    "official": "Todd Blanche, Acting Attorney General (nominated to permanent post)",
     "offense_category": "Selective/Weaponized Enforcement -- DOJ installed a prosecutor who was present in the restricted area at the Capitol on January 6, 2021 to co-direct a task force prosecuting left-wing political violence as domestic terrorism, raising a direct double-standard concern -- NOT charged, contested facts, included for reference only",
     "incident_summary": "Brian Lynch co-directs Joint Task Force Vanguard, a DOJ task force established in March 2026 under Acting Attorney General Todd Blanche to prosecute alleged left-wing political violence; the task force has already indicted 15 anti-ICE protesters in Minneapolis. Reporting revealed that Lynch, then three months into his job as an assistant U.S. attorney in Maryland, attended the January 6, 2021 march at the Capitol wearing a Trump 2020 hat and a shirt bearing an Afghanistan deployment service map. Images obtained by Talking Points Memo show Lynch standing near a crane on Capitol grounds in what a former federal prosecutor described as 'definitely in the restricted area.' A DOJ official confirmed Lynch 'was present but never entered the Capitol, left the grounds after a brief period, and did not commit and was never accused of any violation of law.' Michael Romano, former deputy chief of DOJ's now-disbanded Capitol Siege Section (which prosecuted January 6 cases), said he was surprised a prosecutor present that day continued working and was later promoted to lead a task force prosecuting political violence, noting 'people were trying to stop the certification of the electoral college vote on January 6th.' Lynch did not respond to requests for comment.",
     "contested": true,
@@ -2499,18 +2548,30 @@
         "description": "The New York Times reported that DOJ withdrew the subpoenas seeking NYT journalists' phone records and grand jury testimony on July 23, 2026, after a federal judge questioned whether prosecutors had followed the legal requirements (28 C.F.R. 50.10) for subpoenaing the press; the underlying leak investigation itself was not reported as closed",
         "source_url": "https://www.nytimes.com/2026/07/23/business/media/new-york-times-subpoenas-withdraw.html",
         "maps_to_element": "Investigation produced subpoenas targeting journalists over the specific reporting -- updated with the subpoenas' subsequent withdrawal"
+      },
+      {
+        "type": "public_record",
+        "description": "At a July 23, 2026 hearing in the Southern District of New York, Judge Arun Subramanian pressed DOJ on why it issued the subpoenas before completing less-intrusive investigative steps required by 2nd Circuit precedent; DOJ prosecutor Sean Buckley then told the court the government would \"unilaterally withdraw the subpoenas at this time\" rather than have them quashed. A DOJ spokesperson publicly disputed the judge's reasoning, saying the ruling was \"blocking the grand jury from receiving core evidence in a national security investigation.\"",
+        "source_url": "https://www.npr.org/2026/07/23/nx-s1-5905732/nyt-subpoenas-trump-air-force-one-plane-qatar-security",
+        "maps_to_element": "Departure from normal investigative independence -- judge's specific procedural finding on why the subpoenas should not have issued in this form"
+      },
+      {
+        "type": "public_record",
+        "description": "Senate Judiciary Committee Democrats led by Sen. Adam Schiff sent a letter to Acting Attorney General Todd Blanche demanding information on his and SDNY U.S. Attorney Jay Clayton's roles in the subpoenas, writing that DOJ's conduct was \"seemingly directed by President Trump after he was upset by negative reporting,\" and noting the subpoenas sought records dating back to January 1, 2026 -- broader than DOJ's own guidelines allow for information that must be \"essential\" to an investigation.",
+        "source_url": "https://www.judiciary.senate.gov/press/dem/releases/senate-judiciary-democrats-demand-todd-blanche-answer-to-dozens-of-oversight-requests-ignored-by-justice-department",
+        "maps_to_element": "Accountable official's response -- congressional oversight into whether the subpoenas were White House-directed"
       }
     ],
-    "status": "Ongoing as of July 2026 -- DOJ withdrew the NYT subpoenas on July 23, 2026 after a federal judge questioned their legal compliance, but the underlying leak investigation was not reported as closed; investigation had separately expanded to include White House staff phone collection under Wiles and Patel's joint direction",
+    "status": "Subpoenas withdrawn July 23, 2026 after a federal judge questioned whether DOJ had completed 2nd-Circuit-required investigative steps before issuing them; DOJ publicly disputed the judge's reasoning rather than conceding error. Senate Judiciary Democrats have since opened a written-oversight inquiry into Blanche's and Clayton's roles, still unanswered as of this update. Underlying leak investigation not reported as closed.",
     "rebuttal_anticipated": "Likely defense: leaks of information touching on presidential security and travel logistics are a legitimate, serious concern regardless of the underlying story's political sensitivity, and the FBI Director personally engaging on a high-priority national-security-adjacent matter is not inherently improper.",
     "comeback": "The specific facts distinguishing this from a routine leak investigation are the White House's direct tasking of the FBI Director, the investigation being run from the White House building itself rather than FBI or DOJ facilities, and the speed and personal scale of the response (an eight-hour, director-led effort producing home-delivered subpoenas within days) -- all following a story that embarrassed rather than genuinely endangered the president, since the security concern being reported was itself the news, not a secret compromised by the reporting.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Part of the same broader pattern this tracker documents elsewhere (Blanche/DOJ's May 2026 WaPo/WSJ subpoenas, Hegseth's July 2026 Pentagon-DOJ leak task force) of leak investigations increasingly directed at identifying sources for stories embarrassing to the president, using DOJ/FBI subpoena power against journalists themselves.",
-    "last_updated": "2026-07-27",
+    "last_updated": "2026-08-05",
     "date_added": "2026-07-27",
-    "confidence_note": "HIGH confidence -- corroborated extensively across independent outlets (NPR, CNN, Philadelphia Inquirer, Irish Star, New York Times) including direct on-record detail (Patel's canceled Chicago trip, the eight-hour White House timeframe) that would be difficult to fabricate and has not been disputed by the White House or FBI. The July 23, 2026 subpoena withdrawal is independently reported by the New York Times, the subpoenas' target.",
+    "confidence_note": "HIGH confidence -- corroborated extensively across independent outlets (NPR, CNN, Philadelphia Inquirer, Irish Star, New York Times) including direct on-record detail (Patel's canceled Chicago trip, the eight-hour White House timeframe) that would be difficult to fabricate and has not been disputed by the White House or FBI. The July 23, 2026 subpoena withdrawal is independently reported by the New York Times, the subpoenas' target. Re-verified 2026-08-05: the July 23 withdrawal circumstances (Judge Subramanian's specific procedural objection, DOJ's on-record refusal to concede error) and the subsequent Senate Judiciary Democrats oversight letter are both independently corroborated (NPR, Senate Judiciary Committee official release) and add detail without changing the entry's core facts.",
     "section_summaries": {
-      "incident_summary": "The White House directed FBI Director Patel to personally run a leak probe from the White House itself after NYT reporting embarrassed Trump over Air Force One security, producing home-delivered subpoenas to reporters within days.",
-      "confidence_note": "Extensively corroborated across independent outlets with specific, undisputed on-record detail."
+      "incident_summary": "The White House directed FBI Director Patel to personally run a leak probe from the White House itself after NYT reporting embarrassed Trump over Air Force One security, producing home-delivered subpoenas to reporters within days; DOJ later withdrew the subpoenas under judicial pressure and now faces a Senate Judiciary Democrats oversight inquiry into whether the White House directed them.",
+      "confidence_note": "Extensively corroborated across independent outlets with specific, undisputed on-record detail, including the judge's stated reasoning for the withdrawal and the Senate Judiciary Committee's own public release on its oversight letter."
     }
   },
   {
@@ -3029,6 +3090,61 @@
     }
   },
   {
+    "official": "Daniel Rosen, U.S. Attorney for the District of Minnesota",
+    "offense_category": "Use of Federal Conspiracy Charges to Criminalize Protest Organizing -- invoking NSPM-7 (a presidential domestic-terrorism-adjacent directive) against organizers not accused of violence, raising First Amendment freedom-of-association concerns",
+    "incident_summary": "U.S. Attorney Daniel Rosen announced federal indictments against 15 people, described by prosecutors as members of two Minneapolis groups (Direct Action Minnesota and Black Cat Workers Collective) with alleged 'antifa' ties, on charges including conspiracy to impede or injure a federal officer, assault on a federal officer, and destruction of government property, tied to protests at the Whipple federal building -- which houses the regional ICE field office and a detention facility -- on January 23 and March 1, 2026. Among those charged is Erik Davis, chair of Macalester College's religious studies department; prosecutors have not accused Davis of any violent act or direct encounter with ICE agents, instead citing a Signal message in which he asked people with AFL-CIO connections to focus organizing on the Whipple building, his role moderating organizing meetings, and his self-described anarchist political views. Rosen's announcement explicitly invoked NSPM-7 -- one of the first known instances of DOJ citing that presidential memorandum as a basis for arrests -- as part of a stated effort to prosecute perceived antifascist organizing as domestic terrorism-adjacent conduct.",
+    "contested": true,
+    "elements_required": [
+      "Federal prosecutors charged individuals with conspiracy based substantially on organizing activity (meeting attendance, messaging about protest logistics, political ideology) rather than on any specific violent act",
+      "At least one charged defendant (Davis) is not accused of committing or personally directing violence, assault, or property destruction",
+      "DOJ publicly invoked NSPM-7 -- a presidential memorandum -- as legal/political basis for the arrests, applying domestic-terrorism-adjacent framing to protest organizing",
+      "Defense counsel has raised the possibility that an informant was used to build the conspiracy case, and civil-liberties commentary across multiple outlets has flagged First Amendment freedom-of-association concerns with charging organizers for co-organizers' alleged conduct"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "U.S. Attorney Daniel Rosen announced the 15-person indictment, alleging the defendants were members of Direct Action Minnesota and Black Cat Workers Collective, groups he described as 'violently opposed to the enforcement of federal law in our state,' tied to protests at the Whipple federal building on January 23 and March 1, 2026",
+        "source_url": "https://www.fox9.com/news/prosecutors-announce-charges-against-antifa-groups-minnesota-ice-protests",
+        "maps_to_element": "Federal conspiracy charges tied to organizing activity"
+      },
+      {
+        "type": "reporting",
+        "description": "Common Dreams reporting on the announcement describes it as a 'major escalation' and one of the first cases in which DOJ has explicitly invoked NSPM-7 as a basis for arrests, part of the memorandum's stated aim to prosecute leftist and antifascist organizing under a terrorism-adjacent framework",
+        "source_url": "https://www.commondreams.org/news/minnesota-indictments",
+        "maps_to_element": "DOJ invocation of NSPM-7 as basis for the arrests"
+      },
+      {
+        "type": "reporting",
+        "description": "The Appeal's reporting details that Erik Davis, chair of Macalester College's religious studies department, is charged despite prosecutors not accusing him of any violent act, specific protest action, or direct encounter with ICE agents -- the indictment instead cites a Signal message asking AFL-CIO-connected contacts to focus on the Whipple building, his role moderating organizing meetings, and his self-described anarchist views",
+        "source_url": "https://theappeal.org/minneapolis-ice-protest-indictment-crackdown-dissent/",
+        "maps_to_element": "At least one defendant charged without an allegation of personal violence"
+      },
+      {
+        "type": "reporting",
+        "description": "CBS Minnesota reports Davis's attorney believes federal investigators may have used a confidential informant to build the conspiracy case against the group",
+        "source_url": "https://www.cbsnews.com/minnesota/news/minnesota-anti-ice-protesters-federal-conspiracy-charges-informant/",
+        "maps_to_element": "Manner in which the conspiracy case was built"
+      },
+      {
+        "type": "reporting",
+        "description": "Reason magazine's analysis concludes the case 'has concerning First Amendment implications,' given the reliance on organizing activity, group membership, and ideology to establish conspiracy liability rather than evidence of the charged defendants' own violent conduct",
+        "source_url": "https://reason.com/2026/06/25/doj-case-against-minneapolis-antifa-groups-has-concerning-first-amendment-implications/",
+        "maps_to_element": "First Amendment freedom-of-association concerns"
+      }
+    ],
+    "status": "Indictment announced June 2026; prosecution ongoing as of this entry's addition, with pretrial proceedings underway. Davis faces up to six years in prison if convicted. No trial date confirmed in sourcing reviewed.",
+    "rebuttal_anticipated": "Likely defense: federal prosecutors have discretion to charge conspiracy based on an organizer's role in planning and directing a group's actions even without personal violence, and NSPM-7 reflects a legitimate policy judgment that organized, coordinated resistance to federal law enforcement operations (including at a facility housing federal agents and detainees) warrants a stronger prosecutorial response than isolated protest activity.",
+    "comeback": "The specific facts distinguishing this from ordinary conspiracy prosecution are that DOJ's own announcement invoked a presidential terrorism-adjacent memorandum rather than standard conspiracy statutes alone, that at least one charged defendant's cited conduct is limited to organizing-meeting participation, protest-logistics messaging, and political ideology rather than any act of violence, and that outside legal commentary across the ideological spectrum (including a libertarian-leaning outlet) has independently flagged First Amendment concerns with the theory of liability used.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the same broader pattern this tracker documents elsewhere (the Patel-driven conspiracy prosecutions of Comey/Brennan/Schiff/James, and DOJ's subpoenas of ICE critics and journalists) of using federal prosecutorial tools against organizers, critics, and reporters connected to stories or activity the administration finds embarrassing or oppositional, rather than reserving conspiracy charges for defendants tied to specific unlawful acts.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the underlying facts (the indictment, the specific charges, NSPM-7 being invoked, Davis's cited conduct) -- corroborated across multiple independent outlets spanning the ideological spectrum (Fox 9 local news, Common Dreams, The Appeal, CBS Minnesota, Reason). MODERATE confidence on the informant claim, which is attributed to defense counsel's belief rather than confirmed by prosecutors or independent reporting.",
+    "section_summaries": {
+      "incident_summary": "U.S. Attorney Daniel Rosen indicted 15 alleged Minneapolis antifa-linked organizers, invoking NSPM-7, on conspiracy and related charges tied to anti-ICE protests at the Whipple federal building; one defendant, a Macalester College professor, is charged based on organizing-meeting participation and political ideology rather than any accusation of personal violence.",
+      "confidence_note": "Core facts are well-corroborated across ideologically diverse outlets; the informant claim is defense counsel's belief, not independently confirmed."
+    }
+  },
+  {
     "official": "Marco Rubio, Secretary of State",
     "offense_category": "Federal Records Act Compliance / Candor to the Court -- Rubio's own legal team told a federal court he does not use Signal's auto-delete function, then roughly two months later Rubio personally activated disappearing messages in an official chat, and the State Department subsequently walked back its no-auto-delete claim -- NOT charged, contested facts, included for reference only",
     "incident_summary": "After The Atlantic revealed Rubio had participated in an auto-deleting Signal chat with other senior national-security officials discussing Yemen strike war plans (the chat at the center of this tracker's separate Hegseth Signal/Yemen entry), Democracy Forward sued for the underlying records under FOIA. In that litigation, a federal judge (Boasberg) sought assurances the Signal records had been preserved. Rubio's legal team told the court he uses software called LeapXpert, installed on his government phone as of July 21, 2025, that preserves 'all messages sent or received, regardless of whether the sender configures a message to auto-delete'; a State Department adviser stated separately that 'Secretary Rubio does not use the auto-deletion functions in third-party messaging applications when sending communications that may include federal records.' Approximately two months after those assurances were made to the court, Rubio activated disappearing-message settings in a Signal chat with senior officials discussing administration matters -- directly contradicting his own legal team's representation. Subsequently, as part of a broader settlement in which multiple State Department components disclosed their recordkeeping practices, the department quietly walked back its earlier claim, instead stating only that the LeapXpert application 'collected messages even if those messages otherwise have a deletion timeline setting enabled' -- an acknowledgment that Rubio does, in fact, use auto-delete, contrary to what the court had been told.",
@@ -3375,6 +3491,55 @@
     "section_summaries": {
       "incident_summary": "DOJ created and then abandoned a $1.776B fund -- originating from a settlement of Trump's own lawsuit against his executive branch -- that was widely understood as a vehicle to compensate January 6 defendants; Trump has refused to rule out compensating them by other means.",
       "confidence_note": "Well-corroborated across multiple independent outlets; the ultimate outcome of hundreds of individual rioter compensation claims remains an open, ongoing legal process."
+    }
+  },
+  {
+    "official": "Donald Trump, President",
+    "offense_category": "Pardon Power Used as Political/Financial Patronage -- no criminal charge implicated by the pardon itself; this tracks accountability for the timing and apparent quid pro quo pattern of the President's clemency decision",
+    "incident_summary": "President Trump pardoned Adam Kidan, a Republican megadonor convicted in the 2005 Jack Abramoff lobbying-and-fraud scandal (casino-boat fraud tied to illegal lobbying and bribery of public officials over Native American gaming interests, for which Kidan and Abramoff were sentenced to 70 months in prison and ordered to pay a combined $217 million in restitution), on July 3, 2026 -- three days after Kidan donated $2,600 to a leadership PAC affiliated with Rep. Ryan Mackenzie (R-PA). Trump had personally campaigned in Mackenzie's eastern Pennsylvania district on June 23, about a week before the donation. Mackenzie's office said the congressman did not speak with the White House or Trump about the pardon, but declined at first to say whether he would keep the donation; after the timing became public, Mackenzie returned it. The pardon is likely to erase Kidan's remaining restitution obligations from the original $217 million judgment.",
+    "contested": false,
+    "elements_required": [
+      "The President personally exercised the pardon power for a convicted political donor",
+      "The donation preceded the pardon by a short, specific, documented interval (three days)",
+      "The pardon followed the President's own campaign visit to the donation recipient's district shortly before the donation was made",
+      "The pardon relieves the recipient of a substantial, court-ordered financial obligation (restitution) in addition to the underlying conviction"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "NOTUS reporting establishes the specific timeline: Trump campaigned with Rep. Ryan Mackenzie in his Pennsylvania district on June 23, 2026; Kidan donated $2,600 to Mackenzie's leadership PAC on June 30; Trump pardoned Kidan on July 3, three days after the donation",
+        "source_url": "https://www.notus.org/pennsylvania/donald-trump-pardon-adam-kidan-ryan-mackenzie",
+        "maps_to_element": "Donation preceded the pardon by a short, documented interval"
+      },
+      {
+        "type": "public_record",
+        "description": "Spotlight PA reporting confirms Kidan's 2005 Abramoff-scandal conviction, the $217 million combined restitution order against Kidan and Abramoff, and that Mackenzie's office denied discussing the pardon with the White House while initially declining to say whether it would keep the donation",
+        "source_url": "https://www.spotlightpa.org/news/2026/07/adam-kidan-pardon-trump-ryan-mackenzie-house-bob-brooks-federal-government/",
+        "maps_to_element": "Pardon relieves a substantial court-ordered restitution obligation"
+      },
+      {
+        "type": "public_record",
+        "description": "NOTUS follow-up reporting confirms Rep. Mackenzie returned Kidan's donation after the timing between the donation and the pardon was reported",
+        "source_url": "https://www.notus.org/pennsylvania/ryan-mackenzie-donation-pardon-donald-trump",
+        "maps_to_element": "Congressional recipient's response to the reported timing"
+      },
+      {
+        "type": "reporting",
+        "description": "The Daily Beast's reporting frames the pardon as following days after Kidan's gift to Mackenzie, part of a broader pattern of clemency decisions benefiting political and financial allies",
+        "source_url": "https://www.thedailybeast.com/trump-pardons-megadonor-adam-kidan-days-after-gift-to-maga-rep-ryan-mackenzie/",
+        "maps_to_element": "Pattern characterization"
+      }
+    ],
+    "status": "Pardon issued and final as of July 3, 2026; no legal mechanism exists to reverse a presidential pardon. Rep. Mackenzie has returned the donation. No congressional or DOJ Inspector General inquiry into the pardon's circumstances identified in sourcing reviewed as of this entry's addition.",
+    "rebuttal_anticipated": "Likely defense: presidents have unreviewable constitutional pardon power, the donation was a routine political contribution below the amount likely to constitute an explicit quid pro quo under bribery statutes, and correlation in timing between a donation and a pardon does not by itself prove the two were causally connected.",
+    "comeback": "The specific facts distinguishing this from an ordinary pardon are the tight, documented three-day window between donation and clemency, the President's own campaign visit to the donation recipient's district immediately beforehand, and the fact that the recipient congressman's office would not initially commit to keeping or returning the money -- only doing so after the timing was reported. No source has offered an alternative account of Kidan's clemency case (such as a claim of actual innocence, cooperation, or age/health factors) that would explain the pardon's timing independent of the donation.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern of this administration's pardon power benefiting donors, political allies, and supporters rather than being reserved for cases involving claims of wrongful conviction, excessive sentencing, or demonstrated rehabilitation.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the donation date, pardon date, and campaign-visit date are independently corroborated across multiple outlets (NOTUS, Spotlight PA, Daily Beast), and Mackenzie's office's own responses (declining then reversing course on the donation) are on the record rather than disputed.",
+    "section_summaries": {
+      "incident_summary": "Trump pardoned Abramoff-scandal felon and GOP megadonor Adam Kidan three days after Kidan donated to a leadership PAC for a congressman Trump had just campaigned for, erasing a $217 million restitution obligation; the congressman later returned the donation once the timing became public.",
+      "confidence_note": "Donation, campaign-visit, and pardon dates are independently corroborated across multiple outlets and not disputed by any party involved."
     }
   },
   {
