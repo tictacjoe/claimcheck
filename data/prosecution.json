@@ -3467,6 +3467,49 @@
   },
   {
     "official": "Kash Patel, FBI Director",
+    "offense_category": "Personal Use of Government Aircraft for Recreational Travel, Contradicted by the Stated Official Justification -- raises questions about resource use and candor rather than alleging a specific statutory violation",
+    "incident_summary": "FBI Director Kash Patel traveled to Milan, Italy on a government jet during the 2026 Winter Olympics and was recorded in a roughly 45-second video celebrating in the U.S. men's hockey team's locker room after their gold-medal win over Canada, drinking beer, singing along to a Toby Keith song, and having a gold medal draped around his neck. When questioned by media, Patel said he was 'extremely humbled' that his 'friends' on the team invited him to celebrate, and separately defended the trip as an official visit to meet with Italian law enforcement to help provide security for American athletes and fans. President Trump told Patel directly that he was displeased both with the viral locker-room video and with Patel's use of a government jet for the trip. CNN's follow-up reporting examined the FBI jet-use controversy and the practical constraints (security, communications needs) that shape how FBI directors typically travel.",
+    "contested": true,
+    "elements_required": [
+      "Patel used a government aircraft to travel to an event (the Winter Olympics hockey final) with a documented recreational/celebratory dimension, not solely an official law-enforcement purpose",
+      "Patel's own public response emphasized the personal, celebratory nature of the visit ('my friends,' being 'humbled' to join the celebration) before pivoting to the official security-liaison justification",
+      "President Trump himself -- not merely outside critics -- expressed direct displeasure with both the celebratory video and the jet usage",
+      "The stated official justification (meeting Italian law enforcement for athlete/fan security) is not independently verified in sourcing reviewed as the primary purpose of the trip, as opposed to a post-hoc rationale"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "CNN's and NBC News's reporting document the video's contents (Patel drinking beer, singing, receiving a gold medal in the locker room), and Patel's own public statement addressing it",
+        "source_url": "https://www.cnn.com/2026/02/22/politics/kash-patel-team-usa-hockey-locker-room",
+        "maps_to_element": "The recreational/celebratory nature of the trip and Patel's own characterization of it"
+      },
+      {
+        "type": "public_record",
+        "description": "NBC News's follow-up reporting confirms Trump personally told Patel he was displeased with both the viral video and his use of the government jet to travel to Italy",
+        "source_url": "https://www.nbcnews.com/politics/trump-administration/trump-fbi-director-kash-patel-olympics-hijinks-rcna260835",
+        "maps_to_element": "President Trump's own direct disapproval of the trip and jet use"
+      },
+      {
+        "type": "reporting",
+        "description": "CNN's dedicated reporting on Patel's FBI jet use explains the practical security/communications constraints on FBI-director travel generally, providing context for evaluating whether the trip's justification was adequate",
+        "source_url": "https://www.cnn.com/2026/02/24/politics/kash-patel-fbi-jet-use-explained",
+        "maps_to_element": "Context on FBI-director travel constraints and jet-use norms"
+      }
+    ],
+    "status": "Resolved as a controversy -- no formal disciplinary or ethics finding against Patel was identified in sourcing reviewed; Trump's disapproval was expressed directly and personally but did not result in a reported personnel consequence.",
+    "rebuttal_anticipated": "Likely defense: FBI directors typically must travel via secure government aircraft regardless of destination for security and continuous-communications reasons, meeting with Italian law enforcement to help secure American athletes and fans at a major international event is a legitimate official function, and briefly celebrating with medal-winning American athletes is not itself improper.",
+    "comeback": "The specific concern is less the jet use in isolation -- which CNN's own reporting notes has practical justifications for FBI directors generally -- than the sequencing and framing of Patel's own public response, which led with the personal/celebratory rationale ('my friends,' being 'humbled') before the official security-liaison justification was offered, and that the President himself, not merely outside critics, found the optics and jet use inappropriate.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] An individual official-conduct matter concerning resource use and public messaging judgment, not directly connected to this tracker's broader institutional patterns.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the video, Patel's own public statement, and Trump's direct expression of displeasure are all independently corroborated across CNN, NBC News, and The Hill, including direct quotations from Patel and sourced reporting on Trump's reaction.",
+    "section_summaries": {
+      "incident_summary": "FBI Director Patel used a government jet to attend the Winter Olympics hockey final in Milan and was recorded celebrating in the team's locker room; Trump personally told him he was displeased with both the video and the jet use, though no formal consequence was reported.",
+      "confidence_note": "Well-corroborated across multiple outlets including Patel's own public statement and sourced reporting on Trump's direct reaction."
+    }
+  },
+  {
+    "official": "Kash Patel, FBI Director",
     "offense_category": "Press Freedom / Politicization of Federal Law Enforcement -- FBI Director personally directing a criminal leak investigation from the White House at presidential direction, rather than through normal DOJ/FBI process insulated from political control",
     "incident_summary": "After the New York Times reported security concerns about President Trump's new Qatari-donated Air Force One (specifically, that Trump left a NATO summit in Turkey aboard the older presidential aircraft over Secret Service security concerns with the new plane), the White House directed FBI Director Kash Patel to personally oversee a leak investigation into the Times's sourcing. Patel canceled a scheduled trip to Chicago and spent approximately eight hours at the White House itself -- not FBI headquarters -- personally running the investigation. On Friday, July 11, 2026, the investigation produced grand jury subpoenas to multiple New York Times reporters, with federal agents delivering some subpoenas directly to journalists' homes. Legal observers described the White House directing and hosting an FBI leak investigation as a major departure from the decades-old norm of insulating criminal investigations from direct political control.",
     "contested": false,
