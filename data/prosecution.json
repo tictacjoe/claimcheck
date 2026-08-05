@@ -1125,6 +1125,92 @@
     }
   },
   {
+    "official": "Pam Bondi, then-Attorney General (served 2025-2026, removed April 2026) / DOJ leadership",
+    "offense_category": "DOJ Moving to Erase a Political Ally's Criminal Conviction for Defying Congressional Oversight -- a discretionary prosecutorial decision benefiting a Trump ally, analogous in kind to this tracker's pardon-power entry (trump-kidan-donor-pardon-2026.json) though achieved through case dismissal rather than clemency",
+    "incident_summary": "In February 2026, DOJ moved to dismiss Steve Bannon's 2022 criminal contempt-of-Congress conviction for defying a lawful subpoena from the House January 6 committee, arguing dismissal was 'in the interests of justice.' A jury had convicted Bannon on two counts in July 2022; he served prison time and paid a $6,500 fine. DOJ's motion proceeded through the courts over the following months, and in April 2026 the Supreme Court cleared the path for the conviction's dismissal, vacating the underlying contempt ruling and remanding for DOJ's requested dismissal. Bannon, a former senior Trump adviser and ally, had been one of the most prominent defendants prosecuted for defying the House's Jan. 6 investigation.",
+    "contested": true,
+    "elements_required": [
+      "DOJ affirmatively sought to dismiss a final, jury-convicted criminal case rather than merely declining to bring a similar future case",
+      "The conviction was for defying a lawful congressional subpoena -- itself a mechanism for enforcing legislative oversight -- which the dismissal effectively nullifies as a deterrent",
+      "The beneficiary, Steve Bannon, is a prominent ally of President Trump, distinguishing this from a case-specific legal-merits reassessment unconnected to political relationships",
+      "DOJ's stated 'interests of justice' rationale was not accompanied by a specific factual or legal defect in the original conviction identified in sourcing reviewed"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "ABC News's reporting confirms DOJ's motion asking the court to dismiss the Jan. 6 contempt case against Bannon, stating dismissal was 'in the interests of justice,' and recaps the July 2022 jury conviction, prison time served, and $6,500 fine",
+        "source_url": "https://abcnews.go.com/US/doj-asks-judge-toss-jan-6-contempt-case/story?id=130008378",
+        "maps_to_element": "DOJ's affirmative motion to dismiss the final conviction and its stated rationale"
+      },
+      {
+        "type": "public_record",
+        "description": "The Washington Post's reporting confirms the Supreme Court sided with Bannon in April 2026, clearing the path for DOJ's requested dismissal of the conviction",
+        "source_url": "https://www.washingtonpost.com/politics/2026/04/06/supreme-court-steve-bannon-conviction/",
+        "maps_to_element": "Ultimate outcome -- the conviction's dismissal proceeding to completion"
+      },
+      {
+        "type": "reporting",
+        "description": "NOTUS reporting situates the dismissal motion within DOJ leadership under Jeanine Pirro, connecting it to the broader pattern of DOJ prosecutorial decisions favoring Trump allies",
+        "source_url": "https://www.notus.org/courts/doj-dismiss-steve-bannon-contempt-of-congress-case-jeanine-pirro",
+        "maps_to_element": "Pattern characterization -- DOJ leadership's role in the decision"
+      }
+    ],
+    "status": "Resolved as of April 2026 -- the Supreme Court vacated the underlying contempt ruling and remanded for DOJ's requested dismissal, effectively erasing Bannon's conviction.",
+    "rebuttal_anticipated": "Likely defense: DOJ has broad prosecutorial discretion to reassess past cases, including on separation-of-powers or legal-sufficiency grounds that may not require detailed public explanation, and the Supreme Court's own decision to clear the path for dismissal indicates the Court found the underlying legal question at least colorable rather than DOJ acting alone on political grounds.",
+    "comeback": "The specific fact pattern distinguishing this from an ordinary discretionary reassessment is that DOJ sought to erase a final, jury-convicted case -- not decline a future prosecution -- for a prominent ally of the President, without DOJ's motion identifying a specific new legal or factual defect in the original 2022 conviction in the reporting reviewed; the practical effect is to remove any consequence for defying a House investigative subpoena in this particular, politically significant instance.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DOJ prosecutorial and clemency power being used to benefit Trump allies and donors (see also trump-kidan-donor-pardon-2026.json), here achieved through case dismissal rather than a pardon.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the DOJ motion, its stated rationale, and the Supreme Court's April 2026 ruling clearing the path for dismissal are all independently corroborated by ABC News, The Washington Post, Fox News, and NOTUS, with no facts disputed by any party.",
+    "section_summaries": {
+      "incident_summary": "DOJ moved to dismiss Steve Bannon's jury-convicted Jan. 6 contempt-of-Congress conviction as 'in the interests of justice,' and the Supreme Court cleared the path for that dismissal in April 2026, erasing the consequence for a prominent Trump ally's defiance of a House subpoena.",
+      "confidence_note": "The motion, its rationale, and the Supreme Court's ruling are all independently corroborated and undisputed by any party."
+    }
+  },
+  {
+    "official": "Pam Bondi, then-Attorney General / Kash Patel, FBI Director",
+    "offense_category": "Non-Compliance With a Statutory Deadline for Epstein-File Disclosure, Alongside FBI Compilation of Unverified Allegations Against Other Prominent Figures -- raises accountability concerns distinct from any single named individual's conduct within the files themselves",
+    "incident_summary": "The Epstein Files Transparency Act required DOJ to produce its Epstein/Maxwell-related files by December 19, 2025; DOJ said the process was delayed by the volume of material and the need to redact survivors' personal information. Following the broadly-criticized rollout of a partial release ('The Epstein Files: Part 1') on February 27, 2025, Attorney General Bondi directed the FBI to deliver the complete files within 24 hours and ordered FBI Director Kash Patel to produce a comprehensive report within 14 days; as of the reporting reviewed, 74 days had passed since that directive without the report's release. Separately, as pressure mounted for full disclosure, CNN reported that FBI employees assembled a 21-slide internal presentation compiling what one employee described as 'salacious statements' about 13 prominent men in Epstein's orbit -- including Donald Trump, Bill Clinton, Prince Andrew (Mountbatten-Windsor), Leon Black, and Harvey Weinstein -- drawn from unverified allegations in the investigative files. DOJ ultimately released more than 3 million pages of documents and photos, including the 21-slide presentation itself, as part of the broader disclosure.",
+    "contested": true,
+    "elements_required": [
+      "DOJ missed the Epstein Files Transparency Act's statutory December 19, 2025 production deadline, citing volume and redaction needs",
+      "AG Bondi's own internal 24-hour and 14-day deadlines to FBI leadership were also missed by a substantial margin (74+ days as of the reporting reviewed)",
+      "FBI employees, separately, compiled a presentation summarizing unverified 'salacious' allegations against named prominent individuals -- material distinct from the court-ordered disclosure process and not itself vetted for accuracy",
+      "The presentation and the delayed disclosure process both occurred under the same DOJ/FBI leadership responsible for the statutory compliance timeline"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "CNN's reporting confirms FBI employees compiled a 21-slide presentation with unverified allegations against 13 prominent men including Trump, Clinton, Prince Andrew, Leon Black, and Harvey Weinstein, drawn from the Epstein investigative files, while pressure mounted for the files' release",
+        "source_url": "https://www.cnn.com/2026/02/09/politics/epstein-files-fbi-employees-presentation-prominent-names",
+        "maps_to_element": "FBI's compilation of unverified allegations against named prominent individuals"
+      },
+      {
+        "type": "public_record",
+        "description": "Reporting confirms the Epstein Files Transparency Act's December 19, 2025 statutory deadline was missed, that AG Bondi subsequently gave FBI a 24-hour production order and Director Patel a 14-day reporting deadline following the criticized February 27, 2025 partial release, and that 74 days had passed without the report's release as of the reporting reviewed",
+        "source_url": "https://goldman.house.gov/media/press-releases/rep-dan-goldman-demands-ag-bondi-release-promised-jeffrey-epstein-files-share",
+        "maps_to_element": "Non-compliance with both the statutory deadline and DOJ's own internal deadlines"
+      },
+      {
+        "type": "public_record",
+        "description": "CBS News's live coverage confirms DOJ ultimately released more than 3 million pages of documents and photos in the Epstein files disclosure",
+        "source_url": "https://www.cbsnews.com/live-updates/epstein-files-released-doj-2026/",
+        "maps_to_element": "Eventual scope of the disclosure once it occurred"
+      }
+    ],
+    "status": "Files were ultimately released (over 3 million pages, including the 21-slide presentation) as of the reporting reviewed; no independent finding on the presentation's intended use, or formal accountability action for the missed statutory and internal deadlines, was identified in sourcing reviewed as of this entry's addition.",
+    "rebuttal_anticipated": "Likely defense: producing and redacting millions of pages of sensitive material involving crime survivors is a genuinely difficult logistical task justifying delay beyond a fixed statutory deadline, and FBI compiling a summary of allegations found within investigative files -- even about prominent figures -- is a standard step in processing material for potential release or referral, not evidence of improper intent.",
+    "comeback": "The specific concern is not solely the delay's length but its combination with a bespoke internal presentation summarizing unverified 'salacious' allegations against named prominent figures -- material that, if selectively leaked or withheld rather than processed evenhandedly, would function as leverage rather than transparency; the same DOJ leadership responsible for the statutory deadline missed its own self-imposed 24-hour and 14-day deadlines by a wide margin without a public accounting.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of DOJ/FBI leadership under this administration exercising selective, discretionary control over the release and use of sensitive investigative material (see also the Ed Martin grand-jury-leak and Blanche/Patel journalist-subpoena entries).",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the core facts (the statutory deadline, the missed internal deadlines, the presentation's existence and contents) -- corroborated by CNN's direct reporting on the presentation and congressional correspondence documenting the missed deadlines. MODERATE confidence on any characterization of intent behind the presentation's creation, since no source confirms its intended use beyond internal compilation.",
+    "section_summaries": {
+      "incident_summary": "DOJ missed both the statutory Epstein-files disclosure deadline and its own internal 24-hour/14-day follow-up deadlines by months, while FBI employees separately compiled a presentation of unverified allegations against 13 prominent men including Trump and Clinton, before over 3 million pages were eventually released.",
+      "confidence_note": "Core facts are well-corroborated by CNN's direct reporting and congressional correspondence; the presentation's intended use is not independently confirmed."
+    }
+  },
+  {
     "official": "Justice Department political appointees (individuals not named in reporting reviewed), under Attorney General Pam Bondi",
     "offense_category": "Halting a Criminal Investigation Into Alleged Improper Payments Connected to a Presidential Clemency Grant -- no charges have been filed against anyone involved, and the investigation itself was shut down before reaching a conclusion",
     "contested": true,
@@ -2315,6 +2401,55 @@
   },
   {
     "official": "Howard Lutnick, Secretary of Commerce",
+    "offense_category": "Public Misrepresentation of Ties to Jeffrey Epstein by a Sitting Cabinet Secretary -- no criminal charge implicated; this tracks accountability for the apparent contradiction between Lutnick's public statements and the documentary record",
+    "incident_summary": "Commerce Secretary Howard Lutnick previously stated he cut ties with Jeffrey Epstein, his former neighbor, in 2005 and described their interactions as 'limited.' Epstein files released by DOJ in early 2026 show Lutnick and Epstein were in business together as recently as 2014: the two signed on behalf of limited liability companies in a December 2012 agreement to jointly acquire stakes in a now-shuttered advertising technology company, Adfin. The files also show the two had a 2012 lunch on Epstein's private island, that Lutnick communicated with Epstein through Epstein's assistant as recently as 2018, and that business-related correspondence connected to Adfin and Cantor Fitzgerald's venture-capital arm (where Lutnick served as Chairman and CEO) continued between Epstein, his associates, and Cantor-linked entities into at least 2014. Both Republican and Democratic lawmakers raised concerns following the disclosure; Rep. Thomas Massie and the top Oversight Committee Democrat both called for Lutnick's resignation, citing what they characterized as lying about the ties. Lutnick was subsequently questioned by the House Oversight Committee in May 2026.",
+    "contested": true,
+    "elements_required": [
+      "Lutnick made a specific, public claim about when his relationship with Epstein ended (2005) and its limited nature",
+      "Contemporaneous documentary evidence (signed business agreements, correspondence) shows business dealings and contact continuing through at least 2014, and communication through an intermediary as late as 2018",
+      "The contradiction was significant enough to draw formal concern and resignation calls from members of both parties, not solely partisan critics",
+      "Lutnick was a sitting Cabinet secretary at the time the contradicting documents became public, distinguishing this from a private citizen's past associations"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "CBS News's reporting on the released Epstein files documents the December 2012 Adfin acquisition agreement signed by entities representing Lutnick and Epstein, the 2012 island lunch, contact through Epstein's assistant as late as 2018, and continuing Cantor Fitzgerald-linked correspondence into at least 2014 -- directly contradicting Lutnick's stated 2005 cutoff",
+        "source_url": "https://www.cbsnews.com/news/howard-lutnick-jeffrey-epstein-in-business-together/",
+        "maps_to_element": "Documentary contradiction of Lutnick's public 2005-cutoff claim"
+      },
+      {
+        "type": "public_record",
+        "description": "The Hill's reporting confirms Republican senators, not only Democrats, raised concerns over the Epstein ties following the disclosure",
+        "source_url": "https://thehill.com/homenews/senate/5738208-republican-senators-lutnick-epstein/",
+        "maps_to_element": "Bipartisan nature of the concern"
+      },
+      {
+        "type": "public_record",
+        "description": "Fox News reporting confirms Rep. Thomas Massie and the top House Oversight Committee Democrat both publicly called for Lutnick's resignation, characterizing his prior statements as lying about the ties",
+        "source_url": "https://www.foxnews.com/politics/massie-top-oversight-democrat-call-secretary-lutnick-resign-lying-about-alleged-epstein-ties.amp",
+        "maps_to_element": "Formal, cross-partisan resignation calls citing the misrepresentation"
+      },
+      {
+        "type": "public_record",
+        "description": "NPR's reporting confirms Lutnick was subsequently questioned by the House Oversight Committee about his Epstein ties in May 2026",
+        "source_url": "https://www.npr.org/2026/05/06/nx-s1-5814081/howard-lutnick-epstein-files-house-oversight-committee",
+        "maps_to_element": "Formal congressional follow-up"
+      }
+    ],
+    "status": "Ongoing as of this entry's addition -- Lutnick remained in his position as Commerce Secretary following the May 2026 House Oversight Committee questioning; no resignation, removal, or further formal finding identified in sourcing reviewed.",
+    "rebuttal_anticipated": "Likely defense: business dealings between two people do not establish knowledge of or complicity in Epstein's crimes, Lutnick's 'limited interactions' characterization may be defensible depending on the frequency and substance of the contact rather than its mere existence, and Lutnick has downplayed rather than fully denied continued contact.",
+    "comeback": "The specific discrepancy is not merely that contact occurred, but that Lutnick's public 2005-cutoff claim is directly and specifically contradicted by dated business agreements, correspondence, and a documented island visit extending nearly a decade past his stated cutoff -- a factual misrepresentation distinguishable from a defensible characterization dispute, which is why the resignation calls came from members of both parties rather than being a purely partisan reaction.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern of administration officials' pre-appointment associations with Epstein surfacing after DOJ's court-mandated release of Epstein-related files, distinct from any claim that Lutnick was involved in Epstein's underlying crimes.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the documentary contradiction itself (CBS News's reporting is based on the released files directly) and on the bipartisan concern it generated. MODERATE confidence on how to characterize Lutnick's culpability, since 'limited interactions' is a characterization dispute in addition to a facts dispute, and no independent body has yet made a formal finding of dishonesty as opposed to Lutnick's critics' characterization.",
+    "section_summaries": {
+      "incident_summary": "Newly released Epstein files show Commerce Secretary Lutnick was in business with Epstein and in contact with him as late as 2018, directly contradicting Lutnick's public claim that he cut ties in 2005; lawmakers from both parties, including some Republicans, called for his resignation.",
+      "confidence_note": "The documentary contradiction is well-sourced to the released files themselves; how to characterize Lutnick's culpability beyond the factual discrepancy remains contested."
+    }
+  },
+  {
+    "official": "Howard Lutnick, Secretary of Commerce",
     "offense_category": "Federal Conflict of Interest (18 U.S.C. §208(a), prohibiting personal and substantial participation in government matters affecting the financial interests of organizations with which the official is associated; also 5 C.F.R. §2635.702, prohibiting use of public office for private gain) — NOT charged; requests for Office of Government Ethics and Acting Inspector General investigations have been made by congressional Democrats but no completed investigation or finding identified",
     "incident_summary": "On January 26, 2026, the Commerce Department announced a tentative $1.6 billion deal with critical-minerals startup USA Rare Earth (USAR), extending up to $277 million in direct funding and $1.3 billion in loans while acquiring roughly a 10% equity stake. On the same day, USAR announced it had separately raised $1.5 billion in private funding with Cantor Fitzgerald -- Lutnick's former firm, now chaired by his son Brandon, with another son Kyle as executive vice chairman -- serving as lead placement agent and earning a fee. Lutnick had publicly touted the deal and reportedly was personally involved, including meeting with USAR's CEO in November 2025.",
     "contested": false,
@@ -2464,15 +2599,21 @@
         "description": "MSNBC's coverage situates the Mizelle/Miller exchange within the context of AUSAs' traditional nonpartisan role, distinct from DOJ's political appointees, and frames it as departing from that norm",
         "source_url": "https://www.ms.now/deadline-white-house/deadline-legal-blog/stephen-miller-federal-prosecutors-mizelle",
         "maps_to_element": "AUSA positions' traditional nonpartisan role as the baseline the call departs from"
+      },
+      {
+        "type": "public_record",
+        "description": "The New York Times reported that DOJ has lost 21% of its attorneys (more than 2,600 lawyers) in 16 months and about 5,500 employees overall since the start of Trump's second term, and that support for the President has become an unusual and unprecedented prerequisite for career employees -- with the Times noting this dynamic appears to be contributing to the same staffing shortages Mizelle's recruitment call was intended to solve",
+        "source_url": "https://www.nytimes.com/2026/02/07/us/politics/doj-prosecutors-recruiting-trump.html",
+        "maps_to_element": "Downstream recruitment/retention impact of loyalty-screened hiring"
       }
     ],
-    "status": "The call itself was a public solicitation, not a documented formal hiring-policy change; no confirmed data on whether it resulted in a measurable shift in AUSA hiring outcomes was identified in sourcing reviewed as of this entry's addition.",
+    "status": "The call itself was a public solicitation; The New York Times subsequently reported concrete downstream data showing DOJ has shed 21% of its attorneys -- more than 2,600 lawyers -- in the 16 months since, and about 5,500 total employees have left through firings, resignations, or retirements since the start of Trump's second term, with the Times reporting the loyalty-screened recruitment approach itself contributing to the very staffing shortages Mizelle's call was meant to address.",
     "rebuttal_anticipated": "Likely defense: soliciting applicants who share the administration's general political outlook is not the same as excluding qualified candidates who don't, career hiring processes (background checks, bar standing, interview panels) remain formally in place regardless of who is encouraged to apply, and prior administrations have also been accused, at times, of favoring ideologically sympathetic hires within legal limits.",
     "comeback": "The specific language used -- explicitly conditioning the invitation on support for the President personally, rather than general qualifications or even broad philosophical alignment -- and its amplification by a senior White House official using loyalty-coded language ('Patriots needed') is a more explicit and public break from the norm that AUSA hiring should be conducted apolitically than prior administrations' informal, unstated preferences; the concern is not merely optics but that a senior adviser with continuing access to the Attorney General offered to personally help such applicants secure positions.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DOJ leadership eroding the traditional independence of career prosecutorial staff (see also the Patel-driven prosecution-campaign entry and the Minnesota U.S. Attorney's Office exodus entries), here extending the pattern from removing existing career staff to explicitly recruiting replacements on a political-loyalty basis.",
     "last_updated": "2026-08-05",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence on the core facts (Mizelle's post, its content and timing, Miller's amplification) -- corroborated across ABC News, Newsweek, and MSNBC, with the underlying social media posts themselves being the primary source rather than characterization. MODERATE confidence on downstream impact, since no source confirms whether the call actually changed hiring outcomes at DOJ.",
+    "confidence_note": "HIGH confidence on the core facts (Mizelle's post, its content and timing, Miller's amplification) -- corroborated across ABC News, Newsweek, and MSNBC, with the underlying social media posts themselves being the primary source rather than characterization. MODERATE confidence on downstream impact, since no source confirms whether the call actually changed hiring outcomes at DOJ. The New York Times' follow-up reporting on DOJ's 21% attorney attrition and 5,500 total departures is HIGH confidence, independently sourced DOJ personnel data, not merely characterization.",
     "section_summaries": {
       "incident_summary": "Former DOJ chief of staff Chad Mizelle publicly urged Trump-supporting lawyers to apply for career federal prosecutor jobs and offered to help them get hired; White House Deputy Chief of Staff Stephen Miller amplified it with 'Patriots needed' within the hour, prompting warnings that explicitly loyalty-screening supposedly nonpartisan career prosecutor hiring could erode DOJ's traditional independence.",
       "confidence_note": "Core facts are directly sourced from the officials' own public posts and corroborated across multiple outlets; whether it changed actual hiring outcomes is not confirmed by any source."
