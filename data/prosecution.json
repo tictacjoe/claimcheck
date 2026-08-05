@@ -776,6 +776,55 @@
     }
   },
   {
+    "official": "Pam Bondi, then-Attorney General / Todd Blanche, Deputy Attorney General",
+    "offense_category": "Removal of an Aggressive Antitrust Enforcer Following White House Pressure Tied to a Presidential Pardon of a DOJ Antitrust Target -- raises accountability concerns about enforcement independence rather than alleging a specific criminal violation",
+    "incident_summary": "Abigail (Gail) Slater, Assistant Attorney General for the DOJ's Antitrust Division, was forced out in February 2026 after roughly a year leading the division, during which she pursued aggressive antitrust enforcement. Friction with the White House had been building for months: in December 2025, Trump issued a 'full and unconditional pardon' for Oak View Group co-founder Tim Leiweke, who had been indicted by Slater's own division earlier in 2025 -- undercutting an active enforcement action from within her own department. She had also lost the confidence of AG Bondi and Deputy AG Blanche, with a source telling reporters officials felt new leadership was needed to advance the President's agenda; a separate travel-rules dispute (an unauthorized trip to a Paris conference) led DOJ to cut off Slater's government credit card access. Slater suggested in a public post that she was leaving voluntarily, but CNN's sourcing characterized the departure as a firing. Bondi publicly thanked Slater for her service; DOJ named Omeed Assefi acting antitrust chief. House Judiciary Democrats sent a formal letter to Bondi regarding the Antitrust Division following Slater's departure.",
+    "contested": true,
+    "elements_required": [
+      "Slater pursued active antitrust enforcement, including an indictment against Tim Leiweke, during her roughly one-year tenure",
+      "Trump personally pardoned Leiweke -- a target of an active case brought by Slater's own division -- in December 2025, directly undercutting her enforcement work",
+      "Slater's departure followed sustained friction with DOJ leadership (Bondi, Blanche) and the White House, with sourcing describing it as a firing rather than the voluntary departure her own public statement suggested",
+      "Congressional Democrats found the circumstances significant enough to formally request information from Bondi about the Antitrust Division following the departure"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "CNN's original reporting, based on multiple sources, confirms Slater was fired after months of friction with Bondi and the White House, despite her own public suggestion she was leaving voluntarily",
+        "source_url": "https://www.cnn.com/2026/02/12/politics/doj-antitrust-chief-fired",
+        "maps_to_element": "The departure itself and the dispute over its voluntary/involuntary characterization"
+      },
+      {
+        "type": "public_record",
+        "description": "CBS News's reporting confirms Trump's December 2025 pardon of Tim Leiweke, a target of Slater's own division's indictment, as a specific point of friction, and confirms the Paris travel dispute that led DOJ to cut off Slater's government credit card access",
+        "source_url": "https://www.cbsnews.com/news/abigail-slater-out-as-dojs-anti-trust-chief/",
+        "maps_to_element": "Presidential pardon undercutting Slater's own enforcement action; specific internal friction points"
+      },
+      {
+        "type": "public_record",
+        "description": "Bondi's public statement thanking Slater for her service and DOJ's naming of Omeed Assefi as acting antitrust chief are confirmed in CBS News's reporting",
+        "source_url": "https://www.washingtontimes.com/news/2026/feb/12/abigail-slater-doj-antitrust-chief-steps/",
+        "maps_to_element": "Official DOJ response and immediate leadership succession"
+      },
+      {
+        "type": "public_record",
+        "description": "House Judiciary Committee Democrats' formal letter to Attorney General Bondi regarding the Antitrust Division, sent shortly after Slater's departure",
+        "source_url": "https://democrats-judiciary.house.gov/sites/evo-subsites/democrats-judiciary.house.gov/files/evo-media-document/2026-02-25-raskin-nadler-to-bondi-doj-re-antitrust-division.pdf",
+        "maps_to_element": "Congressional oversight response to the departure"
+      }
+    ],
+    "status": "Resolved as a personnel matter -- Slater departed and Omeed Assefi was named acting antitrust chief. Congressional Democrats' oversight letter's outcome was not confirmed in sourcing reviewed as of this entry's addition.",
+    "rebuttal_anticipated": "Likely defense: the President has broad discretion over DOJ leadership and pardon decisions, disagreements over enforcement philosophy and department travel-rule compliance are legitimate, non-corrupt reasons for a leadership change, and Slater's own public statement suggested a voluntary departure rather than a forced removal.",
+    "comeback": "The specific sequence -- an active, White-House-approved-until-suddenly-not-approved enforcement posture, followed directly by a presidential pardon of the division's own indicted defendant, followed by the enforcement chief's departure amid reported loss of confidence from DOJ leadership -- suggests enforcement independence being subordinated to the White House's broader business/political relationships, distinguishable from an ordinary personnel or policy disagreement.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DOJ leadership positions being reshuffled when officials pursue enforcement or investigative paths that conflict with the White House's political or business relationships (see also the Ed Martin and Mizelle entries).",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the core sequence (Slater's tenure, the Leiweke pardon, the departure, DOJ's official response) -- corroborated across CNN, CBS News, and Washington Times, with CBS News's reporting including specific detail (the Paris credit-card dispute) not attributed to anonymous sourcing alone. MODERATE confidence on characterizing the departure as strictly involuntary, since Slater's own public statement suggested otherwise even as sourced reporting described a firing.",
+    "section_summaries": {
+      "incident_summary": "DOJ Antitrust chief Gail Slater was forced out after Trump pardoned a target of her own division's indictment and she lost the confidence of Bondi and Blanche, despite her own public statement suggesting a voluntary departure.",
+      "confidence_note": "The core sequence is well-corroborated across multiple outlets; whether the departure was strictly involuntary is disputed between sourced reporting and Slater's own public statement."
+    }
+  },
+  {
     "official": "Andrew Boutros, U.S. Attorney for the Northern District of Illinois",
     "offense_category": "Prosecutorial Misconduct in Grand Jury Proceedings -- U.S. Attorney personally confirmed the misconduct and dismissed all charges; contested as to individual prosecutor culpability versus office-wide accountability, but the misconduct finding itself is not disputed by DOJ",
     "contested": false,

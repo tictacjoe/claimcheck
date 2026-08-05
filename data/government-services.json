@@ -7299,6 +7299,69 @@
     "last_updated": "2026-07-27"
   },
   {
+    "id": "third-country-deportations-cost-2026",
+    "title": "DHS Spent at Least $40 Million to Deport ~300 Migrants to Third Countries With No Connection to Them",
+    "institution": "Department of Homeland Security / Department of State",
+    "domain": "funding_redirection",
+    "status": "Ongoing practice as of this entry's addition -- the Senate Foreign Relations Committee Democratic staff report was published Feb. 2026; no administration response confirmed in sourcing reviewed",
+    "date_of_action": "2025-2026 (practice expanded over the prior year per the report)",
+    "what_changed": "A Senate Foreign Relations Committee Democratic staff report found the Trump administration spent at least $40 million to deport roughly 300 migrants to third countries -- nations other than their own, where they typically have no prior connection -- rather than to their countries of origin, as immigration officials expanded the practice over the prior year. The report identified lump-sum payments ranging from $4.7 million to $7.5 million made to five countries (Equatorial Guinea, Rwanda, El Salvador, Eswatini, and Palau) in exchange for accepting deportees; El Salvador received roughly 250 Venezuelan nationals, while the other four countries received far fewer (as few as 29 to Equatorial Guinea, and none confirmed sent to Palau as of the report). Separate reporting on the same underlying data found some individual deportations cost as much as $1 million each. Sen. Jeanne Shaheen, the committee's top Democrat, characterized the practice as 'the epitome' of 'fraud, waste, and abuse.'",
+    "primary_proponent": {
+      "name": "Department of Homeland Security / Department of State",
+      "role": "Agencies negotiating and executing the third-country deportation agreements and lump-sum payments",
+      "note": "The administration's rationale (removing migrants whose home countries refuse repatriation) is a genuine practical constraint this entry does not resolve; the accountability concern documented here is the reported cost-per-deportee and the destination countries' lack of connection to the deportees, not the underlying removal authority itself."
+    },
+    "estimated_impact": {
+      "summary": "Per-deportee costs as high as roughly $1 million for some individuals, and lump-sum country payments in the millions for as few as 29 deportees in one case, represent a substantial premium over standard deportation costs, raising the oversight concern documented in the Senate report -- that the third-country approach is markedly more expensive than repatriation to a deportee's home country and directs federal funds to countries (including Rwanda, Equatorial Guinea, and Eswatini) with documented human-rights concerns.",
+      "figures": [
+        {
+          "metric": "Total spent, per the report",
+          "value": "At least $40 million",
+          "source": "Senate Foreign Relations Committee Democratic staff"
+        },
+        {
+          "metric": "Migrants deported to third countries",
+          "value": "~300",
+          "source": "Senate Foreign Relations Committee Democratic staff"
+        },
+        {
+          "metric": "Lump-sum payments to individual countries",
+          "value": "$4.7M-$7.5M each, to Equatorial Guinea, Rwanda, El Salvador, Eswatini, Palau",
+          "source": "Senate Foreign Relations Committee Democratic staff report"
+        },
+        {
+          "metric": "Highest reported per-deportee cost cited in follow-up reporting",
+          "value": "~$1 million for some individuals",
+          "source": "Yahoo/AOL, citing the same underlying report"
+        }
+      ],
+      "caveat": "This is a Democratic-staff congressional report, not an independent GAO or Inspector General audit -- its figures are drawn from administration data obtained via oversight channels but the characterization ('fraud, waste, and abuse') is the minority party's own assessment. No administration rebuttal of the specific dollar figures was identified in sourcing reviewed."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- the dollar figures and country-by-country breakdown are drawn directly from the Senate Foreign Relations Committee's own published report and independently corroborated by AP-sourced wire coverage (ABC affiliates, Good Morning America); no administration dispute of the specific figures was identified, though the report's framing is from Democratic committee staff rather than a nonpartisan auditor.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "Senate Foreign Relations Committee (Minority) -- 'At What Cost? Inside the Trump Administration's Secret Deportation Deals'",
+        "url": "https://www.foreign.senate.gov/download/at-what-cost_-inside-the-trump-administrations-secret-deportation-deals_21726"
+      },
+      {
+        "name": "Good Morning America -- 'Trump administration deportations to 3rd countries cost taxpayers 'upward of $40M': Report'",
+        "url": "https://www.goodmorningamerica.com/news/story/trump-administration-deportations-cost-taxpayers-upward-40m-report-130141416"
+      },
+      {
+        "name": "ABC7 -- 'US spent $40M on roughly 300 deportations to nations other than their own, Democratic report says'",
+        "url": "https://abc7news.com/post/donald-trump-deportation-news-us-spent-40m-roughly-300-deportations-nations-other-own-democratic-report-says/18599935/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "A Senate Democratic staff report found DHS spent at least $40 million to deport ~300 migrants to third countries with no connection to them, including lump-sum payments up to $7.5 million to countries like Rwanda and Equatorial Guinea for as few as 29 deportees.",
+      "estimated_impact": "Some individual deportations cost as much as $1 million each; the report's author called the practice 'the epitome' of 'fraud, waste, and abuse.'",
+      "confidence_note": "Figures are drawn from the Senate committee's own published report and corroborated by AP-sourced coverage; the 'fraud, waste, and abuse' characterization is the minority staff's own assessment, not an independent audit finding."
+    }
+  },
+  {
     "id": "usadf-iaf-marocco-takeover-trump2",
     "title": "African Development Foundation Reduced to Near-Nothing Before Courts Fully Reverse Takeover",
     "institution": "U.S. African Development Foundation and Inter-American Foundation",
