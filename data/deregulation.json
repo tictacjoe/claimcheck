@@ -573,6 +573,54 @@
     "short_summary": "DOE canceled $82.9B/223 clean energy projects (111,765 jobs) under Trump; court filings show $7.6B of that specifically targeted the 16 states that voted for Harris, contradicting Sec. Wright's public merit-based justification -- a court has already ruled this illegal."
   },
   {
+    "id": "doe-nuclear-reactor-nepa-exemption-2026",
+    "rule_name": "National Environmental Policy Act (NEPA) review requirements for advanced nuclear reactor authorization, siting, construction, operation, and decommissioning",
+    "administration": "Trump II (2025-present)",
+    "agency": "Department of Energy (DOE)",
+    "domain": "cross-cutting (structural/process rule, energy/environmental focus)",
+    "status": "Finalized (categorical exclusion effective immediately upon Federal Register notice, no advance public participation)",
+    "date_of_action": "2026-02-02 (Federal Register notice, effective immediately)",
+    "original_rule_summary": "Under NEPA, DOE actions authorizing, siting, constructing, operating, reauthorizing, or decommissioning nuclear reactors generally required environmental review, including a written, public assessment of the project's environmental impacts and the possible consequences of a nuclear accident.",
+    "what_changed": "DOE announced a new categorical exclusion (CatEx) in the Federal Register on February 2, 2026, effective immediately with no advance public participation, excluding the authorization, siting, construction, operation, reauthorization, and decommissioning of advanced nuclear reactors from major NEPA environmental-review requirements. DOE cited the inherent safety features and passive safety systems of advanced reactor designs as justification for the categorical exclusion. California Attorney General Rob Bonta, joined by a coalition of state attorneys general, publicly opposed the exemption as an illegal violation of both NEPA and the Administrative Procedure Act, arguing it minimizes environmental and safety review nationwide.",
+    "primary_proponent": {
+      "name": "U.S. Department of Energy",
+      "role": "Federal agency issuing the categorical exclusion",
+      "note": "DOE's stated justification rests on advanced reactor designs' inherent safety features rather than a case-by-case environmental review finding."
+    },
+    "corporate_beneficiaries": [
+      "Advanced nuclear reactor developers seeking faster authorization, siting, and construction timelines without individualized environmental impact review",
+      "DOE-funded and DOE-partnered advanced reactor demonstration projects"
+    ],
+    "estimated_health_impact": {
+      "summary": "California AG Bonta's coalition argues the exemption removes a key public-facing safety check -- the written, public assessment of possible accident consequences NEPA otherwise requires -- for a class of technology still new enough that 'advanced' designs have limited operational track records to independently validate the inherent-safety claims DOE cites as justification.",
+      "caveat": "DOE frames the exclusion as appropriately calibrated to advanced reactors' passive safety systems, which differ mechanically from the large light-water reactor designs NEPA's existing review framework was built around; no independent safety-agency (e.g., NRC) finding on the CatEx's substantive safety adequacy was identified in sourcing reviewed, and no reactor has yet been sited or built under the new exclusion as of this entry's addition."
+    },
+    "confidence_note": "HIGH confidence -- the categorical exclusion, its effective date, and DOE's stated justification are confirmed by DOE's own Federal Register notice, reported independently and consistently by NPR, Houston Public Media, Georgia Public Broadcasting, and KPBS. California AG Bonta's formal opposition is confirmed via his office's own press release.",
+    "short_summary": "DOE exempted advanced nuclear reactors from major NEPA environmental-review requirements via an immediately-effective categorical exclusion, over formal objection from a coalition of state attorneys general.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "NPR -- 'The Trump administration exempts new nuclear reactors from environmental review'",
+        "url": "https://www.npr.org/2026/02/02/nx-s1-5696525/trump-nuclear-safety-regulations-environmental-review"
+      },
+      {
+        "name": "California Attorney General -- 'Attorney General Bonta Opposes Trump Administration's Attempt to Exempt New and Experimental Nuclear Reactors from Environmental Review'",
+        "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-opposes-trump-administration%E2%80%99s-attempt-exempt-new-and"
+      },
+      {
+        "name": "Georgia Public Broadcasting -- 'The Trump administration exempts new nuclear reactors from environmental review'",
+        "url": "https://www.gpb.org/news/2026/02/03/the-trump-administration-exempts-new-nuclear-reactors-environmental-review"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "DOE issued an immediately-effective categorical exclusion removing advanced nuclear reactors from major NEPA environmental-review requirements, citing their inherent safety features.",
+      "estimated_impact": "Removes the public accident-impact assessment NEPA otherwise requires, for a reactor class with limited independent operational track record to validate DOE's inherent-safety justification.",
+      "confidence_note": "Confirmed by DOE's own Federal Register notice and independently corroborated by multiple outlets; a coalition of state AGs has formally opposed it as unlawful, with no court ruling yet."
+    }
+  },
+  {
     "id": "dol-overtime-threshold-rescission-trump2",
     "rule_name": "Overtime Salary Threshold Expansion Rescission",
     "administration": "Trump II",

@@ -655,6 +655,61 @@
   },
   {
     "official": "Pam Bondi, then-Attorney General (served 2025-2026, removed April 2026)",
+    "offense_category": "DOJ Leadership Blocking Investigation of a Federal Agent's Fatal Shooting While Pressuring an Investigation of the Victim's Widow -- potential obstruction/prosecutorial-misconduct pattern, distinct from an ordinary declination decision",
+    "incident_summary": "ICE agent Jonathan Ross fatally shot Renee Nicole Good, a 37-year-old U.S. citizen and mother of three, in south Minneapolis on January 7, 2026, during Operation Metro Surge; Minneapolis Mayor Jacob Frey said video evidence did not appear to support DHS's account that Good was using her SUV to run over an agent. Rather than pursuing a standard investigation of Ross's use of deadly force, top DOJ officials pressured the U.S. Attorney's Office for the District of Minnesota to instead investigate Good's widow, Becca Good, reportedly examining any ties she might have to activist groups. An FBI Minneapolis field-office supervisor who attempted to investigate Ross himself was pressured to step away from that investigation and subsequently resigned. In response, First Assistant U.S. Attorney Joe Thompson -- the office's lead prosecutor on the high-profile Feeding Our Future fraud case, which had charged 78 people and secured 58 convictions -- resigned along with five colleagues (Harry Jacobs, Melinda Williams, Thomas Calhoun-Lopez, Ruth Schneider, and Tom Hollenhurst) in mid-January 2026, citing DOJ's reluctance to investigate the agent and the push to investigate Good's widow instead. Eight additional assistant U.S. attorneys, including civil division chief Ana Voss, left the office in early February 2026, citing continued frustration with how DOJ was handling both the Good case and the separate fatal shooting of Alex Pretti by federal agents.",
+    "contested": true,
+    "elements_required": [
+      "A federal agent's fatal shooting of a U.S. citizen occurred under circumstances a local elected official publicly said were not supported by the government's own account",
+      "DOJ leadership pressured career prosecutors to investigate the victim's widow rather than pursue a standard use-of-force investigation of the agent who fired the shot",
+      "An FBI supervisor who attempted to investigate the agent was pressured to stand down and subsequently resigned",
+      "At least 14 career DOJ personnel (6 prosecutors in January, 8 more in February) resigned from the same office within weeks, citing this specific handling as a reason"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "CNN's reporting, drawing on video evidence, details how ICE agent Jonathan Ross fatally shot Renee Good on January 7, 2026, and that Minneapolis Mayor Jacob Frey said the footage did not appear to support DHS's account that Good was weaponizing her vehicle",
+        "source_url": "https://www.cnn.com/2026/01/17/us/ice-shooting-minneapolis-renee-good",
+        "maps_to_element": "Circumstances of the shooting and dispute over the government's account"
+      },
+      {
+        "type": "public_record",
+        "description": "NPR's reporting confirms top Justice Department officials pushed the Minnesota U.S. Attorney's Office to investigate Becca Good, Renee Good's widow, reportedly over possible activist-group ties, rather than pursuing a use-of-force investigation of Ross; Joe Thompson and five other senior prosecutors resigned over DOJ's reluctance to investigate the agent and the push to investigate the widow",
+        "source_url": "https://www.npr.org/2026/01/13/nx-s1-5676123/minnesota-federal-prosecutors-resign-after-doj-push-to-investigate-renee-goods-widow",
+        "maps_to_element": "DOJ pressure to investigate the widow instead of the agent; the January resignations"
+      },
+      {
+        "type": "reporting",
+        "description": "Reporting confirms an FBI Minneapolis field-office supervisor who attempted to investigate ICE agent Ross was pressured to step away from that investigation and subsequently resigned",
+        "source_url": "https://www.yahoo.com/news/articles/report-fbi-agent-tried-investigate-022138495.html",
+        "maps_to_element": "FBI supervisor pressured to stand down from investigating the agent"
+      },
+      {
+        "type": "reporting",
+        "description": "KSTP/Star Tribune reporting confirms 8 additional assistant U.S. attorneys, including civil division chief Ana Voss, left the office in early February 2026, citing continued frustration with DOJ's handling of both the Good case and the fatal shooting of Alex Pretti by federal agents",
+        "source_url": "https://kstp.com/kstp-news/top-news/star-tribune-8-more-federal-prosecutors-leaving-minnesota-u-s-attorneys-office/",
+        "maps_to_element": "Second wave of departures citing the same underlying pattern"
+      },
+      {
+        "type": "reporting",
+        "description": "The Washington Post's reporting situates the resignations within broader prosecutor frustration over the office's handling of both the Good and Pretti shooting cases",
+        "source_url": "https://www.washingtonpost.com/national-security/2026/01/29/minneapolis-shootings-prosecutor-resignations/",
+        "maps_to_element": "Broader context and pattern characterization"
+      }
+    ],
+    "status": "Ongoing as of this entry's addition -- no independent investigation of ICE agent Jonathan Ross's shooting of Renee Good had been confirmed completed in sourcing reviewed, no public resolution of the reported investigation into Becca Good, and the U.S. Attorney's Office for the District of Minnesota had lost at least 14 career prosecutors within a roughly three-week span. Bondi was removed as Attorney General in April 2026, for reasons not confirmed by sourcing reviewed to be connected to this matter specifically.",
+    "rebuttal_anticipated": "Likely defense: DOJ has discretion over investigative priorities and resource allocation, agent-involved shooting investigations routinely examine the broader context of an incident including any organized activity connected to it, and prosecutor resignations reflect policy disagreements rather than evidence of an underlying legal violation.",
+    "comeback": "The specific fact pattern here is not ordinary declination or investigative-priority discretion -- it is DOJ leadership affirmatively pressuring both an FBI supervisor and a U.S. Attorney's Office to stand down from investigating the agent who fired the fatal shot while simultaneously pressuring an investigation of the victim's own widow, a sequence that at least fourteen career federal prosecutors and law enforcement personnel found serious enough to resign over within weeks of each other -- a scale and specificity of internal objection this tracker treats as substantively different from routine policy disagreement.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of DOJ leadership using prosecutorial discretion and investigative direction to protect federal agents and pressure administration critics or their associates, rather than applying use-of-force review standards evenhandedly.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the core sequence (the shooting, the mayor's public dispute of DHS's account, the DOJ pressure to investigate the widow, the FBI supervisor's resignation, and both waves of prosecutor departures) -- independently corroborated across NPR, CNN, The Washington Post, and multiple local Minnesota outlets (KSTP, MPR, CBS Minnesota, Fox 9), several with on-the-record confirmation from departing prosecutors themselves. MODERATE confidence on DOJ's specific internal rationale for pressuring the widow investigation, since that account is attributed to unnamed sources rather than DOJ's own public statement.",
+    "section_summaries": {
+      "incident_summary": "After ICE agent Jonathan Ross fatally shot U.S. citizen Renee Good in Minneapolis in January 2026, DOJ leadership pressured prosecutors to investigate Good's widow instead of the agent, pushed an FBI supervisor off his own investigation of Ross, and lost at least 14 career prosecutors to resignations within about three weeks as a direct result.",
+      "confidence_note": "The core sequence is independently corroborated across national and local outlets with on-record confirmation from departing prosecutors; DOJ's specific internal rationale relies on unnamed-source reporting, not an official DOJ statement."
+    }
+  },
+  {
+    "official": "Pam Bondi, then-Attorney General (served 2025-2026, removed April 2026)",
     "offense_category": "Vindictive/Selective Prosecution (violates Due Process; established legal doctrine, e.g. United States v. Goodwin) and Appointments Clause Violation (U.S. Const. Art. II, §2, re: unlawful appointment of the prosecuting U.S. Attorney) — the underlying CHARGES against James were brought and then dismissed; Bondi herself was not charged with anything personally",
     "incident_summary": "Following repeated public calls by President Trump for Bondi's DOJ to prosecute New York Attorney General Letitia James (who had brought a civil fraud case against Trump and his businesses), DOJ pursued criminal charges against James. A federal judge dismissed the case after finding the interim U.S. Attorney who secured the indictment had been unlawfully appointed. Two separate federal grand juries also declined to indict James. Congressional Judiciary Democrats opened an investigation into the matter, characterizing it as retaliatory prosecutorial abuse.",
     "contested": false,
@@ -1012,6 +1067,55 @@
     "section_summaries": {
       "incident_summary": "Three federal judges dismissed nine felony indictments, including a murder charge, after finding Wyoming U.S. Attorney Darin Smith called defendants 'murderers' to the grand jury and had improper off-the-record contact with jurors; the Senate confirmed him days later anyway.",
       "confidence_note": "HIGH: findings come directly from a joint federal court order, corroborated across multiple independent outlets."
+    }
+  },
+  {
+    "official": "Kristi Noem, Secretary of Homeland Security",
+    "offense_category": "Use of Administrative Subpoena Power to Unmask Anonymous Political Speech and Retaliate Against Critics -- distinct from this tracker's existing DOJ/Pirro entry, since here the acting agency is DHS itself using administrative (not grand jury) subpoena authority, at far larger reported scale",
+    "incident_summary": "DHS issued hundreds of administrative subpoenas to major tech companies -- including Google, Meta, Reddit, Discord, Amazon, Apple, Microsoft, Snapchat, TikTok, and X -- demanding names, email addresses, phone numbers, and other identifying data for accounts that criticized ICE, reported ICE agents' locations, or attended protests against immigration enforcement, including operators of anonymous Instagram accounts documenting ICE raids. In one specific instance reported by The New Republic, DHS subpoenaed Google for account data tied to a 67-year-old U.S. citizen after he sent an email criticizing a DHS prosecutor over an immigration deportation matter. A DOJ attorney defended the subpoenas as within DHS's power to investigate 'threats to its own officers or impediments to their officers.' The Electronic Frontier Foundation sued DHS and ICE in April 2026 after the agencies ignored a FOIA request seeking records of the subpoena program; separately, when specific subpoena targets challenged them in court, DHS quietly withdrew those subpoenas rather than defend their legal basis.",
+    "contested": true,
+    "elements_required": [
+      "DHS used administrative subpoena authority -- issued without prior judicial approval -- to compel tech companies to identify anonymous or pseudonymous critics and documentarians of its own operations",
+      "The subpoenaed conduct was, on its face, protected political speech or newsgathering-adjacent activity (criticism, documentation of law-enforcement locations, protest attendance) rather than evidence of a specific threat or crime",
+      "At least one documented case (the 67-year-old citizen) shows the subpoena power used against someone whose only identified conduct was a critical email to a DHS official, not any threat or unlawful act",
+      "DHS withdrew specific subpoenas when challenged in court rather than defending their legal basis, and stonewalled a FOIA request about the program's scope until sued"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "TechCrunch's original reporting establishes DHS sought identifying account data from major tech companies for users who criticized Trump officials or documented ICE activity, including anonymous Instagram accounts covering ICE raids",
+        "source_url": "https://techcrunch.com/2026/02/03/homeland-security-is-trying-to-force-tech-companies-to-hand-over-data-about-trump-critics/",
+        "maps_to_element": "DHS's use of subpoena power against critics and documentarians"
+      },
+      {
+        "type": "reporting",
+        "description": "The New Republic's reporting details the specific case of a 67-year-old U.S. citizen subpoenaed via Google after emailing criticism of a DHS prosecutor over a deportation matter",
+        "source_url": "https://newrepublic.com/post/206088/homeland-security-67-year-old-us-citizen-criticized-email",
+        "maps_to_element": "A documented case of the subpoena power used against protected critical speech, not a threat"
+      },
+      {
+        "type": "reporting",
+        "description": "Engadget reporting describes hundreds of subpoenas sent to identify ICE critics online, and Military.com/Inc. reporting confirm the subpoenas extended across Meta, Google, Reddit, Discord, and other platforms, with a DOJ attorney's defense that DHS was acting within its power to investigate threats to its officers",
+        "source_url": "https://www.engadget.com/big-tech/homeland-security-has-reportedly-sent-out-hundreds-of-subpoenas-to-identify-ice-critics-online-135245457.html",
+        "maps_to_element": "Scale of the subpoena program and DHS's own justification"
+      },
+      {
+        "type": "public_record",
+        "description": "The Electronic Frontier Foundation sued DHS and ICE in April 2026 after the agencies did not respond to a FOIA request seeking records on the administrative-subpoena program targeting online critics; per the Immigration Policy Tracking Project, DHS has quietly withdrawn specific subpoenas rather than defend them in court when targets pushed back",
+        "source_url": "https://immpolicytracking.org/policies/dhs-uses-administrative-subpoenas-to-obtain-personal-data-from-critics/",
+        "maps_to_element": "DHS withdrew subpoenas under challenge and stonewalled FOIA oversight of the program"
+      }
+    ],
+    "status": "Ongoing as of this entry's addition -- EFF's FOIA lawsuit against DHS/ICE was pending as of April 2026, no comprehensive public accounting of the subpoena program's total scope has been provided by DHS, and DHS has continued withdrawing individual subpoenas when challenged rather than litigating their legal basis.",
+    "rebuttal_anticipated": "Likely defense: administrative subpoenas are a longstanding, lawful DHS investigative tool, and the agency has a legitimate interest in identifying individuals who may pose a genuine threat to federal officers conducting immigration enforcement, particularly amid documented incidents of violence against ICE personnel.",
+    "comeback": "DHS's own pattern of quietly withdrawing subpoenas rather than defending them in court when challenged is difficult to reconcile with a genuine threat-investigation rationale -- a legitimate threat investigation would not be abandoned the moment a target had legal representation. The reported target list (critical emails, anonymous documentation accounts, protest attendance) reflects protected political speech and newsgathering-adjacent activity rather than particularized indicators of violence, and DHS has not publicly identified how many of the hundreds of subpoenas issued led to any actual threat finding.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the same broader pattern this tracker documents in the Pirro/DOJ grand jury subpoenas of anonymous ICE critics (pirro-doj-anonymous-ice-critic-subpoenas-2026.json) -- here at a much larger scale and using a different legal mechanism (administrative rather than grand jury subpoena), suggesting a coordinated administration-wide approach to identifying and potentially chilling ICE-related criticism rather than an isolated DOJ tactic.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the core facts (subpoenas issued to major tech platforms, the specific 67-year-old citizen case, EFF's FOIA lawsuit) -- corroborated across TechCrunch, The New Republic, Engadget, Military.com, and the Immigration Policy Tracking Project's policy-tracking documentation. MODERATE confidence on the precise total scale ('hundreds' of subpoenas is a reported figure, not an official DHS-confirmed count, since DHS has not been transparent about the program's full scope).",
+    "section_summaries": {
+      "incident_summary": "DHS issued hundreds of administrative subpoenas to major tech platforms demanding identifying data on ICE critics, documentarians, and protesters -- including a 67-year-old citizen subpoenaed over a critical email to a DHS official -- then withdrew specific subpoenas when challenged in court and stonewalled a FOIA request until EFF sued.",
+      "confidence_note": "Core facts are well-corroborated across multiple independent outlets and a formal policy-tracking project; the total program scale is a reported estimate, not an official DHS-confirmed figure."
     }
   },
   {

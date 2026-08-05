@@ -3468,6 +3468,68 @@
     ]
   },
   {
+    "id": "hudson-tunnel-gateway-funding-freeze-2026",
+    "title": "Trump Administration Froze $16B in Committed Funding for the Hudson River Tunnel Project, Threatening Construction Shutdown",
+    "institution": "U.S. Department of Transportation",
+    "domain": "funding_redirection",
+    "status": "Litigation ongoing as of this entry's addition -- New York and New Jersey filed suit in the Southern District of New York seeking emergency relief; DOT had not resumed funding as of the suit's filing",
+    "date_of_action": "2025-09-30 (DOT announces indefinite funding suspension) through 2026-02-04 (NY/NJ file suit)",
+    "what_changed": "On September 30, 2025, DOT announced it would indefinitely suspend payment of all previously-committed federal funds for the Gateway Program's Hudson Tunnel Project -- a roughly $16 billion effort to build new rail tunnels under the Hudson River and rehabilitate the existing, more-than-a-century-old crossing between New Jersey and New York City -- pending a newly announced compliance review. The White House budget director stated officials believed the project's spending was based on 'unconstitutional diversity, equity, and inclusion principles,' and DOT said it was reviewing for 'unconstitutional practices.' After roughly four months of the states covering costs with limited operating funds, they warned construction would be forced to shut down entirely by February 6, 2026 without resumed federal funding, immediately costing an estimated 1,000 workers their jobs. On February 4, 2026, New York Attorney General Letitia James and New Jersey Acting Attorney General Jennifer Davenport filed suit in the Southern District of New York against the Trump administration, seeking emergency relief to stop the indefinite funding freeze.",
+    "primary_proponent": {
+      "name": "U.S. Department of Transportation",
+      "role": "Federal agency administering the previously-committed Gateway Program funding",
+      "note": "The White House Office of Management and Budget's stated DEI-related rationale for the freeze was cited by DOT as the basis for its compliance review."
+    },
+    "estimated_impact": {
+      "summary": "The freeze threatened to halt construction on one of the largest infrastructure projects in the country, at a rail crossing both states and outside transportation experts have long described as a single point of failure risk for the Northeast Corridor -- the existing tunnel is over a century old and was damaged by Hurricane Sandy saltwater intrusion.",
+      "figures": [
+        {
+          "metric": "Total committed federal funding frozen",
+          "value": "~$16 billion (NY AG's suit) / ~$15 billion (Reuters' reporting)",
+          "source": "NY Attorney General press release; Reuters"
+        },
+        {
+          "metric": "Workers facing immediate layoff if construction halted",
+          "value": "~1,000",
+          "source": "Reuters, citing the states' warning ahead of the February 6, 2026 shutdown deadline"
+        },
+        {
+          "metric": "Duration of funding suspension before states sued",
+          "value": "~4 months (2025-09-30 to 2026-02-04)",
+          "source": "DOT announcement date and lawsuit filing date"
+        }
+      ],
+      "caveat": "DOT and the White House frame the freeze as a legitimate compliance review of the project's DEI-related practices rather than a punitive or politically-motivated funding cutoff; the states dispute that characterization in their suit, and no court ruling on the merits was identified in sourcing reviewed as of this entry's addition."
+    },
+    "confidence_note": "HIGH confidence -- the funding freeze, its DEI-related stated rationale, the timeline, and the resulting lawsuit are independently corroborated by the New York and New Jersey Attorneys General's own official press releases, Reuters, ABC7 New York, and Fox News, none of which is disputed by DOT.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "last_updated": "2026-08-05",
+    "sources": [
+      {
+        "name": "Reuters -- 'New York, New Jersey sue Trump administration over tunnel funding halt'",
+        "url": "https://www.reuters.com/world/new-york-new-jersey-sue-trump-administration-over-tunnel-funding-halt-2026-02-04/"
+      },
+      {
+        "name": "New York Attorney General -- 'Attorney General James Sues Trump Administration for Freezing Gateway Program's Hudson Tunnel Project Funding'",
+        "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-sues-trump-administration-freezing-gateway-programs"
+      },
+      {
+        "name": "New Jersey Office of Attorney General -- 'New Jersey, New York Sue Trump Administration for Illegally Withholding Gateway Tunnel Funding'",
+        "url": "https://www.njoag.gov/update-new-jersey-new-york-sue-trump-administration-for-illegally-withholding-gateway-tunnel-funding/"
+      },
+      {
+        "name": "ABC7 New York -- 'NY, NJ sue Trump administration over $16 billion funding freeze for the Gateway Project'",
+        "url": "https://abc7ny.com/post/ny-nj-sue-trump-administration-16-billion-funding-freeze-gateway-project-hudson-river-tunnels/18541160/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "DOT indefinitely froze ~$16 billion in already-committed Gateway Program funding for the Hudson River rail tunnel over a DEI-related compliance review, threatening a full construction shutdown and 1,000 layoffs until NY and NJ sued.",
+      "estimated_impact": "Threatened to halt construction on a project both states call critical to preventing failure of a more-than-century-old, Sandy-damaged rail crossing, with roughly 1,000 workers facing immediate layoff.",
+      "confidence_note": "Independently corroborated by both states' official Attorney General press releases plus Reuters and other national outlets, with no facts disputed by DOT."
+    }
+  },
+  {
     "id": "ice-body-cameras-undeployed-2026",
     "title": "Six Months After Promising Body Cameras for All Immigration Agents, DHS Still Hasn't Deployed Them -- Agents in Subsequent Fatal Shootings Had None",
     "institution": "Department of Homeland Security / Immigration and Customs Enforcement",
