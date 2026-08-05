@@ -103,7 +103,12 @@
         "name": "The Trace -- 'The ATF Repealed Gun Show Loophole Rule. It Won't Change Much'",
         "url": "https://www.thetrace.org/2026/06/atf-gun-show-loophole-rule-repeal/"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "ATF reversed its zero-tolerance dealer-license enforcement policy, reinstating licenses for previously revoked gun shops as trafficking referrals fell 30%.",
+      "estimated_impact": "Public-safety advocates connect reduced dealer accountability and the trafficking-referral decline to an increased risk of firearms flowing into illegal markets.",
+      "confidence_note": "ProPublica's investigative reporting is corroborated by CNN's independent confirmation of specific relicensed dealers and by trade/legal-press summaries."
+    }
   },
   {
     "id": "bears-ears-grand-staircase-monuments-shrunk-2026",
@@ -1069,7 +1074,12 @@
         "name": "Detroit News -- 'Automakers back EPA's plan for two-year delay on emissions cuts'",
         "url": "https://www.detroitnews.com/story/business/autos/2026/06/03/automakers-back-epas-plan-for-two-year-delay-on-emissions-cuts/90385520007/"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "EPA proposed a two-year delay of Biden-era vehicle pollution standards, to model year 2029, saving automakers an estimated $1.7 billion.",
+      "estimated_impact": "Environmental and public-health groups say the delay means higher tailpipe pollution exposure for longer, increasing preventable illness tied to ozone and particulate matter.",
+      "confidence_note": "The proposed delay's terms and the $1.7 billion figure come directly from EPA's own press release, corroborated by Reuters and multiple trade/policy outlets."
+    }
   },
   {
     "id": "esa-harm-definition-rollback-2026",
@@ -1208,7 +1218,12 @@
         "name": "NPR -- 'The FDA has approved the sale of fruit-flavored vapes. What's behind the shift?'",
         "url": "https://www.npr.org/2026/05/07/nx-s1-5813637/the-fda-has-approved-the-sale-of-fruit-flavored-vapes-whats-behind-the-shift"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "FDA authorized fruit-flavored e-cigarettes for the first time after Trump personally pressured the FDA Commissioner to move faster following industry lobbying.",
+      "estimated_impact": "Public health and parent advocacy groups warn the authorization risks reversing progress on youth vaping rates, given the category's documented youth appeal.",
+      "confidence_note": "The facts of the authorization, Trump's personal pressure on Makary, and industry lobbying are corroborated across many independent outlets (CNBC, CBS News, NPR, STAT News)."
+    }
   },
   {
     "id": "fda-single-trial-approval-standard-2026",
@@ -1418,7 +1433,12 @@
         "name": "National Low Income Housing Coalition -- 'HUD Announces Shift Away from Disability Discrimination Cases Involving Emotional Support Animals'",
         "url": "https://nlihc.org/resource/hud-announces-shift-away-disability-discrimination-cases-involving-emotional-support"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "HUD rescinded its longstanding guidance treating untrained emotional support animals as presumptively valid housing accommodations, adopting a stricter, ADA-like training requirement instead.",
+      "estimated_impact": "Disability-rights advocates warn the change leaves people with mental health and emotional disabilities more vulnerable to housing-accommodation denials.",
+      "confidence_note": "The guidance rescission and its substantive terms are corroborated across legal-industry and disability-advocacy sources (Mondaq/Duane Morris, DREDF, National Low Income Housing Coalition)."
+    }
   },
   {
     "id": "interior-public-lands-drilling-bonding-methane-rollback-2026",
