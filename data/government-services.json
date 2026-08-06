@@ -8269,9 +8269,9 @@
     "title": "DHS Suspended, Then Partially Reversed, TSA PreCheck and Global Entry During a Funding Lapse",
     "institution": "Transportation Security Administration / Customs and Border Protection, DHS",
     "domain": "staff_office_cuts",
-    "status": "Partially reversed -- TSA PreCheck restored within about a day; Global Entry remained suspended as the shutdown continued Noem subsequently warned PreCheck could be re-suspended as the shutdown continued. By mid-March 2026, officials warned continued TSA absenteeism (above 30% at some hubs) could force some airport shutdowns entirely if the funding standoff persisted.",
+    "status": "Partially reversed -- TSA PreCheck restored within about a day; Global Entry remained suspended as the shutdown continued Noem subsequently warned PreCheck could be re-suspended as the shutdown continued. By mid-March 2026, officials warned continued TSA absenteeism (above 30% at some hubs) could force some airport shutdowns entirely if the funding standoff persisted. TSA wait times peaked at the worst levels in agency history in late March 2026 (480+ officers departed, some lines over 4.5 hours) before a funding deal was reached.",
     "date_of_action": "2026-02-20 (suspension announced) through 2026-02-21/22 (PreCheck reversal)",
-    "what_changed": "DHS Secretary Kristi Noem announced the suspension of TSA PreCheck and CBP's Global Entry expedited-traveler programs, citing the funding lapse from the ongoing partial government shutdown. Less than a day later, TSA reversed the PreCheck suspension after significant pushback from airlines and lawmakers; Global Entry, however, remained suspended as the shutdown continued. Airlines for America president Chris Sununu criticized the suspension, saying the traveling public was 'once again... used as a political football amid another government shutdown.' Sen. Mark Warner noted that in 2025 more than 18 million travelers used Global Entry, saving over 300,000 CBP officer-hours across 79 ports of entry, and that both programs had remained operational throughout the 43-day government shutdown the prior fall -- undercutting DHS's funding-lapse rationale for this specific suspension. Days later, Secretary Noem warned TSA PreCheck could again be suspended as the DHS shutdown continued, while Global Entry remained suspended throughout. The underlying staffing strain continued to escalate: by mid-March 2026, Reuters reported TSA officers were working without pay as the funding standoff continued, with absentee rates spiking above 30% at some major hubs. Officials warned some airports could be forced to shut down entirely if the standoff persisted, with smaller airports with limited checkpoints described as especially at risk. The shutdown dragged into a second month, and ABC News reported tens of thousands of TSA workers were going unpaid, with many receiving $0 paychecks while still required to report for duty; employees described taking second jobs, leaving the agency, and struggling to meet basic expenses. The prolonged standoff had an additional, explicit political dimension: the New York Times reported Trump told Republicans to halt negotiations to reopen DHS and instead use the shutdown as leverage to pass the Safeguard American Voter Eligibility (SAVE) Act, a voter-ID bill -- even as TSA workers went unpaid and airport disruptions worsened. Trump and Senate Majority Leader John Thune clashed publicly over the ultimatum before Trump ultimately endorsed a deal in late March 2026 to fund DHS (with the exception of key ICE provisions), allowing the SAVE Act to wait rather than continuing to hold TSA funding hostage to it.",
+    "what_changed": "DHS Secretary Kristi Noem announced the suspension of TSA PreCheck and CBP's Global Entry expedited-traveler programs, citing the funding lapse from the ongoing partial government shutdown. Less than a day later, TSA reversed the PreCheck suspension after significant pushback from airlines and lawmakers; Global Entry, however, remained suspended as the shutdown continued. Airlines for America president Chris Sununu criticized the suspension, saying the traveling public was 'once again... used as a political football amid another government shutdown.' Sen. Mark Warner noted that in 2025 more than 18 million travelers used Global Entry, saving over 300,000 CBP officer-hours across 79 ports of entry, and that both programs had remained operational throughout the 43-day government shutdown the prior fall -- undercutting DHS's funding-lapse rationale for this specific suspension. Days later, Secretary Noem warned TSA PreCheck could again be suspended as the DHS shutdown continued, while Global Entry remained suspended throughout. The underlying staffing strain continued to escalate: by mid-March 2026, Reuters reported TSA officers were working without pay as the funding standoff continued, with absentee rates spiking above 30% at some major hubs. Officials warned some airports could be forced to shut down entirely if the standoff persisted, with smaller airports with limited checkpoints described as especially at risk. The shutdown dragged into a second month, and ABC News reported tens of thousands of TSA workers were going unpaid, with many receiving $0 paychecks while still required to report for duty; employees described taking second jobs, leaving the agency, and struggling to meet basic expenses. The prolonged standoff had an additional, explicit political dimension: the New York Times reported Trump told Republicans to halt negotiations to reopen DHS and instead use the shutdown as leverage to pass the Safeguard American Voter Eligibility (SAVE) Act, a voter-ID bill -- even as TSA workers went unpaid and airport disruptions worsened. Trump and Senate Majority Leader John Thune clashed publicly over the ultimatum. In the days before a deal was reached, the crisis peaked: the NYT reported TSA union leaders blasted Trump's deployment of ICE and other DHS agents to 14 airports to cover screening shortages, saying the officers were not trained for screening work and did little to reduce lines. CBS News reported wait times stretched up to six hours at major airports even with the ICE deployment, with nearly 12% of TSA officers calling out unpaid on a given day. Bloomberg reported TSA said wait times reached the worst levels in the agency's history after more than 480 officers left during the shutdown, with some lines exceeding 4.5 hours and major airports including Atlanta, Houston, and New York seeing checkpoint closures and lane consolidations. Trump then ultimately endorsed a deal in late March 2026 to fund DHS (with the exception of key ICE provisions), allowing the SAVE Act to wait rather than continuing to hold TSA funding hostage to it.",
     "primary_proponent": {
       "name": "Kristi Noem",
       "role": "Secretary of Homeland Security",
@@ -8304,11 +8304,26 @@
           "metric": "TSA workers reported going unpaid ($0 paychecks) during the shutdown's second month",
           "value": "tens of thousands",
           "source": "ABC News, March 2026"
+        },
+        {
+          "metric": "TSA officers who left the agency during the shutdown",
+          "value": "480+",
+          "source": "Bloomberg, March 2026"
+        },
+        {
+          "metric": "TSA officer callout rate on a given day at the crisis's peak",
+          "value": "~12%",
+          "source": "CBS News, March 2026"
+        },
+        {
+          "metric": "Airports where ICE/DHS agents were deployed to cover TSA screening shortages",
+          "value": "14",
+          "source": "The New York Times, March 2026"
         }
       ],
       "caveat": "This entry documents the suspension and its partial reversal as reported; it does not resolve whether the funding-lapse rationale was itself pretextual, though Sen. Warner's office's comparison to the prior 43-day shutdown (where the programs remained operational) is included as directly relevant context."
     },
-    "confidence_note": "HIGH confidence -- the suspension, its reversal timeline, and the specific usage/officer-hour figures are independently corroborated across ABC News, CNBC, The Hill, The Washington Post, and Sen. Warner's own office statement. Re-verified 2026-08-06: ABC News independently corroborates the unpaid-TSA-worker escalation ($0 paychecks, second jobs), and the NYT's reporting that Trump personally directed Republicans to use the shutdown as leverage for unrelated voter-ID legislation adds a documented political-motive dimension to why the shutdown -- and the TSA staffing crisis it caused -- was prolonged rather than resolved sooner.",
+    "confidence_note": "HIGH confidence -- the suspension, its reversal timeline, and the specific usage/officer-hour figures are independently corroborated across ABC News, CNBC, The Hill, The Washington Post, and Sen. Warner's own office statement. Re-verified 2026-08-06: ABC News independently corroborates the unpaid-TSA-worker escalation ($0 paychecks, second jobs), and the NYT's reporting that Trump personally directed Republicans to use the shutdown as leverage for unrelated voter-ID legislation adds a documented political-motive dimension to why the shutdown -- and the TSA staffing crisis it caused -- was prolonged rather than resolved sooner. Re-verified 2026-08-06: the ICE/DHS-agent airport deployment and TSA union's criticism (NYT), the up-to-6-hour wait times and ~12% callout rate (CBS News), and the 480+ officer departures and 'worst levels in agency history' characterization (Bloomberg, quoting TSA itself) are all independently corroborated, documenting the crisis's peak in the days immediately before the funding deal was reached.",
     "last_verified": "2026-08-06",
     "date_added": "2026-08-05",
     "last_updated": "2026-08-06",
@@ -8340,6 +8355,14 @@
       {
         "name": "The New York Times -- Trump ties DHS shutdown deal to voter ID demand",
         "url": "https://www.nytimes.com/2026/03/23/us/politics/trump-shutdown-deal.html"
+      },
+      {
+        "name": "The New York Times -- TSA union blasts ICE airport deployment",
+        "url": "https://www.nytimes.com/2026/03/24/us/politics/tsa-union-ice-airport-security-trump.html"
+      },
+      {
+        "name": "Bloomberg -- 'TSA warns new airport screeners won't be ready for World Cup'",
+        "url": "https://www.bloomberg.com/news/articles/2026-03-25/tsa-warns-new-airport-screeners-won-t-be-ready-for-world-cup?srnd=phx-us-politics"
       }
     ],
     "section_summaries": {
