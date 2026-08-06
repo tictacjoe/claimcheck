@@ -750,7 +750,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing as of this entry's addition -- NIH Director Jay Bhattacharya serving as acting CDC director since February 2026, with the White House still not having nominated a permanent director as of March 2026 reporting",
     "date_of_action": "2025-01 through 2026-03 (ongoing vacancy)",
-    "what_changed": "In the first 15 months of Trump's second term, CDC has had a Senate-confirmed director for only about four weeks total -- Susan Monarez, who was fired in August 2025 following a clash with HHS Secretary RFK Jr. over vaccination policy. Since then, the agency has cycled through acting leadership; NIH Director Jay Bhattacharya was named acting CDC director in February 2026, holding both roles simultaneously. By late March 2026, the White House had missed the legal deadline under the Federal Vacancies Reform Act, which limits how long an acting officer may serve in place of a Senate-confirmed official to 210 days, without nominating a permanent replacement; HHS said Bhattacharya would continue overseeing CDC by performing the 'delegable duties' of the director role. This leadership vacuum coincides with the active nationwide measles outbreak and other public-health developments this tracker separately documents. CDC's principal deputy director, Ralph Abraham, abruptly resigned in February 2026 -- just weeks into the role and the second senior CDC departure that month -- further compounding the agency's leadership instability during Bhattacharya's dual-role acting tenure.",
+    "what_changed": "In the first 15 months of Trump's second term, CDC has had a Senate-confirmed director for only about four weeks total -- Susan Monarez, who was fired in August 2025 following a clash with HHS Secretary RFK Jr. over vaccination policy. Since then, the agency has cycled through acting leadership; NIH Director Jay Bhattacharya was named acting CDC director in February 2026, holding both roles simultaneously. By late March 2026, the White House had missed the legal deadline under the Federal Vacancies Reform Act, which limits how long an acting officer may serve in place of a Senate-confirmed official to 210 days, without nominating a permanent replacement; HHS said Bhattacharya would continue overseeing CDC by performing the 'delegable duties' of the director role. This leadership vacuum coincides with the active nationwide measles outbreak and other public-health developments this tracker separately documents. CDC's principal deputy director, Ralph Abraham, abruptly resigned in February 2026 -- just weeks into the role and the second senior CDC departure that month -- further compounding the agency's leadership instability during Bhattacharya's dual-role acting tenure. A Wall Street Journal analysis found the turmoil extends well beyond the top director seat: CDC has lost approximately 80% of its center directors -- the agency's division-level leadership -- since January 2025 amid resignations, forced departures, and clashes with Kennedy, leaving much of the agency's center-level leadership under temporary or acting management as well. The Journal reported the White House was, as of that reporting, preparing to nominate a permanent CDC director after months of workforce turmoil.",
     "primary_proponent": {
       "name": "The White House (nomination authority) / RFK Jr. (HHS Secretary, oversees CDC)",
       "role": "Nominating authority for a permanent CDC director and the HHS Secretary whose clash with Monarez precipitated her firing",
@@ -768,11 +768,16 @@
           "metric": "Vacancies Reform Act deadline for acting-official service",
           "value": "210 days",
           "source": "Baltimore Sun/CNN, citing the statute"
+        },
+        {
+          "metric": "Share of CDC center directors (division-level leadership) lost since January 2025",
+          "value": "~80%",
+          "source": "The Wall Street Journal, February 2026"
         }
       ],
       "caveat": "Bhattacharya continues performing CDC's 'delegable duties' under HHS's stated legal theory, meaning the agency is not without any leadership -- the accountability concern is the extended absence of a Senate-confirmed, singularly-focused director and the missed statutory deadline, not a claim the agency has no functioning leadership at all."
     },
-    "confidence_note": "HIGH confidence -- the Monarez firing, the ~4-week confirmed-director tenure, Bhattacharya's dual-role acting appointment, and the missed 210-day Vacancies Act deadline are all independently corroborated across NPR, CBS News, CNN, and the Baltimore Sun.",
+    "confidence_note": "HIGH confidence -- the Monarez firing, the ~4-week confirmed-director tenure, Bhattacharya's dual-role acting appointment, and the missed 210-day Vacancies Act deadline are all independently corroborated across NPR, CBS News, CNN, and the Baltimore Sun. The WSJ's ~80% center-director turnover figure independently corroborates and substantially broadens the scope of the leadership crisis beyond the top director seat alone.",
     "last_verified": "2026-08-05",
     "date_added": "2026-08-05",
     "last_updated": "2026-08-05",
@@ -792,10 +797,14 @@
       {
         "name": "The Guardian -- 'CDC deputy director steps down'",
         "url": "https://www.theguardian.com/us-news/2026/feb/23/cdc-deputy-director-steps-down"
+      },
+      {
+        "name": "The Wall Street Journal -- 'Turmoil Takes Hold at CDC as Top Officials Keep Leaving'",
+        "url": "https://www.wsj.com/health/healthcare/turmoil-takes-hold-at-cdc-as-top-officials-keep-leaving-0152432e?mod=hp_lead_pos6"
       }
     ],
     "section_summaries": {
-      "what_changed": "CDC has had a Senate-confirmed director for only ~4 weeks in 15 months after RFK Jr.'s clash with Monarez led to her firing; NIH's Bhattacharya now serves as acting director, and the White House missed the legal 210-day Vacancies Act deadline for naming a permanent successor. Principal deputy director Ralph Abraham also abruptly resigned in Feb. 2026, the second senior departure that month.",
+      "what_changed": "CDC has had a Senate-confirmed director for only ~4 weeks in 15 months after RFK Jr.'s clash with Monarez led to her firing; NIH's Bhattacharya now serves as acting director, and the White House missed the legal 210-day Vacancies Act deadline for naming a permanent successor. Principal deputy director Ralph Abraham also abruptly resigned in Feb. 2026, the second senior departure that month. WSJ separately found CDC has lost ~80% of its center (division-level) directors since Jan. 2025, and reported the White House was preparing to nominate a permanent director.",
       "estimated_impact": "A public-health agency coordinating the response to an active nationwide measles outbreak has lacked a confirmed, dedicated director for nearly the entire administration's tenure.",
       "confidence_note": "Well-corroborated across NPR, CBS News, CNN, and the Baltimore Sun, with no facts disputed."
     }
@@ -2189,6 +2198,59 @@
       }
     ],
     "last_updated": "2026-07-26"
+  },
+  {
+    "id": "epa-environmental-justice-staff-rif-2026",
+    "title": "EPA Issues Reduction-in-Force Notices to 22 Remaining Environmental Justice Staffers, Completing a Two-Year Wind-Down of the Function",
+    "institution": "Environmental Protection Agency",
+    "domain": "staff_office_cuts",
+    "status": "Finalized as to this round -- RIF notices issued; no reversal identified in sourcing reviewed",
+    "date_of_action": "2025 (initial ~280 firings/175 reassignments, regional EJ divisions shuttered) through 2026-02 (RIF notices to the 22 remaining EJ staffers)",
+    "what_changed": "In February 2026, EPA issued Reduction in Force (RIF) notices to 22 staffers who had worked in the agency's regional Environmental Justice divisions -- offices dedicated to tracking pollution and health risks in low-income and heavily polluted communities. These 22 were among the staff still remaining after EPA's regional EJ divisions were already shuttered roughly a year earlier, when the agency fired approximately 280 environmental-justice employees and reassigned another 175, undertaken to comply with executive orders eliminating environmental-justice programs across the federal government. According to InsideEPA, many of the 22 employees targeted in this final round were staff with disabilities. The American Federation of Government Employees (AFGE) Council 238, which represents EPA employees, publicly condemned the action; council president Justin Chen said the union was 'outraged by the EPA's decision to issue RIF notices to 22 environmental justice employees whose work ensures that communities disproportionately burdened by environmental hazards receive the protections they are entitled to.'",
+    "primary_proponent": {
+      "name": "Lee Zeldin",
+      "role": "EPA Administrator",
+      "note": "Oversees EPA's implementation of the executive orders eliminating environmental-justice programs, under which the regional EJ divisions were shuttered in 2025 and this final round of 22 RIF notices was issued in February 2026."
+    },
+    "estimated_impact": {
+      "summary": "EPA has now eliminated essentially its entire dedicated environmental-justice staffing function -- roughly 280 firings and 175 reassignments in 2025, followed by RIF notices to the last 22 remaining EJ staffers in February 2026 -- removing the agency's capacity to specifically track and address pollution and health risks concentrated in low-income and heavily polluted communities.",
+      "figures": [
+        {
+          "metric": "Environmental Justice staffers issued RIF notices in this February 2026 round",
+          "value": "22",
+          "source": "AFGE Council 238, cited by The Hill and Yahoo News, February 2026"
+        },
+        {
+          "metric": "Environmental Justice staffers fired in the earlier 2025 wave",
+          "value": "~280 fired, ~175 reassigned",
+          "source": "E&E News (POLITICO), 2025"
+        }
+      ],
+      "caveat": "Figures on the 2025 wave come from earlier E&E News reporting cited for context; this entry's primary sourcing (The Hill, Yahoo News, InsideEPA) documents the February 2026 22-person RIF specifically. EPA's own public framing of its broader reorganization emphasizes cost savings rather than the environmental-justice-function elimination angle documented here."
+    },
+    "confidence_note": "HIGH confidence -- the February 2026 RIF notices to 22 EJ staffers are corroborated across The Hill, Yahoo News, and InsideEPA (which additionally reported many affected staff had disabilities), with AFGE Council 238's on-record statement. The 2025 baseline figures (280 fired, 175 reassigned) come from E&E News reporting on the earlier wave, cited here for context rather than independently re-verified for this entry.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "sources": [
+      {
+        "name": "The Hill -- 'EPA firing 22 environmental justice staffers, union says'",
+        "url": "https://thehill.com/policy/energy-environment/5757711-epa-environmental-justice/"
+      },
+      {
+        "name": "InsideEPA -- 'EPA Issues RIFs To Former Regional EJ Staff, Many With Disabilities'",
+        "url": "https://insideepa.com/daily-news/epa-issues-rifs-former-regional-ej-staff-many-disabilities"
+      },
+      {
+        "name": "E&E News (POLITICO) -- 'EPA on track to lay off 271 environmental justice staffers'",
+        "url": "https://www.eenews.net/articles/epa-on-track-to-lay-off-271-environmental-justice-staffers/"
+      }
+    ],
+    "last_updated": "2026-08-05",
+    "section_summaries": {
+      "what_changed": "EPA issued RIF notices to 22 remaining Environmental Justice staffers in Feb. 2026, completing the elimination of the function after an earlier 2025 wave fired ~280 EJ employees and reassigned ~175 more; AFGE's union president condemned the action, and InsideEPA reported many of the 22 had disabilities.",
+      "estimated_impact": "EPA has effectively eliminated its dedicated environmental-justice staffing capacity, removing the agency's ability to specifically track pollution and health risks in disproportionately burdened communities.",
+      "confidence_note": "Well-corroborated across multiple outlets with an on-record union statement; the 2025 baseline figures are cited from earlier reporting for context."
+    }
   },
   {
     "id": "epa-noaa-cdc-data-tools-erasure-2026",

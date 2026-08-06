@@ -1432,6 +1432,55 @@
     }
   },
   {
+    "official": "Pam Bondi, Attorney General (DOJ oversight of the grand jury subpoena; no more specific individual official was named in sourcing as personally directing this action)",
+    "offense_category": "Federal Law Enforcement Resources Redirected to Re-litigate a Settled, Court-Confirmed 2020 Election Result -- expands a documented pattern with the earlier Fulton County, Georgia poll-worker subpoena and ballot seizure",
+    "incident_summary": "A federal grand jury subpoena, confirmed by Arizona Senate President Warren Petersen, sought records related to the Arizona Senate's 2020 partisan 'audit' of Maricopa County's presidential election results -- an audit conducted by Cyber Ninjas and its subcontractor Cyfir that was widely discredited by election experts and produced results confirming Joe Biden's victory despite the audit's methodology. On March 7, 2026, an FBI agent removed more than three dozen hard drives and servers containing audit-related data and Cyfir subcontractor material from the Arizona Senate building; Petersen said he complied with the subpoena 'late last week.' The Maricopa County Board of Supervisors and Recorder's Office, who jointly administer the county's actual election operations, said they had not received subpoenas as of this reporting, though the Board said it would cooperate if one arrived. ProPublica reported election-security experts warned the seized audit records could be 'fatally flawed' as evidentiary material given the audit's own documented chain-of-custody and methodological problems. The subpoena follows and expands a broader federal pattern of using DOJ and FBI resources to re-examine 2020 election administration nearly six years after the election, after multiple independent audits, recounts, and court rulings in Arizona and nationally confirmed Biden's victory and found no evidence of the fraud the audit was commissioned to find.",
+    "contested": true,
+    "elements_required": [
+      "A federal grand jury subpoena sought records tied to a 2020 election matter already resolved through certified results, multiple recounts, and court rulings confirming the outcome",
+      "The specific records sought relate to a widely discredited partisan audit (Cyber Ninjas/Cyfir) rather than the county's own official election administration records, which the county's election-administering bodies confirmed they had not been separately subpoenaed for as of this reporting",
+      "Federal law enforcement resources (an FBI agent's on-site collection of hardware) were expended to advance the investigation",
+      "This action is part of a documented, broader pattern of similar federal actions re-examining settled 2020 election results in other jurisdictions (Fulton County, Georgia poll-worker subpoena and ballot seizure)"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Arizona Senate President Warren Petersen confirmed on X that he complied with a federal grand jury subpoena for records related to the Senate's 2020 Maricopa County election audit",
+        "source_url": "https://www.cnbc.com/2026/03/09/trump-arizona-election-grand-jury-maricopa-fbi.html",
+        "maps_to_element": "A federal grand jury subpoena sought records tied to a 2020 election matter"
+      },
+      {
+        "type": "reporting",
+        "description": "Votebeat's reporting confirms the FBI subpoena specifically targeted the Arizona Senate's audit records, distinct from the county's own official election administration records",
+        "source_url": "https://www.votebeat.org/arizona/2026/03/09/maricopa-county-2020-election-fbi-records-warren-petersen/",
+        "maps_to_element": "The specific records sought relate to the discredited partisan audit rather than official county election records"
+      },
+      {
+        "type": "reporting",
+        "description": "Reporting that an FBI agent removed more than three dozen hard drives and servers of audit-related data and Cyfir subcontractor material from the Arizona Senate building on March 7, 2026",
+        "source_url": "https://www.kjzz.org/politics/2026-03-09/arizona-senate-turns-over-2020-maricopa-county-election-audit-records-to-fbi",
+        "maps_to_element": "Federal law enforcement resources were expended to advance the investigation"
+      },
+      {
+        "type": "public_record",
+        "description": "ProPublica's analysis of the seized audit records, including expert warnings the material could be 'fatally flawed' as evidence given the original audit's own chain-of-custody and methodological problems",
+        "source_url": "https://www.propublica.org/article/maricopa-county-arizona-election-records-fbi",
+        "maps_to_element": "The records sought relate to a widely discredited partisan audit"
+      }
+    ],
+    "status": "Ongoing as of this entry's addition -- subpoena complied with in March 2026; no indictment, charging decision, or investigation conclusion identified in sourcing reviewed. Follows the earlier Fulton County, Georgia poll-worker-data subpoena and ballot seizure (documented separately in this tracker), indicating a multi-state pattern rather than an isolated action.",
+    "rebuttal_anticipated": "Likely defense: DOJ and the FBI retain independent authority to investigate potential election-related crimes regardless of how much time has passed or how settled the underlying political outcome is, examining a controversial partisan audit's own record-handling practices could itself be a legitimate law-enforcement inquiry (e.g., into the audit's conduct rather than the election itself), and a grand jury subpoena is a routine investigative tool that does not itself establish wrongdoing by any party.",
+    "comeback": "The specific accountability concern is not that DOJ examined election administration in the abstract, but that federal law enforcement resources were directed at a widely discredited partisan audit's own records nearly six years after certified results, multiple recounts, and court rulings already confirmed the 2020 outcome -- with no new evidence of election fraud identified in any sourcing reviewed -- and that this action follows, rather than stands alone from, a similar federal subpoena and ballot seizure targeting Fulton County, Georgia's 2020 election records, indicating a broader pattern of relitigating settled results rather than a single, isolated inquiry.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the pattern documented in this tracker's separate Fulton County, Georgia entry (blanche-fulton-county-poll-worker-subpoena-2026.json) of DOJ and FBI resources being directed at settled 2020 election results in multiple states.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the core facts -- the subpoena, Petersen's compliance, the FBI's on-site collection of hardware, and the audit's discredited status -- independently corroborated across CNBC, Votebeat, KJZZ, and ProPublica. LOW-MODERATE confidence on individual official accountability specifically: sourcing reviewed did not identify a named DOJ or FBI official personally directing this subpoena (the Arizona U.S. Attorney's office declined to comment, citing grand jury secrecy policy), so this entry attributes institutional responsibility to the Attorney General's oversight of DOJ rather than a confirmed individual decision-maker -- treat the `official` field as an institutional-accountability placeholder pending more specific sourcing, not a confirmed personal-direction claim.",
+    "section_summaries": {
+      "incident_summary": "A federal grand jury subpoenaed the Arizona Senate's records from its discredited 2020 Maricopa County election audit; an FBI agent removed dozens of hard drives and servers in March 2026, expanding a pattern that began with a similar Fulton County, Georgia subpoena and ballot seizure -- despite certified results, recounts, and court rulings having already confirmed the 2020 outcome.",
+      "confidence_note": "Core facts are well-corroborated across multiple outlets; no specific DOJ or FBI official was identified in sourcing as personally directing the subpoena, so individual accountability is attributed institutionally to the Attorney General's oversight of DOJ."
+    }
+  },
+  {
     "official": "Pam Bondi, then-Attorney General / Kash Patel, FBI Director",
     "offense_category": "Non-Compliance With a Statutory Deadline for Epstein-File Disclosure, Alongside FBI Compilation of Unverified Allegations Against Other Prominent Figures -- raises accountability concerns distinct from any single named individual's conduct within the files themselves",
     "incident_summary": "The Epstein Files Transparency Act required DOJ to produce its Epstein/Maxwell-related files by December 19, 2025; DOJ said the process was delayed by the volume of material and the need to redact survivors' personal information. Following the broadly-criticized rollout of a partial release ('The Epstein Files: Part 1') on February 27, 2025, Attorney General Bondi directed the FBI to deliver the complete files within 24 hours and ordered FBI Director Kash Patel to produce a comprehensive report within 14 days; as of the reporting reviewed, 74 days had passed since that directive without the report's release. Separately, as pressure mounted for full disclosure, CNN reported that FBI employees assembled a 21-slide internal presentation compiling what one employee described as 'salacious statements' about 13 prominent men in Epstein's orbit -- including Donald Trump, Bill Clinton, Prince Andrew (Mountbatten-Windsor), Leon Black, and Harvey Weinstein -- drawn from unverified allegations in the investigative files. DOJ ultimately released more than 3 million pages of documents and photos, including the 21-slide presentation itself, as part of the broader disclosure.",
@@ -3475,6 +3524,49 @@
     "section_summaries": {
       "incident_summary": "A WSJ investigation found DHS under Noem fired or demoted roughly 80% of ICE's career leadership, often for staff questioning her decisions, while she and adviser Lewandowski centralized contracting in ways tied to delays and conflicts of interest; Noem was ultimately fired as DHS Secretary in March 2026.",
       "confidence_note": "Core facts are well-corroborated across the WSJ's own investigation and independent outlets; the full scope of retaliatory intent behind every individual departure is not itemized in sourcing reviewed."
+    }
+  },
+  {
+    "official": "Kristi Noem, then-Secretary of Homeland Security",
+    "offense_category": "Public Accusation of Criminal Assault via Official Social Media Without Charges or Convictions -- disproportionately targeting U.S. citizens; not a criminal charge against Noem herself, a due-process/accountability claim regarding DHS's public communications practices",
+    "incident_summary": "A Wall Street Journal investigation reviewed more than 100,000 posts made over roughly a year by accounts linked to DHS, ICE, CBP, and senior administration officials including Secretary Noem, who was directly involved in publicizing the accusations as part of the administration's social-media campaign defending aggressive immigration enforcement. The Journal identified 279 people publicly accused by name or identifying detail of assaulting federal immigration or Border Patrol agents. Of those 279, 181 -- about 65% -- were U.S. citizens, not the undocumented immigrants the enforcement campaign is officially aimed at. The Journal tracked each identified case through the legal system: close to half of the 181 citizens accused were never charged at all, and none of the 279 total individuals identified across the full dataset had been convicted at trial as of the investigation's publication. The Journal's team separately reviewed more than 200 videos tied to the assault allegations, using both agency body-camera footage and bystander recordings, and found many of the videos cast doubt on the government's own claims that agents had been assaulted.",
+    "contested": true,
+    "elements_required": [
+      "DHS and related agency social-media accounts, with Secretary Noem's direct involvement in publicizing the campaign, publicly named or identified specific individuals as having assaulted federal agents",
+      "A majority (181 of 279, ~65%) of those publicly accused were U.S. citizens rather than the undocumented population the enforcement campaign is officially targeted at",
+      "Close to half of the accused citizens were never criminally charged, and none of the 279 total accused had been convicted at trial as of the investigation",
+      "Independent video review of over 200 incidents found many recordings cast doubt on the underlying assault claims themselves, not merely on whether charges were later pursued"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "The Wall Street Journal's investigation, reviewing over 100,000 government-linked social media posts and tracking 279 publicly accused individuals through the legal system, found 181 (65%) were U.S. citizens, close to half of those citizens were never charged, and none of the 279 had been convicted at trial; Secretary Noem was directly involved in publicizing the accusations",
+        "source_url": "https://www.wsj.com/us-news/immigration-protests-noem-minneapolis-0b8bd496?mod=us-news_trendingnow_article_pos1",
+        "maps_to_element": "Full fact pattern -- public accusation practice, citizen share, charging/conviction outcomes"
+      },
+      {
+        "type": "reporting",
+        "description": "Truthout's coverage of the same underlying dataset, focused on how attempts to actually charge people with assaulting immigration agents have been 'falling apart' once tested in court",
+        "source_url": "https://truthout.org/articles/attempts-to-charge-people-with-assaulting-immigration-agents-are-falling-apart/",
+        "maps_to_element": "Close to half of accused citizens were never charged, and none convicted at trial"
+      },
+      {
+        "type": "public_record",
+        "description": "ProPublica's separate investigation documented more than 170 U.S. citizens held by immigration agents, some kicked, dragged, or detained for days -- independent corroboration that U.S. citizens have been swept up in the same enforcement campaign this entry documents, from a different data source and methodology than the WSJ's social-media-accusation dataset",
+        "source_url": "https://www.propublica.org/article/immigration-dhs-american-citizens-arrested-detained-against-will",
+        "maps_to_element": "A majority of those targeted by the enforcement campaign's public-facing accusations were U.S. citizens"
+      }
+    ],
+    "status": "Ongoing as of this entry's addition -- no policy change to the social-media accusation practice, no correction or retraction campaign for wrongly-accused individuals, and no formal accountability finding against DHS or Noem personally identified in sourcing reviewed. The underlying legal cases the Journal tracked remain a mix of dropped, dismissed, and pending matters, with zero trial convictions identified as of the investigation.",
+    "rebuttal_anticipated": "Likely defense: publicizing enforcement actions and cooperating witnesses/evidence is a legitimate deterrence and transparency tool, an accusation is not the same as a formal charge and DHS may reasonably rely on agents' initial on-scene accounts before all facts are known, and the absence of a conviction does not by itself prove an accusation was false -- prosecutorial declination can reflect resource constraints or plea negotiations rather than factual innocence.",
+    "comeback": "The specific concern is the scale and asymmetry the Journal documented: 181 named U.S. citizens publicly accused of a violent felony-adjacent offense via official government channels, with close to half never even charged and zero convictions across the entire 279-person dataset -- a pattern the Journal's independent video review found was not merely a prosecutorial-discretion issue but, in many cases, directly contradicted by the same body-camera and bystander footage the agencies themselves could have reviewed before publicizing the accusation.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DHS leadership using public communications and enforcement optics as a political tool (see also dhs-worst-of-worst-website-errors-2026.json, which similarly found DHS's public-facing accusation materials contained systematic errors) rather than as strictly accurate law-enforcement communication.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the core dataset (279 accused, 181 citizens, charging/conviction outcomes) comes from the Wall Street Journal's own systematic review of over 100,000 posts and case-by-case legal tracking, independently corroborated by Truthout's coverage of the same charging-failure pattern and by ProPublica's separately-sourced finding of 170+ U.S. citizens detained by immigration agents. MODERATE confidence on attributing personal responsibility to Noem specifically for each individual post, since the Journal's reporting describes her as directly involved in publicizing the broader social-media campaign rather than confirming she personally authored or approved every specific accusation in the 279-person dataset.",
+    "section_summaries": {
+      "incident_summary": "A WSJ investigation of 100,000+ government social-media posts found DHS and Secretary Noem publicly accused 279 people of assaulting immigration agents; 181 (65%) were U.S. citizens, close to half of those citizens were never charged, and none of the 279 were convicted at trial, with many underlying videos undercutting the original assault claims.",
+      "confidence_note": "Well-corroborated across the WSJ's own systematic dataset, Truthout's charging-failure coverage, and ProPublica's independently-sourced citizen-detention findings; Noem's personal role is documented as campaign-level involvement, not confirmed per-post authorship."
     }
   },
   {
