@@ -3424,6 +3424,40 @@
     }
   },
   {
+    "id": "foreign-doctor-visa-delays-2026",
+    "title": "Visa Renewal Slowdown for Foreign Doctors From 'National Security Risk' Countries Is Costing Rural Hospitals Physicians",
+    "institution": "State Department / USCIS visa processing",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing as of this entry's addition -- no resolution or policy change identified in sourcing reviewed",
+    "date_of_action": "2026 (reported April 2026)",
+    "what_changed": "Politico reported that Trump officials are slow-walking visa renewals for foreign-born doctors from countries the administration labels national security risks, leaving many physicians unable to continue working legally as their visa status lapses during the delay. Hospitals -- particularly in rural and underserved areas that rely heavily on foreign-trained physicians to fill positions U.S. medical graduates often don't take -- are already losing doctors to missed start dates, interrupted fellowships, and lapsed renewal deadlines caused by the processing slowdown, not by any finding of individual wrongdoing or security risk specific to the affected physicians.",
+    "primary_proponent": {
+      "name": "State Department / Trump administration",
+      "role": "Visa processing and national-security screening policy",
+      "note": "Sourcing reviewed did not identify a single named official personally directing the slowdown; the policy is attributed to a broader national-security-driven visa-screening posture toward doctors from specifically designated countries."
+    },
+    "estimated_impact": {
+      "summary": "A visa-processing slowdown targeting doctors from designated countries -- not individualized security findings against specific physicians -- is directly reducing physician staffing at hospitals, with the effect concentrated in rural and underserved communities that depend most heavily on foreign-trained doctors to fill positions that would otherwise go unfilled.",
+      "figures": [],
+      "caveat": "Sourcing reviewed (Politico's reporting) documents the pattern and specific examples of missed start dates and interrupted fellowships but did not include an aggregate national count of affected physicians or hospitals as of this entry's addition."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- Politico's reporting is the primary source identified for this specific pattern, documenting the visa slowdown's mechanism and its hospital-staffing consequences; broader independent corroboration and an aggregate quantified impact figure were not identified in sourcing reviewed as of this entry's addition.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "Politico -- 'A slowdown in visa processing is wreaking havoc on foreign doctors' lives'",
+        "url": "https://www.politico.com/news/2026/04/01/a-slowdown-in-visa-processing-is-wreaking-havoc-on-foreign-doctors-lives-00853010"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "Trump officials are slow-walking visa renewals for foreign doctors from designated 'national security risk' countries, causing many to lose legal work status; rural and underserved hospitals are already losing physicians to missed start dates and lapsed renewals.",
+      "estimated_impact": "Hospital physician staffing is being reduced by a blanket visa-processing policy, not individualized security findings, with the harm concentrated in the communities most dependent on foreign-trained doctors.",
+      "confidence_note": "Sourced to Politico's dedicated reporting; an aggregate national impact figure and broader independent corroboration weren't identified beyond that reporting."
+    }
+  },
+  {
     "id": "forest-service-firefighter-shortage-trump2",
     "title": "Forest Service Chief's Own Internal Memo Contradicted Agriculture Secretary's Public 'Fully Staffed' Claims — 5,000 Firefighting Positions Vacant",
     "institution": "U.S. Forest Service, Department of Agriculture",
@@ -5092,7 +5126,7 @@
     "domain": "staff_office_cuts",
     "status": "Funding eventually released (Nov. 28, 2025); underlying staff elimination not reversed",
     "date_of_action": "2025-04-04 (entire program staff terminated); 2025-10-01 through 2025-11-28 (funding delayed during shutdown)",
-    "what_changed": "In April 2025, the Trump administration fired the entire federal staff team responsible for administering LIHEAP -- the ~$4.1 billion program that helps roughly 6 million low-income households pay heating and cooling bills, serving all 50 states, D.C., U.S. territories, and federally recognized tribes. This is the same program Trump's budget proposed zero-funding entirely. Six months later, when the October-November 2025 government shutdown (the longest in U.S. history at 43 days) hit, LIHEAP's annual funding allocation -- normally distributed to states by early November -- was delayed with no dedicated federal staff left to expedite the process once Congress acted. States including Pennsylvania, New York, Massachusetts, Minnesota, Connecticut, and Kansas had to delay or suspend their heating-assistance seasons entirely during the onset of winter. The $3.6 billion in delayed funding was finally released to states on November 28, 2025, over two weeks after the shutdown ended (Nov. 12) and roughly a month later than the program's normal early-November distribution.",
+    "what_changed": "In April 2025, the Trump administration fired the entire federal staff team responsible for administering LIHEAP -- the ~$4.1 billion program that helps roughly 6 million low-income households pay heating and cooling bills, serving all 50 states, D.C., U.S. territories, and federally recognized tribes. This is the same program Trump's budget proposed zero-funding entirely. Six months later, when the October-November 2025 government shutdown (the longest in U.S. history at 43 days) hit, LIHEAP's annual funding allocation -- normally distributed to states by early November -- was delayed with no dedicated federal staff left to expedite the process once Congress acted. States including Pennsylvania, New York, Massachusetts, Minnesota, Connecticut, and Kansas had to delay or suspend their heating-assistance seasons entirely during the onset of winter. The $3.6 billion in delayed funding was finally released to states on November 28, 2025, over two weeks after the shutdown ended (Nov. 12) and roughly a month later than the program's normal early-November distribution. Trump's FY2027 budget, released April 3, 2026 and documented in more detail elsewhere in this tracker (trump-fy2027-budget-defense-tradeoff-2026.json), again proposed eliminating LIHEAP entirely, even as utility costs continued to rise and the program retained bipartisan congressional support.",
     "primary_proponent": {
       "name": "Trump administration / HHS Administration for Children and Families",
       "role": "Executed the April 2025 staff elimination; oversaw the subsequent funding delay",
@@ -5130,7 +5164,7 @@
       "estimated_impact": "Millions of households rely on this aid, and most also get SNAP, meaning one shutdown squeezed the same families twice; advocates warn millions of homes risk winter disconnection.",
       "confidence_note": "Well-documented across many state and national outlets; reporting suggests but doesn't confirm that the staffing cuts drove the delay's length -- treat that connection as suggestive, not proven."
     },
-    "last_verified": "2026-07-07",
+    "last_verified": "2026-08-06",
     "date_added": "2026-07-07",
     "sources": [
       {
@@ -5153,7 +5187,8 @@
         "name": "NPR — Government shutdown delays an assistance program households use to heat homes",
         "url": "https://www.npr.org/2025/11/06/nx-s1-5598497/government-shutdown-delays-heat-homes-electric-bills-pennsylvania"
       }
-    ]
+    ],
+    "last_updated": "2026-08-06"
   },
   {
     "id": "makary-fda-commissioner-resignation-2026",
@@ -7507,7 +7542,7 @@
     "domain": "research_suppression",
     "status": "Reported as a completed episode during the 2025 outbreak; Houry's resignation was final as of summer 2025. Update 2026-07-27: the Washington Post reports the U.S. recorded 2,295 measles cases in 2026 as of late July -- the highest annual total since 1991 -- with more than five months remaining in the year, which public health experts attribute to declining vaccination rates and sustained outbreaks across multiple states. Update 2026-08-05: Utah's outbreak, part of the sustained 2026 transmission WSJ and CIDRAP report has continued since early 2025, has reached 679 cumulative cases (197 in 2025, 482 in 2026) with measles detected in every health jurisdiction in the state; the CDC has said the U.S. is at risk of losing its measles elimination status -- unbroken since 2000 -- if any transmission chain remains continuous for a full year, a threshold Utah's outbreak is approaching. Utah's kindergarten MMR vaccination rate (78.5% in 2023-2024) is well below the ~95% threshold public health officials say is needed to prevent sustained spread.",
     "date_of_action": "2025 (during the active measles outbreak response, through Houry's resignation in summer 2025)",
-    "what_changed": "Former CDC Chief Medical Officer Dr. Debra Houry said that while CDC staff were actively responding to the largest U.S. measles outbreak in decades -- more than 2,000 cases nationwide in 2025, including two child deaths linked to a West Texas outbreak cluster, with 93% of cases involving people who were unvaccinated or had unknown vaccination status -- HHS Secretary Robert F. Kennedy Jr. and his aides requested 15 years of historical data on every individual measles case, including comorbidities among the deceased. Houry said the requests diverted CDC staff time and attention away from active outbreak management, stating publicly that 'the active measles response has to take priority,' and characterized the data requests as 'not based on science or reality, but trying to answer an agenda that was already in place.' Houry said Kennedy separately declined briefings from CDC's top medical officials on the measles epidemic despite CDC's offers to provide 'correct statistics, correct information,' spread false claims about vaccines (including the MMR vaccine) that CDC experts were prevented from countering, and relied on advisers she said lacked medical, scientific, or government background. Houry resigned in protest in summer 2025, saying she could no longer protect the agency's scientific integrity and citing measles, whooping cough, and flu deaths she witnessed: 'I couldn't stand behind that.' Her resignation followed Kennedy's June 9, 2025 removal of all 17 members of CDC's vaccine advisory committee (ACIP, tracked separately in this database), whose replacements included members with ties to lawsuits against vaccine makers -- notable given that Kennedy himself had collected referral fees from such lawsuits before becoming HHS Secretary. By the eighth week of 2026, CNN reported measles cases had already surpassed 1,100 nationally -- roughly six times the total typically seen in a full year -- with 96% of infections among unvaccinated people and health officials warning deaths would likely rise, putting the U.S. at risk of losing its measles elimination status -- a designation held since 2000 -- for the first time. A Reuters analysis of Michigan state data found the state's childhood vaccination series-completion rate fell nearly 3 percentage points, to 66.5%, between January 2025 and January 2026 -- about 13 times the average annual change over the prior 18 years. Reuters found the decline had different drivers across communities: Kennedy's vaccine-skeptic messaging was the primary influence among white families, while the administration's ramped-up immigration enforcement led Latino families to avoid public clinics and other activities outside the home for fear of deportation, after their vaccination rates had partially recovered post-COVID.",
+    "what_changed": "Former CDC Chief Medical Officer Dr. Debra Houry said that while CDC staff were actively responding to the largest U.S. measles outbreak in decades -- more than 2,000 cases nationwide in 2025, including two child deaths linked to a West Texas outbreak cluster, with 93% of cases involving people who were unvaccinated or had unknown vaccination status -- HHS Secretary Robert F. Kennedy Jr. and his aides requested 15 years of historical data on every individual measles case, including comorbidities among the deceased. Houry said the requests diverted CDC staff time and attention away from active outbreak management, stating publicly that 'the active measles response has to take priority,' and characterized the data requests as 'not based on science or reality, but trying to answer an agenda that was already in place.' Houry said Kennedy separately declined briefings from CDC's top medical officials on the measles epidemic despite CDC's offers to provide 'correct statistics, correct information,' spread false claims about vaccines (including the MMR vaccine) that CDC experts were prevented from countering, and relied on advisers she said lacked medical, scientific, or government background. Houry resigned in protest in summer 2025, saying she could no longer protect the agency's scientific integrity and citing measles, whooping cough, and flu deaths she witnessed: 'I couldn't stand behind that.' Her resignation followed Kennedy's June 9, 2025 removal of all 17 members of CDC's vaccine advisory committee (ACIP, tracked separately in this database), whose replacements included members with ties to lawsuits against vaccine makers -- notable given that Kennedy himself had collected referral fees from such lawsuits before becoming HHS Secretary. By the eighth week of 2026, CNN reported measles cases had already surpassed 1,100 nationally -- roughly six times the total typically seen in a full year -- with 96% of infections among unvaccinated people and health officials warning deaths would likely rise, putting the U.S. at risk of losing its measles elimination status -- a designation held since 2000 -- for the first time. A Reuters analysis of Michigan state data found the state's childhood vaccination series-completion rate fell nearly 3 percentage points, to 66.5%, between January 2025 and January 2026 -- about 13 times the average annual change over the prior 18 years. Reuters found the decline had different drivers across communities: Kennedy's vaccine-skeptic messaging was the primary influence among white families, while the administration's ramped-up immigration enforcement led Latino families to avoid public clinics and other activities outside the home for fear of deportation, after their vaccination rates had partially recovered post-COVID. A related disease is also reappearing: NBC News reported doctors warning that Haemophilus influenzae type b (Hib) -- a bacterial disease once nearly eradicated in the U.S. through vaccination -- is resurging as childhood vaccination rates decline, with cases still low in absolute terms but rising, including severe recent infections and at least one reported death in an unvaccinated infant.",
     "primary_proponent": {
       "name": "Robert F. Kennedy Jr.",
       "role": "Secretary of Health and Human Services",
@@ -7589,6 +7624,10 @@
       {
         "name": "Reuters -- 'Child vaccination rate drops sharply in Michigan as RFK Jr influences policy'",
         "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/child-vaccination-rate-drops-sharply-michigan-rfk-jr-influences-policy-2026-03-18/"
+      },
+      {
+        "name": "NBC News -- 'Bacterial disease Hib doctors warn rising vaccination rates drop'",
+        "url": "https://www.nbcnews.com/health/health-news/bacterial-disease-hib-doctors-warn-rising-vaccination-rates-drop-rcna265851"
       }
     ],
     "last_updated": "2026-08-06"
@@ -8712,13 +8751,58 @@
     }
   },
   {
+    "id": "trump-fy2027-budget-defense-tradeoff-2026",
+    "title": "Trump's FY2027 Budget Proposes ~$500B More for Defense While Cutting Non-Defense Discretionary Spending 10%, Including Health, Environment, Agriculture, and Science",
+    "institution": "Office of Management and Budget / multiple federal agencies",
+    "domain": "funding_redirection",
+    "status": "Proposed -- a budget request to Congress, not enacted law",
+    "date_of_action": "2026-04-03 (budget proposal released)",
+    "what_changed": "Trump proposed a fiscal year 2027 budget that would increase military spending by roughly $500 billion while cutting non-defense discretionary federal programs by 10% overall, including major reductions to health, environmental protection, agriculture, and scientific research funding. Reuters reported the plan shifts federal resources heavily toward military spending as the U.S. remained engaged in the Iran conflict. Specific line items within the proposal, documented elsewhere in this tracker, include again proposing to zero-fund LIHEAP entirely (liheap-staff-elimination-funding-delay-trump2.json) and cutting TSA funding while pushing smaller airports toward private security screeners (tsa-precheck-global-entry-shutdown-suspension-2026.json) -- the latter proposed even as TSA was still visibly strained from the early-2026 shutdown documented in that entry. This budget proposal is separately consistent with Trump's own public April 2026 statement, documented in this tracker's Medicaid hospital-closure entry (medicaid-hospital-closure-risk-2026.json), that the federal government could not fund Medicaid, Medicare, and child care because military spending had to come first.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "The budget proposal reflects the administration's own stated spending priorities; as a proposal to Congress it requires congressional action to take effect, distinct from the executive actions and enacted-law cuts (e.g., OBBBA's Medicaid provisions) documented elsewhere in this tracker."
+    },
+    "estimated_impact": {
+      "summary": "The administration's own budget request quantifies, in a single document, the scale of the tradeoff this tracker documents piecemeal elsewhere: roughly half a trillion dollars in additional military spending paired with a 10% across-the-board cut to the non-defense programs -- health, environment, agriculture, science -- that fund many of the specific agency capacity losses tracked individually in this database.",
+      "figures": [
+        {
+          "metric": "Proposed increase in military spending",
+          "value": "~$500 billion",
+          "source": "Reuters, April 2026"
+        },
+        {
+          "metric": "Proposed cut to non-defense discretionary spending",
+          "value": "10%",
+          "source": "Reuters, April 2026"
+        }
+      ],
+      "caveat": "This is a budget proposal, not enacted law -- Congress ultimately controls appropriations, and prior Trump budget proposals (including earlier LIHEAP zero-funding requests) have not always been enacted as proposed. Present this as the administration's stated request and priorities, not a guaranteed future outcome."
+    },
+    "confidence_note": "HIGH confidence -- the ~$500 billion defense increase and 10% non-defense cut are drawn directly from Reuters's reporting on the budget document itself. MODERATE confidence on which specific proposed cuts will actually be enacted, since this is a proposal subject to congressional negotiation, not final law -- several individual line items (LIHEAP, TSA funding) have their own separate, more specific tracking elsewhere in this database.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "Reuters -- 'Trump's budget proposes 10% cut to discretionary spending, increased defense spending'",
+        "url": "https://www.reuters.com/world/us/trumps-budget-proposes-10-cut-discretionary-spending-increased-defense-spending-2026-04-03/"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "Trump's FY2027 budget proposes ~$500B more for defense while cutting non-defense discretionary spending 10% (health, environment, agriculture, science), including line items to again zero-fund LIHEAP and cut TSA funding toward privatized screening -- documented individually elsewhere in this tracker.",
+      "estimated_impact": "The proposal quantifies in one document the scale of the defense-vs-domestic-programs tradeoff this tracker documents piecemeal across many individual agency entries.",
+      "confidence_note": "The top-line figures are well-sourced to Reuters's reporting on the budget document; this is a proposal requiring congressional action, not enacted law."
+    }
+  },
+  {
     "id": "tsa-precheck-global-entry-shutdown-suspension-2026",
     "title": "DHS Suspended, Then Partially Reversed, TSA PreCheck and Global Entry During a Funding Lapse",
     "institution": "Transportation Security Administration / Customs and Border Protection, DHS",
     "domain": "staff_office_cuts",
     "status": "Partially reversed -- TSA PreCheck restored within about a day; Global Entry remained suspended as the shutdown continued Noem subsequently warned PreCheck could be re-suspended as the shutdown continued. By mid-March 2026, officials warned continued TSA absenteeism (above 30% at some hubs) could force some airport shutdowns entirely if the funding standoff persisted. TSA wait times peaked at the worst levels in agency history in late March 2026 (480+ officers departed, some lines over 4.5 hours) before a funding deal was reached.",
     "date_of_action": "2026-02-20 (suspension announced) through 2026-02-21/22 (PreCheck reversal)",
-    "what_changed": "DHS Secretary Kristi Noem announced the suspension of TSA PreCheck and CBP's Global Entry expedited-traveler programs, citing the funding lapse from the ongoing partial government shutdown. Less than a day later, TSA reversed the PreCheck suspension after significant pushback from airlines and lawmakers; Global Entry, however, remained suspended as the shutdown continued. Airlines for America president Chris Sununu criticized the suspension, saying the traveling public was 'once again... used as a political football amid another government shutdown.' Sen. Mark Warner noted that in 2025 more than 18 million travelers used Global Entry, saving over 300,000 CBP officer-hours across 79 ports of entry, and that both programs had remained operational throughout the 43-day government shutdown the prior fall -- undercutting DHS's funding-lapse rationale for this specific suspension. Days later, Secretary Noem warned TSA PreCheck could again be suspended as the DHS shutdown continued, while Global Entry remained suspended throughout. The underlying staffing strain continued to escalate: by mid-March 2026, Reuters reported TSA officers were working without pay as the funding standoff continued, with absentee rates spiking above 30% at some major hubs. Officials warned some airports could be forced to shut down entirely if the standoff persisted, with smaller airports with limited checkpoints described as especially at risk. The shutdown dragged into a second month, and ABC News reported tens of thousands of TSA workers were going unpaid, with many receiving $0 paychecks while still required to report for duty; employees described taking second jobs, leaving the agency, and struggling to meet basic expenses. The prolonged standoff had an additional, explicit political dimension: the New York Times reported Trump told Republicans to halt negotiations to reopen DHS and instead use the shutdown as leverage to pass the Safeguard American Voter Eligibility (SAVE) Act, a voter-ID bill -- even as TSA workers went unpaid and airport disruptions worsened. Trump and Senate Majority Leader John Thune clashed publicly over the ultimatum. In the days before a deal was reached, the crisis peaked: the NYT reported TSA union leaders blasted Trump's deployment of ICE and other DHS agents to 14 airports to cover screening shortages, saying the officers were not trained for screening work and did little to reduce lines. CBS News reported wait times stretched up to six hours at major airports even with the ICE deployment, with nearly 12% of TSA officers calling out unpaid on a given day. Bloomberg reported TSA said wait times reached the worst levels in the agency's history after more than 480 officers left during the shutdown, with some lines exceeding 4.5 hours and major airports including Atlanta, Houston, and New York seeing checkpoint closures and lane consolidations. Trump then ultimately endorsed a deal in late March 2026 to fund DHS (with the exception of key ICE provisions), allowing the SAVE Act to wait rather than continuing to hold TSA funding hostage to it. By March 31, 2026, CBS News reported TSA was consolidating security lanes and warned it might be forced to close smaller airports entirely if the funding standoff continued without a deal, with hundreds of agents having quit and wait times approaching 4-5 hours even at major hubs.",
+    "what_changed": "DHS Secretary Kristi Noem announced the suspension of TSA PreCheck and CBP's Global Entry expedited-traveler programs, citing the funding lapse from the ongoing partial government shutdown. Less than a day later, TSA reversed the PreCheck suspension after significant pushback from airlines and lawmakers; Global Entry, however, remained suspended as the shutdown continued. Airlines for America president Chris Sununu criticized the suspension, saying the traveling public was 'once again... used as a political football amid another government shutdown.' Sen. Mark Warner noted that in 2025 more than 18 million travelers used Global Entry, saving over 300,000 CBP officer-hours across 79 ports of entry, and that both programs had remained operational throughout the 43-day government shutdown the prior fall -- undercutting DHS's funding-lapse rationale for this specific suspension. Days later, Secretary Noem warned TSA PreCheck could again be suspended as the DHS shutdown continued, while Global Entry remained suspended throughout. The underlying staffing strain continued to escalate: by mid-March 2026, Reuters reported TSA officers were working without pay as the funding standoff continued, with absentee rates spiking above 30% at some major hubs. Officials warned some airports could be forced to shut down entirely if the standoff persisted, with smaller airports with limited checkpoints described as especially at risk. The shutdown dragged into a second month, and ABC News reported tens of thousands of TSA workers were going unpaid, with many receiving $0 paychecks while still required to report for duty; employees described taking second jobs, leaving the agency, and struggling to meet basic expenses. The prolonged standoff had an additional, explicit political dimension: the New York Times reported Trump told Republicans to halt negotiations to reopen DHS and instead use the shutdown as leverage to pass the Safeguard American Voter Eligibility (SAVE) Act, a voter-ID bill -- even as TSA workers went unpaid and airport disruptions worsened. Trump and Senate Majority Leader John Thune clashed publicly over the ultimatum. In the days before a deal was reached, the crisis peaked: the NYT reported TSA union leaders blasted Trump's deployment of ICE and other DHS agents to 14 airports to cover screening shortages, saying the officers were not trained for screening work and did little to reduce lines. CBS News reported wait times stretched up to six hours at major airports even with the ICE deployment, with nearly 12% of TSA officers calling out unpaid on a given day. Bloomberg reported TSA said wait times reached the worst levels in the agency's history after more than 480 officers left during the shutdown, with some lines exceeding 4.5 hours and major airports including Atlanta, Houston, and New York seeing checkpoint closures and lane consolidations. Trump then ultimately endorsed a deal in late March 2026 to fund DHS (with the exception of key ICE provisions), allowing the SAVE Act to wait rather than continuing to hold TSA funding hostage to it. By March 31, 2026, CBS News reported TSA was consolidating security lanes and warned it might be forced to close smaller airports entirely if the funding standoff continued without a deal, with hundreds of agents having quit and wait times approaching 4-5 hours even at major hubs. Trump's FY2027 budget, released April 3, 2026 and documented in more detail elsewhere in this tracker (trump-fy2027-budget-defense-tradeoff-2026.json), proposed cutting TSA funding and pushing smaller airports to replace federal screening officers with private security screeners -- a proposal Reuters noted came just weeks after the shutdown-driven staffing crisis and unpaid-worker escalation this entry documents.",
     "primary_proponent": {
       "name": "Kristi Noem",
       "role": "Secretary of Homeland Security",
@@ -9180,7 +9264,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing -- meetings postponed multiple times with no rescheduled date as of this entry; vice chair vacancies and expired-term member seats remain unfilled",
     "date_of_action": "2025 (meeting gap already underway, per Feb. 2026 reporting) through 2026-07 (fourth meeting postponement)",
-    "what_changed": "Even before the Supreme Court ruling below, NBC News reported in February 2026 that USPSTF had not held a formal meeting in nearly a year and was operating with fewer members, as Kennedy reshaped federal health advisory committees more broadly -- establishing that the panel's disruption predates and is not fully explained by the subsequent Kennedy v. Braidwood ruling. In June 2026, the Supreme Court ruled 6-3 in Kennedy v. Braidwood that the U.S. Preventive Services Task Force -- the independent panel that determines which preventive services (cancer screenings, HIV prevention, diabetes tests, and more) insurers must cover under the ACA without cost-sharing -- was constitutionally structured, while also confirming that its members serve at the HHS Secretary's discretion. Effective May 11, 2026, HHS Secretary Robert F. Kennedy Jr. dismissed the Task Force's two vice chairs, drawing condemnation from the American Medical Association and other public health organizations. Kennedy also declined to fill member seats whose terms expired in December 2025, and indefinitely postponed the panel's last three scheduled meetings, including its July 10, 2026 meeting, without providing a rescheduled date -- HHS cited an 'unprecedented number of nominations' still under review as the reason for the fourth postponement. HHS has also blocked public access to records concerning the panel's nomination and vacancy-filling process. Healthcare organizations have publicly drawn a parallel to Kennedy's earlier dismissal of all 17 members of the CDC's Advisory Committee on Immunization Practices (ACIP), which he replaced with a smaller panel including members who have expressed anti-vaccine views, raising concern that USPSTF will undergo a similar politically-driven overhaul.",
+    "what_changed": "Even before the Supreme Court ruling below, NBC News reported in February 2026 that USPSTF had not held a formal meeting in nearly a year and was operating with fewer members, as Kennedy reshaped federal health advisory committees more broadly -- establishing that the panel's disruption predates and is not fully explained by the subsequent Kennedy v. Braidwood ruling. In June 2026, the Supreme Court ruled 6-3 in Kennedy v. Braidwood that the U.S. Preventive Services Task Force -- the independent panel that determines which preventive services (cancer screenings, HIV prevention, diabetes tests, and more) insurers must cover under the ACA without cost-sharing -- was constitutionally structured, while also confirming that its members serve at the HHS Secretary's discretion. Effective May 11, 2026, HHS Secretary Robert F. Kennedy Jr. dismissed the Task Force's two vice chairs, drawing condemnation from the American Medical Association and other public health organizations. Kennedy also declined to fill member seats whose terms expired in December 2025, and indefinitely postponed the panel's last three scheduled meetings, including its July 10, 2026 meeting, without providing a rescheduled date -- HHS cited an 'unprecedented number of nominations' still under review as the reason for the fourth postponement. HHS has also blocked public access to records concerning the panel's nomination and vacancy-filling process. Healthcare organizations have publicly drawn a parallel to Kennedy's earlier dismissal of all 17 members of the CDC's Advisory Committee on Immunization Practices (ACIP), which he replaced with a smaller panel including members who have expressed anti-vaccine views, raising concern that USPSTF will undergo a similar politically-driven overhaul. Reuters reported the stalled panel has specifically delayed pending updates to guidance on cancer screening, HIV prevention, and heart disease -- three of the major preventive-care areas the panel's recommendations directly govern insurer coverage requirements for.",
     "primary_proponent": {
       "name": "Robert F. Kennedy Jr.",
       "role": "Secretary of Health and Human Services",
@@ -9223,7 +9307,7 @@
       "estimated_impact": "The panel that decides which preventive care insurers must cover free of charge has been left leaderless and unable to meet, drawing comparisons to Kennedy's earlier wholesale replacement of the CDC's vaccine advisory panel.",
       "confidence_note": "Well-corroborated across multiple health-policy outlets and a Senate statement; the ACIP-purge comparison is external commentary, not an admitted administration strategy."
     },
-    "last_verified": "2026-08-05",
+    "last_verified": "2026-08-06",
     "date_added": "2026-07-27",
     "sources": [
       {
@@ -9245,9 +9329,13 @@
       {
         "name": "Sen. Patty Murray — Murray sounds alarm over RFK Jr. postponing U.S. Preventive Services Task Force meeting",
         "url": "https://www.murray.senate.gov/murray-sounds-alarm-over-rfk-jr-postponing-u-s-preventive-services-task-force-meeting-threat-to-coverage-of-preventive-care"
+      },
+      {
+        "name": "Reuters -- 'Kennedy sidelining US advisory panel delays updates cancer screening guidelines'",
+        "url": "https://www.reuters.com/legal/litigation/kennedy-sidelining-us-advisory-panel-delays-updates-cancer-screening-guidelines-2026-04-02/"
       }
     ],
-    "last_updated": "2026-08-05"
+    "last_updated": "2026-08-06"
   },
   {
     "id": "va-disability-rating-treatment-effectiveness-rule-2026",
