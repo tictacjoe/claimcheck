@@ -7586,6 +7586,63 @@
     }
   },
   {
+    "id": "state-department-iran-war-evacuation-capacity-2026",
+    "title": "State Department Told Americans to 'Depart Now' From 16 Middle East Countries, Then Told Its Own Evacuation Hotline Callers Not to Rely on Government Help",
+    "institution": "Department of State",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing as of this entry's addition -- the war's evacuation-assistance strain and the underlying staffing losses were not reported as resolved in sourcing reviewed",
+    "date_of_action": "2026 (Iran war escalation period)",
+    "what_changed": "As the U.S. war with Iran escalated, the State Department issued 'DEPART NOW' alerts urging U.S. citizens to leave 16 countries across the Middle East -- including Bahrain, Egypt, Iraq, Israel, the West Bank, Gaza, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia, Syria, the UAE, and Yemen -- citing serious safety risks. Americans who called the department's evacuation-assistance hotline were told: 'Please do not rely on the U.S. government for assisted departure or evacuation.' NOTUS reported stranded Americans described receiving little practical help as regional airports closed and commercial travel options rapidly disappeared. The Intercept reported that foreign service officers fired in earlier DOGE-driven State Department workforce cuts had previously and specifically warned the department would be unable to adequately assist Americans stranded in a Middle East crisis -- a warning this episode is reported to have borne out. NBC News separately reported thousands of Americans were left stranded in the war zone amid the department's response gap. The State Department did publicize a 24/7 emergency hotline and reported assisting over 130 Americans evacuate Israel specifically, indicating the department was not wholly inactive, but the gap between the 16-country 'depart now' directive and the hotline's own explicit disclaimer against relying on government assistance was widely reported as a substantive breakdown in crisis-response capacity.",
+    "primary_proponent": {
+      "name": "Marco Rubio",
+      "role": "Secretary of State",
+      "note": "Oversaw the State Department's 2025 reorganization (documented separately in this tracker, state-department-reorganization-trump2.json) that eliminated domestic offices and positions; reporting ties the department's diminished crisis-response capacity during the Iran war evacuation crunch to the cumulative effect of that reorganization and earlier DOGE-driven foreign service staffing cuts."
+    },
+    "estimated_impact": {
+      "summary": "The department responsible for assisting Americans abroad issued blanket evacuation advisories for 16 countries while simultaneously telling its own hotline callers not to expect government-assisted evacuation, leaving Americans stranded as regional air travel collapsed -- an outcome former foreign service officers, fired in earlier workforce cuts, say they had specifically warned would happen.",
+      "figures": [
+        {
+          "metric": "Countries covered by the 'DEPART NOW' advisory",
+          "value": "16",
+          "source": "State Department advisory, reported by multiple outlets, 2026"
+        },
+        {
+          "metric": "Americans the State Department said it helped evacuate from Israel specifically",
+          "value": "130+",
+          "source": "Fox News, citing a State Department official, 2026"
+        }
+      ],
+      "caveat": "The State Department did report actively assisting some evacuations (130+ from Israel) and maintained a 24/7 emergency hotline, so this entry documents a capacity gap and messaging contradiction relative to the scale of the crisis, not a claim the department provided zero assistance. The Intercept's causal link between DOGE-era staffing cuts and this specific response gap rests on former officers' own stated warnings and assessment, not an official government finding."
+    },
+    "confidence_note": "HIGH confidence on the core facts -- the 16-country 'depart now' advisory, the hotline's 'do not rely on the U.S. government' disclaimer, and reports of stranded Americans -- independently corroborated across NOTUS, NBC News, KTLA, and Fox News (which also confirms the department's own claimed evacuation-assistance figures). MODERATE confidence on the specific causal attribution to DOGE/reorganization staffing cuts, which rests on The Intercept's reporting and the account of foreign service officers who were themselves let go in the cuts being described -- a directly interested source, though a specific and falsifiable one (they say they warned of exactly this outcome in advance).",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "sources": [
+      {
+        "name": "NOTUS -- 'Americans Stranded in the Middle East Are Having a Hard Time Getting Help From the State Department'",
+        "url": "https://www.notus.org/foreign-policy/americans-stranded-middle-east-help-state-department-iran-war"
+      },
+      {
+        "name": "The Intercept -- 'DOGE Cuts Left U.S. Unable to Help Americans Stranded in Iran War Zone'",
+        "url": "https://theintercept.com/2026/04/12/americans-stranded-middle-east-iran-war-doge-cuts/"
+      },
+      {
+        "name": "NBC News -- 'Trump administration fired thousands; Americans are stranded in war zone'",
+        "url": "https://www.nbcnews.com/politics/national-security/trump-administration-fire-thousands-americans-are-stranded-war-zone-rcna261682"
+      },
+      {
+        "name": "Fox News -- 'State Department has helped over 130 Americans evacuate Israel during war with Iran, official says'",
+        "url": "https://www.foxnews.com/politics/state-department-has-helped-over-130-americans-evacuate-israel-during-war-iran-official-says.amp"
+      }
+    ],
+    "last_updated": "2026-08-05",
+    "section_summaries": {
+      "what_changed": "The State Department urged Americans to 'depart now' from 16 Middle East countries during the Iran war, while its own evacuation hotline told callers not to rely on the U.S. government for assisted departure; fired foreign service officers said DOGE-era staffing cuts had left the department unable to adequately respond, as thousands of Americans were reported stranded.",
+      "estimated_impact": "A significant gap emerged between the scale of the evacuation advisory and the department's stated evacuation capacity, though the department did report assisting 130+ Americans out of Israel specifically.",
+      "confidence_note": "Core facts are well-corroborated across multiple outlets; the causal link to DOGE-era staffing cuts specifically rests on fired officers' own account, a directly interested but specific and falsifiable source."
+    }
+  },
+  {
     "id": "state-department-pre-trump-x-post-deletion-2026",
     "title": "State Department Removes All Pre-Trump Public Posts From Its Official X Accounts Department-Wide",
     "institution": "U.S. Department of State",

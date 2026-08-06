@@ -2750,7 +2750,7 @@
       },
       {
         "type": "public_record",
-        "description": "A Texas grand jury declined to indict the HSI (ICE) agent who fatally shot U.S. citizen Ruben Ray Martinez during a March 2025 traffic encounter on South Padre Island, after DHS said Martinez struck an agent with his vehicle -- a claim a witness disputed, saying the vehicle was moving slowly and agents fired without warning. Case records reviewed by KSAT showed conflicting DHS statements about the incident, and House Oversight Committee Democrats formally demanded an investigation into the shooting and the year-long lack of transparency around it. The case stands as a documented instance in which the weakened-oversight environment this entry tracks produced a fatal outcome with no resulting criminal accountability",
+        "description": "A Texas grand jury declined to indict the HSI (ICE) agent who fatally shot U.S. citizen Ruben Ray Martinez during a March 2025 traffic encounter on South Padre Island, after DHS said Martinez struck an agent with his vehicle -- a claim a witness disputed, saying the vehicle was moving slowly and agents fired without warning -- a claim newly released body camera and surveillance footage, reported by The Washington Post on March 7, 2026, corroborated, showing Martinez's car moving slowly while officers shouted conflicting commands before the agent fired three shots. Case records reviewed by KSAT showed conflicting DHS statements about the incident, and House Oversight Committee Democrats formally demanded an investigation into the shooting and the year-long lack of transparency around it. The case stands as a documented instance in which the weakened-oversight environment this entry tracks produced a fatal outcome with no resulting criminal accountability",
         "source_url": "https://www.washingtonpost.com/immigration/2026/02/25/dhs-shooting-death-grand-jury-texas/",
         "maps_to_element": "Independent oversight mechanisms that would otherwise surface and address this misconduct have been weakened"
       },
@@ -2771,7 +2771,8 @@
     "section_summaries": {
       "incident_summary": "An AP review found at least two dozen ICE employees/contractors charged with crimes since 2020 -- physical abuse, sexual abuse, corruption -- while the administration claims agents have 'absolute immunity' and has weakened oversight even as ICE undergoes a $75 billion hiring expansion experts warn could accelerate future misconduct.",
       "confidence_note": "Documented past charged cases, training cuts (100 to 42 days), vetting failures, and the Martinez shooting/no-indictment outcome are all independently corroborated across multiple outlets; the claim that expansion increases future system-wide misconduct rates remains expert opinion, though now backed by concrete institutional-mechanism evidence rather than opinion alone."
-    }
+    },
+    "sources": []
   },
   {
     "official": "Todd Lyons, ICE Acting Director",
@@ -4493,6 +4494,43 @@
     "section_summaries": {
       "incident_summary": "Wyden filed an OSC Hatch Act complaint alleging RFK Jr. called two Libertarian Iowa House candidates urging them to drop out, with a CREW watchdog reviewing a recording and calling it a 'clear violation' based on Kennedy's invocation of his HHS role during the calls.",
       "confidence_note": "The complaint's factual specifics and CREW's assessment are well-corroborated by widely syndicated AP reporting; no OSC ruling exists yet, and there's an open question about whether the current OSC will investigate independently."
+    }
+  },
+  {
+    "official": "Robert F. Kennedy Jr., Secretary of Health and Human Services",
+    "offense_category": "Installing an Unqualified, Research-Compromised Figure to Lead a Federal COVID Vaccine Safety Review -- distinct from this tracker's David Geier entry (a data-access hiring) in that this concerns leadership of the safety-review process itself",
+    "incident_summary": "HHS Secretary Robert F. Kennedy Jr. installed Retsef Levi -- an MIT professor of operations management with no epidemiology, immunology, or clinical medical background -- to lead a federal task force reviewing COVID-19 vaccine safety. Levi has been a vocal public critic of COVID-19 vaccines. A Guardian investigation found that more than a dozen scientists and public health experts, reviewing Levi's own published research underlying his vaccine-safety claims, concluded it failed to meet basic scientific standards. The appointment follows the broader pattern this tracker documents of Kennedy installing ideologically aligned but professionally unqualified figures into roles with direct influence over federal vaccine policy and safety findings, rather than credentialed specialists in the relevant clinical or epidemiological fields.",
+    "contested": true,
+    "elements_required": [
+      "Levi lacks epidemiological, immunological, or clinical medical credentials relevant to leading a vaccine-safety review",
+      "Levi has a documented public record as a vocal critic of COVID-19 vaccines prior to his appointment, indicating a pre-formed conclusion rather than a neutral review posture",
+      "Independent scientific review of Levi's own published research found it failed to meet basic scientific standards, per more than a dozen scientists and public health experts cited by The Guardian",
+      "Kennedy personally selected and installed Levi to lead a federal task force with direct influence over vaccine-safety findings and, by extension, national vaccine policy"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "The Guardian's investigation found more than a dozen scientists and public health experts concluded Levi's own published research on COVID-19 vaccine safety failed to meet basic scientific standards, and detailed his appointment by Kennedy to lead the federal vaccine-safety review task force",
+        "source_url": "https://www.theguardian.com/us-news/2026/mar/10/rfk-jr-pick-review-covid-vaccines",
+        "maps_to_element": "Independent scientific review found Levi's research failed to meet basic scientific standards"
+      },
+      {
+        "type": "reporting",
+        "description": "The Boston Globe's earlier profile confirms Levi's role as an MIT operations-management professor (not a clinical or epidemiological specialist) who became a central figure in Kennedy's vaccine-safety efforts and his prior public criticism of COVID-19 vaccines",
+        "source_url": "https://www.bostonglobe.com/2025/10/21/metro/retsef-levi-vaccines-mit/",
+        "maps_to_element": "Levi lacks relevant credentials and has a pre-existing public record as a vaccine critic"
+      }
+    ],
+    "status": "Ongoing as of this entry's addition -- Levi's task force role was active as of March 2026 reporting; no reversal or replacement identified in sourcing reviewed",
+    "rebuttal_anticipated": "Likely defense: operations-management and data-analysis expertise can be valuable for evaluating safety-surveillance systems even without a clinical background, scientific review panels commonly include members from varied disciplines to avoid groupthink, and having previously expressed skepticism about a policy does not disqualify someone from later reviewing evidence on it.",
+    "comeback": "The specific concern is not cross-disciplinary participation in general but that Levi was installed to lead the review, that his own prior public position was a settled critical stance on COVID-19 vaccines rather than open skepticism pending evidence, and that independent scientific review found his own underlying research on the topic did not meet basic scientific standards -- a combination indicating the review's chosen leader lacks both the credentialing and the demonstrated research rigor the position requires, consistent with the tracker's broader documented pattern of Kennedy prioritizing ideological alignment over qualifications in vaccine-safety-adjacent appointments.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with this tracker's separate David Geier entry (rfk-jr-david-geier-hhs-hiring-2026.json) and the broader ACIP-purge pattern (rfk-jr-acip-apa-violation-2026-03.json) of Kennedy installing ideologically-aligned, credential-mismatched figures into roles shaping federal vaccine-safety findings and policy.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on Levi's credentials, prior public record as a vaccine critic, and his appointment to lead the task force -- corroborated across The Guardian and The Boston Globe. MODERATE-HIGH confidence on the 'failed to meet basic scientific standards' characterization of his research specifically, since it rests on The Guardian's aggregation of more than a dozen outside scientists' assessments rather than a single named peer-review finding or formal retraction identified in sourcing reviewed.",
+    "section_summaries": {
+      "incident_summary": "RFK Jr. installed MIT operations-management professor Retsef Levi -- a vocal COVID-19 vaccine critic with no epidemiology or clinical background -- to lead a federal COVID vaccine safety review task force; a Guardian investigation found over a dozen scientists concluded Levi's own underlying research failed to meet basic scientific standards.",
+      "confidence_note": "Levi's credentials, public record, and appointment are well-corroborated across The Guardian and The Boston Globe; the research-quality assessment rests on an aggregation of outside scientists' views rather than a single formal finding."
     }
   },
   {
