@@ -2686,18 +2686,42 @@
         "description": "A former ICE attorney who oversaw deportation-officer training testified to Congress that the agency's training program is 'deficient, defective and broken,' accusing DHS of shortening required courses -- offering a specific, on-the-record institutional explanation for the misconduct pattern this entry documents",
         "source_url": "https://apnews.com/article/ice-immigration-enforcement-congress-training-trump-466a19105e6dfd4990a9b58361b6963d",
         "maps_to_element": "Institutional root-cause testimony connecting weakened training to the misconduct pattern"
+      },
+      {
+        "type": "reporting",
+        "description": "A CNN analysis, corroborated by internal ICE academy syllabi obtained by CBS News (a July 2025 version and an updated February 2026 version), quantified the training cuts described in the congressional testimony above: ICE's deportation-officer academy was cut from roughly 100 days (20 weeks) to 42 days over a seven-month period, eliminating about 240 of 584 curriculum hours -- more than 40 percent -- including 16 hours of firearms training and constitutional-law instruction, leaving ICE officers with less training than almost any other federal law enforcement role",
+        "source_url": "https://www.cnn.com/2026/02/27/us/ice-deportation-officers-training-agents-invs",
+        "maps_to_element": "Institutional root-cause testimony connecting weakened training to the misconduct pattern"
+      },
+      {
+        "type": "reporting",
+        "description": "Reuters reviewed an internal ICE email documenting that background checks are not being completed before recruits reach the training academy: two recruits were flagged as suspected MS-13 members based on tattoos after already arriving for training, at least five trainees were fired after ICE learned they had active arrest warrants, and one hire was escorted out of an ICE office in February 2026 after a background-check problem was detected -- concrete evidence of the 'high volume of new hires' outpacing vetting capacity that the email itself warns could create uncertainty for field offices when misconduct allegations later arise",
+        "source_url": "https://www.reuters.com/world/ice-struggles-vet-recruits-amid-us-immigration-enforcement-push-internal-email-2026-02-26/",
+        "maps_to_element": "Compounding risk from rapid expansion combined with weakened oversight"
+      },
+      {
+        "type": "public_record",
+        "description": "A Texas grand jury declined to indict the HSI (ICE) agent who fatally shot U.S. citizen Ruben Ray Martinez during a March 2025 traffic encounter on South Padre Island, after DHS said Martinez struck an agent with his vehicle -- a claim a witness disputed, saying the vehicle was moving slowly and agents fired without warning. Case records reviewed by KSAT showed conflicting DHS statements about the incident, and House Oversight Committee Democrats formally demanded an investigation into the shooting and the year-long lack of transparency around it. The case stands as a documented instance in which the weakened-oversight environment this entry tracks produced a fatal outcome with no resulting criminal accountability",
+        "source_url": "https://www.washingtonpost.com/immigration/2026/02/25/dhs-shooting-death-grand-jury-texas/",
+        "maps_to_element": "Independent oversight mechanisms that would otherwise surface and address this misconduct have been weakened"
+      },
+      {
+        "type": "reporting",
+        "description": "The Boston Globe reported ICE quietly reversed course starting July 1, 2026, scrapping the 42-day accelerated academy and reverting new-officer training to 72 days at the Federal Law Enforcement Training Center in Glynco, Georgia, after sustained criticism -- still short of the original ~100-day standard, but a partial, documented correction to the shortened-training practice this entry's other evidence describes",
+        "source_url": "https://www.bostonglobe.com/2026/05/06/nation/ice-plans-scrap-shortened-training-program-new-immigration-officers/",
+        "maps_to_element": "Institutional root-cause testimony connecting weakened training to the misconduct pattern"
       }
     ],
-    "status": "Ongoing structural concern as of this entry's addition -- most documented cases predate the recent ICE expansion, meaning AP's review largely quantifies pre-expansion misconduct risk (some cases originating under the prior administration) while flagging that the current environment (rapid hiring, 'absolute immunity' posture, weakened oversight) could increase future misconduct rates. No systemic accountability reform identified in sourcing reviewed as of this entry's addition.",
+    "status": "Ongoing structural concern, now with documented concrete consequences beyond the original charged-misconduct cases. AP's original review found most charged cases predated the current ICE expansion, but subsequent reporting has since substantiated the accelerating-risk mechanism experts warned about: internal ICE academy syllabi and a CNN analysis confirmed deportation-officer training was cut from roughly 100 days to 42 days (over 40% of the curriculum, including firearms and constitutional-law instruction), and an internal ICE email reviewed by Reuters documented background checks not being completed before recruits reached the academy, producing recruits flagged for gang ties and active warrants only after training began. Separately, a Texas grand jury declined to indict the HSI agent who fatally shot U.S. citizen Ruben Ray Martinez in March 2025, over disputed DHS claims and conflicting agency statements, prompting a formal House Oversight Democrats investigation demand -- a documented case of the weakened-oversight environment producing a fatal outcome with no resulting accountability. ICE partially reversed the training cuts starting July 2026, moving to 72 days, but that remains short of the original ~100-day standard, and no broader accountability or vetting reform was identified in sourcing reviewed.",
     "rebuttal_anticipated": "Likely defense: most of the documented misconduct cases predate the current administration's ICE expansion and reflect isolated individual wrongdoing rather than a policy-driven pattern, prosecuting the specific individuals named shows the accountability system is functioning, and legitimate legal immunity doctrines exist to protect officers from frivolous litigation for good-faith enforcement actions, not to shield actual criminal conduct.",
     "comeback": "The specific accountability concern this entry documents is prospective and structural, not solely retrospective: the administration's own stated 'absolute immunity' legal position and its weakening of independent oversight mechanisms are contemporaneous policy choices layered on top of a documented historical misconduct pattern and a rapid, unprecedented workforce expansion -- a combination outside experts specifically warn increases future risk, independent of how any single past case was resolved.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of the administration narrowing oversight and accountability mechanisms for federal law enforcement personnel (see also the DOJ Civil Rights Division police-misconduct-unit staffing plunge and the ICE biometric-surveillance IG audit entries) even as ICE's own operational scale and authority expand.",
     "last_updated": "2026-08-05",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence on the documented criminal cases themselves (independently corroborated across AP's own review, The Washington Post, and CBS Minnesota, with specific named cases and court outcomes). MODERATE confidence on the prospective risk-acceleration claim, which is expert opinion cited in AP's reporting rather than a measured outcome, since the expansion's effects had not yet been empirically observed as of this entry's addition.",
+    "confidence_note": "HIGH confidence on the documented criminal cases (independently corroborated across AP's own review, The Washington Post, and CBS Minnesota) and on the training-cut figures (corroborated across CNN's analysis and internal ICE academy syllabi obtained by CBS News). HIGH confidence on the Reuters internal-email vetting failures (Reuters' own exclusive reporting, with specific named incident counts) and on the Martinez grand jury outcome (independently corroborated across The Washington Post, CNN, NPR, and KSAT's records review, including on-record House Oversight Committee Democrats' investigation demand). MODERATE confidence remains on the prospective claim that expansion will keep increasing future misconduct rates system-wide, which is expert opinion rather than a fully measured system-wide outcome, though the training-cut and vetting-failure findings now provide direct institutional-mechanism evidence supporting that prediction rather than opinion alone.",
     "section_summaries": {
       "incident_summary": "An AP review found at least two dozen ICE employees/contractors charged with crimes since 2020 -- physical abuse, sexual abuse, corruption -- while the administration claims agents have 'absolute immunity' and has weakened oversight even as ICE undergoes a $75 billion hiring expansion experts warn could accelerate future misconduct.",
-      "confidence_note": "Documented past cases are well-corroborated across AP's own review and independent outlets; the claim that expansion will increase future misconduct is expert opinion, not yet an observed outcome."
+      "confidence_note": "Documented past charged cases, training cuts (100 to 42 days), vetting failures, and the Martinez shooting/no-indictment outcome are all independently corroborated across multiple outlets; the claim that expansion increases future system-wide misconduct rates remains expert opinion, though now backed by concrete institutional-mechanism evidence rather than opinion alone."
     }
   },
   {
@@ -3451,6 +3475,56 @@
     "section_summaries": {
       "incident_summary": "A WSJ investigation found DHS under Noem fired or demoted roughly 80% of ICE's career leadership, often for staff questioning her decisions, while she and adviser Lewandowski centralized contracting in ways tied to delays and conflicts of interest; Noem was ultimately fired as DHS Secretary in March 2026.",
       "confidence_note": "Core facts are well-corroborated across the WSJ's own investigation and independent outlets; the full scope of retaliatory intent behind every individual departure is not itemized in sourcing reviewed."
+    }
+  },
+  {
+    "official": "Kristi Noem, then-Secretary of Homeland Security",
+    "offense_category": "Suppressing an Inspector General Finding to Evade a Statutory Deadline, Then Giving Congress a Contradicted Sworn Account of Compliance",
+    "incident_summary": "In July 2025, DHS ended the requirement in place since 2006 that airline passengers remove their shoes during TSA security screening. A classified DHS Inspector General report completed in November 2025, based on undercover 'red team' testing, found that many of the full-body scanners used at TSA checkpoints cannot effectively detect threats concealed in shoes -- meaning the policy change created a documented new security vulnerability. The Inspector General's office alerted Secretary Noem's office to the finding in August 2025. Rather than taking public or substantive corrective action, Noem's DHS reclassified the report, elevating it and limiting its release, despite a statutory requirement that the department address the issue by January 30, 2026. In subsequent sworn testimony to lawmakers, Noem stated that 'all of the recommendations' in the Inspector General's report had already been implemented. A March 4, 2026 memo from Inspector General Joseph Cuffari's office stated it had not received any evidence supporting that claim. Sen. Tammy Duckworth formally demanded DHS rescind the 'shoes on' policy, citing the watchdog's finding that it 'created a new security vulnerability.'",
+    "contested": true,
+    "elements_required": [
+      "A classified Inspector General report, based on documented red-team testing, found a specific, concrete security vulnerability created by a policy Noem's DHS enacted",
+      "DHS was subject to a statutory deadline (January 30, 2026) to address the finding and did not take substantive corrective action by that date",
+      "DHS instead elevated the report's classification, an action that limited its release rather than addressing the underlying finding",
+      "Noem gave sworn testimony to Congress that all of the report's recommendations had been implemented",
+      "The Inspector General's own office subsequently stated in writing it had received no evidence supporting that sworn claim -- a direct, on-the-record contradiction from the same body whose findings Noem's testimony characterized"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "CBS News's investigation, based on the classified DHS Inspector General report and related congressional correspondence, documents the July 2025 shoes-on policy change, the November 2025 classified IG finding (from red-team testing) that scanners cannot effectively detect threats in shoes, the August 2025 notice to Noem's office, the statutory January 30, 2026 deadline, DHS's decision to reclassify rather than correct, Noem's sworn claim that all recommendations were implemented, and Inspector General Cuffari's March 4, 2026 memo stating his office received no evidence supporting that claim",
+        "source_url": "https://www.cbsnews.com/news/tsa-report-vulnerabilities-screenings-dhs/",
+        "maps_to_element": "Full fact pattern -- IG finding, statutory deadline, reclassification, sworn testimony, and the IG's contradiction of it"
+      },
+      {
+        "type": "reporting",
+        "description": "CBS News's companion report frames the dispute directly as Noem and the DHS watchdog 'feuding' over the classified report, with the Inspector General's office declining to confirm Noem's implementation claim",
+        "source_url": "https://www.cbsnews.com/news/noem-dhs-watchdog-feuding-over-classified-airport-security-risk-report/",
+        "maps_to_element": "The Inspector General's own office contradicting Noem's sworn testimony"
+      },
+      {
+        "type": "public_record",
+        "description": "Sen. Tammy Duckworth's formal letter to TSA demands rescission of the 'shoes on' policy, citing the watchdog's finding that it 'created a new security vulnerability' -- independent congressional corroboration of the underlying IG finding",
+        "source_url": "https://www.duckworth.senate.gov/news/press-releases/duckworth-demands-dhs-rescind-noems-reckless-shoes-on-airport-screening-policy-that-watchdog-says-created-a-new-security-vulnerability",
+        "maps_to_element": "A classified Inspector General report found a specific, concrete security vulnerability"
+      },
+      {
+        "type": "reporting",
+        "description": "TravelPulse's coverage confirms the report was effectively 'buried' -- consistent with the reclassification/limited-release characterization -- rather than acted on by the statutory deadline",
+        "source_url": "https://www.travelpulse.com/news/airlines-airports/buried-watchdog-report-warns-of-serious-security-risks-due-to-shoes-on-policy-at-tsa-checkpoints",
+        "maps_to_element": "DHS elevated the report's classification, limiting its release, rather than addressing the finding"
+      }
+    ],
+    "status": "Ongoing dispute as of this entry's addition -- Inspector General Cuffari's office had not withdrawn or walked back its March 4, 2026 contradiction of Noem's sworn testimony, no independent finding on whether the testimony rises to a legal violation (e.g. false statements to Congress) was identified in sourcing reviewed, and the underlying shoes-on policy remained in effect despite Sen. Duckworth's rescission demand.",
+    "rebuttal_anticipated": "Likely defense: Noem's testimony that 'all of the recommendations' were implemented may reflect a good-faith but incomplete understanding of a fast-moving internal compliance process, reclassifying a report touching TSA screening-technology gaps can be a legitimate security-sensitivity judgment rather than an attempt to evade scrutiny, and a disagreement between an agency head and an inspector general's office over implementation status is not itself proof of a knowing false statement.",
+    "comeback": "The specific accountability problem is not merely a characterization dispute -- it is that Cuffari's own office, the body whose recommendations Noem's testimony described, states in writing it received no evidence supporting her claim, and DHS's response to the underlying finding was to elevate the report's classification and miss its own statutory deadline rather than to document or demonstrate the implementation Noem later testified had occurred; a security-sensitivity rationale for reclassification does not explain why compliance evidence was also withheld from the IG that requested it.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DHS leadership under Noem using classification and personnel authority to limit internal and external oversight (see also noem-dhs-dysfunction-wsj-2026.json and ice-misconduct-oversight-weakened-2026.json), here applied to an inspector general's own safety finding rather than to internal dissent or enforcement-misconduct oversight.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the core documented facts -- the policy change, the classified IG report and its red-team-testing basis, the August 2025 notice, the January 30, 2026 statutory deadline, the reclassification, and the March 4, 2026 IG memo contradicting Noem's testimony -- all independently corroborated across CBS News's investigation and companion report, with Sen. Duckworth's letter providing independent congressional confirmation of the underlying vulnerability finding. MODERATE confidence on whether Noem's sworn statement rises to an actionable false-statement violation, since that legal characterization was not identified as adjudicated or formally alleged by any prosecutorial body in sourcing reviewed -- this entry documents a specific, on-the-record contradiction between an official's sworn testimony and the relevant Inspector General's own written account, not a charged offense.",
+    "section_summaries": {
+      "incident_summary": "DHS ended the shoes-off airport screening rule in July 2025; a classified IG report found scanners can't reliably detect threats in shoes, DHS reclassified the report instead of fixing the problem by its January 30, 2026 statutory deadline, and Noem then testified under oath that all the report's recommendations were implemented -- a claim the Inspector General's own office says it has no evidence to support.",
+      "confidence_note": "Core facts are well-corroborated across CBS News's investigation and Sen. Duckworth's independent letter; whether the sworn-testimony contradiction itself constitutes an actionable violation has not been formally adjudicated or charged in sourcing reviewed."
     }
   },
   {
