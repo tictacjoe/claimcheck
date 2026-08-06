@@ -755,7 +755,7 @@
     "status": "Fully Repealed",
     "date_of_action": "2026-02-12 (finalized); published 2026-02-18; effective 2026-04-20",
     "original_rule_summary": "2009 EPA scientific and legal finding, based on peer-reviewed climate research, that greenhouse gases endanger public health and welfare -- this finding is the legal foundation obligating EPA to regulate greenhouse gas emissions from vehicles and stationary sources under the Clean Air Act.",
-    "what_changed": "EPA finalized the rescission of the 2009 Endangerment Finding on February 12, 2026 (published Feb 18, effective April 20, 2026), removing the legal foundation for EPA's authority to regulate greenhouse gas emissions from motor vehicles under CAA Section 202(a). As part of the same final action, EPA also repealed all GHG emission standards for light-, medium-, and heavy-duty vehicles and engines (model years 2012 through 2027+), eliminating future measurement, control, and reporting obligations for manufacturers -- including retroactively for vehicles already manufactured. EPA's final rule notably dropped its earlier proposed climate-science-based rationale entirely, resting the rescission purely on statutory interpretation (that CAA Section 202(a) does not authorize regulation based on global climate change concerns) and the major questions doctrine. NOTE: this action substantially overlaps with the separately-tracked 'ldmv-ghg-standards-repeal-trump2' entry in this database -- both describe the same vehicle-standards repeal, which occurred as part of this single final rule rather than as two separate actions. Recommend merging or cross-referencing these two entries.",
+    "what_changed": "EPA finalized the rescission of the 2009 Endangerment Finding on February 12, 2026 (published Feb 18, effective April 20, 2026), removing the legal foundation for EPA's authority to regulate greenhouse gas emissions from motor vehicles under CAA Section 202(a). As part of the same final action, EPA also repealed all GHG emission standards for light-, medium-, and heavy-duty vehicles and engines (model years 2012 through 2027+), eliminating future measurement, control, and reporting obligations for manufacturers -- including retroactively for vehicles already manufactured. EPA's final rule notably dropped its earlier proposed climate-science-based rationale entirely, resting the rescission purely on statutory interpretation (that CAA Section 202(a) does not authorize regulation based on global climate change concerns) and the major questions doctrine. NOTE: this action substantially overlaps with the separately-tracked 'ldmv-ghg-standards-repeal-trump2' entry in this database -- both describe the same vehicle-standards repeal, which occurred as part of this single final rule rather than as two separate actions. Recommend merging or cross-referencing these two entries. Update: on April 8, 2026, Zeldin defended the rescission at a Heartland Institute conference -- a think tank that rejects mainstream climate science -- telling attendees to 'celebrate vindication' and framing the repeal as reversing decades of 'unthinking adherence to liberal politicians and environmental groups' on climate change; Heartland president James Taylor called Zeldin 'the greatest EPA administrator ever.' Environmental groups criticized the appearance as EPA's own administrator publicly aligning with climate-denial advocacy rather than the agency's own prior scientific findings.",
     "primary_proponent": {
       "name": "Lee Zeldin",
       "role": "EPA Administrator",
@@ -782,7 +782,7 @@
       "estimated_impact": "EPA claims $1.3 trillion in savings; because the finding underlies many rules, its real impact is unlocking further rollbacks built on top of it.",
       "confidence_note": "Now finalized, not proposed -- a major credibility upgrade; heavy litigation is active and this overlaps with the separate vehicle-standards entry."
     },
-    "last_verified": "2026-07-06",
+    "last_verified": "2026-08-06",
     "date_added": "2026-07-03",
     "sources": [
       {
@@ -800,6 +800,10 @@
       {
         "name": "Federal Register — Rescission of the Greenhouse Gas Endangerment Finding and Motor Vehicle GHG Emission Standards",
         "url": "https://www.federalregister.gov/documents/2026/02/18/2026-03157/rescission-of-the-greenhouse-gas-endangerment-finding-and-motor-vehicle-greenhouse-gas-emission"
+      },
+      {
+        "name": "PBS News — Zeldin tells climate skeptics to 'celebrate vindication' after repeal of baseline climate rule",
+        "url": "https://www.pbs.org/newshour/politics/zeldin-tells-climate-skeptics-to-celebrate-vindication-after-repeal-of-baseline-climate-rule"
       }
     ],
     "short_summary": "Rescinded the legal basis for EPA to regulate greenhouse gases at all; vehicle standards repealed too."
