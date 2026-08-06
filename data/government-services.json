@@ -3370,6 +3370,60 @@
     "last_updated": "2026-07-26"
   },
   {
+    "id": "foreign-aid-rescissions-2026",
+    "title": "Trump Used Rescissions to Cancel Billions in Bipartisan Foreign Aid, Gutting Pacific-China-Countering, Myanmar, and Africa Programs",
+    "institution": "State Department / USAID successor functions",
+    "domain": "funding_redirection",
+    "status": "Finalized -- rescissions enacted; underlying programs terminated",
+    "date_of_action": "2026 (rescissions process, reported April 2026)",
+    "what_changed": "Extending the original 2025 USAID dismantlement documented separately in this tracker (usaid-dismantlement-trump2.json), Trump pursued a formal rescissions process to permanently claw back billions in previously appropriated, congressionally directed foreign aid funding: first winning party-line approval from the GOP-controlled Congress to cancel a package of spending, then unilaterally expanding the cuts without giving lawmakers the statutory window to object. The New York Times's review of new data found the cuts hit once-bipartisan programs particularly hard: a U.S. initiative helping Pacific island nations counter Chinese influence lost $92 million -- more than half its budget -- and funding to prevent and respond to atrocities committed by Myanmar's military junta was eliminated entirely, directly affecting aid to Rohingya refugees in Myanmar and Bangladesh, forcing UN agencies, international NGOs, and local aid groups to scale back healthcare, food aid, and education programs. Nearly 90% of U.S. economic aid to Africa was cut.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Personally directed the rescissions strategy -- first securing party-line congressional approval for an initial package, then unilaterally expanding the cuts without providing Congress the statutory objection window."
+    },
+    "estimated_impact": {
+      "summary": "Long-standing, historically bipartisan foreign aid tools -- used to counter Chinese influence in the Pacific, prevent atrocities in Myanmar, support Rohingya refugees, and sustain broad economic assistance across Africa -- were permanently canceled via a rescissions process that bypassed normal congressional objection procedures, reducing U.S. diplomatic leverage and humanitarian capacity in regions where China and Russia are actively competing for influence.",
+      "figures": [
+        {
+          "metric": "Funding lost by the Pacific islands China-countering initiative",
+          "value": "$92 million (more than half its budget)",
+          "source": "The New York Times, April 2026"
+        },
+        {
+          "metric": "Share of U.S. economic aid to Africa cut",
+          "value": "~90%",
+          "source": "The New York Times, April 2026"
+        },
+        {
+          "metric": "Myanmar atrocity-prevention/response funding cut",
+          "value": "100% (eliminated entirely)",
+          "source": "The New York Times, April 2026"
+        }
+      ],
+      "caveat": "This entry documents the rescissions process and its specific, quantified program-level effects as reported by the Times' data review; broader claims about resulting geopolitical consequences (reduced U.S. influence relative to China/Russia) reflect analysts' characterization rather than a directly measured outcome."
+    },
+    "confidence_note": "HIGH confidence -- the rescissions mechanism (party-line congressional approval followed by unilateral expansion), the $92 million Pacific-program cut, the full elimination of Myanmar atrocity-prevention funding, and the ~90% Africa aid cut are all drawn from The New York Times's dedicated data review, with independent corroboration of the Myanmar/Rohingya humanitarian impact from Myanmar Now and The New Humanitarian's on-the-ground reporting.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "The New York Times -- foreign aid rescissions data review",
+        "url": "https://www.nytimes.com/2026/04/02/us/politics/trump-congress-foreign-aid-rescissions.html"
+      },
+      {
+        "name": "The New Humanitarian -- 'For Myanmar's war victims and Rohingya refugees, US aid cuts are disastrous'",
+        "url": "https://www.thenewhumanitarian.org/news-feature/2025/02/27/myanmar-war-victims-rohingya-refugees-us-aid-cuts"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "Trump used a rescissions process -- party-line congressional approval followed by unilateral expansion bypassing the objection window -- to permanently cancel billions in bipartisan foreign aid, including $92M (over half) from a Pacific China-countering program, all Myanmar atrocity-prevention funding, and ~90% of Africa economic aid.",
+      "estimated_impact": "Long-standing bipartisan foreign aid tools used to counter Chinese/Russian influence and prevent humanitarian crises were permanently eliminated via a process that bypassed normal congressional objection procedures.",
+      "confidence_note": "Well-documented via the NYT's own data review and independently corroborated Myanmar/Rohingya humanitarian reporting."
+    }
+  },
+  {
     "id": "forest-service-firefighter-shortage-trump2",
     "title": "Forest Service Chief's Own Internal Memo Contradicted Agriculture Secretary's Public 'Fully Staffed' Claims — 5,000 Firefighting Positions Vacant",
     "institution": "U.S. Forest Service, Department of Agriculture",
@@ -8580,6 +8634,40 @@
     }
   },
   {
+    "id": "treasury-ofr-workforce-cuts-2026",
+    "title": "Treasury Moves to Dramatically Shrink the Office of Financial Research, the Post-2008 Systemic-Risk Watchdog, Amid Growing Private-Credit Instability",
+    "institution": "Department of the Treasury / Office of Financial Research",
+    "domain": "staff_office_cuts",
+    "status": "Planned as of this entry's addition -- internal documents describe the plan; implementation status not fully confirmed",
+    "date_of_action": "2026-04 (plans reported)",
+    "what_changed": "Politico reported that the Treasury Department is moving to dramatically shrink the Office of Financial Research (OFR) -- the agency created after the 2008 financial crisis specifically to monitor systemic risks across the broader financial system, independent of any single regulator's jurisdiction. Internal documents reviewed by Politico show plans to slash the office's staffing and cut its budget, even as officials and market analysts raise growing concern about instability in private credit and other lightly regulated corners of the financial system that OFR-style systemic monitoring is specifically designed to catch before it spreads.",
+    "primary_proponent": {
+      "name": "Department of the Treasury",
+      "role": "Federal department overseeing OFR",
+      "note": "Sourcing reviewed did not identify a single named Treasury official personally directing the OFR staffing/budget cuts; attributed institutionally pending more specific sourcing."
+    },
+    "estimated_impact": {
+      "summary": "The federal government's dedicated post-2008 tool for spotting systemic financial danger before it spreads across the economy is being cut at the same time market risks -- particularly in private credit and other lightly regulated markets -- are described by officials and analysts as building, reducing the government's early-warning capacity for the next potential financial shock.",
+      "figures": [],
+      "caveat": "This entry documents planned cuts described in internal documents reviewed by Politico; sourcing reviewed did not include a specific finalized staffing or budget-reduction figure, nor confirmation that the plan has been fully implemented as of this entry's addition."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- Politico's reporting is based on internal Treasury documents it reviewed directly, a strong primary-source basis, though independent corroboration from additional outlets and a specific quantified staffing/budget cut figure were not identified in sourcing reviewed as of this entry's addition.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "Politico -- 'Treasury moves to gut financial research office'",
+        "url": "https://www.politico.com/news/2026/04/02/treasury-moves-to-gut-financial-research-office-00856631"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "Internal documents show Treasury plans to dramatically shrink OFR, the post-2008 systemic-risk watchdog, even as concerns grow over instability in private credit and other lightly regulated financial markets.",
+      "estimated_impact": "The government's dedicated early-warning tool for systemic financial risk is being cut as market risks are described as building.",
+      "confidence_note": "Sourced to Politico's review of internal Treasury documents; a specific finalized cut figure and independent corroboration weren't identified beyond that reporting."
+    }
+  },
+  {
     "id": "troops-relocated-hotels-iran-war-2026",
     "title": "US Commanders Moved Troops Into Hotels and Civilian Office Spaces After Iranian Strikes Damaged Gulf Bases, Raising Law-of-War Concerns",
     "institution": "Department of Defense",
@@ -9288,6 +9376,64 @@
         "url": "https://www.mdedge.com/fedprac/article/272754/health-policy/vha-facilities-report-severe-staffing-shortages"
       }
     ]
+  },
+  {
+    "id": "va-vasp-mortgage-rescue-shutdown-2026",
+    "title": "VA Canceled Its Veteran Mortgage Rescue Program Without a Ready Replacement; 10,000+ Veterans Have Since Lost Homes to Foreclosure",
+    "institution": "Department of Veterans Affairs",
+    "domain": "protection_rollback",
+    "status": "Ongoing -- program remains canceled roughly a year later with no fully operational replacement, and foreclosures continuing",
+    "date_of_action": "2025-05 (VASP canceled) through 2026-04 (10,000+ foreclosures documented)",
+    "what_changed": "In May 2025, VA canceled the VA Servicing Purchase (VASP) program, which had given veterans who fell behind on VA-backed home loans a genuine path to keep their homes -- qualifying veterans could receive a new mortgage at a 2.5% interest rate, a substantial reduction that made monthly payments manageable. At a March 2025 hearing before the House Committee on Veterans' Affairs, Mortgage Bankers Association representatives had explicitly warned lawmakers that canceling VASP without a ready replacement in place would lead to foreclosures. NPR's April 2026 investigation, drawing on ICE Mortgage Technology data, found that warning had borne out: more than 10,000 veterans had already lost their homes to foreclosure sale in the roughly ten months since VASP's cancellation, and another 90,000 veterans were behind on payments or already in the foreclosure pipeline, with no fully operational replacement program in place.",
+    "primary_proponent": {
+      "name": "Department of Veterans Affairs",
+      "role": "Federal agency that administered and then canceled the VASP program",
+      "note": "VA proceeded with the cancellation despite an explicit, on-record warning from mortgage-industry representatives at a March 2025 congressional hearing that doing so without a ready replacement would cause foreclosures."
+    },
+    "estimated_impact": {
+      "summary": "A federal program specifically designed to prevent veterans from losing their homes was canceled without a working replacement, and the foreclosure wave industry representatives had explicitly warned Congress would follow has occurred at documented scale -- more than 10,000 veterans already lost their homes, with 90,000 more at risk.",
+      "figures": [
+        {
+          "metric": "Veterans who lost homes to foreclosure since VASP's May 2025 cancellation",
+          "value": "10,000+",
+          "source": "NPR, citing ICE Mortgage Technology data, April 2026"
+        },
+        {
+          "metric": "Veterans behind on payments or in the foreclosure pipeline",
+          "value": "90,000",
+          "source": "NPR, citing ICE Mortgage Technology data, April 2026"
+        },
+        {
+          "metric": "VASP's reduced interest rate for qualifying veterans",
+          "value": "2.5%",
+          "source": "NPR, April 2026"
+        }
+      ],
+      "caveat": "NPR's figures come from mortgage-industry data tracking (ICE Mortgage Technology), not VA's own public reporting; sourcing reviewed did not identify a VA public accounting of the foreclosure wave or a VA response specifically addressing the Mortgage Bankers Association's prior warning."
+    },
+    "confidence_note": "HIGH confidence -- the VASP program's May 2025 cancellation, its terms, the March 2025 congressional warning, and the 10,000-foreclosure/90,000-at-risk figures are all independently corroborated across NPR's dedicated investigation, ABA Banking Journal, and Sen. Hirono's 2025 letter to the VA Secretary flagging the same concern in advance.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "NPR -- 'Veterans mortgages foreclosure VA rescue' investigation",
+        "url": "https://www.npr.org/2026/04/02/nx-s1-5750814/veterans-mortgages-foreclosure-va-rescue"
+      },
+      {
+        "name": "ABA Banking Journal -- 'Report: More than 10,000 veterans have lost homes since VA changes'",
+        "url": "https://bankingjournal.aba.com/2026/04/report-more-than-10000-veterans-have-lost-homes-since-va-changes/"
+      },
+      {
+        "name": "Sen. Mazie Hirono -- Letter to VA Secretary on VASP",
+        "url": "https://www.hirono.senate.gov/download/20250409-letter-to-secva-on-vasp?download=1"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "VA canceled its VASP veteran mortgage-rescue program in May 2025 despite an explicit congressional warning that doing so without a ready replacement would cause foreclosures; NPR's April 2026 investigation found 10,000+ veterans have since lost their homes, with 90,000 more at risk.",
+      "estimated_impact": "A protective program specifically designed to keep veterans in their homes was eliminated without a working replacement, and the warned-of foreclosure wave has occurred at documented scale.",
+      "confidence_note": "Well-corroborated across NPR's own investigation, industry data tracking, and a senator's advance warning letter."
+    }
   },
   {
     "id": "va-warrior-independence-center-unfunded-2026",

@@ -2953,6 +2953,49 @@
     }
   },
   {
+    "official": "Pete Hegseth, Secretary of Defense",
+    "offense_category": "Personal Intervention to Block Senior Military Promotions Along Racial and Gender Lines -- based on nine officials' accounts to NBC News; DoD has not confirmed the specific race/gender-motive characterization on the record",
+    "incident_summary": "NBC News reported, based on accounts from nine U.S. officials, that Defense Secretary Hegseth personally intervened to block or delay promotions for more than a dozen senior military officers across the Army, Navy, Air Force, and Marines -- including at least two Black and two female officers specifically named in The Hill's reporting on the same pattern. Officials told NBC and NPR the affected officers were seen as having been targeted based on their race, gender, prior public support for measures such as mask mandates, or perceived association with Biden-administration policies or officials -- attachments officials said Hegseth connected to the diversity, equity, and inclusion programs he has spent months publicly criticizing. The interventions raised concerns among officials within the affected service branches and, per NBC's reporting, within the White House itself. This entry extends the pattern documented separately in this tracker's Army Chief of Staff purge entry (hegseth-army-chief-staff-purge-2026.json) and the earlier Joint Staff Director removal (kacher-joint-staff-removal-2026.json) from senior removals to the promotion pipeline for the next generation of military leadership.",
+    "contested": true,
+    "elements_required": [
+      "Hegseth personally intervened in promotion decisions for more than a dozen senior officers across all four service branches, not a single isolated case",
+      "The affected officers include specifically identified Black and female officers, per named reporting",
+      "Multiple officials (nine, per NBC's sourcing) independently characterized the pattern as connected to race, gender, or perceived political/ideological association rather than performance or readiness concerns",
+      "The pattern is consistent with, and extends, an already-documented broader pattern of Hegseth's personnel interventions across the senior military leadership"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "NBC News's investigation, based on nine U.S. officials' accounts, documenting Hegseth's interventions blocking or delaying promotions for more than a dozen senior officers across all four branches",
+        "source_url": "https://www.nbcnews.com/politics/national-security/hegseth-intervened-military-promotions-dozen-senior-officers-rcna266062",
+        "maps_to_element": "Scale and cross-branch scope of the promotion interventions"
+      },
+      {
+        "type": "reporting",
+        "description": "NPR's corroborating report that Hegseth intervened to stop promotions specifically of Black and female officers",
+        "source_url": "https://www.npr.org/2026/03/27/nx-s1-5763863/hegseth-soldiers-promotions",
+        "maps_to_element": "Independent corroboration of the race/gender dimension"
+      },
+      {
+        "type": "reporting",
+        "description": "The Hill's reporting identifying at least two Black and two female officers specifically removed from a promotion list",
+        "source_url": "https://thehill.com/policy/defense/5804541-pete-hegseth-pentagon-promotion-list/",
+        "maps_to_element": "Specific named officers affected by the pattern"
+      }
+    ],
+    "status": "Ongoing as of this entry's addition -- affected officers' promotions remained blocked or delayed; no reversal or DoD on-record confirmation of the motive characterization identified in sourcing reviewed",
+    "rebuttal_anticipated": "Likely defense: the Secretary of Defense has legitimate authority to scrutinize promotion recommendations for any reason within his discretion, including concerns about an officer's judgment or public statements while serving, and characterizing race or gender as the operative factor -- rather than genuinely assessed performance, readiness, or judgment concerns -- is the officials' interpretation, not a confirmed fact.",
+    "comeback": "The specific concern is the consistency and scale of the pattern -- more than a dozen officers across all four branches, independently described by nine officials (not a single disgruntled source) as connected to race, gender, or perceived political association rather than case-by-case performance review, and specifically tied by officials to Hegseth's public, sustained criticism of diversity and inclusion programs, distinguishing this from isolated, individually justified promotion holds.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of Hegseth's personnel decisions being shaped by ideological and loyalty considerations rather than conventional merit review (see also hegseth-army-chief-staff-purge-2026.json and kacher-joint-staff-removal-2026.json).",
+    "last_updated": "2026-08-06",
+    "date_added": "2026-08-06",
+    "confidence_note": "HIGH confidence on the scale and cross-branch scope of the promotion interventions, corroborated across NBC News, NPR, and The Hill's independent reporting, with NBC's account specifically sourced to nine officials. MODERATE confidence on the specific race/gender-motive characterization, since it rests on officials' interpretation of the pattern rather than an on-record DoD or Hegseth admission -- marked `contested: true` accordingly.",
+    "section_summaries": {
+      "incident_summary": "NBC News, citing nine officials, reported Hegseth personally blocked or delayed promotions for 12+ senior officers across all military branches, including specifically named Black and female officers, with officials describing the pattern as connected to race, gender, or perceived Biden-era political association rather than performance.",
+      "confidence_note": "The scale and cross-branch scope are well-corroborated across multiple outlets; the specific race/gender-motive characterization rests on officials' interpretation, not an on-record DoD admission."
+    }
+  },
+  {
     "official": "Pete Hegseth, Secretary of Defense (later 'Secretary of War')",
     "offense_category": "Policy/Regulatory Violation — DoD Instruction 8170.01 (mishandling of nonpublic DoD information); closest criminal analogue: 18 U.S.C. §793(f), gross negligence in handling national defense information — NOT charged, included for reference only",
     "incident_summary": "On March 15, 2025, Hegseth shared sensitive operational details (aircraft quantities, strike timing) about an imminent strike on Houthi targets in Yemen via Signal on his personal phone, in a chat that inadvertently included a journalist. He also shared similar information in a separate personal Signal chat with his wife, brother, and personal attorney.",
