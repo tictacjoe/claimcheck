@@ -6824,7 +6824,7 @@
     "domain": "research_suppression",
     "status": "Reported as a completed episode during the 2025 outbreak; Houry's resignation was final as of summer 2025. Update 2026-07-27: the Washington Post reports the U.S. recorded 2,295 measles cases in 2026 as of late July -- the highest annual total since 1991 -- with more than five months remaining in the year, which public health experts attribute to declining vaccination rates and sustained outbreaks across multiple states. Update 2026-08-05: Utah's outbreak, part of the sustained 2026 transmission WSJ and CIDRAP report has continued since early 2025, has reached 679 cumulative cases (197 in 2025, 482 in 2026) with measles detected in every health jurisdiction in the state; the CDC has said the U.S. is at risk of losing its measles elimination status -- unbroken since 2000 -- if any transmission chain remains continuous for a full year, a threshold Utah's outbreak is approaching. Utah's kindergarten MMR vaccination rate (78.5% in 2023-2024) is well below the ~95% threshold public health officials say is needed to prevent sustained spread.",
     "date_of_action": "2025 (during the active measles outbreak response, through Houry's resignation in summer 2025)",
-    "what_changed": "Former CDC Chief Medical Officer Dr. Debra Houry said that while CDC staff were actively responding to the largest U.S. measles outbreak in decades -- more than 2,000 cases nationwide in 2025, including two child deaths linked to a West Texas outbreak cluster, with 93% of cases involving people who were unvaccinated or had unknown vaccination status -- HHS Secretary Robert F. Kennedy Jr. and his aides requested 15 years of historical data on every individual measles case, including comorbidities among the deceased. Houry said the requests diverted CDC staff time and attention away from active outbreak management, stating publicly that 'the active measles response has to take priority,' and characterized the data requests as 'not based on science or reality, but trying to answer an agenda that was already in place.' Houry said Kennedy separately declined briefings from CDC's top medical officials on the measles epidemic despite CDC's offers to provide 'correct statistics, correct information,' spread false claims about vaccines (including the MMR vaccine) that CDC experts were prevented from countering, and relied on advisers she said lacked medical, scientific, or government background. Houry resigned in protest in summer 2025, saying she could no longer protect the agency's scientific integrity and citing measles, whooping cough, and flu deaths she witnessed: 'I couldn't stand behind that.' Her resignation followed Kennedy's June 9, 2025 removal of all 17 members of CDC's vaccine advisory committee (ACIP, tracked separately in this database), whose replacements included members with ties to lawsuits against vaccine makers -- notable given that Kennedy himself had collected referral fees from such lawsuits before becoming HHS Secretary. By late February 2026, measles cases had surged past 900 nationally, putting the U.S. at risk of losing its measles elimination status -- a designation held since 2000 -- for the first time, per Washington Post reporting on public health officials' warnings.",
+    "what_changed": "Former CDC Chief Medical Officer Dr. Debra Houry said that while CDC staff were actively responding to the largest U.S. measles outbreak in decades -- more than 2,000 cases nationwide in 2025, including two child deaths linked to a West Texas outbreak cluster, with 93% of cases involving people who were unvaccinated or had unknown vaccination status -- HHS Secretary Robert F. Kennedy Jr. and his aides requested 15 years of historical data on every individual measles case, including comorbidities among the deceased. Houry said the requests diverted CDC staff time and attention away from active outbreak management, stating publicly that 'the active measles response has to take priority,' and characterized the data requests as 'not based on science or reality, but trying to answer an agenda that was already in place.' Houry said Kennedy separately declined briefings from CDC's top medical officials on the measles epidemic despite CDC's offers to provide 'correct statistics, correct information,' spread false claims about vaccines (including the MMR vaccine) that CDC experts were prevented from countering, and relied on advisers she said lacked medical, scientific, or government background. Houry resigned in protest in summer 2025, saying she could no longer protect the agency's scientific integrity and citing measles, whooping cough, and flu deaths she witnessed: 'I couldn't stand behind that.' Her resignation followed Kennedy's June 9, 2025 removal of all 17 members of CDC's vaccine advisory committee (ACIP, tracked separately in this database), whose replacements included members with ties to lawsuits against vaccine makers -- notable given that Kennedy himself had collected referral fees from such lawsuits before becoming HHS Secretary. By the eighth week of 2026, CNN reported measles cases had already surpassed 1,100 nationally -- roughly six times the total typically seen in a full year -- with 96% of infections among unvaccinated people and health officials warning deaths would likely rise, putting the U.S. at risk of losing its measles elimination status -- a designation held since 2000 -- for the first time.",
     "primary_proponent": {
       "name": "Robert F. Kennedy Jr.",
       "role": "Secretary of Health and Human Services",
@@ -6852,13 +6852,18 @@
           "metric": "Share of 2025 measles cases involving unvaccinated people or unknown vaccination status",
           "value": "93%",
           "source": "CBS News, July 2026"
+        },
+        {
+          "metric": "U.S. measles cases in the first 8 weeks of 2026",
+          "value": "1,100+ (~6x a typical full year's total)",
+          "source": "CNN, February 2026"
         }
       ],
       "caveat": "This entry rests primarily on the account of a single named, credible former CDC official (Houry), reported across two separate CBS News pieces, rather than multiple independent outlets or documentary evidence of the data requests themselves; CBS News stated it sought comment from HHS but no substantive HHS/Kennedy response or denial was available in either article. Treat the characterization of Kennedy's motives as Houry's attributed opinion, not an independently established fact, even though the underlying claims (the data request, declined briefings, her resignation) are specific and falsifiable statements from a named on-the-record source with direct personal knowledge as the agency's own Chief Medical Officer."
     },
     "confidence_note": "MODERATE-HIGH confidence on the core factual claims (the 15-year data request, declined briefings, Houry's resignation and stated reasons) since they come from a named, credentialed former CDC Chief Medical Officer speaking on the record across two separate CBS News reports, but confidence is tempered by reliance on a single source individual/outlet and the absence of an HHS/Kennedy response or independent corroboration identified in sourcing reviewed for this entry. The 2025 outbreak scale figures (case counts, deaths, vaccination status) are independently well-documented public health data, not disputed. The claim about new ACIP members having 'ties to lawsuits against vaccine makers' is reported without further specifics on individual financial arrangements.",
     "section_summaries": {
-      "what_changed": "RFK Jr. and aides diverted CDC staff to compile historical measles data, declined outbreak briefings, and spread vaccine disinformation during the 2025 outbreak, according to the agency's former Chief Medical Officer, who resigned in protest. By late Feb. 2026, cases topped 900 nationally, risking loss of U.S. measles elimination status held since 2000.",
+      "what_changed": "RFK Jr. and aides diverted CDC staff to compile historical measles data, declined outbreak briefings, and spread vaccine disinformation during the 2025 outbreak, according to the agency's former Chief Medical Officer, who resigned in protest. By week 8 of 2026, CNN reported cases had topped 1,100 -- six times a typical full year -- risking loss of U.S. measles elimination status held since 2000.",
       "estimated_impact": "Staff time was diverted from managing the largest measles outbreak in decades (2,000+ cases, 2 child deaths); Houry says she resigned because she could no longer protect the agency's scientific integrity.",
       "confidence_note": "Rests on one named, credible on-record source (across two CBS reports) without independent corroboration or an HHS response identified; the outbreak-scale figures themselves are well-established and undisputed."
     },
@@ -6888,6 +6893,10 @@
       {
         "name": "Washington Post -- 'Measles, vaccine-preventable diseases surge, elimination status at risk'",
         "url": "https://www.washingtonpost.com/wellness/2026/02/24/measles-vaccine-preventable-diseases/"
+      },
+      {
+        "name": "CNN -- 'US measles cases pass 1,000 as officials warn deaths will likely rise'",
+        "url": "https://www.cnn.com/2026/02/27/health/measles-thousand-cases-deaths"
       }
     ],
     "last_updated": "2026-08-05"
@@ -8227,8 +8236,8 @@
     "institution": "U.S. Preventive Services Task Force (HHS)",
     "domain": "staff_office_cuts",
     "status": "Ongoing -- meetings postponed multiple times with no rescheduled date as of this entry; vice chair vacancies and expired-term member seats remain unfilled",
-    "date_of_action": "2026-05 (vice chairs dismissed) through 2026-07 (fourth meeting postponement)",
-    "what_changed": "In June 2026, the Supreme Court ruled 6-3 in Kennedy v. Braidwood that the U.S. Preventive Services Task Force -- the independent panel that determines which preventive services (cancer screenings, HIV prevention, diabetes tests, and more) insurers must cover under the ACA without cost-sharing -- was constitutionally structured, while also confirming that its members serve at the HHS Secretary's discretion. Effective May 11, 2026, HHS Secretary Robert F. Kennedy Jr. dismissed the Task Force's two vice chairs, drawing condemnation from the American Medical Association and other public health organizations. Kennedy also declined to fill member seats whose terms expired in December 2025, and indefinitely postponed the panel's last three scheduled meetings, including its July 10, 2026 meeting, without providing a rescheduled date -- HHS cited an 'unprecedented number of nominations' still under review as the reason for the fourth postponement. HHS has also blocked public access to records concerning the panel's nomination and vacancy-filling process. Healthcare organizations have publicly drawn a parallel to Kennedy's earlier dismissal of all 17 members of the CDC's Advisory Committee on Immunization Practices (ACIP), which he replaced with a smaller panel including members who have expressed anti-vaccine views, raising concern that USPSTF will undergo a similar politically-driven overhaul.",
+    "date_of_action": "2025 (meeting gap already underway, per Feb. 2026 reporting) through 2026-07 (fourth meeting postponement)",
+    "what_changed": "Even before the Supreme Court ruling below, NBC News reported in February 2026 that USPSTF had not held a formal meeting in nearly a year and was operating with fewer members, as Kennedy reshaped federal health advisory committees more broadly -- establishing that the panel's disruption predates and is not fully explained by the subsequent Kennedy v. Braidwood ruling. In June 2026, the Supreme Court ruled 6-3 in Kennedy v. Braidwood that the U.S. Preventive Services Task Force -- the independent panel that determines which preventive services (cancer screenings, HIV prevention, diabetes tests, and more) insurers must cover under the ACA without cost-sharing -- was constitutionally structured, while also confirming that its members serve at the HHS Secretary's discretion. Effective May 11, 2026, HHS Secretary Robert F. Kennedy Jr. dismissed the Task Force's two vice chairs, drawing condemnation from the American Medical Association and other public health organizations. Kennedy also declined to fill member seats whose terms expired in December 2025, and indefinitely postponed the panel's last three scheduled meetings, including its July 10, 2026 meeting, without providing a rescheduled date -- HHS cited an 'unprecedented number of nominations' still under review as the reason for the fourth postponement. HHS has also blocked public access to records concerning the panel's nomination and vacancy-filling process. Healthcare organizations have publicly drawn a parallel to Kennedy's earlier dismissal of all 17 members of the CDC's Advisory Committee on Immunization Practices (ACIP), which he replaced with a smaller panel including members who have expressed anti-vaccine views, raising concern that USPSTF will undergo a similar politically-driven overhaul.",
     "primary_proponent": {
       "name": "Robert F. Kennedy Jr.",
       "role": "Secretary of Health and Human Services",
@@ -8237,6 +8246,11 @@
     "estimated_impact": {
       "summary": "The Task Force that determines which preventive-care services insurers must cover cost-free under the ACA has had its leadership dismissed, its vacancies left unfilled for months, and its meetings repeatedly and indefinitely postponed -- leaving the panel unable to conduct its normal review and recommendation process, and drawing an explicit comparison from medical organizations to Kennedy's prior wholesale replacement of the CDC's vaccine advisory committee.",
       "figures": [
+        {
+          "metric": "Approximate length of the USPSTF meeting gap reported before the Supreme Court ruling",
+          "value": "~1 year (as of February 2026)",
+          "source": "NBC News, February 2026"
+        },
         {
           "metric": "USPSTF vice chairs dismissed",
           "value": "2 (effective May 11, 2026)",
@@ -8262,13 +8276,17 @@
     },
     "confidence_note": "HIGH confidence -- corroborated across FierceHealthcare, Medical Economics, Axios, and a public statement from Sen. Patty Murray, with the underlying Supreme Court ruling a matter of public record. The parallel to the ACIP purge is drawn by healthcare organizations and reporters as a pattern comparison, not an official administration statement, and should be presented as such.",
     "section_summaries": {
-      "what_changed": "Following a Supreme Court ruling confirming his removal authority, RFK Jr. fired USPSTF's two vice chairs, left expired member seats unfilled, and postponed the panel's meetings four times running with no new date set.",
+      "what_changed": "NBC reported the panel already hadn't met in nearly a year by Feb. 2026, before a Supreme Court ruling confirmed RFK Jr.'s removal authority; he then fired USPSTF's two vice chairs, left expired member seats unfilled, and postponed the panel's meetings four times running with no new date set.",
       "estimated_impact": "The panel that decides which preventive care insurers must cover free of charge has been left leaderless and unable to meet, drawing comparisons to Kennedy's earlier wholesale replacement of the CDC's vaccine advisory panel.",
       "confidence_note": "Well-corroborated across multiple health-policy outlets and a Senate statement; the ACIP-purge comparison is external commentary, not an admitted administration strategy."
     },
-    "last_verified": "2026-07-27",
+    "last_verified": "2026-08-05",
     "date_added": "2026-07-27",
     "sources": [
+      {
+        "name": "NBC News -- 'Federal panel behind key cancer screening recommendations hasn't met in nearly a year'",
+        "url": "https://www.nbcnews.com/health/health-news/federal-panel-cancer-screening-recommendations-hasnt-met-nearly-year-rcna221824"
+      },
       {
         "name": "FierceHealthcare — RFK Jr. cancels USPSTF meeting as healthcare orgs urge Congress to 'protect integrity' of expert panel",
         "url": "https://www.fiercehealthcare.com/providers/rfk-jr-cancels-uspstf-meeting-healthcare-orgs-urge-congress-protect-integrity-expert"
@@ -8286,7 +8304,7 @@
         "url": "https://www.murray.senate.gov/murray-sounds-alarm-over-rfk-jr-postponing-u-s-preventive-services-task-force-meeting-threat-to-coverage-of-preventive-care"
       }
     ],
-    "last_updated": "2026-07-27"
+    "last_updated": "2026-08-05"
   },
   {
     "id": "va-disability-rating-treatment-effectiveness-rule-2026",
