@@ -720,6 +720,69 @@
     ]
   },
   {
+    "id": "cdc-diagnostic-testing-suspended-2026",
+    "title": "CDC Suspended Diagnostic Testing for Rabies, Pox Viruses, and Dozens of Other Infectious Diseases as Staffing Collapsed Under Kennedy",
+    "institution": "Centers for Disease Control and Prevention",
+    "domain": "data_collection_halted",
+    "status": "Ongoing as of this entry's addition -- testing paused with staffing continuing to shrink toward the specific July 2026 thresholds described below",
+    "date_of_action": "2026 (staffing decline through early 2026, testing pause announced ~April 1-2, 2026)",
+    "what_changed": "The CDC suspended diagnostic testing for rabies, a group of pox viruses that includes smallpox and mpox, Epstein-Barr virus, and roughly 30 other infectious diseases, after mass layoffs, hiring freezes, and resignations under HHS Secretary Robert F. Kennedy Jr. depleted the specialized laboratory teams responsible for the testing. The New Republic reported that by July 2026, the rabies team would be down to just one person with the clinical expertise needed to advise state and local health officials, and the pox virus team would have zero such specialists remaining. Overall staffing in the affected testing programs fell by an estimated 20-25%, with the pox virus and rabies labs specifically losing about half their prior staff. State and local health departments, which rely on CDC's specialized testing and expertise when they cannot perform certain diagnostic work themselves, lost access to that support as the suspension took effect.",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services",
+      "note": "Oversees CDC and the broader HHS staffing reductions, hiring freezes, and deprioritization of the affected testing programs that led directly to the diagnostic-testing suspension."
+    },
+    "estimated_impact": {
+      "summary": "State and local health departments nationwide lost access to CDC's specialized diagnostic testing and clinical expertise for rabies, pox viruses (including smallpox and mpox), and dozens of other infectious diseases, at the exact time officials would need that capacity to identify and respond to an outbreak -- a documented reduction in the nation's disease-surveillance and response infrastructure.",
+      "figures": [
+        {
+          "metric": "Overall staffing decline in the affected testing programs",
+          "value": "~20-25%",
+          "source": "The New Republic / KFF Health News, April 2026"
+        },
+        {
+          "metric": "Staff remaining on the pox virus and rabies labs specifically",
+          "value": "~50% loss from prior staffing levels",
+          "source": "The New Republic, April 2026"
+        },
+        {
+          "metric": "Clinical rabies experts projected to remain by July 2026",
+          "value": "1",
+          "source": "The New Republic, April 2026"
+        },
+        {
+          "metric": "Clinical pox-virus experts projected to remain by July 2026",
+          "value": "0",
+          "source": "The New Republic, April 2026"
+        }
+      ],
+      "caveat": "Sourcing frames the projected July 2026 staffing thresholds (1 rabies expert, 0 pox-virus experts) as based on already-in-motion departures as of the reporting, not a hypothetical worst-case projection unconnected to documented staffing trends."
+    },
+    "confidence_note": "HIGH confidence -- the testing suspension, the affected disease list, and the specific staffing figures are independently corroborated across The New Republic, NBC News, The Hill, KFF Health News, and multiple wire pickups, several of which cite CDC's own internal staffing data.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "The New Republic -- 'CDC Forced to Pause Rabies Testing Thanks to RFK Jr.'",
+        "url": "https://newrepublic.com/post/208500/cdc-pause-rabies-smallpox-testing-robert-f-kennedy-jr"
+      },
+      {
+        "name": "NBC News -- 'CDC pauses testing for rabies, Epstein-Barr, monkeypox and other viruses'",
+        "url": "https://www.nbcnews.com/health/health-news/cdc-pauses-testing-rabies-monkeypox-epstein-barr-viruses-rcna266377"
+      },
+      {
+        "name": "KFF Health News -- 'CDC Puts Rabies And Pox Virus Testing On Hold As Staff Dwindles'",
+        "url": "https://kffhealthnews.org/morning-breakout/cdc-puts-rabies-and-pox-virus-testing-on-hold-as-staff-dwindles/"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "CDC suspended diagnostic testing for rabies, pox viruses (smallpox, mpox), and ~30 other diseases after RFK Jr.-era layoffs, hiring freezes, and resignations gutted the specialized lab teams; by July 2026 the rabies team would have just 1 clinical expert and the pox team 0.",
+      "estimated_impact": "State and local health departments lost access to CDC's specialized disease testing and expertise at a time it would be needed for outbreak response.",
+      "confidence_note": "Well-corroborated across multiple outlets citing CDC's own staffing data."
+    }
+  },
+  {
     "id": "cdc-harm-reduction-defunding-threat-trump2",
     "title": "CDC orders federally funded health programs to drop harm reduction, adopt 'parental authority' priorities on short deadline",
     "institution": "Centers for Disease Control and Prevention (CDC)",
@@ -3425,6 +3488,46 @@
     "last_updated": "2026-07-28"
   },
   {
+    "id": "forest-service-hq-relocation-2026",
+    "title": "USDA Plans to Relocate Forest Service Headquarters to Utah and Close All Nine Regional Offices",
+    "institution": "U.S. Forest Service / Department of Agriculture",
+    "domain": "staff_office_cuts",
+    "status": "Planned/announced as of this entry's addition -- staff warned the changes could trigger mass departures; implementation status not yet confirmed",
+    "date_of_action": "2026-04 (announced)",
+    "what_changed": "Government Executive reported Trump administration officials are relocating U.S. Forest Service headquarters from the Washington, D.C. area to Utah and shutting down all nine of the agency's regional offices, as part of a sweeping USDA reorganization affecting thousands of employees. Forest Service staff warned the forced relocations and office closures could trigger mass departures among employees unable or unwilling to relocate, echoing the same institutional-knowledge-loss dynamic already documented elsewhere in this tracker for other agencies. This entry is distinct from, but part of the same broader pattern as, the Forest Service's previously documented ~700-person wildland-fire-support layoffs (forest-service-firefighter-shortage-trump2.json) and its plan to close 57 of 77 research stations (forest-service-research-station-closures-2026.json) -- this action specifically concerns the agency's administrative headquarters and regional-office structure, not its fire-operations staff or research infrastructure.",
+    "primary_proponent": {
+      "name": "U.S. Department of Agriculture",
+      "role": "Forest Service's parent department, directing the reorganization",
+      "note": "Sourcing reviewed did not identify a single named USDA or Forest Service official personally announcing or driving the relocation decision beyond the department's institutional reorganization plan."
+    },
+    "estimated_impact": {
+      "summary": "Relocating the Forest Service's national headquarters out of the Washington area to Utah and eliminating all nine regional offices restructures how the agency manages forests, wildfires, and other public-land responsibilities nationwide, with staff warning the disruption could cause an exodus of experienced personnel and the institutional knowledge that leaves with them.",
+      "figures": [
+        {
+          "metric": "Regional Forest Service offices slated for closure",
+          "value": "9 (all of them)",
+          "source": "Government Executive, April 2026"
+        }
+      ],
+      "caveat": "This entry documents an announced plan; sourcing reviewed did not confirm a completed relocation, a final headcount of departures, or a specific implementation timeline as of this entry's addition."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- Government Executive's reporting on the relocation and regional-office-closure plan is the primary source identified; broader corroboration from additional outlets, and confirmation of actual implementation versus an announced plan, was not independently verified beyond that reporting as of this entry's addition.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "Government Executive -- 'Forest Service to move HQ out of DC, shutter regional offices in sweeping overhaul'",
+        "url": "https://www.govexec.com/management/2026/04/forest-service-move-hq-out-dc-shutter-regional-offices-sweeping-overhaul/412566/?oref=ge-home-top-story"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "USDA plans to relocate Forest Service headquarters from D.C. to Utah and close all nine regional offices as part of a broader reorganization, with staff warning of potential mass departures -- distinct from the agency's separately-documented fire-staff layoffs and research-station closures.",
+      "estimated_impact": "The plan restructures the agency's nationwide management structure and risks losing experienced staff and institutional knowledge.",
+      "confidence_note": "Sourced to Government Executive's reporting; implementation status and broader corroboration weren't confirmed beyond that single primary source as of this entry."
+    }
+  },
+  {
     "id": "forest-service-research-station-closures-2026",
     "title": "Forest Service Plans to Close 57 of 77 Research Stations, Including a Key Pacific Northwest Wildfire Smoke Lab, Ahead of Fire Season",
     "institution": "U.S. Forest Service (USDA)",
@@ -4165,6 +4268,54 @@
     },
     "last_updated": "2026-08-02",
     "date_added": "2026-08-02"
+  },
+  {
+    "id": "hud-continuum-of-care-builds-unlawful-2026",
+    "title": "Judge Rules HUD's Rewrite of $75M Homeless-Housing Funding Criteria Unlawful, Calling It a 'Slapdash Imposition of Political Whims'",
+    "institution": "Department of Housing and Urban Development",
+    "domain": "funding_redirection",
+    "status": "Blocked -- a federal judge ordered the new policy scrapped",
+    "date_of_action": "2025 (new NOFO issued) through 2026-03/04 (court ruling)",
+    "what_changed": "HUD issued a new Notice of Funding Opportunity for its Continuum of Care Builds program -- a separate $75 million funding stream from the broader $3.9 billion Continuum of Care Program documented separately in this tracker (hud-supportive-housing-shift-2026.json) -- that dramatically changed the criteria nonprofits and local providers must meet to receive funding to build housing for homeless families and individuals. Several nonprofits sued, alleging HUD rewrote the criteria to better align funding decisions with the administration's broader social-policy priorities rather than housing need. U.S. District Judge Mary McElroy of Rhode Island -- a Trump nominee -- ruled the change unlawful, finding the department's 'slapdash imposition of political whims' violated the Administrative Procedure Act's requirements for how federal agencies must develop and issue regulations, and ordered HUD to scrap the new policy.",
+    "primary_proponent": {
+      "name": "Department of Housing and Urban Development",
+      "role": "Federal agency administering the Continuum of Care Builds program",
+      "note": "Sourcing reviewed did not identify a single named HUD official personally responsible for drafting the new NOFO's criteria; the ruling addresses the department's action institutionally."
+    },
+    "estimated_impact": {
+      "summary": "A federal judge -- notably a Trump appointee, not a jurist predisposed to rule against the administration -- found HUD's rewrite of homeless-housing construction funding criteria was a legally deficient attempt to reshape a needs-based program around political priorities, ordering the policy scrapped and preserving nonprofit and local providers' access to the $75 million program under its prior, lawful criteria.",
+      "figures": [
+        {
+          "metric": "Continuum of Care Builds program funding at stake",
+          "value": "$75 million",
+          "source": "AP News, April 2026"
+        }
+      ],
+      "caveat": "This entry documents a proposed funding-criteria change that a court blocked before it could take effect on the merits; it does not represent an implemented policy change with observed downstream harm."
+    },
+    "confidence_note": "HIGH confidence -- the NOFO change, the nonprofit lawsuit, Judge McElroy's ruling and her direct 'slapdash imposition of political whims' quote, and the Administrative Procedure Act basis for the ruling are all independently corroborated across AP News (widely syndicated), WBUR, and Atlanta Civic Circle's reporting on the plaintiffs' perspective. The fact that the ruling judge is a Trump nominee is independently confirmed and relevant to assessing the ruling's partisan-neutrality.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "AP News -- 'Judge rules that HUD effort to change criteria for homeless funding is unlawful'",
+        "url": "https://apnews.com/article/hud-homeless-funding-federal-court-lawsuit-82422d507fe36729d23c1de4923a6da6"
+      },
+      {
+        "name": "WBUR -- 'Judge rules that HUD effort to change criteria for homeless funding is unlawful'",
+        "url": "https://www.wbur.org/news/2026/04/01/judge-homeless-housing-funding-criteria"
+      },
+      {
+        "name": "Atlanta Civic Circle -- 'Judge rejects HUD's homeless grants overhaul, to Atlanta provider's relief'",
+        "url": "https://atlantaciviccircle.org/2026/04/03/judge-rejects-hud-homeless-funding-overhaul-atlanta/"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "HUD rewrote the funding criteria for its $75M Continuum of Care Builds homeless-housing program; a federal judge -- a Trump nominee -- ruled the rewrite unlawful under the APA, calling it a 'slapdash imposition of political whims,' and ordered it scrapped.",
+      "estimated_impact": "A court blocked HUD's attempt to reshape a needs-based homeless-housing construction program around political priorities before it took effect.",
+      "confidence_note": "Well-corroborated across AP News and multiple local outlets; the ruling judge being a Trump nominee is independently confirmed."
+    }
   },
   {
     "id": "hud-fair-housing-staff-cuts-trump2",
@@ -4998,7 +5149,7 @@
     "domain": "funding_redirection",
     "status": "Ongoing -- risk assessment based on funding changes already enacted (OBBBA) and being implemented (work-requirements rule documented separately in this tracker)",
     "date_of_action": "2025-07 (OBBBA Medicaid funding provisions signed into law) through 2026-04 (hospital risk analysis published)",
-    "what_changed": "A new analysis found that 446 hospitals across 44 states and Washington, D.C. are at high risk of closing or cutting services as a result of Medicaid funding reductions enacted in the One Big Beautiful Bill Act (OBBBA), the same law whose work-requirements provisions are documented separately in this tracker (medicaid-work-requirements-cms-rule-2026.json). Many of the at-risk hospitals already operate at a financial loss and rely heavily on Medicaid reimbursement to remain viable; NBC News reported the cuts put jobs, maternity care, mental health services, and general local access to treatment at risk in the affected communities, particularly in rural and underserved areas where Medicaid patients make up an outsized share of hospital revenue.",
+    "what_changed": "A new analysis found that 446 hospitals across 44 states and Washington, D.C. are at high risk of closing or cutting services as a result of Medicaid funding reductions enacted in the One Big Beautiful Bill Act (OBBBA), the same law whose work-requirements provisions are documented separately in this tracker (medicaid-work-requirements-cms-rule-2026.json). Many of the at-risk hospitals already operate at a financial loss and rely heavily on Medicaid reimbursement to remain viable; NBC News reported the cuts put jobs, maternity care, mental health services, and general local access to treatment at risk in the affected communities, particularly in rural and underserved areas where Medicaid patients make up an outsized share of hospital revenue. Trump himself connected these funding pressures directly to military spending priorities: speaking at a private White House Easter luncheon in April 2026, NBC News reported he said the federal government could not fund Medicaid, Medicare, and child care because military spending had to come first, arguing those responsibilities should shift to the states.",
     "primary_proponent": {
       "name": "Congressional Republicans / Trump administration",
       "role": "Enacted and implemented the OBBBA's Medicaid funding reductions",
@@ -5020,13 +5171,17 @@
       ],
       "caveat": "This is a risk analysis projecting financial vulnerability based on current Medicaid funding levels and hospital operating margins, not a confirmed count of hospitals that have already closed or cut services as a direct, adjudicated result of the OBBBA cuts specifically."
     },
-    "confidence_note": "MODERATE-HIGH confidence -- the 446-hospital figure and its state-level scope come from a specific analysis cited by NBC News; sourcing reviewed did not independently verify the analysis's full methodology (e.g., which organization produced it or its underlying risk-scoring criteria) beyond NBC's reporting. The underlying OBBBA Medicaid funding cuts are well-documented public record. Present the 446 figure as a credentialed risk projection, not a confirmed closure count.",
+    "confidence_note": "MODERATE-HIGH confidence -- the 446-hospital figure and its state-level scope come from a specific analysis cited by NBC News; sourcing reviewed did not independently verify the analysis's full methodology (e.g., which organization produced it or its underlying risk-scoring criteria) beyond NBC's reporting. The underlying OBBBA Medicaid funding cuts are well-documented public record. Present the 446 figure as a credentialed risk projection, not a confirmed closure count. Re-verified 2026-08-06: NBC News independently corroborates Trump's own April 2026 statement explicitly tying reduced federal support for Medicaid, Medicare, and child care to military spending priorities and a preference for shifting those costs to states.",
     "last_verified": "2026-08-06",
     "date_added": "2026-08-06",
     "sources": [
       {
         "name": "NBC News -- 'Medicaid cuts threaten hundreds of hospitals, new report finds'",
         "url": "https://www.nbcnews.com/health/health-news/medicaid-cuts-threaten-hundreds-hospitals-new-report-finds-rcna265789"
+      },
+      {
+        "name": "NBC News -- Trump says it's 'not possible' for US to pay for Medicaid, Medicare, day care while 're-fighting wars'",
+        "url": "https://www.nbcnews.com/politics/donald-trump/trump-says-not-possible-us-pay-medicaid-medicare-daycare-re-fighting-w-rcna266381"
       }
     ],
     "last_updated": "2026-08-06",
@@ -8422,6 +8577,50 @@
       "what_changed": "A Senate Democratic staff report found DHS spent at least $40 million to deport ~300 migrants to third countries with no connection to them, including lump-sum payments up to $7.5 million to countries like Rwanda and Equatorial Guinea for as few as 29 deportees.",
       "estimated_impact": "Some individual deportations cost as much as $1 million each; the report's author called the practice 'the epitome' of 'fraud, waste, and abuse.'",
       "confidence_note": "Figures are drawn from the Senate committee's own published report and corroborated by AP-sourced coverage; the 'fraud, waste, and abuse' characterization is the minority staff's own assessment, not an independent audit finding."
+    }
+  },
+  {
+    "id": "troops-relocated-hotels-iran-war-2026",
+    "title": "US Commanders Moved Troops Into Hotels and Civilian Office Spaces After Iranian Strikes Damaged Gulf Bases, Raising Law-of-War Concerns",
+    "institution": "Department of Defense",
+    "domain": "protection_rollback",
+    "status": "Ongoing as of this entry's addition -- relocations reported as continuing amid active hostilities",
+    "date_of_action": "2026 (Iran war escalation period, relocations reported late March/early April 2026)",
+    "what_changed": "After Iranian ballistic missile and drone strikes damaged U.S. bases including Prince Sultan Air Base in Saudi Arabia and Al Udeid Air Base in Qatar -- with at least a dozen service members killed -- U.S. commanders relocated significant numbers of troops away from those vulnerable, insufficiently defended installations into hotels and office spaces in civilian areas. The New York Times's reporting, drawing on human rights officials and legal experts, found the relocations raised concerns under the law of armed conflict, which requires militaries to use their best efforts to distinguish military forces from civilians in order to mitigate civilian casualties and property damage; experts said a further, more serious concern would arise if any relocation decision intentionally used civilian presence to shield troops from attack, a tactic that constitutes a war crime under international law. Sourcing reviewed did not find an allegation that intentional human-shielding had occurred, only that the relocations' effect -- placing military personnel amid civilian populations and infrastructure -- created the legal exposure and civilian-risk concerns described.",
+    "primary_proponent": {
+      "name": "U.S. Central Command / Department of Defense",
+      "role": "Military command responsible for the relocation decisions",
+      "note": "Sourcing reviewed attributed the relocation decisions to field commanders responding to base vulnerabilities in real time, rather than to a single named Pentagon official's advance policy decision; the underlying vulnerability itself traces to base air-defense inadequacy against the scale of Iranian strikes."
+    },
+    "estimated_impact": {
+      "summary": "Troops moved into civilian hotels and office buildings for lack of adequately defended alternatives, a documented departure from law-of-war practice designed to keep military and civilian presence distinguishable, increasing risk to both service members and the civilians now located near them in an active conflict zone.",
+      "figures": [
+        {
+          "metric": "Service members killed in the base strikes that prompted the relocations",
+          "value": "at least a dozen",
+          "source": "The New York Times, reported via multiple syndication partners, April 2026"
+        }
+      ],
+      "caveat": "This entry documents legal experts' and human rights officials' concerns about the relocations' law-of-war implications, not a finding by any court, tribunal, or the U.S. government itself that a violation occurred; no allegation of intentional human-shielding was identified in sourcing reviewed."
+    },
+    "confidence_note": "HIGH confidence on the base strikes, casualties, and the fact of the relocations into hotels and civilian office space -- independently corroborated across the NYT's original reporting and wide syndication (Boing Boing, WION, multiple regional papers). MODERATE confidence on the legal-violation characterization specifically, since it rests on outside legal experts' and human rights officials' analysis of the relocations' law-of-war implications rather than an official U.S. government or international tribunal finding.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "The New York Times (via syndication) -- 'Placing U.S. Troops in Middle East Hotels May Violate Laws of War'",
+        "url": "https://www.journal-news.com/nation-world/placing-u-s-troops-in-middle-east-hotels-may-violate-laws-of-war/article_be3d2c40-6e2e-5fa1-b513-914e13497280.html"
+      },
+      {
+        "name": "Boing Boing -- 'U.S. hiding troops in hotels to dodge missiles may be a war crime'",
+        "url": "https://boingboing.net/2026/04/01/u-s-hiding-troops-in-hotels-to-dodge-missiles-may-be-a-war-crime.html"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "After Iranian strikes damaged Gulf bases and killed a dozen+ service members, U.S. commanders moved troops into civilian hotels and office spaces for lack of adequately defended alternatives; legal experts warned this raised law-of-war concerns about distinguishing military from civilian presence.",
+      "estimated_impact": "The relocations increase risk to both troops and nearby civilians and represent a documented departure from law-of-war practice, though no formal violation finding exists.",
+      "confidence_note": "The strikes, casualties, and relocations are well-corroborated; the legal-violation concern rests on outside experts' analysis, not an official finding."
     }
   },
   {

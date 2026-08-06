@@ -2512,6 +2512,49 @@
     }
   },
   {
+    "official": "Pete Hegseth, Secretary of Defense",
+    "offense_category": "Removal of the Army's Top Officer and Senior Generals During an Active War, Replaced by Personally-Connected Successors -- a personnel-authority action within Hegseth's legal power; the accountability concern is the pattern and its command-continuity implications, not an allegation the removals themselves were unlawful",
+    "incident_summary": "On April 2, 2026, Defense Secretary Pete Hegseth forced Gen. Randy George, the Army's 41st Chief of Staff, into immediate retirement -- roughly a year and a half before the end of his traditional four-year term -- and fired two additional senior Army generals the same day: Maj. Gen. William Green Jr., the Army's chief of chaplains, and Gen. David Hodne, commander of Army Transformation and Training Command. Pentagon spokesman Sean Parnell announced George's departure as effective immediately. Lt. Gen. Christopher LaNeve, recently sworn in as the Army's vice chief of staff, was reported as the likely successor; LaNeve had previously served as a military aide to Hegseth personally. The removals occurred during the active U.S. war with Iran and extend a broader pattern of Hegseth removing senior military leadership across the armed forces, documented separately in this tracker (kacher-joint-staff-removal-2026.json, an earlier Joint Staff Director removal).",
+    "contested": true,
+    "elements_required": [
+      "George was removed roughly 18 months before his term's traditional end, alongside two other senior generals removed the same day",
+      "The removals occurred during active U.S. combat operations against Iran, a period when command continuity carries particular institutional weight",
+      "The likely successor, Lt. Gen. LaNeve, has a documented prior personal connection to Hegseth as his former military aide, rather than being an arms-length succession",
+      "This removal follows a documented pattern of other senior military personnel changes under Hegseth's tenure (the Joint Staff Director removal tracked separately in this database)"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "CNN's and NBC News's reporting confirming Hegseth ousted Gen. Randy George as Army Chief of Staff along with two other generals (Hodne, Green) on April 2, 2026, and Pentagon spokesman Sean Parnell's on-record confirmation of George's immediate retirement",
+        "source_url": "https://www.cnn.com/2026/04/02/politics/hegseth-removes-randy-george-army-chief-of-staff",
+        "maps_to_element": "Core facts of the removal and its timing relative to George's normal term"
+      },
+      {
+        "type": "public_record",
+        "description": "DefenseScoop's and NBC News's reporting identifying Lt. Gen. Christopher LaNeve as the likely successor and confirming his prior service as a personal military aide to Hegseth",
+        "source_url": "https://www.nbcnews.com/politics/national-security/pete-hegseth-forces-army-chief-staff-randy-george-rcna266491",
+        "maps_to_element": "Likely successor's prior personal connection to Hegseth"
+      },
+      {
+        "type": "reporting",
+        "description": "Al Jazeera's reporting situating the Army Chief of Staff removal within a broader, ongoing 'string of dismissals' of senior military leadership under Hegseth",
+        "source_url": "https://www.aljazeera.com/news/2026/4/3/hegseth-fires-us-army-chief-of-staff-in-reported-string-of-dismissals",
+        "maps_to_element": "Broader pattern of senior military leadership removals"
+      }
+    ],
+    "status": "Finalized as to the personnel actions themselves -- George, Hodne, and Green removed effective April 2, 2026; no reversal identified in sourcing reviewed",
+    "rebuttal_anticipated": "Likely defense: the Secretary of Defense has clear legal and constitutional authority over senior military personnel decisions, wartime conditions can create legitimate reasons to prioritize leadership alignment with current operational needs, and selecting a successor with prior direct working experience with the Secretary is not inherently improper -- it can reflect trusted operational familiarity rather than pure loyalty-based selection.",
+    "comeback": "The specific concern is not that the Secretary lacks legal authority to remove senior officers, but the cumulative pattern -- a Chief of Staff removed roughly 18 months early alongside two other generals on the same day, during active combat operations, with the likely successor being the Secretary's own former personal aide -- which mirrors the same loyalty-over-independence dynamic already documented in this tracker's separate Joint Staff Director removal and broader Hegseth personnel-purge entries, raising continuity-of-command and institutional-independence concerns distinguishable from an isolated, routine personnel change.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of Hegseth removing senior military leaders and replacing them with personally-connected successors (see also kacher-joint-staff-removal-2026.json and hegseth-pentagon-loyalty-culture-suspicion-2026.json).",
+    "last_updated": "2026-08-06",
+    "date_added": "2026-08-06",
+    "confidence_note": "HIGH confidence -- the removals, their timing, Parnell's on-record confirmation, and LaNeve's prior role as Hegseth's aide are all independently corroborated across CNN, NBC News, DefenseScoop, Breaking Defense, and Al Jazeera. MODERATE confidence on characterizing LaNeve's selection as loyalty-driven specifically, since his professional qualifications as incoming vice chief of staff are also documented and not addressed in sourcing reviewed as mutually exclusive with a personal-connection factor.",
+    "section_summaries": {
+      "incident_summary": "Hegseth forced Army Chief of Staff Gen. Randy George into immediate retirement 18 months early, alongside two other senior generals, during the active Iran war; his likely successor, Lt. Gen. LaNeve, previously served as Hegseth's personal military aide, extending a documented pattern of senior military leadership removals under Hegseth.",
+      "confidence_note": "Well-corroborated across multiple outlets including on-record Pentagon confirmation; whether LaNeve's selection reflects loyalty over qualification is a disputed characterization, not an established fact."
+    }
+  },
+  {
     "official": "Pete Hegseth, Secretary of Defense / Secretary of War",
     "offense_category": "Potential War Crime — Killing of Combatants Rendered Hors de Combat / Denial of Quarter (Law of Armed Conflict; possible domestic analogue: 18 U.S.C. §1111, murder, or Uniform Code of Military Justice provisions if applicable to the chain of command) — NOT charged, contested facts, included for reference only",
     "incident_summary": "On September 2, 2025, a U.S. strike hit an alleged drug-smuggling boat in the Caribbean, leaving two survivors clinging to the wreckage. A follow-up strike then killed both survivors. The Washington Post reported, citing two anonymous sources with direct knowledge of the operation, that Hegseth gave a verbal order before the first strike to 'leave no survivors,' and that the Special Operations commander ordered the second strike to comply with that directive. The underlying strike campaign has since expanded dramatically: as of mid-2026, the U.S. military has conducted more than 60 strikes against alleged drug-trafficking vessels in the Caribbean and eastern Pacific since September 2025, killing more than 200 people.",
