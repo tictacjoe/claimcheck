@@ -124,7 +124,7 @@
   {
     "official": "Todd Blanche, Acting Attorney General (nominated to permanent post)",
     "offense_category": "Vindictive/Selective Prosecution (violates Due Process; established legal doctrine, e.g. United States v. Goodwin) -- underlying investigation into Brennan is ongoing and no charges have been filed; Blanche himself has not been personally charged with anything",
-    "incident_summary": "DOJ has pursued two separate grand jury investigations (Southern District of Florida, opened November 2025 and January 2026) into former CIA Director John Brennan's role in the intelligence community's 2016 assessment that Russia sought to help Donald Trump's presidential campaign. A career prosecutor assigned to the matter raised concerns about the investigation and was removed from the case in April 2026; Joseph DiGenova -- a Trump ally, former Trump campaign lawyer, and now a counselor to Acting Attorney General Todd Blanche -- was installed to lead the investigation in the career prosecutor's place. On July 1, 2026, Brennan sued DOJ seeking a court order requiring the department to preserve records related to both investigations, laying groundwork for an anticipated vindictive/selective-prosecution defense should charges be filed. Update 2026-07-28: Reuters reported (May 12, 2026) that the FBI began questioning current and former CIA officers as part of the DOJ investigation into Brennan's role in the 2017 intelligence assessment concluding Russia interfered in the 2016 election to help Trump -- an active investigative step examining Brennan's role and testimony despite multiple prior independent reviews having already affirmed Russia's 2016 election interference. AP reporting (Feb. 17, 2026) confirmed DOJ expanded the same Florida-based investigation with a new wave of subpoenas targeting additional former FBI officials Peter Strzok and Lisa Page over their roles in the 2016-2017 Russia intelligence assessment -- alongside DOJ's separately-documented subpoena of former FBI Director James Comey over the same assessment (see halligan-comey-vindictive-prosecution-2025-2026.json). Brennan's lawyers said they had been told he is a target but had not been told of any 'legally justifiable basis for undertaking this investigation.'",
+    "incident_summary": "DOJ has pursued two separate grand jury investigations (Southern District of Florida, opened November 2025 and January 2026) into former CIA Director John Brennan's role in the intelligence community's 2016 assessment that Russia sought to help Donald Trump's presidential campaign. A career prosecutor assigned to the matter raised concerns about the investigation and was removed from the case in April 2026; Joseph DiGenova -- a Trump ally, former Trump campaign lawyer, and now a counselor to Acting Attorney General Todd Blanche -- was installed to lead the investigation in the career prosecutor's place. On July 1, 2026, Brennan sued DOJ seeking a court order requiring the department to preserve records related to both investigations, laying groundwork for an anticipated vindictive/selective-prosecution defense should charges be filed. Update 2026-07-28: Reuters reported (May 12, 2026) that the FBI began questioning current and former CIA officers as part of the DOJ investigation into Brennan's role in the 2017 intelligence assessment concluding Russia interfered in the 2016 election to help Trump -- an active investigative step examining Brennan's role and testimony despite multiple prior independent reviews having already affirmed Russia's 2016 election interference. AP reporting (Feb. 17, 2026) confirmed DOJ expanded the same Florida-based investigation with a new wave of subpoenas targeting additional former FBI officials Peter Strzok and Lisa Page over their roles in the 2016-2017 Russia intelligence assessment -- alongside DOJ's separately-documented subpoena of former FBI Director James Comey over the same assessment (see halligan-comey-vindictive-prosecution-2025-2026.json). Brennan's lawyers said they had been told he is a target but had not been told of any 'legally justifiable basis for undertaking this investigation.' Update: CBS News reported that by March 20, 2026, federal prosecutors -- now led by U.S. Attorney Jason Reding Quinones with DiGenova installed as lead investigator -- had issued more than 130 subpoenas since the investigation began, expanding it to also target former FBI Deputy Director Andrew McCabe alongside Brennan, Strzok, and Page, and had again subpoenaed James Comey (whose separate earlier indictment was dismissed in November 2025; see halligan-comey-vindictive-prosecution-2025-2026.json) as part of this broader probe. Prosecutors are pursuing a theory that Obama-era officials coordinated a 'grand conspiracy' against Trump beginning with the 2016 Russia assessment and continuing through the Biden-era criminal cases against him. The grand jury is empaneled in Fort Pierce, Florida, whose only federal judge is Trump-appointed Aileen Cannon; Brennan separately asked the SDFL chief judge to block Cannon from overseeing the case, accusing DOJ of manipulating case-assignment procedures specifically to secure her as the presiding judge.",
     "contested": true,
     "elements_required": [
       "A career prosecutor's removal from the case coincided with that prosecutor raising concerns about the investigation, rather than an unrelated staffing decision",
@@ -168,15 +168,27 @@
         "description": "AP's reporting confirms DOJ issued a new wave of subpoenas in February 2026 expanding the same Florida investigation to former FBI officials Peter Strzok and Lisa Page, in addition to Brennan, and that Brennan's lawyers say they have not been given a legally justifiable basis for the investigation",
         "source_url": "https://www.inquirer.com/politics/nation/trump-russia-brennan-justice-department-20260217.html",
         "maps_to_element": "Expansion of the same investigation to additional named former officials"
+      },
+      {
+        "type": "public_record",
+        "description": "CBS News's reporting that the investigation had issued more than 130 subpoenas as of March 2026, expanded to target McCabe, and again subpoenaed Comey as part of the same broader 'grand conspiracy' theory",
+        "source_url": "https://www.cbsnews.com/news/james-comey-subpoena-conspiracy-case-trump/",
+        "maps_to_element": "Expansion of the same investigation to additional named former officials"
+      },
+      {
+        "type": "public_record",
+        "description": "Reporting that Brennan asked the SDFL chief judge to block Trump-appointed Judge Aileen Cannon -- the only federal judge in Fort Pierce, where the grand jury is empaneled -- from overseeing the case, accusing DOJ of manipulating case-assignment procedures to secure her as the presiding judge",
+        "source_url": "https://www.cnn.com/2026/05/08/politics/inside-justice-department-shakeup-john-brennan-investigation",
+        "maps_to_element": "Additional allegation of prosecutorial-process manipulation beyond the original prosecutor-removal/DiGenova-installation pattern"
       }
     ],
-    "status": "Ongoing -- no indictment filed as of this entry; Brennan's records-preservation lawsuit is pending; case is a continuation, under new DOJ leadership (Blanche/DiGenova), of an investigation pattern that began under Bondi",
+    "status": "Ongoing -- no indictment filed as of this entry; Brennan's records-preservation lawsuit is pending; case is a continuation, under new DOJ leadership (Blanche/DiGenova), of an investigation pattern that began under Bondi As of March 2026, the investigation had expanded to 130+ subpoenas and added McCabe as a named target, with Brennan separately alleging DOJ manipulated case assignment to secure Judge Cannon.",
     "rebuttal_anticipated": "Likely defense: reassigning a case from one career prosecutor to a politically-connected appointee is a personnel decision within the Attorney General's normal authority, not itself evidence of vindictiveness; a 2016 intelligence assessment with acknowledged, still-debated methodological criticism is a legitimate subject for investigation independent of who currently criticizes the president.",
     "comeback": "The timing -- a prosecutor removed specifically after raising concerns, replaced by a Trump campaign-connected appointee, investigating a prominent and outspoken Trump critic over a matter of long-standing personal presidential grievance -- mirrors the exact pattern (presidential pressure, non-independent prosecutorial substitution, thin evidentiary basis) already documented in the James case under Bondi. Brennan is proactively litigating for records preservation before any charges exist specifically because that pattern is already established and on the public record.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Same structural cause as the Bondi-James entry: DOJ's traditional independence from White House direction in prosecutorial targeting of named political adversaries has continued to erode under the current Acting Attorney General, not just the prior one -- suggesting an institutional pattern rather than one official's individual conduct.",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-06",
     "date_added": "2026-07-27",
-    "confidence_note": "MODERATE-HIGH confidence on the documented facts (dual grand jury investigations, prosecutor removal, DiGenova's installation, and Brennan's lawsuit) -- corroborated across multiple independent outlets and Brennan's own court filing. LOW-MODERATE confidence on the vindictive-prosecution characterization itself, since it is Brennan's own legal argument, no charges have been filed, and no court has yet ruled on the merits -- marked `contested: true` accordingly. Re-verified 2026-07-28: Reuters confirms the FBI actively questioning CIA officers as part of this investigation, corroborating that the case remains actively staffed and pursued, not merely dormant since Brennan's records-preservation lawsuit.",
+    "confidence_note": "MODERATE-HIGH confidence on the documented facts (dual grand jury investigations, prosecutor removal, DiGenova's installation, and Brennan's lawsuit) -- corroborated across multiple independent outlets and Brennan's own court filing. LOW-MODERATE confidence on the vindictive-prosecution characterization itself, since it is Brennan's own legal argument, no charges have been filed, and no court has yet ruled on the merits -- marked `contested: true` accordingly. Re-verified 2026-07-28: Reuters confirms the FBI actively questioning CIA officers as part of this investigation, corroborating that the case remains actively staffed and pursued, not merely dormant since Brennan's records-preservation lawsuit. Re-verified 2026-08-06: the 130+ subpoena count, McCabe's inclusion, and the Judge Cannon case-assignment allegation are corroborated across CBS News, Sunday Guardian, Washington Examiner, and CNN's investigative reporting on the case's internal shakeup.",
     "section_summaries": {
       "incident_summary": "DOJ investigations into Brennan continued under new leadership after Bondi's exit -- a concerned career prosecutor was replaced by Trump-connected DiGenova, prompting Brennan to sue for records preservation ahead of expected charges.",
       "confidence_note": "Underlying facts are well-corroborated across outlets and Brennan's own filing; the vindictive-prosecution claim itself is Brennan's contested legal argument, not yet tested in court."
@@ -3872,6 +3884,55 @@
     }
   },
   {
+    "official": "Kash Patel, FBI Director / Pam Bondi, then-Attorney General",
+    "offense_category": "First and Fifth Amendment Violations Alleged in Retaliatory Firings of Career Agents, Plus a Separate Allegation of Illegal Grand Jury Secrecy Violations -- a civil lawsuit's allegations, not an adjudicated finding or criminal charge against Patel or Bondi",
+    "incident_summary": "Former FBI agents Jamie Garman, Blaire Toleman, and Michelle Ball -- who the lawsuit describes as having amassed 'exemplary' service records -- sued FBI Director Kash Patel, then-Attorney General Pam Bondi, and DOJ, alleging they were illegally purged from the bureau for having worked on 'Arctic Frost,' the FBI's investigation (opened in early 2022, later overseen by special counsel Jack Smith) into the alleged criminal conspiracy to overturn Trump's 2020 election loss, which led to Trump's August 2023 indictment on four charges. The suit alleges Patel and Bondi violated the agents' First and Fifth Amendment rights by firing them based on perceived political disloyalty tied to their Arctic Frost work, without evidence of individual misconduct or due process. The named plaintiffs represent a proposed class of at least 50 former FBI employees similarly terminated. A second, separate lawsuit was filed the same month by additional former FBI agents terminated over their Arctic Frost work. The lawsuit additionally alleges that the FBI unlawfully released Arctic Frost materials that were protected from disclosure under grand jury secrecy rules -- disclosing grand jury material without court permission is itself a distinct federal crime -- raising a second, separate legal violation beyond the firings themselves.",
+    "contested": true,
+    "elements_required": [
+      "The named plaintiffs and the broader proposed class were FBI agents who worked on the Arctic Frost investigation into Trump's 2020 election conduct",
+      "Their termination is alleged to have been based on perceived political disloyalty connected to that work, rather than individual performance or misconduct findings",
+      "The firings are alleged to have occurred without the due process protections (Fifth Amendment) and free-association/political-belief protections (First Amendment) civil-service employees are normally entitled to",
+      "Separately, FBI materials from the Arctic Frost investigation protected by grand jury secrecy rules were allegedly released without court authorization, a distinct potential federal crime independent of the firings themselves"
+    ],
+    "evidence": [
+      {
+        "type": "court_filing",
+        "description": "The Hill's reporting on the lawsuit naming Patel, Bondi, and DOJ, filed by former FBI agents who worked on the Trump 2020 election investigation, alleging unlawful firing based on perceived political disloyalty",
+        "source_url": "https://thehill.com/homenews/administration/5809220-lawsuit-fbi-agents-fired-trump/",
+        "maps_to_element": "Core allegation of politically-motivated firing without due process"
+      },
+      {
+        "type": "court_filing",
+        "description": "NBC News's reporting identifying the named plaintiffs (Garman, Toleman, Ball), their 'exemplary' service records, and the proposed class of at least 50 former employees",
+        "source_url": "https://www.nbcnews.com/politics/justice-department/ex-fbi-agents-assigned-trump-cases-sue-kash-patel-unlawful-firings-rcna264462",
+        "maps_to_element": "Named plaintiffs and proposed class scope"
+      },
+      {
+        "type": "court_filing",
+        "description": "CBS News's reporting confirming the First and Fifth Amendment claims against Patel and Bondi personally, and identifying Arctic Frost as the specific investigation (overseen by special counsel Jack Smith, leading to Trump's August 2023 indictment) the plaintiffs were terminated for having worked on",
+        "source_url": "https://www.cbsnews.com/news/former-fbi-agents-trump-2020-election-probe-sue-patel-bondi-over-firing/",
+        "maps_to_element": "Specific constitutional claims and the investigation's own history"
+      },
+      {
+        "type": "public_record",
+        "description": "Reporting on the lawsuit's separate allegation that the FBI unlawfully released Arctic Frost materials protected by grand jury secrecy rules, and on a second, similarly-themed lawsuit filed the same month by additional terminated agents",
+        "source_url": "https://www.aol.com/news/purged-fbi-agents-strike-back-185525393.html",
+        "maps_to_element": "Separate grand jury secrecy violation allegation, distinct from the firings"
+      }
+    ],
+    "status": "Ongoing as of this entry's addition -- civil litigation filed, no ruling on the merits identified in sourcing reviewed. This lawsuit is a direct legal-accountability consequence of the staffing purges documented separately in this tracker's Government Services database (patel-fbi-field-office-purge-2025-2026.json).",
+    "rebuttal_anticipated": "Likely defense: personnel decisions regarding FBI agents, including for performance, judgment, or conduct concerns, fall within the Director's normal management authority, the plaintiffs' characterization of their own terminations as purely retaliatory is a one-sided allegation not yet tested against DOJ's actual stated reasons in court, and any grand jury material release, if it occurred, could reflect an isolated administrative error rather than an authorized, deliberate agency decision.",
+    "comeback": "The specific concern distinguishing this from an ordinary personnel dispute is the scale (a proposed class of 50+ former employees, not an isolated firing) and the specificity of the alleged common thread (work on the single investigation that led directly to Trump's own indictment), consistent with the broader, independently documented pattern of Patel's FBI purges already tracked elsewhere in this database -- and the grand jury secrecy allegation, if substantiated, would represent a separate, freestanding legal violation regardless of how the underlying firings are ultimately resolved.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Direct legal-accountability follow-on to the staffing purges documented in this tracker's Government Services database (patel-fbi-field-office-purge-2025-2026.json), which already establishes the broader pattern of Patel removing personnel connected to Trump-related investigations.",
+    "last_updated": "2026-08-06",
+    "date_added": "2026-08-06",
+    "confidence_note": "HIGH confidence on the lawsuit's filing, named plaintiffs, core constitutional claims, and its connection to Arctic Frost -- independently corroborated across The Hill, NBC News, and CBS News, all reporting on the complaint's own contents. MODERATE confidence on the grand jury secrecy violation allegation specifically, since it is the plaintiffs' own claim in the complaint, not yet an independently confirmed or adjudicated fact.",
+    "section_summaries": {
+      "incident_summary": "Former FBI agents Garman, Toleman, and Ball sued Patel and Bondi, alleging they and a proposed class of 50+ others were illegally fired -- violating their First and Fifth Amendment rights -- for having worked on Arctic Frost, the investigation that led to Trump's 2023 indictment, and separately alleging the FBI unlawfully disclosed grand-jury-protected Arctic Frost materials.",
+      "confidence_note": "The lawsuit's filing and core claims are well-corroborated across multiple outlets reporting on the complaint itself; the underlying allegations have not been tested in court or independently adjudicated."
+    }
+  },
+  {
     "official": "Kash Patel, FBI Director",
     "offense_category": "Directing a Cross-Case Campaign to Manufacture Criminal Prosecutions Against Perceived Political Opponents, With Career Prosecutors Removed for Refusing to Proceed -- no criminal charge against Patel personally; this entry documents the pattern-level accountability claim underlying this tracker's separate, official-specific vindictive-prosecution entries for the Comey, Brennan, and James cases",
     "contested": true,
@@ -4782,6 +4843,55 @@
     "section_summaries": {
       "incident_summary": "RFK Jr. installed MIT operations-management professor Retsef Levi -- a vocal COVID-19 vaccine critic with no epidemiology or clinical background -- to lead a federal COVID vaccine safety review task force; a Guardian investigation found over a dozen scientists concluded Levi's own underlying research failed to meet basic scientific standards.",
       "confidence_note": "Levi's credentials, public record, and appointment are well-corroborated across The Guardian and The Boston Globe; the research-quality assessment rests on an aggregation of outside scientists' views rather than a single formal finding."
+    }
+  },
+  {
+    "official": "Robert F. Kennedy Jr., Secretary of Health and Human Services",
+    "offense_category": "Personal Financial Conflict of Interest in Pursuing Policy That Could Weaken Vaccine Manufacturers' Legal Liability Shield -- no criminal charge; an accountability claim regarding undisclosed/documented conflicts shaping federal health policy",
+    "incident_summary": "Kennedy is pursuing changes to the Vaccine Injury Compensation Program (VICP) -- a federal system Congress created in the 1980s, after lawsuits drove vaccine manufacturers out of the U.S. market, to provide no-fault compensation for rare, serious vaccine side effects and, in exchange, shield manufacturers from direct liability litigation. STAT News reported that Kennedy's own slashing of the federally recommended childhood vaccine schedule (documented separately in this tracker, cdc-childhood-vaccine-universal-recommendation-rollback-2026.json) has independently created new legal uncertainty about which vaccines still qualify for the VICP's liability protections, since the program's coverage is tied to the official recommendation schedule. ProPublica reported that Kennedy's allies are hopeful that reducing the recommended-vaccine list will help achieve his longtime goal of stripping manufacturers of the liability shield entirely -- a goal Kennedy pursued for years before joining the administration, as an attorney who represented plaintiffs in vaccine-injury lawsuits and, per this tracker's separately-documented measles entry, personally collected referral fees from such litigation. Sen. Elizabeth Warren and other lawmakers sent Kennedy a formal letter raising conflict-of-interest concerns about his role overseeing VICP policy given this financial history. ProPublica warned that if the liability shield collapses, manufacturers could exit the U.S. market as they did in the 1980s -- a risk with heightened stakes given the CDC's own 2026 warnings about polio circulating in 28 additional countries and a diphtheria outbreak in Western Europe, its worst rise in cases in 70 years.",
+    "contested": true,
+    "elements_required": [
+      "Kennedy has a documented personal financial history of representing plaintiffs in and collecting referral fees from vaccine-injury litigation, prior to becoming HHS Secretary",
+      "As Secretary, Kennedy is now positioned to influence policy (VICP structure and the vaccine-recommendation schedule that determines VICP coverage) that could directly affect the volume and viability of exactly that kind of litigation",
+      "Kennedy's own separately-documented schedule changes have independently created new legal uncertainty about manufacturers' liability protection, according to STAT News's reporting",
+      "A formal congressional letter from Sen. Warren and colleagues raised the conflict-of-interest concern directly to Kennedy, rather than this being solely outside commentary"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "ProPublica's reporting that Kennedy is pursuing changes to the VICP and that his allies hope reducing the recommended-vaccine list helps achieve his longtime goal of stripping manufacturers' liability shields, tracing this goal to his history as an attorney in vaccine-injury litigation",
+        "source_url": "https://www.propublica.org/article/rfk-childhood-vaccines-vicp",
+        "maps_to_element": "Kennedy's documented financial/litigation history and his current policy pursuit of the same goal"
+      },
+      {
+        "type": "reporting",
+        "description": "STAT News's reporting that Kennedy's own slashing of the federally recommended vaccine schedule has independently created new legal uncertainty about manufacturers' liability protections under VICP, since program coverage is tied to the recommendation schedule",
+        "source_url": "https://www.statnews.com/2026/01/08/vaccine-schedule-changes-raise-lawsuit-risks-manufacturers/",
+        "maps_to_element": "Kennedy's own policy changes independently affect the liability-shield question at issue"
+      },
+      {
+        "type": "public_record",
+        "description": "Sen. Elizabeth Warren and congressional colleagues' formal letter to Kennedy raising conflict-of-interest concerns regarding his oversight of VICP policy given his financial history in vaccine-injury litigation",
+        "source_url": "https://www.warren.senate.gov/wp-content/uploads/media/doc/warren_lawmakers_letter_to_rfk_jr_on_conflicts_revaccineinjurycompensationprogram.pdf",
+        "maps_to_element": "Formal congressional conflict-of-interest concern raised directly to Kennedy"
+      },
+      {
+        "type": "reporting",
+        "description": "ProPublica's warning that if the VICP framework and liability shield collapse, vaccine manufacturers could again exit the U.S. market as in the 1980s, amid CDC warnings of polio circulating in 28 additional countries and Western Europe's worst diphtheria case rise in 70 years",
+        "source_url": "https://www.propublica.org/article/rfk-jr-vaccine-agenda-childhood-plagues",
+        "maps_to_element": "Documented public health stakes of the policy Kennedy is pursuing"
+      }
+    ],
+    "status": "Ongoing as of this entry's addition -- VICP policy changes and the liability-shield question remained unresolved; no recusal, formal ethics finding, or response to Sen. Warren's letter identified in sourcing reviewed",
+    "rebuttal_anticipated": "Likely defense: Kennedy's views on vaccine liability predate and are independent of any personal financial motive at this point in his career (he is no longer collecting referral fees while serving as Secretary), a person's prior professional experience representing a cause does not disqualify them from later making policy on that same subject as a matter of law or ethics, and reforming the VICP could be framed as consumer-protection-motivated rather than industry-harming.",
+    "comeback": "The specific concern is not that Kennedy holds a prior professional history in this area, but that Sen. Warren's letter documents a formal, on-the-record conflict-of-interest concern raised directly to him, that his own separately-documented vaccine-schedule changes are independently creating the exact legal uncertainty that could unravel the liability shield he has long sought to remove, and that the public-health stakes -- per CDC's and ProPublica's own reporting on resurging preventable diseases -- are unusually high for a policy area where the Secretary's personal financial history so directly overlaps with the policy outcome being pursued.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of Kennedy pursuing vaccine-policy changes aligned with his pre-appointment advocacy and financial history (see also rfk-jr-retsef-levi-vaccine-safety-task-force-2026.json and rfk-jr-david-geier-hhs-hiring-2026.json) rather than changes driven by new clinical or scientific evidence.",
+    "last_updated": "2026-08-06",
+    "date_added": "2026-08-06",
+    "confidence_note": "HIGH confidence on Kennedy's pre-appointment financial history in vaccine-injury litigation and Sen. Warren's formal conflict-of-interest letter, both independently documented. MODERATE-HIGH confidence on the specific claim that reducing the recommended-vaccine schedule is intentionally designed to enable stripping the liability shield, since that characterization comes from ProPublica's reporting on what Kennedy's 'allies are hopeful' will result, not from an on-record admission by Kennedy himself of that specific intent -- present as reported allies' hoped-for outcome, not confirmed personal motive.",
+    "section_summaries": {
+      "incident_summary": "Kennedy is pursuing VICP changes that could strip vaccine manufacturers' liability shield -- a goal traced to his pre-appointment career representing vaccine-injury plaintiffs and collecting referral fees -- while his own vaccine-schedule cuts independently create new liability-coverage uncertainty; Sen. Warren formally raised conflict-of-interest concerns directly to him.",
+      "confidence_note": "Kennedy's financial history and Warren's letter are well-documented; the claim that the schedule cuts are intentionally designed to enable the liability-shield goal rests on ProPublica's reporting of allies' hopes, not Kennedy's own on-record admission."
     }
   },
   {
