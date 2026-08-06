@@ -1178,6 +1178,40 @@
     "last_updated": "2026-08-02"
   },
   {
+    "id": "cia-world-factbook-shuttered-2026",
+    "title": "Trump Administration Shut Down the CIA World Factbook, a Widely-Used Public Reference on Countries and Global Affairs",
+    "institution": "Central Intelligence Agency",
+    "domain": "data_collection_halted",
+    "status": "Finalized -- the resource was shut down",
+    "date_of_action": "2026-04 (closure reported)",
+    "what_changed": "CBS News reported the Trump administration shut down the CIA World Factbook, a long-running, publicly available reference maintained by the CIA that provided basic, regularly updated information on every country's government, economy, geography, demographics, and military -- widely used by students, researchers, journalists, and policymakers as a trusted, free, English-language reference on global affairs.",
+    "primary_proponent": {
+      "name": "Central Intelligence Agency / Trump administration",
+      "role": "Agency maintaining and discontinuing the resource",
+      "note": "Sourcing reviewed did not identify a single named official personally directing the Factbook's closure or a specific stated rationale from the administration; documented as an institutional agency action."
+    },
+    "estimated_impact": {
+      "summary": "One of the federal government's most widely used and trusted free public reference resources on global affairs was discontinued, removing a shared, nonpartisan factual baseline that students, researchers, and policymakers relied on -- a loss CBS's reporting connects to a broader concern about mis/disinformation more easily filling gaps left by disappearing trusted public data sources.",
+      "figures": [],
+      "caveat": "Sourcing reviewed did not include a specific usage-volume figure (e.g., annual page views) quantifying the Factbook's reach, nor a stated administration rationale for the closure beyond the fact of the shutdown itself."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- the closure itself is documented directly in CBS News's dedicated reporting; sourcing reviewed did not include independent corroboration from additional outlets or a specific stated administration rationale for the decision as of this entry's addition.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "CBS News -- 'CIA World Factbook shuttered Trump administration'",
+        "url": "https://www.cbsnews.com/news/cia-world-factbook-shuttered-trump-administration/"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "The Trump administration shut down the CIA World Factbook, a widely used free public reference on countries and global affairs maintained by the CIA for decades.",
+      "estimated_impact": "A trusted, shared factual baseline used by students, researchers, and policymakers was removed, raising concern about disinformation filling the gap.",
+      "confidence_note": "Sourced to CBS News's dedicated reporting; independent corroboration and a stated administration rationale weren't identified beyond that reporting."
+    }
+  },
+  {
     "id": "cisa-cyber-workforce-cuts-trump2",
     "title": "CISA Lost Roughly One-Third of Its Workforce, Including Election Security and Threat-Sharing Capacity",
     "institution": "Cybersecurity and Infrastructure Security Agency (CISA), Department of Homeland Security",
@@ -2235,6 +2269,51 @@
       "what_changed": "After a court struck down the SAVE student-loan repayment plan, the Education Department ended forbearance for 7.5 million borrowers, giving them a 90-day window starting July 1, 2026 to switch to a replacement plan (the Repayment Assistance Plan) that results in higher payments for most.",
       "estimated_impact": "7.5 million borrowers face renewed financial strain and, for most, higher monthly payments after nearly two years of low-cost forbearance.",
       "confidence_note": "Well-corroborated via the Department's own release, CBS News, and a Senate letter; the SAVE plan's end stems from a court ruling, while the replacement plan's design and timeline are the Department's own implementation choices."
+    }
+  },
+  {
+    "id": "education-dept-transgender-civil-rights-agreements-canceled-2026",
+    "title": "Education Department Canceled Transgender-Student Civil Rights Agreements With Five School Districts and One College",
+    "institution": "Department of Education, Office for Civil Rights",
+    "domain": "protection_rollback",
+    "status": "Finalized -- agreements canceled",
+    "date_of_action": "2026-04 (cancellations reported)",
+    "what_changed": "AP News reported the Education Department canceled civil rights agreements it had previously reached with five school districts and one college -- agreements that had required protections for transgender students, including staff training, respecting students' pronouns, and access to school facilities aligned with the student's gender identity. In at least one case, the Delaware Valley school district rolled back its own previously agreed-upon protections in response to the federal pressure, illustrating that the cancellations produced concrete local policy reversals, not merely the removal of a federal paperwork requirement.",
+    "primary_proponent": {
+      "name": "Department of Education, Office for Civil Rights",
+      "role": "Federal office that negotiated, then canceled, the underlying civil rights agreements",
+      "note": "These agreements originated as OCR civil-rights enforcement resolutions with the affected districts and college; canceling them reverses the department's own prior enforcement position rather than simply declining to pursue new cases."
+    },
+    "estimated_impact": {
+      "summary": "Transgender students at the six affected institutions lost federally-secured protections -- including staff training requirements, pronoun-respect commitments, and facilities access aligned with gender identity -- that the Education Department itself had previously required as civil-rights remedies; at least one district (Delaware Valley) has already rolled back its own protections as a direct result.",
+      "figures": [
+        {
+          "metric": "School districts with canceled agreements",
+          "value": "5",
+          "source": "AP News, April 2026"
+        },
+        {
+          "metric": "Colleges with a canceled agreement",
+          "value": "1",
+          "source": "AP News, April 2026"
+        }
+      ],
+      "caveat": "This entry documents the cancellation of federal civil-rights agreements and one district's documented policy rollback in response; broader downstream effects at the other five institutions were not individually itemized in sourcing reviewed."
+    },
+    "confidence_note": "HIGH confidence -- the cancellations, the specific protections the agreements had required, and the Delaware Valley district's rollback are all documented directly in AP News's dedicated reporting.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "AP News -- 'Trump education transgender student' civil rights agreement cancellations",
+        "url": "https://apnews.com/article/trump-education-transgender-student-d4f00994daa64a68f557de5f98ec7d94"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "The Education Department canceled civil rights agreements requiring transgender-student protections at 5 school districts and 1 college; Delaware Valley schools already rolled back their own protections in response.",
+      "estimated_impact": "Transgender students at the affected institutions lost federally-secured protections the department itself had previously required as civil-rights remedies.",
+      "confidence_note": "Well-documented via AP News's dedicated reporting, including the concrete local policy rollback at Delaware Valley."
     }
   },
   {
@@ -6312,7 +6391,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing (Hanson's firing remains final and unlitigated; the resulting vacancy was filled and the commission restored to its full five members by December 2025, with Ho Nieh designated the new NRC chairman on January 8, 2026, succeeding David Wright, who remains a commissioner; DOGE-directed reorganization and regulatory rewrite continuing on EO 14300's original schedule)",
     "date_of_action": "2025-05-23 (executive order) and 2025-06-13 (Hanson firing)",
-    "what_changed": "On June 13, 2025, President Trump fired NRC Commissioner Christopher T. Hanson, effective immediately, via a two-line email from the White House Presidential Personnel Office. It was the first removal of an NRC commissioner since the agency's creation in 1974; Hanson's term was not set to expire until 2029, and no cause was cited beyond a White House spokesperson's comment that 'all organizations are more effective when leaders are rowing in the same direction.' Hanson, originally appointed by Trump in his first term and later chaired the commission under Biden, said he was terminated 'without cause, contrary to existing law and longstanding precedent regarding removal of independent agency appointees.' The firing left the five-member commission at a 2-2 partisan split with one vacancy, and came three weeks after Trump signed Executive Order 14300, 'Ordering the Reform of the Nuclear Regulatory Commission' (May 23, 2025), which directs the NRC to reorganize and undertake reductions in force in consultation with its DOGE Team, shrink the Advisory Committee on Reactor Safeguards to the statutory minimum, and complete a 'wholesale revision' of its safety regulations and guidance documents within 18 months, with rulemaking routed through OMB Director Russell Vought's office -- a process not previously applied to this traditionally arms-length safety regulator. Career staff departures followed; NRC's No. 2 career operations official, a 32-year veteran and self-described two-time Trump voter, retired in May 2025 partly in protest of political operatives being embedded in senior leadership positions with what he called potential to 'significantly influence decision-making.' The DOGE-directed reorganization required by EO 14300 has proceeded on the order's own timeline: the NRC issued its notices of proposed rulemaking for the 'wholesale revision' of safety regulations by the February 2026 deadline, and in mid-2026 launched a major organizational restructuring -- consolidating around new-reactor, operating-reactor, and materials/waste business lines, and creating two new offices (Office of Advanced Reactors; Office of the Chief Nuclear Reactor Inspector) -- targeted for completion by September 2026, with final rules due under the EO's 18-month deadline (November 2026). No update on Hanson's own removal was found; it remains final and unlitigated as of this recheck. CORRECTION 2026-07-26: this entry's prior recheck (2026-07-20) still described the commission as sitting at a 2-2 partisan split with one vacancy from Hanson's June 2025 removal -- that vacancy was actually filled months earlier, when Doug Weaver was sworn in December 22, 2025, restoring the commission to its full five-member statutory complement. Separately, on January 8, 2026, Trump designated Commissioner Ho Nieh -- a Republican who previously ran NRC's Office of Nuclear Reactor Regulation from 2018-2021 -- as the NRC's 20th chairman, succeeding David Wright, who continues serving as a commissioner. The commission's current composition includes Republicans Nieh and Wright alongside Democratic commissioners Matthew Marzano and Bradley Crowell. Hanson's own removal remains final and unlitigated as of this update; the leadership-composition correction here is about the vacancy his firing created, not about the firing's legality.",
+    "what_changed": "On June 13, 2025, President Trump fired NRC Commissioner Christopher T. Hanson, effective immediately, via a two-line email from the White House Presidential Personnel Office. It was the first removal of an NRC commissioner since the agency's creation in 1974; Hanson's term was not set to expire until 2029, and no cause was cited beyond a White House spokesperson's comment that 'all organizations are more effective when leaders are rowing in the same direction.' Hanson, originally appointed by Trump in his first term and later chaired the commission under Biden, said he was terminated 'without cause, contrary to existing law and longstanding precedent regarding removal of independent agency appointees.' The firing left the five-member commission at a 2-2 partisan split with one vacancy, and came three weeks after Trump signed Executive Order 14300, 'Ordering the Reform of the Nuclear Regulatory Commission' (May 23, 2025), which directs the NRC to reorganize and undertake reductions in force in consultation with its DOGE Team, shrink the Advisory Committee on Reactor Safeguards to the statutory minimum, and complete a 'wholesale revision' of its safety regulations and guidance documents within 18 months, with rulemaking routed through OMB Director Russell Vought's office -- a process not previously applied to this traditionally arms-length safety regulator. Career staff departures followed; NRC's No. 2 career operations official, a 32-year veteran and self-described two-time Trump voter, retired in May 2025 partly in protest of political operatives being embedded in senior leadership positions with what he called potential to 'significantly influence decision-making.' The DOGE-directed reorganization required by EO 14300 has proceeded on the order's own timeline: the NRC issued its notices of proposed rulemaking for the 'wholesale revision' of safety regulations by the February 2026 deadline, and in mid-2026 launched a major organizational restructuring -- consolidating around new-reactor, operating-reactor, and materials/waste business lines, and creating two new offices (Office of Advanced Reactors; Office of the Chief Nuclear Reactor Inspector) -- targeted for completion by September 2026, with final rules due under the EO's 18-month deadline (November 2026). No update on Hanson's own removal was found; it remains final and unlitigated as of this recheck. CORRECTION 2026-07-26: this entry's prior recheck (2026-07-20) still described the commission as sitting at a 2-2 partisan split with one vacancy from Hanson's June 2025 removal -- that vacancy was actually filled months earlier, when Doug Weaver was sworn in December 22, 2025, restoring the commission to its full five-member statutory complement. Separately, on January 8, 2026, Trump designated Commissioner Ho Nieh -- a Republican who previously ran NRC's Office of Nuclear Reactor Regulation from 2018-2021 -- as the NRC's 20th chairman, succeeding David Wright, who continues serving as a commissioner. The commission's current composition includes Republicans Nieh and Wright alongside Democratic commissioners Matthew Marzano and Bradley Crowell. Hanson's own removal remains final and unlitigated as of this update; the leadership-composition correction here is about the vacancy his firing created, not about the firing's legality. Extending the deregulatory push, the NRC voted in April 2026 to phase out its own agency-led 'force-on-force' security drills at nuclear power plants -- mock attack exercises historically run and evaluated by NRC inspectors to test each plant's defenses -- shifting to a model where plant operators run their own exercises and NRC staff only observe. Reuters reported the change came as Trump pressured the NRC to speed reactor approvals for a major nuclear-capacity expansion tied to AI, data-center, electrification, and crypto-mining electricity demand.",
     "primary_proponent": {
       "name": "Donald Trump",
       "role": "President",
@@ -6344,13 +6423,13 @@
       ],
       "caveat": "The administration's stated rationale, laid out in EO 14300 itself, is that NRC over-regulation has stifled the industry -- only two new reactors have come online since 1978 -- and that reorganization is needed to meet a stated goal of quadrupling U.S. nuclear capacity to 400 GW by 2050 to meet AI-driven electricity demand; the order also directs staffing increases in new-reactor licensing offices even as it mandates cuts elsewhere. Nuclear safety and watchdog groups (Union of Concerned Scientists, American Nuclear Society, Nuclear Innovation Alliance) and congressional Democrats have raised the independence and safety-oversight concerns described above; some pro-nuclear industry voices have also flagged the licensing deadlines and workforce cuts as potentially undermining the very buildout the order seeks to accelerate. No senior administration or NRC official has published a defense of the Hanson firing beyond the 'rowing in the same direction' comment; NRC's own public statement was limited to noting the agency can function with fewer than five commissioners."
     },
-    "confidence_note": "High confidence on the firing itself and the EO 14300 text (Federal Register, White House, NPR, NOTUS, multiple law-firm summaries) and on Hanson's own on-record statement. The staffing-shortfall figure and career-departure detail (Techdirt/ProPublica) are well-sourced but describe broader trends rather than counts specific to the Hanson firing alone; framed accordingly in the summary above. Re-verified 2026-07-20: the reorganization and regulatory rewrite are proceeding essentially on the EO's original schedule, not stalled -- this is a case where the executive order's stated timeline has held up in practice so far, worth noting since that isn't true of every entry in this tracker. CORRECTION 2026-07-26: this entry's leadership-composition claim was stale by roughly seven months and has been corrected directly, per this tracker's real-correction standard. The restored full commission and Nieh's chairmanship are corroborated by the American Nuclear Society's Nuclear Newswire, Morgan Lewis's Up & Atom blog, and Washington Examiner reporting.",
+    "confidence_note": "High confidence on the firing itself and the EO 14300 text (Federal Register, White House, NPR, NOTUS, multiple law-firm summaries) and on Hanson's own on-record statement. The staffing-shortfall figure and career-departure detail (Techdirt/ProPublica) are well-sourced but describe broader trends rather than counts specific to the Hanson firing alone; framed accordingly in the summary above. Re-verified 2026-07-20: the reorganization and regulatory rewrite are proceeding essentially on the EO's original schedule, not stalled -- this is a case where the executive order's stated timeline has held up in practice so far, worth noting since that isn't true of every entry in this tracker. CORRECTION 2026-07-26: this entry's leadership-composition claim was stale by roughly seven months and has been corrected directly, per this tracker's real-correction standard. The restored full commission and Nieh's chairmanship are corroborated by the American Nuclear Society's Nuclear Newswire, Morgan Lewis's Up & Atom blog, and Washington Examiner reporting. Re-verified 2026-08-06: Reuters independently corroborates the NRC's shift from agency-run to operator-run 'force-on-force' security drills, extending the deregulatory pattern this entry documents from safety-rule rewriting to security-testing oversight specifically.",
     "section_summaries": {
       "what_changed": "Trump fired an NRC commissioner without cause -- a first in the agency's history -- alongside an order forcing a reorganization and safety-rule rewrite routed through a White House budget office.",
       "estimated_impact": "This breaks decades of practice requiring cause to remove a commissioner at the nuclear safety regulator, paired with a mandated staff cut and outside control over its safety-rule rewrite.",
       "confidence_note": "Well-sourced via the Federal Register, multiple outlets, and Hanson's own public statement; unusually, the reorganization has stuck to its original schedule rather than stalling."
     },
-    "last_verified": "2026-07-26",
+    "last_verified": "2026-08-06",
     "date_added": "2026-07-16",
     "sources": [
       {
@@ -6384,9 +6463,13 @@
       {
         "name": "World Nuclear News — US Nuclear Regulatory Commission launches reorganisation",
         "url": "https://www.world-nuclear-news.org/articles/us-nuclear-regulatory-commission-launches-reorganisation"
+      },
+      {
+        "name": "Reuters -- 'US nuclear power regulator phases out agency-led commando drills at plants'",
+        "url": "https://www.reuters.com/business/energy/us-nuclear-power-regulator-phases-out-agency-led-commando-drills-plants-2026-04-06/"
       }
     ],
-    "last_updated": "2026-07-26"
+    "last_updated": "2026-08-06"
   },
   {
     "id": "nsf-grant-terminations-peer-review-trump2",
@@ -9182,6 +9265,46 @@
       }
     ],
     "last_updated": "2026-07-27"
+  },
+  {
+    "id": "usda-tribal-farm-grants-terminated-2026",
+    "title": "USDA Terminated Nearly $300M in Farm and Land-Access Grants, Abruptly Ending Already-Underway Tribal Projects on Blackfeet and Chippewa Cree Land",
+    "institution": "Department of Agriculture",
+    "domain": "funding_redirection",
+    "status": "Finalized -- grants terminated, projects already underway abruptly halted",
+    "date_of_action": "2026-04 (terminations reported)",
+    "what_changed": "USDA terminated nearly $300 million in farm and land-access grants as part of the administration's stated anti-DEI purge, AP News reported. The terminations included millions of dollars specifically promised to tribal and Native-led projects in Montana intended to support farmers, ranchers, food production, and land acquisition -- including projects already underway on the Blackfeet and Chippewa Cree reservations, run in part through the Piikani Lodge organization. USDA framed the cuts as eliminating diversity-focused programming; the abrupt termination halted projects that had already begun implementation on tribal land, rather than simply declining to fund new applications going forward.",
+    "primary_proponent": {
+      "name": "Department of Agriculture",
+      "role": "Federal agency terminating the grants",
+      "note": "USDA's own stated rationale was eliminating programming characterized as DEI-focused; sourcing reviewed did not identify a single named USDA official personally directing the specific tribal-project terminations beyond the department's broader stated policy."
+    },
+    "estimated_impact": {
+      "summary": "Nearly $300 million in farm and land-access funding was terminated nationwide, with a documented specific impact on tribal and Native-led food-security, ranching, and land-acquisition projects in Montana that were already underway and had to be abruptly halted mid-implementation rather than simply not renewed.",
+      "figures": [
+        {
+          "metric": "Total farm and land-access grants terminated",
+          "value": "~$300 million",
+          "source": "AP News, April 2026"
+        }
+      ],
+      "caveat": "AP's reporting documents the total terminated figure and the specific Montana tribal-project examples; sourcing reviewed did not include a breakdown of how much of the $300 million specifically went to tribal/Native-led projects versus the broader terminated grant pool."
+    },
+    "confidence_note": "HIGH confidence -- the $300 million termination figure, USDA's stated anti-DEI rationale, and the specific Blackfeet/Chippewa Cree/Piikani Lodge project examples are documented directly in AP News's dedicated reporting, which named the affected tribal organizations and projects specifically.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "AP News -- 'USDA farm grants terminated Piikani Lodge'",
+        "url": "https://apnews.com/article/usda-farm-grants-terminated-piikani-lodge-e3e99c00bb4382d881ab8d389f57ceb8"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "USDA terminated ~$300M in farm and land-access grants as part of its anti-DEI purge, abruptly halting already-underway tribal food-security and land-acquisition projects on the Blackfeet and Chippewa Cree reservations.",
+      "estimated_impact": "Native communities had in-progress food-security and land-access projects abruptly cut off, not merely denied future funding.",
+      "confidence_note": "Well-documented via AP News's dedicated reporting naming the specific affected tribal organizations and projects."
+    }
   },
   {
     "id": "usip-doge-takeover-trump2",
