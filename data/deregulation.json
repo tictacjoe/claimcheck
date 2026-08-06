@@ -899,6 +899,54 @@
     }
   },
   {
+    "id": "epa-ethylene-oxide-sterilizer-emissions-rollback-2026",
+    "rule_name": "Ethylene Oxide Emissions Standards for Sterilization Facilities (NESHAP Residual Risk and Technology Review)",
+    "administration": "Trump II (2025-present)",
+    "agency": "EPA",
+    "domain": "environmental",
+    "status": "Proposed Repeal",
+    "date_of_action": "2026-03-17 (proposed) -- comment period subsequently extended to 2026-05",
+    "original_rule_summary": "A 2024 EPA rule tightened emissions standards for ethylene oxide (EtO) -- a chemical used to sterilize medical equipment and classified as a potent human carcinogen -- at commercial sterilization facilities nationwide. EPA projected the rule would cut annual EtO emissions from these facilities by roughly 90% by 2027, and it required larger sterilizers (those using at least 10 tons of EtO per year) to install stronger emissions-control technology and implement continuous monitoring.",
+    "what_changed": "On March 17, 2026, EPA proposed rescinding significant portions of the 2024 EtO rule. The proposal argues EPA overstepped its legal authority under Clean Air Act Section 112(f)(2) when it performed a new residual-risk review as part of the 2024 rulemaking, and on that basis would rescind the tighter risk-based emissions standards the 2024 rule imposed. The proposal would additionally relax technology-based emissions standards specifically for facilities using at least 10 tons of EtO per year and rescind the requirement that larger chemical sterilizers implement continuous emissions monitoring. AP reported the change would affect dozens of sterilization facilities across the country. EPA extended the public comment period on the proposal into May 2026.",
+    "primary_proponent": {
+      "name": "U.S. Environmental Protection Agency",
+      "role": "Proposing agency",
+      "note": "Sourcing reviewed did not identify a specific named EPA official (e.g., Administrator) quoted as personally driving this specific rulemaking beyond the agency's own legal-authority rationale in the proposed rule; attributed institutionally pending more specific sourcing."
+    },
+    "corporate_beneficiaries": [
+      "Commercial sterilization facility operators subject to the 2024 rule's technology and monitoring requirements (not further individually named in sourcing reviewed)"
+    ],
+    "estimated_health_impact": {
+      "summary": "Ethylene oxide is a potent human carcinogen; scientists link long-term exposure to elevated risk of leukemia, breast cancer, and lymphoma. Rolling back the 2024 rule's ~90% projected emissions reduction would leave workers at and communities near the affected sterilization facilities exposed to higher EtO levels than the 2024 rule intended to achieve by 2027 -- AP reported many of these communities are already disproportionately low-income and minority neighborhoods near industrial sterilization sites.",
+      "figures": [
+        {
+          "metric": "Projected annual EtO emissions reduction from commercial sterilizers under the 2024 rule (now at risk)",
+          "value": "~90% by 2027",
+          "source": "EPA's own 2024 rule impact projection, cited by AP News"
+        }
+      ],
+      "caveat": "The 90% figure is EPA's own projection for the 2024 rule taking full effect, not an independently modeled estimate of the rollback's specific incremental health cost; no independent quantified estimate of premature mortalities or cancer cases specifically attributable to this rollback proposal was identified in sourcing reviewed."
+    },
+    "confidence_note": "HIGH confidence on the regulatory facts -- the 2024 rule's terms, the March 17, 2026 proposed rollback, its stated legal-authority rationale, and the extended comment period are all corroborated across AP News, the Federal Register notice itself, the Harvard Environmental and Energy Law Program's rule tracker, and SBA Office of Advocacy summaries. MODERATE confidence on the health-impact framing, since the 90% figure is EPA's own original projection for the rule being rolled back, not an independent estimate of this specific proposal's incremental harm, and this entry does not have an independently-sourced named individual driving the rollback -- present the health impact and proponent framing accordingly.",
+    "short_summary": "EPA proposed rescinding a 2024 rule's ~90% emissions cut for a known carcinogen at sterilization plants.",
+    "last_verified": "2026-08-05",
+    "date_added": "2026-08-05",
+    "sources": [
+      {
+        "name": "AP News -- 'EPA proposes weakening rule on ethylene oxide emissions from medical device sterilizers'",
+        "url": "https://apnews.com/article/epa-medical-devices-ethylene-oxide-sterilize-cancer-a3b5f3a0206a43d3cff450a6ae3d1dc9"
+      },
+      {
+        "name": "Federal Register -- Ethylene Oxide Emissions Standards for Sterilization Facilities Residual Risk and Technology Review Reconsideration; Extension of Comment Period",
+        "url": "https://www.federalregister.gov/documents/2026/05/01/2026-08518/national-emission-standards-for-hazardous-air-pollutants-ethylene-oxide-emissions-standards-for"
+      },
+      {
+        "name": "Harvard Environmental & Energy Law Program -- Ethylene Oxide (EtO) Emissions Standards for Commercial Sterilizers tracker",
+        "url": "https://eelp.law.harvard.edu/tracker/ethylene-oxide-eto-emissions-standards-for-commercial-sterilizers/"
+      }
+    ]
+  },
+  {
     "id": "epa-methane-stripper-well-rollback-2026",
     "rule_name": "Methane emission rules for low-producing ('stripper') oil and gas wells",
     "administration": "Trump II (2025-present)",
