@@ -2701,6 +2701,49 @@
     }
   },
   {
+    "official": "Pete Hegseth, Secretary of Defense",
+    "offense_category": "Potential Establishment Clause Violation -- Government-Backed Religious Services at the Pentagon -- a pending lawsuit's claim, not an adjudicated constitutional violation",
+    "incident_summary": "On March 25, 2026, Defense Secretary Pete Hegseth led a monthly Christian worship service at the Pentagon, livestreamed to Defense Department personnel, at which he read a prayer he said was first offered by a military chaplain, asking God to 'let every round find its mark against the enemies of righteousness and our great nation,' and to give 'unbreakable unity, and overwhelming violence of action against those who deserve no mercy.' The service was part of a broader pattern of recurring, Pentagon-hosted Christian services Hegseth has led or promoted since taking office. Americans United for Separation of Church and State filed an Establishment Clause lawsuit over the recurring services, arguing that even if formally presented as voluntary, 'there is pressure on federal employees to attend in order to appease their bosses.' The suit also seeks to enforce a public-records request, made in December 2025, for internal Pentagon communications about the worship services -- including their cost, guests, and any employee complaints received -- which the Pentagon had not fully answered as of the suit's filing. A university historian quoted in coverage of the controversy noted the tension between a constitutional prohibition on government establishment of religion and a Cabinet secretary leading recurring, government-hosted worship services in a specific religious tradition rather than a broadly inclusive or pluralistic one.",
+    "contested": true,
+    "elements_required": [
+      "A Cabinet secretary personally led and promoted recurring, government-hosted Christian worship services at a federal workplace, using government livestreaming resources",
+      "The plaintiff organization alleges structural pressure on federal employees to attend, distinguishing the claim from a purely voluntary, off-duty religious gathering unconnected to the workplace hierarchy",
+      "The specific prayer content at the March 25, 2026 service explicitly invoked violence ('overwhelming violence of action') in a religious framing, delivered by the Secretary of Defense in an official Pentagon setting",
+      "The Pentagon had not fully complied with a December 2025 public-records request for internal communications about the services' cost, guests, and any employee complaints as of the lawsuit's filing"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Military.com's and other outlets' reporting quoting the specific prayer Hegseth read at the March 25, 2026 Pentagon Christian service, including the 'overwhelming violence of action against those who deserve no mercy' language",
+        "source_url": "https://www.military.com/daily-news/2026/03/26/pentagon-christian-service-hegseth-prays-violence-against-those-who-deserve-no-mercy.html",
+        "maps_to_element": "Specific prayer content and its official, government-hosted setting"
+      },
+      {
+        "type": "public_record",
+        "description": "Military Times's reporting on the same service, framing it within Hegseth's broader effort to make Christianity more visibly embedded in the military, amid growing legal challenges over government-backed religion",
+        "source_url": "https://www.militarytimes.com/news/pentagon-congress/2026/03/26/hegseth-prays-for-overwhelming-violence-during-pentagon-christian-service/",
+        "maps_to_element": "Broader pattern of recurring, Pentagon-hosted religious services beyond this single event"
+      },
+      {
+        "type": "court_filing",
+        "description": "Reporting on Americans United for Separation of Church and State's Establishment Clause lawsuit, including its argument that structural workplace pressure exists to attend despite the services' formally voluntary framing, and its effort to enforce a December 2025 public-records request the Pentagon had not fully answered",
+        "source_url": "https://thehill.com/policy/defense/5802042-defense-secretary-pentagon-prayer/",
+        "maps_to_element": "Formal legal challenge alleging structural attendance pressure and records non-compliance"
+      }
+    ],
+    "status": "Ongoing as of this entry's addition -- Establishment Clause lawsuit pending, court ruling on whether the services may continue not yet identified in sourcing reviewed",
+    "rebuttal_anticipated": "Likely defense: military chaplaincy and voluntary religious accommodation have a long-established constitutional tradition in the armed forces, attendance at the services is formally voluntary and open to all faiths, and a Secretary's personal religious expression at an optional gathering does not itself constitute government establishment of religion absent coercion.",
+    "comeback": "The specific concern the lawsuit raises is not the mere existence of voluntary chaplaincy services -- a settled practice -- but the Secretary's own personal, recurring leadership of a specific-denomination worship service using official Pentagon resources, the alleged structural pressure on subordinates to attend events their superior visibly leads, and the Pentagon's incomplete response to a public-records request seeking to establish the services' actual cost and attendance dynamics -- factual questions a court, not either side's characterization, would need to resolve.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] An individual official-conduct matter concerning the boundary between personal religious expression and government establishment of religion in a military workplace context, not directly connected to this tracker's broader institutional-capacity patterns.",
+    "last_updated": "2026-08-06",
+    "date_added": "2026-08-06",
+    "confidence_note": "HIGH confidence on the March 25, 2026 service's occurrence, the specific quoted prayer content, and the filing of the Establishment Clause lawsuit -- independently corroborated across Military.com, Military Times, The Hill, PBS NewsHour, and KTTC, with the prayer language directly quoted from the livestreamed service. MODERATE confidence on the ultimate legal merits of the Establishment Clause claim, since no court ruling on the services' constitutionality was identified in sourcing reviewed as of this entry's addition -- marked `contested: true` accordingly.",
+    "section_summaries": {
+      "incident_summary": "Hegseth led a Pentagon Christian service on March 25, 2026, reading a prayer asking for 'overwhelming violence of action against those who deserve no mercy'; Americans United for Separation of Church and State sued over the recurring services, alleging structural attendance pressure and incomplete Pentagon compliance with records requests about their cost and guests.",
+      "confidence_note": "The service, its prayer content, and the lawsuit's filing are well-corroborated across multiple outlets; the Establishment Clause claim's legal merits have not yet been ruled on by any court."
+    }
+  },
+  {
     "official": "Pete Hegseth, Secretary of Defense (later 'Secretary of War')",
     "offense_category": "Policy/Regulatory Violation — DoD Instruction 8170.01 (mishandling of nonpublic DoD information); closest criminal analogue: 18 U.S.C. §793(f), gross negligence in handling national defense information — NOT charged, included for reference only",
     "incident_summary": "On March 15, 2025, Hegseth shared sensitive operational details (aircraft quantities, strike timing) about an imminent strike on Houthi targets in Yemen via Signal on his personal phone, in a chat that inadvertently included a journalist. He also shared similar information in a separate personal Signal chat with his wife, brother, and personal attorney.",
