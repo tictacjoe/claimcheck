@@ -4781,16 +4781,16 @@
         "maps_to_element": "President Trump's own direct disapproval of the trip and jet use"
       },
       {
-        "type": "reporting",
-        "description": "CNN's dedicated reporting on Patel's FBI jet use explains the practical security/communications constraints on FBI-director travel generally, providing context for evaluating whether the trip's justification was adequate",
-        "source_url": "https://www.cnn.com/2026/02/24/politics/kash-patel-fbi-jet-use-explained",
-        "maps_to_element": "Context on FBI-director travel constraints and jet-use norms"
-      },
-      {
         "type": "public_record",
         "description": "Reuters' follow-up reporting confirms Patel personally defended the beer-drinking, locker-room celebration footage, maintaining he was in Italy on official business (the Italian law-enforcement security-liaison rationale) rather than disputing the video's contents",
         "source_url": "https://www.reuters.com/world/fbis-patel-defends-beer-soaked-olympic-celebration-while-italy-trip-2026-02-23/",
         "maps_to_element": "Patel's continued defense of the trip's official-business characterization"
+      },
+      {
+        "type": "reporting",
+        "description": "CNN's dedicated reporting on Patel's FBI jet use explains the practical security/communications constraints on FBI-director travel generally, providing context for evaluating whether the trip's justification was adequate",
+        "source_url": "https://www.cnn.com/2026/02/24/politics/kash-patel-fbi-jet-use-explained",
+        "maps_to_element": "Context on FBI-director travel constraints and jet-use norms"
       },
       {
         "type": "public_record",
@@ -4803,9 +4803,9 @@
     "rebuttal_anticipated": "Likely defense: FBI directors typically must travel via secure government aircraft regardless of destination for security and continuous-communications reasons, meeting with Italian law enforcement to help secure American athletes and fans at a major international event is a legitimate official function, and briefly celebrating with medal-winning American athletes is not itself improper.",
     "comeback": "The specific concern is less the jet use in isolation -- which CNN's own reporting notes has practical justifications for FBI directors generally -- than the sequencing and framing of Patel's own public response, which led with the personal/celebratory rationale ('my friends,' being 'humbled') before the official security-liaison justification was offered, and that the President himself, not merely outside critics, found the optics and jet use inappropriate. The whistleblower disclosures to Sen. Durbin's staff go beyond the Olympics trip's optics, alleging concrete operational harm -- a snowstorm overnight drive substituting for prompt evidence-response-team arrival at a mass shooting, and a pilot-rest-period delay affecting the response to a high-profile assassination -- which, if accurate, would represent tangible investigative cost from personal aircraft use rather than a purely image-based controversy.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] An individual official-conduct matter concerning resource use and public messaging judgment, not directly connected to this tracker's broader institutional patterns.",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-06",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence -- the video, Patel's own public statement, and Trump's direct expression of displeasure are all independently corroborated across CNN, NBC News, and The Hill, including direct quotations from Patel and sourced reporting on Trump's reaction. MODERATE-HIGH confidence on the whistleblower allegations specifically, since they are formally disclosed to a sitting Senator's staff (a higher-reliability channel than anonymous media sourcing) and independently reported by multiple outlets, though they remain whistleblower allegations pending any formal investigation finding, not yet independently adjudicated facts.",
+    "confidence_note": "HIGH confidence -- the video, Patel's own public statement, and Trump's direct expression of displeasure are all independently corroborated across CNN, NBC News, and The Hill, including direct quotations from Patel and sourced reporting on Trump's reaction. MODERATE-HIGH confidence on the whistleblower allegations specifically, since they are formally disclosed to a sitting Senator's staff (a higher-reliability channel than anonymous media sourcing) and independently reported by multiple outlets, though they remain whistleblower allegations pending any formal investigation finding, not yet independently adjudicated facts. Reordered 2026-08-06 (chronology cleanup, no new facts): a Feb. 24, 2026 CNN item had been placed before a Feb. 23, 2026 Reuters item; no facts were added, removed, or altered, only swapped to match actual publication dates.",
     "section_summaries": {
       "incident_summary": "FBI Director Patel used a government jet to attend the Winter Olympics hockey final in Milan and was recorded celebrating in the team's locker room; Trump personally told him he was displeased with both the video and the jet use, though no formal consequence was reported.",
       "confidence_note": "Well-corroborated across multiple outlets including Patel's own public statement and sourced reporting on Trump's direct reaction."
@@ -4825,27 +4825,9 @@
     "evidence": [
       {
         "type": "public_record",
-        "description": "The White House directed FBI Director Kash Patel to personally oversee the leak investigation into the Times's Air Force One security reporting; Patel canceled a Chicago trip and spent about eight hours at the White House running the investigation rather than at FBI headquarters",
-        "source_url": "https://www.inquirer.com/news/nation-world/trump-patel-fbi-subpoena-journalists-new-york-times-leaks-air-force-one-security-concerns-20260712.html",
-        "maps_to_element": "White House direction and Patel's personal, White-House-based oversight"
-      },
-      {
-        "type": "public_record",
-        "description": "DOJ issued subpoenas to multiple New York Times reporters on July 11, 2026, seeking their grand jury testimony over the Air Force One security reporting; federal agents delivered some subpoenas directly to journalists' homes",
-        "source_url": "https://www.npr.org/2026/07/13/nx-s1-5890969/doj-subpoenas-new-york-times-reporters-over-air-force-one-reporting",
-        "maps_to_element": "Investigation produced subpoenas targeting journalists over the specific reporting"
-      },
-      {
-        "type": "public_record",
         "description": "CNN reporting characterized the White-House-directed, White-House-based leak investigation as a major departure from decades of practice meant to insulate criminal investigations from political direction, per legal observers cited",
         "source_url": "https://www.cnn.com/2026/07/11/politics/new-york-times-trump-subpoenas-journalists",
         "maps_to_element": "Departure from normal investigative independence"
-      },
-      {
-        "type": "public_record",
-        "description": "Follow-up CNN reporting indicates the leak probe intensified further, with officials asked to turn over phones at the White House as Chief of Staff Susie Wiles and Patel jointly led the expanding investigation",
-        "source_url": "https://www.cnn.com/2026/07/15/politics/susie-wiles-kash-patel-leak",
-        "maps_to_element": "Continuation/escalation of the White-House-directed investigation"
       },
       {
         "type": "public_record",
@@ -4858,6 +4840,24 @@
         "description": "AP reporting confirms five New York Times reporters were subpoenaed, and specifies the subpoenas followed a lengthy White House meeting between Kash Patel and other senior Justice Department officials",
         "source_url": "https://apnews.com/article/trump-administration-media-new-york-times-a1100f027095e07ffb5fbd1708e70942",
         "maps_to_element": "White House direction and Patel's personal, White-House-based oversight"
+      },
+      {
+        "type": "public_record",
+        "description": "The White House directed FBI Director Kash Patel to personally oversee the leak investigation into the Times's Air Force One security reporting; Patel canceled a Chicago trip and spent about eight hours at the White House running the investigation rather than at FBI headquarters",
+        "source_url": "https://www.inquirer.com/news/nation-world/trump-patel-fbi-subpoena-journalists-new-york-times-leaks-air-force-one-security-concerns-20260712.html",
+        "maps_to_element": "White House direction and Patel's personal, White-House-based oversight"
+      },
+      {
+        "type": "public_record",
+        "description": "DOJ issued subpoenas to multiple New York Times reporters on July 11, 2026, seeking their grand jury testimony over the Air Force One security reporting; federal agents delivered some subpoenas directly to journalists' homes",
+        "source_url": "https://www.npr.org/2026/07/13/nx-s1-5890969/doj-subpoenas-new-york-times-reporters-over-air-force-one-reporting",
+        "maps_to_element": "Investigation produced subpoenas targeting journalists over the specific reporting"
+      },
+      {
+        "type": "public_record",
+        "description": "Follow-up CNN reporting indicates the leak probe intensified further, with officials asked to turn over phones at the White House as Chief of Staff Susie Wiles and Patel jointly led the expanding investigation",
+        "source_url": "https://www.cnn.com/2026/07/15/politics/susie-wiles-kash-patel-leak",
+        "maps_to_element": "Continuation/escalation of the White-House-directed investigation"
       },
       {
         "type": "public_record",
@@ -4882,9 +4882,9 @@
     "rebuttal_anticipated": "Likely defense: leaks of information touching on presidential security and travel logistics are a legitimate, serious concern regardless of the underlying story's political sensitivity, and the FBI Director personally engaging on a high-priority national-security-adjacent matter is not inherently improper.",
     "comeback": "The specific facts distinguishing this from a routine leak investigation are the White House's direct tasking of the FBI Director, the investigation being run from the White House building itself rather than FBI or DOJ facilities, and the speed and personal scale of the response (an eight-hour, director-led effort producing home-delivered subpoenas within days) -- all following a story that embarrassed rather than genuinely endangered the president, since the security concern being reported was itself the news, not a secret compromised by the reporting.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Part of the same broader pattern this tracker documents elsewhere (Blanche/DOJ's May 2026 WaPo/WSJ subpoenas, Hegseth's July 2026 Pentagon-DOJ leak task force) of leak investigations increasingly directed at identifying sources for stories embarrassing to the president, using DOJ/FBI subpoena power against journalists themselves.",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-06",
     "date_added": "2026-07-27",
-    "confidence_note": "HIGH confidence -- corroborated extensively across independent outlets (NPR, CNN, Philadelphia Inquirer, Irish Star, New York Times) including direct on-record detail (Patel's canceled Chicago trip, the eight-hour White House timeframe) that would be difficult to fabricate and has not been disputed by the White House or FBI. The July 23, 2026 subpoena withdrawal is independently reported by the New York Times, the subpoenas' target. Re-verified 2026-08-05: the July 23 withdrawal circumstances (Judge Subramanian's specific procedural objection, DOJ's on-record refusal to concede error) and the subsequent Senate Judiciary Democrats oversight letter are both independently corroborated (NPR, Senate Judiciary Committee official release) and add detail without changing the entry's core facts.",
+    "confidence_note": "HIGH confidence -- corroborated extensively across independent outlets (NPR, CNN, Philadelphia Inquirer, Irish Star, New York Times) including direct on-record detail (Patel's canceled Chicago trip, the eight-hour White House timeframe) that would be difficult to fabricate and has not been disputed by the White House or FBI. The July 23, 2026 subpoena withdrawal is independently reported by the New York Times, the subpoenas' target. Re-verified 2026-08-05: the July 23 withdrawal circumstances (Judge Subramanian's specific procedural objection, DOJ's on-record refusal to concede error) and the subsequent Senate Judiciary Democrats oversight letter are both independently corroborated (NPR, Senate Judiciary Committee official release) and add detail without changing the entry's core facts. Reordered 2026-08-06 (chronology cleanup, no new facts): three July 11, 2026 evidence items had been placed after July 12-15, 2026 items; no facts were added, removed, or altered, only reordered to match actual publication dates.",
     "section_summaries": {
       "incident_summary": "The White House directed FBI Director Patel to personally run a leak probe from the White House itself after NYT reporting embarrassed Trump over Air Force One security, producing home-delivered subpoenas to reporters within days; DOJ later withdrew the subpoenas under judicial pressure and now faces a Senate Judiciary Democrats oversight inquiry into whether the White House directed them.",
       "confidence_note": "Extensively corroborated across independent outlets with specific, undisputed on-record detail, including the judge's stated reasoning for the withdrawal and the Senate Judiciary Committee's own public release on its oversight letter."
@@ -4964,12 +4964,6 @@
         "maps_to_element": "Pattern of grand jury rejections of the same office's prosecution attempts"
       },
       {
-        "type": "public_record",
-        "description": "House Oversight Democrats' formal letter to DOJ and Pirro following the failed indictment documents lawmakers' response and demands for accountability",
-        "source_url": "https://oversightdemocrats.house.gov/imo/media/doc/20260219garciaraskintodojpirrorefailedmemberindictments.pdf",
-        "maps_to_element": "Congressional oversight response"
-      },
-      {
         "type": "reporting",
         "description": "Bloomberg Law's reporting confirms Pirro's office brought in outside hires with limited federal prosecutorial experience to work the case against the six lawmakers, including Steven Vandervelden, a former local prosecutor who runs a dance photography business, raising questions about the staffing and preparation behind the failed indictment attempt",
         "source_url": "https://news.bloomberglaw.com/us-law-week/pirro-enlists-dance-photographer-lawyer-in-lawmaker-video-case",
@@ -4980,15 +4974,21 @@
         "description": "The New York Times' later reporting (Feb. 18, 2026) confirmed Pirro personally and abruptly instructed her office to pursue the indictment after Trump demanded sedition charges, and that additional Democratic House members connected to the video separately reported receiving inquiries from Pirro's office; House Oversight Democrats Robert Garcia and Jamie Raskin formally called for DOJ's Office of Professional Responsibility to investigate Pirro's own conduct and that of all DOJ personnel involved",
         "source_url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-members-robert-garcia-jamie-raskin-call-for-investigation-into-us-attorney-jeanine-pirros-failed-prosecution-of-members-of-congress",
         "maps_to_element": "Trump's direct role in triggering the indictment attempt; formal accountability demand for Pirro's own conduct"
+      },
+      {
+        "type": "public_record",
+        "description": "House Oversight Democrats' formal letter to DOJ and Pirro following the failed indictment documents lawmakers' response and demands for accountability",
+        "source_url": "https://oversightdemocrats.house.gov/imo/media/doc/20260219garciaraskintodojpirrorefailedmemberindictments.pdf",
+        "maps_to_element": "Congressional oversight response"
       }
     ],
     "status": "Resolved -- the grand jury's February 10, 2026 refusal to indict ends this specific prosecution attempt; no appeal or renewed indictment effort identified in sourcing reviewed as of this entry's addition. Bloomberg Law reported Pirro's office staffed the case in part with outside hires with limited federal experience, including a former local prosecutor now running a dance photography business. House Oversight Democrats formally called for DOJ's Office of Professional Responsibility to investigate Pirro's own conduct in pursuing the failed indictment; no confirmed OPR outcome identified in sourcing reviewed.",
     "rebuttal_anticipated": "Likely defense: DOJ has discretion to present cases to a grand jury even where the outcome is uncertain, urging servicemembers to consider disobeying orders during an active military operation could reasonably be viewed as raising legitimate morale/discipline concerns, and a grand jury's refusal to indict does not itself establish prosecutorial misconduct.",
     "comeback": "The specific facts distinguishing this from an ordinary close call are that the video's core content -- reminding servicemembers of their existing legal duty to refuse illegal orders -- restates established military law rather than urging disobedience of lawful orders, that the President personally and publicly called for the lawmakers' arrest before any charges were sought, and that this was one of a documented series of grand jury rejections of the same U.S. Attorney's office's prosecution attempts, suggesting a pattern of pursuing cases based on political direction rather than independent prosecutorial assessment of the merits.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DOJ prosecutorial power being directed at the administration's perceived political opponents based on presidential direction rather than independent case assessment (see also the Patel-driven prosecution-campaign entry and Pirro's other entries in this tracker).",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-06",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence -- the grand jury's refusal to indict, the six lawmakers' identities, Trump's public 'seditious'/arrest comments, and the characterization of this as part of a series of grand jury rejections are all independently corroborated by CBS News, NBC News, and The Hill, with no facts disputed by any party.",
+    "confidence_note": "HIGH confidence -- the grand jury's refusal to indict, the six lawmakers' identities, Trump's public 'seditious'/arrest comments, and the characterization of this as part of a series of grand jury rejections are all independently corroborated by CBS News, NBC News, and The Hill, with no facts disputed by any party. Reordered 2026-08-06 (chronology cleanup, no new facts): the Feb. 19, 2026 House Oversight letter had been placed before the Feb. 11, 2026 Bloomberg Law and Feb. 18, 2026 NYT items; no facts were added, removed, or altered, only reordered to match actual publication dates.",
     "section_summaries": {
       "incident_summary": "After Trump publicly demanded the arrest of six Democratic lawmakers over a video reminding servicemembers of their duty to refuse illegal orders, U.S. Attorney Pirro's office sought to indict them, but a federal grand jury in Washington refused to return charges -- one of a documented series of grand jury rejections of the same office's prosecution attempts.",
       "confidence_note": "Independently corroborated across CBS News, NBC News, and The Hill; no facts disputed by any party."
