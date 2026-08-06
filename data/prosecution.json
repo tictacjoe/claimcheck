@@ -660,6 +660,55 @@
     }
   },
   {
+    "official": "Pam Bondi, Attorney General",
+    "offense_category": "Concentrating Sole Certification Authority Over an Accelerated Capital-Appeals Process in the Attorney General, on an Honor-System Basis -- a proposed rule, not yet finalized; a due-process/executive-power-concentration accountability claim, not a criminal charge",
+    "incident_summary": "DOJ proposed a rule making it easier for states to obtain certification for an accelerated federal review process for death penalty cases under a 1996 federal law (the Antiterrorism and Effective Death Penalty Act's Chapter 154 opt-in provisions). Attorney General Pam Bondi argued that regulations implemented during the Obama and Biden administrations had improperly prevented states from using the law's fast-track option, which -- once a state is certified -- cuts a death-sentenced prisoner's window to file a federal habeas petition from one year to 180 days and requires federal courts to prioritize capital habeas petitions over all non-capital cases. Under the proposal, the certification decision (whether a state's system for providing competent post-conviction defense counsel meets the law's requirements) rests solely with the Attorney General, based substantially on the certifying state's own representations about the quality of its post-conviction counsel system -- a process critics, including the Death Penalty Information Center, describe as effectively an honor system that does not independently verify defense-counsel quality or consider opposing views before certification. Bloomberg reported the change is part of the Trump administration's broader push to expand use of the federal death penalty. Critics quoted by Davis Vanguard and other outlets warned the accelerated timeline and reliance on state self-certification increase the risk of executing people without adequate review of wrongful-conviction claims.",
+    "contested": true,
+    "elements_required": [
+      "The proposed rule would roughly halve (from one year to 180 days) the time a death-sentenced prisoner has to file a federal habeas petition once their state is certified",
+      "Certification authority rests solely with the Attorney General, without a specified independent verification mechanism for a state's underlying claim that it provides competent post-conviction counsel",
+      "The certification process, as proposed, relies substantially on the certifying state's own self-reported representations rather than independent review, per the Death Penalty Information Center's analysis",
+      "The rule change is explicitly framed by DOJ's own head as part of a broader push to expand use of capital punishment, rather than a neutral procedural adjustment"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "DOJ's own Office of Public Affairs press release announcing the proposed rule, framing it as helping states 'more quickly achieve justice' in death penalty cases",
+        "source_url": "https://www.justice.gov/opa/pr/department-justice-proposes-rule-more-quickly-achieve-justice-state-death-penalty-cases",
+        "maps_to_element": "The proposed rule and its stated purpose, in DOJ's own words"
+      },
+      {
+        "type": "reporting",
+        "description": "Bloomberg's reporting detailing the 180-day filing deadline, the requirement that federal courts prioritize capital habeas petitions, and the rule's place in the administration's broader push to expand federal death penalty use",
+        "source_url": "https://www.bloomberg.com/news/articles/2026-03-16/doj-plans-to-lower-bar-for-states-to-fast-track-executions",
+        "maps_to_element": "The accelerated timeline and its place in a broader capital-punishment expansion push"
+      },
+      {
+        "type": "public_record",
+        "description": "The Death Penalty Information Center's analysis describing the proposed certification process as an 'opt-in' system that does not independently verify state representations about post-conviction counsel quality or consider opposing views before certifying a state",
+        "source_url": "https://deathpenaltyinfo.org/what-to-know-doj-seeks-to-fast-track-appeals-for-death-sentenced-prisoners-through-opt-in-certification-process-without-considering-opposing-views",
+        "maps_to_element": "Certification relies on state self-representation without independent verification or opposing-view consideration"
+      },
+      {
+        "type": "reporting",
+        "description": "Davis Vanguard's coverage of advocates warning the proposal could allow fast-tracked executions without independent review of a state's post-conviction defense system",
+        "source_url": "https://davisvanguard.org/2026/05/critics-slam-doj-death-penalty-changes/",
+        "maps_to_element": "Independent critics' assessment of wrongful-execution risk from reduced review"
+      }
+    ],
+    "status": "Proposed as of this entry's addition -- rulemaking process ongoing; no finalization identified in sourcing reviewed",
+    "rebuttal_anticipated": "Likely defense: the 1996 law's opt-in fast-track provision has existed for three decades and was simply underused due to overly restrictive prior-administration regulations, states retain their own independent obligation to provide competent post-conviction counsel regardless of federal certification, and expediting review for the small subset of cases meeting the statute's own competent-counsel requirement serves victims' and the justice system's interest in finality.",
+    "comeback": "The specific concern is not that Congress's 1996 opt-in mechanism is illegitimate, but that the proposed certification process, as DPIC's analysis documents, would rely substantially on states' own self-reported representations about their post-conviction counsel systems without independent verification or a mechanism to consider opposing views before a state is certified -- concentrating a due-process-critical gatekeeping judgment in the Attorney General's office on an honor-system basis, in a context DOJ's own leadership frames as part of a deliberate push to expand, not merely streamline, use of the federal death penalty.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of DOJ under Bondi concentrating discretionary authority in politically appointed leadership across multiple contexts (see also bondi-death-penalty entries and Bondi's broader tough-on-crime policy memos reported by The Appeal and The Hill).",
+    "last_updated": "2026-08-06",
+    "date_added": "2026-08-06",
+    "confidence_note": "HIGH confidence on the proposed rule's core mechanics -- the 180-day deadline, the certification process, and its self-certification character -- independently corroborated across DOJ's own press release, Bloomberg, and the Death Penalty Information Center's detailed legal analysis. MODERATE confidence on the wrongful-execution-risk characterization specifically, since that is advocates' and critics' assessment of a not-yet-finalized rule's likely effect, not an observed outcome -- present as a documented risk assessment from named critics, not a settled fact.",
+    "section_summaries": {
+      "incident_summary": "DOJ proposed a rule letting AG Bondi solely certify states for an accelerated capital-appeals process (cutting the federal habeas filing window from one year to 180 days) based substantially on states' own self-reported claims about their post-conviction defense counsel quality, without independent verification -- part of what Bondi's DOJ frames as a broader push to expand federal death penalty use.",
+      "confidence_note": "The rule's mechanics are well-documented via DOJ's own release and DPIC's legal analysis; the wrongful-execution-risk claim is critics' assessment of a not-yet-finalized rule, not an observed outcome."
+    }
+  },
+  {
     "official": "Pam Bondi, Attorney General Jan 2025-Apr 2026 (oversaw the dismantling); Todd Blanche, Acting Attorney General since April 2026, has not restored the unit",
     "offense_category": "Deliberate impairment of federal public-corruption enforcement combined with a pattern of pardons for politically-connected allies -- no criminal charge against Bondi or Blanche personally; this is an institutional-capacity and accountability-evasion claim, not a completed prosecution",
     "contested": false,
@@ -1532,7 +1581,7 @@
   {
     "official": "Pam Bondi, then-Attorney General / Kash Patel, FBI Director",
     "offense_category": "Non-Compliance With a Statutory Deadline for Epstein-File Disclosure, Alongside FBI Compilation of Unverified Allegations Against Other Prominent Figures -- raises accountability concerns distinct from any single named individual's conduct within the files themselves",
-    "incident_summary": "The Epstein Files Transparency Act required DOJ to produce its Epstein/Maxwell-related files by December 19, 2025; DOJ said the process was delayed by the volume of material and the need to redact survivors' personal information. Following the broadly-criticized rollout of a partial release ('The Epstein Files: Part 1') on February 27, 2025, Attorney General Bondi directed the FBI to deliver the complete files within 24 hours and ordered FBI Director Kash Patel to produce a comprehensive report within 14 days; as of the reporting reviewed, 74 days had passed since that directive without the report's release. Separately, as pressure mounted for full disclosure, CNN reported that FBI employees assembled a 21-slide internal presentation compiling what one employee described as 'salacious statements' about 13 prominent men in Epstein's orbit -- including Donald Trump, Bill Clinton, Prince Andrew (Mountbatten-Windsor), Leon Black, and Harvey Weinstein -- drawn from unverified allegations in the investigative files. DOJ ultimately released more than 3 million pages of documents and photos, including the 21-slide presentation itself, as part of the broader disclosure.",
+    "incident_summary": "The Epstein Files Transparency Act required DOJ to produce its Epstein/Maxwell-related files by December 19, 2025; DOJ said the process was delayed by the volume of material and the need to redact survivors' personal information. Following the broadly-criticized rollout of a partial release ('The Epstein Files: Part 1') on February 27, 2025, Attorney General Bondi directed the FBI to deliver the complete files within 24 hours and ordered FBI Director Kash Patel to produce a comprehensive report within 14 days; as of the reporting reviewed, 74 days had passed since that directive without the report's release. Separately, as pressure mounted for full disclosure, CNN reported that FBI employees assembled a 21-slide internal presentation compiling what one employee described as 'salacious statements' about 13 prominent men in Epstein's orbit -- including Donald Trump, Bill Clinton, Prince Andrew (Mountbatten-Windsor), Leon Black, and Harvey Weinstein -- drawn from unverified allegations in the investigative files. DOJ ultimately released more than 3 million pages of documents and photos, including the 21-slide presentation itself, as part of the broader disclosure. On March 17, 2026, a House oversight committee subpoenaed Attorney General Bondi to testify about DOJ's handling of the Epstein files. Lawmakers from both parties alleged DOJ improperly redacted key information, failed to fully comply with the Epstein Files Transparency Act's disclosure requirements, and exposed sensitive details about survivors in the process.",
     "contested": true,
     "elements_required": [
       "DOJ missed the Epstein Files Transparency Act's statutory December 19, 2025 production deadline, citing volume and redaction needs",
@@ -1564,15 +1613,21 @@
         "description": "The Daily Beast reported DOJ removed a photo from its own Epstein files website that appeared to show Commerce Secretary Howard Lutnick walking with Jeffrey Epstein, after the photo had already been published as part of the files' release -- an editorial removal of previously-public material connected to the Epstein disclosure this entry documents, and to the separate Lutnick-Epstein ties entry (lutnick-epstein-business-ties-2026.json)",
         "source_url": "https://www.thedailybeast.com/doj-gives-shameless-reason-for-hiding-photo-of-howard-lutnick-and-jeffrey-epstein/",
         "maps_to_element": "Post-release editorial handling of the disclosed files"
+      },
+      {
+        "type": "public_record",
+        "description": "The Guardian's reporting that a House oversight committee subpoenaed Bondi to testify, with bipartisan lawmakers alleging DOJ improperly redacted key information, failed to fully comply with the Transparency Act's disclosure requirements, and exposed sensitive survivor details",
+        "source_url": "https://www.theguardian.com/us-news/2026/mar/17/pam-bondi-epstein-files-house-committee",
+        "maps_to_element": "Continued congressional escalation over DOJ's Epstein-files compliance"
       }
     ],
-    "status": "Files were ultimately released (over 3 million pages, including the 21-slide presentation) as of the reporting reviewed; no independent finding on the presentation's intended use, or formal accountability action for the missed statutory and internal deadlines, was identified in sourcing reviewed as of this entry's addition. DOJ was subsequently reported to have removed a photo showing Commerce Secretary Lutnick with Epstein from its own Epstein files website after the photo had already been part of the public release.",
+    "status": "Files were ultimately released (over 3 million pages, including the 21-slide presentation) as of the reporting reviewed; no independent finding on the presentation's intended use, or formal accountability action for the missed statutory and internal deadlines, was identified in sourcing reviewed as of this entry's addition. DOJ was subsequently reported to have removed a photo showing Commerce Secretary Lutnick with Epstein from its own Epstein files website after the photo had already been part of the public release. Update: on March 17, 2026, a bipartisan House oversight committee subpoenaed Bondi to testify about DOJ's handling of the files, alleging improper redactions, incomplete compliance with the Transparency Act, and survivor-detail exposure; no testimony outcome identified in sourcing reviewed as of this entry's update.",
     "rebuttal_anticipated": "Likely defense: producing and redacting millions of pages of sensitive material involving crime survivors is a genuinely difficult logistical task justifying delay beyond a fixed statutory deadline, and FBI compiling a summary of allegations found within investigative files -- even about prominent figures -- is a standard step in processing material for potential release or referral, not evidence of improper intent.",
     "comeback": "The specific concern is not solely the delay's length but its combination with a bespoke internal presentation summarizing unverified 'salacious' allegations against named prominent figures -- material that, if selectively leaked or withheld rather than processed evenhandedly, would function as leverage rather than transparency; the same DOJ leadership responsible for the statutory deadline missed its own self-imposed 24-hour and 14-day deadlines by a wide margin without a public accounting.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of DOJ/FBI leadership under this administration exercising selective, discretionary control over the release and use of sensitive investigative material (see also the Ed Martin grand-jury-leak and Blanche/Patel journalist-subpoena entries).",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-06",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence on the core facts (the statutory deadline, the missed internal deadlines, the presentation's existence and contents) -- corroborated by CNN's direct reporting on the presentation and congressional correspondence documenting the missed deadlines. MODERATE confidence on any characterization of intent behind the presentation's creation, since no source confirms its intended use beyond internal compilation.",
+    "confidence_note": "HIGH confidence on the core facts (the statutory deadline, the missed internal deadlines, the presentation's existence and contents) -- corroborated by CNN's direct reporting on the presentation and congressional correspondence documenting the missed deadlines. MODERATE confidence on any characterization of intent behind the presentation's creation, since no source confirms its intended use beyond internal compilation. Re-verified 2026-08-06: the March 17, 2026 bipartisan House subpoena for Bondi's testimony, and its specific improper-redaction and incomplete-compliance allegations, are corroborated by The Guardian.",
     "section_summaries": {
       "incident_summary": "DOJ missed both the statutory Epstein-files disclosure deadline and its own internal 24-hour/14-day follow-up deadlines by months, while FBI employees separately compiled a presentation of unverified allegations against 13 prominent men including Trump and Clinton, before over 3 million pages were eventually released.",
       "confidence_note": "Core facts are well-corroborated by CNN's direct reporting and congressional correspondence; the presentation's intended use is not independently confirmed."
@@ -3666,6 +3721,55 @@
     "section_summaries": {
       "incident_summary": "A WSJ investigation of 100,000+ government social-media posts found DHS and Secretary Noem publicly accused 279 people of assaulting immigration agents; 181 (65%) were U.S. citizens, close to half of those citizens were never charged, and none of the 279 were convicted at trial, with many underlying videos undercutting the original assault claims.",
       "confidence_note": "Well-corroborated across the WSJ's own systematic dataset, Truthout's charging-failure coverage, and ProPublica's independently-sourced citizen-detention findings; Noem's personal role is documented as campaign-level involvement, not confirmed per-post authorship."
+    }
+  },
+  {
+    "official": "Kristi Noem, then-Secretary of Homeland Security",
+    "offense_category": "Perjury / Knowingly False Statements to Congress -- Noem was referred for investigation, not charged; DHS denies the allegations, so this is a contested referral, not an adjudicated violation",
+    "incident_summary": "On March 16, 2026, Senate Judiciary Whip Dick Durbin and House Judiciary/Oversight Democrats, led by Rep. Jamie Raskin, formally referred Secretary of Homeland Security Kristi Noem to the Department of Justice for investigation into potential perjury and knowingly false statements to Congress, based on her testimony before House and Senate committees on March 3 and 4, 2026. The referral identified four categories of allegedly false statements: (1) Noem claimed DHS had not violated any court orders, when in fact DHS had repeatedly defied court orders to release individuals from ICE detention, in some cases failing to release people for days or weeks after a court-ordered release date; (2) she made claims about the bidding process for a $220 million DHS television ad campaign contract that the referral disputes; (3) she made claims about the detention of U.S. citizens by immigration agents, despite ProPublica having separately documented more than 170 U.S. citizens held by immigration agents; and (4) she made claims about detention conditions. A DHS spokesperson responded that 'any claim that Secretary Noem committed perjury is categorically FALSE.' A congressional criminal referral does not compel DOJ to open an investigation, and DOJ -- under the same administration Noem serves -- was not reported to have opened one as of this entry's sourcing.",
+    "contested": true,
+    "elements_required": [
+      "Noem made specific, factual statements under oath to Congress regarding DHS's compliance with court orders, a specific contract's bidding process, U.S. citizen detentions, and detention conditions",
+      "Each statement is specifically alleged to be false based on documented contrary facts (DHS's own record of court-order non-compliance; ProPublica's documentation of 170+ U.S. citizens detained)",
+      "The referral was made through a formal, bipartisan-eligible congressional channel (Judiciary Committee leadership in both chambers) rather than informal criticism",
+      "DOJ, led by officials appointed by the same administration Noem serves, retains sole discretion whether to act on the referral, creating a structural conflict-of-interest concern independent of the referral's underlying merits"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Sen. Durbin's official press release formally referring Noem to DOJ for a perjury investigation, detailing the four categories of allegedly false statements from her March 3-4, 2026 testimony",
+        "source_url": "https://www.durbin.senate.gov/newsroom/press-releases/senate-house-judiciary-leaders-refer-kristi-noem-to-justice-department-for-perjury-investigation",
+        "maps_to_element": "Formal referral identifying specific allegedly false statements under oath"
+      },
+      {
+        "type": "public_record",
+        "description": "The House Judiciary Democrats' own press release version of the referral, confirming the same four categories and the March hearing dates",
+        "source_url": "https://democrats-judiciary.house.gov/media-center/press-releases/house-senate-judiciary-leaders-refer-kristi-noem-to-justice-department-for-perjury-investigation",
+        "maps_to_element": "Bipartisan-eligible, formal congressional channel used for the referral"
+      },
+      {
+        "type": "reporting",
+        "description": "CNBC's reporting on the referral, including DHS's on-record denial characterizing the perjury claim as 'categorically FALSE'",
+        "source_url": "https://www.cnbc.com/2026/03/16/kristi-noem-durbin-raskin-perjury-investigation-immigration-homeland.html",
+        "maps_to_element": "DHS's contesting response to the allegations"
+      },
+      {
+        "type": "public_record",
+        "description": "The Hill's reporting connecting the referral to Noem's specific claims about the ad-campaign bidding process, U.S. citizen detentions, and detention conditions",
+        "source_url": "https://thehill.com/homenews/house/5786305-noem-lied-congress-investigation/",
+        "maps_to_element": "Specific factual claims each alleged to be false"
+      }
+    ],
+    "status": "Referred, not charged -- as of this entry's addition, no DOJ investigation into the referral was confirmed as opened, and a congressional referral does not compel DOJ action, particularly notable here given DOJ is led by officials appointed by the same administration Noem serves",
+    "rebuttal_anticipated": "Likely defense: congressional testimony often involves good-faith characterizations of complex, fast-moving operational matters that can later be disputed without rising to knowing falsehood, DHS disputes the underlying factual predicate for each allegation, and criminal referrals from opposing-party lawmakers are a common and sometimes political tool that does not itself establish wrongdoing.",
+    "comeback": "The referral is not based on vague characterization disputes but on specific, checkable factual claims -- DHS's own documented pattern of court-order non-compliance, and ProPublica's independent documentation of over 170 U.S. citizens detained by immigration agents -- that lawmakers say directly contradict Noem's sworn testimony; whether or not DOJ ultimately investigates, the specific, falsifiable nature of the alleged discrepancies distinguishes this from a purely political characterization dispute, and DOJ's own structural conflict of interest in investigating a fellow cabinet official is itself a documented accountability gap.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DHS leadership under Noem making public and congressional statements later contradicted by the agency's own internal record or independent documentation (see also noem-tsa-shoes-ig-report-testimony-2026.json, a separate sworn-testimony contradiction, and noem-dhs-administrative-subpoena-abuse-2026.json).",
+    "last_updated": "2026-08-06",
+    "date_added": "2026-08-06",
+    "confidence_note": "HIGH confidence on the referral itself, its formal bipartisan-eligible channel, its specific stated bases, and DHS's denial -- independently corroborated across Durbin's and House Judiciary Democrats' own official releases, CNBC, The Hill, and Courthouse News. MODERATE confidence on whether the underlying statements were knowingly false as opposed to good-faith misstatements, since no independent adjudication or DOJ investigation outcome was identified in sourcing reviewed -- marked `contested: true` accordingly.",
+    "section_summaries": {
+      "incident_summary": "Durbin and Raskin formally referred Noem to DOJ for perjury over four categories of allegedly false March 2026 congressional testimony -- on court-order compliance, a $220M contract's bidding process, U.S. citizen detentions, and detention conditions -- which DHS categorically denies.",
+      "confidence_note": "The referral and its specific factual bases are well-documented via lawmakers' own official releases; whether the underlying statements were knowingly false has not been independently adjudicated, and DOJ -- led by the same administration -- was not reported to have opened an investigation."
     }
   },
   {

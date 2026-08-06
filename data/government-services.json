@@ -7225,6 +7225,59 @@
     ]
   },
   {
+    "id": "sec-enforcement-chief-ryan-resignation-2026",
+    "title": "SEC Enforcement Chief Margaret Ryan Resigns After Six Months Amid Clashes Over Pursuing Charges in Trump- and Musk-Linked Cases",
+    "institution": "Securities and Exchange Commission",
+    "domain": "staff_office_cuts",
+    "status": "Resolved as to Ryan's departure -- resigned March 16, 2026; the underlying cases (Sun, Musk) proceeded toward settlement rather than the charges she reportedly sought",
+    "date_of_action": "2026-03-16 (resignation, after roughly six months in the role)",
+    "what_changed": "Margaret Ryan, Director of the SEC's Division of Enforcement, abruptly resigned on March 16, 2026 after only about six months in the role, with the SEC's own announcement providing no explanation. Multiple outlets subsequently reported Ryan had clashed with SEC Chairman Paul Atkins and other senior officials over the handling of cases touching Trump- and Musk-linked figures: she reportedly wanted to pursue fraud and other charges against crypto entrepreneur Justin Sun and against Tesla/X CEO Elon Musk, but faced internal resistance. The SEC subsequently settled its lawsuit against Sun and his companies for $10 million, with Sun's side neither admitting nor denying the charges; the SEC and Musk jointly filed a document the day after Ryan's resignation stating they were negotiating a settlement in the Musk matter as well. Ryan's exit and the settlement pattern coincide with a broader enforcement-strategy shift under the current SEC leadership toward traditional fraud/market-manipulation cases and away from several compliance-focused enforcement areas, including certain crypto-related actions, that were more common under the prior administration's SEC leadership.",
+    "primary_proponent": {
+      "name": "Paul Atkins",
+      "role": "SEC Chairman",
+      "note": "Reported as the senior official Ryan clashed with over pursuing charges in the Sun and Musk matters; the SEC's own public announcement of Ryan's departure did not provide an explanation for it."
+    },
+    "estimated_impact": {
+      "summary": "The SEC's enforcement division lost its director after just six months amid an internal dispute over whether to pursue charges against politically connected figures (Sun, tied to Trump-linked crypto ventures, and Musk), with both matters subsequently moving toward settlement rather than the charges Ryan reportedly sought -- raising questions about the independence of enforcement decisions involving figures close to the administration.",
+      "figures": [
+        {
+          "metric": "Ryan's tenure as SEC Enforcement Division Director before resigning",
+          "value": "~6 months",
+          "source": "SEC's own press release, March 2026"
+        },
+        {
+          "metric": "SEC settlement amount with Justin Sun and his companies",
+          "value": "$10 million",
+          "source": "SEC settlement, reported by multiple outlets, March 2026"
+        }
+      ],
+      "caveat": "Sourcing on the internal dispute's specifics comes from anonymous-sourced reporting (U.S. News, citing sources) rather than on-record confirmation from Ryan, Atkins, or the SEC; the settlements themselves (Sun's $10M deal, the Musk negotiation) are independently documented public record, but the causal link to Ryan's specific charging preferences is reported, not confirmed by the SEC."
+    },
+    "confidence_note": "HIGH confidence on the core facts -- Ryan's six-month tenure, her March 16, 2026 resignation without SEC explanation, the Sun settlement, and the Musk settlement negotiation announced the following day -- independently corroborated across the SEC's own press release and multiple outlets (U.S. News, Forex/FX Leaders, CoinCentral). MODERATE confidence on the specific claim that internal resistance to charging Sun and Musk drove Ryan's departure, which rests on anonymously sourced reporting rather than on-record confirmation from any of the parties involved.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "SEC.gov -- 'SEC Announces Enforcement Division Director Judge Margaret A. Ryan Has Resigned From Agency'",
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-27-sec-announces-enforcement-division-director-judge-margaret-ryan-has-resigned-agency"
+      },
+      {
+        "name": "U.S. News -- 'Exclusive-US SEC's Ex-Enforcement Chief Clashed With Bosses Before Leaving, Sources Say'",
+        "url": "https://www.usnews.com/news/politics/articles/2026-03-23/exclusive-us-secs-ex-enforcement-chief-clashed-with-bosses-before-leaving-sources-say"
+      },
+      {
+        "name": "The New York Times -- SEC enforcement chief resigns",
+        "url": "https://www.nytimes.com/2026/03/16/us/politics/sec-enforcement-chief-resigns.html"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "SEC Enforcement Director Margaret Ryan resigned after six months with no SEC explanation; reporting says she clashed with Chairman Paul Atkins over pursuing charges against Trump-linked crypto figure Justin Sun and Elon Musk, both of whose cases then moved toward settlement rather than the charges she reportedly wanted.",
+      "estimated_impact": "Raises questions about enforcement independence in cases touching politically connected figures, though the SEC has not confirmed the internal-dispute account.",
+      "confidence_note": "Core facts are well-documented via the SEC's own release and the settlements themselves; the internal-dispute narrative rests on anonymously sourced reporting."
+    }
+  },
+  {
     "id": "smithsonian-content-review",
     "title": "White House-directed content review and exhibit alterations at the Smithsonian",
     "institution": "Smithsonian Institution (Washington, DC museums, via White House Domestic Policy Council/OMB)",
