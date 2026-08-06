@@ -5079,13 +5079,13 @@
     "title": "Trump Administration Moves to Remove Supercomputers From NCAR, Disrupting Weather and Climate Research for 1,500+ Scientists",
     "institution": "National Science Foundation / National Center for Atmospheric Research (NCAR)",
     "domain": "research_suppression",
-    "status": "In progress as of this entry's addition -- removal plan confirmed via NSF letter; scientific community formally objected",
+    "status": "Blocked as of June 1, 2026 -- a federal judge issued a preliminary injunction halting further dismantling steps, following UCAR's March 2026 lawsuit alleging the plan was retaliation against Colorado; the underlying litigation over the plan's ultimate fate remains ongoing",
     "date_of_action": "2026-01 (White House announces intent to 'break up' NSF NCAR) through 2026-02-13 (NSF letter confirming supercomputer removal plan)",
-    "what_changed": "Following a January 2026 White House announcement of intent to 'break up' the National Science Foundation's National Center for Atmospheric Research (NCAR) in Boulder, Colorado, an NSF letter released February 13, 2026 confirmed plans to remove NCAR's supercomputing facility and transfer it to an unspecified third party. The facility supports weather forecasting models, climate simulations, and extreme-weather prediction research used by approximately 1,500 researchers across more than 500 universities; NOAA itself relies on the facility to run some of its current forecasting models. Former NCAR director James Hurrell and other prominent colleagues in the weather and climate research community warned NSF that 'any path that leads to the fragmentation or dismantling of NSF NCAR is fundamentally not in the nation's interest,' and that the move could further set back NOAA's own weather-modeling capabilities, which the researchers noted have already lagged behind international competitors.",
+    "what_changed": "Following a January 2026 White House announcement of intent to 'break up' the National Science Foundation's National Center for Atmospheric Research (NCAR) in Boulder, Colorado, an NSF letter released February 13, 2026 confirmed plans to remove NCAR's supercomputing facility and transfer it to an unspecified third party. The facility supports weather forecasting models, climate simulations, and extreme-weather prediction research used by approximately 1,500 researchers across more than 500 universities; NOAA itself relies on the facility to run some of its current forecasting models. Former NCAR director James Hurrell and other prominent colleagues in the weather and climate research community warned NSF that 'any path that leads to the fragmentation or dismantling of NSF NCAR is fundamentally not in the nation's interest,' and that the move could further set back NOAA's own weather-modeling capabilities, which the researchers noted have already lagged behind international competitors. On March 16, 2026, the University Corporation for Atmospheric Research (UCAR) -- the nonprofit consortium of 129 universities that manages NCAR -- sued the federal agencies and officials behind the breakup plan, alleging the effort was retaliation against Colorado: specifically, that the administration was using NCAR's dismantling to pressure the state over Gov. Jared Polis's refusal to grant clemency to Tina Peters, a former county clerk convicted of tampering with voting machines in pursuit of Trump's 2020 election-fraud claims, and over the state's broader resistance to ceding authority over its own elections. OMB Director Russell Vought had publicly framed the plan as 'breaking up' NCAR because it was 'one of the largest sources of climate alarmism in the country,' and a White House spokesperson told CNN that Colorado's treatment depended on having 'a governor who actually wanted to work with President Trump.' On June 1, 2026, U.S. District Judge R. Brooke Jackson issued a preliminary injunction blocking the administration from taking further steps to dismantle NCAR, a win for the researchers and UCAR that halted the removal plan pending further litigation.",
     "primary_proponent": {
       "name": "National Science Foundation (executing White House direction)",
       "role": "Federal agency overseeing NCAR, executing the supercomputer removal",
-      "note": "The White House's stated rationale for wanting to 'break up' NSF NCAR was not detailed in sourcing reviewed."
+      "note": "UCAR's March 2026 lawsuit alleges the White House's stated rationale was in substantial part retaliatory -- pressuring Colorado over its refusal to grant clemency to Tina Peters and over the state's election-administration authority -- rather than a neutral science-policy judgment; OMB Director Russell Vought separately and publicly characterized NCAR as a source of 'climate alarmism.'"
     },
     "estimated_impact": {
       "summary": "Removing the supercomputing facility disrupts a shared national research resource relied on by 1,500+ scientists at 500+ universities and by NOAA's own forecasting operations, at a time when U.S. weather-modeling capability already trails international competitors according to the researchers who objected.",
@@ -5094,11 +5094,16 @@
           "metric": "Researchers relying on the facility",
           "value": "~1,500, across 500+ universities",
           "source": "CNN"
+        },
+        {
+          "metric": "Universities in the UCAR consortium that sued over the dismantling plan",
+          "value": "129",
+          "source": "Colorado Sun / Boulder Reporting Lab, March 2026"
         }
       ],
       "caveat": "The removal plan was confirmed via an NSF letter but was still in progress as of this entry's addition -- the ultimate destination and fate of the transferred supercomputer, and whether NOAA's forecasting capability was measurably degraded, were not yet confirmed outcomes in sourcing reviewed."
     },
-    "confidence_note": "HIGH confidence -- the removal plan, NSF's own confirming letter, the researcher count, and the objecting scientists' quoted statement are all independently corroborated across CNN, KRDO, and multiple wire pickups, with the core facts drawn from NSF's own letter rather than anonymous sourcing.",
+    "confidence_note": "HIGH confidence -- the removal plan, NSF's own confirming letter, the researcher count, and the objecting scientists' quoted statement are all independently corroborated across CNN, KRDO, and multiple wire pickups, with the core facts drawn from NSF's own letter rather than anonymous sourcing. Re-verified 2026-08-05: UCAR's lawsuit, its specific Tina Peters/Colorado-retaliation allegation, Vought's and the White House's own public statements, and the June 1, 2026 preliminary injunction are all independently corroborated across Colorado Sun, Boulder Reporting Lab, Courthouse News, The Hill, 9News, and CPR -- filling the gap this entry previously flagged (the White House's rationale 'was not detailed in sourcing reviewed'). The retaliation characterization is UCAR's legal allegation, not yet a court finding; the injunction addresses the dismantling process, not the retaliation claim's merits.",
     "last_verified": "2026-08-05",
     "date_added": "2026-08-05",
     "last_updated": "2026-08-05",
@@ -5110,10 +5115,22 @@
       {
         "name": "KRDO -- 'Trump admin is pulling supercomputers out of key weather and climate research center'",
         "url": "https://krdo.com/cnn-weather-environment/2026/02/13/trump-admin-is-pulling-supercomputers-out-of-key-weather-and-climate-research-center/"
+      },
+      {
+        "name": "Colorado Sun -- 'UCAR sues its partners to block Trump administration's arbitrary and capricious selloff of Boulder NCAR lab'",
+        "url": "https://coloradosun.com/2026/03/16/ncar-ucar-mesa-lab-sell-off-trump-politics/"
+      },
+      {
+        "name": "The Hill -- 'Lawsuit alleges breakup of federal climate lab was tied to Trump's feud with Colorado'",
+        "url": "https://thehill.com/policy/energy-environment/5788345-colorado-climate-lab-trump-tina-peters/"
+      },
+      {
+        "name": "The Hill -- 'Judge halts Trump effort to target Colorado climate lab'",
+        "url": "https://thehill.com/policy/energy-environment/5905703-colorado-climate-lab-ncar/"
       }
     ],
     "section_summaries": {
-      "what_changed": "NSF confirmed plans to remove NCAR's supercomputing facility, disrupting weather/climate research relied on by 1,500+ scientists and NOAA's own forecasting, following a January 2026 White House announcement to 'break up' NCAR.",
+      "what_changed": "NSF confirmed plans to remove NCAR's supercomputing facility, disrupting weather/climate research relied on by 1,500+ scientists and NOAA's own forecasting, following a January 2026 White House announcement to 'break up' NCAR. UCAR sued in March 2026, alleging the breakup was retaliation against Colorado over the Tina Peters clemency dispute; a federal judge blocked further dismantling steps on June 1, 2026.",
       "estimated_impact": "Warned by former NCAR leadership to further set back already-lagging U.S. weather-modeling capability relative to international competitors.",
       "confidence_note": "Core facts drawn from NSF's own confirming letter and independently corroborated across multiple outlets."
     }

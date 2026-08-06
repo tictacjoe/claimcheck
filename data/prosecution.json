@@ -556,6 +556,55 @@
     }
   },
   {
+    "official": "Todd Blanche, Deputy Attorney General",
+    "offense_category": "DOJ Advocacy on Behalf of a Convicted Fabricator of a Russian-Linked Disinformation Claim Against a Political Opponent's Family -- not a criminal charge against Blanche; a prosecutorial-discretion/institutional-integrity accountability claim",
+    "incident_summary": "Alexander Smirnov, a former FBI confidential informant, was convicted and sentenced to six years in prison after admitting he fabricated a claim that Burisma, a Ukrainian energy company, paid Joe Biden and Hunter Biden a $10 million bribe. Smirnov later told investigators that after being re-interviewed in September 2023, he changed his account and promoted a new false narrative developed with input from individuals tied to Russian intelligence; DOJ itself stated in February 2024 that Smirnov admitted 'officials associated with Russian intelligence were involved' in shaping the story. The fabricated bribery claim had circulated among congressional Republicans and fueled impeachment-related attacks on President Biden before it was exposed as false. On March 4, 2026, Deputy Attorney General Todd Blanche personally filed a DOJ brief supporting Smirnov's effort to overturn his six-year sentence and withdraw his guilty plea. Prosecutor David Friedman's accompanying court filing gave minimal explanation, stating only that 'the United States intends to review the government's theory of the case underlying Defendant's criminal conviction,' and separately asked the court to release Smirnov while the appeal proceeds. The Journal noted that if an appeals court vacates the sentence, DOJ could ultimately drop the charges entirely -- erasing Smirnov's own admission that the Biden bribery claims were fabricated.",
+    "contested": true,
+    "elements_required": [
+      "Smirnov was convicted of and admitted to fabricating a serious, specific corruption allegation against a sitting president and his son",
+      "The fabricated narrative was developed with input from individuals Smirnov and DOJ's own prior filings connected to Russian intelligence",
+      "The fabricated claim was used by the sitting president's political opponents (congressional Republicans) to pursue impeachment-related attacks before being exposed as false",
+      "DOJ, now under new leadership, personally intervened via a Deputy Attorney General-level brief to support overturning the conviction, offering minimal public justification for the reversal in position from the department that originally prosecuted and secured the conviction"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "CNN's reporting that DOJ would review the conviction, and details of Smirnov's original conviction, sentencing, and admission that Russian-intelligence-linked individuals were involved in developing the fabricated bribery narrative",
+        "source_url": "https://www.cnn.com/2025/04/10/politics/alexander-smirnov-doj-review",
+        "maps_to_element": "Smirnov's conviction, admission, and the Russian-intelligence connection"
+      },
+      {
+        "type": "court_filing",
+        "description": "Reporting that Deputy Attorney General Todd Blanche personally filed the March 4, 2026 brief supporting Smirnov's effort to overturn his sentence, and that prosecutor David Friedman's filing offered minimal explanation for the government's changed position while asking the court to release Smirnov pending appeal",
+        "source_url": "https://www.ms.now/rachel-maddow-show/maddowblog/trumps-doj-rallies-behind-convicted-informant-who-lied-to-the-fbi-about-joe-biden",
+        "maps_to_element": "DOJ's Deputy Attorney General personally intervened to support overturning the conviction"
+      },
+      {
+        "type": "reporting",
+        "description": "Reporting that the fabricated Burisma bribery claim was used by congressional Republicans to fuel impeachment-related attacks on President Biden before being exposed as fabricated",
+        "source_url": "https://www.ibtimes.co.uk/former-fbi-informant-retracts-biden-bribery-confession-1805467",
+        "maps_to_element": "The fabricated claim was used to pursue impeachment-related attacks"
+      },
+      {
+        "type": "public_record",
+        "description": "Reporting that Smirnov was covertly released from jail as part of the review process, and that DOJ could ultimately drop the charges entirely if the sentence is vacated, erasing his own admission that the bribery claims were invented",
+        "source_url": "https://www.yahoo.com/news/articles/fbi-informant-lied-bidens-covertly-203542065.html",
+        "maps_to_element": "DOJ's intervention could erase the fabricator's own admission of guilt"
+      }
+    ],
+    "status": "Ongoing as of this entry's addition -- Smirnov's appeal was proceeding with DOJ's active support as of the sourcing reviewed; no final appellate ruling identified",
+    "rebuttal_anticipated": "Likely defense: DOJ has independent authority and, arguably, an institutional obligation to review any conviction where the plea agreement's terms (specifically, the time-served credit at issue in the appeal) may not have been properly honored by the court, a technical sentencing defect is a legitimate basis for review regardless of the underlying defendant's other conduct, and reviewing a conviction is not the same as endorsing the fabricated claims themselves.",
+    "comeback": "The specific concern is not that DOJ may not review sentencing technicalities in the abstract, but that the department reversed its own prior position -- having originally prosecuted and secured a conviction against a man who admitted fabricating a Russian-intelligence-linked disinformation campaign against a sitting president's family -- with minimal public explanation for the change, raising the question of whether the review is driven by the technical sentencing issue cited or by the fabricated claim's continued political utility to the current administration, particularly given the department offered little detail on its reasoning in its own court filing.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern documented elsewhere in this tracker of DOJ under the current administration reversing or softening its posture toward figures whose conduct, however discredited, previously served the administration's or its allies' political narratives.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the core facts -- Smirnov's conviction, his admission regarding Russian-intelligence-linked individuals, Blanche's March 2026 brief, and Friedman's minimal-explanation filing -- independently corroborated across CNN, MS NOW, IBTimes, and Yahoo/wire coverage of DOJ's own court filings. MODERATE confidence on characterizing DOJ's motive, since the department's own stated rationale (a technical sentencing-credit issue) is a plausible independent basis for review, not itself proof of political motivation -- marked `contested: true` accordingly.",
+    "section_summaries": {
+      "incident_summary": "Alexander Smirnov, convicted of fabricating a Russian-intelligence-linked $10M Biden bribery hoax that fueled impeachment attacks, had his sentence appeal actively supported by a March 2026 DOJ brief personally filed by Deputy AG Todd Blanche, with minimal public explanation -- a reversal that could ultimately erase Smirnov's own admission the claims were invented.",
+      "confidence_note": "Core facts are well-corroborated across multiple outlets and DOJ's own court filings; DOJ's motive for the reversal is disputed rather than established, since a technical sentencing issue is a plausible independent basis for the review."
+    }
+  },
+  {
     "official": "Todd Blanche, Acting Attorney General",
     "offense_category": "Vindictive/Selective Prosecution (violates Due Process; established legal doctrine, e.g. United States v. Goodwin) -- DOJ criminally indicted a nonprofit civil rights watchdog organization long critical of the administration; SPLC has moved to dismiss on vindictive-prosecution grounds; no conviction, charges contested",
     "contested": true,
@@ -1619,6 +1668,55 @@
     "section_summaries": {
       "incident_summary": "DOJ subpoenaed NYU Langone (and reportedly other hospitals) for records on every minor who received gender-affirming care since 2020 plus their providers' names -- a judge blocked disclosure while several states' AGs joined the fight against it.",
       "confidence_note": "Well-documented via the hospital's own notice and multiple outlets; whether this reflects bad-faith targeting rests on the subpoena's unusual scope and the court's willingness to block it on an emergency basis, since DOJ hasn't detailed its legal theory publicly."
+    }
+  },
+  {
+    "official": "Pam Bondi, Attorney General (DOJ oversight and Office of Public Affairs' 'Antifa Cell' framing of the prosecutions; the Northern District of Texas U.S. Attorney's Office tried the case)",
+    "offense_category": "Applying Federal Terrorism-Related Charges to Protest-Adjacent Conduct, Alongside a Legitimately Prosecuted Shooting -- not a claim the shooting itself was wrongly prosecuted; the accountability concern is the terrorism/material-support framing's scope, which swept in defendants whose own conduct (e.g. transporting protest literature) was far removed from the shooting",
+    "incident_summary": "On July 4, 2025, a demonstration against Trump's mass-deportation push outside the Prairieland ICE detention center in Alvarado, Texas turned violent when former Marine reservist Benjamin Song shot and wounded a police officer who had just arrived at the scene. Nine defendants were tried together; a federal jury convicted eight of the nine on charges including rioting, weapons and explosives offenses, providing material support to terrorists, obstruction, and attempted murder of a law enforcement officer. Seven additional defendants separately pleaded guilty to one count of providing material support to terrorists. DOJ's own press releases branded the group 'Antifa Cell Members.' Sentences ranged widely: Song, convicted of attempted murder, received 100 years; other convicted defendants received sentences up to 60 years; those who pleaded guilty to the material-support count alone received 2-15 years. The Intercept reported one defendant received 30 years in part for transporting a box of antifascist zines, and Just Security separately analyzed how the terrorism statute used in the case is broadly enough defined that it could sweep in ordinary protest-adjacent conduct not involving violence. The trial featured testimony from more than 45 witnesses and over 210 exhibits across a 12-day proceeding.",
+    "contested": true,
+    "elements_required": [
+      "The underlying shooting of a law enforcement officer is a legitimately prosecutable serious violent crime, separate from the terrorism-charge-scope concern this entry documents",
+      "Federal terrorism-related statutes ('material support to terrorists') were applied not only to the shooter but to a group of co-defendants, including some whose individually described conduct (e.g. transporting literature) was materially less severe than the armed conduct",
+      "DOJ's own public communications characterized the prosecutions using ideological/organizational framing ('Antifa Cell Members') rather than describing each defendant's specific individual conduct",
+      "Independent legal analysis identified the terrorism statute's broad definition as creating genuine potential for over-application to protest-adjacent conduct, not merely as advocacy criticism of an otherwise narrow, well-targeted charge"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "DOJ's own Office of Public Affairs and Northern District of Texas press releases announcing the convictions, using the 'Antifa Cell Members' framing and detailing the range of charges (rioting, weapons/explosives, material support to terrorists, obstruction, attempted murder) across the nine tried defendants",
+        "source_url": "https://www.justice.gov/opa/pr/antifa-cell-members-convicted-prairieland-ice-detention-center-shooting",
+        "maps_to_element": "DOJ's own ideological/organizational framing of the prosecutions"
+      },
+      {
+        "type": "public_record",
+        "description": "DOJ's press release on Song's 100-year sentence, describing him as the 'leader of Antifa Cell Members' convicted of the attempted murder of the officer",
+        "source_url": "https://www.justice.gov/opa/pr/leader-antifa-cell-members-north-texas-sentenced-100-years-prison-terrorist-attack-ice",
+        "maps_to_element": "The underlying shooting is a legitimately prosecutable violent crime"
+      },
+      {
+        "type": "reporting",
+        "description": "The Intercept's reporting that one Prairieland defendant was sentenced to 30 years in part for transporting a box of antifascist zines -- conduct materially distinct from armed violence -- under the same material-support terrorism framework applied to the shooter",
+        "source_url": "https://theintercept.com/2026/06/23/prairieland-texas-ice-protest-prison-sentences/",
+        "maps_to_element": "Terrorism-related charges were applied to defendants whose individual conduct was materially less severe than the armed conduct"
+      },
+      {
+        "type": "reporting",
+        "description": "Just Security's legal analysis of how the counterterrorism statute used in cases like Prairieland is broadly enough defined to risk sweeping in ordinary protest-adjacent conduct",
+        "source_url": "https://www.justsecurity.org/132743/how-a-broadly-defined-counterterrorism-statute-could-be-abused/",
+        "maps_to_element": "Independent legal analysis identified genuine over-application potential in the statute's breadth"
+      }
+    ],
+    "status": "Resolved as to conviction and sentencing -- eight of nine tried defendants convicted (one acquitted), sentences issued through July 2026 ranging from 2 years (plea deals) to 100 years (Song); no appeal outcome identified in sourcing reviewed as of this entry",
+    "rebuttal_anticipated": "Likely defense: an officer was shot and wounded, explosives and weapons were involved, and material-support statutes properly reach anyone who knowingly assists a violent plot regardless of which specific supporting role they played; prosecutors have discretion to charge accomplices and material supporters of a violent attack under the same overarching conspiracy, and juries -- not prosecutors alone -- returned these convictions after a 12-day trial with extensive evidence.",
+    "comeback": "The specific concern this entry documents is not that the shooter or direct violent participants were prosecuted -- that prosecution is not in dispute -- but that DOJ's own public communications framed the entire prosecution in explicitly ideological/organizational terms ('Antifa Cell'), and that at least one defendant's documented conduct (transporting literature) was reported as materially disconnected from the violence, raising the specific concern independent legal analysts flagged: that a broadly defined terrorism statute can functionally criminalize protest-network association and non-violent material support alongside genuinely violent conduct, blurring the line between prosecuting a shooting and prosecuting a political movement.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the pattern this tracker documents elsewhere (rosen-minnesota-nspm7-antifa-prosecutions-2026.json, a separate Minnesota case) of DOJ applying expansive terrorism-related and material-support charging theories to protest-adjacent political activity under the administration's post-NSPM-7 approach to 'antifa' as a designated domestic terrorism concern.",
+    "last_updated": "2026-08-05",
+    "date_added": "2026-08-05",
+    "confidence_note": "HIGH confidence on the trial outcome, charges, and sentences -- corroborated across DOJ's own press releases, CBS Texas, NBC 5 Dallas-Fort Worth, KERA News, and Al Jazeera's sentencing coverage. MODERATE-HIGH confidence on the disproportionate-scope characterization specifically (the zine-transport detail and the statute's breadth concern), sourced to The Intercept's reporting and Just Security's legal analysis rather than a court finding -- the jury's verdict itself is not in dispute, only whether the terrorism-charge framework's application to the full defendant group was proportionate to each individual's documented conduct.",
+    "section_summaries": {
+      "incident_summary": "After a Marine reservist shot a police officer at a July 2025 Prairieland ICE-facility protest, DOJ tried nine defendants together and convicted eight on charges including material support to terrorists, branding them 'Antifa Cell Members'; sentences ranged from 2 to 100 years, with The Intercept reporting one defendant got 30 years partly for transporting protest literature.",
+      "confidence_note": "The trial outcome and sentences are well-corroborated including via DOJ's own releases; whether the terrorism-charge framework's scope was proportionate to every individual defendant's conduct is a disputed characterization, not a court finding."
     }
   },
   {
