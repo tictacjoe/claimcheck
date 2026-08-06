@@ -9381,6 +9381,72 @@
     ]
   },
   {
+    "id": "usps-pension-contribution-suspension-2026",
+    "title": "USPS Suspended Employer Pension Contributions Amid Cash Crisis",
+    "institution": "United States Postal Service",
+    "domain": "funding_redirection",
+    "status": "Ongoing -- suspension began April 10, 2026 as a stated temporary cash-conservation measure; as of a June 2026 update, USPS no longer expects to exhaust cash reserves in early 2027, but warns the suspension only delays, not resolves, its long-term financial position",
+    "date_of_action": "2026-04-09 (announced); 2026-04-10 (suspension began)",
+    "what_changed": "The USPS Board of Governors suspended the agency's biweekly employer contributions to the Federal Employees Retirement System (FERS), covering roughly 99% of career postal workers, beginning April 10, 2026. The move defers roughly $200 million every two weeks (about $400 million/month, an estimated $2.5 billion for the fiscal year) that would otherwise fund employee retirement benefits, redirecting it to preserve operating cash. USPS stated this was necessary because it faced a severe cash crisis, with projections at the time showing it could run out of cash as early as February 2027 absent action; employee-side FERS payroll deductions continue to be withheld and forwarded to OPM as normal, and USPS says current employees' and retirees' benefits are not immediately affected. USPS separately sought a 4-cent stamp price increase around the same time. Reporting attributes the underlying cash crisis to multiple compounding factors: two decades of declining first-class mail volume, growing competition from private carriers (including Amazon's own delivery operations), a 2006 law requiring USPS to pre-fund 75 years of retiree health benefits within 10 years, a $634 million first-quarter FY2026 spike in workers' compensation costs, and -- per multiple outlets -- the effects of the administration's global tariffs, high inflation, and gasoline-price spikes on USPS's own costs and mail volume.",
+    "primary_proponent": {
+      "name": "USPS Board of Governors / David Steiner, Postmaster General",
+      "role": "USPS's governing board and chief executive",
+      "note": "The suspension was an institutional Board of Governors decision, not an act attributed in sourcing to a specific White House directive; reporting cites the administration's tariff policy as one of several contributing pressures on USPS's finances, alongside long-predating structural causes (mail-volume decline, the 2006 pre-funding mandate, rising workers' comp costs) that are not specific to this administration."
+    },
+    "estimated_impact": {
+      "summary": "Roughly $2.5 billion in legally-obligated employer retirement contributions for FY2026 is being deferred rather than paid, a stopgap that USPS itself says only delays rather than resolves its financial position -- current projections as of a June 2026 update show a possible cash shortfall recurring between FY2031 and FY2035 absent broader reform.",
+      "figures": [
+        {
+          "metric": "Employer FERS contributions deferred for FY2026",
+          "value": "$2,500,000,000 (estimated)",
+          "source": "Federal News Network, USA Today"
+        },
+        {
+          "metric": "Suspended biweekly contribution amount",
+          "value": "~$200,000,000 every two weeks (~$400,000,000/month)",
+          "source": "Federal News Network"
+        },
+        {
+          "metric": "USPS net loss, Q2 FY2026",
+          "value": "$2,000,000,000",
+          "source": "USPS financial reporting, cited by multiple outlets"
+        },
+        {
+          "metric": "USPS net loss, full FY2025",
+          "value": "$9,500,000,000",
+          "source": "USPS financial reporting, cited by multiple outlets"
+        }
+      ],
+      "caveat": "This entry documents a genuinely multi-causal financial crisis; sourcing does not establish the administration's tariff policy as the primary or sole driver, alongside long-predating structural factors (declining mail volume, the 2006 retiree-health pre-funding law, Amazon competition, rising workers' comp costs). Present as a contested/mixed-causation story, not a single-cause administration action, while still noting the pension deferral itself is the concrete action fitting this tracker's funding_redirection domain."
+    },
+    "confidence_note": "HIGH confidence on the core facts of the suspension, its dollar figures, and USPS's own stated cash-crisis rationale -- corroborated across Federal News Network, CBS News, Fox Business, USA Today, and USPS's own news release. MODERATE confidence on how much weight to assign administration policy (tariffs) versus long-predating structural causes in explaining the crisis -- reporting presents this as multi-causal, not attributing the crisis primarily to a single administration decision the way other entries in this tracker document a single named official's deliberate action (e.g. Noem's MS-ISAC defunding).",
+    "section_summaries": {
+      "what_changed": "USPS's Board of Governors suspended ~$2.5B in FY2026 employer pension contributions to preserve cash amid a severe financial crisis, deferring rather than resolving the underlying shortfall.",
+      "estimated_impact": "The deferred contributions total roughly $2.5 billion for the fiscal year; USPS itself says this only delays a recurring cash-shortfall risk projected for FY2031-2035.",
+      "confidence_note": "Well-documented core facts; the crisis is genuinely multi-causal, with administration tariff policy cited as one contributing factor among several long-predating structural causes."
+    },
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "Federal News Network -- USPS suspends contributions to pension plan to delay running out of cash",
+        "url": "https://federalnewsnetwork.com/management/2026/04/usps-suspends-contributions-to-pension-plan-to-delay-running-out-of-cash/"
+      },
+      {
+        "name": "CBS News -- USPS suspends contributions to employee pensions after warning of 'cash crisis'",
+        "url": "https://www.cbsnews.com/news/usps-pension-payments-fers-cash-crisis/"
+      },
+      {
+        "name": "USA Today -- USPS suspends pension contributions amid crisis",
+        "url": "https://www.usatoday.com/story/money/2026/04/09/usps-suspends-pension-contributions-amid-crisis/89538552007/"
+      },
+      {
+        "name": "Federal News Network -- USPS staves off immediate cash crisis, but warns of continuing financial woes",
+        "url": "https://federalnewsnetwork.com/agency-oversight/2026/06/usps-staves-off-immediate-cash-crisis-but-warns-of-continuing-financial-woes/"
+      }
+    ]
+  },
+  {
     "id": "uspstf-disruption-rfk-jr-2026",
     "title": "RFK Jr. Fires USPSTF Vice Chairs, Repeatedly Postpones Meetings, Leaves Vacancies Unfilled Following Supreme Court Ruling Confirming His Authority",
     "institution": "U.S. Preventive Services Task Force (HHS)",

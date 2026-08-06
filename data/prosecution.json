@@ -1218,14 +1218,15 @@
   },
   {
     "official": "Lori Chavez-DeRemer, then-Secretary of Labor (resigned April 2026)",
-    "offense_category": "Retaliation Against Employees Who Reported Sexual Misconduct by the Secretary's Own Husband -- an EEO-complaint-substantiated accountability claim distinct from her husband's underlying alleged conduct, which is a separate matter",
-    "incident_summary": "Two female political staffers at the Department of Labor alleged that Secretary Lori Chavez-DeRemer's husband, Dr. Shawn DeRemer, an anesthesiologist, subjected them to unwanted sexual touching at the department's Washington headquarters in late 2025, including an incident on December 18 captured on office security cameras. The Labor Department's Inspector General recommended DeRemer be banned from the building, and he was; federal prosecutors ultimately declined to bring charges against him after reviewing the evidence, including the security footage. Separately, at least three people filed formal EEO discrimination/retaliation complaints against Chavez-DeRemer herself, alleging she created a hostile workplace, retaliated against the female staffers who reported her husband's conduct, fostered a climate in which employees feared retaliation for opposing agency policy, and directed staff to perform personal errands for her (including cleaning her closet). Chavez-DeRemer resigned as Labor Secretary in April 2026 amid the mounting allegations -- the third member of Trump's Cabinet to leave within two months -- and, per reporting, falsely claimed a 'deep state' conspiracy was behind the scrutiny on her way out.",
+    "offense_category": "Retaliation Against Employees Who Reported Sexual Misconduct by the Secretary's Own Husband, Alongside a Broader Inspector General Misconduct Investigation -- an EEO-complaint-substantiated accountability claim distinct from her husband's underlying alleged conduct or the IG's separate personal-conduct/travel-fraud findings, both of which are separate matters",
+    "incident_summary": "Two female political staffers at the Department of Labor alleged that Secretary Lori Chavez-DeRemer's husband, Dr. Shawn DeRemer, an anesthesiologist, subjected them to unwanted sexual touching at the department's Washington headquarters in late 2025, including an incident on December 18 captured on office security cameras. The Labor Department's Inspector General recommended DeRemer be banned from the building, and he was; federal prosecutors ultimately declined to bring charges against him after reviewing the evidence, including the security footage. Separately, at least three people filed formal EEO discrimination/retaliation complaints against Chavez-DeRemer herself, alleging she created a hostile workplace, retaliated against the female staffers who reported her husband's conduct, fostered a climate in which employees feared retaliation for opposing agency policy, and directed staff to perform personal errands for her (including cleaning her closet). The Inspector General's investigation broadened well beyond the husband incident: whistleblowers alleged Chavez-DeRemer had an affair with a member of her own security detail, used department resources for personal trips, and sent inappropriate personal messages to young staffers; the IG separately investigated her chief of staff Jihun Han and his deputy Rebecca Wright for alleged 'travel fraud' -- setting up professional events as pretexts for her personal travel. Multiple top staffers were placed on administrative leave and ultimately left their posts as the broadened probe proceeded. Chavez-DeRemer resigned as Labor Secretary on April 20, 2026 amid the mounting allegations -- the third member of Trump's Cabinet to leave within two months -- and, per reporting, falsely claimed a 'deep state' conspiracy was behind the scrutiny on her way out. Deputy Secretary Keith Sonderling became acting secretary.",
     "contested": true,
     "elements_required": [
       "Formal EEO complaints -- not merely media allegations -- were filed against Chavez-DeRemer herself specifically alleging retaliation against the staffers who reported her husband's conduct",
       "The Department's own Inspector General found the underlying allegations against her husband serious enough to recommend a building ban, corroborating that the reporting staffers raised a substantiated concern rather than a frivolous one",
       "The retaliation and hostile-workplace allegations against Chavez-DeRemer are a distinct accountability claim from her husband's conduct -- concerning her own response to the complaints, not the underlying incidents themselves",
-      "She resigned amid the allegations, one of three Cabinet departures within two months, and made a public claim about the circumstances (a 'deep state' conspiracy) reporting characterized as false"
+      "She resigned amid the allegations, one of three Cabinet departures within two months, and made a public claim about the circumstances (a 'deep state' conspiracy) reporting characterized as false",
+      "The Inspector General's investigation independently expanded to separate personal-conduct allegations (an affair with a security-detail member, personal use of department resources) and a 'travel fraud' inquiry into her chief of staff and deputy chief of staff, resulting in multiple senior staffers being placed on leave -- corroborating that the scrutiny extended beyond the husband/retaliation matter alone"
     ],
     "evidence": [
       {
@@ -1241,6 +1242,18 @@
         "maps_to_element": "Formal EEO complaints against Chavez-DeRemer's own retaliatory conduct"
       },
       {
+        "type": "public_record",
+        "description": "NBC News reporting that multiple Labor Department staffers were placed on administrative leave amid the Inspector General's broadened internal probe into Chavez-DeRemer, and that the IG investigated whistleblower allegations she had an affair with a member of her security detail and used department resources for personal trips",
+        "source_url": "https://www.nbcnews.com/politics/trump-administration/multiple-labor-department-staffers-are-leave-ig-investigation-secretar-rcna254282",
+        "maps_to_element": "The IG investigation's broadened scope beyond the husband/retaliation matter, and its staffing consequences"
+      },
+      {
+        "type": "reporting",
+        "description": "Reporting that the Inspector General separately investigated Chavez-DeRemer's chief of staff Jihun Han and deputy Rebecca Wright for 'travel fraud' -- allegedly arranging professional events as pretexts for her personal travel -- and that NPR and Government Executive confirmed her April 20, 2026 resignation came as this broadened IG probe neared completion, with Deputy Secretary Keith Sonderling becoming acting secretary",
+        "source_url": "https://www.npr.org/2026/04/20/nx-s1-5739251/labor-secretary-trump-chavez-deremer",
+        "maps_to_element": "The travel-fraud dimension of the broadened IG probe, and confirmation of the resignation date and successor"
+      },
+      {
         "type": "reporting",
         "description": "The Washington Times' reporting confirms Chavez-DeRemer's resignation in April 2026 amid the mounting scandals, as the third Cabinet member to leave within two months",
         "source_url": "https://www.washingtontimes.com/news/2026/apr/20/labor-secretary-lori-chavez-deremer-resigns-scandals-mount/",
@@ -1253,16 +1266,16 @@
         "maps_to_element": "Chavez-DeRemer's own public characterization of her departure and its disputed accuracy"
       }
     ],
-    "status": "Resolved as a personnel matter -- Chavez-DeRemer resigned in April 2026. The formal EEO complaints' individual resolutions were not confirmed in sourcing reviewed as of this entry's addition.",
+    "status": "Resolved as a personnel matter -- Chavez-DeRemer resigned April 20, 2026 as the Inspector General's broadened investigation (spanning the husband/retaliation allegations, a claimed affair with a security-detail member, personal use of department resources, and a chief-of-staff travel-fraud inquiry) neared completion; Deputy Secretary Keith Sonderling became acting secretary. The formal EEO complaints' individual resolutions, and any final IG findings on the broadened personal-conduct and travel-fraud allegations, were not confirmed in sourcing reviewed as of this entry's addition.",
     "rebuttal_anticipated": "Likely defense: EEO complaints are allegations, not adjudicated findings, a spouse's personal conduct should not automatically implicate the Secretary's own official actions, and her resignation does not itself establish the retaliation allegations were true.",
     "comeback": "The Department's own Inspector General independently substantiated the underlying husband-conduct allegations seriously enough to recommend a building ban -- corroborating that the complaining staffers raised a good-faith, credible concern -- which strengthens rather than undermines the separate claim that retaliating against them would itself be a further abuse of power; her resignation amid the allegations, alongside her own disputed 'deep state' framing of the departure, are both consistent with the underlying retaliation claims having substance rather than being purely partisan.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] An individual Cabinet-official accountability matter concerning her own alleged retaliatory conduct, not directly connected to this tracker's broader institutional patterns.",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-06",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence on the sequence of events (allegations, IG building-ban recommendation, EEO complaints, resignation) -- independently corroborated across CBS News, Just the News, and The Washington Times. MODERATE confidence on whether the retaliation allegations against Chavez-DeRemer herself will ultimately be substantiated, since EEO complaints are allegations pending resolution, not adjudicated findings, as of this entry's addition.",
+    "confidence_note": "HIGH confidence on the sequence of events (allegations, IG building-ban recommendation, EEO complaints, the broadened IG probe's affair/personal-travel/travel-fraud allegations, staffers placed on leave, and the April 20, 2026 resignation) -- independently corroborated across CBS News, Just the News, NBC News, NPR, and The Washington Times. MODERATE confidence on whether the retaliation allegations against Chavez-DeRemer herself, or the broadened personal-conduct and travel-fraud allegations, will ultimately be substantiated, since these are whistleblower/IG-investigation allegations pending final resolution, not adjudicated findings, as of this entry's addition.",
     "section_summaries": {
-      "incident_summary": "After her husband was banned from Labor Department HQ over sexual-touching allegations the IG found credible enough to act on, Chavez-DeRemer herself faced EEO complaints alleging she retaliated against the reporting staffers and ran a hostile workplace; she resigned in April 2026, the third Cabinet departure in two months.",
-      "confidence_note": "The event sequence is well-corroborated; whether the retaliation allegations against her personally will be substantiated remains pending as of this entry's addition."
+      "incident_summary": "After her husband was banned from Labor Department HQ over sexual-touching allegations the IG found credible enough to act on, Chavez-DeRemer herself faced EEO retaliation complaints and a broadened IG probe into an alleged affair, personal use of department resources, and a chief-of-staff travel-fraud scheme; she resigned April 20, 2026, the third Cabinet departure in two months.",
+      "confidence_note": "The event sequence is well-corroborated across multiple outlets; whether the retaliation allegations or the broadened personal-conduct/travel-fraud allegations will be substantiated remains pending as of this entry's addition."
     }
   },
   {
@@ -1876,6 +1889,49 @@
     "section_summaries": {
       "incident_summary": "DOJ political appointees halted a Brooklyn criminal inquiry into whether $2.5M+ in payments helped secure Trump's commutation of fraudster David Gentile, despite investigators already having Gentile's own jailhouse messages discussing the payments.",
       "confidence_note": "Strong: original NYT investigative reporting, with the underlying commutation independently corroborated by NBC News; the specific officials who ordered the halt aren't named in reporting reviewed."
+    }
+  },
+  {
+    "official": "Harmeet Dhillon, Assistant Attorney General for Civil Rights",
+    "offense_category": "DOJ Civil Rights Investigation Leveraging an Individual Tragedy Into a Broader Political Campaign Against Local School Policy -- an institutional-accountability claim about DOJ's use of investigative authority, not a criminal charge against any named official",
+    "incident_summary": "The Justice Department's Civil Rights Division, led by Assistant Attorney General Harmeet Dhillon, notified the Los Angeles Unified School District (LAUSD) in a March 2026 letter that it was opening an investigation into the district's 2019 policy directing staff not to disclose a student's gender identity to parents without the student's consent. The letter cited a lawsuit filed by parents Kathleen Mulligan and Andrew Parke, who allege that LAUSD's non-disclosure of their child's social transition isolated them from their child and contributed to the child's suicide two years after graduating from Palisades Charter High School. The investigation also referenced a separate complaint from a female student who alleged the district ignored her warnings about an unrelated perpetrator. Dhillon issued a public statement confirming and criticizing the policy. The LAUSD investigation is part of a broader DOJ pattern of civil rights inquiries into California and other school districts' gender-identity and parental-notification policies, including at least four Northern California districts and a separate Michigan gender-curriculum probe opened around the same period.",
+    "contested": true,
+    "elements_required": [
+      "LAUSD's 2019 policy directs staff not to disclose a student's gender identity to parents without the student's consent",
+      "A specific, tragic case -- parents alleging the policy contributed to their child's suicide -- is the stated trigger for DOJ's investigation, per DOJ's own letter",
+      "DOJ's Civil Rights Division, under a named Assistant Attorney General, opened a formal investigation and issued a public statement criticizing the underlying policy rather than confining itself to the specific case cited",
+      "The LAUSD investigation is one of multiple, similarly-framed DOJ investigations into school districts' gender-identity policies opened in the same period, consistent with a broader civil-rights-enforcement campaign rather than an isolated case-driven inquiry"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Fox News reporting confirms DOJ's Civil Rights Division sent LAUSD a March 2026 letter opening the investigation, citing the Mulligan/Parke lawsuit over their child's suicide and a separate student complaint about an unaddressed perpetrator warning",
+        "source_url": "https://www.foxnews.com/politics/nations-second-largest-school-district-targeted-trump-over-secretive-trans-policy",
+        "maps_to_element": "DOJ's investigation, its stated trigger, and its formal notification to LAUSD"
+      },
+      {
+        "type": "reporting",
+        "description": "LGBTQ Nation's reporting on the underlying parent lawsuit and the specific allegation that LAUSD's non-disclosure of the student's gender identity and social transition contributed to isolation from the family and the student's eventual suicide",
+        "source_url": "https://www.lgbtqnation.com/2026/04/doj-investigates-la-public-schools-after-parents-claim-trans-rights-policy-led-to-childs/",
+        "maps_to_element": "The specific tragic case DOJ's letter cited as its trigger"
+      },
+      {
+        "type": "public_record",
+        "description": "Reporting confirms Assistant Attorney General Harmeet Dhillon publicly confirmed and issued a statement criticizing LAUSD's policy, and that DOJ opened similar investigations into at least four Northern California school districts and a Michigan gender-curriculum probe around the same period",
+        "source_url": "https://www.cbsnews.com/sanfrancisco/news/doj-reviews-california-school-district-sexual-orientation-gender-policies-san-francisco-monterey/",
+        "maps_to_element": "The broader, multi-district pattern and the named official's public statement"
+      }
+    ],
+    "status": "Ongoing as of the reporting reviewed -- DOJ's investigation had not resulted in a public finding, settlement, or enforcement action against LAUSD as of this entry's addition; the underlying parent lawsuit and a separate California state-court challenge to a related non-disclosure policy were proceeding in parallel litigation tracks.",
+    "rebuttal_anticipated": "Likely defense: a parent's allegation that a school policy contributed to their child's death is a legitimate basis for federal civil-rights scrutiny regardless of the policy's origin or purpose, DOJ has statutory authority to investigate potential parental-rights violations in federally-funded school districts, and opening an investigation is not itself a finding of wrongdoing against LAUSD.",
+    "comeback": "The specific concern is not that DOJ investigated a tragic case, but that it used that single case to publicly criticize and target a broader district-wide (and now multi-district, multi-state) policy on parental notification of gender identity -- a politically contested issue predating this investigation -- rather than confining its inquiry to the individual allegations; the pattern of similarly-framed investigations opened against multiple California districts and at least one other state in the same period is more consistent with a coordinated policy campaign than case-by-case civil-rights enforcement.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of DOJ under this administration using investigative and subpoena authority to pursue politically-favored outcomes on gender-identity policy (see also the NYU Langone and Rhode Island Hospital transgender-care subpoena entries), applied here to K-12 school parental-notification policy rather than medical care.",
+    "last_updated": "2026-08-06",
+    "date_added": "2026-08-06",
+    "confidence_note": "HIGH confidence on the core facts -- DOJ's investigation, its March 2026 letter, the cited triggering lawsuit, and Dhillon's public statement are corroborated across Fox News, LGBTQ Nation, and CBS San Francisco reporting on the parallel Northern California investigations. MODERATE confidence on characterizing DOJ's motive as primarily political rather than case-driven, since DOJ has not itself confirmed a broader policy objective beyond the individual cases cited -- the multi-district pattern is circumstantial support for that characterization, not a DOJ admission.",
+    "section_summaries": {
+      "incident_summary": "DOJ's Civil Rights Division opened an investigation into LAUSD's gender-identity non-disclosure policy after parents alleged it contributed to their child's suicide, part of a broader wave of similar DOJ investigations into school districts' parental-notification policies nationwide.",
+      "confidence_note": "Core facts are well-corroborated across multiple outlets; whether DOJ's motive is primarily political or case-driven is circumstantially, not directly, supported by the multi-district pattern."
     }
   },
   {
