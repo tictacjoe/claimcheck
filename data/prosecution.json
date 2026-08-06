@@ -721,6 +721,43 @@
     }
   },
   {
+    "official": "Pam Bondi, then-Attorney General",
+    "offense_category": "Wholesale Deprioritization of Federal Criminal Enforcement Outside Immigration -- a prosecutorial-discretion and resource-allocation accountability claim, not an allegation that declining any specific case was individually improper",
+    "incident_summary": "A ProPublica investigation, examining two decades of DOJ case-declination data, found DOJ under Attorney General Pam Bondi closed more than 23,000 criminal investigations without prosecution in the first six months of the administration -- including cases involving terrorism, fraud, corruption, labor racketeering, drug trafficking, and environmental crimes -- while ramping up immigration prosecutions. The majority of the declined cases had been referred to DOJ by law enforcement agencies, including under prior administrations, whose investigators believed a federal crime may have been committed. February 2025 alone, covering the first weeks of Bondi's tenure, saw nearly 11,000 declinations -- the most in a single month since at least 2004, when comparable data begins, and far exceeding the prior monthly high of roughly 6,500 declinations set in September 2019 during Trump's first term. ProPublica's analysis found the increase was not attributable to a larger inherited caseload or increased referral volume from law enforcement, indicating a deliberate shift in prosecutorial priority rather than a passive resourcing effect.",
+    "contested": true,
+    "elements_required": [
+      "DOJ declined to prosecute more than 23,000 referred criminal investigations in the administration's first six months, a specific, quantified figure from ProPublica's own data analysis",
+      "The declined cases span multiple serious categories (terrorism, fraud, corruption, labor racketeering, drugs, environmental crimes), not a single narrow category",
+      "The February 2025 monthly declination total (~11,000) is the highest in at least two decades of comparable data, exceeding even the prior high recorded during Trump's first term",
+      "ProPublica's analysis ruled out caseload inheritance or referral-volume increases as explanations, supporting a characterization of the decline as a deliberate prioritization shift toward immigration enforcement"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "ProPublica's own investigation and data analysis, examining two decades of DOJ declination records, documenting the 23,000+ figure, the February 2025 ~11,000-case monthly high, and the specific case categories affected",
+        "source_url": "https://www.propublica.org/article/trump-doj-immigration-bondi-declinations-criminal-investigations",
+        "maps_to_element": "Full fact pattern -- aggregate declination count, monthly high, and affected case categories"
+      },
+      {
+        "type": "reporting",
+        "description": "The ABA Journal's coverage confirming ProPublica's findings and characterizing the pattern as a shift toward immigration enforcement at the expense of other federal criminal enforcement priorities",
+        "source_url": "https://www.abajournal.com/news/article/doj-dropped-criminal-investigations-in-immigration-shift",
+        "maps_to_element": "Independent corroboration of the shift's scale and direction"
+      }
+    ],
+    "status": "Ongoing as of this entry's addition -- the declination pattern was documented for the administration's first six months; no policy reversal or DOJ on-record explanation beyond the immigration-priority shift itself was identified in sourcing reviewed",
+    "rebuttal_anticipated": "Likely defense: prosecutorial discretion over which referred cases to pursue is a core, constitutionally protected executive-branch function, immigration enforcement is a legitimate stated administration priority that necessarily draws resources from other areas, and declining a case does not mean no crime occurred -- it can reflect legitimate case-strength, evidentiary, or resource-allocation judgments made on the merits of each individual referral.",
+    "comeback": "The specific concern is not that DOJ exercises prosecutorial discretion -- discretion is inherent to the office -- but the scale and abruptness of the shift documented by ProPublica's own data analysis: a monthly declination total unmatched in at least two decades, occurring in the administration's very first weeks, spanning serious categories like terrorism and corruption, and specifically ruled out by ProPublica as attributable to caseload or referral-volume changes -- indicating a deliberate, wholesale deprioritization of enforcement outside immigration rather than case-by-case merit-based declinations.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DOJ resources under Bondi being redirected toward immigration enforcement and administration political priorities at the expense of traditional federal law enforcement functions (see also doj-law-enforcement-staffing-cuts-immigration-redirect-2026.json).",
+    "last_updated": "2026-08-06",
+    "date_added": "2026-08-06",
+    "confidence_note": "HIGH confidence -- the core figures (23,000+ declinations, the ~11,000 February 2025 monthly high, the affected case categories) come from ProPublica's own dedicated data analysis of two decades of DOJ records, independently corroborated by the ABA Journal's coverage of the same findings. MODERATE confidence on characterizing the shift as deliberately immigration-driven policy versus an aggregation of individually justified case-by-case declinations, since ProPublica's causal analysis (ruling out caseload/referral explanations) is the strongest available evidence but not an on-record DOJ admission of the specific motive.",
+    "section_summaries": {
+      "incident_summary": "ProPublica found DOJ under Bondi closed 23,000+ criminal investigations -- terrorism, fraud, corruption, labor racketeering, drugs, environmental crimes -- in six months while ramping up immigration prosecutions, including a record ~11,000 declinations in February 2025 alone, the highest monthly total in at least two decades and not explained by caseload or referral-volume changes.",
+      "confidence_note": "The declination figures and their scale are well-documented via ProPublica's own dedicated data analysis; whether the shift reflects deliberate immigration-focused policy versus aggregated individual case judgments is a disputed characterization, though ProPublica's analysis found no alternative explanation."
+    }
+  },
+  {
     "official": "Pam Bondi, Attorney General Jan 2025-Apr 2026 (oversaw the dismantling); Todd Blanche, Acting Attorney General since April 2026, has not restored the unit",
     "offense_category": "Deliberate impairment of federal public-corruption enforcement combined with a pattern of pardons for politically-connected allies -- no criminal charge against Bondi or Blanche personally; this is an institutional-capacity and accountability-evasion claim, not a completed prosecution",
     "contested": false,

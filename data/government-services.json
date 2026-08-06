@@ -620,7 +620,7 @@
     "domain": "protection_rollback",
     "status": "In effect as of the January 5, 2026 Decision Memo; under active legal challenge from a 15-state coalition as of this entry's addition",
     "date_of_action": "2026-01-05 (CDC Decision Memo)",
-    "what_changed": "Then-acting CDC Director Jim O'Neill signed a January 5, 2026 'Decision Memo' demoting seven childhood vaccines -- protecting against rotavirus, several forms of meningitis, hepatitis A, hepatitis B, influenza, COVID-19, and RSV -- from 'universally recommended' status to a narrower 'shared clinical decision-making' category, under which the vaccines are recommended only for certain high-risk groups or when an individual doctor recommends them case-by-case, rather than as standard guidance for all children. A coalition of 15 states (Arizona, California, Colorado, Connecticut, Delaware, Maine, Maryland, Michigan, Minnesota, New Jersey, New Mexico, Oregon, Pennsylvania, Rhode Island, and Wisconsin) sued the federal government on February 24-25, 2026, arguing the change put children's lives at risk and was made without adequate scientific basis.",
+    "what_changed": "Then-acting CDC Director Jim O'Neill signed a January 5, 2026 'Decision Memo' demoting seven childhood vaccines -- protecting against rotavirus, several forms of meningitis, hepatitis A, hepatitis B, influenza, COVID-19, and RSV -- from 'universally recommended' status to a narrower 'shared clinical decision-making' category, under which the vaccines are recommended only for certain high-risk groups or when an individual doctor recommends them case-by-case, rather than as standard guidance for all children. A coalition of 15 states (Arizona, California, Colorado, Connecticut, Delaware, Maine, Maryland, Michigan, Minnesota, New Jersey, New Mexico, Oregon, Pennsylvania, Rhode Island, and Wisconsin) sued the federal government on February 24-25, 2026, arguing the change put children's lives at risk and was made without adequate scientific basis. A Stanford-backed epidemiological model, published by ProPublica, projected the long-term consequences if childhood vaccination rates continued declining toward disappearance: researchers estimated a measles resurgence alone could kill roughly 290,000 people over subsequent decades, with tens of thousands more deaths and disabilities from the return of polio, rubella, and diphtheria -- diseases effectively eliminated in the U.S. for decades. This is a projected, modeled long-term scenario, not an observed outcome, but it quantifies the stakes of the schedule-recommendation changes and related vaccine-policy shifts documented in this entry and elsewhere in this tracker.",
     "primary_proponent": {
       "name": "Jim O'Neill",
       "role": "Then-Acting CDC Director",
@@ -630,10 +630,10 @@
       "summary": "Removing universal-recommendation status for seven major childhood vaccines -- shifting them to a narrower, doctor-by-doctor 'shared decision-making' framework -- risks reduced vaccination rates for diseases including influenza, hepatitis, RSV, and rotavirus, compounding the measles-vaccination-rate concerns this tracker separately documents (rfk-jr-measles-data-diversion-2025.json, rfk-allies-state-vaccine-mandate-repeal-2026.json).",
       "caveat": "The 15-state lawsuit was filed shortly after the Decision Memo's issuance and had not been resolved as of this entry's addition -- this entry documents the policy change and the legal challenge to it, not a final judicial or scientific determination of the change's merits."
     },
-    "confidence_note": "HIGH confidence -- the Decision Memo's date, signatory, and specific vaccine list, plus the 15-state lawsuit's filing and participant states, are independently corroborated across CNN, the California Governor's office's own press release, and multiple state Attorneys General's coordinated announcements.",
-    "last_verified": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the Decision Memo's date, signatory, and specific vaccine list, plus the 15-state lawsuit's filing and participant states, are independently corroborated across CNN, the California Governor's office's own press release, and multiple state Attorneys General's coordinated announcements. Re-verified 2026-08-06: a Stanford-backed model published by ProPublica projects ~290,000 measles deaths over subsequent decades under a vaccine-disappearance scenario -- a modeled projection, not an observed outcome, cited here to quantify stakes rather than as a measured result.",
+    "last_verified": "2026-08-06",
     "date_added": "2026-08-05",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-06",
     "sources": [
       {
         "name": "CNN -- 'States sue Trump administration over changes to childhood vaccine recommendations'",
@@ -646,6 +646,10 @@
       {
         "name": "OPB -- 'Democratic AGs sue the CDC over change in childhood vaccine recommendation'",
         "url": "https://www.opb.org/article/2026/02/26/democratic-ags-sue-the-cdc-over-change-in-childhood-vaccine-recommendation/"
+      },
+      {
+        "name": "ProPublica -- Stanford-backed childhood vaccine disappearance modeling project",
+        "url": "https://projects.propublica.org/childhood-vaccines-deaths-modeling/"
       }
     ],
     "section_summaries": {
@@ -1117,7 +1121,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing (Kristi Noem was replaced as DHS Secretary by Markwayne Mullin, confirmed March 24, 2026; Mullin says the president has met with a likely CISA director nominee; DHS plans roughly 600 new CISA hires once a director is confirmed, with an initial 329-role 'mission-critical' hiring plan already underway -- about 180 tentative offers were out by the end of June 2026)",
     "date_of_action": "2025-01 through 2026-06 (rolling cuts across multiple rounds: buyouts, layoffs, forced reassignments)",
-    "what_changed": "Since January 2025, CISA -- the nation's primary civilian cyber-defense agency, created in 2018 specifically to coordinate federal response to critical infrastructure attacks -- lost roughly 1,000 employees, about one-third of its workforce, through a combination of buyout offers, early retirements, formal layoffs (reduction-in-force notices), and Management Directed Reassignments transferring CISA staff to ICE, CBP, FEMA, and the Federal Protective Service (refusing a reassignment could be grounds for termination). By June 2026, of CISA's authorized 3,292 positions, only 2,324 were actually filled -- a nearly 1,000-position gap. Five of the agency's ten regional directors were serving only in acting capacity, disrupting the primary points of contact state and local governments rely on for federal cybersecurity assistance. Separately and specifically, DHS Secretary Kristi Noem personally halted federal funding for the Multi-State Information Sharing and Analysis Center (MS-ISAC) in March 2025, eliminating roughly $8.3 million of its remaining 2025 budget -- MS-ISAC provided threat-sharing services to state and local governments. The cuts disproportionately hit CISA's election security and disinformation-monitoring functions, which had drawn Republican criticism as politically biased 'censorship' under the prior administration. The agency has operated without a permanent, Senate-confirmed director since January 2025; Trump's first nominee, Sean Plankey, withdrew after senior senators blocked his confirmation. Sean Plankey, Trump's nominee to lead CISA, withdrew his own nomination in April 2026, writing 'After thirteen months since my initial nomination, it has become clear the Senate will not confirm me' -- the nomination had been held up by a mix of Democratic senators (Ron Wyden, over a withheld telecom-security report) and Republican senators (Rick Scott, over an unrelated Coast Guard shipbuilding dispute), plus broader holds affecting all DHS nominees. CISA is now led by acting director Nick Andersen. Separately, CISA announced plans for a 2026 hiring push, with agency officials citing the workforce reductions as having hampered preparedness for potential conflict with China. Update 2026-07-26 (correction): Kristi Noem was replaced as DHS Secretary by Markwayne Mullin, confirmed by the Senate 54-45 on March 24, 2026 -- a leadership change this entry's prior recheck missed. Mullin has since said the president has met with a likely CISA director nominee (not yet named or formally nominated as of this update) and that DHS believes CISA needs roughly 600 new hires, though a full rebuild can't proceed in earnest until a director is confirmed. In the meantime, CISA has begun an initial hiring plan for 329 'mission-critical' roles, with about 180 tentative job offers extended by the end of June 2026 -- the first concrete numbers behind the 'planned 2026 hiring push' this entry previously described only in general terms. Update 2026-07-27: state election officials from both parties told USA Today that, ahead of the 2026 midterms, they no longer expect federal agencies to reliably share election-threat intelligence with them -- a direct downstream consequence of the CISA staffing cuts and reduced regional-director capacity already described above. States say they're increasingly relying on private technology companies and nonprofits to fill the gap in federal threat-sharing coordination. The February 2026 DHS funding lapse compounded this attrition: The New York Times reported CISA furloughed more than half of its remaining workforce during the shutdown, leaving fewer than 1,000 employees on duty at the nation's primary civilian cyber-defense agency during the funding gap. In February 2026, acting CISA Director Madhu Gottumukkala moved to reassign two senior career officials -- CIO Bob Costello (CISA's CIO for over four years) and acting Chief Human Capital Officer Kevin Diana -- giving them seven days to accept new roles elsewhere in DHS or resign, following an earlier unsuccessful attempt to oust Costello over a contracting-decision dispute that other political appointees had previously intervened to stop.",
+    "what_changed": "Since January 2025, CISA -- the nation's primary civilian cyber-defense agency, created in 2018 specifically to coordinate federal response to critical infrastructure attacks -- lost roughly 1,000 employees, about one-third of its workforce, through a combination of buyout offers, early retirements, formal layoffs (reduction-in-force notices), and Management Directed Reassignments transferring CISA staff to ICE, CBP, FEMA, and the Federal Protective Service (refusing a reassignment could be grounds for termination). By June 2026, of CISA's authorized 3,292 positions, only 2,324 were actually filled -- a nearly 1,000-position gap. Five of the agency's ten regional directors were serving only in acting capacity, disrupting the primary points of contact state and local governments rely on for federal cybersecurity assistance. Separately and specifically, DHS Secretary Kristi Noem personally halted federal funding for the Multi-State Information Sharing and Analysis Center (MS-ISAC) in March 2025, eliminating roughly $8.3 million of its remaining 2025 budget -- MS-ISAC provided threat-sharing services to state and local governments. The cuts disproportionately hit CISA's election security and disinformation-monitoring functions, which had drawn Republican criticism as politically biased 'censorship' under the prior administration. The agency has operated without a permanent, Senate-confirmed director since January 2025; Trump's first nominee, Sean Plankey, withdrew after senior senators blocked his confirmation. Sean Plankey, Trump's nominee to lead CISA, withdrew his own nomination in April 2026, writing 'After thirteen months since my initial nomination, it has become clear the Senate will not confirm me' -- the nomination had been held up by a mix of Democratic senators (Ron Wyden, over a withheld telecom-security report) and Republican senators (Rick Scott, over an unrelated Coast Guard shipbuilding dispute), plus broader holds affecting all DHS nominees. CISA is now led by acting director Nick Andersen. Separately, CISA announced plans for a 2026 hiring push, with agency officials citing the workforce reductions as having hampered preparedness for potential conflict with China. Update 2026-07-26 (correction): Kristi Noem was replaced as DHS Secretary by Markwayne Mullin, confirmed by the Senate 54-45 on March 24, 2026 -- a leadership change this entry's prior recheck missed. Mullin has since said the president has met with a likely CISA director nominee (not yet named or formally nominated as of this update) and that DHS believes CISA needs roughly 600 new hires, though a full rebuild can't proceed in earnest until a director is confirmed. In the meantime, CISA has begun an initial hiring plan for 329 'mission-critical' roles, with about 180 tentative job offers extended by the end of June 2026 -- the first concrete numbers behind the 'planned 2026 hiring push' this entry previously described only in general terms. Update 2026-07-27: state election officials from both parties told USA Today that, ahead of the 2026 midterms, they no longer expect federal agencies to reliably share election-threat intelligence with them -- a direct downstream consequence of the CISA staffing cuts and reduced regional-director capacity already described above. States say they're increasingly relying on private technology companies and nonprofits to fill the gap in federal threat-sharing coordination. The February 2026 DHS funding lapse compounded this attrition: The New York Times reported CISA furloughed more than half of its remaining workforce during the shutdown, leaving fewer than 1,000 employees on duty at the nation's primary civilian cyber-defense agency during the funding gap. In February 2026, acting CISA Director Madhu Gottumukkala moved to reassign two senior career officials -- CIO Bob Costello (CISA's CIO for over four years) and acting Chief Human Capital Officer Kevin Diana -- giving them seven days to accept new roles elsewhere in DHS or resign, following an earlier unsuccessful attempt to oust Costello over a contracting-decision dispute that other political appointees had previously intervened to stop. A separate, acute crisis compounded the permanent staffing loss: ABC News reported that with DHS unfunded for 45 days during the early-2026 shutdown, CISA furloughed roughly 60% of its remaining workforce, disrupting vulnerability assessments and further weakening federal cyber defenses at a time when officials were warning of rising Iran-linked cyber threats to critical infrastructure, including power, water, and federal civilian networks.",
     "primary_proponent": {
       "name": "Kristi Noem (at the time of the MS-ISAC defunding action) / Markwayne Mullin (current DHS Secretary, confirmed March 24, 2026, replacing Noem)",
       "role": "Secretary of Homeland Security (CISA's parent department)",
@@ -1150,6 +1154,11 @@
           "metric": "Regional directors serving only in acting capacity",
           "value": "5 of 10",
           "source": "Sen. Mark Warner's June 2026 letter"
+        },
+        {
+          "metric": "Share of remaining CISA workforce furloughed during the 45-day DHS funding lapse",
+          "value": "~60%",
+          "source": "ABC News, April 2026"
         }
       ],
       "caveat": "CISA's own acting leadership disputes that the cuts have reduced operational capability, pointing to 2025 output metrics (incidents triaged, victims assisted) as evidence the agency is 'doing more with less.' This is a genuinely contested empirical question -- output volume from a smaller staff doesn't necessarily mean nothing has degraded (e.g., in depth of engagement, regional relationship continuity, or unaddressed threats never triaged at all), but the tracker should present both the workforce reduction figures and the agency's own counter-claim of maintained capability rather than asserting degraded security as an already-proven fact."
@@ -1160,7 +1169,7 @@
       "estimated_impact": "Sen. Warner warned the planned rehiring is insufficient against current threats, though acting CISA leadership disputes that its capability has actually declined.",
       "confidence_note": "Well-documented with specific figures; whether the cuts have actually weakened capability is a live dispute between agency leadership and outside congressional oversight."
     },
-    "last_verified": "2026-08-05",
+    "last_verified": "2026-08-06",
     "date_added": "2026-07-07",
     "sources": [
       {
@@ -1204,7 +1213,7 @@
         "url": "https://subscriber.politicopro.com/article/2026/02/two-senior-cisa-officials-reassigned-after-earlier-attempted-ouster-00802270"
       }
     ],
-    "last_updated": "2026-07-26"
+    "last_updated": "2026-08-06"
   },
   {
     "id": "cpb-defunding-dissolution-trump2",
@@ -2111,6 +2120,59 @@
       }
     ],
     "last_updated": "2026-07-27"
+  },
+  {
+    "id": "education-dept-save-plan-termination-2026",
+    "title": "Education Department Ended the SAVE Student-Loan Repayment Plan for 7.5 Million Borrowers, Directing Them Into Costlier Replacement Plans",
+    "institution": "Department of Education",
+    "domain": "funding_redirection",
+    "status": "Finalized -- SAVE plan ended; borrowers given 90 days from the July 1, 2026 servicer-notice start date to select a new plan",
+    "date_of_action": "2026-03 (borrowers directed to prepare) through 2026-07 (90-day selection window begins)",
+    "what_changed": "A federal court struck down the SAVE (Saving on a Valuable Education) student-loan repayment plan -- a Biden-era program that had reduced payments to as little as 5% of a borrower's discretionary income and offered forgiveness after 10 years for borrowers who originally borrowed $12,000 or less -- as unlawful. Roughly 7.5 million borrowers had been in interest-free forbearance since July 2024 while litigation over the plan proceeded. In late March 2026, the Education Department directed those 7.5 million borrowers to prepare to exit SAVE, ending their forbearance. Starting July 1, 2026, loan servicers began issuing notices giving borrowers 90 days to select a new repayment plan; the Department's chosen replacement option, a new income-driven plan called the Repayment Assistance Plan, ties payments to income and household size with fixed 10-25-year terms, but results in higher monthly payments for most affected borrowers than SAVE had. Borrowers exiting forbearance without selecting a new plan in time would resume payments automatically under a plan that could be substantially costlier than what they had budgeted for during the two years of forbearance.",
+    "primary_proponent": {
+      "name": "Department of Education",
+      "role": "Federal agency administering student loan repayment programs",
+      "note": "Implements the court ruling striking down SAVE; the specific 90-day timeline and the design of the replacement Repayment Assistance Plan (resulting in higher payments for most affected borrowers) reflect the Department's own implementation choices rather than being directly mandated by the court's ruling."
+    },
+    "estimated_impact": {
+      "summary": "7.5 million borrowers who had budgeted around SAVE's low, income-based payments -- some for nearly two years of forbearance -- were given a 90-day window to transition to a replacement plan that results in higher monthly payments for most of them, a renewed financial strain following an extended period of payment relief.",
+      "figures": [
+        {
+          "metric": "Borrowers affected by the SAVE plan's termination",
+          "value": "7.5 million",
+          "source": "Department of Education, cited by CBS News, March 2026"
+        },
+        {
+          "metric": "Days borrowers are given to select a new repayment plan once notices begin (July 1, 2026)",
+          "value": "90",
+          "source": "Department of Education, cited by CBS News, March 2026"
+        }
+      ],
+      "caveat": "The SAVE plan's termination stems from an adverse court ruling the Department did not control, not solely a discretionary policy choice; the specific replacement plan's design and the 90-day timeline, however, are Department implementation decisions distinct from the underlying court ruling itself."
+    },
+    "confidence_note": "HIGH confidence -- the 7.5 million borrower count, the court ruling striking down SAVE, the forbearance timeline, and the 90-day notice window are independently corroborated across CBS News, KSAT, the Department of Education's own press release, and Sen. Merkley's public letter on the transition. MODERATE confidence on the precise payment-increase magnitude for typical borrowers under the Repayment Assistance Plan, since that comparison depends on individual income and loan-balance circumstances not uniformly quantified in sourcing reviewed.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "CBS News -- 'Education Department tells 7.5 million student loan borrowers in illegal SAVE plan to prepare for repayment'",
+        "url": "https://www.cbsnews.com/news/education-department-save-plan-studen-loan-repayment/"
+      },
+      {
+        "name": "U.S. Department of Education -- 'Announces Next Steps for Borrowers Enrolled in the Unlawful SAVE Plan'",
+        "url": "https://www.ed.gov/about/news/press-release/us-department-of-education-announces-next-steps-borrowers-enrolled-unlawful-save-plan"
+      },
+      {
+        "name": "Sen. Jeff Merkley -- Letter on the SAVE Plan transition",
+        "url": "https://www.merkley.senate.gov/wp-content/uploads/Final-SAVE-Plan-Letter-3.4.26.pdf"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "After a court struck down the SAVE student-loan repayment plan, the Education Department ended forbearance for 7.5 million borrowers, giving them a 90-day window starting July 1, 2026 to switch to a replacement plan (the Repayment Assistance Plan) that results in higher payments for most.",
+      "estimated_impact": "7.5 million borrowers face renewed financial strain and, for most, higher monthly payments after nearly two years of low-cost forbearance.",
+      "confidence_note": "Well-corroborated via the Department's own release, CBS News, and a Senate letter; the SAVE plan's end stems from a court ruling, while the replacement plan's design and timeline are the Department's own implementation choices."
+    }
   },
   {
     "id": "eeoc-commissioner-firing-quorum-loss-trump2",
@@ -4179,6 +4241,59 @@
     ]
   },
   {
+    "id": "hud-supportive-housing-shift-2026",
+    "title": "HUD Proposed Shifting Two-Thirds of Its $3.9B Homeless-Services Program From Permanent Supportive Housing to Short-Term Shelter, Risking Eviction for 170,000 People",
+    "institution": "Department of Housing and Urban Development",
+    "domain": "funding_redirection",
+    "status": "Blocked by a federal court as of January 2026, but litigation continued and advocates described the risk as still live as of March 2026 reporting",
+    "date_of_action": "2025-11 (NOFO released) through 2026-01 (court blocks it, HUD reinstates prior NOFO) and ongoing litigation into 2026-03",
+    "what_changed": "In November 2025, HUD released a Notice of Funding Opportunity for its Continuum of Care Program -- which funds shelters, permanent supportive housing, and other homelessness responses -- proposing to shift roughly two-thirds of the program's $3.9 billion budget away from permanent supportive housing and toward transitional housing and other short-term interventions. Advocacy groups estimated up to 170,000 formerly homeless people already housed through these programs, including veterans, could be evicted and forced back into homelessness if facilities lost their permanent-housing funding and had to convert to short-term models. Nonprofits and local governments sued to block the change. On December 23, 2025, a federal judge ordered HUD to revert to the original, Biden-era NOFO pending a final ruling, and HUD reinstated the prior funding notice on January 9, 2026. California Attorney General Rob Bonta separately secured a court order blocking the changes, which he said would also have pressured shelters to discriminate against transgender people and encouraged criminalization of homelessness. Despite the reinstatement, CNN's March 29, 2026 reporting described the eviction risk to formerly homeless people, including veterans, as still live, reflecting that the underlying litigation over HUD's authority to make the shift had not been finally resolved.",
+    "primary_proponent": {
+      "name": "Department of Housing and Urban Development",
+      "role": "Federal agency administering the Continuum of Care Program",
+      "note": "Sourcing reviewed did not identify a single named HUD official personally driving the NOFO change; attributed institutionally pending more specific sourcing."
+    },
+    "estimated_impact": {
+      "summary": "A proposed redirection of roughly two-thirds of a $3.9 billion federal homelessness-services program away from permanent housing and toward short-term interventions was blocked by a federal court, but the underlying legal dispute over HUD's authority to make the change remained unresolved months later, leaving up to 170,000 formerly homeless people -- including veterans -- at continued risk of eviction back into homelessness.",
+      "figures": [
+        {
+          "metric": "Continuum of Care Program funds affected by the proposed shift",
+          "value": "~2/3 of $3.9 billion",
+          "source": "Shelterforce, citing HUD's own November 2025 NOFO"
+        },
+        {
+          "metric": "Formerly homeless people, including veterans, at risk of eviction if the shift proceeds",
+          "value": "up to 170,000",
+          "source": "Advocacy groups, cited by CNN, March 2026"
+        }
+      ],
+      "caveat": "The specific funding shift was blocked by a federal court as of December 2025/January 2026, and HUD reinstated the prior funding notice -- this entry documents a proposed and judicially blocked action, not a change that has actually taken effect, though continued litigation left the underlying risk unresolved as of the most recent reporting reviewed."
+    },
+    "confidence_note": "HIGH confidence -- the NOFO's terms, the $3.9 billion program scope, the 170,000-person risk estimate, the December 2025 court order, and HUD's January 2026 reinstatement of the prior notice are all independently corroborated across Shelterforce, CNN, Yahoo News, and California AG Bonta's own press release confirming a court order in the state's favor. MODERATE confidence on the precise current legal status as of mid-2026, since sourcing reviewed did not identify a final resolution of the underlying litigation.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "Shelterforce -- 'Judge Blocks HUD's Effort to Overhaul Federal Funding for Homeless Services'",
+        "url": "https://shelterforce.org/2026/01/23/judge-blocks-hud-overhaul-federal-funding-for-homelessness-services/"
+      },
+      {
+        "name": "CNN -- 'Formerly homeless people, including veterans, could be evicted if Trump administration plan is implemented'",
+        "url": "https://www.cnn.com/2026/03/29/politics/homeless-veterans-evicted-hud-plan"
+      },
+      {
+        "name": "California Attorney General -- 'Attorney General Bonta Secures Court Order Blocking HUD Changes that Would Worsen Homelessness Crisis'",
+        "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-secures-court-order-blocking-hud-changes-would-worsen"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "HUD proposed shifting ~2/3 of its $3.9B homeless-services funding from permanent supportive housing to short-term shelter, risking eviction for up to 170,000 formerly homeless people including veterans; a court blocked the change in Dec. 2025 and HUD reinstated the prior funding notice, but litigation continued and the risk remained live as of March 2026.",
+      "estimated_impact": "A federal court blocked the funding shift, but continued litigation left up to 170,000 formerly homeless people at ongoing risk.",
+      "confidence_note": "Well-corroborated via multiple outlets and the California AG's own press release; the litigation's final resolution wasn't identified in sourcing reviewed."
+    }
+  },
+  {
     "id": "hudson-tunnel-gateway-funding-freeze-2026",
     "title": "Trump Administration Froze $16B in Committed Funding for the Hudson River Tunnel Project, Threatening Construction Shutdown",
     "institution": "U.S. Department of Transportation",
@@ -4874,6 +4989,51 @@
       "what_changed": "Makary quit as FDA Commissioner after Trump pushed him to approve flavored vapes he didn't want to approve, plus separate internal pressure to restrict the abortion pill.",
       "estimated_impact": "The FDA's top job is now vacant and filled only on an acting basis, on top of the vaccine division's already well-documented leadership chaos.",
       "confidence_note": "Well-corroborated across major outlets; the specific claim that the vape dispute was the direct trigger for resignation traces to one sourced CBS News claim, though both disputes are independently confirmed as contributing factors."
+    }
+  },
+  {
+    "id": "medicaid-hospital-closure-risk-2026",
+    "title": "446 Hospitals Across 44 States Found at High Risk of Closing or Cutting Services Because of Republican Medicaid Cuts",
+    "institution": "Centers for Medicare & Medicaid Services / hospitals nationwide reliant on Medicaid funding",
+    "domain": "funding_redirection",
+    "status": "Ongoing -- risk assessment based on funding changes already enacted (OBBBA) and being implemented (work-requirements rule documented separately in this tracker)",
+    "date_of_action": "2025-07 (OBBBA Medicaid funding provisions signed into law) through 2026-04 (hospital risk analysis published)",
+    "what_changed": "A new analysis found that 446 hospitals across 44 states and Washington, D.C. are at high risk of closing or cutting services as a result of Medicaid funding reductions enacted in the One Big Beautiful Bill Act (OBBBA), the same law whose work-requirements provisions are documented separately in this tracker (medicaid-work-requirements-cms-rule-2026.json). Many of the at-risk hospitals already operate at a financial loss and rely heavily on Medicaid reimbursement to remain viable; NBC News reported the cuts put jobs, maternity care, mental health services, and general local access to treatment at risk in the affected communities, particularly in rural and underserved areas where Medicaid patients make up an outsized share of hospital revenue.",
+    "primary_proponent": {
+      "name": "Congressional Republicans / Trump administration",
+      "role": "Enacted and implemented the OBBBA's Medicaid funding reductions",
+      "note": "The underlying Medicaid funding cuts were enacted through the OBBBA reconciliation legislation Trump signed July 4, 2025; sourcing reviewed did not identify a single named administration official personally responsible for the hospital-level risk analysis's findings, which is an independent third-party assessment of the funding law's downstream effects."
+    },
+    "estimated_impact": {
+      "summary": "Nearly 450 hospitals nationwide -- spanning 44 states and the District of Columbia -- were found to be at high financial risk from reduced Medicaid funding, threatening not just coverage for Medicaid beneficiaries but broader local access to jobs, maternity care, mental health services, and emergency treatment in the communities those hospitals serve.",
+      "figures": [
+        {
+          "metric": "Hospitals found at high risk of closing or cutting services",
+          "value": "446",
+          "source": "Analysis cited by NBC News, April 2026"
+        },
+        {
+          "metric": "States (plus D.C.) with at-risk hospitals",
+          "value": "44 + D.C.",
+          "source": "Analysis cited by NBC News, April 2026"
+        }
+      ],
+      "caveat": "This is a risk analysis projecting financial vulnerability based on current Medicaid funding levels and hospital operating margins, not a confirmed count of hospitals that have already closed or cut services as a direct, adjudicated result of the OBBBA cuts specifically."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- the 446-hospital figure and its state-level scope come from a specific analysis cited by NBC News; sourcing reviewed did not independently verify the analysis's full methodology (e.g., which organization produced it or its underlying risk-scoring criteria) beyond NBC's reporting. The underlying OBBBA Medicaid funding cuts are well-documented public record. Present the 446 figure as a credentialed risk projection, not a confirmed closure count.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "NBC News -- 'Medicaid cuts threaten hundreds of hospitals, new report finds'",
+        "url": "https://www.nbcnews.com/health/health-news/medicaid-cuts-threaten-hundreds-hospitals-new-report-finds-rcna265789"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "An analysis found 446 hospitals across 44 states and D.C. are at high risk of closing or cutting services due to OBBBA's Medicaid funding cuts, many already operating at a loss and heavily reliant on Medicaid reimbursement.",
+      "estimated_impact": "Nearly 450 hospitals face financial risk, threatening jobs, maternity care, mental health services, and local treatment access in affected communities.",
+      "confidence_note": "The 446-hospital figure comes from a specific analysis cited by NBC News; the analysis's full methodology wasn't independently verified beyond that reporting."
     }
   },
   {
