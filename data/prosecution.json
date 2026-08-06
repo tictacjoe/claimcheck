@@ -5411,6 +5411,49 @@
   },
   {
     "official": "Donald Trump, President",
+    "offense_category": "Selective Clemency Pattern -- Pardoning Convicted Fraudsters (Many Donors/Allies) While Publicly Launching a New Anti-Fraud Enforcement Initiative -- clemency is a constitutional presidential power, not itself unlawful; the accountability claim concerns the pattern's inconsistency and its ties to political/financial support",
+    "incident_summary": "The New York Times reported Trump has granted clemency to more than 70 people convicted of fraud across his two terms, including numerous donors and allies, with those pardoned owing a combined $700 million in restitution and fines that the clemency wiped out. Specific documented cases include Philip Esformes, sentenced to 20 years for a $1.3 billion Medicare/Medicaid fraud scheme prosecutors called the largest-ever criminal health care fraud case brought against individuals; Salomon Melgen, a Palm Beach doctor sentenced to 17 years for stealing more than $42 million from Medicare; Trevor Milton, founder of electric-vehicle startup Nikola, pardoned after he and his wife donated $1.8 million to the Trump campaign; and Julio Herrera Velutini, granted clemency after his daughter donated $3.5 million to the pro-Trump PAC MAGA Inc. (Trump's pardon of Republican donor Adam Kidan, tracked separately in this database, fits the same pattern.) On March 16, 2026, Trump signed an executive order establishing a new 'Task Force to Eliminate Fraud,' to be led by Vice President JD Vance, publicly framing fraud enforcement as an administration priority even as the pardon pattern continued.",
+    "contested": true,
+    "elements_required": [
+      "Trump has pardoned or commuted the sentences of more than 70 people convicted of fraud, a documented aggregate figure, not isolated anecdotes",
+      "A substantial share of those pardoned are documented donors or personal/political allies, with specific pardons following documented campaign or PAC contributions from the recipient or their family",
+      "The pardons collectively wiped out approximately $700 million in court-ordered restitution and fines owed to defrauded victims and taxpayers",
+      "The pattern continued alongside, rather than being reconciled with, a new public anti-fraud enforcement initiative launched by the same administration"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "The New York Times's investigation documenting the 70+ fraud pardons, the $700 million in wiped-out restitution/fines, and specific cases including Esformes and Melgen's health care fraud convictions",
+        "source_url": "https://www.nytimes.com/2026/03/19/us/politics/trump-fraudsters-pardons.html",
+        "maps_to_element": "Aggregate pardon count and the restitution/fines wiped out"
+      },
+      {
+        "type": "reporting",
+        "description": "Rolling Stone's reporting connecting the pardon pattern directly to the administration's own new 'war on fraud' framing, and documenting the Milton and Herrera Velutini pardons' specific ties to campaign/PAC donations from the recipients or their families",
+        "source_url": "https://www.rollingstone.com/politics/politics-news/trump-war-on-fraud-dozens-pardoned-allies-1235534893/",
+        "maps_to_element": "Donor/ally pattern and specific documented contribution-to-pardon connections"
+      },
+      {
+        "type": "public_record",
+        "description": "Reporting confirming Trump signed the executive order establishing the VP-led 'Task Force to Eliminate Fraud' on March 16, 2026, days before the NYT's pardon-pattern investigation published",
+        "source_url": "https://www.gov.ca.gov/2026/03/05/trumpcriminals3/",
+        "maps_to_element": "The pardon pattern continued alongside a new public anti-fraud enforcement initiative"
+      }
+    ],
+    "status": "Ongoing -- clemency actions are final and not subject to reversal; no change to the pattern or to the newly announced fraud task force's relationship to it identified in sourcing reviewed",
+    "rebuttal_anticipated": "Likely defense: the presidential clemency power is constitutionally unreviewable and has always been exercised in ways critics of any administration characterize as favoring the well-connected, each individual pardon can be independently justified on its own facts (rehabilitation, disproportionate sentencing, procedural concerns), and a new anti-fraud task force targeting future conduct is not logically inconsistent with clemency for past convictions.",
+    "comeback": "The specific concern is not that clemency power exists or is exercised, but the scale (70+ fraud pardons) and the documented pattern connecting a meaningful share of them to campaign or PAC contributions from the recipients or their families -- a pattern inconsistent with the fraud-enforcement priority the same administration simultaneously announced, and one that collectively erased roughly $700 million victims and taxpayers were owed in restitution.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the pattern this tracker documents elsewhere of clemency being extended to individually named donors and allies (trump-kidan-donor-pardon-2026.json, trump-hernandez-pardon-special-treatment-2026.json) -- this entry documents the aggregate scale of that pattern specifically in fraud cases.",
+    "last_updated": "2026-08-06",
+    "date_added": "2026-08-06",
+    "confidence_note": "HIGH confidence on the aggregate pardon count, the $700 million restitution figure, and the specific named cases (Esformes, Melgen, Milton, Herrera Velutini) -- independently corroborated across The New York Times's own investigation and Rolling Stone's reporting, which documents specific contribution amounts and dates. MODERATE confidence on characterizing every individual pardon as contribution-motivated, since the Times' reporting establishes a pattern and specific documented examples rather than a confirmed quid pro quo finding for all 70+ cases.",
+    "section_summaries": {
+      "incident_summary": "The NYT found Trump has pardoned 70+ people convicted of fraud -- many donors or allies, wiping out $700M in restitution -- including major Medicare fraudsters Esformes and Melgen, and donors Milton and Herrera Velutini, even as Trump launched a new Vance-led anti-fraud task force days before the pattern was reported.",
+      "confidence_note": "The aggregate count, restitution figure, and specific named cases are well-documented via the NYT's own investigation and Rolling Stone's contribution-tracing; not every individual pardon has a confirmed contribution-based motive."
+    }
+  },
+  {
+    "official": "Donald Trump, President",
     "offense_category": "Presidential Imposition of an Unauthorized Tax Via Proclamation -- a federal court found the $100,000 H-1B visa fee exceeded executive authority, violated the Administrative Procedure Act, and violated separation-of-powers principles by usurping Congress's exclusive taxing authority",
     "contested": true,
     "incident_summary": "In September 2025, Trump announced by proclamation a $100,000 fee on new H-1B visa petitions, dramatically increasing the cost of hiring highly skilled foreign workers. A coalition of 20 Democratic state attorneys general sued, and on June 8, 2026, U.S. District Judge Leo Sorokin in Boston ruled the fee unlawful, finding it constituted a tax Trump imposed without congressional authorization -- an authority the Constitution reserves to Congress -- and that the administration's implementation violated both the Administrative Procedure Act and constitutional separation-of-powers principles. Despite the ruling, the court's order blocking the fee was temporarily paused on June 12, 2026 to allow an appeals court to consider the government's request for a stay; as a result, USCIS remained permitted to continue collecting the $100,000 fee pending appeal even after a federal court found it unlawful.",

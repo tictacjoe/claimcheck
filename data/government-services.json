@@ -1729,6 +1729,59 @@
     "last_updated": "2026-07-26"
   },
   {
+    "id": "doj-immigrant-legal-aid-accreditation-frozen-2026",
+    "title": "DOJ Reassigned the Senior Attorneys Running Its 60-Year-Old Program Accrediting Non-Lawyers to Help Indigent Immigrants, Freezing Its Core Functions",
+    "institution": "Department of Justice / Executive Office for Immigration Review",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing as of this entry's addition -- applications continue to accumulate (40-60 per week) with no staff authorized to process them, and no reversal identified in sourcing reviewed",
+    "date_of_action": "2026-03 (senior attorneys reassigned)",
+    "what_changed": "CBS News reported DOJ abruptly reassigned the handful of senior attorneys who operate the Recognition and Accreditation program -- a more than 60-year-old program, administered by DOJ's Executive Office for Immigration Review, that accredits non-attorneys working for largely faith-based legal-aid organizations (such as Catholic Charities and Jewish Family Services) so they are legally authorized to assist low-income immigrants with matters ranging from naturalization petitions to representation in immigration court. The reassignment orders came from Jamee Comans, Acting Assistant Director for DOJ's Office of Policy, which administers the program. Most of the reassigned attorneys were told they would now work as entry-level law clerks in immigration courts -- a role typically reserved for people fresh out of law school -- while only two support staff remained in the accreditation office, neither with legal authority to approve or renew accreditation applications. A DOJ official told CBS the program 'isn't ending or being abolished' and 'will continue,' but confirmed the office kept receiving 40-60 new applications per week even after the reassignment, with no staff able to act on them, creating a growing backlog.",
+    "primary_proponent": {
+      "name": "Jamee Comans",
+      "role": "Acting Assistant Director, DOJ Office of Policy",
+      "note": "Issued the reassignment orders that moved the program's senior attorneys out of the accreditation office and into immigration-court law clerk roles, leaving no staff with authority to process applications."
+    },
+    "estimated_impact": {
+      "summary": "A decades-old program that expands legal-aid capacity for low-income immigrants -- by authorizing non-attorneys at nonprofit organizations to provide representation -- has had its only staff capable of approving or renewing that authorization removed, freezing its core function even as new applications continue arriving weekly, disrupting legal support for immigrants in complex proceedings who rely on accredited non-attorney representatives because they cannot afford a lawyer.",
+      "figures": [
+        {
+          "metric": "New accreditation applications received per week since the reassignment, with no staff able to process them",
+          "value": "40-60",
+          "source": "CBS News, March 2026, citing a DOJ official"
+        },
+        {
+          "metric": "Support staff remaining in the accreditation office after senior attorneys' reassignment",
+          "value": "2 (with no legal authority to approve or renew applications)",
+          "source": "CBS News, March 2026"
+        }
+      ],
+      "caveat": "A DOJ official told CBS the program is not being formally ended or abolished and framed the reassignment as continuing under a different staffing structure; this entry documents the functional freeze in application processing that resulted, not a claim the program has been formally terminated."
+    },
+    "confidence_note": "HIGH confidence -- the reassignment, its scope, Comans's role in ordering it, the resulting two-person skeleton staff without approval authority, and the accumulating weekly application backlog are all drawn directly from CBS News's reporting, including on-record confirmation from a DOJ official of the ongoing backlog. Independent corroboration from the ABA Journal and other outlets confirms the same core account.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "CBS News -- 'DOJ guts office helping poorer immigrants obtain affordable legal aid, sources say'",
+        "url": "https://www.cbsnews.com/news/justice-dept-guts-office-helping-indigent-immigrants-affordable-legal-aid/"
+      },
+      {
+        "name": "CBS News -- 'Work inside a small DOJ office that helps indigent immigrants get legal aid stalls after personnel shuffle'",
+        "url": "https://www.cbsnews.com/news/justice-dept-recognition-accreditation-office-helping-indigent-immigrants-stalls/"
+      },
+      {
+        "name": "ABA Journal -- 'DOJ guts program helping immigrants receive affordable legal representation'",
+        "url": "https://www.abajournal.com/news/article/doj-guts-program-helping-indigent-immigrants-with-affordable-legal-representation"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "DOJ reassigned the senior attorneys running its 60-year-old program that accredits non-attorneys to provide affordable legal aid to indigent immigrants, leaving only two support staff with no authority to approve or renew applications, even as 40-60 new applications kept arriving weekly.",
+      "estimated_impact": "The program's core approval function is frozen, disrupting legal-aid capacity for low-income immigrants who rely on accredited non-attorney representatives, even though DOJ says the program itself isn't being formally abolished.",
+      "confidence_note": "Well-documented via CBS News's reporting, including on-record DOJ confirmation of the ongoing application backlog."
+    }
+  },
+  {
     "id": "doj-law-enforcement-staffing-cuts-immigration-redirect-2026",
     "title": "DOJ Cuts Over 4,000 Jobs at FBI, ATF, DEA, and National Security Division While Immigration Enforcement Gets More Funding",
     "institution": "U.S. Department of Justice (FBI, ATF, DEA, National Security Division)",
@@ -4540,6 +4593,60 @@
     },
     "last_updated": "2026-08-02",
     "date_added": "2026-08-02"
+  },
+  {
+    "id": "irs-political-donation-disclosure-glitch-2026",
+    "title": "Understaffed IRS's Technical 'Glitch' Left $51 Million in Political Donations Undisclosed, With No Fix Timeline",
+    "institution": "Internal Revenue Service",
+    "domain": "data_collection_halted",
+    "status": "Unresolved as of this entry's addition -- no fix timeline given",
+    "date_of_action": "2025-H2 (donations affected) through 2026-02 (error discovered) and 2026-03 (reported unresolved)",
+    "what_changed": "The Center for Political Accountability (CPA), a campaign-finance watchdog, found that a technical error at the IRS left $51 million in political donations undisclosed for the second half of 2025, affecting major state-level election groups from both parties -- including the Republican Attorneys General Association, the Republican State Leadership Committee, and the Democratic Legislative Campaign Committee, whose combined missing disclosures totaled $41 million of the $51 million figure. CPA researchers discovered the discrepancy in February 2026, after the standard January 31 deadline for the prior year's donor and spending lists to become public had passed. As of The Guardian's March 2026 reporting, the IRS had given no clear timeline for fixing the error. The IRS began 2025 with about 102,000 employees and finished the year with roughly 74,000 -- a reduction of about 28,000, or 27%, following a series of firings and layoffs driven by DOGE (documented in more detail in this tracker's irs-workforce-collapse-trump2.json entry) -- which The Guardian's reporting connects to the agency's reduced capacity to identify and fix the disclosure error.",
+    "primary_proponent": {
+      "name": "Internal Revenue Service",
+      "role": "Federal agency responsible for processing and publishing political-organization donor disclosures",
+      "note": "No individual IRS or Treasury official was identified in sourcing reviewed as personally responsible for the technical error or its unresolved status; the causal link to reduced capacity is attributed to the broader DOGE-driven workforce cuts documented separately in this tracker."
+    },
+    "estimated_impact": {
+      "summary": "A significant gap in public campaign-finance transparency during an active election cycle went undiscovered by the IRS itself and remained unresolved for at least a month after outside watchdogs identified it, affecting major political organizations from both parties -- a documented instance in which the IRS's own reduced staffing capacity is linked to a specific failure of its public-disclosure function.",
+      "figures": [
+        {
+          "metric": "Political donations left undisclosed by the error",
+          "value": "$51 million",
+          "source": "Center for Political Accountability, reported by The Guardian, March 2026"
+        },
+        {
+          "metric": "Combined missing disclosures for RAGA, RSLC, and DLCC specifically",
+          "value": "$41 million",
+          "source": "The Guardian, March 2026"
+        },
+        {
+          "metric": "IRS workforce reduction, Jan.-Dec. 2025",
+          "value": "~102,000 -> ~74,000 (~27%)",
+          "source": "The Guardian, citing IRS staffing data, March 2026"
+        }
+      ],
+      "caveat": "The Guardian's reporting connects the unresolved timeline to the IRS's reduced staffing capacity as context and characterization, not as an on-record IRS admission that understaffing specifically caused the technical error or the delay in fixing it."
+    },
+    "confidence_note": "HIGH confidence on the core facts -- the $51 million figure, the affected organizations, the discovery timeline, and the IRS staffing reduction -- independently corroborated across The Guardian, The Mirror US, and Inkl's coverage of the same CPA findings. MODERATE confidence on the causal link between the staffing cuts and the error's occurrence or unresolved status specifically, since that connection is reporters' contextual framing rather than an on-record IRS statement attributing the problem to reduced capacity.",
+    "last_verified": "2026-08-06",
+    "date_added": "2026-08-06",
+    "sources": [
+      {
+        "name": "The Guardian -- 'IRS glitch masked $51m in political donations, finance watchdog says'",
+        "url": "https://www.theguardian.com/us-news/2026/mar/20/irs-error-political-donations"
+      },
+      {
+        "name": "Inkl -- 'IRS glitch masked $51m in political donations, finance watchdog says'",
+        "url": "https://www.inkl.com/news/irs-glitch-masked-51m-in-political-donations-finance-watchdog-says"
+      }
+    ],
+    "last_updated": "2026-08-06",
+    "section_summaries": {
+      "what_changed": "A campaign-finance watchdog found a technical error at the IRS left $51M in political donations undisclosed for the second half of 2025, affecting major groups from both parties; the IRS gave no fix timeline as of March 2026, after its workforce had shrunk ~27% under DOGE cuts.",
+      "estimated_impact": "A significant campaign-finance transparency gap went undetected by the IRS itself and remained unresolved for at least a month after outside watchdogs found it, amid the agency's broader staffing collapse.",
+      "confidence_note": "Core facts are well-corroborated across multiple outlets citing the same watchdog findings; the causal link to staffing cuts specifically is reporters' framing, not an IRS admission."
+    }
   },
   {
     "id": "irs-workforce-collapse-trump2",
@@ -8164,7 +8271,7 @@
     "domain": "staff_office_cuts",
     "status": "Partially reversed -- TSA PreCheck restored within about a day; Global Entry remained suspended as the shutdown continued Noem subsequently warned PreCheck could be re-suspended as the shutdown continued. By mid-March 2026, officials warned continued TSA absenteeism (above 30% at some hubs) could force some airport shutdowns entirely if the funding standoff persisted.",
     "date_of_action": "2026-02-20 (suspension announced) through 2026-02-21/22 (PreCheck reversal)",
-    "what_changed": "DHS Secretary Kristi Noem announced the suspension of TSA PreCheck and CBP's Global Entry expedited-traveler programs, citing the funding lapse from the ongoing partial government shutdown. Less than a day later, TSA reversed the PreCheck suspension after significant pushback from airlines and lawmakers; Global Entry, however, remained suspended as the shutdown continued. Airlines for America president Chris Sununu criticized the suspension, saying the traveling public was 'once again... used as a political football amid another government shutdown.' Sen. Mark Warner noted that in 2025 more than 18 million travelers used Global Entry, saving over 300,000 CBP officer-hours across 79 ports of entry, and that both programs had remained operational throughout the 43-day government shutdown the prior fall -- undercutting DHS's funding-lapse rationale for this specific suspension. Days later, Secretary Noem warned TSA PreCheck could again be suspended as the DHS shutdown continued, while Global Entry remained suspended throughout. The underlying staffing strain continued to escalate: by mid-March 2026, Reuters reported TSA officers were working without pay as the funding standoff continued, with absentee rates spiking above 30% at some major hubs. Officials warned some airports could be forced to shut down entirely if the standoff persisted, with smaller airports with limited checkpoints described as especially at risk.",
+    "what_changed": "DHS Secretary Kristi Noem announced the suspension of TSA PreCheck and CBP's Global Entry expedited-traveler programs, citing the funding lapse from the ongoing partial government shutdown. Less than a day later, TSA reversed the PreCheck suspension after significant pushback from airlines and lawmakers; Global Entry, however, remained suspended as the shutdown continued. Airlines for America president Chris Sununu criticized the suspension, saying the traveling public was 'once again... used as a political football amid another government shutdown.' Sen. Mark Warner noted that in 2025 more than 18 million travelers used Global Entry, saving over 300,000 CBP officer-hours across 79 ports of entry, and that both programs had remained operational throughout the 43-day government shutdown the prior fall -- undercutting DHS's funding-lapse rationale for this specific suspension. Days later, Secretary Noem warned TSA PreCheck could again be suspended as the DHS shutdown continued, while Global Entry remained suspended throughout. The underlying staffing strain continued to escalate: by mid-March 2026, Reuters reported TSA officers were working without pay as the funding standoff continued, with absentee rates spiking above 30% at some major hubs. Officials warned some airports could be forced to shut down entirely if the standoff persisted, with smaller airports with limited checkpoints described as especially at risk. The shutdown dragged into a second month, and ABC News reported tens of thousands of TSA workers were going unpaid, with many receiving $0 paychecks while still required to report for duty; employees described taking second jobs, leaving the agency, and struggling to meet basic expenses. The prolonged standoff had an additional, explicit political dimension: the New York Times reported Trump told Republicans to halt negotiations to reopen DHS and instead use the shutdown as leverage to pass the Safeguard American Voter Eligibility (SAVE) Act, a voter-ID bill -- even as TSA workers went unpaid and airport disruptions worsened. Trump and Senate Majority Leader John Thune clashed publicly over the ultimatum before Trump ultimately endorsed a deal in late March 2026 to fund DHS (with the exception of key ICE provisions), allowing the SAVE Act to wait rather than continuing to hold TSA funding hostage to it.",
     "primary_proponent": {
       "name": "Kristi Noem",
       "role": "Secretary of Homeland Security",
@@ -8192,11 +8299,16 @@
           "metric": "TSA officer absentee rate at some major hubs, mid-March 2026",
           "value": "30%+",
           "source": "Reuters, March 2026"
+        },
+        {
+          "metric": "TSA workers reported going unpaid ($0 paychecks) during the shutdown's second month",
+          "value": "tens of thousands",
+          "source": "ABC News, March 2026"
         }
       ],
       "caveat": "This entry documents the suspension and its partial reversal as reported; it does not resolve whether the funding-lapse rationale was itself pretextual, though Sen. Warner's office's comparison to the prior 43-day shutdown (where the programs remained operational) is included as directly relevant context."
     },
-    "confidence_note": "HIGH confidence -- the suspension, its reversal timeline, and the specific usage/officer-hour figures are independently corroborated across ABC News, CNBC, The Hill, The Washington Post, and Sen. Warner's own office statement.",
+    "confidence_note": "HIGH confidence -- the suspension, its reversal timeline, and the specific usage/officer-hour figures are independently corroborated across ABC News, CNBC, The Hill, The Washington Post, and Sen. Warner's own office statement. Re-verified 2026-08-06: ABC News independently corroborates the unpaid-TSA-worker escalation ($0 paychecks, second jobs), and the NYT's reporting that Trump personally directed Republicans to use the shutdown as leverage for unrelated voter-ID legislation adds a documented political-motive dimension to why the shutdown -- and the TSA staffing crisis it caused -- was prolonged rather than resolved sooner.",
     "last_verified": "2026-08-06",
     "date_added": "2026-08-05",
     "last_updated": "2026-08-06",
@@ -8220,6 +8332,14 @@
       {
         "name": "Reuters -- 'US says it may be forced to shut down some airports over funding standoff'",
         "url": "https://www.reuters.com/world/us/us-says-it-may-be-forced-shut-down-some-airports-over-funding-standoff-2026-03-17/"
+      },
+      {
+        "name": "ABC News -- 'Second jobs, longer hours: TSA workers throwing in the towel'",
+        "url": "https://abcnews.com/US/2nd-jobs-longer-hours-throwing-towel-tsa-workers/story?id=131182192"
+      },
+      {
+        "name": "The New York Times -- Trump ties DHS shutdown deal to voter ID demand",
+        "url": "https://www.nytimes.com/2026/03/23/us/politics/trump-shutdown-deal.html"
       }
     ],
     "section_summaries": {
