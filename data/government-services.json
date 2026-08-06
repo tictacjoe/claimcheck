@@ -7724,7 +7724,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing as of this entry's addition -- the war's evacuation-assistance strain and the underlying staffing losses were not reported as resolved in sourcing reviewed",
     "date_of_action": "2026 (Iran war escalation period)",
-    "what_changed": "As the U.S. war with Iran escalated, the State Department issued 'DEPART NOW' alerts urging U.S. citizens to leave 16 countries across the Middle East -- including Bahrain, Egypt, Iraq, Israel, the West Bank, Gaza, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia, Syria, the UAE, and Yemen -- citing serious safety risks. Americans who called the department's evacuation-assistance hotline were told: 'Please do not rely on the U.S. government for assisted departure or evacuation.' NOTUS reported stranded Americans described receiving little practical help as regional airports closed and commercial travel options rapidly disappeared. The Intercept reported that foreign service officers fired in earlier DOGE-driven State Department workforce cuts had previously and specifically warned the department would be unable to adequately assist Americans stranded in a Middle East crisis -- a warning this episode is reported to have borne out. NBC News separately reported thousands of Americans were left stranded in the war zone amid the department's response gap. The State Department did publicize a 24/7 emergency hotline and reported assisting over 130 Americans evacuate Israel specifically, indicating the department was not wholly inactive, but the gap between the 16-country 'depart now' directive and the hotline's own explicit disclaimer against relying on government assistance was widely reported as a substantive breakdown in crisis-response capacity.",
+    "what_changed": "As the U.S. war with Iran escalated, the State Department issued 'DEPART NOW' alerts urging U.S. citizens to leave 16 countries across the Middle East -- including Bahrain, Egypt, Iraq, Israel, the West Bank, Gaza, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia, Syria, the UAE, and Yemen -- citing serious safety risks. Americans who called the department's evacuation-assistance hotline were told: 'Please do not rely on the U.S. government for assisted departure or evacuation.' NOTUS reported stranded Americans described receiving little practical help as regional airports closed and commercial travel options rapidly disappeared. The Intercept reported that foreign service officers fired in earlier DOGE-driven State Department workforce cuts had previously and specifically warned the department would be unable to adequately assist Americans stranded in a Middle East crisis -- a warning this episode is reported to have borne out. NBC News separately reported thousands of Americans were left stranded in the war zone amid the department's response gap. The State Department did publicize a 24/7 emergency hotline and reported assisting over 130 Americans evacuate Israel specifically, indicating the department was not wholly inactive, but the gap between the 16-country 'depart now' directive and the hotline's own explicit disclaimer against relying on government assistance was widely reported as a substantive breakdown in crisis-response capacity. Additional reporting corroborated and extended the scale of the crisis: as many as 1 million Americans were estimated to be in the Middle East when the war escalated (following an Israeli airstrike that killed Iranian Supreme Leader Ayatollah Ali Khamenei), and the 'DEPART NOW' advisory for 14-16 countries did not go out until the Monday after the weekend strike -- a delay Trump attributed to the conflict having 'happened all very quickly' when asked why no evacuation plan existed in advance. CBS News reported Americans arriving back in New York described a 'zero plan for evacuation,' and travelers transiting hubs like Dubai, Doha, and Amman were told for four days not to rely on the U.S. government for assisted departure. The State Department did not open a crisis intake form offering free charter flights until March 4, 2026, with its first chartered evacuation flight arriving in the region and returning to Washington that same week. Separately, NOTUS and Truthout reported that DOGE had fired the State Department's entire team of oil and gas experts in July 2025 -- six months before the Iran war began -- as part of a roughly 1,300-person State Department RIF. The cuts eliminated staff responsible for modeling scenarios in which the Strait of Hormuz was closed, maintaining relationships with Middle East energy companies, and liaising with the International Energy Agency on coordinated strategic-reserve releases; after the cuts, the Bureau of Energy Resources retained only staff focused on critical minerals and clean energy, none with Middle East oil-and-gas crisis expertise. Geoffrey Pyatt, a former assistant secretary of state for energy resources, said of the losses once the Strait of Hormuz became effectively closed during the war: 'I'm sure Secretary Rubio wishes he had that expertise available today.'",
     "primary_proponent": {
       "name": "Marco Rubio",
       "role": "Secretary of State",
@@ -7742,12 +7742,22 @@
           "metric": "Americans the State Department said it helped evacuate from Israel specifically",
           "value": "130+",
           "source": "Fox News, citing a State Department official, 2026"
+        },
+        {
+          "metric": "Estimated Americans in the Middle East when the war escalated",
+          "value": "up to ~1,000,000",
+          "source": "CBS News, March 2026"
+        },
+        {
+          "metric": "State Department employees cut in the July 2025 RIF that eliminated the oil-and-gas expert team",
+          "value": "~1,300",
+          "source": "NOTUS, March 2026, citing State Dept's own RIF notification to Congress"
         }
       ],
       "caveat": "The State Department did report actively assisting some evacuations (130+ from Israel) and maintained a 24/7 emergency hotline, so this entry documents a capacity gap and messaging contradiction relative to the scale of the crisis, not a claim the department provided zero assistance. The Intercept's causal link between DOGE-era staffing cuts and this specific response gap rests on former officers' own stated warnings and assessment, not an official government finding."
     },
-    "confidence_note": "HIGH confidence on the core facts -- the 16-country 'depart now' advisory, the hotline's 'do not rely on the U.S. government' disclaimer, and reports of stranded Americans -- independently corroborated across NOTUS, NBC News, KTLA, and Fox News (which also confirms the department's own claimed evacuation-assistance figures). MODERATE confidence on the specific causal attribution to DOGE/reorganization staffing cuts, which rests on The Intercept's reporting and the account of foreign service officers who were themselves let go in the cuts being described -- a directly interested source, though a specific and falsifiable one (they say they warned of exactly this outcome in advance).",
-    "last_verified": "2026-08-05",
+    "confidence_note": "HIGH confidence on the core facts -- the 16-country 'depart now' advisory, the hotline's 'do not rely on the U.S. government' disclaimer, and reports of stranded Americans -- independently corroborated across NOTUS, NBC News, KTLA, and Fox News (which also confirms the department's own claimed evacuation-assistance figures). MODERATE confidence on the specific causal attribution to DOGE/reorganization staffing cuts, which rests on The Intercept's reporting and the account of foreign service officers who were themselves let go in the cuts being described -- a directly interested source, though a specific and falsifiable one (they say they warned of exactly this outcome in advance). Re-verified 2026-08-06: CBS News and additional wire reporting corroborate and extend the evacuation-gap scale (up to ~1M Americans, the delayed advisory, Trump's own stated explanation). The DOGE oil-and-gas-expert cuts are separately and independently corroborated by NOTUS (citing State's own RIF notification to Congress) and Truthout, including an on-record quote from a former assistant secretary of state for energy resources -- this moves the causal link from former officers' general warning (already in this entry) to a specific, named functional capacity (Middle East energy-crisis expertise) that was documented as eliminated and then acutely needed during the same crisis.",
+    "last_verified": "2026-08-06",
     "date_added": "2026-08-05",
     "sources": [
       {
@@ -7765,11 +7775,19 @@
       {
         "name": "Fox News -- 'State Department has helped over 130 Americans evacuate Israel during war with Iran, official says'",
         "url": "https://www.foxnews.com/politics/state-department-has-helped-over-130-americans-evacuate-israel-during-war-iran-official-says.amp"
+      },
+      {
+        "name": "CBS New York -- 'Americans returning to NYC from war-torn Middle East say U.S. had zero plan for evacuation'",
+        "url": "https://www.cbsnews.com/newyork/news/united-states-iran-war-middle-east-evacuations/"
+      },
+      {
+        "name": "NOTUS -- 'Trump's DOGE Cuts Slashed Staff That Handled Middle Eastern Oil and Gas Crises'",
+        "url": "https://www.notus.org/trump-white-house/trump-doge-cuts-middle-eastern-oil-gas-crises"
       }
     ],
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-06",
     "section_summaries": {
-      "what_changed": "The State Department urged Americans to 'depart now' from 16 Middle East countries during the Iran war, while its own evacuation hotline told callers not to rely on the U.S. government for assisted departure; fired foreign service officers said DOGE-era staffing cuts had left the department unable to adequately respond, as thousands of Americans were reported stranded.",
+      "what_changed": "The State Department urged Americans to 'depart now' from 16 Middle East countries during the Iran war, while its own evacuation hotline told callers not to rely on the U.S. government for assisted departure; fired foreign service officers said DOGE-era staffing cuts had left the department unable to adequately respond, as thousands of Americans were reported stranded. Up to ~1M Americans were in the region when the war escalated; the advisory was delayed and Trump said it 'happened all very quickly.' Separately, DOGE had fired State's entire oil-and-gas crisis-response team in July 2025, leaving no Middle East energy expertise once the Strait of Hormuz closed.",
       "estimated_impact": "A significant gap emerged between the scale of the evacuation advisory and the department's stated evacuation capacity, though the department did report assisting 130+ Americans out of Israel specifically.",
       "confidence_note": "Core facts are well-corroborated across multiple outlets; the causal link to DOGE-era staffing cuts specifically rests on fired officers' own account, a directly interested but specific and falsifiable source."
     }
@@ -8069,9 +8087,9 @@
     "title": "DHS Suspended, Then Partially Reversed, TSA PreCheck and Global Entry During a Funding Lapse",
     "institution": "Transportation Security Administration / Customs and Border Protection, DHS",
     "domain": "staff_office_cuts",
-    "status": "Partially reversed -- TSA PreCheck restored within about a day; Global Entry remained suspended as the shutdown continued Noem subsequently warned PreCheck could be re-suspended as the shutdown continued.",
+    "status": "Partially reversed -- TSA PreCheck restored within about a day; Global Entry remained suspended as the shutdown continued Noem subsequently warned PreCheck could be re-suspended as the shutdown continued. By mid-March 2026, officials warned continued TSA absenteeism (above 30% at some hubs) could force some airport shutdowns entirely if the funding standoff persisted.",
     "date_of_action": "2026-02-20 (suspension announced) through 2026-02-21/22 (PreCheck reversal)",
-    "what_changed": "DHS Secretary Kristi Noem announced the suspension of TSA PreCheck and CBP's Global Entry expedited-traveler programs, citing the funding lapse from the ongoing partial government shutdown. Less than a day later, TSA reversed the PreCheck suspension after significant pushback from airlines and lawmakers; Global Entry, however, remained suspended as the shutdown continued. Airlines for America president Chris Sununu criticized the suspension, saying the traveling public was 'once again... used as a political football amid another government shutdown.' Sen. Mark Warner noted that in 2025 more than 18 million travelers used Global Entry, saving over 300,000 CBP officer-hours across 79 ports of entry, and that both programs had remained operational throughout the 43-day government shutdown the prior fall -- undercutting DHS's funding-lapse rationale for this specific suspension. Days later, Secretary Noem warned TSA PreCheck could again be suspended as the DHS shutdown continued, while Global Entry remained suspended throughout.",
+    "what_changed": "DHS Secretary Kristi Noem announced the suspension of TSA PreCheck and CBP's Global Entry expedited-traveler programs, citing the funding lapse from the ongoing partial government shutdown. Less than a day later, TSA reversed the PreCheck suspension after significant pushback from airlines and lawmakers; Global Entry, however, remained suspended as the shutdown continued. Airlines for America president Chris Sununu criticized the suspension, saying the traveling public was 'once again... used as a political football amid another government shutdown.' Sen. Mark Warner noted that in 2025 more than 18 million travelers used Global Entry, saving over 300,000 CBP officer-hours across 79 ports of entry, and that both programs had remained operational throughout the 43-day government shutdown the prior fall -- undercutting DHS's funding-lapse rationale for this specific suspension. Days later, Secretary Noem warned TSA PreCheck could again be suspended as the DHS shutdown continued, while Global Entry remained suspended throughout. The underlying staffing strain continued to escalate: by mid-March 2026, Reuters reported TSA officers were working without pay as the funding standoff continued, with absentee rates spiking above 30% at some major hubs. Officials warned some airports could be forced to shut down entirely if the standoff persisted, with smaller airports with limited checkpoints described as especially at risk.",
     "primary_proponent": {
       "name": "Kristi Noem",
       "role": "Secretary of Homeland Security",
@@ -8094,14 +8112,19 @@
           "metric": "Time between suspension and PreCheck reversal",
           "value": "<1 day",
           "source": "ABC News/CNBC"
+        },
+        {
+          "metric": "TSA officer absentee rate at some major hubs, mid-March 2026",
+          "value": "30%+",
+          "source": "Reuters, March 2026"
         }
       ],
       "caveat": "This entry documents the suspension and its partial reversal as reported; it does not resolve whether the funding-lapse rationale was itself pretextual, though Sen. Warner's office's comparison to the prior 43-day shutdown (where the programs remained operational) is included as directly relevant context."
     },
     "confidence_note": "HIGH confidence -- the suspension, its reversal timeline, and the specific usage/officer-hour figures are independently corroborated across ABC News, CNBC, The Hill, The Washington Post, and Sen. Warner's own office statement.",
-    "last_verified": "2026-08-05",
+    "last_verified": "2026-08-06",
     "date_added": "2026-08-05",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-06",
     "sources": [
       {
         "name": "Washington Post -- 'DHS reverses TSA PreCheck suspension during shutdown; Global Entry still paused'",
@@ -8118,10 +8141,14 @@
       {
         "name": "CNN -- 'Noem warns TSA PreCheck could again be suspended during DHS shutdown'",
         "url": "https://www.cnn.com/2026/02/25/politics/tsa-precheck-noem-dhs-shutdown"
+      },
+      {
+        "name": "Reuters -- 'US says it may be forced to shut down some airports over funding standoff'",
+        "url": "https://www.reuters.com/world/us/us-says-it-may-be-forced-shut-down-some-airports-over-funding-standoff-2026-03-17/"
       }
     ],
     "section_summaries": {
-      "what_changed": "DHS suspended TSA PreCheck and Global Entry during a funding lapse, reversing the PreCheck suspension within a day after industry/congressional pushback while Global Entry remained suspended. Noem later warned PreCheck could be re-suspended as the shutdown dragged on.",
+      "what_changed": "DHS suspended TSA PreCheck and Global Entry during a funding lapse, reversing the PreCheck suspension within a day after industry/congressional pushback while Global Entry remained suspended. Noem later warned PreCheck could be re-suspended as the shutdown dragged on. By mid-March, TSA absenteeism topped 30% at some hubs as officers worked unpaid, with officials warning some airports could be forced to shut down entirely.",
       "estimated_impact": "Disrupted travel for the 18+ million annual Global Entry users; Sen. Warner noted both programs stayed operational through a longer prior shutdown, undercutting the funding-lapse rationale.",
       "confidence_note": "Independently corroborated across multiple outlets and a senator's own office statement, with no facts disputed."
     }
