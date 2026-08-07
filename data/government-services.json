@@ -2542,6 +2542,68 @@
     }
   },
   {
+    "id": "epa-ggrf-climate-grants-clawback-blocked-2026",
+    "title": "EPA Tried to Claw Back $20 Billion in Congressionally-Appropriated Climate Grants Over Unsubstantiated Fraud Claims -- Courts Blocked It Twice",
+    "institution": "Environmental Protection Agency (EPA), Greenhouse Gas Reduction Fund (GGRF)",
+    "domain": "funding_redirection",
+    "status": "Blocked by courts -- EPA Administrator Zeldin has 7 days from the Aug. 5, 2026 D.C. Circuit ruling to seek Supreme Court review; not yet final",
+    "date_of_action": "2025-02 (Zeldin, FBI, and Treasury order Citibank to freeze the grantee accounts) through 2026-08-05 (D.C. Circuit rules against EPA)",
+    "what_changed": "EPA Administrator Lee Zeldin sought to freeze and then terminate roughly $20 billion in Greenhouse Gas Reduction Fund grants -- awarded to eight National Clean Investment Fund and Clean Communities Investment Accelerator nonprofit entities to fund clean-energy financing, including in communities that had lacked access to green financing -- out of a $27 billion program Congress established in the 2022 Inflation Reduction Act. In February 2025, Zeldin, together with the FBI and Treasury Department, ordered Citibank to freeze the grantee nonprofits' accounts, citing possible fraud, waste, and abuse; EPA's stated justification also relied on the One Big Beautiful Bill Act's repeal of the underlying IRA statutory section as separate legal authority to claw the funds back. A federal district judge (Tonya Chutkan) issued an injunction in April 2025 blocking the freeze, ruling that the government's 'vague and unsubstantiated assertions of fraud are insufficient.' EPA appealed; on August 5, 2026, a divided U.S. Court of Appeals for the D.C. Circuit (6 of 10 judges) upheld the injunction, ruling EPA lacked authority to reclaim funds already disbursed to grantee accounts. No EPA Inspector General, DOJ, or FBI investigation had produced a substantiated fraud finding as of the ruling, more than 17 months after the initial freeze.",
+    "primary_proponent": {
+      "name": "Lee Zeldin",
+      "role": "EPA Administrator",
+      "note": "Personally directed the February 2025 account freeze alongside the FBI and Treasury Department, and has pursued termination of the grants through two rounds of litigation on fraud-related grounds that two courts have now found unsubstantiated."
+    },
+    "estimated_impact": {
+      "summary": "Roughly $20 billion in already-appropriated clean-energy financing for eight nonprofit grantees was frozen and inaccessible for over 17 months while EPA pursued fraud claims that no investigation has substantiated in the public record; both a federal district court and a divided D.C. Circuit panel have now rejected EPA's legal basis for the clawback, though EPA retains a narrow window to seek Supreme Court review.",
+      "figures": [
+        {
+          "metric": "Grant funding frozen/targeted for clawback",
+          "value": "$20,000,000,000 (of a $27,000,000,000 total GGRF program)",
+          "source": "D.C. Circuit ruling coverage, Reuters/AP wire reporting, Aug. 5, 2026"
+        },
+        {
+          "metric": "Duration of the freeze as of the D.C. Circuit ruling",
+          "value": "~17 months (Feb. 2025 - Aug. 2026)",
+          "source": "Timeline reconstructed from TechCrunch and wire reporting"
+        },
+        {
+          "metric": "D.C. Circuit panel vote",
+          "value": "6 of 10 judges upheld the injunction against EPA",
+          "source": "TechCrunch, Aug. 5, 2026"
+        }
+      ],
+      "caveat": "The ruling is not yet final -- EPA has a 7-day window from Aug. 5, 2026 to petition the U.S. Supreme Court, and a further reversal there remains possible. No source reviewed cites a completed EPA Inspector General, DOJ, or FBI report either substantiating or formally clearing the fraud allegations; the courts' rulings address the sufficiency of EPA's legal justification for the clawback, not a final resolution of whether any fraud occurred."
+    },
+    "confidence_note": "HIGH confidence on the core sequence (Feb. 2025 freeze, April 2025 district-court injunction, Aug. 5 2026 D.C. Circuit ruling, Zeldin's personal role) -- corroborated across TechCrunch, U.S. News/AP, GV Wire, and WTAQ, all citing the same underlying court ruling. MODERATE confidence on the ultimate outcome, since Supreme Court review is still possible and the case is explicitly not final.",
+    "section_summaries": {
+      "what_changed": "EPA Administrator Zeldin froze and tried to claw back $20 billion in already-awarded climate grants over fraud claims that were never substantiated in any investigation cited in reporting; two courts (a district judge and a divided D.C. Circuit panel) have now rejected EPA's legal basis for the clawback.",
+      "estimated_impact": "$20 billion in appropriated clean-energy financing sat frozen for roughly 17 months on unsubstantiated fraud grounds before courts intervened twice; the fight isn't fully over, since EPA can still seek Supreme Court review.",
+      "confidence_note": "Well-corroborated across multiple independent outlets citing the same court ruling; final resolution pending possible Supreme Court review."
+    },
+    "last_verified": "2026-08-07",
+    "date_added": "2026-08-07",
+    "sources": [
+      {
+        "name": "TechCrunch — Trump EPA wrongly canceled $20B in climate funds, appeals court rules",
+        "url": "https://techcrunch.com/2026/08/05/trump-epa-wrongly-canceled-20b-in-climate-funds-appeals-court-rules/"
+      },
+      {
+        "name": "U.S. News/AP — Trump's EPA Was Wrong to Terminate Billions in Climate Grants, US Appeals Court Rules",
+        "url": "https://www.usnews.com/news/top-news/articles/2026-08-04/epa-cannot-block-billions-in-climate-grants-us-appeals-court-rules"
+      },
+      {
+        "name": "GV Wire — Trump's EPA Was Wrong to Terminate Billions in Climate Grants, US Appeals Court Rules",
+        "url": "https://gvwire.com/2026/08/04/trumps-epa-was-wrong-to-terminate-billions-in-climate-grants-us-appeals-court-rules/"
+      },
+      {
+        "name": "WTAQ — EPA cannot block billions in climate grants, US appeals court rules",
+        "url": "https://wtaq.com/2026/08/04/epa-cannot-block-billions-in-climate-grants-us-appeals-court-rules/"
+      }
+    ],
+    "last_updated": "2026-08-07"
+  },
+  {
     "id": "epa-noaa-cdc-data-tools-erasure-2026",
     "title": "EPA's Environmental-Justice Screening Tool and NOAA's Billion-Dollar Disaster Database Both Discontinued",
     "institution": "Environmental Protection Agency; National Oceanic and Atmospheric Administration; Centers for Disease Control and Prevention",
