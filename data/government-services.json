@@ -1830,6 +1830,40 @@
     ]
   },
   {
+    "id": "doge-gsa-smartpay-spending-cap-2025",
+    "title": "DOGE Imposes a $1 Spending Cap on GSA Government Credit Cards",
+    "institution": "General Services Administration (GSA), with similar limits reported at several other federal agencies",
+    "domain": "funding_redirection",
+    "status": "Implemented as of February 2025 reporting",
+    "date_of_action": "2025-02-21",
+    "what_changed": "DOGE imposed a $1 spending cap on SmartPay government credit cards used by General Services Administration employees and contractors, effectively freezing routine purchasing on those cards. Wired reported similar spending limits had already been put in place at several other federal agencies as part of the same broader cost-control push.",
+    "primary_proponent": {
+      "name": "Elon Musk, former DOGE leader / Special Government Employee",
+      "role": "Directed the SmartPay spending-cap policy as part of DOGE's broader cost-control campaign",
+      "note": "Wired's reporting attributed the policy directly to DOGE's operation within GSA; no additional named individual below Musk was identified in sourcing reviewed for this entry."
+    },
+    "estimated_impact": {
+      "summary": "Effectively halted routine government-card purchasing at GSA and several other agencies, a blunt mechanism for controlling spending that also constrains ordinary operational purchases unrelated to any specific wasteful expenditure",
+      "figures": [
+        {
+          "metric": "New per-transaction spending cap",
+          "value": "$1",
+          "source": "Wired (2025-02-21)"
+        }
+      ],
+      "caveat": "No figure for the total dollar volume of purchasing affected, or a list of the 'several other agencies' also subject to similar caps, was found in sourcing reviewed for this entry -- Wired's reporting establishes the policy and its GSA application specifically, without a broader inventory."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- based on a single but specialized, technically-detailed source (Wired), whose reporting on DOGE's technical/administrative actions has generally proven reliable and specific in other entries in this tracker.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "Wired -- DOGE government credit cards",
+        "url": "https://www.wired.com/story/doge-government-credit-cards/"
+      }
+    ]
+  },
+  {
     "id": "doge-nlrb-records-deletion-2025-2026",
     "title": "NLRB Deleted DOGE System-Access Records Before GAO Investigators Could Examine Them",
     "institution": "National Labor Relations Board (NLRB)",
@@ -2381,6 +2415,50 @@
       {
         "name": "AP -- 'Education Department moves more programs to HHS, State Department'",
         "url": "https://apnews.com/article/education-department-trump-state-hhs-e82a5ea582f1b730a9591bc4f767621e"
+      }
+    ]
+  },
+  {
+    "id": "education-department-early-contract-cuts-2025",
+    "title": "Education Department Cuts Over $1 Billion in Contracts, Including $600 Million in Teacher-Training Grants",
+    "institution": "U.S. Department of Education",
+    "domain": "funding_redirection",
+    "status": "Implemented -- an early-term action that preceded and set the stage for the department's later, separately-tracked formal dismantlement",
+    "date_of_action": "2025-02-20",
+    "what_changed": "The Trump administration cut more than $1 billion in Department of Education contracts, including $600 million in teacher-training grants and an additional roughly $350 million affecting the Institute of Education Sciences and its Regional Educational Laboratories -- the department's primary education-research infrastructure. The administration justified the cuts as eliminating 'woke' and wasteful spending. This action predates and is distinct from the department's later, formal dismantlement documented separately in this database (`education-department-dismantlement-trump2.json`), which began with a March 2025 executive order directing the department's effective abolition -- this entry documents an earlier wave of targeted contract cancellations rather than the subsequent structural reorganization.",
+    "primary_proponent": {
+      "name": "Department of Government Efficiency (DOGE)",
+      "role": "Directed the contract cuts as part of its broader early-term spending-reduction campaign",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing this specific action; it predates Linda McMahon's confirmation as Education Secretary (later documented as the lead figure in the department's formal dismantlement)."
+    },
+    "estimated_impact": {
+      "summary": "Eliminated federal funding for teacher-training programs and the department's core education-research infrastructure (the Institute of Education Sciences and its Regional Educational Laboratories), reducing capacity in both classroom-facing and research-facing functions",
+      "figures": [
+        {
+          "metric": "Total contracts cut",
+          "value": "$1 billion+",
+          "source": "The Hill (2025-02-20)"
+        },
+        {
+          "metric": "Teacher-training grants cut",
+          "value": "$600 million",
+          "source": "The Hill (2025-02-20)"
+        },
+        {
+          "metric": "Institute of Education Sciences / Regional Educational Laboratories funding affected",
+          "value": "~$350 million",
+          "source": "The Hill (2025-02-20)"
+        }
+      ],
+      "caveat": "This entry rests on a single source (The Hill); the administration's own 'woke and wasteful spending' characterization is presented as the administration's stated rationale, not verified independently in sourcing reviewed for this entry."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- based on a single contemporaneous report with specific, itemized dollar figures ($1B total, $600M teacher training, $350M research infrastructure), which lends it more precision than many single-source entries in this tracker even without multi-outlet corroboration.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "The Hill -- Department of Education cuts, Trump, Musk, DOGE, research funding",
+        "url": "https://thehill.com/homenews/education/5151673-department-of-education-cuts-trump-musk-doge-research-funding/"
       }
     ]
   },
@@ -6640,8 +6718,8 @@
     "institution": "National Institute for Occupational Safety and Health (NIOSH), Department of Health and Human Services (part of CDC)",
     "domain": "staff_office_cuts",
     "status": "Ongoing as of mid-2025 reporting -- a partial reinstatement followed public backlash, but the entry's own sources describe only 'a fraction' restored, with downstream program disruptions (WTC Health Program, firefighter cancer/fatality research, dangerous-occupation safety training) continuing",
-    "date_of_action": "2025-02-20 (initial firings begin) through 2025-06-03 (training-program funding shortfalls reported)",
-    "what_changed": "Beginning February 20, 2025, Trump administration cuts began hitting NIOSH, the CDC institute responsible for occupational safety and health research. Early casualties included Patrick Montague, an investigator for the National Firefighter Registry for Cancer, fired along with colleagues in his program citing probationary status. By April 3, 2025, hundreds of NIOSH staff had been fired, including key personnel from the World Trade Center Health Program -- which provides medical care to 9/11 first responders and survivors -- and the program's longtime director, Dr. John Howard, was also removed. By April 13, the Guardian reported the WTC Health Program had been plunged into disarray, with cancer treatment, PTSD care, and other services for 9/11 survivors and first responders disrupted with no public transparency about what coverage remained available. By April 22, ProPublica reported the purge had eliminated 7 of the 8 members of NIOSH's firefighter fatality investigation team, halting major studies into firefighter cancer risk alongside the WTC-program disruption. On May 12, more than 100 current and former NIOSH employees sent a joint letter to Congress warning that mass purges were putting American workers at risk, stating more than 90% of NIOSH staff had received layoff notices and that critical programs -- the 9/11 Health Program and black lung screening among them -- had already been disrupted. By May 27, the Guardian confirmed an 85% NIOSH staff purge, with only a fraction of positions reinstated after public backlash. By early June, Reuters reported the cuts -- nearly 900 staff purged in April alone -- were forcing shutdowns of occupational-safety training programs specifically serving fishermen, farmers, and loggers, among America's most dangerous occupations, with key training centers warning they would run out of funding by summer or fall 2025.",
+    "date_of_action": "2025-02-21 (initial WTC Health Program staffing cut reported) through 2025-06-03 (training-program funding shortfalls reported)",
+    "what_changed": "On February 21, 2025, the New York Times reported layoffs and buyouts had already cut about 20% of staffing at the World Trade Center Health Program specifically, jeopardizing research grants and delaying certifications critical to treating 9/11 responders and survivors -- a cut initially reinstated after pushback from lawmakers and veterans' groups, though the program's staffing crisis recurred and deepened in the following months as described below. Beginning February 20, 2025, Trump administration cuts began hitting NIOSH more broadly, the CDC institute responsible for occupational safety and health research. Early casualties included Patrick Montague, an investigator for the National Firefighter Registry for Cancer, fired along with colleagues in his program citing probationary status. By April 3, 2025, hundreds of NIOSH staff had been fired, including key personnel from the World Trade Center Health Program -- which provides medical care to 9/11 first responders and survivors -- and the program's longtime director, Dr. John Howard, was also removed. By April 13, the Guardian reported the WTC Health Program had been plunged into disarray, with cancer treatment, PTSD care, and other services for 9/11 survivors and first responders disrupted with no public transparency about what coverage remained available. By April 22, ProPublica reported the purge had eliminated 7 of the 8 members of NIOSH's firefighter fatality investigation team, halting major studies into firefighter cancer risk alongside the WTC-program disruption. On May 12, more than 100 current and former NIOSH employees sent a joint letter to Congress warning that mass purges were putting American workers at risk, stating more than 90% of NIOSH staff had received layoff notices and that critical programs -- the 9/11 Health Program and black lung screening among them -- had already been disrupted. By May 27, the Guardian confirmed an 85% NIOSH staff purge, with only a fraction of positions reinstated after public backlash. By early June, Reuters reported the cuts -- nearly 900 staff purged in April alone -- were forcing shutdowns of occupational-safety training programs specifically serving fishermen, farmers, and loggers, among America's most dangerous occupations, with key training centers warning they would run out of funding by summer or fall 2025.",
     "primary_proponent": {
       "name": "Department of Government Efficiency (DOGE) / Robert F. Kennedy Jr.",
       "role": "DOGE directed the initial workforce cuts; RFK Jr., as HHS Secretary overseeing CDC and NIOSH, bears institutional responsibility for the agency's subsequent management",
@@ -6677,6 +6755,10 @@
     "last_verified": "2026-08-08",
     "date_added": "2026-08-08",
     "sources": [
+      {
+        "name": "New York Times -- DOGE, Ground Zero health care cuts",
+        "url": "https://www.nytimes.com/2025/02/19/nyregion/doge-ground-zero-health-care-cuts.html"
+      },
       {
         "name": "NBC News -- Trump's layoffs hit firefighter safety programs",
         "url": "https://www.nbcnews.com/politics/trump-administration/trumps-layoffs-hit-firefighter-safety-programs-rcna192849"
@@ -6867,7 +6949,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing, with escalating severity through the year -- initial erroneous firings (Feb 2025) gave way to a documented brain-drain (Mar-May 2025), then a historic shutdown-driven near-total work stoppage (Oct 2025), followed by a policy shift that reduces regulatory oversight of new reactor construction (Dec 2025)",
     "date_of_action": "2025-02-17 (initial erroneous firings) through 2025-12-30 (Reactor Pilot Program launch)",
-    "what_changed": "In February 2025, DOGE-driven federal workforce cuts mistakenly fired NNSA employees -- some working on the nuclear stockpile and on tracking nuclear threats, including in Ukraine -- and the administration then could not contact them about reinstatement because their government email accounts had already been deactivated. By March 2025, the New York Times reported more than 130 senior scientists, engineers, and security experts had been forced out of NNSA, jeopardizing nuclear modernization programs and safety protocols. By May 2025, USA Today reported the cuts had derailed years of hiring progress and raised new safety concerns at weapons facilities including Los Alamos, the Y-12 National Security Complex, and Pantex. The staffing erosion reached the Nuclear Regulatory Commission as well: at a September 4, 2025 Senate hearing, two of the NRC's three remaining commissioners said they feared Trump could purge them too if they resisted his push to fast-track new reactor approvals, part of a stated goal to quadruple U.S. nuclear generating capacity by 2050. The crisis peaked during the October 2025 government shutdown: NNSA warned it would furlough 80% of its workforce as shutdown funding ran out, leaving only 375 'essential' employees and placing facility contractors in 'minimum-safe' status; by October 21, more than 1,400 employees -- over 75% of staff -- had actually been furloughed, leaving fewer than 400 on duty and suspending nearly all work on the U.S. nuclear weapons program, the first time in the program's history that weapons assembly and modernization work came to a complete stop. Funding for the Office of Secure Transportation, which physically moves nuclear warheads and materials, was confirmed only through October 27 as the shutdown continued. Then, on December 30, 2025, Trump officials launched a Reactor Pilot Program fast-tracking construction of new, largely untested nuclear reactor designs, with oversight shifted from the traditionally independent Nuclear Regulatory Commission to the Department of Energy itself -- aiming to bring at least three experimental reactors online by July 4, 2026 under an aggressive political deadline and with limited public transparency.",
+    "what_changed": "In February 2025, DOGE-driven federal workforce cuts mistakenly fired NNSA employees -- some working on the nuclear stockpile and on tracking nuclear threats, including in Ukraine -- and the administration then could not contact them about reinstatement because their government email accounts had already been deactivated. ABC News reported on February 21, 2025 that this confusion was not limited to NNSA: hundreds of federal employees initially terminated from agencies including NNSA, the VA, and USDA had their dismissals rescinded, but many remained unclear on their actual employment status even after the reversal, reflecting a broader pattern of chaotic, poorly-tracked terminations across the initial wave of DOGE-directed cuts. By March 2025, the New York Times reported more than 130 senior scientists, engineers, and security experts had been forced out of NNSA, jeopardizing nuclear modernization programs and safety protocols. By May 2025, USA Today reported the cuts had derailed years of hiring progress and raised new safety concerns at weapons facilities including Los Alamos, the Y-12 National Security Complex, and Pantex. The staffing erosion reached the Nuclear Regulatory Commission as well: at a September 4, 2025 Senate hearing, two of the NRC's three remaining commissioners said they feared Trump could purge them too if they resisted his push to fast-track new reactor approvals, part of a stated goal to quadruple U.S. nuclear generating capacity by 2050. The crisis peaked during the October 2025 government shutdown: NNSA warned it would furlough 80% of its workforce as shutdown funding ran out, leaving only 375 'essential' employees and placing facility contractors in 'minimum-safe' status; by October 21, more than 1,400 employees -- over 75% of staff -- had actually been furloughed, leaving fewer than 400 on duty and suspending nearly all work on the U.S. nuclear weapons program, the first time in the program's history that weapons assembly and modernization work came to a complete stop. Funding for the Office of Secure Transportation, which physically moves nuclear warheads and materials, was confirmed only through October 27 as the shutdown continued. Then, on December 30, 2025, Trump officials launched a Reactor Pilot Program fast-tracking construction of new, largely untested nuclear reactor designs, with oversight shifted from the traditionally independent Nuclear Regulatory Commission to the Department of Energy itself -- aiming to bring at least three experimental reactors online by July 4, 2026 under an aggressive political deadline and with limited public transparency.",
     "primary_proponent": {
       "name": "Department of Government Efficiency (DOGE)",
       "role": "Directed the initial 2025 workforce cuts across NNSA and related agencies",
@@ -6901,6 +6983,10 @@
       {
         "name": "NBC News -- Trump administration wants to un-fire nuclear safety workers, can't figure out how",
         "url": "https://www.nbcnews.com/politics/national-security/trump-administration-wants-un-fire-nuclear-safety-workers-cant-figure-rcna192345"
+      },
+      {
+        "name": "ABC News -- Federal employees scramble as terminations at agencies rescinded",
+        "url": "https://abcnews.go.com/Politics/federal-employees-scramble-terminations-agencies-rescinded/story?id=118985384"
       },
       {
         "name": "New York Times -- Federal job cuts hit nuclear bomb engineers and scientists",
@@ -9964,12 +10050,12 @@
   },
   {
     "id": "usda-bird-flu-response-staff-accidental-firing-2025",
-    "title": "USDA Mistakenly Fires Employees Critical to the Federal Bird Flu Response",
-    "institution": "U.S. Department of Agriculture (USDA)",
+    "title": "Bird Flu Response Hampered by USDA's Accidental Firing of Response Staff, Plus Broader Funding Freezes and a Federal Communication Blackout",
+    "institution": "U.S. Department of Agriculture (USDA); Department of Health and Human Services / CDC",
     "domain": "staff_office_cuts",
-    "status": "Reversal attempted -- USDA moved to rehire the affected employees shortly after the error was reported",
-    "date_of_action": "2025-02-15 through 2025-02-19 (reported)",
-    "what_changed": "Over the weekend of February 15-16, 2025, USDA mistakenly terminated several employees whose work was critical to the federal government's response to the ongoing bird flu (avian influenza) outbreak, including staff in food-safety and inspection roles. NBC News reported USDA moved afterward to try to reverse the firings and rehire the affected workers, characterizing the terminations as an error made amid the broader probationary-employee purge underway across federal agencies at the time, rather than a deliberate targeting of bird-flu-response staff specifically.",
+    "status": "Reversal attempted on the USDA firings specifically -- USDA moved to rehire the affected employees shortly after the error was reported; the broader funding-freeze and communication-blackout effects on the wider bird-flu response were not confirmed as resolved in sourcing reviewed for this entry",
+    "date_of_action": "2025-02-15 through 2025-02-21 (reported)",
+    "what_changed": "Over the weekend of February 15-16, 2025, USDA mistakenly terminated several employees whose work was critical to the federal government's response to the ongoing bird flu (avian influenza) outbreak, including staff in food-safety and inspection roles. NBC News reported USDA moved afterward to try to reverse the firings and rehire the affected workers, characterizing the terminations as an error made amid the broader probationary-employee purge underway across federal agencies at the time, rather than a deliberate targeting of bird-flu-response staff specifically. Separately, The Hill reported that the same period's broader pattern of mass firings, funding freezes, and a federal communications blackout had stalled the wider federal bird-flu response beyond just the USDA staffing error -- as egg prices surged nationally, the CDC struggled to provide timely public updates, leaving local health officials navigating a patchwork of delayed federal information during an active outbreak.",
     "primary_proponent": {
       "name": "U.S. Department of Agriculture",
       "role": "Agency responsible for the erroneous terminations and the subsequent rehire attempt",
@@ -9980,13 +10066,17 @@
       "figures": [],
       "caveat": "No precise headcount of affected employees was found in sourcing reviewed for this entry ('several employees'); no reporting reviewed confirmed how many were successfully rehired or how long the capacity gap lasted in practice."
     },
-    "confidence_note": "MODERATE confidence -- based on a single NBC News report. Included despite its small, imprecisely-quantified scope because the specific function affected (active bird-flu outbreak response) carries outsized public-health significance and because the episode is illustrative of a broader documented pattern in this tracker of the 2025 probationary-worker purge mistakenly cutting safety-critical staff, matching the pattern already well-documented in the separately-tracked NNSA erroneous-firing entry from the same week.",
+    "confidence_note": "MODERATE-HIGH confidence -- the USDA firing/rehire episode is based on a single NBC News report; the broader funding-freeze/communication-blackout/CDC-delay pattern is independently corroborated by The Hill. Included despite the USDA-specific detail's small, imprecisely-quantified scope because the specific function affected (active bird-flu outbreak response) carries outsized public-health significance and because the episode is illustrative of a broader documented pattern in this tracker of the 2025 probationary-worker purge mistakenly cutting safety-critical staff, matching the pattern already well-documented in the separately-tracked NNSA erroneous-firing entry from the same week.",
     "last_verified": "2026-08-08",
     "date_added": "2026-08-08",
     "sources": [
       {
         "name": "NBC News -- USDA accidentally fired officials, bird flu response, rehire",
         "url": "https://www.nbcnews.com/politics/doge/usda-accidentally-fired-officials-bird-flu-rehire-rcna192716"
+      },
+      {
+        "name": "The Hill -- Trump moves hamper bird flu response as egg prices spike",
+        "url": "https://thehill.com/policy/healthcare/5154415-trump-moves-hamper-bird-flu-response-as-egg-prices-spike/"
       }
     ]
   },
@@ -10428,6 +10518,63 @@
       {
         "name": "MDedge — VHA Facilities Report Severe Staffing Shortages",
         "url": "https://www.mdedge.com/fedprac/article/272754/health-policy/vha-facilities-report-severe-staffing-shortages"
+      }
+    ]
+  },
+  {
+    "id": "va-mass-firings-early-2025",
+    "title": "VA Fires Thousands of Staff -- Including PTSD Specialists and Crisis-Line Staffers -- With Plans Reported to Cut Up to 80,000 Positions",
+    "institution": "Department of Veterans Affairs (VA)",
+    "domain": "staff_office_cuts",
+    "status": "Escalating through the reported period -- an initial 1,000-person firing grew to a confirmed 3,700 within a week, with reporting of a much larger planned reduction (up to 80,000) by summer 2025; this entry documents the initial firing wave and reported plans, distinct from this database's separately-tracked entry on the VA's later-documented OIG staffing-shortage findings",
+    "date_of_action": "2025-02-20 through 2025-03-11 (reported plans for a further, larger reduction)",
+    "what_changed": "On February 20, 2025, Military Times reported the VA had fired 1,000 probationary staffers under the administration's efficiency push, with officials not clarifying which specific roles were cut or whether further firings were planned -- prompting concern from veterans' advocates and lawmakers over the lack of transparency. By February 28, Rolling Stone reported the confirmed total had grown to 3,700 employees, including PTSD specialists and crisis-line staffers -- positions directly tied to veteran mental-health and suicide-prevention services -- with reporting that up to 50,000 veterans could lose VA-connected jobs as a downstream effect; the same reporting described roughly $2 billion in VA contract cuts affecting veteran-owned businesses. By March 11, Rolling Stone reported the administration was preparing to fire as many as 80,000 VA employees over the summer of 2025, which the reporting characterized as effectively dismantling the VA's public healthcare delivery system.",
+    "primary_proponent": {
+      "name": "Department of Government Efficiency (DOGE)",
+      "role": "Directed the VA workforce reductions as part of its broader efficiency campaign",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing the VA-specific cuts; attributed to DOGE's broader, administration-directed workforce-reduction campaign."
+    },
+    "estimated_impact": {
+      "summary": "A rapidly escalating reduction in VA staffing, including direct cuts to veteran mental-health and crisis-response roles, with reported plans for a subsequent reduction an order of magnitude larger than the initial firings",
+      "figures": [
+        {
+          "metric": "Initial probationary firings (Feb 20)",
+          "value": "1,000",
+          "source": "Military Times (2025-02-20)"
+        },
+        {
+          "metric": "Confirmed total firings within the week (Feb 28), including PTSD specialists and crisis-line staff",
+          "value": "3,700",
+          "source": "Rolling Stone (2025-02-28)"
+        },
+        {
+          "metric": "VA contract cuts affecting veteran-owned businesses",
+          "value": "~$2 billion",
+          "source": "Rolling Stone (2025-02-28)"
+        },
+        {
+          "metric": "Reported planned VA workforce reduction by summer 2025",
+          "value": "up to 80,000",
+          "source": "Rolling Stone (2025-03-11)"
+        }
+      ],
+      "caveat": "The 80,000-position figure is reported as a plan, not a confirmed completed action, as of the March 11, 2025 reporting -- this tracker's separately-maintained VA staffing-shortage entry (based on the VA's own OIG survey, March-August 2025) should be checked for whether that planned reduction was in fact carried out at that scale; this entry documents the initial firing wave and the reported plan as distinct, earlier facts."
+    },
+    "confidence_note": "MODERATE-HIGH confidence on the confirmed February firings (1,000, then 3,700), corroborated by Military Times and Rolling Stone reporting different but consistent figures a week apart. LOWER confidence on the 80,000-position and $2 billion figures, which rest on Rolling Stone's opinion/commentary-labeled reporting rather than straight news reporting -- worth independent verification if these specific figures are relied on heavily in debate.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "Military Times -- Confusion over VA worker dismissals irks advocates, lawmakers",
+        "url": "https://www.militarytimes.com/news/pentagon-congress/2025/02/20/confusion-over-va-worker-dismissals-irks-advocates-lawmakers/"
+      },
+      {
+        "name": "Rolling Stone -- Veterans suffering, Elon Musk, DOGE",
+        "url": "https://www.rollingstone.com/politics/political-commentary/veterans-suffering-elon-musk-doge-1235281089/"
+      },
+      {
+        "name": "Rolling Stone -- Trump, Musk, stealing the American dream, veterans",
+        "url": "https://www.rollingstone.com/politics/political-commentary/trump-musk-stealing-american-dream-veterans-1235292821/"
       }
     ]
   },
