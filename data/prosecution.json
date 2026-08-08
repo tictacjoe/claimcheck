@@ -1113,6 +1113,52 @@
     }
   },
   {
+    "official": "Emil Bove, Acting Deputy Attorney General",
+    "offense_category": "Ordering Dismissal of a Pending Federal Corruption Indictment in Exchange for a Sitting Official's Cooperation on Unrelated Policy Priorities -- a federal judge found the arrangement carried the appearance of an improper quid pro quo; addressed here as an institutional-integrity and prosecutorial-independence matter rather than a criminal charge against Bove",
+    "contested": true,
+    "incident_summary": "New York City Mayor Eric Adams had been federally indicted on charges including bribery, wire fraud, and illegal foreign campaign contributions. On February 10, 2025, acting Deputy Attorney General Emil Bove ordered federal prosecutors to move to dismiss the case without prejudice -- preserving DOJ's ability to revive the charges later -- citing concerns that the prosecution would interfere with Adams's ability to assist the administration's immigration-enforcement priorities and with his reelection campaign, rather than any evidentiary or legal weakness in the case. The order triggered a cascade of resignations: Acting U.S. Attorney for the Southern District of New York Danielle Sassoon, who had held the post only three weeks, resigned rather than comply, writing that Adams's attorneys had effectively proposed a quid pro quo in a meeting with DOJ -- that Adams would cooperate with the administration's enforcement priorities only if the indictment were dropped. The then-acting chief of DOJ's Public Integrity Section and a deputy assistant attorney general also resigned rather than sign the dismissal motion. U.S. District Judge Dale Ho ultimately dismissed the case on April 2, 2025 -- but with prejudice, permanently barring its revival, rejecting DOJ's request to dismiss without prejudice. Judge Ho wrote that 'everything here smacks of a bargain: dismissal of the indictment in exchange for immigration policy concessions,' finding it 'disturbing' that a public official might receive favorable prosecutorial treatment contingent on advancing the administration's policy goals, and that dismissing without prejudice would create 'the unavoidable perception that the Mayor's freedom depends on his ability to carry out the immigration enforcement priorities of the administration.' Senators Whitehouse and Blumenthal later filed ethics complaints against Bove with DOJ's Office of Professional Responsibility and New York's attorney grievance body. A June 2025 NBC News analysis situated the episode within a broader four-month pattern of DOJ anti-corruption rollback under the new administration, including the Inspectors General purge and a halt to foreign-bribery enforcement documented elsewhere in this database.",
+    "elements_required": [
+      "Adams faced a pending federal corruption indictment with specific charges (bribery, wire fraud, illegal foreign contributions)",
+      "DOJ leadership ordered dismissal explicitly citing the case's interference with the administration's policy priorities and Adams's reelection, not any evidentiary weakness",
+      "Multiple senior career prosecutors, including the Senate-unconfirmed but sworn-in acting U.S. Attorney, resigned rather than carry out the order, with the most senior resignation letter alleging DOJ leadership had been offered a functional quid pro quo",
+      "The presiding federal judge independently found, in a written opinion, that the arrangement carried the appearance of exchanging prosecutorial leniency for policy cooperation",
+      "The judge dismissed with prejudice specifically to eliminate the leverage a without-prejudice dismissal would have given the administration over Adams going forward"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Lawfare reported Acting SDNY U.S. Attorney Danielle Sassoon's resignation over the order to drop the Adams charges, including her allegation that Adams's attorneys had proposed a quid pro quo in a DOJ meeting",
+        "source_url": "https://www.lawfaremedia.org/article/sdny-acting-u.s.-attorney-resigns-over-order-to-drop-adams-charges",
+        "maps_to_element": "The dismissal order and the resulting senior-prosecutor resignation alleging a quid pro quo"
+      },
+      {
+        "type": "news_report",
+        "description": "CNN's timeline reporting on the crisis and mass resignations across DOJ's Criminal Division and Public Integrity Section over the Adams dismissal order",
+        "source_url": "https://www.cnn.com/2025/02/14/politics/eric-adams-justice-department-tick-tock/index.html",
+        "maps_to_element": "Scope of the resignations beyond Sassoon alone"
+      },
+      {
+        "type": "public_record",
+        "description": "NBC New York and multiple outlets reported Judge Dale Ho's April 2, 2025 dismissal of the case with prejudice, quoting his finding that 'everything here smacks of a bargain' and that dismissal without prejudice would create the appearance the mayor's freedom depended on his cooperation with administration immigration priorities",
+        "source_url": "https://www.nbcnewyork.com/new-york-city/eric-adams-indictment-dismissed-prejudice-judge-ho-drop-charges-trump/6157477/",
+        "maps_to_element": "Judicial finding of an improper quid pro quo appearance, and the with-prejudice remedy chosen specifically to eliminate ongoing leverage"
+      },
+      {
+        "type": "analysis",
+        "description": "NBC News's June 2025 analysis situated the Adams dismissal within a broader four-month DOJ pattern of gutting anti-corruption enforcement, including the Inspectors General purge and a halt to foreign-bribery prosecutions",
+        "source_url": "https://www.nbcnews.com/politics/justice-department/firings-pardons-policy-changes-gutted-doj-anti-corruption-efforts-expe-rcna200571",
+        "maps_to_element": "Broader institutional pattern the Adams episode was part of, not an isolated case"
+      }
+    ],
+    "status": "Resolved as a criminal matter -- the case was dismissed with prejudice on April 2, 2025 and cannot be revived. The underlying ethics complaints against Bove, filed with DOJ's Office of Professional Responsibility and New York's attorney grievance committee, had no publicly reported resolution as of this entry's research.",
+    "rebuttal_anticipated": "DOJ leadership publicly maintained the dismissal was warranted on prosecutorial-discretion grounds and denied any explicit quid pro quo was struck, characterizing the resignations as career prosecutors disagreeing with a legitimate discretionary call rather than evidence of misconduct; Adams himself denied any deal.",
+    "comeback": "This entry does not rest on characterization alone -- the presiding federal judge, after reviewing the record, independently concluded in a written opinion that the arrangement had the appearance of trading prosecutorial leniency for policy cooperation, and specifically structured his dismissal (with prejudice, over DOJ's objection) to eliminate the ongoing leverage a without-prejudice dismissal would have preserved. That finding, combined with multiple senior career prosecutors' resignations rather than comply, distinguishes this from an ordinary, undisputed exercise of prosecutorial discretion.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level accountability question about using federal prosecutorial power as leverage over a local official's policy cooperation, established here in part by a specific judicial finding rather than characterization alone.",
+    "last_updated": "2026-08-08",
+    "date_added": "2026-08-08",
+    "confidence_note": "HIGH confidence -- the dismissal order, the resignations, and Judge Ho's written findings are all independently corroborated across Lawfare, CNN, NBC New York, and NPR, with Judge Ho's own opinion providing a judicial (not merely journalistic) finding on the quid pro quo appearance. The `contested: true` flag reflects that DOJ leadership and Adams both publicly deny an explicit deal was struck, even though the judge found the appearance of one sufficiently strong to shape his remedy."
+  },
+  {
     "official": "DOJ/Federal Bureau of Prisons leadership under Todd Blanche, Acting Attorney General",
     "offense_category": "Appearance of Pardon-Connected Insider Benefit in Federal Contracting -- no criminal charge or procurement-law violation established; this is a public-integrity/conflict-of-interest concern, not a completed finding of contracting fraud",
     "contested": true,
@@ -1732,6 +1778,45 @@
       "incident_summary": "Deposition videos revealed DOGE staffers used ChatGPT's sub-120-character yes/no answers to flag NEH grants as DEI-related for cancellation, coordinated over encrypted Signal messaging, and expressed no regret for resulting income losses -- with agencies reportedly confused about DOGE's actual membership and authority.",
       "confidence_note": "Grounded in deposition videos and records from active litigation, well-corroborated across multiple outlets; the ChatGPT-review account is specific to the NEH grants documented, not confirmed as DOGE's universal government-wide method."
     }
+  },
+  {
+    "official": "Elon Musk, former DOGE leader / Special Government Employee",
+    "offense_category": "Granting Sensitive Federal-System Access to an Unvetted Individual With a Documented History of Data-Leak and Cybercrime-Adjacent Conduct -- an institutional-accountability and vetting-failure claim, not a criminal charge against Musk or Coristine personally",
+    "contested": false,
+    "incident_summary": "Edward Coristine, a 19-year-old known online as 'Big Balls,' was given access to sensitive U.S. government systems in early February 2025 as part of DOGE, despite a documented history that included being fired from a cybersecurity-adjacent internship over an alleged data leak to a rival firm, and providing network services (via a company he founded as a high schooler) later used by a cybercriminal group that cyberstalked an FBI agent. Wired reported in February 2025 that he was appointed an 'expert' at the Office of Personnel Management despite limited experience, raising vetting concerns among security specialists. A recording from a 2022 dispute at Path Network, reported by CNN on February 21, 2025, captured colleagues debating whether then-17-year-old Coristine should be allowed to keep working there given suspicions he had leaked proprietary data -- the company's CEO chose to retain him under restricted conditions rather than remove him. By May 2025 Coristine had become a full-time federal employee at the GS-15 level, one of the highest career civil-service pay grades. He resigned from DOGE in June 2025 but was almost immediately hired by the Social Security Administration as a special government employee -- a category with fewer disclosure obligations -- continuing his access to sensitive federal systems, including, per an August 2025 whistleblower disclosure, Social Security data specifically flagged as at risk.",
+    "elements_required": [
+      "Coristine was granted access to sensitive federal government systems and later a formal GS-15 federal position, despite a documented prior data-leak allegation and a founded company later used by a cybercriminal group",
+      "Reporting identified specific, named individuals (his prior employer's colleagues, on a recorded call) who had already raised these concerns about him years before his federal appointment",
+      "After a public resignation from DOGE, he was almost immediately re-hired into another sensitive federal role (Social Security Administration) under a category with reduced disclosure requirements",
+      "A subsequent whistleblower disclosure specifically flagged Social Security data risk associated with his access"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "Wired reported Coristine's DOGE access and OPM 'expert' appointment despite ties to convicted hackers, Russian-registered domains, and documented cyberattack solicitations connected to his prior company",
+        "source_url": "https://www.wired.com/story/edward-coristine-tesla-sexy-path-networks-doge/",
+        "maps_to_element": "Initial documentation of the vetting gap and access granted"
+      },
+      {
+        "type": "public_record",
+        "description": "CNN reported on a 2022 recorded dispute at Path Network in which colleagues debated removing then-17-year-old Coristine over a suspected data leak, with the CEO choosing to retain him under restricted conditions instead",
+        "source_url": "https://www.cnn.com/2025/02/21/politics/doge-musk-edward-coristine-invs/index.html",
+        "maps_to_element": "Documented, named prior concern that predated and was not resolved before his federal appointment"
+      },
+      {
+        "type": "news_report",
+        "description": "NBC News reported Coristine's June 2025 resignation from DOGE and near-immediate hiring by the Social Security Administration as a special government employee, a category with fewer disclosure obligations",
+        "source_url": "https://www.nbcnews.com/politics/politics-news/teen-doge-staffer-big-balls-left-trump-administration-rcna214900",
+        "maps_to_element": "Continuity of access to sensitive federal systems despite the change in formal role"
+      }
+    ],
+    "status": "Ongoing as of the reporting reviewed for this entry -- Coristine remained in a federal role at the Social Security Administration with continued access to sensitive systems, and an August 2025 whistleblower disclosure specifically flagged Social Security data risk associated with DOGE access more broadly.",
+    "rebuttal_anticipated": "DOGE's leadership could argue Coristine was hired for technical skill rather than a traditional security-clearance-track role, that no specific instance of him personally misusing government data has been documented, and that youth or a prior workplace dispute does not itself disqualify someone from government service.",
+    "comeback": "This entry does not allege Coristine has been shown to have misused government data -- the accountability question is that DOGE granted a teenager with a specific, previously documented and named data-leak allegation, and a company whose services a cybercriminal group used to target an FBI agent, access to sensitive federal systems without apparent resolution of those known concerns, and that after a public resignation he was quickly moved into another sensitive federal role with fewer disclosure requirements rather than removed from government access entirely.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level accountability question about DOGE's vetting standards for personnel given sensitive federal-system access, rather than a specific legal violation by either Musk or Coristine.",
+    "last_updated": "2026-08-08",
+    "date_added": "2026-08-08",
+    "confidence_note": "HIGH confidence on the documented facts -- corroborated by Wired's original reporting and CNN's independently obtained recording, with NBC News confirming the DOGE-to-SSA transition. MODERATE confidence on the full extent of the August 2025 whistleblower disclosure's specific findings, which was not independently re-verified beyond the original filing referenced in later reporting for this entry."
   },
   {
     "official": "Pam Bondi, then-Attorney General (served 2025-2026, removed April 2026) / DOJ leadership",
@@ -6053,6 +6138,39 @@
   },
   {
     "official": "Donald Trump, President",
+    "offense_category": "Pardon of and Reported Consideration of a Diplomatic Appointment for a Convicted Public-Corruption Felon Turned Political Ally -- clemency and appointment power are constitutional presidential prerogatives, not themselves unlawful; the accountability claim concerns rewarding political loyalty from a convicted corrupt official rather than any specific legal violation",
+    "contested": false,
+    "incident_summary": "Rod Blagojevich, the former Illinois governor convicted on 17 corruption charges -- including trying to sell Barack Obama's vacated U.S. Senate seat -- had his 14-year prison sentence commuted by Trump in 2020, during Trump's first term. Blagojevich subsequently rebranded himself as a vocal Trump supporter, describing himself as a 'Trump-ocrat.' On February 7, 2025, Politico reported Trump was reportedly considering Blagojevich for U.S. ambassador to Serbia, noting Blagojevich had recently met with Serbian President Aleksandar Vučić. Days later, on February 10-11, 2025, Trump went further and granted Blagojevich a full pardon, formally erasing the corruption convictions his sentence had only previously been commuted for.",
+    "elements_required": [
+      "Blagojevich was convicted on 17 federal corruption charges, including attempting to sell a vacant U.S. Senate seat",
+      "Trump commuted his sentence in his first term (2020), and Blagojevich subsequently became a public, self-described political ally",
+      "Trump's administration was reported to be considering Blagojevich for a U.S. ambassadorship shortly before the pardon",
+      "Trump then granted Blagojevich a full pardon, formally erasing the underlying convictions rather than merely ending the remaining sentence"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "Politico reported Trump was considering Blagojevich for U.S. ambassador to Serbia, noting his 2020 sentence commutation, his self-identification as a 'Trump-ocrat,' and a recent meeting with Serbian President Vučić",
+        "source_url": "https://www.politico.com/news/2025/02/07/trump-blagojevich-ambassador-serbia-00203103",
+        "maps_to_element": "The reported diplomatic-appointment consideration"
+      },
+      {
+        "type": "public_record",
+        "description": "NPR reported Trump's full pardon of Blagojevich on February 10, 2025, covering his corruption convictions including the attempted Senate-seat sale, and his political realignment as a Trump supporter since the 2020 commutation",
+        "source_url": "https://www.npr.org/2025/02/10/g-s1-47817/trump-pardons-disgraced-former-illinois-gov-rod-blagojevich",
+        "maps_to_element": "The pardon itself and its scope"
+      }
+    ],
+    "status": "Resolved as a completed clemency action. The pardon is final; no reporting reviewed for this entry confirmed whether the reported ambassadorship consideration was ever formally pursued to nomination.",
+    "rebuttal_anticipated": "The presidential pardon and appointment powers are both constitutional prerogatives; supporters could argue Blagojevich had already served significant time before the original 2020 commutation and that a full pardon simply completed a clemency process begun years earlier, unrelated to any appointment consideration.",
+    "comeback": "This entry does not dispute the constitutional pardon power -- the accountability question is the specific sequence and pattern: a convicted public-corruption felon, already granted clemency once, was then reportedly considered for a U.S. diplomatic post representing the country abroad, followed within days by a full pardon erasing his corruption record entirely, consistent with this tracker's broader documented pattern of clemency extended to political allies and donors.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level accountability question about rewarding political loyalty from a convicted corrupt official with both a full pardon and apparent consideration for federal office, rather than any specific legal violation.",
+    "last_updated": "2026-08-08",
+    "date_added": "2026-08-08",
+    "confidence_note": "HIGH confidence -- both the ambassadorship consideration and the pardon are independently corroborated by Politico and NPR respectively, with no facts in dispute. This entry is distinct from the existing `trump-fraudster-pardons-pattern-2026.json` entry, which documents a different set of pardoned fraud convictions (Esformes, Melgen, Milton, Herrera Velutini) -- Blagojevich's convictions were for public corruption/bribery rather than fraud, and his case includes the additional ambassadorship-consideration element not present in that entry."
+  },
+  {
+    "official": "Donald Trump, President",
     "offense_category": "Presidential Directive Overriding Scientific Advisory Process on Childhood Vaccine Policy -- no criminal or civil legal violation established; the order was issued while a separate court stay (see this tracker's rfk-jr-acip-apa-violation entry) already blocks implementation of a related prior vaccine-schedule overhaul, raising a legal-authority question about the order's practical effect",
     "contested": true,
     "incident_summary": "On May 29, 2026, Trump signed Executive Order 14407, directing the CDC and its Advisory Committee on Immunization Practices (ACIP) to realign the U.S. childhood vaccine schedule with a December 2025 HHS assessment. That assessment called for reducing the number of recommended childhood vaccines from 17 to 11, reasoning that the U.S. recommends more childhood vaccines than 'peer nations' such as Denmark and more than twice as many vaccine doses as some European countries. The order followed HHS Secretary Robert F. Kennedy Jr.'s earlier January 2026 overhaul of the immunization schedule, which eliminated recommendations for flu, COVID-19, rotavirus, meningitis, hepatitis A, and hepatitis B vaccines for children -- an overhaul the U.S. District Court for the District of Massachusetts stayed on March 16, 2026, reverting the schedule to its May 2025 version pending litigation (the same underlying ACIP litigation this tracker documents in its separate rfk-jr-acip-apa-violation-2026-03.json entry). EO 14407 directs CDC/ACIP toward a specific numerical and substantive vaccine-schedule outcome via presidential directive, notwithstanding that a federal court has already found the Kennedy-appointed ACIP panel's prior decision-making process disregarded the scientific method, and that the schedule remains under an active judicial stay.",
@@ -6355,6 +6473,52 @@
       "incident_summary": "After pardoning Honduras's former president Hernández -- erasing a 45-year cocaine-trafficking sentence -- BOP rushed to remove his ICE detainer and paid a tactical team to drive him to the Waldorf Astoria, treatment immigration experts say is atypical even for pardoned drug offenders.",
       "confidence_note": "Independently corroborated by ProPublica's documented investigation and Bloomberg's reporting, with no facts disputed by BOP or the White House."
     }
+  },
+  {
+    "official": "Donald Trump, President",
+    "offense_category": "Unlawful Mass Removal of Inspectors General Without Statutorily Required Congressional Notice -- a federal court later found the firings violated the Inspector General Act, a civil/administrative legal violation, not a criminal one",
+    "contested": false,
+    "incident_summary": "On January 24, 2025, Trump fired inspectors general at 17 federal agencies in a single night, including at the Department of Labor and other major departments. The Inspector General Act of 1978, as amended in 2022, requires the President to give Congress 30 days' advance notice of an IG's removal along with substantive, case-specific reasons -- neither was provided. Sen. Jon Ossoff and other lawmakers immediately warned the firings violated federal law and demanded they be rescinded. Eight of the fired inspectors general sued on February 12, 2025, seeking reinstatement. On September 24, 2025, U.S. District Judge Ana C. Reyes ruled the firings had in fact violated the law, but declined to order reinstatement, reasoning that Trump could simply re-fire the same inspectors general after providing the 30-day notice the law required the first time -- leaving the plaintiffs without a practical remedy despite winning on the merits. Separately, in October 2025, Defense Secretary Pete Hegseth issued a memo overhauling the Pentagon's own inspector general complaint process, requiring complaints against senior officials to be deemed 'credible' within seven days of filing and directing that 'repeat complainants' be tracked -- changes oversight advocates said would discourage legitimate whistleblowing, coming as the broader 17-IG purge remained unremedied.",
+    "elements_required": [
+      "Trump removed inspectors general at 17 federal agencies simultaneously, without the 30-day advance congressional notice the Inspector General Act requires",
+      "No case-specific substantive rationale for the removals was provided to Congress at the time, as the amended statute also requires",
+      "A federal court, after full litigation, found the firings unlawful under the statute",
+      "Despite that finding, the court declined to reinstate the fired IGs, leaving the practical effect of the mass removal in place",
+      "A subsequent agency-level action (Hegseth's Pentagon IG memo) narrowed IG complaint-handling procedures for senior officials specifically, in the same period the broader unlawful firings remained unremedied"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Sen. Jon Ossoff's press release, issued the week of the firings, warning the removals violated the Inspector General Act's 30-day congressional notice requirement and demanding they be rescinded",
+        "source_url": "https://www.ossoff.senate.gov/press-releases/sen-ossoff-warns-trumps-inspectors-general-purge-risks-corruption-abuse/",
+        "maps_to_element": "Contemporaneous notice that the firings violated the statute's procedural requirements"
+      },
+      {
+        "type": "public_record",
+        "description": "CNN reported the fired inspectors general filed suit February 12, 2025 seeking reinstatement, arguing Trump ignored the Inspector General Act's protections against political removal",
+        "source_url": "https://www.cnn.com/2025/02/12/politics/inspector-general-lawsuit-fired-trump",
+        "maps_to_element": "Formal legal challenge to the firings"
+      },
+      {
+        "type": "public_record",
+        "description": "Government Executive and Federal News Network reported Judge Ana C. Reyes's September 24, 2025 ruling that the firings were unlawful, but that she would not order reinstatement since Trump could lawfully re-fire the same officials after providing the required notice",
+        "source_url": "https://www.govexec.com/oversight/2025/09/fired-watchdogs-cant-be-reinstated-despite-trumps-obvious-law-breaking-court-decides/408387/",
+        "maps_to_element": "Judicial finding that the firings were unlawful, and the practical limits of the remedy"
+      },
+      {
+        "type": "news_report",
+        "description": "Reuters reported Defense Secretary Hegseth's October 2025 memo overhauling the Pentagon inspector general's complaint-handling process, including a 7-day 'credibility' determination requirement and tracking of 'repeat complainants,' explicitly noting it followed the broader 17-IG purge",
+        "source_url": "https://www.reuters.com/world/assault-oversight-hegseth-overhaul-military-watchdogs-spurs-concern-2025-10-02/",
+        "maps_to_element": "A subsequent, narrower agency-level action further constraining IG oversight capacity"
+      }
+    ],
+    "status": "Resolved on the merits but not remedied. A federal court found the January 2025 firings unlawful (September 24, 2025), but the fired inspectors general were not reinstated. The Pentagon's IG process was separately narrowed by the October 2025 Hegseth memo, which remains in effect as of this entry's research.",
+    "rebuttal_anticipated": "The administration could argue that inspectors general, while statutorily protected from removal without notice, still ultimately serve within the executive branch and that a President retains broad authority over executive personnel generally; it could also note that the court, while finding the removal process unlawful, did not require reinstatement, which some officials may cite as evidence the practical harm was limited.",
+    "comeback": "This entry does not dispute that a president can remove an inspector general through the lawful process -- the accountability question is that Trump fired 17 of them simultaneously, without the congressional notice or case-specific justification the law explicitly requires, and a federal court later confirmed this violated the statute. That the court's remedy was limited does not change the underlying legal violation it found, and the subsequent Pentagon IG memo shows the erosion of independent oversight capacity continuing well after the original violation was identified.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level pattern of weakening independent oversight infrastructure across the executive branch, established here by a specific judicial finding of unlawfulness rather than as characterization alone.",
+    "last_updated": "2026-08-08",
+    "date_added": "2026-08-08",
+    "confidence_note": "HIGH confidence -- the firings, the lawsuit, and the September 2025 unlawfulness finding are all corroborated by primary/near-primary sources (Sen. Ossoff's office, CNN's contemporaneous reporting, and Government Executive/Federal News Network's detailed coverage of Judge Reyes's ruling). This is one of the stronger entries in this tracker in that a court has actually adjudicated the underlying legal claim, rather than the claim resting on reporting and analysis alone."
   },
   {
     "official": "Donald Trump, President; Todd Blanche, Acting Attorney General",

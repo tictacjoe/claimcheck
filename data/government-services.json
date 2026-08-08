@@ -7451,6 +7451,71 @@
     ]
   },
   {
+    "id": "orr-migrant-children-ice-data-sharing-2025",
+    "title": "HHS/ORR Ends Confidentiality Wall Protecting Unaccompanied Migrant Children and Their Sponsors, Sharing Data With ICE and Cutting Legal Aid",
+    "institution": "Department of Health and Human Services -- Office of Refugee Resettlement (ORR), affecting unaccompanied migrant children in federal custody",
+    "domain": "protection_rollback",
+    "status": "Ongoing -- the ICE data-sharing arrangement remained active as of mid-2026 reporting; the legal-aid contract termination was blocked by a court order and funding was later restored",
+    "date_of_action": "2025-02-15 (fingerprinting reimposed) through 2026-07-28 (cumulative-impact figures reported)",
+    "what_changed": "Beginning in February 2025, ORR reimposed strict fingerprint-based background-check requirements for every adult in a household sponsoring an unaccompanied migrant child -- a policy first introduced in 2018 and later rolled back after it was found to cause mass detention overcrowding and discourage otherwise-qualified sponsors, many of whom are themselves undocumented, from coming forward for fear of their own deportation. In March 2025, the administration went further, rolling back a roughly 2008-era wall that had kept sponsors' immigration status information from being shared with immigration enforcement specifically so status alone would not deter family reunification; ORR began providing ICE with sponsor and household immigration-status data on request, and no longer barred denying a child's release based on a sponsor's immigration status. Separately, DOJ moved on March 21, 2025 to terminate a roughly $200 million contract with the Acacia Center for Justice, which funds legal representation for unaccompanied children in immigration court -- a federal judge issued a temporary restraining order blocking the termination, and funding was later restored, though not before significant disruption to the legal-aid network. By mid-2026, cumulative reporting found ORR had shared more than 460,000 'investigative leads' involving unaccompanied children, sponsors, and other household members with ICE since January 2025, resulting in more than 12,000 arrests, and that the additional vetting requirements had driven the average time a child spends in ORR custody from about 30 days in fiscal year 2024 to 194 days by June 2026.",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services (ORR's parent department)",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing the ORR policy changes; attributed institutionally to the HHS Secretary with oversight authority over ORR, per this tracker's standard for department-level actions without a specific named director on the record."
+    },
+    "estimated_impact": {
+      "summary": "A roughly two-decade-old firewall protecting unaccompanied migrant children and their prospective sponsors from immigration-enforcement consequences was dismantled, resulting in a large, quantified increase in both enforcement actions against sponsors and time children spend in federal custody",
+      "figures": [
+        {
+          "metric": "Investigative leads shared from ORR to ICE since January 2025",
+          "value": "460,000+",
+          "source": "Reuters/investigative reporting, published 2026-07-28"
+        },
+        {
+          "metric": "Arrests resulting from shared ORR data",
+          "value": "12,000+",
+          "source": "Reuters/investigative reporting, published 2026-07-28"
+        },
+        {
+          "metric": "Average time an unaccompanied child spends in ORR custody",
+          "value": "30 days (FY2024) rising to 194 days (June 2026)",
+          "source": "ORR's own figures, per investigative reporting"
+        },
+        {
+          "metric": "Federal legal-aid contract value affected by the (later-blocked) termination attempt",
+          "value": "~$200 million, covering legal representation for roughly 26,000 children",
+          "source": "Contemporaneous 2025 reporting on the Acacia Center for Justice contract"
+        }
+      ],
+      "caveat": "The 460,000-lead and 12,000-arrest figures are drawn from investigative reporting citing government data obtained through reporting/records requests, not a formal ORR or ICE public accounting; the 194-day custody figure is described as ORR's own reported statistic. The legal-aid funding was ultimately restored after the court order, so that specific component's lasting impact was disruption/delay rather than a permanent cut."
+    },
+    "confidence_note": "HIGH confidence on the fingerprinting reimposition and the ICE data-sharing policy change, corroborated by the New York Times, Reuters, and the Migration Policy Institute. HIGH confidence on the legal-aid contract termination attempt and its judicial blocking, corroborated by PBS, NBC News, and Fox News's contemporaneous coverage. MODERATE-HIGH confidence on the cumulative 460,000-lead/12,000-arrest/194-day figures, which come from later (2026) investigative reporting citing government data rather than an official ORR/ICE public report -- worth rechecking against any official accounting if one is published.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "New York Times -- Trump rules on migrant children fingerprinting (Feb 2025)",
+        "url": "https://www.nytimes.com/live/2025/02/14/us/trump-news-tariffs-federal#trump-rules-migrant-children"
+      },
+      {
+        "name": "Reuters -- Trump administration rolls back restrictions on sharing migrant minor sponsors' data",
+        "url": "https://www.reuters.com/world/us/trump-administration-rolls-back-restrictions-sharing-migrant-minor-sponsors-2025-03-24/"
+      },
+      {
+        "name": "Migration Policy Institute -- Trump Administration Quietly Expands Family Separation",
+        "url": "https://www.migrationpolicy.org/journal/policy-beat/trump-expands-family-separation"
+      },
+      {
+        "name": "PBS NewsHour -- Unaccompanied migrant children at risk of losing legal representation",
+        "url": "https://www.pbs.org/newshour/show/unaccompanied-migrant-children-at-risk-of-losing-legal-representation"
+      },
+      {
+        "name": "Investigative reporting -- Thousands of children, sponsors arrested by ICE after tips from US child migrant agency (2026-07-28)",
+        "url": "https://www.usnews.com/news/world/articles/2026-07-28/exclusive-thousands-of-children-sponsors-arrested-by-ice-after-tips-from-us-child-migrant-agency"
+      }
+    ]
+  },
+  {
     "id": "patel-fbi-field-office-purge-2025-2026",
     "title": "FBI Director Kash Patel Runs Successive Purges of Field-Office Leaders and Agents Tied to Trump-Related Investigations",
     "institution": "Federal Bureau of Investigation",
