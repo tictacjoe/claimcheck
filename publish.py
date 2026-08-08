@@ -2,7 +2,7 @@
 """
 publish.py
 
-Copies data from the PRIVATE working repo (~/gjoe/debate-prep/) into the
+Copies data from the PRIVATE working repo (~/gjoe/tap-data/) into the
 PUBLIC site repo's data/ folder, applying an exclude list so nothing
 gets published until you've deliberately decided it's ready.
 
@@ -12,13 +12,13 @@ repo and commit/push yourself. That review step is the actual safety
 net; this script is just the copy-and-filter mechanism.
 
 Directory assumptions (override with flags if yours differ):
-  Working repo:  ~/gjoe/debate-prep/
+  Working repo:  ~/gjoe/tap-data/
     prosecution/cabinet-level/*.json
     deregulation/entries/*.json
     government-services/entries/*.json
     tracker/output/posts.json
 
-  Site repo:     ~/gjoe/debate-prep-site/
+  Site repo:     ~/gjoe/tap-site/
     data/prosecution.json
     data/deregulation.json
     data/government-services.json
@@ -27,7 +27,7 @@ Directory assumptions (override with flags if yours differ):
 
 Usage:
   python3 publish.py
-  python3 publish.py --working ~/gjoe/debate-prep --site ~/gjoe/debate-prep-site
+  python3 publish.py --working ~/gjoe/tap-data --site ~/gjoe/tap-site
   python3 publish.py --dry-run
 """
 
@@ -99,9 +99,9 @@ def publish_tracker(source_file: Path, dest_file: Path, dry_run: bool = False) -
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--working", default=str(Path.home() / "gjoe/debate-prep"),
+    parser.add_argument("--working", default=str(Path.home() / "gjoe/tap-data"),
                          help="Path to the private working repo")
-    parser.add_argument("--site", default=str(Path.home() / "gjoe/debate-prep-site"),
+    parser.add_argument("--site", default=str(Path.home() / "gjoe/tap-site"),
                          help="Path to the public site repo")
     parser.add_argument("--dry-run", action="store_true",
                          help="Show what would be published without writing files")
