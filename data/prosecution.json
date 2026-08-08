@@ -3660,6 +3660,45 @@
     }
   },
   {
+    "official": "Kristi Noem, DHS Secretary",
+    "offense_category": "Sustained Public Mischaracterization of ICE Enforcement as Targeting 'Criminal Aliens'/'The Worst of the Worst,' Contradicted by the Administration's Own Internal and Reported Data -- an institutional-accountability and public-transparency claim, not a criminal charge against Noem personally; attributed to her as DHS Secretary with operational oversight of ICE, per this tracker's institutional-attribution standard",
+    "contested": true,
+    "incident_summary": "Beginning within Trump's first two weeks back in office, reporting repeatedly found that ICE's actual enforcement and detention activity did not match the administration's public framing that enforcement prioritized 'criminal aliens' and 'the worst of the worst.' HuffPost reported in early February 2025 that nearly half of those arrested or deported had no criminal record beyond immigration violations, and that ICE raids and deportation flights (including to Colombia) swept up children and pregnant women alongside anyone undocumented, following new Trump orders that eliminated prior, narrower enforcement priorities. In June 2025, CNN reported that internal ICE data it had obtained showed fewer than 1 in 10 immigrants detained since the prior October had been convicted of serious crimes like murder or assault, with over 75% having no criminal convictions beyond immigration or traffic violations. In July 2025, a CBS News analysis found that after Trump's daily deportation target jumped to 3,000 in May 2025, arrests of immigrants with no criminal record surged more than 250%, with only about 8% of all detainees having any violent-crime conviction. This pattern predates and is distinct from a later, separate entry in this database documenting a specific December 2025 DHS 'worst of the worst' public website found to contain factual errors overstating individual arrestees' offense severity.",
+    "elements_required": [
+      "The administration's public messaging, from the first weeks of the term onward, characterized ICE enforcement as targeting convicted criminals and 'the worst of the worst'",
+      "Independent reporting across three separate outlets, at three different points in 2025 (February, June, and July), each found -- using either the administration's own internal data or independent analysis -- that a large majority of those actually arrested or detained had no serious criminal conviction",
+      "The gap between the stated enforcement priority and the documented reality was consistent and widening over the course of 2025, not a single isolated data point",
+      "This pattern is attributed institutionally to DHS Secretary Noem, who has operational authority over ICE and has publicly defended the 'criminal aliens' framing, rather than to any single individually-documented false statement by her"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "HuffPost reported that despite the administration's 'criminal aliens' framing, nearly half of those arrested or deported in the term's opening weeks had no criminal record beyond immigration violations, with ICE raids and deportation flights to Colombia including children and pregnant women, following new orders eliminating prior narrower enforcement priorities",
+        "source_url": "https://www.huffpost.com/entry/trump-immigration-enforcement-priority-criminals_n_679d2543e4b0bbaed17f0a61",
+        "maps_to_element": "Initial documentation of the enforcement-priority/reality gap"
+      },
+      {
+        "type": "public_record",
+        "description": "CNN reported on internal ICE data it obtained showing fewer than 1 in 10 immigrants detained since October 2024 had been convicted of serious crimes such as murder or assault, with over 75% having no criminal convictions beyond immigration or traffic violations",
+        "source_url": "https://www.cnn.com/2025/06/16/us/la-ice-raids-violent-criminals-records-invs",
+        "maps_to_element": "Internal administration data confirming the pattern, not just outside analysis"
+      },
+      {
+        "type": "news_report",
+        "description": "CBS News's analysis found that after Trump's daily deportation target rose to 3,000 in May 2025, ICE arrests of immigrants with no criminal record surged more than 250%, and only about 8% of all detainees had a violent-crime conviction",
+        "source_url": "https://www.cbsnews.com/news/ice-detentions-non-criminal-immigrants-violent-crime-convictions-analysis/",
+        "maps_to_element": "Escalation of the pattern following the raised deportation quota"
+      }
+    ],
+    "status": "Ongoing pattern as of mid-2025 reporting; not resolved by any single event. A related but distinct entry in this database documents a specific later episode (the December 2025 DHS 'worst of the worst' website's factual errors) as its own accountability matter.",
+    "rebuttal_anticipated": "The administration can argue that even immigration-status violations are themselves crimes under federal law, so characterizing detainees broadly as 'criminal' is not technically false, and that enforcement volume necessarily includes non-violent cases as overall arrest numbers scale up; supporters may also argue any individual undocumented presence is a legitimate basis for removal regardless of a separate criminal conviction.",
+    "comeback": "This entry does not dispute that immigration violations are themselves unlawful -- the accountability question is the specific, repeated public framing of enforcement as targeting 'criminal aliens' and 'the worst of the worst' (implying convictions for serious crimes like murder or assault) when the administration's own internal data, independently obtained by CNN, showed fewer than 1 in 10 detainees met that description, a gap documented consistently across three separate reporting periods spanning five months.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level accountability question about public messaging diverging from documented enforcement reality, rather than a specific legal violation.",
+    "last_updated": "2026-08-08",
+    "date_added": "2026-08-08",
+    "confidence_note": "HIGH confidence -- the June 2025 CNN figure is drawn from the administration's own internal ICE data, not an outside estimate, and the February and July figures are independently corroborated by HuffPost and CBS News respectively using different methodologies at different points in time, all pointing the same direction. The `contested: true` flag reflects that the administration disputes the characterization (not the underlying arrest/conviction figures themselves, which are sourced to its own data)."
+  },
+  {
     "official": "Department of Defense leadership (hiring authority within the Office of Special Operations and Low-Intensity Conflict)",
     "offense_category": "Appointment of a Convicted January 6 Participant to a Sensitive National-Security Role -- no criminal or procedural violation established in the hiring itself; this is a public-integrity/qualifications-and-vetting concern given internal Pentagon objections",
     "contested": true,
@@ -6589,6 +6628,46 @@
       "incident_summary": "Commerce eased export controls on advanced AI chips and military tech to the UAE despite internal staff warnings about China diversion, benefiting a government with billions of dollars in documented financial ties to Trump's personal crypto venture, World Liberty Financial.",
       "confidence_note": "Underlying facts (the policy change, the overridden warnings, and the financial ties) are well-corroborated across multiple outlets; the causal link between the financial relationship and the specific policy decision is a strong, congressionally-investigated concern, not a proven fact."
     }
+  },
+  {
+    "official": "Donald Trump, President",
+    "offense_category": "Publicly Repeated Proposal to Deport U.S. Citizens Convicted of Crimes to a Foreign Prison -- legal experts describe this as unconstitutional; as of this entry's research it remains a stated policy intent and an operational arrangement with a foreign government, not a confirmed instance of an actual citizen being deported this way",
+    "contested": true,
+    "incident_summary": "On February 5, 2025, following an offer from Salvadoran President Nayib Bukele to house deportees -- including, Bukele said, convicted U.S. citizens -- in El Salvador's prison system at a lower cost to the U.S., Trump expressed public support for the idea, with Secretary of State Marco Rubio calling Bukele's offer 'an act of extraordinary friendship.' Bukele stated El Salvador would take convicted criminals, including convicted U.S. citizens, into its CECOT mega-prison for a fee. Trump repeated and escalated the proposal in subsequent months, telling reporters in April 2025 that 'homegrown criminals' -- meaning U.S. citizens -- would be 'next' for this treatment, following the March 2025 deportation of 238 Venezuelan nationals to CECOT under the Alien Enemies Act (a separate, already-litigated episode tracked elsewhere in this database as the Boasberg contempt matter). Constitutional and legal experts across multiple outlets characterized deporting U.S. citizens as unconstitutional, since citizens cannot be denationalized or removed from the country against their will absent a specific, narrow legal process that this proposal does not follow. As of the reporting reviewed for this entry, no confirmed instance of an actual U.S. citizen being deported to El Salvador under this proposal had occurred -- it remained a repeatedly and publicly stated intention, paired with a standing operational agreement with the Salvadoran government to accept such transfers for a fee.",
+    "elements_required": [
+      "Trump publicly expressed support for deporting U.S. citizens convicted of crimes to a foreign prison (El Salvador's CECOT), following an explicit offer from a foreign head of state to accept them",
+      "The Secretary of State publicly endorsed the arrangement rather than distancing the administration from it",
+      "Trump personally and repeatedly reiterated the proposal in subsequent public statements over at least a two-month span, rather than raising it once and dropping it",
+      "Multiple independent legal experts, cited across several outlets, assessed the proposal as unconstitutional",
+      "As of current sourcing, this remains a stated intent and standing arrangement rather than a confirmed executed deportation of an actual U.S. citizen"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "ABC News reported Trump's support for Bukele's offer to house deported foreign nationals and U.S. citizens in Salvadoran prisons, with Secretary of State Rubio calling it 'an act of extraordinary friendship'",
+        "source_url": "https://abcnews.go.com/Politics/marco-rubio-el-salvadors-president-agrees-house-us/story?id=118433524",
+        "maps_to_element": "The initial proposal and Rubio's public endorsement"
+      },
+      {
+        "type": "news_report",
+        "description": "NPR reported Trump saying 'homegrowns are next' in April 2025, escalating the proposal to specifically target U.S. citizens ('homegrown criminals') for deportation and imprisonment abroad",
+        "source_url": "https://www.npr.org/2025/04/16/nx-s1-5366178/trump-deport-jail-u-s-citizens-homegrowns-el-salvador",
+        "maps_to_element": "Repetition and escalation of the proposal over time, naming U.S. citizens specifically"
+      },
+      {
+        "type": "analysis",
+        "description": "NBC News reported legal experts describing the proposal as 'obviously illegal,' and Al Jazeera's legal analysis concluded deporting U.S. citizens would violate the Constitution",
+        "source_url": "https://www.nbcnews.com/politics/donald-trump/trump-floats-legally-questionable-proposal-deport-us-citizens-rcna201183",
+        "maps_to_element": "Independent legal assessment of the proposal's constitutionality"
+      }
+    ],
+    "status": "Unresolved -- remains a repeated, standing public proposal with an operational foreign-government arrangement in place to receive such transfers, but no confirmed executed deportation of a U.S. citizen under it as of the reporting reviewed for this entry.",
+    "rebuttal_anticipated": "The administration could argue this was rhetorical/aspirational rather than a formal policy directive, that no actual U.S. citizen has in fact been deported this way, and that the proposal has not been implemented through any executive order, agency directive, or legal process that would make it an actual 'action' rather than a statement.",
+    "comeback": "This entry documents a repeated, publicly reiterated presidential statement of intent -- not a single offhand remark -- paired with a foreign head of state's standing offer to receive convicted U.S. citizens for a fee and the Secretary of State's public endorsement of that arrangement; multiple independent legal analyses concluded the underlying proposal, if carried out, would be unconstitutional. The absence of a confirmed executed case does not mean the proposal was abandoned -- it is tracked here as an ongoing stated policy intent with real institutional backing, distinct from (but related to) the March 2025 Alien Enemies Act deportations tracked separately in this database.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level accountability question about a stated intent to remove constitutional protections from U.S. citizens, rather than a confirmed completed legal violation.",
+    "last_updated": "2026-08-08",
+    "date_added": "2026-08-08",
+    "confidence_note": "HIGH confidence that the proposal was made, repeated, and publicly endorsed by both Trump and Rubio -- corroborated across ABC News, NPR, NBC News, and Al Jazeera. The `contested: true` flag reflects both the administration's likely characterization of this as rhetorical rather than binding policy, and the absence of any confirmed case of an actual citizen being deported this way as of this entry's research -- re-verify before using this entry to claim an actual citizen has been sent to a foreign prison, which is not established here."
   },
   {
     "official": "Scott Turner, Secretary of Housing and Urban Development",

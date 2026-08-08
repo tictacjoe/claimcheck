@@ -1201,6 +1201,53 @@
     "last_updated": "2026-08-06"
   },
   {
+    "id": "cia-workforce-buyout-hiring-freeze-2025",
+    "title": "CIA Offers Buyouts Agency-Wide and Freezes Hiring to Realign Workforce with New Priorities",
+    "institution": "Central Intelligence Agency",
+    "domain": "staff_office_cuts",
+    "status": "Implemented -- buyout offer and hiring freeze took effect February 2025; broader multi-year workforce reduction plan reported as ongoing",
+    "date_of_action": "2025-02-04 (buyout offer announced, February 6 deadline) through at least 2025-05 (multi-year reduction plan reported)",
+    "what_changed": "On February 4, 2025, the CIA under newly confirmed Director John Ratcliffe offered buyouts to its entire workforce, giving employees until February 6, 2025 to accept -- a two-day window -- in exchange for eight months of pay plus benefits if they chose to resign. The agency simultaneously imposed a hiring freeze and began reviewing already-extended conditional job offers to new recruits, indicating offers not aligned with the agency's new focus were likely to be rescinded. Ratcliffe framed the changes as realigning the CIA toward new priorities, including a greater focus on the Western Hemisphere (targeting drug cartels and other threats not traditionally treated as top-tier adversaries) and covert operations, rather than legacy Cold War-era regional priorities. Reporting in May 2025 indicated this was part of a broader, multi-year plan across U.S. intelligence agencies to reduce the CIA's workforce by approximately 1,200 positions, with several hundred employees already having taken early retirement or the buyout by that point.",
+    "primary_proponent": {
+      "name": "John Ratcliffe",
+      "role": "Director of the Central Intelligence Agency",
+      "note": "Directed the buyout offer and hiring freeze shortly after his confirmation, publicly framing it as realigning the agency's workforce and priorities toward the Western Hemisphere and away from what he characterized as outdated focuses."
+    },
+    "estimated_impact": {
+      "summary": "Substantial planned reduction in CIA staffing capacity, executed through voluntary buyouts and a hiring freeze rather than involuntary layoffs",
+      "figures": [
+        {
+          "metric": "Planned CIA workforce reduction over several years",
+          "value": "~1,200 positions",
+          "source": "Washington Times, citing administration workforce planning (2025-05-03)"
+        },
+        {
+          "metric": "Buyout severance offered",
+          "value": "8 months of pay plus benefits",
+          "source": "Contemporaneous February 2025 reporting (NBC News, Yahoo News)"
+        }
+      ],
+      "caveat": "The 1,200-position figure describes a multi-year plan across the timeframe reported in May 2025, not a confirmed final headcount reduction; the number of employees who had actually departed via buyout or early retirement by that point was described only as \"several hundred,\" not precisely quantified in sourcing reviewed for this entry."
+    },
+    "confidence_note": "HIGH confidence on the buyout offer, its terms, and the hiring freeze -- corroborated by NBC News, Yahoo News, and Malay Mail's contemporaneous February 2025 reporting. MODERATE confidence on the specific 1,200-position multi-year reduction figure and the Western Hemisphere/cartel-focus rationale, which rest on later Washington Times reporting citing administration sources rather than an official CIA statement.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "NBC News -- CIA offers buyouts to workforce as new director aims to align with Trump's priorities",
+        "url": "https://www.nbcnews.com/news/us-news/cia-offers-buyouts-workforce-trump-administration-continues-efforts-sc-rcna190742"
+      },
+      {
+        "name": "Washington Times -- NSA, CIA and other spy agencies set to shrink workforce under Trump administration plan",
+        "url": "https://www.washingtontimes.com/news/2025/may/3/nsa-cia-spy-agencies-set-shrink-workforce-trump-administration-plan/"
+      },
+      {
+        "name": "Wall Street Journal -- The CIA Is About to Get a Trump Makeover",
+        "url": "https://www.wsj.com/politics/national-security/the-cia-is-about-to-get-a-trump-makeover-16fc0cbf"
+      }
+    ]
+  },
+  {
     "id": "cia-world-factbook-shuttered-2026",
     "title": "Trump Administration Shut Down the CIA World Factbook, a Widely-Used Public Reference on Countries and Global Affairs",
     "institution": "Central Intelligence Agency",
@@ -2085,6 +2132,52 @@
       }
     ],
     "last_updated": "2026-07-27"
+  },
+  {
+    "id": "dot-duffy-directive-funding-conditions-2025",
+    "title": "DOT Ties Transportation Grants to Birth/Marriage Rates and Immigration-Enforcement Compliance ('Duffy Directive'), Later Enjoined",
+    "institution": "U.S. Department of Transportation",
+    "domain": "funding_redirection",
+    "status": "Partially blocked by court order -- the immigration-enforcement funding condition was preliminarily enjoined nationwide in June 2025; the birth/marriage-rate grant-preference language does not appear to have been separately struck down in reporting reviewed for this entry",
+    "date_of_action": "2025-01-29 (birth/marriage-rate order) and 2025-04-24 (immigration-compliance funding threat), with litigation through at least 2025-06-19",
+    "what_changed": "One day after being sworn in, Transportation Secretary Sean Duffy issued an order on January 29, 2025 directing DOT to prioritize grants, loans, and contracts for communities with marriage and birth rates above the national average, effective immediately across all current and future DOT-supported state and local funding, while also ending support for projects addressing climate change or racial/gender inequality. On April 24, 2025, Duffy separately announced DOT would cut off transportation funding to any state that did not comply with the administration's federal civil immigration-enforcement agenda -- threatening infrastructure funding unrelated to immigration as leverage. Twenty-one states sued DOT and Duffy in the U.S. District Court for the District of Rhode Island on May 13, 2025 over the immigration-enforcement funding condition, arguing it unlawfully forced states to divert law-enforcement resources to federal civil immigration enforcement or lose transportation funds. On June 19, 2025, the court granted a preliminary injunction blocking DOT from imposing that immigration-enforcement condition on grant funding nationwide.",
+    "primary_proponent": {
+      "name": "Sean Duffy",
+      "role": "U.S. Secretary of Transportation",
+      "note": "Personally signed and announced both the January 29, 2025 birth/marriage-rate funding order and the April 24, 2025 immigration-enforcement funding threat."
+    },
+    "estimated_impact": {
+      "summary": "Threatened diversion of transportation infrastructure funding -- unrelated to transportation merit, safety, or need -- based on demographic and immigration-enforcement-compliance criteria, affecting states broadly until a federal court partially blocked enforcement",
+      "figures": [
+        {
+          "metric": "States joining the lawsuit against the immigration-enforcement funding condition",
+          "value": "21",
+          "source": "U.S. District Court for the District of Rhode Island filing, 2025-05-13"
+        }
+      ],
+      "caveat": "No dollar figure for total transportation funding at risk was found in sourcing reviewed for this entry; the scale is described qualitatively (\"all current and future DOT-supported and assisted state and local contracts, grants, and loans\") rather than quantified."
+    },
+    "confidence_note": "HIGH confidence on the order's existence, content, and the litigation outcome -- corroborated by Wiley (law firm alert), Bloomberg, CNN, The Hill, and the underlying Rhode Island federal court docket. The birth/marriage-rate preference itself (as opposed to the immigration-enforcement condition specifically) was not confirmed as separately enjoined in the sources reviewed -- worth rechecking if citing that specific provision's current enforceability.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "Bloomberg -- Department of Transportation Memos Tie Funding to Birth Rate, Marriage Policy",
+        "url": "https://www.bloomberg.com/news/articles/2025-02-04/department-of-transportation-memos-tie-funding-to-birth-rate-marriage-policy"
+      },
+      {
+        "name": "CNN -- Trump's transportation secretary is prioritizing funds based on birth and marriage rates",
+        "url": "https://www.cnn.com/2025/03/30/politics/transportation-funds-birth-marriage-rates-invs/index.html"
+      },
+      {
+        "name": "NPR -- A federal judge says Trump administration can't block state funding over immigration",
+        "url": "https://www.npr.org/2025/06/19/nx-s1-5439583/transportation-funding-immigration-enforcement-dei-duffy-directive-trump"
+      },
+      {
+        "name": "The Hill -- Judge rejects 'Duffy Directive' tying DOT grants to ICE",
+        "url": "https://thehill.com/homenews/administration/5360127-judge-rejects-duffy-directive-tying-dot-grants-to-ice/"
+      }
+    ]
   },
   {
     "id": "education-department-dismantlement-trump2",
