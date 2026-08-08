@@ -1383,6 +1383,38 @@
     "last_updated": "2026-08-06"
   },
   {
+    "id": "climate-word-research-purge-2025",
+    "title": "Administration Strips 'Climate' From Federal Research Funding, Websites, and Course Materials",
+    "institution": "Multiple federal science and research-funding agencies, government-wide",
+    "domain": "research_suppression",
+    "status": "Ongoing through at least mid-2025",
+    "date_of_action": "2025-02-21 through 2025-07-13",
+    "what_changed": "The Guardian reported on February 21, 2025 that the administration was cutting funding for scientific research that mentioned 'climate,' stripping grants from affected projects both domestically and abroad, altering government websites and course materials to remove the term, and in some cases forcing researchers to remove or retitle studies specifically to avoid the word in order to remain eligible for funding or publication. USA Today's July 2025 reporting found this pattern continuing at NOAA specifically: scientists described being told to avoid the word 'climate' in their work, alongside operational tool cuts including Saildrone ocean-monitoring devices going undeployed and forecasting quality suffering as a result of the broader staffing and budget cuts documented elsewhere in this database.",
+    "primary_proponent": {
+      "name": "Trump administration",
+      "role": "Directed the cross-agency effort to remove climate-related language and funding eligibility",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing this cross-agency language and funding policy; it is documented as a coordinated, government-wide pattern rather than one agency's isolated decision, distinct from (though related to) the agency-specific climate-research funding cuts documented in this database's separate NOAA entry."
+    },
+    "estimated_impact": {
+      "summary": "A form of research suppression operating through language control rather than direct funding cuts alone -- researchers whose work touches climate topics faced pressure to retitle or reframe their work to remain fundable, a chilling effect on climate science distinct from (and compounding) direct budget cuts to climate research documented elsewhere in this tracker",
+      "figures": [],
+      "caveat": "This entry documents a pattern described qualitatively across two reports roughly five months apart, rather than a single quantified action -- no aggregate figure for the number of grants, websites, or course materials affected was found in sourcing reviewed for this entry."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- The Guardian's February 2025 report and USA Today's July 2025 report independently describe the same underlying pattern (avoiding the word 'climate' to preserve funding/research viability) five months apart, suggesting a sustained rather than one-time practice, though each individual report rests on a single outlet's sourcing.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "The Guardian -- Trump scientific research, climate word removal",
+        "url": "https://www.theguardian.com/environment/2025/feb/21/trump-scientific-research-climate"
+      },
+      {
+        "name": "USA Today -- Weather scientists, challenges, budget cuts",
+        "url": "https://www.usatoday.com/story/news/nation/2025/07/10/weather-scientists-challenges-budget-cuts/84416470007/"
+      }
+    ]
+  },
+  {
     "id": "coast-guard-payroll-breach-2025",
     "title": "Coast Guard Payroll System Security Breach Delays Pay for 1,135 Service Members",
     "institution": "U.S. Coast Guard",
@@ -1413,6 +1445,34 @@
       {
         "name": "Military Times -- Coast Guard data breach impacts pay of 1,135 service members",
         "url": "https://www.militarytimes.com/news/your-military/2025/02/18/coast-guard-data-breach-impacts-pay-of-1135-service-members/"
+      }
+    ]
+  },
+  {
+    "id": "commerce-china-export-official-forced-out-2025",
+    "title": "Trump Administration Forces Out Commerce's Top China Export-Control Official",
+    "institution": "Department of Commerce, Bureau of Industry and Security",
+    "domain": "staff_office_cuts",
+    "status": "Implemented as of February 2025 reporting",
+    "date_of_action": "2025-02-21",
+    "what_changed": "The Trump administration asked Matthew Borman, the principal deputy assistant secretary for export administration at the Department of Commerce, to resign. Borman played a key career role in enforcing U.S. export restrictions on China, including controls on advanced semiconductor and technology exports.",
+    "primary_proponent": {
+      "name": "Trump administration",
+      "role": "Directed Borman's removal",
+      "note": "Reuters's sourcing did not name a specific individual official who made the decision to seek Borman's resignation; reported based on unnamed sources familiar with the matter."
+    },
+    "estimated_impact": {
+      "summary": "Removed a senior career official with direct responsibility for enforcing China-related export controls, at a moment of active U.S.-China technology-export tension",
+      "figures": [],
+      "caveat": "No reporting reviewed for this entry specified the stated rationale for seeking Borman's resignation or whether it reflected a policy disagreement over the substance or stringency of export enforcement."
+    },
+    "confidence_note": "HIGH confidence -- based on Reuters reporting citing multiple sources familiar with the matter, naming both the specific official and his specific role.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "Reuters -- Trump administration asks top China export policy official to resign",
+        "url": "https://www.reuters.com/world/us/trump-administration-asks-top-china-export-policy-official-resign-sources-say-2025-02-21/"
       }
     ]
   },
@@ -3741,7 +3801,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing institutional instability (four different acting/nominated administrators within roughly a year; agency's future role still under review; staffing continued to decline into 2026 even as a limited hiring campaign began ahead of hurricane season)",
     "date_of_action": "Staff departures throughout 2025; acute failure documented July 4-10, 2025 during Texas floods",
-    "what_changed": "Throughout 2025, FEMA underwent a wave of staff departures -- about 18% of the agency's permanent full-time employees had left as of June 2025, including 24 senior-level staffers, per GAO. In May 2025 alone, 16 senior officials departed, taking with them a combined 200+ years of disaster-response expertise. Separately, DHS Secretary Kristi Noem implemented a rule requiring her personal sign-off on any FEMA expenditure over $100,000 -- for an agency whose disaster costs routinely run into the billions, officials described this threshold as effectively 'pennies.' This bottleneck had direct, documented consequences during the deadly July 4, 2025 Texas Hill Country floods: FEMA's disaster survivor call-center contract funding lapsed on July 5, and it took Noem five days -- until July 10 -- to approve renewed funding, during which most survivor calls went unanswered (an internal memo documented the call-answer rate collapsing from 99.9% to 20%, with survivors waiting over 90 minutes). Noem also did not authorize deployment of FEMA's Urban Search and Rescue teams until more than 72 hours after the flooding began. Acting FEMA Administrator David Richardson did not travel to Texas for a full week after the disaster, telling a House committee he had stayed in Washington to 'kick down the doors of bureaucracy' -- and separately acknowledged he had been camping with his sons over the July 4 weekend when the floods hit. Richardson resigned in November 2025 after six months in the role, the second of three different acting administrators to lead FEMA within the year. In January 2026, FEMA abruptly stopped renewing contracts for its Cadre of On-Call Response/Recovery (CORE) employees -- term-limited hires who can hold senior disaster-response roles -- then paused the cuts in late January as a major winter storm affecting roughly half the country's population approached; FEMA managers confirmed in early February 2026 that the CORE staff reductions would resume once the storm passed, though no specific restart date was given. Around the same period, Homeland Security Secretary Kristi Noem, who has overseen FEMA's cuts, received a draft report from the Trump-appointed FEMA Review Council recommending the agency's workforce be cut in half. During the February 2026 DHS funding lapse, DHS halted nearly all employee travel department-wide, including FEMA disaster-response deployments, according to internal emails The Washington Post obtained -- disrupting FEMA's ability to send personnel to respond to active or anticipated disasters during the lapse; a separate internal FEMA email obtained by The Washington Post warned that national continuity operations were 'significantly constrained' during the same shutdown, limiting the agency's ability to maintain critical continuity-of-government functions. A second documented instance of the same DHS approval bottleneck emerged around the same time: CNN reported FEMA failed to renew a $200,000 contract for a tornado-tracking mapping tool used by rescue teams to identify storm damage paths. The contract expired in February 2026 and remained stuck in the DHS approval process even as deadly tornadoes struck the Midwest and Plains, forcing rescue teams to rely on news reports and manual searches to locate the hardest-hit areas instead of the mapping tool. By March 2026, FEMA's overall staffing had fallen further, from roughly 26,000 employees in January 2025 to about 21,100 -- an approximately 19% decline -- with 18 of the agency's 38 senior leadership positions vacant, including deputy administrator and chief of staff. A CNN KFile investigation published March 20, 2026 found Gregg Phillips -- installed to lead FEMA's Office of Response and Recovery, a key role directing federal disaster-response operations, despite limited emergency-management experience -- has a documented history of promoting conspiracy theories and using violent rhetoric, including saying in January 2025 he would 'like to punch' then-outgoing President Biden 'in the mouth,' and repeatedly claiming on podcasts to have been involuntarily 'teleported,' including once to a Georgia Waffle House 50 miles away. Rep. Tim Kennedy cited Phillips's 'violent statements' and 'deeply troubling bigoted comments about immigrants' as evidence he was 'wildly unfit for his role'; Phillips defended the teleportation claims in a follow-up CNN report the following month, saying 'haters gonna hate.' Robert Fenton (FEMA's Region 9 administrator) took over as senior official performing the duties of administrator; Trump nominated Cameron Hamilton as permanent administrator. Facing the 2026 hurricane season, FEMA began a limited hiring campaign: it rehired 14 staff Secretary Noem had fired for signing the 'Katrina Declaration,' and DHS approved roughly 300 near-term new hires with hopes of filling up to 700 vacancies. Fenton told reporters FEMA has about 30-40% of its disaster workforce available at any given time, which he characterized as normal availability rather than a crisis-level shortfall; NOAA's 2026 Atlantic hurricane season outlook predicts a below-normal season (8-14 named storms, 3-6 hurricanes). Hamilton previously served as acting FEMA administrator from January-May 2025 before being fired for telling Congress he did not believe eliminating FEMA was in the public interest. At his June 17, 2026 confirmation hearing, Hamilton pledged to be 'fair and reasonable' in assessing disaster-aid requests -- a notable pledge given the separate, related pattern this tracker documents in the FEMA disaster-aid partisan-approval-gap entry. Update 2026-07-26: Hamilton's nomination for permanent FEMA Administrator advanced out of the Senate Homeland Security and Governmental Affairs Committee on an 8-4 vote, roughly a month after his confirmation hearing, and now awaits a full Senate floor vote whose timing before the August recess is not yet clear.",
+    "what_changed": "Throughout 2025, FEMA underwent a wave of staff departures -- about 18% of the agency's permanent full-time employees had left as of June 2025, including 24 senior-level staffers, per GAO. In May 2025 alone, 16 senior officials departed, taking with them a combined 200+ years of disaster-response expertise. Separately, DHS Secretary Kristi Noem implemented a rule requiring her personal sign-off on any FEMA expenditure over $100,000 -- for an agency whose disaster costs routinely run into the billions, officials described this threshold as effectively 'pennies.' This bottleneck had direct, documented consequences during the deadly July 4, 2025 Texas Hill Country floods: FEMA's disaster survivor call-center contract funding lapsed on July 5, and it took Noem five days -- until July 10 -- to approve renewed funding, during which most survivor calls went unanswered (an internal memo documented the call-answer rate collapsing from 99.9% to 20%, with survivors waiting over 90 minutes). NPR reported in August 2025 that this documented 10-20% call-answer rate directly contradicted Acting Administrator Richardson's own claim to Congress that most survivor calls had been handled during the crisis. Noem also did not authorize deployment of FEMA's Urban Search and Rescue teams until more than 72 hours after the flooding began. Ken Pagurek, head of FEMA's Urban Search and Rescue branch, resigned on July 23, 2025, citing the delayed deployment caused by Noem's $100,000 sign-off requirement as a direct factor in his decision. Acting FEMA Administrator David Richardson did not travel to Texas for a full week after the disaster, telling a House committee he had stayed in Washington to 'kick down the doors of bureaucracy' -- and separately acknowledged he had been camping with his sons over the July 4 weekend when the floods hit. The Washington Post separately reported in September 2025 that FEMA staff could not reach Richardson for nearly 24 hours during the acute phase of the disaster, a communications gap that further delayed critical rescue-deployment decisions on top of the sign-off bottleneck itself. Even as FEMA was actively responding to the ongoing Texas disaster, Noem publicly said on July 9, 2025 that FEMA should be 'eliminated as it exists today,' criticizing the agency's response times and bureaucracy and calling instead for a state-led disaster system -- remarks made during a federal disaster-system reform meeting held while FEMA personnel were still deployed to the flood response. The following month, Reuters reported that Trump officials began reassigning FEMA personnel to help ICE hire 10,000 new agents, warning staff they could be terminated if they refused the reassignment -- a redirection of disaster-response staff toward immigration enforcement that came at the height of the 2025 Atlantic hurricane season. Richardson resigned in November 2025 after six months in the role, the second of three different acting administrators to lead FEMA within the year. In January 2026, FEMA abruptly stopped renewing contracts for its Cadre of On-Call Response/Recovery (CORE) employees -- term-limited hires who can hold senior disaster-response roles -- then paused the cuts in late January as a major winter storm affecting roughly half the country's population approached; FEMA managers confirmed in early February 2026 that the CORE staff reductions would resume once the storm passed, though no specific restart date was given. Around the same period, Homeland Security Secretary Kristi Noem, who has overseen FEMA's cuts, received a draft report from the Trump-appointed FEMA Review Council recommending the agency's workforce be cut in half. During the February 2026 DHS funding lapse, DHS halted nearly all employee travel department-wide, including FEMA disaster-response deployments, according to internal emails The Washington Post obtained -- disrupting FEMA's ability to send personnel to respond to active or anticipated disasters during the lapse; a separate internal FEMA email obtained by The Washington Post warned that national continuity operations were 'significantly constrained' during the same shutdown, limiting the agency's ability to maintain critical continuity-of-government functions. A second documented instance of the same DHS approval bottleneck emerged around the same time: CNN reported FEMA failed to renew a $200,000 contract for a tornado-tracking mapping tool used by rescue teams to identify storm damage paths. The contract expired in February 2026 and remained stuck in the DHS approval process even as deadly tornadoes struck the Midwest and Plains, forcing rescue teams to rely on news reports and manual searches to locate the hardest-hit areas instead of the mapping tool. By March 2026, FEMA's overall staffing had fallen further, from roughly 26,000 employees in January 2025 to about 21,100 -- an approximately 19% decline -- with 18 of the agency's 38 senior leadership positions vacant, including deputy administrator and chief of staff. A CNN KFile investigation published March 20, 2026 found Gregg Phillips -- installed to lead FEMA's Office of Response and Recovery, a key role directing federal disaster-response operations, despite limited emergency-management experience -- has a documented history of promoting conspiracy theories and using violent rhetoric, including saying in January 2025 he would 'like to punch' then-outgoing President Biden 'in the mouth,' and repeatedly claiming on podcasts to have been involuntarily 'teleported,' including once to a Georgia Waffle House 50 miles away. Rep. Tim Kennedy cited Phillips's 'violent statements' and 'deeply troubling bigoted comments about immigrants' as evidence he was 'wildly unfit for his role'; Phillips defended the teleportation claims in a follow-up CNN report the following month, saying 'haters gonna hate.' Robert Fenton (FEMA's Region 9 administrator) took over as senior official performing the duties of administrator; Trump nominated Cameron Hamilton as permanent administrator. Facing the 2026 hurricane season, FEMA began a limited hiring campaign: it rehired 14 staff Secretary Noem had fired for signing the 'Katrina Declaration,' and DHS approved roughly 300 near-term new hires with hopes of filling up to 700 vacancies. Fenton told reporters FEMA has about 30-40% of its disaster workforce available at any given time, which he characterized as normal availability rather than a crisis-level shortfall; NOAA's 2026 Atlantic hurricane season outlook predicts a below-normal season (8-14 named storms, 3-6 hurricanes). Hamilton previously served as acting FEMA administrator from January-May 2025 before being fired for telling Congress he did not believe eliminating FEMA was in the public interest. At his June 17, 2026 confirmation hearing, Hamilton pledged to be 'fair and reasonable' in assessing disaster-aid requests -- a notable pledge given the separate, related pattern this tracker documents in the FEMA disaster-aid partisan-approval-gap entry. Update 2026-07-26: Hamilton's nomination for permanent FEMA Administrator advanced out of the Senate Homeland Security and Governmental Affairs Committee on an 8-4 vote, roughly a month after his confirmation hearing, and now awaits a full Senate floor vote whose timing before the August recess is not yet clear.",
     "primary_proponent": {
       "name": "Kristi Noem",
       "role": "Secretary of Homeland Security (FEMA's parent department)",
@@ -3809,12 +3869,28 @@
       "estimated_impact": "Internal FEMA records themselves, not outside inference, connect the sign-off rule directly to the call-center breakdown that happened during a real, fatal flood -- this already occurred, it wasn't a modeled risk.",
       "confidence_note": "Strongly sourced via internal memos and GAO data; whether the cuts caused specific deaths or slower rescues stays contested, framed as a plausible link, not a proven cause."
     },
-    "last_verified": "2026-08-06",
+    "last_verified": "2026-08-08",
     "date_added": "2026-07-07",
     "sources": [
       {
         "name": "NPR — FEMA failed to staff disaster hotline after Texas floods",
         "url": "https://www.npr.org/2025/08/07/nx-s1-5489682/fema-call-center-dhs-funding-texas-floods"
+      },
+      {
+        "name": "CNN — FEMA search and rescue chief resigns",
+        "url": "https://www.cnn.com/2025/07/21/politics/fema-search-and-rescue-chief-resigns"
+      },
+      {
+        "name": "Washington Post — FEMA administrator David Richardson, Texas floods, unreachable",
+        "url": "https://www.washingtonpost.com/weather/2025/09/24/fema-administrator-david-richardson-texas-floods/"
+      },
+      {
+        "name": "Reuters — US emergency agency FEMA should be eliminated as it exists today, Noem says",
+        "url": "https://www.reuters.com/business/environment/us-emergency-agency-fema-should-be-eliminated-it-exists-today-noem-says-2025-07-09/"
+      },
+      {
+        "name": "Reuters — Trump administration shifts FEMA staff to ICE during hurricane season",
+        "url": "https://www.reuters.com/world/us/trump-administration-shifts-fema-staff-ice-during-hurricane-season-2025-08-06/"
       },
       {
         "name": "CNN — In Texas flood response, FEMA slowed by Noem's cost controls",
@@ -4459,6 +4535,54 @@
       }
     ],
     "last_updated": "2026-07-27"
+  },
+  {
+    "id": "harvard-research-funding-freeze-2025",
+    "title": "Administration Freezes $2.6 Billion in Harvard Research Funding After University Refuses Government Demands",
+    "institution": "Multiple federal research-funding agencies (NIH and others), affecting Harvard University",
+    "domain": "funding_redirection",
+    "status": "Partially reversed by court order on at least one specific project as of December 2025 reporting; the broader $2.6 billion freeze's overall status was not confirmed as fully resolved in sourcing reviewed for this entry",
+    "date_of_action": "2025-08-12 (freeze widely reported) through 2025-12-10 (court-ordered restoration of one specific project)",
+    "what_changed": "The Trump administration froze more than $2.6 billion in federal research funding to Harvard University after the university refused a set of government demands concerning campus protests, faculty hiring and academics, and admissions practices. The Associated Press reported the freeze halted active research into diseases including multiple sclerosis and cancer, as part of a wider administration campaign targeting elite universities' federal funding. Among the specific documented casualties: NPR reported in December 2025 that an NIH funding freeze tied to the same campus-politics dispute halted a seven-year, $7 million Harvard breast cancer research project studying how early tumor-forming 'seed cells' develop, led by researcher Joan Brugge -- the freeze drove out seven researchers from the lab before a federal judge ordered the funding restored, though the ruling did not resolve a separate complication: the freeze's timing had already blocked the lab from submitting a routine competitive renewal application, leaving its federal support still set to expire even after the funding itself was ordered restored.",
+    "primary_proponent": {
+      "name": "Trump administration",
+      "role": "Directed the funding freeze as part of a broader campaign targeting federal research funding to universities it characterized as noncompliant with government demands",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing the Harvard-specific freeze; reporting characterizes it as a coordinated administration policy applied to Harvard specifically after the university's public refusal of the underlying demands."
+    },
+    "estimated_impact": {
+      "summary": "A very large, university-wide research funding freeze halting active medical research across multiple disease areas, with at least one specific, well-documented case (a seven-year breast cancer research project) showing the concrete downstream effects: researcher departures, work stoppage, and continued funding jeopardy even after a court-ordered partial restoration",
+      "figures": [
+        {
+          "metric": "Total federal research funding frozen",
+          "value": "$2.6 billion+",
+          "source": "Associated Press (2025-08-12)"
+        },
+        {
+          "metric": "Breast cancer research project funding, halted then court-restored",
+          "value": "$7 million over 7 years",
+          "source": "NPR (2025-12-10)"
+        },
+        {
+          "metric": "Researchers who left the breast cancer lab during the freeze",
+          "value": "7",
+          "source": "NPR (2025-12-10)"
+        }
+      ],
+      "caveat": "This entry documents the freeze's existence, scale, and one specific, well-corroborated case in detail; it does not establish the freeze's overall final resolution status across all $2.6 billion, since sourcing reviewed for this entry covers only the breast cancer project's specific court outcome, not a comprehensive accounting of the broader freeze."
+    },
+    "confidence_note": "HIGH confidence -- the overall freeze and its $2.6 billion scale are corroborated by the Associated Press's direct reporting (the same article was independently scraped twice by this tracker's mechanical prefilter, underscoring its prominence). The specific breast cancer research case is independently corroborated by NPR's detailed reporting, naming the researcher, the funding amount, the timeline, and the court's specific ruling and its limits.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "Associated Press -- Harvard, Trump, NIH funding cuts",
+        "url": "https://apnews.com/article/harvard-trump-nih-funding-cuts-32c1ae9dc542897496974a85aaa07b85"
+      },
+      {
+        "name": "NPR -- NIH, NCI, breast cancer research, Harvard, Joan Brugge",
+        "url": "https://www.npr.org/sections/shots-health-news/2025/12/09/nx-s1-5630892/nih-nci-breast-cancer-research-harvard-joan-brugge"
+      }
+    ]
   },
   {
     "id": "healthcare-worker-emigration-canada-2026",
@@ -6619,8 +6743,8 @@
     "institution": "National Institutes of Health (NIH), Department of Health and Human Services",
     "domain": "funding_redirection",
     "status": "GAO Legal Finding Issued (nonbinding; underlying funding dispute partially reversed, full compliance unconfirmed)",
-    "date_of_action": "2026-08-05 (GAO report issued); underlying actions Feb-July 2025",
-    "what_changed": "Following Trump executive orders in early 2025 targeting DEI and 'gender ideology' funding, NIH terminated more than 1,800 previously-awarded research grants and, separately, obligated roughly $8 billion less in new/continuing grant funding between February and June 2025 than in the same period the prior year -- a drop of more than a third. NIH also paused grant review meetings entirely from late January to early March 2025, delaying funds to hospitals and universities. The Government Accountability Office (GAO), a nonpartisan congressional watchdog, concluded on August 5, 2025 that these actions violated the Impoundment Control Act of 1974, which requires the executive branch to spend congressionally appropriated funds unless it follows a specific legal process to formally request a rescission -- a process NIH/HHS did not use. GAO noted HHS had taken down a public spending-tracking website, which itself hampered GAO's ability to investigate.",
+    "date_of_action": "2025-08-05 (GAO report issued); underlying actions Feb 2025 - Dec 2025",
+    "what_changed": "Following Trump executive orders in early 2025 targeting DEI and 'gender ideology' funding, NIH terminated more than 1,800 previously-awarded research grants and, separately, obligated roughly $8 billion less in new/continuing grant funding between February and June 2025 than in the same period the prior year -- a drop of more than a third. NIH also paused grant review meetings entirely from late January to early March 2025, delaying funds to hospitals and universities -- NPR reported on February 22, 2025 that this freeze alone had stalled roughly 16,000 pending grant applications worth about $1.5 billion, as the administration blocked the Federal Register notices required to schedule the review meetings. Separately, on February 24, 2025, NPR reported the administration's plan to cap NIH's reimbursement rate for research institutions' indirect costs (overhead such as facilities and administrative support) at 15%, down from a historical rate as high as 56% at some institutions -- a change research universities warned would force layoffs and halt projects even where direct grant funding remained intact, since indirect-cost reimbursement funds much of the physical and administrative infrastructure research depends on. NIH's funding contraction had a direct staffing dimension too: CBS News reported NIH issued surprise layoff notices to nearly 250 employees on May 6, 2025, including about 50 from the National Cancer Institute specifically. The pattern continued into the funding-mechanism itself later in the year: the New York Times reported that in December 2025, Trump ordered NIH and NSF to issue multi-year grants as upfront lump sums rather than the traditional annual-installment structure, a change that depleted available budgets faster and resulted in roughly 40% fewer new projects funded, alongside mass delays and grant cancellations reported as politically motivated by affected researchers. The Government Accountability Office (GAO), a nonpartisan congressional watchdog, concluded on August 5, 2025 that the original 2025 funding actions violated the Impoundment Control Act of 1974, which requires the executive branch to spend congressionally appropriated funds unless it follows a specific legal process to formally request a rescission -- a process NIH/HHS did not use. GAO noted HHS had taken down a public spending-tracking website, which itself hampered GAO's ability to investigate.",
     "primary_proponent": {
       "name": "Russell Vought",
       "role": "Director, Office of Management and Budget",
@@ -6653,7 +6777,7 @@
       "estimated_impact": "GAO itself concluded roughly $8 billion in funding Congress had already approved was illegally held back, one of five similar findings issued about the administration within the same few weeks.",
       "confidence_note": "Very strong: this rests on an official GAO legal determination, not an advocacy claim, corroborated across several outlets; the core figures are lifted straight from GAO's published report."
     },
-    "last_verified": "2026-07-07",
+    "last_verified": "2026-08-08",
     "date_added": "2026-07-07",
     "sources": [
       {
@@ -6675,6 +6799,22 @@
       {
         "name": "Congress.gov / Congressional Research Service — NIH Grants Policy Under the Second Trump Administration",
         "url": "https://www.congress.gov/crs-product/IF13131"
+      },
+      {
+        "name": "NPR — Trump NIH funding freeze, medical research",
+        "url": "https://www.npr.org/sections/shots-health-news/2025/02/22/nx-s1-5305276/trump-nih-funding-freeze-medical-research"
+      },
+      {
+        "name": "NPR — Trump NIH funding cut, medical research, indirect costs",
+        "url": "https://www.npr.org/2025/02/24/nx-s1-5307157/trump-nih-funding-cut-medical-research"
+      },
+      {
+        "name": "CBS News — NIH lays off hundreds more staff, cancer research institute",
+        "url": "https://www.cbsnews.com/news/nih-lays-off-hundreds-more-staff-cancer-research-institute/"
+      },
+      {
+        "name": "New York Times — Trump science funding cuts (interactive)",
+        "url": "https://www.nytimes.com/interactive/2025/12/02/upshot/trump-science-funding-cuts.html"
       }
     ]
   },
@@ -7021,7 +7161,7 @@
     "domain": "research_suppression",
     "status": "Partially implemented, and repeating -- the Princeton funding cut took effect and the administration proposed eliminating NOAA's climate research office again in its FY2027 budget, for the second year running; Congress rejected the same elimination in FY2026 and House appropriators' initial FY2027 markup signals they are likely to do so again",
     "date_of_action": "2025-04-08 (Princeton funding cut announced) through the FY2026 budget cycle (proposal released July 2025; Congress had not enacted it as of the last-verified date)",
-    "what_changed": "On April 8, 2025, Commerce Secretary Howard Lutnick announced the termination of nearly $4 million in NOAA cooperative research funding to Princeton University, effective June 30, 2025, covering three programs including the Cooperative Institute for Modeling the Earth System, which supports Princeton's partnership with NOAA's Geophysical Fluid Dynamics Laboratory (GFDL), widely regarded as producing some of the world's most advanced climate modeling. The Commerce Department's official announcement stated the program 'promotes exaggerated and implausible climate threats, contributing to a phenomenon known as climate anxiety.' In July 2025, NOAA's proposed FY2026 budget was reported to contain a literal line reading 'Total, Climate Research: $0,' along with the proposed elimination of the entire Office of Oceanic and Atmospheric Research (OAR), NOAA's research arm, and defunding of all of OAR's climate and weather cooperative institutes nationwide, including CIRES at the University of Colorado Boulder, which houses the National Snow and Ice Data Center. The overall proposal called for cutting NOAA's budget by more than 25% and its ~13,000-person workforce by roughly 17%, along with a 44% reduction in planned investment in next-generation geostationary weather satellites. Congressional spending panels rejected the FY2026 budget request as proposed, but the administration proceeded with some of the changes administratively regardless, including terminating contracts for planned satellite instruments in August 2025 as what agency officials described to staff as a 'down payment' on the broader proposed cuts. The administration's FY2027 budget request, released in 2026, again proposes eliminating the Office of Oceanic and Atmospheric Research (OAR) -- the same office Congress rejected eliminating in the FY2026 cycle -- along with more than $1 billion in additional NOAA program cuts, including defunding the network of global monitoring laboratories and 14 other climate laboratories nationwide. At an April 2026 budget hearing, NOAA officials defended the cuts while members of both parties on the relevant committee pushed back. The House Commerce-Justice-Science Appropriations subcommittee's initial FY2027 markup was reported as favorable to NOAA's weather enterprise, suggesting Congress may again decline to enact the full elimination, consistent with the FY2026 outcome.",
+    "what_changed": "On April 8, 2025, Commerce Secretary Howard Lutnick announced the termination of nearly $4 million in NOAA cooperative research funding to Princeton University, effective June 30, 2025, covering three programs including the Cooperative Institute for Modeling the Earth System, which supports Princeton's partnership with NOAA's Geophysical Fluid Dynamics Laboratory (GFDL), widely regarded as producing some of the world's most advanced climate modeling. The Commerce Department's official announcement stated the program 'promotes exaggerated and implausible climate threats, contributing to a phenomenon known as climate anxiety.' In July 2025, NOAA's proposed FY2026 budget was reported to contain a literal line reading 'Total, Climate Research: $0,' along with the proposed elimination of the entire Office of Oceanic and Atmospheric Research (OAR), NOAA's research arm, and defunding of all of OAR's climate and weather cooperative institutes nationwide, including CIRES at the University of Colorado Boulder, which houses the National Snow and Ice Data Center. The overall proposal called for cutting NOAA's budget by more than 25% and its ~13,000-person workforce by roughly 17%, along with a 44% reduction in planned investment in next-generation geostationary weather satellites. Congressional spending panels rejected the FY2026 budget request as proposed, but the administration proceeded with some of the changes administratively regardless, including terminating contracts for planned satellite instruments in August 2025 as what agency officials described to staff as a 'down payment' on the broader proposed cuts. The administration's FY2027 budget request, released in 2026, again proposes eliminating the Office of Oceanic and Atmospheric Research (OAR) -- the same office Congress rejected eliminating in the FY2026 cycle -- along with more than $1 billion in additional NOAA program cuts, including defunding the network of global monitoring laboratories and 14 other climate laboratories nationwide. At an April 2026 budget hearing, NOAA officials defended the cuts while members of both parties on the relevant committee pushed back. The House Commerce-Justice-Science Appropriations subcommittee's initial FY2027 markup was reported as favorable to NOAA's weather enterprise, suggesting Congress may again decline to enact the full elimination, consistent with the FY2026 outcome. The administration's separate FY2026 budget request also proposed eliminating all $43.5 million in federal support for NOAA's Integrated Ocean Observing System, a real-time data source used by harbor pilots, weather forecasters, and military operations, according to AP reporting in May 2025. By September 2025, the Washington Post reported the cuts had moved beyond budget proposals into concrete instrument shutdowns: the administration was closing down climate-monitoring satellites, shutting off carbon-tracking instruments, and scrapping sensors used to monitor water contamination and greenhouse gases, with internal budget documents directing NOAA to focus solely on 'weather-only' tools -- consistent with Project 2025's earlier call to dismantle federal climate research capacity. One consequence of NOAA's shrinking disaster-tracking function became visible that fall: NBC News reported in October 2025 that after the administration effectively shut down NOAA's billion-dollar disaster-cost-tracking database, a group of former NOAA scientists rebuilt an equivalent tracker independently through the nonprofit Climate Central -- their reconstruction found the costliest six-month stretch of U.S. weather disasters on record, with 14 separate events each exceeding $1 billion in damage, led by the Los Angeles wildfires at more than $61 billion.",
     "primary_proponent": {
       "name": "Howard Lutnick",
       "role": "Secretary of Commerce (NOAA's parent department)",
@@ -7059,7 +7199,7 @@
       "estimated_impact": "Nearly six decades of research collaboration with a globally top-ranked climate-modeling lab is over, and on paper, the line item for this agency's climate work now reads zero.",
       "confidence_note": "Very strongly sourced on the Princeton cut itself via Commerce's own release; the wider elimination plan is a recurring annual proposal, turned down once and still unresolved for next cycle."
     },
-    "last_verified": "2026-07-20",
+    "last_verified": "2026-08-08",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -7089,6 +7229,82 @@
       {
         "name": "Eos — FY2027 Budget Request Slashes Billions in Science Funding",
         "url": "https://eos.org/research-and-developments/fy2027-budget-request-slashes-billions-in-science-funding"
+      },
+      {
+        "name": "AP News — Trump budget cuts ocean monitoring system, tsunami",
+        "url": "https://apnews.com/article/trump-budget-cuts-ocean-monitoring-system-tsunami-0eb81295bc50c0729590e0a3e32a860b"
+      },
+      {
+        "name": "Washington Post — Trump cuts satellite climate research weather",
+        "url": "https://www.washingtonpost.com/climate-environment/2025/09/01/trump-cuts-satellite-climate-research-weather/"
+      },
+      {
+        "name": "NBC News — Climate change data, costliest 6 months of weather disasters, NOAA",
+        "url": "https://www.nbcnews.com/science/climate-change/climate-change-data-costliest-6-months-weather-disasters-noaa-rcna238752"
+      }
+    ]
+  },
+  {
+    "id": "noaa-wide-staffing-collapse-spring-2025",
+    "title": "NOAA-Wide Staffing Collapses by Roughly a Quarter in Six Weeks, With Disaster Training Cancelled and Privatization Floated",
+    "institution": "National Oceanic and Atmospheric Administration (NOAA), agency-wide (distinct from this database's separate, NWS-specific weather-balloon and staffing-loss entries)",
+    "domain": "staff_office_cuts",
+    "status": "Implemented and escalating across the documented period",
+    "date_of_action": "2025-03-12 through 2025-03-28",
+    "what_changed": "Over a roughly three-week span in March 2025, multiple outlets documented an escalating wave of NOAA-wide staffing cuts, distinct from the NWS-specific weather-balloon suspensions and 600-person NWS staffing loss already tracked in separate entries in this database. On March 12, the Associated Press reported plans to cut another 1,000 NOAA jobs, amounting to a 10% agency-wide workforce reduction affecting weather forecasting, ocean research, and fisheries management. The same day, The Hill reported the administration had cancelled disaster-response training for NWS meteorologists specifically due to staffing shortages and travel-budget cuts, with employees blocked from booking travel and some forced to cancel trips they had already booked. On March 13, ABC News reported NOAA was preparing mass layoffs affecting over 1,000 employees, describing a cumulative 25% workforce reduction since January as the agency was forced to eliminate entire functions rather than trim personnel within existing ones. On March 15, FedScoop reported NOAA had fired 800 probationary employees, on top of roughly 500 additional departures under the agency's deferred-resignation program, with former officials warning the combined losses endangered NOAA's weather forecasting, climate monitoring, and hurricane-tracking capabilities. On March 26, ABC News reported the administration was considering privatizing the National Weather Service entirely, a proposal tracing to Project 2025's recommendation that NOAA be 'broken up and downsized' and that NWS 'fully commercialize its forecasting operations.' By April 2, The Guardian reported NOAA was 'reeling' from the cumulative effect of more than 1,000 staff cuts, with some critical roles (including hurricane trackers) hastily rehired after the initial firings, and separately reported the agency's switch to an unsecured email server had left remaining staff flooded with spam.",
+    "primary_proponent": {
+      "name": "Department of Government Efficiency (DOGE)",
+      "role": "Directed the NOAA-wide workforce reductions as part of its broader federal-workforce-cut campaign",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing the NOAA-specific cuts described here; attributed to DOGE's broader campaign. The privatization proposal traces explicitly to Project 2025 recommendations rather than to a single named current official."
+    },
+    "estimated_impact": {
+      "summary": "A rapid, roughly 25% reduction in NOAA's overall workforce within about six weeks, compounded by cancelled disaster-response training, operational IT problems, and a floated proposal to privatize weather forecasting entirely -- a broader agency-wide collapse distinct from, though overlapping with, the NWS-specific balloon-launch and staffing entries tracked separately in this database",
+      "figures": [
+        {
+          "metric": "Additional NOAA jobs cut (March 12 report)",
+          "value": "1,000, a 10% workforce reduction",
+          "source": "Associated Press (2025-03-12)"
+        },
+        {
+          "metric": "Cumulative NOAA workforce reduction since January (March 13 report)",
+          "value": "25%",
+          "source": "ABC News (2025-03-13)"
+        },
+        {
+          "metric": "Probationary employees fired plus deferred-resignation departures (March 15 report)",
+          "value": "800 fired + ~500 deferred resignations",
+          "source": "FedScoop (2025-03-15)"
+        }
+      ],
+      "caveat": "The 10%, 25%, and 800+500 figures come from three different outlets within a four-day window and likely describe overlapping rather than fully additive cuts -- treat these as converging evidence of a very large, rapidly escalating reduction (on the order of a quarter of NOAA's workforce within about six weeks) rather than three independently additive figures."
+    },
+    "confidence_note": "HIGH confidence on the overall pattern and scale -- independently corroborated across the Associated Press, The Hill, ABC News (twice), FedScoop, and The Guardian, each documenting a different facet of the same escalating six-week period. The privatization proposal is corroborated by ABC News's direct sourcing to Project 2025's own text.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "Associated Press -- NOAA job cuts, weather forecasts, Trump, DOGE, Musk",
+        "url": "https://apnews.com/article/noaa-job-cuts-weather-forecasts-trump-doge-musk-7e35e9d5d757d8fc3f0f50b2bd71c87d"
+      },
+      {
+        "name": "The Hill -- Trump administration cancels disaster training, National Weather Service meteorologists",
+        "url": "https://thehill.com/policy/energy-environment/5189128-trump-administration-cancels-disaster-training-national-weather-service-meteorologists/"
+      },
+      {
+        "name": "ABC News -- NOAA braces for mass layoffs, fueling concerns, lifesaving weather",
+        "url": "https://abcnews.go.com/Politics/noaa-braces-mass-layoffs-fueling-concerns-lifesaving-weather/story?id=119730398"
+      },
+      {
+        "name": "FedScoop -- NOAA firings spark concerns for agency's data-centric mission",
+        "url": "https://fedscoop.com/noaa-firings-spark-concerns-for-agencys-data-centric-mission/"
+      },
+      {
+        "name": "ABC News -- Privatize National Weather Service",
+        "url": "https://abcnews.go.com/US/privatize-national-weather-service/story?id=119871559"
+      },
+      {
+        "name": "The Guardian -- Trump cuts NOAA, spam emails",
+        "url": "https://www.theguardian.com/us-news/2025/apr/01/trump-cuts-noaa-spam-emails"
       }
     ]
   },
@@ -7875,6 +8091,42 @@
     "last_updated": "2026-07-27"
   },
   {
+    "id": "opm-musk-weekly-accomplishments-email-2025",
+    "title": "OPM's Musk-Directed 'Five Bullet Points' Email Throws Federal Agencies Into Conflicting-Orders Chaos",
+    "institution": "Office of Personnel Management (OPM), government-wide",
+    "domain": "staff_office_cuts",
+    "status": "Resolved as an acute episode -- the specific email/compliance conflict was short-lived, but it illustrates a broader governance pattern documented across other entries in this database",
+    "date_of_action": "2025-02-22 through 2025-02-25",
+    "what_changed": "The Office of Personnel Management sent an email to federal employees government-wide demanding five bullet points summarizing each employee's accomplishments for the prior week. Elon Musk warned on X that failing to respond would be treated as a resignation. The directive immediately produced conflicting guidance across agencies: Politico reported several agency heads, including FBI Director Kash Patel, told their employees to disregard the email entirely, while other agencies indicated compliance was required. CNN reported the resulting confusion left workers scrambling amid mixed messages, with employees at agencies including DOJ, the State Department, and the FAA describing themselves as distracted from their primary duties navigating the conflicting instructions. Wired reported the chaos spread across agencies from NOAA to NIH, with staff receiving contradictory instructions about whether and how to comply.",
+    "primary_proponent": {
+      "name": "Elon Musk, former DOGE leader / Special Government Employee",
+      "role": "Issued the compliance ultimatum via OPM and publicly on social media",
+      "note": "Musk's public warning that non-response would be treated as resignation was the specific trigger for the cross-government confusion documented here; several individual agency heads (e.g. FBI Director Patel) are named as having countermanded the directive for their own agencies."
+    },
+    "estimated_impact": {
+      "summary": "Produced government-wide operational confusion and distraction across multiple agencies with unrelated, sensitive core missions (law enforcement, diplomacy, aviation safety, health research, weather forecasting) during the window the conflict was unresolved",
+      "figures": [],
+      "caveat": "No reporting reviewed for this entry quantified how many federal employees ultimately complied, how many treated non-compliance as a resignation trigger, or whether any employee was actually separated from federal service specifically because of non-response to this email."
+    },
+    "confidence_note": "HIGH confidence -- corroborated across Wired, Politico, and CNN, each independently confirming the email, Musk's public ultimatum, and the resulting cross-agency confusion, with Politico specifically naming FBI Director Patel's countermanding instruction.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "Wired -- DOGE, Elon Musk, federal workers, chaos, confusion",
+        "url": "https://www.wired.com/story/doge-elon-musk-federal-workers-chaos-confusion/"
+      },
+      {
+        "name": "Politico -- Musk guidance conflict, agency leaders",
+        "url": "https://www.politico.com/news/2025/02/23/musk-guidance-conflict-agency-leaders-00205640"
+      },
+      {
+        "name": "CNN -- Email Elon Musk federal employees",
+        "url": "https://www.cnn.com/2025/02/24/politics/email-elon-musk-federal-employees/index.html"
+      }
+    ]
+  },
+  {
     "id": "opm-retirement-backlog-departures-omitted-2026",
     "title": "OPM Omitted Retirement Services Staff Departures From Oversight Response Amid a Record Retirement-Case Backlog",
     "institution": "Office of Personnel Management (OPM), Retirement Services division",
@@ -8157,6 +8409,54 @@
       {
         "name": "Peace Corps FY2027 Congressional Budget Justification",
         "url": "https://files.peacecorps.gov/documents/Peace_Corps_FY_2027_CBJ.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pediaflow-cornell-heart-device-funding-cut-2025",
+    "title": "Government Cancels Funding for PediaFlow, a Nearly-Finished Artificial Heart Pump for Infants, Amid a Broader Cornell Funding Freeze",
+    "institution": "Department of Defense (Pentagon) and NIH, affecting Cornell University research",
+    "domain": "funding_redirection",
+    "status": "Implemented -- funding cancelled, research halted as of October 2025 reporting",
+    "date_of_action": "2025-05-14 (initial $6.5 million NIH-linked funding pull reported) through 2025-10-13 (Pentagon grant cancellation reported)",
+    "what_changed": "As part of a roughly $1 billion broader funding freeze affecting Cornell University, the administration pulled $6.5 million in federal funding in May 2025 from a Cornell project developing a life-saving heart pump for infants and children with congenital heart defects. NPR reported in October 2025 that officials had also cancelled a related $6 million Pentagon grant for PediaFlow -- an artificial heart device for infants -- as part of the administration's broader crackdown on universities it characterized as 'woke.' The cancellation halted Cornell's nearly-finished research on the device, jeopardizing its availability for children who depend on external heart pumps while awaiting a device like PediaFlow, including 4-year-old Caleb Strickland, whose case NPR's reporting used to illustrate the human stakes of the funding cancellation.",
+    "primary_proponent": {
+      "name": "Trump administration",
+      "role": "Directed the funding freeze and grant cancellations affecting Cornell, including the PediaFlow project specifically",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing the PediaFlow-specific cancellation; reporting frames it as part of the administration's broader campaign of funding pressure against universities over campus-politics disputes, the same pattern documented in this database's separate Harvard funding-freeze entry."
+    },
+    "estimated_impact": {
+      "summary": "Halted a nearly-completed medical device development project with direct, named-patient stakes -- an artificial heart pump for infants with congenital heart defects who currently depend on external devices while a permanent solution remains unavailable",
+      "figures": [
+        {
+          "metric": "Initial NIH-linked funding pulled from the Cornell heart-device project",
+          "value": "$6.5 million",
+          "source": "New York Times (2025-05-14)"
+        },
+        {
+          "metric": "Pentagon grant for PediaFlow specifically, later cancelled",
+          "value": "$6 million",
+          "source": "NPR (2025-10-13)"
+        },
+        {
+          "metric": "Broader Cornell funding freeze this cut was part of",
+          "value": "~$1 billion",
+          "source": "New York Times (2025-05-14)"
+        }
+      ],
+      "caveat": "The relationship between the May 2025 $6.5 million NIH-linked figure and the October 2025 $6 million Pentagon grant is not fully clarified in sourcing reviewed for this entry -- they may represent two distinct funding sources for the same overall PediaFlow project (NIH funding cut in May, a separate Pentagon grant cancelled in October) rather than the same $6-6.5 million reported twice; presented here as two related but distinct funding actions given the different funding source and figure named in each report."
+    },
+    "confidence_note": "HIGH confidence -- corroborated by the New York Times's May 2025 reporting and NPR's more detailed October 2025 reporting, which named the specific device, the affected child, and the Pentagon as the specific funding source for the later cancellation.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "New York Times -- Trump administration pulls funding for infant heart device research",
+        "url": "https://www.nytimes.com/live/2025/05/13/us/trump-news-saudi-arabia#the-administration-pulled-funding-for-research-on-devices-for-babies-with-heart-conditions"
+      },
+      {
+        "name": "NPR -- Child research, Trump grants cut, artificial heart",
+        "url": "https://www.npr.org/2025/10/09/nx-s1-5498641/child-research-trump-grants-cut-artificial-heart"
       }
     ]
   },
@@ -9007,8 +9307,8 @@
     "institution": "Social Security Administration (SSA)",
     "domain": "staff_office_cuts",
     "status": "Ongoing (staffing losses not reversed; some but not all withheld metrics later restored)",
-    "date_of_action": "2025-03 (initial cuts and phone-service changes) through 2026-04 (ongoing, per Center on Budget and Policy Priorities' most recent tracking)",
-    "what_changed": "Since January 2025, the Trump administration drove out more than 8,000 SSA employees -- the agency's largest one-year staffing reduction on record, leaving SSA with fewer employees than at any point since 1967, even as it now serves roughly 52 million more beneficiaries than it did then (nearly 75 million total). More than 40 states and D.C. saw staffing cuts greater than 10% between January 2025 and April 2026. In April 2025, SSA briefly eliminated most phone-based benefit applications entirely (reversed after public backlash), while permanently requiring in-person visits or multi-factor online authentication for direct-deposit changes -- a change CBPP notes the agency's own fraud data does not support, since direct-deposit fraud is rare and rarely phone-initiated. As wait times climbed (86 minutes average by April 2025, a 25% increase over the prior year), SSA responded largely by reassigning field-office staff to phone duty rather than hiring -- pulling employees away from processing claims and creating new backlogs elsewhere. In June 2025, amid worsening press coverage, SSA stopped publicly releasing several of its own regular service-performance metrics, including call wait times and appointment-scheduling delays; some measures were later restored, but key ones (hold-time data, appointment-wait data, backlog counts) remain unreported as of CBPP's most recent tracking. By early 2026, disability-appeal backlogs had grown by 73,000+ cases in just over a year, and fewer than 850 of SSA's roughly 50,000 remaining employees had less than two years of federal service -- the agency hired fewer than 100 new employees in all of 2025, the lowest annual hiring total on record. In June 2026, Commissioner Bisignano told the House Ways and Means Committee and stated in an SSA press release (June 29, 2026) that the agency achieved its 'best all-around performance ever': the National 800 Number's average speed of answer reportedly fell from 34 minutes (2024) to 8 minutes, a 75% reduction; field-office wait times reportedly fell 30%; the initial disability-claims backlog reportedly fell from a high of ~1.3 million (2024) to 853,000, and disability hearing wait times reportedly fell to 266 days, a historic low; the agency also reported 385 million online transactions in FY2026 to date, up 37% from 2024. SSA's workforce continued to shrink over this same period -- roughly 7,000 additional employees left via separation incentives, leaving a workforce of about 50,000, still its lowest headcount in decades. Update 2026-07-26: the independent corroboration this entry's prior update said was missing has since emerged. After Sen. Elizabeth Warren raised doubts about SSA's reported phone-service improvements, Commissioner Bisignano agreed to an independent review, and SSA's own Office of Inspector General published an audit in June 2026 confirming the agency's released 800-number performance data was accurate and that service genuinely improved during FY2025: SSA served 68 million callers (a 65% increase over the prior year), with average wait times falling from a January peak of about 30 minutes to roughly 7 minutes by September. This meaningfully corroborates part of Bisignano's disputed 2026 turnaround claim -- specifically the phone-service metrics -- though it does not address or resolve this entry's separate, independently-sourced findings on workforce reduction (8,000+ lost), the disability-appeal backlog, or the 2025 decision to stop publishing certain other service metrics, which remain accurate and unaffected by this audit.",
+    "date_of_action": "2025-02-24 (earliest documented office closures under Leland Dudek) through 2026-04 (ongoing, per Center on Budget and Policy Priorities' most recent tracking)",
+    "what_changed": "Since January 2025, the Trump administration drove out more than 8,000 SSA employees -- the agency's largest one-year staffing reduction on record, leaving SSA with fewer employees than at any point since 1967, even as it now serves roughly 52 million more beneficiaries than it did then (nearly 75 million total). More than 40 states and D.C. saw staffing cuts greater than 10% between January 2025 and April 2026. This pattern was already visible within DOGE's first weeks at SSA: ProPublica reported that by February 24, 2025, DOGE operatives working inside the agency under appointee Leland Dudek had already closed at least 10 local field offices and eliminated 41 positions, drawing early alarm from beneficiaries and staff. The staffing cuts produced concrete technical and administrative failures in the following months: the Washington Post reported the SSA website repeatedly crashed starting around April 8, 2025, disrupting access for millions, with the outages tied directly to Musk-led cuts that slashed IT staff and rushed out undertested software; the next day, CBS News reported SSA mistakenly told some Supplemental Security Income recipients -- including disabled individuals and low-income seniors -- that their benefits had been terminated, with their benefit histories temporarily disappearing from their accounts before the error was corrected roughly a day later. By May 6, 2025, CBS News reported a further, more consequential error pattern: thousands of Americans, disproportionately immigrants and other vulnerable individuals, were being wrongly declared dead or purged from SSA's systems entirely, cutting off Social Security benefits, disability payments, and in some cases banking access tied to a valid Social Security number. On June 16, 2025, Wired reported Senators Elizabeth Warren and Ron Wyden formally warned that DOGE's rushed, AI-driven overhaul of SSA's IT systems was jeopardizing the agency's core function, citing the website outages and access failures already documented above as evidence of elevated risk of further benefit disruptions, data loss, or security compromise going forward. In April 2025, SSA briefly eliminated most phone-based benefit applications entirely (reversed after public backlash), while permanently requiring in-person visits or multi-factor online authentication for direct-deposit changes -- a change CBPP notes the agency's own fraud data does not support, since direct-deposit fraud is rare and rarely phone-initiated. As wait times climbed (86 minutes average by April 2025, a 25% increase over the prior year), SSA responded largely by reassigning field-office staff to phone duty rather than hiring -- pulling employees away from processing claims and creating new backlogs elsewhere. In June 2025, amid worsening press coverage, SSA stopped publicly releasing several of its own regular service-performance metrics, including call wait times and appointment-scheduling delays; some measures were later restored, but key ones (hold-time data, appointment-wait data, backlog counts) remain unreported as of CBPP's most recent tracking. By early 2026, disability-appeal backlogs had grown by 73,000+ cases in just over a year, and fewer than 850 of SSA's roughly 50,000 remaining employees had less than two years of federal service -- the agency hired fewer than 100 new employees in all of 2025, the lowest annual hiring total on record. In June 2026, Commissioner Bisignano told the House Ways and Means Committee and stated in an SSA press release (June 29, 2026) that the agency achieved its 'best all-around performance ever': the National 800 Number's average speed of answer reportedly fell from 34 minutes (2024) to 8 minutes, a 75% reduction; field-office wait times reportedly fell 30%; the initial disability-claims backlog reportedly fell from a high of ~1.3 million (2024) to 853,000, and disability hearing wait times reportedly fell to 266 days, a historic low; the agency also reported 385 million online transactions in FY2026 to date, up 37% from 2024. SSA's workforce continued to shrink over this same period -- roughly 7,000 additional employees left via separation incentives, leaving a workforce of about 50,000, still its lowest headcount in decades. Update 2026-07-26: the independent corroboration this entry's prior update said was missing has since emerged. After Sen. Elizabeth Warren raised doubts about SSA's reported phone-service improvements, Commissioner Bisignano agreed to an independent review, and SSA's own Office of Inspector General published an audit in June 2026 confirming the agency's released 800-number performance data was accurate and that service genuinely improved during FY2025: SSA served 68 million callers (a 65% increase over the prior year), with average wait times falling from a January peak of about 30 minutes to roughly 7 minutes by September. This meaningfully corroborates part of Bisignano's disputed 2026 turnaround claim -- specifically the phone-service metrics -- though it does not address or resolve this entry's separate, independently-sourced findings on workforce reduction (8,000+ lost), the disability-appeal backlog, or the 2025 decision to stop publishing certain other service metrics, which remain accurate and unaffected by this audit.",
     "primary_proponent": {
       "name": "Frank Bisignano",
       "role": "Commissioner of Social Security",
@@ -9056,7 +9356,7 @@
       "estimated_impact": "Notably, an internal staff survey found most SSA employees themselves reported worse service and slower speed -- a rare case of insiders confirming outside critics instead of disputing them.",
       "confidence_note": "Very strongly sourced via a respected policy institute drawing on official records and field-level reporting; the agency's later claimed 2026 turnaround is a disputed, unconfirmed, self-reported claim."
     },
-    "last_verified": "2026-07-26",
+    "last_verified": "2026-08-08",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -9090,9 +9390,29 @@
       {
         "name": "Government Executive — Bisignano deflects customer service questions in congressional testimony",
         "url": "https://www.govexec.com/management/2026/06/bisignano-deflects-customer-service-questions-congressional-testimony/414106/"
+      },
+      {
+        "name": "ProPublica — DOGE, Social Security, Elon Musk, Trump, closures, benefits",
+        "url": "https://www.propublica.org/article/doge-social-security-elon-musk-trump-closures-benefits"
+      },
+      {
+        "name": "Washington Post — Social Security website crashes, Musk, Trump",
+        "url": "https://www.washingtonpost.com/politics/2025/04/07/social-security-website-crashes-musk-trump/"
+      },
+      {
+        "name": "CBS News — Social Security DOGE SSI error message, currently not receiving payments",
+        "url": "https://www.cbsnews.com/news/social-security-doge-ssi-error-message-currently-not-receiving-payments/"
+      },
+      {
+        "name": "CBS News — Social Security errors, the living declared dead",
+        "url": "https://www.cbsnews.com/news/social-security-errors-living-dead/"
+      },
+      {
+        "name": "Wired — DOGE, Social Security Administration, benefits",
+        "url": "https://www.wired.com/story/doge-social-security-administration-benefits/"
       }
     ],
-    "last_updated": "2026-07-26"
+    "last_updated": "2026-08-08"
   },
   {
     "id": "ssa-suicide-caller-guidance-undertrained-staff-2026",
@@ -10081,6 +10401,40 @@
     ]
   },
   {
+    "id": "usda-conservation-agricultural-grants-frozen-2025",
+    "title": "Billions in Federal Conservation and Agricultural Grants Frozen, Leaving Farmers in Financial Limbo",
+    "institution": "U.S. Department of Agriculture (USDA)",
+    "domain": "funding_redirection",
+    "status": "Reported as an active freeze as of February 2025; no reporting reviewed for this entry confirmed a subsequent resolution",
+    "date_of_action": "2025-02-24",
+    "what_changed": "Billions of dollars in federal grants for conservation and agricultural projects were frozen by the Trump administration. NBC News reported farmers across the country faced financial peril as a result, with planned investments in irrigation systems, fencing, and other infrastructure -- work often already contracted or underway -- put on indefinite hold.",
+    "primary_proponent": {
+      "name": "Trump administration",
+      "role": "Directed the broader funding freeze affecting USDA conservation and agricultural grant programs",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing this specific freeze; this appears to be part of the administration's broader early-2025 federal funding freeze rather than a USDA-specific policy decision."
+    },
+    "estimated_impact": {
+      "summary": "Left farmers who had already planned or begun infrastructure investments (irrigation, fencing) without expected federal reimbursement or funding, creating direct financial exposure for individual agricultural operations nationwide",
+      "figures": [
+        {
+          "metric": "Total conservation/agricultural grant funding frozen",
+          "value": "billions of dollars (unspecified precise total)",
+          "source": "NBC News (2025-02-24)"
+        }
+      ],
+      "caveat": "NBC News's reporting describes the freeze in aggregate ('billions') without a precise total dollar figure or a count of affected farmers/projects."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- based on a single NBC News report describing farmer-level impacts specifically (irrigation, fencing investments left unfunded), though without a precise aggregate figure. Worth a follow-up search for whether this freeze was later linked to, or resolved alongside, other broader 2025 USDA/conservation funding disputes documented elsewhere.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "NBC News -- Farmers federal funding freeze Trump administration scramble to respond",
+        "url": "https://www.nbcnews.com/news/us-news/farmers-federal-funding-freeze-trump-administration-scramble-respond-rcna191544"
+      }
+    ]
+  },
+  {
     "id": "usda-food-security-survey-cancellation-2025",
     "title": "USDA Cancels 30-Year Household Food Security Survey as 4.7 Million Lose SNAP Benefits",
     "institution": "U.S. Department of Agriculture",
@@ -10440,6 +10794,34 @@
       "estimated_impact": "Threatened to reduce disability benefits for potentially millions of veterans with treatment-managed conditions, though full rescission preceded any confirmed benefit cuts.",
       "confidence_note": "Well-corroborated across ABC News, Military Times, Stars and Stripes, and a senator's own office statement, with no facts disputed."
     }
+  },
+  {
+    "id": "va-gov-cybersecurity-lead-fired-2025",
+    "title": "DOGE Purge Removes VA.gov's Cybersecurity Lead, Leaving Veterans' Benefits Portal Without a Full-Time Security Chief",
+    "institution": "United States Digital Service / Department of Veterans Affairs",
+    "domain": "staff_office_cuts",
+    "status": "Implemented as of February 2025 reporting",
+    "date_of_action": "2025-02-22",
+    "what_changed": "DOGE's mass workforce purge included the firing of Jonathan Kamens, the cybersecurity lead for VA.gov -- the primary online portal veterans use to access benefits and manage sensitive personal and medical data. Wired reported the firing left the site without a full-time security lead, raising concerns about the protection of millions of veterans' personal and medical information going forward.",
+    "primary_proponent": {
+      "name": "Department of Government Efficiency (DOGE)",
+      "role": "Directed the firing as part of its broader workforce-reduction campaign",
+      "note": "No official above the individual level was named in sourcing reviewed for this entry as personally directing this specific firing; attributed to DOGE's broader purge."
+    },
+    "estimated_impact": {
+      "summary": "Removed dedicated, full-time cybersecurity leadership for a federal portal handling sensitive personal and medical data for millions of veterans",
+      "figures": [],
+      "caveat": "No reporting reviewed for this entry confirmed whether a replacement security lead was subsequently appointed or how long the gap in coverage lasted."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- based on a single but specialized, technically-detailed source (Wired), consistent with that outlet's generally reliable reporting on DOGE's technical/administrative actions elsewhere in this tracker.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "Wired -- DOGE USDS purge, Veterans Affairs site cybersecurity",
+        "url": "https://www.wired.com/story/doge-usds-purge-veterans-affairs-site-cybersecurity/"
+      }
+    ]
   },
   {
     "id": "va-healthcare-staffing-shortage-trump2",
