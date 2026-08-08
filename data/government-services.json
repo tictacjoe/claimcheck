@@ -1383,6 +1383,40 @@
     "last_updated": "2026-08-06"
   },
   {
+    "id": "coast-guard-payroll-breach-2025",
+    "title": "Coast Guard Payroll System Security Breach Delays Pay for 1,135 Service Members",
+    "institution": "U.S. Coast Guard",
+    "domain": "staff_office_cuts",
+    "status": "Resolved as an acute incident -- the pay system was temporarily shut down for investigation and restoration; no reporting reviewed for this entry confirmed the breach's ultimate cause or a final security assessment",
+    "date_of_action": "2025-02-19",
+    "what_changed": "A security breach in the Coast Guard's payroll system delayed the biweekly pay of 1,135 service members. A junior petty officer first flagged irregular activity in the system, prompting a formal investigation and a temporary shutdown of the payroll system while officials worked to restore service and secure it against further compromise.",
+    "primary_proponent": {
+      "name": "U.S. Coast Guard",
+      "role": "Operator of the affected payroll system",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as responsible for the breach itself; this entry documents an institutional security/capacity failure rather than a deliberate policy action by a named official."
+    },
+    "estimated_impact": {
+      "summary": "Direct pay disruption affecting over a thousand active-duty service members, discovered only through a junior enlisted member's own vigilance rather than institutional detection",
+      "figures": [
+        {
+          "metric": "Service members whose biweekly pay was delayed",
+          "value": "1,135",
+          "source": "Military Times (2025-02-18)"
+        }
+      ],
+      "caveat": "This entry documents a discrete security-incident/pay-disruption episode rather than a policy-driven staffing or funding cut, distinguishing it from most other entries in this tracker's staff_office_cuts domain -- included here because it reflects a documented institutional-capacity failure (payroll system security) affecting service members directly, though the root cause (external attack vs. internal system failure vs. some other factor) was not specified in sourcing reviewed for this entry."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- based on a single specialized-outlet report (Military Times) with specific, verifiable figures (1,135 affected, discovery by a junior petty officer). Worth a follow-up search for any subsequent DHS Inspector General or Coast Guard investigation report that might clarify the breach's cause and whether it was ever fully resolved.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "Military Times -- Coast Guard data breach impacts pay of 1,135 service members",
+        "url": "https://www.militarytimes.com/news/your-military/2025/02/18/coast-guard-data-breach-impacts-pay-of-1135-service-members/"
+      }
+    ]
+  },
+  {
     "id": "cpb-defunding-dissolution-trump2",
     "title": "Congress Rescinded $1.1B From Public Broadcasting; CPB Dissolved After 58 Years",
     "institution": "Corporation for Public Broadcasting (CPB)",
@@ -3299,12 +3333,12 @@
   },
   {
     "id": "fda-food-safety-device-tobacco-staff-cuts-2025",
-    "title": "FDA Fires Food-Safety, Medical-Device, and Tobacco-Oversight Staff as Part of a 5,200-Worker HHS Purge",
+    "title": "FDA Fires Food-Safety, Medical-Device, and Tobacco-Oversight Staff as Part of a 5,200-Worker HHS Purge -- Top Food-Safety Official Resigns in Protest",
     "institution": "Food and Drug Administration (FDA), Department of Health and Human Services",
     "domain": "staff_office_cuts",
     "status": "Implemented -- part of a broader HHS-wide reduction reported in February 2025",
-    "date_of_action": "2025-02-16",
-    "what_changed": "As part of a roughly 5,200-worker purge across HHS agencies, the FDA fired probationary staff responsible for food safety, medical-device review, and tobacco-product oversight. The Guardian reported the cuts specifically hit employees reviewing food additives, medical devices, and e-cigarettes -- functions directly tied to consumer-facing product safety review rather than administrative or research roles.",
+    "date_of_action": "2025-02-16 (cuts reported) through 2025-02-19/21 (Jones's resignation)",
+    "what_changed": "As part of a roughly 5,200-worker purge across HHS agencies, the FDA fired probationary staff responsible for food safety, medical-device review, and tobacco-product oversight. The Guardian reported the cuts specifically hit employees reviewing food additives, medical devices, and e-cigarettes -- functions directly tied to consumer-facing product safety review rather than administrative or research roles. Jim Jones, director of the FDA's food division, resigned within days in direct protest, after the cuts removed roughly 89 staff from his roughly 2,000-person team. In his resignation letter, Jones called the cuts 'indiscriminate' and specifically criticized public comments by HHS Secretary Robert F. Kennedy Jr. that he said undermined the integrity of the food-safety staff, warning the cuts would cripple the 'Make America Healthy Again' agenda RFK Jr. himself was publicly championing.",
     "primary_proponent": {
       "name": "U.S. Department of Health and Human Services",
       "role": "Parent department directing the broader 5,200-worker purge FDA's cuts were part of",
@@ -3321,13 +3355,21 @@
       ],
       "caveat": "No FDA-specific headcount figure (as opposed to the HHS-wide 5,200 total) was found in sourcing reviewed for this entry -- this is a smaller, narrower entry than the department-wide purge it was part of, focused specifically on the food-safety/device/tobacco functions named in reporting."
     },
-    "confidence_note": "MODERATE-HIGH confidence -- corroborated by The Guardian's contemporaneous reporting, which specifically named the affected functions (food additives, medical devices, e-cigarettes). This entry rests on a single primary source rather than multi-outlet corroboration; worth a follow-up search for independent confirmation or a more precise FDA-specific headcount if this entry is relied on heavily.",
+    "confidence_note": "HIGH confidence -- corroborated by The Guardian's contemporaneous reporting on the cuts and, independently, by the New York Times and CBS News reporting on Jones's on-record resignation letter naming the specific headcount (89 of ~2,000) and his direct criticism of RFK Jr.'s public comments. The named, on-record resignation substantially strengthens this entry beyond the single-source status it had before that detail was added.",
     "last_verified": "2026-08-08",
     "date_added": "2026-08-08",
     "sources": [
       {
         "name": "The Guardian -- Trump administration FDA layoffs",
         "url": "https://www.theguardian.com/us-news/2025/feb/16/trump-administration-fda-layoffs"
+      },
+      {
+        "name": "New York Times -- FDA food safety Jim Jones resignation",
+        "url": "https://www.nytimes.com/2025/02/18/us/politics/fda-food-safety-jim-jones-resignation.html"
+      },
+      {
+        "name": "CBS News -- FDA food safety James Jones resigns, warning re RFK Jr.",
+        "url": "https://www.cbsnews.com/news/fda-food-safety-james-jones-resigns-warning-rfk-jr/"
       }
     ]
   },
@@ -6593,6 +6635,79 @@
     ]
   },
   {
+    "id": "niosh-workforce-safety-research-gutted-2025",
+    "title": "NIOSH Loses 85-90% of Staff, Gutting Firefighter Cancer Research, the 9/11 World Trade Center Health Program, and Fatality Investigations",
+    "institution": "National Institute for Occupational Safety and Health (NIOSH), Department of Health and Human Services (part of CDC)",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing as of mid-2025 reporting -- a partial reinstatement followed public backlash, but the entry's own sources describe only 'a fraction' restored, with downstream program disruptions (WTC Health Program, firefighter cancer/fatality research, dangerous-occupation safety training) continuing",
+    "date_of_action": "2025-02-20 (initial firings begin) through 2025-06-03 (training-program funding shortfalls reported)",
+    "what_changed": "Beginning February 20, 2025, Trump administration cuts began hitting NIOSH, the CDC institute responsible for occupational safety and health research. Early casualties included Patrick Montague, an investigator for the National Firefighter Registry for Cancer, fired along with colleagues in his program citing probationary status. By April 3, 2025, hundreds of NIOSH staff had been fired, including key personnel from the World Trade Center Health Program -- which provides medical care to 9/11 first responders and survivors -- and the program's longtime director, Dr. John Howard, was also removed. By April 13, the Guardian reported the WTC Health Program had been plunged into disarray, with cancer treatment, PTSD care, and other services for 9/11 survivors and first responders disrupted with no public transparency about what coverage remained available. By April 22, ProPublica reported the purge had eliminated 7 of the 8 members of NIOSH's firefighter fatality investigation team, halting major studies into firefighter cancer risk alongside the WTC-program disruption. On May 12, more than 100 current and former NIOSH employees sent a joint letter to Congress warning that mass purges were putting American workers at risk, stating more than 90% of NIOSH staff had received layoff notices and that critical programs -- the 9/11 Health Program and black lung screening among them -- had already been disrupted. By May 27, the Guardian confirmed an 85% NIOSH staff purge, with only a fraction of positions reinstated after public backlash. By early June, Reuters reported the cuts -- nearly 900 staff purged in April alone -- were forcing shutdowns of occupational-safety training programs specifically serving fishermen, farmers, and loggers, among America's most dangerous occupations, with key training centers warning they would run out of funding by summer or fall 2025.",
+    "primary_proponent": {
+      "name": "Department of Government Efficiency (DOGE) / Robert F. Kennedy Jr.",
+      "role": "DOGE directed the initial workforce cuts; RFK Jr., as HHS Secretary overseeing CDC and NIOSH, bears institutional responsibility for the agency's subsequent management",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing the NIOSH-specific cuts beyond the general DOGE/HHS leadership context; multiple sources (The Guardian, ProPublica) attribute the broader HHS destruction pattern to the combined direction of Musk's DOGE and RFK Jr.'s HHS leadership."
+    },
+    "estimated_impact": {
+      "summary": "Near-total, then partially-reversed, elimination of the federal government's dedicated occupational-safety-and-health research and clinical-care capacity, with documented direct harm to 9/11 first-responder healthcare, firefighter cancer/fatality research, and safety training for some of the most dangerous civilian occupations in the country",
+      "figures": [
+        {
+          "metric": "NIOSH staff who received layoff notices, per a May 2025 letter from 100+ current/former employees to Congress",
+          "value": ">90%",
+          "source": "Letter to Congress, reported by NBC News (2025-05-12)"
+        },
+        {
+          "metric": "Overall NIOSH staff purge confirmed later in May",
+          "value": "85%, with only a fraction reinstated after public backlash",
+          "source": "The Guardian (2025-05-27)"
+        },
+        {
+          "metric": "NIOSH staff purged in April 2025 alone",
+          "value": "~900",
+          "source": "Reuters (2025-05-31)"
+        },
+        {
+          "metric": "Firefighter fatality investigation team members removed",
+          "value": "7 of 8",
+          "source": "ProPublica (2025-04-22)"
+        }
+      ],
+      "caveat": "The 90%+ (letter), 85% (Guardian), and ~900-in-April (Reuters) figures come from three different outlets at three different points and may reflect slightly different denominators or measurement windows -- treat them as converging evidence of a very large-scale purge (roughly 85-90% of staff) rather than three independent confirmations of one precise number."
+    },
+    "confidence_note": "HIGH confidence -- this is one of the most thoroughly, independently corroborated entries added this session, with seven separate reporting events across NBC News, USA Today, The Guardian (twice), ProPublica, and Reuters spanning February through June 2025, each documenting a different facet (initial firings, WTC program disruption, fatality-team purge, employee letter to Congress, confirmed 85% figure, downstream training-program shutdowns) of the same escalating crisis.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "NBC News -- Trump's layoffs hit firefighter safety programs",
+        "url": "https://www.nbcnews.com/politics/trump-administration/trumps-layoffs-hit-firefighter-safety-programs-rcna192849"
+      },
+      {
+        "name": "USA Today -- HHS layoffs hit World Trade Center program staff",
+        "url": "https://www.usatoday.com/story/news/nation/2025/04/02/hhs-layoffs-world-trade-center-program-staff/82775014007/"
+      },
+      {
+        "name": "The Guardian -- Trump health cuts, World Trade Center program, 9/11",
+        "url": "https://www.theguardian.com/us-news/2025/apr/13/trump-health-cuts-world-trade-center-program-911"
+      },
+      {
+        "name": "ProPublica -- Trump cuts to firefighter death investigations",
+        "url": "https://www.propublica.org/article/trump-cuts-firefighter-deaths"
+      },
+      {
+        "name": "NBC News -- Federal workplace safety workers' letter to Congress",
+        "url": "https://www.nbcnews.com/news/us-news/federal-workplace-safety-workers-letter-to-congress-rcna206076"
+      },
+      {
+        "name": "The Guardian -- Trump safety cuts, workplace risks, NIOSH",
+        "url": "https://www.theguardian.com/business/2025/may/27/trump-safety-cuts-workplace-risks-niosh"
+      },
+      {
+        "name": "Reuters -- Trump cuts threaten safety training for workers in America's most dangerous jobs",
+        "url": "https://www.reuters.com/world/us/trump-cuts-threaten-safety-training-workers-americas-most-dangerous-jobs-2025-05-31/"
+      }
+    ]
+  },
+  {
     "id": "nist-workforce-standards-cuts",
     "title": "NIST workforce reduction and standards/research budget cuts",
     "institution": "National Institute of Standards and Technology (Department of Commerce)",
@@ -9846,6 +9961,34 @@
       }
     ],
     "last_updated": "2026-07-27"
+  },
+  {
+    "id": "usda-bird-flu-response-staff-accidental-firing-2025",
+    "title": "USDA Mistakenly Fires Employees Critical to the Federal Bird Flu Response",
+    "institution": "U.S. Department of Agriculture (USDA)",
+    "domain": "staff_office_cuts",
+    "status": "Reversal attempted -- USDA moved to rehire the affected employees shortly after the error was reported",
+    "date_of_action": "2025-02-15 through 2025-02-19 (reported)",
+    "what_changed": "Over the weekend of February 15-16, 2025, USDA mistakenly terminated several employees whose work was critical to the federal government's response to the ongoing bird flu (avian influenza) outbreak, including staff in food-safety and inspection roles. NBC News reported USDA moved afterward to try to reverse the firings and rehire the affected workers, characterizing the terminations as an error made amid the broader probationary-employee purge underway across federal agencies at the time, rather than a deliberate targeting of bird-flu-response staff specifically.",
+    "primary_proponent": {
+      "name": "U.S. Department of Agriculture",
+      "role": "Agency responsible for the erroneous terminations and the subsequent rehire attempt",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally responsible; reporting characterized this as a mistake within the broader, DOGE-directed probationary-worker purge rather than a deliberate decision by a named official."
+    },
+    "estimated_impact": {
+      "summary": "Temporary loss of specialized bird-flu-response capacity at a moment of active outbreak response, though USDA's swift attempt to reverse the error limited (per available reporting) the duration of the gap",
+      "figures": [],
+      "caveat": "No precise headcount of affected employees was found in sourcing reviewed for this entry ('several employees'); no reporting reviewed confirmed how many were successfully rehired or how long the capacity gap lasted in practice."
+    },
+    "confidence_note": "MODERATE confidence -- based on a single NBC News report. Included despite its small, imprecisely-quantified scope because the specific function affected (active bird-flu outbreak response) carries outsized public-health significance and because the episode is illustrative of a broader documented pattern in this tracker of the 2025 probationary-worker purge mistakenly cutting safety-critical staff, matching the pattern already well-documented in the separately-tracked NNSA erroneous-firing entry from the same week.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "NBC News -- USDA accidentally fired officials, bird flu response, rehire",
+        "url": "https://www.nbcnews.com/politics/doge/usda-accidentally-fired-officials-bird-flu-rehire-rcna192716"
+      }
+    ]
   },
   {
     "id": "usda-food-security-survey-cancellation-2025",

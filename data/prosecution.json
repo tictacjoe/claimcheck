@@ -5706,6 +5706,32 @@
     }
   },
   {
+    "official": "Robert F. Kennedy Jr., HHS Secretary",
+    "offense_category": "Announcing a Presidential Commission to Investigate the Childhood Vaccine Schedule Despite Prior Assurances Not to Undermine Vaccine Confidence -- an institutional-credibility and consistency claim, not a criminal charge",
+    "contested": true,
+    "incident_summary": "On February 20, 2025, HHS Secretary Robert F. Kennedy Jr. announced a new presidential commission -- part of his 'Make America Healthy Again' (MAHA) initiative -- to investigate the childhood vaccine schedule, pesticides, psychiatric drugs, and other factors he framed as contributors to chronic childhood disease. The announcement drew scrutiny because it came despite assurances Kennedy had given during his confirmation process that he would not seek to undermine public confidence in existing, well-established vaccines. This commission is the earliest-dated action in what became a documented, escalating chain of vaccine-policy actions this tracker follows separately in later entries -- including a January 2026 immunization-schedule overhaul and the May 2026 Executive Order 14407 realigning the childhood vaccine schedule based on a December 2025 HHS assessment.",
+    "elements_required": [
+      "Kennedy, as HHS Secretary, formally announced a presidential commission specifically tasked with investigating the childhood vaccine schedule, among other subjects",
+      "Kennedy had given assurances during his confirmation process that he would not seek to undermine vaccine confidence, creating a specific, citable prior commitment against which this action can be measured",
+      "This action is the documented starting point of a subsequent, escalating chain of vaccine-schedule-related policy actions tracked separately elsewhere in this database"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "The Hill reported Kennedy's announcement of the new MAHA commission to investigate the childhood vaccine schedule, pesticides, and psychiatric drugs, noting it came despite his prior assurances not to undermine vaccine efforts",
+        "source_url": "https://thehill.com/policy/healthcare/5153260-new-commission-maha-childhood-vaccine-schedule/",
+        "maps_to_element": "The commission's announcement, its stated scope, and the tension with Kennedy's prior confirmation-process assurances"
+      }
+    ],
+    "status": "This commission's announcement is a completed, dated event, now documented as the starting point of a much longer chain of vaccine-policy actions -- see the separately-tracked `rfk-jr-vaccine-autism-reexamination-2026.json` and `trump-childhood-vaccine-eo-2026.json` entries in this database for the commission's downstream outcomes through 2026.",
+    "rebuttal_anticipated": "Kennedy and HHS could argue the commission was framed broadly (covering pesticides and psychiatric drugs alongside vaccines) rather than as a vaccine-specific inquiry, and that investigating the vaccine schedule is not itself equivalent to undermining confidence in any specific vaccine -- an evidence-gathering commission, they could argue, is consistent with his confirmation-process assurances if it does not itself reach or announce predetermined conclusions.",
+    "comeback": "This entry does not allege the commission itself was unlawful -- the accountability question is the tension between Kennedy's specific, on-record confirmation-process assurances and his first-month decision to launch a commission whose explicit subject included the childhood vaccine schedule, a tension made more significant in hindsight given the commission's role as the documented starting point of the escalating vaccine-policy actions this tracker follows in later entries.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level consistency/credibility question about Kennedy's confirmation-process assurances, rather than a specific legal violation.",
+    "last_updated": "2026-08-08",
+    "date_added": "2026-08-08",
+    "confidence_note": "MODERATE-HIGH confidence -- based on a single contemporaneous report (The Hill), which is specific about the commission's scope and the tension with Kennedy's prior assurances. This entry's significance rests substantially on hindsight -- it is now documented as the origin point of a much better-corroborated, multi-entry chain of subsequent vaccine-policy actions elsewhere in this database, which lends it more weight than its single-source status alone would suggest."
+  },
+  {
     "official": "Robert F. Kennedy Jr., Secretary of Health and Human Services",
     "offense_category": "Installing an Unqualified, Research-Compromised Figure to Lead a Federal COVID Vaccine Safety Review -- distinct from this tracker's David Geier entry (a data-access hiring) in that this concerns leadership of the safety-review process itself",
     "incident_summary": "HHS Secretary Robert F. Kennedy Jr. installed Retsef Levi -- an MIT professor of operations management with no epidemiology, immunology, or clinical medical background -- to lead a federal task force reviewing COVID-19 vaccine safety. Levi has been a vocal public critic of COVID-19 vaccines. A Guardian investigation found that more than a dozen scientists and public health experts, reviewing Levi's own published research underlying his vaccine-safety claims, concluded it failed to meet basic scientific standards. The appointment follows the broader pattern this tracker documents of Kennedy installing ideologically aligned but professionally unqualified figures into roles with direct influence over federal vaccine policy and safety findings, rather than credentialed specialists in the relevant clinical or epidemiological fields.",
@@ -6176,6 +6202,33 @@
       "incident_summary": "Sonderling gutted the federal library and museum agency's staff and board, only for a judge to block the whole effort.",
       "confidence_note": "This is now fully resolved, not just blocked — a permanent bar and binding settlement confirm the administration's loss stuck."
     }
+  },
+  {
+    "official": "Robert F. Kennedy Jr., HHS Secretary",
+    "offense_category": "Bipartisan Former-Surgeons-General Warning of Public-Health Endangerment -- an institutional-credibility claim resting on the collective professional judgment of former senior federal health officials, not a criminal charge",
+    "contested": true,
+    "incident_summary": "On October 7, 2025, six former U.S. Surgeons General -- spanning both Republican and Democratic administrations -- issued a rare joint public warning, in a Washington Post op-ed, that RFK Jr. is 'endangering the health of the nation.' The former Surgeons General condemned what they described as the politicization of public health under his leadership, the gutting of mRNA vaccine research funding, and restrictions on vaccine access, characterizing his actions collectively as 'a profound and immediate threat.' The warning came roughly eight months into Kennedy's tenure as HHS Secretary, following a documented pattern of specific actions already tracked elsewhere in this database, including CDC Director Susan Monarez's August 2025 firing after clashing with Kennedy over vaccine policy and sustained leadership turnover at CDC.",
+    "elements_required": [
+      "Six former U.S. Surgeons General, from both political parties, jointly signed and published a warning about a sitting HHS Secretary's conduct in office",
+      "The warning specifically identified concrete actions -- politicization of public health messaging, mRNA research funding cuts, and vaccine-access restrictions -- rather than offering only general criticism",
+      "The joint, bipartisan nature of the warning is itself notable: this tracker found no comparable precedent of a bipartisan former-Surgeons-General group issuing a joint public warning about a sitting HHS Secretary",
+      "The warning followed, rather than preceded, a documented pattern of specific personnel and policy actions already independently sourced elsewhere in this database"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "The Guardian reported on the six former Surgeons Generals' joint Washington Post op-ed, condemning Kennedy's politicization of public health, gutting of mRNA research, and restriction of vaccine access, and calling his actions 'a profound and immediate threat'",
+        "source_url": "https://www.theguardian.com/us-news/2025/oct/07/us-surgeons-general-rfk",
+        "maps_to_element": "The joint warning itself, its bipartisan composition, and its specific stated grounds"
+      }
+    ],
+    "status": "The warning itself is a completed, on-the-record statement. No reporting reviewed for this entry indicates HHS or Kennedy substantively altered policy in response.",
+    "rebuttal_anticipated": "Kennedy and HHS have publicly defended the administration's health policy changes as necessary reforms of what they characterize as a captured or overly conventional public-health establishment, and could characterize the former Surgeons General as representing the prior consensus Kennedy was appointed specifically to challenge.",
+    "comeback": "This entry does not resolve the underlying policy dispute over vaccine science or mRNA research funding -- the accountability question is that six former Surgeons General, spanning both parties and therefore not simply expressing partisan opposition, took the unusual step of jointly and publicly warning that a sitting cabinet secretary's specific actions endangered public health, a professional judgment worth documenting on its own terms alongside the specific underlying actions (Monarez's firing, CDC leadership turnover) tracked elsewhere in this database.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level accountability question about the credibility and public-health consequences of Kennedy's tenure, rather than a specific legal violation.",
+    "last_updated": "2026-08-08",
+    "date_added": "2026-08-08",
+    "confidence_note": "HIGH confidence that the warning was issued as described -- corroborated by The Guardian's direct reporting on the Washington Post op-ed. The `contested: true` flag reflects that HHS disputes the underlying characterization of its policies, not that the op-ed's existence or signatories are in question. This entry rests on a single secondary source (The Guardian) reporting on the primary Washington Post op-ed rather than the op-ed itself -- worth pulling the original op-ed directly if greater sourcing precision is needed."
   },
   {
     "official": "Scott Bessent, Treasury Secretary / White House",
@@ -6965,6 +7018,45 @@
       "incident_summary": "HUD's official website and Turner's own government account both carried identical partisan shutdown-blame messaging, drawing a formal Hatch Act complaint.",
       "confidence_note": "The banner and Turner's response are plainly on the record, but no watchdog has actually ruled this a violation yet."
     }
+  },
+  {
+    "official": "Elon Musk, former DOGE leader / Special Government Employee",
+    "offense_category": "Mass Protest Resignations of Federal Technologists Over DOGE's Takeover of the U.S. Digital Service, Citing Security and Mission Concerns -- an institutional-accountability claim about the conduct of the takeover, not a criminal charge",
+    "contested": false,
+    "incident_summary": "The U.S. Digital Service (USDS), a nonpartisan federal technology unit, was renamed the 'U.S. DOGE Service' and placed under Elon Musk's influence beginning in the administration's first weeks. On February 19, 2025, Anne Marshall, USDS's director of data science and engineering -- promoted to the role only two months earlier after joining in September 2023 following a decade as an engineer at Amazon -- resigned in protest, citing layoffs that cut roughly one-third of her team as 'indiscriminate' and writing that she did not believe DOGE could continue to deliver USDS's work based on its actions so far. Less than a week later, on February 25, 2025, at least 21 additional USDS staffers -- former engineers, data scientists, product managers, and designers -- resigned together, publishing a joint letter stating they would not 'use our skills as technologists' to 'compromise core government systems, jeopardize Americans' sensitive data, or dismantle critical public services.' Their letter cited three specific triggers: a January 21, 2025 interview process in which staff were questioned by people wearing unidentified White House visitor badges about their 'political loyalty' and who 'demonstrated limited technical ability'; the February 14, 2025 termination of one-third of the unit's skilled staff; and the February 16, 2025 formal DOGE integration, which the letter said contradicted the agency's stated mission.",
+    "elements_required": [
+      "A director-level USDS official resigned specifically citing indiscriminate layoffs and a loss of confidence in DOGE's ability to continue the unit's mission",
+      "Within a week, at least 21 additional staff -- spanning multiple technical disciplines -- resigned together in a coordinated, published joint statement",
+      "The joint resignation letter specified concrete, dated triggers (a politically-charged interview process, a specific termination date, a specific integration date) rather than offering only general objections",
+      "The letter specifically framed the staffers' concern as a refusal to use their technical access to compromise government systems or sensitive data -- a security-integrity concern, not merely a policy disagreement"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "Wired's original reporting on Anne Marshall's resignation, quoting her statement that she did not believe DOGE could continue to deliver USDS's work based on its actions",
+        "source_url": "https://techstory.in/director-resigns-as-usds-transitions-to-doge-under-musks-influence/",
+        "maps_to_element": "The initial director-level protest resignation and its stated rationale"
+      },
+      {
+        "type": "public_record",
+        "description": "ABC News and the joint resignation letter itself (published by We the Builders) documented at least 21 USDS staffers resigning together on February 25, 2025, citing specific dated triggers including a politically-charged interview process and the DOGE integration",
+        "source_url": "https://abcnews.go.com/US/21-employees-department-renamed-doge-resign-protest-dismantling/story?id=119173667",
+        "maps_to_element": "The scale, coordination, and specific stated grounds of the mass resignation"
+      },
+      {
+        "type": "public_record",
+        "description": "The staffers' own published resignation letter, stating they would not use their technical skills to compromise core government systems, jeopardize Americans' sensitive data, or dismantle critical public services",
+        "source_url": "https://www.wethebuilders.org/posts/we-resign-resignation-letter-from-us-digital-service",
+        "maps_to_element": "Primary-source text of the resignation letter's specific security and mission concerns"
+      }
+    ],
+    "status": "Resolved as a completed personnel event -- the resignations occurred and were not reversed. No reporting reviewed for this entry indicates DOGE altered its integration approach in response.",
+    "rebuttal_anticipated": "DOGE leadership publicly characterized workforce reductions and reorganizations as necessary efficiency measures, and could frame the resignations as a small number of holdover staff unwilling to adapt to a legitimate change in agency direction and leadership, rather than evidence of a substantive security or mission problem.",
+    "comeback": "This entry does not rest on characterization alone -- the resigning staffers were specific and concrete about their concerns (a named, dated interview process they said tested 'political loyalty' rather than technical competence, and an explicit refusal to use their systems access to compromise sensitive government data), and the fact that at least 22 people across two separate resignation events within a single week made substantially the same case independently corroborates the underlying concern beyond any one individual's account.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level accountability question about DOGE's personnel-vetting and integration practices at USDS, rather than a specific legal violation by Musk personally.",
+    "last_updated": "2026-08-08",
+    "date_added": "2026-08-08",
+    "confidence_note": "HIGH confidence -- the mass resignation and its joint letter are corroborated across ABC News, Forbes, Nextgov/FCW, and the letter's own publication by We the Builders, with consistent facts across all sources. Anne Marshall's individual resignation is corroborated by Wired's original reporting (accessed via a syndicated summary) -- the original candidate record for this entry had no source URL at all, so this fact was independently re-verified via search before inclusion, per this tracker's sourcing standard."
   },
   {
     "official": "JD Vance, Vice President of the United States",
