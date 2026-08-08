@@ -1114,6 +1114,45 @@
   },
   {
     "official": "Emil Bove, Acting Deputy Attorney General",
+    "offense_category": "Directing a Prosecutor to Open a Grand Jury Investigation and Freeze Bank Assets Over the Prosecutor's Own Professional Judgment That the Evidentiary Threshold Was Not Met -- an institutional-integrity and prosecutorial-independence claim, not a criminal charge against Bove",
+    "contested": true,
+    "incident_summary": "Denise Cheung, the top criminal prosecutor in the U.S. Attorney's Office for the District of Columbia, resigned on February 18, 2025 after refusing an order from her Trump-appointed superiors -- acting Deputy Attorney General Emil Bove, directing Ed Martin (Trump's nominee for permanent D.C. U.S. Attorney) -- to open a grand jury investigation into a Biden-era Environmental Protection Agency funding decision and then use DOJ's authority to freeze the associated bank assets. Cheung and other experienced white-collar prosecutors in her office assessed the evidence on hand -- which Bove's office cited a Project Veritas video as its basis for -- and concluded it did not meet the legal threshold required to justify a grand jury investigation or an asset freeze. In her resignation, Cheung wrote she lacked the legal authority to issue the freeze letter she was asked to sign, cited her oath of office and legal-ethics obligations, and said that when she declined, she was asked to resign. After Cheung's refusal and resignation, DOJ leadership pursued the asset-freeze route directly rather than through the grand jury process she had declined to initiate.",
+    "elements_required": [
+      "DOJ leadership, specifically acting Deputy AG Bove, directed a grand jury investigation into a Biden-era EPA funding decision based primarily on a Project Veritas video",
+      "The career prosecutor assigned to evaluate the request -- along with other experienced prosecutors in her office -- concluded the evidentiary threshold for a grand jury investigation was not met",
+      "When she declined to sign the required authorization on that professional basis, she was asked to resign rather than her legal judgment being credited or independently reviewed",
+      "DOJ leadership then pursued freezing the underlying bank assets through a different mechanism after the grand jury route was declined"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "CNN reported Cheung's resignation after being told to investigate Biden-era EPA climate spending, based on a Project Veritas video, and that she and other prosecutors did not believe the evidence met the threshold for a grand jury investigation",
+        "source_url": "https://www.cnn.com/2025/02/18/politics/justice-department-dc-criminal-division",
+        "maps_to_element": "The order, its stated basis, and the professional-judgment dispute over the evidentiary threshold"
+      },
+      {
+        "type": "news_report",
+        "description": "The Hill reported the sequence of events -- Cheung's resignation, DOJ's subsequent pursuit of an asset freeze on the EPA-related funds, and the officials involved (Bove directing Ed Martin)",
+        "source_url": "https://thehill.com/homenews/administration/5151223-dc-prosecutor-trump-zeldin-epa-cheung-doj/",
+        "maps_to_element": "DOJ's pursuit of the asset freeze after the grand jury request was declined"
+      },
+      {
+        "type": "public_record",
+        "description": "ABC News's reporting included Cheung's own account, from her resignation letter, that she told her superiors she lacked the legal authority to issue the requested asset-freeze letter and was then asked to resign",
+        "source_url": "https://abcnews.go.com/Politics/top-criminal-prosecutor-dc-us-attorneys-office-abruptly/story?id=118932068",
+        "maps_to_element": "Cheung's own stated basis for refusing and the direct consequence (being asked to resign)"
+      }
+    ],
+    "status": "Cheung's resignation is a completed event. No reporting reviewed for this entry confirmed a final outcome of the underlying EPA-funding investigation or whether the asset freeze DOJ pursued afterward was ultimately executed.",
+    "rebuttal_anticipated": "DOJ leadership could argue that prosecutorial discretion includes the authority to direct subordinate prosecutors on which matters to pursue, that Cheung's professional disagreement does not itself establish the underlying investigation was improper, and that pursuing the Project Veritas allegations was a legitimate exercise of DOJ's investigative authority regardless of one prosecutor's assessment.",
+    "comeback": "This entry does not resolve whether the underlying EPA funding decision involved wrongdoing -- the accountability question is that DOJ leadership directed a career prosecutor to open a grand jury investigation and freeze assets based primarily on a single advocacy-organization video, that the prosecutor and her office's other experienced attorneys concluded this did not meet the applicable legal standard, and that expressing that professional judgment led to her being asked to resign rather than the disagreement being resolved through normal review -- a pattern documented elsewhere in this database in the same period involving the same official (Bove) and the Eric Adams case.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level accountability question about DOJ leadership directing investigations against career prosecutors' professional judgment, rather than a specific legal violation by Bove personally.",
+    "last_updated": "2026-08-08",
+    "date_added": "2026-08-08",
+    "confidence_note": "HIGH confidence -- corroborated across CNN, The Hill, and ABC News, with Cheung's own resignation-letter language quoted directly in multiple outlets. The `contested: true` flag reflects that DOJ leadership's view of the evidentiary threshold and the propriety of the request was not independently adjudicated by a court, unlike the related Eric Adams/Bove entry in this database, which includes a judicial finding -- this entry rests on the resigning prosecutor's own professional assessment and DOJ's public defense of its request, both reported but not judicially resolved."
+  },
+  {
+    "official": "Emil Bove, Acting Deputy Attorney General",
     "offense_category": "Ordering Dismissal of a Pending Federal Corruption Indictment in Exchange for a Sitting Official's Cooperation on Unrelated Policy Priorities -- a federal judge found the arrangement carried the appearance of an improper quid pro quo; addressed here as an institutional-integrity and prosecutorial-independence matter rather than a criminal charge against Bove",
     "contested": true,
     "incident_summary": "New York City Mayor Eric Adams had been federally indicted on charges including bribery, wire fraud, and illegal foreign campaign contributions. On February 10, 2025, acting Deputy Attorney General Emil Bove ordered federal prosecutors to move to dismiss the case without prejudice -- preserving DOJ's ability to revive the charges later -- citing concerns that the prosecution would interfere with Adams's ability to assist the administration's immigration-enforcement priorities and with his reelection campaign, rather than any evidentiary or legal weakness in the case. The order triggered a cascade of resignations: Acting U.S. Attorney for the Southern District of New York Danielle Sassoon, who had held the post only three weeks, resigned rather than comply, writing that Adams's attorneys had effectively proposed a quid pro quo in a meeting with DOJ -- that Adams would cooperate with the administration's enforcement priorities only if the indictment were dropped. The then-acting chief of DOJ's Public Integrity Section and a deputy assistant attorney general also resigned rather than sign the dismissal motion. U.S. District Judge Dale Ho ultimately dismissed the case on April 2, 2025 -- but with prejudice, permanently barring its revival, rejecting DOJ's request to dismiss without prejudice. Judge Ho wrote that 'everything here smacks of a bargain: dismissal of the indictment in exchange for immigration policy concessions,' finding it 'disturbing' that a public official might receive favorable prosecutorial treatment contingent on advancing the administration's policy goals, and that dismissing without prejudice would create 'the unavoidable perception that the Mayor's freedom depends on his ability to carry out the immigration enforcement priorities of the administration.' Senators Whitehouse and Blumenthal later filed ethics complaints against Bove with DOJ's Office of Professional Responsibility and New York's attorney grievance body. A June 2025 NBC News analysis situated the episode within a broader four-month pattern of DOJ anti-corruption rollback under the new administration, including the Inspectors General purge and a halt to foreign-bribery enforcement documented elsewhere in this database.",
@@ -1817,6 +1856,45 @@
     "last_updated": "2026-08-08",
     "date_added": "2026-08-08",
     "confidence_note": "HIGH confidence on the documented facts -- corroborated by Wired's original reporting and CNN's independently obtained recording, with NBC News confirming the DOGE-to-SSA transition. MODERATE confidence on the full extent of the August 2025 whistleblower disclosure's specific findings, which was not independently re-verified beyond the original filing referenced in later reporting for this entry."
+  },
+  {
+    "official": "Elon Musk, former DOGE leader / Special Government Employee",
+    "offense_category": "Public Exposure of Controlled National-Reconnaissance-Office Data Through DOGE's Own Website, Compounded by Independently Documented Vulnerabilities in That Website's Infrastructure -- an institutional-accountability claim about handling of sensitive national-security information, not a criminal charge",
+    "contested": false,
+    "incident_summary": "In mid-February 2025, DOGE's public website, updated to display federal workforce information across agencies, published headcount and budget details for the National Reconnaissance Office (NRO) -- the intelligence agency that designs and operates U.S. spy satellites. Multiple intelligence-community sources told ABC News this likely constituted a significant security breach, since both figures are treated as controlled information specifically because foreign adversaries could use them to infer how heavily the U.S. prioritizes particular intelligence-collection activities. Separately, two independent web-development specialists found the DOGE.gov website itself was vulnerable due to its reliance on an unsecured external database, which they said allowed unauthorized access and editing of the site's published content -- meaning the site's own infrastructure, not just what an authorized DOGE staffer chose to post, was a documented security weakness. On February 27, 2025, Senators Elizabeth Warren, Gerry Connolly, and Melanie Stansbury led a group of Democratic lawmakers in opening a formal investigation into DOGE's handling of sensitive national-security information, sending Musk a formal letter of inquiry.",
+    "elements_required": [
+      "DOGE's public website published NRO headcount and budget figures, both treated as controlled information under standard intelligence-community practice",
+      "Multiple named intelligence-community sources, speaking to an established news outlet, independently characterized this as a likely significant security breach",
+      "Independent, separate technical analysis found the DOGE.gov website's own infrastructure -- an unsecured external database -- was vulnerable to unauthorized access and editing",
+      "Members of Congress opened a formal investigation and sent a written inquiry to Musk specifically over this and related national-security data-handling concerns"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "ABC News reported DOGE's website published NRO headcount and budget details, with intelligence-community sources calling it a likely significant security breach",
+        "source_url": "https://abcnews.go.com/US/agency-data-shared-doge-online-sparks-concern-intelligence/story?id=118858837",
+        "maps_to_element": "The core data-exposure incident and its characterization by intelligence-community sources"
+      },
+      {
+        "type": "analysis",
+        "description": "Independent technical reporting found the DOGE.gov website relied on an unsecured external database, allowing unauthorized access and editing of published content",
+        "source_url": "https://nquiringminds.com/cybernews/security-breach-exposes-vulnerabilities-in-dogegov-website/",
+        "maps_to_element": "A compounding, separate infrastructure vulnerability in the website that published the exposed data"
+      },
+      {
+        "type": "public_record",
+        "description": "Sen. Elizabeth Warren's office announced a formal congressional investigation, joined by Sens. Connolly and Stansbury, into DOGE's handling of sensitive national-security information, with a written letter of inquiry sent to Musk",
+        "source_url": "https://www.warren.senate.gov/newsroom/press-releases/warren-connolly-stansbury-doge-caucus-open-investigation-into-dogegov-after-alarming-failures-to-protect-sensitive-national-security-information",
+        "maps_to_element": "Formal congressional oversight response to the incident"
+      }
+    ],
+    "status": "The specific NRO data was reported removed from public view following the initial reporting, though no source reviewed for this entry confirmed the exact removal date. The underlying congressional investigation's outcome was not confirmed in sourcing reviewed for this entry.",
+    "rebuttal_anticipated": "The Trump administration publicly characterized the published data as already public information rather than classified or controlled material, arguing DOGE's transparency mission justified publishing federal workforce and budget data broadly, including at intelligence agencies.",
+    "comeback": "This entry does not rest on the administration's own characterization -- named intelligence-community sources, not partisan critics, independently told ABC News the specific NRO figures published were controlled information whose exposure could aid foreign adversaries, and a separate technical analysis found the publishing website itself was vulnerable to unauthorized editing, meaning the exposure risk was not limited to what DOGE staff deliberately chose to disclose.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level accountability question about DOGE's data-handling practices around sensitive national-security information, rather than a specific legal violation by Musk personally.",
+    "last_updated": "2026-08-08",
+    "date_added": "2026-08-08",
+    "confidence_note": "HIGH confidence on the data exposure and the intelligence-community reaction, corroborated by ABC News's sourcing to multiple named intelligence-community officials. MODERATE confidence on the independent website-vulnerability finding, which rests on a single specialized technical-analysis outlet rather than mainstream corroboration -- treat as a compounding detail rather than the entry's central claim."
   },
   {
     "official": "Pam Bondi, then-Attorney General (served 2025-2026, removed April 2026) / DOJ leadership",

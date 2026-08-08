@@ -1545,6 +1545,34 @@
     ]
   },
   {
+    "id": "dam-infrastructure-staff-cuts-2025",
+    "title": "Federal Workforce Purges Hit Agencies Responsible for Maintaining and Operating U.S. Dams",
+    "institution": "Bureau of Reclamation and U.S. Army Corps of Engineers, among other federal agencies overseeing dam infrastructure",
+    "domain": "staff_office_cuts",
+    "status": "Implemented -- reported as part of the broader February-March 2025 federal workforce purge",
+    "date_of_action": "2025-03-17",
+    "what_changed": "Federal workforce purges eliminated hundreds of jobs at agencies responsible for maintaining and operating U.S. dams, including the Bureau of Reclamation and the Army Corps of Engineers. Infrastructure experts warned the loss of specialized staff at these agencies threatens public safety, water supply reliability, and electricity generation, since dam operation and maintenance requires specific engineering expertise that cannot be quickly replaced.",
+    "primary_proponent": {
+      "name": "Department of Government Efficiency (DOGE)",
+      "role": "Directed the broader federal workforce purge these dam-infrastructure-agency cuts were part of",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing the dam-agency-specific cuts; attributed to DOGE's broader workforce-reduction campaign."
+    },
+    "estimated_impact": {
+      "summary": "Reduced specialized engineering and safety-inspection capacity at agencies responsible for a category of infrastructure -- dams -- where technical failure carries direct public-safety, water-supply, and electricity-generation consequences",
+      "figures": [],
+      "caveat": "No precise headcount figure for the affected dam-infrastructure agencies specifically was found in sourcing reviewed for this entry -- the source describes 'hundreds of jobs' in general terms across multiple agencies rather than a single consolidated total. This entry rests on a single wire-service report (Associated Press, distributed via ABC News); worth a follow-up search for more granular, agency-specific figures if this entry is relied on heavily."
+    },
+    "confidence_note": "MODERATE confidence -- based on a single Associated Press wire report distributed via ABC News, citing named infrastructure experts but not a specific agency-level headcount figure. The underlying claim (workforce cuts touching dam-maintenance agencies) is plausible given the extensively-documented broader February-March 2025 purge, but this specific entry has thinner sourcing than most others added this session.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "Associated Press / ABC News -- Critics warn staff cuts at federal agencies overseeing US dams",
+        "url": "https://abcnews.go.com/US/wireStory/critics-warn-staff-cuts-federal-agencies-overseeing-us-119824450"
+      }
+    ]
+  },
+  {
     "id": "disease-surveillance-cuts-emerging-threats-2026",
     "title": "Federal Disease Surveillance Cuts Coincide With Emergence of Flesh-Eating Bacteria, Screwworm, and Malaria-Reintroduction Risk",
     "institution": "HHS/CDC and USDA disease-surveillance programs",
@@ -2176,6 +2204,49 @@
       {
         "name": "The Hill -- Judge rejects 'Duffy Directive' tying DOT grants to ICE",
         "url": "https://thehill.com/homenews/administration/5360127-judge-rejects-duffy-directive-tying-dot-grants-to-ice/"
+      }
+    ]
+  },
+  {
+    "id": "dot-safety-adjacent-staff-cuts-2025",
+    "title": "DOT Sheds Hundreds of Safety-Adjacent Staff, First Through Layoffs, Then Through a Voluntary Buyout Offer",
+    "institution": "Department of Transportation (DOT)",
+    "domain": "staff_office_cuts",
+    "status": "Implemented -- layoffs in March 2025 followed by a voluntary buyout offer in April 2025",
+    "date_of_action": "2025-03-13 (layoffs) through 2025-04-07 (buyout acceptance deadline)",
+    "what_changed": "On March 13, 2025, DOT fired 788 employees as part of the administration's broader mass agency layoffs, including experts on highway-death data, pipeline safety, and vehicle-recall processes -- roles the administration characterized as not threatening public safety, a claim Politico's reporting disputed given the specific safety-adjacent functions named. Roughly three weeks later, on April 2, 2025, DOT offered voluntary buyouts to thousands of additional employees, this time explicitly excluding staff in public-safety and cybersecurity roles from eligibility -- workers had until April 7, 2025 to decide whether to accept.",
+    "primary_proponent": {
+      "name": "U.S. Department of Transportation",
+      "role": "Directed both the March 2025 layoffs and the April 2025 buyout offer",
+      "note": "No single named individual (e.g., Secretary Duffy personally) was identified in sourcing reviewed for this entry as the specific decision-maker behind these two staffing actions, distinguishing them from the separately-tracked, personally-attributed 'Duffy Directive' funding-conditions entry in this database. Attributed institutionally to DOT."
+    },
+    "estimated_impact": {
+      "summary": "Reduced DOT staffing in functions adjacent to (though the administration disputed, not squarely within) public safety -- highway-death data analysis, pipeline-safety oversight, and vehicle-recall processing -- followed by a further voluntary reduction that explicitly tried to protect safety and cybersecurity roles specifically",
+      "figures": [
+        {
+          "metric": "DOT employees fired in the March 2025 layoffs",
+          "value": "788",
+          "source": "Politico (2025-03-13)"
+        },
+        {
+          "metric": "April 2025 buyout offer deadline",
+          "value": "April 7, 2025",
+          "source": "USA Today (2025-04-01)"
+        }
+      ],
+      "caveat": "No total headcount figure for the April buyout's actual uptake was found in sourcing reviewed for this entry -- only that it was offered to 'thousands' of employees. The buyout's explicit exclusion of safety/cybersecurity roles suggests DOT leadership was, by April, more deliberately protecting those functions than the March layoffs had been."
+    },
+    "confidence_note": "HIGH confidence on both the March layoffs and the April buyout offer -- corroborated by Politico and USA Today respectively, both naming specific dates, figures, and affected functions.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "Politico -- Transportation Department layoffs, safety",
+        "url": "https://www.politico.com/news/2025/03/13/transportation-department-layoffs-safety-00227947"
+      },
+      {
+        "name": "USA Today -- Transportation Dept buyout",
+        "url": "https://www.usatoday.com/story/news/politics/2025/04/01/transportation-dept-buyout/82756419007/"
       }
     ]
   },
@@ -2973,6 +3044,44 @@
     ]
   },
   {
+    "id": "faa-february-2025-safety-adjacent-firings",
+    "title": "FAA Fires ~400 Safety-Adjacent Staff in February 2025, Despite Recent Fatal Crashes",
+    "institution": "Federal Aviation Administration (FAA), Department of Transportation",
+    "domain": "staff_office_cuts",
+    "status": "Implemented -- a discrete, administration-attributable action distinct from this tracker's separate entry on the FAA's longer-running, multi-administration air-traffic-controller shortage",
+    "date_of_action": "2025-02-17 through 2025-02-20",
+    "what_changed": "Beginning February 17, 2025, the Trump administration fired hundreds of FAA employees, including engineers, technicians, and other safety-adjacent workers, despite a series of recent fatal aviation crashes that had drawn public attention to aviation-safety staffing. Most of those terminated were probationary employees with limited job protections. By February 20, reporting specified roughly 400 FAA employees had been let go, including aviation safety assistants, maintenance mechanics, and nautical information specialists. The administration maintained no positions explicitly classified as 'critical safety' roles were cut; the affected employees' union disputed that characterization, saying the terminated staff supported flight inspectors, repaired air-traffic-control systems, and maintained the navigation charts pilots rely on.",
+    "primary_proponent": {
+      "name": "Department of Government Efficiency (DOGE)",
+      "role": "Directed the February 2025 FAA workforce reductions as part of its broader federal-workforce-cut campaign",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing the FAA-specific cuts; attributed to DOGE's broader, administration-directed workforce-reduction campaign. This entry is deliberately kept separate from this tracker's existing `faa-controller-staffing-structural-crisis-trump2.json` entry, which documents a longer-running, multi-administration air-traffic-controller shortage that entry explicitly frames as not singularly attributable to the current administration -- these February 2025 firings, by contrast, are a specific, dated, administration-directed action."
+    },
+    "estimated_impact": {
+      "summary": "Reduced FAA capacity in safety-support roles -- inspector support, air-traffic-control-system maintenance, and navigation-chart upkeep -- at a moment of heightened public attention to aviation safety following recent fatal crashes",
+      "figures": [
+        {
+          "metric": "FAA employees fired",
+          "value": "~400",
+          "source": "Associated Press (2025-02-20)"
+        }
+      ],
+      "caveat": "The administration and the affected employees' union directly disputed whether any cut roles were 'critical safety' positions -- this entry presents both characterizations rather than resolving the dispute, since the underlying job functions described (inspector support, ATC system repair, navigation chart maintenance) plausibly support safety operations even if the individuals themselves did not hold formally designated 'safety-critical' titles."
+    },
+    "confidence_note": "HIGH confidence on the firings and their scale -- corroborated by The Guardian and the Associated Press, with the AP piece specifically detailing the affected job functions and the union's disputed characterization.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "The Guardian -- Trump administration FAA worker firings",
+        "url": "https://www.theguardian.com/us-news/2025/feb/17/trump-administration-faa-worker-firings"
+      },
+      {
+        "name": "Associated Press -- FAA firings, Trump, DOGE, safety, airlines",
+        "url": "https://apnews.com/article/faa-firings-trump-doge-safety-airlines-27390c6a7aac58063652302df5a243d3"
+      }
+    ]
+  },
+  {
     "id": "faa-shutdown-flight-reduction-trump2",
     "title": "FAA Cut Flights 10% at 40 Major Airports After Unpaid Controllers Began Missing Work",
     "institution": "Federal Aviation Administration (FAA), Department of Transportation",
@@ -3185,6 +3294,40 @@
       {
         "name": "AABB — Szarama Departs CBER; Karim Mikhail Named Acting Director",
         "url": "https://www.aabb.org/news-resources/news/article/2026/05/20/szarama-departs-cber--karim-mikhail-named-acting-director"
+      }
+    ]
+  },
+  {
+    "id": "fda-food-safety-device-tobacco-staff-cuts-2025",
+    "title": "FDA Fires Food-Safety, Medical-Device, and Tobacco-Oversight Staff as Part of a 5,200-Worker HHS Purge",
+    "institution": "Food and Drug Administration (FDA), Department of Health and Human Services",
+    "domain": "staff_office_cuts",
+    "status": "Implemented -- part of a broader HHS-wide reduction reported in February 2025",
+    "date_of_action": "2025-02-16",
+    "what_changed": "As part of a roughly 5,200-worker purge across HHS agencies, the FDA fired probationary staff responsible for food safety, medical-device review, and tobacco-product oversight. The Guardian reported the cuts specifically hit employees reviewing food additives, medical devices, and e-cigarettes -- functions directly tied to consumer-facing product safety review rather than administrative or research roles.",
+    "primary_proponent": {
+      "name": "U.S. Department of Health and Human Services",
+      "role": "Parent department directing the broader 5,200-worker purge FDA's cuts were part of",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing the FDA-specific portion of the cuts; attributed institutionally to HHS given the department-wide scope of the purge these firings were part of."
+    },
+    "estimated_impact": {
+      "summary": "Reduced FDA capacity to review food additives, medical devices, and tobacco products for safety, as part of a much larger HHS-wide workforce reduction",
+      "figures": [
+        {
+          "metric": "Total HHS agencies workers affected in the broader purge",
+          "value": "~5,200",
+          "source": "The Guardian (2025-02-16)"
+        }
+      ],
+      "caveat": "No FDA-specific headcount figure (as opposed to the HHS-wide 5,200 total) was found in sourcing reviewed for this entry -- this is a smaller, narrower entry than the department-wide purge it was part of, focused specifically on the food-safety/device/tobacco functions named in reporting."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- corroborated by The Guardian's contemporaneous reporting, which specifically named the affected functions (food additives, medical devices, e-cigarettes). This entry rests on a single primary source rather than multi-outlet corroboration; worth a follow-up search for independent confirmation or a more precise FDA-specific headcount if this entry is relied on heavily.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "The Guardian -- Trump administration FDA layoffs",
+        "url": "https://www.theguardian.com/us-news/2025/feb/16/trump-administration-fda-layoffs"
       }
     ]
   },
@@ -4540,6 +4683,34 @@
       }
     ],
     "last_updated": "2026-07-27"
+  },
+  {
+    "id": "hhs-poverty-guidelines-team-fired-2025",
+    "title": "HHS Fires Its Entire Team Responsible for Calculating Federal Poverty Guidelines Used to Determine Medicaid and Food-Assistance Eligibility",
+    "institution": "Department of Health and Human Services (HHS), Office of the Assistant Secretary for Planning and Evaluation (ASPE)",
+    "domain": "staff_office_cuts",
+    "status": "Implemented as of April 2025 reporting -- no reporting reviewed for this entry confirmed whether the function was later restored or reassigned",
+    "date_of_action": "2025-04-12",
+    "what_changed": "HHS fired its entire team responsible for calculating the federal poverty guidelines -- the annually published figures used to determine eligibility for Medicaid, SNAP (food assistance), and numerous other federal and state assistance programs. CBS News reported the cuts left no one remaining within the federal government with the technical expertise to update the guidelines going forward.",
+    "primary_proponent": {
+      "name": "U.S. Department of Health and Human Services",
+      "role": "Directed the elimination of the poverty-guidelines calculation team",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing this specific cut; attributed institutionally to HHS."
+    },
+    "estimated_impact": {
+      "summary": "Eliminated the specific federal technical capacity to calculate and update the poverty guidelines that gate eligibility for Medicaid, SNAP, and other major assistance programs nationwide -- a small team by headcount, but one whose function has outsized downstream consequences given how many benefit-eligibility determinations depend on the figures it produces",
+      "figures": [],
+      "caveat": "No specific headcount figure for the eliminated team was found in sourcing reviewed for this entry -- CBS News's reporting describes the team as eliminated entirely ('no one currently in government with the technical knowledge') without stating its prior size. No reporting reviewed confirmed whether this function was later restored, contracted out, or reassigned elsewhere in HHS."
+    },
+    "confidence_note": "HIGH confidence on the core claim -- CBS News's reporting is specific and sourced to the functional consequence (no remaining technical capacity to update the guidelines), though it rests on a single outlet. Worth a follow-up check on whether the 2026 poverty guidelines were in fact published on schedule, which would be direct evidence of whether the gap was actually filled.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "CBS News -- Trump HHS poverty levels Medicaid benefits",
+        "url": "https://www.cbsnews.com/news/trump-hhs-poverty-levels-medicaid-benefits/"
+      }
+    ]
   },
   {
     "id": "hhs-schedule-f-civil-service-reclassification-2026",
@@ -6388,6 +6559,40 @@
     ]
   },
   {
+    "id": "nih-lab-safety-pathogen-staff-cuts-2025",
+    "title": "NIH Fires 20 Staff Responsible for Lab Safety and Preventing Pathogen Leaks",
+    "institution": "National Institutes of Health (NIH), Department of Health and Human Services",
+    "domain": "staff_office_cuts",
+    "status": "Implemented -- part of the broader February 2025 probationary-employee purge across federal agencies",
+    "date_of_action": "2025-02 (initial purge) through 2025-03-13 (reported)",
+    "what_changed": "As part of the broader February 2025 purge of probationary federal workers, DOGE-directed cuts fired 20 NIH employees specifically responsible for laboratory safety and preventing pathogen leaks -- functions relevant to biosafety at facilities that handle dangerous biological materials.",
+    "primary_proponent": {
+      "name": "Department of Government Efficiency (DOGE)",
+      "role": "Directed the broader February 2025 probationary-worker purge these NIH lab-safety cuts were part of",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing the NIH-specific lab-safety cuts; attributed to DOGE's broader workforce-reduction campaign."
+    },
+    "estimated_impact": {
+      "summary": "Reduced NIH capacity in a biosafety-relevant function -- lab safety oversight and pathogen-leak prevention -- though the absolute headcount affected (20) is small relative to other entries in this database",
+      "figures": [
+        {
+          "metric": "NIH lab-safety/pathogen-leak-prevention staff fired",
+          "value": "20",
+          "source": "Notus (2025-03-13)"
+        }
+      ],
+      "caveat": "This entry rests on a single source (Notus) and a relatively small headcount; included because the specific function affected (pathogen-leak prevention) carries outsized biosafety significance even at small scale, but the claim should be treated as narrower and less independently corroborated than larger entries in this tracker."
+    },
+    "confidence_note": "MODERATE confidence -- based on a single specialized-outlet report (Notus) rather than multi-outlet corroboration. The underlying claim (20 specific staff in a named function) is specific and plausible given the broader, well-documented February 2025 probationary purge, but was not independently re-verified against a second source for this entry.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "Notus -- DOGE fired NIH employees responsible for lab leak prevention",
+        "url": "https://www.notus.org/health-science/doge-fired-nih-employees-lab-leak-prevention"
+      }
+    ]
+  },
+  {
     "id": "nist-workforce-standards-cuts",
     "title": "NIST workforce reduction and standards/research budget cuts",
     "institution": "National Institute of Standards and Technology (Department of Commerce)",
@@ -6537,6 +6742,74 @@
       {
         "name": "Fisher Phillips LLP, 'SCOTUS Once Again Upholds Firing of NLRB Democrat Member Wilcox'",
         "url": "https://www.fisherphillips.com/en/news-insights/scotus-once-again-upholds-firing-of-nlrb-democrat-member-wilcox.html"
+      }
+    ]
+  },
+  {
+    "id": "nnsa-nuclear-staffing-crisis-2025",
+    "title": "NNSA Nuclear-Weapons-Complex Staffing Crisis -- From Accidental Firings to a Shutdown Furlough That Halted Weapons Work for the First Time in History",
+    "institution": "National Nuclear Security Administration (NNSA), a semi-autonomous Department of Energy agency responsible for the U.S. nuclear weapons stockpile; related developments at the Nuclear Regulatory Commission (NRC)",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing, with escalating severity through the year -- initial erroneous firings (Feb 2025) gave way to a documented brain-drain (Mar-May 2025), then a historic shutdown-driven near-total work stoppage (Oct 2025), followed by a policy shift that reduces regulatory oversight of new reactor construction (Dec 2025)",
+    "date_of_action": "2025-02-17 (initial erroneous firings) through 2025-12-30 (Reactor Pilot Program launch)",
+    "what_changed": "In February 2025, DOGE-driven federal workforce cuts mistakenly fired NNSA employees -- some working on the nuclear stockpile and on tracking nuclear threats, including in Ukraine -- and the administration then could not contact them about reinstatement because their government email accounts had already been deactivated. By March 2025, the New York Times reported more than 130 senior scientists, engineers, and security experts had been forced out of NNSA, jeopardizing nuclear modernization programs and safety protocols. By May 2025, USA Today reported the cuts had derailed years of hiring progress and raised new safety concerns at weapons facilities including Los Alamos, the Y-12 National Security Complex, and Pantex. The staffing erosion reached the Nuclear Regulatory Commission as well: at a September 4, 2025 Senate hearing, two of the NRC's three remaining commissioners said they feared Trump could purge them too if they resisted his push to fast-track new reactor approvals, part of a stated goal to quadruple U.S. nuclear generating capacity by 2050. The crisis peaked during the October 2025 government shutdown: NNSA warned it would furlough 80% of its workforce as shutdown funding ran out, leaving only 375 'essential' employees and placing facility contractors in 'minimum-safe' status; by October 21, more than 1,400 employees -- over 75% of staff -- had actually been furloughed, leaving fewer than 400 on duty and suspending nearly all work on the U.S. nuclear weapons program, the first time in the program's history that weapons assembly and modernization work came to a complete stop. Funding for the Office of Secure Transportation, which physically moves nuclear warheads and materials, was confirmed only through October 27 as the shutdown continued. Then, on December 30, 2025, Trump officials launched a Reactor Pilot Program fast-tracking construction of new, largely untested nuclear reactor designs, with oversight shifted from the traditionally independent Nuclear Regulatory Commission to the Department of Energy itself -- aiming to bring at least three experimental reactors online by July 4, 2026 under an aggressive political deadline and with limited public transparency.",
+    "primary_proponent": {
+      "name": "Department of Government Efficiency (DOGE)",
+      "role": "Directed the initial 2025 workforce cuts across NNSA and related agencies",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing the NNSA-specific cuts; the erroneous-firing episode in particular was reported as a process failure (deactivated emails preventing reinstatement contact) rather than a deliberate targeting decision, though it occurred within DOGE's broader, deliberately aggressive workforce-reduction push. The later Reactor Pilot Program and its shift of oversight from NRC to DOE reflects a distinct, deliberate administration policy choice."
+    },
+    "estimated_impact": {
+      "summary": "Substantial, escalating loss of specialized nuclear-weapons-complex staffing capacity, culminating in the first complete halt to U.S. nuclear weapons assembly and modernization work in the program's history, alongside a shift of new-reactor oversight away from the traditionally independent nuclear safety regulator",
+      "figures": [
+        {
+          "metric": "Senior scientists, engineers, and security experts forced out by March 2025",
+          "value": "130+",
+          "source": "New York Times (2025-03-17)"
+        },
+        {
+          "metric": "NNSA employees furloughed during the October 2025 shutdown",
+          "value": "1,400+ (over 75% of staff), fewer than 400 remaining on duty",
+          "source": "CNN and The Hill (2025-10-21/22)"
+        },
+        {
+          "metric": "Reactor Pilot Program target",
+          "value": "At least 3 experimental reactors online by July 4, 2026",
+          "source": "Contemporaneous December 2025 reporting"
+        }
+      ],
+      "caveat": "The February 2025 erroneous-firing episode is documented as a process failure rather than a quantified figure; the escalation from initial cuts to the October shutdown furloughs and the December policy shift is documented across five independent outlets over nearly a year, but no single official NNSA report consolidating the full-year impact was found in sourcing reviewed for this entry."
+    },
+    "confidence_note": "HIGH confidence -- corroborated across NBC News, the New York Times, USA Today, Reuters, CBS News, CNN, and The Hill, each documenting a different stage of the same escalating crisis over roughly ten months. The convergence of independent national-security, general-news, and Senate-hearing sourcing on the same underlying staffing trajectory makes this one of the more thoroughly corroborated entries in this tracker.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "NBC News -- Trump administration wants to un-fire nuclear safety workers, can't figure out how",
+        "url": "https://www.nbcnews.com/politics/national-security/trump-administration-wants-un-fire-nuclear-safety-workers-cant-figure-rcna192345"
+      },
+      {
+        "name": "New York Times -- Federal job cuts hit nuclear bomb engineers and scientists",
+        "url": "https://www.nytimes.com/2025/03/17/us/politics/federal-job-cuts-nuclear-bomb-engineers-scientists.html"
+      },
+      {
+        "name": "USA Today -- Nuclear weapons woes: nuke agency hit by DOGE and safety worries",
+        "url": "https://www.usatoday.com/story/news/politics/2025/05/18/nuclear-weapons-woes-nuke-agency-hit-by-doge-and-safety-worries/83621978007/"
+      },
+      {
+        "name": "Reuters -- US nuclear safety regulators say their jobs could be at risk under Trump",
+        "url": "https://www.reuters.com/world/us/us-nuclear-safety-regulators-say-their-jobs-could-be-risk-under-trump-2025-09-03/"
+      },
+      {
+        "name": "CBS News -- Nuclear stockpile at risk as shutdown drags on",
+        "url": "https://www.cbsnews.com/news/nuclear-stockpile-government-shutdown-mike-rogers/"
+      },
+      {
+        "name": "CNN -- NNSA furloughs amid shutdown",
+        "url": "https://www.cnn.com/2025/10/19/politics/national-nuclear-security-administration-furloughs-shutdown"
+      },
+      {
+        "name": "The Hill -- NNSA furloughs staff amid government shutdown",
+        "url": "https://thehill.com/policy/energy-environment/5564461-nnsa-furloughs-staff-government-shutdown/"
       }
     ]
   },
@@ -6891,7 +7164,7 @@
     "domain": "staff_office_cuts",
     "status": "Partially reversed (active rehiring underway, but experience/institutional-knowledge loss is not recoverable by rehiring alone)",
     "date_of_action": "Early-mid 2025 (initial cuts); ongoing reorganization through at least April 2026",
-    "what_changed": "Early in 2025, DOGE-driven early retirement incentives and probationary-employee firings cut roughly 600 employees (about 15% of staff) from the National Weather Service nationwide, part of broader cuts to its parent agency NOAA. By May 2025, 52 of the NWS's 122 weather forecast offices had staffing vacancy rates above 20%, and at least 8 offices could no longer maintain 24/7 operations, including Sacramento, Goodland (KS), and Jackson (KY). Former NWS directors wrote publicly that 'our worst nightmare is that weather forecast offices will be so understaffed that there will be needless loss of life.' Specifically at the Austin/San Antonio forecast office -- which covers the Texas Hill Country -- the warning coordination meteorologist position (responsible for working directly with emergency managers and the public on what to do when a disaster strikes) had been vacant since the person who held it for decades accepted an early-retirement offer at the end of April 2025, roughly two months before the deadly July 4, 2025 Guadalupe River flash flood that killed more than 100 people. Two days after that flood, the administration issued a memo stating no federal vacancies could be filled until October, after the extreme weather season ended. In 2026, NOAA began actively rehiring (recruiting ~150 entry-level meteorologists, filling 200+ positions since late 2025), but experienced meteorologists warn the resulting workforce skews inexperienced -- 'because there are no old-timers left,' as one Alaska-based former NWS meteorologist put it -- and 'upper air' atmospheric data collection has noticeably degraded since January 2025, a data source considered fundamental to forecast accuracy.",
+    "what_changed": "Early in 2025, DOGE-driven early retirement incentives and probationary-employee firings cut roughly 600 employees (about 15% of staff) from the National Weather Service nationwide, part of broader cuts to its parent agency NOAA. NOAA workers described the process to NBC News as chaotic and intentionally disorienting: employees reported being fired, then reinstated, then fired again within the same stretch of weeks, in some cases losing pay, health insurance, and unemployment-benefit eligibility during the gaps. By May 2025, 52 of the NWS's 122 weather forecast offices had staffing vacancy rates above 20%, and at least 8 offices could no longer maintain 24/7 operations, including Sacramento, Goodland (KS), and Jackson (KY). Former NWS directors wrote publicly that 'our worst nightmare is that weather forecast offices will be so understaffed that there will be needless loss of life.' Specifically at the Austin/San Antonio forecast office -- which covers the Texas Hill Country -- the warning coordination meteorologist position (responsible for working directly with emergency managers and the public on what to do when a disaster strikes) had been vacant since the person who held it for decades accepted an early-retirement offer at the end of April 2025, roughly two months before the deadly July 4, 2025 Guadalupe River flash flood that killed more than 100 people. Two days after that flood, the administration issued a memo stating no federal vacancies could be filled until October, after the extreme weather season ended. In 2026, NOAA began actively rehiring (recruiting ~150 entry-level meteorologists, filling 200+ positions since late 2025), but experienced meteorologists warn the resulting workforce skews inexperienced -- 'because there are no old-timers left,' as one Alaska-based former NWS meteorologist put it -- and 'upper air' atmospheric data collection has noticeably degraded since January 2025, a data source considered fundamental to forecast accuracy.",
     "primary_proponent": {
       "name": "DOGE (Department of Government Efficiency) / NOAA leadership",
       "role": "Executed the early-2025 workforce reductions",
@@ -6934,7 +7207,7 @@
       "estimated_impact": "One analysis found the flood forecasts stayed accurate despite the staffing gap, while noting the vacant role's public-coordination function was exactly what came under scrutiny afterward.",
       "confidence_note": "Well-documented via multiple non-advocacy sources and a union vacancy count; the vacancy is verified, but claiming it directly caused the disaster's toll would overreach the actual evidence."
     },
-    "last_verified": "2026-07-07",
+    "last_verified": "2026-08-08",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -6944,6 +7217,10 @@
       {
         "name": "NBC News — NOAA is scrambling to fill forecasting jobs after cuts to the National Weather Service",
         "url": "https://www.nbcnews.com/science/environment/noaa-scrambling-fill-forecasting-jobs-cuts-national-weather-service-rcna207050"
+      },
+      {
+        "name": "NBC News — NOAA workers report intentional chaos in personnel cuts",
+        "url": "https://www.nbcnews.com/science/science-news/noaa-workers-report-intentional-chaos-personnel-cuts-rcna201625"
       },
       {
         "name": "CBS News — National Weather Service faces hurricane season with less experienced staff, missing data",
@@ -10428,8 +10705,8 @@
     "institution": "U.S. Wildland Fire Service (Department of the Interior)",
     "domain": "staff_office_cuts",
     "status": "Ongoing -- agency operational since early 2026, full-suppression order in effect; no congressional ratification of the agency's creation identified as of this entry",
-    "date_of_action": "2026 (agency creation and full-suppression order) through 2026-06-27 (Colorado firefighter deaths)",
-    "what_changed": "Interior Secretary Doug Burgum established the U.S. Wildland Fire Service in 2026 by consolidating wildland firefighting personnel from four existing Interior Department agencies -- the Bureau of Land Management, Fish and Wildlife Service, Bureau of Indian Affairs, and National Park Service -- without the customary congressional approval such a reorganization would typically receive. The new agency, headed by Brian Fennessy (formerly chief of the Orange County Fire Authority), operates under a Burgum order requiring 'full suppression for every wildfire under its management' -- a reversal of decades of fire-management policy that had accepted controlled and naturally-occurring fire as a land-management tool, and a return to an approach fire scientists compare to the discredited 1935 '10 a.m. rule' (extinguish every fire by the following morning). On June 27, 2026, three federal firefighters were killed and two more hospitalized with burn injuries battling a fast-growing wildfire near the Utah border in Colorado; the crew was overrun by flames and deployed emergency shelters. At least one of the deceased worked for the new Wildland Fire Service. Critics, including retired BLM official Steve Ellis, argue that severing forest management from firefighting operations 'will make firefighting less safe and put communities at greater risk,' and fire scientist David Calkin noted that suppressing every fire allows fuel to accumulate, making future fires harder to contain. Critics also note the four original agencies already extinguished 98% of the fires they handled before the reorganization, raising questions about what problem the full-suppression policy and new agency structure are meant to solve.",
+    "date_of_action": "2025-06-16 (Trump executive order directing DOI/USDA to develop a consolidation plan) through 2026-06-27 (Colorado firefighter deaths)",
+    "what_changed": "On June 16, 2025, Trump signed an executive order directing the Interior and Agriculture Departments to develop, within 90 days, a plan to consolidate their separate wildland firefighting operations into a single new agency -- immediately shifting thousands of firefighters from the Forest Service's existing structure in the middle of that year's peak wildfire season, which critics called costly and disruptive. Interior Secretary Doug Burgum announced the resulting consolidation plan in September 2025, and on January 12, 2026 formally established the U.S. Wildland Fire Service by consolidating wildland firefighting personnel from four existing Interior Department agencies -- the Bureau of Land Management, Fish and Wildlife Service, Bureau of Indian Affairs, and National Park Service -- without the customary congressional approval such a reorganization would typically receive. The new agency, headed by Brian Fennessy (formerly chief of the Orange County Fire Authority), operates under a Burgum order requiring 'full suppression for every wildfire under its management' -- a reversal of decades of fire-management policy that had accepted controlled and naturally-occurring fire as a land-management tool, and a return to an approach fire scientists compare to the discredited 1935 '10 a.m. rule' (extinguish every fire by the following morning). On June 27, 2026, three federal firefighters were killed and two more hospitalized with burn injuries battling a fast-growing wildfire near the Utah border in Colorado; the crew was overrun by flames and deployed emergency shelters. At least one of the deceased worked for the new Wildland Fire Service. Critics, including retired BLM official Steve Ellis, argue that severing forest management from firefighting operations 'will make firefighting less safe and put communities at greater risk,' and fire scientist David Calkin noted that suppressing every fire allows fuel to accumulate, making future fires harder to contain. Critics also note the four original agencies already extinguished 98% of the fires they handled before the reorganization, raising questions about what problem the full-suppression policy and new agency structure are meant to solve.",
     "primary_proponent": {
       "name": "Doug Burgum",
       "role": "Secretary of the Interior",
@@ -10467,9 +10744,13 @@
       "estimated_impact": "Fire scientists warn the full-suppression approach lets fuel build up and makes future fires worse, while critics say severing forest management from firefighting endangers crews -- three deaths and two hospitalizations resulted from the June 2026 Colorado incident.",
       "confidence_note": "Core facts well-corroborated across wire and regional press; the causal link to the specific deaths is expert/critic framing, not an official finding."
     },
-    "last_verified": "2026-07-27",
+    "last_verified": "2026-08-08",
     "date_added": "2026-07-27",
     "sources": [
+      {
+        "name": "The Guardian — Trump orders consolidation of wildland firefighting forces amid peak fire season",
+        "url": "https://www.theguardian.com/us-news/2025/jun/12/trump-wildland-firefighting"
+      },
       {
         "name": "Colorado Sun / AP — Trump administration seeks to stomp out all fires quickly, reviving policy that has been discredited",
         "url": "https://coloradosun.com/2026/06/30/colorado-firefighter-deaths/"
