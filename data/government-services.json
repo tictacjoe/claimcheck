@@ -2379,6 +2379,82 @@
     ]
   },
   {
+    "id": "dpaa-mia-recovery-budget-cuts-2025",
+    "title": "Defense POW/MIA Accounting Agency Budget Cut Two Years Running, Slashing Recovery Missions for Missing Servicemembers",
+    "institution": "Defense POW/MIA Accounting Agency (DPAA)",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing -- FY2026 cuts already implemented and reducing recovery missions; FY2027 budget capped lower still; new Pentagon oversight (Anthony Tata, assigned June 2026) has pledged to seek roughly $40 million in restored funding via pending congressional legislation, not yet secured",
+    "date_of_action": "2025-02 (Hegseth-era Pentagon-wide cost-cutting first put DPAA's budget at risk) through 2026 (FY2026 cuts implemented; FY2027 funding capped)",
+    "what_changed": "As part of Defense Secretary Pete Hegseth's broader Pentagon-wide cost-cutting purge that began in February 2025, the Defense POW/MIA Accounting Agency -- the agency responsible for recovering and identifying America's missing servicemembers from past conflicts -- saw its budget cut across two consecutive fiscal years. The FY2026 budget request was $171.3 million for Operation and Maintenance, an 11% reduction from the previously planned $191.4 million, including the loss of 26 civilian billets; the agency's total budget fell from $185 million in FY2025 to $167 million as enacted for FY2026, with FY2027 projected to be capped at $160 million. The funding shortfall forced DPAA to cut its recovery and investigative teams operating in Vietnam from 27 to seven and in Laos from 13 to five, and reduced planned field missions from 105 to 66 -- a 59% reduction. In June 2026, Anthony Tata was assigned Pentagon oversight of DPAA and sought to reassure affected families that he had Trump and Hegseth's full support, pledging to work toward restoring roughly $40 million of the cuts through a bill then pending before Congress.",
+    "primary_proponent": {
+      "name": "Pete Hegseth",
+      "role": "Secretary of Defense",
+      "note": "DPAA's budget reductions occurred within Hegseth's broader Pentagon-wide cost-cutting initiative launched in February 2025; Anthony Tata was later assigned oversight of the agency specifically and has publicly sought to restore some of the cuts, rather than having driven them."
+    },
+    "estimated_impact": {
+      "summary": "Substantially reduced capacity to recover and identify missing U.S. servicemembers from Vietnam, Laos, and other past conflicts, through both budget cuts and lost field-mission capacity",
+      "figures": [
+        {
+          "metric": "DPAA total budget, FY2025 to FY2026",
+          "value": "$185M to $167M",
+          "source": "FY2026 DPAA budget justification (comptroller.war.gov)"
+        },
+        {
+          "metric": "DPAA total budget, FY2027 (projected cap)",
+          "value": "$160M",
+          "source": "FY2027 budget reporting cited by Military Times / CommonDefense (2026-06-29)"
+        },
+        {
+          "metric": "Recovery/investigative teams cut, Vietnam",
+          "value": "27 to 7",
+          "source": "Military Times / CommonDefense (2026-06-29)"
+        },
+        {
+          "metric": "Recovery/investigative teams cut, Laos",
+          "value": "13 to 5",
+          "source": "Military Times / CommonDefense (2026-06-29)"
+        },
+        {
+          "metric": "Field missions funded vs. planned",
+          "value": "66 of 105 planned (59% reduction)",
+          "source": "Military Times / CommonDefense (2026-06-29)"
+        },
+        {
+          "metric": "Civilian billets lost, FY2026 request",
+          "value": "26",
+          "source": "FY2026 DPAA budget justification (comptroller.war.gov)"
+        }
+      ],
+      "caveat": "The ~$40 million restoration Tata pledged to pursue was, as of the June 2026 reporting reviewed for this entry, still pending in a bill before Congress -- not yet enacted or guaranteed."
+    },
+    "confidence_note": "HIGH confidence -- corroborated by DPAA's own official FY2026 budget justification documents, Military Times, and CommonDefense reporting on Tata's June 2026 assignment and restoration pledge.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "Military Times -- Anthony Tata assumes oversight of Defense POW/MIA Accounting Agency",
+        "url": "https://www.militarytimes.com/veterans/2026/06/29/anthony-tata-assumes-oversight-of-defense-powmia-accounting-agency/"
+      },
+      {
+        "name": "CommonDefense -- Tata Vows to Restore Funding for POW/MIA Recovery Missions Amid Budget Cuts",
+        "url": "https://www.commondef.com/2026/06/tata-vows-to-restore-funding-for-pow-mia-recovery-missions-amid-budget-cuts/"
+      },
+      {
+        "name": "DPAA FY2026 Budget Estimates (Operation and Maintenance)",
+        "url": "https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2026/budget_justification/pdfs/01_Operation_and_Maintenance/O_M_VOL_1_PART_1/DPAA_OP-5.pdf"
+      },
+      {
+        "name": "Washington Post -- As Trump guts agencies, Hegseth's purge puts POW/MIA agency at risk (2025-02-23)",
+        "url": "https://www.washingtonpost.com/national-security/2025/02/23/trump-musk-pentagon-cuts/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "DPAA's budget fell from $185M (FY2025) to $167M (FY2026) to a projected $160M (FY2027), cutting recovery teams and field missions roughly in half.",
+      "estimated_impact": "Vietnam/Laos recovery teams cut by roughly three-quarters; field missions cut 59% (105 planned to 66 funded).",
+      "confidence_note": "HIGH -- corroborated by DPAA's own budget documents and independent 2026 reporting on the restoration pledge."
+    }
+  },
+  {
     "id": "education-department-dismantlement-trump2",
     "title": "Department of Education Dismantled via Interagency Transfers, Without Congressional Approval",
     "institution": "U.S. Department of Education",
@@ -6088,6 +6164,58 @@
     "date_added": "2026-08-02"
   },
   {
+    "id": "mexico-ports-narcotics-screening-aid-freeze-2025",
+    "title": "Trump's Foreign Aid Freeze Halted a U.S.-Funded Anti-Fentanyl Cargo-Screening Program at Mexico's Busiest Port",
+    "institution": "U.S. foreign aid programs (State Department/USAID-administered), implemented via UNODC-WCO Container Control Programme",
+    "domain": "funding_redirection",
+    "status": "Partially reversed after congressional pushback -- UNODC received a waiver restoring the specific port-screening program, but its continuation remained subject to a 90-day policy review, and other related anti-narcotics cooperation with Mexico stayed frozen",
+    "date_of_action": "2025-01-20 (global foreign aid freeze ordered) through 2025-02-24 (Reuters reporting on the disruption and subsequent waiver)",
+    "what_changed": "On his first day back in office, January 20, 2025, Trump ordered a sweeping freeze on foreign aid. Within weeks the freeze stalled U.S. funding for the Container Control Programme, a joint initiative of the UN Office on Drugs and Crime (UNODC) and the World Customs Organization that trained and equipped Mexico's Navy to screen cargo for fentanyl-precursor chemicals and other contraband at the Port of Manzanillo, Mexico's busiest container port. The U.S. had provided roughly $800,000 to launch the program at Manzanillo in 2023, and a planned expansion to two additional major ports -- Lazaro Cardenas and Veracruz -- was put on hold by the funding cutoff. The freeze also paused other U.S.-funded anti-narcotics cooperation with Mexico, including training for Mexican authorities to locate and dismantle clandestine fentanyl labs and U.S. donations of drug-sniffing canines. Following complaints from U.S. lawmakers, UNODC received notification of a waiver restoring the port-screening program, though State Department officials disputed characterizations that the freeze had 'stalled' it, and the program's longer-term continuation remained subject to a 90-day policy review.",
+    "primary_proponent": {
+      "name": "Donald Trump",
+      "role": "President",
+      "note": "Ordered the global foreign aid freeze via executive action on his first day in office; the disruption to this specific anti-narcotics program was a downstream effect of that blanket order, not a program targeted by name."
+    },
+    "estimated_impact": {
+      "summary": "Disrupted an active cargo-screening capability aimed at intercepting fentanyl-precursor chemicals at Mexico's busiest port, and paused its planned expansion to two more major ports, during an administration publicly prioritizing fentanyl interdiction",
+      "figures": [
+        {
+          "metric": "U.S. funding to launch the Manzanillo program (2023)",
+          "value": "~$800,000",
+          "source": "Reuters (2025-02-24)"
+        },
+        {
+          "metric": "Additional ports whose program expansion was put on hold",
+          "value": "2 (Lazaro Cardenas, Veracruz)",
+          "source": "Reuters (2025-02-24)"
+        }
+      ],
+      "caveat": "State Department officials pushed back on the characterization that the freeze 'stalled' the program, and a waiver was granted after lawmaker complaints -- this entry presents both the disruption reporting and the State Department's contemporaneous pushback rather than picking a side. The program's status beyond the 90-day review window was not confirmed in sourcing reviewed for this entry."
+    },
+    "confidence_note": "HIGH confidence on the freeze and the initial disruption -- Reuters exclusive reporting, widely syndicated (MarketScreener, Business Standard, Postguam, others). MODERATE confidence on the ultimate long-term outcome, since the entry is built on February 2025 reporting near the start of the 90-day review window and no later confirmation of the program's status was found.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "Reuters -- Exclusive: Trump aid freeze disrupts anti-narcotics program at Mexican ports (2025-02-24)",
+        "url": "https://www.reuters.com/world/americas/trump-aid-freeze-disrupts-anti-narcotics-program-mexican-ports-2025-02-24/"
+      },
+      {
+        "name": "Business Standard -- Trump's aid freeze disrupts anti-narcotics programme at Mexican ports",
+        "url": "https://www.business-standard.com/world-news/trump-s-aid-freeze-disrupts-anti-narcotics-programme-at-mexican-ports-125022401056_1.html"
+      },
+      {
+        "name": "RealClearPolitics/news-journal.com -- State Dept: Freeze Did Not Stall Anti-Narcotics Program in Mexico",
+        "url": "https://www.realclearpolitics.com/articles/2025/02/24/state_dept_freeze_did_not_stall_anti-narcotics_program_mexico__152416.html"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Trump's Jan. 2025 foreign aid freeze halted a UN-run cargo-screening program at Mexico's busiest port aimed at intercepting fentanyl chemicals; a waiver later restored it pending a 90-day review.",
+      "estimated_impact": "Disrupted active fentanyl-precursor screening at Manzanillo and paused its planned expansion to two more Mexican ports.",
+      "confidence_note": "HIGH on the initial disruption (Reuters exclusive, widely syndicated); MODERATE on the program's ultimate long-term status."
+    }
+  },
+  {
     "id": "mspb-harris-firing-quorum-loss-trump2",
     "title": "MSPB Loses Quorum for 8 Months After Trump Fires Whistleblower Board Chair Cathy Harris",
     "institution": "Merit Systems Protection Board",
@@ -6736,6 +6864,63 @@
         "url": "https://pingree.house.gov/news/documentsingle.aspx?DocumentID=6675"
       }
     ]
+  },
+  {
+    "id": "nhtsa-workforce-cuts-tesla-investigations-2025",
+    "title": "NHTSA Cut 4% of Its Staff -- Disproportionately From Its Self-Driving Safety Office -- While Investigating Tesla, Whose CEO Led the Cuts",
+    "institution": "National Highway Traffic Safety Administration (NHTSA)",
+    "domain": "staff_office_cuts",
+    "status": "Implemented -- the February 2025 workforce cuts took effect; NHTSA stated it would continue enforcement against all manufacturers despite the reduction",
+    "date_of_action": "2025-02-24",
+    "what_changed": "As part of DOGE's government-wide purge of probationary federal employees, the National Highway Traffic Safety Administration laid off roughly 4% of its staff -- about 32 of its roughly 800 employees -- in late February 2025. Of the employees let go, several came from NHTSA's Office of Vehicle Automation Safety, the unit responsible for regulating self-driving-vehicle software, which was disproportionately affected because it was a newer office (formed in 2023) staffed heavily with probationary hires. The cuts landed while NHTSA had three open investigations into Tesla: an October 2024 probe into roughly 2.4 million vehicles equipped with Full Self-Driving software after four reported collisions, including one fatal 2023 crash, and a January 2025 probe into roughly 2.6 million vehicles over a remote-summon feature linked to reported crashes. Tesla CEO Elon Musk was simultaneously serving as the Trump administration's DOGE lead directing the cross-government workforce cuts, including at the agency actively investigating his own company's vehicles. NHTSA said it would continue to enforce the law against all vehicle manufacturers despite the reductions.",
+    "primary_proponent": {
+      "name": "Elon Musk",
+      "role": "DOGE lead / Special Government Employee; concurrently CEO of Tesla",
+      "note": "Directed the cross-government probationary-employee cuts that hit NHTSA, including its automation-safety office, while Tesla -- the company he leads -- had three open NHTSA investigations at the time."
+    },
+    "estimated_impact": {
+      "summary": "Reduced staffing capacity at the federal auto-safety regulator, concentrated in the office overseeing autonomous-vehicle technology, during active investigations into the DOGE lead's own company",
+      "figures": [
+        {
+          "metric": "NHTSA staff cut",
+          "value": "~32 of ~800 (4%)",
+          "source": "CNBC / NHTSA spokesperson (2025-02-24)"
+        },
+        {
+          "metric": "Tesla vehicles under NHTSA Full Self-Driving investigation",
+          "value": "~2.4 million",
+          "source": "Fortune, citing NHTSA (2025-02-23)"
+        },
+        {
+          "metric": "Tesla vehicles under NHTSA remote-summon investigation",
+          "value": "~2.6 million",
+          "source": "Fortune, citing NHTSA (2025-02-23)"
+        }
+      ],
+      "caveat": "Sourcing reviewed for this entry did not quantify how many of the ~32 cuts came specifically from the Office of Vehicle Automation Safety versus other NHTSA offices, only that automation-safety staff were 'disproportionately affected.'"
+    },
+    "confidence_note": "HIGH confidence -- corroborated by CNBC (citing an NHTSA spokesperson directly), Reuters/Insurance Journal, Yahoo News, Fortune, and CBT News, each independently confirming the 4%/32-employee figure, the automation-safety office's disproportionate impact, and the concurrent open Tesla investigations.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "CNBC -- NHTSA laid off 4% of staff, auto safety agency spokesperson says",
+        "url": "https://www.cnbc.com/2025/02/24/nhtsa-laid-off-4percent-of-staff-auto-safety-agency-spokesperson-says.html"
+      },
+      {
+        "name": "Fortune -- Elon Musk's DOGE cuts give Tesla a helping hand amid layoffs, self-driving probes",
+        "url": "https://fortune.com/2025/02/23/elon-musk-doge-nhtsa-layoffs-safety-tesla-self-driving"
+      },
+      {
+        "name": "CBT News -- NHTSA cuts 4% of workforce amid ongoing Tesla investigations",
+        "url": "https://www.cbtnews.com/nhtsa-cuts-4-of-workforce-amid-ongoing-tesla-investigations/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "NHTSA cut ~4% of staff in Feb. 2025, disproportionately from its self-driving-safety office, while it had three open Tesla investigations and Musk led the cuts.",
+      "estimated_impact": "Reduced auto-safety staffing capacity concentrated in the autonomous-vehicle office, affecting roughly 5 million Tesla vehicles under active investigation.",
+      "confidence_note": "HIGH -- corroborated by CNBC (NHTSA spokesperson), Reuters, Fortune, and CBT News."
+    }
   },
   {
     "id": "nih-impoundment-gao-finding-trump2",
@@ -8095,20 +8280,20 @@
     "title": "OPM's Musk-Directed 'Five Bullet Points' Email Throws Federal Agencies Into Conflicting-Orders Chaos",
     "institution": "Office of Personnel Management (OPM), government-wide",
     "domain": "staff_office_cuts",
-    "status": "Resolved as an acute episode -- the specific email/compliance conflict was short-lived, but it illustrates a broader governance pattern documented across other entries in this database",
-    "date_of_action": "2025-02-22 through 2025-02-25",
-    "what_changed": "The Office of Personnel Management sent an email to federal employees government-wide demanding five bullet points summarizing each employee's accomplishments for the prior week. Elon Musk warned on X that failing to respond would be treated as a resignation. The directive immediately produced conflicting guidance across agencies: Politico reported several agency heads, including FBI Director Kash Patel, told their employees to disregard the email entirely, while other agencies indicated compliance was required. CNN reported the resulting confusion left workers scrambling amid mixed messages, with employees at agencies including DOJ, the State Department, and the FAA describing themselves as distracted from their primary duties navigating the conflicting instructions. Wired reported the chaos spread across agencies from NOAA to NIH, with staff receiving contradictory instructions about whether and how to comply.",
+    "status": "Resolved as an acute two-week episode (through at least early March 2025) -- the email/compliance conflict and its associated AI-review plan were short-lived and not confirmed to have resulted in any documented firings tied specifically to non-response, but the episode illustrates a broader governance pattern (mass workforce-management-by-ultimatum, conflicting agency guidance, and opaque AI-assisted personnel decisions) documented across other entries in this database",
+    "date_of_action": "2025-02-22 through at least 2025-03-02 (a second week of the same email request, reported by Forbes)",
+    "what_changed": "The Office of Personnel Management sent an email to federal employees government-wide on February 22, 2025 demanding roughly five bullet points summarizing each employee's accomplishments for the prior week, cc'ing their manager. Elon Musk warned on X that failing to respond would be treated as a resignation, and separate reporting (NBC News, the Daily Beast) indicated DOGE was building a system to feed the responses into an AI/large-language-model that would help determine whether each employee's role was 'mission-critical' -- a characterization Musk publicly denied ('No LLM needed here'). The directive immediately produced conflicting guidance across agencies: Politico reported several agency heads, including FBI Director Kash Patel, told their employees to disregard the email entirely, while other agencies ordered compliance -- at Treasury, counselor John W. York (a former Heritage Foundation analyst) emailed employees a hard Monday-midnight deadline to respond, and Bloomberg Law/Gizmodo reported the IRS specifically was directed to comply by that same deadline. CNN reported the resulting confusion left workers scrambling amid mixed messages, with employees at agencies including DOJ, the State Department, and the FAA describing themselves as distracted from their primary duties navigating the conflicting instructions; Wired reported the chaos spread across agencies from NOAA to NIH. Forbes reported the ultimatum recurred into a second week (through at least March 2, 2025), with Defense Secretary Pete Hegseth directing Pentagon employees to respond to that round.",
     "primary_proponent": {
       "name": "Elon Musk, former DOGE leader / Special Government Employee",
       "role": "Issued the compliance ultimatum via OPM and publicly on social media",
-      "note": "Musk's public warning that non-response would be treated as resignation was the specific trigger for the cross-government confusion documented here; several individual agency heads (e.g. FBI Director Patel) are named as having countermanded the directive for their own agencies."
+      "note": "Musk's public warning that non-response would be treated as resignation was the specific trigger for the cross-government confusion documented here; several individual agency heads (e.g. FBI Director Patel) are named as having countermanded the directive for their own agencies, while others (Treasury's John W. York, Defense Secretary Hegseth in a second week) ordered compliance."
     },
     "estimated_impact": {
-      "summary": "Produced government-wide operational confusion and distraction across multiple agencies with unrelated, sensitive core missions (law enforcement, diplomacy, aviation safety, health research, weather forecasting) during the window the conflict was unresolved",
+      "summary": "Produced government-wide operational confusion and distraction across multiple agencies with unrelated, sensitive core missions (law enforcement, diplomacy, aviation safety, health research, weather forecasting) during the window the conflict was unresolved, and raised unresolved questions about whether federal personnel decisions were being partly delegated to an undisclosed AI system",
       "figures": [],
-      "caveat": "No reporting reviewed for this entry quantified how many federal employees ultimately complied, how many treated non-compliance as a resignation trigger, or whether any employee was actually separated from federal service specifically because of non-response to this email."
+      "caveat": "No reporting reviewed for this entry quantified how many federal employees ultimately complied, how many treated non-compliance as a resignation trigger, or whether any employee was actually separated from federal service specifically because of non-response to this email. Whether an LLM/AI system was actually used to evaluate responses is itself contested -- Musk denied it publicly while NBC News and the Daily Beast reported DOGE was building such a system."
     },
-    "confidence_note": "HIGH confidence -- corroborated across Wired, Politico, and CNN, each independently confirming the email, Musk's public ultimatum, and the resulting cross-agency confusion, with Politico specifically naming FBI Director Patel's countermanding instruction.",
+    "confidence_note": "HIGH confidence on the email, Musk's ultimatum, and the cross-agency confusion -- corroborated across Wired, Politico, CNN, NPR, Bloomberg Law, Gizmodo, and 404 Media. MODERATE confidence on the specific claim that an AI/LLM system was used to evaluate responses, since Musk publicly denied it even as NBC News and the Daily Beast reported otherwise -- presented here as a contested claim, not a settled fact.",
     "last_verified": "2026-08-08",
     "date_added": "2026-08-08",
     "sources": [
@@ -8123,8 +8308,25 @@
       {
         "name": "CNN -- Email Elon Musk federal employees",
         "url": "https://www.cnn.com/2025/02/24/politics/email-elon-musk-federal-employees/index.html"
+      },
+      {
+        "name": "404 Media -- Former Heritage Foundation Staffer Orders Treasury Employees to Respond to Elon Musk's Email",
+        "url": "https://www.404media.co/former-heritage-foundation-staffer-orders-treasury-employees-to-respond-to-elon-musks-email/"
+      },
+      {
+        "name": "NBC News -- DOGE will use AI to assess the responses of federal workers who were told to justify their jobs via email",
+        "url": "https://www.nbcnews.com/politics/doge/federal-workers-agencies-push-back-elon-musks-email-ultimatum-rcna193439"
+      },
+      {
+        "name": "Forbes -- Hegseth Directs Defense Employees To Respond As Workers Report Second Week Of Musk-Led Email Request",
+        "url": "https://www.forbes.com/sites/alisondurkee/2025/03/02/elon-musks-federal-worker-emails-hegseth-directs-defense-employees-to-respond-as-workers-report-second-week-of-musk-led-email-request/"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "OPM's Musk-driven 'five bullet points' ultimatum split agencies between compliance (Treasury/IRS) and defiance (FBI), included a disputed AI-review plan, and recurred a second week under Hegseth at DOD.",
+      "estimated_impact": "Government-wide confusion and distraction across sensitive agencies, plus unresolved questions about AI-assisted personnel decisions.",
+      "confidence_note": "HIGH on the email/ultimatum/confusion; MODERATE on the contested AI/LLM-review claim, which Musk denied."
+    }
   },
   {
     "id": "opm-retirement-backlog-departures-omitted-2026",
