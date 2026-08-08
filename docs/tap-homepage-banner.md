@@ -1,4 +1,4 @@
-Every entry in Claim Check is sourced and built to hold up when challenged.
+Every entry in The Accountability Project is sourced and built to hold up when challenged.
 
 Enter a keyword, statement, or topic — or browse by database:
 

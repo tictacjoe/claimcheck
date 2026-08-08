@@ -1,4 +1,4 @@
-Claim Check tracks documented government actions across four databases.
+The Accountability Project tracks documented government actions across four databases.
 
 **The four databases**
 

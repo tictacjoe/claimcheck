@@ -1,8 +1,8 @@
-# About Claim Check
+# About The Accountability Project
 
-*"Know the claim. Show the receipts."*
+*"While headlines flood, the record stands."*
 
-Claim Check is a sourced database of documented government actions, built
+The Accountability Project is a sourced database of documented government actions, built
 on one core commitment: every claim should be falsifiable and checkable,
 not just asserted. Nothing on the site asks to be taken on faith.
 
@@ -76,5 +76,5 @@ faith.
 Search or browse. Search by keyword, statement, or topic across
 everything, or browse tracker by tracker to stay within one kind of claim.
 
-The underlying idea is simple: Claim Check exists so that a claim can be
+The underlying idea is simple: The Accountability Project exists so that a claim can be
 handed to someone skeptical of it, and the receipts are already attached.
