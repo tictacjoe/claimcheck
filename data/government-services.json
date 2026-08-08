@@ -1858,6 +1858,62 @@
     "last_updated": "2026-07-26"
   },
   {
+    "id": "doj-enrd-career-staff-purge-2025",
+    "title": "DOJ Career-Staff Purge Guts Environment Division Enforcement Capacity",
+    "institution": "U.S. Department of Justice — Environment and Natural Resources Division (ENRD), with related reassignments touching the Civil Rights and National Security Divisions",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing — the initial January-March 2025 reassignments were followed by a sustained attorney exodus documented through mid-2026, with no indication of reversal",
+    "date_of_action": "2025-01-27 (initial reassignments) through 2025-03-25 (formal DOJ-wide reorganization memo), with effects documented into 2026",
+    "what_changed": "In the days immediately following Trump's January 20, 2025 inauguration, DOJ began reassigning senior career officials across multiple divisions -- national security, civil rights, and public corruption staff were transferred into a newly created Sanctuary Cities Enforcement Working Group, often into roles outside their expertise. The Environment and Natural Resources Division (ENRD) was hit hardest: all four Environmental Enforcement Section chiefs, including section chief Tom Mariani (who had led the section since 2016), were told they were being involuntarily transferred to the working group; Mariani chose retirement instead, leaving in February 2025. The division's civil-rights-focused work was also frozen -- DOJ reportedly halted all Civil Rights Division cases pending review. Separately, career staff working on environmental-justice and diversity initiatives were placed on administrative leave, incoming Honors Program job offers to new attorneys were rescinded, and DOJ requested a list of probationary employees from the White House, raising concerns about a broader mass-firing push. On March 25, 2025, Deputy Attorney General Todd Blanche issued a formal memorandum cementing a sweeping DOJ-wide reorganization, including further ENRD reassignments to the Office of Sanctuary Cities. Follow-up reporting over a year later (Inside Climate News and E&E News, July-August 2026) found the damage was substantial and lasting: ENRD, which began 2025 with roughly 400 attorneys, had lost at least a third of its lawyers, representing more than 260 combined years of legal experience among just the 11 senior attorneys and managers interviewed; and DOJ's civil environmental lawsuits referred by EPA fell to just 16 in Trump's first year back in office, a 76% drop from the first year of the Biden administration.",
+    "primary_proponent": {
+      "name": "Todd Blanche",
+      "role": "Deputy Attorney General",
+      "note": "Signed the March 25, 2025 memorandum formalizing DOJ's sweeping reorganization, including reassignment of ENRD officials to the Office/Working Group on Sanctuary Cities. The initial involuntary transfers of ENRD section chiefs, including Mariani, began in the days immediately following the January 20, 2025 inauguration, before Blanche's memo formalized the changes department-wide."
+    },
+    "estimated_impact": {
+      "summary": "Substantially reduced federal environmental law-enforcement capacity, measured in both lost legal expertise and a sharp drop in actual case activity",
+      "figures": [
+        {
+          "metric": "ENRD attorney departures",
+          "value": "at least one-third of ~400 attorneys employed at the start of 2025",
+          "source": "Inside Climate News, citing former ENRD attorneys (2026-07-28)"
+        },
+        {
+          "metric": "Combined years of legal experience lost among 11 senior attorneys/managers interviewed",
+          "value": "260+ years",
+          "source": "Inside Climate News (2026-07-28)"
+        },
+        {
+          "metric": "DOJ civil environmental lawsuits referred by EPA, Trump's first year back in office",
+          "value": "16 cases, a 76% drop from the Biden administration's first year",
+          "source": "E&E News / Inside Climate News reporting (2026)"
+        }
+      ],
+      "caveat": "The attorney-departure and years-of-experience figures are compiled by reporters from interviews with former ENRD attorneys, not an official DOJ report -- DOJ has not published comparable workforce data itself. The EPA-referral lawsuit count is independently reported and the easiest of the three figures to verify against public case filings."
+    },
+    "confidence_note": "HIGH confidence on the initial reassignments (corroborated by the New York Times' contemporaneous January 2025 reporting) and on the year-later impact figures (corroborated by both Inside Climate News and E&E News/Politico, drawing on named former DOJ attorneys). MODERATE confidence on the precise administrative-leave and Honors-Program-rescission details, which rest on the single original NYT report and were not independently re-confirmed in later reporting reviewed for this entry.",
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "New York Times",
+        "url": "https://www.nytimes.com/2025/01/27/us/trump-justice-department-career-ranks.html"
+      },
+      {
+        "name": "Inside Climate News",
+        "url": "https://insideclimatenews.org/news/28072026/justice-department-environmental-enforcement-has-collapsed/"
+      },
+      {
+        "name": "E&E News (Politico)",
+        "url": "https://www.eenews.net/articles/staff-exodus-case-gridlock-doj-environment-division-under-trump-2-0/"
+      },
+      {
+        "name": "E&E News (Politico) -- section chief reassignments",
+        "url": "https://www.eenews.net/articles/doj-environment-section-chiefs-reassigned-to-work-on-immigration/"
+      }
+    ]
+  },
+  {
     "id": "doj-immigrant-legal-aid-accreditation-frozen-2026",
     "title": "DOJ Reassigned the Senior Attorneys Running Its 60-Year-Old Program Accrediting Non-Lawyers to Help Indigent Immigrants, Freezing Its Core Functions",
     "institution": "Department of Justice / Executive Office for Immigration Review",

@@ -6063,6 +6063,45 @@
   },
   {
     "official": "Donald Trump, President",
+    "offense_category": "Rescission of Executive-Branch Ethics Pledge Requirements (Lobbyist Gift Ban and Revolving-Door Restriction) -- no criminal or civil legal violation established; the accountability concern is the removal of a structural anti-corruption safeguard rather than any single unlawful act",
+    "contested": false,
+    "incident_summary": "On January 20, 2025, his first day back in office, Trump signed Executive Order 14148, rescinding a list of Biden-era executive orders and actions, including Executive Order 13989. That Biden order had required every executive-branch appointee to sign an ethics pledge committing them not to accept gifts from lobbyists or lobbying organizations, and imposing a two-year 'revolving door' ban preventing new appointees from working on regulations or contracts tied to their immediately prior employer or clients. Rescinding it removed both restrictions for Trump's incoming appointees. One immediate documented effect was that former Biden-administration appointees, no longer bound by the two-year post-employment restriction that had applied to them, were freed to move quickly into lobbying jobs. As of this entry's research, Trump had not issued a replacement ethics pledge or comparable restriction of his own for his administration's appointees, despite this being a step new administrations have typically taken.",
+    "elements_required": [
+      "Executive Order 14148 rescinded Executive Order 13989's mandatory ethics pledge for executive-branch appointees, including its lobbyist-gift ban and two-year revolving-door restriction",
+      "The rescission applied on Trump's first day in office, before any appointees of his own administration had been bound by an ethics pledge of any kind",
+      "No replacement ethics-pledge requirement or comparable restriction had been issued as of contemporaneous reporting",
+      "A documented immediate effect was that recently-departed Biden-administration appointees became free of the revolving-door restriction that had applied to them, facilitating quicker moves into lobbying"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Executive Order 14148, signed January 20, 2025, rescinding a list of prior executive orders and actions including Executive Order 13989 (the Biden-era ethics pledge for executive-branch appointees)",
+        "source_url": "https://cossa.org/president-trump-rescinds-executive-orders-impacting-executive-personnel-ethics-commitments-and-census-parameters/",
+        "maps_to_element": "The rescission itself and what it targeted"
+      },
+      {
+        "type": "news_report",
+        "description": "The Hill reported Trump's rescission eliminated the Biden-era ethics order and its lobbying restrictions, and that as of its reporting Trump had not issued his own ethics rules for his administration's appointees",
+        "source_url": "https://thehill.com/lobbying/5101352-trump-axes-biden-era-ethics-order-lobbying-restrictions/",
+        "maps_to_element": "Absence of a replacement ethics requirement, and the immediate effect on departing Biden appointees"
+      },
+      {
+        "type": "analysis",
+        "description": "Campaign Legal Center's analysis characterized the rescission as an early break from ethics norms on Trump's first day in office, detailing the specific gift-ban and revolving-door provisions eliminated",
+        "source_url": "https://campaignlegal.org/update/day-one-his-presidency-trump-ignored-yet-another-ethics-norm",
+        "maps_to_element": "Detail on the specific ethics-pledge provisions rescinded"
+      }
+    ],
+    "status": "The rescission is a completed, standing action -- Executive Order 13989's ethics pledge requirement has not been reinstated, and no comparable replacement pledge for Trump's own appointees has been documented as of this entry's research (2026-08-08). This is a structural, ongoing state (an absent safeguard) rather than a discrete event still in progress.",
+    "rebuttal_anticipated": "Each incoming administration can set its own ethics rules for its appointees, and rescinding a predecessor's executive order is a routine, lawful exercise of presidential authority -- it does not itself authorize or excuse any specific act of corruption, and other legal restrictions on gifts to federal employees (the general federal gift rules under 5 C.F.R. part 2635) remain in place regardless of this pledge.",
+    "comeback": "This entry does not allege the rescission itself is unlawful -- the accountability question is that Trump removed a specific, self-imposed anti-corruption structure (a lobbyist gift ban and a two-year revolving-door cooling-off period) for his own incoming appointees without replacing it with anything comparable, and that the immediate documented effect freed recently-departed officials from a restriction that had applied to them, while leaving Trump's own appointees under no equivalent commitment.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level accountability question about foregoing a self-imposed ethics safeguard rather than any specific legal violation.",
+    "last_updated": "2026-08-08",
+    "date_added": "2026-08-08",
+    "confidence_note": "HIGH confidence on the core facts (the EO, what it rescinded, and the absence of a replacement pledge) -- corroborated by COSSA's direct citation of the order text, The Hill, and Campaign Legal Center. MODERATE confidence on downstream characterizations (e.g. specific individuals who took lobbying jobs as a direct result) -- no single named individual case was independently verified for this entry; treat the 'freed departing appointees to lobby' claim as a general, sourced effect rather than a documented individual instance."
+  },
+  {
+    "official": "Donald Trump, President",
     "offense_category": "Executive Order Stripping Collective Bargaining Rights From Two-Thirds of the Federal Workforce, Upheld on Appeal Over a Retaliation Challenge -- documents a contested but now judicially-sustained administration action, not an allegation of illegality",
     "incident_summary": "In 2025, President Trump issued an executive order eliminating collective bargaining rights for wide swaths of the federal workforce, citing national security grounds. Federal employee unions sued, arguing the order was actually issued to retaliate against unions for challenging other administration policies, in violation of their free-speech rights; U.S. District Judge James Donato in San Francisco temporarily blocked the order. On appeal, a three-judge panel of the 9th U.S. Circuit Court of Appeals reversed Donato's injunction on February 26, 2026, finding the order was legitimately grounded in national security concerns and that Trump would have taken the same action regardless of any intent to punish the unions -- rejecting the retaliation theory. The 9th Circuit had already paused Donato's block pending the appeal's outcome since August 2025. The ruling affects an estimated two-thirds of the federal civilian workforce's bargaining rights.",
     "contested": true,
@@ -6146,6 +6185,51 @@
       "incident_summary": "The NYT found Trump has pardoned 70+ people convicted of fraud -- many donors or allies, wiping out $700M in restitution -- including major Medicare fraudsters Esformes and Melgen, and donors Milton and Herrera Velutini, even as Trump launched a new Vance-led anti-fraud task force days before the pattern was reported.",
       "confidence_note": "The aggregate count, restitution figure, and specific named cases are well-documented via the NYT's own investigation and Rolling Stone's contribution-tracing; not every individual pardon has a confirmed contribution-based motive."
     }
+  },
+  {
+    "official": "Donald Trump, President",
+    "offense_category": "Presidential Directive Withholding Federal Funding to Restrict Gender-Affirming Medical Care for Minors -- no criminal or civil legal violation established against Trump personally; the accountability question is the order's legal authority and its practical effect given sustained, largely successful court challenges",
+    "contested": true,
+    "incident_summary": "On January 28, 2025, Trump signed Executive Order 14187, 'Protecting Children from Chemical and Surgical Mutilation,' directing federal agencies to withhold grant funding from medical institutions that provide gender-affirming care -- including puberty blockers, hormone therapy, and certain surgical procedures -- to patients under 19, and directing exclusion of these treatments from Tricare (military health coverage) and calling for restrictions under Medicare and Medicaid. The order was challenged almost immediately: Lambda Legal filed suit on behalf of PFLAG in the U.S. District Court for the District of Maryland on February 4, 2025, and on March 4, 2025 the court issued a nationwide preliminary injunction barring the federal government from withholding funding from institutions on the basis that they provide this care to minors. The order has not been enforceable since that injunction. A second front opened in late 2025: a coalition of 19 states and the District of Columbia sued HHS and other federal defendants, filing a motion for summary judgment on January 6, 2026 that challenged an HHS report (referred to in litigation as the 'Kennedy Declaration,' after HHS Secretary Robert F. Kennedy Jr.) cited to justify the restrictions; at oral argument on March 19, 2026 the presiding judge indicated an intent to partially grant the states' request to invalidate that declaration.",
+    "elements_required": [
+      "Executive Order 14187 directed federal agencies to withhold funding from institutions providing specified gender-affirming care to minors, and to restrict coverage of that care under Tricare, Medicare, and Medicaid",
+      "A federal court issued a nationwide preliminary injunction within roughly five weeks of the order, finding sufficient legal basis to block its enforcement pending litigation",
+      "The order has remained judicially blocked since that injunction, with no reporting found of it taking practical effect",
+      "A second, separate multi-state lawsuit specifically challenges the scientific/administrative basis (the HHS 'Kennedy Declaration') the administration has relied on to justify the underlying restrictions, with a federal judge signaling likely partial invalidation as of March 2026"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Wikipedia's sourced summary of Executive Order 14187 confirms its January 28, 2025 signing date and its directive to withhold federal grant funding from institutions providing gender-affirming care to minors, plus its restrictions on Tricare, Medicare, and Medicaid coverage",
+        "source_url": "https://en.wikipedia.org/wiki/Executive_Order_14187",
+        "maps_to_element": "The order itself and its funding-restriction mechanism"
+      },
+      {
+        "type": "public_record",
+        "description": "ACLU press release confirming a federal judge granted a preliminary injunction against the order",
+        "source_url": "https://www.aclu.org/press-releases/federal-judge-grants-preliminary-injunction-against-trumps-anti-trans-healthcare-order",
+        "maps_to_element": "The March 4, 2025 nationwide preliminary injunction blocking enforcement"
+      },
+      {
+        "type": "analysis",
+        "description": "KFF's litigation tracker details the PFLAG v. Trump case timeline (Lambda Legal filing February 4, 2025, injunction March 4, 2025) and subsequent provider/state responses",
+        "source_url": "https://www.kff.org/other-health/president-trumps-executive-order-on-gender-affirming-care-responses-by-providers-states-and-litigation/",
+        "maps_to_element": "Full litigation timeline and the order's non-enforceable status"
+      },
+      {
+        "type": "news_report",
+        "description": "Ropes & Gray's litigation update covers the 19-state and D.C. coalition's lawsuit against HHS, the January 6, 2026 summary judgment motion challenging the 'Kennedy Declaration,' and the March 19, 2026 hearing at which the judge signaled intent to partially invalidate it",
+        "source_url": "https://www.ropesgray.com/en/insights/alerts/2026/03/federal-court-deals-trump-administration-another-setback-on-its-efforts-to-curtail-gender-affirming",
+        "maps_to_element": "The second, HHS-declaration-focused legal challenge and its March 2026 status"
+      }
+    ],
+    "status": "Judicially blocked and contested. The order has been unenforceable since the March 4, 2025 nationwide preliminary injunction, and a separate 19-state challenge to the administration's underlying scientific justification (the HHS 'Kennedy Declaration') was headed toward at least partial invalidation as of the March 19, 2026 hearing. No reporting reviewed for this entry indicates the funding restrictions have taken practical effect at any point since the injunction.",
+    "rebuttal_anticipated": "The administration frames the order as protecting minors from medical interventions it characterizes as unproven or harmful, citing the HHS report as its scientific basis, and argues the executive branch has broad authority to set conditions on discretionary federal grant funding; supporters would note the order itself was never found unconstitutional outright, only preliminarily enjoined pending further litigation.",
+    "comeback": "This entry does not resolve the underlying medical or policy dispute -- it documents that a presidential directive conditioning federal healthcare funding on providers withholding a specific category of care was found by a federal court, within five weeks, to warrant a nationwide injunction, and that the scientific report the administration has leaned on to defend the policy was, over a year later, headed toward partial invalidation by a different federal court. The `contested: true` flag reflects that the underlying medical-evidence dispute is genuinely contested in ways the litigation itself has not resolved, distinct from the more procedural question of whether the order's funding mechanism is currently enforceable (it is not).",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level accountability question about using conditional federal funding to restrict a specific category of medical care, rather than any specific legal violation established against Trump personally.",
+    "last_updated": "2026-08-08",
+    "date_added": "2026-08-08",
+    "confidence_note": "HIGH confidence on the order's content, the injunction, and the litigation timeline -- corroborated by Wikipedia's sourced summary, ACLU, KFF's litigation tracker, and Ropes & Gray's legal-industry analysis, with no facts in dispute among these sources. The underlying medical-evidence debate (whether the restricted treatments are appropriate for minors) is genuinely contested and outside this entry's scope -- this entry documents the funding mechanism, the legal challenges, and their outcomes, not a judgment on the medical question itself."
   },
   {
     "official": "Donald Trump, President",
@@ -6281,6 +6365,89 @@
       "incident_summary": "DOJ created and then abandoned a $1.776B fund -- originating from a settlement of Trump's own lawsuit against his executive branch -- that was widely understood as a vehicle to compensate January 6 defendants; Trump has refused to rule out compensating them by other means.",
       "confidence_note": "Well-corroborated across multiple independent outlets; the ultimate outcome of hundreds of individual rioter compensation claims remains an open, ongoing legal process."
     }
+  },
+  {
+    "official": "Donald Trump, President",
+    "offense_category": "Categorical Clemency for January 6 Capitol Attack Defendants, Including Violent-Offense and Seditious-Conspiracy Convictions, and Its Downstream Effects -- clemency is a constitutional presidential power, not itself unlawful; the accountability claim concerns the scale/non-individualized nature of the grant, its erosion of the public case record, and the pattern of political and paramilitary rehabilitation it enabled",
+    "contested": false,
+    "incident_summary": "On January 20-21, 2025, his first full day in office, Trump issued clemency covering roughly 1,500-1,600 people charged or convicted over the January 6, 2021 Capitol attack -- pardons for most, and sentence commutations for several leaders of extremist groups convicted of seditious conspiracy, including Oath Keepers founder Stewart Rhodes. Many recipients had been convicted of violent offenses (assaulting police officers) or were leaders of the Oath Keepers and Proud Boys. Within days, DOJ took offline its searchable public database of January 6 case records (charges, evidence, sentences), making it substantially harder for the public to verify what exactly had been pardoned, even though press releases and court records remained technically accessible elsewhere. A senior DOJ prosecutor who had helped bring the cases, Michael Romano, resigned in protest, warning the pardons would embolden future right-wing political violence. Over the following year, several downstream effects were documented: pardoned Proud Boys leader Enrique Tarrio personally thanked Trump at Mar-a-Lago in May 2025 ('you saved my life'), and other pardoned defendants began appearing at Republican events and floating political runs; Trump's pardon attorney Ed Martin met in May 2025 with allies pushing for pardons covering the small remaining group of convicted January 6 defendants, including Rhodes and multiple Proud Boys leaders; by late 2025, Rhodes -- his sentence commuted -- was attempting to relaunch the Oath Keepers as an explicitly pro-Trump paramilitary organization, claiming the president could 'call us up' against 'left-wing insurrections' (though former members and donors showed little interest); in January 2026, legal experts flagged that the pardon proclamation's broad 'related to' language could be read to cover Brian Cole Jr., who planted pipe bombs near the Capitol the night before the riot, despite DOJ's own effort to prosecute that case as unrelated to January 6; and Adam Johnson, pardoned after being photographed carrying House Speaker Nancy Pelosi's lectern during the riot, filed to run for a Manatee County, Florida commission seat in January 2026, using the Capitol photo in his campaign branding.",
+    "elements_required": [
+      "Trump issued clemency (pardons and commutations) covering roughly 1,500-1,600 January 6 defendants on his first day in office, without individualized case-by-case review, including people convicted of violent offenses and seditious conspiracy",
+      "DOJ removed its public searchable January 6 case-record database within days of the clemency action, reducing public verifiability of what was pardoned",
+      "A senior DOJ prosecutor resigned specifically over the pardons, on the record warning of an emboldening effect",
+      "Multiple pardoned/commuted individuals were documented re-engaging in political or paramilitary activity afterward -- Tarrio publicly thanking Trump, Rhodes attempting to relaunch the Oath Keepers as a pro-Trump force, Johnson running for local office on his Capitol-riot participation",
+      "Trump's own pardon attorney actively worked to extend clemency further to the small remaining group of convicted seditious-conspiracy defendants",
+      "Independent legal analysis identified the clemency's broad language as creating real scope ambiguity, potentially covering conduct (a Capitol-area pipe-bomb placement) DOJ itself had tried to prosecute as separate from January 6"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "The New York Times reported Trump pardoned over 1,500 people connected to the January 6 Capitol attack, including many convicted of violent crimes and including leaders of extremist groups",
+        "source_url": "https://www.nytimes.com/2025/01/23/us/politics/jan-6-trump-pardon-capitol-riots-video-evidence.html",
+        "maps_to_element": "Scale and non-individualized nature of the clemency grant"
+      },
+      {
+        "type": "public_record",
+        "description": "CNN reported that within days of the mass pardons, DOJ took offline its searchable database tracking January 6 convictions, plea agreements, and case statuses",
+        "source_url": "https://www.cnn.com/2025/01/25/politics/january-6-justice-department-database/index.html",
+        "maps_to_element": "Erosion of the public case record following the pardons"
+      },
+      {
+        "type": "news_report",
+        "description": "ABC News reported Trump's April 2025 pardon of Thomas Caldwell, a retired Navy intelligence officer and Oath Keepers member convicted of obstructing Congress and justice over January 6, illustrating the clemency's continued reach into extremist-group membership",
+        "source_url": "https://abcnews.go.com/US/wireStory/trump-pardons-navy-veteran-convicted-capitol-riot-120342949",
+        "maps_to_element": "Continued extension of clemency to extremist-group-affiliated defendants"
+      },
+      {
+        "type": "news_report",
+        "description": "The Associated Press reported pardoned January 6 participants moving into the political spotlight by April 2025 -- speaking at Republican events as 'J6 patriots,' with Proud Boys leader Enrique Tarrio reportedly considering a run for office",
+        "source_url": "https://apnews.com/article/capitol-riot-trump-politics-republicans-pardons-d70e8e27c1907ebb53a6b44d388eb703",
+        "maps_to_element": "Political rehabilitation pattern among pardoned recipients"
+      },
+      {
+        "type": "news_report",
+        "description": "The Associated Press reported the resignation of Michael Romano, a senior DOJ official who had prosecuted January 6 cases, who said on the record that the mass pardons would embolden future right-wing political violence by signaling loyalty to Trump would shield people from accountability",
+        "source_url": "https://apnews.com/article/january-6-prosecutor-capitol-riot-donald-trump-7873c132a6cc8f59ed9ca3c9004234ff",
+        "maps_to_element": "Internal DOJ dissent and warning about the pardons' effect"
+      },
+      {
+        "type": "news_report",
+        "description": "The New York Times reported Tarrio, previously serving a 22-year sentence for seditious conspiracy, personally thanked Trump at Mar-a-Lago in May 2025, telling him 'you saved my life,' with Trump replying 'I love you guys'",
+        "source_url": "https://www.nytimes.com/2025/05/04/us/politics/trump-tarrio-proud-boys-pardon.html",
+        "maps_to_element": "Presidential embrace of a pardoned seditious-conspiracy convict"
+      },
+      {
+        "type": "news_report",
+        "description": "CBS News reported Trump's pardon attorney Ed Martin met in May 2025 with legal allies seeking full pardons for the remaining highest-profile January 6 defendants still serving sentences, including Oath Keepers founder Stewart Rhodes and several Proud Boys leaders",
+        "source_url": "https://www.cbsnews.com/news/trump-pardon-attorney-discussed-pardoning-final-jan-6-stewart-rhodes/",
+        "maps_to_element": "Active administration effort to extend clemency to remaining seditious-conspiracy convicts"
+      },
+      {
+        "type": "news_report",
+        "description": "Wired reported that Rhodes, whose sentence had by then been commuted, was attempting to relaunch the Oath Keepers as an explicitly pro-Trump militia, claiming the president could 'call us up' to suppress 'left-wing insurrections' -- though former members and donors showed little interest",
+        "source_url": "https://www.wired.com/story/stewart-rhodes-relaunched-oath-keepers-militia/",
+        "maps_to_element": "Attempted reconstitution of an extremist paramilitary network by a clemency recipient"
+      },
+      {
+        "type": "news_report",
+        "description": "Politico Magazine reported legal experts warning the pardon proclamation's broad 'related to' language could be read to cover Brian Cole Jr., charged with planting pipe bombs near the Capitol the night before the riot, despite DOJ's own effort to prosecute that case as unrelated to January 6",
+        "source_url": "https://www.politico.com/news/magazine/2026/01/06/jan-6-pipe-bomber-trump-pardon-column-00712039",
+        "maps_to_element": "Scope ambiguity in the clemency's broad language, with a specific documented case at risk of unintended coverage"
+      },
+      {
+        "type": "news_report",
+        "description": "The Guardian reported Adam Johnson, pardoned after being photographed carrying Speaker Pelosi's lectern during the riot, filed to run for a Manatee County, Florida commission seat, announcing his candidacy on January 6, 2026 -- the riot's fifth anniversary -- and using the Capitol photo as campaign branding",
+        "source_url": "https://www.theguardian.com/us-news/2026/jan/10/january-6-defendant-adam-johnson-florida-political-office",
+        "maps_to_element": "Electoral normalization of a pardoned participant's role in the riot"
+      }
+    ],
+    "status": "Ongoing pattern, not a single resolved action. The initial January 2025 clemency grant is final and cannot itself be reversed, but its downstream effects continued developing through at least January 2026: DOJ's removal of the public case database has not been restored; the pardon attorney's office continued working through 2025 to extend clemency to the small remaining group of convicted seditious-conspiracy leaders; several recipients re-entered political or paramilitary life (Tarrio's public rapprochement with Trump, Rhodes's attempted Oath Keepers relaunch, Johnson's 2026 candidacy); and the proclamation's scope remains legally contested at the margins, with at least one case (the Cole pipe-bomb charge) flagged as potentially, unintentionally covered. A separate entry in this database tracks the subsequent criminal recidivism of one pardoned defendant, Andrew Paul Johnson, and another tracks a related $1.776 billion DOJ settlement fund benefiting January 6 defendants.",
+    "rebuttal_anticipated": "The presidential pardon power is a plenary constitutional authority under Article II, and a broad or categorical exercise of it is not itself illegal; supporters frame the clemency as correcting what they characterize as politically selective prosecution of January 6 defendants, not as excusing violence.",
+    "comeback": "This entry does not dispute the president's constitutional pardon authority -- the accountability question it documents is the scale and non-individualized nature of a single clemency act covering roughly 1,500 people including violent offenders and convicted seditious conspirators, DOJ's own subsequent removal of the public record documenting exactly what was pardoned, and a year of well-sourced downstream effects (an internal DOJ resignation in protest, the pardoned Proud Boys leader's public rapprochement with Trump, an attempted militia relaunch by a commuted Oath Keepers leader, a flagged risk of the clemency inadvertently covering a pipe-bomb case, and a pardoned rioter's use of his Capitol-riot participation as a campaign credential) -- a documented pattern of consequences distinct from the legality of the pardon power itself.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level accountability question about using categorical clemency to reward political loyalty and rehabilitate a movement's leadership, rather than any specific legal violation by Trump personally.",
+    "last_updated": "2026-08-08",
+    "date_added": "2026-08-08",
+    "confidence_note": "HIGH confidence on every individual fact -- independently corroborated across the New York Times, CNN, ABC News, the Associated Press, CBS News, Wired, Politico, and The Guardian, with no underlying fact disputed by any party. Several source outlets' own 'why it matters' framing uses strong advocacy language (e.g. characterizing the pardons as 'building a loyal private army' or Trump 'openly embracing sedition') -- cite the underlying documented facts in debate rather than quoting that framing verbatim."
   },
   {
     "official": "Donald Trump, President",
