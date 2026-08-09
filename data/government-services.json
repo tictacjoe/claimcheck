@@ -3681,6 +3681,51 @@
     }
   },
   {
+    "id": "fda-vrbpac-flu-vaccine-meeting-cancelled-2025",
+    "title": "RFK Jr. Cancels FDA's Public Flu-Vaccine Advisory Meeting, Strain Selection Made Behind Closed Doors Instead",
+    "institution": "Vaccines and Related Biological Products Advisory Committee (VRBPAC), Food and Drug Administration",
+    "domain": "research_suppression",
+    "status": "Implemented -- the March 13, 2025 public meeting was never rescheduled; the FDA's 2025-2026 strain recommendation was issued without it",
+    "date_of_action": "2025-02-26",
+    "what_changed": "HHS Secretary Robert F. Kennedy Jr. ordered the cancellation of VRBPAC's March 13, 2025 public meeting, at which the committee's outside experts were set to recommend which influenza strains should go into the 2025-2026 season's flu vaccines -- the annual, decades-old process manufacturers rely on to begin roughly six months of production lead time. Panel members were notified late on February 26 with no explanation given, and no rescheduled date was ever set; VRBPAC member Dr. Paul Offit told reporters he'd received no reason for the cancellation either. It was the second vaccine-related advisory disruption within the same two weeks, following a postponed CDC vaccine meeting the week before. Rather than reconvene the public committee, Acting FDA Commissioner Dr. Sara Brenner and a closed-door interagency group of FDA, CDC, and Defense Department scientists decided the strain composition internally, aligning with the WHO's own recommendation, and the FDA published its selections without the normal open, externally-reviewed VRBPAC process. The FDA maintained the decision would not delay 2025-2026 season vaccine availability.",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services",
+      "note": "Reporting attributes the cancellation order to Kennedy directly, who then had Acting FDA Commissioner Sara Brenner make the strain-composition call without VRBPAC's public input -- consistent with Kennedy's broader pattern (see the related ACIP-purge entry in this database, four months later) of removing independent expert panels from vaccine-policy decisions rather than working through them."
+    },
+    "estimated_impact": {
+      "summary": "Removed independent, public scientific review from a decades-old annual process that determines the composition of that season's flu vaccine for the entire country, replacing it with an unreviewable closed-door decision by political appointees and government scientists.",
+      "figures": [],
+      "caveat": "No reporting reviewed found evidence the 2025-2026 flu vaccine's actual availability or effectiveness was harmed by skipping the meeting -- the concern raised by outside experts was about the loss of transparent, independent review itself, and about setting precedent for future strain-selection decisions, not a documented supply-chain failure in this instance."
+    },
+    "confidence_note": "HIGH -- corroborated by CIDRAP, CNBC, BioSpace, and the Arizona Public Health Association, with a named committee member (Offit) and named officials (Kennedy, Brenner) on record. Explicitly distinguished from this database's separate ACIP mass-removal entry (June 2025) -- same underlying pattern of bypassing independent vaccine-advisory panels, but a different committee, different vaccine, and four months earlier.",
+    "section_summaries": {
+      "what_changed": "RFK Jr. cancelled the FDA's public flu-strain-selection meeting with no explanation and had an acting commissioner decide behind closed doors instead of through the normal open expert-review process.",
+      "estimated_impact": "No documented vaccine-supply harm from this instance, but it removed independent public review from a process the country relies on annually and set a precedent later repeated with ACIP.",
+      "confidence_note": "Strongly sourced across multiple health-policy outlets with named officials and a named committee member on record."
+    },
+    "last_verified": "2026-08-08",
+    "date_added": "2026-08-08",
+    "sources": [
+      {
+        "name": "CIDRAP -- FDA cancels advisory committee meeting on flu vaccine strain selection",
+        "url": "https://www.cidrap.umn.edu/influenza-vaccines/fda-cancels-advisory-committee-meeting-flu-vaccine-strain-selection"
+      },
+      {
+        "name": "CNBC -- FDA cancels vaccine advisory meeting for choosing flu strains for next season's shots",
+        "url": "https://www.cnbc.com/2025/02/26/fda-cancels-vaccine-advisory-meeting-for-choosing-flu-shots.html"
+      },
+      {
+        "name": "BioSpace -- Meeting of FDA's Vaccines Advisory Panel Canceled as Kennedy Settles Into HHS",
+        "url": "https://www.biospace.com/policy/meeting-of-fdas-vaccines-advisory-panel-canceled-as-kennedy-settle-into-hhs"
+      },
+      {
+        "name": "Arizona Public Health Association -- FDA Bypasses VRBPAC, Establishes Fall Influenza Vaccine Formula w/o Technical Review",
+        "url": "https://azpha.org/2025/03/17/fda-bypasses-vaccines-related-biological-products-advisory-committee-establishes-this-falls-influenza-vaccine-formula-w-o-vrbpac-technical-review/"
+      }
+    ]
+  },
+  {
     "id": "federal-reserve-cook-removal-blocked-trump2",
     "title": "Trump's Attempt to Fire Fed Governor Lisa Cook Blocked by Supreme Court, Fed Independence Preserved",
     "institution": "Federal Reserve Board of Governors",
@@ -5813,7 +5858,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing (2026 filing season completed under reduced staff; FY2027 budget request proposes a further ~4,800-employee cut, concentrated almost entirely in enforcement)",
     "date_of_action": "2025-02 (initial probationary firings) through 2026-04 (most recent GAO/TIGTA reporting)",
-    "what_changed": "Beginning February 2025, the IRS workforce was cut by approximately 27%, falling from roughly 102,000 employees in January 2025 to about 74,000 by December 2025 -- a reduction of nearly 28,000 people, primarily via probationary-employee terminations (~7,300), deferred-resignation buyouts (~4,700), and further attrition. The cuts were not evenly distributed: Taxpayer Services (which processes returns, answers phones, and handles correspondence) lost about 21-22% of its staff; the agency's IT function lost 27%; and revenue agents -- the specialists who conduct complex audits of high-income individuals, partnerships, and large corporations -- lost roughly 3,600 people, about 31% of the entire auditing workforce. Congress separately cut the IRS enforcement budget by 8% for FY2026 (the lowest inflation-adjusted level since 1988) and cut $1.1 billion (12%) from the IRS's base budget overall, rescinding most of the remaining Inflation Reduction Act funding that had been allocated to rebuild the agency; the base budget is now about 40% below its 2010 level after inflation. The IRS responded by lowering its own phone-service target from 85% to 70% of calls answered, and an independent analysis by the Center for Taxpayer Rights found call wait times on the main line increased more than 70% between February 2025 and February 2026. A March 2026 GAO audit found the IRS's staffing reductions 'were not targeted or strategic' and that the agency still lacks an updated strategic workforce plan. Notably, IRS Commissioner Frank Bisignano simultaneously serves as the Senate-confirmed Commissioner of the Social Security Administration -- see the related SSA entry in this tracker -- splitting his attention across both agencies during this period. The IRS's FY2027 budget request, released in 2026, seeks $9.8 billion in discretionary funding, down $1.4 billion from the $11.2 billion Congress enacted for FY2026, and proposes eliminating roughly 4,800 more positions (about 17% of remaining staff) on top of the 27% already lost in 2025. Nearly all of the proposed staffing reduction falls on enforcement -- examinations and collections -- which would see an 18% budget cut, while taxpayer-service funding would see a small 3% increase. The IRS's own budget documents describe the enforcement-side cuts as yielding roughly $778 million in savings once implemented. Re-verified 2026-07-26: no material change -- the FY2027 budget request remains a proposal, not enacted; no new congressional action identified since the prior update. Re-verified 2026-08-05: despite Bisignano's 'less people and better results' framing, internal documents reported by NOTUS show the IRS has been rushing to backfill critical staffing gaps, hiring roughly 2,000 employees as of January 2026 -- a partial rehire that still leaves the agency at a net ~28% workforce reduction from its January 2025 level, and that reporting characterizes as evidence of operational strain the agency's public statements had downplayed.",
+    "what_changed": "Beginning February 2025, the IRS workforce was cut by approximately 27%, falling from roughly 102,000 employees in January 2025 to about 74,000 by December 2025 -- a reduction of nearly 28,000 people, primarily via probationary-employee terminations (~7,300), deferred-resignation buyouts (~4,700), and further attrition. The cuts were not evenly distributed: Taxpayer Services (which processes returns, answers phones, and handles correspondence) lost about 21-22% of its staff; the agency's IT function lost 27%; and revenue agents -- the specialists who conduct complex audits of high-income individuals, partnerships, and large corporations -- lost roughly 3,600 people, about 31% of the entire auditing workforce. The cuts extended to physical infrastructure as well as headcount: in late February 2025, the General Services Administration sent the IRS a letter proposing to terminate or not renew leases on more than 110 (some reporting says up to 120) Taxpayer Assistance Centers -- the walk-in offices where taxpayers get in-person help with identity theft, audits, and other complex issues -- right at the height of tax-filing season. After pushback from taxpayers, tax professionals, and lawmakers, the IRS agreed to keep TAC offices open through the 2025 filing season, but the closures resumed afterward: by September 2025 the IRS confirmed it would close nine specific centers across six states (Pennsylvania, Iowa, New York, Kentucky, California, and West Virginia), effective November 30, 2025. Congress separately cut the IRS enforcement budget by 8% for FY2026 (the lowest inflation-adjusted level since 1988) and cut $1.1 billion (12%) from the IRS's base budget overall, rescinding most of the remaining Inflation Reduction Act funding that had been allocated to rebuild the agency; the base budget is now about 40% below its 2010 level after inflation. The IRS responded by lowering its own phone-service target from 85% to 70% of calls answered, and an independent analysis by the Center for Taxpayer Rights found call wait times on the main line increased more than 70% between February 2025 and February 2026. A March 2026 GAO audit found the IRS's staffing reductions 'were not targeted or strategic' and that the agency still lacks an updated strategic workforce plan. Notably, IRS Commissioner Frank Bisignano simultaneously serves as the Senate-confirmed Commissioner of the Social Security Administration -- see the related SSA entry in this tracker -- splitting his attention across both agencies during this period. The IRS's FY2027 budget request, released in 2026, seeks $9.8 billion in discretionary funding, down $1.4 billion from the $11.2 billion Congress enacted for FY2026, and proposes eliminating roughly 4,800 more positions (about 17% of remaining staff) on top of the 27% already lost in 2025. Nearly all of the proposed staffing reduction falls on enforcement -- examinations and collections -- which would see an 18% budget cut, while taxpayer-service funding would see a small 3% increase. The IRS's own budget documents describe the enforcement-side cuts as yielding roughly $778 million in savings once implemented. Re-verified 2026-07-26: no material change -- the FY2027 budget request remains a proposal, not enacted; no new congressional action identified since the prior update. Re-verified 2026-08-05: despite Bisignano's 'less people and better results' framing, internal documents reported by NOTUS show the IRS has been rushing to backfill critical staffing gaps, hiring roughly 2,000 employees as of January 2026 -- a partial rehire that still leaves the agency at a net ~28% workforce reduction from its January 2025 level, and that reporting characterizes as evidence of operational strain the agency's public statements had downplayed.",
     "primary_proponent": {
       "name": "Frank Bisignano",
       "role": "IRS Chief Executive Officer / Commissioner (concurrently SSA Commissioner)",
@@ -5875,13 +5920,13 @@
       ],
       "caveat": "This is a case with real, substantive dispute about outcomes, not just framing: Bisignano's testimony that filing-season results held up despite the cuts is corroborated by the IRS's own throughput data for 2026 (134M+ returns received, 90%+ refunds within 21 days) -- the disagreement is more about longer-term enforcement/audit capacity and phone-service quality than about whether the basic return-processing pipeline broke down, which by the government's own numbers it did not. The $600B revenue projection is a modeled estimate from an academic institution (Yale Budget Lab), not a government-produced figure, and should be cited as such."
     },
-    "confidence_note": "Exceptionally strong sourcing: the core staffing figures come from the National Taxpayer Advocate (a statutorily independent watchdog office within the IRS itself that reports directly to Congress) and TIGTA (Treasury's independent Inspector General), both nonpartisan government oversight bodies, not advocacy groups. GAO's audit finding that the cuts were 'not targeted or strategic' is a formal government audit conclusion. The Yale Budget Lab revenue projection is a reputable academic model but should be clearly labeled as a projection, not a realized fact. Re-verified 2026-07-20: the FY2027 request is a proposal, not enacted -- Congress rejected comparably aggressive agency-elimination proposals elsewhere (see this tracker's NOAA entry) in the FY2026 cycle, so enactment isn't assured. But the request itself is a further, concrete escalation of the pattern this entry already documents, concentrated specifically on enforcement rather than taxpayer-facing services. Re-verified 2026-07-26: no material change to report. Re-verified 2026-08-05: NOTUS's rehiring reporting is drawn from internal IRS documents obtained by the outlet, corroborated by Accounting Today's independent coverage of the same backfill effort.",
+    "confidence_note": "Exceptionally strong sourcing: the core staffing figures come from the National Taxpayer Advocate (a statutorily independent watchdog office within the IRS itself that reports directly to Congress) and TIGTA (Treasury's independent Inspector General), both nonpartisan government oversight bodies, not advocacy groups. GAO's audit finding that the cuts were 'not targeted or strategic' is a formal government audit conclusion. The Yale Budget Lab revenue projection is a reputable academic model but should be clearly labeled as a projection, not a realized fact. Re-verified 2026-07-20: the FY2027 request is a proposal, not enacted -- Congress rejected comparably aggressive agency-elimination proposals elsewhere (see this tracker's NOAA entry) in the FY2026 cycle, so enactment isn't assured. But the request itself is a further, concrete escalation of the pattern this entry already documents, concentrated specifically on enforcement rather than taxpayer-facing services. Re-verified 2026-07-26: no material change to report. Re-verified 2026-08-05: NOTUS's rehiring reporting is drawn from internal IRS documents obtained by the outlet, corroborated by Accounting Today's independent coverage of the same backfill effort. Re-verified 2026-08-08: added the TAC office-closure thread -- the initial 110+/120-office GSA proposal is corroborated by the Washington Post and GV Wire, the tax-season reprieve by CPA Practice Advisor, and the fall 2025 nine-center closure by Accounting Today and Forbes -- a physical-footprint reduction distinct from, and additional to, the headcount losses already documented above.",
     "section_summaries": {
-      "what_changed": "The IRS lost about 27% of its staff and a third of its auditors in under a year, and Congress cut its budget too; a further cut is now proposed, mostly aimed at enforcement.",
+      "what_changed": "The IRS lost about 27% of its staff and a third of its auditors in under a year, and Congress cut its budget too; a further cut is now proposed, mostly aimed at enforcement. Over 100 walk-in Taxpayer Assistance Centers were also slated for closure, delayed through tax season, then partly carried out that fall.",
       "estimated_impact": "A Yale model projects nearly $600 billion in lost revenue over ten years, and the IRS's own taxpayer advocate warns the 2026 filing season carries markedly different risks.",
       "confidence_note": "Exceptionally strong: core figures trace to the IRS's own independent taxpayer advocate and Treasury's inspector general, not advocacy groups; the revenue-loss number is a model, not fact."
     },
-    "last_verified": "2026-08-05",
+    "last_verified": "2026-08-08",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -5919,9 +5964,21 @@
       {
         "name": "Accounting Today — IRS needed to backfill thousands of jobs after cutbacks",
         "url": "https://www.accountingtoday.com/news/irs-needed-to-backfill-thousands-of-jobs-after-cutbacks"
+      },
+      {
+        "name": "Washington Post — IRS to close more than 110 offices with taxpayer assistance centers",
+        "url": "https://www.washingtonpost.com/business/2025/02/26/irs-taxpayer-assistance-centers/"
+      },
+      {
+        "name": "CPA Practice Advisor — Over 100 IRS Taxpayer Assistance Centers' Futures Are in Doubt After Tax Season",
+        "url": "https://www.cpapracticeadvisor.com/2025/02/28/over-100-irs-taxpayer-assistance-centers-futures-are-in-doubt-after-tax-season/156707/"
+      },
+      {
+        "name": "Accounting Today — IRS plans to close 9 Taxpayer Assistance Centers",
+        "url": "https://www.accountingtoday.com/news/irs-plans-to-close-9-taxpayer-assistance-centers"
       }
     ],
-    "last_updated": "2026-08-05"
+    "last_updated": "2026-08-08"
   },
   {
     "id": "liheap-staff-elimination-funding-delay-trump2",
@@ -8282,7 +8339,7 @@
     "domain": "staff_office_cuts",
     "status": "Resolved as an acute two-week episode (through at least early March 2025) -- the email/compliance conflict and its associated AI-review plan were short-lived and not confirmed to have resulted in any documented firings tied specifically to non-response, but the episode illustrates a broader governance pattern (mass workforce-management-by-ultimatum, conflicting agency guidance, and opaque AI-assisted personnel decisions) documented across other entries in this database",
     "date_of_action": "2025-02-22 through at least 2025-03-02 (a second week of the same email request, reported by Forbes)",
-    "what_changed": "The Office of Personnel Management sent an email to federal employees government-wide on February 22, 2025 demanding roughly five bullet points summarizing each employee's accomplishments for the prior week, cc'ing their manager. Elon Musk warned on X that failing to respond would be treated as a resignation, and separate reporting (NBC News, the Daily Beast) indicated DOGE was building a system to feed the responses into an AI/large-language-model that would help determine whether each employee's role was 'mission-critical' -- a characterization Musk publicly denied ('No LLM needed here'). The directive immediately produced conflicting guidance across agencies: Politico reported several agency heads, including FBI Director Kash Patel, told their employees to disregard the email entirely, while other agencies ordered compliance -- at Treasury, counselor John W. York (a former Heritage Foundation analyst) emailed employees a hard Monday-midnight deadline to respond, and Bloomberg Law/Gizmodo reported the IRS specifically was directed to comply by that same deadline. CNN reported the resulting confusion left workers scrambling amid mixed messages, with employees at agencies including DOJ, the State Department, and the FAA describing themselves as distracted from their primary duties navigating the conflicting instructions; Wired reported the chaos spread across agencies from NOAA to NIH. Forbes reported the ultimatum recurred into a second week (through at least March 2, 2025), with Defense Secretary Pete Hegseth directing Pentagon employees to respond to that round.",
+    "what_changed": "The Office of Personnel Management sent an email to federal employees government-wide on February 22, 2025 demanding roughly five bullet points summarizing each employee's accomplishments for the prior week, cc'ing their manager. Elon Musk warned on X that failing to respond would be treated as a resignation, and separate reporting (NBC News, the Daily Beast) indicated DOGE was building a system to feed the responses into an AI/large-language-model that would help determine whether each employee's role was 'mission-critical' -- a characterization Musk publicly denied ('No LLM needed here'). The directive immediately produced conflicting guidance across agencies: Politico reported several agency heads, including FBI Director Kash Patel, told their employees to disregard the email entirely, while other agencies ordered compliance -- at Treasury, counselor John W. York (a former Heritage Foundation analyst) emailed employees a hard Monday-midnight deadline to respond, and Bloomberg Law/Gizmodo reported the IRS specifically was directed to comply by that same deadline. CNN reported the resulting confusion left workers scrambling amid mixed messages, with employees at agencies including DOJ, the State Department, and the FAA describing themselves as distracted from their primary duties navigating the conflicting instructions; Wired reported the chaos spread across agencies from NOAA to NIH. Forbes reported the ultimatum recurred into a second week (through at least March 2, 2025), with Defense Secretary Pete Hegseth directing Pentagon employees to respond to that round. HHS took a third distinct posture from Treasury/IRS's compliance order and FBI's outright dismissal: on February 24, HHS told employees responding was voluntary with no employment consequence for declining, but separately warned that any response 'may be read by malign foreign actors' and instructed staff who did respond to 'assume that what you write will be read by malign foreign actors and tailor your response accordingly,' keeping any submission at a high level of generality to protect sensitive data, PII, and applicable privileges.",
     "primary_proponent": {
       "name": "Elon Musk, former DOGE leader / Special Government Employee",
       "role": "Issued the compliance ultimatum via OPM and publicly on social media",
@@ -8293,7 +8350,7 @@
       "figures": [],
       "caveat": "No reporting reviewed for this entry quantified how many federal employees ultimately complied, how many treated non-compliance as a resignation trigger, or whether any employee was actually separated from federal service specifically because of non-response to this email. Whether an LLM/AI system was actually used to evaluate responses is itself contested -- Musk denied it publicly while NBC News and the Daily Beast reported DOGE was building such a system."
     },
-    "confidence_note": "HIGH confidence on the email, Musk's ultimatum, and the cross-agency confusion -- corroborated across Wired, Politico, CNN, NPR, Bloomberg Law, Gizmodo, and 404 Media. MODERATE confidence on the specific claim that an AI/LLM system was used to evaluate responses, since Musk publicly denied it even as NBC News and the Daily Beast reported otherwise -- presented here as a contested claim, not a settled fact.",
+    "confidence_note": "HIGH confidence on the email, Musk's ultimatum, and the cross-agency confusion -- corroborated across Wired, Politico, CNN, NPR, Bloomberg Law, Gizmodo, 404 Media, and (for the HHS security warning specifically) Newsweek and NBC Washington. MODERATE confidence on the specific claim that an AI/LLM system was used to evaluate responses, since Musk publicly denied it even as NBC News and the Daily Beast reported otherwise -- presented here as a contested claim, not a settled fact.",
     "last_verified": "2026-08-08",
     "date_added": "2026-08-08",
     "sources": [
@@ -8320,10 +8377,14 @@
       {
         "name": "Forbes -- Hegseth Directs Defense Employees To Respond As Workers Report Second Week Of Musk-Led Email Request",
         "url": "https://www.forbes.com/sites/alisondurkee/2025/03/02/elon-musks-federal-worker-emails-hegseth-directs-defense-employees-to-respond-as-workers-report-second-week-of-musk-led-email-request/"
+      },
+      {
+        "name": "Newsweek -- HHS Warns Against Elon Musk Email: May 'Be Read by Malign Foreign Actors'",
+        "url": "https://www.newsweek.com/hhs-warns-against-elon-musk-email-may-read-malign-foreign-actors-2035632"
       }
     ],
     "section_summaries": {
-      "what_changed": "OPM's Musk-driven 'five bullet points' ultimatum split agencies between compliance (Treasury/IRS) and defiance (FBI), included a disputed AI-review plan, and recurred a second week under Hegseth at DOD.",
+      "what_changed": "OPM's Musk-driven 'five bullet points' ultimatum split agencies between compliance (Treasury/IRS), defiance (FBI), and HHS's third path -- making it voluntary while warning staff their answers might be read by hostile foreign intelligence -- and recurred a second week under Hegseth at DOD.",
       "estimated_impact": "Government-wide confusion and distraction across sensitive agencies, plus unresolved questions about AI-assisted personnel decisions.",
       "confidence_note": "HIGH on the email/ultimatum/confusion; MODERATE on the contested AI/LLM-review claim, which Musk denied."
     }
