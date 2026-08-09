@@ -1296,7 +1296,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing (Kristi Noem was replaced as DHS Secretary by Markwayne Mullin, confirmed March 24, 2026; Mullin says the president has met with a likely CISA director nominee; DHS plans roughly 600 new CISA hires once a director is confirmed, with an initial 329-role 'mission-critical' hiring plan already underway -- about 180 tentative offers were out by the end of June 2026)",
     "date_of_action": "2025-01 through 2026-06 (rolling cuts across multiple rounds: buyouts, layoffs, forced reassignments)",
-    "what_changed": "Since January 2025, CISA -- the nation's primary civilian cyber-defense agency, created in 2018 specifically to coordinate federal response to critical infrastructure attacks -- lost roughly 1,000 employees, about one-third of its workforce, through a combination of buyout offers, early retirements, formal layoffs (reduction-in-force notices), and Management Directed Reassignments transferring CISA staff to ICE, CBP, FEMA, and the Federal Protective Service (refusing a reassignment could be grounds for termination). DHS Secretary Kristi Noem personally halted federal funding for the Multi-State Information Sharing and Analysis Center (MS-ISAC) in March 2025, eliminating roughly $8.3 million of its remaining 2025 budget -- MS-ISAC provided threat-sharing services to state and local governments. The cuts disproportionately hit CISA's election security and disinformation-monitoring functions, which had drawn Republican criticism as politically biased 'censorship' under the prior administration. The agency has operated without a permanent, Senate-confirmed director since January 2025. The February 2026 DHS funding lapse compounded this attrition: The New York Times reported CISA furloughed more than half of its remaining workforce during the shutdown, leaving fewer than 1,000 employees on duty at the nation's primary civilian cyber-defense agency during the funding gap; ABC News separately reported that with DHS unfunded for 45 days during that same shutdown, CISA furloughed roughly 60% of its remaining workforce, disrupting vulnerability assessments and further weakening federal cyber defenses at a time when officials were warning of rising Iran-linked cyber threats to critical infrastructure, including power, water, and federal civilian networks. Also in February 2026, acting CISA Director Madhu Gottumukkala moved to reassign two senior career officials -- CIO Bob Costello (CISA's CIO for over four years) and acting Chief Human Capital Officer Kevin Diana -- giving them seven days to accept new roles elsewhere in DHS or resign, following an earlier unsuccessful attempt to oust Costello over a contracting-decision dispute that other political appointees had previously intervened to stop. Kristi Noem was replaced as DHS Secretary by Markwayne Mullin, confirmed by the Senate 54-45 on March 24, 2026. In April 2026, Sean Plankey, Trump's first nominee to lead CISA, withdrew his own nomination, writing 'After thirteen months since my initial nomination, it has become clear the Senate will not confirm me' -- the nomination had been held up by a mix of Democratic senators (Ron Wyden, over a withheld telecom-security report) and Republican senators (Rick Scott, over an unrelated Coast Guard shipbuilding dispute), plus broader holds affecting all DHS nominees. CISA is now led by acting director Nick Andersen. Mullin has since said the president has met with a likely CISA director nominee (not yet named or formally nominated as of this update) and that DHS believes CISA needs roughly 600 new hires, though a full rebuild can't proceed in earnest until a director is confirmed. CISA has begun an initial hiring plan for 329 'mission-critical' roles, with about 180 tentative job offers extended by the end of June 2026 -- the first concrete numbers behind CISA's previously-announced, more general 2026 hiring push, which agency officials had cited the workforce reductions as having hampered preparedness for potential conflict with China. By June 2026, of CISA's authorized 3,292 positions, only 2,324 were actually filled -- a nearly 1,000-position gap. Five of the agency's ten regional directors were serving only in acting capacity, disrupting the primary points of contact state and local governments rely on for federal cybersecurity assistance. Update 2026-07-27: state election officials from both parties told USA Today that, ahead of the 2026 midterms, they no longer expect federal agencies to reliably share election-threat intelligence with them -- a direct downstream consequence of the CISA staffing cuts and reduced regional-director capacity already described above. States say they're increasingly relying on private technology companies and nonprofits to fill the gap in federal threat-sharing coordination.",
+    "what_changed": "Since January 2025, CISA -- the nation's primary civilian cyber-defense agency, created in 2018 specifically to coordinate federal response to critical infrastructure attacks -- lost roughly 1,000 employees, about one-third of its workforce, through a combination of buyout offers, early retirements, formal layoffs (reduction-in-force notices), and Management Directed Reassignments transferring CISA staff to ICE, CBP, FEMA, and the Federal Protective Service (refusing a reassignment could be grounds for termination). DHS Secretary Kristi Noem personally halted federal funding for the Multi-State Information Sharing and Analysis Center (MS-ISAC) in March 2025, eliminating roughly $8.3 million of its remaining 2025 budget -- MS-ISAC provided threat-sharing services to state and local governments. The cuts disproportionately hit CISA's election security and disinformation-monitoring functions, which had drawn Republican criticism as politically biased 'censorship' under the prior administration. The agency has operated without a permanent, Senate-confirmed director since January 2025. The early 2025 cuts had specific, named costs: by March 4, 2025, NOTUS reported over 100 CISA cybersecurity experts had been laid off, including agents specifically assigned to track Salt Typhoon and Volt Typhoon, the Chinese state-sponsored hacking campaigns that had already infiltrated U.S. telecom networks and critical infrastructure; by March 8, 2025, CBS News reported the toll had grown to 130+, including top recruits working on CyberSentry, a program built specifically to detect cyberattacks against the U.S. power grid, pipelines, and water systems. On March 5, 2025, former NSA cybersecurity director Rob Joyce testified to Congress that the mass federal firings -- more than 100,000 workers government-wide by that point, including 130+ from CISA -- would set back U.S. cyber defenses against China. Joyce continued sounding this warning publicly: at the Black Hat security conference in August 2025, CISA spokesperson Marci McCarthy defended the staffing purges as a return to the agency's 'core mission,' while Joyce countered that the U.S. had 'backslid' and lost critical national-defense capability, with nearly a third of CISA's workforce gone by that point. Congress's own October 2025 government shutdown compounded the damage months before the separate February 2026 DHS funding lapse described below: the Washington Post reported only about 35% of CISA staff remained active during the October shutdown even as ransomware and Chinese cyberattacks intensified, and Politico reported the 2015 Cybersecurity Information Sharing Act -- the law providing legal liability protection for companies that voluntarily share cyber-threat data with the government -- lapsed during the same shutdown, prompting some companies to halt that cooperation entirely. Later that month, House Democrats formally accused DHS, under Secretary Noem, of unlawfully reassigning CISA cybersecurity staff to ICE, CBP, and the Federal Protective Service during the shutdown -- the same Management Directed Reassignment mechanism described above -- alleging the diversions violated the Antideficiency Act; a separate New York Times report the same week noted the cuts had also reached the State Department's cyber-diplomacy function. During the shutdown, on November 10, 2025, WIRED reported the Congressional Budget Office itself was hacked by a suspected foreign actor, an incident experts tied directly to the shutdown-driven halt in routine federal patching, monitoring, and device management. In December 2025, Bloomberg reported the administration eliminated CISA's retention-incentive pay program -- a tool used to keep cyber defenders from leaving for better-paying private-sector jobs -- despite the agency already having lost over a third of its staff; the change exposed many remaining employees to pay cuts of up to 25%, a further attrition risk on top of the losses already documented here. The February 2026 DHS funding lapse compounded this attrition: The New York Times reported CISA furloughed more than half of its remaining workforce during the shutdown, leaving fewer than 1,000 employees on duty at the nation's primary civilian cyber-defense agency during the funding gap; ABC News separately reported that with DHS unfunded for 45 days during that same shutdown, CISA furloughed roughly 60% of its remaining workforce, disrupting vulnerability assessments and further weakening federal cyber defenses at a time when officials were warning of rising Iran-linked cyber threats to critical infrastructure, including power, water, and federal civilian networks. Also in February 2026, acting CISA Director Madhu Gottumukkala moved to reassign two senior career officials -- CIO Bob Costello (CISA's CIO for over four years) and acting Chief Human Capital Officer Kevin Diana -- giving them seven days to accept new roles elsewhere in DHS or resign, following an earlier unsuccessful attempt to oust Costello over a contracting-decision dispute that other political appointees had previously intervened to stop. Kristi Noem was replaced as DHS Secretary by Markwayne Mullin, confirmed by the Senate 54-45 on March 24, 2026. In April 2026, Sean Plankey, Trump's first nominee to lead CISA, withdrew his own nomination, writing 'After thirteen months since my initial nomination, it has become clear the Senate will not confirm me' -- the nomination had been held up by a mix of Democratic senators (Ron Wyden, over a withheld telecom-security report) and Republican senators (Rick Scott, over an unrelated Coast Guard shipbuilding dispute), plus broader holds affecting all DHS nominees. CISA is now led by acting director Nick Andersen. Mullin has since said the president has met with a likely CISA director nominee (not yet named or formally nominated as of this update) and that DHS believes CISA needs roughly 600 new hires, though a full rebuild can't proceed in earnest until a director is confirmed. CISA has begun an initial hiring plan for 329 'mission-critical' roles, with about 180 tentative job offers extended by the end of June 2026 -- the first concrete numbers behind CISA's previously-announced, more general 2026 hiring push, which agency officials had cited the workforce reductions as having hampered preparedness for potential conflict with China. By June 2026, of CISA's authorized 3,292 positions, only 2,324 were actually filled -- a nearly 1,000-position gap. Five of the agency's ten regional directors were serving only in acting capacity, disrupting the primary points of contact state and local governments rely on for federal cybersecurity assistance. Update 2026-07-27: state election officials from both parties told USA Today that, ahead of the 2026 midterms, they no longer expect federal agencies to reliably share election-threat intelligence with them -- a direct downstream consequence of the CISA staffing cuts and reduced regional-director capacity already described above. States say they're increasingly relying on private technology companies and nonprofits to fill the gap in federal threat-sharing coordination.",
     "primary_proponent": {
       "name": "Kristi Noem (at the time of the MS-ISAC defunding action) / Markwayne Mullin (current DHS Secretary, confirmed March 24, 2026, replacing Noem)",
       "role": "Secretary of Homeland Security (CISA's parent department)",
@@ -1334,19 +1334,74 @@
           "metric": "Share of remaining CISA workforce furloughed during the 45-day DHS funding lapse",
           "value": "~60%",
           "source": "ABC News, April 2026"
+        },
+        {
+          "metric": "CISA cyber experts laid off by early March 2025, including Salt Typhoon/Volt Typhoon trackers and CyberSentry recruits",
+          "value": "100+ (March 4), growing to 130+ (March 8)",
+          "source": "NOTUS and CBS News, March 2025"
+        },
+        {
+          "metric": "Share of CISA staff active during the October 2025 government shutdown",
+          "value": "~35%",
+          "source": "Washington Post, October 2025"
+        },
+        {
+          "metric": "Retention-incentive pay cuts to remaining CISA staff after the December 2025 program elimination",
+          "value": "up to 25%",
+          "source": "Bloomberg, December 2025"
         }
       ],
       "caveat": "CISA's own acting leadership disputes that the cuts have reduced operational capability, pointing to 2025 output metrics (incidents triaged, victims assisted) as evidence the agency is 'doing more with less.' This is a genuinely contested empirical question -- output volume from a smaller staff doesn't necessarily mean nothing has degraded (e.g., in depth of engagement, regional relationship continuity, or unaddressed threats never triaged at all), but the tracker should present both the workforce reduction figures and the agency's own counter-claim of maintained capability rather than asserting degraded security as an already-proven fact."
     },
-    "confidence_note": "Strong, multi-source documentation (Axios, Cybersecurity Dive, Nextgov/FCW, and direct citation of a sitting senator's formal oversight letters) with specific, verifiable numbers. The MS-ISAC defunding is the most cleanly attributable individual action (a specific dollar figure, a specific named official, a specific date). The broader 'has this made the country less safe' question is genuinely disputed between CISA's own leadership and outside oversight (Warner) -- present both sides rather than picking one as settled fact. Re-verified 2026-07-20: the leadership vacancy this entry already documented has become more entrenched, not resolved -- CISA has now gone through an entire Trump-term nomination cycle (Plankey nominated, stalled, withdrawn) without a confirmed director. The planned 2026 hiring push is a real, sourced development but is prospective as of this update, not yet reflected in workforce totals. Re-verified 2026-07-26: the DHS Secretary change is corroborated by DHS's own press release and CNBC, Time, and CNN reporting on Mullin's March 2026 confirmation -- a factual correction to this entry's leadership attribution, not merely a new development. The hiring-plan specifics (600 total need, 329-role initial plan, ~180 June offers) are corroborated by Cybersecurity Dive, The Record, Federal News Network, and HSToday. Reordered 2026-08-06 (chronology cleanup, no new facts): the February 2026 shutdown/furlough content and the Costello/Diana reassignment had been placed after July 2026 update content, and the March 24, 2026 Noem-to-Mullin transition had been placed after the April 2026 Plankey withdrawal; no facts were added, removed, or altered, only reordered (and a duplicated Plankey-withdrawal mention consolidated into one) to match actual event dates.",
+    "confidence_note": "Strong, multi-source documentation (Axios, Cybersecurity Dive, Nextgov/FCW, and direct citation of a sitting senator's formal oversight letters) with specific, verifiable numbers. The MS-ISAC defunding is the most cleanly attributable individual action (a specific dollar figure, a specific named official, a specific date). The broader 'has this made the country less safe' question is genuinely disputed between CISA's own leadership and outside oversight (Warner) -- present both sides rather than picking one as settled fact. Re-verified 2026-07-20: the leadership vacancy this entry already documented has become more entrenched, not resolved -- CISA has now gone through an entire Trump-term nomination cycle (Plankey nominated, stalled, withdrawn) without a confirmed director. The planned 2026 hiring push is a real, sourced development but is prospective as of this update, not yet reflected in workforce totals. Re-verified 2026-07-26: the DHS Secretary change is corroborated by DHS's own press release and CNBC, Time, and CNN reporting on Mullin's March 2026 confirmation -- a factual correction to this entry's leadership attribution, not merely a new development. The hiring-plan specifics (600 total need, 329-role initial plan, ~180 June offers) are corroborated by Cybersecurity Dive, The Record, Federal News Network, and HSToday. Reordered 2026-08-06 (chronology cleanup, no new facts): the February 2026 shutdown/furlough content and the Costello/Diana reassignment had been placed after July 2026 update content, and the March 24, 2026 Noem-to-Mullin transition had been placed after the April 2026 Plankey withdrawal; no facts were added, removed, or altered, only reordered (and a duplicated Plankey-withdrawal mention consolidated into one) to match actual event dates. Update 2026-08-09: added a chronological run of earlier-2025 texture -- the specific March 2025 Salt Typhoon/Volt Typhoon/CyberSentry layoff details (NOTUS, CBS News), Rob Joyce's March and August 2025 congressional/Black Hat warnings (Reuters, Defense One), the October 2025 shutdown's 35%-staff-active and CISA-2015-Act-lapse impacts (Washington Post, Politico), House Democrats' Antideficiency Act allegation over the ICE/CBP/FPS reassignments (Defense One), the CBO hack during the shutdown (WIRED), and the December 2025 retention-incentive elimination (Bloomberg). All are corroborated single- or dual-outlet reporting from reputable national security/cybersecurity trade press, consistent with and extending this entry's existing sourcing standard; none contradict previously documented facts.",
     "section_summaries": {
-      "what_changed": "CISA lost roughly a third of its staff to buyouts, layoffs, and forced transfers, leaving about 1,000 positions unfilled and half its regional posts vacant or acting; states now say they can't count on federal election-threat sharing ahead of the 2026 midterms as a result. A Feb. 2026 DHS funding lapse further furloughed over half its remaining staff, leaving fewer than 1,000 on duty. Two senior career officials were also forced into reassignment or resignation in Feb. 2026 following a contracting dispute.",
+      "what_changed": "CISA lost roughly a third of its staff to buyouts, layoffs, and forced transfers, leaving about 1,000 positions unfilled and half its regional posts vacant or acting; states now say they can't count on federal election-threat sharing ahead of the 2026 midterms as a result. Early 2025 cuts hit staff tracking Chinese Salt Typhoon/Volt Typhoon hackers and grid-security recruits by name; an October 2025 shutdown left just 35% of staff active and let a key cyber-threat-sharing law lapse, coinciding with a hack of the Congressional Budget Office; a December 2025 move eliminated retention pay, exposing remaining staff to 25% pay cuts. A Feb. 2026 DHS funding lapse further furloughed over half its remaining staff, leaving fewer than 1,000 on duty. Two senior career officials were also forced into reassignment or resignation in Feb. 2026 following a contracting dispute.",
       "estimated_impact": "Sen. Warner warned the planned rehiring is insufficient against current threats, though acting CISA leadership disputes that its capability has actually declined.",
       "confidence_note": "Well-documented with specific figures; whether the cuts have actually weakened capability is a live dispute between agency leadership and outside congressional oversight."
     },
-    "last_verified": "2026-08-06",
+    "last_verified": "2026-08-09",
     "date_added": "2026-07-07",
     "sources": [
+      {
+        "name": "NOTUS -- CISA layoffs hit Salt Typhoon tracking staff",
+        "url": "https://www.notus.org/technology/cisa-layoffs-salt-typhoon"
+      },
+      {
+        "name": "CBS News -- Cybersecurity agency's top recruits, DOGE cuts",
+        "url": "https://www.cbsnews.com/news/cybersecurity-agencys-top-recruits-doge-cuts/"
+      },
+      {
+        "name": "Reuters -- Mass federal layoffs will hurt cybersecurity, former top U.S. security official",
+        "url": "https://www.reuters.com/technology/cybersecurity/mass-federal-layoffs-will-hurt-cybersecurity-former-top-us-security-official-2025-03-05/"
+      },
+      {
+        "name": "Defense One -- Former and current officials clash over CISA's role in U.S. cyber defenses at Black Hat",
+        "url": "https://www.defenseone.com/policy/2025/08/former-and-current-officials-clash-over-cisas-role-us-cyber-defenses-black-hat/407262/?oref=d1-featured-river-secondary"
+      },
+      {
+        "name": "Washington Post -- CISA shutdown impact on cybersecurity",
+        "url": "https://www.washingtonpost.com/technology/2025/10/02/cisa-shutdown-cybersecurity/"
+      },
+      {
+        "name": "Politico -- Cyber law (CISA 2015) expires amid shutdown",
+        "url": "https://www.politico.com/news/2025/10/03/cyber-law-cisa-2015-shutdown-00592501"
+      },
+      {
+        "name": "Defense One -- House Democrats want answers on CISA reassignments to border security/immigration roles",
+        "url": "https://www.defenseone.com/policy/2025/10/house-democrats-want-answers-cisa-reassignments-border-security-immigration-roles/408931/?oref=d1-featured-river-secondary"
+      },
+      {
+        "name": "New York Times -- Trump has gutted key U.S. cybersecurity programs amid mounting threats",
+        "url": "https://www.nytimes.com/2025/10/22/us/politics/trump-cyber-threats.html"
+      },
+      {
+        "name": "WIRED -- The government shutdown is a ticking cybersecurity time bomb (CBO hack)",
+        "url": "https://www.wired.com/story/the-government-shutdown-is-a-ticking-cybersecurity-time-bomb/"
+      },
+      {
+        "name": "Bloomberg -- US cyber agency cuts incentive pay program for diminished staff",
+        "url": "https://www.bloomberg.com/news/articles/2025-12-03/us-cyber-agency-cuts-incentive-pay-program-for-diminished-staff?srnd=phx-us-politics"
+      },
       {
         "name": "Axios — Exclusive: One-third of top U.S. cybersecurity agency has left since Trump took office",
         "url": "https://www.axios.com/2025/06/03/cisa-staff-layoffs-resignations-trump-cuts"
@@ -1388,7 +1443,7 @@
         "url": "https://subscriber.politicopro.com/article/2026/02/two-senior-cisa-officials-reassigned-after-earlier-attempted-ouster-00802270"
       }
     ],
-    "last_updated": "2026-08-06"
+    "last_updated": "2026-08-09"
   },
   {
     "id": "climate-word-research-purge-2025",
@@ -1757,8 +1812,8 @@
     "institution": "Department of Energy, Office of Environmental Management",
     "domain": "staff_office_cuts",
     "status": "Ongoing -- 45% vacancy rate at end of FY2025 per GAO, with site-level rates as high as 100%; DOE plans to hire 174 workers in FY2026",
-    "date_of_action": "2025 (staff departures) through 2026-05 (GAO report)",
-    "what_changed": "A Government Accountability Office report found the Department of Energy's Office of Environmental Management -- responsible for cleaning up nuclear contamination from World War II- and Cold War-era weapons programs at sites across the country -- ended FY2025 with a 45% vacancy rate, roughly half its needed workforce. Of 409 staff who left in 2025, 76% (312) departed through the White House's deferred resignation program; nearly half of those departures (180) were in positions GAO classified as mission-critical, spanning engineering, contracting, physical sciences, and IT management. Vacancy rates varied sharply by site: 62% at Los Alamos National Laboratory, and 100% -- every position empty -- at the Carlsbad Field Office. GAO further warned that 35% of DOE-EM's remaining 856 employees will be eligible to retire by the end of 2030, meaning attrition is likely to continue independent of any further resignation programs. DOE has said it plans to hire 174 workers in FY2026, which GAO's analysis indicates would still leave significant workforce gaps.",
+    "date_of_action": "2025-03-04 (first Carlsbad Field Office lease-termination attempt) through 2026-05 (GAO report)",
+    "what_changed": "The Carlsbad Field Office's eventual collapse to 100% vacancy had an earlier warning sign than the GAO report alone shows: on March 4, 2025, DOGE included the Carlsbad Field Office's 90,000-square-foot Skeen-Whitlock Building lease on a spreadsheet of more than 7,000 federal leases marked for termination, citing roughly $810,000 in annual savings. The office, staffed by about 200 workers, directly manages the Waste Isolation Pilot Plant (WIPP) -- the only U.S. site licensed to permanently dispose of transuranic nuclear waste, including plutonium-contaminated material, stored in a deep salt formation -- and includes an emergency response center for handling nuclear-material accidents. Following bipartisan New Mexico congressional pushback (Rep. Gabe Vasquez among others) over the national-security and public-safety risk of disrupting the only facility of its kind, GSA reinstated the lease within days, confirming by March 6, 2025 the office was no longer slated for termination. That reversal, however, did not stop the underlying workforce attrition documented below: a Government Accountability Office report found the Department of Energy's Office of Environmental Management -- responsible for cleaning up nuclear contamination from World War II- and Cold War-era weapons programs at sites across the country -- ended FY2025 with a 45% vacancy rate, roughly half its needed workforce. Of 409 staff who left in 2025, 76% (312) departed through the White House's deferred resignation program; nearly half of those departures (180) were in positions GAO classified as mission-critical, spanning engineering, contracting, physical sciences, and IT management. Vacancy rates varied sharply by site: 62% at Los Alamos National Laboratory, and 100% -- every position empty -- at the Carlsbad Field Office, the same office whose building lease had been targeted, then spared, a year earlier. GAO further warned that 35% of DOE-EM's remaining 856 employees will be eligible to retire by the end of 2030, meaning attrition is likely to continue independent of any further resignation programs. DOE has said it plans to hire 174 workers in FY2026, which GAO's analysis indicates would still leave significant workforce gaps.",
     "primary_proponent": {
       "name": "Trump administration (White House deferred resignation program)",
       "role": "Government-wide policy driving the departures",
@@ -1788,6 +1843,11 @@
           "source": "GAO report GAO-26-108674"
         },
         {
+          "metric": "Claimed annual savings DOGE cited for the (reversed) March 2025 Carlsbad lease termination",
+          "value": "~$810,000",
+          "source": "DOGE's own published lease-termination list, cited by Source New Mexico"
+        },
+        {
           "metric": "Los Alamos National Laboratory vacancy rate",
           "value": "62%",
           "source": "GAO report GAO-26-108674"
@@ -1795,8 +1855,8 @@
       ],
       "caveat": "GAO's report documents current staffing levels and departure patterns rigorously; it does not itself quantify a specific cleanup-delay or safety-risk impact in dollar or timeline terms, so any claim about concrete cleanup delays should be sourced to GAO's qualitative risk-warning language rather than presented as a quantified projection."
     },
-    "confidence_note": "HIGH confidence -- based directly on a GAO report (GAO-26-108674), the strongest source type this tracker prioritizes, corroborated by NOTUS, E&E News/POLITICO, Government Executive, and Nuclear Newswire reporting on the same report.",
-    "last_verified": "2026-08-02",
+    "confidence_note": "HIGH confidence -- based directly on a GAO report (GAO-26-108674), the strongest source type this tracker prioritizes, corroborated by NOTUS, E&E News/POLITICO, Government Executive, and Nuclear Newswire reporting on the same report. The March 2025 lease-termination-attempt origin detail is separately corroborated by Source New Mexico, NOTUS, KRQE, and U.S. News reporting at the time, including GSA's own confirmation of the reversal.",
+    "last_verified": "2026-08-09",
     "date_added": "2026-08-02",
     "sources": [
       {
@@ -1810,13 +1870,26 @@
       {
         "name": "Government Executive -- 'Nuclear waste oversight at risk as staffing vacancies mount, watchdog warns'",
         "url": "https://www.govexec.com/workforce/2026/05/nuclear-waste-oversight-risk-staffing-vacancies/413650/"
+      },
+      {
+        "name": "NOTUS -- 'DOGE Is Trying to Close a Field Office That Directly Manages a Nuclear Waste Site'",
+        "url": "https://www.notus.org/health-science/doge-field-office-lease-termination-nuclear-waste-site"
+      },
+      {
+        "name": "Source New Mexico -- 'Carlsbad WIPP office to remain in place, feds say'",
+        "url": "https://sourcenm.com/2025/03/06/carlsbad-wipp-office-to-remain-in-place-feds-say/"
+      },
+      {
+        "name": "Rep. Gabe Vasquez -- 'Rep. Gabe Vasquez Successfully Prevents Termination of Nuclear Waste Office's Lease'",
+        "url": "https://vasquez.house.gov/media/press-releases/rep-gabe-vasquez-successfully-prevents-termination-nuclear-waste-offices-lease"
       }
     ],
     "section_summaries": {
-      "what_changed": "DOE's nuclear waste cleanup office ended FY2025 with a 45% vacancy rate after losing 312 staff to the deferred resignation program, per a GAO report -- some sites, like Carlsbad, are now 100% vacant.",
-      "estimated_impact": "The office overseeing cleanup of the nation's most hazardous radioactive sites is operating at roughly half its needed staffing, per the government's own watchdog.",
-      "confidence_note": "Based directly on a GAO report, the strongest source type this tracker prioritizes."
-    }
+      "what_changed": "DOGE first targeted the Carlsbad Field Office (which runs the nation's only permanent nuclear-waste disposal site) for lease termination in March 2025, reversed within days after bipartisan pushback -- but by FY2025's end, the same office was 100% vacant anyway, part of a 45% vacancy rate across DOE's whole nuclear-cleanup office after 312 staff left via the deferred resignation program, per a GAO report.",
+      "estimated_impact": "The office overseeing cleanup of the nation's most hazardous radioactive sites, and the only field office managing the nation's sole permanent nuclear-waste repository, is operating at roughly half its needed staffing (and, at Carlsbad specifically, none), per the government's own watchdog.",
+      "confidence_note": "Based directly on a GAO report, the strongest source type this tracker prioritizes; the earlier lease-termination episode is separately well-corroborated."
+    },
+    "last_updated": "2026-08-09"
   },
   {
     "id": "doe-oced-dismantlement-trump2",
@@ -3945,6 +4018,80 @@
     }
   },
   {
+    "id": "fema-bric-program-elimination-reinstatement-2025",
+    "title": "FEMA Cancelled $3.6B in Disaster-Resilience Grants, Then Was Ordered by a Federal Court to Restore Them a Year Later",
+    "institution": "Federal Emergency Management Agency (FEMA), Department of Homeland Security",
+    "domain": "funding_redirection",
+    "status": "Reversed by court order and subsequent agency action -- FEMA reinstated the program in March 2026 with $1B in new funding, after a federal judge's December 2025 order",
+    "date_of_action": "2025-04 (program termination) through 2026-03 (reinstatement)",
+    "what_changed": "In April 2025, the Trump administration ended FEMA's Building Resilient Infrastructure and Communities (BRIC) program, which funded predisaster projects -- floodwalls, elevated infrastructure, fire-resistant building retrofits, and similar hardening work -- for hundreds of communities nationwide. The termination halted $3.6 billion in funding that had already been awarded to specific, in-progress projects but not yet paid out, and separately refused to award another $882 million in grants that had been planned for the following fiscal year. Twenty states, led by New York Attorney General Letitia James among others, sued the administration, arguing FEMA lacked legal authority to cancel a program funded and directed by Congress, that the cancellation undermined already-underway projects, and that it left disaster-prone communities more vulnerable to floods, fires, and storms. In December 2025, a federal judge in Massachusetts sided with the 22 states and D.C. that had joined the suit by that point, ordering FEMA to restore the canceled funding. In March 2026, FEMA announced it would reinstate the program -- rebranded as the 'Building Resilient Communities and Infrastructure' program -- making $1 billion available for states, local governments, territories, and tribes to pursue hardening projects against wildfires, floods, earthquakes, and hurricanes, though at less than a third of the originally canceled $3.6 billion figure.",
+    "primary_proponent": {
+      "name": "FEMA leadership (Trump administration)",
+      "role": "Directed the April 2025 program termination as part of broader disaster-mitigation funding cuts",
+      "note": "This action predates and is distinct from FEMA's separately documented staffing collapse ([[fema-capacity-collapse-texas-floods-trump2]]) and partisan-approval-gap pattern ([[fema-disaster-aid-partisan-approval-gap-trump2]]) already in this tracker -- BRIC's cancellation is a specific funding-program termination, not a staffing or approval-timing issue, though all three reflect the same broader disaster-response degradation under this administration."
+    },
+    "estimated_impact": {
+      "summary": "The cancellation directly threatened hundreds of already-planned, partially-underway community resilience projects nationwide for nearly a year, until a federal court intervened; the eventual reinstatement restored the program in principle but at less than a third of the originally terminated funding level.",
+      "figures": [
+        {
+          "metric": "Already-awarded funding halted by the April 2025 termination",
+          "value": "$3.6 billion",
+          "source": "AP News, April 2025"
+        },
+        {
+          "metric": "Additional FY grant funding refused",
+          "value": "$882 million",
+          "source": "AP News"
+        },
+        {
+          "metric": "States that joined the lawsuit",
+          "value": "20 initially, growing to 22 states plus D.C. by the December 2025 ruling",
+          "source": "Yahoo News/AP; NY AG press release"
+        },
+        {
+          "metric": "Funding made available upon March 2026 reinstatement",
+          "value": "$1 billion",
+          "source": "The Hill, March 2026"
+        }
+      ],
+      "caveat": "FEMA's stated rationale for the original cancellation (cost, program-design criticism) is a genuine policy dispute this entry does not resolve; what is independently documented is that a federal court found the cancellation itself legally unauthorized, and that the program was restored only at roughly 28% of its original funding level."
+    },
+    "confidence_note": "HIGH confidence. The cancellation, the 20/22-state lawsuit, the December 2025 court order, and the March 2026 reinstatement are all corroborated across CBS News, WBUR, the National Low Income Housing Coalition, The Hill, and the New York Attorney General's own press release announcing the litigation outcome.",
+    "last_verified": "2026-08-09",
+    "date_added": "2026-08-09",
+    "sources": [
+      {
+        "name": "AP News -- FEMA's elimination of the Building Resilient Infrastructure and Communities program revokes $3.6 billion",
+        "url": "https://apnews.com/article/fema-bric-grants-climate-resilience-cbbead8d418e1ff4e53d95f482de3522"
+      },
+      {
+        "name": "CBS News -- FEMA resumes disaster mitigation program following judge's order on lawsuit brought by Democratic-led states",
+        "url": "https://www.cbsnews.com/news/fema-resumes-bric-mitigation-program-judge-order-lawsuit/"
+      },
+      {
+        "name": "WBUR -- Mass. federal judge orders FEMA to restore billions in canceled disaster mitigation funding",
+        "url": "https://www.wbur.org/news/2025/12/12/judge-orders-fema-grant-restored-bric-massachusetts"
+      },
+      {
+        "name": "National Low Income Housing Coalition -- FEMA Reinstates Massive Disaster Mitigation Program After Legal and Advocacy Pressure",
+        "url": "https://nlihc.org/resource/fema-reinstates-massive-disaster-mitigation-program-after-legal-and-advocacy-pressure"
+      },
+      {
+        "name": "The Hill -- FEMA will resume major grant program after yearlong hiatus, following a court order",
+        "url": "https://thehill.com/policy/energy-environment/fema-bric-grant-program-court-order/"
+      },
+      {
+        "name": "New York Attorney General -- Attorney General James Wins Lawsuit to Protect Billions of Dollars for Natural Disaster Preparedness Programs",
+        "url": "https://ag.ny.gov/press-release/2025/attorney-general-james-wins-lawsuit-protect-billions-dollars-natural-disaster"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "FEMA cancelled its main predisaster resilience-grant program in April 2025, halting $3.6B in already-awarded funding; 22 states sued, a federal judge ordered the funding restored in December 2025, and FEMA reinstated the program in March 2026 with $1B -- less than a third of the original amount.",
+      "estimated_impact": "Hundreds of in-progress community hardening projects were threatened for nearly a year before a court intervened; the restored program remains far smaller than before.",
+      "confidence_note": "Well-corroborated across multiple outlets and the New York Attorney General's own litigation announcement."
+    }
+  },
+  {
     "id": "fema-capacity-collapse-texas-floods-trump2",
     "title": "FEMA Capacity Collapse — Staff Exodus and Spending Bottleneck Delayed Texas Flood Response",
     "institution": "Federal Emergency Management Agency (FEMA), Department of Homeland Security",
@@ -4622,6 +4769,67 @@
       }
     ],
     "last_updated": "2026-07-26"
+  },
+  {
+    "id": "gsa-18f-shutdown-direct-file-2025",
+    "title": "DOGE Shut Down GSA's 18F Tech Unit; IRS Then Killed the Free Direct File Tax Program It Built",
+    "institution": "General Services Administration (GSA) / Internal Revenue Service",
+    "domain": "staff_office_cuts",
+    "status": "Implemented -- 18F shuttered March 2025; IRS Direct File permanently discontinued, not available for Filing Season 2026",
+    "date_of_action": "2025-03 (18F shutdown) through 2025 (Direct File discontinued for the 2026 filing season)",
+    "what_changed": "In February 2025, Elon Musk announced on social media that he had 'deleted' the team behind IRS Direct File, the free government tax-filing tool. In March 2025, DOGE shut down 18F entirely -- the roughly 90-person General Services Administration digital-services unit that had built or supported Direct File and other federal websites and digital tools for two decades. IRS staff assigned to Direct File were told in mid-March 2025 to stop developing it for the 2026 filing season, even though officials initially indicated the tool would stay operational through the 2025 season. Direct File accepted 296,531 tax returns in the 2025 filing season, with 94% of surveyed users rating their experience 'excellent' or 'above average,' and had been offered in 25 states. The IRS ultimately emailed those 25 states that 'IRS Direct File is now closed for Filing Season 2025' and confirmed the program would not be available for Filing Season 2026, with no relaunch date set.",
+    "primary_proponent": {
+      "name": "Elon Musk / Department of Government Efficiency (DOGE)",
+      "role": "Musk publicly announced 18F's elimination and directed DOGE's cuts across GSA; IRS leadership implemented the subsequent Direct File shutdown",
+      "note": "Musk's own public statement -- that he had 'deleted' the team -- is the clearest on-the-record attribution for the initial action; the IRS's later, formal decision to end Direct File for 2026 followed directly from 18F's elimination and the staff stand-down order."
+    },
+    "estimated_impact": {
+      "summary": "Direct File was the government's only free, IRS-run tax-filing option -- eliminating it pushes the roughly 300,000 users who filed through it in 2025 back toward commercial tax-prep software, which the IRS's own Free File partnership with private companies has historically served only a small fraction of eligible taxpayers.",
+      "figures": [
+        {
+          "metric": "18F staff affected by the shutdown",
+          "value": "~90 (entire unit)",
+          "source": "Nextgov/FCW, February-March 2025"
+        },
+        {
+          "metric": "Direct File returns filed, 2025 season",
+          "value": "296,531, with 94% rating their experience 'excellent' or 'above average'",
+          "source": "Accounting Today, citing IRS/Treasury data"
+        },
+        {
+          "metric": "States that had offered Direct File",
+          "value": "25",
+          "source": "Accounting Today"
+        }
+      ],
+      "caveat": "The administration's stated rationale (cost, efficiency, deference to the private tax-prep industry via Free File) is a genuine policy dispute over how tax filing should be delivered, not addressed here as settled; this entry documents the staffing action and the program's discontinuation, both independently confirmed."
+    },
+    "confidence_note": "HIGH confidence. The 18F shutdown is corroborated by Nextgov/FCW and CNN reporting, including Musk's own public statement; the Direct File discontinuation is corroborated by Accounting Today, Yahoo/AP, and a formal letter from Sen. John Hickenlooper's office citing the IRS's own notice to states.",
+    "last_verified": "2026-08-09",
+    "date_added": "2026-08-09",
+    "sources": [
+      {
+        "name": "CNN Business -- Did DOGE really 'delete' the tech division that helped create the IRS Direct File free tax filing service?",
+        "url": "https://www.cnn.com/2025/02/05/business/musk-irs-direct-file/index.html"
+      },
+      {
+        "name": "Nextgov/FCW -- Musk takes aim at GSA tech shop",
+        "url": "https://www.nextgov.com/digital-government/2025/02/musk-takes-aim-gsa-tech-shop/402720/"
+      },
+      {
+        "name": "Accounting Today -- IRS ends Direct File program",
+        "url": "https://www.accountingtoday.com/news/irs-ends-direct-file-program"
+      },
+      {
+        "name": "Sen. John Hickenlooper's office -- Direct File letter",
+        "url": "https://www.hickenlooper.senate.gov/wp-content/uploads/2025/04/Direct-File-letter.pdf"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "DOGE shut down GSA's entire 18F digital-services unit in March 2025, and the IRS subsequently discontinued the free Direct File tax-filing tool 18F had helped build, ending it for the 2026 filing season with no relaunch planned.",
+      "estimated_impact": "Roughly 300,000 taxpayers who used the free, government-run filing option in 2025 -- 94% of whom rated it highly -- now have no equivalent free IRS-run alternative.",
+      "confidence_note": "Well-corroborated across multiple outlets, including Musk's own public statement and the IRS's formal notice to participating states."
+    }
   },
   {
     "id": "gun-violence-prevention-dismantlement-2025-2026",
@@ -7533,6 +7741,70 @@
     ]
   },
   {
+    "id": "noaa-office-space-commerce-staffing-cuts-2025",
+    "title": "DOGE Cuts Gutted NOAA's Space Traffic Coordination Office, Then FY2026 Budget Sought to Eliminate Its Core System Entirely",
+    "institution": "NOAA Office of Space Commerce (Commerce Department)",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing (some senior staff reinstated; FY2026 budget proposal would eliminate the office's core system entirely, not yet enacted as of the sourcing reviewed)",
+    "date_of_action": "2025-02-27 (initial firings) through 2026 budget cycle (proposed elimination of TraCSS funding)",
+    "what_changed": "On February 27, 2025, DOGE-driven cuts hit NOAA's Office of Space Commerce (OSC), a roughly 25-person office, on a few hours' notice -- about a third of the office's staff, including the chief of the Traffic Coordination System for Space (TraCSS), Dmitry Poisik. TraCSS is the civilian satellite traffic coordination system OSC has been building since 2018 (under Space Policy Directive 3, signed in Trump's first term) to warn commercial and government satellite operators of potential collisions as low Earth orbit becomes increasingly crowded. The cuts also hit OSC's Commercial Remote Sensing Regulatory Affairs Division, which licenses commercial imaging satellite companies; affected licensees received an email stating 'no senior personnel remain in the office' and warning of 'significant delays' processing licensing actions. Since the initial layoffs, three staffers in leadership roles were brought back, but congressional Democrats (Reps. Valerie Foushee and Zoe Lofgren among others) continued to warn about the office's reduced capacity. In 2026, the administration's budget request went further, proposing to cut OSC's budget by 85% and eliminate 18 positions, while eliminating federal funding for TraCSS entirely -- a group of space-industry organizations wrote to House and Senate leaders warning the cuts would put both commercial and government satellite operators at risk of collision.",
+    "primary_proponent": {
+      "name": "Department of Government Efficiency (DOGE)",
+      "role": "Directed the February 2025 firings; the 2026 budget proposal to eliminate TraCSS funding originated from the administration's Commerce Department budget request",
+      "note": "DOGE's cross-agency probationary/short-notice terminations reached OSC directly; the later FY2026 budget proposal to zero out TraCSS funding is a separate, subsequent administration action extending the same disruption to the office's core mission rather than just its staffing."
+    },
+    "estimated_impact": {
+      "summary": "Space-industry organizations and congressional Democrats warn the cuts leave commercial and government satellite operators without adequate collision-warning infrastructure at exactly the moment low Earth orbit is becoming most crowded -- and that eliminating TraCSS funding entirely would end the program TraCSS was built to replace (an aging, overloaded Defense Department system never designed for today's commercial satellite volume).",
+      "figures": [
+        {
+          "metric": "OSC staff cut in the February 2025 layoffs",
+          "value": "~1/3 of a 25-person office",
+          "source": "SpaceNews, Breaking Defense, U.S. News, February-March 2025"
+        },
+        {
+          "metric": "Proposed FY2026 OSC budget cut",
+          "value": "85%, plus elimination of 18 positions",
+          "source": "SpacePolicyOnline.com, space-industry coalition letter to Congress, 2026"
+        }
+      ],
+      "caveat": "The FY2026 budget proposal to eliminate TraCSS funding had not been enacted as of the sourcing reviewed -- it is a proposed cut, not yet a completed action, and Congress could reject or modify it in appropriations. The February 2025 staffing cuts and their immediate licensing-delay impact are completed, sourced actions."
+    },
+    "confidence_note": "HIGH confidence on the February 2025 staffing cuts -- corroborated across SpaceNews, Breaking Defense, CBS News, and U.S. News, with congressional committee letters demanding a reversal. MODERATE-HIGH on the FY2026 TraCSS defunding proposal, since it is prospective (a budget request, not an enacted cut) as of this entry's research -- worth rechecking once an FY2026 appropriations outcome is known.",
+    "last_verified": "2026-08-09",
+    "date_added": "2026-08-09",
+    "sources": [
+      {
+        "name": "SpaceNews -- Office of Space Commerce hit by layoffs",
+        "url": "https://spacenews.com/office-of-space-commerce-hit-by-layoffs/"
+      },
+      {
+        "name": "Breaking Defense -- Firings sap NOAA office responsible for licensing remote sensing satellite firms",
+        "url": "https://breakingdefense.com/2025/02/firings-sap-noaa-office-responsible-for-licensing-remote-sensing-satellite-firms/"
+      },
+      {
+        "name": "U.S. News -- Trump Layoffs Hit Key 'Air Traffic Control for Space' Unit",
+        "url": "https://www.usnews.com/news/top-news/articles/2025-02-28/trump-layoffs-hit-key-air-traffic-control-for-space-unit"
+      },
+      {
+        "name": "CBS News -- Cuts to little-known NOAA office could hamper space companies, put satellites at risk, Democrats warn",
+        "url": "https://www.cbsnews.com/news/noaa-office-of-space-commerce-doge-cuts/"
+      },
+      {
+        "name": "House Science Committee Democrats -- Committee Leaders Demand Reversal of NOAA Space Commerce Office Firings",
+        "url": "https://foushee.house.gov/media/press-releases/committee-leaders-demand-reversal-of-noaa-space-commerce-office-firings"
+      },
+      {
+        "name": "Via Satellite -- Top Space Industry Organizations Petition Congress Over Planned Cuts to Space Traffic Management System",
+        "url": "https://www.satellitetoday.com/government-military/2025/07/08/top-space-industry-organizations-petition-congress-over-planned-cuts-to-space-traffic-management-system/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "DOGE cut about a third of NOAA's small Office of Space Commerce in February 2025, including the head of its satellite-collision-warning system, and a 2026 budget proposal would go further and eliminate that system's funding entirely.",
+      "estimated_impact": "Space-industry groups and congressional Democrats warn the cuts leave commercial and government satellites without adequate collision-warning infrastructure just as low Earth orbit grows more crowded.",
+      "confidence_note": "The 2025 staffing cuts are well-corroborated; the 2026 TraCSS defunding is a proposed, not yet enacted, budget cut."
+    }
+  },
+  {
     "id": "noaa-wide-staffing-collapse-spring-2025",
     "title": "NOAA-Wide Staffing Collapses by Roughly a Quarter in Six Weeks, With Disaster Training Cancelled and Privatization Floated",
     "institution": "National Oceanic and Atmospheric Administration (NOAA), agency-wide (distinct from this database's separate, NWS-specific weather-balloon and staffing-loss entries)",
@@ -8930,6 +9202,61 @@
     }
   },
   {
+    "id": "pentagon-climate-program-elimination-2025",
+    "title": "Pentagon Purged Climate-Related Programs and Research, Over Warnings It Would Hurt Military Readiness",
+    "institution": "Department of Defense",
+    "domain": "research_suppression",
+    "status": "Implemented and ongoing -- Hegseth has publicly reaffirmed the policy through at least October 2025",
+    "date_of_action": "2025-03 (initial cuts and studies canceled) through 2025-10 (Hegseth's continued public defense of the policy)",
+    "what_changed": "Beginning around March 2025, the Pentagon, working with DOGE, began eliminating climate-related programs and research it labeled 'wasteful' and outside the military's 'core mission' of 'deterring, fighting and winning wars,' per Pentagon press secretary John Ullyot. The cuts included canceling multiple in-progress studies, among them research examining whether a hotter planet could fuel greater instability in Africa, and the Pentagon spent weeks combing through outside contracts specifically searching for the word 'climate' with the intent of zeroing out any related work. Defense Secretary Pete Hegseth has been the policy's most vocal proponent, later stating flatly that the Department of Defense 'does not do climate change crap.' Military officials, national-security analysts, and reporting reviewed by CNN and NPR warned the cuts sever climate-preparedness work directly tied to military readiness -- climate-linked extreme weather has sidelined more than 10,000 troops since 2018, flooded military bases, and damaged runways and other infrastructure -- treating climate resilience as a threat-multiplier planning function distinct from climate-policy advocacy. As of October 2025 reporting, the Pentagon had continued retreating from climate-related work even as heat and storm impacts on troops and bases continued.",
+    "primary_proponent": {
+      "name": "Defense Secretary Pete Hegseth",
+      "role": "Secretary of Defense",
+      "note": "Hegseth has been the most publicly quoted proponent of ending DOD climate work, including his direct 'climate change crap' characterization; the elimination effort was carried out jointly with DOGE per Pentagon press secretary John Ullyot's own public statement describing the two working together on the cuts."
+    },
+    "estimated_impact": {
+      "summary": "Military leaders and independent analysts argue climate-preparedness research and planning is a readiness function, not a policy-advocacy function -- warning that eliminating it leaves troops, bases, and operations more exposed to extreme-weather disruption the Pentagon's own history shows is already a recurring operational cost.",
+      "figures": [
+        {
+          "metric": "Troops sidelined by climate-linked extreme weather since 2018, cited as the readiness stakes of the cuts",
+          "value": "10,000+",
+          "source": "NPR, March 2025, citing Pentagon-adjacent readiness reporting"
+        }
+      ],
+      "caveat": "The Pentagon's own position is that this work was genuinely outside the military's core mission and constituted waste, not that readiness was harmed -- a real, stated policy disagreement rather than a hidden rationale, and should be presented alongside the readiness-risk warnings rather than treated as settled in either direction. No sourcing reviewed quantifies a specific, already-realized readiness failure directly caused by the cuts themselves, as distinct from the general pattern of climate-linked disruption cited above as context."
+    },
+    "confidence_note": "HIGH confidence on the cuts themselves and Hegseth's own public statements -- corroborated across CNN, NPR, Scientific American, and Louisiana Illuminator/E&E News reporting spanning March through October 2025. The readiness-risk claim is a genuinely contested policy question (see caveat), presented here with the Pentagon's own stated rationale included rather than omitted.",
+    "last_verified": "2026-08-09",
+    "date_added": "2026-08-09",
+    "sources": [
+      {
+        "name": "CNN -- Officials and experts warn that Pentagon plans to cut climate programs will hurt national security",
+        "url": "https://www.cnn.com/2025/03/09/politics/pentagon-climate-cuts-national-security"
+      },
+      {
+        "name": "NPR -- Cutting climate initiatives at the DOD could come at a cost to military planning",
+        "url": "https://www.npr.org/2025/03/05/nx-s1-5316348/cutting-climate-initiatives-at-the-dod-could-come-at-a-cost-to-military-planning"
+      },
+      {
+        "name": "E&E News -- Pentagon starts purging 'climate change crap'",
+        "url": "https://www.eenews.net/articles/pentagon-starts-purging-climate-change-crap/"
+      },
+      {
+        "name": "Fox News -- Secretary Hegseth says the DOD does not do 'climate change crap'",
+        "url": "https://www.foxnews.com/politics/secretary-hegseth-says-dod-does-not-do-climate-change-crap.amp"
+      },
+      {
+        "name": "Louisiana Illuminator -- Pentagon retreats from climate fight even as heat and storms slam troops",
+        "url": "https://lailluminator.com/2025/10/14/military-climate/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "The Pentagon, with DOGE, began eliminating climate-related research and programs starting March 2025, canceling studies and purging contracts containing the word 'climate,' with Secretary Hegseth publicly saying DOD 'does not do climate change crap.'",
+      "estimated_impact": "Military and outside analysts warn this severs readiness-relevant planning work, given climate-linked weather has already sidelined 10,000+ troops since 2018 -- though the Pentagon disputes that framing and maintains the work was genuinely outside its mission.",
+      "confidence_note": "Well-corroborated across multiple outlets from March through October 2025; the readiness-impact question remains a genuine, unresolved policy dispute."
+    }
+  },
+  {
     "id": "pepfar-cuts-hiv-treatment-sites-closed-2025-2026",
     "title": "PEPFAR Funding Disruptions Close 1,714 HIV Treatment Sites Worldwide, Cut Treatment for 77,000+ Children",
     "institution": "PEPFAR (President's Emergency Plan for AIDS Relief) / USAID / State Department",
@@ -9680,8 +10007,8 @@
     "institution": "Social Security Administration (SSA)",
     "domain": "staff_office_cuts",
     "status": "Ongoing (staffing losses not reversed; some but not all withheld metrics later restored)",
-    "date_of_action": "2025-02-24 (earliest documented office closures under Leland Dudek) through 2026-04 (ongoing, per Center on Budget and Policy Priorities' most recent tracking)",
-    "what_changed": "Since January 2025, the Trump administration drove out more than 8,000 SSA employees -- the agency's largest one-year staffing reduction on record, leaving SSA with fewer employees than at any point since 1967, even as it now serves roughly 52 million more beneficiaries than it did then (nearly 75 million total). More than 40 states and D.C. saw staffing cuts greater than 10% between January 2025 and April 2026. This pattern was already visible within DOGE's first weeks at SSA: ProPublica reported that by February 24, 2025, DOGE operatives working inside the agency under appointee Leland Dudek had already closed at least 10 local field offices and eliminated 41 positions, drawing early alarm from beneficiaries and staff. The staffing cuts produced concrete technical and administrative failures in the following months: the Washington Post reported the SSA website repeatedly crashed starting around April 8, 2025, disrupting access for millions, with the outages tied directly to Musk-led cuts that slashed IT staff and rushed out undertested software; the next day, CBS News reported SSA mistakenly told some Supplemental Security Income recipients -- including disabled individuals and low-income seniors -- that their benefits had been terminated, with their benefit histories temporarily disappearing from their accounts before the error was corrected roughly a day later. By May 6, 2025, CBS News reported a further, more consequential error pattern: thousands of Americans, disproportionately immigrants and other vulnerable individuals, were being wrongly declared dead or purged from SSA's systems entirely, cutting off Social Security benefits, disability payments, and in some cases banking access tied to a valid Social Security number. On June 16, 2025, Wired reported Senators Elizabeth Warren and Ron Wyden formally warned that DOGE's rushed, AI-driven overhaul of SSA's IT systems was jeopardizing the agency's core function, citing the website outages and access failures already documented above as evidence of elevated risk of further benefit disruptions, data loss, or security compromise going forward. In April 2025, SSA briefly eliminated most phone-based benefit applications entirely (reversed after public backlash), while permanently requiring in-person visits or multi-factor online authentication for direct-deposit changes -- a change CBPP notes the agency's own fraud data does not support, since direct-deposit fraud is rare and rarely phone-initiated. As wait times climbed (86 minutes average by April 2025, a 25% increase over the prior year), SSA responded largely by reassigning field-office staff to phone duty rather than hiring -- pulling employees away from processing claims and creating new backlogs elsewhere. In June 2025, amid worsening press coverage, SSA stopped publicly releasing several of its own regular service-performance metrics, including call wait times and appointment-scheduling delays; some measures were later restored, but key ones (hold-time data, appointment-wait data, backlog counts) remain unreported as of CBPP's most recent tracking. By early 2026, disability-appeal backlogs had grown by 73,000+ cases in just over a year, and fewer than 850 of SSA's roughly 50,000 remaining employees had less than two years of federal service -- the agency hired fewer than 100 new employees in all of 2025, the lowest annual hiring total on record. In June 2026, Commissioner Bisignano told the House Ways and Means Committee and stated in an SSA press release (June 29, 2026) that the agency achieved its 'best all-around performance ever': the National 800 Number's average speed of answer reportedly fell from 34 minutes (2024) to 8 minutes, a 75% reduction; field-office wait times reportedly fell 30%; the initial disability-claims backlog reportedly fell from a high of ~1.3 million (2024) to 853,000, and disability hearing wait times reportedly fell to 266 days, a historic low; the agency also reported 385 million online transactions in FY2026 to date, up 37% from 2024. SSA's workforce continued to shrink over this same period -- roughly 7,000 additional employees left via separation incentives, leaving a workforce of about 50,000, still its lowest headcount in decades. Update 2026-07-26: the independent corroboration this entry's prior update said was missing has since emerged. After Sen. Elizabeth Warren raised doubts about SSA's reported phone-service improvements, Commissioner Bisignano agreed to an independent review, and SSA's own Office of Inspector General published an audit in June 2026 confirming the agency's released 800-number performance data was accurate and that service genuinely improved during FY2025: SSA served 68 million callers (a 65% increase over the prior year), with average wait times falling from a January peak of about 30 minutes to roughly 7 minutes by September. This meaningfully corroborates part of Bisignano's disputed 2026 turnaround claim -- specifically the phone-service metrics -- though it does not address or resolve this entry's separate, independently-sourced findings on workforce reduction (8,000+ lost), the disability-appeal backlog, or the 2025 decision to stop publishing certain other service metrics, which remain accurate and unaffected by this audit.",
+    "date_of_action": "2025-02-24 (earliest documented office closures under Leland Dudek) through 2026-04 (ongoing, per Center on Budget and Policy Priorities' most recent tracking); see also the March 2025 O'Malley warning and April 2025 reclassification push noted below",
+    "what_changed": "Since January 2025, the Trump administration drove out more than 8,000 SSA employees -- the agency's largest one-year staffing reduction on record, leaving SSA with fewer employees than at any point since 1967, even as it now serves roughly 52 million more beneficiaries than it did then (nearly 75 million total). More than 40 states and D.C. saw staffing cuts greater than 10% between January 2025 and April 2026. This pattern was already visible within DOGE's first weeks at SSA: ProPublica reported that by February 24, 2025, DOGE operatives working inside the agency under appointee Leland Dudek had already closed at least 10 local field offices and eliminated 41 positions, drawing early alarm from beneficiaries and staff. The staffing cuts produced concrete technical and administrative failures in the following months: the Washington Post reported the SSA website repeatedly crashed starting around April 8, 2025, disrupting access for millions, with the outages tied directly to Musk-led cuts that slashed IT staff and rushed out undertested software; the next day, CBS News reported SSA mistakenly told some Supplemental Security Income recipients -- including disabled individuals and low-income seniors -- that their benefits had been terminated, with their benefit histories temporarily disappearing from their accounts before the error was corrected roughly a day later. By May 6, 2025, CBS News reported a further, more consequential error pattern: thousands of Americans, disproportionately immigrants and other vulnerable individuals, were being wrongly declared dead or purged from SSA's systems entirely, cutting off Social Security benefits, disability payments, and in some cases banking access tied to a valid Social Security number. On June 16, 2025, Wired reported Senators Elizabeth Warren and Ron Wyden formally warned that DOGE's rushed, AI-driven overhaul of SSA's IT systems was jeopardizing the agency's core function, citing the website outages and access failures already documented above as evidence of elevated risk of further benefit disruptions, data loss, or security compromise going forward. In April 2025, SSA briefly eliminated most phone-based benefit applications entirely (reversed after public backlash), while permanently requiring in-person visits or multi-factor online authentication for direct-deposit changes -- a change CBPP notes the agency's own fraud data does not support, since direct-deposit fraud is rare and rarely phone-initiated. As wait times climbed (86 minutes average by April 2025, a 25% increase over the prior year), SSA responded largely by reassigning field-office staff to phone duty rather than hiring -- pulling employees away from processing claims and creating new backlogs elsewhere. In June 2025, amid worsening press coverage, SSA stopped publicly releasing several of its own regular service-performance metrics, including call wait times and appointment-scheduling delays; some measures were later restored, but key ones (hold-time data, appointment-wait data, backlog counts) remain unreported as of CBPP's most recent tracking. By early 2026, disability-appeal backlogs had grown by 73,000+ cases in just over a year, and fewer than 850 of SSA's roughly 50,000 remaining employees had less than two years of federal service -- the agency hired fewer than 100 new employees in all of 2025, the lowest annual hiring total on record. In June 2026, Commissioner Bisignano told the House Ways and Means Committee and stated in an SSA press release (June 29, 2026) that the agency achieved its 'best all-around performance ever': the National 800 Number's average speed of answer reportedly fell from 34 minutes (2024) to 8 minutes, a 75% reduction; field-office wait times reportedly fell 30%; the initial disability-claims backlog reportedly fell from a high of ~1.3 million (2024) to 853,000, and disability hearing wait times reportedly fell to 266 days, a historic low; the agency also reported 385 million online transactions in FY2026 to date, up 37% from 2024. SSA's workforce continued to shrink over this same period -- roughly 7,000 additional employees left via separation incentives, leaving a workforce of about 50,000, still its lowest headcount in decades. As part of that continued shrinkage, in April 2025 the Washington Post reported the administration was preparing to lay off thousands more SSA workers even after the earlier ~7,000-job elimination, with offices in rural areas losing over half their staff and IT systems already crashing under the strain. Two named-official developments from this same window are worth noting on their own. First, on March 3, 2025, former SSA Commissioner Martin O'Malley (Biden-era) publicly warned SSA could suffer a full 'collapse of the entire system' and an interruption of benefit payments within 'the next 30 to 90 days' if the DOGE-driven cuts continued -- a high-profile, widely covered warning that did not literally materialize on that timeline (Social Security continued issuing payments past the 90-day mark), though the underlying staffing and service-quality trend O'Malley was warning about is independently documented throughout this entry. Second, in April 2025 Acting SSA Commissioner Leland Dudek moved to reclassify entire SSA offices -- including mission support, hearings, and communications staff -- under the newly renamed 'Schedule Policy/Career' (formerly Schedule F) excepted-service category, which strips normal civil-service removal protections; roughly 8,000 GS-15-level federal employees government-wide had already been shifted into equivalent categories by that point. This drew bipartisan pushback, and following pressure from Sen. Ron Wyden and colleagues, the administration confirmed by June 27, 2025 that no SSA frontline workers had actually been recategorized under Schedule Policy/Career -- meaning the April reclassification push, as reported, did not fully proceed as originally described, at least for frontline staff, as of that confirmation. Separately, in May 2025, incoming Commissioner Frank Bisignano told reporters AI would 'soon' handle a significant share of SSA's roughly 400,000 daily phone calls -- an early on-the-record statement of the automation strategy that appears consistent with, and may partly explain the mechanism behind, the dramatically faster call-answer times SSA and its Inspector General later reported for FY2025-2026 (see below), even as field-office staffing and hiring remained sharply reduced. Update 2026-07-26: the independent corroboration this entry's prior update said was missing has since emerged. After Sen. Elizabeth Warren raised doubts about SSA's reported phone-service improvements, Commissioner Bisignano agreed to an independent review, and SSA's own Office of Inspector General published an audit in June 2026 confirming the agency's released 800-number performance data was accurate and that service genuinely improved during FY2025: SSA served 68 million callers (a 65% increase over the prior year), with average wait times falling from a January peak of about 30 minutes to roughly 7 minutes by September. This meaningfully corroborates part of Bisignano's disputed 2026 turnaround claim -- specifically the phone-service metrics -- though it does not address or resolve this entry's separate, independently-sourced findings on workforce reduction (8,000+ lost), the disability-appeal backlog, or the 2025 decision to stop publishing certain other service metrics, which remain accurate and unaffected by this audit.",
     "primary_proponent": {
       "name": "Frank Bisignano",
       "role": "Commissioner of Social Security",
@@ -9721,17 +10048,41 @@
           "source": "Sen. Tammy Baldwin's official investigation letter"
         }
       ],
-      "caveat": "SSA leadership disputes the characterization that more staffing is the answer, and Commissioner Bisignano has publicly staked out a contrary position (efficiency over headcount) -- this is a genuinely disputed policy question, not just a factual one, and should be presented with his stated rationale alongside the outside critique. However, the decision to stop publishing key service metrics specifically after bad press is a separately verifiable action, not itself a matter of policy disagreement -- CBPP's and NPR's sourcing on that point is direct and specific. A direct, unresolved factual tension has emerged as of mid-2026: SSA's own reported metrics (touted by Commissioner Bisignano in congressional testimony and an official SSA press release) claim dramatic service improvements -- faster phone answer times, shorter backlogs -- achieved with a smaller workforce, which is the opposite of this entry's core framing. The phone-service figures specifically (wait times, call volume) have since been independently corroborated by SSA's own Office of Inspector General in a June 2026 audit prompted by Sen. Warren's concerns -- a genuine confirmation of that piece of the turnaround claim. Other claimed improvements (disability-claims backlog, hearing wait times) have not been independently audited as of this update, and CBPP and government-oversight reporting have also noted Bisignano has been evasive when pressed on methodology in congressional testimony. Present both: the agency's claimed 2026 performance turnaround, sourced explicitly to SSA/Bisignano, alongside the independently-sourced staffing-loss and prior metrics-suppression findings -- don't treat either claim as simply resolving the other."
+      "caveat": "SSA leadership disputes the characterization that more staffing is the answer, and Commissioner Bisignano has publicly staked out a contrary position (efficiency over headcount) -- this is a genuinely disputed policy question, not just a factual one, and should be presented with his stated rationale alongside the outside critique. However, the decision to stop publishing key service metrics specifically after bad press is a separately verifiable action, not itself a matter of policy disagreement -- CBPP's and NPR's sourcing on that point is direct and specific. A direct, unresolved factual tension has emerged as of mid-2026: SSA's own reported metrics (touted by Commissioner Bisignano in congressional testimony and an official SSA press release) claim dramatic service improvements -- faster phone answer times, shorter backlogs -- achieved with a smaller workforce, which is the opposite of this entry's core framing. The phone-service figures specifically (wait times, call volume) have since been independently corroborated by SSA's own Office of Inspector General in a June 2026 audit prompted by Sen. Warren's concerns -- a genuine confirmation of that piece of the turnaround claim. Other claimed improvements (disability-claims backlog, hearing wait times) have not been independently audited as of this update, and CBPP and government-oversight reporting have also noted Bisignano has been evasive when pressed on methodology in congressional testimony. Present both: the agency's claimed 2026 performance turnaround, sourced explicitly to SSA/Bisignano, alongside the independently-sourced staffing-loss and prior metrics-suppression findings -- don't treat either claim as simply resolving the other. O'Malley's March 2025 '30 to 90 days' collapse warning should be presented as a prediction that did not materialize on its literal timeline, not as a confirmed outcome -- use it as evidence of contemporaneous alarm among former officials, not as proof of an actual system collapse. Similarly, the April 2025 Schedule Policy/Career reclassification push at SSA specifically should be presented as an attempted action that, per the administration's own June 2025 confirmation to Sen. Wyden, had not actually been carried out for frontline SSA workers as of that date -- a genuine attempted-but-contested-and-seemingly-stalled action, not a completed one."
     },
-    "confidence_note": "Very strong sourcing: CBPP is a well-regarded, frequently-cited nonpartisan policy institute with detailed, footnoted figures drawn substantially from the agency's own data (OPM staffing records, SSA's own performance metrics) rather than estimates. NPR's on-the-ground reporting from field-office employees corroborates the top-line figures with direct testimony. Sen. Baldwin's official congressional investigation adds a formal oversight dimension. The metrics-suppression angle is corroborated by multiple independent sources (CBPP, Nash Disability Law, 401k Specialist) describing the same June 2025 timing and the same specific withheld metrics. Re-verified 2026-07-20: SSA/Bisignano's June 2026 claimed performance turnaround is a genuine, on-the-record complication for this entry's existing negative framing -- it should be presented as a disputed, agency-self-reported claim (see updated caveat), not omitted and not accepted as settling the question. Independent corroboration of the specific 2026 numbers (8-minute wait time, 266-day hearing wait) was not found as of this recheck; CBPP's underlying staffing and metrics-suppression findings are unaffected. Update 2026-07-26: SSA OIG's June 2026 audit of 800-number performance data is corroborated by Fox News and Washington Examiner reporting on the audit itself; this partially resolves, rather than fully settles, the disputed-claim framing in this entry's prior update -- the phone-metrics piece is now independently confirmed, while workforce and backlog figures remain as previously sourced.",
+    "confidence_note": "Very strong sourcing: CBPP is a well-regarded, frequently-cited nonpartisan policy institute with detailed, footnoted figures drawn substantially from the agency's own data (OPM staffing records, SSA's own performance metrics) rather than estimates. NPR's on-the-ground reporting from field-office employees corroborates the top-line figures with direct testimony. Sen. Baldwin's official congressional investigation adds a formal oversight dimension. The metrics-suppression angle is corroborated by multiple independent sources (CBPP, Nash Disability Law, 401k Specialist) describing the same June 2025 timing and the same specific withheld metrics. Re-verified 2026-07-20: SSA/Bisignano's June 2026 claimed performance turnaround is a genuine, on-the-record complication for this entry's existing negative framing -- it should be presented as a disputed, agency-self-reported claim (see updated caveat), not omitted and not accepted as settling the question. Independent corroboration of the specific 2026 numbers (8-minute wait time, 266-day hearing wait) was not found as of this recheck; CBPP's underlying staffing and metrics-suppression findings are unaffected. Update 2026-07-26: SSA OIG's June 2026 audit of 800-number performance data is corroborated by Fox News and Washington Examiner reporting on the audit itself; this partially resolves, rather than fully settles, the disputed-claim framing in this entry's prior update -- the phone-metrics piece is now independently confirmed, while workforce and backlog figures remain as previously sourced. Update 2026-08-09: added O'Malley's March 2025 collapse warning (corroborated by Democracy Now!, CNN, Snopes, and the Daily Beast, with Snopes and Yahoo Finance retrospectives specifically noting the predicted 30-90-day timeline did not literally materialize) and the April 2025 Schedule Policy/Career reclassification push at SSA (corroborated by Government Executive's reporting on Dudek's directive and the Senate Finance Committee's own June 27, 2025 press release confirming, after Wyden's pressure, that no SSA frontline workers had actually been recategorized) -- both added with explicit outcome caveats rather than presented as confirmed completed harms.",
     "section_summaries": {
-      "what_changed": "SSA lost its largest single-year staff share on record even as beneficiary numbers grew sharply, and stopped publishing some service-quality metrics after they drew bad press.",
+      "what_changed": "SSA lost its largest single-year staff share on record even as beneficiary numbers grew sharply, and stopped publishing some service-quality metrics after they drew bad press. A former SSA commissioner publicly warned of a possible 30-90-day 'collapse' in March 2025 (a timeline that didn't literally hold), and an April 2025 push to strip civil-service protections from entire SSA offices was later confirmed, after congressional pressure, not to have actually been carried out for frontline staff.",
       "estimated_impact": "Notably, an internal staff survey found most SSA employees themselves reported worse service and slower speed -- a rare case of insiders confirming outside critics instead of disputing them.",
       "confidence_note": "Very strongly sourced via a respected policy institute drawing on official records and field-level reporting; the agency's later claimed 2026 turnaround is a disputed, unconfirmed, self-reported claim."
     },
-    "last_verified": "2026-08-08",
+    "last_verified": "2026-08-09",
     "date_added": "2026-07-10",
     "sources": [
+      {
+        "name": "Democracy Now! -- Former Social Security Chief Warns DOGE Cuts Could 'Collapse' Benefits Within Weeks",
+        "url": "https://www.democracynow.org/2025/3/4/headlines/former_social_security_chief_warns_doge_cuts_could_collapse_benefits_within_weeks"
+      },
+      {
+        "name": "Snopes -- Ex-head of Social Security claimed DOGE actions could cause payment interruptions. Here's context",
+        "url": "https://www.snopes.com/news/2025/03/07/social-security-collapse-doge/"
+      },
+      {
+        "name": "Government Executive -- Dudek calls for entire SSA offices to be converted to new Schedule F",
+        "url": "https://www.govexec.com/workforce/2025/04/dudek-calls-entire-ssa-offices-be-converted-new-schedule-f/404755/"
+      },
+      {
+        "name": "Senate Finance Committee (Ranking Member) -- Following Pressure From Wyden and Colleagues, Trump Administration Confirms No Frontline Workers Have Been Recategorized as Schedule F at Social Security",
+        "url": "https://www.finance.senate.gov/ranking-members-news/following-pressure-from-wyden-and-colleagues-trump-administration-confirms-no-frontline-workers-have-been-recategorized-as-schedule-f-at-social-security"
+      },
+      {
+        "name": "U.S. News -- Social Security May Lose Thousands More Staff Under New Trump Rule",
+        "url": "https://www.usnews.com/news/politics/articles/2025-04-25/social-security-may-lose-thousands-more-staff-under-new-trump-rule"
+      },
+      {
+        "name": "CBS News -- AI to be incorporated into Social Security phone system, Commissioner Bisignano says",
+        "url": "https://www.cbsnews.com/news/artificial-intelligence-to-be-incorporated-social-security-phone-system-frank-bisignano/"
+      },
       {
         "name": "Center on Budget and Policy Priorities — Trump Administration Personnel Policies Harming Social Security Customer Service, Risk Lasting Damage",
         "url": "https://www.cbpp.org/research/social-security/trump-administration-personnel-policies-harming-social-security-customer"
@@ -9785,7 +10136,7 @@
         "url": "https://www.wired.com/story/doge-social-security-administration-benefits/"
       }
     ],
-    "last_updated": "2026-08-08"
+    "last_updated": "2026-08-09"
   },
   {
     "id": "ssa-suicide-caller-guidance-undertrained-staff-2026",

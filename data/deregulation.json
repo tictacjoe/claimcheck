@@ -1274,6 +1274,66 @@
     "short_summary": "Let ISPs block, throttle, or prioritize internet traffic without restriction."
   },
   {
+    "id": "fcc-salt-typhoon-cyber-rule-rescission-2025",
+    "rule_name": "Rescission of the FCC's Section 105 telecom network-security rule (the 'Salt Typhoon rule')",
+    "administration": "Trump II",
+    "agency": "FCC",
+    "domain": "consumer_safety / national security (telecom infrastructure)",
+    "status": "Finalized -- FCC voted to rescind in November 2025",
+    "date_of_action": "2025-01 (rule adopted) through 2025-11-20 (rescission vote)",
+    "original_rule_summary": "In January 2025, in the final days of the Biden administration, the FCC adopted a rule under Section 105 of the Communications Assistance for Law Enforcement Act (CALEA) requiring telecommunications carriers to affirmatively secure their networks against unauthorized access, in direct response to the Salt Typhoon intrusion -- a China-linked state-sponsored hacking campaign that had infiltrated at least eight major U.S. telecom carriers, geolocating millions of Americans and intercepting call and text data, in one of the largest telecom breaches in U.S. history.",
+    "what_changed": "On November 20, 2025, the FCC, under Chairman Brendan Carr, voted along party lines to rescind the Section 105 network-security rule adopted less than a year earlier in direct response to Salt Typhoon. Carr argued the rule 'exceeded the agency's authority' and 'did not present an effective or agile response to the relevant cybersecurity threats,' framing it as a rushed, ineffective, last-minute Biden-era action. Sen. Maria Cantwell (D-WA), the Senate Commerce Committee's ranking member, publicly opposed the rollback, sending a formal letter to Carr in November 2025 and noting the reversal came after direct lobbying from the same telecom carriers whose networks had been breached by the Salt Typhoon hackers the rule was written to guard against.",
+    "primary_proponent": {
+      "name": "Brendan Carr",
+      "role": "FCC Chairman",
+      "note": "Led the party-line vote to rescind the rule, characterizing it as exceeding FCC authority and ineffective, rather than defending it as insufficiently protective against the threat it was written to address."
+    },
+    "corporate_beneficiaries": [
+      {
+        "name": "Major telecom carriers subject to the rescinded security mandate",
+        "connection": "The same carriers whose networks Salt Typhoon had breached lobbied the FCC to rescind the mandatory network-security rule adopted in response to that breach, per Sen. Cantwell's public letter."
+      }
+    ],
+    "estimated_health_impact": {
+      "summary": "Not a direct public-health rollback; the harm alleged is to U.S. communications-infrastructure security and consumer privacy/surveillance risk, given the rule was adopted specifically in response to a documented foreign state-actor breach that intercepted Americans' calls and location data.",
+      "figures": [
+        {
+          "metric": "Major U.S. telecom carriers confirmed breached by Salt Typhoon prior to the original rule's adoption",
+          "value": "8+",
+          "source": "Federal News Network, Cybersecurity Dive, November 2025 reporting on the rescission vote"
+        }
+      ],
+      "caveat": "The FCC's stated rationale (that the rule exceeded statutory authority and was an ineffective, rushed response) is a genuine legal and policy argument, not addressed here as pretextual; the timing relative to industry lobbying, documented by Sen. Cantwell's letter, is presented as a relevant fact for evaluating the rescission, not proof of improper motive."
+    },
+    "confidence_note": "HIGH confidence -- the rescission vote, Carr's stated rationale, and Cantwell's opposition letter and lobbying allegation are corroborated across Federal News Network, Bloomberg, Cybersecurity Dive, and the Senate Commerce Committee's own published letter. This entry is closely related to, but distinct from, this tracker's Government Service Redirection entry on CISA workforce cuts ([[cisa-cyber-workforce-cuts-trump2]]), which documents the separate story of CISA's own staffing losses rather than this FCC regulatory rollback.",
+    "section_summaries": {
+      "what_changed": "The FCC voted along party lines in November 2025 to rescind a telecom network-security rule adopted less than a year earlier specifically in response to the Salt Typhoon Chinese hacking campaign, after lobbying from the same carriers the rule targeted.",
+      "estimated_impact": "The rollback removes a mandatory security requirement adopted directly in response to a documented breach that let Chinese state hackers geolocate and intercept communications for millions of Americans.",
+      "confidence_note": "Well-corroborated across multiple outlets and a formal Senate letter; the FCC's legal/policy rationale for rescinding is a genuine, stated position, not addressed here as pretextual."
+    },
+    "last_verified": "2026-08-09",
+    "date_added": "2026-08-09",
+    "sources": [
+      {
+        "name": "Federal News Network -- FCC to vote on reversing cyber rules adopted after Salt Typhoon hack",
+        "url": "https://federalnewsnetwork.com/cybersecurity/2025/11/fcc-to-vote-on-reversing-cyber-rules-adopted-after-salt-typhoon-hack/"
+      },
+      {
+        "name": "Bloomberg -- FCC Rescinds Biden-Era Cyber Rule Meant to Address Salt Typhoon",
+        "url": "https://www.bloomberg.com/news/articles/2025-11-20/fcc-rescinds-biden-era-cyber-rule-meant-to-address-salt-typhoon"
+      },
+      {
+        "name": "Cybersecurity Dive -- FCC will vote to scrap telecom cybersecurity requirements",
+        "url": "https://www.cybersecuritydive.com/news/fcc-cybersecurity-telecommunications-carriers-brendan-carr-eliminate-rules/804259/"
+      },
+      {
+        "name": "Senate Commerce Committee (Cantwell) -- Cantwell Slams Efforts by Brendan Carr's FCC to Roll Back Network Protection Rules Put in Place After Salt Typhoon Hacks",
+        "url": "https://www.commerce.senate.gov/2025/11/cantwell-slams-efforts-by-brendan-carr-s-fcc-to-roll-back-network-protection-rules-put-in-place-after-salt-typhoon-hacks"
+      }
+    ],
+    "short_summary": "FCC rescinded a mandatory telecom network-security rule adopted after China's Salt Typhoon breach, after lobbying from the breached carriers."
+  },
+  {
     "id": "fda-flavored-vapes-authorization-2026",
     "rule_name": "FDA premarket tobacco product authorization standard for flavored e-cigarettes (informal reversal of the agency's longstanding practice of denying most flavored vape authorizations, including fruit and mint flavors, on youth-appeal grounds)",
     "administration": "Trump II (2025-present)",

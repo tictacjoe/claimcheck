@@ -2369,6 +2369,56 @@
     }
   },
   {
+    "official": "Yaakov M. Roth, Acting Assistant Attorney General, DOJ Civil Division",
+    "offense_category": "DOJ Intervening in a State Criminal Prosecution to Advocate for a Political Ally's Early Release, Citing Alleged 'Political Bias' Without New Evidence -- addressed here as a rule-of-law/prosecutorial-independence question rather than a criminal charge",
+    "contested": true,
+    "incident_summary": "Tina Peters, the former Mesa County, Colorado clerk, was convicted in August 2024 on four felony counts for orchestrating unauthorized access to Mesa County's secured election system in 2021 as part of an effort to find evidence supporting Trump's false claims of 2020 election fraud, and was sentenced in October 2024 to nine years in state prison. On March 3, 2025, the U.S. Department of Justice, in a court filing signed by Acting Assistant Attorney General Yaakov Roth, announced it would 'review' Peters's state conviction, questioning both the length of her sentence and Colorado's denial of bail pending her appeal as potentially 'arbitrary or unreasonable' -- without identifying any new evidence or legal defect in the state proceedings. Colorado Attorney General Phil Weiser publicly called the intervention a 'grotesque attempt to weaponize the rule of law.' At an April 23, 2025 federal hearing on Peters's bid for release, a federal attorney representing DOJ's position declined to explain, on the record, the department's actual reason for intervening in a completed state prosecution. A federal magistrate judge rejected Peters's bid for release on bond in December 2025, and she remained in state prison. Separately, on April 2, 2026, the Colorado Court of Appeals -- in a unanimous, 78-page opinion by Judge Ted Tow, reached independently of DOJ's intervention -- upheld Peters's underlying conviction but ordered her resentenced, finding the trial court's nine-year sentence was based 'in part on improper consideration of her exercise of her right to free speech' (the panel found the sentencing judge's comments suggested the term was meant partly to stop Peters from continuing to espouse views the court deemed 'damaging'). The same opinion rejected Peters's separate argument that a hypothetical presidential pardon could nullify her state conviction, holding the President has no pardon power over state offenses. The appeals court declined to rehear the case on April 23, 2026.",
+    "elements_required": [
+      "A state criminal conviction of a Trump ally on charges directly related to the 2020 election-fraud narrative Trump has publicly promoted",
+      "DOJ formally intervened in the state appellate proceedings on the ally's behalf, citing suspicion of the state court's motives rather than any identified legal or evidentiary defect",
+      "The state's own attorney general characterized the intervention as an improper weaponization of federal power against a legitimate state prosecution",
+      "DOJ's representative, when given the opportunity in open court, did not publicly articulate the department's actual rationale for intervening",
+      "An independent state appellate court later did identify a genuine sentencing defect (the free-speech consideration) -- but on different grounds than DOJ's stated 'political bias' concern, and while upholding the conviction itself"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "CPR News reported DOJ's March 3, 2025 court filing, signed by Acting Assistant Attorney General Yaakov Roth, announcing DOJ's review of the Peters conviction and questioning the length of her sentence and the denial of bail",
+        "source_url": "https://www.cpr.org/2025/03/03/u-s-department-of-justice-to-review-state-conviction-of-former-mesa-county-clerk-tina-peters/",
+        "maps_to_element": "DOJ's formal intervention and its stated (but evidence-free) basis"
+      },
+      {
+        "type": "news_report",
+        "description": "CPR News reported Colorado Attorney General Phil Weiser's public statement calling DOJ's intervention a 'grotesque attempt to weaponize the rule of law,' and separately reported that DOJ's own attorney refused at an April 23, 2025 hearing to disclose the department's reason for intervening",
+        "source_url": "https://www.cpr.org/2025/03/11/tina-peters-doj-interest-weiser-weaponization-justice/",
+        "maps_to_element": "The state's characterization of the intervention as improper, and DOJ's refusal to publicly justify it"
+      },
+      {
+        "type": "news_report",
+        "description": "The Colorado Sun reported a federal judge's December 2025 rejection of Peters's bid for release pending appeal, keeping her in state prison",
+        "source_url": "https://coloradosun.com/2025/12/08/former-colorado-clerk-will-remain-in-state-prison-after-a-federal-judge-rejects-her-bid-for-freedom/",
+        "maps_to_element": "The outcome of Peters's federal release bid, which DOJ's original filing had supported"
+      },
+      {
+        "type": "public_record",
+        "description": "Colorado Newsline reported the Colorado Court of Appeals' April 2, 2026 unanimous opinion (Judge Ted Tow) upholding Peters's conviction but ordering resentencing due to the trial court's improper consideration of her free-speech-protected statements, and separately rejecting the argument that a presidential pardon could void a state conviction",
+        "source_url": "https://coloradonewsline.com/2026/04/02/court-orders-resentencing-tina-peters/",
+        "maps_to_element": "The independent state appellate finding, on different grounds than DOJ's stated concern, and its rejection of the pardon-preemption theory"
+      }
+    ],
+    "status": "Pending -- Peters remains in state prison as of the December 2025 bail denial; resentencing (ordered April 2, 2026, rehearing denied April 23, 2026) had not yet occurred as of the sourcing reviewed",
+    "rebuttal_anticipated": "DOJ's filing characterized its concern as a good-faith due-process question about sentence length and bail denial, not as advocacy for a political ally; the administration has not publicly stated the review was politically motivated. The April 2026 appellate ruling finding a genuine free-speech-based sentencing defect could be cited as partial vindication of DOJ's original concern about sentence fairness, even though the appellate court reached that conclusion independently and on different reasoning than DOJ's filing.",
+    "comeback": "DOJ's own representative would not explain the department's rationale in open court when directly asked, and the department identified no new evidence or state-court legal error -- distinguishing this from an ordinary DOJ amicus filing grounded in an articulated legal theory. The state's own chief law-enforcement officer characterized it as weaponization. The later appellate resentencing order, while real, rests on a free-speech sentencing-factor problem specific to the trial judge's own comments -- a narrower and different defect than the 'political bias' DOJ's March 2025 filing raised -- and the same appellate opinion affirmatively rejected the pardon-based argument Peters and her allies had also advanced, so the ruling is not a wholesale vindication of the intervention's premise.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a pattern of DOJ using its institutional weight to intervene in a completed state prosecution of a Trump-aligned figure convicted of conduct tied to the 2020 election-fraud narrative, absent an articulated legal basis distinct from the defendant's political alignment.",
+    "last_updated": "2026-08-09",
+    "date_added": "2026-08-09",
+    "confidence_note": "HIGH confidence on the sequence of events (DOJ's filing, Weiser's response, the bail denial, the appellate ruling) -- corroborated across CPR News, Colorado Sun, Colorado Newsline, CNN, and Colorado Politics. The characterization of DOJ's motive as political is Weiser's contested claim, not an independently adjudicated fact, hence `contested: true`; DOJ has not offered its own on-the-record rationale to weigh against it, which is itself part of what's documented here.",
+    "section_summaries": {
+      "incident_summary": "DOJ intervened in a completed state prosecution of a Trump-aligned election-fraud figure, questioning her sentence and bail denial without citing new evidence; the state AG called it weaponization, and DOJ's own attorney wouldn't explain the rationale in court.",
+      "confidence_note": "The sequence of events is well-corroborated across multiple outlets; DOJ's motive is a contested characterization, not an adjudicated fact."
+    }
+  },
+  {
     "official": "DOJ prosecutors (individuals not named in reporting reviewed), issued under the Trump DOJ's immigration-enforcement obstruction investigation",
     "offense_category": "Grand Jury Subpoenas Quashed as Harassment/Retaliation for Constitutionally Protected Conduct -- a federal judge found the subpoenas served no legitimate investigative purpose",
     "contested": false,
@@ -4754,6 +4804,62 @@
     "section_summaries": {
       "incident_summary": "DHS ended the shoes-off airport screening rule in July 2025; a classified IG report found scanners can't reliably detect threats in shoes, DHS reclassified the report instead of fixing the problem by its January 30, 2026 statutory deadline, and Noem then testified under oath that all the report's recommendations were implemented -- a claim the Inspector General's own office says it has no evidence to support.",
       "confidence_note": "Core facts are well-corroborated across CBS News's investigation and Sen. Duckworth's independent letter; whether the sworn-testimony contradiction itself constitutes an actionable violation has not been formally adjudicated or charged in sourcing reviewed."
+    }
+  },
+  {
+    "official": "President Trump, acting on activist Laura Loomer's recommendation",
+    "offense_category": "Firing the Nation's Top Signals-Intelligence and Military Cyber Officials Based on an Outside Activist's Personal Loyalty Test, Leaving the NSA and Cyber Command Without Senate-Confirmed Leadership for Nearly a Year",
+    "contested": true,
+    "incident_summary": "On April 3-4, 2025, President Trump fired Gen. Timothy Haugh, the Senate-confirmed director of the National Security Agency and head of U.S. Cyber Command, along with his civilian deputy Wendy Noble -- roughly a year into what is traditionally a three-year term, and with no public explanation of an official reason. Multiple outlets (ABC News, The Daily Beast, Breaking Defense) reported the firings followed a private Oval Office meeting in which far-right activist Laura Loomer presented Trump a list of roughly a dozen officials she deemed insufficiently loyal, and specifically urged Haugh's and Noble's removal; Loomer publicly took credit afterward, stating Haugh was fired for being 'disloyal' and noting he had been appointed under Gen. Mark Milley, whom Trump has accused of treason. Trump told reporters aboard Air Force One that Loomer 'had nothing to do with' the firings -- directly contradicting Loomer's own public account. Lt. Gen. William Hartman (Haugh's own deputy) and Sheila Thomas assumed acting leadership of Cyber Command and the NSA, respectively. The agency then went without a permanent, Senate-confirmed director for nearly a year: by November 2025, Defense One, Nextgov/FCW, and Government Executive reported a 'leadership vacuum' had produced sustained morale problems ('the morale inside the organization is rather depressed... that's what happens when your boss disappears'), a wave of additional senior departures -- including NSA's top lawyer, April Falcon Doss, reportedly also let go on Loomer's advice -- and a halt to recruitment for the NSA's Legal Honors Program, a key pipeline for the agency's legal talent. The White House had reportedly considered elevating Hartman to the permanent post but backed off those plans. Trump nominated Army Lt. Gen. Joshua Rudd, then deputy commander of U.S. Indo-Pacific Command, in December 2025; the Senate confirmed Rudd 71-29 on March 10, 2026, promoting him to four-star general, ending the vacancy. Some senators raised concerns during confirmation about Rudd's comparatively limited cyber-operations and signals-intelligence background relative to prior NSA/Cyber Command leaders.",
+    "elements_required": [
+      "Two Senate-confirmed/senior national-security officials were removed from their posts abruptly and without a stated official reason",
+      "Contemporaneous, multiply-sourced reporting that an outside activist with no formal government role personally advocated the specific firings in a private meeting with the President",
+      "The activist publicly claimed credit and attributed the firings to a personal loyalty test rather than performance or policy grounds",
+      "The President's own public account directly denied the activist's account, creating an unresolved factual conflict on the record",
+      "The resulting leadership vacancy was documented, by named current and former officials speaking to multiple outlets, as producing concrete institutional harm (morale collapse, additional senior departures, halted recruitment) over an extended period (nearly a year)"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "ABC News reported that Laura Loomer urged Trump to remove NSA Director Haugh and other officials during a private Oval Office meeting, per multiple sources",
+        "source_url": "https://abcnews.go.com/Politics/loomer-urged-trump-remove-nsa-director-multiple-agencies/story?id=120484445",
+        "maps_to_element": "The activist's advocacy for the specific firings, corroborated by named-outlet sourcing"
+      },
+      {
+        "type": "news_report",
+        "description": "The Daily Beast reported Loomer's public claim that Haugh was fired for disloyalty, including her stated reasoning tied to his having been appointed under Gen. Mark Milley",
+        "source_url": "https://www.thedailybeast.com/general-timothy-haugh-fired-after-laura-loomer-launches-loyalty-purge/",
+        "maps_to_element": "Loomer's own public account of her role and rationale"
+      },
+      {
+        "type": "news_report",
+        "description": "DefenseScoop and The Washington Post reported the April 3-4, 2025 firings of Haugh and Noble, their immediate acting replacements, and Trump's on-the-record denial aboard Air Force One that Loomer had any role -- directly conflicting with Loomer's public claims",
+        "source_url": "https://defensescoop.com/2025/04/04/trump-fires-gen-timothy-haugh-cyber-command-nsa/",
+        "maps_to_element": "The firing itself, the acting-leadership transition, and the unresolved Trump-vs-Loomer factual conflict"
+      },
+      {
+        "type": "analysis",
+        "description": "Defense One, Government Executive, and Nextgov/FCW reported in November 2025 on the NSA's sustained leadership vacuum, additional senior departures including the agency's top lawyer, and the resulting halt to Legal Honors Program recruitment, roughly seven months after Haugh's firing",
+        "source_url": "https://www.defenseone.com/threats/2025/11/leadership-vacuum-and-staff-cuts-threaten-nsa-morale-operations/409291/?oref=d1-homepage-top-story",
+        "maps_to_element": "The documented institutional harm from the extended leadership vacancy"
+      },
+      {
+        "type": "public_record",
+        "description": "SecurityWeek and Stars and Stripes reported the Senate's 71-29 confirmation of Lt. Gen. Joshua Rudd on March 10, 2026, ending the nearly year-long vacancy, along with senators' stated concerns about his comparatively limited cyber background",
+        "source_url": "https://www.securityweek.com/senate-confirms-joshua-rudd-to-lead-nsa-and-us-cyber-command/",
+        "maps_to_element": "Resolution of the vacancy and its duration"
+      }
+    ],
+    "status": "Resolved as a personnel matter -- Lt. Gen. Joshua Rudd confirmed March 10, 2026, ending the vacancy; the underlying dispute over Loomer's actual role and the firings' justification was never independently adjudicated or officially clarified",
+    "rebuttal_anticipated": "The President publicly stated Loomer had no role in the firings, and no administration official has officially confirmed her account; the firings could alternatively be characterized as a normal exercise of the President's authority to select his own national-security leadership team, without requiring a stated cause.",
+    "comeback": "The President's denial is contradicted by Loomer's own, repeated, contemporaneous public claims of credit and specific rationale, and by multiple independently reported accounts (ABC News, Daily Beast, Breaking Defense) describing the same Oval Office meeting and the same list of targeted officials -- an unusual level of corroboration for an activist's private advocacy claim. Separately, whatever the true cause, the documented consequence (a nearly year-long vacancy in leadership of the nation's premier signals-intelligence agency and military cyber command, with reported morale collapse and further senior departures) is independently sourced and does not depend on resolving the Loomer-vs-Trump factual dispute.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a pattern of senior national-security personnel decisions being driven by an unofficial loyalty gatekeeper outside any formal vetting process, with a documented institutional cost (extended leadership vacuum at two critical cyber-defense institutions) regardless of which account of the firings' cause is correct.",
+    "last_updated": "2026-08-09",
+    "date_added": "2026-08-09",
+    "confidence_note": "HIGH confidence on the sequence of events (the firings, the acting-leadership transition, the vacancy's duration and documented harms, and Rudd's confirmation) -- corroborated across ABC News, DefenseScoop, The Washington Post, Defense One, Government Executive, and SecurityWeek. MODERATE on Loomer's precise role, since it rests on her own public claims plus reporting describing the same meeting from unnamed sources, directly contradicted by Trump's own on-the-record denial -- presented here as a genuinely disputed, `contested: true` characterization rather than settled fact, consistent with this tracker's standard for similar unresolved-motive entries.",
+    "section_summaries": {
+      "incident_summary": "Trump fired the NSA/Cyber Command director and deputy in April 2025 after activist Laura Loomer urged it as a loyalty purge -- which Trump denied -- leaving the agency without confirmed leadership for nearly a year amid documented morale collapse and further departures.",
+      "confidence_note": "The firings and the vacancy's documented harms are well-corroborated; Loomer's precise role is contested, resting on her own claims against Trump's on-the-record denial."
     }
   },
   {
