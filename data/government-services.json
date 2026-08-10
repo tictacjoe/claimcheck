@@ -2536,6 +2536,62 @@
     }
   },
   {
+    "id": "drc-equateur-mystery-illness-usaid-cuts-2025",
+    "title": "USAID/CDC Staff Removals Slowed Response to an Unidentified Deadly Illness Cluster in DRC's Equateur Province -- Cause Never Definitively Confirmed",
+    "institution": "USAID (in dismantlement) / CDC global health security programs",
+    "domain": "staff_office_cuts",
+    "status": "Outbreak clusters resolved/contained by spring 2025; underlying cause never definitively confirmed",
+    "date_of_action": "2025-01 (USAID/CDC staff removed from DRC posts, CDC ordered to halt WHO collaboration) through 2025-03 (illness clusters investigated and contained)",
+    "what_changed": "Beginning in January 2025, two clusters of an unidentified illness caused a wave of deaths in the Bolomba and Basankusu health zones of DRC's Equateur province, eventually totaling roughly 2,969 reported cases and 66 deaths across both clusters. Wired reported that the USAID and CDC staff who would normally work directly with DRC's health ministry to identify and contain such an outbreak had been removed from their DRC posts as part of the agency's dismantlement, and that a separate January 2025 executive order required CDC to cease collaboration with the WHO -- reducing U.S. visibility into and support for the response. USAID had also supported the physical logistics of outbreak response, including training health workers on proper viral-sample storage/shipment and funding the transport of samples from remote areas to central labs; with that support degraded, identifying the cause took longer than it otherwise would have. Laboratory testing ruled out Ebola and Marburg virus disease. WHO and CDC investigators ultimately could not definitively confirm a single cause; leading hypotheses included bacterial meningitis and chemical or food-borne poisoning, with one thread of the investigation tracing part of the Bolomba cluster to three children who died after eating a bat carcass. The clusters were brought under control by late March 2025 without ever being conclusively attributed to a single pathogen or cause.",
+    "primary_proponent": {
+      "name": "Trump administration (USAID dismantlement and CDC-WHO collaboration halt)",
+      "role": "Executive branch policy removing USAID/CDC staff from DRC and ordering CDC to cease WHO collaboration, both in January 2025",
+      "note": "No single named official was identified in reporting reviewed as personally responsible for the DRC staff removals specifically, as distinct from the broader USAID dismantlement documented in this tracker's usaid-dismantlement-trump2.json entry."
+    },
+    "estimated_impact": {
+      "summary": "An unidentified illness killed dozens across two DRC health zones while the U.S. staff and logistics support that would normally accelerate identification and containment had just been withdrawn -- though because the cause was never conclusively determined, this entry cannot claim the cuts caused any specific number of deaths, only that they plausibly slowed the response to an outbreak whose nature remains undetermined to this day.",
+      "figures": [
+        {
+          "metric": "Combined reported cases, Bolomba and Basankusu clusters",
+          "value": "~2,969",
+          "source": "WHO Disease Outbreak News / CIDRAP situation reporting, March 2025"
+        },
+        {
+          "metric": "Combined reported deaths, Bolomba and Basankusu clusters",
+          "value": "66",
+          "source": "WHO Disease Outbreak News / CIDRAP situation reporting, March 2025"
+        }
+      ],
+      "caveat": "IMPORTANT -- this entry must not be conflated with this tracker's separate, later usaid-cdc-cuts-drc-ebola-response-2026.json entry, which documents a genuinely distinct, confirmed Ebola outbreak (Bundibugyo strain, Ituri province) detected in April 2026, over a year after this Equateur cluster resolved. Laboratory testing on this Equateur cluster specifically ruled out Ebola and Marburg; despite early 'Ebola-like symptoms' framing in initial press coverage, the true cause was never confirmed, with chemical/food-borne poisoning and bacterial meningitis as the leading unconfirmed hypotheses. Framing this as an Ebola story, or as the origin of the 2026 outbreak, would be a factual error -- this entry is corrected from that framing after independent verification found no evidence connecting the two events."
+    },
+    "confidence_note": "MODERATE-HIGH confidence on the structural facts (USAID/CDC staff removal from DRC, the CDC-WHO collaboration halt, and the logistics-support degradation), corroborated by Wired's on-the-ground reporting; the case/death figures are well-corroborated via WHO's own Disease Outbreak News situation reports and independent aggregation by CIDRAP and FluTrackers. LOW confidence on any claim that this was an Ebola outbreak or that it is connected to the later, separate 2026 DRC Ebola outbreak already tracked in this database -- independent verification (WHO reporting, CIDRAP, FluTrackers) confirms Ebola and Marburg were both ruled out and the true cause was never conclusively identified. Note for pilot assessment: this entry corrects a factual error in the agy research-brief pilot (batch 12), which reported with HIGH confidence and no caveat that this cluster 'was later identified in May 2026 as a major Ebola outbreak' -- that claim does not hold up under independent verification and should not be relied on without a live check.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "sources": [
+      {
+        "name": "Wired -- 'A Lethal Mystery Illness Spread in Congo. USAID Cuts Have Slowed the Response'",
+        "url": "https://www.wired.com/story/race-to-identify-drcs-mystery-illness-slowed-by-us-aid-cuts-democratic-republic-congo-usaid/"
+      },
+      {
+        "name": "CIDRAP -- 'Probe in DR Congo unexplained illness cluster shifts toward chemical or meningitis causes'",
+        "url": "https://www.cidrap.umn.edu/misc-emerging-topics/probe-dr-congo-unexplained-illness-cluster-shifts-toward-chemical-or"
+      },
+      {
+        "name": "WHO -- Disease Outbreak News, DRC unexplained illness, Equateur province",
+        "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON557"
+      },
+      {
+        "name": "CBS News -- 'Mystery disease in Congo may be from poisoned water source, WHO says'",
+        "url": "https://www.cbsnews.com/news/mystery-disease-congo-what-we-know/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "An unidentified illness killed dozens across two DRC health zones in early 2025, just after USAID/CDC staff were pulled from their DRC posts and CDC was ordered to stop working with WHO -- degrading the logistics support that normally speeds outbreak identification. The cause was never conclusively confirmed; Ebola and Marburg were ruled out.",
+      "estimated_impact": "Roughly 2,969 cases and 66 deaths across two health zones, with U.S. response capacity plausibly reduced right when it was needed -- but because the cause itself was never confirmed, no specific death toll can be attributed to the cuts.",
+      "confidence_note": "Well-corroborated on the structural staffing/logistics facts and case/death figures; low confidence on any Ebola link, which testing ruled out. Explicitly corrects a HIGH-confidence factual error from this tracker's agy research-brief pilot, which wrongly claimed this cluster was later identified as the 2026 Ebola outbreak."
+    }
+  },
+  {
     "id": "education-department-dismantlement-trump2",
     "title": "Department of Education Dismantled via Interagency Transfers, Without Congressional Approval",
     "institution": "U.S. Department of Education",
@@ -3646,6 +3702,57 @@
         "url": "https://www.aabb.org/news-resources/news/article/2026/05/20/szarama-departs-cber--karim-mikhail-named-acting-director"
       }
     ]
+  },
+  {
+    "id": "fda-drug-review-support-staff-cuts-2025",
+    "title": "FDA Loses ~3,500 Staff in April 2025 Purge -- Pharma Industry Warns of Delays, Though Drug-Review Deadlines Largely Held",
+    "institution": "Food and Drug Administration (FDA), Department of Health and Human Services",
+    "domain": "staff_office_cuts",
+    "status": "Implemented -- April 2025 terminations, effects assessed through 2025",
+    "date_of_action": "2025-03 (industry warnings begin) through 2025-04 (HHS terminates ~3,500 FDA employees)",
+    "what_changed": "Starting in March 2025, multiple pharmaceutical companies' SEC filings warned that Trump-administration budget and staffing cuts at the FDA could delay drug research, review, and commercialization -- an early, industry-side signal distinct from the agency's own later, larger staffing action. In April 2025, HHS terminated approximately 3,500 FDA employees as part of the department-wide reduction, this time hitting support and policy staff broadly across the agency rather than the narrower food-safety/device/tobacco-specific cuts already documented in this tracker's separate February 2025 entry. Despite the cuts, an analysis of 2025 performance data found FDA reviewers largely met their statutory PDUFA (Prescription Drug User Fee Act) deadlines for new drug application reviews. The more concrete, documented impact was a decline in FDA responsiveness to non-essential inquiries, with Endpoints News reporting some meetings between drug developers and FDA reviewers were missed or postponed due to reviewer shortages.",
+    "primary_proponent": {
+      "name": "U.S. Department of Health and Human Services",
+      "role": "Parent department directing the April 2025 FDA-wide staff reduction",
+      "note": "No single named official was identified in sourcing reviewed as personally directing this specific round of FDA cuts, distinct from the food-safety/device/tobacco cuts already attributed institutionally to HHS in this tracker's separate February 2025 entry."
+    },
+    "estimated_impact": {
+      "summary": "Roughly 3,500 FDA staff lost their jobs in April 2025, and industry itself flagged the risk of drug-development delays in advance -- but the agency's core statutory drug-review deadlines largely held, with the documented harm concentrated in reduced responsiveness to non-essential inquiries and some missed or postponed developer meetings rather than delayed approvals themselves.",
+      "figures": [
+        {
+          "metric": "FDA employees terminated, April 2025",
+          "value": "~3,500",
+          "source": "STAT News, March 27, 2025; corroborated by Skadden's April 2025 client memo"
+        }
+      ],
+      "caveat": "This entry deliberately does not claim drug approvals themselves were delayed -- 2025 performance data indicates PDUFA review-deadline compliance was largely maintained. The defensible, sourced claim is narrower: staff losses reduced the agency's responsiveness outside its statutory core function, with concrete reporting of missed/postponed developer meetings, even as the headline approval-delay fear industry voiced in March 2025 did not clearly materialize in the data reviewed."
+    },
+    "confidence_note": "HIGH confidence on the staffing figure (~3,500) and the general fact of industry concern (multiple companies' SEC filings, a formal disclosure requiring good-faith basis). MODERATE confidence on downstream impact -- responsiveness decline and missed meetings are corroborated by Endpoints News trade reporting, but the more dramatic approval-delay concern that prompted the original industry warnings is contradicted, not confirmed, by the 2025 PDUFA performance data reviewed. Kept deliberately distinct from this tracker's existing fda-food-safety-device-tobacco-staff-cuts-2025.json entry, which documents an earlier (February 2025), narrower round of cuts specifically to food-safety/device/tobacco review staff as part of a 5,200-worker HHS-wide purge -- this entry's April 2025 terminations are a separate, larger, later action.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "sources": [
+      {
+        "name": "Wired -- 'Trump's FDA Cuts Could Delay Drug Development, Experts Warn'",
+        "url": "https://www.wired.com/story/trump-fda-cuts-drug-development-delays/"
+      },
+      {
+        "name": "STAT News -- 'HHS cuts to include 3,500 FDA layoffs, workers to be notified Friday'",
+        "url": "https://www.statnews.com/2025/03/27/hhs-job-cuts-include-3500-fda-layoffs-anxious-workers-await-friday-layoff-notices/"
+      },
+      {
+        "name": "Skadden -- 'Mass Layoffs at FDA Could Have the Greatest Impact on Products in Development'",
+        "url": "https://www.skadden.com/insights/publications/2025/04/trump-administrations-first-100-days/mass-layoffs-at-fda"
+      },
+      {
+        "name": "Endpoints News -- '2025's huge FDA staff cuts mostly didn't impact new drug review timelines, analysis finds'",
+        "url": "https://endpoints.news/fda-staff-cuts-mostly-didnt-impact-new-drug-review-timelines-analysis-finds/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "HHS terminated about 3,500 FDA staff in April 2025, after pharma companies' SEC filings had already flagged the risk of drug-development delays -- a separate, later, broader action than this tracker's existing February 2025 food-safety/device/tobacco staff-cuts entry.",
+      "estimated_impact": "Despite the cuts, FDA largely met its statutory drug-review deadlines in 2025; the documented harm was narrower -- reduced responsiveness to non-essential inquiries and some missed or postponed developer meetings.",
+      "confidence_note": "HIGH confidence on the headcount and industry-concern facts; MODERATE on downstream impact, since the specific approval-delay fear that prompted industry's original warning was not borne out by 2025 performance data."
+    }
   },
   {
     "id": "fda-food-safety-device-tobacco-staff-cuts-2025",
@@ -10465,6 +10572,62 @@
     "last_updated": "2026-07-28"
   },
   {
+    "id": "state-dept-embassy-air-quality-monitoring-ended-2025",
+    "title": "State Department Ends 17-Year Global Embassy Air-Quality Monitoring Program, Erasing Historical Data and the Only Independent Pollution Data Many Countries Had",
+    "institution": "U.S. Department of State",
+    "domain": "data_collection_halted",
+    "status": "Implemented -- program ended March 4, 2025, historical data subsequently removed from AirNow.gov",
+    "date_of_action": "2025-03-04",
+    "what_changed": "The State Department ended a 17-year-old program that used air-quality sensors at more than 80 U.S. embassies and consulates worldwide to monitor pollution levels, citing 'funding constraints that have caused the Department to turn off the underlying network.' The program had provided real-time, validated air-quality data to the public via AirNow.gov and, for many countries with limited or unreliable government monitoring of their own, was the only independent source of that data. The Beijing embassy's monitor, launched in 2008, was historically credited with embarrassing Chinese officials into greater transparency and stronger air-quality policy -- reporting on the program's shutdown noted this same catalytic effect had extended to other countries over the years. Following the shutdown, roughly 17 years of accumulated historical air-quality data were removed from AirNow.gov, eliminating a public-health and research benchmark, not just halting future collection. Embassies were reportedly directed to keep the physical sensors running in some cases, but public data transmission and reporting ceased.",
+    "primary_proponent": {
+      "name": "U.S. Department of State",
+      "role": "Directed the program's termination, citing budget constraints",
+      "note": "No single named individual was identified in reporting reviewed as personally directing this decision; attributed institutionally to the State Department given its own public 'funding constraints' statement."
+    },
+    "estimated_impact": {
+      "summary": "Ended the only independent, real-time air-quality data source available in many countries with weak government monitoring, and erased 17 years of historical data used as a public-health and research benchmark -- while also removing a program with a documented history of pressuring foreign governments toward greater transparency and stronger pollution policy.",
+      "figures": [
+        {
+          "metric": "Embassies/consulates covered by the program at shutdown",
+          "value": "80+",
+          "source": "Washington Post, March 4, 2025"
+        },
+        {
+          "metric": "Years of historical program data removed from AirNow.gov",
+          "value": "~17",
+          "source": "IQAir / Centre for Research on Energy and Clean Air analysis, 2025"
+        }
+      ],
+      "caveat": "This entry documents the program's termination and the removal of its historical data as reported; it does not independently quantify downstream health effects (e.g., excess pollution exposure) attributable to the loss of monitoring, which would require separate epidemiological research beyond what sourcing reviewed here establishes."
+    },
+    "confidence_note": "HIGH confidence -- corroborated by the State Department's own public statement, contemporaneous reporting from the Washington Post, CBS News, and NBC News, and an independent post-shutdown data analysis from IQAir/CREA documenting the historical-data removal specifically.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "sources": [
+      {
+        "name": "Washington Post -- 'State Department shutters global air pollution monitoring program'",
+        "url": "https://www.washingtonpost.com/climate-environment/2025/03/04/state-department-air-pollution-embassies/"
+      },
+      {
+        "name": "CBS News -- 'State Department suspends reporting air quality levels staff and families relied on overseas'",
+        "url": "https://www.cbsnews.com/news/state-department-stops-reporting-air-quality-levels/"
+      },
+      {
+        "name": "NBC News -- 'U.S. embassies end air pollution monitoring that spurred China and others to action'",
+        "url": "https://www.nbcnews.com/news/world/us-embassies-end-air-pollution-monitoring-spurred-china-others-action-rcna194825"
+      },
+      {
+        "name": "IQAir / Centre for Research on Energy and Clean Air -- 'Defunding U.S. Embassy air quality monitoring and its global consequences'",
+        "url": "https://www.iqair.com/us/newsroom/defunding-us-embassy-air-quality-monitoring-and-its-global-consequences"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "The State Department shut down its 17-year-old embassy air-quality monitoring program on March 4, 2025, citing budget constraints -- ending real-time public data from 80+ posts worldwide and later removing 17 years of accumulated historical data from AirNow.gov.",
+      "estimated_impact": "Many countries lost the only independent, real-time air-quality data source they had; the program (notably in Beijing) had a documented history of pressuring foreign governments toward transparency and stronger pollution policy.",
+      "confidence_note": "Strongly corroborated across the State Department's own statement and multiple independent outlets, plus a dedicated post-shutdown data-loss analysis."
+    }
+  },
+  {
     "id": "state-dept-library-passport-services-2026",
     "title": "State Department Ordered Nonprofit Public Libraries to Stop Processing Passport Applications, Affecting ~1,400 Libraries",
     "institution": "U.S. Department of State",
@@ -10997,7 +11160,7 @@
     "domain": "staff_office_cuts",
     "status": "Operationally dissolved (July 1, 2025) but legally unresolved -- USAID was made an independent agency by Congress in 1998 and can only be formally abolished by an act of Congress, which has not occurred",
     "date_of_action": "2025-01-24 (foreign aid freeze ordered) through 2025-07-01 (official dissolution and merger into State Department)",
-    "what_changed": "On his first days in office, Trump ordered a near-total freeze on foreign aid, and within weeks the administration placed most USAID employees on administrative leave. By March 10, 2025, Secretary of State Rubio announced 83% of USAID's programs (roughly 5,200 contracts) had been terminated following an internal review; on March 28 he formally notified Congress that USAID would be dissolved and its remaining functions absorbed into the State Department. USAID officially ceased independent operations on July 1, 2025, after 63 years. Staffing was reduced from over 10,000 employees to fewer than 300. USAID's own Inspector General issued a report warning the spending pause and staff furloughs limited the agency's ability to ensure funds didn't reach terrorist-linked recipients, and separately warned that $489 million in humanitarian food aid risked spoiling due to the furloughs; the White House Office of Presidential Personnel fired that Inspector General less than 30 minutes after the report's publication -- despite a federal law requiring 30 days' advance notice to Congress before removing an inspector general. A significant, largely unresolved legal question underlies the entire action: USAID was reorganized by Congress as an independent agency in 1998 specifically to give it statutory protection, and per that same statute can only be formally abolished by an act of Congress -- which has not happened. USAID therefore legally still exists even though it has been operationally dissolved. On the litigation front, the D.C. Circuit held oral argument on April 23, 2026 (before Judges Srinivasan, Pillard, and Pan) on the appeal of the core USAID dismantlement case; no ruling had issued as of this update. In a related case, briefing continues on a schedule running into summer 2026, with the government's reply brief due July 31, 2026. Separately, a federal court in Maryland denied efforts to block depositions of Elon Musk and other DOGE-linked officials in a class-action suit over USAID's shutdown; that case is proceeding through discovery. Re-verified 2026-07-26: no ruling identified yet from the D.C. Circuit panel (Srinivasan, Pillard, Pan) that heard oral argument April 23, 2026; the appeal remains undecided and USAID's operational/legal status is unchanged from the prior update. Added 2026-07-27: former USAID Administrator Samantha Power said in a Bloomberg interview that she does not believe the Ebola outbreak spreading across the Democratic Republic of the Congo and Uganda -- which has killed more than 400 people -- would be spiraling as it has if USAID had not been dismantled, citing the loss of the agency's early-warning disease-surveillance systems and cold-chain infrastructure (whose degradation contributed to delayed detection, since transported swab samples were no longer reliably preserved). The administration's separate withdrawal from the World Health Organization compounded the effect by removing another layer of international outbreak-response coordination. This is presented as a concrete, on-the-ground consequence of the dismantlement documented above, not a new or separate action.",
+    "what_changed": "On his first days in office, Trump ordered a near-total freeze on foreign aid, and within weeks the administration placed most USAID employees on administrative leave. By March 10, 2025, Secretary of State Rubio announced 83% of USAID's programs (roughly 5,200 contracts) had been terminated following an internal review; on March 28 he formally notified Congress that USAID would be dissolved and its remaining functions absorbed into the State Department. USAID officially ceased independent operations on July 1, 2025, after 63 years. Staffing was reduced from over 10,000 employees to fewer than 300. USAID's own Inspector General issued a report warning the spending pause and staff furloughs limited the agency's ability to ensure funds didn't reach terrorist-linked recipients, and separately warned that $489 million in humanitarian food aid risked spoiling due to the furloughs; the White House Office of Presidential Personnel fired that Inspector General less than 30 minutes after the report's publication -- despite a federal law requiring 30 days' advance notice to Congress before removing an inspector general. A significant, largely unresolved legal question underlies the entire action: USAID was reorganized by Congress as an independent agency in 1998 specifically to give it statutory protection, and per that same statute can only be formally abolished by an act of Congress -- which has not happened. USAID therefore legally still exists even though it has been operationally dissolved. On the litigation front, the D.C. Circuit held oral argument on April 23, 2026 (before Judges Srinivasan, Pillard, and Pan) on the appeal of the core USAID dismantlement case; no ruling had issued as of this update. In a related case, briefing continues on a schedule running into summer 2026, with the government's reply brief due July 31, 2026. Separately, a federal court in Maryland denied efforts to block depositions of Elon Musk and other DOGE-linked officials in a class-action suit over USAID's shutdown; that case is proceeding through discovery. Re-verified 2026-07-26: no ruling identified yet from the D.C. Circuit panel (Srinivasan, Pillard, Pan) that heard oral argument April 23, 2026; the appeal remains undecided and USAID's operational/legal status is unchanged from the prior update. Added 2026-07-27: former USAID Administrator Samantha Power said in a Bloomberg interview that she does not believe the Ebola outbreak spreading across the Democratic Republic of the Congo and Uganda -- which has killed more than 400 people -- would be spiraling as it has if USAID had not been dismantled, citing the loss of the agency's early-warning disease-surveillance systems and cold-chain infrastructure (whose degradation contributed to delayed detection, since transported swab samples were no longer reliably preserved). The administration's separate withdrawal from the World Health Organization compounded the effect by removing another layer of international outbreak-response coordination. This is presented as a concrete, on-the-ground consequence of the dismantlement documented above, not a new or separate action. Added 2026-08-10: Rubio's 'no one has died' claim was not the only official denial contradicted by the record -- Mother Jones reported in June 2025 that internal State Department cables reviewed by the outlet documented lifesaving HIV treatment programs in Lesotho and food-aid programs in Malawi being cut as a direct result of the dismantlement, with diplomats warning of resulting deaths, hunger, and trafficking risk. That reporting directly contradicts Elon Musk's own public claim, made while leading the DOGE effort that drove the cuts, that 'zero people have died' as a result.",
     "primary_proponent": {
       "name": "Marco Rubio",
       "role": "Secretary of State",
@@ -11044,13 +11207,13 @@
       ],
       "caveat": "The State Department disputes the Lancet methodology directly and sharply -- a senior official called it a 'failed journal' and said such studies reflect 'outdated thinking.' This is a genuinely disputed empirical question about mortality modeling, not merely a political disagreement, and modelers themselves (including ones unaffiliated with the study) caution the precise death-toll numbers carry real uncertainty even while endorsing the general conclusion. Separately, the administration's own stated justification (that USAID had significant oversight and accountability failures) has some independent support -- USAID itself failed to conduct legally-required financial reviews for over 70% of the international organizations receiving its funding in 2023, per the agency's own inspector general -- though fact-checkers found most of the administration's specific waste examples cited publicly were false or highly misleading."
     },
-    "confidence_note": "Exceptionally strong sourcing across the full political spectrum of outlets (NPR, CNN, ABC News, Newsweek) plus a peer-reviewed medical journal (The Lancet) with two independent studies a year apart, plus USAID's own Inspector General's report before that office was itself eliminated. The legal status question (independent agency status under the 1998 statute) is a matter of public record, not interpretation. Rubio's 'no one has died' claim and the mortality studies represent a genuine, sourced factual conflict -- present both sides with their actual sourcing rather than treating either claim as simply settled. Re-verified 2026-07-20: no material change to USAID's operational or legal status -- still operationally dissolved, still legally unresolved. Litigation is active but slow-moving (argued in April 2026, undecided as of this update); the Musk deposition development is a discovery-stage procedural win for plaintiffs, not a ruling on the merits. Re-verified 2026-07-26: no material change to report. Added 2026-07-27: the Ebola/Power reporting is corroborated across Bloomberg (Power's own on-record interview), CNN, The Hill, and CNBC; it is presented as attributed expert opinion linking a real, ongoing outbreak to the dismantlement documented in this entry, not as an independently adjudicated causal finding.",
+    "confidence_note": "Exceptionally strong sourcing across the full political spectrum of outlets (NPR, CNN, ABC News, Newsweek) plus a peer-reviewed medical journal (The Lancet) with two independent studies a year apart, plus USAID's own Inspector General's report before that office was itself eliminated. The legal status question (independent agency status under the 1998 statute) is a matter of public record, not interpretation. Rubio's 'no one has died' claim and the mortality studies represent a genuine, sourced factual conflict -- present both sides with their actual sourcing rather than treating either claim as simply settled. Re-verified 2026-07-20: no material change to USAID's operational or legal status -- still operationally dissolved, still legally unresolved. Litigation is active but slow-moving (argued in April 2026, undecided as of this update); the Musk deposition development is a discovery-stage procedural win for plaintiffs, not a ruling on the merits. Re-verified 2026-07-26: no material change to report. Added 2026-07-27: the Ebola/Power reporting is corroborated across Bloomberg (Power's own on-record interview), CNN, The Hill, and CNBC; it is presented as attributed expert opinion linking a real, ongoing outbreak to the dismantlement documented in this entry, not as an independently adjudicated causal finding. Added 2026-08-10: the Mother Jones cable reporting is a single-outlet source but is grounded in internal State Department cables, not commentary or secondhand accounts -- a primary-source-adjacent document type this tracker weights strongly. It documents a second official's (Musk's) public denial contradicted by the internal record, alongside Rubio's already-documented 'no one has died' claim.",
     "section_summaries": {
       "what_changed": "USAID was operationally shuttered and absorbed into State after a near-total funding freeze shrank its staff by more than 97% -- though legally, only Congress can abolish it, and hasn't. Former Administrator Samantha Power has since linked the dismantlement to a worsening Ebola outbreak in the DRC and Uganda.",
       "estimated_impact": "A peer-reviewed Lancet study credited this funding with preventing tens of millions of deaths and projected millions more by 2030 if the cuts hold, calling the toll avoidable, not inevitable; a 2026 Ebola outbreak (400+ deaths) is cited as a concrete real-world instance of that lost capacity.",
       "confidence_note": "Exceptionally strong sourcing, including two independent peer-reviewed medical studies and the agency's own Inspector General; official statements and the death-toll research genuinely disagree -- present both. The Ebola link is attributed expert opinion, well-corroborated but not an adjudicated causal finding."
     },
-    "last_verified": "2026-07-27",
+    "last_verified": "2026-08-10",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -11088,9 +11251,13 @@
       {
         "name": "The Hill — Donald Trump's USAID, WHO cuts impact Ebola response",
         "url": "https://thehill.com/policy/healthcare/5892230-ebola-outbreak-trump-cuts/"
+      },
+      {
+        "name": "Mother Jones — State Department cables reveal deadly consequences of Musk's USAID dismantling (PEPFAR, Lesotho, Malawi)",
+        "url": "https://www.motherjones.com/politics/2025/06/state-department-cables-pepfar-lesotho-malawi-usaid-elon-musk/"
       }
     ],
-    "last_updated": "2026-07-27"
+    "last_updated": "2026-08-10"
   },
   {
     "id": "usda-bird-flu-response-staff-accidental-firing-2025",
@@ -11632,16 +11799,16 @@
     "title": "VA Fires Thousands of Staff -- Including PTSD Specialists and Crisis-Line Staffers -- With Plans Reported to Cut Up to 80,000 Positions",
     "institution": "Department of Veterans Affairs (VA)",
     "domain": "staff_office_cuts",
-    "status": "Escalating through the reported period -- an initial 1,000-person firing grew to a confirmed 3,700 within a week, with reporting of a much larger planned reduction (up to 80,000) by summer 2025; this entry documents the initial firing wave and reported plans, distinct from this database's separately-tracked entry on the VA's later-documented OIG staffing-shortage findings",
-    "date_of_action": "2025-02-20 through 2025-03-11 (reported plans for a further, larger reduction)",
-    "what_changed": "On February 20, 2025, Military Times reported the VA had fired 1,000 probationary staffers under the administration's efficiency push, with officials not clarifying which specific roles were cut or whether further firings were planned -- prompting concern from veterans' advocates and lawmakers over the lack of transparency. By February 28, Rolling Stone reported the confirmed total had grown to 3,700 employees, including PTSD specialists and crisis-line staffers -- positions directly tied to veteran mental-health and suicide-prevention services -- with reporting that up to 50,000 veterans could lose VA-connected jobs as a downstream effect; the same reporting described roughly $2 billion in VA contract cuts affecting veteran-owned businesses. By March 11, Rolling Stone reported the administration was preparing to fire as many as 80,000 VA employees over the summer of 2025, which the reporting characterized as effectively dismantling the VA's public healthcare delivery system.",
+    "status": "Resolved as a large-scale RIF -- the planned 80,000-83,000-position mass layoff was formally dropped in July/August 2025 after internal and external pushback; the VA instead pursued a smaller ~30,000-position reduction via attrition, retirements, and resignations. This entry documents the initial firing wave, the escalating planned-cut reporting, and its eventual outcome, distinct from this database's separately-tracked entry on the VA's later-documented OIG staffing-shortage findings",
+    "date_of_action": "2025-02-20 (initial firings) through 2025-08 (80,000-position RIF plan formally dropped)",
+    "what_changed": "On February 20, 2025, Military Times reported the VA had fired 1,000 probationary staffers under the administration's efficiency push, with officials not clarifying which specific roles were cut or whether further firings were planned -- prompting concern from veterans' advocates and lawmakers over the lack of transparency. By February 28, Rolling Stone reported the confirmed total had grown to 3,700 employees, including PTSD specialists and crisis-line staffers -- positions directly tied to veteran mental-health and suicide-prevention services -- with reporting that up to 50,000 veterans could lose VA-connected jobs as a downstream effect; the same reporting described roughly $2 billion in VA contract cuts affecting veteran-owned businesses. By March 6, an internal VA memo reported by the Associated Press and Military.com described an 'initial objective' of cutting 80,000 positions -- including some tied to PACT Act-driven expansions supporting veterans exposed to burn pits -- through an agency-wide reorganization targeted for August 2025; by late May, Washington Post reporting put the figure at 83,000 (15% of the workforce) amid mounting morale collapse and early-retirement panic. Following sustained opposition from Democratic lawmakers, veterans' groups, and VA officials who raised concerns internally, the VA formally scrapped the large-scale reduction-in-force plan, per an agency memo obtained by CBS News. In its place, the VA's own August 2025 announcement said it would reduce staff by nearly 30,000 positions by the end of FY2025 (from roughly 484,000 employees on January 1, 2025, to a planned ~455,000), almost entirely through attrition, voluntary early retirement, and the deferred resignation program rather than involuntary layoffs.",
     "primary_proponent": {
       "name": "Department of Government Efficiency (DOGE)",
       "role": "Directed the VA workforce reductions as part of its broader efficiency campaign",
       "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing the VA-specific cuts; attributed to DOGE's broader, administration-directed workforce-reduction campaign."
     },
     "estimated_impact": {
-      "summary": "A rapidly escalating reduction in VA staffing, including direct cuts to veteran mental-health and crisis-response roles, with reported plans for a subsequent reduction an order of magnitude larger than the initial firings",
+      "summary": "A rapidly escalating reduction in VA staffing, including direct cuts to veteran mental-health and crisis-response roles, that peaked with a planned 80,000-83,000-position mass layoff before being scrapped in favor of a smaller reduction achieved through attrition rather than involuntary firings.",
       "figures": [
         {
           "metric": "Initial probationary firings (Feb 20)",
@@ -11659,15 +11826,25 @@
           "source": "Rolling Stone (2025-02-28)"
         },
         {
-          "metric": "Reported planned VA workforce reduction by summer 2025",
-          "value": "up to 80,000",
-          "source": "Rolling Stone (2025-03-11)"
+          "metric": "Internal memo's 'initial objective' RIF target (March 2025)",
+          "value": "80,000",
+          "source": "AP / Military.com (2025-03-06)"
+        },
+        {
+          "metric": "Later reported target, 15% of workforce (May 2025)",
+          "value": "83,000",
+          "source": "Washington Post (2025-05-27)"
+        },
+        {
+          "metric": "Actual planned reduction after the RIF plan was dropped, via attrition/retirement/resignation",
+          "value": "~30,000 (484,000 to ~455,000 employees)",
+          "source": "VA press release (news.va.gov); CBS News, August 2025"
         }
       ],
-      "caveat": "The 80,000-position figure is reported as a plan, not a confirmed completed action, as of the March 11, 2025 reporting -- this tracker's separately-maintained VA staffing-shortage entry (based on the VA's own OIG survey, March-August 2025) should be checked for whether that planned reduction was in fact carried out at that scale; this entry documents the initial firing wave and the reported plan as distinct, earlier facts."
+      "caveat": "The 80,000-83,000-position mass-layoff figures were reported as a plan, corroborated by an internal memo (AP/Military.com) and later Washington Post reporting -- but that plan was formally dropped by August 2025 after internal and external pushback; the VA's actual staffing reduction was roughly a third of the size, achieved through voluntary attrition rather than involuntary RIF. This tracker's separately-maintained VA staffing-shortage entry (based on the VA's own OIG survey) documents the resulting service-delivery effects."
     },
-    "confidence_note": "MODERATE-HIGH confidence on the confirmed February firings (1,000, then 3,700), corroborated by Military Times and Rolling Stone reporting different but consistent figures a week apart. LOWER confidence on the 80,000-position and $2 billion figures, which rest on Rolling Stone's opinion/commentary-labeled reporting rather than straight news reporting -- worth independent verification if these specific figures are relied on heavily in debate.",
-    "last_verified": "2026-08-08",
+    "confidence_note": "HIGH confidence on the confirmed February firings (1,000, then 3,700) and the 80,000-position internal-memo figure, corroborated across Military Times, Rolling Stone, AP, and Military.com. HIGH confidence on the outcome -- the RIF plan's cancellation and the ~30,000 attrition-based reduction are documented by the VA's own press release and independently corroborated by CBS News and Federal News Network. The $2 billion contract-cut figure remains LOWER confidence, resting on Rolling Stone's opinion/commentary-labeled reporting rather than straight news reporting.",
+    "last_verified": "2026-08-10",
     "date_added": "2026-08-08",
     "sources": [
       {
@@ -11681,8 +11858,29 @@
       {
         "name": "Rolling Stone -- Trump, Musk, stealing the American dream, veterans",
         "url": "https://www.rollingstone.com/politics/political-commentary/trump-musk-stealing-american-dream-veterans-1235292821/"
+      },
+      {
+        "name": "AP -- Veterans Affairs cuts, DOGE, Musk, Trump",
+        "url": "https://apnews.com/article/veterans-affairs-cuts-doge-musk-trump-f587a6bc3db6a460e9c357592e165712"
+      },
+      {
+        "name": "Federal News Network -- 'Here's how VA envisioned cutting 83,000 employees before scrapping its plans'",
+        "url": "https://federalnewsnetwork.com/veterans-affairs/2025/08/heres-how-va-envisioned-cutting-83000-employees-before-scrapping-its-plans/"
+      },
+      {
+        "name": "VA News -- 'VA to reduce staff by nearly 30K by end of FY2025'",
+        "url": "https://news.va.gov/press-room/va-to-reduce-staff-by-nearly-30k-by-end-of-fy2025/"
+      },
+      {
+        "name": "CBS News -- 'Veterans Affairs drops plan to lay off thousands in August'",
+        "url": "https://www.cbsnews.com/news/veterans-affairs-drops-plan-to-lay-off-thousands-in-august"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "VA firings escalated from 1,000 (Feb 20) to 3,700 (Feb 28) to an internally documented 80,000-83,000-position mass-layoff plan (March-May 2025), before the VA formally dropped that plan by August 2025 under pressure and instead pursued a ~30,000-position reduction through attrition.",
+      "estimated_impact": "The confirmed firing wave directly hit mental-health and crisis-response roles; the eventual staffing reduction (~30,000) was roughly a third of what was originally planned (80,000-83,000), achieved through voluntary departures rather than involuntary RIF.",
+      "confidence_note": "HIGH confidence throughout, including the outcome, which is documented by the VA's own press release and independently corroborated. The $2B contract-cut figure remains lower confidence, resting on commentary-labeled reporting."
+    }
   },
   {
     "id": "va-vasp-mortgage-rescue-shutdown-2026",
@@ -12065,7 +12263,7 @@
     "domain": "data_collection_halted",
     "status": "Ongoing structural condition as of May 2026 reporting -- the U.S. formally left WHO in January 2026 and has not rejoined",
     "date_of_action": "2026-01 (U.S. formal withdrawal from WHO takes effect) through 2026-05 (reporting on the resulting surveillance-access gap, illustrated by a hantavirus cluster on the M/V Hondius cruise ship)",
-    "what_changed": "Following the U.S.'s formal withdrawal from the World Health Organization in January 2026, health officials told NBC News that the U.S. no longer has immediate access to WHO-coordinated surveillance and contact-tracing information the way it did as a member state. CDC experts are no longer part of the international teams sequencing pathogens during multi-country outbreaks, meaning U.S. public health officials now learn sequencing results secondhand rather than in real time. In February 2026, Trump officials proposed spending $2 billion per year to build an alternative, U.S.-run global disease-surveillance and outbreak-response system to replace the WHO-coordinated access lost by withdrawal -- a tacit acknowledgment of the surveillance gap this entry documents, though the proposal's funding and implementation status remained unresolved as of the reporting reviewed. This structural loss of direct access was illustrated during a May 2026 multi-country hantavirus cluster linked to a cruise ship (the M/V Hondius), where experts said the U.S. might not get immediate access to surveillance data or contact-tracing information on passengers, even though -- as the same reporting noted -- no hantavirus cases in the United States were ultimately associated with that specific outbreak. CNN reported in May 2026 that the administration went further than the structural membership loss described above: NIAID officials were formally barred from directly communicating with WHO during active outbreak response, a restriction in place since the hantavirus/M.V. Hondius cluster and only partially relaxed as the DRC Ebola outbreak grew. Per a May 18, 2026 internal NIAID email, officials may now attend virtual WHO meetings only in small groups and only in a 'listening capacity'; any needed follow-up is routed through HHS political leadership rather than handled directly by NIAID's own scientists.",
+    "what_changed": "Following the U.S.'s formal withdrawal from the World Health Organization in January 2026, health officials told NBC News that the U.S. no longer has immediate access to WHO-coordinated surveillance and contact-tracing information the way it did as a member state. CDC experts are no longer part of the international teams sequencing pathogens during multi-country outbreaks, meaning U.S. public health officials now learn sequencing results secondhand rather than in real time. In February 2026, Trump officials proposed spending $2 billion per year to build an alternative, U.S.-run global disease-surveillance and outbreak-response system to replace the WHO-coordinated access lost by withdrawal -- a tacit acknowledgment of the surveillance gap this entry documents, though the proposal's funding and implementation status remained unresolved as of the reporting reviewed. This structural loss of direct access was illustrated during a May 2026 multi-country hantavirus cluster linked to a cruise ship (the M/V Hondius), where experts said the U.S. might not get immediate access to surveillance data or contact-tracing information on passengers, even though -- as the same reporting noted -- no hantavirus cases in the United States were ultimately associated with that specific outbreak. CNN reported in May 2026 that the administration went further than the structural membership loss described above: NIAID officials were formally barred from directly communicating with WHO during active outbreak response, a restriction in place since the hantavirus/M.V. Hondius cluster and only partially relaxed as the DRC Ebola outbreak grew. Per a May 18, 2026 internal NIAID email, officials may now attend virtual WHO meetings only in small groups and only in a 'listening capacity'; any needed follow-up is routed through HHS political leadership rather than handled directly by NIAID's own scientists. Added 2026-08-10: the funding side of the withdrawal produced its own, earlier consequence for WHO's own operating capacity -- The Guardian reported in November 2025 that WHO announced it would eliminate more than 2,000 jobs, about 22% of its global workforce, after the loss of U.S. funding created a $1.06 billion budget shortfall, with the agency cutting its management team in half and scaling back core health operations worldwide. This predates the formal January 2026 withdrawal documented above and reflects WHO's own institutional capacity loss as a direct funding consequence, distinct from the structural surveillance-access loss that followed formal withdrawal.",
     "primary_proponent": {
       "name": "Donald Trump",
       "role": "President",
@@ -12076,8 +12274,8 @@
       "figures": [],
       "caveat": "This entry documents a structural loss of direct access and coordination, not a claim that any specific outbreak response was mishandled as a result -- the hantavirus cluster cited here resulted in no confirmed U.S. cases, and this entry should not be read to assert that the surveillance-access gap caused a specific harmful outcome in that instance. Update 2026-08-02: beyond the passive loss of automatic access described above, reporting also documents an active administration directive restricting NIAID scientists to listening-only participation in WHO outbreak-response meetings, with follow-up routed through HHS political leadership -- a deliberate policy choice layered on top of the structural withdrawal, not merely its passive consequence."
     },
-    "confidence_note": "HIGH confidence on the structural fact (U.S. withdrawal from WHO, and the resulting loss of direct surveillance/sequencing access) -- reported by NBC News citing named health officials, and consistent with the well-documented January 2026 WHO withdrawal itself. This entry deliberately avoids the separate, weaker claim (raised elsewhere in press coverage and flagged by Snopes as misleading) that CDC staffing cuts specifically delayed the response to this hantavirus cluster -- that causal claim is not repeated here. Re-verified 2026-08-02: CNN's reporting on the NIAID listening-only restriction, corroborated by US News, HealthDay, and other outlets citing the same internal May 18, 2026 email, documents an active administration policy choice restricting scientist communication, distinct from and in addition to the passive membership-loss effect already documented in this entry. Reordered 2026-08-06 (chronology cleanup, no new facts): the February 2026 alternative-surveillance-system proposal had been placed after May 2026 content; no facts were added, removed, or altered, only reordered to match actual event dates.",
-    "last_verified": "2026-08-06",
+    "confidence_note": "HIGH confidence on the structural fact (U.S. withdrawal from WHO, and the resulting loss of direct surveillance/sequencing access) -- reported by NBC News citing named health officials, and consistent with the well-documented January 2026 WHO withdrawal itself. This entry deliberately avoids the separate, weaker claim (raised elsewhere in press coverage and flagged by Snopes as misleading) that CDC staffing cuts specifically delayed the response to this hantavirus cluster -- that causal claim is not repeated here. Re-verified 2026-08-02: CNN's reporting on the NIAID listening-only restriction, corroborated by US News, HealthDay, and other outlets citing the same internal May 18, 2026 email, documents an active administration policy choice restricting scientist communication, distinct from and in addition to the passive membership-loss effect already documented in this entry. Reordered 2026-08-06 (chronology cleanup, no new facts): the February 2026 alternative-surveillance-system proposal had been placed after May 2026 content; no facts were added, removed, or altered, only reordered to match actual event dates. Added 2026-08-10: the WHO staff-cut figure is well-corroborated (The Guardian, citing WHO's own announcement) and adds a concrete institutional-capacity number to this entry's existing surveillance-access-loss claim.",
+    "last_verified": "2026-08-10",
     "date_added": "2026-07-28",
     "sources": [
       {
@@ -12087,10 +12285,14 @@
       {
         "name": "Washington Post -- 'Trump officials propose $2 billion alternative to WHO surveillance'",
         "url": "https://www.washingtonpost.com/health/2026/02/19/alternative-world-health-organization-proposal/"
+      },
+      {
+        "name": "The Guardian -- 'World Health Organisation to cut jobs due to US withdrawing funding'",
+        "url": "https://www.theguardian.com/world/2025/nov/19/world-health-organisation-to-cut-jobs-due-to-us-withdrawing-funding"
       }
     ],
     "section_summaries": {
-      "what_changed": "Since the U.S. left WHO in January 2026, CDC no longer gets direct, real-time access to international outbreak surveillance and sequencing data -- it now learns results secondhand. Officials later proposed a $2B/year alternative surveillance system, implicitly acknowledging the gap; funding/implementation status remained unresolved.",
+      "what_changed": "Since the U.S. left WHO in January 2026, CDC no longer gets direct, real-time access to international outbreak surveillance and sequencing data -- it now learns results secondhand. Officials later proposed a $2B/year alternative surveillance system, implicitly acknowledging the gap; funding/implementation status remained unresolved. Even before formal withdrawal, the loss of U.S. funding alone forced WHO to cut 2,000+ jobs (22% of its workforce) in November 2025.",
       "estimated_impact": "This is a structural loss of coordination capacity, not a claim tied to any one outbreak's outcome -- the illustrative hantavirus cluster cited here had no confirmed U.S. cases.",
       "confidence_note": "Well-sourced to named health officials via NBC News; deliberately does not repeat the separate, Snopes-flagged misleading claim that staffing cuts delayed this specific outbreak's response."
     }
