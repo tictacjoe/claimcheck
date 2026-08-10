@@ -1972,37 +1972,59 @@
   },
   {
     "id": "doge-gsa-smartpay-spending-cap-2025",
-    "title": "DOGE Imposes a $1 Spending Cap on GSA Government Credit Cards",
-    "institution": "General Services Administration (GSA), with similar limits reported at several other federal agencies",
+    "title": "DOGE Imposes a $1 Spending Cap on Government Credit Cards at GSA and the Pentagon",
+    "institution": "General Services Administration (GSA) and Department of Defense (Department of War), following a governmentwide Trump executive order",
     "domain": "funding_redirection",
-    "status": "Implemented as of February 2025 reporting",
-    "date_of_action": "2025-02-21",
-    "what_changed": "DOGE imposed a $1 spending cap on SmartPay government credit cards used by General Services Administration employees and contractors, effectively freezing routine purchasing on those cards. Wired reported similar spending limits had already been put in place at several other federal agencies as part of the same broader cost-control push.",
+    "status": "Implemented as of February-March 2025 reporting",
+    "date_of_action": "2025-02-21 (GSA implementation) through 2025-03-05 (Pentagon/DoD implementation)",
+    "what_changed": "DOGE imposed a $1 spending cap on SmartPay government credit cards used by General Services Administration employees and contractors, effectively freezing routine purchasing on those cards. Wired reported similar spending limits had already been put in place at several other federal agencies as part of the same broader cost-control push -- one of those agencies was the Pentagon: following a February 26, 2025 executive order from President Trump outlining governmentwide cost-saving initiatives, Under Secretary of Defense for Personnel and Readiness Darin Selnick signed a March 5, 2025 memorandum (with acting acquisition/sustainment head Steven Morani separately confirming the policy) reducing the spending limit on all DoD civilian government purchase and travel cards to $1 and ordering cancellation of non-exempted official travel, with employees already traveling directed to return to their duty stations as soon as feasible. Travel directly supporting military operations or a permanent change of station was exempted. Pentagon spokesperson Sean Parnell said the Pentagon, in coordination with DOGE, had identified an initial $80 million in wasteful spending.",
     "primary_proponent": {
       "name": "Elon Musk, former DOGE leader / Special Government Employee",
       "role": "Directed the SmartPay spending-cap policy as part of DOGE's broader cost-control campaign",
       "note": "Wired's reporting attributed the policy directly to DOGE's operation within GSA; no additional named individual below Musk was identified in sourcing reviewed for this entry."
     },
     "estimated_impact": {
-      "summary": "Effectively halted routine government-card purchasing at GSA and several other agencies, a blunt mechanism for controlling spending that also constrains ordinary operational purchases unrelated to any specific wasteful expenditure",
+      "summary": "Effectively halted routine government-card purchasing at GSA and the Pentagon (and reportedly other agencies), a blunt mechanism for controlling spending that also constrains ordinary operational purchases unrelated to any specific wasteful expenditure, and forced DoD civilian employees on travel status to return to duty stations regardless of trip purpose.",
       "figures": [
         {
           "metric": "New per-transaction spending cap",
           "value": "$1",
-          "source": "Wired (2025-02-21)"
+          "source": "Wired (2025-02-21); Military Times/Defense One (2025-03)"
+        },
+        {
+          "metric": "Initial wasteful spending identified by Pentagon/DOGE coordination",
+          "value": "~$80 million",
+          "source": "Pentagon spokesperson Sean Parnell, March 2025"
         }
       ],
-      "caveat": "No figure for the total dollar volume of purchasing affected, or a list of the 'several other agencies' also subject to similar caps, was found in sourcing reviewed for this entry -- Wired's reporting establishes the policy and its GSA application specifically, without a broader inventory."
+      "caveat": "No figure for the total dollar volume of purchasing affected governmentwide was found in sourcing reviewed -- Wired's original reporting flagged that similar caps existed at unspecified 'several other agencies' beyond GSA; this entry now confirms the Pentagon as one of them, but a full agency-by-agency inventory was not found."
     },
-    "confidence_note": "MODERATE-HIGH confidence -- based on a single but specialized, technically-detailed source (Wired), whose reporting on DOGE's technical/administrative actions has generally proven reliable and specific in other entries in this tracker.",
-    "last_verified": "2026-08-08",
+    "confidence_note": "HIGH confidence -- corroborated across Wired's original GSA reporting and multiple independent outlets on the Pentagon implementation specifically (Military Times, Defense One, Federal News Network, Military.com), including the underlying Feb 26, 2025 executive order and the named March 5 DoD memo signatory (Selnick).",
+    "last_verified": "2026-08-10",
     "date_added": "2026-08-08",
     "sources": [
       {
         "name": "Wired -- DOGE government credit cards",
         "url": "https://www.wired.com/story/doge-government-credit-cards/"
+      },
+      {
+        "name": "Defense One -- 'Pentagon freezes government credit cards in DOGE cost-savings push'",
+        "url": "https://www.defenseone.com/policy/2025/03/pentagon-freezes-government-credit-cards-doge-cost-savings-push/403537/"
+      },
+      {
+        "name": "Military Times -- 'DOD civilian employees given $1 spending limit for travel cards'",
+        "url": "https://www.militarytimes.com/news/your-military/2025/03/10/dod-civilian-employees-given-1-spending-limit-for-travel-cards/"
+      },
+      {
+        "name": "Federal News Network -- 'DoD's purchase card freeze, travel pause create more uncertainty for civilian workforce'",
+        "url": "https://federalnewsnetwork.com/defense-main/2025/03/dods-purchase-card-freeze-travel-pause-create-more-uncertainty-for-civilian-workforce/"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "Following a Feb 26, 2025 Trump executive order, DOGE imposed a $1 credit-card spending cap first at GSA (Feb 21 rollout reported) and then at the Pentagon (March 5 DoD memo), freezing routine purchasing and non-exempted civilian employee travel at both agencies.",
+      "estimated_impact": "Halted routine card purchasing at both agencies and forced traveling DoD civilians back to their duty stations; Pentagon/DOGE claimed an initial $80M in identified wasteful spending, though no full governmentwide total was found.",
+      "confidence_note": "Strongly corroborated across Wired's original reporting and multiple independent defense-press outlets confirming the Pentagon-specific implementation and its named officials."
+    }
   },
   {
     "id": "doge-nlrb-records-deletion-2025-2026",
@@ -2061,6 +2083,77 @@
       }
     ],
     "last_updated": "2026-07-27"
+  },
+  {
+    "id": "doge-va-contract-cancellations-2025",
+    "title": "DOGE Canceled 585 VA Contracts After Backlash Forced It Down From an Initial 875 -- Officials Gave Congress Inconsistent Figures",
+    "institution": "Department of Veterans Affairs (VA), with DOGE (Department of Government Efficiency)",
+    "domain": "funding_redirection",
+    "status": "Implemented, with ongoing congressional oversight pressure over transparency and inconsistent figures",
+    "date_of_action": "2025-02 (initial ~875-contract cancellation list) through 2025-05-16 (Collins gives Congress a differing figure)",
+    "what_changed": "DOGE, under Elon Musk, moved to cancel roughly 875 VA contracts as part of its cost-cutting campaign. Reporting and VA employees flagged that many targeted contracts covered essential services, including cancer-registry maintenance, sterility certification for medical equipment, air-quality testing, suicide-prevention support, physician recruitment and retention, and safety inspections at VA medical facilities. Frontline Veterans Health Administration employees warned the cuts would imperil safety at the VA's nearly 1,400 hospitals and clinics. Facing that backlash, the VA paused its planned cuts, then announced the termination list had fallen by about a third, to 585 contracts, with an alleged combined value of $1.8 billion; the VA said the reductions would let it redirect more than $900 million to health care, benefits, and services for VA beneficiaries. The VA declined to disclose the full list of canceled contracts despite congressional requests, drawing criticism from senators including Richard Blumenthal and Angus King over the lack of transparency and consultation. VA Secretary Doug Collins subsequently gave Congress inconsistent figures on the scope of the cuts -- telling lawmakers on May 16, 2025 that the VA had canceled more than 440 contracts worth $120 billion, a figure sharply at odds with the earlier 585-contract/$1.8 billion accounting, without a public reconciliation of the discrepancy identified in sourcing reviewed.",
+    "primary_proponent": {
+      "name": "Elon Musk / DOGE, with VA Secretary Doug Collins",
+      "role": "DOGE directed the contract-cancellation campaign; Collins, as VA Secretary, presented the resulting figures to Congress",
+      "note": "DOGE has drawn broader criticism, cited in reporting on this action specifically, for moving to cut contracts supporting critical government services and for overstating the value of claimed savings to taxpayers."
+    },
+    "estimated_impact": {
+      "summary": "A large-scale, rapidly reversed contract-cancellation campaign that initially targeted safety-critical VA services (cancer registries, medical-equipment sterility certification, suicide-prevention support, physician recruitment) before backlash cut the list by a third -- compounded by VA leadership giving Congress materially different figures for the same underlying action across different testimony dates, undermining confidence in any single figure.",
+      "figures": [
+        {
+          "metric": "Initial contract-cancellation list",
+          "value": "~875 contracts",
+          "source": "CNBC/NBC News, March 2025"
+        },
+        {
+          "metric": "Revised list after backlash",
+          "value": "585 contracts",
+          "source": "VA statement, cited by CNBC/NBC News, March 2025"
+        },
+        {
+          "metric": "Claimed value of the 585-contract cancellation",
+          "value": "$1.8 billion",
+          "source": "VA statement, March 2025"
+        },
+        {
+          "metric": "Claimed funds redirected to veteran care/benefits as a result",
+          "value": "$900 million+",
+          "source": "VA statement, March 2025"
+        },
+        {
+          "metric": "Later, inconsistent figure given to Congress by Secretary Collins",
+          "value": "440+ contracts, $120 billion",
+          "source": "Collins congressional testimony, May 16, 2025"
+        }
+      ],
+      "caveat": "The $120 billion figure Collins gave Congress in May 2025 is dramatically larger than the $1.8 billion figure the VA itself announced in March for a similar-scale contract count, and no source reviewed reconciles the two -- DOGE has faced broader, separate criticism for overstating savings figures in its public accounting, which this entry notes as relevant context without independently adjudicating which VA figure (if either) is accurate."
+    },
+    "confidence_note": "HIGH confidence on the cancellation campaign itself, the backlash, and the reduction from 875 to 585 contracts, corroborated across CNBC, NBC News, and Senate oversight correspondence (Blumenthal, King). MODERATE confidence on any single dollar figure given the documented inconsistency between the VA's own March 2025 accounting and Collins's May 2025 congressional testimony -- flagged explicitly rather than resolved, since no source reviewed explains the discrepancy.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "sources": [
+      {
+        "name": "CNBC -- 'DOGE plans to cut VA contracts may harm veterans' care, employees say'",
+        "url": "https://www.cnbc.com/2025/03/06/doge-plans-to-cut-va-contracts-may-harm-veterans-care-employees-say.html"
+      },
+      {
+        "name": "NBC News -- 'DOGE plans to cut VA contracts may harm veterans' care, employees say'",
+        "url": "https://www.nbcnews.com/politics/doge/doge-plans-cut-va-contracts-may-harm-veterans-care-employees-say-rcna191448"
+      },
+      {
+        "name": "Sen. Angus King -- 'King in Veterans Affairs hearing: an insult to this committee that VA won't share information on canceled contracts'",
+        "url": "https://www.king.senate.gov/newsroom/press-releases/king-in-veterans-affairs-hearing-an-insult-to-this-committee-that-va-wont-share-information-on-cancelled-contracts"
+      },
+      {
+        "name": "Sen. Richard Blumenthal -- 'Blumenthal blasts DOGE & Trump admin's chaotic cancellation of VA contracts at Spotlight Forum'",
+        "url": "https://www.veterans.senate.gov/2025/6/blumenthal-blasts-doge-trump-admin-s-chaotic-cancellation-of-va-contracts-at-spotlight-forum"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "DOGE moved to cancel ~875 VA contracts covering essential services (cancer registries, equipment sterility certification, suicide-prevention support); backlash cut the list to 585, and VA leadership later gave Congress a starkly different figure ($120B vs. the earlier $1.8B) with no public reconciliation.",
+      "estimated_impact": "Safety-critical service contracts were targeted before a partial reversal; the VA's own inconsistent figures across two 2025 accountings undermine confidence in any single number describing the action's scale.",
+      "confidence_note": "Well-corroborated on the campaign and backlash itself; the dollar-figure discrepancy is flagged explicitly as unresolved rather than picking one number as authoritative."
+    }
   },
   {
     "id": "doj-civil-rights-division-exodus-trump2",
@@ -4936,6 +5029,72 @@
       "what_changed": "DOGE shut down GSA's entire 18F digital-services unit in March 2025, and the IRS subsequently discontinued the free Direct File tax-filing tool 18F had helped build, ending it for the 2026 filing season with no relaunch planned.",
       "estimated_impact": "Roughly 300,000 taxpayers who used the free, government-run filing option in 2025 -- 94% of whom rated it highly -- now have no equivalent free IRS-run alternative.",
       "confidence_note": "Well-corroborated across multiple outlets, including Musk's own public statement and the IRS's formal notice to participating states."
+    }
+  },
+  {
+    "id": "gsa-property-sale-list-cia-facility-2025",
+    "title": "GSA Briefly Published a 443-Property Sale List That Included a Sensitive CIA Facility, Then Pulled It the Next Day",
+    "institution": "General Services Administration (GSA)",
+    "domain": "data_collection_halted",
+    "status": "List retracted within a day; a smaller, scaled-back 'accelerated disposition' list released later without full details on the original larger list's fate",
+    "date_of_action": "2025-03-04 (list published) through 2025-03-05 (list removed)",
+    "what_changed": "On March 4, 2025, GSA published a list of 443 federally owned properties -- comprising nearly 80 million rentable square feet and representing more than $8.3 billion in deferred recapitalization needs -- that the agency identified as 'not core to government operations' and intended to dispose of, as part of DOGE's broader push to shrink the federal government's real-estate footprint. The list included the Parr-Franconia Warehouse Complex in Springfield, Virginia, a facility long rumored to house a clandestine CIA training site used for surveillance, hacking, and break-in tradecraft instruction, according to Wired. Local officials and national-security experts immediately raised alarms about the security implications of publicly listing such a facility for sale, even if inadvertently. Facing that backlash -- and broader public and congressional pushback covering other listed sites, including FBI and Red Cross headquarters buildings -- GSA pulled the entire list on March 5, one day after publication, quietly scrubbing more than 120 properties including the Springfield site. An internal GSA email said the list would be republished later 'with adjustments to make it easier for stakeholders to understand the nuances of the assets listed,' citing 'an overwhelming amount of interest.' GSA subsequently released a smaller list of properties identified for an 'accelerated disposition' process, while withholding details about its plans for the larger original list.",
+    "primary_proponent": {
+      "name": "General Services Administration, with DOGE (Department of Government Efficiency)",
+      "role": "GSA published and administered the list; DOGE's broader federal-property-disposal push provided the policy context",
+      "note": "No single named individual was identified in sourcing reviewed as personally responsible for including the Springfield/CIA-linked facility on the list -- attributed institutionally to GSA's rapid, DOGE-driven property-review process."
+    },
+    "estimated_impact": {
+      "summary": "A government agency briefly, publicly disclosed the location and disposal-candidacy of a facility reportedly used for sensitive CIA training activity, before pulling the listing within 24 hours -- an example of the disposal process moving fast enough to bypass the kind of security review that would normally catch this before publication.",
+      "figures": [
+        {
+          "metric": "Properties on the original published list",
+          "value": "443",
+          "source": "GSA, March 4, 2025"
+        },
+        {
+          "metric": "Combined square footage of listed properties",
+          "value": "~80,000,000 rentable sq ft",
+          "source": "GSA"
+        },
+        {
+          "metric": "Deferred recapitalization needs represented by the list",
+          "value": "$8.3 billion",
+          "source": "GSA"
+        },
+        {
+          "metric": "Properties scrubbed when the list was pulled",
+          "value": "120+",
+          "source": "Multiple outlets, March 2025"
+        }
+      ],
+      "caveat": "No source reviewed established that the CIA-linked facility's inclusion caused any actual operational or security compromise beyond the brief public disclosure itself -- the caveat here is about exposure risk from the process, not a documented downstream security incident."
+    },
+    "confidence_note": "HIGH confidence -- corroborated across Wired's original reporting identifying the Parr-Franconia/CIA connection, multiple independent outlets (KBTX/AP, PBS NewsHour, Yahoo/AP) confirming the list's publication and rapid removal, and GSA's own public statements and internal email describing the retraction and planned republication.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "sources": [
+      {
+        "name": "FFXnow -- 'Geological Survey HQ in Reston and other Fairfax buildings in federal cost-cutting crosshairs'",
+        "url": "https://www.ffxnow.com/2025/03/07/geological-survey-hq-in-reston-and-other-fairfax-buildings-in-federal-cost-cutting-crosshairs/"
+      },
+      {
+        "name": "KBTX/AP -- 'Trump administration deletes list of hundreds of federal buildings targeted for potential sale'",
+        "url": "https://www.kbtx.com/2025/03/05/trump-administration-deletes-list-hundreds-federal-buildings-targeted-potential-sale/"
+      },
+      {
+        "name": "PBS NewsHour -- 'FBI and Red Cross headquarters are among more than 440 federal buildings listed for potential sale'",
+        "url": "https://www.pbs.org/newshour/amp/politics/fbi-and-red-cross-headquarters-are-among-more-than-440-federal-buildings-listed-for-potential-sale-by-trump-administration"
+      },
+      {
+        "name": "GSA -- 'Statement regarding GSA's disposal of non-core assets'",
+        "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/statement-regarding-gsas-disposal-of-noncore-assets-03042025"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "GSA published a 443-property 'non-core asset' sale list on March 4, 2025, including a Springfield, VA facility reportedly used for sensitive CIA training -- and pulled the entire list the next day after security and public backlash, later releasing a smaller, scaled-back version.",
+      "estimated_impact": "The list covered ~80 million sq ft and $8.3B in deferred maintenance needs; over 120 properties, including the CIA-linked site, were scrubbed when it was pulled.",
+      "confidence_note": "Strongly corroborated across Wired's original identification of the CIA link, multiple independent outlets, and GSA's own public statements."
     }
   },
   {
@@ -9364,6 +9523,62 @@
     }
   },
   {
+    "id": "pentagon-counter-wmd-nonproliferation-cuts-2025",
+    "title": "Pentagon Weighed Cutting Counter-WMD/Nonproliferation Programs Up to 75% -- Agencies Warned a 60% Cut Would Be a 'Red Line'",
+    "institution": "Department of Defense (Department of War) -- Defense Threat Reduction Agency (DTRA) and the broader counter-WMD community",
+    "domain": "funding_redirection",
+    "status": "Ongoing budget fight as of 2025-2026 reporting -- no single final resolution identified; DTRA's FY2026-2027 budget documents confirm reductions tied to the administration's broader cost-efficiency executive order, but not at the 75% scale originally floated",
+    "date_of_action": "2025-03 (Wired reports the proposal) through 2026 (ongoing FY2026-2027 DTRA budget cycles)",
+    "what_changed": "Wired reported that Pentagon leadership was considering cutting up to 75% of the workforce and funding in DoD's counter-WMD community -- the programs and agencies, centered on the Defense Threat Reduction Agency (DTRA), responsible for preventing the spread of nuclear, chemical, and biological weapons, including funds spent supporting partner nations. In response to a Pentagon request for options, affected agencies proposed counter-offers at 20%, 40%, and 60% reduction levels, with officials characterizing a 60% cut as a 'red line' that would still severely damage both global and domestic security. Internal assessments described specific consequences at each tier: a 20% cut would reduce mine-clearance efforts in former conflict zones and significantly harm infectious-disease surveillance and prevention programs in Africa; a 40% cut would limit counter-extremism programs in Africa and the Middle East, close all mine-clearance operations, and completely shut down biological-surveillance programs; a 60% cut would fundamentally eliminate the U.S. role in preventing the spread of chemical, biological, and nuclear weapons internationally. Subsequent DTRA budget-justification documents for FY2026 confirm the agency absorbed reductions to discretionary travel funding and Advisory and Assistance Services contracts specifically tied to Executive Order 14222 (the administration's DOGE-driven Cost Efficiency Initiative), and FY2027 budget materials reference a further 'Budget 2026 Relook' and 'Defense Comprehensive Review' -- but no single public accounting of a final counter-WMD-specific cut percentage, comparable to the 20/40/60/75% figures originally floated, was found in sourcing reviewed.",
+    "primary_proponent": {
+      "name": "Trump administration / Pentagon leadership (DOGE-driven cost-efficiency directive)",
+      "role": "Directed the counter-WMD budget review that produced the 75% proposal and the agencies' 20/40/60% counter-offers",
+      "note": "No single named Pentagon official was identified in sourcing reviewed as personally directing the counter-WMD-specific cut proposal, as distinct from the administration's broader DOGE/Executive Order 14222 cost-efficiency campaign that DTRA's own later budget documents cite as the basis for the reductions it did absorb."
+    },
+    "estimated_impact": {
+      "summary": "A proposed cut of up to 75% to the U.S. military's own counter-proliferation and biosecurity programs, with the affected agencies' own internal assessments warning that even a 'moderate' 20% cut would meaningfully weaken infectious-disease surveillance in Africa and mine-clearance in former war zones, and a 60% cut -- the agencies' own stated red line -- would functionally end the U.S. role in preventing the spread of weapons of mass destruction.",
+      "figures": [
+        {
+          "metric": "Cut level Pentagon leadership was reportedly considering",
+          "value": "up to 75%",
+          "source": "Wired, March 2025"
+        },
+        {
+          "metric": "Cut level agencies internally flagged as a 'red line'",
+          "value": "60%",
+          "source": "Wired, March 2025, citing internal counter-offer documents"
+        }
+      ],
+      "caveat": "This entry documents a proposed, internally-contested budget review, not a confirmed final cut at any specific percentage -- later DTRA budget-justification documents confirm real reductions tied to the same administration-wide cost-efficiency initiative, but sourcing reviewed does not establish that the full 75% (or even the 60% 'red line') was ultimately enacted specifically against counter-WMD programs. Framed here as a serious, well-sourced proposal and internal fight over a program the agencies themselves describe as central to preventing WMD proliferation, not as a completed action at a specific scale."
+    },
+    "confidence_note": "HIGH confidence on the proposal itself and the internal counter-offer/impact-tier details, based on Wired's reporting of internal Pentagon documents. MODERATE confidence on the ultimate outcome, since no single source was found definitively stating the final enacted cut percentage for counter-WMD programs specifically -- DTRA's own later budget documents confirm real but less dramatic reductions tied to the broader EO 14222 cost-efficiency campaign, without breaking out a comparable counter-WMD-specific final figure.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "sources": [
+      {
+        "name": "Wired -- Pentagon cuts, nuclear/chemical weapons nonproliferation programs",
+        "url": "https://www.wired.com/story/pentagon-cuts-nukes-chemical-weapons-wmd/"
+      },
+      {
+        "name": "Al Mauroni (Substack) -- 'DTRA on the Chopping Block'",
+        "url": "https://almauroni.substack.com/p/dtra-on-the-chopping-block"
+      },
+      {
+        "name": "DTRA FY2026 Budget Estimates -- Operation and Maintenance, Volume 1",
+        "url": "https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2026/budget_justification/pdfs/01_Operation_and_Maintenance/O_M_VOL_1_PART_1/DTRA_OP-5.pdf"
+      },
+      {
+        "name": "DTRA FY2027 Budget Estimates -- Operation and Maintenance, Volume 1",
+        "url": "https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2027/budget_justification/pdfs/01_Operation_and_Maintenance/O_M_VOL_1_PART_1/DTRA_OP-5.pdf"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Pentagon leadership weighed cutting DoD's counter-WMD/nonproliferation programs (centered on DTRA) up to 75%; affected agencies counter-offered at 20/40/60%, calling 60% a 'red line.' Later DTRA budget documents confirm real reductions tied to the administration's broader cost-efficiency EO, without a clear final counter-WMD-specific figure.",
+      "estimated_impact": "The agencies' own internal assessments warned that even a 20% cut would weaken African disease surveillance and mine-clearance work, and a 60% cut would functionally end the U.S. role in stopping WMD proliferation.",
+      "confidence_note": "Well-sourced on the proposal and internal impact assessments via Wired's reporting on internal documents; the final outcome at counter-WMD-specific scale remains unconfirmed in sourcing reviewed."
+    }
+  },
+  {
     "id": "pepfar-cuts-hiv-treatment-sites-closed-2025-2026",
     "title": "PEPFAR Funding Disruptions Close 1,714 HIV Treatment Sites Worldwide, Cut Treatment for 77,000+ Children",
     "institution": "PEPFAR (President's Emergency Plan for AIDS Relief) / USAID / State Department",
@@ -10497,8 +10712,8 @@
     "institution": "U.S. Department of State",
     "domain": "staff_office_cuts",
     "status": "Largely complete (first-stage cuts executed following Supreme Court ruling clearing the way; further changes ongoing)",
-    "date_of_action": "2025-04-22 (reorganization announced) through 2025-07-11 (first mass layoffs executed)",
-    "what_changed": "Secretary of State Marco Rubio announced a sweeping State Department reorganization in April 2025, describing the existing structure as 'bloated bureaucracy that stifles innovation.' The plan consolidated 734 bureaus and offices down to 602, and specifically eliminated 132 domestic offices, including the entire Undersecretary of State for Civilian Security, Democracy, and Human Rights position, the Office of Global Criminal Justice (which supports international war-crimes prosecutions), the Bureau of Conflict and Stabilization Operations, and the Office of Global Women's Issues. Refugee, religious-freedom, and human-trafficking offices were downgraded and folded under a general foreign-assistance coordination office rather than retained as standalone bureaus. In July 2025, following a Supreme Court ruling that cleared the way for the dismissals despite ongoing legal challenges, the department executed layoffs affecting more than 1,300 employees (1,107 civil servants and 246 foreign service officers with domestic assignments); affected foreign service officers were placed on 120 days of administrative leave before formal termination, civil servants on a 60-day separation period. The reorganization is explicitly stated to be 'highly complementary' to the concurrent dismantling of USAID, whose remaining functions were folded into State with reduced independence. Re-verified 2026-07-26: no material change -- no new reorganization phase or ruling identified since the July 2025 layoff execution already documented. Update 2026-07-28: Federal News Network reported the ~250 foreign service officers laid off in the July 2025 wave had their terminations finalized as of May 2026, with former employees, federal unions (AFGE), and lawmakers continuing to press for reinstatement, warning the reduction has weakened agency expertise and harmed national security. The affected officers are explicitly ineligible to compete for vacant State Department positions even as the department simultaneously runs a new Foreign Service recruitment campaign -- a documented recruit-while-firing contradiction distinct from the original 2025 reorganization announcement.",
+    "date_of_action": "2025-03-06 (Western Europe consulate-closure plan first reported) through 2025-09-29 (delayed Trafficking in Persons Report finally released)",
+    "what_changed": "Added 2026-08-10: an earlier, distinct thread preceded the official April 22 announcement below -- in early March 2025, NYT and other outlets reported the State Department was preparing to close nearly a dozen diplomatic missions, mainly consulates in Western Europe (including Dusseldorf, Leipzig, and Hamburg in Germany; Rennes, Lyon, Strasbourg, and Bordeaux in France; Florence, Italy; and Edinburgh, Scotland), alongside a roughly 20% staff cut at those posts, with closures reportedly targeted for summer 2025. A State Department spokesperson at the time denied any closures had been 'announced.' Sourcing reviewed found no confirmation the Western Europe consulate closures were ever executed -- to the contrary, the U.S. Embassy Germany website shows new Consul Generals assumed duty at both the Leipzig (October 2025) and Hamburg (August 2025) posts, indicating those specific consulates remained open and staffed well past the original summer 2025 closure target. This earlier consulate-closure plan appears to be a distinct, apparently-unexecuted proposal, separate from the domestic office eliminations described below, which did proceed. Secretary of State Marco Rubio announced a sweeping State Department reorganization in April 2025, describing the existing structure as 'bloated bureaucracy that stifles innovation.' The plan consolidated 734 bureaus and offices down to 602, and specifically eliminated 132 domestic offices, including the entire Undersecretary of State for Civilian Security, Democracy, and Human Rights position, the Office of Global Criminal Justice (which supports international war-crimes prosecutions), the Bureau of Conflict and Stabilization Operations, and the Office of Global Women's Issues. Refugee, religious-freedom, and human-trafficking offices were downgraded and folded under a general foreign-assistance coordination office rather than retained as standalone bureaus. In July 2025, following a Supreme Court ruling that cleared the way for the dismissals despite ongoing legal challenges, the department executed layoffs affecting more than 1,300 employees (1,107 civil servants and 246 foreign service officers with domestic assignments); affected foreign service officers were placed on 120 days of administrative leave before formal termination, civil servants on a 60-day separation period. The reorganization is explicitly stated to be 'highly complementary' to the concurrent dismantling of USAID, whose remaining functions were folded into State with reduced independence. Re-verified 2026-07-26: no material change -- no new reorganization phase or ruling identified since the July 2025 layoff execution already documented. Update 2026-07-28: Federal News Network reported the ~250 foreign service officers laid off in the July 2025 wave had their terminations finalized as of May 2026, with former employees, federal unions (AFGE), and lawmakers continuing to press for reinstatement, warning the reduction has weakened agency expertise and harmed national security. The affected officers are explicitly ineligible to compete for vacant State Department positions even as the department simultaneously runs a new Foreign Service recruitment campaign -- a documented recruit-while-firing contradiction distinct from the original 2025 reorganization announcement. Added 2026-08-10: the human-trafficking office's downgrading described above proved more severe than 'folded under a general foreign-assistance coordination office' alone conveys -- reporting found the Office to Monitor and Combat Trafficking in Persons lost more than 70% of its staff, leaving fewer than three dozen employees to carry out the office's central anti-trafficking mission. The cuts' effects became concrete in 2025: for the first time in the report's history, the State Department missed the legally required June 30 deadline to deliver its annual Trafficking in Persons (TIP) Report to Congress, finally releasing the delayed 2025 report on September 29, 2025 after months of pressure. During the House Foreign Affairs Committee's September 2025 State Department Reauthorization markup, Rep. Sarah McBride passed a bipartisan amendment directing the department to report to Congress on how the reductions-in-force and reorganization affected the office's work, including the TIP Report's timeliness and accuracy, with a detailed analysis due within 180 days.",
     "primary_proponent": {
       "name": "Marco Rubio",
       "role": "Secretary of State",
@@ -10531,17 +10746,27 @@
           "metric": "Foreign service officers whose 2025 layoffs were finalized (May 2026), ineligible to reapply for vacant positions",
           "value": "approx. 250, finalized while a new recruitment campaign runs concurrently",
           "source": "Federal News Network, May 2026"
+        },
+        {
+          "metric": "Office to Monitor and Combat Trafficking in Persons staff cut",
+          "value": ">70% (fewer than three dozen employees remaining)",
+          "source": "Type Investigations / PBS NewsHour, 2025-2026"
+        },
+        {
+          "metric": "Western Europe consulates initially targeted for closure (March 2025 plan)",
+          "value": "~10 posts across Germany, France, Italy, Scotland",
+          "source": "NYT, cited by U.S. News, CNN, March-April 2025"
         }
       ],
       "caveat": "Some of the more drastic changes reported in leaked draft proposals before the official April 22 announcement did not materialize in the final plan -- offices for Africa affairs, migration/refugee issues, and democracy efforts survived, at least as named bureaus on the org chart, contrary to earlier leaked drafts. The State Department's own spokesperson explicitly stated 'DOGE was not in charge of this' reorganization, distinguishing it from the more centralized DOGE-driven cuts at other agencies covered elsewhere in this tracker -- worth noting since it suggests a more department-specific policy choice by Rubio rather than a directive imposed externally."
     },
-    "confidence_note": "Strong, consistent multi-outlet sourcing (AP's obtained internal documents, corroborated independently by NBC, NPR, CNN, PBS, and Newsweek) with specific office names and headcounts rather than vague characterizations. Rubio's own quotes and the department's own internal notices are the primary sourcing for what changed; outside criticism (Shannon, American Academy of Diplomacy, Shaheen) is clearly attributed as external assessment rather than blended with the factual record of what changed. Re-verified 2026-07-20: no material change found since the July 2025 layoff execution already documented in this entry -- no new reorganization phase or ruling identified in current reporting. Re-verified 2026-07-26: no material change to report. Re-verified 2026-07-28: Federal News Network and The Hill confirm the ~250 foreign service officer layoffs from the 2025 wave were finalized in May 2026, with continued union/lawmaker advocacy for reinstatement and a documented irony -- the department recruiting new Foreign Service applicants while barring laid-off officers from reapplying.",
+    "confidence_note": "Strong, consistent multi-outlet sourcing (AP's obtained internal documents, corroborated independently by NBC, NPR, CNN, PBS, and Newsweek) with specific office names and headcounts rather than vague characterizations. Rubio's own quotes and the department's own internal notices are the primary sourcing for what changed; outside criticism (Shannon, American Academy of Diplomacy, Shaheen) is clearly attributed as external assessment rather than blended with the factual record of what changed. Re-verified 2026-07-20: no material change found since the July 2025 layoff execution already documented in this entry -- no new reorganization phase or ruling identified in current reporting. Re-verified 2026-07-26: no material change to report. Re-verified 2026-07-28: Federal News Network and The Hill confirm the ~250 foreign service officer layoffs from the 2025 wave were finalized in May 2026, with continued union/lawmaker advocacy for reinstatement and a documented irony -- the department recruiting new Foreign Service applicants while barring laid-off officers from reapplying. Added 2026-08-10: the March 2025 Western Europe consulate-closure plan is corroborated by NYT's original reporting (via syndication) and independently by U.S. News and CNN, but no source found confirms the closures were ever executed -- the U.S. Embassy Germany's own website listing new Consul Generals assigned to Leipzig and Hamburg well after the reported summer 2025 target date is treated as reasonably strong (though not definitive) evidence the plan, at least for those posts, was not carried out; framed accordingly as an apparently-unexecuted proposal, distinct from the domestic cuts that did proceed. The anti-trafficking office's 70%-staff-cut figure and the TIP Report's unprecedented delay are well-corroborated across Type Investigations, PBS NewsHour, and Rep. McBride's own congressional office statements, which is also the source for the bipartisan (not partisan-contested) nature of the oversight amendment.",
     "section_summaries": {
-      "what_changed": "Rubio consolidated hundreds of State Department offices, eliminating dozens focused on human rights and conflict stabilization, then laid off over 1,300 staff once courts cleared the way. Update: the ~250 foreign service officer layoffs were finalized in May 2026, with affected officers barred from reapplying even as the department runs a new recruiting campaign.",
+      "what_changed": "An earlier March 2025 plan to close ~10 Western European consulates appears to have gone unexecuted. Rubio consolidated hundreds of State Department offices in April, eliminating dozens focused on human rights and conflict stabilization, then laid off over 1,300 staff once courts cleared the way -- including a 70%+ cut to the anti-trafficking office that led to the first-ever late Trafficking in Persons Report. Update: the ~250 foreign service officer layoffs were finalized in May 2026, with affected officers barred from reapplying even as the department runs a new recruiting campaign.",
       "estimated_impact": "A former Republican State Department official called the cuts an act of institutional vandalism, warning that specialized skills developed over many years of service can't be quickly rebuilt.",
-      "confidence_note": "Strongly sourced via internal documents and consistent reporting across several major outlets, citing specific offices and numbers rather than general claims; nothing has shifted since the layoffs occurred."
+      "confidence_note": "Strongly sourced via internal documents and consistent reporting across several major outlets, citing specific offices and numbers rather than general claims; the Western Europe consulate-closure plan's non-execution is inferred from later staffing evidence, not a direct confirmation."
     },
-    "last_verified": "2026-07-28",
+    "last_verified": "2026-08-10",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -10567,9 +10792,29 @@
       {
         "name": "Federal News Network -- Amid hiring push, State Dept finalizes hundreds of layoffs initiated last summer",
         "url": "https://federalnewsnetwork.com/workforce/2026/05/amid-hiring-push-state-dept-finalizes-layoffs-for-nearly-250-foreign-service-officers/"
+      },
+      {
+        "name": "U.S. News -- 'Trump Administration Weighs Closure of Nearly a Dozen Diplomatic Missions Abroad'",
+        "url": "https://www.usnews.com/news/world/articles/2025-03-06/us-plans-consulate-closures-mainly-in-western-europe-nyt-reports"
+      },
+      {
+        "name": "CNN -- 'Trump administration looking at closing nearly 30 overseas embassies and consulates'",
+        "url": "https://www.cnn.com/2025/04/15/politics/closing-embassies-consulates-document"
+      },
+      {
+        "name": "Type Investigations -- 'How the Trump Administration Rolled Back Efforts to Fight Human Trafficking'",
+        "url": "https://www.typeinvestigations.org/news/2026/02/12/how-the-trump-administration-rolled-back-efforts-to-fight-human-trafficking/"
+      },
+      {
+        "name": "Rep. Sarah McBride -- 'McBride Passes Bipartisan Amendment Requiring State Department Report on Anti-Trafficking Impact'",
+        "url": "https://mcbride.house.gov/media/press-releases/mcbride-passes-bipartisan-amendment-requiring-state-department-report-anti"
+      },
+      {
+        "name": "Rep. Sarah McBride -- 'After McBride Push, State Department Finally Releases 2025 Trafficking in Persons Report'",
+        "url": "https://mcbride.house.gov/media/press-releases/after-mcbride-push-state-department-finally-releases-2025-trafficking-persons"
       }
     ],
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-08-10"
   },
   {
     "id": "state-dept-embassy-air-quality-monitoring-ended-2025",
@@ -11324,6 +11569,53 @@
         "url": "https://www.nbcnews.com/news/us-news/farmers-federal-funding-freeze-trump-administration-scramble-respond-rcna191544"
       }
     ]
+  },
+  {
+    "id": "usda-food-for-progress-grants-canceled-2025",
+    "title": "USDA Canceled All Food for Progress Foreign Food-Aid Grants, Then Partially Reversed Course Days Later",
+    "institution": "U.S. Department of Agriculture (USDA)",
+    "domain": "funding_redirection",
+    "status": "Partially reversed within days of the initial cancellation",
+    "date_of_action": "2025-05-14 (grants canceled) through 2025-05-16 (partial resumption announced)",
+    "what_changed": "USDA canceled all existing grants under its Food for Progress program, which sends American-grown commodities -- including milled rice, soybean meal, wheat, and yellow soybeans -- abroad to support agricultural development and food security in developing countries, according to an internal email reviewed by Reuters. The cancellations affected all existing awards, including some agreements dating back to 2018, and struck recipient countries including Tanzania, Tunisia, and Sri Lanka. USDA had issued more than $218 million in Food for Progress grants in 2024 alone. The cancellation followed the administration's broader budget proposal to eliminate Food for Progress along with USDA's McGovern-Dole Food for Education program and USAID's Food for Peace program. Two days later, on May 16, 2025, USDA reversed part of the decision, telling recipients in a separate email reviewed by Reuters that the Food for Progress program could resume for agreements made in fiscal year 2024 or earlier -- leaving the status of newer or planned awards, and the broader elimination proposal in the administration's budget, unresolved.",
+    "primary_proponent": {
+      "name": "U.S. Department of Agriculture",
+      "role": "Directed the grant cancellation and the subsequent partial reversal",
+      "note": "No single named USDA official was identified in sourcing reviewed as personally directing the cancellation; the administration's broader budget proposal to eliminate the program entirely provides the policy context, but the specific mid-cycle cancellation of already-awarded grants was a distinct, more abrupt action than a forward-looking budget elimination proposal would have been."
+    },
+    "estimated_impact": {
+      "summary": "An abrupt cancellation of all active foreign food-aid grants -- including agreements years into execution -- disrupted agricultural development and food-security programming in multiple developing countries before USDA partially reversed course within 48 hours, though without fully restoring the program to its pre-cancellation status.",
+      "figures": [
+        {
+          "metric": "Food for Progress grants issued in 2024",
+          "value": "$218,000,000+",
+          "source": "USDA data, cited by Reuters"
+        }
+      ],
+      "caveat": "Sourcing reviewed did not quantify how many individual grant agreements or how many recipient countries were affected by the initial cancellation, nor the precise scope of what was restored in the May 16 partial reversal (e.g., whether it covered all pre-FY2025 agreements or only some) -- this entry documents the cancellation and reversal as reported, without a fuller accounting that wasn't available in sourcing reviewed."
+    },
+    "confidence_note": "HIGH confidence -- based on Reuters' review of two separate internal USDA emails (the cancellation notice and the partial-reversal notice), corroborated by U.S. News, Yahoo/AP, and congressional office statements (Rep. Tokuda, Sen. Gillibrand) responding to the cancellation.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "sources": [
+      {
+        "name": "U.S. News/Reuters -- 'US Farm Agency Cancels Food for Progress Food Aid Grants'",
+        "url": "https://www.usnews.com/news/politics/articles/2025-05-14/us-farm-agency-cancels-food-for-progress-food-aid-grants"
+      },
+      {
+        "name": "Reuters (via AOL) -- 'USDA says much of Food for Progress aid program can resume, email shows'",
+        "url": "https://www.aol.com/news/usda-says-much-food-progress-193121466.html"
+      },
+      {
+        "name": "Reuters (via Yahoo) -- 'Exclusive-US farm agency cancels food aid for children in poor countries'",
+        "url": "https://www.yahoo.com/news/exclusive-us-farm-agency-cancels-164545502.html"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "USDA canceled all active Food for Progress foreign food-aid grants on May 14, 2025, including agreements dating to 2018, then partially reversed course two days later for pre-FY2025 agreements specifically.",
+      "estimated_impact": "Disrupted over $218M/year in agricultural-development food aid to countries including Tanzania, Tunisia, and Sri Lanka before a partial, incompletely-scoped reversal.",
+      "confidence_note": "Strongly sourced to Reuters' review of two separate internal USDA emails documenting both the cancellation and the reversal."
+    }
   },
   {
     "id": "usda-food-security-survey-cancellation-2025",
