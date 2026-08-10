@@ -1540,6 +1540,90 @@
     ]
   },
   {
+    "id": "community-health-centers-funding-crisis-2025-2026",
+    "title": "Community Health Centers Serving 32-34 Million Patients Faced a Grant Freeze, a Lapsed Federal Fund, and OBBBA Medicaid Cuts All at Once",
+    "institution": "Health Resources and Services Administration (HRSA); federally qualified community health centers nationwide",
+    "domain": "funding_redirection",
+    "status": "Ongoing -- Community Health Center Fund extended only through December 2026 via the Feb. 3, 2026 Consolidated Appropriations Act, with no multi-year reauthorization secured; underlying Medicaid-revenue pressure from OBBBA continues",
+    "date_of_action": "2025-03 (Medicaid funding freeze and proposed budget cuts first threaten centers) through 2026-02 (short-term Community Health Center Fund reauthorization)",
+    "what_changed": "Community health centers -- federally qualified clinics serving roughly 32-34 million patients nationally, 90% of them at or below 200% of the federal poverty level -- faced three compounding federal funding threats across 2025-2026. First, beginning around March 2025, a Trump administration freeze on already-approved federal grants left health centers in at least 10 states experiencing payment delays, on top of a broader Medicaid funding freeze and proposed budget cuts that advocates warned could force closures or service reductions; centers rely on roughly $4.4 billion in annual federal grants (versus the $5.8 billion advocates say is needed) plus Medicaid, which made up 43% of the $46.7 billion in 2023 health-center revenue nationally. Second, the Community Health Center Fund -- which provides about 70% of centers' federal funding -- was extended only to September 30, 2025, and then lapsed when Congress failed to pass renewal legislation before the government shutdown began; a temporary extension to January 30, 2026 was included in the continuing resolution that ended the 43-day shutdown in November 2025, and a further extension through December 2026 (with a modest increase to $4.6 billion for FY2026) came via the February 3, 2026 Consolidated Appropriations Act -- short-term stopgaps rather than the multi-year reauthorization advocates had sought. Third, the One Big Beautiful Bill Act's Medicaid provisions layered a projected $32 billion five-year revenue loss onto the sector, per a Commonwealth Fund estimate, compounding the grant-funding uncertainty. An analysis cited by health-center advocates found one in four community health centers could close or reduce services within two years absent increased funding, and concrete harm had already begun by late 2025: a rural New Hampshire community health center shuttered, and a Des Moines, Iowa hospital system laid off dozens of employees and closed a clinic explicitly citing its 'ongoing response to the One Big Beautiful Bill Act.'",
+    "primary_proponent": {
+      "name": "Trump administration (grant freeze) and Congress (Community Health Center Fund lapse, OBBBA Medicaid provisions)",
+      "role": "The administration implemented the funding freeze/delays; Congress's failure to pass timely Community Health Center Fund reauthorization and its OBBBA Medicaid cuts drove the funding gap",
+      "note": "No single named official was identified in sourcing reviewed as personally directing the grant-payment delays; the Community Health Center Fund lapse and OBBBA cuts are legislative/administrative in origin rather than tied to one individual's decision."
+    },
+    "estimated_impact": {
+      "summary": "A safety-net system serving roughly 1 in 10 Americans, and disproportionately low-income patients, faced simultaneous federal grant-payment delays, a lapsed core funding stream only ever restored on a short-term basis, and a multibillion-dollar Medicaid revenue hit -- with documented facility closures and layoffs already occurring, not just projected.",
+      "figures": [
+        {
+          "metric": "Patients served annually by community health centers",
+          "value": "32-34 million (figures vary slightly by source/date)",
+          "source": "NACHC, Commonwealth Fund, KFF Health News"
+        },
+        {
+          "metric": "Share of health-center patients at or below 200% of federal poverty level",
+          "value": "90%",
+          "source": "Commonwealth Fund"
+        },
+        {
+          "metric": "Share of Community Health Center Fund in centers' total federal funding",
+          "value": "~70%",
+          "source": "KFF Health News, Stateline"
+        },
+        {
+          "metric": "Projected 5-year Medicaid revenue loss to health centers from OBBBA",
+          "value": "$32 billion",
+          "source": "Commonwealth Fund estimate"
+        },
+        {
+          "metric": "Community health centers estimated at risk of closing/reducing services within 2 years",
+          "value": "1 in 4",
+          "source": "Cited by NACHC/Commonwealth Fund analyses"
+        },
+        {
+          "metric": "FY2026 Community Health Center Fund appropriation (short-term, through Dec. 2026)",
+          "value": "$4.6 billion",
+          "source": "2026 Consolidated Appropriations Act, Feb. 3, 2026"
+        }
+      ],
+      "caveat": "The 1-in-4-centers-at-risk figure and the $32 billion revenue-loss estimate are projections from health-center advocacy and research organizations (NACHC, Commonwealth Fund), not government audits -- directionally consistent across multiple independent analyses reviewed, but not independently verified government figures. Confirmed, named closures found in sourcing reviewed (rural New Hampshire, a Des Moines clinic) are illustrative rather than a comprehensive national closure count."
+    },
+    "confidence_note": "HIGH confidence for the funding-mechanism timeline (grant freeze, Community Health Center Fund lapse and extensions, OBBBA Medicaid provisions) -- corroborated across KFF Health News, CBS News, PBS NewsHour, Stateline, and Nebraska Examiner reporting, plus the Consolidated Appropriations Act's own text for the funding-extension dates. MODERATE confidence on the precise scale of resulting closures, since sourcing reviewed names only isolated examples rather than a comprehensive national tally.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "section_summaries": {
+      "what_changed": "Community health centers serving 32-34M patients faced a 2025 grant-payment freeze, a lapsed Community Health Center Fund (only short-term extensions since), and OBBBA Medicaid cuts projected at $32B over 5 years -- with real closures/layoffs already occurring.",
+      "estimated_impact": "A safety-net system serving 1 in 10 Americans faces compounding funding threats; advocates project 1 in 4 centers at risk within two years, though that figure is a projection, not a government audit.",
+      "confidence_note": "Strongly corroborated for the funding timeline across multiple health-policy outlets; closure-scale figures are advocacy projections, not audited counts."
+    },
+    "sources": [
+      {
+        "name": "KFF Health News -- Health Centers Face Risks as Government Funding Lapses",
+        "url": "https://kffhealthnews.org/news/article/community-health-centers-government-shutdown-state-cuts-funding-risks/"
+      },
+      {
+        "name": "Stateline -- The nation's community health centers face money troubles",
+        "url": "https://stateline.org/2025/10/15/the-nations-community-health-centers-face-money-troubles/"
+      },
+      {
+        "name": "PBS NewsHour -- Community health centers face funding delays after Trump administration freeze",
+        "url": "https://www.pbs.org/newshour/nation/community-health-centers-face-funding-delays-after-trump-administration-freeze"
+      },
+      {
+        "name": "The Conversation -- Community health centers provide care for 1 in 10 Americans, but funding cuts threaten their survival",
+        "url": "https://theconversation.com/community-health-centers-provide-care-for-1-in-10-americans-but-funding-cuts-threaten-their-survival-267582"
+      },
+      {
+        "name": "Nebraska Examiner -- Trump's One Big Beautiful Bill Act darkens outlook for government-backed clinics",
+        "url": "https://nebraskaexaminer.com/2026/03/29/trumps-one-big-beautiful-bill-act-darkens-outlook-for-government-backed-clinics/"
+      },
+      {
+        "name": "CBS News -- Health centers face risks as government funding lapses",
+        "url": "https://www.cbsnews.com/news/health-centers-government-funding-lapses/"
+      }
+    ]
+  },
+  {
     "id": "cpb-defunding-dissolution-trump2",
     "title": "Congress Rescinded $1.1B From Public Broadcasting; CPB Dissolved After 58 Years",
     "institution": "Corporation for Public Broadcasting (CPB)",
@@ -2085,6 +2169,94 @@
     "last_updated": "2026-07-27"
   },
   {
+    "id": "doge-ssa-fraud-review-data-access-2025-2026",
+    "title": "DOGE's 'Fraud Review' of \\.6 Trillion in Social Security Payments Found Almost No Fraud, Slowed Claims 25%, and Led to an Unauthorized Server Holding 300M+ Americans' Data",
+    "institution": "Social Security Administration (SSA); DOGE (Department of Government Efficiency)",
+    "domain": "protection_rollback",
+    "status": "Ongoing litigation; Fourth Circuit vacated the injunction limiting DOGE's SSA data access (April 2026); SSA reportedly considering rolling back the anti-fraud phone checks; DOJ/OIG and whistleblower reviews of the data-access scope continuing as of last verification",
+    "date_of_action": "2025-03-08 (review publicly reported) through 2026-04-10 (Fourth Circuit ruling); data-access disclosures continuing into 2026",
+    "what_changed": "In March 2025, ABC News and other outlets reported that DOGE was searching through \\.6 trillion in Social Security payment records as part of a stated anti-fraud effort, with DOGE engineer Aram Moghaddassi and Elon Musk publicly claiming that up to 40% of phone calls to SSA requesting direct-deposit changes came from fraudsters -- a claim used to justify new anti-fraud identity checks on phone-based claims starting in early April 2025. Acting SSA Commissioner Leland Dudek later confirmed the review's scope in a letter to Congress. The actual results, revealed in internal SSA documents reported by Nextgov/FCW and cited by Sen. Elizabeth Warren in a May 15, 2025 release, contradicted the fraud claims: of more than 110,000 phone claims examined under the new checks, only 2 were found to have a high probability of fraud, and fewer than 1% were flagged as even potentially fraudulent at all -- consistent with SSA's own data showing fraud is a negligible share (a fraction of the already-small 0.3%) of the program's improper payments. The new checks themselves caused documented harm: an internal SSA document from May 2025 found they slowed retirement claim processing by 25% and caused a 'degradation of public service,' with over 140,000 retirement claims left unprocessed for more than 60 days, prompting SSA to consider walking the policy back. Separately, and more seriously, court filings beginning in January 2026 revealed that DOGE staff had improperly accessed and shared SSA data well beyond the stated fraud-review purpose: a January 16, 2026 DOJ court filing corrected prior sworn agency testimony and admitted a DOGE employee had copied Social Security records covering more than 300 million Americans onto an unauthorized, inadequately secured cloud server that SSA itself could not fully audit for who had accessed it. The same filing revealed a DOGE employee had signed an agreement to share SSA data with an outside political advocacy group seeking to find evidence of voter fraud and 'overturn results in certain States,' prompting a Hatch Act referral for two DOGE employees to a federal watchdog. A federal court had issued a temporary restraining order in March 2025 limiting DOGE's SSA data access, but reporting found DOGE associates continued accessing sensitive data even after that order; a further whistleblower complaint reported in March 2026 alleged a former DOGE associate planned to take sensitive citizen data to a subsequent government-contractor job. On April 10, 2026, the Fourth Circuit Court of Appeals vacated the district court's preliminary injunction restricting DOGE's SSA data access, with the majority finding plaintiffs had not shown 'irreparable harm' -- over a dissent arguing the prior record was 'materially erroneous' given the January 2026 disclosures.",
+    "primary_proponent": {
+      "name": "Elon Musk and DOGE engineer Aram Moghaddassi",
+      "role": "DOGE leadership/technical staff who publicly asserted the 40%-phone-fraud claim used to justify the program",
+      "note": "Musk publicly and repeatedly claimed roughly 40% of SSA direct-deposit-change phone calls were fraudulent; SSA's own subsequent data (110,000+ claims reviewed, 2 high-probability-fraud cases found) directly contradicted that figure. Acting Commissioner Leland Dudek confirmed the review's existence and scope to Congress."
+    },
+    "estimated_impact": {
+      "summary": "A fraud-prevention program justified by a since-disproven 40%-fraud claim degraded legitimate service (slower claims, more unprocessed cases) while producing almost no confirmed fraud, and separately resulted in Social Security data for more than 300 million Americans being copied to an unsecured, unauthorized server that the agency could not fully audit -- with at least one documented instance of that access being shared outside SSA for an unrelated political purpose.",
+      "figures": [
+        {
+          "metric": "Social Security payments reviewed under the anti-fraud effort",
+          "value": "\\.6 trillion",
+          "source": "DOGE/SSA, reported by ABC News, March 2025"
+        },
+        {
+          "metric": "Phone claims examined under new anti-fraud checks",
+          "value": "110,000+",
+          "source": "Internal SSA document, cited by Sen. Warren, May 2025"
+        },
+        {
+          "metric": "Claims found to have high probability of fraud",
+          "value": "2",
+          "source": "Internal SSA document, cited by Sen. Warren, May 2025"
+        },
+        {
+          "metric": "Slowdown in retirement claim processing caused by the new checks",
+          "value": "25%",
+          "source": "Internal SSA document, May 2025"
+        },
+        {
+          "metric": "Retirement claims unprocessed for 60+ days",
+          "value": "140,000+",
+          "source": "SSA data, cited by Sen. Warren"
+        },
+        {
+          "metric": "Americans whose SSA records were copied to the unauthorized server",
+          "value": "300 million+",
+          "source": "DOJ court filing, January 16, 2026, reported by NPR/Axios/CNN"
+        }
+      ],
+      "caveat": "The 40%-fraud claim is well-documented as false by SSA's own subsequent data, but the underlying question of how much SSA/OIG-estimated fraud existed before this program is separate and smaller-scale (SSA data puts total improper payments, of which fraud is a small fraction, at about 0.3%). The scope of DOGE's improper data access and sharing is described by SSA itself as not yet fully known, so figures here (300 million, the political-advocacy-group sharing agreement) reflect what has been disclosed in litigation so far, not necessarily the full extent. The Fourth Circuit's April 2026 ruling vacating the injunction was procedural (failure to show ongoing irreparable harm under the preliminary-injunction standard), not a finding that the underlying data-access conduct was proper -- the dissent specifically flagged the record as materially incomplete when the panel ruled."
+    },
+    "confidence_note": "HIGH confidence. The fraud-review claims and results are corroborated by ABC News' original reporting, Nextgov/FCW's internal-document reporting, and Sen. Warren's official Senate release citing SSA's own data. The improper data-access findings come from DOJ's own court filing (a party admission, not an outside allegation) and are corroborated by NPR, Axios, CNN, and Government Executive reporting on the same filing and the subsequent Fourth Circuit ruling.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "section_summaries": {
+      "what_changed": "DOGE's \\.6T SSA fraud review, justified by a since-disproven 40%-fraud claim, found almost no fraud while slowing claims processing 25%; separate court filings revealed DOGE improperly copied 300M+ Americans' SSA records to an unauthorized server and shared data with a political advocacy group.",
+      "estimated_impact": "Legitimate service was degraded (slower claims, unprocessed backlog) for a fraud rate that turned out to be negligible, while the data-access scandal exposed hundreds of millions of Americans' records to unaudited, unauthorized access.",
+      "confidence_note": "Very strongly sourced -- fraud-review results from SSA's own internal data via Sen. Warren's office, and the data-access scandal from DOJ's own court filing, both corroborated by multiple independent outlets."
+    },
+    "sources": [
+      {
+        "name": "ABC News -- DOGE is searching through Social Security payments looking for fraud",
+        "url": "https://abcnews.go.com/Politics/doge-searching-social-security-payments-fraud/story?id=119564143"
+      },
+      {
+        "name": "Sen. Elizabeth Warren -- New Social Security Data Reveals Musk, DOGE Lied in Claims of Social Security Fraud",
+        "url": "https://www.warren.senate.gov/newsroom/press-releases/new-social-security-data-reveals-musk-doge-lied-in-claims-of-social-security-fraud"
+      },
+      {
+        "name": "Democrats.org (citing Nextgov/FCW internal documents) -- DOGE Delayed Americans' Social Security Benefits -- And Still Can't Find Fraud at SSA",
+        "url": "https://democrats.org/news/internal-docs-doge-delayed-americans-social-security-benefits-and-still-cant-find-fraud-at-ssa/"
+      },
+      {
+        "name": "NPR -- How DOGE improperly accessed and shared Social Security data",
+        "url": "https://www.npr.org/2026/01/23/nx-s1-5684185/doge-data-social-security-privacy"
+      },
+      {
+        "name": "Axios -- DOGE employees may have improperly accessed social security data, DOJ says",
+        "url": "https://www.axios.com/2026/01/20/doge-employees-social-security-information-court-filing"
+      },
+      {
+        "name": "NPR -- The government is investigating new claims that DOGE misused Social Security data",
+        "url": "https://www.npr.org/2026/03/11/nx-s1-5745153/doge-social-security-data-whistleblower-investigation"
+      },
+      {
+        "name": "Government Executive -- Appeals court clears the way for DOGE to access Social Security data despite new red flags",
+        "url": "https://www.govexec.com/management/2026/04/appeals-court-clears-way-doge-access-social-security-data-despite-new-red-flags/412788/"
+      }
+    ]
+  },
+  {
     "id": "doge-va-contract-cancellations-2025",
     "title": "DOGE Canceled 585 VA Contracts After Backlash Forced It Down From an Initial 875 -- Officials Gave Congress Inconsistent Figures",
     "institution": "Department of Veterans Affairs (VA), with DOGE (Department of Government Efficiency)",
@@ -2153,6 +2325,79 @@
       "what_changed": "DOGE moved to cancel ~875 VA contracts covering essential services (cancer registries, equipment sterility certification, suicide-prevention support); backlash cut the list to 585, and VA leadership later gave Congress a starkly different figure ($120B vs. the earlier $1.8B) with no public reconciliation.",
       "estimated_impact": "Safety-critical service contracts were targeted before a partial reversal; the VA's own inconsistent figures across two 2025 accountings undermine confidence in any single number describing the action's scale.",
       "confidence_note": "Well-corroborated on the campaign and backlash itself; the dollar-figure discrepancy is flagged explicitly as unresolved rather than picking one number as authoritative."
+    }
+  },
+  {
+    "id": "doge-volcano-observatory-lease-terminations-2025",
+    "title": "DOGE/GSA Moved to Cancel Leases for the Alaska and Hawaii Volcano-Monitoring Observatories, Then Backed Off Under Congressional Pressure",
+    "institution": "U.S. Geological Survey (USGS) -- Alaska Volcano Observatory and Hawaiian Volcano Observatory; General Services Administration (GSA)",
+    "domain": "staff_office_cuts",
+    "status": "Alaska lease reversed after congressional intervention; Hawaii's temporary Hilo lease threat was overtaken by a previously-planned, congressionally-funded permanent relocation",
+    "date_of_action": "2025-03-06 (leases publicly reported as targeted) through 2026-04 (new permanent Hawaii facility opened)",
+    "what_changed": "In early March 2025, NOTUS and the Washington Post reported that DOGE/GSA had listed the leases for the Anchorage office housing the USGS Alaska Volcano Observatory and the Hilo, Hawaii office housing the USGS Hawaiian Volcano Observatory (which monitors Kilauea) among hundreds of federal office leases slated for termination as part of the administration's real-estate cost-cutting push, with GSA claiming roughly .2 million in savings from the Anchorage lease alone. Scientists and local officials warned that ending these leases -- on top of concurrent GSA staffing cuts complicating any relocation of specialized monitoring equipment and servers -- risked degrading real-time eruption-warning capability near active volcanoes in both states; a former observatory scientist specifically flagged the difficulty of moving a recently purchased 00,000 backup generator and critical monitoring servers without risking data loss or monitoring gaps. In Alaska, Rep. Nick Begich's office intervened with the Department of the Interior and GSA, and the Anchorage lease was reinstated by March 18, 2025, according to the Anchorage Daily News and Begich's own office -- though GSA itself did not confirm the reversal on the record to the Anchorage Daily News, leaving the reinstatement independently reported but not agency-confirmed. In Hawaii, the Hilo Ironworks Building lease -- always a temporary arrangement dating to 2018, when the observatory's original Kilauea-summit headquarters was damaged beyond repair by earthquakes -- was listed for termination effective September 30, 2025; that threat did not require a comparable reversal because a new, permanent, non-leased Hawaiian Volcano Observatory headquarters (funded separately through congressional disaster-recovery appropriations after the 2018 damage, shared with the Pacific Island Ecosystems Research Center) opened in Hilo in April 2026, mooting the lease question for that observatory's long-term housing.",
+    "primary_proponent": {
+      "name": "General Services Administration, with DOGE (Department of Government Efficiency)",
+      "role": "GSA administered the lease-termination list; DOGE's broader federal-real-estate cost-cutting push provided the policy driver",
+      "note": "No named individual was identified in sourcing reviewed as personally responsible for including the two observatory leases; GSA described itself only as 'reviewing all options to optimize our footprint' when asked for comment."
+    },
+    "estimated_impact": {
+      "summary": "Two of the nation's volcano-hazard monitoring facilities were briefly slated for lease termination with no documented relocation plan for specialized, hard-to-move monitoring equipment, at a time when both regions had active volcanic activity (Kilauea eruptions in Hawaii) -- an example of a blanket cost-cutting process moving without an apparent case-by-case safety review.",
+      "figures": [
+        {
+          "metric": "Claimed GSA savings from the Anchorage (Alaska Volcano Observatory) lease termination",
+          "value": "~\\.2 million",
+          "source": "DOGE lease-termination list, reported by Anchorage Daily News"
+        },
+        {
+          "metric": "Claimed GSA savings from the original Hilo lease termination",
+          "value": "~4,391 (per one reported figure) to ~(,692/year (per another)",
+          "source": "Multiple outlets citing DOGE/GSA figures; figures vary by source and may describe different cost bases"
+        },
+        {
+          "metric": "Cost of backup generator flagged as difficult to relocate (Alaska)",
+          "value": "\u0000,000",
+          "source": "Former observatory scientist, cited by Anchorage Daily News"
+        }
+      ],
+      "caveat": "No source reviewed documented an actual monitoring gap or missed eruption warning resulting from these lease actions -- the harm here is the risk created by moving to terminate specialized-facility leases without an apparent safety review, plus the disruption and uncertainty imposed on observatory staff, not a confirmed monitoring failure. The Hawaii outcome should not be read as GSA/DOGE standing down on the merits -- the permanent facility that resolved the housing question was already funded and under construction for unrelated reasons (2018 earthquake damage) before the 2025 lease-termination push began."
+    },
+    "confidence_note": "HIGH confidence for the core facts (lease terminations reported, Alaska reversal, Hawaii's new permanent facility timeline) -- corroborated across NOTUS, Washington Post, Newsweek, Anchorage Daily News, Must Read Alaska, Honolulu Civil Beat, and Honolulu Star-Advertiser. MODERATE confidence specifically on the Alaska reversal's completeness, since GSA itself would not confirm it on the record to the Anchorage Daily News -- the reversal is independently reported by multiple outlets and Begich's office but not agency-confirmed.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "sources": [
+      {
+        "name": "NOTUS -- DOGE Is Trying to Shutter Crucial Volcano Observatory Facilities",
+        "url": "https://www.notus.org/health-science/doge-alaska-volcano-observatory"
+      },
+      {
+        "name": "Washington Post -- Trump property purge to include national park visitor centers, museums",
+        "url": "https://www.washingtonpost.com/travel/2025/03/06/national-park-service-leases-termination/"
+      },
+      {
+        "name": "Newsweek -- DOGE Update: Alaska Volcano Monitor Closure Blocked Amid Eruption Threat",
+        "url": "https://www.newsweek.com/doge-alaska-volcano-observatory-lease-termination-reversed-2051304"
+      },
+      {
+        "name": "Anchorage Daily News -- Future of some Alaska federal office leases uncertain, including for volcano monitoring",
+        "url": "https://www.adn.com/politics/2025/03/18/future-of-some-alaska-federal-office-leases-uncertain-including-for-volcano-monitoring/"
+      },
+      {
+        "name": "Must Read Alaska -- Alaska Volcano Observatory's lease will not be cancelled, Begich says",
+        "url": "https://mustreadalaska.com/breaking-alaska-volcano-observatorys-lease-will-not-be-cancelled-begich-says/"
+      },
+      {
+        "name": "Honolulu Civil Beat -- Hawaiian Volcano Observatory Is Being Evicted Amid Federal Cuts",
+        "url": "https://www.civilbeat.org/2025/03/hawaiian-volcano-observatory-is-being-evicted-amid-federal-cuts/"
+      },
+      {
+        "name": "Honolulu Star-Advertiser -- New Hawaiian Volcano Observatory headquarters set to open in April",
+        "url": "https://www.staradvertiser.com/2026/06/24/hawaii-news/new-hawaiian-volcano-observatory-headquarters-set-to-open-in-april/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "DOGE/GSA moved to cancel leases housing the Alaska and Hawaii volcano observatories in March 2025; the Alaska lease was reinstated after congressional intervention, while Hawaii's temporary lease threat was overtaken by an already-planned permanent facility.",
+      "estimated_impact": "Two volcano-hazard monitoring facilities faced eviction with no documented relocation plan for hard-to-move equipment during active Kilauea eruptions, though no monitoring gap was actually documented.",
+      "confidence_note": "Strongly corroborated across multiple outlets for the core facts; the Alaska reversal is independently reported but not confirmed on the record by GSA itself."
     }
   },
   {
@@ -2691,7 +2936,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing (Supreme Court allowed dismantling to continue pending lower-court challenges; Congress has not abolished the department and continues funding it)",
     "date_of_action": "2025-03 (executive order) through 2026-06 (special education and civil rights transfers, the last core offices remaining)",
-    "what_changed": "Following a March 2025 Trump executive order directing the department's effective abolition and return of control to the states, Education Secretary Linda McMahon -- following a strategy explicitly drawn from Project 2025, written in part by her now-deputy chief of staff Lindsey Burke -- began signing what would eventually total 14 interagency agreements transferring the department's functions elsewhere, since only Congress can formally eliminate the department itself. K-12, higher education, and workforce training oversight moved to the Department of Labor. McMahon sought to lay off roughly 1,400 of the department's 4,200 employees in March 2025 (litigated but largely proceeded); an Education Department Inspector General report found 135 of the department's divisions were left with zero employees after the layoffs, and fewer than 20 retained more than five staff. The March 2025 cuts included a reduction-in-force that laid off nearly half of the Office for Civil Rights' staff and shuttered 7 of its 12 regional offices; during the period OCR was short-staffed (March-September 2025), the office received over 9,000 discrimination complaints and dismissed roughly 90% of them without full review. The Supreme Court allowed the dismantling to proceed in August 2025 while litigation continues in lower courts. During the 43-day Oct-Nov 2025 shutdown, 87% of the department's staff were furloughed -- which McMahon later cited as proof the agency was 'nonessential.' The OCR reduction-in-force was rescinded in early January 2026. In February 2026, the department moved additional programs and grants to other federal agencies, including HHS and the State Department, continuing the interagency-transfer dismantlement strategy. A February 2026 GAO report found the March 2025 OCR reduction-in-force had cost taxpayers up to $38 million, since the affected employees were kept on paid administrative leave for nine months while barred from working; GAO concluded the department 'lacks reasonable assurance that its actions achieved the stated goal of reforming the federal workforce' and 'cannot ensure that OCR improved service to the American people.' The Century Foundation found nearly 25% of student-loan borrowers with payments due were delinquent as of February 2026, up from about 9% in 2019 -- roughly 7.9 million borrowers newly entering delinquency -- a sharp rise coinciding with the department's broader administrative disruption. The $1.7 trillion student loan portfolio and federal financial aid administration began transferring to Treasury in March 2026. In June 2026, the department's last two core offices -- the Office for Civil Rights (moving to DOJ) and the Office of Special Education and Rehabilitative Services, which administers IDEA protections for students with disabilities (moving to HHS) -- were also transferred, over the objection of disability advocates who participated in months of listening sessions McMahon's own office convened. Re-verified 2026-07-26: no material change to the core dismantlement/interagency-transfer narrative -- a Ninth Circuit ruling in the related Sweet v. McMahon case (July 17, 2026, on student-loan borrower claim deadlines) concerns a distinct piece of litigation over SAVE-plan borrower claims, not the interagency-transfer dismantlement this entry primarily documents, and is not folded in here.",
+    "what_changed": "Following a March 2025 Trump executive order directing the department's effective abolition and return of control to the states, Education Secretary Linda McMahon -- following a strategy explicitly drawn from Project 2025, written in part by her now-deputy chief of staff Lindsey Burke -- began signing what would eventually total 14 interagency agreements transferring the department's functions elsewhere, since only Congress can formally eliminate the department itself. K-12, higher education, and workforce training oversight moved to the Department of Labor. On March 21, 2025, Trump separately announced that the Small Business Administration would take over management of the department's $1.6 trillion student loan portfolio; the plan drew immediate legal challenge, and a federal judge blocked the transfer on May 27, 2025, ruling the Higher Education Act assigns that responsibility to the Education Department's Federal Student Aid office and that only Congress could reassign it -- the SBA plan was never carried out, and the portfolio instead began transferring to Treasury in March 2026 as described below. McMahon sought to lay off roughly 1,400 of the department's 4,200 employees in March 2025 (litigated but largely proceeded); an Education Department Inspector General report found 135 of the department's divisions were left with zero employees after the layoffs, and fewer than 20 retained more than five staff. The March 2025 cuts included a reduction-in-force that laid off nearly half of the Office for Civil Rights' staff and shuttered 7 of its 12 regional offices; during the period OCR was short-staffed (March-September 2025), the office received over 9,000 discrimination complaints and dismissed roughly 90% of them without full review. The Supreme Court allowed the dismantling to proceed in August 2025 while litigation continues in lower courts. During the 43-day Oct-Nov 2025 shutdown, 87% of the department's staff were furloughed -- which McMahon later cited as proof the agency was 'nonessential.' The OCR reduction-in-force was rescinded in early January 2026. In February 2026, the department moved additional programs and grants to other federal agencies, including HHS and the State Department, continuing the interagency-transfer dismantlement strategy. A February 2026 GAO report found the March 2025 OCR reduction-in-force had cost taxpayers up to $38 million, since the affected employees were kept on paid administrative leave for nine months while barred from working; GAO concluded the department 'lacks reasonable assurance that its actions achieved the stated goal of reforming the federal workforce' and 'cannot ensure that OCR improved service to the American people.' The Century Foundation found nearly 25% of student-loan borrowers with payments due were delinquent as of February 2026, up from about 9% in 2019 -- roughly 7.9 million borrowers newly entering delinquency -- a sharp rise coinciding with the department's broader administrative disruption. The $1.7 trillion student loan portfolio and federal financial aid administration began transferring to Treasury in March 2026. In June 2026, the department's last two core offices -- the Office for Civil Rights (moving to DOJ) and the Office of Special Education and Rehabilitative Services, which administers IDEA protections for students with disabilities (moving to HHS) -- were also transferred, over the objection of disability advocates who participated in months of listening sessions McMahon's own office convened. Re-verified 2026-07-26: no material change to the core dismantlement/interagency-transfer narrative -- a Ninth Circuit ruling in the related Sweet v. McMahon case (July 17, 2026, on student-loan borrower claim deadlines) concerns a distinct piece of litigation over SAVE-plan borrower claims, not the interagency-transfer dismantlement this entry primarily documents, and is not folded in here.",
     "primary_proponent": {
       "name": "Linda McMahon",
       "role": "Secretary of Education (former WWE CEO)",
@@ -2735,11 +2980,11 @@
     },
     "confidence_note": "Extremely well-documented and current (reporting through late June 2026) from AP, NPR, Bloomberg, and Washington Examiner, with specific figures from the department's own Inspector General. McMahon's own public statements and the Project 2025 authorship connection are on the record, not inferred. The tension between congressional funding and executive dismantling is a real, verifiable structural fact, not a partisan characterization. Re-verified 2026-07-20: no material change found since the June 2026 special-education/civil-rights office transfers already documented in this entry -- no new ruling from the Supreme Court or lower courts, no further interagency transfers identified. Re-verified 2026-07-26: no material change to report on the core narrative. Reordered 2026-08-06 (chronology cleanup, no new facts): the March 2026 loan-portfolio transfer had been placed before 2025 content, and the February 2026 GAO report/Century Foundation/additional-program-transfer content had been placed after it; no facts were added, removed, or altered, only reordered to match actual event dates.",
     "section_summaries": {
-      "what_changed": "McMahon transferred the department's core functions to other agencies through interagency deals, because full abolition requires an act of Congress; a Feb. 2026 GAO report found the OCR reduction-in-force alone wasted up to $38 million paying idled staff while nearly 90% of discrimination complaints went dismissed without review. Student-loan delinquency has also jumped to nearly 25% (from ~9% in 2019), coinciding with the loan portfolio's disrupted transfer to Treasury. More programs/grants moved to HHS and State in Feb. 2026, continuing the interagency-transfer strategy.",
+      "what_changed": "McMahon transferred the department's core functions to other agencies through interagency deals, because full abolition requires an act of Congress; a Feb. 2026 GAO report found the OCR reduction-in-force alone wasted up to $38 million paying idled staff while nearly 90% of discrimination complaints went dismissed without review. Student-loan delinquency has also jumped to nearly 25% (from ~9% in 2019), coinciding with the loan portfolio's disrupted transfer to Treasury. More programs/grants moved to HHS and State in Feb. 2026, continuing the interagency-transfer strategy; a separate March 2025 plan to move the loan portfolio to the SBA was blocked by a federal court in May 2025.",
       "estimated_impact": "Congress still funds the department near its old level despite the hollowing-out; a former staffer doubted HHS has the educational expertise IDEA requires.",
       "confidence_note": "Extensively documented, citing the agency's Inspector General findings and McMahon's own public remarks; nothing has changed since the mid-2026 transfers already covered."
     },
-    "last_verified": "2026-08-06",
+    "last_verified": "2026-08-10",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -2781,6 +3026,14 @@
       {
         "name": "AP -- 'Education Department moves more programs to HHS, State Department'",
         "url": "https://apnews.com/article/education-department-trump-state-hhs-e82a5ea582f1b730a9591bc4f767621e"
+      },
+      {
+        "name": "CNN -- Trump says Small Business Administration will take over student loan portfolio as he moves to dismantle Education Department",
+        "url": "https://www.cnn.com/2025/03/21/politics/student-loans-trump-sba"
+      },
+      {
+        "name": "CNBC -- Court order challenges Trump's plan to move federal student loans to Small Business Administration",
+        "url": "https://www.cnbc.com/2025/05/27/court-order-challenges-trumps-plans-to-move-student-loans-to-sba.html"
       }
     ]
   },
@@ -2946,7 +3199,7 @@
     "domain": "funding_redirection",
     "status": "Finalized -- SAVE plan ended; borrowers given 90 days from the July 1, 2026 servicer-notice start date to select a new plan",
     "date_of_action": "2025-02-24 (online IDR/consolidation applications pulled down) through 2026-07 (90-day replacement-plan selection window begins)",
-    "what_changed": "On February 18, 2025, the Eighth Circuit Court of Appeals ruled that the Biden-era SAVE (Saving on a Valuable Education) income-driven repayment plan -- which had reduced payments to as little as 5% of a borrower's discretionary income and offered forgiveness after 10 years for borrowers who originally borrowed $12,000 or less -- exceeded the Education Secretary's statutory authority, and directed the lower court to broaden its injunction to block the entire SAVE rule, calling into question the legality of related income-contingent plans (PAYE, REPAYE) as well. Late on February 24, 2025, the Education Department responded by pulling down the online application for all income-driven repayment (IDR) plans and Direct loan consolidation entirely -- not just SAVE -- cutting off enrollment access for borrowers who wanted to switch plans regardless of which IDR plan they were pursuing. By mid-March 2025, the Department had closed applications across every IDR plan and restricted eligibility for Public Service Loan Forgiveness, leaving millions of borrowers unable to access repayment calculators or determine their new payment obligations; some reported being unable to determine whether to take a second job or plan for default. Roughly 7.5 million borrowers who had been placed into interest-free forbearance since July 2024 while the litigation proceeded then saw that forbearance end when interest resumed accruing on their loans August 1, 2025, with the White House characterizing the SAVE plan itself as 'illegal' and borrowers facing a roughly 1.5-million-application backlog as they tried to move onto other repayment plans. The underlying litigation concluded with a court ruling that SAVE was unlawful, and in late March 2026 the Education Department formally directed the same 7.5 million borrowers to prepare to exit SAVE, ending their forbearance for good. Starting July 1, 2026, loan servicers began issuing notices giving borrowers 90 days to select a new repayment plan; the Department's chosen replacement option, a new income-driven plan called the Repayment Assistance Plan, ties payments to income and household size with fixed 10-25-year terms, but results in higher monthly payments for most affected borrowers than SAVE had. Borrowers exiting forbearance without selecting a new plan in time would resume payments automatically under a plan that could be substantially costlier than what they had budgeted for during the intervening period of relief.",
+    "what_changed": "On February 18, 2025, the Eighth Circuit Court of Appeals ruled that the Biden-era SAVE (Saving on a Valuable Education) income-driven repayment plan -- which had reduced payments to as little as 5% of a borrower's discretionary income and offered forgiveness after 10 years for borrowers who originally borrowed $12,000 or less -- exceeded the Education Secretary's statutory authority, and directed the lower court to broaden its injunction to block the entire SAVE rule, calling into question the legality of related income-contingent plans (PAYE, REPAYE) as well. Late on February 24, 2025, the Education Department responded by pulling down the online application for all income-driven repayment (IDR) plans and Direct loan consolidation entirely -- not just SAVE -- cutting off enrollment access for borrowers who wanted to switch plans regardless of which IDR plan they were pursuing. By mid-March 2025, the Department had closed applications across every IDR plan and restricted eligibility for Public Service Loan Forgiveness, leaving millions of borrowers unable to access repayment calculators or determine their new payment obligations; some reported being unable to determine whether to take a second job or plan for default. Roughly 7.5 million borrowers who had been placed into interest-free forbearance since July 2024 while the litigation proceeded then saw that forbearance end when interest resumed accruing on their loans August 1, 2025, with the White House characterizing the SAVE plan itself as 'illegal' and borrowers facing a roughly 1.5-million-application backlog as they tried to move onto other repayment plans. On July 18, 2025, Politico reported the Department would deny roughly 460,000 of those backlogged applicants -- about a third of the 1.5 million total -- specifically because they had requested the plan with the lowest available monthly payment, with the Department stating loan servicers could not process those requests since SAVE was no longer a legal option; a December 2025 court filing later put the confirmed denial figure at 327,955 IDR applications rejected in August 2025 alone, citing an 'unforeseen ambiguity' about which plan denied borrowers should be enrolled in instead, with 802,730 IDR applications still pending as of the end of November 2025. The underlying litigation concluded with a court ruling that SAVE was unlawful, and in late March 2026 the Education Department formally directed the same 7.5 million borrowers to prepare to exit SAVE, ending their forbearance for good. Starting July 1, 2026, loan servicers began issuing notices giving borrowers 90 days to select a new repayment plan; the Department's chosen replacement option, a new income-driven plan called the Repayment Assistance Plan, ties payments to income and household size with fixed 10-25-year terms, but results in higher monthly payments for most affected borrowers than SAVE had. Borrowers exiting forbearance without selecting a new plan in time would resume payments automatically under a plan that could be substantially costlier than what they had budgeted for during the intervening period of relief.",
     "primary_proponent": {
       "name": "Department of Education",
       "role": "Federal agency administering student loan repayment programs",
@@ -2974,7 +3227,7 @@
       "caveat": "The SAVE plan's termination stems from an adverse court ruling the Department did not control, not solely a discretionary policy choice; the specific replacement plan's design and the 90-day timeline, however, are Department implementation decisions distinct from the underlying court ruling itself."
     },
     "confidence_note": "HIGH confidence throughout -- the February 2025 Eighth Circuit ruling and the Department's same-week application shutdown are corroborated by the court's own opinion, Consumer Finance Monitor, and The Guardian; the March 2025 IDR/PSLF restriction and the August 2025 interest resumption are corroborated by The Guardian and CNN respectively; the final 2026 termination and 7.5-million-borrower figure are corroborated across CBS News, KSAT, the Department of Education's own press release, and Sen. Merkley's public letter on the transition. MODERATE confidence on the precise payment-increase magnitude for typical borrowers under the Repayment Assistance Plan, since that comparison depends on individual income and loan-balance circumstances not uniformly quantified in sourcing reviewed.",
-    "last_verified": "2026-08-08",
+    "last_verified": "2026-08-10",
     "date_added": "2026-08-06",
     "sources": [
       {
@@ -3004,14 +3257,91 @@
       {
         "name": "Sen. Jeff Merkley -- Letter on the SAVE Plan transition",
         "url": "https://www.merkley.senate.gov/wp-content/uploads/Final-SAVE-Plan-Letter-3.4.26.pdf"
+      },
+      {
+        "name": "Politico -- 460K borrowers, income-driven repayment plans, applications will be denied",
+        "url": "https://www.politico.com/news/2025/07/18/460k-borrowers-income-driven-repayments-plans-applications-will-be-denied-00463558"
+      },
+      {
+        "name": "CNBC -- Over 300,000 student loan borrowers were denied a new repayment plan, court filing shows",
+        "url": "https://www.cnbc.com/2025/12/26/trump-rejects-student-loan-idr-applications.html"
       }
     ],
     "last_updated": "2026-08-08",
     "section_summaries": {
-      "what_changed": "After the Eighth Circuit ruled SAVE unlawful in February 2025, the Education Department pulled down applications for all income-driven repayment plans (not just SAVE), then restricted PSLF eligibility in March 2025, let interest resume for ~8 million borrowers in August 2025, and finally ended forbearance entirely for 7.5 million borrowers in 2026, giving them a 90-day window starting July 1, 2026 to switch to a costlier replacement plan (the Repayment Assistance Plan).",
+      "what_changed": "After the Eighth Circuit ruled SAVE unlawful in February 2025, the Education Department pulled down applications for all income-driven repayment plans (not just SAVE), then restricted PSLF eligibility in March 2025, let interest resume for ~8 million borrowers in August 2025, and finally ended forbearance entirely for 7.5 million borrowers in 2026, giving them a 90-day window starting July 1, 2026 to switch to a costlier replacement plan (the Repayment Assistance Plan); hundreds of thousands of IDR applications were denied in 2025 due to the SAVE shutdown, per a Dec. 2025 court filing.",
       "estimated_impact": "Roughly 7.5-8 million borrowers lost access to affordable income-driven repayment for 18 months, then faced renewed financial strain and, for most, higher monthly payments once forbearance ended entirely.",
       "confidence_note": "Well-corroborated via the Department's own release, CBS News, and a Senate letter; the SAVE plan's end stems from a court ruling, while the replacement plan's design and timeline are the Department's own implementation choices."
     }
+  },
+  {
+    "id": "education-dept-student-loan-portfolio-privatization-2025-2026",
+    "title": "Trump Administration Explored Selling the $1.6-1.77 Trillion Federal Student Loan Portfolio to Private Investors, Over Bipartisan Legal Objections",
+    "institution": "Department of Education; Department of the Treasury",
+    "domain": "funding_redirection",
+    "status": "Ongoing exploration -- as of February 2026, ED confirmed talks with stakeholders but said no final decision or action had been taken on a sale",
+    "date_of_action": "2025-10-07 (Politico first reports talks) through 2026-02-23 (Under Secretary Kent confirms exploration continuing, no final decision)",
+    "what_changed": "On October 7, 2025, Politico reported that senior Education and Treasury Department officials, under Secretary Linda McMahon and Treasury Secretary Scott Bessent, had held talks -- including approaching finance-industry executives as potential buyers -- about selling portions of the federal government's student loan portfolio (reported variously as $1.6 trillion face value, against a roughly $1.1 trillion 2024 FSA fair-value estimate) to private investors. Under the plan, private buyers would gain ownership and collection rights over the loans while the loans' original federal terms would nominally remain unchanged, though critics disputed whether that protection could survive a change of ownership in practice. On November 16-17, 2025, more than 40 congressional Democrats led by Sens. Elizabeth Warren, Richard Blumenthal, and Ron Wyden sent a formal letter to McMahon and Bessent opposing the sale, arguing it could strip borrowers of legally guaranteed protections -- including income-driven repayment, Public Service Loan Forgiveness, disability discharge, and borrower-defense/fraud-based relief -- and that federal law (the Higher Education Act of 1965) permits the Education Secretary to sell Direct Loans only with Treasury consultation and only if the sale imposes no net cost to the federal government, a condition the lawmakers argued would be difficult to meet given loans are generally worth more to a public lender collecting under federal terms than to a private buyer. By late November 2025, reporting on the same exploration cited an updated $1.77 trillion portfolio figure. On February 23, 2026, Under Secretary Nicholas Kent responded to Sen. Warren's inquiry confirming the department had met with stakeholders 'to discuss ideas' but stated ED 'has not taken any final actions or made final decisions regarding selling all or part of the student loan portfolio' -- leaving which loans might be sold, to whom, on what timeline, and under what terms all undecided as of that response.",
+    "primary_proponent": {
+      "name": "Education Secretary Linda McMahon and Treasury Secretary Scott Bessent",
+      "role": "Department heads whose staffs held the reported sale talks with finance-industry executives",
+      "note": "Under Secretary of Education Nicholas Kent formally confirmed the exploration's existence and scope in a February 23, 2026 written response to Sen. Elizabeth Warren, while stating no final decision had been made."
+    },
+    "estimated_impact": {
+      "summary": "No sale has occurred as of this entry's last verification, so there is no yet-realized borrower harm to quantify -- the documented impact so far is the exploration itself: senior officials meeting with prospective private buyers for a multi-trillion-dollar public asset carrying statutorily guaranteed borrower protections, over bipartisan-flagged legal and practical objections, without a public accounting of which protections would survive a sale.",
+      "figures": [
+        {
+          "metric": "Face value of the federal student loan portfolio reportedly discussed for sale",
+          "value": "$1.6-1.77 trillion (figure varies by report/date)",
+          "source": "Politico, other outlets, Oct-Nov 2025"
+        },
+        {
+          "metric": "2024 Federal Student Aid fair-value estimate of the same portfolio",
+          "value": "~$1.1 trillion",
+          "source": "FSA, cited by Higher Ed Dive"
+        },
+        {
+          "metric": "Congressional Democrats who signed the opposition letter",
+          "value": "40+",
+          "source": "Sen. Warren's office, Nov. 16-17, 2025"
+        }
+      ],
+      "caveat": "This is a documented exploration, not a completed or even formally proposed sale -- ED's own February 2026 statement is explicit that no final action or decision had been made. The entry should be presented as a live policy question with a disputed legal premise (whether a no-net-cost sale is achievable, and whether borrower protections would legally survive), not as a completed privatization."
+    },
+    "confidence_note": "HIGH confidence for the timeline of reported talks, the congressional letter, and ED's own confirmatory response -- corroborated across Politico's original reporting, Higher Ed Dive, Protect Borrowers, and Sen. Warren's office's published letters and ED's written response. The portfolio-value figures vary somewhat by source and date (face value vs. fair value, and differing snapshots between $1.6T and $1.77T), noted above rather than resolved to one number.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "section_summaries": {
+      "what_changed": "Trump administration officials held talks with finance executives from Oct. 2025 about selling the ~$1.6-1.77T federal student loan portfolio to private investors; 40+ Democrats objected on legal grounds, and ED confirmed in Feb. 2026 that exploration continued with no final decision made.",
+      "estimated_impact": "No sale has occurred; the documented impact is the exploration itself and the unresolved question of whether borrower protections would survive a change of ownership.",
+      "confidence_note": "Strongly corroborated across multiple outlets and ED's own written confirmation; portfolio-value figures vary by source and are presented as a range rather than resolved."
+    },
+    "sources": [
+      {
+        "name": "Protect Borrowers -- Response to Trump Administration's Reported Plans to Sell Student Loan Portfolio to Private Market",
+        "url": "https://protectborrowers.org/response-to-trump-administrations-reported-plans-to-sell-student-loan-portfolio-to-private-market/"
+      },
+      {
+        "name": "Higher Ed Dive -- Democrats warn feds against selling student loans to private market",
+        "url": "https://www.highereddive.com/news/trump-administration-sale-talks-student-loan-portfolio-elizabeth-warren-democrats/805851/"
+      },
+      {
+        "name": "Rep. Ayanna Pressley -- Pressley, Warren, Sanders, Over 40 Lawmakers Urge Trump Administration to End Plans to Sell Federal Student Loan Portfolio",
+        "url": "https://pressley.house.gov/2025/11/17/pressley-warren-sanders-over-40-lawmakers-urge-trump-administration-to-end-plans-to-sell-federal-student-loan-portfolio/"
+      },
+      {
+        "name": "Sen. Elizabeth Warren's office -- Letter to Secretary McMahon and Secretary Bessent on Student Debt Sale",
+        "url": "https://www.warren.senate.gov/imo/media/doc/letter_to_ed_treasury_on_student_debt_sale.pdf"
+      },
+      {
+        "name": "Sen. Elizabeth Warren's office -- ED response re: student debt sale (Under Secretary Nicholas Kent, Feb. 23, 2026)",
+        "url": "https://www.warren.senate.gov/imo/media/doc/ed_response_to_senator_warren_os-25-011064_re_student_debt_sale.pdf"
+      },
+      {
+        "name": "The Hill -- Concerns over possible Trump sale of federal student loan portfolio",
+        "url": "https://thehill.com/homenews/education/5609708-trump-education-department-student-loan-portfolio-sale/"
+      }
+    ]
   },
   {
     "id": "education-dept-transgender-civil-rights-agreements-canceled-2026",
@@ -6602,7 +6932,7 @@
     "domain": "funding_redirection",
     "status": "Ongoing -- risk assessment based on funding changes already enacted (OBBBA) and being implemented (work-requirements rule documented separately in this tracker)",
     "date_of_action": "2025-07 (OBBBA Medicaid funding provisions signed into law) through 2026-04 (hospital risk analysis published)",
-    "what_changed": "A new analysis found that 446 hospitals across 44 states and Washington, D.C. are at high risk of closing or cutting services as a result of Medicaid funding reductions enacted in the One Big Beautiful Bill Act (OBBBA), the same law whose work-requirements provisions are documented separately in this tracker (medicaid-work-requirements-cms-rule-2026.json). Many of the at-risk hospitals already operate at a financial loss and rely heavily on Medicaid reimbursement to remain viable; NBC News reported the cuts put jobs, maternity care, mental health services, and general local access to treatment at risk in the affected communities, particularly in rural and underserved areas where Medicaid patients make up an outsized share of hospital revenue. Trump himself connected these funding pressures directly to military spending priorities: speaking at a private White House Easter luncheon in April 2026, NBC News reported he said the federal government could not fund Medicaid, Medicare, and child care because military spending had to come first, arguing those responsibilities should shift to the states.",
+    "what_changed": "An earlier analysis, published November 17, 2025 by Harvard T.H. Chan School of Public Health's Healthcare Quality and Outcomes Lab (researchers Jose Figueroa and Thomas Tsai) in collaboration with the New York Times, examined data on more than 4,400 U.S. hospitals from the American Hospital Association, Medicare's Healthcare Cost Report Information System, AHRQ, and the Private Equity Stakeholder Project, and identified 109 hospitals -- those serving 25%+ Medicaid patients, financially distressed, and already caring for vulnerable populations -- as facing the greatest risk from OBBBA's Medicaid cuts. 85% of those 109 highest-risk hospitals are in urban areas, and are therefore ineligible for the $50 billion Rural Health Transformation Fund OBBBA created to cushion rural hospitals from the same cuts; the researchers noted these urban safety-net hospitals disproportionately serve low-income and racial-minority patient populations. A new analysis found that 446 hospitals across 44 states and Washington, D.C. are at high risk of closing or cutting services as a result of Medicaid funding reductions enacted in the One Big Beautiful Bill Act (OBBBA), the same law whose work-requirements provisions are documented separately in this tracker (medicaid-work-requirements-cms-rule-2026.json). Many of the at-risk hospitals already operate at a financial loss and rely heavily on Medicaid reimbursement to remain viable; NBC News reported the cuts put jobs, maternity care, mental health services, and general local access to treatment at risk in the affected communities, particularly in rural and underserved areas where Medicaid patients make up an outsized share of hospital revenue. Trump himself connected these funding pressures directly to military spending priorities: speaking at a private White House Easter luncheon in April 2026, NBC News reported he said the federal government could not fund Medicaid, Medicare, and child care because military spending had to come first, arguing those responsibilities should shift to the states.",
     "primary_proponent": {
       "name": "Congressional Republicans / Trump administration",
       "role": "Enacted and implemented the OBBBA's Medicaid funding reductions",
@@ -6611,6 +6941,11 @@
     "estimated_impact": {
       "summary": "Nearly 450 hospitals nationwide -- spanning 44 states and the District of Columbia -- were found to be at high financial risk from reduced Medicaid funding, threatening not just coverage for Medicaid beneficiaries but broader local access to jobs, maternity care, mental health services, and emergency treatment in the communities those hospitals serve.",
       "figures": [
+        {
+          "metric": "Hospitals identified as highest-risk in the earlier Harvard analysis",
+          "value": "109 (85% in urban areas)",
+          "source": "Harvard T.H. Chan School of Public Health / NYT, Nov. 2025"
+        },
         {
           "metric": "Hospitals found at high risk of closing or cutting services",
           "value": "446",
@@ -6625,7 +6960,7 @@
       "caveat": "This is a risk analysis projecting financial vulnerability based on current Medicaid funding levels and hospital operating margins, not a confirmed count of hospitals that have already closed or cut services as a direct, adjudicated result of the OBBBA cuts specifically."
     },
     "confidence_note": "MODERATE-HIGH confidence -- the 446-hospital figure and its state-level scope come from a specific analysis cited by NBC News; sourcing reviewed did not independently verify the analysis's full methodology (e.g., which organization produced it or its underlying risk-scoring criteria) beyond NBC's reporting. The underlying OBBBA Medicaid funding cuts are well-documented public record. Present the 446 figure as a credentialed risk projection, not a confirmed closure count. Re-verified 2026-08-06: NBC News independently corroborates Trump's own April 2026 statement explicitly tying reduced federal support for Medicaid, Medicare, and child care to military spending priorities and a preference for shifting those costs to states.",
-    "last_verified": "2026-08-06",
+    "last_verified": "2026-08-10",
     "date_added": "2026-08-06",
     "sources": [
       {
@@ -6635,11 +6970,19 @@
       {
         "name": "NBC News -- Trump says it's 'not possible' for US to pay for Medicaid, Medicare, day care while 're-fighting wars'",
         "url": "https://www.nbcnews.com/politics/donald-trump/trump-says-not-possible-us-pay-medicaid-medicare-daycare-re-fighting-w-rcna266381"
+      },
+      {
+        "name": "Harvard T.H. Chan School of Public Health -- Urban safety-net hospitals may face serious risks from Medicaid cuts",
+        "url": "https://hsph.harvard.edu/news/urban-safety-net-hospitals-may-face-serious-risks-from-medicaid-cuts/"
+      },
+      {
+        "name": "Healthcare Dive -- Urban safety-net hospitals vulnerable to Medicaid cuts: analysis",
+        "url": "https://www.healthcaredive.com/news/urban-safety-net-hospitals-vulnerable-medicaid-cuts/805932/"
       }
     ],
     "last_updated": "2026-08-06",
     "section_summaries": {
-      "what_changed": "An analysis found 446 hospitals across 44 states and D.C. are at high risk of closing or cutting services due to OBBBA's Medicaid funding cuts, many already operating at a loss and heavily reliant on Medicaid reimbursement.",
+      "what_changed": "An analysis found 446 hospitals across 44 states and D.C. are at high risk of closing or cutting services due to OBBBA's Medicaid funding cuts, many already operating at a loss and heavily reliant on Medicaid reimbursement; an earlier Harvard analysis (Nov. 2025) had already flagged 109 hospitals, 85% urban, as highest-risk and ineligible for OBBBA's rural-hospital backstop fund.",
       "estimated_impact": "Nearly 450 hospitals face financial risk, threatening jobs, maternity care, mental health services, and local treatment access in affected communities.",
       "confidence_note": "The 446-hospital figure comes from a specific analysis cited by NBC News; the analysis's full methodology wasn't independently verified beyond that reporting."
     }
@@ -6981,6 +7324,74 @@
       }
     ],
     "last_updated": "2026-08-05"
+  },
+  {
+    "id": "national-park-service-lease-terminations-2025",
+    "title": "GSA/DOGE Listed 34 National Park Service Buildings for Lease Termination, Including Visitor Centers and Museums Housing Artifacts",
+    "institution": "National Park Service (NPS); General Services Administration (GSA)",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing in phases through 2026; at least two individual sites (Fairbanks, AK and Seattle, WA) reversed or found to have been included in error",
+    "date_of_action": "2025-03-06 (list publicly reported) through 2026 (phased terminations continuing)",
+    "what_changed": "On March 6, 2025, the Washington Post reported that GSA, working with DOGE, had targeted the leases of at least 34 National Park Service buildings for termination as part of the administration's broader federal real-estate cost-cutting push -- including visitor centers, law enforcement offices, park headquarters, and museum/archive space housing millions of cultural artifacts. GSA said terminating the leases could save taxpayers millions of dollars; terminations were structured to arrive in waves stretching from 2025 into 2026, with example dates including a planned September 30, 2025 termination for Seattle's Klondike Gold Rush National Historical Park visitor center and a planned end-of-May-2026 termination for a National Park Service building in Fairbanks, Alaska. Park advocates warned the closures would degrade the visitor experience, particularly during peak summer season, threaten artifact preservation, and disrupt law-enforcement and emergency operations at affected parks. At least two individual terminations were subsequently reversed or corrected: GSA restored the Fairbanks-area Alaska Public Lands Information Center lease roughly 10 days after terminating it, following pressure from Sen. Dan Sullivan; and the Klondike Gold Rush visitor center lease in Seattle was found to have been placed on the termination list in error -- the lease had actually been extended by Historic Seattle in September 2024 through 2030, with GSA apparently unaware of the extension when it added the site to the list. Members of Congress, including Sens. Amy Klobuchar and Tina Smith, formally urged GSA not to proceed with terminations affecting other specific NPS buildings; a bill, the National Park System Long-Term Lease Investment Act (S.2498/H.R.4931), was introduced in Congress during this period aimed at giving NPS more stable, long-term leasing authority, though it had not been enacted as of this entry's last verification.",
+    "primary_proponent": {
+      "name": "General Services Administration, with DOGE (Department of Government Efficiency)",
+      "role": "GSA administered the lease-termination list; DOGE's broader federal-real-estate cost-cutting push provided the policy driver",
+      "note": "No single named individual was identified in sourcing reviewed as personally responsible for the specific building selections; at least two individual terminations (Fairbanks, Seattle) were reported as reversed or corrected after local/congressional pushback, suggesting the initial list was compiled with limited site-specific review."
+    },
+    "estimated_impact": {
+      "summary": "34 NPS buildings -- including at least 8 visitor centers plus museums, archives, and law-enforcement offices -- were listed for lease termination with a stated savings rationale but with at least two documented cases (Fairbanks, Seattle) of the list including facilities that should not have been on it, one because the lease had already been extended years into the future without GSA's apparent knowledge.",
+      "figures": [
+        {
+          "metric": "NPS buildings listed for lease termination",
+          "value": "34",
+          "source": "GSA, reported by Washington Post, March 2025"
+        },
+        {
+          "metric": "Visitor centers among those slated for closure",
+          "value": "8",
+          "source": "Washington Post, March 2025"
+        }
+      ],
+      "caveat": "No source reviewed provided a final, comprehensive accounting of how many of the 34 buildings were ultimately closed, reversed, or corrected as of this entry's last verification -- the terminations were structured to arrive in phases through 2026, and this entry captures the initial scope plus the specific reversals/corrections documented so far, not a final tally."
+    },
+    "confidence_note": "HIGH confidence for the initial list's existence and scope (Washington Post, Frommers compiling the GSA list, congressional letters from Klobuchar/Smith) and for the two specific reversal/correction cases (Newsminer/Fairbanks, Real Change/Seattle). MODERATE confidence on the overall current status of all 34 sites, since no single source reviewed tracks a complete, updated tally.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "section_summaries": {
+      "what_changed": "GSA/DOGE listed 34 NPS buildings including visitor centers and museums for lease termination in phases through 2026; at least two sites were reversed or corrected after local pushback revealed errors.",
+      "estimated_impact": "34 buildings including 8 visitor centers were targeted, with at least two documented cases where facilities should not have been on the list in the first place.",
+      "confidence_note": "Strongly corroborated for the initial list and two specific reversal cases; no source gives a complete current tally of all 34 sites."
+    },
+    "sources": [
+      {
+        "name": "Washington Post -- Trump property purge to include national park visitor centers, museums",
+        "url": "https://www.washingtonpost.com/travel/2025/03/06/national-park-service-leases-termination/"
+      },
+      {
+        "name": "Frommers -- Full List of 34 Targeted National Park Leases",
+        "url": "https://www.frommers.com/trip-ideas/national-park/full-list-of-34-national-park-leases-cancelled-parks-being-dismantled-before-our-eyes/"
+      },
+      {
+        "name": "Klobuchar Senate Office -- Klobuchar, Smith Urge Administration Not to Cancel Leases for Several National Park Service Buildings",
+        "url": "https://www.klobuchar.senate.gov/public/index.cfm/news-releases?ID=F9EAD8E6-7665-4A02-BE8D-10D719C77318"
+      },
+      {
+        "name": "AZPM -- Federal lease terminations threaten five National Park Service facilities in Arizona",
+        "url": "https://www.azpm.org/s/100539-federal-lease-terminations-threaten-five-national-park-service-facilities-in-arizona/"
+      },
+      {
+        "name": "Newsminer -- Feds pull leases for Fairbanks park services offices",
+        "url": "https://www.newsminer.com/news/national/feds-pull-leases-for-fairbanks-park-services-offices/article_500ac0f0-f927-11ef-9dc4-9ff12dcd67be.html"
+      },
+      {
+        "name": "Real Change -- National park saved: Local advocates halt the Trump administration's efforts to close the Klondike Gold Rush National Historical Park",
+        "url": "https://www.realchangenews.org/news/2025/04/25/national-park-saved-local-advocates-halt-trump-administrations-efforts-close-klondike"
+      },
+      {
+        "name": "Congress.gov -- S.2498, National Park System Long-Term Lease Investment Act",
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2498"
+      }
+    ]
   },
   {
     "id": "national-park-service-staffing-crisis-trump2",
@@ -8727,6 +9138,84 @@
       "confidence_note": "Strong: Reuters' own exclusive reporting, corroborated via wire syndication; no total headcount figure exists to cite."
     },
     "last_updated": "2026-08-05"
+  },
+  {
+    "id": "obbba-medicaid-abortion-provider-defund-2025-2026",
+    "title": "OBBBA's One-Year Medicaid 'Defund' of Abortion Providers Cut Off Planned Parenthood and Independent Clinics, Forcing Real Closures in Maine and Elsewhere",
+    "institution": "Centers for Medicare & Medicaid Services (CMS); Planned Parenthood affiliates and independent reproductive-health clinics nationwide",
+    "domain": "funding_redirection",
+    "status": "In effect and being enforced; Planned Parenthood's nationwide preliminary injunction was stayed by the First Circuit (Dec. 30, 2025) and the underlying Maine Family Planning case was dismissed (Jan. 30, 2026), though litigation over other aspects continues in some states",
+    "date_of_action": "2025-07-04 (OBBBA signed into law) through 2026-02 (Maine clinics seek state backfill funding after closures)",
+    "what_changed": "Section 71113 of the One Big Beautiful Bill Act (OBBBA), signed July 4, 2025, cut off Medicaid reimbursement for one year to any tax-exempt 'essential community provider' focused on family planning that both provides abortions beyond the Hyde Amendment's exceptions and received more than \u0000,000 in combined federal/state Medicaid expenditures in fiscal year 2023 -- a threshold designed to target Planned Parenthood and similarly-sized independent clinics, including Maine Family Planning, while leaving smaller providers unaffected. Nationally, roughly 200 Planned Parenthood health centers across 24 states were identified as being at risk of closure, more than 90% of them in states where abortion remains legal, since over half of Planned Parenthood's patients rely on Medicaid for care unrelated to abortion (contraception, cancer screenings, STI testing, and general primary/reproductive care). Planned Parenthood Federation of America and Maine Family Planning separately sued, along with 22 state attorneys general and Pennsylvania challenging the provision as unconstitutional; a federal judge (Talwani) granted Planned Parenthood a preliminary injunction blocking the cutoff nationwide. On December 30, 2025, the First Circuit Court of Appeals stayed that injunction, ruling the provision was not an unconstitutional bill of attainder because it did not itself impose 'punishment' in the legal sense -- allowing the funding cutoff to proceed in most states while other litigation continued; the separate Planned Parenthood Federation of America v. Kennedy suit was dismissed January 30, 2026. In Maine, the funding loss had already produced concrete, documented harm by that point: effective October 31, 2025, Maine Family Planning discontinued primary care services (not abortion services specifically) at three rural locations -- Houlton, Ellsworth, and Presque Isle -- affecting roughly 800-1,000 low-income patients who had relied on those clinics as their primary-care provider, not just for reproductive health. By February 2026, Maine Family Planning and other affected clinics were seeking state-level backfill funding (a proposed \\ million state appropriation) to offset the federal loss, and Washington State's governor separately announced the state would cover the funding gap for its own affected providers.",
+    "primary_proponent": {
+      "name": "Congress (OBBBA Section 71113), implemented by CMS",
+      "role": "The provision was written into the reconciliation bill and signed by President Trump; CMS and state Medicaid agencies implemented the payment cutoff",
+      "note": "No single named executive-branch official was identified in sourcing reviewed as personally driving implementation beyond CMS's routine administration of the statutory provision -- responsibility here sits primarily with the legislative provision itself."
+    },
+    "estimated_impact": {
+      "summary": "A Medicaid-funding cutoff aimed at defunding abortion providers has already produced documented harm to non-abortion primary care access for low-income, often rural patients -- the Maine closures specifically ended primary care (not abortion) services for patients who had no connection to the abortion debate but relied on these clinics as their only local provider.",
+      "figures": [
+        {
+          "metric": "Medicaid-expenditure threshold triggering the funding cutoff",
+          "value": ">\u0000,000 in FY2023 federal/state Medicaid expenditures",
+          "source": "OBBBA Section 71113, per National Health Law Program"
+        },
+        {
+          "metric": "Planned Parenthood health centers at risk of closure nationally",
+          "value": "~200 across 24 states",
+          "source": "Planned Parenthood, cited in multiple outlets, 2025"
+        },
+        {
+          "metric": "Share of at-risk closures in states where abortion remains legal",
+          "value": "90%+",
+          "source": "Planned Parenthood analysis"
+        },
+        {
+          "metric": "Maine Family Planning patients who lost primary care access after the October 31, 2025 closures",
+          "value": "~800-1,000",
+          "source": "NPR, Maine Morning Star"
+        }
+      ],
+      "caveat": "The provision is explicitly a one-year Medicaid funding cutoff (per the statute's own text), not a permanent defunding -- its renewal or expiration after that year was not resolved in sourcing reviewed as of last verification. Litigation outcomes vary by circuit and case; the First Circuit's December 2025 ruling addressed the bill-of-attainder claim specifically and does not resolve every legal challenge to the provision (22 state AGs' separate challenge was ongoing as of last verification). The 200-Planned-Parenthood-centers figure describes centers 'at risk,' not confirmed closed -- Maine's three closures are the clearest documented, completed instance of harm found in sourcing reviewed."
+    },
+    "confidence_note": "HIGH confidence -- the statutory provision, national scope, and litigation timeline are corroborated across KFF, National Health Law Program, The Hill, Courthouse News/Justia case reporting, and CPR/Colorado Public Radio; the Maine-specific closures and patient-count figures are corroborated by NPR's and Maine Morning Star's on-the-ground reporting.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "section_summaries": {
+      "what_changed": "OBBBA's Section 71113 cut Medicaid funding for one year to abortion providers exceeding \u0000K in Medicaid billing, targeting Planned Parenthood (~200 centers at risk nationally) and independent clinics like Maine Family Planning, which closed primary care at 3 sites after litigation loss.",
+      "estimated_impact": "Real harm has already occurred: Maine closures cut off non-abortion primary care for ~800-1,000 low-income patients; nationally ~200 Planned Parenthood centers remain at risk after the First Circuit stayed the protective injunction.",
+      "confidence_note": "Strongly corroborated across national policy/legal outlets and local on-the-ground reporting on the Maine closures specifically."
+    },
+    "sources": [
+      {
+        "name": "National Health Law Program -- OBBBA's Medicaid Abortion Provider 'Defund': An Overview",
+        "url": "https://healthlaw.org/obbbas-medicaid-abortion-provider-defund-an-overview/"
+      },
+      {
+        "name": "NPR -- Clinics that provide abortion in Maine face an onslaught",
+        "url": "https://www.npr.org/2025/11/17/nx-s1-5596401/clinics-that-provide-abortion-in-maine-face-an-onslaught"
+      },
+      {
+        "name": "NPR -- National abortion politics threatens the survival of popular clinics in Maine",
+        "url": "https://www.npr.org/sections/shots-health-news/2025/11/18/nx-s1-5611457/maine-family-planning-trump-budget-medicaid-abortion"
+      },
+      {
+        "name": "Maine Morning Star -- Reproductive health providers targeted by Trump ask for additional state funding",
+        "url": "https://mainemorningstar.com/2026/02/25/reproductive-health-providers-targeted-by-trump-ask-for-additional-state-funding/"
+      },
+      {
+        "name": "The Hill -- Court allows Planned Parenthood Medicaid funding cuts in multiple states",
+        "url": "https://thehill.com/policy/healthcare/5668686-planned-parenthood-funding-law/"
+      },
+      {
+        "name": "KFF -- Litigation Challenging the 2025 Budget Reconciliation Law's Provision Blocking Federal Medicaid Payments to Planned Parenthood",
+        "url": "https://www.kff.org/womens-health-policy/litigation-challenging-the-2025-budget-reconciliation-laws-provision-blocking-federal-medicaid-payments-to-planned-parenthood/"
+      },
+      {
+        "name": "CPR (Colorado Public Radio) -- One Big Beautiful Bill law blocks Colorado Medicaid patients from going to Planned Parenthood for care",
+        "url": "https://www.cpr.org/2025/07/11/one-big-beautiful-bill-colorado-patients-medicaid-planned-parenthood-snap/"
+      }
+    ]
   },
   {
     "id": "odni-pulte-staff-purge-trump2",
@@ -11616,6 +12105,75 @@
       "estimated_impact": "Disrupted over $218M/year in agricultural-development food aid to countries including Tanzania, Tunisia, and Sri Lanka before a partial, incompletely-scoped reversal.",
       "confidence_note": "Strongly sourced to Reuters' review of two separate internal USDA emails documenting both the cancellation and the reversal."
     }
+  },
+  {
+    "id": "usda-food-safety-advisory-committees-terminated-2025",
+    "title": "USDA Terminated Its Two Long-Standing Scientific Food-Safety Advisory Committees, Halting In-Progress Listeria Review",
+    "institution": "U.S. Department of Agriculture (USDA) -- Food Safety and Inspection Service (FSIS)",
+    "domain": "research_suppression",
+    "status": "Terminated; no reinstatement found as of last verification despite lawmaker and stakeholder calls to restore them",
+    "date_of_action": "2025-02-20 (formal termination) / 2025-03-06 (members notified, publicly reported)",
+    "what_changed": "On March 6, 2025, USDA notified members that it had terminated the National Advisory Committee on Microbiological Criteria for Foods (NACMCF, established 1988) and the National Advisory Committee on Meat and Poultry Inspection (NACMPI, established 1971), consistent with a February 20, 2025 termination date reported by trade press, as part of the administration's broader elimination of federal advisory committees under Executive Order 14217. Both committees provided independent scientific expertise to USDA, FDA, CDC, and other federal agencies: NACMCF developed microbiological safety standards and risk-assessment guidance used across the food-safety system, while NACMPI -- with industry, government, academic, and consumer representatives -- reviewed meat and poultry inspection program issues. Sen. Richard Blumenthal specifically flagged that NACMCF had been actively tasked, as of December 2024, with reviewing FSIS's regulatory approach to Listeria monocytogenes to inform policy improvements and facility oversight -- work that was halted by the termination, coming just months after a 2024 Listeria outbreak linked to Boar's Head deli meat killed 10 people and sickened dozens nationwide. Consumer Reports food policy director Brian Ronholm called the termination 'very alarming' and warned it signaled food safety would not be a USDA priority, while dozens of food-safety stakeholders and Sen. Blumenthal separately urged Secretary Brooke Rollins to reinstate both committees, noting their combined annual budgets ($225,000 for NACMCF, $75,000 for NACMPI) were minimal relative to the scientific oversight they provided. As of this entry's last verification, no source reviewed reported either committee being reinstated.",
+    "primary_proponent": {
+      "name": "U.S. Department of Agriculture, under Executive Order 14217",
+      "role": "USDA implemented the termination as part of the administration's government-wide advisory-committee elimination directive",
+      "note": "Agriculture Secretary Brooke Rollins was the recipient of subsequent reinstatement requests from Sen. Blumenthal and food-safety stakeholders; no source reviewed identified a specific named USDA official as personally directing the decision beyond the agency-wide EO 14217 implementation."
+    },
+    "estimated_impact": {
+      "summary": "USDA eliminated its only two standing sources of independent scientific advice on food-microbiology and meat/poultry-inspection policy, halting an in-progress review of Listeria monocytogenes oversight that had been requested months after a deadly 2024 Listeria outbreak -- removing external scientific review at a moment stakeholders argued made it especially valuable.",
+      "figures": [
+        {
+          "metric": "Deaths in the 2024 Boar's Head Listeria outbreak that prompted NACMCF's Listeria review",
+          "value": "10",
+          "source": "CDC, cited by Sen. Blumenthal's office"
+        },
+        {
+          "metric": "Combined annual budget of both terminated committees",
+          "value": "$300,000 ($225,000 NACMCF + $75,000 NACMPI)",
+          "source": "Food Safety Magazine, citing an April 8, 2025 letter to Secretary Rollins"
+        },
+        {
+          "metric": "Years NACMCF and NACMPI had operated before termination",
+          "value": "37 years (NACMCF, est. 1988) and 54 years (NACMPI, est. 1971)",
+          "source": "Food Safety News"
+        }
+      ],
+      "caveat": "No source reviewed documented a specific, attributable food-safety failure resulting from the committees' absence as of last verification -- the harm identified by critics is the loss of independent scientific review capacity and the interruption of the in-progress Listeria review itself, not yet a downstream outbreak or regulatory failure traceable to the gap."
+    },
+    "confidence_note": "HIGH confidence -- corroborated across CNBC, Reuters, Food Safety News, Food Safety Magazine, and Perishable News reporting on the termination itself; Sen. Blumenthal's office press release provides the Listeria-review connection and outbreak figures with an official congressional source.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "section_summaries": {
+      "what_changed": "USDA terminated its two scientific food-safety advisory committees (NACMCF, NACMPI) in March 2025 under EO 14217, halting an in-progress Listeria oversight review months after a deadly 2024 outbreak.",
+      "estimated_impact": "USDA lost its only standing independent scientific-advice channels on food microbiology and meat/poultry inspection, interrupting the Listeria review specifically.",
+      "confidence_note": "Strongly corroborated across multiple food-safety trade press outlets and Sen. Blumenthal's official congressional office."
+    },
+    "sources": [
+      {
+        "name": "Reuters -- USDA eliminates two food safety advisory committees, members say",
+        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/usda-eliminates-two-food-safety-advisory-committees-members-say-2025-03-07/"
+      },
+      {
+        "name": "CNBC -- USDA eliminates two food safety advisory committees",
+        "url": "https://www.cnbc.com/2025/03/07/usda-eliminates-two-food-safety-advisory-committees.html"
+      },
+      {
+        "name": "Food Safety News -- President Trump eliminates two key food safety committees",
+        "url": "https://www.foodsafetynews.com/2025/03/president-trump-eliminates-two-key-food-safety-committees/"
+      },
+      {
+        "name": "Food Safety Magazine -- Key Federal Food Safety Advisory Committees, NACMCF and NACMPI, Have Been Terminated",
+        "url": "https://www.food-safety.com/articles/10196-key-federal-food-safety-advisory-committees-nacmcf-and-nacmpi-have-been-terminated"
+      },
+      {
+        "name": "Sen. Richard Blumenthal -- Blumenthal Slams Trump Administration's Actions Weakening Food Safety Months After Deadly Listeria Outbreak",
+        "url": "https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-slams-trump-administrations-actions-weakening-food-safety-months-after-deadly-listeria-outbreak"
+      },
+      {
+        "name": "Food Safety Magazine -- Dozens of Prominent Food Safety Stakeholders Call for Reinstatement of NACMCF and NACMPI",
+        "url": "https://www.food-safety.com/articles/10298-dozens-of-prominent-food-safety-stakeholders-call-for-reinstatement-of-nacmcf-and-nacmpi"
+      }
+    ]
   },
   {
     "id": "usda-food-security-survey-cancellation-2025",
