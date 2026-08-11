@@ -2836,12 +2836,12 @@
   },
   {
     "id": "dot-duffy-directive-funding-conditions-2025",
-    "title": "DOT Ties Transportation Grants to Birth/Marriage Rates and Immigration-Enforcement Compliance ('Duffy Directive'), Later Enjoined",
+    "title": "DOT Ties Transportation Grants to Birth/Marriage Rates and Immigration-Enforcement Compliance, Rescinds Environmental-Justice Guidance ('Duffy Directive'), Immigration Condition Later Enjoined",
     "institution": "U.S. Department of Transportation",
     "domain": "funding_redirection",
     "status": "Partially blocked by court order -- the immigration-enforcement funding condition was preliminarily enjoined nationwide in June 2025; the birth/marriage-rate grant-preference language does not appear to have been separately struck down in reporting reviewed for this entry",
-    "date_of_action": "2025-01-29 (birth/marriage-rate order) and 2025-04-24 (immigration-compliance funding threat), with litigation through at least 2025-06-19",
-    "what_changed": "One day after being sworn in, Transportation Secretary Sean Duffy issued an order on January 29, 2025 directing DOT to prioritize grants, loans, and contracts for communities with marriage and birth rates above the national average, effective immediately across all current and future DOT-supported state and local funding, while also ending support for projects addressing climate change or racial/gender inequality. On April 24, 2025, Duffy separately announced DOT would cut off transportation funding to any state that did not comply with the administration's federal civil immigration-enforcement agenda -- threatening infrastructure funding unrelated to immigration as leverage. Twenty-one states sued DOT and Duffy in the U.S. District Court for the District of Rhode Island on May 13, 2025 over the immigration-enforcement funding condition, arguing it unlawfully forced states to divert law-enforcement resources to federal civil immigration enforcement or lose transportation funds. On June 19, 2025, the court granted a preliminary injunction blocking DOT from imposing that immigration-enforcement condition on grant funding nationwide.",
+    "date_of_action": "2025-01-29 (birth/marriage-rate order), 2025-03-10 (environmental-justice memo rescission), and 2025-04-24 (immigration-compliance funding threat), with litigation through at least 2025-06-19",
+    "what_changed": "One day after being sworn in, Transportation Secretary Sean Duffy issued an order on January 29, 2025 directing DOT to prioritize grants, loans, and contracts for communities with marriage and birth rates above the national average, effective immediately across all current and future DOT-supported state and local funding, while also stating an intent to end support for projects addressing climate change or racial/gender inequality. Duffy formally executed that second piece on March 10, 2025, rescinding two Biden-era DOT memos (issued in 2021 and 2023) that had directed state agencies to factor 'social justice and environmental agenda' considerations -- including disadvantaged-community representation in project planning, selection, and design -- into how Bipartisan Infrastructure Law funding was spent. DOT's own announcement said the memos 'added meritless and costly burdens related to greenhouse gas emissions and equity initiatives' and had no basis in statute. On April 24, 2025, Duffy separately announced DOT would cut off transportation funding to any state that did not comply with the administration's federal civil immigration-enforcement agenda -- threatening infrastructure funding unrelated to immigration as leverage. Twenty-one states sued DOT and Duffy in the U.S. District Court for the District of Rhode Island on May 13, 2025 over the immigration-enforcement funding condition, arguing it unlawfully forced states to divert law-enforcement resources to federal civil immigration enforcement or lose transportation funds. On June 19, 2025, the court granted a preliminary injunction blocking DOT from imposing that immigration-enforcement condition on grant funding nationwide.",
     "primary_proponent": {
       "name": "Sean Duffy",
       "role": "U.S. Secretary of Transportation",
@@ -2858,8 +2858,8 @@
       ],
       "caveat": "No dollar figure for total transportation funding at risk was found in sourcing reviewed for this entry; the scale is described qualitatively (\"all current and future DOT-supported and assisted state and local contracts, grants, and loans\") rather than quantified."
     },
-    "confidence_note": "HIGH confidence on the order's existence, content, and the litigation outcome -- corroborated by Wiley (law firm alert), Bloomberg, CNN, The Hill, and the underlying Rhode Island federal court docket. The birth/marriage-rate preference itself (as opposed to the immigration-enforcement condition specifically) was not confirmed as separately enjoined in the sources reviewed -- worth rechecking if citing that specific provision's current enforceability.",
-    "last_verified": "2026-08-08",
+    "confidence_note": "HIGH confidence on the order's existence, content, and the litigation outcome -- corroborated by Wiley (law firm alert), Bloomberg, CNN, The Hill, and the underlying Rhode Island federal court docket. The birth/marriage-rate preference itself (as opposed to the immigration-enforcement condition specifically) was not confirmed as separately enjoined in the sources reviewed -- worth rechecking if citing that specific provision's current enforceability. HIGH confidence on the March 10, 2025 environmental-justice memo rescission, corroborated by DOT's own press release and independent AP/US News reporting -- no litigation or reversal of that specific rescission was found in sourcing reviewed.",
+    "last_verified": "2026-08-10",
     "date_added": "2026-08-08",
     "sources": [
       {
@@ -2877,8 +2877,21 @@
       {
         "name": "The Hill -- Judge rejects 'Duffy Directive' tying DOT grants to ICE",
         "url": "https://thehill.com/homenews/administration/5360127-judge-rejects-duffy-directive-tying-dot-grants-to-ice/"
+      },
+      {
+        "name": "AP -- Trump DOT chief rejects inclusion of environmental justice factors in infrastructure decisions",
+        "url": "https://apnews.com/article/trump-sean-duffy-environmental-justice-infrastructure-850bc20146a50aacaa9dbe6bdcf73883"
+      },
+      {
+        "name": "U.S. DOT -- Secretary Sean P. Duffy Rescinds Memos Issued by Biden Administration",
+        "url": "https://www.transportation.gov/briefing-room/us-transportation-secretary-sean-p-duffy-rescinds-memos-issued-biden-administration"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "Duffy tied DOT grants to birth/marriage rates and immigration-enforcement compliance, and formally rescinded Biden-era environmental-justice infrastructure guidance; the immigration condition was enjoined.",
+      "estimated_impact": "Threatened broad transportation funding based on demographic/compliance criteria unrelated to transportation merit, safety, or need.",
+      "confidence_note": "HIGH on all three actions' existence and content; MODERATE on the birth/marriage-rate preference's current enforceability post-injunction."
+    }
   },
   {
     "id": "dot-safety-adjacent-staff-cuts-2025",
@@ -4555,7 +4568,7 @@
     "domain": "staff_office_cuts",
     "status": "Harm ongoing/documented as of survey publication; underlying OPM firing directive was ruled unlawful in September 2025, but reporting reviewed does not indicate systemic reinstatement or compensation for affected workers",
     "date_of_action": "2025-02 (OPM directive to mass-fire probationary employees) through 2026-05 (survey results published)",
-    "what_changed": "In February 2025, the Office of Personnel Management directed federal agencies to mass-terminate probationary employees -- workers typically in their first one to two years in a position or newly promoted role, who have fewer job protections than tenured federal staff. More than 25,000 probationary employees were fired government-wide as a result. In September 2025, U.S. District Judge William Alsup ruled that OPM had unlawfully directed agencies to carry out these terminations. In May 2026 -- more than a year after the initial firings and roughly eight months after the court's unlawfulness finding -- a group of former fired probationary employees conducted and published a survey of more than 300 of their fired colleagues. The survey found that 95% of respondents reported continuing mental health effects, including depression and sleep disruption, and that nearly half described PTSD-like symptoms; about a quarter said they had started new medication to cope. The survey's release pushed back specifically against the narrative that affected workers had 'moved on' in the year-plus since being terminated.",
+    "what_changed": "In February 2025, the Office of Personnel Management directed federal agencies to mass-terminate probationary employees -- workers typically in their first one to two years in a position or newly promoted role, who have fewer job protections than tenured federal staff. More than 25,000 probationary employees were fired government-wide as a result. The mental-health toll was documented almost immediately, not just in the 2026 retrospective survey below: in March 2025, NBC News interviewed 20 federal workers -- many of them military veterans -- who described panic attacks, weight loss, sleepless nights, and suicidal ideation in the weeks after losing their jobs, with some visiting emergency rooms after breakdowns; several described being harassed on social media on top of the job loss itself, and suicide-prevention specialists among the fired workers said the firings had left them questioning their own worth. In September 2025, U.S. District Judge William Alsup ruled that OPM had unlawfully directed agencies to carry out these terminations. In May 2026 -- more than a year after the initial firings and roughly eight months after the court's unlawfulness finding -- a group of former fired probationary employees conducted and published a survey of more than 300 of their fired colleagues. The survey found that 95% of respondents reported continuing mental health effects, including depression and sleep disruption, and that nearly half described PTSD-like symptoms; about a quarter said they had started new medication to cope. The survey's release pushed back specifically against the narrative that affected workers had 'moved on' in the year-plus since being terminated.",
     "primary_proponent": {
       "name": "Office of Personnel Management leadership (directive originated under then-Acting OPM Director Charles Ezell)",
       "role": "Federal government's central human-resources agency, which directed the probationary firings later found unlawful",
@@ -4592,8 +4605,8 @@
       ],
       "caveat": "This is a self-selected survey of fired workers conducted by a peer advocacy group of fellow fired employees, not an independent, randomly sampled clinical study -- the 95%/PTSD figures likely reflect a population motivated to respond because they experienced significant harm, and should be read as documenting the existence and severity of harm within an affected, engaged subset rather than as a precise government-wide psychological-impact rate. The underlying legal question (whether the mass firing was lawful) has already been resolved against OPM by a federal court; what remains undocumented in reporting reviewed is any systemic remedy (reinstatement, backpay, or compensation) for the harm this survey describes."
     },
-    "confidence_note": "HIGH confidence on the survey's existence, methodology (300+ respondents, conducted by former fired federal workers), and headline findings (95% ongoing effects, ~50% PTSD-like symptoms, ~25% new medication), corroborated by Federal News Network and Government Executive's direct reporting on the survey release, with the underlying Alsup ruling and 25,000-worker firing scale corroborated by earlier NPR and Washington Post reporting. MODERATE confidence on generalizing the survey's percentages to the full population of ~25,000 fired workers, given the self-selected respondent pool noted above.",
-    "last_verified": "2026-08-02",
+    "confidence_note": "HIGH confidence on the survey's existence, methodology (300+ respondents, conducted by former fired federal workers), and headline findings (95% ongoing effects, ~50% PTSD-like symptoms, ~25% new medication), corroborated by Federal News Network and Government Executive's direct reporting on the survey release, with the underlying Alsup ruling and 25,000-worker firing scale corroborated by earlier NPR and Washington Post reporting. The March 2025 NBC News reporting (20 fired workers interviewed directly, veteran-specific detail) independently corroborates that the harm described in the 2026 survey was present and reported within weeks of the firings, not a delayed or survey-artifact effect. MODERATE confidence on generalizing the survey's percentages to the full population of ~25,000 fired workers, given the self-selected respondent pool noted above.",
+    "last_verified": "2026-08-10",
     "sources": [
       {
         "name": "Federal News Network -- Many fired probationary employees have not 'moved on,' survey shows",
@@ -4606,14 +4619,18 @@
       {
         "name": "NPR -- Mental health issues ripple through the federal workforce with firings",
         "url": "https://www.npr.org/sections/shots-health-news/2025/02/24/nx-s1-5304255/federal-workers-fired-mental-health"
+      },
+      {
+        "name": "NBC News -- Federal workers gripped by mental health instability amid Trump cuts",
+        "url": "https://www.nbcnews.com/politics/doge/federal-workers-gripped-mental-health-instability-trump-cuts-rcna194485"
       }
     ],
     "section_summaries": {
-      "what_changed": "More than a year after OPM's mass firing of 25,000+ probationary federal workers -- a directive a federal court later found unlawful -- a survey of 300+ of those fired workers found 95% still reporting mental health harm.",
+      "what_changed": "OPM's Feb. 2025 mass firing of 25,000+ probationary workers caused documented mental-health harm almost immediately (NBC, March 2025) and still 95% ongoing a year later (survey, May 2026).",
       "estimated_impact": "Nearly half of surveyed workers described PTSD-like symptoms and a quarter began new medication, evidence the firings' harm has proven durable rather than short-term.",
       "confidence_note": "Well-corroborated survey findings from a self-selected but substantial respondent pool; not a randomized clinical study, so percentages shouldn't be read as a precise government-wide rate."
     },
-    "last_updated": "2026-08-02",
+    "last_updated": "2026-08-10",
     "date_added": "2026-08-02"
   },
   {
@@ -7398,7 +7415,7 @@
     "domain": "funding_redirection",
     "status": "Partially reversed after congressional pushback -- UNODC received a waiver restoring the specific port-screening program, but its continuation remained subject to a 90-day policy review, and other related anti-narcotics cooperation with Mexico stayed frozen",
     "date_of_action": "2025-01-20 (global foreign aid freeze ordered) through 2025-02-24 (Reuters reporting on the disruption and subsequent waiver)",
-    "what_changed": "On his first day back in office, January 20, 2025, Trump ordered a sweeping freeze on foreign aid. Within weeks the freeze stalled U.S. funding for the Container Control Programme, a joint initiative of the UN Office on Drugs and Crime (UNODC) and the World Customs Organization that trained and equipped Mexico's Navy to screen cargo for fentanyl-precursor chemicals and other contraband at the Port of Manzanillo, Mexico's busiest container port. The U.S. had provided roughly $800,000 to launch the program at Manzanillo in 2023, and a planned expansion to two additional major ports -- Lazaro Cardenas and Veracruz -- was put on hold by the funding cutoff. The freeze also paused other U.S.-funded anti-narcotics cooperation with Mexico, including training for Mexican authorities to locate and dismantle clandestine fentanyl labs and U.S. donations of drug-sniffing canines. Following complaints from U.S. lawmakers, UNODC received notification of a waiver restoring the port-screening program, though State Department officials disputed characterizations that the freeze had 'stalled' it, and the program's longer-term continuation remained subject to a 90-day policy review.",
+    "what_changed": "On his first day back in office, January 20, 2025, Trump ordered a sweeping freeze on foreign aid. Within weeks the freeze stalled U.S. funding for the Container Control Programme, a joint initiative of the UN Office on Drugs and Crime (UNODC) and the World Customs Organization that trained and equipped Mexico's Navy to screen cargo for fentanyl-precursor chemicals and other contraband at the Port of Manzanillo, Mexico's busiest container port. The U.S. had provided roughly $800,000 to launch the program at Manzanillo in 2023, and a planned expansion to two additional major ports -- Lazaro Cardenas and Veracruz -- was put on hold by the funding cutoff. The freeze also paused other U.S.-funded anti-narcotics cooperation with Mexico, including training for Mexican authorities to locate and dismantle clandestine fentanyl labs and U.S. donations of drug-sniffing canines. Following complaints from U.S. lawmakers, UNODC received notification of a waiver restoring the port-screening program, though State Department officials disputed characterizations that the freeze had 'stalled' it, and the program's longer-term continuation remained subject to a 90-day policy review. The contradiction drew broader notice on March 8, 2025, when Trump imposed new tariffs on Mexico, Canada, and China explicitly citing fentanyl trafficking as justification -- The Guardian noted that experts warned tariffs do little to stop smuggling itself, while the administration was simultaneously cutting the funding for the actual interdiction infrastructure (this same Container Control Programme) capable of intercepting the precursor chemicals at the source.",
     "primary_proponent": {
       "name": "Donald Trump",
       "role": "President",
@@ -7420,8 +7437,8 @@
       ],
       "caveat": "State Department officials pushed back on the characterization that the freeze 'stalled' the program, and a waiver was granted after lawmaker complaints -- this entry presents both the disruption reporting and the State Department's contemporaneous pushback rather than picking a side. The program's status beyond the 90-day review window was not confirmed in sourcing reviewed for this entry."
     },
-    "confidence_note": "HIGH confidence on the freeze and the initial disruption -- Reuters exclusive reporting, widely syndicated (MarketScreener, Business Standard, Postguam, others). MODERATE confidence on the ultimate long-term outcome, since the entry is built on February 2025 reporting near the start of the 90-day review window and no later confirmation of the program's status was found.",
-    "last_verified": "2026-08-08",
+    "confidence_note": "HIGH confidence on the freeze and the initial disruption -- Reuters exclusive reporting, widely syndicated (MarketScreener, Business Standard, Postguam, others). MODERATE confidence on the ultimate long-term outcome, since the entry is built on February 2025 reporting near the start of the 90-day review window and no later confirmation of the program's status was found. MODERATE confidence on the March 8, 2025 Guardian tariff-context addition specifically -- the article's core claim (tariffs won't stop trafficking while the same administration cuts funding for detection infrastructure) is well-corroborated by other outlets' independent tariff-efficacy coverage, but this entry could not independently re-fetch theguardian.com directly this session to verify its exact wording on the Container Control Programme; the claim is consistent with, not contradicted by, the independently-sourced Reuters reporting above.",
+    "last_verified": "2026-08-10",
     "date_added": "2026-08-08",
     "sources": [
       {
@@ -7435,6 +7452,10 @@
       {
         "name": "RealClearPolitics/news-journal.com -- State Dept: Freeze Did Not Stall Anti-Narcotics Program in Mexico",
         "url": "https://www.realclearpolitics.com/articles/2025/02/24/state_dept_freeze_did_not_stall_anti-narcotics_program_mexico__152416.html"
+      },
+      {
+        "name": "The Guardian -- Trump's policies are undermining the fight against the drug trade (2025-03-08)",
+        "url": "https://www.theguardian.com/us-news/2025/mar/08/trump-policies-drug-trade-fentanyl"
       }
     ],
     "section_summaries": {
@@ -13059,6 +13080,63 @@
       "what_changed": "VA firings escalated from 1,000 (Feb 20) to 3,700 (Feb 28) to an internally documented 80,000-83,000-position mass-layoff plan (March-May 2025), before the VA formally dropped that plan by August 2025 under pressure and instead pursued a ~30,000-position reduction through attrition.",
       "estimated_impact": "The confirmed firing wave directly hit mental-health and crisis-response roles; the eventual staffing reduction (~30,000) was roughly a third of what was originally planned (80,000-83,000), achieved through voluntary departures rather than involuntary RIF.",
       "confidence_note": "HIGH confidence throughout, including the outcome, which is documented by the VA's own press release and independently corroborated. The $2B contract-cut figure remains lower confidence, resting on commentary-labeled reporting."
+    }
+  },
+  {
+    "id": "va-research-clinical-trials-hiring-freeze-2025",
+    "title": "Trump's Federal Hiring Freeze Stalled VA Cancer and Stroke Clinical Trials for Veterans",
+    "institution": "U.S. Department of Veterans Affairs (VA) -- Veterans Health Administration research programs",
+    "domain": "research_suppression",
+    "status": "Partially mitigated but not resolved -- VA extended affected researchers' appointments 90 days from March 7, 2025 as a stopgap, and disputes that any trial was formally 'canceled,' but as of May 2025 reporting at least two Pittsburgh cancer trials that officials had warned were at risk in March still had not started enrolling veterans",
+    "date_of_action": "2025-01-20 (federal hiring freeze executive order) through at least 2025-05 (reporting confirms delays ongoing)",
+    "what_changed": "Trump's January 20, 2025 executive order imposing a government-wide federal hiring freeze swept in VA medical research, disrupting clinical trials for veterans. Roughly 3,800 VA researchers hold time-limited appointments, including several hundred 'without compensation' (WOC) researchers -- university, foundation, and private-industry scientists who work at VA facilities without VA pay -- whose appointments require periodic renewal to continue their work; an estimated 300-400 of them were affected when the freeze blocked those renewals. At the Pittsburgh VA, the hiring freeze prevented renewing the appointment of a staff member key to running a clinical trial for a new drug to treat advanced cancers of the mouth, throat, and voice box in veterans who had exhausted other treatment options; internal Pittsburgh VA emails described the freeze as affecting seven clinical trials there in total, including treatment for metastatic head and neck cancer, lung cancer, kidney transplantation, cardiovascular disease, and opioid overdose. A separate VA-funded stroke-risk-prediction study using ultrasound imaging of neck blood vessels also stalled when a technician's appointment expired, and a Florida-based clinical trial on preventing dementia and heart disease was reported canceled. Facing mounting pressure from veterans' advocates, researchers, and Rep. Chris Deluzio (D-PA), the VA extended WOC researcher appointments for 90 days starting March 7, 2025 to keep 'mission-critical' research going during a broader review, though uncertainty remained about what would happen after that window. VA leadership disputed the characterization that trials had been canceled: the department said in May 2025 reporting that 'no VA research trials have been canceled' and that the Pittsburgh head-and-neck cancer trial was 'scheduled to start recruiting Veteran patients' that month; VA Secretary Doug Collins separately dismissed critical reporting as 'hit pieces.' Independent reporting as of that same month found that two Pittsburgh trials officials had warned in March were at risk had, in fact, still not started.",
+    "primary_proponent": {
+      "name": "Trump administration's January 20, 2025 government-wide hiring freeze (executive order), as implemented at VA under Secretary Doug Collins",
+      "role": "The freeze originated as a government-wide directive; VA leadership under Secretary Collins was responsible for how it was applied to VA's research workforce and for the department's public response disputing the resulting disruption",
+      "note": "VA's own 90-day extension of WOC researcher appointments starting March 7, 2025 is itself evidence the freeze was disrupting active research -- the stopgap measure would not have been needed otherwise -- even as VA publicly disputed the 'canceled' framing of specific trials."
+    },
+    "estimated_impact": {
+      "summary": "Delayed or stalled active clinical trials for veterans with advanced, treatment-exhausted cancers and other serious conditions, plus at least one stroke-risk research program, by disrupting the renewal of time-limited research-staff appointments -- with real-world delay confirmed by later reporting even though VA disputed the 'canceled' characterization and took some mitigating action.",
+      "figures": [
+        {
+          "metric": "VA researchers holding time-limited appointments",
+          "value": "~3,800",
+          "source": "Stars and Stripes (2025-04-12)"
+        },
+        {
+          "metric": "Researchers estimated affected by the freeze blocking renewals",
+          "value": "~300-400",
+          "source": "Stars and Stripes (2025-04-12)"
+        },
+        {
+          "metric": "Clinical trials affected at Pittsburgh VA alone, per internal emails",
+          "value": "7 (incl. head/neck cancer, lung cancer, kidney transplantation, cardiovascular disease, opioid overdose)",
+          "source": "Reporting on internal Pittsburgh VA emails, cited in national coverage (2025-03/2025-05)"
+        }
+      ],
+      "caveat": "VA disputed that any trial was formally 'canceled' and said the flagship Pittsburgh head-and-neck cancer trial was scheduled to resume recruiting in May 2025 -- this entry presents that VA rebuttal alongside the independent reporting (as of the same month) that the trial had not, in fact, started, rather than picking a side. The Florida dementia/heart-disease trial cancellation and the full scope of the 7-trial Pittsburgh list rest on VA-internal-email and secondhand reporting rather than a VA on-the-record confirmation of that specific figure."
+    },
+    "confidence_note": "HIGH confidence on the freeze's existence, its VA-wide scope (~3,800 time-limited researchers, ~300-400 affected), and VA's own 90-day extension as a mitigating response -- corroborated across Stars and Stripes, Military Times-adjacent reporting, and VA's own public statements. MODERATE-HIGH confidence on the specific Pittsburgh trial-delay outcome, since VA's own dispute (trial 'scheduled to start' in May 2025) and independent reporting that it still had not started as of that same month directly conflict -- both are included rather than resolved in this entry's favor.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "sources": [
+      {
+        "name": "The New York Times -- Veterans Affairs Purges Delay Clinical Trials, Cancel Contracts (2025-03-09)",
+        "url": "https://www.nytimes.com/2025/03/09/us/politics/veterans-affairs-doge-cuts.html"
+      },
+      {
+        "name": "Stars and Stripes -- VA research stalls under federal hiring freeze (2025-04-12)",
+        "url": "https://www.stripes.com/theaters/us/2025-04-12/va-research-stalls-federal-hiring-freeze-17447309.html"
+      },
+      {
+        "name": "CBS News Pittsburgh -- Clinical trials stall at Pittsburgh VA amid hiring freeze dispute (updated 2025-05-10)",
+        "url": "https://www.cbsnews.com/pittsburgh/news/clinical-trials-stall-pittsburgh-va"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Trump's Jan. 2025 federal hiring freeze blocked renewal of VA research-staff appointments, stalling veterans' cancer and stroke clinical trials, most visibly at the Pittsburgh VA.",
+      "estimated_impact": "~300-400 of VA's ~3,800 time-limited researchers were affected; 7 Pittsburgh trials disrupted, including advanced head/neck cancer treatment for veterans who'd exhausted other options.",
+      "confidence_note": "HIGH on the freeze's scope and VA's own mitigating 90-day extension; MODERATE-HIGH on the specific Pittsburgh outcome, since VA's claim the trial resumed conflicts with reporting that it hadn't."
     }
   },
   {

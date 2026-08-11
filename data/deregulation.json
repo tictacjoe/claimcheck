@@ -1448,6 +1448,55 @@
     }
   },
   {
+    "id": "fda-fluoride-supplement-restriction-2025",
+    "rule_name": "FDA Marketing Restriction on Ingestible Fluoride Supplement Products for Children",
+    "administration": "Trump II (2025-present)",
+    "agency": "FDA",
+    "domain": "consumer_safety",
+    "status": "Finalized (marketing-restriction action taken; FDA stopped short of a formal product ban)",
+    "date_of_action": "2025-03-10 (Utah becomes first state to ban water fluoridation, RFK Jr. publicly signals a coordinated federal push) through 2025-10-31 (FDA announces fluoride-supplement marketing restriction)",
+    "original_rule_summary": "Ingestible fluoride supplements (drops and tablets) have been available, without a formal FDA approval process, as a decades-old preventive dental-health option recommended by dentists and pediatricians for children -- particularly those under 3 and those at higher cavity risk -- who lack access to fluoridated drinking water, most often in rural areas or private-well communities. The American Dental Association and American Academy of Pediatrics have long supported graduated fluoride supplementation for high-risk children starting at six months of age as safe and effective cavity prevention.",
+    "what_changed": "As newly installed HHS Secretary Robert F. Kennedy Jr. publicly pushed to eliminate water fluoridation nationwide -- posting that the administration would 'advise all U.S. water systems to remove fluoride from public water' -- Utah's legislature moved first: Republican Gov. Spencer Cox announced on March 10, 2025 that he would sign, and signed by March 28, 2025, a law making Utah the first state to ban fluoride from public drinking water systems, over opposition from dentists and the American Dental Association. With water fluoridation itself outside FDA's direct authority, the agency instead targeted the alternative lawmakers and advocates had pointed to for communities without fluoridated water: on October 31, 2025, the FDA announced it was moving to restrict the sale of ingestible fluoride supplement products for children, sending notices to four manufacturers about marketing supplements to children under 3 and to older children with low or moderate cavity risk, along with warning letters to healthcare professionals who prescribe them. The FDA stopped short of an outright ban on the products. Separately, Texas Attorney General Ken Paxton opened investigations into Colgate-Palmolive and Procter & Gamble over children's fluoride toothpaste marketing; both companies settled by agreeing to depict pea-sized amounts rather than larger swirls in promotional imagery, while maintaining their products already complied with FDA requirements.",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services",
+      "note": "Publicly announced the administration's intent to move against water fluoridation nationally and has repeatedly claimed fluoride causes 'profound IQ loss' and other health harms; the FDA action against ingestible supplements followed under his HHS oversight after the water-fluoridation push itself proved outside FDA's direct regulatory reach."
+    },
+    "corporate_beneficiaries": [],
+    "estimated_health_impact": {
+      "summary": "Fluoride is one of the most effective, low-cost tools for preventing tooth decay, particularly for children without access to fluoridated water. The American Dental Association and American Academy of Pediatrics both opposed the FDA's restriction, warning it removes a supported option for exactly the population -- children in non-fluoridated, often lower-income rural communities -- who benefit most, and that restricting supply will likely raise cavity rates in those areas. The National Institutes of Health has said toxic fluoride overdoses are rare accidents, not a risk from standard supplement or water-fluoridation dosing, cutting against the safety rationale cited for the restriction.",
+      "figures": [],
+      "caveat": "No independently quantified national estimate of cavity-rate increase or dollar cost attributable specifically to this restriction was identified in sourcing reviewed; the harm case here rests on the established dental-health consensus (ADA, AAP, NIH) that fluoride supplementation is a safe, effective, and until now clinically recommended prevention tool being narrowed on disputed scientific grounds, rather than on a modeled figure."
+    },
+    "confidence_note": "HIGH confidence on the sequence of events (Utah's law, RFK Jr.'s public statements, the FDA's October 31, 2025 marketing-restriction action, and ADA/AAP opposition), corroborated by CNN, NBC News, STAT News, and ProPublica's detailed reporting on the FDA action and Paxton's parallel toothpaste-marketing investigations. MODERATE confidence on classifying this as a Corporate Deregulation consumer_safety rollback rather than a Government Services Redirection entry -- Utah's own ban is a state action outside this tracker's federal scope and is included here only as context for the coordinated national campaign RFK Jr. publicly announced; the entry's tracked action is anchored specifically to the FDA's federal marketing restriction.",
+    "short_summary": "FDA restricted marketing of children's fluoride supplements as RFK Jr. pushed to end water fluoridation nationally.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "sources": [
+      {
+        "name": "CNN -- Utah becomes the first state to ban fluoride in public drinking water (2025-03-28)",
+        "url": "https://www.cnn.com/2025/03/28/health/utah-fluoride-drinking-water"
+      },
+      {
+        "name": "ProPublica -- After Sowing Distrust in Fluoridated Water, Kennedy and Skeptics Turn to Obstructing Other Fluoride Sources",
+        "url": "https://www.propublica.org/article/fluoride-supplements-fda-rfk-jr-ken-paxton-restrictions"
+      },
+      {
+        "name": "NBC News -- Utah set to become first state to ban fluoride in public water",
+        "url": "https://www.nbcnews.com/news/us-news/utah-set-become-first-state-ban-fluoride-public-water-rcna193651"
+      },
+      {
+        "name": "STAT News -- Utah becomes the first state to ban fluoride in public drinking water (2025-03-28)",
+        "url": "https://www.statnews.com/2025/03/28/utah-first-state-ban-fluoride-public-drinking-water/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "As RFK Jr. pushed to end water fluoridation nationally and Utah became the first state to ban it, FDA restricted marketing of children's ingestible fluoride supplements (Oct. 2025).",
+      "estimated_impact": "ADA and AAP opposed the restriction, warning it removes a supported cavity-prevention tool from children in non-fluoridated, often lower-income rural communities who benefit most.",
+      "confidence_note": "HIGH on the factual sequence; MODERATE on tracker classification, since Utah's own ban is state action included only as context for the federal FDA restriction this entry tracks."
+    }
+  },
+  {
     "id": "fda-single-trial-approval-standard-2026",
     "rule_name": "FDA's longstanding requirement that new drugs be supported by two independent clinical studies before approval",
     "administration": "Trump II (2025-present)",

@@ -520,6 +520,55 @@
     }
   },
   {
+    "official": "Todd Blanche, Deputy Attorney General",
+    "offense_category": "Weaponizing the Federal Clemency Process for Political Loyalty -- firing DOJ's career Pardon Attorney for declining a personal favor for a Trump ally, then installing a political appointee who has used the office to fast-track clemency for MAGA-aligned figures",
+    "contested": true,
+    "incident_summary": "Elizabeth Oyer, DOJ's career Pardon Attorney since 2022, was fired on March 7, 2025 -- two days after Todd Blanche was confirmed as Deputy Attorney General. Oyer later testified (including before the Senate Judiciary Committee on July 16, 2026, during Blanche's own confirmation hearing to become Attorney General) that Blanche's office had asked her to recommend restoring gun rights to actor Mel Gibson, who lost that right after a 2011 misdemeanor domestic-violence conviction and who has a personal relationship with President Trump; Gibson's attorneys had written directly to senior DOJ officials citing a special appointment he had received from Trump. When Oyer declined and was pressed to reconsider, she was fired without any stated reason in a termination letter signed by Blanche. On May 14, 2025, Trump appointed Edward 'Ed' Martin Jr. -- previously interim U.S. Attorney for the District of Columbia, known for openly blending Trump's political goals with DOJ's clemency function -- as the new Pardon Attorney. Within two weeks of Martin's appointment, Trump had pardoned more than two dozen MAGA-aligned loyalists and wealthy donors, including Culpeper County, Virginia Sheriff Scott Jenkins, convicted in December 2024 on federal bribery charges in a 'cash-for-badges' scheme and sentenced to 10 years; Martin posted 'No MAGA left behind' after the Jenkins pardon. Martin went on to organize symbolic pardons for participants in the 2020 fake-elector scheme and to grant clemency or pardons to a number of Trump-connected officials and campaign donors. ProPublica reporting found no comparable path forward for ordinary clemency applicants under the restructured office. (Martin's later removal from DOJ's Weaponization Working Group over a separate grand-jury-leak finding is documented in this database's ed-martin-grand-jury-leak-2026.json entry -- a related but factually distinct episode from the clemency-favoritism pattern this entry covers.)",
+    "elements_required": [
+      "Oyer held a career (non-political-appointee) DOJ position and was fired days after new DOJ leadership was confirmed, with no reason given in the termination letter",
+      "Oyer's own sworn Senate testimony ties the firing directly to her refusal to recommend restoring a Trump ally's gun rights, following direct pressure from Blanche's office",
+      "Her replacement, Ed Martin, was a political appointee with an on-record history of blending Trump's political goals with DOJ's ostensibly independent functions",
+      "Within weeks of Martin's appointment, clemency actions under his office disproportionately benefited Trump-aligned loyalists and donors, corroborated by multiple named examples (Jenkins, fake-elector pardons) rather than a single anecdote"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "NBC News and ABC News reported Oyer's account that she was fired after refusing to recommend restoring Mel Gibson's gun rights, and that a senior official in Blanche's office had pressed her to reconsider before her termination",
+        "source_url": "https://www.nbcnews.com/politics/justice-department/doj-official-says-was-fired-opposing-restoration-mel-gibsons-gun-right-rcna195287",
+        "maps_to_element": "The firing and its stated proximate cause"
+      },
+      {
+        "type": "news_report",
+        "description": "CNN's May 2025 analysis of Trump's pardons becoming 'even more political' documents Ed Martin's May 14, 2025 appointment and the pardon of Sheriff Scott Jenkins days later, including Martin's public 'No MAGA left behind' statement",
+        "source_url": "https://www.cnn.com/2025/05/28/politics/analysis-trump-pardons-politics",
+        "maps_to_element": "The replacement appointee's conduct and the resulting loyalty-clemency pattern"
+      },
+      {
+        "type": "analysis",
+        "description": "ProPublica's investigation into how Trump has used pardons and clemency to reward allies and supporters under Martin's tenure, including the fake-elector symbolic pardons and the absence of a comparable path for ordinary applicants",
+        "source_url": "https://www.propublica.org/article/trump-pardons-clemency-george-santos-ed-martin",
+        "maps_to_element": "Pattern and scope of the resulting favoritism, beyond the single Jenkins example"
+      },
+      {
+        "type": "public_record",
+        "description": "Senate Judiciary Committee Democrats' letter to AG Bondi regarding Oyer's termination, and Oyer's own July 16, 2026 written and oral testimony before the committee during Blanche's Attorney General confirmation hearing, reaffirming the same account under oath more than a year later",
+        "source_url": "https://www.judiciary.senate.gov/imo/media/doc/c81c41d6-e030-ca74-7849-5d632fce733c/2026-07-16_Testimony_Oyer_attachment_5ab0d01a-4b94-4934-986b-1f66baaff47e.pdf",
+        "maps_to_element": "Sworn corroboration of the firing's cause, independent of the initial 2025 press account"
+      }
+    ],
+    "status": "Ongoing -- Martin remains Pardon Attorney and continues to process Trump-aligned clemency requests as of the most recent reporting reviewed. Oyer has not been reinstated and has instead become a recurring public and congressional witness on the episode, most recently testifying at Blanche's own July 2026 confirmation hearing for Attorney General.",
+    "rebuttal_anticipated": "DOJ would likely characterize pardon and clemency decisions as core, constitutionally committed executive discretion not subject to the same scrutiny as prosecutorial decisions, and could argue Oyer's account is one-sided, self-interested testimony from a fired employee with her own prior record of recommending clemency for serious offenders (Senate Republicans raised this at the 2026 hearing, questioning her past recommendation for a death-row inmate).",
+    "comeback": "The clemency-power argument doesn't answer why a career, non-political pardon official was fired within days of new leadership taking over specifically after declining one individual favor for a Trump ally, nor why her direct successor's tenure produced a documented pattern of loyalty-driven pardons within two weeks rather than a resumption of the office's ordinary clemency-review function; the timeline and the corroborating on-record examples (Jenkins, fake-elector pardons), not just Oyer's own account, establish the pattern.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates the administration's broader pattern of subordinating career DOJ expertise and process to personal political loyalty, converting a clemency function historically used to correct injustice in ordinary cases into a mechanism for rewarding allies.",
+    "last_updated": "2026-08-10",
+    "date_added": "2026-08-10",
+    "confidence_note": "HIGH confidence on Oyer's firing, its timing relative to Blanche's confirmation, and Martin's appointment and subsequent pardon pattern -- corroborated across NBC, ABC, CNN, ProPublica, and Oyer's own sworn July 2026 Senate testimony reaffirming her original account more than a year later. The `contested: true` flag reflects that DOJ has not publicly confirmed Oyer's account of the specific Gibson request in the same detail, and that clemency decisions themselves are within the President's constitutional authority regardless of the process critique this entry documents.",
+    "section_summaries": {
+      "incident_summary": "DOJ fired career Pardon Attorney Elizabeth Oyer days after she refused to recommend restoring Mel Gibson's gun rights; her replacement, Ed Martin, produced a documented pattern of loyalty-driven clemency within weeks.",
+      "confidence_note": "Well-corroborated across multiple outlets and Oyer's own sworn 2026 Senate testimony; contested because clemency itself is core executive discretion and DOJ hasn't confirmed the specific favor request in the same detail."
+    }
+  },
+  {
     "official": "Todd Blanche, Acting Attorney General (nominated for permanent position, former personal defense attorney to President Trump)",
     "offense_category": "Conflict of Interest / Breach of Sworn Recusal Commitment (relevant standards: DOJ ethics regulations on personal/substantial participation in matters involving a former client; professional conduct rules, New York Rules of Professional Conduct, subject of a pending state bar complaint) — NOT charged criminally; this is a professional-ethics and conflict-of-interest matter, addressed via bar complaint and congressional inquiry, not criminal prosecution",
     "incident_summary": "Within two weeks of becoming Deputy Attorney General in early 2025, Blanche was formally advised by DOJ's top career ethics lawyer that he needed to recuse himself from any matters involving Donald Trump in his personal capacity, given Blanche's prior work as Trump's personal defense attorney. At his confirmation hearing, Blanche testified under oath that he would follow ethics officials' guidance on recusal. Reporting indicates he did not recuse himself from matters including a settlement (Trump v. IRS) that granted Trump and his family an IRS audit shield and was connected to a proposed $1.776 billion compensation fund; DOJ never contested Trump's claims in that litigation and never made a court appearance before settling.",
@@ -1067,6 +1116,49 @@
     "section_summaries": {
       "incident_summary": "DOJ Antitrust chief Gail Slater was forced out after Trump pardoned a target of her own division's indictment and she lost the confidence of Bondi and Blanche, despite her own public statement suggesting a voluntary departure.",
       "confidence_note": "The core sequence is well-corroborated across multiple outlets; whether the departure was strictly involuntary is disputed between sourced reporting and Slater's own public statement."
+    }
+  },
+  {
+    "official": "Pam Bondi, Attorney General",
+    "offense_category": "Retaliatory Firing of Career DOJ Staff Over Association with Special Counsel Jack Smith's Trump Prosecutions -- undermining internal ethics oversight and eroding a structural check (the Merit Systems Protection Board) that would ordinarily let the fired employees contest it",
+    "contested": true,
+    "incident_summary": "On July 11, 2025, Attorney General Pam Bondi fired Joseph Tirrell, the career director of DOJ's Departmental Ethics Office, in a four-sentence termination letter that gave no reason. Tirrell had spent nearly 20 years at the department and had led the ethics office since 2023, reviewing and approving financial disclosures, recusals, and conflict-of-interest waivers for DOJ leadership including Bondi herself, Deputy AG Todd Blanche, and FBI Director Kash Patel. Tirrell's portfolio had also included advising then-Special Counsel Jack Smith on ethics matters during Smith's prosecutions of Trump, including approving roughly $140,000 in free legal fees Smith received from a major Washington law firm. Tirrell was fired the same day Bondi dismissed at least 20 other DOJ employees with ties to Smith's prosecutions team, as part of a broader purge. Tirrell, along with two other fired former DOJ officials (Michael M. Gordon and Patricia A. Hartman), filed a lawsuit in U.S. District Court for the District of Columbia seeking immediate reinstatement and back pay. The lawsuit noted that fired federal employees would normally be able to appeal to the Merit Systems Protection Board, but that the board had been left without a quorum after Trump removed one of its members -- leaving the plaintiffs without the administrative appeal process Congress designed for exactly this situation.",
+    "elements_required": [
+      "Tirrell held a career, non-political ethics-oversight position with direct responsibility for DOJ leadership's own conflict-of-interest compliance",
+      "His termination letter, signed by Bondi, gave no stated reason and came the same day as a broader purge of at least 20 other staff connected to Jack Smith's prosecution team",
+      "Tirrell's own prior work included ethics oversight of Jack Smith specifically, tying his firing directly to his association with the Trump prosecutions rather than to any identified performance or misconduct issue",
+      "The normal administrative check on such a firing -- appeal to the Merit Systems Protection Board -- was unavailable because the board itself had been left without a quorum by a separate Trump personnel action"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Bondi's four-sentence termination letter to Tirrell, posted by Tirrell on LinkedIn, gave no reason for his immediate removal from federal service",
+        "source_url": "https://www.washingtontimes.com/news/2025/jul/15/attorney-general-pam-bondi-fires-joseph-tirrell-dojs-head-ethics/",
+        "maps_to_element": "The firing itself and its unexplained, abrupt nature"
+      },
+      {
+        "type": "news_report",
+        "description": "CNN and Bloomberg Law reporting confirms Tirrell's nearly 20-year DOJ career, his role advising Jack Smith on ethics matters including approval of Smith's $140,000 in outside legal-fee coverage, and that Bondi fired at least 20 DOJ employees with Jack Smith ties the same week",
+        "source_url": "https://www.cnn.com/2025/07/14/politics/justice-department-ethics-official-fired",
+        "maps_to_element": "Tirrell's specific prior association with the Jack Smith prosecutions and the broader same-day purge"
+      },
+      {
+        "type": "public_record",
+        "description": "ABA Journal and CBS News reporting on the wrongful-termination lawsuit filed by Tirrell and two other fired officials (Gordon, Hartman) in U.S. District Court for the District of Columbia, seeking reinstatement and back pay, and noting the Merit Systems Protection Board lacked a quorum after Trump removed one of its members",
+        "source_url": "https://www.abajournal.com/web/article/former-top-ethics-official-for-doj-one-of-three-plaintiffs-in-wrongful-termination-lawsuit",
+        "maps_to_element": "The absence of the normal administrative appeal process, and the plaintiffs' resulting resort to a federal lawsuit instead"
+      }
+    ],
+    "status": "Litigation ongoing -- Tirrell, Gordon, and Hartman's federal lawsuit seeking reinstatement and back pay had no publicly reported final resolution as of this entry's research. Tirrell was not reinstated to the Departmental Ethics Office.",
+    "rebuttal_anticipated": "DOJ leadership could argue that political appointees and their chosen staff serve at the Attorney General's discretion and that a change in administration routinely brings staff turnover, without needing to allege individual misconduct by any specific employee.",
+    "comeback": "Tirrell was a career civil servant, not a political appointee serving at the AG's pleasure in the ordinary sense, and the ethics office he ran exists specifically to provide independent oversight of DOJ leadership's own conduct -- firing its head without stated cause, on the same day as a broader purge of Jack-Smith-associated staff, and doing so while the one structural check against improper removal (MSPB appeal) had been separately disabled, describes a coordinated effort to eliminate independent ethics oversight and retaliate against association with the Trump prosecutions, not routine staff turnover.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a pattern of removing internal accountability structures (ethics oversight, the MSPB's appeal function) at the same time as retaliating against DOJ personnel connected to the Trump prosecutions -- related to, but a distinct mechanism from, this database's trump-inspectors-general-mass-firing-2025.json entry, which covers a different set of independent-oversight officials (agency Inspectors General) removed without the statutorily required congressional notice.",
+    "last_updated": "2026-08-10",
+    "date_added": "2026-08-10",
+    "confidence_note": "HIGH confidence on the firing, its unexplained nature, Tirrell's prior Jack Smith-ethics role, the same-day broader purge, and the subsequent lawsuit and MSPB-quorum problem -- corroborated across Washington Times, CNN, Rolling Stone, Bloomberg Law, Newsweek, and the ABA Journal's independent coverage of the lawsuit. The `contested: true` flag reflects that DOJ has not publicly stated a reason for the firing, leaving the retaliation inference well-supported by circumstance and timing rather than a DOJ admission.",
+    "section_summaries": {
+      "incident_summary": "Bondi fired DOJ's career ethics chief, who had previously overseen Jack Smith's ethics compliance, the same day she purged 20+ other Smith-associated staff; he sued, since the MSPB appeal process was separately disabled.",
+      "confidence_note": "Well-corroborated firing, purge, and lawsuit facts; contested because DOJ gave no stated reason, so the retaliation motive rests on strong circumstantial timing rather than an admission."
     }
   },
   {
@@ -2550,7 +2642,7 @@
     "status": "DOJ's internal finding against Martin is final as reported; no criminal charge against Martin himself has been identified in sourcing reviewed as of this entry's addition. Martin remains employed at DOJ in the relocated Pardon Attorney role rather than being terminated.",
     "rebuttal_anticipated": "Likely defense: the underlying mortgage-fraud allegations against Schiff and James were themselves under legitimate DOJ investigation, and Martin's DOJ superiors -- not an outside body -- both investigated and disciplined him, showing the department's own internal accountability process functioned as intended.",
     "comeback": "DOJ's finding against one of its own -- reached by Deputy AG Blanche's office, not an outside investigator -- is itself the strongest evidence here, since it establishes the underlying facts (improper disclosure plus an initial false denial to superiors) without relying on any outside source's characterization; the notable accountability gap is that Martin was reassigned rather than terminated or referred for a Rule 6(e) contempt proceeding despite DOJ's own finding that he lied to leadership about it.",
-    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DOJ personnel using investigative material against named political opponents for public discrediting purposes rather than solely for the investigations' own legal ends (see also the Patel-driven prosecution-campaign and Blanche/Patel journalist-subpoena entries).",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DOJ personnel using investigative material against named political opponents for public discrediting purposes rather than solely for the investigations' own legal ends (see also the Patel-driven prosecution-campaign and Blanche/Patel journalist-subpoena entries). Also related to, but factually distinct from, this database's blanche-oyer-pardon-attorney-weaponization-2025.json entry, which documents the loyalty-driven pattern in Martin's clemency decisions specifically, as opposed to this entry's grand-jury-disclosure finding.",
     "last_updated": "2026-08-05",
     "date_added": "2026-08-05",
     "confidence_note": "HIGH confidence -- the finding is DOJ's own internal conclusion, reported by CNN with independent wire pickup across dozens of local affiliates, and not disputed by DOJ or by Martin in sourcing reviewed. MODERATE confidence on the specific motive characterization (discrediting Schiff/James), which is reporters' framing of DOJ's finding rather than a direct quotation from the DOJ review itself.",
