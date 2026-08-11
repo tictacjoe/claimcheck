@@ -4133,6 +4133,57 @@
     }
   },
   {
+    "official": "Robert F. Kennedy Jr., Secretary of Health and Human Services",
+    "offense_category": "Whistleblower Protection Act / First Amendment Retaliation Against Federal Employees -- NOT charged criminally; challenged via a federal civil lawsuit and Office of Special Counsel complaints, not criminal prosecution",
+    "incident_summary": "On September 4, 2025, two former senior NIH officials -- Dr. Jeanne Marrazzo, former director of the National Institute of Allergy and Infectious Diseases (NIAID, the position Dr. Anthony Fauci previously held), and Dr. Kathleen Neuzil, former director of NIH's Fogarty International Center -- filed a joint whistleblower complaint with the U.S. Office of Special Counsel alleging they were forced out of their positions in retaliation for objecting to the cancellation of research grants and clinical trials, the politicization of scientific decisions, and what they described as baseless hostility toward vaccines from newly installed NIH leadership. Marrazzo, who had been placed on indefinite leave in March 2025, alleged Principal Deputy NIAID Director Dr. Matthew Memoli made statements mirroring Kennedy's views that 'vaccines are unnecessary if populations are healthy' and that NIH 'should not focus on vaccines.' Neuzil, placed on administrative leave April 12, 2025 before involuntarily resigning, separately objected to NIH canceling grants based on what she called 'anti-South Africa hostility' and an incorrect belief that certain grants advanced diversity, equity, and inclusion goals. Both officials' complaint also alleged that a $500 million universal-flu-vaccine program NIH awarded in May 2025 bypassed normal scientific peer review despite relying on technology multiple scientists described as badly outdated. Twenty-two days after filing the OSC complaint, on September 26, 2025, Secretary Kennedy fired Marrazzo outright. Marrazzo subsequently sued in the U.S. District Court for the District of Maryland, naming Kennedy, NIH Director Jay Bhattacharya, Memoli, and NIH as defendants, alleging the termination violated the Fifth Amendment's due process guarantee, the Civil Service Reform Act of 1978, the Administrative Procedure Act, the First Amendment, and the Whistleblower Protection Act.",
+    "contested": false,
+    "elements_required": [
+      "A federal employee engaged in protected whistleblowing activity (filing an OSC complaint alleging agency wrongdoing)",
+      "The employee's supervising official had knowledge of the protected activity",
+      "An adverse employment action (termination) followed the protected activity within a timeframe supporting an inference of retaliation",
+      "The stated agency rationale for the action does not independently account for the timing or the specific retaliatory statements alleged"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Marrazzo and Neuzil's joint September 4, 2025 whistleblower disclosure to the U.S. Office of Special Counsel, alleging retaliation for objecting to grant/clinical-trial cancellations, vaccine-hostile statements from NIH leadership including Dr. Matthew Memoli, and a $500 million flu-vaccine program that bypassed normal peer review",
+        "source_url": "https://katzbanks.com/wp-content/uploads/OSC-Form-14-Report-of-Wrongdoing-Disclosure-Submitted-for-Marrazzo-and-Neuzil_Redacted.pdf",
+        "maps_to_element": "Protected whistleblowing activity -- the OSC complaint itself, filed and dated"
+      },
+      {
+        "type": "news_report",
+        "description": "STAT News reported the same day the complaint was filed that both officials said they were forced out for objecting to grant terminations, corroborating the complaint's core allegations independently of the officials' own filing",
+        "source_url": "https://www.statnews.com/2025/09/04/nih-whistleblower-complaints-research-grants-flu-vaccine-jeanne-marrazzo/",
+        "maps_to_element": "Independent corroboration of the protected activity and its stated basis"
+      },
+      {
+        "type": "public_record",
+        "description": "CBS News reported that exactly 22 days after Marrazzo filed her OSC complaint, HHS Secretary Kennedy fired her outright; her attorney stated the termination was 'for her advocacy on behalf of critical health research and for her support of the overwhelming body of evidence that shows vaccines are safe and effective'",
+        "source_url": "https://www.cbsnews.com/news/rfk-jr-fires-nih-vaccine-whistleblower-dr-jeanne-marrazzo/",
+        "maps_to_element": "Adverse employment action following protected activity, with timing supporting a retaliation inference"
+      },
+      {
+        "type": "court_filing",
+        "description": "Marrazzo's subsequent federal lawsuit in the U.S. District Court for the District of Maryland names Kennedy, NIH Director Jay Bhattacharya, and Memoli as defendants, alleging Fifth Amendment due process, Civil Service Reform Act, Administrative Procedure Act, First Amendment, and Whistleblower Protection Act violations",
+        "source_url": "https://katzbanks.com/news/marrazzo-lawsuit/",
+        "maps_to_element": "Formal legal claim naming specific officials and specific legal violations tied to the termination"
+      },
+      {
+        "type": "news_report",
+        "description": "CBS News' follow-up interview with Marrazzo quoted her describing the clash with the administration over childhood vaccine policy directly: 'we became inconvenient'",
+        "source_url": "https://www.cbsnews.com/news/nih-whistleblower-marrazzo-trump-rfk-vaccines/",
+        "maps_to_element": "Named official's own account of the retaliatory motive, on the record"
+      }
+    ],
+    "status": "Marrazzo's federal lawsuit was filed in the U.S. District Court for the District of Maryland; no ruling on the merits was identified in sourcing reviewed as of this entry's addition. Neuzil's OSC complaint remains a separate, non-litigated administrative filing as of the same date. No criminal charges, as this is a civil whistleblower-retaliation and employment matter.",
+    "rebuttal_anticipated": "The administration would likely argue Kennedy retains independent management authority over NIH leadership appointments and removals, that Marrazzo's and Memoli's underlying policy disagreement over vaccine research priorities reflects a legitimate difference in scientific judgment rather than retaliation, and that the termination timing, while proximate to the OSC filing, does not by itself establish retaliatory intent.",
+    "comeback": "The 22-day gap between a formal federal whistleblower filing and an outright termination is a short enough window that, combined with the complaint's specific factual allegations (named officials' anti-vaccine statements, a $500 million contract that bypassed peer review) and Marrazzo's own on-record account of being told the administration found her 'inconvenient,' supports the retaliation inference the elements above require -- this is the same close-in-time-plus-specific-allegations pattern already documented in this dataset's Zeldin dissent-letter entry, applied here to NIH leadership rather than rank-and-file scientists.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the pattern already documented across multiple entries in this dataset (Zeldin's discipline of EPA dissent-letter signatories, Chavez-DeRemer's retaliation-driven resignation): named officials who publicly objected to politically-driven changes in their agencies' scientific or research decisions were removed shortly after doing so, regardless of the underlying policy merits of the dispute itself.",
+    "last_updated": "2026-08-11",
+    "date_added": "2026-08-11",
+    "confidence_note": "HIGH confidence on the timeline and core facts -- the OSC complaint's filing date, its specific allegations, Marrazzo's firing date and the 22-day gap, and the subsequent federal lawsuit and its named defendants are all independently corroborated across STAT News, CBS News, Katz Banks Kumin (the officials' own law firm, corroborated rather than sole-sourced), FierceBiotech, and Science (AAAS). The underlying policy dispute over vaccine research priorities is genuinely contested and outside this entry's scope; this entry documents the retaliation claim's factual timeline and legal posture, not a judgment on the vaccine-policy merits themselves."
+  },
+  {
     "official": "Corey Lewandowski, former senior adviser to DHS Secretary Kristi Noem, serving as an unpaid 'Special Government Employee'",
     "offense_category": "Federal Procurement Authority Violation -- exercising contracting authority he did not legally hold as a Special Government Employee, potentially implicating federal procurement regulations governing who may bind the government to a contract; DHS OIG (Inspector General Joseph Cuffari) is weighing a criminal referral, but none has been made as of this entry",
     "incident_summary": "Corey Lewandowski, a former Trump campaign manager who served as an unpaid Special Government Employee and senior adviser to then-DHS Secretary Kristi Noem, is under investigation by the DHS Office of Inspector General for allegedly improperly participating in the award of DHS contracts -- a function he had no legal authority to perform in his SGE capacity. Investigators found evidence he personally signed certain contracts or had knowledge of approvals, unusual for someone who was not a full-time federal official with formal contracting-officer authority. DHS Secretary Markwayne Mullin and White House officials have been briefed on the inquiry. Separately, House Oversight Committee Ranking Member Robert Garcia has expanded a related congressional investigation into allegations that DHS contractors were told to pay Lewandowski as part of an alleged pay-to-play scheme. Lewandowski, through a spokesperson, has denied issuing contracts at DHS and said he has not been contacted by investigators.",

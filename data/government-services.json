@@ -378,6 +378,67 @@
     "last_updated": "2026-08-02"
   },
   {
+    "id": "bird-flu-surveillance-collapse-resurgence-2025",
+    "title": "Bird Flu Surged Through 66 Poultry Flocks in a Month as Federal Surveillance and Genetic Sequencing Capacity Collapsed",
+    "institution": "U.S. Department of Agriculture (USDA); Department of Health and Human Services / CDC",
+    "domain": "data_collection_halted",
+    "status": "Ongoing as of this entry's addition -- Congress publicly demanded restoration of surveillance capacity in late November 2025, with no confirmation in sourcing reviewed that USDA had done so",
+    "date_of_action": "2025-10 through 2025-11-06 (NPR reporting), with a congressional letter following 2025-11-late",
+    "what_changed": "NPR reported on November 6, 2025 that H5N1 avian influenza had struck 66 poultry flocks in the preceding 30 days, killing more than 3.5 million turkeys, chickens, and ducks -- a sharp increase over the summer months, with states in the central U.S. hit hardest as migrating wild birds spread the virus. Scientists tracking the outbreak told NPR they lacked good visibility into what was happening in both animal and human populations because the federal government had scaled back surveillance, genetic sequencing, research coordination, and public communication -- a combination of staffing purges (this database separately documents a related but distinct February 2025 episode in which USDA accidentally fired bird-flu response staff, see usda-bird-flu-response-staff-accidental-firing-2025), disruption from the October-November 2025 government shutdown, and new restrictions on public-facing communication about the outbreak. Compounding the surveillance gap, NPR and a related Stateline report found that immigration enforcement fears were deterring the largely undocumented farmworker population from participating in testing or long-term research: a survey of several hundred farmworkers across three states found roughly 20% reported symptoms coinciding with sick animals on their farms, but most said they were never tested, and California farmworkers interviewed described being too afraid to even leave their homes. In late November 2025, a bipartisan group of members of Congress, led by Reps. Sarah McBride and Jim Costa, sent USDA a letter demanding it immediately restore full avian-influenza surveillance and coordination capacity, warning that reduced federal coordination -- caused by the shutdown and broader reductions-in-force -- was undermining farmers' ability to detect and contain outbreaks quickly.",
+    "primary_proponent": {
+      "name": "U.S. Department of Agriculture and Department of Health and Human Services / CDC",
+      "role": "Agencies responsible for federal avian-influenza surveillance, genetic sequencing, and public communication",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing the surveillance scale-back; reporting attributes the capacity loss to the combined effect of the broader 2025 federal staffing purges, the October-November 2025 shutdown, and new communication restrictions, consistent with the pattern documented in this database's other bird-flu and public-health-surveillance entries."
+    },
+    "estimated_impact": {
+      "summary": "A documented, sharp resurgence in poultry outbreaks coincided directly with reduced federal capacity to track, sequence, and communicate about the virus -- scientists interviewed described themselves as effectively 'flying blind' at a moment infection rates were rising, while immigration-enforcement fears independently suppressed testing among the workforce most exposed to the virus.",
+      "figures": [
+        {
+          "metric": "Poultry flocks struck by H5N1 in the 30 days before Nov. 6, 2025 reporting",
+          "value": "66",
+          "source": "NPR, 2025-11-06"
+        },
+        {
+          "metric": "Birds killed in that same 30-day period",
+          "value": "3.5 million+ (turkeys, chickens, ducks)",
+          "source": "NPR, 2025-11-06"
+        },
+        {
+          "metric": "Farmworkers surveyed across three states reporting symptoms coinciding with sick farm animals, but not tested",
+          "value": "~20% reported symptoms; most were never tested",
+          "source": "NPR, citing a multi-state farmworker survey"
+        }
+      ],
+      "caveat": "No single reporting source quantified the precise surveillance-capacity reduction (e.g., a specific staffing or budget cut figure specific to this scaled-back response) -- the entry documents the outbreak resurgence, the qualitative surveillance-gap description from working scientists, and the specific farmworker-testing figures, without claiming a precise causal percentage tying the outbreak's severity to the capacity loss."
+    },
+    "confidence_note": "HIGH confidence on the outbreak figures (66 flocks, 3.5 million birds), independently corroborated across NPR's national broadcast and numerous NPR-member-station syndications (NHPR, KUNC, Houston Public Media, OPB, and others) all citing the same underlying reporting. HIGH confidence on the farmworker-testing findings and immigration-fear dynamic, corroborated by the same NPR reporting and a related Stateline article. The late-November 2025 congressional letter demanding restored surveillance is corroborated by Rep. McBride's own press release.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "NPR -- Bird flu surges among poultry amid a scaled-back federal response",
+        "url": "https://www.npr.org/sections/shots-health-news/2025/11/06/nx-s1-5600125/bird-flu-risk-outbreak-trump-administration"
+      },
+      {
+        "name": "NPR -- Reports of bird flu in farm animals raise concerns about the virus",
+        "url": "https://www.npr.org/2025/11/05/nx-s1-5596195/reports-of-bird-flu-in-farm-animals-raise-concerns-about-the-virus"
+      },
+      {
+        "name": "Rep. Sarah McBride -- McBride, Costa lead letter urging USDA to restore full bird flu surveillance",
+        "url": "https://mcbride.house.gov/media/press-releases/mcbride-costa-lead-letter-urging-usda-restore-full-bird-flu-surveillance"
+      },
+      {
+        "name": "Stateline (via Maxwell School) -- As bird flu spreads, feds might undercut states by firing scientists, removing data",
+        "url": "https://www.maxwell.syr.edu/news/article/minkoff-zern-quoted-in-stateline-piece-on-impact-of-federal-cuts-data-removal-on-bird-flu-outbreak"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Bird flu struck 66 poultry flocks and killed 3.5 million birds in a single month (Oct-Nov 2025) just as federal surveillance, genetic sequencing, and public communication about the outbreak scaled back amid staffing purges and shutdown disruption; immigration-enforcement fears separately suppressed farmworker testing.",
+      "estimated_impact": "Scientists said they lacked visibility into the outbreak's spread in both animals and humans at the moment it was worsening; a farmworker survey found most people with symptoms coinciding with sick animals were never tested.",
+      "confidence_note": "The outbreak figures and surveillance-gap description are well-corroborated across NPR's national and syndicated reporting; a bipartisan congressional letter independently confirms the surveillance-restoration demand."
+    }
+  },
+  {
     "id": "bls-commissioner-firing-trump2",
     "title": "Trump Fired the BLS Commissioner for 'Rigged' Data — His Own First-Term BLS Commissioner Called the Firing 'Totally Groundless'",
     "institution": "Bureau of Labor Statistics (BLS), Department of Labor",
@@ -1702,6 +1763,66 @@
         "url": "https://www.militarytimes.com/news/your-military/2025/02/18/coast-guard-data-breach-impacts-pay-of-1135-service-members/"
       }
     ]
+  },
+  {
+    "id": "columbia-400m-funding-cut-antisemitism-2025",
+    "title": "Four Federal Agencies Jointly Canceled $400 Million in Columbia University Funding Over Antisemitism Complaints, Then Columbia Laid Off Nearly 180 Researchers",
+    "institution": "Columbia University; jointly acted on by the Department of Justice, Department of Health and Human Services, Department of Education, and General Services Administration",
+    "domain": "funding_redirection",
+    "status": "Implemented -- the $400 million cancellation took effect March 2025; Columbia laid off nearly 180 researchers in May 2025 while negotiating with the administration over restoring funding",
+    "date_of_action": "2025-03-07 (funding cancellation announced) through 2025-05-07 (layoffs announced)",
+    "what_changed": "On March 7, 2025, the Departments of Justice, Health and Human Services, and Education, along with the General Services Administration, jointly announced the immediate cancellation of approximately $400 million in federal grants and contracts to Columbia University, citing what the agencies called the university's 'continued inaction in the face of persistent harassment of Jewish students' during campus protests over the Israel-Gaza war. Two months later, on May 7, 2025, Columbia announced it would terminate nearly 180 researchers -- about 20% of the researchers whose positions depended on the canceled grants -- as the university negotiated with the administration over restoring the funding rather than immediately replacing it. Affected research spanned a wide range of active medical and public-health work, including a project developing an antiviral nasal spray for infectious diseases, studies of maternal mortality and morbidity, treatments for chronic illnesses including long COVID, care for newborns experiencing opioid withdrawal syndrome, and colorectal cancer screening research.",
+    "primary_proponent": {
+      "name": "Departments of Justice, Health and Human Services, and Education, and the General Services Administration (jointly)",
+      "role": "The four federal agencies that jointly announced and executed the funding cancellation",
+      "note": "No single named individual was identified in sourcing reviewed for this entry as personally directing the action; it was announced as a joint interagency decision citing the university's handling of campus antisemitism complaints under the Trump administration's broader campaign targeting elite universities' federal funding, the same pattern documented in this database's separate Harvard entry (harvard-research-funding-freeze-2025)."
+    },
+    "estimated_impact": {
+      "summary": "The cancellation halted active, funded medical and public-health research across multiple disease areas and directly cost nearly 180 researchers their jobs, in a case study of how funding cuts framed around campus-conduct disputes can disrupt unrelated scientific work already underway.",
+      "figures": [
+        {
+          "metric": "Federal grants and contracts canceled",
+          "value": "~$400,000,000",
+          "source": "Joint DOJ/HHS/Education/GSA announcement, 2025-03-07"
+        },
+        {
+          "metric": "Researchers laid off",
+          "value": "~180 (~20% of Columbia researchers funded by the canceled grants)",
+          "source": "Inside Higher Ed, UPI, 2025-05-07"
+        }
+      ],
+      "caveat": "The administration's stated rationale -- addressing antisemitism complaints on campus -- is a genuinely disputed policy question distinct from the funding cut's downstream research impact; this entry documents the funding action and its concrete effect on unrelated, already-active medical research (nasal-spray antiviral development, maternal mortality, long COVID, neonatal opioid withdrawal, cancer screening), not a judgment on the underlying campus-conduct dispute."
+    },
+    "confidence_note": "HIGH confidence -- the $400 million cancellation and its joint four-agency announcement are corroborated across the Washington Post, NY1, and the American Council on Education's own public statement warning of the precedent it set. The May 2025 layoffs and the specific list of affected research areas are corroborated across UPI, Inside Higher Ed, and Campus Reform, all citing Columbia's own public statements about the terminations.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "The Washington Post -- Trump administration cuts $400 million in grants to Columbia University",
+        "url": "https://www.washingtonpost.com/education/2025/03/07/trump-columbia-university-federal-grants-canceled/"
+      },
+      {
+        "name": "NY1 -- Columbia responds to Trump administration cutting $400M in federal funding",
+        "url": "https://ny1.com/nyc/all-boroughs/news/2025/03/08/columbia-responds-to-trump-administration-cutting--400m-in-federal-funding"
+      },
+      {
+        "name": "American Council on Education -- Federal Funding Cuts to Columbia Set Dangerous Precedent, ACE Warns",
+        "url": "https://www.acenet.edu/News-Room/Pages/Funding-Cuts-Columbia-Dangerous-Precedent.aspx"
+      },
+      {
+        "name": "UPI -- Columbia University to lay off 180 researchers due to Trump administration funding cuts",
+        "url": "https://www.upi.com/Top_News/US/2025/05/07/Columbia-University-Trump-administration-firing-termination-funding/7521746615604/"
+      },
+      {
+        "name": "Inside Higher Ed -- Columbia Lays Off 180 Amid 'Intense' Financial Strain",
+        "url": "https://www.insidehighered.com/news/quick-takes/2025/05/07/columbia-lays-180-amid-intense-financial-strain"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Four federal agencies jointly canceled ~$400 million in Columbia University funding in March 2025 over campus antisemitism complaints; Columbia laid off nearly 180 researchers in May 2025 while negotiating to restore the funding.",
+      "estimated_impact": "The cut halted active medical research (an antiviral nasal spray, maternal mortality studies, long COVID treatment, neonatal opioid withdrawal care, cancer screening) and cost ~180 researchers their jobs.",
+      "confidence_note": "Well-corroborated across multiple outlets citing the agencies' and university's own public statements; the underlying antisemitism-complaint dispute is a separate, genuinely contested policy question from the funding cut's documented research impact."
+    }
   },
   {
     "id": "commerce-china-export-official-forced-out-2025",
@@ -4901,6 +5022,75 @@
         "url": "https://www.newsweek.com/supreme-court-federal-reserve-lisa-cook-donald-trump-12135615"
       }
     ]
+  },
+  {
+    "id": "federal-rto-mandate-relocation-chaos-2025",
+    "title": "Federal Return-to-Office Mandate Ordered Remote Workers to Report Hundreds of Miles Away on Days' Notice, Into Offices Without Desks or Wi-Fi",
+    "institution": "Office of Personnel Management (OPM) and federal agencies government-wide",
+    "domain": "staff_office_cuts",
+    "status": "Implemented, with rollout problems partially addressed agency-by-agency as of the reporting reviewed; the underlying full-time in-person mandate remained in effect",
+    "date_of_action": "2025-01-20 (presidential memorandum) through 2025-04-30 (agencies still tracking daily office occupancy)",
+    "what_changed": "On January 20, 2025, Trump's first-day presidential memorandum directed federal agencies to end remote-work arrangements and require full-time in-person work, with OPM recommending agencies reach full compliance within 30 days. The rollout hit employees hired or relocated for remote positions especially hard: the Washington Post reported some workers received just days' notice to report to offices hundreds or even thousands of miles from where they lived -- one HHS employee working remotely from the Southwest since 2023 was told via an email titled 'Return to In-Person Work Guidance for March 17, 2025' that she needed to report that Monday. Employees described scrambling to book flights, arrange childcare, or sell homes, with some assigned to offices that had already been shut down amid the administration's mass federal-lease cancellations; others faced commutes of nearly two hours each way with no clarity on what would happen if they couldn't comply, and some were told to report to offices that had already lost their lease. Separately, CNN and NPR reported the offices employees were ordered back into often lacked basic infrastructure to receive them -- shortages of desks, computer monitors, parking, Wi-Fi, and even toilet paper were widely documented; in one case reported in this cycle of coverage, a USDA remote employee was directed to a reporting location that turned out to be a storage unit. Some federal employees and outside observers characterized the mandate's chaotic, under-resourced rollout as a de facto pressure campaign to induce resignations, working in tandem with OPM's January 28, 2025 'Fork in the Road' deferred-resignation offer to all roughly 2 million federal employees (a separate, related action this database references but does not duplicate in full here). Pew Research Center calculated federal civilian headcount fell 10.3% in 2025 overall, with 348,219 quits, retirements, and layoffs against only 116,912 new hires -- a figure reflecting the combined effect of the RTO mandate, the deferred-resignation program, and other workforce-reduction actions rather than the RTO mandate in isolation.",
+    "primary_proponent": {
+      "name": "Office of Personnel Management, implementing Trump's January 20, 2025 presidential memorandum",
+      "role": "OPM directed agencies to comply quickly with the return-to-office mandate and, separately, administered the related deferred-resignation program",
+      "note": "No single named individual was identified in sourcing reviewed as personally directing the specific relocation notices or the infrastructure shortfalls; reporting attributes the chaotic rollout to agencies scrambling to meet OPM's compressed compliance timeline without first restoring office capacity (desks, IT, parking) that had been reduced during years of remote work."
+    },
+    "estimated_impact": {
+      "summary": "Documented, individually concrete disruption to federal employees' lives (forced relocations on days' notice, offices without basic infrastructure, in one case a storage unit as a reporting location) occurring within a broader year in which federal civilian employment fell over 10%, more than double the hires that replaced departing staff.",
+      "figures": [
+        {
+          "metric": "OPM's recommended compliance timeline for agencies",
+          "value": "30 days from the January 20, 2025 memorandum",
+          "source": "OPM guidance, reported by Federal News Network"
+        },
+        {
+          "metric": "Federal employees who accepted the related 'Fork in the Road' deferred-resignation offer",
+          "value": "~154,000",
+          "source": "Multiple outlets citing OPM/administration figures"
+        },
+        {
+          "metric": "2025 federal civilian headcount change",
+          "value": "-10.3% overall (348,219 quits/retirements/layoffs vs. 116,912 hires)",
+          "source": "Pew Research Center analysis"
+        }
+      ],
+      "caveat": "The 10.3% headcount-decline and 348,219/116,912 figures describe overall 2025 federal workforce attrition from multiple combined causes (RTO mandate, deferred resignation, RIFs, and other cuts this database tracks separately by agency) -- they are not isolated to the RTO mandate specifically, and should be presented as context for the broader trend the mandate contributed to, not as a number caused by the RTO mandate alone."
+    },
+    "confidence_note": "HIGH confidence -- the Washington Post's direct reporting (two separate articles, March 13-14, 2025) documents the specific relocation-chaos cases with named agencies and quoted timelines; CNN's and NPR's independent reporting corroborates the infrastructure shortages (desks, Wi-Fi, toilet paper) with different named agencies and cases, including the USDA storage-unit incident; Pew Research Center's headcount analysis is an independent, non-partisan calculation rather than an administration or advocacy figure.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "The Washington Post -- Federal workers given days to report to offices hundreds of miles away",
+        "url": "https://www.washingtonpost.com/dc-md-va/2025/03/14/federal-return-to-office-remote-workers/"
+      },
+      {
+        "name": "The Washington Post -- Federal workers called back to the office — or is it a shuttered Subway?",
+        "url": "https://www.washingtonpost.com/dc-md-va/2025/03/13/federal-workers-return-to-office-trump-confusion/"
+      },
+      {
+        "name": "CNN -- 'It was messy': Federal workers ordered to return to offices without desks, Wi-Fi and lights",
+        "url": "https://www.cnn.com/2025/03/04/politics/federal-employees-return-to-office-problems/index.html"
+      },
+      {
+        "name": "NPR -- Federal workers ordered back to office find shortages of desks, Wi-Fi and toilet paper",
+        "url": "https://www.npr.org/2025/03/26/nx-s1-5338945/federal-workers-return-to-office-chaos"
+      },
+      {
+        "name": "Federal News Network -- OPM directs agencies to quickly comply with Trump's return-to-office mandate",
+        "url": "https://federalnewsnetwork.com/workforce/2025/01/opm-directs-agencies-to-quickly-comply-with-trumps-return-to-office-mandate/"
+      },
+      {
+        "name": "Wikipedia -- 2025 U.S. federal deferred resignation program",
+        "url": "https://en.wikipedia.org/wiki/2025_U.S._federal_deferred_resignation_program"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Trump's Jan. 20, 2025 return-to-office memorandum led agencies to order remote federal employees back on days' notice, sometimes hundreds of miles away, into offices that in some documented cases lacked desks, Wi-Fi, or had already closed -- one USDA worker was directed to what turned out to be a storage unit.",
+      "estimated_impact": "Individually documented family disruption (relocations, canceled moves, broken leases) occurred within a year federal civilian employment fell over 10%, though that broader figure reflects multiple combined workforce-reduction actions, not the RTO mandate alone.",
+      "confidence_note": "Well-corroborated across the Washington Post, CNN, NPR, and Federal News Network, each documenting different specific cases; Pew's headcount figures are an independent non-partisan calculation."
+    }
   },
   {
     "id": "federal-worker-mass-firing-mental-health-toll-2026",
@@ -8337,7 +8527,7 @@
     "domain": "research_suppression",
     "status": "Blocked as of June 1, 2026 -- a federal judge issued a preliminary injunction halting further dismantling steps, following UCAR's March 2026 lawsuit alleging the plan was retaliation against Colorado; the underlying litigation over the plan's ultimate fate remains ongoing",
     "date_of_action": "2025-12-16 (first reporting of White House plan to 'break up' NCAR) through 2026-02-13 (NSF letter confirming supercomputer removal plan)",
-    "what_changed": "Reporting first surfaced in mid-December 2025 that the administration was moving to dismantle the National Science Foundation's National Center for Atmospheric Research (NCAR) in Boulder, Colorado -- a 60-plus-year cornerstone of U.S. weather and climate science -- with officials characterizing it as a source of \"climate alarmism.\" That earliest reporting specifically named NCAR's Mesa Laboratory campus as a target for shutdown, described plans to eliminate research programs internally labeled \"woke,\" and indicated only select functions such as weather modeling would be transferred elsewhere rather than preserved intact. Following a January 2026 White House announcement of intent to 'break up' NCAR, an NSF letter released February 13, 2026 confirmed plans to remove NCAR's supercomputing facility and transfer it to an unspecified third party. The facility supports weather forecasting models, climate simulations, and extreme-weather prediction research used by approximately 1,500 researchers across more than 500 universities; NOAA itself relies on the facility to run some of its current forecasting models. Former NCAR director James Hurrell and other prominent colleagues in the weather and climate research community warned NSF that 'any path that leads to the fragmentation or dismantling of NSF NCAR is fundamentally not in the nation's interest,' and that the move could further set back NOAA's own weather-modeling capabilities, which the researchers noted have already lagged behind international competitors. On March 16, 2026, the University Corporation for Atmospheric Research (UCAR) -- the nonprofit consortium of 129 universities that manages NCAR -- sued the federal agencies and officials behind the breakup plan, alleging the effort was retaliation against Colorado: specifically, that the administration was using NCAR's dismantling to pressure the state over Gov. Jared Polis's refusal to grant clemency to Tina Peters, a former county clerk convicted of tampering with voting machines in pursuit of Trump's 2020 election-fraud claims, and over the state's broader resistance to ceding authority over its own elections. OMB Director Russell Vought had publicly framed the plan as 'breaking up' NCAR because it was 'one of the largest sources of climate alarmism in the country,' and a White House spokesperson told CNN that Colorado's treatment depended on having 'a governor who actually wanted to work with President Trump.' On June 1, 2026, U.S. District Judge R. Brooke Jackson issued a preliminary injunction blocking the administration from taking further steps to dismantle NCAR, a win for the researchers and UCAR that halted the removal plan pending further litigation.",
+    "what_changed": "Reporting first surfaced in mid-December 2025 that the administration was moving to dismantle the National Science Foundation's National Center for Atmospheric Research (NCAR) in Boulder, Colorado -- a 60-plus-year cornerstone of U.S. weather and climate science -- with officials characterizing it as a source of \"climate alarmism.\" The news broke via a post on X from OMB Director Russell Vought, with no advance warning to NCAR's own funder, NSF, or to the White House's usual channels for announcing agency actions; CNN reported the announcement landed in the middle of the American Geophysical Union's (AGU) annual meeting, where climate scientist Katherine Hayhoe wrote on Bluesky that 'NCAR is quite literally our global mothership... Dismantling NCAR is like taking a sledgehammer to the keystone holding up our scientific understanding of the planet.' AGU convened an emergency town hall of hundreds of scientists at the meeting in response, and on March 12, 2026 formally submitted comments to NSF opposing the dismantling proposal, arguing NCAR's integrated, interdisciplinary structure is what makes it irreplaceable and that the rushed timeline and limited stakeholder consultation fell short of standard governance practice. That earliest reporting specifically named NCAR's Mesa Laboratory campus as a target for shutdown, described plans to eliminate research programs internally labeled \"woke,\" and indicated only select functions such as weather modeling would be transferred elsewhere rather than preserved intact. Following a January 2026 White House announcement of intent to 'break up' NCAR, an NSF letter released February 13, 2026 confirmed plans to remove NCAR's supercomputing facility and transfer it to an unspecified third party. The facility supports weather forecasting models, climate simulations, and extreme-weather prediction research used by approximately 1,500 researchers across more than 500 universities; NOAA itself relies on the facility to run some of its current forecasting models. Former NCAR director James Hurrell and other prominent colleagues in the weather and climate research community warned NSF that 'any path that leads to the fragmentation or dismantling of NSF NCAR is fundamentally not in the nation's interest,' and that the move could further set back NOAA's own weather-modeling capabilities, which the researchers noted have already lagged behind international competitors. On March 16, 2026, the University Corporation for Atmospheric Research (UCAR) -- the nonprofit consortium of 129 universities that manages NCAR -- sued the federal agencies and officials behind the breakup plan, alleging the effort was retaliation against Colorado: specifically, that the administration was using NCAR's dismantling to pressure the state over Gov. Jared Polis's refusal to grant clemency to Tina Peters, a former county clerk convicted of tampering with voting machines in pursuit of Trump's 2020 election-fraud claims, and over the state's broader resistance to ceding authority over its own elections. OMB Director Russell Vought had publicly framed the plan as 'breaking up' NCAR because it was 'one of the largest sources of climate alarmism in the country,' and a White House spokesperson told CNN that Colorado's treatment depended on having 'a governor who actually wanted to work with President Trump.' On June 1, 2026, U.S. District Judge R. Brooke Jackson issued a preliminary injunction blocking the administration from taking further steps to dismantle NCAR, a win for the researchers and UCAR that halted the removal plan pending further litigation.",
     "primary_proponent": {
       "name": "National Science Foundation (executing White House direction)",
       "role": "Federal agency overseeing NCAR, executing the supercomputer removal",
@@ -8359,10 +8549,10 @@
       ],
       "caveat": "The removal plan was confirmed via an NSF letter but was still in progress as of this entry's addition -- the ultimate destination and fate of the transferred supercomputer, and whether NOAA's forecasting capability was measurably degraded, were not yet confirmed outcomes in sourcing reviewed."
     },
-    "confidence_note": "HIGH confidence -- the removal plan, NSF's own confirming letter, the researcher count, and the objecting scientists' quoted statement are all independently corroborated across CNN, KRDO, and multiple wire pickups, with the core facts drawn from NSF's own letter rather than anonymous sourcing. Re-verified 2026-08-05: UCAR's lawsuit, its specific Tina Peters/Colorado-retaliation allegation, Vought's and the White House's own public statements, and the June 1, 2026 preliminary injunction are all independently corroborated across Colorado Sun, Boulder Reporting Lab, Courthouse News, The Hill, 9News, and CPR -- filling the gap this entry previously flagged (the White House's rationale 'was not detailed in sourcing reviewed'). The retaliation characterization is UCAR's legal allegation, not yet a court finding; the injunction addresses the dismantling process, not the retaliation claim's merits. Re-verified 2026-08-08: the plan's earliest reporting (USA Today, ABC News, mid-December 2025) independently corroborates the January 2026 White House announcement this entry originally opened with, pushing the documented origin date back about a month and adding the Mesa Laboratory-specific shutdown target and 'woke' program-labeling detail -- a genuine earlier-origin correction, not new evidence of a separate action.",
-    "last_verified": "2026-08-08",
+    "confidence_note": "HIGH confidence -- the removal plan, NSF's own confirming letter, the researcher count, and the objecting scientists' quoted statement are all independently corroborated across CNN, KRDO, and multiple wire pickups, with the core facts drawn from NSF's own letter rather than anonymous sourcing. Re-verified 2026-08-05: UCAR's lawsuit, its specific Tina Peters/Colorado-retaliation allegation, Vought's and the White House's own public statements, and the June 1, 2026 preliminary injunction are all independently corroborated across Colorado Sun, Boulder Reporting Lab, Courthouse News, The Hill, 9News, and CPR -- filling the gap this entry previously flagged (the White House's rationale 'was not detailed in sourcing reviewed'). The retaliation characterization is UCAR's legal allegation, not yet a court finding; the injunction addresses the dismantling process, not the retaliation claim's merits. Re-verified 2026-08-08: the plan's earliest reporting (USA Today, ABC News, mid-December 2025) independently corroborates the January 2026 White House announcement this entry originally opened with, pushing the documented origin date back about a month and adding the Mesa Laboratory-specific shutdown target and 'woke' program-labeling detail -- a genuine earlier-origin correction, not new evidence of a separate action. Update 2026-08-11 (round-4 candidate discovery, cluster c0115): added the AGU annual-meeting reaction (Vought's X-post announcement with no advance NSF warning, Katherine Hayhoe's quote, AGU's emergency town hall, and its March 12, 2026 formal comments to NSF), corroborated by CNN and AGU's own published materials.",
+    "last_verified": "2026-08-11",
     "date_added": "2026-08-05",
-    "last_updated": "2026-08-08",
+    "last_updated": "2026-08-11",
     "sources": [
       {
         "name": "USA Today -- Trump administration to dismantle National Center for Atmospheric Research",
@@ -8391,6 +8581,14 @@
       {
         "name": "The Hill -- 'Judge halts Trump effort to target Colorado climate lab'",
         "url": "https://thehill.com/policy/energy-environment/5905703-colorado-climate-lab-ncar/"
+      },
+      {
+        "name": "CNN -- The Trump admin is closing a critical climate research center. Officials believe it's really trying to punish a governor",
+        "url": "https://www.cnn.com/2025/12/17/climate/ncar-trump-climate-research-weather-safety-forecasts"
+      },
+      {
+        "name": "AGU -- AGU is Fighting for Science",
+        "url": "https://www.agu.org/agu-fights-for-science"
       }
     ],
     "section_summaries": {
@@ -10894,6 +11092,75 @@
     }
   },
   {
+    "id": "pentagon-civilian-hiring-freeze-limbo-2025",
+    "title": "Hegseth's Pentagon Hiring Freeze Trapped Civilian Employees Mid-Move -- Belongings Shipped, Leases Broken, Kids Unenrolled -- With Exemptions Bottlenecked at His Own Desk",
+    "institution": "Department of Defense (DoD) civilian workforce",
+    "domain": "staff_office_cuts",
+    "status": "Partially eased -- exemption-approval authority was delegated from Hegseth personally to the undersecretary for personnel and readiness in mid-March 2025, with roughly 18 exempted job categories carved out, though DoD's broader civilian-workforce reduction continued",
+    "date_of_action": "2025-02-28 (initial freeze memo) through 2025-04-07 (Defense One follow-up reporting continued limbo a month in)",
+    "what_changed": "On February 28, 2025, Defense Secretary Pete Hegseth signed a memo freezing civilian hiring across the Department of Defense, with the memo requiring Hegseth to personally approve any exemption on a case-by-case basis and providing no clear criteria or timeline for those approvals. Defense One reported the freeze trapped civilian employees who were already mid-transfer in bureaucratic limbo: some had already shipped their household belongings overseas, unenrolled their children from school, or broken housing leases in anticipation of a previously-approved job transfer, only to be told to cancel their move with no clear guidance on whether or when it might proceed. One affected employee described the exemption-approval process as happening 'in a black hole with no amplifying details.' A month later, Defense One's follow-up reporting found employees still stuck: some had belongings already shipped overseas while they themselves remained in the U.S. living in hotels, with exemption approvals bottlenecked, slow, or denied with little explanation despite guidance that in-progress moves should qualify. DefenseScoop reported that acting Undersecretary for Personnel and Readiness Jules Hurst carved out roughly 18 exempted job categories between March 17-20, 2025 -- including DoD Education Activity teachers, on-post child care workers, and blanket exemptions for shipyards, equipment depots, and medical treatment facilities -- and Hegseth subsequently signed an order delegating exemption-approval authority to the undersecretary and, after further review, to the secretaries of the Military Departments, easing the personal-approval bottleneck though not lifting the freeze itself. The freeze was part of a broader DoD civilian-workforce reduction effort: the Pentagon later reported roughly 21,000 civilian employees accepted deferred-resignation offers, and a senior defense official said the department intended to eliminate 50,000-60,000 of its roughly 900,000 civilian positions as part of its budget-reduction push; separately, a federal court order in March 2025 stalled part of the department's broader workforce-reduction efforts, contributing to the confusion Defense One documented on the ground.",
+    "primary_proponent": {
+      "name": "Pete Hegseth",
+      "role": "Secretary of Defense",
+      "note": "Personally signed the February 28, 2025 freeze memo and initially required his own personal, case-by-case approval for any exemption -- a bottleneck later delegated to the undersecretary for personnel and readiness after DefenseScoop and Defense One documented the resulting employee limbo."
+    },
+    "estimated_impact": {
+      "summary": "Documented, individually concrete harm to civilian DoD employees and their families -- shipped belongings, broken leases, children pulled from school, and open-ended hotel stays -- stemming specifically from the freeze's initial personal-approval design rather than the freeze's existence alone, since even employees with previously-approved, in-progress moves were caught by it.",
+      "figures": [
+        {
+          "metric": "Exempted job categories carved out by mid-to-late March 2025",
+          "value": "~18 categories (DoD Education Activity teachers, on-post child care, shipyards, equipment depots, medical treatment facilities, and others)",
+          "source": "DefenseScoop, March 2025"
+        },
+        {
+          "metric": "DoD civilian employees who accepted deferred-resignation offers",
+          "value": "~21,000",
+          "source": "Pentagon statement, reported by multiple outlets"
+        },
+        {
+          "metric": "Planned DoD civilian-workforce reduction, of ~900,000 total civilian positions",
+          "value": "50,000-60,000",
+          "source": "Senior defense official, reported by multiple outlets"
+        }
+      ],
+      "caveat": "No aggregate figure was found in sourcing reviewed for how many employees were specifically caught mid-move by the freeze (the reporting is illustrative, individual-case-based rather than a comprehensive count); the 21,000 deferred-resignation and 50,000-60,000 planned-reduction figures describe the broader DoD workforce-reduction effort the freeze was part of, not the freeze's specific mid-move-limbo harm in isolation."
+    },
+    "confidence_note": "HIGH confidence -- Defense One's two pieces of direct, on-the-record reporting (March and April 2025) document named categories of harm (shipped belongings, broken leases, hotel stays) from Pentagon civilian employees and DoD officials; DefenseScoop's independent reporting corroborates the exemption-delegation timeline and the specific ~18 exempted categories; Government Executive's parallel coverage of the same original Defense One reporting adds further corroboration.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "Defense One -- Pentagon hiring freeze holds previously approved job moves hostage",
+        "url": "https://www.defenseone.com/policy/2025/03/pentagon-hiring-freeze-holds-previously-approved-job-moves-hostage/403782/"
+      },
+      {
+        "name": "Defense One -- 'What a mess': DOD's murky hiring freeze has civilians in limbo",
+        "url": "https://www.defenseone.com/policy/2025/04/what-mess-me-and-my-command-dods-murky-hiring-freeze-has-civilians-limbo/404306/"
+      },
+      {
+        "name": "DefenseScoop -- DOD lists more positions exempt from civilian hiring freeze",
+        "url": "https://defensescoop.com/2025/03/20/dod-civilian-hiring-freeze-exemptions-doge/"
+      },
+      {
+        "name": "DefenseScoop -- Hegseth issues new guidance on DOD civilian hiring freeze",
+        "url": "https://defensescoop.com/2025/03/17/dod-civilian-hiring-freeze-exemptions-hegseth-readiness-doge/"
+      },
+      {
+        "name": "Government Executive -- Pentagon hiring freeze holds previously approved job moves hostage",
+        "url": "https://www.govexec.com/defense/2025/03/pentagon-hiring-freeze-holds-previously-approved-job-moves-hostage/403862/"
+      },
+      {
+        "name": "UPI -- Hegseth signs memo for cuts to Pentagon civilian workforce",
+        "url": "https://www.upi.com/Top_News/US/2025/03/29/Hegseth-memorandum-cut-cvilian-Pentagon-wortkforce/9391743268199/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Hegseth's Feb. 28, 2025 Pentagon civilian hiring freeze required his own personal approval for exemptions, trapping employees mid-move -- belongings shipped, leases broken, kids unenrolled from school -- until exemption authority was delegated to the undersecretary for personnel and readiness in mid-March.",
+      "estimated_impact": "Documented individual cases of concrete family harm from the freeze's initial design, set within a broader DoD push that saw 21,000 employees take deferred resignation and a stated goal of cutting 50,000-60,000 civilian positions overall.",
+      "confidence_note": "Well-corroborated across Defense One's direct reporting, DefenseScoop's exemption-timeline coverage, and Government Executive's parallel coverage."
+    }
+  },
+  {
     "id": "pentagon-civilian-workforce-cuts-no-analysis-2026",
     "title": "GAO finds Pentagon eliminated 78,000 civilian jobs -- 10% of its workforce -- without required impact analysis",
     "institution": "Department of Defense (Department of War) -- civilian workforce",
@@ -12612,6 +12879,71 @@
     }
   },
   {
+    "id": "toxic-exposures-fund-advance-appropriation-removed-2025",
+    "title": "March 2025 Stopgap Bill Stripped Veterans' Toxic-Exposure Fund of Its Guaranteed Advance Funding, Though FY2026 Was Ultimately Fully Funded Anyway",
+    "institution": "Department of Veterans Affairs -- Cost of War Toxic Exposures Fund (TEF)",
+    "domain": "funding_redirection",
+    "status": "Resolved without an actual funding cut -- the FY2026 advance appropriation was removed as feared, but Congress separately and fully funded TEF for FY2026 through the normal appropriations process at a higher level than the original $22.8 billion figure",
+    "date_of_action": "2025-03-08 (House-passed version reported) through 2025-03-15 (H.R. 1968 signed into law)",
+    "what_changed": "The 2022 PACT Act created the Cost of War Toxic Exposures Fund (TEF) to cover expanded VA healthcare and benefits for veterans sickened by burn pits, Agent Orange, and other toxic exposures, and specifically included an 'advance appropriation' mechanism -- guaranteeing TEF's funding a full year ahead of when it would be spent -- intended to insulate veterans' toxic-exposure care from being used as leverage in future annual appropriations fights. The Full-Year Continuing Appropriations and Extensions Act, 2025 (H.R. 1968), the stopgap spending bill House Republicans advanced and the Senate passed on March 14, 2025 (House 217-213, Senate 54-46; signed into law March 15, 2025), excluded the $22.8 billion FY2026 advance appropriation for TEF that the PACT Act's funding schedule called for -- though it left FY2025 TEF funding itself untouched. The Hill reported House Republicans intended the move to force TEF's future funding under the discretionary spending cap, giving Congress more leverage to cut it in ordinary annual appropriations; VA has never offered gender-affirming or other unrelated services from this fund; opposition Republicans separately criticized TEF's oversight structure, calling it effectively a 'slush fund.' Sen. Bernie Sanders and veterans' groups, including those representing burn-pit-exposed veterans, publicly condemned the removal as a betrayal after Congress had already committed to the funding via the PACT Act. Despite the removed guarantee, Congress ultimately did fund TEF for FY2026 through the ordinary appropriations process rather than the automatic advance mechanism: per VA and congressional budget documents, the FY2026 Continuing Appropriations Act provided $52.68 billion to TEF, reflecting the program's actual growing costs ($20 billion in FY2024, $30.4 billion in FY2025, and the FY2026 figure) -- more than double the originally-scheduled $22.8 billion figure that had been removed.",
+    "primary_proponent": {
+      "name": "House Republican appropriators",
+      "role": "Drafted and advanced the stopgap bill excluding TEF's FY2026 advance appropriation",
+      "note": "No single named individual was identified in sourcing reviewed as personally directing this specific provision; reporting attributes it to House Republican appropriators' stated goal of moving TEF spending under the discretionary cap for closer annual oversight and potential future cuts."
+    },
+    "estimated_impact": {
+      "summary": "The removed guarantee created genuine, contemporaneous alarm among veterans' advocates and Democratic lawmakers that toxic-exposure healthcare funding would become a future bargaining chip -- a real structural change to how the PACT Act's funding was protected -- but the feared FY2026 funding shortfall did not materialize: Congress separately appropriated TEF funding at more than double the removed guarantee's dollar figure once actual program costs were known.",
+      "figures": [
+        {
+          "metric": "FY2026 advance appropriation removed from the March 2025 stopgap bill",
+          "value": "$22,800,000,000",
+          "source": "The Hill, Roll Call, March 2025"
+        },
+        {
+          "metric": "TEF funding Congress ultimately provided for FY2026 (through ordinary appropriations, not the removed advance mechanism)",
+          "value": "$52,680,000,000",
+          "source": "VA FY2026 Budget in Brief; congressional appropriations documents"
+        },
+        {
+          "metric": "TEF actual costs by fiscal year",
+          "value": "$20B (FY2024), $30.4B (FY2025), ~$52.6B (FY2026 projected/appropriated)",
+          "source": "VA budget documents"
+        }
+      ],
+      "caveat": "This entry documents a real, contemporaneously alarming action (removing a specific PACT Act funding safeguard) that did not, in the outcome, produce the feared funding cut -- present both halves honestly: the removal of the guarantee was real and drew bipartisan veteran-advocate criticism at the time, but checking forward to the actual FY2026 appropriation shows TEF was fully funded, and at a higher level than the removed guarantee would have provided. Framing this as a completed 'elimination' of veterans' healthcare funding, as some March 2025 coverage did, is not supported by the eventual outcome."
+    },
+    "confidence_note": "HIGH confidence on the March 2025 legislative action itself and its contemporaneous reception, corroborated across The Hill, Roll Call, and Military Times, all citing the same bill text and the same March 2025 timeline. HIGH confidence on the FY2026 outcome, corroborated by VA's own FY2026 Budget in Brief and multiple veterans'-benefits trade publications describing the same $52.68 billion figure -- this is the kind of forward-looking outcome check this tracker applies before finalizing an entry describing an older, alarming-sounding action.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "The Hill -- Burn pit fund for veterans on chopping block in GOP spending bill",
+        "url": "https://thehill.com/policy/defense/5194764-democrats-republicans-veterans-funding/"
+      },
+      {
+        "name": "Roll Call -- Long-term stopgap measure sets up partisan clash",
+        "url": "https://rollcall.com/2025/03/08/long-term-stopgap-measure-sets-up-partisan-clash/"
+      },
+      {
+        "name": "Military Times -- Stopgap budget bill includes extra funds for military, VA programs",
+        "url": "https://www.militarytimes.com/news/pentagon-congress/2025/03/10/stopgap-budget-bill-includes-extra-funds-for-military-va-programs/"
+      },
+      {
+        "name": "Department of Veterans Affairs -- FY 2026 Budget in Brief",
+        "url": "https://department.va.gov/wp-content/uploads/2025/06/2026-Budget-in-Brief.pdf"
+      },
+      {
+        "name": "The American Legion -- VA budget tops $400 billion for 2025 from higher spending on mandated benefits, medical care",
+        "url": "https://www.legion.org/information-center/news/veterans-healthcare/2025/june/va-budget-tops-400-billion-for-2025-from-higher-spending-on-mandated-benefits-medical-care"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "A March 2025 stopgap spending bill removed the PACT Act's guaranteed FY2026 advance appropriation ($22.8B) for veterans' toxic-exposure healthcare fund, a safeguard meant to insulate it from annual appropriations fights, drawing bipartisan veteran-advocate condemnation.",
+      "estimated_impact": "The feared funding gap did not materialize -- Congress separately appropriated $52.68 billion for FY2026 through ordinary channels, more than double the removed figure, once actual program costs were known.",
+      "confidence_note": "The legislative action and its contemporaneous reception are well-corroborated; the favorable FY2026 outcome is independently confirmed by VA's own budget documents, an important forward-check on the original alarming framing."
+    }
+  },
+  {
     "id": "treasury-ofr-workforce-cuts-2026",
     "title": "Treasury Moves to Dramatically Shrink the Office of Financial Research, the Post-2008 Systemic-Risk Watchdog, Amid Growing Private-Credit Instability",
     "institution": "Department of the Treasury / Office of Financial Research",
@@ -12842,6 +13174,102 @@
     }
   },
   {
+    "id": "us-scientist-emigration-europe-brain-drain-2025",
+    "title": "Hundreds of U.S. Scientists Sought \"Scientific Asylum\" in Europe as France and the EU Launched Dedicated Recruitment Programs",
+    "institution": "N/A -- documents a researcher-emigration trend attributed by affected scientists and European officials to the federal research-funding and policy environment, not one specific federal action",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing as of this entry's addition -- both the Aix-Marseille and EU-wide recruitment programs continued accepting applicants through mid-2025 with no reporting of the underlying U.S. funding cuts being reversed",
+    "date_of_action": "2025-03 (Aix-Marseille program launched) through 2025-07 (first wave of researchers relocated; EU 2025-27 funding pledge announced May 2025)",
+    "what_changed": "In March 2025, Aix-Marseille University in France launched 'Safe Place for Science,' a dedicated program offering three-year positions and $16.3 million in combined grant funding to American researchers whose work the university said was 'threatened or hindered' by the Trump administration's research cuts. By July 2025, nearly 300 applicants -- from institutions including Stanford, Yale, NASA, NIH, George Washington University, and more than a dozen others -- had applied; the university selected an initial cohort of roughly 20 researchers, with the first several arriving in France by late June 2025 and the full initial group expected by September. Separately, on May 5, 2025, European Commission President Ursula von der Leyen launched a continent-wide 'Choose Europe for Science' campaign at a Sorbonne conference in Paris, pledging EUR 500 million in new EU funding for 2025-2027 specifically to attract researchers, including a new seven-year European Research Council 'supergrant' for top scientists and a doubling of ERC relocation grants (from EUR 1 million to EUR 2 million) to cover the cost of moving to Europe and establishing a new lab. French President Emmanuel Macron announced France would separately commit EUR 100 million of its existing EUR 54 billion 'France 2030' investment plan to the same goal. The EU's 'Choose Europe for Science'/'Choose France for Science' online portal drew 30,000 visitors from 157 countries in its first month, 34% of them from the United States, with several hundred formal applications filed. Outlets covering the trend (Rolling Stone, NBC News, Mother Jones, the New York Times) tied the outflow to the cumulative effect of federal actions tracked elsewhere in this database -- NIH's 380+ canceled research grants and broader funding freeze (see nih-impoundment-gao-finding-trump2), NSF and USAID cuts, and attacks on climate-science research -- rather than any single action; European officials and departing researchers cited funding instability, canceled grants, and fears of political interference in research as their stated reasons for leaving.",
+    "primary_proponent": {
+      "name": "N/A",
+      "role": "This entry documents a researcher-emigration trend attributed to the broader federal research-funding and policy environment (cited by affected scientists, French officials, and EU officials) rather than one identifiable federal decision-maker or action.",
+      "note": "Included in GSR because it is a quantified, concrete downstream indicator of U.S. research-workforce capacity loss connected to the funding cuts and grant cancellations this database already documents in more action-specific entries (nih-impoundment-gao-finding-trump2 and others), even though causation isn't traceable to one single rule the way most entries in this tracker are -- consistent with this tracker's existing healthcare-worker-emigration-canada-2026 entry, which uses the same 'documented trend, diffuse cause' framing."
+    },
+    "estimated_impact": {
+      "summary": "Nearly 300 applicants to a single French university program, and several hundred more through the EU's broader recruitment portal, represent a measurable and internationally visible loss of U.S. research talent and capacity, compounding the direct funding and staffing cuts this database documents separately at NIH, NSF, and other federal science agencies.",
+      "figures": [
+        {
+          "metric": "Applicants to Aix-Marseille's 'Safe Place for Science' program by July 2025",
+          "value": "~300, from institutions including Stanford, Yale, NASA, NIH, and George Washington University",
+          "source": "Courthouse News, CBS News, July 2025"
+        },
+        {
+          "metric": "Aix-Marseille program's combined grant funding commitment",
+          "value": "$16.3 million over three years",
+          "source": "Aix-Marseille University; Courthouse News"
+        },
+        {
+          "metric": "EU's new 'Choose Europe for Science' funding pledge, 2025-2027",
+          "value": "EUR 500,000,000",
+          "source": "France 24, AAAS/Science, NBC News, May 2025"
+        },
+        {
+          "metric": "France's separate additional commitment (from its existing France 2030 plan)",
+          "value": "EUR 100,000,000",
+          "source": "France 24, AAAS/Science"
+        },
+        {
+          "metric": "ERC relocation-grant increase for researchers moving to Europe",
+          "value": "doubled, from EUR 1,000,000 to EUR 2,000,000",
+          "source": "AAAS/Science"
+        },
+        {
+          "metric": "Visitors to the EU/France 'Choose Europe/France for Science' portal in its first month, share from the U.S.",
+          "value": "30,000 visitors from 157 countries, 34% from the U.S.",
+          "source": "AAAS/Science"
+        }
+      ],
+      "caveat": "This entry documents a real, quantified trend but not a single attributable federal action -- researchers and European officials cite the cumulative effect of funding cuts, grant cancellations, and fears of political interference in research generally, rather than one specific rule; the causal claim is necessarily more diffuse than most entries in this tracker, and some of the underlying causes (NIH's specific grant cancellations and funding shortfall) are already separately quantified in nih-impoundment-gao-finding-trump2 -- avoid double-counting the same underlying dollar figures across both entries."
+    },
+    "confidence_note": "HIGH confidence on the Aix-Marseille program's existence, funding level, and applicant count, independently corroborated across Courthouse News, CBS News, France 24, Politico EU, and the university's own public statement. HIGH confidence on the EU's 'Choose Europe for Science' funding pledge and figures, independently corroborated across France 24, Science (AAAS), and NBC News, all citing von der Leyen's and Macron's own public announcements. MODERATE confidence on the specific causal attribution to federal policy versus other factors (career opportunity, personal circumstances) for any individual researcher's decision to apply or relocate, since this rests on researchers' and officials' own stated reasoning rather than an independently isolated causal analysis -- the same caveat this tracker applies to the analogous healthcare-worker-emigration-canada-2026 entry.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "Courthouse News Service -- American scientists turn to French university amid Trump research crackdown",
+        "url": "https://www.courthousenews.com/american-scientists-turn-to-french-university-amid-trump-research-crackdown/"
+      },
+      {
+        "name": "CBS News -- French university courts American researchers seeking 'scientific asylum' amid Trump's academic cuts",
+        "url": "https://www.cbsnews.com/news/france-trump-white-house-college-cuts-harvard-aixmarseille/"
+      },
+      {
+        "name": "Aix Marseille Université -- Safe Place For Science: Aix Marseille University ready to welcome American scientists",
+        "url": "https://www.univ-amu.fr/en/public/actualites/safe-place-science-aix-marseille-universite-ready-welcome-american-scientists"
+      },
+      {
+        "name": "Politico EU -- Meet the first academic refugees fleeing the U.S. for France's science program",
+        "url": "https://www.politico.eu/article/meet-first-academic-refugees-fleeing-us-france-science-program/"
+      },
+      {
+        "name": "France 24 -- EU announces EUR 500 million package to woo scientists away from Trump's America",
+        "url": "https://www.france24.com/en/europe/20250505-france-eu-us-scientists"
+      },
+      {
+        "name": "Science (AAAS) -- Europe pledges EUR 600 million to lure foreign researchers, vows to protect scientific freedom",
+        "url": "https://www.science.org/content/article/europe-pledges-%E2%82%AC600-million-lure-foreign-researchers-vows-protect-scientific-freedom"
+      },
+      {
+        "name": "NBC News -- Europe drives to attract scientists after Trump freezes U.S. funding",
+        "url": "https://www.nbcnews.com/science/innovation/europe-drives-attract-scientists-trump-freezes-us-funding-rcna204803"
+      },
+      {
+        "name": "Rolling Stone -- Scientists are fleeing America as Trump cuts research funding and jobs",
+        "url": "https://www.rollingstone.com/politics/politics-features/scientists-fleeing-america-trump-cuts-funding-jobs-1235324006/"
+      },
+      {
+        "name": "The New York Times -- Trump's research cuts are driving a brain drain to Europe",
+        "url": "https://www.nytimes.com/2025/05/14/business/economy/trump-research-brain-drain.html"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "France's Aix-Marseille University launched a 'Safe Place for Science' program that drew nearly 300 applicants from top U.S. institutions, and the EU separately pledged EUR 500 million (with France adding EUR 100 million more) through a 'Choose Europe for Science' campaign, both explicitly aimed at recruiting American researchers amid federal research-funding cuts.",
+      "estimated_impact": "Represents a measurable, internationally visible loss of U.S. research talent and capacity, compounding the direct NIH/NSF funding and staffing cuts this tracker documents separately, though attributed to the cumulative policy environment rather than one specific federal action.",
+      "confidence_note": "The recruitment programs' existence and figures are well-corroborated across multiple outlets citing officials' own public announcements; the causal link to federal policy for any individual researcher's choice is their own stated reasoning, not independently isolated."
+    }
+  },
+  {
     "id": "usadf-iaf-marocco-takeover-trump2",
     "title": "African Development Foundation Reduced to Near-Nothing Before Courts Fully Reverse Takeover",
     "institution": "U.S. African Development Foundation and Inter-American Foundation",
@@ -12974,14 +13402,14 @@
     "domain": "staff_office_cuts",
     "status": "Operationally dissolved (July 1, 2025) but legally unresolved -- USAID was made an independent agency by Congress in 1998 and can only be formally abolished by an act of Congress, which has not occurred",
     "date_of_action": "2025-01-24 (foreign aid freeze ordered) through 2025-07-01 (official dissolution and merger into State Department)",
-    "what_changed": "On his first days in office, Trump ordered a near-total freeze on foreign aid, and within weeks the administration placed most USAID employees on administrative leave. By March 10, 2025, Secretary of State Rubio announced 83% of USAID's programs (roughly 5,200 contracts) had been terminated following an internal review; on March 28 he formally notified Congress that USAID would be dissolved and its remaining functions absorbed into the State Department. USAID officially ceased independent operations on July 1, 2025, after 63 years. Staffing was reduced from over 10,000 employees to fewer than 300. USAID's own Inspector General issued a report warning the spending pause and staff furloughs limited the agency's ability to ensure funds didn't reach terrorist-linked recipients, and separately warned that $489 million in humanitarian food aid risked spoiling due to the furloughs; the White House Office of Presidential Personnel fired that Inspector General less than 30 minutes after the report's publication -- despite a federal law requiring 30 days' advance notice to Congress before removing an inspector general. Added 2026-08-10: The New York Times reported in early March 2025 that the freeze had already crippled global disease-prevention programs on the ground -- leaving dangerous pathogens unsecured, halting inspections for Ebola and mpox, and stopping screenings at international checkpoints -- with scientists warning that outbreaks once contained by U.S.-funded efforts now posed a greater risk of spreading worldwide, including to the U.S.; this is an earlier, contemporaneous data point on the same disease-surveillance capacity loss later linked (see below) to the 2026 DRC/Uganda Ebola outbreak, not a separate action. A significant, largely unresolved legal question underlies the entire action: USAID was reorganized by Congress as an independent agency in 1998 specifically to give it statutory protection, and per that same statute can only be formally abolished by an act of Congress -- which has not happened. USAID therefore legally still exists even though it has been operationally dissolved. On the litigation front, the D.C. Circuit held oral argument on April 23, 2026 (before Judges Srinivasan, Pillard, and Pan) on the appeal of the core USAID dismantlement case; no ruling had issued as of this update. In a related case, briefing continues on a schedule running into summer 2026, with the government's reply brief due July 31, 2026. Separately, a federal court in Maryland denied efforts to block depositions of Elon Musk and other DOGE-linked officials in a class-action suit over USAID's shutdown; that case is proceeding through discovery. Re-verified 2026-07-26: no ruling identified yet from the D.C. Circuit panel (Srinivasan, Pillard, Pan) that heard oral argument April 23, 2026; the appeal remains undecided and USAID's operational/legal status is unchanged from the prior update. Added 2026-07-27: former USAID Administrator Samantha Power said in a Bloomberg interview that she does not believe the Ebola outbreak spreading across the Democratic Republic of the Congo and Uganda -- which has killed more than 400 people -- would be spiraling as it has if USAID had not been dismantled, citing the loss of the agency's early-warning disease-surveillance systems and cold-chain infrastructure (whose degradation contributed to delayed detection, since transported swab samples were no longer reliably preserved). The administration's separate withdrawal from the World Health Organization compounded the effect by removing another layer of international outbreak-response coordination. This is presented as a concrete, on-the-ground consequence of the dismantlement documented above, not a new or separate action. Added 2026-08-10: Rubio's 'no one has died' claim was not the only official denial contradicted by the record -- Mother Jones reported in June 2025 that internal State Department cables reviewed by the outlet documented lifesaving HIV treatment programs in Lesotho and food-aid programs in Malawi being cut as a direct result of the dismantlement, with diplomats warning of resulting deaths, hunger, and trafficking risk. That reporting directly contradicts Elon Musk's own public claim, made while leading the DOGE effort that drove the cuts, that 'zero people have died' as a result.",
+    "what_changed": "On his first days in office, Trump ordered a near-total freeze on foreign aid, and within weeks the administration placed most USAID employees on administrative leave. By March 10, 2025, Secretary of State Rubio announced 83% of USAID's programs (roughly 5,200 contracts) had been terminated following an internal review; on March 28 he formally notified Congress that USAID would be dissolved and its remaining functions absorbed into the State Department. USAID officially ceased independent operations on July 1, 2025, after 63 years. Staffing was reduced from over 10,000 employees to fewer than 300. USAID's own Inspector General issued a report warning the spending pause and staff furloughs limited the agency's ability to ensure funds didn't reach terrorist-linked recipients, and separately warned that $489 million in humanitarian food aid risked spoiling due to the furloughs; the White House Office of Presidential Personnel fired that Inspector General less than 30 minutes after the report's publication -- despite a federal law requiring 30 days' advance notice to Congress before removing an inspector general. Added 2026-08-10: The New York Times reported in early March 2025 that the freeze had already crippled global disease-prevention programs on the ground -- leaving dangerous pathogens unsecured, halting inspections for Ebola and mpox, and stopping screenings at international checkpoints -- with scientists warning that outbreaks once contained by U.S.-funded efforts now posed a greater risk of spreading worldwide, including to the U.S.; this is an earlier, contemporaneous data point on the same disease-surveillance capacity loss later linked (see below) to the 2026 DRC/Uganda Ebola outbreak, not a separate action. A significant, largely unresolved legal question underlies the entire action: USAID was reorganized by Congress as an independent agency in 1998 specifically to give it statutory protection, and per that same statute can only be formally abolished by an act of Congress -- which has not happened. USAID therefore legally still exists even though it has been operationally dissolved. On the litigation front, the D.C. Circuit held oral argument on April 23, 2026 (before Judges Srinivasan, Pillard, and Pan) on the appeal of the core USAID dismantlement case; no ruling had issued as of this update. In a related case, briefing continues on a schedule running into summer 2026, with the government's reply brief due July 31, 2026. Separately, a federal court in Maryland denied efforts to block depositions of Elon Musk and other DOGE-linked officials in a class-action suit over USAID's shutdown; that case is proceeding through discovery. Re-verified 2026-07-26: no ruling identified yet from the D.C. Circuit panel (Srinivasan, Pillard, Pan) that heard oral argument April 23, 2026; the appeal remains undecided and USAID's operational/legal status is unchanged from the prior update. Added 2026-07-27: former USAID Administrator Samantha Power said in a Bloomberg interview that she does not believe the Ebola outbreak spreading across the Democratic Republic of the Congo and Uganda -- which has killed more than 400 people -- would be spiraling as it has if USAID had not been dismantled, citing the loss of the agency's early-warning disease-surveillance systems and cold-chain infrastructure (whose degradation contributed to delayed detection, since transported swab samples were no longer reliably preserved). The administration's separate withdrawal from the World Health Organization compounded the effect by removing another layer of international outbreak-response coordination. This is presented as a concrete, on-the-ground consequence of the dismantlement documented above, not a new or separate action. Update 2026-08-11 (round-4 candidate discovery, cluster c0116): added the Johns Hopkins University layoff figures (2,222 positions, $800 million in lost contracts), independently corroborated across CNN, Higher Ed Dive, The Daily Record, and CBS News, all citing the university's own March 2025 announcement. Added 2026-08-10: Rubio's 'no one has died' claim was not the only official denial contradicted by the record -- Mother Jones reported in June 2025 that internal State Department cables reviewed by the outlet documented lifesaving HIV treatment programs in Lesotho and food-aid programs in Malawi being cut as a direct result of the dismantlement, with diplomats warning of resulting deaths, hunger, and trafficking risk. That reporting directly contradicts Elon Musk's own public claim, made while leading the DOGE effort that drove the cuts, that 'zero people have died' as a result.",
     "primary_proponent": {
       "name": "Marco Rubio",
       "role": "Secretary of State",
       "note": "Personally announced the program terminations, the dissolution notice to Congress, and USAID's final closure, writing on Substack: 'As of July 1st, USAID will officially cease to implement foreign assistance... This era of government-sanctioned inefficiency has officially come to an end.' Rubio told a congressional hearing in May 2025 that 'no one has died because of USAID [cuts]' -- a claim directly contradicted by subsequent peer-reviewed research (see below) and by on-the-ground reporting, including one documented case of a child in Nigeria who died after the USAID-funded clinic he depended on for urgent care was closed. This action is closely related to, but categorically distinct from, the separately-tracked State Department reorganization entry in this database -- USAID's elimination is the dismantling of an entire congressionally-independent agency, not an internal State Department restructuring."
     },
     "estimated_impact": {
-      "summary": "A peer-reviewed study published in The Lancet (one of the world's most established medical journals) estimated USAID funding prevented more than 91 million deaths globally between 2001 and 2021, including a 65% reduction in HIV/AIDS mortality and 51% reduction in malaria mortality in the countries it funded. The same study projected that, absent a reversal, the 2025 cuts could contribute to more than 14 million additional preventable deaths by 2030, nearly a third of them children under 5 -- a scale the study's authors explicitly compared to 'a global pandemic or a major armed conflict,' while noting this crisis would stem from 'a conscious and avoidable policy choice.' A follow-up Lancet study one year later, incorporating a full year of real data rather than projections, estimated a somewhat lower but still severe 9.4 million-death figure by 2030 if funding trends continue -- researchers who reviewed the modeling told CNN the precise numbers should be treated with some caution but that the overall conclusion (large-scale, avoidable death) is likely correct. Domestically, the closure eliminated tens of thousands of jobs across USAID staff and its contractor/NGO ecosystem -- one contractor, EnCompass, lost over 400 jobs in under a month.",
+      "summary": "A peer-reviewed study published in The Lancet (one of the world's most established medical journals) estimated USAID funding prevented more than 91 million deaths globally between 2001 and 2021, including a 65% reduction in HIV/AIDS mortality and 51% reduction in malaria mortality in the countries it funded. The same study projected that, absent a reversal, the 2025 cuts could contribute to more than 14 million additional preventable deaths by 2030, nearly a third of them children under 5 -- a scale the study's authors explicitly compared to 'a global pandemic or a major armed conflict,' while noting this crisis would stem from 'a conscious and avoidable policy choice.' A follow-up Lancet study one year later, incorporating a full year of real data rather than projections, estimated a somewhat lower but still severe 9.4 million-death figure by 2030 if funding trends continue -- researchers who reviewed the modeling told CNN the precise numbers should be treated with some caution but that the overall conclusion (large-scale, avoidable death) is likely correct. Domestically, the closure eliminated tens of thousands of jobs across USAID staff and its contractor/NGO ecosystem -- one contractor, EnCompass, lost over 400 jobs in under a month. The largest single documented example was Johns Hopkins University, the country's top university recipient of federal contracts: after losing $800 million in USAID-funded contracts, Johns Hopkins announced in March 2025 what a university spokesperson called the largest layoff in its history -- 2,222 positions cut (1,975 international staff across 44 countries plus 247 U.S.-based positions), spanning its Bloomberg School of Public Health, Center for Communication Programs, and affiliated nonprofit Jhpiego, with roughly 100 additional workers furloughed to reduced schedules.",
       "figures": [
         {
           "metric": "Deaths prevented by USAID funding, 2001-2021 (Lancet study)",
@@ -13017,6 +13445,11 @@
           "metric": "Deaths in the 2026 DRC/Uganda Ebola outbreak, linked by experts to weakened US-backed outbreak response",
           "value": "400+",
           "source": "Bloomberg, citing Samantha Power interview and on-the-ground reporting, June 2026"
+        },
+        {
+          "metric": "Johns Hopkins University positions cut after losing USAID contracts (largest layoff in the university's history)",
+          "value": "2,222 (1,975 international + 247 U.S.-based), plus ~100 furloughed, after $800 million in lost contracts",
+          "source": "CNN, Higher Ed Dive, March 2025"
         }
       ],
       "caveat": "The State Department disputes the Lancet methodology directly and sharply -- a senior official called it a 'failed journal' and said such studies reflect 'outdated thinking.' This is a genuinely disputed empirical question about mortality modeling, not merely a political disagreement, and modelers themselves (including ones unaffiliated with the study) caution the precise death-toll numbers carry real uncertainty even while endorsing the general conclusion. Separately, the administration's own stated justification (that USAID had significant oversight and accountability failures) has some independent support -- USAID itself failed to conduct legally-required financial reviews for over 70% of the international organizations receiving its funding in 2023, per the agency's own inspector general -- though fact-checkers found most of the administration's specific waste examples cited publicly were false or highly misleading."
@@ -13027,7 +13460,7 @@
       "estimated_impact": "A peer-reviewed Lancet study credited this funding with preventing tens of millions of deaths and projected millions more by 2030 if the cuts hold, calling the toll avoidable, not inevitable; a 2026 Ebola outbreak (400+ deaths) is cited as a concrete real-world instance of that lost capacity.",
       "confidence_note": "Exceptionally strong sourcing, including two independent peer-reviewed medical studies and the agency's own Inspector General; official statements and the death-toll research genuinely disagree -- present both. The Ebola link is attributed expert opinion, well-corroborated but not an adjudicated causal finding."
     },
-    "last_verified": "2026-08-10",
+    "last_verified": "2026-08-11",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -13073,9 +13506,17 @@
       {
         "name": "New York Times — USAID funding halt crippled disease-outbreak prevention programs",
         "url": "https://www.nytimes.com/2025/03/07/health/usaid-funding-disease-outbreaks.html"
+      },
+      {
+        "name": "CNN — Johns Hopkins laying off more than 2,000 workers after dramatic cut in USAID funding",
+        "url": "https://www.cnn.com/2025/03/13/politics/johns-hopkins-layoffs-usaid-funding/index.html"
+      },
+      {
+        "name": "Higher Ed Dive — Johns Hopkins to lay off 2,200 workers as it reels from Trump's USAID cuts",
+        "url": "https://www.highereddive.com/news/johns-hopkins-to-lay-off-2200-workers-as-it-reels-from-trumps-usaid-cuts/742614/"
       }
     ],
-    "last_updated": "2026-08-10"
+    "last_updated": "2026-08-11"
   },
   {
     "id": "usda-bird-flu-response-staff-accidental-firing-2025",
@@ -13979,6 +14420,59 @@
       "what_changed": "Trump's Jan. 2025 federal hiring freeze blocked renewal of VA research-staff appointments, stalling veterans' cancer and stroke clinical trials, most visibly at the Pittsburgh VA.",
       "estimated_impact": "~300-400 of VA's ~3,800 time-limited researchers were affected; 7 Pittsburgh trials disrupted, including advanced head/neck cancer treatment for veterans who'd exhausted other options.",
       "confidence_note": "HIGH on the freeze's scope and VA's own mitigating 90-day extension; MODERATE-HIGH on the specific Pittsburgh outcome, since VA's claim the trial resumed conflicts with reporting that it hadn't."
+    }
+  },
+  {
+    "id": "va-transgender-veterans-directive-1341-rescission-2025",
+    "title": "VA Rescinded Its Transgender Veterans' Healthcare Directive, Then Wrongly Denied a Veteran Medically Necessary Hormone Therapy",
+    "institution": "Department of Veterans Affairs (VA) / Veterans Health Administration (VHA)",
+    "domain": "protection_rollback",
+    "status": "Implemented and ongoing -- VA formally rescinded the directive March 17, 2025; a June 2026 internal memo further restricted transgender veterans' access to designated care coordinators; litigation over specific denials continues",
+    "date_of_action": "2025-03-14 (initial, erroneously-issued rescission memo) through 2026-06-12 (internal memo restricting care-coordinator access)",
+    "what_changed": "To comply with President Trump's Executive Order 14168 (signed January 20, 2025), the VA rescinded VHA Directive 1341(4), 'Providing Health Care for Transgender and Intersex Veterans,' a 2018 policy that had protected transgender veterans' access to hormone therapy and pre- and post-operative care associated with gender-affirming surgery performed outside the VA (the VA itself has never performed transition-related surgeries), and that had also let transgender veterans use restrooms and receive room assignments matching their gender identity, with staff required to use veterans' chosen names and pronouns. A draft version of the rescission was erroneously issued March 14, 2025 and later voided; VA formally rescinded the directive March 17, 2025. VA Secretary Doug Collins announced the agency would no longer provide hormone therapy to veterans newly diagnosed with gender dysphoria, though veterans already receiving hormone therapy -- including those who received it while still serving in the military -- could continue their existing care. The rescission's real-world effect surfaced in litigation: a transgender veteran who served 11 years honorably filed a petition for extraordinary relief with the U.S. Court of Appeals for Veterans Claims (the case became known as C.M. v. Collins) after VA denied her coverage for medically necessary hormone replacement therapy; on June 23, 2025, VA acknowledged it had erred in denying that coverage and provided her the medication, after which she moved to dismiss her lawsuit. A separate transgender veteran filed suit in June 2025 alleging the rescission was 'unsupported by science, unjustified by policy and utterly irrational.' The rollback continued into 2026: an internal memorandum issued June 12, 2026 by Under Secretary for Health John Bartram further weakened benefits that had let LGBTQ+ veterans access designated care coordinators for transgender-related diagnoses.",
+    "primary_proponent": {
+      "name": "Doug Collins",
+      "role": "Secretary of Veterans Affairs",
+      "note": "Personally announced the rescission of hormone-therapy coverage for newly diagnosed veterans, framing it as compliance with Executive Order 14168; Under Secretary for Health John Bartram issued the June 2026 follow-on memo further restricting care-coordinator access."
+    },
+    "estimated_impact": {
+      "summary": "Beyond the policy rescission itself, VA's own acknowledged error in the C.M. v. Collins case is direct, documented evidence the rollback produced a wrongful denial of medically necessary care to an honorably-discharged veteran, requiring litigation before VA corrected it -- a concrete harm distinct from advocates' predictive warnings about the broader policy change.",
+      "figures": [],
+      "caveat": "No aggregate figure was found in sourcing reviewed for how many transgender veterans have been denied care, or how many are newly ineligible for hormone therapy since the rescission (versus those grandfathered in) -- this entry documents the policy change and one legally-established, VA-acknowledged wrongful-denial case rather than a database-wide harm count. Advocates' warnings that the rollback could contribute to veteran suicide risk (transgender veterans already have disproportionately high rates) are cited as advocacy concern, not yet an independently established causal finding in sourcing reviewed."
+    },
+    "confidence_note": "HIGH confidence on the rescission itself, its VHA Directive 1341(4) citation, and its EO 14168 justification, corroborated across NPR, Military.com, and a rescission memo obtained and published by the House Equality Caucus. HIGH confidence on the C.M. v. Collins outcome specifically -- VA's own acknowledgment of error is documented by Yale Law School's Veterans Legal Services Clinic, which represented the veteran. MODERATE confidence on the June 2026 care-coordinator memo, resting on the sourcing reviewed without independent multi-outlet corroboration found for that specific later document.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "NPR -- VA rescinds transgender care guidelines but denies it did so",
+        "url": "https://www.npr.org/2025/03/14/nx-s1-5328733/va-transgender-veterans-memo"
+      },
+      {
+        "name": "Military.com -- VA Halts Transgender Care for New Veteran Patients as Advocates Warn of Dire Consequences",
+        "url": "https://www.military.com/daily-news/2025/03/17/va-halts-transgender-care-new-veteran-patients-advocates-warn-of-dire-consequences.html"
+      },
+      {
+        "name": "House Equality Caucus -- Rescission of VHA Directive 1341(4), Providing Health Care for Transgender and Intersex Veterans (memo)",
+        "url": "https://equality.house.gov/sites/evo-subsites/equality.house.gov/files/evo-media-document/1341(4)-recission-memo-vha.pdf"
+      },
+      {
+        "name": "Yale Law School -- VA to Resume Health Care Coverage for Transgender Veteran in Clinic Case",
+        "url": "https://law.yale.edu/yls-today/news/va-resume-health-care-coverage-transgender-veteran-clinic-case"
+      },
+      {
+        "name": "Stars and Stripes -- Transgender veteran files lawsuit to overturn ban on gender-affirming care",
+        "url": "https://www.stripes.com/veterans/2025-06-09/veterans-transgender-lawsuit-18067635.html"
+      },
+      {
+        "name": "MedicalXpress -- VA ends hormone therapy for newly diagnosed transgender veterans",
+        "url": "https://medicalxpress.com/news/2025-03-va-hormone-therapy-newly-transgender.html"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "VA rescinded its 2018 transgender veterans' healthcare directive in March 2025 under Secretary Doug Collins, ending hormone-therapy coverage for newly diagnosed veterans and later (June 2026) restricting access to LGBTQ+ care coordinators; VA later acknowledged wrongly denying one veteran her medically necessary hormone therapy.",
+      "estimated_impact": "VA's own admitted error in the C.M. v. Collins case is documented proof the rollback caused a wrongful care denial, beyond advocates' predictive warnings about broader harm.",
+      "confidence_note": "Well-corroborated across NPR, Military.com, and Yale Law School's clinic representing the affected veteran; no aggregate harm figure exists beyond the one documented case."
     }
   },
   {
