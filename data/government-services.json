@@ -2368,6 +2368,82 @@
     ]
   },
   {
+    "id": "doge-gsa-793-lease-terminations-2025",
+    "title": "DOGE/GSA Targeted 793 Federal Office Leases for Termination Government-Wide -- Then Repeatedly Cut Back the List as Agencies Were Blindsided",
+    "institution": "General Services Administration (GSA), coordinating with DOGE (Department of Government Efficiency) across dozens of federal agencies including IRS, Social Security Administration, and U.S. Geological Survey",
+    "domain": "staff_office_cuts",
+    "status": "Target list repeatedly reduced -- from 793 leases (mid-March 2025) to 485 (June 2025) to 384 (August 2025); GSA had finalized only about 30% of the roughly 900 government-wide lease terminations it had sent to landlords by February 2026",
+    "date_of_action": "2025-03-15 (793-lease list first reported) through 2026-02 (finalization rate reported at ~30%)",
+    "what_changed": "CBS News reported on March 15, 2025 that DOGE/GSA had listed 793 federal office leases for termination government-wide, covering roughly nine million square feet and targeting a claimed ~$500 million in savings. Agencies including the IRS, Social Security Administration, and U.S. Geological Survey were among those affected, with reporting describing agencies as blindsided by the cancellations and left scrambling to relocate staff and operations with little notice; some cancellations were reported as made in error and later reversed. The rollout proved chaotic and the target list did not hold: E&E News/POLITICO and other outlets tracked DOGE continuing to add and drop leases (including further EPA and Interior Department terminations) through the spring, while the overall government-wide list was cut back from 793 in mid-March to 485 by June 2025, and to 384 by August 20, 2025. Individual agencies saw partial rollbacks under political pressure -- for example, USDA cut its own office-closure list roughly in half. By February 2026, Federal News Network reported GSA had finalized only about 30% of the approximately 900 government-wide lease terminations it had sent to landlords earlier in 2025, indicating the bulk of the originally announced list was never actually executed. This entry documents the government-wide program as a whole; individual high-profile instances within it -- including the National Park Service's 34 targeted buildings and the Alaska/Hawaii volcano observatories -- are tracked in their own separate entries (national-park-service-lease-terminations-2025, doge-volcano-observatory-lease-terminations-2025) cross-referenced here as specific examples of this broader push.",
+    "primary_proponent": {
+      "name": "General Services Administration, executing DOGE's federal real-estate cost-cutting initiative",
+      "role": "GSA managed and published the government-wide lease-termination target list; DOGE's cost-cutting mandate was the policy driver",
+      "note": "No single named individual was identified in sourcing reviewed as personally responsible for the specific agencies or leases selected; GSA and DOGE described the effort in general cost-savings terms."
+    },
+    "estimated_impact": {
+      "summary": "A government-wide list of nearly 800 office leases was targeted for termination with agencies reporting they were given little advance notice, creating relocation and continuity-of-operations disruption across the federal government -- but the list itself proved highly unstable, shrinking by more than half within five months and only about 30% of the total was actually finalized within a year, indicating much of the initial disruption stemmed from an unreliable, repeatedly-revised list rather than a stable, fully-executed cost-cutting plan.",
+      "figures": [
+        {
+          "metric": "Leases targeted at peak (mid-March 2025)",
+          "value": "793 leases, ~9 million square feet",
+          "source": "GSA/DOGE list, reported by CBS News"
+        },
+        {
+          "metric": "Claimed savings target",
+          "value": "~$500 million",
+          "source": "GSA/DOGE, reported by CBS News"
+        },
+        {
+          "metric": "Leases remaining on target list by June 2025",
+          "value": "485",
+          "source": "Federal News Network"
+        },
+        {
+          "metric": "Leases remaining on target list by August 20, 2025",
+          "value": "384",
+          "source": "DOGE public tracking site, reported via CRE industry coverage (Cresa/Pillsbury Law)"
+        },
+        {
+          "metric": "Share of ~900 government-wide lease terminations GSA had actually finalized as of February 2026",
+          "value": "~30%",
+          "source": "Federal News Network"
+        }
+      ],
+      "caveat": "No source reviewed provides a single authoritative running count reconciling the ~793, ~900, 485, and 384 figures against each other -- they come from different points in an evolving, publicly-tracked DOGE list and from different outlets' snapshots of it, and this entry presents them as sequential snapshots of a shrinking target rather than a single reconciled dataset."
+    },
+    "confidence_note": "HIGH confidence on the core trajectory (793 leases targeted in March 2025, repeatedly cut back, only ~30% finalized by February 2026) -- corroborated across CBS News, Federal News Network, E&E News/POLITICO, and commercial real estate industry legal analysis (Greenberg Traurig, Cresa, Pillsbury Law) tracking the same GSA/DOGE public list independently of each other.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "CBS News -- DOGE cuts hundreds of federal offices; start of an empty summer?",
+        "url": "https://www.cbsnews.com/news/doge-cuts-hundreds-federal-offices-start-empty-summer/"
+      },
+      {
+        "name": "Federal News Network -- GSA terminated hundreds of federal office space leases, but far less than DOGE targets",
+        "url": "https://federalnewsnetwork.com/facilities-construction/2025/12/gsa-terminated-hundreds-of-federal-office-space-leases-but-far-less-than-doge-targets/"
+      },
+      {
+        "name": "E&E News/POLITICO -- DOGE terminates more EPA, Interior leases",
+        "url": "https://www.eenews.net/articles/doge-terminates-more-epa-interior-leases/"
+      },
+      {
+        "name": "Farm Policy News -- DOGE Cuts USDA Office Closure List in Half",
+        "url": "https://farmpolicynews.illinois.edu/2025/06/doge-cuts-usda-office-closure-list-in-half/"
+      },
+      {
+        "name": "Greenberg Traurig LLP -- Government Lease Terminations Under DOGE: Impacts, Rights, and Remedies",
+        "url": "https://www.gtlaw.com/en/insights/2025/3/government-lease-terminations-under-doge-impacts-rights-and-remedies"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "GSA/DOGE targeted 793 federal office leases for termination government-wide in March 2025, blindsiding agencies including IRS, SSA, and USGS; the list was repeatedly cut back (to 485 by June, 384 by August 2025) and only about 30% was actually finalized by February 2026.",
+      "estimated_impact": "Government-wide relocation disruption from an unstable, repeatedly-revised target list, with much of the original 793-lease plan never actually executed.",
+      "confidence_note": "Strongly corroborated across independent outlets and CRE industry legal tracking of the same GSA/DOGE public list."
+    },
+    "last_updated": "2026-08-11"
+  },
+  {
     "id": "doge-gsa-smartpay-spending-cap-2025",
     "title": "DOGE Imposes a $1 Spending Cap on Government Credit Cards at GSA and the Pentagon",
     "institution": "General Services Administration (GSA) and Department of Defense (Department of War), following a governmentwide Trump executive order",
@@ -5030,7 +5106,7 @@
     "domain": "staff_office_cuts",
     "status": "Implemented, with rollout problems partially addressed agency-by-agency as of the reporting reviewed; the underlying full-time in-person mandate remained in effect",
     "date_of_action": "2025-01-20 (presidential memorandum) through 2025-04-30 (agencies still tracking daily office occupancy)",
-    "what_changed": "On January 20, 2025, Trump's first-day presidential memorandum directed federal agencies to end remote-work arrangements and require full-time in-person work, with OPM recommending agencies reach full compliance within 30 days. The rollout hit employees hired or relocated for remote positions especially hard: the Washington Post reported some workers received just days' notice to report to offices hundreds or even thousands of miles from where they lived -- one HHS employee working remotely from the Southwest since 2023 was told via an email titled 'Return to In-Person Work Guidance for March 17, 2025' that she needed to report that Monday. Employees described scrambling to book flights, arrange childcare, or sell homes, with some assigned to offices that had already been shut down amid the administration's mass federal-lease cancellations; others faced commutes of nearly two hours each way with no clarity on what would happen if they couldn't comply, and some were told to report to offices that had already lost their lease. Separately, CNN and NPR reported the offices employees were ordered back into often lacked basic infrastructure to receive them -- shortages of desks, computer monitors, parking, Wi-Fi, and even toilet paper were widely documented; in one case reported in this cycle of coverage, a USDA remote employee was directed to a reporting location that turned out to be a storage unit. Some federal employees and outside observers characterized the mandate's chaotic, under-resourced rollout as a de facto pressure campaign to induce resignations, working in tandem with OPM's January 28, 2025 'Fork in the Road' deferred-resignation offer to all roughly 2 million federal employees (a separate, related action this database references but does not duplicate in full here). Pew Research Center calculated federal civilian headcount fell 10.3% in 2025 overall, with 348,219 quits, retirements, and layoffs against only 116,912 new hires -- a figure reflecting the combined effect of the RTO mandate, the deferred-resignation program, and other workforce-reduction actions rather than the RTO mandate in isolation.",
+    "what_changed": "On January 20, 2025, Trump's first-day presidential memorandum directed federal agencies to end remote-work arrangements and require full-time in-person work, with OPM recommending agencies reach full compliance within 30 days. The rollout hit employees hired or relocated for remote positions especially hard: the Washington Post reported some workers received just days' notice to report to offices hundreds or even thousands of miles from where they lived -- one HHS employee working remotely from the Southwest since 2023 was told via an email titled 'Return to In-Person Work Guidance for March 17, 2025' that she needed to report that Monday. Employees described scrambling to book flights, arrange childcare, or sell homes, with some assigned to offices that had already been shut down amid the administration's mass federal-lease cancellations; others faced commutes of nearly two hours each way with no clarity on what would happen if they couldn't comply, and some were told to report to offices that had already lost their lease. Separately, CNN and NPR reported the offices employees were ordered back into often lacked basic infrastructure to receive them -- shortages of desks, computer monitors, parking, Wi-Fi, and even toilet paper were widely documented; in one case reported in this cycle of coverage, a USDA remote employee was directed to a reporting location that turned out to be a storage unit. Reuters reported similar conditions on March 16, 2025, documenting a cockroach infestation at a NASA facility employees were ordered back into, IRS staff forced to share training rooms in a way that left them unable to discuss sensitive taxpayer information privately, and immigration agency employees working out of storage rooms. Some federal employees and outside observers characterized the mandate's chaotic, under-resourced rollout as a de facto pressure campaign to induce resignations, working in tandem with OPM's January 28, 2025 'Fork in the Road' deferred-resignation offer to all roughly 2 million federal employees (a separate, related action this database references but does not duplicate in full here). Pew Research Center calculated federal civilian headcount fell 10.3% in 2025 overall, with 348,219 quits, retirements, and layoffs against only 116,912 new hires -- a figure reflecting the combined effect of the RTO mandate, the deferred-resignation program, and other workforce-reduction actions rather than the RTO mandate in isolation.",
     "primary_proponent": {
       "name": "Office of Personnel Management, implementing Trump's January 20, 2025 presidential memorandum",
       "role": "OPM directed agencies to comply quickly with the return-to-office mandate and, separately, administered the related deferred-resignation program",
@@ -5057,7 +5133,7 @@
       ],
       "caveat": "The 10.3% headcount-decline and 348,219/116,912 figures describe overall 2025 federal workforce attrition from multiple combined causes (RTO mandate, deferred resignation, RIFs, and other cuts this database tracks separately by agency) -- they are not isolated to the RTO mandate specifically, and should be presented as context for the broader trend the mandate contributed to, not as a number caused by the RTO mandate alone."
     },
-    "confidence_note": "HIGH confidence -- the Washington Post's direct reporting (two separate articles, March 13-14, 2025) documents the specific relocation-chaos cases with named agencies and quoted timelines; CNN's and NPR's independent reporting corroborates the infrastructure shortages (desks, Wi-Fi, toilet paper) with different named agencies and cases, including the USDA storage-unit incident; Pew Research Center's headcount analysis is an independent, non-partisan calculation rather than an administration or advocacy figure.",
+    "confidence_note": "HIGH confidence -- the Washington Post's direct reporting (two separate articles, March 13-14, 2025) documents the specific relocation-chaos cases with named agencies and quoted timelines; CNN's, NPR's, and Reuters's independent reporting corroborates the infrastructure shortages (desks, Wi-Fi, toilet paper, the NASA cockroach infestation, IRS training-room privacy problems, immigration-agency storage rooms) with different named agencies and cases, including the USDA storage-unit incident; Pew Research Center's headcount analysis is an independent, non-partisan calculation rather than an administration or advocacy figure.",
     "last_verified": "2026-08-11",
     "date_added": "2026-08-11",
     "sources": [
@@ -5078,6 +5154,10 @@
         "url": "https://www.npr.org/2025/03/26/nx-s1-5338945/federal-workers-return-to-office-chaos"
       },
       {
+        "name": "Reuters -- Cockroaches, working in a closet: Inside Trump's return-to-office order",
+        "url": "https://www.reuters.com/world/us/cockroaches-working-closet-inside-trumps-return-to-office-order-2025-03-16/"
+      },
+      {
         "name": "Federal News Network -- OPM directs agencies to quickly comply with Trump's return-to-office mandate",
         "url": "https://federalnewsnetwork.com/workforce/2025/01/opm-directs-agencies-to-quickly-comply-with-trumps-return-to-office-mandate/"
       },
@@ -5087,9 +5167,9 @@
       }
     ],
     "section_summaries": {
-      "what_changed": "Trump's Jan. 20, 2025 return-to-office memorandum led agencies to order remote federal employees back on days' notice, sometimes hundreds of miles away, into offices that in some documented cases lacked desks, Wi-Fi, or had already closed -- one USDA worker was directed to what turned out to be a storage unit.",
+      "what_changed": "Trump's Jan. 20, 2025 return-to-office memorandum led agencies to order remote federal employees back on days' notice, sometimes hundreds of miles away, into offices that in some documented cases lacked desks, Wi-Fi, or had already closed -- one USDA worker was directed to what turned out to be a storage unit, a NASA facility had a cockroach infestation, and IRS staff had to share training rooms in a way that compromised taxpayer-information privacy.",
       "estimated_impact": "Individually documented family disruption (relocations, canceled moves, broken leases) occurred within a year federal civilian employment fell over 10%, though that broader figure reflects multiple combined workforce-reduction actions, not the RTO mandate alone.",
-      "confidence_note": "Well-corroborated across the Washington Post, CNN, NPR, and Federal News Network, each documenting different specific cases; Pew's headcount figures are an independent non-partisan calculation."
+      "confidence_note": "Well-corroborated across the Washington Post, CNN, NPR, Reuters, and Federal News Network, each documenting different specific cases; Pew's headcount figures are an independent non-partisan calculation."
     }
   },
   {
@@ -6542,8 +6622,8 @@
     "institution": "Department of Defense (Civilian Protection Center of Excellence and related civilian-harm-mitigation offices)",
     "domain": "staff_office_cuts",
     "status": "Ongoing/finalized as to the cuts already made -- staffing continued to decline further after the initial reduction, with no reversal identified in sourcing reviewed",
-    "date_of_action": "2025 (initial reduction from ~200 to fewer than 40) through late 2025 (further decline to 9 staff at the Civilian Protection Center of Excellence)",
-    "what_changed": "Defense Secretary Pete Hegseth cut Pentagon personnel working on civilian-harm mitigation from roughly 200 to fewer than 40, overriding warnings from senior military leaders -- including Gen. Erik Kurilla and then-Joint Chiefs Chairman Gen. CQ Brown -- who urged him not to reduce staffing at the Civilian Protection Center of Excellence and related initiatives. Adm. Christopher Grady, former vice chair of the Joint Chiefs, argued these teams played a critical role both in assessing risk to civilians before U.S. strikes and in investigating deadly incidents afterward. The cuts continued beyond the initial reduction: the Civilian Protection Center of Excellence's staff fell further, from 40 personnel in January 2025 to just 9 by the end of the year. Politico and The Intercept reported the Pentagon has increasingly relied on AI-based assessments in place of the human civilian-harm-mitigation staff that were cut. The cuts are drawing direct scrutiny following the February 28, 2026 U.S. strike on the Shajareh Tayyebeh girls' school in Minab, Iran, which killed more than 170 children and teachers (documented separately in this tracker's Cabinet-Level entry, hegseth-iran-school-strike-minab-2026.json) -- the same offices this entry documents being gutted were the ones institutionally responsible for the kind of pre-strike risk assessment and post-strike investigation the Minab strike is now under scrutiny for lacking.",
+    "date_of_action": "2025-03 (Guardian first reported the office was on the chopping block) through late 2025 (further decline to 9 staff at the Civilian Protection Center of Excellence)",
+    "what_changed": "The cuts documented in this entry began drawing press notice earlier than Politico's March 2026 report on the generals' objections: The Guardian reported on March 15, 2025 that the Civilian Harm Mitigation and Response office and the Civilian Protection Center of Excellence were already on the chopping block as part of Hegseth's broader reshaping of the Pentagon, and The Intercept reported on April 15, 2025 that the civilian-protection mission had been slashed by about 90% by that spring, leaving only a handful of staffers even as strike tempo accelerated across Africa and the Middle East -- corroborating, with an earlier and more granular timeline, the same ~200-to-fewer-than-40 reduction Politico and The Intercept's later 2026 reporting (cited below) attributed to 2025. Defense Secretary Pete Hegseth cut Pentagon personnel working on civilian-harm mitigation from roughly 200 to fewer than 40, overriding warnings from senior military leaders -- including Gen. Erik Kurilla and then-Joint Chiefs Chairman Gen. CQ Brown -- who urged him not to reduce staffing at the Civilian Protection Center of Excellence and related initiatives. Adm. Christopher Grady, former vice chair of the Joint Chiefs, argued these teams played a critical role both in assessing risk to civilians before U.S. strikes and in investigating deadly incidents afterward. The cuts continued beyond the initial reduction: the Civilian Protection Center of Excellence's staff fell further, from 40 personnel in January 2025 to just 9 by the end of the year. Politico and The Intercept reported the Pentagon has increasingly relied on AI-based assessments in place of the human civilian-harm-mitigation staff that were cut. The cuts are drawing direct scrutiny following the February 28, 2026 U.S. strike on the Shajareh Tayyebeh girls' school in Minab, Iran, which killed more than 170 children and teachers (documented separately in this tracker's Cabinet-Level entry, hegseth-iran-school-strike-minab-2026.json) -- the same offices this entry documents being gutted were the ones institutionally responsible for the kind of pre-strike risk assessment and post-strike investigation the Minab strike is now under scrutiny for lacking.",
     "primary_proponent": {
       "name": "Pete Hegseth",
       "role": "Secretary of Defense",
@@ -6565,10 +6645,18 @@
       ],
       "caveat": "Sourcing documents the staffing cuts and the AI-substitution pattern, and separately documents the Minab school strike and its outdated-intelligence cause; a direct causal claim that the staffing cuts specifically caused or worsened the Minab strike's outcome was not identified as an independently adjudicated finding in sourcing reviewed -- present the two as a documented, temporally-adjacent institutional pattern rather than an established causal chain."
     },
-    "confidence_note": "HIGH confidence -- the staffing cut figures, the named generals' objections, and the AI-substitution pattern are corroborated across Politico, The Intercept, Truthout, and additional wire coverage (Al Mayadeen, syndicated AP-sourced pieces). MODERATE confidence on the implied connection to the Minab school strike's outcome specifically, since no official investigation finding tying the two together was identified in sourcing reviewed as of this entry's addition -- the connection documented here is institutional and temporal (the offices responsible for this kind of risk assessment were gutted before the strike this tracker separately documents), not a confirmed causal finding.",
-    "last_verified": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the staffing cut figures, the named generals' objections, and the AI-substitution pattern are corroborated across Politico, The Intercept, Truthout, and additional wire coverage (Al Mayadeen, syndicated AP-sourced pieces); The Guardian's March 2025 and The Intercept's April 2025 reporting independently corroborate an earlier start to the same reduction, pinning the ~90% cut to spring 2025 rather than only a generic '2025' date. MODERATE confidence on the implied connection to the Minab school strike's outcome specifically, since no official investigation finding tying the two together was identified in sourcing reviewed as of this entry's addition -- the connection documented here is institutional and temporal (the offices responsible for this kind of risk assessment were gutted before the strike this tracker separately documents), not a confirmed causal finding.",
+    "last_verified": "2026-08-11",
     "date_added": "2026-08-05",
     "sources": [
+      {
+        "name": "The Guardian -- 'Pete Hegseth is reshaping the Pentagon. What has he done so far?'",
+        "url": "https://www.theguardian.com/us-news/2025/mar/15/pete-hegseth-defense-department-policy"
+      },
+      {
+        "name": "The Intercept -- 'Pete Hegseth Is Gutting Pentagon Programs That Reduce Civilian Casualties'",
+        "url": "https://theintercept.com/2025/04/15/pete-hegseth-pentagon-civilian-casualties-harm/"
+      },
       {
         "name": "Politico -- 'Military leaders warned Hegseth not to gut offices that limit risk to civilians'",
         "url": "https://www.politico.com/news/2026/03/13/military-leaders-warned-hegseth-not-to-gut-offices-that-limit-risk-to-civilians-00827722"
@@ -6582,9 +6670,9 @@
         "url": "https://newrepublic.com/post/213257/hegseth-swapped-defense-department-office-ai-iran-war"
       }
     ],
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-11",
     "section_summaries": {
-      "what_changed": "Hegseth cut Pentagon civilian-harm-mitigation staff from ~200 to fewer than 40 (and the Civilian Protection Center of Excellence specifically from 40 to 9), overriding warnings from Gen. Kurilla, Gen. CQ Brown, and Adm. Grady, and substituted AI assessments for the removed human staff -- shortly before a U.S. strike killed 170+ people at an Iranian school.",
+      "what_changed": "Hegseth cut Pentagon civilian-harm-mitigation staff from ~200 to fewer than 40 (and the Civilian Protection Center of Excellence specifically from 40 to 9), a reduction first reported as early as March-April 2025, overriding warnings from Gen. Kurilla, Gen. CQ Brown, and Adm. Grady, and substituted AI assessments for the removed human staff -- shortly before a U.S. strike killed 170+ people at an Iranian school.",
       "estimated_impact": "The Pentagon's civilian-risk-assessment capacity was cut by more than 95% over senior military objections, though no official finding has tied the cuts directly to the Minab strike's outcome.",
       "confidence_note": "Staffing cuts and AI substitution are well-corroborated across multiple outlets; the connection to the Minab strike is institutional and temporal, not an adjudicated causal finding."
     }
@@ -10049,6 +10137,58 @@
     },
     "last_updated": "2026-08-02",
     "date_added": "2026-08-02"
+  },
+  {
+    "id": "ntia-bead-broadband-starlink-favoritism-2025",
+    "title": "BEAD Broadband Program Director Resigned, Warning Trump Commerce Department Was Rewriting $42.5B Rural Internet Program to Favor Musk's Starlink Over Fiber",
+    "institution": "National Telecommunications and Information Administration (NTIA), U.S. Department of Commerce",
+    "domain": "funding_redirection",
+    "status": "Program rules under active revision by Commerce/NTIA as of Feinman's March 2025 departure, with Commerce Secretary Howard Lutnick publicly framing the change as removing 'pointless requirements'",
+    "date_of_action": "2025-03-14 (Feinman's resignation announced) through 2025-03-15 (last day)",
+    "what_changed": "Evan Feinman, director of the Broadband Equity, Access, and Deployment (BEAD) Program -- a $42.5 billion program created to expand high-speed internet to unserved and underserved rural areas -- resigned effective March 15, 2025, after the program came under review by Commerce Secretary Howard Lutnick, who said the review was aimed at eliminating 'pointless requirements' and cutting 'delays and waste.' In a farewell email to colleagues, Feinman wrote that 'stranding all or part of rural America with worse internet so that we can make the world's richest man even richer is yet another in a long line of betrayals by Washington,' warning that the administration's review was poised to shift federal broadband funding away from fiber-optic buildout and toward satellite internet service, specifically naming Elon Musk's Starlink as the likely beneficiary. Feinman argued satellite technology is inferior to fiber for the program's purposes and that the shift would leave rural communities with worse service while enriching Musk, who separately led DOGE's federal cost-cutting effort at the time. The review Feinman's resignation responded to was being conducted through NTIA, alongside the Commerce Department's National Institute of Standards and Technology.",
+    "primary_proponent": {
+      "name": "Howard Lutnick, Secretary of Commerce",
+      "role": "Publicly announced and directed the review of BEAD program rules that Feinman's resignation email specifically warned would favor Elon Musk's Starlink over fiber-optic buildout",
+      "note": "Lutnick's public statements framed the review as removing 'pointless requirements' and cutting delays/waste; he did not publicly confirm Feinman's specific characterization that the changes were designed to benefit Starlink."
+    },
+    "estimated_impact": {
+      "summary": "The director responsible for a $42.5 billion rural broadband program resigned specifically warning that federal funding rules were being rewritten to favor a technology (satellite) he characterized as inferior for the program's purpose, benefiting a company (Starlink) owned by a person (Musk) who simultaneously led the administration's cost-cutting initiative -- a documented conflict-of-interest concern raised by the departing federal official with direct personal knowledge of the program, though the actual downstream funding allocation was not finalized at the time of his departure.",
+      "figures": [
+        {
+          "metric": "Total BEAD program funding under review",
+          "value": "$42.5 billion",
+          "source": "NTIA program figures, widely reported"
+        }
+      ],
+      "caveat": "This entry documents Feinman's resignation and his specific, on-the-record warning; it does not itself establish the final BEAD rule changes or confirm actual dollar amounts subsequently redirected to Starlink, which would need separate sourcing and verification if revisited."
+    },
+    "confidence_note": "HIGH confidence on Feinman's resignation, its timing, and the content of his farewell email, corroborated across The New Republic, Government Technology, Benton Institute for Broadband & Society, Inside Towers, Wireless Estimator, Broadband Breakfast, and Data Center Dynamics, each independently reporting on the same resignation email. The characterization that the rule changes would specifically and primarily benefit Starlink is Feinman's own stated warning, not yet an independently confirmed outcome as of this entry's sourcing.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "The New Republic -- Outgoing Commerce Official Shreds Elon Musk's Starlink in Final Email",
+        "url": "https://newrepublic.com/post/192819/commerce-official-elon-musk-starlink"
+      },
+      {
+        "name": "Government Technology -- BEAD Leader Departs Amid the Program's Ongoing Review",
+        "url": "https://www.govtech.com/network/bead-leader-departs-amid-the-programs-ongoing-review"
+      },
+      {
+        "name": "Benton Institute for Broadband & Society -- Top broadband official exits Commerce Department with sharp Musk warning",
+        "url": "https://www.benton.org/headlines/top-broadband-official-exits-commerce-department-sharp-musk-warning"
+      },
+      {
+        "name": "Data Center Dynamics -- BEAD program director departs, says focus on satellites has been favored ahead of fiber",
+        "url": "https://www.datacenterdynamics.com/en/news/bead-program-director-departs-says-focus-on-satellites-has-been-favored-ahead-of-fiber/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "BEAD broadband program director Evan Feinman resigned March 15, 2025, warning in his farewell email that Commerce's review of the $42.5B rural broadband program was rewriting rules to favor Musk's Starlink over fiber.",
+      "estimated_impact": "A departing federal program director's documented, on-the-record conflict-of-interest warning about funding favoring Musk's company; final rule changes and dollar reallocation not independently confirmed by this entry.",
+      "confidence_note": "Strongly corroborated across multiple independent outlets citing the same resignation email; the Starlink-benefit characterization is Feinman's own warning, not yet independently confirmed as realized outcome."
+    },
+    "last_updated": "2026-08-11"
   },
   {
     "id": "nws-staffing-losses-trump2",

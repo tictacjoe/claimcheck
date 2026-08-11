@@ -3315,6 +3315,60 @@
     }
   },
   {
+    "official": "Pete Hegseth, Secretary of Defense (with President Trump as the removing authority)",
+    "offense_category": "Politicized Removal of the Joint Chiefs Chairman, Chief of Naval Operations, and Three Service Judge Advocates General Without Stated Cause -- the JAG removals specifically raise a contested statutory concern under the law protecting judge advocates' independent legal advice function",
+    "incident_summary": "On the night of Friday, February 21, 2025, the Trump administration fired Gen. CQ Brown Jr., Chairman of the Joint Chiefs of Staff and only the second Black officer to hold the post; Adm. Lisa Franchetti, Chief of Naval Operations and the first woman to hold that role; and Gen. Jim Slife, Air Force Vice Chief of Staff -- the first time in U.S. history two sitting members of the Joint Chiefs of Staff had been removed simultaneously. The same night, the administration also fired the Judge Advocates General (the top uniformed lawyers) of the Army, Navy, and Air Force -- Lt. Gen. Joseph Berger (Army), Rear Adm. Lia Reynolds, acting Navy JAG, and Lt. Gen. Charles Plummer (Air Force) -- a set of firings legal commentators dubbed the 'Friday Night Massacre of Judge Advocates General.' No public, on-record reason was given for any of the removals. Hegseth announced Trump intended to nominate retired Air Force Lt. Gen. Dan Caine as the new Joint Chiefs chairman. Sen. Jack Reed (D-RI), ranking member of the Senate Armed Services Committee, characterized the firings as 'part of a broader, premeditated campaign by President Trump and Secretary Hegseth to purge talented officers for politically charged reasons,' a characterization widely connected in contemporaneous and later reporting -- including The Guardian's March 15, 2025 retrospective on Hegseth's broader reshaping of the Pentagon -- to the administration's stated opposition to diversity, equity, and inclusion policies and to Hegseth's public, pre-confirmation criticism of Brown's and Franchetti's selection. This entry documents the origin point of a pattern this tracker separately documents continuing into 2026 through the removal of Vice Adm. Fred Kacher as Director of the Joint Staff (kacher-joint-staff-removal-2026.json), the forced retirement of Army Chief of Staff Gen. Randy George (hegseth-army-chief-staff-purge-2026.json), and Hegseth's later interventions blocking promotions of Black and female officers (hegseth-promotions-blocked-2026.json).",
+    "contested": true,
+    "elements_required": [
+      "10 U.S.C. provisions governing the Judge Advocates General prohibit any DoD officer or employee from interfering with a TJAG's ability to give independent legal advice to the service Secretary or Chief of Staff, or with any judge advocate's ability to give independent legal advice to commanders -- [contested application, not adjudicated] removing all three service JAGs simultaneously, without stated cause, is argued by legal commentators (Lawfare, Justia/Verdict) to functionally undermine this independent-advice protection, though the statute does not clearly specify removal procedure and the administration's Article II removal authority over these positions is itself a live legal question, not settled",
+      "The Joint Chiefs Chairman and service-chief removals themselves fall within the President's broad Article II authority to remove senior military leadership and are not, on their own, alleged to violate a specific statute -- the accountability concern here is the documented pattern and stated politicized motive, not an established legal violation for those two removals specifically",
+      "Multiple independent, on-record sources (Sen. Jack Reed, legal scholars writing in Lawfare and Verdict/Justia) characterized the same-night, first-ever-simultaneous scope of the removals as evidence of a coordinated, politically motivated purge rather than case-by-case performance-based personnel decisions"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "NPR's report confirming Trump fired Gen. CQ Brown as Joint Chiefs chairman, with Hegseth naming Dan Caine as the intended replacement",
+        "source_url": "https://www.npr.org/2025/02/21/nx-s1-5305288/trump-fires-chairman-joint-chiefs-of-staff-charles-brown-pentagon",
+        "maps_to_element": "Core fact of Brown's removal and the same-night nomination of a replacement"
+      },
+      {
+        "type": "reporting",
+        "description": "Military.com's reporting identifying all six same-night removals -- Joint Chiefs Chairman, Navy's top officer, Air Force Vice Chief of Staff, and the Army, Navy, and Air Force Judge Advocates General -- with the JAG officers specifically named",
+        "source_url": "https://www.military.com/daily-news/2025/02/21/fired-joint-chiefs-chairman-top-navy-leader-air-force-vice-chief-service-judge-advocates-general.html",
+        "maps_to_element": "Full scope of the same-night removals, including the three JAG officers"
+      },
+      {
+        "type": "reporting",
+        "description": "Military.com's follow-up reporting quoting military lawyers and legal experts describing the JAG purge as politicizing legal oversight and setting an alarming precedent",
+        "source_url": "https://www.military.com/daily-news/2025/02/24/people-are-very-scared-trump-administration-purge-of-jag-officers-raises-legal-ethical-fears.html",
+        "maps_to_element": "Legal community's contemporaneous concern about the JAG removals specifically"
+      },
+      {
+        "type": "legal_analysis",
+        "description": "Lesley Wexler and Anthony Ghiotto's legal analysis in Verdict/Justia, 'Let's Kill All the Lawyers: The Friday Night Massacre of Judge Advocates General,' laying out the statutory independent-advice protection and its contested application to the removals",
+        "source_url": "https://verdict.justia.com/2025/03/04/lets-kill-all-the-lawyers-the-friday-night-massacre-of-judge-advocates-general",
+        "maps_to_element": "Statutory basis and legal contestedness of the JAG-specific removals"
+      },
+      {
+        "type": "reporting",
+        "description": "Sen. Jack Reed's on-record statement characterizing the firings as a premeditated campaign to purge officers for politically charged reasons",
+        "source_url": "https://www.yahoo.com/news/u-sen-jack-reed-blasts-031407398.html",
+        "maps_to_element": "Named official's on-record characterization of political motive"
+      }
+    ],
+    "status": "Removals finalized and not reversed; Dan Caine confirmed as Joint Chiefs chairman. No court challenge specific to these removals was identified in sourcing reviewed as of this entry's addition -- distinguish from the separately litigated 2025 inspectors general firings (trump-inspectors-general-mass-firing-2025.json), which produced an actual court finding.",
+    "rebuttal_anticipated": "Likely defense: the President has broad and largely unreviewable Article II authority to remove senior military leadership, including the Joint Chiefs chairman and service chiefs, for any reason or no stated reason, and the JAG statute does not clearly bar removal of a Judge Advocate General himself -- only interference with subordinate judge advocates' independent advice -- so no clear statutory line was crossed.",
+    "comeback": "The concern here is not a single, ambiguous statutory violation but the coordinated, same-night, first-ever-simultaneous scope of the removals -- two Joint Chiefs members plus all three service JAGs in one action -- widely read by legal experts and a named senior senator as removing officers (the first Black JCS chairman, the first female CNO, and the three officers institutionally positioned to give independent legal pushback) precisely because of their identity or their capacity to constrain the administration's future military and legal decisions, not their individual performance.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] This entry documents the origin point of a personnel-purge pattern this tracker tracks continuing through 2026 in hegseth-army-chief-staff-purge-2026.json, kacher-joint-staff-removal-2026.json, and hegseth-promotions-blocked-2026.json -- each removing or blocking officers without a stated performance-based rationale.",
+    "last_updated": "2026-08-11",
+    "date_added": "2026-08-11",
+    "confidence_note": "HIGH confidence on the core facts of the six same-night removals, corroborated across NPR, ABC News, PBS NewsHour, Military Times, and Military.com. MODERATE confidence, explicitly marked contested, on whether the JAG removals constitute an actual statutory violation of the independent-legal-advice protection -- legal scholars (Lawfare, Verdict/Justia) argue the removals are in tension with the statute's purpose, but no court has ruled on the question, and the statute does not clearly govern removal procedure for the TJAG position itself.",
+    "section_summaries": {
+      "incident_summary": "On Feb. 21, 2025, the Trump administration fired Joint Chiefs Chairman Gen. CQ Brown, CNO Adm. Lisa Franchetti, Air Force Vice Chief Gen. Jim Slife, and all three service Judge Advocates General in one night, with no public reason given -- the first-ever simultaneous removal of two Joint Chiefs members, and a JAG purge legal commentators called the 'Friday Night Massacre.'",
+      "confidence_note": "The scope and fact of the six removals is well-corroborated across major outlets; whether the JAG removals violated the specific statutory independent-advice protection is a contested legal question, not judicially resolved, and is marked accordingly."
+    }
+  },
+  {
     "official": "Pete Hegseth, Secretary of Defense",
     "offense_category": "Command Negligence / Public Misrepresentation of a Combat Incident -- Hegseth publicly described a facility soldiers say was essentially undefended against drones as 'fortified,' while survivors allege commanders ignored specific warnings and abandoned the wounded -- NOT charged, contested facts, included for reference only",
     "incident_summary": "On March 1, 2026, an Iranian one-way attack drone struck a tactical operations center at Port Shuaiba, Kuwait, killing six soldiers of the U.S. Army's 103rd Sustainment Command and wounding more than 20 others. The Washington Post, based on interviews with 17 soldiers and other witnesses, reported that commanders had received repeated, specific warnings before the attack that the facility was highly vulnerable to drone strikes, and ignored them. Survivors told CBS News the facility's defenses -- T-walls designed to stop mortar and rocket fragments, not aerial drone strikes, with vertical blast barricades but no overhead protection -- were essentially nonexistent against the actual threat: one survivor rated the position's drone-specific defense as 'none.' Survivors also said the unit had been positioned within Iranian missile and drone range even as other units in the area were relocated, and that after the strike, senior officers abandoned the building rather than organizing aid for the wounded, leaving triage disorganized amid chaotic, severe injuries (perforated eardrums, heavy bleeding, head wounds). Secretary Hegseth publicly described the attacking drone as a 'squirter' that penetrated the defenses of a 'fortified' position -- a characterization survivors directly dispute, with one soldier stating: 'Painting a picture that 'one squeaked through' is a falsehood. I want people to know the unit was unprepared to provide any defense for itself.' Soldiers who were present say they fear no one will be held accountable for the command decisions that left them exposed.",
@@ -7214,6 +7268,48 @@
     "section_summaries": {
       "incident_summary": "Trump pardoned Abramoff-scandal felon and GOP megadonor Adam Kidan three days after Kidan donated to a leadership PAC for a congressman Trump had just campaigned for, erasing a $217 million restitution obligation; the congressman later returned the donation once the timing became public.",
       "confidence_note": "Donation, campaign-visit, and pardon dates are independently corroborated across multiple outlets and not disputed by any party involved."
+    }
+  },
+  {
+    "official": "Donald Trump, President",
+    "offense_category": "Politicization of Military Academy Oversight Boards -- Appointing Legally-Compromised or Unqualified Political Loyalists to Statutory Boards of Visitors, No Criminal or Civil Violation Alleged",
+    "incident_summary": "In March 2025, President Trump announced a slate of political appointees to the statutory Boards of Visitors that provide civilian oversight of morale, finances, curriculum, and academics at the three federal service academies, and issue an annual report to the President. His West Point Board of Visitors picks included Michael Flynn, the retired lieutenant general and former national security adviser who pleaded guilty in 2017 to lying to the FBI (later pardoned), alongside Maureen Bannon, an Army veteran and daughter of former Trump adviser Steve Bannon, and Rep. Wesley Hunt. To the Naval Academy board, Trump appointed his own personal aide Walt Nauta, who had been indicted as a co-defendant in special counsel Jack Smith's classified-documents case against Trump. To the Air Force Academy board, Trump appointed conservative media activist Charlie Kirk, who had no military experience, alongside Sen. Tommy Tuberville (R-Ala.), who as a senator had blocked hundreds of military promotions for nearly a year in a protest over Pentagon abortion-travel policy, and Dina Powell, a former Trump first-term White House official.",
+    "contested": true,
+    "elements_required": [
+      "The President has broad statutory and constitutional authority to appoint Board of Visitors members at the service academies -- no law was violated by these specific appointments, and this entry does not allege one",
+      "The appointees include individuals with documented, specific legal exposure of their own directly relevant to the boards' oversight function: Flynn (guilty plea for lying to the FBI, later pardoned) and Nauta (indicted federal criminal co-defendant at the time of appointment) -- distinct from a generic complaint about political appointees' qualifications",
+      "The pattern -- installing personally loyal or legally-compromised individuals into institutional oversight roles rather than figures with subject-matter academy-oversight experience -- is documented across all three academies simultaneously, not a single isolated pick"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "The Hill's reporting naming the full slate of appointees across all three service academies, including Flynn, Nauta, Kirk, Tuberville, and Maureen Bannon, and describing the boards' oversight function",
+        "source_url": "https://thehill.com/policy/defense/5199551-trump-appoints-charlie-kirk-walt-nauta-michael-flynn-to-military-boards/",
+        "maps_to_element": "Full scope of the appointments and the boards' statutory oversight role"
+      },
+      {
+        "type": "reporting",
+        "description": "The Washington Examiner's corroborating report on the Kirk and Flynn appointments to the academy advisory boards",
+        "source_url": "https://www.washingtonexaminer.com/news/3352179/trump-charlie-kirk-michael-flynn-military-academy-advisory-boards/",
+        "maps_to_element": "Independent corroboration of the appointments"
+      },
+      {
+        "type": "reporting",
+        "description": "The Daily Beast's reporting characterizing the appointments as a 'MAGA takeover' of the boards overseeing the academies",
+        "source_url": "https://www.thedailybeast.com/maga-takeover-of-military-academies-as-trump-names-charlie-kirk-to-board/",
+        "maps_to_element": "Contemporaneous characterization of the pattern as institutional capture"
+      }
+    ],
+    "status": "Appointments made and not reversed as of sourcing reviewed; no legal challenge to the appointments themselves was identified",
+    "rebuttal_anticipated": "Likely defense: Boards of Visitors are advisory bodies without command authority, appointment to them is a routine exercise of presidential discretion extended to every administration, service on a board does not require military-oversight credentials, and Flynn's conviction was for a process offense unrelated to academy administration while Nauta's indictment (in a since-resolved case) does not itself disqualify him from an advisory role.",
+    "comeback": "The specific concern is not that political appointees serve on these boards -- prior administrations have done the same -- but that Trump specifically selected individuals with his own direct personal or legal ties (his former national security adviser convicted of lying to the FBI, his own indicted personal aide, a media activist with no military background) for bodies statutorily tasked with independent oversight of military-academy integrity, simultaneously across all three academies, raising the same loyalty-over-institutional-capacity concern this tracker documents elsewhere in Hegseth's senior military personnel decisions (see hegseth-joint-chiefs-jag-friday-night-massacre-2025.json).",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of the administration prioritizing personal loyalty over institutional-oversight independence in senior military-adjacent appointments.",
+    "last_updated": "2026-08-11",
+    "date_added": "2026-08-11",
+    "confidence_note": "HIGH confidence on the fact and full scope of the appointments, corroborated across The Hill, Washington Examiner, Denver Gazette, Colorado Politics, The Epoch Times, and The Daily Beast, each independently reporting the same slate of names. This entry does not allege a legal or criminal violation -- it documents a politicization/institutional-capture pattern, marked `contested: true` because the appointments themselves are a lawful exercise of presidential discretion and the accountability concern rests on the pattern and appointees' backgrounds, not an established legal breach.",
+    "section_summaries": {
+      "incident_summary": "In March 2025, Trump appointed Michael Flynn (convicted of lying to the FBI) and Maureen Bannon to West Point's board, his own indicted aide Walt Nauta to the Naval Academy's board, and Charlie Kirk and Sen. Tommy Tuberville to the Air Force Academy's board -- installing personally loyal or legally-compromised figures across all three service academies' civilian oversight boards simultaneously.",
+      "confidence_note": "Well-corroborated across multiple independent outlets naming the same appointees; this is a documented politicization pattern, not an alleged legal violation, and is marked contested accordingly."
     }
   },
   {
