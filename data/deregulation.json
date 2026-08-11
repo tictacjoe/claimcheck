@@ -453,6 +453,72 @@
     "short_summary": "Delayed coal ash cleanup deadlines ~3 years; broader exemption for most sites still pending."
   },
   {
+    "id": "corporate-transparency-act-enforcement-scaleback-2025",
+    "rule_name": "Corporate Transparency Act Beneficial Ownership Information Reporting Rule",
+    "administration": "Trump II (2025-present)",
+    "agency": "Treasury / FinCEN",
+    "domain": "financial",
+    "status": "Finalized -- interim final rule in effect since March 21, 2025 exempting domestic companies from reporting",
+    "date_of_action": "2025-03-02 (non-enforcement announced) through 2025-03-21 (interim final rule published)",
+    "original_rule_summary": "The Corporate Transparency Act, enacted in 2021 with an implementing rule that took effect in 2024, required roughly 32 million U.S. companies to report their true beneficial owners to the Treasury's Financial Crimes Enforcement Network (FinCEN), aimed at preventing anonymous shell companies from being used for money laundering, terrorism financing, and sanctions evasion.",
+    "what_changed": "On March 2, 2025, Treasury Secretary Scott Bessent announced Treasury would not enforce any penalties or fines against U.S. citizens or domestic reporting companies (or their beneficial owners) under the CTA, and would narrow the rule's scope to foreign reporting companies only. FinCEN's March 21, 2025 interim final rule formalized this: it exempted all domestic entities and their beneficial owners from reporting entirely, and removed any requirement for foreign entities to report their U.S. beneficial owners. The change reduced the number of companies required to report from roughly 32 million to under 12,000 -- more than 99% of previously-covered entities exempted. NOTUS reported the rollback came despite documented evidence that Mexican drug cartels and Chinese money launderers have used anonymous U.S. shell companies to launder fentanyl-trafficking proceeds, cutting against the administration's own stated anti-fentanyl priorities. A subsequent GAO report found Treasury's expanded exemptions created gaps in the beneficial-ownership information the CTA was designed to collect.",
+    "primary_proponent": {
+      "name": "Scott Bessent",
+      "role": "Secretary of the Treasury",
+      "note": "Personally announced the non-enforcement decision on March 2, 2025, calling it 'a victory for common sense' and framing it as part of the administration's agenda to reduce regulatory burdens on small businesses."
+    },
+    "corporate_beneficiaries": [
+      "Domestic shell-company formation and registered-agent industry, broadly -- no single named company or trade group was identified as the driver in sourcing reviewed"
+    ],
+    "estimated_health_impact": {
+      "summary": "Not a direct health-impact rule -- the CTA is a financial-transparency/anti-money-laundering measure. Its rollback is estimated instead by the scale of exempted reporting (over 99% of previously-covered companies) and a GAO-documented information gap; NOTUS's reporting links that gap to law-enforcement concerns that cartels and money launderers exploit anonymous shell companies to hide fentanyl-trafficking proceeds, a public-safety rather than a direct-health harm.",
+      "figures": [
+        {
+          "metric": "Reporting companies before the rule change",
+          "value": "~32,000,000",
+          "source": "Treasury/FinCEN"
+        },
+        {
+          "metric": "Reporting companies after the rule change",
+          "value": "<12,000",
+          "source": "Treasury/FinCEN, cited by multiple law-firm client alerts (Wiley, Sidley, Seyfarth, Ballard Spahr)"
+        }
+      ],
+      "caveat": "GAO's finding documents an information gap, not a quantified dollar amount of money laundering enabled by it. The administration's stated rationale -- relieving small businesses of a compliance requirement industry groups had long criticized as burdensome -- is a genuine competing policy consideration, not addressed as settled here."
+    },
+    "confidence_note": "HIGH confidence -- corroborated by Treasury's own press release, FinCEN's published interim final rule, multiple national law firm client alerts, congressional correspondence demanding an explanation (Sens. Whitehouse and Grassley), and a GAO report documenting the resulting information gaps.",
+    "short_summary": "Treasury exempted over 99% of U.S. companies from beneficial-ownership disclosure rules cartels have used shell companies to evade.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "sources": [
+      {
+        "name": "Treasury -- Treasury Department Announces Suspension of Enforcement of Corporate Transparency Act Against U.S. Citizens and Domestic Reporting Companies",
+        "url": "https://home.treasury.gov/news/press-releases/sb0038"
+      },
+      {
+        "name": "Holland & Knight -- Treasury Department Announcement on Enforcement and Scope of Corporate Transparency Act",
+        "url": "https://www.hklaw.com/en/insights/publications/2025/03/treasury-department-announcement-on-enforcement-and-scope-of-corporate"
+      },
+      {
+        "name": "NOTUS -- Trump's fentanyl enforcement undercut by shell-company enforcement rollback",
+        "url": "https://www.notus.org/whitehouse/trump-fentanyl-shell-companies-enforcement"
+      },
+      {
+        "name": "U.S. GAO -- Corporate Transparency: Treasury Should Address Gaps in Ownership Information Resulting from Expanded Exemptions",
+        "url": "https://www.gao.gov/products/gao-26-107967"
+      },
+      {
+        "name": "Sen. Sheldon Whitehouse's office -- Whitehouse, Grassley Demand Explanation of Treasury's CTA Enforcement Suspension",
+        "url": "https://www.whitehouse.senate.gov/news/release/whitehouse-grassley-demand-explanation-of-treasury-departments-decision-to-suspend-enforcement-of-corporate-transparency-act/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "Treasury exempted all domestic companies from Corporate Transparency Act beneficial-ownership reporting in March 2025, cutting the number of covered entities from ~32 million to under 12,000.",
+      "estimated_impact": "GAO found the expanded exemptions created information gaps that reporting links to law-enforcement concerns over cartel and money-laundering use of anonymous shell companies.",
+      "confidence_note": "Well-corroborated by Treasury's own announcement, the published rule, law-firm analyses, and a GAO report on the resulting gaps."
+    }
+  },
+  {
     "id": "deregulatory-fast-track-memo-trump2",
     "rule_name": "Deregulatory Fast-Track Memo (\"Directing the Repeal of Unlawful Regulations\")",
     "administration": "Trump II (2025-present)",

@@ -806,6 +806,76 @@
     }
   },
   {
+    "id": "cdc-global-health-center-elimination-2025",
+    "title": "Trump Budget Proposal Zeroes Out CDC's Global Health Center, Cuts Gavi Vaccine Funding as U.S. Exits WHO",
+    "institution": "CDC (Centers for Disease Control and Prevention) / HHS",
+    "domain": "funding_redirection",
+    "status": "Proposed and largely implemented for FY2026 -- the administration's FY2026 budget request eliminated CDC's standalone Global Health Center line item and zeroed out Gavi funding; later FY2027 budget materials describe successor global-health funding as held level with FY2026, suggesting the final FY2026 structure was less severe than the original zero-out proposal (see caveat)",
+    "date_of_action": "2025-05 (FY2026 budget request released) through 2025-09 (reporting characterizing the Global Health Center as shut down, alongside the ongoing WHO withdrawal)",
+    "what_changed": "The administration's FY2026 budget request, released in May 2025 and detailed further that summer, eliminated CDC's Global Health Center as a standalone budget line -- funded at $693 million in FY2025 and $711 million in FY2024 -- folding a reduced successor ($239 million under 'CDC-Wide Activities') into a new consolidated Administration for a Healthy America (AHA), an HHS reorganization championed by Secretary Robert F. Kennedy Jr. that also absorbed CDC's chronic-disease programs and some NIH institutes. The New York Times reported in June 2025 that the proposal specifically cut $230 million from CDC vaccine programs, including U.S. contributions supporting polio and measles vaccination and funding for the Gavi vaccine alliance; KFF's budget tracking confirmed the FY2026 request eliminated Gavi funding entirely and cut the broader Global Health Programs Account from $10.0 billion (FY2025) to $3.8 billion. By September 2025, Time reported the CDC's Global Health Center had effectively been shut down and global health funding cut by 67%, framing this alongside the administration's separate, ongoing withdrawal from the World Health Organization (announced by executive order in January 2025, taking formal effect January 2026) and warning from public-health experts that the combined cuts weaken the U.S.'s ability to detect and contain outbreaks before they reach American soil, citing estimates that another pandemic as severe as COVID-19 carries roughly a 50% chance of occurring within the next 20-25 years.",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services",
+      "note": "Publicly championed the Administration for a Healthy America reorganization that absorbed CDC's Global Health Center, describing it as eliminating 'an alphabet soup' of departments by merging them into AHA; defended the broader HHS budget cuts, including CDC restructuring, in congressional testimony."
+    },
+    "estimated_impact": {
+      "summary": "Sharply reduced dedicated federal funding for global vaccine and disease-prevention programs, compounding the separate loss of WHO-coordinated surveillance access, at a moment public-health experts warn U.S. outbreak-detection capacity is already strained.",
+      "figures": [
+        {
+          "metric": "CDC Global Health Center funding, FY2025",
+          "value": "$693,000,000",
+          "source": "KFF/CBS News, citing HHS budget documents"
+        },
+        {
+          "metric": "FY2026 budget request's successor global-health-protection line",
+          "value": "$239,000,000",
+          "source": "KFF/CBS News"
+        },
+        {
+          "metric": "Cut to CDC vaccine programs (polio, measles, Gavi) per FY2026 proposal",
+          "value": "$230,000,000",
+          "source": "New York Times, June 2025"
+        },
+        {
+          "metric": "Global Health Programs Account, FY2025 vs. FY2026 request",
+          "value": "$10,000,000,000 -> $3,800,000,000",
+          "source": "KFF budget tracking"
+        }
+      ],
+      "caveat": "This entry documents the FY2026 budget PROPOSAL's terms and contemporaneous reporting describing the Global Health Center as shut down; KFF's later FY2027 budget-request tracking describes successor global-health funding as held level with FY2026 rather than further reduced, which implies the final enacted FY2026 structure may not have zeroed out global health funding as completely as the original May 2025 proposal sought. Precise enacted (as opposed to proposed) FY2026 dollar figures were not independently confirmed in sourcing reviewed."
+    },
+    "confidence_note": "HIGH confidence on the FY2026 budget proposal's specific terms, corroborated by KFF and CBS News budget-tracking coverage. MODERATE confidence on the September 2025 Time article's 'Global Health Center shut down'/67%-cut framing, which was not independently cross-verified against a second contemporaneous outlet in sourcing reviewed and may describe the proposal's anticipated effect rather than a confirmed final enacted figure -- present it as reported characterization, not a settled number, in debate use.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "sources": [
+      {
+        "name": "KFF -- Administration Releases Additional Details of Fiscal Year 2026 Budget Request",
+        "url": "https://www.kff.org/global-health-policy/administration-releases-additional-details-of-fiscal-year-2026-budget-request/"
+      },
+      {
+        "name": "CBS News -- HHS budget proposal: CDC chronic disease, global health, MAHA agency",
+        "url": "https://www.cbsnews.com/news/hhs-budget-proposal-cdc-chronic-disease-global-health-maha-agency"
+      },
+      {
+        "name": "New York Times -- Trump's 2026 budget eliminates CDC global health unit, cuts vaccine programs",
+        "url": "https://www.nytimes.com/2025/06/04/health/trump-budget-global-health-polio.html"
+      },
+      {
+        "name": "Time -- Vaccine cuts, WHO withdrawal, and pandemic risk under Trump/RFK Jr.",
+        "url": "https://time.com/7320256/vaccines-trump-rfk-jr-global-health-covid/"
+      },
+      {
+        "name": "KFF -- Global Health Funding in the FY 2027 President's Budget Request",
+        "url": "https://www.kff.org/global-health-policy/global-health-funding-in-the-fy-2027-presidents-budget-request/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "The FY2026 budget proposal eliminated CDC's standalone Global Health Center and zeroed out Gavi vaccine-alliance funding as part of RFK Jr.'s HHS reorganization; later reporting described the center as effectively shut down alongside the ongoing U.S. withdrawal from WHO.",
+      "estimated_impact": "Cut roughly $450-500 million from global-health/vaccine funding lines per the administration's own proposal, at a time experts warn U.S. pandemic-detection capacity is already strained.",
+      "confidence_note": "The budget proposal's terms are well-documented; the 'fully shut down'/67%-cut framing from a single later article is less independently verified and should be presented as reported characterization."
+    }
+  },
+  {
     "id": "cdc-harm-reduction-defunding-threat-trump2",
     "title": "CDC orders federally funded health programs to drop harm reduction, adopt 'parental authority' priorities on short deadline",
     "institution": "Centers for Disease Control and Prevention (CDC)",
@@ -841,6 +911,62 @@
         "url": "https://www.aol.com/articles/white-house-mandates-move-away-202521000.html"
       }
     ]
+  },
+  {
+    "id": "cdc-injury-center-funding-freeze-2025",
+    "title": "OMB Froze CDC Injury Center Funding for Youth Violence, Gun Injury, Diabetes, and Tobacco Programs",
+    "institution": "CDC Injury Center / Office of Management and Budget",
+    "domain": "funding_redirection",
+    "status": "Reversed (partial) -- CDC staffers confirmed delayed funds, including for overdose prevention, began being disbursed as of August 2025 following press and congressional pressure; broader CDC funding-delay patterns were reported as ongoing into later 2025",
+    "date_of_action": "2025 (freeze in place through mid-2025) through 2025-08-05 (WSJ report and NPR follow-up on disbursement)",
+    "what_changed": "The Wall Street Journal reported that the White House Office of Management and Budget had frozen funding for at least five CDC Injury Center programs -- youth violence prevention, adverse childhood experiences, firearm injury prevention, injury control research centers, and general injury-prevention activities -- alongside broader CDC chronic-disease funding covering diabetes, chronic kidney disease, and tobacco use, with the amount withheld estimated at up to $200 million. This followed a months-long pattern in which CDC did not receive the roughly $9 billion Congress had appropriated for fiscal year 2025 in full, instead receiving disbursements in small increments approximately every 30 days, sufficient only to cover payroll and other limited expenses. Following the WSJ report and subsequent public and congressional pressure, NPR reported on August 5, 2025 that CDC staffers said the agency had begun disbursing previously delayed funds, including money for overdose-prevention programs; separately, funding previously frozen for rape and domestic-violence prevention programs was also reported as being released around the same time. ABC News and the Trust for America's Health's 2025 public-health-infrastructure report characterized this episode as part of a broader, ongoing pattern of 'red tape and budget constraints' delaying CDC program funding beyond this specific freeze.",
+    "primary_proponent": {
+      "name": "Office of Management and Budget (Trump administration)",
+      "role": "Withheld previously congressionally-appropriated CDC funds via administrative delay/freeze",
+      "note": "No OMB statement specifically naming an individual official was found tying anyone personally to this CDC-specific freeze in sourcing reviewed. OMB Director Russell Vought has been publicly identified as a chief architect of the administration's broader impoundment strategy -- see this tracker's [[nih-impoundment-gao-finding-trump2]] entry for a related, GAO-confirmed NIH funding impoundment from the same period."
+    },
+    "estimated_impact": {
+      "summary": "Delayed federal funding for youth-violence, gun-injury, and chronic-disease prevention programs for months without public explanation, straining state and local programs that rely on the funds, before a partial reversal followed press scrutiny.",
+      "figures": [
+        {
+          "metric": "Estimated CDC Injury Center/chronic-disease funding withheld",
+          "value": "up to $200,000,000",
+          "source": "Wall Street Journal, reported via US News/AP wire pickup"
+        },
+        {
+          "metric": "Total FY2025 CDC appropriation subject to the broader slow-disbursement pattern",
+          "value": "~$9,000,000,000",
+          "source": "NPR, citing CDC staff"
+        }
+      ],
+      "caveat": "Figures are drawn from CDC staff and WSJ reporting on internal budget documents, not an official OMB accounting of the freeze; NPR's August 2025 follow-up confirms funds began flowing again but does not confirm every affected program was fully and permanently restored, and later reporting (ABC News, TFAH) describes CDC funding delays as a persistent broader pattern rather than a single resolved incident."
+    },
+    "confidence_note": "HIGH confidence -- corroborated across the Wall Street Journal's original reporting, NPR's follow-up (citing CDC staff on the record about disbursement resuming), and TFAH's 2025 public-health-infrastructure report documenting the broader pattern.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "sources": [
+      {
+        "name": "NPR -- CDC to disburse delayed funds including for overdose prevention, staffers say",
+        "url": "https://www.npr.org/sections/shots-health-news/2025/08/05/nx-s1-5493279/cdc-funding-freeze-overdose-omb"
+      },
+      {
+        "name": "US News -- Trump Administration Blocks Funding for CDC Health Programs, WSJ Reports",
+        "url": "https://www.usnews.com/news/politics/articles/2025-08-01/trump-administration-blocks-funding-for-cdc-health-programs-wsj-reports"
+      },
+      {
+        "name": "ABC News -- Red tape and budget constraints: How the White House is undercutting public health",
+        "url": "https://abcnews.go.com/Health/red-tape-budget-constraints-white-house-undercutting-public/story?id=127190229"
+      },
+      {
+        "name": "Trust for America's Health -- Public Health Infrastructure in Crisis (2025 report)",
+        "url": "https://www.tfah.org/report-details/funding-report-2025/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "OMB froze up to $200 million in CDC funding for youth-violence, gun-injury, and chronic-disease prevention programs for months in 2025, releasing it only after WSJ reporting and press/congressional pressure.",
+      "estimated_impact": "Delayed funding for violence-prevention and chronic-disease programs relied on by state and local health departments for months without public explanation.",
+      "confidence_note": "Well-corroborated across WSJ, NPR, ABC News, and TFAH, though full restoration of every affected program was not independently confirmed."
+    }
   },
   {
     "id": "cdc-leadership-vacancy-crisis-2026",
@@ -4849,6 +4975,61 @@
     "last_updated": "2026-07-26"
   },
   {
+    "id": "fema-national-fire-academy-shutdown-2025",
+    "title": "FEMA Shut Down All National Fire Academy Training for Nearly Three Months Amid DOGE-Driven Budget Review",
+    "institution": "FEMA -- National Fire Academy",
+    "domain": "funding_redirection",
+    "status": "Reversed -- classes resumed June 2, 2025, after nearly three months closed",
+    "date_of_action": "2025-03-07 (classes cancelled) through 2025-06-02 (classes resume)",
+    "what_changed": "On March 7, 2025, FEMA abruptly cancelled all in-person classes at the National Fire Academy (NFA) in Emmitsburg, Maryland -- along with the co-located National Disaster and Emergency Management University and the Center for Domestic Preparedness in Anniston, Alabama -- as part of a Department of Government Efficiency-driven review of FEMA's spending intended to align it with administration priorities; instructors were told to cancel all future travel, and the suspension was initially described as indefinite, with FEMA saying it would support only 'mission-critical' functions during the review. The NFA provides free, federally funded training that firefighters, EMS providers, and other first responders nationwide travel to Maryland to attend. Lawmakers from both parties pressed FEMA and DHS leadership for an explanation and received none for weeks; the Congressional Fire Services Institute and fire-service leaders warned the shutdown 'undermines first responder public safety' and posed 'an equal threat to public safety' given elevated wildfire risk nationally. FEMA reopened the NFA, NDEMU, and the Center for Domestic Preparedness on June 2, 2025 -- nearly three months after the closure -- following what the agency described as a comprehensive review determining that certain courses 'provide effective training to enhance national readiness for state, local, tribal and territorial emergency managers and first responders.'",
+    "primary_proponent": {
+      "name": "FEMA leadership (Trump administration)",
+      "role": "Directed the March 2025 shutdown as part of a DOGE-driven spending review",
+      "note": "No single named FEMA or DHS official was identified on the record as personally ordering the closure in sourcing reviewed; FEMA and DHS leadership did not respond to lawmakers' repeated requests for an explanation during the nearly three-month closure, per FireRescue1 and congressional correspondence."
+    },
+    "estimated_impact": {
+      "summary": "Cut off the nation's primary free federal training pipeline for firefighters and emergency responders for nearly three months, with no advance notice or public rationale, before being reversed following bipartisan pressure.",
+      "figures": [
+        {
+          "metric": "Duration of full closure",
+          "value": "~87 days (March 7 - June 2, 2025)",
+          "source": "CBS News, WYPR, Maryland Matters"
+        }
+      ],
+      "caveat": "The closure was fully reversed and FEMA characterized it as a deliberate budget/program review rather than a permanent cut; this entry documents the disruption and its resolution together, not an ongoing unresolved harm. No dollar figure for funds withheld during the review was identified in sourcing reviewed."
+    },
+    "confidence_note": "HIGH confidence -- corroborated across CBS News, The Washington Post, Claims Journal, FireRescue1, Maryland Matters, WYPR, and congressional correspondence documenting both the closure and the June 2025 reopening.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "sources": [
+      {
+        "name": "CBS News -- Federal funding cuts lead FEMA to cancel classes at National Fire Academy",
+        "url": "https://www.cbsnews.com/news/fema-national-fire-academy-cources-cancellation/"
+      },
+      {
+        "name": "The Washington Post -- FEMA's National Fire Academy cancels classes amid Trump federal cuts",
+        "url": "https://www.washingtonpost.com/nation/2025/03/09/national-fire-academy-fema-casses-canceled-trump/"
+      },
+      {
+        "name": "FireRescue1 -- Federal legislators get no answer from Homeland Security secretary, FEMA administrator on NFA classes",
+        "url": "https://www.firerescue1.com/national-fire-academy/federal-legislators-get-no-answer-from-homeland-security-secretary-fema-administrator-on-nfa-classes"
+      },
+      {
+        "name": "Maryland Matters -- FEMA reopens National Fire Academy after nearly three-month, DOGE-driven shutdown",
+        "url": "https://marylandmatters.org/briefs/fema-reopens-national-fire-academy-after-nearly-three-month-doge-driven-shutdown/"
+      },
+      {
+        "name": "WYPR -- National Fire Academy in Maryland to reopen on June 2nd",
+        "url": "https://wypr.org/wypr-news/2025-05-30/national-fire-academy-in-maryland-to-reopen-on-june-2nd"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "FEMA cancelled all National Fire Academy and related emergency-management training for nearly three months starting March 7, 2025, as part of a DOGE-driven budget review, reopening June 2, 2025.",
+      "estimated_impact": "Cut off the nation's main free federal firefighter/first-responder training pipeline for ~87 days with no advance notice, before bipartisan pressure led to reopening.",
+      "confidence_note": "Well-corroborated across CBS News, Washington Post, FireRescue1, Maryland Matters, and WYPR, covering both the closure and the reopening."
+    }
+  },
+  {
     "id": "foreign-aid-rescissions-2026",
     "title": "Trump Used Rescissions to Cancel Billions in Bipartisan Foreign Aid, Gutting Pacific-China-Countering, Myanmar, and Africa Programs",
     "institution": "State Department / USAID successor functions",
@@ -5221,6 +5402,76 @@
     ]
   },
   {
+    "id": "fulbright-exchange-program-funding-freeze-board-resignation-2025",
+    "title": "State Department Froze Fulbright/Gilman/Critical Language Funding; Entire Oversight Board Resigned Over Political Vetting of Recipients",
+    "institution": "State Department -- Bureau of Educational and Cultural Affairs / Fulbright Foreign Scholarship Board",
+    "domain": "funding_redirection",
+    "status": "Ongoing -- the political-vetting dispute and board vacancy remain unresolved as of the reporting reviewed; the FY2026 draft appropriations bill restored substantial Fulbright funding despite the administration's proposed elimination",
+    "date_of_action": "2025-02-13 (ECA funding pause begins) through 2025-06-12 (Fulbright board mass resignation)",
+    "what_changed": "On February 13, 2025, the State Department's Bureau of Educational and Cultural Affairs (ECA) paused disbursements for its exchange programs -- including Fulbright, the Gilman International Scholarship, IDEAS, and the Critical Language Scholarship program -- initially described as a 15-day pause but extended well beyond that window, leaving over 10,000 students and professionals in active exchanges without stipends for housing, food, and travel, both in the U.S. and abroad; funding began to be restored in the following months. Separately, State Department officials led by Darren Beattie, Under Secretary for Public Diplomacy and Public Affairs, intervened to reject more than 20% of the Fulbright Foreign Scholarship Board's selected finalists for the 2025-2026 academic year -- a last-minute override the board called unauthorized -- and subjected an additional roughly 1,200 already-selected foreign recipients to a new, unauthorized ideological review process that could still result in their rejection, spanning fields from architecture and biology to medical science and music. On June 12, 2025, 11 of the board's 12 presidentially-appointed members resigned en masse, writing that the administration had 'injected politics and ideological mandates' into award decisions and that senior administration officials had refused to respond to the board's repeated legal objections, raised both verbally and in writing. Trump's FY2026 budget proposal separately sought to eliminate nearly all Fulbright funding; the draft FY2026 appropriations bill reviewed by Congress instead included $287.8 million for the program, indicating congressional resistance to the proposed elimination.",
+    "primary_proponent": {
+      "name": "Darren Beattie",
+      "role": "Under Secretary of State for Public Diplomacy and Public Affairs",
+      "note": "Led the State Department intervention rejecting more than 20% of the Fulbright board's selected finalists, the action the board's resignation letter identifies as precipitating its mass resignation. The broader February 2025 ECA funding pause was a department-wide action not attributed to a single named official in sourcing reviewed."
+    },
+    "estimated_impact": {
+      "summary": "Disrupted stipends for over 10,000 active exchange participants for months, and triggered the resignation of the entire body legally responsible for insulating Fulbright award decisions from political interference, while a separate budget proposal sought to eliminate the program's funding entirely (a move Congress's own draft appropriations bill resisted).",
+      "figures": [
+        {
+          "metric": "Exchange participants affected by the funding pause",
+          "value": "10,000+",
+          "source": "NAFSA / ICEF Monitor"
+        },
+        {
+          "metric": "Fulbright Foreign Scholarship Board members who resigned",
+          "value": "11 of 12",
+          "source": "CNN, Inside Higher Ed, ABC News"
+        },
+        {
+          "metric": "Fulbright finalists rejected by the State Department's override",
+          "value": ">20%",
+          "source": "Reporting cited by CNN / Inside Higher Ed"
+        },
+        {
+          "metric": "FY2026 draft congressional appropriations for Fulbright, despite the administration's proposed elimination",
+          "value": "$287,800,000",
+          "source": "Draft FY2026 appropriations bill, per reporting"
+        }
+      ],
+      "caveat": "The board's resignation letter is a primary-source-adjacent account of the vetting dispute, but the State Department's own stated rationale for the specific finalist rejections was not detailed in sourcing reviewed. The FY2026 funding comparison (proposal vs. draft appropriations bill) reflects the state of play as of the reporting reviewed, not necessarily final enacted appropriations."
+    },
+    "confidence_note": "HIGH confidence -- corroborated across CNN, NPR, ABC News, Inside Higher Ed, NAFSA, ICEF Monitor, and Newsweek, including the board's own on-record resignation letter and named officials on both sides of the dispute.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "sources": [
+      {
+        "name": "AP News -- Fulbright scholars' stipends frozen indefinitely",
+        "url": "https://apnews.com/article/fulbright-scholars-stipends-frozen-indefinitely-9da042b5e0bda70fb1c76105564c71f4"
+      },
+      {
+        "name": "NAFSA -- Ongoing Funding Freeze of ECA Programs at Department of State",
+        "url": "https://www.nafsa.org/ECAFundingFreeze"
+      },
+      {
+        "name": "CNN -- Fulbright scholarship board members resign over 'unprecedented actions' by the Trump administration",
+        "url": "https://www.cnn.com/2025/06/12/politics/fulbright-scholarship-board-resign-trump"
+      },
+      {
+        "name": "Inside Higher Ed -- Fulbright Board Resigns En Masse Over Political Interference",
+        "url": "https://www.insidehighered.com/news/government/politics-elections/2025/06/11/fulbright-board-resigns-en-masse-over-political"
+      },
+      {
+        "name": "NPR -- Almost all of the Fulbright board resigns, citing Trump administration interference",
+        "url": "https://www.npr.org/2025/06/12/nx-s1-5431470/fulbright-board-resigns-political-interference"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "State Dept froze Fulbright/Gilman/Critical Language funding for months starting Feb 2025, then overrode 20%+ of Fulbright's selected finalists on ideological grounds, prompting 11 of 12 board members to resign in June 2025.",
+      "estimated_impact": "10,000+ exchange participants lost stipends for months; the board responsible for insulating Fulbright from political interference resigned en masse; Congress resisted the administration's bid to eliminate FY2026 funding.",
+      "confidence_note": "Well-corroborated across major outlets and the board's own resignation letter; the department's rationale for specific rejections remains undocumented in sourcing reviewed."
+    }
+  },
+  {
     "id": "fws-endangered-species-staff-cuts-trump2",
     "title": "Fish and Wildlife Service Loses Over 1,500 Staff; Zero New Species Listed as Endangered",
     "institution": "U.S. Fish and Wildlife Service",
@@ -5425,6 +5676,80 @@
       "what_changed": "GSA published a 443-property 'non-core asset' sale list on March 4, 2025, including a Springfield, VA facility reportedly used for sensitive CIA training -- and pulled the entire list the next day after security and public backlash, later releasing a smaller, scaled-back version.",
       "estimated_impact": "The list covered ~80 million sq ft and $8.3B in deferred maintenance needs; over 120 properties, including the CIA-linked site, were scrubbed when it was pulled.",
       "confidence_note": "Strongly corroborated across Wired's original identification of the CIA link, multiple independent outlets, and GSA's own public statements."
+    }
+  },
+  {
+    "id": "gsa-usds-tts-tech-workforce-cuts-2025",
+    "title": "DOGE Cut GSA's Tech Workforce 67% Beyond 18F -- April 2025 RIF Wave Later Blocked by Court Order",
+    "institution": "General Services Administration (GSA) -- Technology Transformation Services / U.S. Digital Service (USDS)",
+    "domain": "staff_office_cuts",
+    "status": "Partially reversed -- a December 18, 2025 federal court order forced GSA to pause further layoffs and rescind its April 2025 RIF notices; the preceding USDS and 18F cuts were not reversed, and TTS had already lost 67% of its workforce since January 25, 2025",
+    "date_of_action": "2025-02 (USDS mass firings) through 2025-12-18 (court order halting further GSA layoffs)",
+    "what_changed": "In February 2025, roughly a third of U.S. Digital Service (USDS) staff were terminated via a mass, largely anonymous email as part of Elon Musk and DOGE's restructuring, affecting civil servants who worked on tax-filing, healthcare, student-aid, disaster-relief, and veterans-services technology systems; 21 remaining USDS technologists then resigned in protest, writing to the White House that they would not 'carry out or legitimize' DOGE's actions. In March 2025, DOGE eliminated GSA's roughly 90-person 18F digital-services unit entirely -- documented separately in this tracker's [[gsa-18f-shutdown-direct-file-2025]] entry on the resulting shutdown of the IRS's free Direct File tax tool. In April 2025, GSA's then-acting administrator Stephen Ehikian and Technology Transformation Services (TTS) Director Thomas Shedd announced a further reduction-in-force aiming to cut TTS's workforce roughly in half, limiting its work to statutorily required and administration-designated 'critical' functions; GSA sent approximately 130 RIF-intent notices to staff in the Office of the Integrated Award Environment (IAE, which underpins core federal contracting systems), the Office of Regulatory and Oversight Systems, and parts of the Office of Solutions, while explicitly sparing FedRAMP, Login.gov, and Cloud.gov. By the time of a later court intervention, TTS had lost 67% of its total workforce since January 25, 2025. On December 18, 2025, a federal judge ruled that several agencies -- including GSA, the Department of Education, the State Department, and the Small Business Administration -- had to pause layoffs and rescind RIF notices issued since October 1, 2025, to comply with the spending law that had ended the government shutdown; GSA's Shedd subsequently rescinded the April notices sent to the roughly 130 IAE/Regulatory-and-Oversight/Solutions employees.",
+    "primary_proponent": {
+      "name": "Elon Musk / Department of Government Efficiency (DOGE)",
+      "role": "Directed the initial February-March 2025 USDS and 18F cuts across GSA",
+      "note": "Implementation of the subsequent April 2025 TTS reduction-in-force was carried out by GSA's then-acting administrator Stephen Ehikian and TTS Director Thomas Shedd, who also executed the December 2025 court-ordered rescission of those notices."
+    },
+    "estimated_impact": {
+      "summary": "Gutted the federal government's in-house digital-services capacity well beyond the separately-documented Direct File shutdown, reaching disaster-preparedness, passport-processing, and the contracting systems agencies use to buy and manage billions of dollars in goods and services -- before a federal court order blocked the most recent RIF wave from taking final effect.",
+      "figures": [
+        {
+          "metric": "USDS/GSA technologists fired or resigned, Feb 2025",
+          "value": "~200 (combined USDS + early GSA reductions)",
+          "source": "Wired, February 2025"
+        },
+        {
+          "metric": "USDS staff who resigned in protest",
+          "value": "21",
+          "source": "FedScoop, NBC News"
+        },
+        {
+          "metric": "GSA TTS RIF-intent notices, April 2025",
+          "value": "~130",
+          "source": "FedScoop, GovExec, Nextgov/FCW"
+        },
+        {
+          "metric": "Total TTS workforce reduction since Jan 25, 2025",
+          "value": "67%",
+          "source": "Nextgov/FCW, citing GSA, December 2025"
+        }
+      ],
+      "caveat": "The ~200-technologist figure describes combined USDS, 18F, and early GSA reductions per Wired's February 2025 reporting, not a single formal headcount announcement. The April RIF notices were ultimately rescinded following the December 2025 court order, so that specific wave of terminations did not take final effect as of this entry's addition -- though the preceding USDS and 18F cuts, and the resulting 67% TTS workforce reduction, were not reversed."
+    },
+    "confidence_note": "HIGH confidence -- corroborated across Wired, FedScoop, NBC News, Nextgov/FCW, GovExec, and Federal News Network, including on-the-record GSA statements, named officials (Ehikian, Shedd), and a federal court order.",
+    "last_verified": "2026-08-10",
+    "date_added": "2026-08-10",
+    "sources": [
+      {
+        "name": "Wired -- DOGE's major government tech project cuts",
+        "url": "https://www.wired.com/story/doge-major-government-tech-projects-efficiency/"
+      },
+      {
+        "name": "FedScoop -- GSA tech arm faces more workforce cuts",
+        "url": "https://fedscoop.com/gsa-tech-arm-faces-more-workforce-cuts/"
+      },
+      {
+        "name": "GovExec -- GSA preps for layoffs at TTS",
+        "url": "https://www.govexec.com/management/2025/04/gsa-preps-layoffs-tts/404475/"
+      },
+      {
+        "name": "Federal News Network -- GSA's tech shop begins layoffs to become 'smaller and flexible'",
+        "url": "https://federalnewsnetwork.com/technology-main/2025/04/gsas-tech-shop-begins-layoffs-to-become-smaller-and-flexible/"
+      },
+      {
+        "name": "Nextgov/FCW -- GSA backs off planned layoffs within its technology team after court order",
+        "url": "https://www.nextgov.com/people/2025/12/gsa-backs-planned-layoffs-within-its-technology-team-after-court-order/410304/"
+      },
+      {
+        "name": "FedScoop -- 21 technologists quit USDS, saying DOGE demands 'are not compatible with the mission'",
+        "url": "https://fedscoop.com/usds-workers-quit-doge-tech-elon-musk/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "DOGE fired ~200 USDS/GSA technologists and eliminated 18F in early 2025, then GSA moved to cut TTS's workforce in half in April 2025 -- a wave a December 2025 court order forced GSA to rescind, by which point TTS had already lost 67% of its staff.",
+      "estimated_impact": "Reduced federal in-house tech capacity for contracting systems, disaster prep, and passport processing well beyond the Direct File shutdown, before a court order blocked the latest RIF wave.",
+      "confidence_note": "Well-corroborated across multiple tech-policy and general-news outlets, named GSA officials, and a documented federal court order."
     }
   },
   {
@@ -11894,7 +12219,7 @@
     "domain": "staff_office_cuts",
     "status": "Operationally dissolved (July 1, 2025) but legally unresolved -- USAID was made an independent agency by Congress in 1998 and can only be formally abolished by an act of Congress, which has not occurred",
     "date_of_action": "2025-01-24 (foreign aid freeze ordered) through 2025-07-01 (official dissolution and merger into State Department)",
-    "what_changed": "On his first days in office, Trump ordered a near-total freeze on foreign aid, and within weeks the administration placed most USAID employees on administrative leave. By March 10, 2025, Secretary of State Rubio announced 83% of USAID's programs (roughly 5,200 contracts) had been terminated following an internal review; on March 28 he formally notified Congress that USAID would be dissolved and its remaining functions absorbed into the State Department. USAID officially ceased independent operations on July 1, 2025, after 63 years. Staffing was reduced from over 10,000 employees to fewer than 300. USAID's own Inspector General issued a report warning the spending pause and staff furloughs limited the agency's ability to ensure funds didn't reach terrorist-linked recipients, and separately warned that $489 million in humanitarian food aid risked spoiling due to the furloughs; the White House Office of Presidential Personnel fired that Inspector General less than 30 minutes after the report's publication -- despite a federal law requiring 30 days' advance notice to Congress before removing an inspector general. A significant, largely unresolved legal question underlies the entire action: USAID was reorganized by Congress as an independent agency in 1998 specifically to give it statutory protection, and per that same statute can only be formally abolished by an act of Congress -- which has not happened. USAID therefore legally still exists even though it has been operationally dissolved. On the litigation front, the D.C. Circuit held oral argument on April 23, 2026 (before Judges Srinivasan, Pillard, and Pan) on the appeal of the core USAID dismantlement case; no ruling had issued as of this update. In a related case, briefing continues on a schedule running into summer 2026, with the government's reply brief due July 31, 2026. Separately, a federal court in Maryland denied efforts to block depositions of Elon Musk and other DOGE-linked officials in a class-action suit over USAID's shutdown; that case is proceeding through discovery. Re-verified 2026-07-26: no ruling identified yet from the D.C. Circuit panel (Srinivasan, Pillard, Pan) that heard oral argument April 23, 2026; the appeal remains undecided and USAID's operational/legal status is unchanged from the prior update. Added 2026-07-27: former USAID Administrator Samantha Power said in a Bloomberg interview that she does not believe the Ebola outbreak spreading across the Democratic Republic of the Congo and Uganda -- which has killed more than 400 people -- would be spiraling as it has if USAID had not been dismantled, citing the loss of the agency's early-warning disease-surveillance systems and cold-chain infrastructure (whose degradation contributed to delayed detection, since transported swab samples were no longer reliably preserved). The administration's separate withdrawal from the World Health Organization compounded the effect by removing another layer of international outbreak-response coordination. This is presented as a concrete, on-the-ground consequence of the dismantlement documented above, not a new or separate action. Added 2026-08-10: Rubio's 'no one has died' claim was not the only official denial contradicted by the record -- Mother Jones reported in June 2025 that internal State Department cables reviewed by the outlet documented lifesaving HIV treatment programs in Lesotho and food-aid programs in Malawi being cut as a direct result of the dismantlement, with diplomats warning of resulting deaths, hunger, and trafficking risk. That reporting directly contradicts Elon Musk's own public claim, made while leading the DOGE effort that drove the cuts, that 'zero people have died' as a result.",
+    "what_changed": "On his first days in office, Trump ordered a near-total freeze on foreign aid, and within weeks the administration placed most USAID employees on administrative leave. By March 10, 2025, Secretary of State Rubio announced 83% of USAID's programs (roughly 5,200 contracts) had been terminated following an internal review; on March 28 he formally notified Congress that USAID would be dissolved and its remaining functions absorbed into the State Department. USAID officially ceased independent operations on July 1, 2025, after 63 years. Staffing was reduced from over 10,000 employees to fewer than 300. USAID's own Inspector General issued a report warning the spending pause and staff furloughs limited the agency's ability to ensure funds didn't reach terrorist-linked recipients, and separately warned that $489 million in humanitarian food aid risked spoiling due to the furloughs; the White House Office of Presidential Personnel fired that Inspector General less than 30 minutes after the report's publication -- despite a federal law requiring 30 days' advance notice to Congress before removing an inspector general. Added 2026-08-10: The New York Times reported in early March 2025 that the freeze had already crippled global disease-prevention programs on the ground -- leaving dangerous pathogens unsecured, halting inspections for Ebola and mpox, and stopping screenings at international checkpoints -- with scientists warning that outbreaks once contained by U.S.-funded efforts now posed a greater risk of spreading worldwide, including to the U.S.; this is an earlier, contemporaneous data point on the same disease-surveillance capacity loss later linked (see below) to the 2026 DRC/Uganda Ebola outbreak, not a separate action. A significant, largely unresolved legal question underlies the entire action: USAID was reorganized by Congress as an independent agency in 1998 specifically to give it statutory protection, and per that same statute can only be formally abolished by an act of Congress -- which has not happened. USAID therefore legally still exists even though it has been operationally dissolved. On the litigation front, the D.C. Circuit held oral argument on April 23, 2026 (before Judges Srinivasan, Pillard, and Pan) on the appeal of the core USAID dismantlement case; no ruling had issued as of this update. In a related case, briefing continues on a schedule running into summer 2026, with the government's reply brief due July 31, 2026. Separately, a federal court in Maryland denied efforts to block depositions of Elon Musk and other DOGE-linked officials in a class-action suit over USAID's shutdown; that case is proceeding through discovery. Re-verified 2026-07-26: no ruling identified yet from the D.C. Circuit panel (Srinivasan, Pillard, Pan) that heard oral argument April 23, 2026; the appeal remains undecided and USAID's operational/legal status is unchanged from the prior update. Added 2026-07-27: former USAID Administrator Samantha Power said in a Bloomberg interview that she does not believe the Ebola outbreak spreading across the Democratic Republic of the Congo and Uganda -- which has killed more than 400 people -- would be spiraling as it has if USAID had not been dismantled, citing the loss of the agency's early-warning disease-surveillance systems and cold-chain infrastructure (whose degradation contributed to delayed detection, since transported swab samples were no longer reliably preserved). The administration's separate withdrawal from the World Health Organization compounded the effect by removing another layer of international outbreak-response coordination. This is presented as a concrete, on-the-ground consequence of the dismantlement documented above, not a new or separate action. Added 2026-08-10: Rubio's 'no one has died' claim was not the only official denial contradicted by the record -- Mother Jones reported in June 2025 that internal State Department cables reviewed by the outlet documented lifesaving HIV treatment programs in Lesotho and food-aid programs in Malawi being cut as a direct result of the dismantlement, with diplomats warning of resulting deaths, hunger, and trafficking risk. That reporting directly contradicts Elon Musk's own public claim, made while leading the DOGE effort that drove the cuts, that 'zero people have died' as a result.",
     "primary_proponent": {
       "name": "Marco Rubio",
       "role": "Secretary of State",
@@ -11941,9 +12266,9 @@
       ],
       "caveat": "The State Department disputes the Lancet methodology directly and sharply -- a senior official called it a 'failed journal' and said such studies reflect 'outdated thinking.' This is a genuinely disputed empirical question about mortality modeling, not merely a political disagreement, and modelers themselves (including ones unaffiliated with the study) caution the precise death-toll numbers carry real uncertainty even while endorsing the general conclusion. Separately, the administration's own stated justification (that USAID had significant oversight and accountability failures) has some independent support -- USAID itself failed to conduct legally-required financial reviews for over 70% of the international organizations receiving its funding in 2023, per the agency's own inspector general -- though fact-checkers found most of the administration's specific waste examples cited publicly were false or highly misleading."
     },
-    "confidence_note": "Exceptionally strong sourcing across the full political spectrum of outlets (NPR, CNN, ABC News, Newsweek) plus a peer-reviewed medical journal (The Lancet) with two independent studies a year apart, plus USAID's own Inspector General's report before that office was itself eliminated. The legal status question (independent agency status under the 1998 statute) is a matter of public record, not interpretation. Rubio's 'no one has died' claim and the mortality studies represent a genuine, sourced factual conflict -- present both sides with their actual sourcing rather than treating either claim as simply settled. Re-verified 2026-07-20: no material change to USAID's operational or legal status -- still operationally dissolved, still legally unresolved. Litigation is active but slow-moving (argued in April 2026, undecided as of this update); the Musk deposition development is a discovery-stage procedural win for plaintiffs, not a ruling on the merits. Re-verified 2026-07-26: no material change to report. Added 2026-07-27: the Ebola/Power reporting is corroborated across Bloomberg (Power's own on-record interview), CNN, The Hill, and CNBC; it is presented as attributed expert opinion linking a real, ongoing outbreak to the dismantlement documented in this entry, not as an independently adjudicated causal finding. Added 2026-08-10: the Mother Jones cable reporting is a single-outlet source but is grounded in internal State Department cables, not commentary or secondhand accounts -- a primary-source-adjacent document type this tracker weights strongly. It documents a second official's (Musk's) public denial contradicted by the internal record, alongside Rubio's already-documented 'no one has died' claim.",
+    "confidence_note": "Exceptionally strong sourcing across the full political spectrum of outlets (NPR, CNN, ABC News, Newsweek) plus a peer-reviewed medical journal (The Lancet) with two independent studies a year apart, plus USAID's own Inspector General's report before that office was itself eliminated. The legal status question (independent agency status under the 1998 statute) is a matter of public record, not interpretation. Rubio's 'no one has died' claim and the mortality studies represent a genuine, sourced factual conflict -- present both sides with their actual sourcing rather than treating either claim as simply settled. Re-verified 2026-07-20: no material change to USAID's operational or legal status -- still operationally dissolved, still legally unresolved. Litigation is active but slow-moving (argued in April 2026, undecided as of this update); the Musk deposition development is a discovery-stage procedural win for plaintiffs, not a ruling on the merits. Re-verified 2026-07-26: no material change to report. Added 2026-07-27: the Ebola/Power reporting is corroborated across Bloomberg (Power's own on-record interview), CNN, The Hill, and CNBC; it is presented as attributed expert opinion linking a real, ongoing outbreak to the dismantlement documented in this entry, not as an independently adjudicated causal finding. Added 2026-08-10: the Mother Jones cable reporting is a single-outlet source but is grounded in internal State Department cables, not commentary or secondhand accounts -- a primary-source-adjacent document type this tracker weights strongly. It documents a second official's (Musk's) public denial contradicted by the internal record, alongside Rubio's already-documented 'no one has died' claim. The March 2025 New York Times reporting on halted Ebola/mpox screening is contemporaneous, single-outlet coverage of an immediate operational consequence of the freeze, consistent with and predating the later Power/Bloomberg Ebola-outbreak linkage already documented above.",
     "section_summaries": {
-      "what_changed": "USAID was operationally shuttered and absorbed into State after a near-total funding freeze shrank its staff by more than 97% -- though legally, only Congress can abolish it, and hasn't. Former Administrator Samantha Power has since linked the dismantlement to a worsening Ebola outbreak in the DRC and Uganda.",
+      "what_changed": "USAID was operationally shuttered and absorbed into State after a near-total funding freeze shrank its staff by more than 97% -- though legally, only Congress can abolish it, and hasn't. Disease-screening and outbreak-prevention programs were disrupted almost immediately, and former Administrator Samantha Power has since linked the dismantlement to a worsening Ebola outbreak in the DRC and Uganda.",
       "estimated_impact": "A peer-reviewed Lancet study credited this funding with preventing tens of millions of deaths and projected millions more by 2030 if the cuts hold, calling the toll avoidable, not inevitable; a 2026 Ebola outbreak (400+ deaths) is cited as a concrete real-world instance of that lost capacity.",
       "confidence_note": "Exceptionally strong sourcing, including two independent peer-reviewed medical studies and the agency's own Inspector General; official statements and the death-toll research genuinely disagree -- present both. The Ebola link is attributed expert opinion, well-corroborated but not an adjudicated causal finding."
     },
@@ -11989,6 +12314,10 @@
       {
         "name": "Mother Jones — State Department cables reveal deadly consequences of Musk's USAID dismantling (PEPFAR, Lesotho, Malawi)",
         "url": "https://www.motherjones.com/politics/2025/06/state-department-cables-pepfar-lesotho-malawi-usaid-elon-musk/"
+      },
+      {
+        "name": "New York Times — USAID funding halt crippled disease-outbreak prevention programs",
+        "url": "https://www.nytimes.com/2025/03/07/health/usaid-funding-disease-outbreaks.html"
       }
     ],
     "last_updated": "2026-08-10"
