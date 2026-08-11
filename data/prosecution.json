@@ -2191,6 +2191,55 @@
     }
   },
   {
+    "official": "Kristi Noem, Secretary of Homeland Security",
+    "offense_category": "DOJ Criminal Subpoenas and FEMA/DHS Grant-Condition Demands Targeting Migrant Shelters and Their Funders Nationwide, Struck Down by a Federal Court as Unlawfully Coerced Immigration Enforcement",
+    "contested": true,
+    "incident_summary": "In March 2025, federal prosecutors served criminal subpoenas on at least three New York City hotels used as migrant shelters -- the Roosevelt Hotel, the Row NYC (Stewart Hotel), and the Hotel Chandler -- demanding the names, birth dates, and nationalities of residents, as well as the identities of the entities and individuals funding the shelter programs. In parallel, FEMA required recipients of its Shelter and Services Program grants nationwide to submit, within 30 days, lists of names and contact information for every migrant they had assisted, and required each recipient organization's executive officers to personally sign sworn affidavits attesting they had no knowledge or suspicion that anyone in their organization had violated federal human-smuggling law -- effectively conditioning continued disaster/shelter funding on self-incriminating attestations and mass data handover with no individualized suspicion. A coalition ultimately growing to roughly 20 states and the District of Columbia, led by Illinois, sued DHS, FEMA, and Secretary Kristi Noem in the U.S. District Court for the District of Rhode Island (Illinois v. FEMA and the related Illinois v. Noem), arguing the administration was withholding congressionally appropriated emergency-preparedness funds unless states diverted resources to federal civil immigration enforcement. On September 24, 2025, Senior U.S. District Judge William E. Smith granted the states summary judgment and permanently enjoined DHS and FEMA from enforcing the immigration-related conditions across 40 separate federal grant programs, finding the conditions unlawful.",
+    "elements_required": [
+      "Federal agencies (DOJ, FEMA/DHS) demanded personal identifying data on migrants and shelter funders without individualized suspicion of wrongdoing",
+      "Grant recipients were required to sign sworn, potentially self-incriminating affidavits as a condition of receiving already-appropriated emergency-preparedness funding",
+      "A large multi-state coalition formally challenged the conditions in federal court as unlawful coercion",
+      "A federal judge agreed and issued a permanent injunction, rather than the conditions being upheld or the case being dismissed"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "Fox 5 New York, NBC New York, and U.S. News reported DOJ's March 2025 criminal subpoenas to the Roosevelt Hotel, Row NYC/Stewart Hotel, and Hotel Chandler demanding migrant residents' names, birth dates, and nationalities, and the identities of the shelters' funders",
+        "source_url": "https://www.fox5ny.com/news/dept-justice-subpoenas-manhattan-hotel-migrant-shelter-investigation",
+        "maps_to_element": "DOJ's demand for personal data without individualized suspicion"
+      },
+      {
+        "type": "news_report",
+        "description": "The Texas Tribune and Yahoo News (AP) reported FEMA's March 2025 requirement that Shelter and Services Program grant recipients submit migrant names/contact information within 30 days and that executive officers sign sworn affidavits denying knowledge or suspicion of smuggling-law violations, as a condition of continued grant funding",
+        "source_url": "https://www.texastribune.org/2025/03/13/texas-fema-federal-grants-immigrants/",
+        "maps_to_element": "FEMA's self-incriminating affidavit requirement tied to funding"
+      },
+      {
+        "type": "public_record",
+        "description": "The Immigrant Legal Resource Center and Civil Rights Litigation Clearinghouse documented the Illinois-led, ~20-state coalition lawsuit (Illinois v. FEMA, D.R.I. 1:25-cv-00206; Illinois v. Noem, D.R.I. 1:25-cv-00495) challenging the immigration-related grant conditions as unlawful federal coercion",
+        "source_url": "https://www.ilrc.org/immigration-enforcement/federal-tracking/federal-litigation/illinois-sued-fema-immigration",
+        "maps_to_element": "The multi-state legal challenge"
+      },
+      {
+        "type": "public_record",
+        "description": "HSToday reported Senior U.S. District Judge William E. Smith's September 24, 2025 order granting the states summary judgment and permanently enjoining DHS/FEMA from enforcing the immigration-related conditions across 40 federal grant programs",
+        "source_url": "https://www.hstoday.us/perspective/eyes-on-preparedness-federal-courts-block-fema-dhs-immigration-grant-conditions-safeguarding-billions-in-emergency-preparedness-funds/",
+        "maps_to_element": "The federal court's permanent injunction"
+      }
+    ],
+    "status": "Permanently enjoined -- Judge Smith's September 24, 2025 ruling bars DHS/FEMA from enforcing these immigration-related conditions on the 40 grant programs at issue; no appeal outcome identified in sourcing reviewed",
+    "rebuttal_anticipated": "DOJ and DHS framed the subpoenas and grant conditions as legitimate law-enforcement and anti-smuggling measures, consistent with the administration's broader immigration-enforcement priorities, and FEMA's Shelter and Services Program itself funds a discretionary, non-mandatory federal grant program rather than a core disaster-relief entitlement.",
+    "comeback": "A federal judge -- applying ordinary administrative and constitutional law, not an ideological standard -- found the conditions unlawful and permanently enjoined their enforcement across 40 grant programs after a roughly 20-state coalition challenge, indicating the conditions exceeded lawful grant-conditioning authority rather than reflecting a legitimate close call; requiring sworn, personally liability-creating affidavits from grant recipients' executives as a funding condition, with no individualized suspicion, is a substantively different and more coercive mechanism than an ordinary law-enforcement subpoena or an eligibility requirement tied to the grant's actual purpose.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] An example of the administration using both criminal-investigative tools (DOJ subpoenas) and appropriated-funding leverage (FEMA grant conditions) against organizations serving migrants, a pattern a federal court found crossed into unlawful coercion when appropriations already approved by Congress were conditioned on states/grantees performing federal civil immigration enforcement.",
+    "last_updated": "2026-08-11",
+    "date_added": "2026-08-11",
+    "confidence_note": "HIGH confidence on the DOJ subpoenas and FEMA grant-condition demands, corroborated across Fox 5 NY, NBC New York, U.S. News, AP/Yahoo, and the Texas Tribune. HIGH confidence on the litigation outcome, corroborated across the Immigrant Legal Resource Center, the Civil Rights Litigation Clearinghouse's case docket, and HSToday's reporting on Judge Smith's September 24, 2025 order. `contested: true` because DOJ/DHS's law-enforcement rationale for the underlying subpoenas/conditions has not been independently adjudicated as pretextual -- only the FEMA/DHS grant-conditioning mechanism itself was found unlawful.",
+    "section_summaries": {
+      "incident_summary": "DOJ subpoenaed NYC migrant shelters for residents' personal data in March 2025 while FEMA simultaneously required grant recipients nationwide to hand over migrant records and sign sworn no-smuggling-knowledge affidavits as a funding condition; a ~20-state coalition sued, and a federal judge permanently enjoined DHS/FEMA from enforcing the conditions in September 2025.",
+      "confidence_note": "Well-corroborated across national and local outlets for the underlying demands, and across legal-tracking sources for the litigation outcome; the underlying law-enforcement rationale for the subpoenas themselves remains a contested characterization, distinct from the grant-conditioning mechanism a court did strike down."
+    }
+  },
+  {
     "official": "Justice Department political appointees (individuals not named in reporting reviewed), under Attorney General Pam Bondi",
     "offense_category": "Halting a Criminal Investigation Into Alleged Improper Payments Connected to a Presidential Clemency Grant -- no charges have been filed against anyone involved, and the investigation itself was shut down before reaching a conclusion",
     "contested": true,
@@ -6626,7 +6675,7 @@
   {
     "official": "Donald Trump, President",
     "offense_category": "Selective Clemency Pattern -- Pardoning Convicted Fraudsters (Many Donors/Allies) While Publicly Launching a New Anti-Fraud Enforcement Initiative -- clemency is a constitutional presidential power, not itself unlawful; the accountability claim concerns the pattern's inconsistency and its ties to political/financial support",
-    "incident_summary": "The New York Times reported Trump has granted clemency to more than 70 people convicted of fraud across his two terms, including numerous donors and allies, with those pardoned owing a combined $700 million in restitution and fines that the clemency wiped out. Specific documented cases include Philip Esformes, sentenced to 20 years for a $1.3 billion Medicare/Medicaid fraud scheme prosecutors called the largest-ever criminal health care fraud case brought against individuals; Salomon Melgen, a Palm Beach doctor sentenced to 17 years for stealing more than $42 million from Medicare; Trevor Milton, founder of electric-vehicle startup Nikola, pardoned after he and his wife donated $1.8 million to the Trump campaign; and Julio Herrera Velutini, granted clemency after his daughter donated $3.5 million to the pro-Trump PAC MAGA Inc. (Trump's pardon of Republican donor Adam Kidan, tracked separately in this database, fits the same pattern.) On March 16, 2026, Trump signed an executive order establishing a new 'Task Force to Eliminate Fraud,' to be led by Vice President JD Vance, publicly framing fraud enforcement as an administration priority even as the pardon pattern continued. A further documented example: ProPublica reported Trump pardoned nursing home operator Joseph Schwartz after he had served just three months of a three-year sentence for a $39 million fraud scheme tied to his collapsing chain of care facilities. Families of patients who died or were harmed under Schwartz's ownership had won multimillion-dollar civil judgments against him, but ProPublica found many have recovered nothing, a debt now further complicated by his truncated sentence and clemency.",
+    "incident_summary": "The New York Times reported Trump has granted clemency to more than 70 people convicted of fraud across his two terms, including numerous donors and allies, with those pardoned owing a combined $700 million in restitution and fines that the clemency wiped out. Specific documented cases include Philip Esformes, sentenced to 20 years for a $1.3 billion Medicare/Medicaid fraud scheme prosecutors called the largest-ever criminal health care fraud case brought against individuals; Salomon Melgen, a Palm Beach doctor sentenced to 17 years for stealing more than $42 million from Medicare; Trevor Milton, founder of electric-vehicle startup Nikola, pardoned after he and his wife donated $1.8 million to the Trump campaign; and Julio Herrera Velutini, granted clemency after his daughter donated $3.5 million to the pro-Trump PAC MAGA Inc. (Trump's pardon of Republican donor Adam Kidan, tracked separately in this database, fits the same pattern -- as does the pardon of former Tennessee state Sen. Brian Kelsey, a campaign-finance-fraud case rather than a financial-fraud-against-victims case, also tracked separately.) On March 16, 2026, Trump signed an executive order establishing a new 'Task Force to Eliminate Fraud,' to be led by Vice President JD Vance, publicly framing fraud enforcement as an administration priority even as the pardon pattern continued. A further documented example: ProPublica reported Trump pardoned nursing home operator Joseph Schwartz after he had served just three months of a three-year sentence for a $39 million fraud scheme tied to his collapsing chain of care facilities. Families of patients who died or were harmed under Schwartz's ownership had won multimillion-dollar civil judgments against him, but ProPublica found many have recovered nothing, a debt now further complicated by his truncated sentence and clemency.",
     "contested": true,
     "elements_required": [
       "Trump has pardoned or commuted the sentences of more than 70 people convicted of fraud, a documented aggregate figure, not isolated anecdotes",
@@ -6664,7 +6713,7 @@
     "rebuttal_anticipated": "Likely defense: the presidential clemency power is constitutionally unreviewable and has always been exercised in ways critics of any administration characterize as favoring the well-connected, each individual pardon can be independently justified on its own facts (rehabilitation, disproportionate sentencing, procedural concerns), and a new anti-fraud task force targeting future conduct is not logically inconsistent with clemency for past convictions.",
     "comeback": "The specific concern is not that clemency power exists or is exercised, but the scale (70+ fraud pardons) and the documented pattern connecting a meaningful share of them to campaign or PAC contributions from the recipients or their families -- a pattern inconsistent with the fraud-enforcement priority the same administration simultaneously announced, and one that collectively erased roughly $700 million victims and taxpayers were owed in restitution.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the pattern this tracker documents elsewhere of clemency being extended to individually named donors and allies (trump-kidan-donor-pardon-2026.json, trump-hernandez-pardon-special-treatment-2026.json) -- this entry documents the aggregate scale of that pattern specifically in fraud cases.",
-    "last_updated": "2026-08-06",
+    "last_updated": "2026-08-11",
     "date_added": "2026-08-06",
     "confidence_note": "HIGH confidence on the aggregate pardon count, the $700 million restitution figure, and the specific named cases (Esformes, Melgen, Milton, Herrera Velutini) -- independently corroborated across The New York Times's own investigation and Rolling Stone's reporting, which documents specific contribution amounts and dates. MODERATE confidence on characterizing every individual pardon as contribution-motivated, since the Times' reporting establishes a pattern and specific documented examples rather than a confirmed quid pro quo finding for all 70+ cases. Re-verified 2026-08-06: the Schwartz pardon is independently corroborated via ProPublica's own dedicated investigation, including the unpaid civil judgments to victims' families.",
     "section_summaries": {
@@ -7022,6 +7071,49 @@
     "section_summaries": {
       "incident_summary": "Andrew Paul Johnson, pardoned by Trump for Jan. 6 conduct in a blanket clemency grant, was arrested months later for child molestation and sentenced to life in prison in March 2026 -- reported as one of multiple cases of pardoned Jan. 6 defendants committing new crimes.",
       "confidence_note": "Well-corroborated across NPR, NBC News, and an independent fact-check, with no facts disputed."
+    }
+  },
+  {
+    "official": "Donald Trump, President",
+    "offense_category": "Presidential Pardon of a Political Ally Convicted of Federal Campaign-Finance Fraud, Issued Two Weeks Into His Sentence -- clemency is a constitutional power, not itself unlawful; the accountability question is the pattern of near-immediate, favor-adjacent clemency for political allies rather than the pardon act itself",
+    "contested": false,
+    "incident_summary": "Former Tennessee state Sen. Brian Kelsey pleaded guilty in November 2022 to illegally funneling roughly $91,000 from his state Senate campaign account into a national organization supporting his failed 2016 U.S. House bid, and to filing false campaign-finance reports to conceal the transfer -- a scheme prosecutors said was designed to evade federal contribution limits. U.S. District Judge Waverly Crenshaw denied Kelsey's repeated attempts to withdraw his guilty plea or otherwise reopen the case, as recently as February 2025, and Kelsey reported to federal prison to begin his 21-month sentence. On March 11, 2025 -- just two weeks into that sentence -- Trump granted Kelsey a 'full and unconditional pardon.' In a public statement, Kelsey said 'God used Donald Trump to save me from the weaponized Biden DOJ,' explicitly echoing Trump's own rhetoric about his personal legal cases, despite having pleaded guilty rather than being convicted at trial. Tennessee Democratic state Rep. Gloria Johnson responded, 'Dude plead guilty, but sure.' Within a month of his release, Kelsey began lobbying sitting Tennessee state senators to amend a pending campaign-finance bill (SB 229) to let him use leftover funds in his state campaign account to pay his personal legal fees from the case -- after Tennessee's own Bureau of Ethics and Campaign Finance had already denied his request to do so. State Sen. Brent Taylor drafted the requested amendment at Kelsey's request; state Sen. Richard Briggs confirmed Kelsey called him personally to press for it.",
+    "elements_required": [
+      "A Trump political ally/co-partisan convicted (here, via guilty plea) of a federal campaign-finance crime",
+      "Clemency granted within days to weeks of the ally beginning to serve the sentence, before any new evidence or legal defect was identified",
+      "The pardoned individual publicly adopted Trump's own 'weaponized' framing to recast a guilty plea as persecution",
+      "Post-pardon, the individual used the clemency's practical effect (freedom, no restitution/legal-fee obligation resolved through the courts) to actively seek further personal financial benefit through the political process (the state legislative amendment)"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "CNBC and the Tennessee Lookout reported the underlying conviction (guilty plea to illegally funneling ~$91,000 in campaign funds and filing false reports), Judge Crenshaw's denial of Kelsey's attempts to reopen the case as late as February 2025, and Kelsey's own statement crediting Trump with saving him from a 'weaponized' DOJ",
+        "source_url": "https://www.cnbc.com/2025/03/12/trump-pardon-tennessee-brian-kelsey-prison-campaign-doj.html",
+        "maps_to_element": "The underlying offense and the pardoned individual's public framing"
+      },
+      {
+        "type": "news_report",
+        "description": "Axios Nashville reported Trump's March 11, 2025 'full and unconditional pardon' of Kelsey, two weeks into his 21-month sentence, including the pardon document provided by Kelsey's lawyer",
+        "source_url": "https://www.axios.com/local/nashville/2025/03/12/trump-pardon-former-tennessee-lawmaker-brian-kelsey",
+        "maps_to_element": "Timing and nature of the clemency grant"
+      },
+      {
+        "type": "news_report",
+        "description": "The Tennessee Lookout reported Kelsey lobbying state senators in April 2025 to amend pending campaign-finance legislation (SB 229) to let him use his state campaign account to pay personal legal fees, after Tennessee's Bureau of Ethics and Campaign Finance had already denied that request; Sen. Brent Taylor drafted the amendment at Kelsey's request",
+        "source_url": "https://tennesseelookout.com/2025/04/09/pardoned-ex-sen-kelsey-wrangles-for-amendment-to-campaign-finance-bill/",
+        "maps_to_element": "Post-pardon pursuit of further financial benefit through the political process"
+      }
+    ],
+    "status": "Pardon final and not subject to reversal; the Tennessee legislative amendment Kelsey sought had not been confirmed as passed in sourcing reviewed as of this entry -- worth rechecking",
+    "rebuttal_anticipated": "Presidential clemency is an unreviewable constitutional power, and Trump has pardoned across party lines in other cases; supporters frame the DOJ's original prosecution as itself part of a broader pattern of politically motivated campaign-finance enforcement against conservatives, per Kelsey's and Rep. Jeremy Faison's public comments that 'the law that put Kelsey behind bars is unjust.'",
+    "comeback": "Kelsey pleaded guilty rather than being convicted at trial or on disputed evidence, and a federal judge rejected his repeated attempts to withdraw that plea as recently as weeks before the pardon -- there is no post-conviction finding of prosecutorial misconduct or evidentiary defect resembling the 'weaponization' framing Kelsey adopted. The two-week gap between reporting to prison and receiving a full pardon, followed within a month by an active lobbying effort to extract further financial benefit (state funds to cover personal legal fees) through allies in the state legislature, is a documented sequence independent of how the underlying prosecution is characterized.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] One instance in a broader documented pattern (see [[trump-fraudster-pardons-pattern-2026]]) of near-immediate presidential clemency for political allies and donors convicted of financial/campaign-finance crimes, adopting Trump's own 'weaponized justice system' framing regardless of whether the case involved a trial, contested evidence, or (as here) an uncontested guilty plea.",
+    "last_updated": "2026-08-11",
+    "date_added": "2026-08-11",
+    "confidence_note": "HIGH confidence on the pardon's timing, the underlying guilty plea, and Kelsey's own public statement -- corroborated across Axios, CNBC, WSMV, and the Tennessee Lookout. HIGH confidence on the post-pardon legislative-lobbying episode, sourced to Tennessee Lookout's direct reporting including on-record confirmation from state Sen. Richard Briggs; the outcome of the amendment itself (passed, failed, withdrawn) was not confirmed in sourcing reviewed.",
+    "section_summaries": {
+      "incident_summary": "Trump gave Tennessee state Sen. Brian Kelsey a full pardon just two weeks into his sentence for a campaign-finance fraud guilty plea; Kelsey then lobbied Tennessee legislators to let him use state campaign funds to cover his personal legal fees, after state regulators had already denied that request.",
+      "confidence_note": "Well-corroborated across national and Tennessee outlets; the outcome of Kelsey's post-pardon legislative lobbying effort is unconfirmed and worth a future recheck."
     }
   },
   {

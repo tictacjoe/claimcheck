@@ -452,6 +452,72 @@
     ]
   },
   {
+    "id": "boem-bsee-offshore-drilling-oversight-merger-2025-2026",
+    "title": "DOGE Targeted Offshore Drilling Safety Offices for Closure in 2025, Then Interior Recombined the Post-Deepwater-Horizon Safety/Leasing Split Entirely -- With a 20% Staff Cut -- Prompting a Senate GAO Probe Request",
+    "institution": "Bureau of Ocean Energy Management (BOEM) and Bureau of Safety and Environmental Enforcement (BSEE), Department of the Interior",
+    "domain": "staff_office_cuts",
+    "status": "Merger finalized -- Interior formally created the Marine Minerals Administration by combining BOEM and BSEE; Senate Democrats requested a GAO investigation in July 2026, which was pending as of this entry",
+    "date_of_action": "2025-03-12 (regional office leases listed for termination) through 2026-07-21 (Senate Democrats request GAO investigation)",
+    "what_changed": "In March 2025, DOGE and GSA listed the leases for BOEM's and BSEE's regional offices in Camarillo, California (Pacific offshore region) and New Orleans/Metairie, Louisiana (Gulf offshore region, which oversees roughly 97% of U.S. offshore oil and gas production) among federal office leases slated for early termination, as part of the administration's broader real-estate cost-cutting push. These offices field emergency oil-spill and drilling-incident reports, review offshore energy permit applications, inspect drilling rigs and production platforms, and enforce environmental compliance; BSEE said only that it was 'working with GSA to ensure facilities or alternative options will be available for the continued delivery of Interior services,' with no public detail on where displaced staff -- geologists, engineers, biologists, environmental specialists -- would relocate. Over the following year, the disruption escalated well beyond office leases: on April 3, 2026, Interior Secretary Doug Burgum signed an order creating a new bureau, the Marine Minerals Administration, formally recombining BOEM (which handles offshore leasing and permitting) and BSEE (which handles safety enforcement) into a single agency -- reversing the structural split Congress created after the 2010 Deepwater Horizon disaster specifically because federal investigators found that one agency handling both drilling permits and safety enforcement had become too captured by industry to do its job. The administration paired the merger with a proposed 20% combined staff reduction at BOEM and BSEE, while simultaneously expanding the new bureau's scope to include offshore critical-mineral leasing. A sitting BSEE regional director warned on the record (reported by POLITICO's E&E News) that DOGE cuts had already pushed his office's staffing below the level needed to oversee existing offshore operations, before accounting for the administration's own plans to expand offshore drilling further. On July 21, 2026, Senate Democrats led by Sen. Alex Padilla formally asked the Government Accountability Office to investigate the reorganization, stating it 'raises serious concerns about whether Interior is collapsing the firewall between resource development and independent safety oversight that was established after Deepwater Horizon.'",
+    "primary_proponent": {
+      "name": "Doug Burgum",
+      "role": "Secretary of the Interior",
+      "note": "Signed the April 3, 2026 order creating the Marine Minerals Administration by combining BOEM and BSEE, describing it publicly as 'applying what we've learned over the past decade to deliver clearer coordination' -- the merger recreated the pre-2010 structure that a federal investigation attributed to Deepwater Horizon's regulatory-capture failures."
+    },
+    "estimated_impact": {
+      "summary": "A regulatory structure Congress built specifically to separate offshore drilling's revenue/permitting function from its safety-enforcement function -- after investigators found the combined pre-2010 agency had become captured by the industry it regulated -- was dismantled and recombined within roughly 13 months, paired with a 20% staff cut and an expanded mandate, while a sitting regional safety director said staffing was already inadequate for current operations before any further offshore drilling expansion.",
+      "figures": [
+        {
+          "metric": "Share of U.S. offshore oil and gas production overseen by the threatened New Orleans/Metairie regional office",
+          "value": "~97%",
+          "source": "NOTUS reporting, March 2025"
+        },
+        {
+          "metric": "Proposed combined staff reduction at BOEM and BSEE under the merger",
+          "value": "20%",
+          "source": "POLITICO E&E News, reported via Sen. Padilla's office, July 2026"
+        },
+        {
+          "metric": "House FY2027 Interior-Environment spending bill proposed cuts",
+          "value": "BOEM -20%, BSEE -11%",
+          "source": "POLITICO E&E News"
+        }
+      ],
+      "caveat": "No source reviewed documents a specific missed inspection, delayed spill response, or permit-review failure resulting from the 2025 office-lease threats or the 2026 merger/staff cuts to date -- the GAO investigation, if conducted, would be the authoritative assessment of operational impact. The administration's own public framing of the merger emphasizes 'clearer coordination' and states existing regulatory protections and safety standards are unchanged; that claim is disputed by Senate Democrats and by the on-record BSEE regional director's staffing warning, but not yet independently adjudicated."
+    },
+    "confidence_note": "HIGH confidence on the sequence of events (2025 lease listings, the April 2026 merger order, the 20% staff-cut figure, and the July 2026 GAO request) -- corroborated across NOTUS, POLITICO's E&E News, JPT (Society of Petroleum Engineers), Rigzone, Offshore Magazine, and Sen. Padilla's own office. The framing that this 'recreates' the pre-Deepwater-Horizon conflict of interest is a characterization made by Senate Democrats and advocacy groups (Inletkeeper), not an adjudicated finding -- presented here as a contested characterization, consistent with the GAO investigation being requested rather than concluded.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "NOTUS -- 'DOGE Is Trying to Shutter Offshore Drilling Oversight Offices'",
+        "url": "https://www.notus.org/policy/doge-offshore-drilling-offices"
+      },
+      {
+        "name": "JPT (SPE) -- 'Department of Interior Reveals Plan To Merge BOEM, BSEE'",
+        "url": "https://jpt.spe.org/department-of-interior-reveals-plan-to-merge-boem-bsee"
+      },
+      {
+        "name": "POLITICO E&E News (via Sen. Padilla's office) -- 'Dems request probe of offshore agency reorganization'",
+        "url": "https://www.padilla.senate.gov/newsroom/news-coverage/ee-news-dems-request-probe-of-offshore-agency-reorganization/"
+      },
+      {
+        "name": "POLITICO E&E News -- 'Interior seals offshore energy agency merger'",
+        "url": "https://www.eenews.net/articles/interior-seals-offshore-energy-agency-merger/"
+      },
+      {
+        "name": "Offshore Magazine -- 'US Department of Interior to place BSEE, BOEM under new Marine Minerals Administration'",
+        "url": "https://www.offshore-mag.com/regional-reports/us-gulf-of-mexico/news/55369007/us-department-of-interior-to-place-bsee-boem-under-new-marine-minerals-administration"
+      }
+    ],
+    "last_updated": "2026-08-11",
+    "section_summaries": {
+      "what_changed": "DOGE listed offshore-drilling-safety regional offices for lease termination in March 2025; by April 2026 Interior fully recombined BOEM and BSEE -- separated after Deepwater Horizon to prevent conflicts of interest -- into one agency with a 20% staff cut, prompting Senate Democrats to request a GAO probe in July 2026.",
+      "estimated_impact": "The structural firewall between offshore-drilling revenue/permitting and independent safety enforcement, built after federal investigators blamed a combined agency for Deepwater Horizon-era regulatory capture, was dismantled and paired with reduced staffing.",
+      "confidence_note": "Well-corroborated sequence of events across trade and mainstream outlets; the conflict-of-interest characterization is a Senate Democrat/advocacy-group framing under active GAO review, not yet an adjudicated finding."
+    }
+  },
+  {
     "id": "bop-staffing-collapse-ice-poaching-2026",
     "title": "Federal Prisons Losing Corrections Officers to ICE en Masse After BOP Wage Cuts and a Canceled Union Contract",
     "institution": "Federal Bureau of Prisons",
@@ -2468,7 +2534,7 @@
     "domain": "staff_office_cuts",
     "status": "Alaska lease reversed after congressional intervention; Hawaii's temporary Hilo lease threat was overtaken by a previously-planned, congressionally-funded permanent relocation",
     "date_of_action": "2025-03-06 (leases publicly reported as targeted) through 2026-04 (new permanent Hawaii facility opened)",
-    "what_changed": "In early March 2025, NOTUS and the Washington Post reported that DOGE/GSA had listed the leases for the Anchorage office housing the USGS Alaska Volcano Observatory and the Hilo, Hawaii office housing the USGS Hawaiian Volcano Observatory (which monitors Kilauea) among hundreds of federal office leases slated for termination as part of the administration's real-estate cost-cutting push, with GSA claiming roughly .2 million in savings from the Anchorage lease alone. Scientists and local officials warned that ending these leases -- on top of concurrent GSA staffing cuts complicating any relocation of specialized monitoring equipment and servers -- risked degrading real-time eruption-warning capability near active volcanoes in both states; a former observatory scientist specifically flagged the difficulty of moving a recently purchased 00,000 backup generator and critical monitoring servers without risking data loss or monitoring gaps. In Alaska, Rep. Nick Begich's office intervened with the Department of the Interior and GSA, and the Anchorage lease was reinstated by March 18, 2025, according to the Anchorage Daily News and Begich's own office -- though GSA itself did not confirm the reversal on the record to the Anchorage Daily News, leaving the reinstatement independently reported but not agency-confirmed. In Hawaii, the Hilo Ironworks Building lease -- always a temporary arrangement dating to 2018, when the observatory's original Kilauea-summit headquarters was damaged beyond repair by earthquakes -- was listed for termination effective September 30, 2025; that threat did not require a comparable reversal because a new, permanent, non-leased Hawaiian Volcano Observatory headquarters (funded separately through congressional disaster-recovery appropriations after the 2018 damage, shared with the Pacific Island Ecosystems Research Center) opened in Hilo in April 2026, mooting the lease question for that observatory's long-term housing.",
+    "what_changed": "In early March 2025, NOTUS and the Washington Post reported that DOGE/GSA had listed the leases for the Anchorage office housing the USGS Alaska Volcano Observatory and the Hilo, Hawaii office housing the USGS Hawaiian Volcano Observatory (which monitors Kilauea) among hundreds of federal office leases slated for termination as part of the administration's real-estate cost-cutting push, with GSA claiming roughly $2.2 million in savings from the Anchorage lease alone. Scientists and local officials warned that ending these leases -- on top of concurrent GSA staffing cuts complicating any relocation of specialized monitoring equipment and servers -- risked degrading real-time eruption-warning capability near active volcanoes in both states; a former observatory scientist specifically flagged the difficulty of moving a recently purchased $500,000 backup generator and critical monitoring servers without risking data loss or monitoring gaps. In Alaska, Rep. Nick Begich's office intervened with the Department of the Interior and GSA, and the Anchorage lease was reinstated by March 18, 2025, according to the Anchorage Daily News and Begich's own office -- though GSA itself did not confirm the reversal on the record to the Anchorage Daily News, leaving the reinstatement independently reported but not agency-confirmed. In Hawaii, the Hilo Ironworks Building lease -- always a temporary arrangement dating to 2018, when the observatory's original Kilauea-summit headquarters was damaged beyond repair by earthquakes -- was listed for termination effective September 30, 2025; that threat did not require a comparable reversal because a new, permanent, non-leased Hawaiian Volcano Observatory headquarters (funded separately through congressional disaster-recovery appropriations after the 2018 damage, shared with the Pacific Island Ecosystems Research Center) opened in Hilo in April 2026, mooting the lease question for that observatory's long-term housing.",
     "primary_proponent": {
       "name": "General Services Administration, with DOGE (Department of Government Efficiency)",
       "role": "GSA administered the lease-termination list; DOGE's broader federal-real-estate cost-cutting push provided the policy driver",
@@ -2479,24 +2545,24 @@
       "figures": [
         {
           "metric": "Claimed GSA savings from the Anchorage (Alaska Volcano Observatory) lease termination",
-          "value": "~\\.2 million",
+          "value": "~$2.2 million",
           "source": "DOGE lease-termination list, reported by Anchorage Daily News"
         },
         {
           "metric": "Claimed GSA savings from the original Hilo lease termination",
-          "value": "~4,391 (per one reported figure) to ~(,692/year (per another)",
-          "source": "Multiple outlets citing DOGE/GSA figures; figures vary by source and may describe different cost bases"
+          "value": "~$164,391",
+          "source": "DOGE lease-termination list, reported by NOTUS and Honolulu Civil Beat"
         },
         {
           "metric": "Cost of backup generator flagged as difficult to relocate (Alaska)",
-          "value": "\u0000,000",
+          "value": "$500,000",
           "source": "Former observatory scientist, cited by Anchorage Daily News"
         }
       ],
-      "caveat": "No source reviewed documented an actual monitoring gap or missed eruption warning resulting from these lease actions -- the harm here is the risk created by moving to terminate specialized-facility leases without an apparent safety review, plus the disruption and uncertainty imposed on observatory staff, not a confirmed monitoring failure. The Hawaii outcome should not be read as GSA/DOGE standing down on the merits -- the permanent facility that resolved the housing question was already funded and under construction for unrelated reasons (2018 earthquake damage) before the 2025 lease-termination push began."
+      "caveat": "No source reviewed documented an actual monitoring gap or missed eruption warning resulting from these lease actions -- the harm here is the risk created by moving to terminate specialized-facility leases without an apparent safety review, plus the disruption and uncertainty imposed on observatory staff, not a confirmed monitoring failure. Correction (2026-08-11): this entry's Hilo savings figure previously ran a $44,391-$150,692 range sourced to \"multiple outlets\" -- the $150,692 figure actually belongs to a separate DOGE-targeted Hilo facility, NOAA's Mauna Loa Observatory support office (a different agency and mission, atmospheric CO2 monitoring rather than volcanic-hazard monitoring), documented in its own entry. The correct, single figure for this entry's USGS Hawaiian Volcano Observatory Ironworks Building lease is $164,391. The Hawaii outcome should not be read as GSA/DOGE standing down on the merits -- the permanent facility that resolved the housing question was already funded and under construction for unrelated reasons (2018 earthquake damage) before the 2025 lease-termination push began."
     },
     "confidence_note": "HIGH confidence for the core facts (lease terminations reported, Alaska reversal, Hawaii's new permanent facility timeline) -- corroborated across NOTUS, Washington Post, Newsweek, Anchorage Daily News, Must Read Alaska, Honolulu Civil Beat, and Honolulu Star-Advertiser. MODERATE confidence specifically on the Alaska reversal's completeness, since GSA itself would not confirm it on the record to the Anchorage Daily News -- the reversal is independently reported by multiple outlets and Begich's office but not agency-confirmed.",
-    "last_verified": "2026-08-10",
+    "last_verified": "2026-08-11",
     "date_added": "2026-08-10",
     "sources": [
       {
@@ -2532,7 +2598,8 @@
       "what_changed": "DOGE/GSA moved to cancel leases housing the Alaska and Hawaii volcano observatories in March 2025; the Alaska lease was reinstated after congressional intervention, while Hawaii's temporary lease threat was overtaken by an already-planned permanent facility.",
       "estimated_impact": "Two volcano-hazard monitoring facilities faced eviction with no documented relocation plan for hard-to-move equipment during active Kilauea eruptions, though no monitoring gap was actually documented.",
       "confidence_note": "Strongly corroborated across multiple outlets for the core facts; the Alaska reversal is independently reported but not confirmed on the record by GSA itself."
-    }
+    },
+    "last_updated": "2026-08-11"
   },
   {
     "id": "doj-civil-rights-division-exodus-trump2",
@@ -3734,20 +3801,160 @@
     "last_updated": "2026-07-26"
   },
   {
+    "id": "epa-energy-star-elimination-threat-doe-transfer-2025-2026",
+    "title": "EPA Moved to Eliminate the 30-Year-Old Energy Star Program; Bipartisan Congressional and Industry Pushback Forced a Transfer to DOE Instead -- Then the Administration Proposed Killing It Again a Year Later",
+    "institution": "Environmental Protection Agency (EPA) Office of Atmospheric Protection; later transferred to the Department of Energy (DOE)",
+    "domain": "funding_redirection",
+    "status": "Program preserved via interagency transfer, not eliminated -- fully moved to DOE by June 2026 with a congressionally mandated funding floor, but the administration's FY2027 budget (April 2026) proposed eliminating the EPA office that had housed it for a second consecutive year",
+    "date_of_action": "2025-05 (elimination announced internally) through 2026-06 (full transfer to DOE completed)",
+    "what_changed": "In May 2025, Paul Gunning, director of EPA's Office of Atmospheric Protection, told staff at an internal meeting that 'the Energy Star program and all the other climate work, outside of what's required by statute, is being de-prioritized and eliminated.' Energy Star, launched in 1992, is a voluntary labeling program that has helped identify energy-efficient appliances, buildings, and electronics for over three decades and is credited by the EPA's own historical figures with saving consumers and businesses more than $500 billion in energy costs over its lifetime; the FY2026 President's Budget proposed zero dollars for the program. More than 1,000 companies and organizations -- including appliance manufacturers, 14 HVAC associations, 19 HVAC manufacturers, and energy-management and real-estate firms -- signed letters to Congress opposing elimination, and more than 20 U.S. senators sent a letter (May 28, 2025) urging EPA to reverse course, arguing elements of the program are protected by statute and cannot be unilaterally terminated. EPA Administrator Lee Zeldin subsequently indicated the agency would not fully eliminate the program. Rather than being shut down, Energy Star was moved internally to EPA's Office of Radiation and Indoor Air starting around November 2025, then transferred entirely out of EPA to the Department of Energy under a March 2026 interagency agreement, with the move completed by June 2026. In January 2026, Congress funded Energy Star at $33 million for FY2026 -- a $1 million increase over the prior year -- and for the first time attached a mandatory minimum annual spending level to the program, an explicit legislative check against future unilateral elimination attempts. Despite that outcome, the administration's FY2027 budget request, released in April 2026, again proposed eliminating EPA's Office of Atmospheric Protection -- the second consecutive year it targeted the office, though Energy Star itself was by then housed at DOE rather than EPA.",
+    "primary_proponent": {
+      "name": "Paul Gunning",
+      "role": "Director, EPA Office of Atmospheric Protection",
+      "note": "Told EPA staff internally in May 2025 that Energy Star and other non-statutorily-mandated climate work was 'being de-prioritized and eliminated,' the first public signal of the elimination plan; EPA Administrator Lee Zeldin subsequently reversed course amid the pushback that followed."
+    },
+    "estimated_impact": {
+      "summary": "A 30-year-old, voluntary energy-efficiency labeling program EPA itself credits with saving consumers and businesses over $500 billion was slated for elimination via a zero-dollar budget request, surviving only after unusually broad industry (1,000+ companies, including groups not typically aligned with environmental advocacy) and bipartisan-leaning congressional pushback forced a transfer to DOE rather than termination -- illustrating both the reach of the administration's climate-program-elimination push and the limits imposed when it collided with organized business-sector opposition.",
+      "figures": [
+        {
+          "metric": "Cumulative consumer/business energy-cost savings EPA attributes to Energy Star since 1992",
+          "value": "$500+ billion",
+          "source": "EPA's own historical program figures, cited across NPR, CNN, The Guardian"
+        },
+        {
+          "metric": "Companies/organizations that signed letters opposing elimination",
+          "value": "1,000+ (including 14 HVAC associations, 19 HVAC manufacturers)",
+          "source": "Environment America, E&E News"
+        },
+        {
+          "metric": "FY2026 congressional funding for Energy Star",
+          "value": "$33 million (+$1 million over prior year), with a first-ever mandatory minimum spending floor",
+          "source": "FY2026 congressional appropriations, reported by Facilities Dive"
+        }
+      ],
+      "caveat": "No source reviewed disputes that Energy Star ultimately survived via the DOE transfer -- this is a case where organized pushback changed the outcome, not merely publicized a still-pending threat. The FY2027 elimination proposal for EPA's Office of Atmospheric Protection targets the office, not Energy Star itself (already relocated to DOE by that point), so its practical effect on the program specifically is unclear from sourcing reviewed."
+    },
+    "confidence_note": "HIGH confidence on the full sequence -- corroborated across NPR, CNN, The Guardian, Facilities Dive, E&E News, Environment America, and a formal Senate letter (Hirono et al., May 28, 2025). The DOE transition mechanics (November 2025 internal move, March 2026 interagency agreement, June 2026 completion) are sourced primarily to Facilities Dive's trade-press reporting, which is well-corroborated on the broad strokes but is the single most detailed source for the exact transition dates.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "NPR -- 'Energy Star program may be eliminated or privatized by Trump administration'",
+        "url": "https://www.npr.org/2025/08/13/nx-s1-5432617/energy-star-trump-cost-climate-change"
+      },
+      {
+        "name": "The Guardian -- 'Trump plans to shut down the Energy Star program'",
+        "url": "https://www.theguardian.com/us-news/2025/may/07/energy-star-program-ends-utility-bills"
+      },
+      {
+        "name": "Scientific American -- 'The EPA Plans to Terminate the Energy Star Program. Here's What That Means'",
+        "url": "https://www.scientificamerican.com/article/the-epa-plans-to-terminate-the-energy-star-program-heres-what-that-means/"
+      },
+      {
+        "name": "Facilities Dive -- 'Energy Star's move to DOE helps it escape proposed EPA cuts'",
+        "url": "https://www.facilitiesdive.com/news/energy-stars-move-to-doe-helps-it-escape-proposed-epa-cuts/816791/"
+      },
+      {
+        "name": "Sen. Mazie Hirono et al. -- Letter to EPA urging Energy Star be protected, May 28, 2025",
+        "url": "https://www.hirono.senate.gov/download/20250528-letter-to-protect-energy-star-program?download=1"
+      }
+    ],
+    "last_updated": "2026-08-11",
+    "section_summaries": {
+      "what_changed": "EPA moved to eliminate the 30-year-old Energy Star program in May 2025, but broad industry (1,000+ companies) and bipartisan congressional pushback forced a transfer to DOE instead, completed by June 2026 with a first-ever mandatory funding floor; the administration then proposed eliminating EPA's housing office again in its FY2027 budget.",
+      "estimated_impact": "A program EPA itself credits with $500B+ in consumer savings survived an elimination attempt through organized pushback, illustrating both how far the administration's climate-program cuts reached and the practical limits imposed by broad industry opposition.",
+      "confidence_note": "Well-corroborated across mainstream and trade press plus a formal Senate letter; the DOE transition's exact dates rely most heavily on a single trade-press source, though the broad outcome is independently confirmed elsewhere."
+    }
+  },
+  {
+    "id": "epa-environmental-justice-grants-cancellation-2025-2026",
+    "title": "EPA Canceled $2.8 Billion in Environmental Justice Grants -- Including a Flood-Protection Grant to an Alaska Village Devastated by a Typhoon Months Later -- Then a Federal Judge Ruled the Cancellation Unlawful",
+    "institution": "Environmental Protection Agency (EPA)",
+    "domain": "funding_redirection",
+    "status": "Court-ordered relief, partial and contested -- a federal judge ruled the mass cancellation unlawful in June 2026 and ordered EPA to resume administering the program through its original September 2026 expiration, while a separate D.C. Circuit appeal over jurisdiction to hear related claims proceeded on its own track",
+    "date_of_action": "2025-04-29 (mass cancellation revealed in a court filing) through 2026-07-24 (federal judge orders EPA to resume administering the program)",
+    "what_changed": "A court filing revealed on April 29, 2025 that EPA was canceling 781 grants under the Biden-era Environmental and Climate Justice Block Grant Program (also referred to as the Environmental and Climate Justice Program), a roughly $2.8 billion fund created by the Inflation Reduction Act to help low-income and minority communities address pollution and climate-related risk; by mid-May 2025, EPA had canceled more than 600 grants totaling over $2.7 billion. Sen. Ed Markey and California Attorney General Rob Bonta publicly condemned the mass termination. Among the canceled grants was a $20 million award to the Native Village of Kipnuk, Alaska, revoked May 2, 2025, that would have funded protection for homes and infrastructure against the Kuskokwim River's riverbank erosion. Roughly five months later, in October 2025, the remnants of Typhoon Halong produced a record storm surge that devastated Kipnuk, washing away dozens of homes -- the same infrastructure the canceled grant would have helped protect. EPA publicly defended the cancellation even after the storm. A coalition of nonprofits, tribes, and local governments -- including Baltimore, Nashville, and San Diego -- sued over the terminations on multiple fronts: one suit reached the U.S. Court of Appeals for the D.C. Circuit on a jurisdictional question after a district court found it lacked jurisdiction to hear the claims, while a separate case before U.S. District Judge Richard Gergel in South Carolina reached the merits directly. On June 12, 2026, Gergel ruled EPA's termination of the program 'arbitrary and capricious and unlawful' and voided the cancellation, but stopped short of ordering full reinstatement, noting that would likely require rehiring EPA staff the administration had already fired to administer the grants -- which he called impractical. On July 24, 2026, in a follow-up order, Gergel clarified that EPA must nonetheless 'comply with its statutory obligations to administer' the program through the end of September 2026, the date the grants were originally scheduled to expire under the Biden administration.",
+    "primary_proponent": {
+      "name": "Environmental Protection Agency",
+      "role": "Federal agency that terminated the grant program",
+      "note": "No single named EPA official was identified in sourcing reviewed as personally directing the grant terminations; Administrator Lee Zeldin led the agency's broader environmental-justice-function elimination during the same period (see [[epa-environmental-justice-staff-rif-2026]])."
+    },
+    "estimated_impact": {
+      "summary": "EPA canceled roughly $2.7-2.8 billion in congressionally authorized grants meant to help low-income and minority communities address pollution and climate-related infrastructure risk, including a flood-protection grant to an Alaska village that was then hit by a record storm surge months later with no protective infrastructure in place -- a federal court later found the cancellation itself unlawful, though full restoration of the program remained only partially ordered as of mid-2026.",
+      "figures": [
+        {
+          "metric": "Total grant funding EPA had canceled by mid-May 2025",
+          "value": "~$2.7 billion (600+ grants)",
+          "source": "Washington Post, court filing reported April 29, 2025"
+        },
+        {
+          "metric": "Total size of the underlying Environmental and Climate Justice Block Grant Program",
+          "value": "~$2.8 billion",
+          "source": "Inside Climate News, reporting on Judge Gergel's June 2026 ruling"
+        },
+        {
+          "metric": "Value of the canceled Kipnuk, Alaska flood/erosion-protection grant",
+          "value": "$20 million",
+          "source": "E&E News, Anchorage Daily News"
+        }
+      ],
+      "caveat": "No source reviewed directly attributes Kipnuk's storm damage to the canceled grant as a proven causal chain -- EPA has publicly disputed that framing -- but the sequence (grant funding flood/erosion protection canceled May 2025, record storm surge devastates the same village October 2025, no comparable protective infrastructure in place) is independently documented by multiple outlets and is presented here as a documented sequence, not an adjudicated causal finding."
+    },
+    "confidence_note": "HIGH confidence on the mass grant cancellation, its scale, and the Kipnuk case specifically -- corroborated across The Washington Post, The Hill, The Guardian, E&E News, Anchorage Daily News, and Alaska Beacon. HIGH confidence on Judge Gergel's June and July 2026 rulings -- corroborated across Inside Climate News, NOTUS, and SEJ. MODERATE confidence on the precise relationship between the D.C. Circuit jurisdictional appeal and Gergel's South Carolina merits ruling, since sourcing reviewed did not fully reconcile whether these are formally the same underlying litigation on parallel tracks or separate suits raising overlapping claims -- both are real, independently reported proceedings, presented here without asserting a specific relationship between them beyond that they address the same EPA action.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "The Washington Post -- 'EPA to cancel 781 environmental justice grants, court filing shows'",
+        "url": "https://www.washingtonpost.com/climate-environment/2025/04/29/epa-environmental-justice-grants-canceled/"
+      },
+      {
+        "name": "The Hill -- 'EPA canceling nearly 800 environmental justice grants'",
+        "url": "https://thehill.com/policy/energy-environment/5273712-epa-canceling-nearly-800-environmental-justice-grants/"
+      },
+      {
+        "name": "E&E News (POLITICO) -- 'EPA nixed this Alaskan village's flood protection grant. Then a typhoon hit.'",
+        "url": "https://www.eenews.net/articles/epa-nixed-this-alaskan-villages-flood-protection-grant-then-a-typhoon-hit/"
+      },
+      {
+        "name": "Anchorage Daily News -- 'EPA defends canceling coastal erosion grant to hard-hit Kipnuk'",
+        "url": "https://www.adn.com/alaska-news/rural-alaska/2025/10/16/epa-defends-canceling-coastal-erosion-grant-to-hard-hit-kipnuk/"
+      },
+      {
+        "name": "Inside Climate News -- 'Trump's EPA Unlawfully Cancelled Environmental Justice Grants, Judge Rules'",
+        "url": "https://insideclimatenews.org/news/12062026/judge-rules-trump-environmental-justice-grant-cancellations-unlawful/"
+      },
+      {
+        "name": "Inside Climate News -- 'Federal Judge Orders EPA to Administer Environmental Justice Grants'",
+        "url": "https://insideclimatenews.org/news/24072026/epa-ordered-to-release-environmental-justice-funds/"
+      },
+      {
+        "name": "Lawyers for Good Government -- 'Nonprofits, Tribes, and Local Governments Appeal Ruling Allowing EPA to Terminate Environmental Justice Grants'",
+        "url": "https://www.lawyersforgoodgovernment.org/blog/2025/10/28/nonprofits-tribes-and-local-governments-appeal-ruling-allowing-epa-to-terminate-environmental-justice-grants"
+      }
+    ],
+    "last_updated": "2026-08-11",
+    "section_summaries": {
+      "what_changed": "EPA canceled $2.7-2.8 billion in environmental justice grants starting April 2025, including a $20M Alaska village flood-protection grant months before a typhoon devastated that same village; a federal judge ruled the mass cancellation unlawful in June 2026 and ordered EPA to resume administering the program through September 2026.",
+      "estimated_impact": "Billions in congressionally authorized funding for pollution/climate-risk mitigation in low-income and minority communities was cut, including a case where a canceled flood-protection grant preceded a devastating storm in the same community.",
+      "confidence_note": "Well-corroborated core facts and litigation outcome across multiple outlets; the precise causal relationship between Kipnuk's storm damage and the canceled grant is a documented sequence, not an adjudicated causal finding, and is presented as such."
+    }
+  },
+  {
     "id": "epa-environmental-justice-staff-rif-2026",
     "title": "EPA Issues Reduction-in-Force Notices to 22 Remaining Environmental Justice Staffers, Completing a Two-Year Wind-Down of the Function",
     "institution": "Environmental Protection Agency",
     "domain": "staff_office_cuts",
     "status": "Finalized as to this round -- RIF notices issued; no reversal identified in sourcing reviewed",
-    "date_of_action": "2025 (initial ~280 firings/175 reassignments, regional EJ divisions shuttered) through 2026-02 (RIF notices to the 22 remaining EJ staffers)",
-    "what_changed": "In February 2026, EPA issued Reduction in Force (RIF) notices to 22 staffers who had worked in the agency's regional Environmental Justice divisions -- offices dedicated to tracking pollution and health risks in low-income and heavily polluted communities. These 22 were among the staff still remaining after EPA's regional EJ divisions were already shuttered roughly a year earlier, when the agency fired approximately 280 environmental-justice employees and reassigned another 175, undertaken to comply with executive orders eliminating environmental-justice programs across the federal government. According to InsideEPA, many of the 22 employees targeted in this final round were staff with disabilities. The American Federation of Government Employees (AFGE) Council 238, which represents EPA employees, publicly condemned the action; council president Justin Chen said the union was 'outraged by the EPA's decision to issue RIF notices to 22 environmental justice employees whose work ensures that communities disproportionately burdened by environmental hazards receive the protections they are entitled to.'",
+    "date_of_action": "2025-02-06 (initial administrative leave) through 2026-02 (RIF notices to the final 22 remaining EJ staffers)",
+    "what_changed": "EPA's dismantlement of its Environmental Justice function played out as a multi-stage, 'roller coaster' process (E&E News's own description) over roughly a year. On February 6, 2025, EPA placed nearly 170 employees of its Office of Environmental Justice and External Civil Rights (OEJECR) on administrative leave agency-wide. Less than a month later, around March 7, 2025, EPA reinstated dozens of those employees -- reporting suggested this followed new White House guidance and reflected that some of the office's work was legally required -- reassigning the recalled staff to other duties, chiefly managing Community Change Grants and maintaining relationships with communities, tribes, and local/state partners. That reprieve did not hold: on March 12-13, 2025, as part of the same week Administrator Lee Zeldin announced a sweeping 31-rule deregulatory package, EPA shut down all 10 of OEJECR's regional Environmental Justice Divisions and placed 168 employees back on administrative leave. On April 22, 2025, EPA issued formal Reduction in Force (RIF) notices to nearly 200 of those employees, with the agency stating that a total of 280 EJ staffers -- both in Washington and across the regional offices -- would be laid off effective July 31, 2025, while another 175 employees whose roles included statutory functions were reassigned to other EPA offices rather than terminated, undertaken to comply with executive orders eliminating environmental-justice programs across the federal government. Finally, in February 2026, EPA issued RIF notices to the 22 EJ staffers still remaining after the 2025 wave -- among the last people at the agency doing this work in any form -- completing the function's elimination. According to InsideEPA, many of the 22 employees targeted in this final round were staff with disabilities. The American Federation of Government Employees (AFGE) Council 238, which represents EPA employees, publicly condemned the final round; council president Justin Chen said the union was 'outraged by the EPA's decision to issue RIF notices to 22 environmental justice employees whose work ensures that communities disproportionately burdened by environmental hazards receive the protections they are entitled to.'",
     "primary_proponent": {
       "name": "Lee Zeldin",
       "role": "EPA Administrator",
       "note": "Oversees EPA's implementation of the executive orders eliminating environmental-justice programs, under which the regional EJ divisions were shuttered in 2025 and this final round of 22 RIF notices was issued in February 2026."
     },
     "estimated_impact": {
-      "summary": "EPA has now eliminated essentially its entire dedicated environmental-justice staffing function -- roughly 280 firings and 175 reassignments in 2025, followed by RIF notices to the last 22 remaining EJ staffers in February 2026 -- removing the agency's capacity to specifically track and address pollution and health risks concentrated in low-income and heavily polluted communities.",
+      "summary": "EPA has now eliminated essentially its entire dedicated environmental-justice staffing function, after a yearlong process that briefly reinstated dozens of employees before reversing course -- roughly 280 firings and 175 reassignments in 2025, followed by RIF notices to the last 22 remaining EJ staffers in February 2026 -- removing the agency's capacity to specifically track and address pollution and health risks concentrated in low-income and heavily polluted communities.",
       "figures": [
         {
           "metric": "Environmental Justice staffers issued RIF notices in this February 2026 round",
@@ -3762,8 +3969,8 @@
       ],
       "caveat": "Figures on the 2025 wave come from earlier E&E News reporting cited for context; this entry's primary sourcing (The Hill, Yahoo News, InsideEPA) documents the February 2026 22-person RIF specifically. EPA's own public framing of its broader reorganization emphasizes cost savings rather than the environmental-justice-function elimination angle documented here."
     },
-    "confidence_note": "HIGH confidence -- the February 2026 RIF notices to 22 EJ staffers are corroborated across The Hill, Yahoo News, and InsideEPA (which additionally reported many affected staff had disabilities), with AFGE Council 238's on-record statement. The 2025 baseline figures (280 fired, 175 reassigned) come from E&E News reporting on the earlier wave, cited here for context rather than independently re-verified for this entry.",
-    "last_verified": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the February 2026 RIF notices to 22 EJ staffers are corroborated across The Hill, Yahoo News, and InsideEPA (which additionally reported many affected staff had disabilities), with AFGE Council 238's on-record statement. The 2025 timeline (Feb. 6 administrative leave, ~March 7 partial reinstatement, March 12-13 renewed leave and regional-division closures, April 22 RIF notices) is corroborated across NPR, The Washington Post, Inside Climate News, E&E News, and CBS News; the 280/175 aggregate figures come from EPA's own April 2025 statement, cited here for context rather than independently re-verified for this entry.",
+    "last_verified": "2026-08-11",
     "date_added": "2026-08-05",
     "sources": [
       {
@@ -3777,11 +3984,27 @@
       {
         "name": "E&E News (POLITICO) -- 'EPA on track to lay off 271 environmental justice staffers'",
         "url": "https://www.eenews.net/articles/epa-on-track-to-lay-off-271-environmental-justice-staffers/"
+      },
+      {
+        "name": "NPR -- 'EPA employees who work on environmental justice are put on leave'",
+        "url": "https://www.npr.org/2025/02/06/nx-s1-5289331/epa-environmental-justice-office"
+      },
+      {
+        "name": "The Washington Post -- 'EPA reinstates environmental justice workers who were placed on leave'",
+        "url": "https://www.washingtonpost.com/climate-environment/2025/03/07/epa-environmental-justice-workers/"
+      },
+      {
+        "name": "CBS News -- 'EPA eliminating environmental justice jobs'",
+        "url": "https://www.cbsnews.com/news/epa-eliminating-environmental-justice-jobs-dei/"
+      },
+      {
+        "name": "Inside Climate News -- 'EPA Continues to Dismantle Environmental Justice Office, Announces Plans to Terminate Nearly 300 Employees'",
+        "url": "https://insideclimatenews.org/news/22042025/epa-announces-plans-to-terminate-nearly-300-employees/"
       }
     ],
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-11",
     "section_summaries": {
-      "what_changed": "EPA issued RIF notices to 22 remaining Environmental Justice staffers in Feb. 2026, completing the elimination of the function after an earlier 2025 wave fired ~280 EJ employees and reassigned ~175 more; AFGE's union president condemned the action, and InsideEPA reported many of the 22 had disabilities.",
+      "what_changed": "EPA's Environmental Justice office went through a yearlong 'roller coaster': ~170 staff placed on leave in Feb. 2025, dozens briefly reinstated in March, then all 10 regional EJ divisions shut and 168 placed back on leave the same week as Zeldin's broader deregulatory announcement, RIF notices to ~200 in April 2025 (280 total slated for layoff, 175 reassigned), and a final RIF of the last 22 staffers in Feb. 2026.",
       "estimated_impact": "EPA has effectively eliminated its dedicated environmental-justice staffing capacity, removing the agency's ability to specifically track pollution and health risks in disproportionately burdened communities.",
       "confidence_note": "Well-corroborated across multiple outlets with an on-record union statement; the 2025 baseline figures are cited from earlier reporting for context."
     }
@@ -3983,6 +4206,63 @@
         "url": "https://eelp.law.harvard.edu/tracker/epa-eliminated-office-of-research-and-development/"
       }
     ]
+  },
+  {
+    "id": "epa-pfas-farmland-research-grants-terminated-2025",
+    "title": "EPA Terminated $15 Million in PFAS Farmland-Contamination Research Grants, Then Quietly Restored Two of the Ten Studies Without Explanation",
+    "institution": "Environmental Protection Agency (EPA), Office of Research and Development",
+    "domain": "research_suppression",
+    "status": "Mostly terminated -- 8 of 10 studies remained canceled as of sourcing reviewed; 2 were restored with no public explanation for the distinction",
+    "date_of_action": "2025-05 (termination notices sent) through 2025-07 (broader reporting on the cuts and their farm-level impact)",
+    "what_changed": "In May 2025, EPA abruptly terminated a $15 million research program funding 10 university-led studies into how PFAS ('forever chemicals') contaminate U.S. farmland -- soil, crops, livestock, and irrigation water -- after toxic PFAS-laced sewage sludge used as agricultural fertilizer was found tainting farms nationwide. The program had been launched in 2024 under the Biden administration in response to public pressure over PFAS contamination. EPA sent termination notices to grant recipients stating the research was 'no longer consistent with EPA funding priorities.' Specific canceled awards included a $1.6 million grant to Texas A&M University to study how plants take up and store PFAS and to develop soil/fertilizer/irrigation-water monitoring tools; a $1.6 million grant to Michigan State University studying PFAS accumulation in crops and livestock; and roughly $5 million awarded jointly to the University of Maine, the Passamaquoddy Tribe at Sipayik, and the Mi'kmaq Nation to develop methods helping farmers mitigate PFAS contamination in the food supply chain. Reporting connected the cuts to the same DOGE-driven cost-cutting push documented elsewhere at EPA. Following press coverage, EPA restored funding for 2 of the 10 canceled studies, but neither EPA nor reporting identified why those two were restored while the other 8 remained terminated.",
+    "primary_proponent": {
+      "name": "Environmental Protection Agency, Office of Research and Development",
+      "role": "Agency office that issued the termination notices",
+      "note": "No single named EPA official was identified in sourcing reviewed as personally directing this specific set of terminations; reporting places it within the DOGE-driven research-funding cuts documented across EPA during the same period."
+    },
+    "estimated_impact": {
+      "summary": "Federally funded research into how a class of persistent, health-harming industrial chemicals contaminates the U.S. food supply -- launched specifically in response to documented sludge-fertilizer contamination on American farms -- was cut by 80% (8 of 10 studies), removing independent scientific capacity to characterize and help farmers mitigate an already-documented contamination pathway.",
+      "figures": [
+        {
+          "metric": "Total PFAS farmland-research funding terminated",
+          "value": "~$15 million across 10 studies (2 later restored)",
+          "source": "Civil Eats, Agriculture Dive, Columbia Law Sabin Center, May-July 2025"
+        },
+        {
+          "metric": "Individual grants canceled",
+          "value": "$1.6M (Texas A&M), $1.6M (Michigan State), ~$5M (University of Maine / Passamaquoddy Tribe at Sipayik / Mi'kmaq Nation), among others",
+          "source": "Civil Eats, Agriculture Dive"
+        }
+      ],
+      "caveat": "No source reviewed identified a stated rationale beyond EPA's generic 'no longer consistent with EPA funding priorities' language, nor an explanation for why 2 of the 10 studies were restored while 8 remained terminated -- both gaps are part of what's documented here, not omissions in this entry's research."
+    },
+    "confidence_note": "HIGH confidence -- corroborated across Civil Eats, Agriculture Dive, Columbia Law School's Sabin Center for Climate Change Law, MG+M law firm's client alert, and The Guardian's follow-up reporting on the farm-level impact of the underlying sludge-fertilizer contamination these studies were meant to address.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "Civil Eats -- 'EPA Defunds Research Into PFAS Contamination on Farms'",
+        "url": "https://civileats.com/2025/05/19/epa-defunds-research-into-pfas-contamination-on-farms/"
+      },
+      {
+        "name": "Agriculture Dive -- 'EPA awards $15M to research how PFAS contaminate food and farmland' (background on the original 2023-24 grant program)",
+        "url": "https://www.agriculturedive.com/news/epa-pfas-forever-chemicals-farmland-research-15m/726444/"
+      },
+      {
+        "name": "Columbia Law School Sabin Center -- 'Trump Administration Cuts $15 Million Research into PFAS'",
+        "url": "https://climate.law.columbia.edu/content/trump-administration-cuts-15-million-research-pfas"
+      },
+      {
+        "name": "The Guardian -- 'Trump abruptly cancels $15m in PFAS contamination studies on US farmland'",
+        "url": "https://www.theguardian.com/us-news/2025/jul/11/trump-pfas-research-funding-farms"
+      }
+    ],
+    "last_updated": "2026-08-11",
+    "section_summaries": {
+      "what_changed": "EPA terminated $15 million in PFAS farmland-contamination research grants across 10 university/tribal studies in May 2025, later restoring 2 of the 10 with no public explanation for the distinction.",
+      "estimated_impact": "80% of federally funded research into how forever chemicals contaminate U.S. farms and food was cut, removing independent scientific capacity on an already-documented contamination pathway.",
+      "confidence_note": "Well-corroborated across agriculture-trade, legal, and mainstream press; the rationale for the partial restoration remains undocumented in sourcing reviewed."
+    }
   },
   {
     "id": "faa-controller-staffing-structural-crisis-trump2",
@@ -5684,6 +5964,77 @@
       "what_changed": "DOGE shut down GSA's entire 18F digital-services unit in March 2025, and the IRS subsequently discontinued the free Direct File tax-filing tool 18F had helped build, ending it for the 2026 filing season with no relaunch planned.",
       "estimated_impact": "Roughly 300,000 taxpayers who used the free, government-run filing option in 2025 -- 94% of whom rated it highly -- now have no equivalent free IRS-run alternative.",
       "confidence_note": "Well-corroborated across multiple outlets, including Musk's own public statement and the IRS's formal notice to participating states."
+    }
+  },
+  {
+    "id": "gsa-fine-arts-program-staff-cuts-collection-risk-2025-2026",
+    "title": "GSA Gutted the Staff Responsible for 26,000 Federally Owned Artworks, Then Listed Buildings Holding Statutorily Protected Murals for Sale -- Prompting a Senate IG-Audit Request",
+    "institution": "General Services Administration (GSA) -- Fine Arts Program / Art in Architecture Program, Public Buildings Service",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing risk, unresolved as of Aug. 2026 -- Fine Arts staff cuts stand, the Wilbur J. Cohen Building remains listed for disposal with its murals' post-sale stewardship still undetermined, and GSA's response to the March 2026 Senate document request was not identified in sourcing reviewed",
+    "date_of_action": "2025-03-11 (staff cuts and regional office closures first reported) through 2026-03-11 (Senate letter requesting GSA Inspector General audit)",
+    "what_changed": "In March 2025, following Trump's Executive Order 14210 directing a Department of Government Efficiency-driven Reduction in Force, GSA's Fine Arts Program -- the small division responsible for preserving and tracking the federal government's collection of roughly 26,000 artworks, more than 23,000 of them New Deal-era pieces dating to the 1930s-40s -- lost at least five of its regional offices and placed more than half of its roughly three-dozen staff on leave pending termination. GSA's broader Public Buildings Service lost 44% of its full-time employees in the same reorganization. Regional impact varied sharply: the Mid-Atlantic Region 3 office alone lost over 100 workers across fine-arts officers, project managers, and engineers, leaving only about a quarter of its staff in place. Simultaneously, GSA began listing federal properties for accelerated disposal -- 46 by February 18, 2026 -- some of which house Fine Arts Collection works including textiles, sculptures, and paintings. The clearest flashpoint is the Wilbur J. Cohen Building in Washington, D.C. (former Social Security Administration headquarters), which GSA listed for sale and which contains statutorily protected New Deal murals by Ben Shahn ('The Meaning of Social Security'), Seymour Fogel, and Philip Guston, chemically bonded to the walls and unable to be removed without major cost and risk. GSA has said it will seek preservation covenants with any buyer but has not detailed how it would enforce continued access, insurance, or maintenance once the building passes into private ownership. On March 11, 2026 -- exactly one year after the initial cuts were first reported -- Sens. Sheldon Whitehouse (ranking member, Environment and Public Works) and Chuck Schumer sent GSA Administrator Ed Forst a formal document and information request, and separately asked GSA's own Inspector General to conduct an updated audit of the Fine Arts Program (the IG's last such audit was in 1994), citing the staffing cuts, the accelerated-disposal list, and the Cohen Building murals specifically as reasons for concern. No response from GSA to either request was identified in sourcing reviewed as of this entry.",
+    "primary_proponent": {
+      "name": "General Services Administration",
+      "role": "Federal agency responsible for managing the government's real-estate portfolio and its Fine Arts Collection",
+      "note": "No named individual was identified in sourcing reviewed as personally directing the Fine Arts Program cuts specifically; the cuts trace to Trump's Executive Order 14210 (Feb. 14, 2025) directing agency-wide DOGE workforce reductions, applied here to GSA's Public Buildings Service and its Fine Arts division."
+    },
+    "estimated_impact": {
+      "summary": "More than half the staff responsible for tracking, conserving, and legally safeguarding a 26,000-piece, 170-year-old federally owned art collection were placed on leave pending termination, while the properties housing some of that collection -- including a building with statutorily protected, wall-bonded New Deal murals -- were simultaneously listed for accelerated private sale, with no detailed public plan for post-sale oversight.",
+      "figures": [
+        {
+          "metric": "Total artworks in GSA's Fine Arts Collection",
+          "value": "~26,000 (more than 23,000 New Deal-era)",
+          "source": "Washington Post, GSA's own Fine Arts Collection records, cited in the March 2026 Senate letter"
+        },
+        {
+          "metric": "Share of Fine Arts division staff placed on leave pending termination",
+          "value": "More than half of ~3 dozen staff",
+          "source": "Washington Post, March 2025"
+        },
+        {
+          "metric": "GSA Public Buildings Service full-time employees lost",
+          "value": "44%",
+          "source": "GSA Office of Congressional Affairs internal briefing, Oct. 2025, cited in the March 2026 Senate letter"
+        },
+        {
+          "metric": "Federal assets listed for accelerated disposal as of Feb. 18, 2026 (some containing Fine Arts Collection works)",
+          "value": "46",
+          "source": "GSA's own accelerated-disposition list, cited in the March 2026 Senate letter"
+        }
+      ],
+      "caveat": "No source reviewed documents a specific artwork already lost, damaged, or improperly disposed of as a direct result of the 2025-2026 staffing cuts -- the Senate letter and press coverage document elevated risk (reduced oversight capacity, buildings with protected artworks listed for sale, unclear post-sale accountability) rather than a confirmed loss to date. GSA has publicly committed to seeking preservation covenants for the Cohen Building murals specifically, though enforcement mechanics remain undisclosed."
+    },
+    "confidence_note": "HIGH confidence on the core facts -- corroborated across The Washington Post, The Art Newspaper, Hyperallergic, The Philadelphia Inquirer, The Architect's Newspaper, and a formal, footnoted U.S. Senate letter (Whitehouse/Schumer, March 11, 2026) that itself cites GSA's own internal staffing briefing and disposal list. The eventual fate of the Cohen Building murals and GSA's response to the Senate document request were not resolved in sourcing reviewed as of Aug. 2026 -- this entry should be rechecked as that plays out.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "The Washington Post -- 'GSA layoffs by Trump administration leave an uncertain future for public art'",
+        "url": "https://www.washingtonpost.com/entertainment/art/2025/03/11/gsa-fine-arts-layoffs-trump/"
+      },
+      {
+        "name": "The Art Newspaper -- 'Trump layoffs leave more than 26,000 government-owned artworks in limbo'",
+        "url": "https://www.theartnewspaper.com/2025/03/18/trump-layoffs-general-services-administration-art-collection-future-uncertain"
+      },
+      {
+        "name": "The Philadelphia Inquirer -- 'How DOGE's GSA cuts endanger the future of Philadelphia's iconic public art'",
+        "url": "https://www.inquirer.com/arts/general-service-administration-cuts-public-art-20250407.html"
+      },
+      {
+        "name": "Senate Environment and Public Works Committee -- Whitehouse/Schumer letter to GSA Administrator Ed Forst, March 11, 2026",
+        "url": "https://www.epw.senate.gov/public/_cache/files/a/1/a14e69cd-0f55-4390-ae7f-f2adb97bd9a1/C7DF0A364427CDC76A59BDCB7A862E2DA8DDA7585DBC5A1B82A007D864AD479D.3.11.26-letter-to-gsa-re-fine-arts.pdf"
+      },
+      {
+        "name": "The Architect's Newspaper -- 'The GSA is looking to shed the Wilbur J. Cohen Federal Building from its portfolio, but the art and architecture is worth saving'",
+        "url": "https://www.archpaper.com/2025/11/gsa-wilbur-j-cohen-federal-building-art-and-architecture-saving/"
+      }
+    ],
+    "last_updated": "2026-08-11",
+    "section_summaries": {
+      "what_changed": "GSA's Fine Arts Program lost over half its staff and 5 regional offices in March 2025 DOGE-driven cuts, while GSA simultaneously began listing buildings containing federally owned artworks -- including the Wilbur J. Cohen Building's statutorily protected New Deal murals -- for accelerated sale; Senate EPW leaders requested a GSA Inspector General audit in March 2026.",
+      "estimated_impact": "Federal capacity to track, conserve, and legally protect a 26,000-piece public art collection was sharply reduced just as properties holding some of that art moved toward private sale with no detailed public plan for post-sale oversight.",
+      "confidence_note": "Well-corroborated across mainstream art-press and a formal, footnoted Senate document request; no confirmed artwork loss to date, and the eventual outcome (Cohen Building sale, GSA's response to Congress) remains unresolved."
     }
   },
   {
@@ -8834,6 +9185,11 @@
           "metric": "Proposed cut to geostationary weather satellite investment",
           "value": "44% reduction from current levels",
           "source": "NPR, April 11, 2025"
+        },
+        {
+          "metric": "Proposed FY2026 funding for NOAA's Office of Oceanic and Atmospheric Research (OAR), NOAA's research arm",
+          "value": "$485 million -> $171 million (a roughly 65% cut)",
+          "source": "The Guardian, April 23, 2025, reporting Gabrielle Canon"
         }
       ],
       "caveat": "The administration's stated rationale, per the Commerce Department's own announcement, is that the affected Princeton research 'fosters fear rather than rational, balanced discussion' and that eliminating it will 'streamline and reduce the cost and size of the Federal Government.' Critics, including former NOAA research director Craig McLean, argue the cuts amount to dismantling the scientific basis for hurricane and severe-weather forecasting, and ProPublica reporting noted that Secretary Lutnick's former firm, Cantor Fitzgerald, had itself described climate change in prior public materials as 'the defining issue of our time' and warned it would be 'disastrous and life threatening' if unchecked, a contrast critics cite as evidence the funding decision reflects political priorities rather than a reassessment of the science. It is also important to note the FY2026 budget eliminating NOAA's climate research entirely is a proposal, not enacted law: congressional appropriators in both parties have been reported as skeptical of the scale of the cuts and have not approved the request as written, even though the administration has moved ahead with some individual actions, such as satellite contract terminations, independent of congressional approval."
@@ -8844,7 +9200,7 @@
       "estimated_impact": "Nearly six decades of research collaboration with a globally top-ranked climate-modeling lab is over, and on paper, the line item for this agency's climate work now reads zero.",
       "confidence_note": "Very strongly sourced on the Princeton cut itself via Commerce's own release; the wider elimination plan is a recurring annual proposal, turned down once and still unresolved for next cycle."
     },
-    "last_verified": "2026-08-08",
+    "last_verified": "2026-08-11",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -8887,7 +9243,74 @@
         "name": "NBC News — Climate change data, costliest 6 months of weather disasters, NOAA",
         "url": "https://www.nbcnews.com/science/climate-change/climate-change-data-costliest-6-months-weather-disasters-noaa-rcna238752"
       }
-    ]
+    ],
+    "last_updated": "2026-08-11"
+  },
+  {
+    "id": "noaa-mauna-loa-observatory-lease-threat-2025",
+    "title": "DOGE/GSA Listed the Support-Office Lease for NOAA's Mauna Loa Observatory -- Home of the Keeling Curve -- for Termination, Then Quietly Resolved It",
+    "institution": "National Oceanic and Atmospheric Administration (NOAA) Global Monitoring Laboratory -- Mauna Loa Observatory; General Services Administration (GSA)",
+    "domain": "staff_office_cuts",
+    "status": "Resolved -- NOAA confirmed in July 2025 the lease matter was settled before the August 31, 2025 expiration, without specifying how; the observatory continued operating and was reported in 2026 to be expanding, not closing",
+    "date_of_action": "2025-03-11 (lease publicly reported as targeted) through 2025-07 (NOAA confirms resolution)",
+    "what_changed": "In March 2025, Reuters and other outlets reported that DOGE/GSA had listed the lease for an eight-person NOAA support office in Hilo, Hawaii (suite 102, Kilauea Financial Plaza) among the federal office leases slated for early termination as part of the administration's real-estate cost-cutting push. The office is the ground-support base for the Mauna Loa Observatory, established in 1956 on the mountain's northern flank, which holds the world's longest continuous record of atmospheric carbon dioxide measurements -- the Keeling Curve -- and was already operating under strain from the loss of its only road access after Mauna Loa's 2022 eruption, making the Hilo office's remote-support role especially load-bearing. The lease was set to expire August 31, 2025. As of a late-August 2025 report, no resolution had been announced and Hawaii's congressional delegation -- Sen. Mazie Hirono and Reps. Jill Tokuda and Ed Case -- introduced a formal resolution expressing concern and reaffirming support for the observatory, with Hirono calling the threatened closure 'yet another attack on science.' NOAA subsequently confirmed to reporters that the lease matter was resolved in July 2025, before the deadline, without detailing the mechanism (renewal, relocation, or reversal of the termination decision). By mid-2026, reporting described the observatory not merely surviving but being rebuilt and expanded, with measurement programs that had been curtailed since the 2022 eruption road closure increasingly restored.",
+    "primary_proponent": {
+      "name": "General Services Administration, with DOGE (Department of Government Efficiency)",
+      "role": "GSA administered the lease-termination list that included this office; DOGE's broader federal-real-estate cost-cutting push provided the policy driver",
+      "note": "No named individual was identified in sourcing reviewed as personally responsible for including this specific office; this is the same GSA/DOGE lease-termination sweep documented separately for the USGS Hawaiian Volcano Observatory's Hilo office, a different agency and mission housed in a different Hilo building, targeted in the same week -- see [[doge-volcano-observatory-lease-terminations-2025]]."
+    },
+    "estimated_impact": {
+      "summary": "One of the eight-person support offices keeping alive the world's longest-running atmospheric CO2 record was briefly listed for lease termination with no documented contingency plan, at a moment when the observatory's summit instruments were already isolated by 2022 eruption damage and dependent on this office's remote-support role -- an example of a blanket real-estate cost-cutting sweep reaching a scientifically irreplaceable, decades-long dataset without an apparent case-by-case review.",
+      "figures": [
+        {
+          "metric": "Claimed annual GSA savings from terminating this lease",
+          "value": "~$150,692",
+          "source": "DOGE lease-termination list, reported by Reuters/AP wire coverage (Hawaii Tribune-Herald, US News)"
+        },
+        {
+          "metric": "Staff at the threatened Hilo support office",
+          "value": "8",
+          "source": "Reuters/AP wire coverage"
+        },
+        {
+          "metric": "Length of the continuous atmospheric CO2 record at risk",
+          "value": "~70 years (since 1956, the Keeling Curve)",
+          "source": "NOAA Global Monitoring Laboratory; multiple outlets"
+        }
+      ],
+      "caveat": "No source reviewed documented an actual data-collection gap resulting from the lease threat itself -- the harm is the risk created by listing a scientifically unique, already-strained facility for closure with no announced relocation plan, plus months of uncertainty for staff and the congressional intervention it required, not a confirmed measurement interruption. NOAA's own account of the resolution mechanism is vague ('resolved') rather than specific, and no source reviewed states whether the termination decision was formally reversed or the office was relocated on the same footprint."
+    },
+    "confidence_note": "HIGH confidence on the core facts (lease listed, deadline, congressional resolution, NOAA's July 2025 confirmation of resolution) -- corroborated across Reuters/AP wire distribution, Honolulu Civil Beat, and congressional-office sourcing (Hirono/Tokuda/Case). MODERATE confidence on the precise resolution mechanism, since NOAA's own public statement did not specify how the lease issue was settled. Distinct from, and should not be merged with, [[doge-volcano-observatory-lease-terminations-2025]] -- that entry covers the USGS Hawaiian Volcano Observatory (Ironworks Building, Kilauea volcanic-hazard monitoring) and the Alaska Volcano Observatory; this entry covers NOAA's separate Mauna Loa Observatory support office (Kilauea Financial Plaza, atmospheric CO2 monitoring). Both are in Hilo and were targeted in the same DOGE sweep the same week, which is likely why several outlets -- and an earlier version of the existing tap entry -- conflated the two facilities' reported savings figures; verified independently here against direct wire reporting for each.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "Reuters/AP (via Hawaii Tribune-Herald) -- 'Trump cuts target Mauna Loa Observatory'",
+        "url": "https://www.hawaiitribune-herald.com/2025/03/11/hawaii-news/trump-cuts-target-world-leading-greenhouse-gas-observatory-in-hawaii/"
+      },
+      {
+        "name": "US News (Reuters wire) -- 'Trump Cuts Target World-Leading Greenhouse Gas Observatory in Hawaii'",
+        "url": "https://www.usnews.com/news/world/articles/2025-03-11/trump-cuts-target-world-leading-greenhouse-gas-observatory-in-hawaii"
+      },
+      {
+        "name": "Honolulu Civil Beat -- 'Climate Change Science Atop Mauna Loa Could Stall Amid Federal Cuts'",
+        "url": "https://www.civilbeat.org/2025/03/climate-change-monitoring-mauna-loa-could-stop-federal-cuts/"
+      },
+      {
+        "name": "Aloha State Daily -- 'Hawaii lawmakers commemorate Mauna Loa Observatory as lease expiration looms'",
+        "url": "https://alohastatedaily.com/2025/08/28/congress-watch-hawaii-lawmakers-commemorate-mauna-loa-observatory-as-lease-expiration-looms/"
+      },
+      {
+        "name": "Forbes -- 'Mauna Loa Observatory Survives Lava, Budget Cuts And Politics'",
+        "url": "https://www.forbes.com/sites/we-dont-have-time/2026/05/30/mauna-loa-observatory-survives-lava-budget-cuts-and-politics/"
+      }
+    ],
+    "last_updated": "2026-08-11",
+    "section_summaries": {
+      "what_changed": "DOGE/GSA listed the lease for NOAA's Mauna Loa Observatory support office in Hilo for termination in March 2025; Hawaii's congressional delegation intervened, and NOAA confirmed the issue was resolved in July 2025 before the lease's August deadline.",
+      "estimated_impact": "The world's longest atmospheric CO2 record briefly faced disruption to its ground-support office with no announced contingency plan, though no actual measurement gap was documented.",
+      "confidence_note": "Well-corroborated core facts via Reuters/AP wire and congressional sourcing; the resolution mechanism itself is only vaguely described by NOAA. Kept distinct from the separate USGS Hawaiian Volcano Observatory entry despite both being Hilo, Hawaii facilities targeted the same week."
+    }
   },
   {
     "id": "noaa-office-space-commerce-staffing-cuts-2025",

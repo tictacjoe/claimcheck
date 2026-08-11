@@ -966,6 +966,114 @@
     "short_summary": "Agencies must repeal 10 existing rules for every 1 new rule they issue."
   },
   {
+    "id": "epa-31-rule-deregulation-announcement-2025",
+    "rule_name": "EPA's March 12, 2025 Announcement of 31 Simultaneous Deregulatory Actions -- 'The Greatest Day of Deregulation in Our Nation's History'",
+    "administration": "Trump II (2025-present)",
+    "agency": "EPA",
+    "domain": "environmental",
+    "status": "Announced (each of the 31 individual actions proceeded on its own separate rulemaking timeline afterward -- see the specific-rule entries this announcement launched)",
+    "date_of_action": "2025-03-12",
+    "original_rule_summary": "Before this announcement, EPA administered dozens of separate Biden-era and earlier environmental regulations across air, water, and climate policy -- including the 2009 endangerment finding underpinning EPA's authority to regulate greenhouse gases, power-plant and vehicle emissions standards, mercury and toxics limits, PFAS drinking-water standards, the Greenhouse Gas Reporting Program, the Clean Air Act's interstate 'Good Neighbor' pollution provision, and the agency's practice of weighing health costs from storms, wildfires, and droughts in its own rulemaking.",
+    "what_changed": "On March 12, 2025, EPA Administrator Lee Zeldin announced 31 deregulatory actions in a single day, calling it 'the greatest day of deregulation our nation has seen' and stating the agency was 'driving a dagger straight into the heart of the climate change religion to drive down the cost of living.' The targeted list spanned the 2009 endangerment finding for greenhouse gases, vehicle emissions/fuel-economy standards, coal-fired power-plant carbon and mercury limits, oil-and-gas-sector methane rules, coal-plant wastewater discharge limits, the Greenhouse Gas Reporting Program, the Clean Air Act's interstate 'Good Neighbor' provision, and EPA's practice of considering climate-linked health costs (from storms, wildfires, droughts) in its own cost-benefit rulemaking, among other targets. Framed as a single package, the announcement functioned as a roadmap rather than a set of completed actions -- each individual rule then proceeded on its own separate proposal/finalization timeline over the following year, several of which this database tracks as distinct entries (see cross-references below). The announcement itself, not any single rule within it, is documented here because of its scale, its status as the stated organizing framework for the administration's broader environmental deregulatory program, and the bipartisan condemnation it drew on its own terms.",
+    "primary_proponent": {
+      "name": "Lee Zeldin",
+      "role": "EPA Administrator",
+      "note": "Personally announced all 31 actions in a single press event, framing them explicitly in ideological terms ('a dagger straight into the heart of the climate change religion') rather than as individually justified technical rulemakings."
+    },
+    "corporate_beneficiaries": [
+      "Fossil-fuel and coal-power-generation industries broadly, per EcoWatch's framing of the announcement as 'the day Trump's Big Oil megadonors paid for' -- a characterization from Sen. Sheldon Whitehouse, not an EPA-sourced or independently quantified claim"
+    ],
+    "estimated_health_impact": {
+      "summary": "Because this entry documents the announcement rather than any single finalized rule, no agency or independent body has produced a combined health-impact estimate for all 31 actions together; each constituent rule's own estimated health impact (where finalized and quantifiable) is tracked in that rule's separate entry in this database.",
+      "figures": [],
+      "caveat": "This entry intentionally carries no aggregate figures to avoid double-counting harms already estimated individually in the specific-rule entries this announcement launched. See those entries for quantified figures."
+    },
+    "confidence_note": "HIGH confidence on the announcement's content and Zeldin's own quotes -- corroborated across EcoWatch, NPR, the EPA's own press materials, and multiple law-firm client alerts (Taft, Holland & Knight, Babst Calland) that treat it as a significant, citable regulatory event. The bipartisan-condemnation framing is well-sourced to on-record quotes from former EPA Administrators Gina McCarthy (Obama-era, calling it 'the most disastrous day in EPA history') and Christine Todd Whitman (George W. Bush-era Republican, saying 'if there's an endangerment finding to be found anywhere, it should be found on this administration'), not a characterization invented by this entry. This entry's originating role is cross-referenced from the specific-rule entries it launched, which this database tracks separately: the endangerment-finding rescission (endangerment-finding-rescission-trump2, finalized Feb. 2026), the power-plant GHG standards repeal (power-plant-ghg-standards-repeal-trump2), the light-duty-vehicle GHG standards repeal (ldmv-ghg-standards-repeal-trump2), the MATS mercury/air-toxics reset (mats-2026-reset-trump2), and the Greenhouse Gas Reporting Program elimination (epa-ghg-reporting-program-elimination-2025). The Environmental Justice office elimination this same announcement week accompanied is tracked separately in Government Services Redirection (epa-environmental-justice-staff-rif-2026).",
+    "short_summary": "EPA announced 31 environmental rollbacks in a single day, calling it the 'greatest day of deregulation' in U.S. history.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "EcoWatch -- ''The Day Trump's Big Oil Megadonors Paid for': EPA Chief Zeldin Announces Rollback of 31 Landmark Environmental Regulations'",
+        "url": "https://www.ecowatch.com/epa-zeldin-environmental-regulations-rollback.html"
+      },
+      {
+        "name": "NPR -- 'What the EPA's environmental regulation rollbacks actually mean'",
+        "url": "https://www.npr.org/2025/03/13/nx-s1-5327219/epa-environmental-regulations-explained"
+      },
+      {
+        "name": "AP (via CBS News) -- 'Zeldin announces EPA rollback of 31 regulations; former administrators condemn plan'",
+        "url": "https://apnews.com/article/zeldin-epa-endangerment-climate-mccarthy-whitman-reilly-06e86474cd2a56251e1532699f59305d"
+      },
+      {
+        "name": "The Guardian -- 'Trump's EPA plans to repeal 31 environmental regulations'",
+        "url": "https://www.theguardian.com/us-news/2025/mar/19/trump-epa-pollution-regulation-cuts"
+      }
+    ],
+    "last_updated": "2026-08-11",
+    "section_summaries": {
+      "what_changed": "EPA Administrator Lee Zeldin announced 31 environmental deregulatory actions in a single day (March 12, 2025), calling it 'the greatest day of deregulation' in U.S. history; each targeted rule then proceeded on its own separate timeline, several tracked as distinct entries in this database.",
+      "estimated_impact": "No aggregate health-impact figure exists for the announcement as a whole; individual constituent rules' estimated impacts are tracked in their own separate entries to avoid double-counting.",
+      "confidence_note": "The announcement and Zeldin's quotes are well-documented; the bipartisan condemnation is sourced to on-record quotes from a Democratic- and a Republican-appointed former EPA administrator, not an invented characterization."
+    }
+  },
+  {
+    "id": "epa-air-pollution-health-cost-monetization-ended-2026",
+    "rule_name": "EPA's Decision to Stop Monetizing Public-Health Benefits in Air Pollution Rulemaking",
+    "administration": "Trump II (2025-present)",
+    "agency": "EPA",
+    "domain": "environmental",
+    "status": "Finalized -- adopted as part of a new final rule on power-plant emissions, with EPA stating it will apply the same non-monetization approach to future air-pollution rulemakings generally",
+    "date_of_action": "2026-01-12",
+    "original_rule_summary": "For decades, EPA's cost-benefit analyses for air-pollution rules have assigned a dollar value to avoided deaths, illnesses, and hospitalizations from reduced ozone and fine-particulate (PM2.5) pollution, using an established methodology (the 'value of a statistical life' framework) to weigh regulatory costs against quantified public-health benefits -- these monetized health benefits have historically been the largest benefit category justifying stricter air-pollution standards.",
+    "what_changed": "On January 12, 2026, EPA announced it would no longer assign an economic value to lives saved or health improved when justifying air-pollution rules, unveiling a final rule under the Clean Air Act that simultaneously revised (weakened) nitrogen oxide (NOx) emission limits for new gas-burning turbines at power plants and industrial facilities. EPA's new regulatory language stated the agency would stop monetizing public-health benefits from reduced ozone and fine-particulate pollution because, in EPA's words, its 'historical analytical practices often provided the public with false precision and confidence' -- even while the agency's own rule acknowledged that these pollutants contribute to pulmonary disease, heart attacks, and premature death. EPA characterized the change as applying beyond this single rule to its air-pollution rulemaking generally going forward, meaning future rules would be justified without counting the dollar value of avoided illness and death as a benefit, structurally shifting the cost-benefit balance toward looser standards across the agency's future air-pollution decisions.",
+    "primary_proponent": {
+      "name": "Lee Zeldin",
+      "role": "EPA Administrator",
+      "note": "EPA finalized the policy change under Zeldin's leadership as part of the same broader deregulatory program including the March 2025 31-rule announcement and the February 2026 endangerment-finding rescission."
+    },
+    "corporate_beneficiaries": [
+      "Power plant and industrial-facility operators facing future air-pollution rulemakings, whose compliance costs would no longer be weighed against a monetized health-benefit figure"
+    ],
+    "estimated_health_impact": {
+      "summary": "This is a methodological change to how EPA justifies air-pollution rules, not a rule permitting a specific quantity of additional pollution -- but because monetized health benefits have historically been the dominant benefit category in EPA's cost-benefit analyses, removing them structurally weakens the case for stricter future air-pollution standards across the board, independent of any single rule's specific numbers.",
+      "figures": [],
+      "caveat": "No source reviewed quantifies an aggregate future health impact from this methodological shift, since its effect depends on which specific future rules it is applied to and how; the entry documents the structural policy change itself, which multiple public-health and environmental-law observers (Human Rights Watch, EDF, the University of Chicago's Air Quality Life Index project) characterize as highly consequential precisely because of its generality."
+    },
+    "confidence_note": "HIGH confidence -- corroborated across The Washington Post, NBC News, Human Rights Watch, OPB/GBH (NPR member stations), the Environmental Defense Fund, and the University of Chicago's Air Quality Life Index project, all reporting the same January 12, 2026 announcement and EPA's own quoted 'false precision and confidence' rationale.",
+    "short_summary": "EPA said it will stop assigning a dollar value to lives saved when justifying air-pollution rules, a structural policy shift.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "The Washington Post -- 'EPA will no longer consider health costs in pollution regulations'",
+        "url": "https://www.washingtonpost.com/climate-environment/2026/01/12/epa-public-health-pollution-costs/"
+      },
+      {
+        "name": "NBC News -- 'EPA to stop calculating deaths avoided and health care savings from air pollution rules'",
+        "url": "https://www.nbcnews.com/science/environment/epa-stop-calculating-deaths-avoided-health-care-savings-air-pollution-rcna254021"
+      },
+      {
+        "name": "Human Rights Watch -- 'US Will Stop Considering Pollution's Cost to Health'",
+        "url": "https://www.hrw.org/news/2026/01/15/us-will-stop-considering-pollutions-cost-to-health"
+      },
+      {
+        "name": "Environmental Defense Fund -- 'Trump EPA Finalizes Weak Rule to Reduce Dangerous Air Pollution from New Gas-Burning Power Plants, Ignores Health Benefits and Lives Saved'",
+        "url": "https://www.edf.org/media/trump-epa-finalizes-weak-rule-reduce-dangerous-air-pollution-new-gas-burning-power-plants"
+      },
+      {
+        "name": "OPB/GBH (NPR) -- 'The EPA is changing how it considers the costs and benefits of air pollution rules'",
+        "url": "https://www.opb.org/article/2026/01/13/the-epa-has-long-considered-the-health-benefits-from-air-pollution-rules-thats-changing/"
+      }
+    ],
+    "last_updated": "2026-08-11",
+    "section_summaries": {
+      "what_changed": "EPA announced January 12, 2026 that it would stop assigning a dollar value to avoided deaths and illness when justifying air-pollution rules, applying the change beyond the specific power-plant NOx rule it accompanied to future air-pollution rulemaking generally.",
+      "estimated_impact": "Because monetized health benefits have historically been the dominant justification for stricter air-pollution rules, this methodological shift structurally weakens the case for future tightening, independent of any single rule's numbers.",
+      "confidence_note": "Well-corroborated across mainstream, legal, and public-health sources reporting the same announcement and EPA's own stated rationale."
+    }
+  },
+  {
     "id": "epa-civil-enforcement-collapse-2025",
     "rule_name": "EPA civil enforcement of environmental laws against polluters (not a specific rule -- documents an enforcement-practice collapse achieved without formally repealing underlying statutes/rules)",
     "administration": "Trump II (2025-present)",
@@ -1061,6 +1169,82 @@
     ]
   },
   {
+    "id": "epa-ghg-reporting-program-elimination-2025",
+    "rule_name": "EPA's Proposed Elimination of the Greenhouse Gas Reporting Program (GHGRP)",
+    "administration": "Trump II (2025-present)",
+    "agency": "EPA",
+    "domain": "environmental",
+    "status": "Proposed Repeal (not yet finalized -- EPA extended the 2025 reporting deadline separately to October 30, 2026, and said it would finalize the broader elimination in one or more later actions)",
+    "date_of_action": "2025-09-12 (proposed)",
+    "original_rule_summary": "The Greenhouse Gas Reporting Program, established in 2009, has required roughly 8,000 large industrial facilities -- power plants, refineries, landfills, and other major emitters -- to measure and publicly report their greenhouse gas emissions to EPA annually, producing the U.S. government's primary facility-level emissions dataset used by regulators, researchers, states, and industry itself.",
+    "what_changed": "On September 12, 2025, EPA Administrator Lee Zeldin proposed effectively ending the GHGRP, removing reporting obligations for all source categories except petroleum and natural gas systems (those facilities would still report starting in 2034, tied to the separate methane emissions tax). EPA framed the proposal as cutting 'burdensome, costly' red tape, estimating it would save regulated companies up to $2.4 billion. The proposal drew unusually bipartisan pushback: Sens. Sheldon Whitehouse (D-RI) and Kevin Cramer (R-ND) jointly urged EPA to withdraw it, warning that ending the program would harm American industrial competitiveness and specifically damage the domestic carbon-capture and LNG sectors, which rely on GHGRP data to verify emissions for federal tax credits (the Section 45Q carbon-sequestration credit and Section 45V clean-hydrogen credit). Rep. Sean Casten (D-IL) led a separate House Democratic letter arguing the elimination violated 'clear congressional directives.' EPA received more than 50,000 public comments by the November 3, 2025 deadline. As of early 2026, EPA had not finalized the core elimination; instead it finalized a narrower action extending the 2025 reporting-year deadline to October 30, 2026, stating it would address the rest of the reconsideration proposal in later, separate final actions.",
+    "primary_proponent": {
+      "name": "Lee Zeldin",
+      "role": "EPA Administrator",
+      "note": "Announced the proposed elimination September 12, 2025, framing it as cost-saving deregulation; the proposal was part of the same broader deregulatory push launched by his March 12, 2025 announcement of 31 simultaneous rollback actions."
+    },
+    "corporate_beneficiaries": [
+      "Large industrial emitters relieved of annual GHG reporting obligations, per EPA's own $2.4 billion cost-savings estimate"
+    ],
+    "estimated_health_impact": {
+      "summary": "Eliminating mandatory facility-level emissions reporting would not itself change physical emissions, but would remove the primary public dataset regulators, researchers, downstream industries (carbon capture, clean hydrogen), and communities use to track where large sources of greenhouse gas pollution are located and how they change over time.",
+      "figures": [
+        {
+          "metric": "EPA's own estimated industry cost savings from ending the program",
+          "value": "up to $2.4 billion",
+          "source": "EPA press release, September 12, 2025"
+        },
+        {
+          "metric": "Facilities currently required to report under the GHGRP",
+          "value": "~8,000",
+          "source": "EPA program description, cited across ESG Dive, Clean Wisconsin"
+        },
+        {
+          "metric": "Public comments received on the proposal by the Nov. 3, 2025 deadline",
+          "value": "50,000+",
+          "source": "EPA docket, reported by industry/legal trade press"
+        }
+      ],
+      "caveat": "This is a data-collection/transparency rollback rather than a rule directly permitting higher emissions -- its harm is to monitoring and accountability capacity, not a direct, quantifiable increase in pollution. The $2.4 billion savings figure is EPA's own estimate, not independently verified."
+    },
+    "confidence_note": "HIGH confidence on the proposal's content, the bipartisan Senate opposition (Whitehouse/Cramer), and the House Democratic letter (Casten) -- corroborated across ESG Dive, the American Action Forum, the Senate EPW Committee's own press release, Fox News, and the Bipartisan Policy Center. The 2026 status (deadline extension finalized separately, core elimination still pending) is corroborated via Federal Register notices and EHSLeaders trade reporting.",
+    "short_summary": "EPA proposed ending mandatory greenhouse-gas emissions reporting for ~8,000 facilities, drawing rare bipartisan Senate opposition.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "EPA -- 'EPA Releases Proposal to End the Burdensome, Costly Greenhouse Gas Reporting Program, Saving up to $2.4 Billion'",
+        "url": "https://www.epa.gov/newsreleases/epa-releases-proposal-end-burdensome-costly-greenhouse-gas-reporting-program-saving-24"
+      },
+      {
+        "name": "ESG Dive -- 'EPA proposes ending the Greenhouse Gas Reporting Program'",
+        "url": "https://www.esgdive.com/news/epa-proposes-ending-the-greenhouse-gas-reporting-program/760142/"
+      },
+      {
+        "name": "American Action Forum -- 'EPA's GHG Reporting Program: Bipartisan Concerns With the Proposed Repeal'",
+        "url": "https://www.americanactionforum.org/insight/epas-ghg-reporting-program-bipartisan-concerns-with-the-proposed-repeal/"
+      },
+      {
+        "name": "Senate Environment and Public Works Committee (Minority) -- 'Whitehouse, Cramer Urge EPA to Withdraw Proposed Cancelation of Greenhouse Gas Reporting Program'",
+        "url": "https://www.epw.senate.gov/public/index.cfm/2025/11/whitehouse-cramer-urge-epa-to-withdraw-proposed-cancelation-of-greenhouse-gas-reporting-program"
+      },
+      {
+        "name": "Rep. Sean Casten -- 'Casten Leads House Dems in Demanding EPA Maintain Their Greenhouse Gas Reporting Program'",
+        "url": "https://casten.house.gov/media/press-releases/casten-leads-house-dems-in-demanding-epa-maintain-their-greenhouse-gas-reporting-program"
+      },
+      {
+        "name": "EHSLeaders -- 'EPA Extends 2025 GHG Reporting Deadline to October 2026'",
+        "url": "https://ehsleaders.org/2026/03/epa-extends-2025-ghg-reporting-deadline-to-october-2026/"
+      }
+    ],
+    "last_updated": "2026-08-11",
+    "section_summaries": {
+      "what_changed": "EPA proposed ending mandatory greenhouse-gas emissions reporting for ~8,000 facilities in September 2025, drawing bipartisan Senate opposition (Whitehouse-D/Cramer-R) and a House Democratic letter; as of early 2026 the core proposal remained unfinalized, with only a narrower deadline extension finalized separately.",
+      "estimated_impact": "Ending the program would remove the primary public dataset for tracking large-facility greenhouse gas emissions, saving industry an EPA-estimated $2.4 billion while reducing monitoring/accountability capacity rather than directly permitting more pollution.",
+      "confidence_note": "Well-corroborated across trade, legal, and congressional sources, including the notably bipartisan opposition -- a signal this isn't a purely partisan characterization."
+    }
+  },
+  {
     "id": "epa-methane-stripper-well-rollback-2026",
     "rule_name": "Methane emission rules for low-producing ('stripper') oil and gas wells",
     "administration": "Trump II (2025-present)",
@@ -1111,6 +1295,68 @@
       "what_changed": "EPA is unwinding 2024 methane rules for low-producing wells, with the effort led in part by a former lobbyist for Hilcorp -- the company that specializes in exactly the well type the rule targeted.",
       "estimated_impact": "No quantified emissions estimate yet exists; the documented impact so far is the conflict-of-interest pattern and the removal of the first-ever federal constraint on this well category.",
       "confidence_note": "Strong: original ProPublica investigative reporting, independently corroborated, with donation figures sourced to FEC filings."
+    }
+  },
+  {
+    "id": "epa-pfas-pesticides-fast-track-approval-2025",
+    "rule_name": "EPA's Fast-Tracked Approval of New PFAS ('Forever Chemical') Pesticides",
+    "administration": "Trump II (2025-present)",
+    "agency": "EPA",
+    "domain": "environmental",
+    "status": "Finalized (multiple approvals; additional PFAS pesticides reported pending)",
+    "date_of_action": "2025-11 (cyclobutrifluram and isocycloseram approved) through 2025-12 (broader reporting on the fast-tracked approval pattern)",
+    "original_rule_summary": "EPA pesticide registration under FIFRA requires the agency to find that a new pesticide will not cause 'unreasonable adverse effects' on human health or the environment before approving it for use; PFAS-class pesticides -- built around carbon-fluorine bonds that make them extremely persistent and difficult to break down -- had previously been approved at a markedly slower pace.",
+    "what_changed": "In early November 2025, EPA approved cyclobutrifluram, a fungicide for use on golf courses, lawns, cotton, soybeans, and lettuce, and known to break down into trifluoroacetic acid (TFA), described by researchers as one of the most pervasive PFAS water contaminants in the world. Roughly two weeks later, EPA approved isocycloseram, an insecticide for golf courses, lawns, and food crops including oranges, tomatoes, almonds, peas, and oats; among the health concerns cited by EWG and other reviewers were reduced testicle size, lower sperm count, and liver toxicity in animal studies. Public-health and environmental groups (EWG, the Center for Biological Diversity) characterized both as part of a broader acceleration: in less than two years, EPA authorized five PFAS pesticides -- roughly quintupling the pace of the prior administration, which approved just one PFAS pesticide across four years. EPA and some agricultural-industry commentators pushed back on aspects of the PFAS characterization itself, with AGDAILY arguing environmental groups had 'stretched' the PFAS classification for some of the newly registered products.",
+    "primary_proponent": {
+      "name": "Lee Zeldin",
+      "role": "EPA Administrator",
+      "note": "EPA's Office of Pesticide Programs, under Zeldin's leadership, approved both pesticides via the standard registration process; no source reviewed identified an individual official personally directing the accelerated pace beyond the administration's general deregulatory posture."
+    },
+    "corporate_beneficiaries": [
+      "Pesticide manufacturers of cyclobutrifluram and isocycloseram, and agricultural users of both products (named manufacturers not identified in sourcing reviewed)"
+    ],
+    "estimated_health_impact": {
+      "summary": "Two new PFAS-class pesticides were approved for use on food crops and residential/recreational turf within weeks of each other, with cyclobutrifluram's known breakdown product (TFA) already documented as a pervasive water contaminant, and isocycloseram linked in reviewed studies to reproductive and liver toxicity -- approved at a pace public-health groups say is roughly five times faster than the prior administration's PFAS-pesticide approval rate.",
+      "figures": [
+        {
+          "metric": "PFAS pesticides approved by EPA in under two years under this administration, vs. the prior administration's four-year pace",
+          "value": "5 approved vs. 1 previously",
+          "source": "Environmental Working Group, Center for Biological Diversity"
+        }
+      ],
+      "caveat": "The specific health-risk figures (reduced testicle size, sperm count, liver toxicity for isocycloseram) come from advocacy-group review of EPA's own registration data, not an independent toxicological study commissioned for this entry; some agricultural-trade commentary disputes aspects of the PFAS characterization applied to these products. EPA's own position is that its standard FIFRA registration review found no unreasonable adverse effects, consistent with approval."
+    },
+    "confidence_note": "MODERATE-HIGH confidence -- the approvals themselves and their dates are well-corroborated (EWG, Center for Biological Diversity, IBTimes UK, Time). The 'quintupled pace' framing and specific health-risk claims originate primarily from advocacy organizations reviewing EPA's data rather than from EPA's own public statements, and at least one agricultural-trade outlet (AGDAILY) has pushed back on the PFAS characterization for some products -- presented here as a contested characterization on that narrow point, while the underlying approvals and their timing are not in dispute.",
+    "short_summary": "EPA approved two new PFAS-class pesticides for food crops within weeks, part of a roughly fivefold acceleration in PFAS-pesticide approvals.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "Center for Biological Diversity -- 'Trump EPA Approves Its First 'Forever Chemical' Pesticide'",
+        "url": "https://biologicaldiversity.org/w/news/press-releases/trump-epa-approves-its-first-forever-chemical-pesticide-2025-11-05/"
+      },
+      {
+        "name": "Center for Biological Diversity -- 'Trump EPA Approves Its Second 'Forever Chemical' Pesticide in Two Weeks'",
+        "url": "https://biologicaldiversity.org/w/news/press-releases/trump-epa-approves-its-second-forever-chemical-pesticide-in-two-weeks-2025-11-20/"
+      },
+      {
+        "name": "Environmental Working Group -- 'EWG Challenges EPA on PFAS Pesticides Approval'",
+        "url": "https://www.ewg.org/news-insights/news/2025/12/ewg-lee-zeldin-pfas-pesticides-are-bad-news-not-fake-news"
+      },
+      {
+        "name": "TIME -- 'EPA Is Embracing PFAS Pesticides. These Are The Health Risks'",
+        "url": "https://time.com/7336883/epa-pfas-pesticides-health-risks/"
+      },
+      {
+        "name": "AGDAILY -- 'Eco-groups stretch PFAS claims about newly registered pesticides' (contrary framing on classification)",
+        "url": "https://www.agdaily.com/news/eco-groups-stretch-pfas-claims-about-registered-pesticides/"
+      }
+    ],
+    "last_updated": "2026-08-11",
+    "section_summaries": {
+      "what_changed": "EPA approved two new PFAS-class pesticides (cyclobutrifluram, isocycloseram) for food crops and turf in November 2025, part of what public-health groups say is a roughly fivefold acceleration in PFAS-pesticide approvals versus the prior administration.",
+      "estimated_impact": "New PFAS pesticides linked to reproductive/liver toxicity concerns and persistent water contamination were approved for food-crop and residential use at an accelerated pace.",
+      "confidence_note": "Approvals and timing are well-corroborated; the pace comparison and specific health claims trace mainly to advocacy-group analysis, with at least one agricultural-trade source disputing the PFAS characterization for some products."
     }
   },
   {
@@ -1189,6 +1435,58 @@
         "url": "https://blog.ucs.org/dminovi/epa-common-sense-is-protecting-communities-and-workers-from-chemical-disasters/"
       }
     ]
+  },
+  {
+    "id": "epa-soot-standard-vacatur-attempt-rejected-2025-2026",
+    "rule_name": "EPA's Attempt to Vacate the 2024 Soot (PM2.5) Air Quality Standard",
+    "administration": "Trump II (2025-present)",
+    "agency": "EPA",
+    "domain": "environmental",
+    "status": "Rejected by federal appeals court -- the 2024 standard remains in effect",
+    "date_of_action": "2025-11 (EPA moves to vacate) through 2026-06-26 (appeals court denies the motion)",
+    "original_rule_summary": "In 2024, EPA under the Biden administration tightened the national ambient air quality standard for fine particulate matter (soot, PM2.5) from power plants, oil refineries, and other industrial sources, lowering the annual limit from 12 micrograms per cubic meter to 9 micrograms per cubic meter, to take full effect by 2032.",
+    "what_changed": "Republican attorneys general from 24 states and an industry coalition sued in March 2024 arguing EPA lacked statutory authority to tighten the standard and that it was improperly influenced by 'environmental justice' considerations. In November 2025, EPA under the Trump administration moved in that litigation to vacate its own 2024 rule, arguing the agency had exceeded its statutory authority and acted unreasonably by failing to adequately consider costs -- an unusual posture in which the agency defending a rule instead asked the court to strike it down. On June 26, 2026, the U.S. Court of Appeals denied both the original petitions for review and EPA's own motion for vacatur, finding the challengers' arguments 'lack merit.' The 9 microgram/cubic meter standard remains legally in effect as a result.",
+    "primary_proponent": {
+      "name": "Lee Zeldin",
+      "role": "EPA Administrator",
+      "note": "Directed EPA to move to vacate its own predecessor's finalized rule rather than defend it in litigation -- part of the same broader deregulatory push as the March 2025 31-rule announcement."
+    },
+    "corporate_beneficiaries": [
+      "Power plant, oil refinery, and other industrial operators that would have faced a looser compliance standard had the vacatur motion succeeded"
+    ],
+    "estimated_health_impact": {
+      "summary": "Had EPA's vacatur motion succeeded, the tighter 2024 soot standard -- which environmental and public-health groups credit with preventing pollution-related illness and premature death from fine particulate matter, a pollutant linked to heart attacks, asthma, and other cardiopulmonary harm -- would have reverted to the looser 12 microgram/cubic meter limit. The court's rejection means this harm did not materialize.",
+      "figures": [],
+      "caveat": "Because the rollback attempt failed, no source reviewed quantifies a harm that was ultimately averted rather than realized; the entry documents the attempt and its rejection, not a realized health impact."
+    },
+    "confidence_note": "HIGH confidence -- the litigation history, EPA's own vacatur motion, and the June 26, 2026 appellate rejection are corroborated across EHSLeaders, Utility Dive, Smart Cities Dive, E&E News, Earthjustice, and the Environmental Defense Fund. This is a rare instance in this database of a specific rollback attempt being fully defeated in court rather than finalized, delayed, or contested.",
+    "short_summary": "A federal appeals court rejected EPA's attempt to vacate the 2024 soot air-quality standard, leaving it in effect.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "EHSLeaders -- 'Federal Appeals Court Rejects EPA Bid to Scrap Tougher Soot Standard'",
+        "url": "https://ehsleaders.org/2026/07/federal-appeals-court-rejects-epa-bid-to-scrap-tougher-soot-standard/"
+      },
+      {
+        "name": "Utility Dive -- 'EPA's tougher soot standard upheld in court'",
+        "url": "https://www.utilitydive.com/news/epas-tougher-soot-standard-upheld-in-court/824211/"
+      },
+      {
+        "name": "E&E News (POLITICO) -- 'EPA to scrap lifesaving soot pollution limit'",
+        "url": "https://www.eenews.net/articles/epa-to-scrap-lifesaving-soot-pollution-limit/"
+      },
+      {
+        "name": "Earthjustice -- 'Court Upholds Life-Saving National Soot Air Quality Standard'",
+        "url": "https://earthjustice.org/press/2026/court-upholds-life-saving-national-soot-air-quality-standard"
+      }
+    ],
+    "last_updated": "2026-08-11",
+    "section_summaries": {
+      "what_changed": "EPA moved in November 2025 to vacate its predecessor's own 2024 soot (PM2.5) air-quality standard in ongoing litigation; a federal appeals court rejected the motion in June 2026, leaving the tighter 9 microgram/cubic meter standard in effect.",
+      "estimated_impact": "The attempt, had it succeeded, would have loosened a standard credited with preventing pollution-related illness and death; because the court rejected it, that harm did not materialize.",
+      "confidence_note": "Well-corroborated across trade and legal press; notable as a rollback attempt that was fully defeated in court rather than finalized or left pending."
+    }
   },
   {
     "id": "epa-vehicle-pollution-standards-delay-2026",
