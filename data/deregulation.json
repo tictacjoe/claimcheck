@@ -2450,6 +2450,55 @@
     "short_summary": "SEC proposed scrapping its 2024 rule requiring companies to disclose climate risk and emissions data to investors."
   },
   {
+    "id": "sec-subpoena-authority-revoked-2025",
+    "rule_name": "Revocation of SEC Enforcement Division's Delegated Authority to Issue Formal Orders of Investigation and Subpoenas",
+    "administration": "Trump II (2025-present)",
+    "agency": "SEC",
+    "domain": "financial",
+    "status": "Fully Repealed (the 2009 delegation of authority itself)",
+    "date_of_action": "2025-03-10",
+    "original_rule_summary": "Since 2009 -- adopted after the financial crisis, specifically to speed up fraud investigations -- the SEC had delegated authority to the Director of the Division of Enforcement to issue formal orders of investigation and the subpoenas that come with them, letting enforcement staff open investigations and compel documents/testimony without a Commission vote for each case.",
+    "what_changed": "On March 10, 2025, the SEC's Republican majority -- then-Acting Chairman Mark Uyeda and Commissioner Hester Peirce -- voted to revoke the Enforcement Division's delegated authority to issue formal orders of investigation and subpoenas, over the objection of the sole Democratic commissioner, Caroline Crenshaw. The rule returns the SEC to its pre-2009 process, in which a majority of sitting Commissioners must personally approve the opening of any formal investigation and any subpoena issued in connection with it. Law-firm client alerts (Ballard Spahr, Arnold & Porter, Latham) characterized the change as likely to slow the pace and reduce the volume of SEC investigations by adding a bureaucratic approval step to every case. The rule took effect roughly six weeks before Paul Atkins was confirmed and sworn in as SEC Chairman (April 2025); its practical effect became publicly visible a year later when Enforcement Division Director Margaret Ryan abruptly resigned in March 2026 after reportedly being blocked from pursuing fraud charges against Trump- and Musk-linked figures (Justin Sun, Elon Musk) -- see the separate `sec-enforcement-chief-ryan-resignation-2026.json` entry for that downstream episode, which this rule's Commission-approval requirement structurally enabled.",
+    "primary_proponent": {
+      "name": "Mark Uyeda",
+      "role": "SEC Acting Chairman at the time of the vote",
+      "note": "Voted with Commissioner Hester Peirce to adopt the rule by a 2-1 party-line vote, over Commissioner Caroline Crenshaw's dissent."
+    },
+    "corporate_beneficiaries": [],
+    "estimated_health_impact": {
+      "summary": "Concentrating subpoena and investigation-opening authority in a Commission majority vote, rather than career enforcement staff, adds delay and political-approval risk to every SEC investigation -- including ones touching companies or individuals with ties to the administration, as the later Ryan-resignation episode illustrated.",
+      "figures": [],
+      "caveat": "No independently quantified figure (e.g. number or value of investigations delayed/dropped as a direct result of this rule) was identified in sourcing reviewed; the harm case here rests on law-firm and legal-press analysis of the rule's structural effect plus one concrete documented downstream episode (the Ryan resignation), not a modeled dollar or case-count impact."
+    },
+    "confidence_note": "HIGH confidence on the rule's adoption, vote breakdown, and mechanism, corroborated by multiple law-firm client alerts (Ballard Spahr, Arnold & Porter, Latham, Cooley) and U.S. News' contemporaneous reporting. The link to the later Ryan-resignation episode is a reasonable structural inference (this rule created the Commission-approval choke point that reporting says blocked her preferred charges) rather than a source explicitly stating the March 2025 rule caused that specific outcome -- flagged as such rather than presented as directly proven causation.",
+    "short_summary": "SEC's Republican majority stripped enforcement staff of independent subpoena/investigation authority, requiring a Commission vote for each case.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "Arnold & Porter -- SEC Revokes Delegated Authority for Formal Orders and Subpoenas",
+        "url": "https://www.arnoldporter.com/en/perspectives/blogs/enforcement-edge/2025/03/sec-revokes-delegated-authority"
+      },
+      {
+        "name": "Ballard Spahr -- SEC Curtails Enforcement Leadership's Investigation and Subpoena Power",
+        "url": "https://www.ballardspahr.com/insights/alerts-and-articles/2025/03/sec-curtails-enforcement-leadership-investigation-and-subpoena-power"
+      },
+      {
+        "name": "U.S. News -- US SEC Revokes Staff's Authority to Launch Formal Probes, Notice Says",
+        "url": "https://www.usnews.com/news/us/articles/2025-03-11/us-sec-revokes-staffs-authority-to-launch-formal-probes-notice-says"
+      },
+      {
+        "name": "Cooley -- SEC Now Requires Commission Approval for Subpoenas, but Says It Is Not 'Walking Away' From Enforcement",
+        "url": "https://investigations.cooley.com/2025/03/18/sec-now-requires-commission-approval-for-subpoenas-but-says-it-is-not-walking-away-from-enforcement/"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "SEC's Republican majority (Uyeda, Peirce) voted March 10, 2025 to require full-Commission approval for every subpoena/investigation, reversing a 2009 staff delegation.",
+      "estimated_impact": "Adds delay and political-approval risk to every SEC investigation; the later Ryan-resignation episode (Musk/Sun cases blocked) shows the choke point in practice.",
+      "confidence_note": "HIGH on the rule and vote; the link to the 2026 Ryan episode is a reasonable structural inference, not a source's stated causal claim."
+    }
+  },
+  {
     "id": "stream-protection-rule-repeal-trump1",
     "rule_name": "Stream Protection Rule repeal (Congressional Review Act)",
     "administration": "Trump I (2017-2021)",

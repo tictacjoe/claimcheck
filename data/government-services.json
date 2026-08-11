@@ -2296,23 +2296,23 @@
   },
   {
     "id": "doge-ssa-fraud-review-data-access-2025-2026",
-    "title": "DOGE's 'Fraud Review' of \\.6 Trillion in Social Security Payments Found Almost No Fraud, Slowed Claims 25%, and Led to an Unauthorized Server Holding 300M+ Americans' Data",
+    "title": "DOGE's 'Fraud Review' of $8.6 Trillion in Social Security Payments Found Almost No Fraud, Slowed Claims 25%, and Led to an Unauthorized Server Holding 300M+ Americans' Data",
     "institution": "Social Security Administration (SSA); DOGE (Department of Government Efficiency)",
     "domain": "protection_rollback",
     "status": "Ongoing litigation; Fourth Circuit vacated the injunction limiting DOGE's SSA data access (April 2026); SSA reportedly considering rolling back the anti-fraud phone checks; DOJ/OIG and whistleblower reviews of the data-access scope continuing as of last verification",
     "date_of_action": "2025-03-08 (review publicly reported) through 2026-04-10 (Fourth Circuit ruling); data-access disclosures continuing into 2026",
-    "what_changed": "In March 2025, ABC News and other outlets reported that DOGE was searching through \\.6 trillion in Social Security payment records as part of a stated anti-fraud effort, with DOGE engineer Aram Moghaddassi and Elon Musk publicly claiming that up to 40% of phone calls to SSA requesting direct-deposit changes came from fraudsters -- a claim used to justify new anti-fraud identity checks on phone-based claims starting in early April 2025. Acting SSA Commissioner Leland Dudek later confirmed the review's scope in a letter to Congress. The actual results, revealed in internal SSA documents reported by Nextgov/FCW and cited by Sen. Elizabeth Warren in a May 15, 2025 release, contradicted the fraud claims: of more than 110,000 phone claims examined under the new checks, only 2 were found to have a high probability of fraud, and fewer than 1% were flagged as even potentially fraudulent at all -- consistent with SSA's own data showing fraud is a negligible share (a fraction of the already-small 0.3%) of the program's improper payments. The new checks themselves caused documented harm: an internal SSA document from May 2025 found they slowed retirement claim processing by 25% and caused a 'degradation of public service,' with over 140,000 retirement claims left unprocessed for more than 60 days, prompting SSA to consider walking the policy back. Separately, and more seriously, court filings beginning in January 2026 revealed that DOGE staff had improperly accessed and shared SSA data well beyond the stated fraud-review purpose: a January 16, 2026 DOJ court filing corrected prior sworn agency testimony and admitted a DOGE employee had copied Social Security records covering more than 300 million Americans onto an unauthorized, inadequately secured cloud server that SSA itself could not fully audit for who had accessed it. The same filing revealed a DOGE employee had signed an agreement to share SSA data with an outside political advocacy group seeking to find evidence of voter fraud and 'overturn results in certain States,' prompting a Hatch Act referral for two DOGE employees to a federal watchdog. A federal court had issued a temporary restraining order in March 2025 limiting DOGE's SSA data access, but reporting found DOGE associates continued accessing sensitive data even after that order; a further whistleblower complaint reported in March 2026 alleged a former DOGE associate planned to take sensitive citizen data to a subsequent government-contractor job. On April 10, 2026, the Fourth Circuit Court of Appeals vacated the district court's preliminary injunction restricting DOGE's SSA data access, with the majority finding plaintiffs had not shown 'irreparable harm' -- over a dissent arguing the prior record was 'materially erroneous' given the January 2026 disclosures.",
+    "what_changed": "Starting in mid-February 2025, Elon Musk publicly laid the political groundwork for DOGE's Social Security fraud review with two separate, since-debunked claims: that 20 million people 'definitely dead' were still marked alive in SSA's Numident database, and, in a March 11, 2025 Fox Business interview, that $500-700 billion in Social Security 'waste' needed to be eliminated. Fact-checkers and SSA's own then-acting commissioner rejected both claims -- SSA data traces the '150-year-olds' figure to a database-structure quirk (SSA's own inspector general found improper payments of all kinds, fraud included, totaled less than 1% of the $8.6 trillion paid out from FY2015-2022), and experts told ABC News Trump and Musk were falsely implying millions of dead Americans were actively receiving benefits rather than merely still appearing as unremoved records. In March 2025, ABC News and other outlets reported that DOGE was searching through $8.6 trillion in Social Security payment records as part of the same stated anti-fraud effort, with DOGE engineer Aram Moghaddassi and Musk separately claiming that up to 40% of phone calls to SSA requesting direct-deposit changes came from fraudsters -- a narrower claim used to justify new anti-fraud identity checks on phone-based claims starting in early April 2025. Acting SSA Commissioner Leland Dudek later confirmed the review's scope in a letter to Congress. The actual results, revealed in internal SSA documents reported by Nextgov/FCW and cited by Sen. Elizabeth Warren in a May 15, 2025 release, contradicted the fraud claims: of more than 110,000 phone claims examined under the new checks, only 2 were found to have a high probability of fraud, and fewer than 1% were flagged as even potentially fraudulent at all -- consistent with SSA's own data showing fraud is a negligible share (a fraction of the already-small 0.3%) of the program's improper payments. The new checks themselves caused documented harm: an internal SSA document from May 2025 found they slowed retirement claim processing by 25% and caused a 'degradation of public service,' with over 140,000 retirement claims left unprocessed for more than 60 days, prompting SSA to consider walking the policy back. Separately, and more seriously, court filings beginning in January 2026 revealed that DOGE staff had improperly accessed and shared SSA data well beyond the stated fraud-review purpose: a January 16, 2026 DOJ court filing corrected prior sworn agency testimony and admitted a DOGE employee had copied Social Security records covering more than 300 million Americans onto an unauthorized, inadequately secured cloud server that SSA itself could not fully audit for who had accessed it. The same filing revealed a DOGE employee had signed an agreement to share SSA data with an outside political advocacy group seeking to find evidence of voter fraud and 'overturn results in certain States,' prompting a Hatch Act referral for two DOGE employees to a federal watchdog. A federal court had issued a temporary restraining order in March 2025 limiting DOGE's SSA data access, but reporting found DOGE associates continued accessing sensitive data even after that order; a further whistleblower complaint reported in March 2026 alleged a former DOGE associate planned to take sensitive citizen data to a subsequent government-contractor job. On April 10, 2026, the Fourth Circuit Court of Appeals vacated the district court's preliminary injunction restricting DOGE's SSA data access, with the majority finding plaintiffs had not shown 'irreparable harm' -- over a dissent arguing the prior record was 'materially erroneous' given the January 2026 disclosures.",
     "primary_proponent": {
       "name": "Elon Musk and DOGE engineer Aram Moghaddassi",
-      "role": "DOGE leadership/technical staff who publicly asserted the 40%-phone-fraud claim used to justify the program",
-      "note": "Musk publicly and repeatedly claimed roughly 40% of SSA direct-deposit-change phone calls were fraudulent; SSA's own subsequent data (110,000+ claims reviewed, 2 high-probability-fraud cases found) directly contradicted that figure. Acting Commissioner Leland Dudek confirmed the review's existence and scope to Congress."
+      "role": "DOGE leadership/technical staff who publicly asserted the fraud claims used to justify the program",
+      "note": "Musk publicly made at least three separate, since-debunked fraud claims to build political support for cutting Social Security: 20 million 'dead' people supposedly still marked alive in SSA's database (February 2025), $500-700 billion in program 'waste' to eliminate (Fox Business, March 11, 2025), and roughly 40% of direct-deposit-change phone calls being fraudulent (used to justify the specific program this entry tracks). SSA's own subsequent data (110,000+ claims reviewed, 2 high-probability-fraud cases found) directly contradicted the phone-fraud figure, and SSA's then-acting commissioner and outside experts separately rejected the dead-people and waste claims. Acting Commissioner Leland Dudek confirmed the review's existence and scope to Congress."
     },
     "estimated_impact": {
       "summary": "A fraud-prevention program justified by a since-disproven 40%-fraud claim degraded legitimate service (slower claims, more unprocessed cases) while producing almost no confirmed fraud, and separately resulted in Social Security data for more than 300 million Americans being copied to an unsecured, unauthorized server that the agency could not fully audit -- with at least one documented instance of that access being shared outside SSA for an unrelated political purpose.",
       "figures": [
         {
           "metric": "Social Security payments reviewed under the anti-fraud effort",
-          "value": "\\.6 trillion",
+          "value": "$8.6 trillion",
           "source": "DOGE/SSA, reported by ABC News, March 2025"
         },
         {
@@ -2344,10 +2344,10 @@
       "caveat": "The 40%-fraud claim is well-documented as false by SSA's own subsequent data, but the underlying question of how much SSA/OIG-estimated fraud existed before this program is separate and smaller-scale (SSA data puts total improper payments, of which fraud is a small fraction, at about 0.3%). The scope of DOGE's improper data access and sharing is described by SSA itself as not yet fully known, so figures here (300 million, the political-advocacy-group sharing agreement) reflect what has been disclosed in litigation so far, not necessarily the full extent. The Fourth Circuit's April 2026 ruling vacating the injunction was procedural (failure to show ongoing irreparable harm under the preliminary-injunction standard), not a finding that the underlying data-access conduct was proper -- the dissent specifically flagged the record as materially incomplete when the panel ruled."
     },
     "confidence_note": "HIGH confidence. The fraud-review claims and results are corroborated by ABC News' original reporting, Nextgov/FCW's internal-document reporting, and Sen. Warren's official Senate release citing SSA's own data. The improper data-access findings come from DOJ's own court filing (a party admission, not an outside allegation) and are corroborated by NPR, Axios, CNN, and Government Executive reporting on the same filing and the subsequent Fourth Circuit ruling.",
-    "last_verified": "2026-08-10",
+    "last_verified": "2026-08-11",
     "date_added": "2026-08-10",
     "section_summaries": {
-      "what_changed": "DOGE's \\.6T SSA fraud review, justified by a since-disproven 40%-fraud claim, found almost no fraud while slowing claims processing 25%; separate court filings revealed DOGE improperly copied 300M+ Americans' SSA records to an unauthorized server and shared data with a political advocacy group.",
+      "what_changed": "Musk built political cover for cutting Social Security with debunked claims (20M 'dead' recipients, $500-700B in 'waste'), then DOGE's $8.6T SSA fraud review, justified by a further since-disproven 40%-fraud claim, found almost no fraud while slowing claims processing 25%; separate court filings revealed DOGE improperly copied 300M+ Americans' SSA records to an unauthorized server and shared data with a political advocacy group.",
       "estimated_impact": "Legitimate service was degraded (slower claims, unprocessed backlog) for a fraud rate that turned out to be negligible, while the data-access scandal exposed hundreds of millions of Americans' records to unaudited, unauthorized access.",
       "confidence_note": "Very strongly sourced -- fraud-review results from SSA's own internal data via Sen. Warren's office, and the data-access scandal from DOJ's own court filing, both corroborated by multiple independent outlets."
     },
@@ -2355,6 +2355,14 @@
       {
         "name": "ABC News -- DOGE is searching through Social Security payments looking for fraud",
         "url": "https://abcnews.go.com/Politics/doge-searching-social-security-payments-fraud/story?id=119564143"
+      },
+      {
+        "name": "AP News -- Musk eyes Social Security and benefit programs for cuts while claiming widespread fraud",
+        "url": "https://apnews.com/article/elon-musk-donald-trump-doge-b21b74f56f30012a6450a629e7232a1a"
+      },
+      {
+        "name": "ABC News -- Musk misreads Social Security data, millions of dead people not getting benefits, experts say",
+        "url": "https://abcnews.com/Politics/musk-misreads-social-security-data-millions-dead-people/story?id=118960821"
       },
       {
         "name": "Sen. Elizabeth Warren -- New Social Security Data Reveals Musk, DOGE Lied in Claims of Social Security Fraud",
@@ -3412,6 +3420,55 @@
       "estimated_impact": "Roughly 7.5-8 million borrowers lost access to affordable income-driven repayment for 18 months, then faced renewed financial strain and, for most, higher monthly payments once forbearance ended entirely.",
       "confidence_note": "Well-corroborated via the Department's own release, CBS News, and a Senate letter; the SAVE plan's end stems from a court ruling, while the replacement plan's design and timeline are the Department's own implementation choices."
     }
+  },
+  {
+    "id": "education-dept-school-mental-health-grants-terminated-2025",
+    "title": "Education Department Ends $1 Billion in School Mental Health Staffing Grants",
+    "institution": "U.S. Department of Education",
+    "domain": "funding_redirection",
+    "status": "Finalized; not restored as of last verification",
+    "date_of_action": "2025-08-01 (reporting) -- grants had been awarded under the 2022 Bipartisan Safer Communities Act",
+    "what_changed": "The Trump administration abruptly ended roughly $1 billion in federal grants that funded school-based mental health staffing programs -- counselors, behavior analysts, and social workers -- created under the 2022 Bipartisan Safer Communities Act's School-Based Mental Health Services and Mental Health Service Professional Demonstration grant programs. NPR reported over 200 such programs nationwide lost funding, forcing many participants out of training pipelines mid-program. Oklahoma's PRIME initiative, which trained mental-health staff for rural schools, was cited as a specific case study: the state already faced counselor shortages in all 77 of its counties before the cut, and advocates said the loss would worsen an already severe shortage of school-based mental health support tied to youth suicide prevention and behavioral outcomes.",
+    "primary_proponent": {
+      "name": "Trump administration / U.S. Department of Education",
+      "role": "Executive action terminating previously awarded federal grants",
+      "note": "No single named Education Department official was identified in sourcing as personally directing the termination; the grants were part of the administration's broader push to cut federal spending on programs it characterized as tied to diversity-related hiring criteria in earlier public statements about similar grant reviews."
+    },
+    "estimated_impact": {
+      "summary": "A federal grant program built in direct response to school-shooting-era bipartisan legislation, funding mental-health staffing pipelines for schools nationwide, was eliminated mid-program, disproportionately affecting rural and already-underserved districts like Oklahoma's.",
+      "figures": [
+        {
+          "metric": "Federal grant funding terminated",
+          "value": "$1 billion",
+          "source": "NPR, July 2025"
+        },
+        {
+          "metric": "School mental-health staffing programs nationwide that lost funding",
+          "value": "200+",
+          "source": "NPR, July 2025"
+        },
+        {
+          "metric": "Oklahoma counties already facing school mental-health staffing shortages before the cut",
+          "value": "77 of 77 (all)",
+          "source": "NPR, July 2025"
+        }
+      ],
+      "caveat": "Figures come from a single NPR investigation citing grantee and state-level sources; no independent nationwide tally of affected students or documented outcome harms (e.g. counselor-to-student ratio changes) was identified beyond the Oklahoma case study."
+    },
+    "confidence_note": "MODERATE-HIGH confidence. NPR's reporting is detailed and specific (named program, state, and dollar figures), but is currently the only outlet identified covering this specific cut in sourcing reviewed; worth a follow-up check for independent corroboration or a legal challenge similar to the NIH grant-termination litigation.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "section_summaries": {
+      "what_changed": "Education Dept ended ~$1B in Bipartisan Safer Communities Act school mental-health staffing grants (reported July 2025), cutting 200+ programs nationwide including Oklahoma's PRIME initiative.",
+      "estimated_impact": "Rural, already-underserved districts were hit hardest -- Oklahoma faced shortages in all 77 counties before the cut -- worsening pipelines for counselors and behavior analysts tied to youth suicide prevention.",
+      "confidence_note": "MODERATE-HIGH -- detailed NPR reporting with named program/figures, but single-outlet sourcing identified so far."
+    },
+    "sources": [
+      {
+        "name": "NPR -- Trump administration cuts school mental health grants, including Oklahoma's PRIME initiative",
+        "url": "https://www.npr.org/2025/07/28/nx-s1-5440300/trump-oklahoma-schools-cuts"
+      }
+    ]
   },
   {
     "id": "education-dept-student-loan-portfolio-privatization-2025-2026",
@@ -7746,7 +7803,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing -- the 2025 pattern repeated into the 2026 summer season: permanent staffing losses (~24%, ~4,000 people) remain unreversed, and 2026 seasonal hiring again fell short of its own target heading into peak season",
     "date_of_action": "2025-02-14 (initial mass layoff, dubbed the 'Valentine's Day Massacre' by affected staff) through 2025-08-27 (internal operational-status report surfaces)",
-    "what_changed": "On February 14, 2025, NPS laid off approximately 1,000-1,700 probationary employees just weeks before peak visitor season began across the system's 63 national parks and 370 other managed sites. By July 2025, independent analysis of Interior Department workforce data by the National Parks Conservation Association (NPCA) found NPS had lost 24% of its permanent staff overall (about 4,000 people) since January, while only roughly 4,500 of a promised ~8,000 seasonal positions had been filled. In April 2025, Interior Secretary Doug Burgum issued Secretarial Order 3426, mandating that every park remain 'open and accessible' regardless of staffing levels -- meaning parks could not close facilities or reduce services in response to the shortages, only quietly absorb the strain. Per Order 3426's own reporting requirement, every park unit had to submit an updated operational status by July 25, 2025; an internal NPS report compiled from those submissions, first reported by the New York Times, documented widespread, specific impacts: nearly 70 parks reduced visitor center hours, 22 postponed maintenance, and 11 closed or delayed opening facilities. Specific documented examples include all 13 lifeguard positions vacant at Assateague Island National Seashore (leaving the beach unguarded), the fire management team reduced to one person at Cumberland Island National Seashore, and Indiana Dunes National Park's ranger-led tours cut from 575 to approximately 100 for the year after 4 of 6 interpretive-division supervisors took early retirement. When this internal report became public, Interior deputy press secretary Aubrie Spady called the reporting a 'false narrative,' stating 'staffing levels and operations at our National Parks this summer are on par with previous years. Full Stop' -- a direct denial of findings drawn from the agency's own internal, Order-3426-mandated data collection. For the 2026 season, NPS again fell short of its own seasonal-hiring target: roughly 4,500 of a planned 5,000+ seasonal positions were filled heading into peak summer season, with reporting citing paperwork delays, background-check backlogs, and housing shortages as contributing causes -- a smaller absolute gap than 2025's (~4,500 of ~8,000 filled), but the same shortfall pattern for a second consecutive year. The ~24% permanent-staff loss and its downstream effects (documented in this entry's 2025 examples) had not been reversed as of this update. Update 2026-07-26: the 2026 peak season brought the staffing crisis to a head -- record crowds collided with reduced capacity at parks including Yosemite, where seasonal employees reportedly went weeks without pay, scientists and hydrologists were reassigned to cleaning restrooms and staffing entrance gates, and some campgrounds closed for lack of staff to run them. NPS also removed timed-entry reservation systems at some of the busiest parks and introduced a new $100-per-person fee for international visitors, both of which affected entrance-line flow during the July 4th weekend's record crowds. On a partial-relief note, NPS was approved to refill roughly 600 staff positions -- a real but small fraction of the several thousand permanent positions lost since January 2025, not a reversal of the underlying staffing loss this entry documents.",
+    "what_changed": "On February 14, 2025, NPS laid off approximately 1,000-1,700 probationary employees just weeks before peak visitor season began across the system's 63 national parks and 370 other managed sites. By March 11, 2025, reporting confirmed the administration was separately pushing for a 30% reduction in NPS's overall payroll -- a budget-driven target distinct from, and layered on top of, the February probationary firings -- expected to further reduce park rangers, custodial staff, and conservation-program capacity. By July 2025, independent analysis of Interior Department workforce data by the National Parks Conservation Association (NPCA) found NPS had lost 24% of its permanent staff overall (about 4,000 people) since January, while only roughly 4,500 of a promised ~8,000 seasonal positions had been filled. In April 2025, Interior Secretary Doug Burgum issued Secretarial Order 3426, mandating that every park remain 'open and accessible' regardless of staffing levels -- meaning parks could not close facilities or reduce services in response to the shortages, only quietly absorb the strain. Per Order 3426's own reporting requirement, every park unit had to submit an updated operational status by July 25, 2025; an internal NPS report compiled from those submissions, first reported by the New York Times, documented widespread, specific impacts: nearly 70 parks reduced visitor center hours, 22 postponed maintenance, and 11 closed or delayed opening facilities. Specific documented examples include all 13 lifeguard positions vacant at Assateague Island National Seashore (leaving the beach unguarded), the fire management team reduced to one person at Cumberland Island National Seashore, and Indiana Dunes National Park's ranger-led tours cut from 575 to approximately 100 for the year after 4 of 6 interpretive-division supervisors took early retirement. When this internal report became public, Interior deputy press secretary Aubrie Spady called the reporting a 'false narrative,' stating 'staffing levels and operations at our National Parks this summer are on par with previous years. Full Stop' -- a direct denial of findings drawn from the agency's own internal, Order-3426-mandated data collection. For the 2026 season, NPS again fell short of its own seasonal-hiring target: roughly 4,500 of a planned 5,000+ seasonal positions were filled heading into peak summer season, with reporting citing paperwork delays, background-check backlogs, and housing shortages as contributing causes -- a smaller absolute gap than 2025's (~4,500 of ~8,000 filled), but the same shortfall pattern for a second consecutive year. The ~24% permanent-staff loss and its downstream effects (documented in this entry's 2025 examples) had not been reversed as of this update. On September 2-3, 2025, nearly 600 employees at Yosemite and Sequoia & Kings Canyon voted overwhelmingly to unionize with the National Federation of Federal Employees, a direct workforce response to the mass purges and budget cuts documented above -- workers cited the strain of being stretched thin (scientists and other specialists covering basic operational duties) as a driving factor. Update 2026-07-26: the 2026 peak season brought the staffing crisis to a head -- record crowds collided with reduced capacity at parks including Yosemite, where seasonal employees reportedly went weeks without pay, scientists and hydrologists were reassigned to cleaning restrooms and staffing entrance gates, and some campgrounds closed for lack of staff to run them. NPS also removed timed-entry reservation systems at some of the busiest parks and introduced a new $100-per-person fee for international visitors, both of which affected entrance-line flow during the July 4th weekend's record crowds. On a partial-relief note, NPS was approved to refill roughly 600 staff positions -- a real but small fraction of the several thousand permanent positions lost since January 2025, not a reversal of the underlying staffing loss this entry documents.",
     "primary_proponent": {
       "name": "Department of Government Efficiency (DOGE) / Doug Burgum",
       "role": "DOGE directed the initial layoffs; Interior Secretary Burgum issued the 'stay open regardless of staffing' order that followed",
@@ -7790,11 +7847,11 @@
     },
     "confidence_note": "Very strong sourcing: the National Parks Conservation Association's analysis is based on official Interior Department workforce data, not estimates; the internal operational-status report was first reported by the New York Times and independently corroborated by NPCA and National Parks Traveler using the same underlying park-by-park submissions; and Interior's own denial is on the record and directly checkable against the data it purports to dispute. Individual park examples (Assateague lifeguards, Cumberland Island fire team, Indiana Dunes tours) are specific, named, and quantified rather than general characterizations. Re-verified 2026-07-20: no evidence the underlying permanent-staffing crisis was addressed; 2026 seasonal hiring again missed its own target, though the target itself was smaller than 2025's (5,000+ vs. ~8,000), which somewhat complicates a direct year-over-year comparison -- cite the 2026 figures as their own data point rather than implying they're directly comparable in scale to 2025's. Re-verified 2026-07-26: the Yosemite specifics, international-visitor fee, and 600-position refill approval are corroborated by CNN, RV Lifestyle, and Modern Campground reporting on the 2026 peak season.",
     "section_summaries": {
-      "what_changed": "NPS shed about a quarter of its year-round workforce and missed seasonal hiring goals, while an order barred parks from cutting services -- leaving staff to silently stretch to cover it.",
+      "what_changed": "NPS shed about a quarter of its year-round workforce (on top of a separately announced 30% payroll-cut target) and missed seasonal hiring goals, while an order barred parks from cutting services -- leaving staff to silently stretch to cover it, and eventually driving nearly 600 Yosemite/Sequoia workers to unionize.",
       "estimated_impact": "Beyond visitor inconvenience, documented effects touched safety directly: reduced fire-response capacity, paused disease surveillance, and entrance stations left unstaffed during normal hours.",
       "confidence_note": "Very strongly sourced via official workforce data and an internal report independently corroborated by multiple outlets, with specific named examples rather than vague claims."
     },
-    "last_verified": "2026-07-26",
+    "last_verified": "2026-08-11",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -7818,11 +7875,19 @@
         "url": "https://rollcall.com/2025/03/11/workforce-cuts-raise-concerns-over-national-park-upkeep/"
       },
       {
+        "name": "The Hill — Trump administration pushes 30% cut to National Park Service payroll",
+        "url": "https://thehill.com/homenews/state-watch/5186981-trump-administration-national-park-service-cuts/"
+      },
+      {
+        "name": "The Guardian — California national parks unionize after Trump's mass purges",
+        "url": "https://www.theguardian.com/us-news/2025/sep/02/california-national-parks-union"
+      },
+      {
         "name": "The Coalition to Protect America's National Parks — National Parks Face a Strained Summer as Staffing Shortages Deepen",
         "url": "https://protectnps.org/2026/05/26/national-parks-face-a-strained-summer-as-staffing-shortages-deepen/"
       }
     ],
-    "last_updated": "2026-07-26"
+    "last_updated": "2026-08-11"
   },
   {
     "id": "ncar-supercomputer-removal-2026",
@@ -8359,6 +8424,67 @@
       {
         "name": "Notus -- DOGE fired NIH employees responsible for lab leak prevention",
         "url": "https://www.notus.org/health-science/doge-fired-nih-employees-lab-leak-prevention"
+      }
+    ]
+  },
+  {
+    "id": "nih-vaccine-hesitancy-research-grants-terminated-2025",
+    "title": "NIH Terminates 33+ Grants Studying Vaccine Hesitancy Amid a Growing Measles Outbreak",
+    "institution": "National Institutes of Health (NIH)",
+    "domain": "research_suppression",
+    "status": "Finalized terminations; broader NIH grant-termination practices challenged in ongoing litigation (oral argument held January 6, 2026)",
+    "date_of_action": "2025-03-10",
+    "what_changed": "NIH abruptly terminated at least 33 research grants funding studies of why people are hesitant to receive vaccines and what strategies improve vaccine uptake, with an additional 9 grants flagged for modification or further cuts, after the agency adopted a policy stating it would no longer 'prioritize research activities that focus on gaining scientific knowledge on why individuals are hesitant to be vaccinated and/or explore ways to improve vaccine interest and commitment.' Affected researchers, including one whose work had identified a genuine vaccine safety signal, were notified their studies were being cut off mid-stream, an unusual mechanism for ending federally funded research already underway. The terminations came as HHS was newly led by vaccine skeptic Robert F. Kennedy Jr. and coincided with a Texas-originated measles outbreak that had grown to over 300 cases and at least one death by the time of the cuts, drawing criticism from public health researchers that the timing undercut exactly the kind of research needed to counter vaccine-preventable disease spread. The Center for Science in the Public Interest, ACLU, and Protect Democracy Project sued NIH and HHS on April 2, 2025 over what they characterized as unlawful, politically driven grant cancellations; as of early 2026 the case was on appeal, with oral argument held January 6, 2026.",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services, overseeing NIH",
+      "note": "A longtime vaccine skeptic whose HHS leadership set the policy context under which NIH adopted the new grant-prioritization standard; no NIH-specific individual was separately named in sourcing as the policy's direct author."
+    },
+    "estimated_impact": {
+      "summary": "Federally funded research specifically aimed at understanding and reducing vaccine hesitancy -- the exact behavioral question relevant to containing an active measles outbreak -- was cut off mid-study, with legal challenges still unresolved a year later.",
+      "figures": [
+        {
+          "metric": "Vaccine hesitancy/uptake research grants terminated",
+          "value": "33+",
+          "source": "Washington Post/Forbes/Science, March 2025"
+        },
+        {
+          "metric": "Additional grants flagged for modification or further cuts",
+          "value": "9",
+          "source": "Washington Post/Forbes, March 2025"
+        },
+        {
+          "metric": "Measles cases tied to the concurrent Texas-originated outbreak",
+          "value": "300+ (at least 1 death)",
+          "source": "CDC, cited by Forbes, March 2025"
+        }
+      ],
+      "caveat": "The 33+/9 figures describe this specific grant category; NIH's broader, contemporaneous grant-termination practice (covering additional politically sensitive research areas) is larger in scope and is the subject of the ongoing CSPI/ACLU litigation, not fully captured by this entry's narrower vaccine-hesitancy figure alone."
+    },
+    "confidence_note": "HIGH confidence. The terminations and their stated policy rationale are corroborated by the Washington Post, Forbes, Science/AAAS, and CNN's reporting on an individual affected researcher; the litigation status is corroborated by CSPI's own case page and Science/AAAS coverage of the appeal timeline.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "section_summaries": {
+      "what_changed": "NIH terminated 33+ vaccine-hesitancy research grants (March 2025) under RFK Jr.'s HHS, amid a 300+-case measles outbreak; CSPI/ACLU sued, case on appeal with January 2026 oral argument.",
+      "estimated_impact": "Research aimed at understanding and reducing vaccine hesitancy was cut mid-study during an active measles outbreak, the exact behavioral question most relevant to containing it.",
+      "confidence_note": "Strongly corroborated across Washington Post, Forbes, Science/AAAS, and CNN; litigation status confirmed via CSPI's own case tracking."
+    },
+    "sources": [
+      {
+        "name": "Washington Post -- NIH to terminate or limit grants related to vaccine hesitancy and uptake",
+        "url": "https://www.washingtonpost.com/health/2025/03/10/vaccines-nih-rfk-research-canceled/"
+      },
+      {
+        "name": "Forbes -- NIH Cuts Funding For Vaccine Hesitancy Research, Amid Measles Outbreak",
+        "url": "https://www.forbes.com/sites/omerawan/2025/03/18/nih-cuts-funding-for-vaccine-hesitancy-research-amid-measles-outbreak/"
+      },
+      {
+        "name": "CNN -- Her research revealed a safety concern with a vaccine. Then the NIH pulled her funding",
+        "url": "https://www.cnn.com/2025/03/28/health/vaccine-research-safety-nih-funding/index.html"
+      },
+      {
+        "name": "Center for Science in the Public Interest -- NIH Grants Termination (case page)",
+        "url": "https://www.cspi.org/case/nih-grants-termination"
       }
     ]
   },
@@ -9220,7 +9346,7 @@
     "domain": "staff_office_cuts",
     "status": "Partially reversed (active rehiring underway, but experience/institutional-knowledge loss is not recoverable by rehiring alone)",
     "date_of_action": "Early-mid 2025 (initial cuts); ongoing reorganization through at least April 2026",
-    "what_changed": "Early in 2025, DOGE-driven early retirement incentives and probationary-employee firings cut roughly 600 employees (about 15% of staff) from the National Weather Service nationwide, part of broader cuts to its parent agency NOAA. NOAA workers described the process to NBC News as chaotic and intentionally disorienting: employees reported being fired, then reinstated, then fired again within the same stretch of weeks, in some cases losing pay, health insurance, and unemployment-benefit eligibility during the gaps. By May 2025, 52 of the NWS's 122 weather forecast offices had staffing vacancy rates above 20%, and at least 8 offices could no longer maintain 24/7 operations, including Sacramento, Goodland (KS), and Jackson (KY). Former NWS directors wrote publicly that 'our worst nightmare is that weather forecast offices will be so understaffed that there will be needless loss of life.' Specifically at the Austin/San Antonio forecast office -- which covers the Texas Hill Country -- the warning coordination meteorologist position (responsible for working directly with emergency managers and the public on what to do when a disaster strikes) had been vacant since the person who held it for decades accepted an early-retirement offer at the end of April 2025, roughly two months before the deadly July 4, 2025 Guadalupe River flash flood that killed more than 100 people. Two days after that flood, the administration issued a memo stating no federal vacancies could be filled until October, after the extreme weather season ended. In 2026, NOAA began actively rehiring (recruiting ~150 entry-level meteorologists, filling 200+ positions since late 2025), but experienced meteorologists warn the resulting workforce skews inexperienced -- 'because there are no old-timers left,' as one Alaska-based former NWS meteorologist put it -- and 'upper air' atmospheric data collection has noticeably degraded since January 2025, a data source considered fundamental to forecast accuracy.",
+    "what_changed": "Early in 2025, DOGE-driven early retirement incentives and probationary-employee firings cut roughly 600 employees (about 15% of staff) from the National Weather Service nationwide, part of broader cuts to its parent agency NOAA. NOAA workers described the process to NBC News as chaotic and intentionally disorienting: employees reported being fired, then reinstated, then fired again within the same stretch of weeks, in some cases losing pay, health insurance, and unemployment-benefit eligibility during the gaps. By May 2025, 52 of the NWS's 122 weather forecast offices had staffing vacancy rates above 20%, and at least 8 offices could no longer maintain 24/7 operations, including Sacramento, Goodland (KS), and Jackson (KY). Former NWS directors wrote publicly that 'our worst nightmare is that weather forecast offices will be so understaffed that there will be needless loss of life.' Specifically at the Austin/San Antonio forecast office -- which covers the Texas Hill Country -- the warning coordination meteorologist position (responsible for working directly with emergency managers and the public on what to do when a disaster strikes) had been vacant since the person who held it for decades accepted an early-retirement offer at the end of April 2025, roughly two months before the deadly July 4, 2025 Guadalupe River flash flood that killed more than 100 people. Two days after that flood, the administration issued a memo stating no federal vacancies could be filled until October, after the extreme weather season ended. By late September 2025, with hurricane and wildfire season underway, the Washington Post reported the ~600-person, roughly 1-in-7-staff loss was leaving dozens of forecast offices short-staffed in practice -- forecasters described pulling double shifts, running informal 'buddy systems' to cover gaps, and trimming nonessential services just to keep core forecasting running. In 2026, NOAA began actively rehiring (recruiting ~150 entry-level meteorologists, filling 200+ positions since late 2025), but experienced meteorologists warn the resulting workforce skews inexperienced -- 'because there are no old-timers left,' as one Alaska-based former NWS meteorologist put it -- and 'upper air' atmospheric data collection has noticeably degraded since January 2025, a data source considered fundamental to forecast accuracy.",
     "primary_proponent": {
       "name": "DOGE (Department of Government Efficiency) / NOAA leadership",
       "role": "Executed the early-2025 workforce reductions",
@@ -9259,11 +9385,11 @@
     },
     "confidence_note": "Well-documented from multiple independent, non-advocacy sources (CBS News, NBC News, Center for American Progress with named individuals on the record) plus a direct union vacancy tally. The Texas-flood-specific vacancy is a verified fact (confirmed timing of the retirement, confirmed role description) -- the caveat above about causation should be maintained carefully in any debate use, since overclaiming direct causation would be both inaccurate and vulnerable to easy rebuttal given CAP's own even-handed framing.",
     "section_summaries": {
-      "what_changed": "DOGE-driven cuts left roughly 15% of Weather Service jobs empty, and a key coordination role near the site of the deadly 2025 Texas flood had already gone vacant months earlier.",
+      "what_changed": "DOGE-driven cuts left roughly 15% of Weather Service jobs empty, and a key coordination role near the site of the deadly 2025 Texas flood had already gone vacant months earlier; by hurricane season, remaining forecasters were pulling double shifts and running informal coverage systems to compensate.",
       "estimated_impact": "One analysis found the flood forecasts stayed accurate despite the staffing gap, while noting the vacant role's public-coordination function was exactly what came under scrutiny afterward.",
       "confidence_note": "Well-documented via multiple non-advocacy sources and a union vacancy count; the vacancy is verified, but claiming it directly caused the disaster's toll would overreach the actual evidence."
     },
-    "last_verified": "2026-08-08",
+    "last_verified": "2026-08-11",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -9289,6 +9415,10 @@
       {
         "name": "The Hill — Changes loom for National Weather Service as union official warns of potential staff cuts",
         "url": "https://thehill.com/policy/energy-environment/5843925-nws-national-weather-service/"
+      },
+      {
+        "name": "Washington Post — National Weather Service staffing crisis leaves offices short-staffed for hurricane season",
+        "url": "https://www.washingtonpost.com/politics/2025/09/27/national-weather-service-staffing-crisis/"
       }
     ]
   },
@@ -12579,6 +12709,67 @@
     "last_updated": "2026-07-27"
   },
   {
+    "id": "usda-local-food-schools-food-banks-cut-2025",
+    "title": "USDA Cancels $1 Billion in Local Food Purchasing Programs for Schools and Food Banks",
+    "institution": "U.S. Department of Agriculture (USDA)",
+    "domain": "funding_redirection",
+    "status": "Finalized; not restored as of last verification",
+    "date_of_action": "2025-03-11 (cuts publicly reported) through 2025-05-31 (continued downstream reporting)",
+    "what_changed": "USDA canceled two Biden-era programs that funded schools and food banks to buy fresh food directly from local farmers: the $660 million Local Food for Schools (LFS) Cooperative Agreement Program and the roughly $500 million Local Food Purchase Assistance (LFPA) Cooperative Agreement Program, together over $1 billion in annual funding. Both programs had opened a new funding round on December 10, 2024, and many states and school districts had already signed new agreements before USDA ended them in March 2025, as part of the administration's broader effort to shrink federal spending. The School Nutrition Association estimated the cut would pull local, fresh-food purchasing away from an estimated 12 million students nationwide. By late May 2025, downstream reporting from North Carolina documented concrete on-the-ground effects: schools and small farms losing funding mid-agreement, farm layoffs, reduced fresh-produce access for students, and food banks bracing for increased demand amid a worsening hunger crisis, since the LFPA program specifically supported food-bank purchasing alongside the school-focused LFS program.",
+    "primary_proponent": {
+      "name": "Trump administration / USDA",
+      "role": "Executive action canceling previously awarded cooperative-agreement funding",
+      "note": "No single named USDA official was identified in sourcing as personally directing the cancellation; both programs were ended as part of the administration's stated cost-cutting agenda shortly after a new funding round had already opened and states had begun signing agreements."
+    },
+    "estimated_impact": {
+      "summary": "Two programs funding over $1 billion a year in direct farm-to-school and farm-to-food-bank purchasing were eliminated mid-agreement, cutting small farmers out of a stable buyer relationship and reducing fresh, locally sourced food access for schools and food banks nationwide.",
+      "figures": [
+        {
+          "metric": "Local Food for Schools (LFS) program funding eliminated",
+          "value": "$660 million",
+          "source": "USDA program figures, reported by Reuters/CNBC, March 2025"
+        },
+        {
+          "metric": "Local Food Purchase Assistance (LFPA) program funding eliminated",
+          "value": "~$500 million",
+          "source": "USDA program figures, reported by Reuters/CNBC, March 2025"
+        },
+        {
+          "metric": "Students estimated to lose access to local-food school meal purchasing",
+          "value": "~12 million",
+          "source": "School Nutrition Association, cited by Reuters/CNBC"
+        }
+      ],
+      "caveat": "The 12-million-student figure is a nonprofit trade association's estimate, not a USDA figure, and reflects potential reach of the programs rather than a confirmed count of students who experienced a documented service reduction. The North Carolina farm/food-bank impacts are a single-state case study (CBS News), not a national damage tally."
+    },
+    "confidence_note": "HIGH confidence on the cancellation itself and its dollar figures, corroborated by Reuters, CNBC, and the Guardian, all citing USDA's own program numbers. MODERATE-HIGH on downstream harm, since the clearest on-the-ground reporting (farm layoffs, food-bank strain) comes from a single state (North Carolina) rather than a national survey.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "section_summaries": {
+      "what_changed": "USDA canceled $660M Local Food for Schools and ~$500M Local Food Purchase Assistance programs in March 2025, mid-agreement, cutting off direct farm-to-school/food-bank purchasing.",
+      "estimated_impact": "An estimated 12 million students lost access to local-food school purchasing; North Carolina reporting documented farm layoffs and food banks bracing for increased demand.",
+      "confidence_note": "Cancellation and dollar figures strongly corroborated across Reuters/CNBC/Guardian; downstream harm reporting is thinner, mostly single-state."
+    },
+    "sources": [
+      {
+        "name": "CNBC -- USDA cuts over $1 billion in funding for schools, local food purchases",
+        "url": "https://www.cnbc.com/2025/03/11/usda-cuts-over-1-billion-in-funding-for-schools-local-food-purchases.html"
+      },
+      {
+        "name": "The Guardian -- Trump administration cuts $1bn in funding for schools' local food purchases",
+        "url": "https://www.theguardian.com/environment/2025/mar/19/farm-to-school-meals-funding-cut"
+      },
+      {
+        "name": "CBS News -- USDA cuts cripple food banks, school programs in North Carolina",
+        "url": "https://www.cbsnews.com/news/usda-cuts-cripple-food-banks-school-programs-north-carolina/"
+      },
+      {
+        "name": "National Farm to School Network -- Action Alert: USDA Terminates $660M Program for Local Food in Schools and Child Care",
+        "url": "https://www.farmtoschool.org/news-and-articles/action-alert-usda-terminates-660m-program-for-local-food-in-schools-and-child-care"
+      }
+    ]
+  },
+  {
     "id": "usda-tribal-farm-grants-terminated-2026",
     "title": "USDA Terminated Nearly $300M in Farm and Land-Access Grants, Abruptly Ending Already-Underway Tribal Projects on Blackfeet and Chippewa Cree Land",
     "institution": "Department of Agriculture",
@@ -13081,6 +13272,53 @@
       "estimated_impact": "The confirmed firing wave directly hit mental-health and crisis-response roles; the eventual staffing reduction (~30,000) was roughly a third of what was originally planned (80,000-83,000), achieved through voluntary departures rather than involuntary RIF.",
       "confidence_note": "HIGH confidence throughout, including the outcome, which is documented by the VA's own press release and independently corroborated. The $2B contract-cut figure remains lower confidence, resting on commentary-labeled reporting."
     }
+  },
+  {
+    "id": "va-office-equity-assurance-eliminated-2025",
+    "title": "VA Eliminates the Office That Investigated Racial Disparities in Veterans' Benefits",
+    "institution": "Department of Veterans Affairs (VA), Veterans Benefits Administration",
+    "domain": "protection_rollback",
+    "status": "Finalized; Congressional Democrats requested reinstatement, not granted as of last verification",
+    "date_of_action": "2025-02-14 (office shuttered) through 2025-03-13 (reporting)",
+    "what_changed": "The VA eliminated the Veterans Benefits Administration's Office of Equity Assurance (OEA), a Biden-era office that investigated racial and demographic disparities in how veterans' benefits claims are processed and approved, in mid-February 2025 as part of the administration's rollout of Trump's executive orders eliminating federal diversity, equity, inclusion, and accessibility (DEIA) programs. VA Secretary Doug Collins' office said the closure was part of a department-wide review conducted alongside DOGE's government-efficiency initiative, and a VA press secretary stated that with the office gone, the VA would 'treat all Veterans and beneficiaries fairly and equally,' with the money saved redirected to health care, benefits, and services. The office's elimination drew criticism because it removed the VA's own internal mechanism for identifying exactly the kind of disparity a 2023 Government Accountability Office report had already documented: that Black veterans were 10 percent less likely than other veterans to have mental-health-related VA claims approved. House Veterans' Affairs Committee ranking member Rep. Mark Takano and other Democrats sent letters to Secretary Collins calling the closure 'reckless' and formally requesting that VA reinstate the office's authority, functionality, research, and personnel; the letters noted Collins had not consulted Congress despite recent testimony pledging to do so. As of the most recent reporting reviewed, the office had not been reinstated.",
+    "primary_proponent": {
+      "name": "Doug Collins",
+      "role": "Secretary of Veterans Affairs",
+      "note": "Directed the department-wide review that eliminated the office as part of implementing Trump's DEIA-elimination executive orders and DOGE's efficiency initiative; his office publicly defended the closure as ensuring equal treatment rather than disparity-specific oversight."
+    },
+    "estimated_impact": {
+      "summary": "The VA removed its own internal office responsible for detecting and addressing racial and demographic disparities in benefits processing, at the same agency a GAO report had already found approved Black veterans' mental-health claims at a lower rate than other veterans' -- eliminating the mechanism most likely to catch and address that kind of gap going forward.",
+      "figures": [
+        {
+          "metric": "Lower approval rate for Black veterans' mental-health-related VA claims vs. other veterans (pre-existing GAO finding, cited as the kind of disparity OEA existed to investigate)",
+          "value": "10 percentage points",
+          "source": "2023 GAO report, cited by Military Times, March 2025"
+        }
+      ],
+      "caveat": "The 10-point figure is a pre-existing GAO finding describing the type of disparity the office investigated, not a measurement of harm caused specifically by the office's later elimination -- no post-closure study quantifying a widened gap or a specific denied-claims count was identified in sourcing reviewed as of this entry's creation."
+    },
+    "confidence_note": "HIGH confidence on the closure itself, its DEIA-executive-order rationale, and VA's own public justification, corroborated by Military Times, WSAZ/KPLC (Gray Media), and the formal congressional letters from Reps. Takano and Blumenthal. MODERATE confidence on quantified harm, since the entry relies on a pre-existing GAO disparity finding as context for what the office existed to address, rather than a post-closure outcome study.",
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "section_summaries": {
+      "what_changed": "VA eliminated its Office of Equity Assurance (Feb. 2025) under Secretary Collins as part of Trump's DEIA-elimination executive orders; Democrats formally requested reinstatement, not granted.",
+      "estimated_impact": "Removed the VA's own mechanism for investigating claims-approval disparities, at an agency GAO had already found approved Black veterans' mental-health claims 10 points less often than other veterans'.",
+      "confidence_note": "HIGH on the closure and rationale; MODERATE on harm, since the disparity figure predates and contextualizes rather than measures the closure's specific effect."
+    },
+    "sources": [
+      {
+        "name": "Military Times -- Office investigating disparities among veterans' care is 'liquidated'",
+        "url": "https://www.militarytimes.com/veterans/2025/03/12/office-investigating-disparities-among-veterans-care-is-liquidated/"
+      },
+      {
+        "name": "WSAZ (Gray Media) -- VA eliminates office helping minority veterans with benefits disparities",
+        "url": "https://www.wsaz.com/2025/03/13/va-eliminates-office-helping-minority-veterans-with-benefits-disparities/"
+      },
+      {
+        "name": "House Veterans' Affairs Committee Democrats -- Letter to Secretary Collins re: closure of the Office of Equity Assurance",
+        "url": "https://democrats-veterans.house.gov/download/closure-of-the-office-of-equity-assurance-oea-rms-hvac-and-svac-takano-bluementhal-ltr-to-secva-and-nara&download=1"
+      }
+    ]
   },
   {
     "id": "va-research-clinical-trials-hiring-freeze-2025",
