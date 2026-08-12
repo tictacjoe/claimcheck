@@ -7180,6 +7180,55 @@
   },
   {
     "official": "Donald Trump, President",
+    "offense_category": "Privacy Act Violation (5 U.S.C. § 552a) -- unauthorized disclosure of protected personal records",
+    "incident_summary": "On March 17, 2025, Trump ordered the immediate, unredacted release of all remaining classified John F. Kennedy assassination records, and the National Archives and Records Administration (NARA) published over 80,000 pages within about 24 hours -- bypassing the extensive review process NARA had previously used under the JFK Records Act to withhold Social Security numbers and other personal data of living individuals. The rushed release publicly exposed the Social Security numbers and other personal data of more than 200 former congressional staffers and other former officials, including at least two still-living individuals identified in press reporting: Joseph diGenova (Trump's own former personal attorney) and Christopher Pyle (a former Church Committee investigator). More than 80 additional people with birthdates placing them in their 70s, 80s, or 90s also had SSNs and birthdates exposed. Asked about the disclosure, Trump told reporters, 'We even released Social Security numbers, I didn't want anything deleted' -- a direct, on-the-record statement that the unredacted release, including the SSN exposure, was his personal instruction rather than a lower-level processing error. NARA and the Social Security Administration said they were working to identify and contact affected individuals; diGenova said he intended to sue NARA, stating 'They violated the Privacy Act.'",
+    "contested": false,
+    "elements_required": [
+      "A federal agency (NARA) disclosed protected personal records -- Social Security numbers -- of identifiable living individuals without their consent",
+      "The disclosure was not required by the underlying declassification mandate; NARA's own established review process for JFK Records Act releases was specifically designed to withhold this category of personal data of living people, and that process was bypassed",
+      "The official ordering the release is on the record confirming the unredacted release, including SSN exposure, was intentional and not accidental",
+      "Documented harm/risk resulted: named living individuals face identity-theft and fraud exposure, and at least one has stated intent to pursue legal action"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "ABC News reported the National Archives released over 80,000 pages of unredacted JFK assassination records under Trump's March 17, 2025 order, exposing the Social Security numbers and personal data of former congressional staffers, including at least two living individuals -- Joseph diGenova and Christopher Pyle",
+        "source_url": "https://abcnews.go.com/US/released-jfk-files-reveal-social-security-numbers-former/story?id=119977628",
+        "maps_to_element": "Federal agency disclosed protected personal records of identifiable living individuals without consent"
+      },
+      {
+        "type": "reporting",
+        "description": "The Washington Post reported NARA ordinarily conducts extensive review to withhold Social Security numbers and financial information of living individuals under the JFK Records Act, and that this safeguard was bypassed in the rushed release; former DHS chief privacy officer Mary Ellen Callahan called the disclosure 'absolutely' a Privacy Act violation",
+        "source_url": "https://www.washingtonpost.com/politics/2025/03/20/trump-jfk-files-personal-data-social-security/",
+        "maps_to_element": "NARA's established review process, designed to withhold this data, was bypassed"
+      },
+      {
+        "type": "public_record",
+        "description": "Trump, asked by reporters about the release, said: 'We even released Social Security numbers, I didn't want anything deleted' -- confirming the unredacted release was his personal instruction",
+        "source_url": "https://newrepublic.com/post/193053/trump-brags-publish-social-security-numbers-jfk-files",
+        "maps_to_element": "The official ordering the release confirmed the unredacted release was intentional"
+      },
+      {
+        "type": "reporting",
+        "description": "Forbes reported more than 80 additional individuals with birthdates placing them in their 70s-90s also had SSNs and birthdates exposed, and that Joseph diGenova said he intended to sue NARA, stating 'They violated the Privacy Act'",
+        "source_url": "https://www.forbes.com/sites/saradorn/2025/03/20/hundreds-of-social-security-numbers-made-public-in-unredacted-jfk-files/",
+        "maps_to_element": "Documented harm/risk resulted, including stated intent to pursue legal action"
+      }
+    ],
+    "status": "NARA and SSA said they were working to identify and contact affected individuals as of March 2025; no public accounting found of a completed Privacy Act investigation, IG finding, or resolution of diGenova's stated intent to sue as of last verification",
+    "rebuttal_anticipated": "Likely defense: the JFK Records Act itself mandated full disclosure of these records by an earlier statutory deadline extended multiple times by prior administrations, and any residual personal data in 60-year-old files is incidental to a legitimate, long-overdue transparency effort rather than a targeted privacy violation.",
+    "comeback": "The transparency goal doesn't require exposing living people's current Social Security numbers -- NARA had an established, working redaction process for exactly this category of harm under the same statute, and chose to bypass it under an artificial 24-hour rush that served no disclosure deadline actually set by law. Trump's own on-the-record comment ('I didn't want anything deleted') confirms the SSN exposure was a deliberate choice, not an inadvertent byproduct of a legitimate process.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern of favoring rapid, symbolic transparency announcements over the standard agency review processes designed to prevent exactly this kind of collateral harm.",
+    "last_updated": "2026-08-12",
+    "date_added": "2026-08-12",
+    "confidence_note": "HIGH confidence on the underlying facts -- the unredacted release, the SSN exposure, the specific named individuals affected, and Trump's on-the-record quote are all corroborated across ABC News, Washington Post, Forbes, and diGenova's own public statement. MODERATE confidence on the ultimate legal characterization (Privacy Act violation) -- a former DHS chief privacy officer and diGenova himself have both characterized it that way, but no court ruling or agency IG finding had resolved the question as of last verification.",
+    "section_summaries": {
+      "incident_summary": "Trump ordered NARA to release JFK assassination records fully unredacted on a rushed 24-hour timeline, bypassing NARA's normal safeguards and exposing the Social Security numbers of 200+ former officials including at least two living individuals; Trump confirmed on the record that leaving SSNs unredacted was his deliberate choice.",
+      "confidence_note": "Facts are well-corroborated across multiple outlets and Trump's own public quote; the Privacy Act legal characterization is credible but not yet resolved by any court or IG finding."
+    }
+  },
+  {
+    "official": "Donald Trump, President",
     "offense_category": "Presidential Pardon of a Political Ally Convicted of Federal Campaign-Finance Fraud, Issued Two Weeks Into His Sentence -- clemency is a constitutional power, not itself unlawful; the accountability question is the pattern of near-immediate, favor-adjacent clemency for political allies rather than the pardon act itself",
     "contested": false,
     "incident_summary": "Former Tennessee state Sen. Brian Kelsey pleaded guilty in November 2022 to illegally funneling roughly $91,000 from his state Senate campaign account into a national organization supporting his failed 2016 U.S. House bid, and to filing false campaign-finance reports to conceal the transfer -- a scheme prosecutors said was designed to evade federal contribution limits. U.S. District Judge Waverly Crenshaw denied Kelsey's repeated attempts to withdraw his guilty plea or otherwise reopen the case, as recently as February 2025, and Kelsey reported to federal prison to begin his 21-month sentence. On March 11, 2025 -- just two weeks into that sentence -- Trump granted Kelsey a 'full and unconditional pardon.' In a public statement, Kelsey said 'God used Donald Trump to save me from the weaponized Biden DOJ,' explicitly echoing Trump's own rhetoric about his personal legal cases, despite having pleaded guilty rather than being convicted at trial. Tennessee Democratic state Rep. Gloria Johnson responded, 'Dude plead guilty, but sure.' Within a month of his release, Kelsey began lobbying sitting Tennessee state senators to amend a pending campaign-finance bill (SB 229) to let him use leftover funds in his state campaign account to pay his personal legal fees from the case -- after Tennessee's own Bureau of Ethics and Campaign Finance had already denied his request to do so. State Sen. Brent Taylor drafted the requested amendment at Kelsey's request; state Sen. Richard Briggs confirmed Kelsey called him personally to press for it.",
