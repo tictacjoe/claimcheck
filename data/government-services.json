@@ -2878,6 +2878,93 @@
     "last_updated": "2026-07-26"
   },
   {
+    "id": "doj-dhs-public-safety-grant-cancellations-2025",
+    "title": "DOJ and DHS Canceled Hundreds of Millions in Public-Safety and Violence-Prevention Grants in 2025, With Most Recipients Still Unreimbursed Months Later",
+    "institution": "U.S. Department of Justice (Office of Justice Programs) and U.S. Department of Homeland Security (Center for Prevention Programs and Partnerships / FEMA)",
+    "domain": "funding_redirection",
+    "status": "Ongoing -- most DOJ grant recipients remained unreimbursed as of November 2025 reporting; the lead legal challenge to the DOJ cancellations was dismissed in July 2025; DHS's CP3 office continued operating in reduced, redirected form rather than closing outright",
+    "date_of_action": "2025-02 (CP3 cuts and workforce reductions begin) through 2025-11 (NPR follow-up documenting unreimbursed DOJ grantees)",
+    "what_changed": "Two parallel cancellation waves hit federal public-safety and violence-prevention grantmaking in 2025. At DHS, in a single week in late February/early March 2025, the department cut roughly $20 million from more than two dozen programs tied to its Center for Prevention Programs and Partnerships (CP3) -- the office responsible for terrorism and targeted-violence-prevention grants -- including counterterrorism and school-shooter-prevention initiatives; the roughly $90 million CP3 had awarded to community groups and law enforcement since 2020 was placed in jeopardy. Affected programs included a Boston Children's Hospital intervention team for violent youth behavior, the Eradicate Hate prevention umbrella group, research into far-right-extremist disengagement, a national threat-compilation database for law enforcement, and hate-crimes training programs; one recipient told ProPublica that programs based in 'sanctuary states' resisting deportation cooperation were specifically targeted. FEMA's separate Nonprofit Security Grant Program, which funds physical security upgrades at religious institutions including synagogues, was also frozen amid the same review. On March 3, 2025, CP3 dismissed roughly 20% of its workforce through probationary-employee terminations; Director William Braniff resigned the same night, calling the terminations 'wrongful.' DHS's own framing, in a July 2025 press release, characterized $18.5 million in canceled CP3 grants as eliminating 'wasteful, misdirected spending' rather than shutting the office down, and DHS materials indicate CP3 continued operating afterward in a reduced form -- a more precise characterization than some contemporaneous reporting describing the office as fully 'shut down.' A ProPublica investigation published June 4, 2025 found DHS had installed Thomas Fugate, a 22-year-old with a one-year-old undergraduate degree and no counterterrorism background, to lead CP3's remaining work. Separately at DOJ, the Office of Justice Programs (OJP) abruptly canceled roughly 350-373 grants worth more than $800 million on April 22, 2025, terminating funding mid-cycle for programs supporting crime victims, opioid-abuse and trauma recovery, rural law enforcement, disability services, and legally mandated functions including prison-rape-elimination-act audits; a Council on Criminal Justice analysis found more than 550 organizations affected, almost all nonprofits. Five organizations -- the Vera Institute of Justice, the Center for Children and Youth Justice, Chinese for Affirmative Action, FORCE Detroit, and Health Resources in Action -- sought a preliminary injunction and reversal in a lawsuit filed May 2025; in July 2025, U.S. District Judge Amit Mehta denied the injunction and dismissed the case for lack of jurisdiction and failure to state a constitutional claim, while separately calling DOJ's conduct 'shameful' and likely to harm vulnerable communities. Six months after the cancellations, NPR reported in November 2025 that most affected organizations still had not been reimbursed for money already spent under the canceled grants, forcing layoffs, draws on reserve funds, and reduced services; organizations that appealed the cancellations reported no response, and several had filed additional lawsuits. DOJ told NPR the government shutdown then underway -- which began roughly five months after the cancellations -- was hindering its ability to process appeals and reimbursements, though the cancellations themselves predated the shutdown by months.",
+    "primary_proponent": {
+      "name": "Pam Bondi",
+      "role": "Attorney General",
+      "note": "DOJ's Office of Justice Programs implemented the April 2025 mid-cycle grant cancellations under her leadership. The parallel DHS/CP3 cuts were carried out under Secretary Kristi Noem; DHS's own July 2025 press materials framed those cuts as eliminating 'wasteful, misdirected spending' rather than a program shutdown."
+    },
+    "estimated_impact": {
+      "summary": "The cuts hit two overlapping but distinct public-safety functions: DOJ's cancellations pulled funding mid-cycle from crime-victim services, opioid/trauma recovery, rural law enforcement, and disability and audit programs at over 550 organizations, most of which remained unreimbursed for already-spent money six months later; DHS's CP3 cuts and workforce reduction weakened the federal government's community-based terrorism and targeted-violence prevention capacity, including programs serving religious institutions and at-risk youth, at a time independent reporting elsewhere in this tracker has documented rising political violence.",
+      "figures": [
+        {
+          "metric": "DOJ Office of Justice Programs grants canceled, April 22, 2025",
+          "value": "~350-373 grants, $800 million+",
+          "source": "AP News and NPR; some earlier estimates (e.g., Council on Criminal Justice, citing 373 grants) put the total near $500 million"
+        },
+        {
+          "metric": "Organizations affected by DOJ cancellations",
+          "value": "550+, almost all nonprofits",
+          "source": "Council on Criminal Justice analysis"
+        },
+        {
+          "metric": "DHS/CP3-adjacent funding cut in a single week (Feb-Mar 2025)",
+          "value": "~$20 million across 24+ programs",
+          "source": "ProPublica"
+        },
+        {
+          "metric": "Total CP3 grant funding awarded since 2020, placed in jeopardy",
+          "value": "~$90 million",
+          "source": "ProPublica"
+        },
+        {
+          "metric": "CP3 workforce cut, March 3, 2025",
+          "value": "~20% (probationary terminations)",
+          "source": "ProPublica"
+        }
+      ],
+      "caveat": "Dollar-figure estimates for the DOJ cancellation wave vary by source and by exactly which grants are counted in the total: Council on Criminal Justice's early tally (373 grants) puts the figure near $500 million, while AP and NPR's more widely cited and later reporting -- including the November 2025 follow-up on unreimbursed grantees -- puts it above $800 million. This entry treats $800 million+ as the more durable figure since it recurs in the later reporting, but flags the discrepancy rather than resolving it. Separately, DHS's own materials indicate CP3 was cut and redirected, not closed outright, contrary to some contemporaneous reporting describing it as 'shut down.'"
+    },
+    "confidence_note": "Strong, cross-corroborated sourcing on both threads: the DOJ cancellations are documented by AP News, CNN, NPR (both the initial and six-month-later follow-up reporting), a Council on Criminal Justice policy analysis, and a federal court's written ruling (Judge Mehta, July 2025) rather than advocacy claims alone. The DHS/CP3 thread is documented by ProPublica's original investigative reporting (including the Thomas Fugate leadership story) and corroborated, for the official administration framing, by DHS's own July 2025 press release -- which is deliberately included to show the cuts were smaller and less final than some contemporaneous 'shutdown' framing suggested, consistent with this tracker's practice of weighing contested causal/scope claims against the most precise available sourcing rather than the most dramatic.",
+    "section_summaries": {
+      "what_changed": "DHS gutted its terrorism and targeted-violence prevention grant office (CP3), cutting funding, firing a fifth of its staff, and installing an unqualified 22-year-old to lead it; DOJ separately canceled hundreds of public-safety grants worth over $800 million mid-cycle, hitting crime-victim and violence-prevention nonprofits nationwide.",
+      "estimated_impact": "DOJ's cuts left 550+ organizations without expected funding, most still unreimbursed six months later; DHS's CP3 cuts shrank federal capacity to fund community-based terrorism and violence prevention just as political violence was rising.",
+      "confidence_note": "Cross-corroborated by AP, CNN, NPR, ProPublica, a Council on Criminal Justice analysis, a federal court ruling, and DHS's own press materials for the administration's framing of the CP3 cuts."
+    },
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "ProPublica -- Trump-DOGE Budget Cuts Are Gutting Programs That Prevent Terrorism and Mass Shootings",
+        "url": "https://www.propublica.org/article/trump-doge-budget-cuts-terrorism-prevention"
+      },
+      {
+        "name": "ProPublica -- Thomas Fugate, the 22-Year-Old Leading Trump's Terrorism Prevention Hub",
+        "url": "https://www.propublica.org/article/trump-dhs-thomas-fugate-cp3-terrorism-prevention"
+      },
+      {
+        "name": "DHS -- DHS Axes Wasteful, Misdirected Grants, Saves Taxpayers $18.5M",
+        "url": "https://www.dhs.gov/news/2025/07/17/dhs-axes-wasteful-misdirected-grants-saves-taxpayers-185m"
+      },
+      {
+        "name": "CNN -- Justice Department abruptly cancels grants for crime victims, opioid abuse programs",
+        "url": "https://www.cnn.com/2025/04/24/politics/justice-department-crime-victims-opioid-abuse/index.html"
+      },
+      {
+        "name": "AP News -- Justice Department grant cuts leave crime victims, disabled people, rural police in limbo",
+        "url": "https://apnews.com/article/justice-grants-funding-cuts-law-enforcement-victims-18d5cdec6bdbb8472cd1e080e5e4e5ef"
+      },
+      {
+        "name": "gov1.com -- DOJ cancels $500M in public safety grants, cuts officer safety and crime prevention programs",
+        "url": "https://www.gov1.com/gov-grants-help/doj-cancels-500m-in-public-safety-grants-cuts-officer-safety-and-crime-prevention-programs"
+      },
+      {
+        "name": "Council on Criminal Justice -- DOJ Funding Cuts: More Than 550 Organizations Impacted, New Analysis Finds",
+        "url": "https://counciloncj.org/doj-funding-cuts-more-than-550-organizations-impacted-new-analysis-finds/"
+      },
+      {
+        "name": "NPR -- Public safety groups face an uncertain future months after federal grant cuts",
+        "url": "https://www.npr.org/2025/11/10/nx-s1-5552704/doj-crime-prevention-public-safety-grant-cuts"
+      }
+    ]
+  },
+  {
     "id": "doj-enrd-career-staff-purge-2025",
     "title": "DOJ Career-Staff Purge Guts Environment Division Enforcement Capacity",
     "institution": "U.S. Department of Justice — Environment and Natural Resources Division (ENRD), with related reassignments touching the Civil Rights and National Security Divisions",
@@ -3047,6 +3134,89 @@
       "estimated_impact": "Reuters calls it the most detailed accounting yet of how far these agencies have been downsized, with the steepest losses in the division that handles terrorism and intelligence work.",
       "confidence_note": "Well-corroborated across many outlets and sourced to DOJ's own records; no single named decision-maker for the cuts specifically, so responsibility is attributed to Bondi as the AG who oversaw most of the buildup period."
     }
+  },
+  {
+    "id": "doj-workforce-collapse-trump2",
+    "title": "DOJ's Attorney Corps Nearly Cut in Half Since January 2025, With Its Entry-Level Recruitment Pipeline Frozen and a Growing Public Archive of Resignation Letters",
+    "institution": "U.S. Department of Justice (DOJ) -- department-wide attrition, distinct from this tracker's Civil Rights Division- and Environment Division-specific entries",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing (Justice Connection's departure estimate was still climbing as of its most recent November 2025 update; DOJ has not published its own current attorney headcount)",
+    "date_of_action": "2025-01 (hiring freeze, Honors Program cancellation) through 2025-11 (Justice Connection's ~5,500-departure estimate, farewell-letters archive reporting)",
+    "what_changed": "President Trump's January 20, 2025 government-wide federal hiring freeze immediately triggered cancellation of the Attorney General's Honors Program -- DOJ's 'premier' entry-level attorney recruitment pipeline, in place since 1953 and typically responsible for more than 100 hires per year from top law schools. Accepted job offers were revoked, with rescission emails citing the freeze directly; the program was later reopened for the 2025-26 recruiting cycle, but the initial cancellation disrupted a full incoming class and, per legal-trade reporting, left the program with diminished appeal to law students and law-school career offices. Over the following months, DOJ's overall attorney corps -- an estimated 10,000 people before January 2025 -- was, per Washington Post reporting, 'nearly cut in half' by September 2025 through resignations, retirements, reassignments, and terminations; the Appellate Section specifically lost more than 40% of its attorneys since February 2025. Replacement hiring filled only a fraction of the resulting vacancies, and reporting found new hires skewed toward candidates with more overtly political or ideological alignment with the administration, including hires drawn from Republican congressional offices and conservative advocacy groups rather than DOJ's traditional recruitment channels. The understaffing forced DOJ attorneys to repeatedly seek case-schedule delays across multiple active litigation matters, per the ABA Journal. Justice Connection, a support network for departed DOJ staff founded by former DOJ Civil Division attorney Stacey Young, separately estimated in reporting through November 2025 that roughly 5,500 people -- not exclusively attorneys -- had left the department via resignation, transfer, buyout, or termination since January 2025; by November 23, 2025, Young said the cumulative purge had 'eclipsed 5,000 employees.' Justice Connection also maintains a public 'farewell messages' page (thejusticeconnection.org/farewell-messages) that had grown, by that point, into a chronicled archive of DOJ resignation letters, including from senior officials, describing political interference, retaliation, and pressure to pursue cases some departing attorneys viewed as targeting the administration's perceived critics rather than legitimate law-enforcement priorities. This entry documents DOJ's department-wide attorney attrition and recruitment-pipeline collapse; two narrower threads already tracked in this database document specific divisions in more depth -- the Civil Rights Division's roughly 75% attorney exodus (see doj-civil-rights-division-exodus-trump2.json) and the Environment and Natural Resources Division's career-staff purge (see doj-enrd-career-staff-purge-2025.json) -- both consistent with, and contributing to, the department-wide pattern documented here.",
+    "primary_proponent": {
+      "name": "Pam Bondi",
+      "role": "Attorney General",
+      "note": "Oversees DOJ hiring and staffing policy department-wide; the Honors Program's cancellation followed directly from the administration's January 2025 government-wide hiring freeze implemented across DOJ under her leadership."
+    },
+    "estimated_impact": {
+      "summary": "DOJ lost a large share of its experienced attorney workforce within a single year, with recruitment into entry-level and specialist roles disrupted at the same time, degrading institutional capacity and forcing delays in active litigation.",
+      "figures": [
+        {
+          "metric": "DOJ attorney corps size, pre-January 2025",
+          "value": "~10,000",
+          "source": "Washington Post reporting, cited by the ABA Journal"
+        },
+        {
+          "metric": "DOJ attorney corps reduction by September 2025",
+          "value": "'nearly cut in half'",
+          "source": "Washington Post reporting, cited by the ABA Journal"
+        },
+        {
+          "metric": "Appellate Section attorney departures since February 2025",
+          "value": ">40%",
+          "source": "Washington Post reporting, cited by the ABA Journal"
+        },
+        {
+          "metric": "Total DOJ personnel departures since January 2025 (resignations, transfers, buyouts, terminations; not exclusively attorneys)",
+          "value": "~5,500, described by Justice Connection's founder as having 'eclipsed 5,000' by late November 2025",
+          "source": "Justice Connection founder Stacey Young, reported by CBS News and the ABA Journal"
+        },
+        {
+          "metric": "Typical annual Honors Program hires (pre-cancellation baseline)",
+          "value": ">100 per year",
+          "source": "DOJ's own Attorney General's Honors Program program materials"
+        }
+      ],
+      "caveat": "The ~10,000/nearly-halved figure and Justice Connection's ~5,500 estimate use different methodologies -- one traced to Washington Post reporting, the other to an advocacy and support group's self-reported tally of departed staff who have engaged with it -- and don't precisely reconcile, though both indicate a large, sustained attrition wave. DOJ has not published its own current department-wide attorney headcount, so both figures should be treated as informed estimates rather than an official count."
+    },
+    "confidence_note": "Washington Post's original department-wide reporting is corroborated by independent ABA Journal coverage and wire pickup (Detroit News); the Honors Program cancellation is corroborated by multiple outlets (Yahoo/AP wire, Bloomberg Law, legal-trade press) and DOJ's own program description for the baseline hiring figure. Justice Connection's departure estimate and farewell-letters archive are corroborated by CBS News' direct reporting, including on-the-record quotes from founder Stacey Young; Justice Connection is an advocacy and support organization for departed DOJ staff rather than a neutral party, so its self-reported departure count is flagged as an informed estimate, not verified against DOJ's own personnel data -- consistent with this tracker's treatment of similarly-sourced figures in the related Civil Rights Division entry.",
+    "section_summaries": {
+      "what_changed": "DOJ's attorney workforce was nearly cut in half within a year, its main entry-level hiring pipeline was frozen and then reopened diminished, and a support network for departed staff has chronicled thousands of exits alongside a growing public archive of resignation letters.",
+      "estimated_impact": "DOJ's ~10,000-person attorney corps was nearly halved by September 2025, with the Appellate Section alone losing over 40% of its attorneys and case delays mounting from understaffing.",
+      "confidence_note": "Cross-corroborated department-wide reporting (Washington Post, ABA Journal) and advocacy-group departure tracking (Justice Connection, via CBS News) that point the same direction but use different methodologies and don't precisely reconcile."
+    },
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "ABA Journal -- Justice Department faces lawyer staffing crisis, causing delays",
+        "url": "https://www.abajournal.com/news/article/justice-department-facing-staffing-crisis"
+      },
+      {
+        "name": "Detroit News (wire) -- Justice Department struggles as thousands exit -- and few are replaced",
+        "url": "https://www.detroitnews.com/story/news/politics/2025/11/10/justice-department-struggles-as-thousands-exit-and-few-are-replaced/87193794007/"
+      },
+      {
+        "name": "Washington Post -- Justice Department struggles as thousands exit -- and few are replaced",
+        "url": "https://www.washingtonpost.com/national-security/2025/11/10/justice-department-hiring-stalled/"
+      },
+      {
+        "name": "CBS News -- 'Quite frankly I was pissed off!' Growing online page chronicles Trump Justice Dept. resignation letters",
+        "url": "https://www.cbsnews.com/news/trump-justice-dept-resignation-letters-chronicled/"
+      },
+      {
+        "name": "AOL (AP wire) -- Trump abruptly cancels DOJ program to hire young lawyers from top colleges -- but nobody knows why",
+        "url": "https://www.aol.com/trump-abruptly-cancels-doj-program-215104034.html"
+      },
+      {
+        "name": "Bloomberg Law -- DOJ Honors Program Losing Luster for Law Students, Deans Say",
+        "url": "https://news.bloomberglaw.com/us-law-week/doj-honors-program-losing-luster-for-law-students-deans-say"
+      },
+      {
+        "name": "DOJ -- Attorney General's Honors Program (Entry-Level Attorneys)",
+        "url": "https://www.justice.gov/legal-careers/job/attorney-generals-honors-program-entry-level-attorneys-1"
+      }
+    ]
   },
   {
     "id": "dol-ofccp-civil-rights-enforcement-halted-2025",
@@ -3347,7 +3517,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing (Supreme Court allowed dismantling to continue pending lower-court challenges; Congress has not abolished the department and continues funding it)",
     "date_of_action": "2025-03 (executive order) through 2026-06 (special education and civil rights transfers, the last core offices remaining)",
-    "what_changed": "Following a March 2025 Trump executive order directing the department's effective abolition and return of control to the states, Education Secretary Linda McMahon -- following a strategy explicitly drawn from Project 2025, written in part by her now-deputy chief of staff Lindsey Burke -- began signing what would eventually total 14 interagency agreements transferring the department's functions elsewhere, since only Congress can formally eliminate the department itself. K-12, higher education, and workforce training oversight moved to the Department of Labor. On March 21, 2025, Trump separately announced that the Small Business Administration would take over management of the department's $1.6 trillion student loan portfolio; the plan drew immediate legal challenge, and a federal judge blocked the transfer on May 27, 2025, ruling the Higher Education Act assigns that responsibility to the Education Department's Federal Student Aid office and that only Congress could reassign it -- the SBA plan was never carried out, and the portfolio instead began transferring to Treasury in March 2026 as described below. McMahon sought to lay off roughly 1,400 of the department's 4,200 employees in March 2025 (litigated but largely proceeded), halving the department's staff to roughly 2,000. The layoffs' effects were visible within a day: AP News reported more than 300 Federal Student Aid staff were cut, including two dozen from its technology division -- the entire team responsible for the FAFSA systems -- and StudentAid.gov suffered an hours-long outage on March 12, 2025 that blocked students nationwide from completing the federal financial-aid application; laid-off staff, still technically employed through March 21 but with limited system access, struggled to help diagnose the outage, with roughly 70 employees stuck on an hours-long troubleshooting call. An Education Department Inspector General report found 135 of the department's divisions were left with zero employees after the layoffs, and fewer than 20 retained more than five staff. The March 2025 cuts included a reduction-in-force that laid off nearly half of the Office for Civil Rights' staff and shuttered 7 of its 12 regional offices; during the period OCR was short-staffed (March-September 2025), the office received over 9,000 discrimination complaints and dismissed roughly 90% of them without full review. The Supreme Court allowed the dismantling to proceed in August 2025 while litigation continues in lower courts. During the 43-day Oct-Nov 2025 shutdown, 87% of the department's staff were furloughed -- which McMahon later cited as proof the agency was 'nonessential.' The OCR reduction-in-force was rescinded in early January 2026. In February 2026, the department moved additional programs and grants to other federal agencies, including HHS and the State Department, continuing the interagency-transfer dismantlement strategy. A February 2026 GAO report found the March 2025 OCR reduction-in-force had cost taxpayers up to $38 million, since the affected employees were kept on paid administrative leave for nine months while barred from working; GAO concluded the department 'lacks reasonable assurance that its actions achieved the stated goal of reforming the federal workforce' and 'cannot ensure that OCR improved service to the American people.' The Century Foundation found nearly 25% of student-loan borrowers with payments due were delinquent as of February 2026, up from about 9% in 2019 -- roughly 7.9 million borrowers newly entering delinquency -- a sharp rise coinciding with the department's broader administrative disruption. The $1.7 trillion student loan portfolio and federal financial aid administration began transferring to Treasury in March 2026. In June 2026, the department's last two core offices -- the Office for Civil Rights (moving to DOJ) and the Office of Special Education and Rehabilitative Services, which administers IDEA protections for students with disabilities (moving to HHS) -- were also transferred, over the objection of disability advocates who participated in months of listening sessions McMahon's own office convened. Re-verified 2026-07-26: no material change to the core dismantlement/interagency-transfer narrative -- a Ninth Circuit ruling in the related Sweet v. McMahon case (July 17, 2026, on student-loan borrower claim deadlines) concerns a distinct piece of litigation over SAVE-plan borrower claims, not the interagency-transfer dismantlement this entry primarily documents, and is not folded in here.",
+    "what_changed": "Following a March 2025 Trump executive order directing the department's effective abolition and return of control to the states, Education Secretary Linda McMahon -- following a strategy explicitly drawn from Project 2025, written in part by her now-deputy chief of staff Lindsey Burke -- began signing what would eventually total 14 interagency agreements transferring the department's functions elsewhere, since only Congress can formally eliminate the department itself. K-12, higher education, and workforce training oversight moved to the Department of Labor. On March 21, 2025, Trump separately announced that the Small Business Administration would take over management of the department's $1.6 trillion student loan portfolio; the plan drew immediate legal challenge, and a federal judge blocked the transfer on May 27, 2025, ruling the Higher Education Act assigns that responsibility to the Education Department's Federal Student Aid office and that only Congress could reassign it -- the SBA plan was never carried out, and the portfolio instead began transferring to Treasury in March 2026 as described below. McMahon sought to lay off roughly 1,400 of the department's 4,200 employees in March 2025 (litigated but largely proceeded), halving the department's staff to roughly 2,000. The layoffs' effects were visible within a day: AP News reported more than 300 Federal Student Aid staff were cut, including two dozen from its technology division -- the entire team responsible for the FAFSA systems -- and StudentAid.gov suffered an hours-long outage on March 12, 2025 that blocked students nationwide from completing the federal financial-aid application; laid-off staff, still technically employed through March 21 but with limited system access, struggled to help diagnose the outage, with roughly 70 employees stuck on an hours-long troubleshooting call. An Education Department Inspector General report found 135 of the department's divisions were left with zero employees after the layoffs, and fewer than 20 retained more than five staff. The March 2025 cuts included a reduction-in-force that laid off nearly half of the Office for Civil Rights' staff and shuttered 7 of its 12 regional offices; during the period OCR was short-staffed (March-September 2025), the office received over 9,000 discrimination complaints and dismissed roughly 90% of them without full review. The Supreme Court allowed the dismantling to proceed in August 2025 while litigation continues in lower courts. During the 43-day Oct-Nov 2025 shutdown, 87% of the department's staff were furloughed -- which McMahon later cited as proof the agency was 'nonessential.' The OCR reduction-in-force was rescinded in early January 2026. In February 2026, the department moved additional programs and grants to other federal agencies, including HHS and the State Department, continuing the interagency-transfer dismantlement strategy. A February 2026 GAO report found the March 2025 OCR reduction-in-force had cost taxpayers up to $38 million, since the affected employees were kept on paid administrative leave for nine months while barred from working; GAO concluded the department 'lacks reasonable assurance that its actions achieved the stated goal of reforming the federal workforce' and 'cannot ensure that OCR improved service to the American people.' The Century Foundation found nearly 25% of student-loan borrowers with payments due were delinquent as of February 2026, up from about 9% in 2019 -- roughly 7.9 million borrowers newly entering delinquency -- a sharp rise coinciding with the department's broader administrative disruption. The $1.7 trillion student loan portfolio and federal financial aid administration began transferring to Treasury in March 2026. In June 2026, the department's last two core offices -- the Office for Civil Rights (moving to DOJ) and the Office of Special Education and Rehabilitative Services, which administers IDEA protections for students with disabilities (moving to HHS) -- were also transferred, over the objection of disability advocates who participated in months of listening sessions McMahon's own office convened. Re-verified 2026-07-26: no material change to the core dismantlement/interagency-transfer narrative -- a Ninth Circuit ruling in the related Sweet v. McMahon case (July 17, 2026, on student-loan borrower claim deadlines) concerns a distinct piece of litigation over SAVE-plan borrower claims, not the interagency-transfer dismantlement this entry primarily documents, and is not folded in here. Added 2026-08-11 (round-4 candidate discovery, clusters c0133/c0136): the March 2025 layoffs eliminated some divisions entirely, including the Office of the Chief Data Officer, the unit responsible for tracking student outcomes and program data; departing staff were given roughly 30 minutes to collect their belongings before colleagues held informal 'clap out' hallway send-offs, per ABC News. Separately, 65 probationary employees fired in the department's initial rounds were ordered reinstated on March 17, 2025 by a federal judge in Maryland presiding over a companion 18-agency case (distinct from Judge Alsup's six-agency ruling covering VA/Agriculture/Interior/Energy/Defense/Treasury); the department reinstated them on paper but placed them on paid administrative leave rather than restoring their duties, and some were laid off again as their divisions were shuttered outright. During the 43-day October-November 2025 shutdown, the department issued reduction-in-force notices to 465 additional employees on the shutdown's tenth day, concentrated in the Office of Elementary and Secondary Education, the Office of Special Education and Rehabilitative Services, and the Office of Communications and Outreach; a federal judge called the firings 'likely unlawful' and ordered them paused, and the continuing resolution that ended the shutdown in November nullified the notices outright, barred the department from issuing further RIFs through the end of January 2026, and required back pay for shutdown-affected employees. On November 18, 2025, the department signed interagency agreements outsourcing six additional programs -- including the Department of Labor's assumption of oversight for $28 billion in K-12 grants and $3.1 billion in postsecondary-education grants, effectively outsourcing the Office of Elementary and Secondary Education and Office of Postsecondary Education, two of the department's largest remaining units at the time -- with Indian-education and international-studies programs separately transferred to the Departments of the Interior and State. The Guardian's reporting on this wave described staff being locked out of department accounts without explanation and described collapsing morale as programs were scattered across agencies with little coordination. Reinstated employees also faced broader benefits chaos: CNN reported in May 2025 that department staff who had been reinstated under since-stayed court orders were left without processed health insurance, pensions, or workers'-compensation claims amid a gutted HR function, consistent with the same pattern documented government-wide.",
     "primary_proponent": {
       "name": "Linda McMahon",
       "role": "Secretary of Education (former WWE CEO)",
@@ -3449,6 +3619,30 @@
       {
         "name": "AP News -- Federal student loan site down Wednesday, a day after layoffs gutted Education Department",
         "url": "https://apnews.com/article/student-loans-education-department-outage-layoffs-5afb5a0a1b51bbe50e5961a63b419041"
+      },
+      {
+        "name": "ABC News -- Emotional Education Department 'clap outs' celebrate departed federal workers",
+        "url": "https://abcnews.go.com/Politics/emotional-education-department-clap-outs-celebrate-departed-federal/story?id=120274528"
+      },
+      {
+        "name": "Inside Higher Ed -- Education Department Reinstates 65 Probationary Employees",
+        "url": "https://www.insidehighered.com/news/quick-takes/2025/03/19/education-department-reinstates-65-probationary-employees"
+      },
+      {
+        "name": "K-12 Dive -- Government abandons RIFs impacting Education Department employees during shutdown",
+        "url": "https://www.k12dive.com/news/us-education-department-layoffs-timeline-trump/802881/"
+      },
+      {
+        "name": "CNBC -- Trump administration takes further steps to dismantle Department of Education",
+        "url": "https://www.cnbc.com/2025/11/18/trump-dismantle-education-department.html"
+      },
+      {
+        "name": "The Guardian -- Workers at the Department of Education",
+        "url": "https://www.theguardian.com/education/2025/nov/21/workers-department-education-trump"
+      },
+      {
+        "name": "CNN -- Fired federal workers were told they'd be reinstated. Then their benefits vanished.",
+        "url": "https://www.cnn.com/2025/05/26/politics/federal-workers-benefits-health-insurance"
       }
     ]
   },
@@ -7818,7 +8012,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing (2026 filing season completed under reduced staff; FY2027 budget request proposes a further ~4,800-employee cut, concentrated almost entirely in enforcement)",
     "date_of_action": "2025-02 (initial probationary firings) through 2026-04 (most recent GAO/TIGTA reporting)",
-    "what_changed": "Beginning February 2025, the IRS workforce was cut by approximately 27%, falling from roughly 102,000 employees in January 2025 to about 74,000 by December 2025 -- a reduction of nearly 28,000 people, primarily via probationary-employee terminations (~7,300), deferred-resignation buyouts (~4,700), and further attrition. The cuts were not evenly distributed: Taxpayer Services (which processes returns, answers phones, and handles correspondence) lost about 21-22% of its staff; the agency's IT function lost 27%; and revenue agents -- the specialists who conduct complex audits of high-income individuals, partnerships, and large corporations -- lost roughly 3,600 people, about 31% of the entire auditing workforce. The cuts extended to physical infrastructure as well as headcount: in late February 2025, the General Services Administration sent the IRS a letter proposing to terminate or not renew leases on more than 110 (some reporting says up to 120) Taxpayer Assistance Centers -- the walk-in offices where taxpayers get in-person help with identity theft, audits, and other complex issues -- right at the height of tax-filing season. After pushback from taxpayers, tax professionals, and lawmakers, the IRS agreed to keep TAC offices open through the 2025 filing season, but the closures resumed afterward: by September 2025 the IRS confirmed it would close nine specific centers across six states (Pennsylvania, Iowa, New York, Kentucky, California, and West Virginia), effective November 30, 2025. Congress separately cut the IRS enforcement budget by 8% for FY2026 (the lowest inflation-adjusted level since 1988) and cut $1.1 billion (12%) from the IRS's base budget overall, rescinding most of the remaining Inflation Reduction Act funding that had been allocated to rebuild the agency; the base budget is now about 40% below its 2010 level after inflation. The IRS responded by lowering its own phone-service target from 85% to 70% of calls answered, and an independent analysis by the Center for Taxpayer Rights found call wait times on the main line increased more than 70% between February 2025 and February 2026. A March 2026 GAO audit found the IRS's staffing reductions 'were not targeted or strategic' and that the agency still lacks an updated strategic workforce plan. Notably, IRS Commissioner Frank Bisignano simultaneously serves as the Senate-confirmed Commissioner of the Social Security Administration -- see the related SSA entry in this tracker -- splitting his attention across both agencies during this period. The IRS's FY2027 budget request, released in 2026, seeks $9.8 billion in discretionary funding, down $1.4 billion from the $11.2 billion Congress enacted for FY2026, and proposes eliminating roughly 4,800 more positions (about 17% of remaining staff) on top of the 27% already lost in 2025. Nearly all of the proposed staffing reduction falls on enforcement -- examinations and collections -- which would see an 18% budget cut, while taxpayer-service funding would see a small 3% increase. The IRS's own budget documents describe the enforcement-side cuts as yielding roughly $778 million in savings once implemented. Re-verified 2026-07-26: no material change -- the FY2027 budget request remains a proposal, not enacted; no new congressional action identified since the prior update. Re-verified 2026-08-05: despite Bisignano's 'less people and better results' framing, internal documents reported by NOTUS show the IRS has been rushing to backfill critical staffing gaps, hiring roughly 2,000 employees as of January 2026 -- a partial rehire that still leaves the agency at a net ~28% workforce reduction from its January 2025 level, and that reporting characterizes as evidence of operational strain the agency's public statements had downplayed. Added 2026-08-11 (round-4 candidate discovery, cluster c0132): the Taxpayer Advocate Service (TAS) -- the statutorily independent office within the IRS, quoted throughout this entry, that helps individual taxpayers resolve problems and reports directly to Congress -- was itself targeted for a roughly 25% staff cut, losing 430 of its approximately 1,900 employees in an initial phase of reductions reported in March 2025, on top of more than 90 TAS employees who had already left via deferred resignation or earlier layoffs. Former National Taxpayer Advocate Nina Olson (2001-2019) said the cuts 'will have devastating consequences to the taxpayers that are in need of help.' The reduction directly shrank the capacity of the same watchdog office whose independent reporting on IRS-wide staffing and filing-season risk is cited elsewhere in this entry.",
+    "what_changed": "Beginning February 2025, the IRS workforce was cut by approximately 27%, falling from roughly 102,000 employees in January 2025 to about 74,000 by December 2025 -- a reduction of nearly 28,000 people, primarily via probationary-employee terminations (~7,300), deferred-resignation buyouts (~4,700), and further attrition. The cuts were not evenly distributed: Taxpayer Services (which processes returns, answers phones, and handles correspondence) lost about 21-22% of its staff; the agency's IT function lost 27%; and revenue agents -- the specialists who conduct complex audits of high-income individuals, partnerships, and large corporations -- lost roughly 3,600 people, about 31% of the entire auditing workforce. The cuts extended to physical infrastructure as well as headcount: in late February 2025, the General Services Administration sent the IRS a letter proposing to terminate or not renew leases on more than 110 (some reporting says up to 120) Taxpayer Assistance Centers -- the walk-in offices where taxpayers get in-person help with identity theft, audits, and other complex issues -- right at the height of tax-filing season. After pushback from taxpayers, tax professionals, and lawmakers, the IRS agreed to keep TAC offices open through the 2025 filing season, but the closures resumed afterward: by September 2025 the IRS confirmed it would close nine specific centers across six states (Pennsylvania, Iowa, New York, Kentucky, California, and West Virginia), effective November 30, 2025. Congress separately cut the IRS enforcement budget by 8% for FY2026 (the lowest inflation-adjusted level since 1988) and cut $1.1 billion (12%) from the IRS's base budget overall, rescinding most of the remaining Inflation Reduction Act funding that had been allocated to rebuild the agency; the base budget is now about 40% below its 2010 level after inflation. The IRS responded by lowering its own phone-service target from 85% to 70% of calls answered, and an independent analysis by the Center for Taxpayer Rights found call wait times on the main line increased more than 70% between February 2025 and February 2026. A March 2026 GAO audit found the IRS's staffing reductions 'were not targeted or strategic' and that the agency still lacks an updated strategic workforce plan. Notably, IRS Commissioner Frank Bisignano simultaneously serves as the Senate-confirmed Commissioner of the Social Security Administration -- see the related SSA entry in this tracker -- splitting his attention across both agencies during this period. The IRS's FY2027 budget request, released in 2026, seeks $9.8 billion in discretionary funding, down $1.4 billion from the $11.2 billion Congress enacted for FY2026, and proposes eliminating roughly 4,800 more positions (about 17% of remaining staff) on top of the 27% already lost in 2025. Nearly all of the proposed staffing reduction falls on enforcement -- examinations and collections -- which would see an 18% budget cut, while taxpayer-service funding would see a small 3% increase. The IRS's own budget documents describe the enforcement-side cuts as yielding roughly $778 million in savings once implemented. Re-verified 2026-07-26: no material change -- the FY2027 budget request remains a proposal, not enacted; no new congressional action identified since the prior update. Re-verified 2026-08-05: despite Bisignano's 'less people and better results' framing, internal documents reported by NOTUS show the IRS has been rushing to backfill critical staffing gaps, hiring roughly 2,000 employees as of January 2026 -- a partial rehire that still leaves the agency at a net ~28% workforce reduction from its January 2025 level, and that reporting characterizes as evidence of operational strain the agency's public statements had downplayed. Added 2026-08-11 (round-4 candidate discovery, cluster c0132): the Taxpayer Advocate Service (TAS) -- the statutorily independent office within the IRS, quoted throughout this entry, that helps individual taxpayers resolve problems and reports directly to Congress -- was itself targeted for a roughly 25% staff cut, losing 430 of its approximately 1,900 employees in an initial phase of reductions reported in March 2025, on top of more than 90 TAS employees who had already left via deferred resignation or earlier layoffs. Former National Taxpayer Advocate Nina Olson (2001-2019) said the cuts 'will have devastating consequences to the taxpayers that are in need of help.' The reduction directly shrank the capacity of the same watchdog office whose independent reporting on IRS-wide staffing and filing-season risk is cited elsewhere in this entry. Added 2026-08-11 (round-4 candidate discovery, clusters c0134/c0136): internal IRS emails reveal that senior IRS lawyer Joseph Rillotta warned agency officials in February 2025 that citing 'poor performance' as the justification for the roughly 7,000 probationary terminations that month was false -- no performance assessments had been conducted -- and amounted to fraud; the warning went unheeded, and termination letters citing performance issues went out February 20, 2025. Judge Alsup, ruling on the multi-agency probationary-firings case that also covered Treasury (the IRS's parent department), found in his March 13, 2025 preliminary injunction that the stated justification was 'a lie' and ordered reinstatement; the Supreme Court stayed that reinstatement order on April 8, 2025 on standing grounds, without addressing the merits of the fraud finding, and separate litigation -- including a California case alleging one of the largest employment-fraud schemes in U.S. history -- remained pending as of the reporting reviewed. In the interim, employees who had been reinstated under the since-stayed order were left in administrative limbo: CNN reported in May 2025 that reinstated IRS staff faced lapsed health insurance, unprocessed pension paperwork, and denied workers'-compensation claims amid a decimated HR function, with some describing emergency-room bills and delayed cancer screenings during the gap.",
     "primary_proponent": {
       "name": "Frank Bisignano",
       "role": "IRS Chief Executive Officer / Commissioner (concurrently SSA Commissioner)",
@@ -7944,6 +8138,14 @@
       {
         "name": "The Hill -- Treasury Department to cut IRS taxpayer advocate staff",
         "url": "https://thehill.com/business/5201403-treasury-to-cut-irs-taxpayer-advocate-staff/"
+      },
+      {
+        "name": "ProPublica -- The IRS Fired Thousands of Employees, Claiming Poor Performance. A Top Agency Lawyer Warned That Was a Lie.",
+        "url": "https://www.propublica.org/article/trump-irs-firings-doge-fraud-law-job-performance"
+      },
+      {
+        "name": "CNN -- Fired federal workers were told they'd be reinstated. Then their benefits vanished.",
+        "url": "https://www.cnn.com/2025/05/26/politics/federal-workers-benefits-health-insurance"
       }
     ],
     "last_updated": "2026-08-11"
@@ -8539,7 +8741,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing -- the 2025 pattern repeated into the 2026 summer season: permanent staffing losses (~24%, ~4,000 people) remain unreversed, and 2026 seasonal hiring again fell short of its own target heading into peak season",
     "date_of_action": "2025-02-14 (initial mass layoff, dubbed the 'Valentine's Day Massacre' by affected staff) through 2025-08-27 (internal operational-status report surfaces)",
-    "what_changed": "On February 14, 2025, NPS laid off approximately 1,000-1,700 probationary employees just weeks before peak visitor season began across the system's 63 national parks and 370 other managed sites. By March 11, 2025, reporting confirmed the administration was separately pushing for a 30% reduction in NPS's overall payroll -- a budget-driven target distinct from, and layered on top of, the February probationary firings -- expected to further reduce park rangers, custodial staff, and conservation-program capacity. By July 2025, independent analysis of Interior Department workforce data by the National Parks Conservation Association (NPCA) found NPS had lost 24% of its permanent staff overall (about 4,000 people) since January, while only roughly 4,500 of a promised ~8,000 seasonal positions had been filled. In April 2025, Interior Secretary Doug Burgum issued Secretarial Order 3426, mandating that every park remain 'open and accessible' regardless of staffing levels -- meaning parks could not close facilities or reduce services in response to the shortages, only quietly absorb the strain. Per Order 3426's own reporting requirement, every park unit had to submit an updated operational status by July 25, 2025; an internal NPS report compiled from those submissions, first reported by the New York Times, documented widespread, specific impacts: nearly 70 parks reduced visitor center hours, 22 postponed maintenance, and 11 closed or delayed opening facilities. Specific documented examples include all 13 lifeguard positions vacant at Assateague Island National Seashore (leaving the beach unguarded), the fire management team reduced to one person at Cumberland Island National Seashore, and Indiana Dunes National Park's ranger-led tours cut from 575 to approximately 100 for the year after 4 of 6 interpretive-division supervisors took early retirement. When this internal report became public, Interior deputy press secretary Aubrie Spady called the reporting a 'false narrative,' stating 'staffing levels and operations at our National Parks this summer are on par with previous years. Full Stop' -- a direct denial of findings drawn from the agency's own internal, Order-3426-mandated data collection. For the 2026 season, NPS again fell short of its own seasonal-hiring target: roughly 4,500 of a planned 5,000+ seasonal positions were filled heading into peak summer season, with reporting citing paperwork delays, background-check backlogs, and housing shortages as contributing causes -- a smaller absolute gap than 2025's (~4,500 of ~8,000 filled), but the same shortfall pattern for a second consecutive year. The ~24% permanent-staff loss and its downstream effects (documented in this entry's 2025 examples) had not been reversed as of this update. On September 2-3, 2025, nearly 600 employees at Yosemite and Sequoia & Kings Canyon voted overwhelmingly to unionize with the National Federation of Federal Employees, a direct workforce response to the mass purges and budget cuts documented above -- workers cited the strain of being stretched thin (scientists and other specialists covering basic operational duties) as a driving factor. Update 2026-07-26: the 2026 peak season brought the staffing crisis to a head -- record crowds collided with reduced capacity at parks including Yosemite, where seasonal employees reportedly went weeks without pay, scientists and hydrologists were reassigned to cleaning restrooms and staffing entrance gates, and some campgrounds closed for lack of staff to run them. NPS also removed timed-entry reservation systems at some of the busiest parks and introduced a new $100-per-person fee for international visitors, both of which affected entrance-line flow during the July 4th weekend's record crowds. On a partial-relief note, NPS was approved to refill roughly 600 staff positions -- a real but small fraction of the several thousand permanent positions lost since January 2025, not a reversal of the underlying staffing loss this entry documents.",
+    "what_changed": "On February 14, 2025, NPS laid off approximately 1,000-1,700 probationary employees just weeks before peak visitor season began across the system's 63 national parks and 370 other managed sites. Added 2026-08-11 (round-4 candidate discovery, cluster c0136): a March 13, 2025 preliminary injunction from Judge William Alsup ordered NPS and five other agencies (Agriculture, Defense, Energy, Interior, Treasury, and VA) to immediately reinstate their terminated probationary employees; NPS and other named agencies complied only nominally, notifying fired staff they were reinstated but then placing them on indefinite paid administrative leave rather than restoring them to duty -- a workaround Alsup explicitly ruled violated the injunction, since it did not restore the services the order intended to restore. The Supreme Court stayed Alsup's reinstatement order on April 8, 2025 on standing grounds, allowing the administration to resume the firings; NPS's ~24% permanent-staff loss documented later in this entry reflects that the initial February terminations were not durably reversed. By March 11, 2025, reporting confirmed the administration was separately pushing for a 30% reduction in NPS's overall payroll -- a budget-driven target distinct from, and layered on top of, the February probationary firings -- expected to further reduce park rangers, custodial staff, and conservation-program capacity. By July 2025, independent analysis of Interior Department workforce data by the National Parks Conservation Association (NPCA) found NPS had lost 24% of its permanent staff overall (about 4,000 people) since January, while only roughly 4,500 of a promised ~8,000 seasonal positions had been filled. In April 2025, Interior Secretary Doug Burgum issued Secretarial Order 3426, mandating that every park remain 'open and accessible' regardless of staffing levels -- meaning parks could not close facilities or reduce services in response to the shortages, only quietly absorb the strain. Per Order 3426's own reporting requirement, every park unit had to submit an updated operational status by July 25, 2025; an internal NPS report compiled from those submissions, first reported by the New York Times, documented widespread, specific impacts: nearly 70 parks reduced visitor center hours, 22 postponed maintenance, and 11 closed or delayed opening facilities. Specific documented examples include all 13 lifeguard positions vacant at Assateague Island National Seashore (leaving the beach unguarded), the fire management team reduced to one person at Cumberland Island National Seashore, and Indiana Dunes National Park's ranger-led tours cut from 575 to approximately 100 for the year after 4 of 6 interpretive-division supervisors took early retirement. When this internal report became public, Interior deputy press secretary Aubrie Spady called the reporting a 'false narrative,' stating 'staffing levels and operations at our National Parks this summer are on par with previous years. Full Stop' -- a direct denial of findings drawn from the agency's own internal, Order-3426-mandated data collection. For the 2026 season, NPS again fell short of its own seasonal-hiring target: roughly 4,500 of a planned 5,000+ seasonal positions were filled heading into peak summer season, with reporting citing paperwork delays, background-check backlogs, and housing shortages as contributing causes -- a smaller absolute gap than 2025's (~4,500 of ~8,000 filled), but the same shortfall pattern for a second consecutive year. The ~24% permanent-staff loss and its downstream effects (documented in this entry's 2025 examples) had not been reversed as of this update. On September 2-3, 2025, nearly 600 employees at Yosemite and Sequoia & Kings Canyon voted overwhelmingly to unionize with the National Federation of Federal Employees, a direct workforce response to the mass purges and budget cuts documented above -- workers cited the strain of being stretched thin (scientists and other specialists covering basic operational duties) as a driving factor. Update 2026-07-26: the 2026 peak season brought the staffing crisis to a head -- record crowds collided with reduced capacity at parks including Yosemite, where seasonal employees reportedly went weeks without pay, scientists and hydrologists were reassigned to cleaning restrooms and staffing entrance gates, and some campgrounds closed for lack of staff to run them. NPS also removed timed-entry reservation systems at some of the busiest parks and introduced a new $100-per-person fee for international visitors, both of which affected entrance-line flow during the July 4th weekend's record crowds. On a partial-relief note, NPS was approved to refill roughly 600 staff positions -- a real but small fraction of the several thousand permanent positions lost since January 2025, not a reversal of the underlying staffing loss this entry documents.",
     "primary_proponent": {
       "name": "Department of Government Efficiency (DOGE) / Doug Burgum",
       "role": "DOGE directed the initial layoffs; Interior Secretary Burgum issued the 'stay open regardless of staffing' order that followed",
@@ -8621,6 +8823,14 @@
       {
         "name": "The Coalition to Protect America's National Parks — National Parks Face a Strained Summer as Staffing Shortages Deepen",
         "url": "https://protectnps.org/2026/05/26/national-parks-face-a-strained-summer-as-staffing-shortages-deepen/"
+      },
+      {
+        "name": "The New York Times -- Fired Federal Workers Are Reinstated, but Placed on Administrative Leave",
+        "url": "https://www.nytimes.com/2025/03/19/us/politics/fired-federal-workers-reinstated-place-administrative-leave.html"
+      },
+      {
+        "name": "SCOTUSblog -- Justices pause order to reinstate fired federal employees",
+        "url": "https://www.scotusblog.com/2025/04/justices-pause-order-to-reinstate-fired-federal-employees/"
       }
     ],
     "last_updated": "2026-08-11"
@@ -11423,6 +11633,78 @@
       "estimated_impact": "Military and outside analysts warn this severs readiness-relevant planning work, given climate-linked weather has already sidelined 10,000+ troops since 2018 -- though the Pentagon disputes that framing and maintains the work was genuinely outside its mission.",
       "confidence_note": "Well-corroborated across multiple outlets from March through October 2025; the readiness-impact question remains a genuine, unresolved policy dispute."
     }
+  },
+  {
+    "id": "pentagon-combatant-command-consolidation-2025-2026",
+    "title": "Pentagon Drafted Plan to Cut Combatant Commands From 11 to 8 and Weighed Giving Up NATO's Top Command -- Still Pending a Year Later",
+    "institution": "Department of Defense (Pentagon) -- Office of the Secretary of Defense",
+    "domain": "staff_office_cuts",
+    "status": "Ongoing / pre-decisional -- the 11-to-8 combatant-command merger had not been implemented as of the reporting reviewed, and the SACEUR-relinquishment idea was dropped in April 2025",
+    "date_of_action": "2025-03 (plan first reported) through 2026-02 (NATO shifts two other commands to European leadership)",
+    "what_changed": "In March 2025, CNN reported that Pentagon officials -- with Elon Musk's DOGE pushing for sweeping cost cuts across federal agencies -- were weighing a plan to consolidate the military's combatant commands from 11 down to 8: U.S. Central, European, and Africa Commands (CENTCOM, EUCOM, AFRICOM) would be downgraded and merged under a new 'U.S. International Command,' while U.S. Northern and Southern Commands (NORTHCOM, SOUTHCOM) would merge into a new 'U.S. Americas Command' (AMERICOM). The same week, Reuters and NBC News reported the administration was separately considering relinquishing the United States' 75-year-old role as NATO's Supreme Allied Commander Europe (SACEUR) -- a position held continuously by an American four-star general since 1950 -- as part of the same cost-cutting review. Senate Armed Services Committee Chairman Roger Wicker and House Armed Services Committee Chairman Mike Rogers, both Republicans, issued a rare joint statement voicing alarm over the SACEUR idea specifically. By April 2025, Pentagon officials told Breaking Defense the department was not, in fact, considering relinquishing the SACEUR post; the U.S. retained the role, and Gen. Alexus Grynkewich assumed the SACEUR command in July 2025, continuing the unbroken American hold on the position. The broader combatant-command consolidation plan persisted as a live planning effort, however: a leaked pre-decisional Pentagon document reported in December 2025 (Small Wars Journal, Newsweek, and others) confirmed the 11-to-8 merger concept was still being drafted, with the Pentagon projecting roughly $330 million in savings over five years while reducing the number of four-star generals and admirals reporting directly to Defense Secretary Pete Hegseth. Congress responded by requiring the Pentagon to submit a detailed blueprint describing the realignment's costs, risks, and impact on U.S. alliances before releasing implementation funding; as of the reporting reviewed, the Pentagon had shared little to no detail with Congress, and the plan remained pre-decisional rather than implemented. In February 2026, CBS News reported that NATO shifted two other commands -- not SACEUR -- from American to European leadership, part of a broader burden-sharing realignment as European allies increased their own defense spending; that shift is a related but distinct outcome from the SACEUR question this entry primarily documents.",
+    "primary_proponent": {
+      "name": "Pete Hegseth",
+      "role": "Secretary of Defense",
+      "note": "Driving the broader command-structure downsizing review, which -- as drafted -- would reduce the number of four-star officers reporting directly to him; Elon Musk's DOGE initiative provided the initial cost-cutting mandate behind the March 2025 plan."
+    },
+    "estimated_impact": {
+      "summary": "As reported, the consolidation plan and SACEUR question together raised bipartisan concern that reducing top-level U.S. military command presence in Europe and Africa -- at a time of heightened Russian aggression -- could weaken deterrence and signal a step back from NATO leadership. In practice, as of the reporting reviewed, the SACEUR post was retained and the broader 11-to-8 merger remained an unimplemented, pre-decisional plan awaiting the cost/risk blueprint Congress demanded, so no confirmed reduction in U.S. combatant-command presence has occurred beyond NATO's separate February 2026 shift of two other commands to European leadership.",
+      "figures": [
+        {
+          "metric": "Combatant commands proposed for consolidation",
+          "value": "11 reduced to 8",
+          "source": "CNN, March 2025, citing Pentagon planning document; corroborated by Small Wars Journal/Newsweek, December 2025"
+        },
+        {
+          "metric": "Projected savings from consolidation",
+          "value": "~$330 million over five years",
+          "source": "Reporting on the leaked Pentagon planning document, December 2025"
+        }
+      ],
+      "caveat": "As of the reporting reviewed, the 11-to-8 merger remains a pre-decisional Pentagon planning document rather than an implemented reorganization; Congress withheld implementation funding pending a formal cost/risk/alliance-impact blueprint the Pentagon had not yet provided. The SACEUR-specific concern resolved differently than either the initial March 2025 reporting or the April walk-back alone would suggest: the U.S. kept the post, but NATO separately shifted two other commands to European leadership the following year as part of a broader burden-sharing push -- that later, narrower shift should not be conflated with the SACEUR question itself."
+    },
+    "confidence_note": "Reasonably strong, cross-corroborated sourcing: CNN, Reuters, and NBC News independently reported the original March 2025 plan; Breaking Defense reported the April 2025 walk-back on SACEUR specifically, corroborated by Grynkewich's confirmed July 2025 assumption of the post; Small Wars Journal and Newsweek reported the December 2025 leaked follow-up document, with the Pentagon itself declining to authenticate it (calling it a 'leaked, unauthenticated, pre-decisional' document in its response to Newsweek) -- so implementation specifics from that document should be treated as reported, not confirmed, pending the Pentagon's formal blueprint to Congress. CBS News reported the February 2026 NATO command-leadership shift.",
+    "section_summaries": {
+      "what_changed": "The Pentagon drafted a plan to cut combatant commands from 11 to 8 and briefly considered giving up NATO's top command role before backing off; the broader consolidation plan remains pre-decisional over a year later, pending a Congress-mandated cost and risk review.",
+      "estimated_impact": "Bipartisan lawmakers warned the changes could weaken U.S. deterrence in Europe and Africa; in practice the SACEUR post was retained and the wider merger has not been implemented, beyond NATO's separate 2026 shift of two other commands to European leadership.",
+      "confidence_note": "Cross-corroborated by CNN, Reuters, NBC News, Breaking Defense, Small Wars Journal/Newsweek, and CBS News; the December 2025 planning document itself is unauthenticated per the Pentagon's own response, so treat implementation details as reported, not confirmed."
+    },
+    "last_verified": "2026-08-11",
+    "date_added": "2026-08-11",
+    "sources": [
+      {
+        "name": "CNN -- Pentagon weighs major cuts to top of US military",
+        "url": "https://www.cnn.com/2025/03/19/politics/pentagon-cuts-top-military"
+      },
+      {
+        "name": "Reuters -- US Republican lawmakers voice alarm over possible Pentagon command shake-up",
+        "url": "https://www.reuters.com/world/us/us-republican-lawmakers-voice-alarm-over-possible-pentagon-command-shake-up-2025-03-19/"
+      },
+      {
+        "name": "NBC News -- Trump admin considers giving up NATO command exclusively American since Eisenhower",
+        "url": "https://www.nbcnews.com/politics/national-security/trump-admin-considers-giving-nato-command-exclusively-american-eisenho-rcna196503"
+      },
+      {
+        "name": "Breaking Defense -- Official says DoD not considering pulling US out of NATO SACEUR leadership post",
+        "url": "https://breakingdefense.com/2025/04/official-says-dod-not-considering-pulling-us-out-of-nato-saceur-leadership-post/"
+      },
+      {
+        "name": "Small Wars Journal (Arizona State University) -- Significant Overhaul Proposed for U.S. Combatant Command Structure",
+        "url": "https://smallwarsjournal.com/2025/12/17/pentagon-combatant-command-reorganization-americom-international-command/"
+      },
+      {
+        "name": "Newsweek -- Trump admin to radically reshape military: Report",
+        "url": "https://www.newsweek.com/trump-admin-to-radically-reshape-military-report-11218636"
+      },
+      {
+        "name": "CBS News -- NATO to shift 2 commands from U.S. to European leadership amid Trump's demands that NATO give more to its defense",
+        "url": "https://www.cbsnews.com/news/nato-to-shift-2-commands-from-us-to-european-leadership/"
+      },
+      {
+        "name": "Stars and Stripes -- Why isn't AFRICOM in Africa? Here's a look at the command's history and its uncertain future",
+        "url": "https://www.stripes.com/theaters/africa/2025-03-20/africom-eucom-consolidation-17204753.html"
+      }
+    ]
   },
   {
     "id": "pentagon-counter-wmd-nonproliferation-cuts-2025",
