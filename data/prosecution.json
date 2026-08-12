@@ -3603,12 +3603,13 @@
   },
   {
     "official": "Pete Hegseth, Secretary of Defense (later 'Secretary of War')",
-    "offense_category": "Policy/Regulatory Violation — DoD Instruction 8170.01 (mishandling of nonpublic DoD information); closest criminal analogue: 18 U.S.C. §793(f), gross negligence in handling national defense information — NOT charged, included for reference only",
+    "offense_category": "Policy/Regulatory Violation — DoD Instruction 8170.01 (mishandling of nonpublic DoD information) and a Federal Records Act / DoD records-retention policy violation (failure to preserve official communications), per the Pentagon Inspector General's December 2025 final report; closest criminal analogue: 18 U.S.C. §793(f), gross negligence in handling national defense information — NOT charged, included for reference only",
     "incident_summary": "On March 15, 2025, Hegseth shared sensitive operational details (aircraft quantities, strike timing) about an imminent strike on Houthi targets in Yemen via Signal on his personal phone, in a chat that inadvertently included a journalist. He also shared similar information in a separate personal Signal chat with his wife, brother, and personal attorney.",
     "contested": false,
     "elements_required": [
       "DoD Instr. 8170.01: use of personal device for official business (administrative, not criminal)",
       "DoD Instr. 8170.01: use of non-approved commercial messaging app for nonpublic DoD information",
+      "Federal Records Act / DoD records-retention policy: failure to preserve official communications sent via Signal, an unapproved and non-archiving channel — the Pentagon IG's December 2025 final report found this violation in addition to the 8170.01 issues",
       "[Reference only, not charged] 18 U.S.C. §793(f): lawful possession of national defense information; gross negligence permitting it to be removed from proper custody or disclosed; failure to report loss"
     ],
     "evidence": [
@@ -3617,6 +3618,18 @@
         "description": "Pentagon Inspector General report (mandated by Congress at request of Senate Armed Services Committee) found Hegseth sent sensitive, nonpublic operational information over Signal on a personal device, sourced from a SECRET//NOFORN CENTCOM email, 2-4 hours before strikes occurred",
         "source_url": "https://www.lawfaremedia.org/article/pentagon-inspector-general-releases-report-on-hegseth-s-signal-use",
         "maps_to_element": "DoD Instr. 8170.01 violations (both elements)"
+      },
+      {
+        "type": "reporting",
+        "description": "On 2025-04-21, multiple outlets began reporting that Hegseth shared the same category of sensitive operational information — including F/A-18 flight schedules and launch/bomb-drop times for the Yemen strikes, sourced from a pre-strike briefing by U.S. Central Command's Gen. Erik Kurilla — in a second, separate Signal chat with his wife, brother, and personal lawyer, none of whom held a security clearance or an official need to know. A later Pentagon IG final report confirmed this as a second chat distinct from the Goldberg-inclusive one, and found Hegseth 'failed to preserve' the messages across both.",
+        "source_url": "https://www.cbsnews.com/news/hegseths-signal-chat-pentagon-inspector-general-report/",
+        "maps_to_element": "DoD Instr. 8170.01 violations (both elements, second instance); Federal Records Act element (failure to preserve)"
+      },
+      {
+        "type": "reporting",
+        "description": "By 2025-04-25, reporting found Hegseth had installed Signal on a Pentagon desktop computer (cloned from his personal phone) to bypass cellphone restrictions, and had an unauthorized 'dirty' internet line installed in his Pentagon office that bypassed standard DoD security systems to connect directly to the public internet. He also used a personal cellphone number that had remained publicly searchable, linked to consumer accounts (Facebook, fantasy-sports apps), and reused personal email passwords previously exposed in unrelated data breaches — all for communications that included the sensitive Yemen strike details described above.",
+        "source_url": "https://www.cbsnews.com/news/pentagon-internet-hegseth-signal-security/",
+        "maps_to_element": "DoD Instr. 8170.01 violations (personal-device and unapproved-app elements); context on the scale of the security lapse"
       },
       {
         "type": "public_record",
@@ -3629,15 +3642,21 @@
         "description": "Reporting indicates Hegseth declined an interview with the IG, providing a written statement instead, and has called the investigation partisan",
         "source_url": "https://www.lawfaremedia.org/article/pentagon-inspector-general-releases-report-on-hegseth-s-signal-use",
         "maps_to_element": "Context on cooperation with investigation, not an element of any offense"
+      },
+      {
+        "type": "reporting",
+        "description": "By June 2025, the Pentagon Inspector General was separately investigating whether Hegseth aides had been asked to delete Signal messages related to the March airstrikes, and was trying to determine who had manually transferred the classified strike details into the unsecured app in the first place and who had access to Hegseth's phone.",
+        "source_url": "https://www.lawfaremedia.org/article/pentagon-inspector-general-releases-report-on-hegseth-s-signal-use",
+        "maps_to_element": "Federal Records Act element (potential message destruction, distinct from the failure-to-preserve finding above)"
       }
     ],
-    "status": "investigated, policy violation found by IG; no criminal charges, no criminal referral indicated in available reporting",
+    "status": "Investigated; the Pentagon Inspector General's December 2025 final report found Hegseth violated DoD Instruction 8170.01 (personal device, unapproved app) in two separate Signal chats — the Goldberg-inclusive Yemen-strike chat and a second chat with his wife, brother, and personal lawyer — and separately violated federal recordkeeping requirements by failing to preserve the messages. No criminal charges or referral indicated in available reporting; IG also examined, without a public conclusion in reporting reviewed, whether aides were asked to delete related messages.",
     "rebuttal_anticipated": "Hegseth/administration position: no classified information was shared, he had authority to declassify, and the investigation is partisan. Spokesman called the report 'a total exoneration.'",
     "comeback": "The 'exoneration' framing answers a question that wasn't the actual finding. The IG report addressed two separate questions: (1) was classified information disclosed, and (2) were DoD's own communication-security rules followed. He may have prevailed on the first, but the report found he violated DoD Instruction 8170.01 by using a personal device and unapproved app for nonpublic operational information. Declassification authority is not the same as operational security authority -- he had the legal right to decide what was classified, not the right to send strike timing over his personal phone outside secure channels. Citing a win on one question to dismiss a loss on the other is the kind of sleight-of-hand a genuinely strong position shouldn't need.",
     "cause": "A Secretary of Defense brought in from a media background without the secure-communications discipline typically built over a career in uniformed or career-civil-service positions, combined with a rapid operational pace that incentivized speed over protocol. This is a structural appointment-quality issue as much as an individual-judgment failure: the IG found a DoD Instruction violation, not a one-time lapse of someone who otherwise operates within the system's norms -- Hegseth sent the same information in a second, separate personal Signal chat with family members, which suggests habitual use of personal channels for operational content, not an isolated error.",
-    "last_updated": "2026-06-30",
+    "last_updated": "2026-08-12",
     "date_added": "2026-07-03",
-    "confidence_note": "High confidence on the IG findings themselves (official government investigation, multiple corroborating outlets). Lower confidence on how to characterize severity -- this reads as a real but narrow process violation, not evidence of a prosecutable crime. Avoid overstating as 'leaked classified information' in debate use; the more defensible framing is 'circumvented secure communication requirements for operational planning.'",
+    "confidence_note": "High confidence on the IG findings themselves (official government investigation, multiple corroborating outlets). Lower confidence on how to characterize severity -- this reads as a real but narrow process violation, not evidence of a prosecutable crime. Avoid overstating as 'leaked classified information' in debate use; the more defensible framing is 'circumvented secure communication requirements for operational planning.' Updated 2026-08-12 (round 4 batch 25, cluster c0150): added the second Signal chat (wife/brother/lawyer, F/A-18 schedules and Gen. Kurilla intel) as a sourced evidence item rather than leaving it only in the 'cause' narrative; added the Federal Records Act / records-retention violation the December 2025 final IG report found alongside the DoD Instruction 8170.01 findings already documented — this is a real addition to elements_required, not just new evidence, since the entry previously understated the IG's findings to a single policy instrument. Also added device/password-hygiene context and the separate deletion-of-messages inquiry. Declined as duplicative or too speculative to add: earlier (March-July 2025) reporting of facts the December 2025 final report superseded or already confirmed more authoritatively; a May 2025 Venmo-account-exposure story involving other officials (tangential OPSEC color, doesn't map to a chargeable element here); and a single-outlet, hedged ('may have') assessment that the leak damaged intelligence collection on Houthi militants, too speculative to state as fact.",
     "section_summaries": {
       "incident_summary": "Hegseth texted operational strike details on an unofficial app, once by accident to a reporter and separately to family members.",
       "confidence_note": "Investigators confirmed the facts, but the more accurate label is a narrow process lapse, not anything approaching a prosecutable offense."
@@ -7676,6 +7695,94 @@
     "section_summaries": {
       "incident_summary": "Vought has OMB withholding money Congress approved, arguing the notification law itself is unconstitutional, and GAO has flagged dozens of violations.",
       "confidence_note": "Nonpartisan GAO findings across dozens of investigations put this on unusually firm institutional ground, not just partisan accusation."
+    }
+  },
+  {
+    "official": "Mike Waltz, then-National Security Advisor",
+    "offense_category": "Federal information-security policy / Federal Records Act compliance -- Waltz's National Security Council team routinely used Signal, an unclassified commercial messaging app, to coordinate sensitive foreign-policy and national-security matters across at least 20 separate group chats, beyond the single Yemen-strike chat already documented elsewhere in this tracker -- NOT charged, no criminal exposure identified in reporting reviewed, included for reference only",
+    "incident_summary": "Following the March 2025 disclosure that Waltz had accidentally added a journalist to a Signal chat discussing Yemen strike war plans (documented separately in this tracker's Hegseth Signal/Yemen entry), Politico reported on 2025-04-02 that Waltz's NSC team had built its broader communications process around Signal: at least 20 separate group chats coordinating official work on Ukraine, China, Gaza, the broader Middle East, Africa, and Europe, according to four people who had personally been added to such chats, two of whom said they were in or had direct knowledge of at least 20. All four sources said they witnessed sensitive information discussed in these chats. One source described the practice as 'Waltz built the entire NSC communications process on Signal.' The reporting came alongside separate revelations that Waltz used personal Gmail for some government business, deepening bipartisan concern about the NSC's handling of sensitive communications. Veteran national security officials quoted in the reporting said the practice potentially violates regulations protecting sensitive national-security information from foreign adversaries, and federal recordkeeping law if any of the chats were set to auto-delete messages.",
+    "contested": false,
+    "elements_required": [
+      "Federal information-security policy: routine use of an unclassified, non-government-approved commercial messaging app to coordinate sensitive national-security matters across multiple foreign-policy areas, not a single isolated incident",
+      "Federal Records Act: potential failure to preserve official communications if any of the 20+ chats used auto-deleting messages, per national-security officials quoted in the underlying reporting -- not independently confirmed for each chat in reporting reviewed"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "Politico reported on 2025-04-02, citing four people personally added to Waltz-team Signal chats (two with direct knowledge of at least 20), that the NSC's communications process was substantially built on Signal, covering Ukraine, China, Gaza, the Middle East, Africa, and Europe; all four sources said they witnessed sensitive information discussed. A source described the practice as 'Waltz built the entire NSC communications process on Signal.'",
+        "source_url": "https://www.yahoo.com/news/trump-adviser-waltzs-team-set-185940124.html",
+        "maps_to_element": "Federal information-security policy element"
+      },
+      {
+        "type": "reporting",
+        "description": "Veteran national security officials quoted in the reporting said the scale of Signal use potentially violates regulations on protecting sensitive information from foreign adversaries, and federal recordkeeping law if chats were set to auto-delete.",
+        "source_url": "https://www.huffpost.com/entry/mike-waltz-signal-20-international-crises-politico_n_67ed8d52e4b0b937ab8f62f4",
+        "maps_to_element": "Federal Records Act element"
+      },
+      {
+        "type": "reporting",
+        "description": "Following the Politico report, House Oversight and Reform ranking member Rep. Gerry Connolly (D-VA) called the practice 'the reckless dissemination of potentially classified material,' said it 'raises immediate and deeply alarming concerns about the misuse of unsecured communication platforms,' and said Waltz 'needs to be as far away from our nation's secrets as humanly possible.'",
+        "source_url": "https://lieu.house.gov/media-center/in-the-news/calls-waltzs-resignation-grow-amid-report-least-20-sensitive-signal-group",
+        "maps_to_element": "Context: congressional oversight response, not an element of any offense"
+      }
+    ],
+    "status": "Reported, not formally investigated as its own matter in sourcing reviewed (distinct from the Pentagon IG's investigation of Hegseth's Signal use, and from the separate TeleMessage/TM SGNL breach also documented in this tracker). Waltz was removed as National Security Advisor in 2025 and nominated instead as UN Ambassador, a move widely attributed to the broader Signal-related controversy rather than this specific reporting alone.",
+    "rebuttal_anticipated": "No detailed administration rebuttal to this specific reporting identified in sourcing reviewed, beyond general defenses of Signal's encryption offered in response to the original Yemen-chat controversy.",
+    "comeback": "Signal's encryption addresses interception in transit, not the two separate problems this reporting raises: (1) whether an app not approved for government sensitive-but-unclassified or classified traffic should be the NSC's default communications tool across 20+ subject areas, not a one-off, and (2) whether federal recordkeeping obligations were met if any of those chats auto-deleted messages. Encryption strength is not a substitute for either an approved-channel determination or records retention.",
+    "cause": "Same structural pattern as this tracker's other Signal-related entries: officials favoring a fast, easy-to-use encrypted consumer app over slower, more cumbersome approved government communication systems, at the NSC's normal operating scale rather than as an isolated lapse -- 'built the entire ... communications process on Signal,' per the underlying reporting.",
+    "last_updated": "2026-08-12",
+    "date_added": "2026-08-12",
+    "confidence_note": "Politico's original reporting (accessed here via Yahoo syndication and HuffPost's summary, since Politico's own site returned a 403 to automated fetch) rests on four sources personally added to the chats, two with direct knowledge of the full scope -- solid multi-source sourcing for a story of this kind, though it does not name the sources or specify exactly which sensitive details were shared in which chat. The recordkeeping-law concern is explicitly conditional ('if the chats are automatically deleted') in the original reporting, not a confirmed violation -- present it as a raised concern, not a proven fact.",
+    "section_summaries": {
+      "incident_summary": "Beyond the one Yemen-strike Signal chat that became public by accident, Waltz's NSC team ran its broader foreign-policy coordination -- Ukraine, China, Gaza, Africa, Europe -- through at least 20 separate Signal chats, according to four people who'd been added to them.",
+      "confidence_note": "Solid multi-source reporting on the scale of Signal use; the records-law concern raised alongside it is conditional, not confirmed."
+    }
+  },
+  {
+    "official": "Mike Waltz, then-National Security Advisor",
+    "offense_category": "Federal Records Act / federal information-security compliance -- Waltz used TM SGNL, a modified Signal clone marketed as preserving federal records while still using end-to-end encryption, for official government communications; the product in fact stored plaintext copies of messages on an insecure archive server that was subsequently breached -- NOT charged, no criminal exposure identified in reporting reviewed, included for reference only",
+    "incident_summary": "TeleMessage, an Israeli company, sells TM SGNL (also called Archive Signal), a modified version of Signal marketed to U.S. government agencies as a way to satisfy federal records-retention requirements without giving up Signal's end-to-end encryption. Then-National Security Advisor Mike Waltz was photographed using TM SGNL, and journalist/security researcher Micah Lee reported on 2025-05-06 that he had obtained and reverse-engineered TM SGNL's source code, finding it transmitted decrypted, plaintext copies of chat logs to TeleMessage's own archive server -- directly contradicting the product's end-to-end-encryption marketing claims. Lee's reporting indicated Waltz's TM SGNL account had exchanged messages with Tulsi Gabbard, JD Vance, and Marco Rubio. On 2025-05-05, a hacker separately breached TeleMessage's backend in an estimated 15-20 minutes, exploiting insecure client-side MD5 password hashing and an exposed server /heapdump endpoint, and obtained roughly 410GB of data including usernames, passwords, internal credentials, and plaintext message content and metadata from modified Signal, WhatsApp, Telegram, and WeChat clients. Affected users included personnel at Customs and Border Protection and other government agencies (60+ officials by one count, including FEMA, Secret Service, and diplomatic personnel), as well as private-sector users including Coinbase. TeleMessage suspended most of its services shortly after the breach became public. On 2025-05-12, CISA added the underlying flaw (CVE-2025-47729, cleartext storage of messages contradicting the app's encryption claims) to its Known Exploited Vulnerabilities catalog, and under Binding Operational Directive 22-01 ordered federal civilian agencies to remediate by 2025-06-02.",
+    "contested": false,
+    "elements_required": [
+      "Federal Records Act / DHS-NSC information-security policy: using a third-party archiving application for official government communications that materially misrepresented its own security properties (claiming end-to-end encryption while storing plaintext)",
+      "Federal cybersecurity exposure: a formally catalogued, actively-exploited vulnerability (CISA KEV, CVE-2025-47729) affecting a tool used for official government business, triggering a mandatory federal remediation directive"
+    ],
+    "evidence": [
+      {
+        "type": "reporting",
+        "description": "Micah Lee (security researcher, former The Intercept journalist) reverse-engineered TM SGNL's source code and found it sent decrypted, plaintext chat logs to TeleMessage's archive server, contradicting the product's end-to-end-encryption marketing; his reporting states Waltz's TM SGNL account had exchanged messages with Tulsi Gabbard, JD Vance, and Marco Rubio.",
+        "source_url": "https://www.techmeme.com/250506/p45",
+        "maps_to_element": "Federal Records Act / information-security policy element"
+      },
+      {
+        "type": "reporting",
+        "description": "A hacker breached TeleMessage's backend in an estimated 15-20 minutes on 2025-05-05, exploiting insecure client-side MD5 password hashing and an exposed server memory-dump endpoint, obtaining roughly 410GB of data including credentials and plaintext message content/metadata from Signal, WhatsApp, Telegram, and WeChat clones used by Customs and Border Protection and other government personnel, plus private-sector users including Coinbase.",
+        "source_url": "https://www.csoonline.com/article/3977385/company-behind-modified-signal-app-used-by-mike-walz-allegedly-hacked.html",
+        "maps_to_element": "Federal cybersecurity exposure element"
+      },
+      {
+        "type": "reporting",
+        "description": "TeleMessage went offline on 2025-05-05 as the breach became public; a leaked cache of the breached data later revealed more than 60 identifiable government users on the platform, per Reuters' investigation, spanning the Secret Service, Customs and Border Protection, the State Department, FEMA, and at least one White House staffer; intercepted fragments included chats referencing trips by senior officials to the Vatican and Jordan. TeleMessage is owned by Oregon-based Smarsh.",
+        "source_url": "https://techstartups.com/2025/05/21/telemessage-hack-exposes-secret-service-fema-white-house-staff-and-over-60-u-s-officials/",
+        "maps_to_element": "Scale/impact context"
+      },
+      {
+        "type": "public_record",
+        "description": "CISA added the underlying vulnerability (CVE-2025-47729, cleartext storage of messages) to its Known Exploited Vulnerabilities catalog on 2025-05-12 and, under Binding Operational Directive 22-01, ordered federal civilian agencies to remediate by 2025-06-02 -- a formal federal cybersecurity-agency finding, not just press reporting.",
+        "source_url": "https://securityaffairs.com/177743/hacking/u-s-cisa-adds-telemessage-tm-sgnl-to-its-known-exploited-vulnerabilities-catalog.html",
+        "maps_to_element": "Federal cybersecurity exposure element (formal government confirmation)"
+      }
+    ],
+    "status": "Confirmed breach and CISA-catalogued vulnerability; TeleMessage suspended services; no criminal referral or disciplinary action against Waltz specifically identified in reporting reviewed. Waltz was separately removed as National Security Advisor in 2025 (nominated to UN Ambassador instead) for reasons tied to the earlier Yemen-strike Signal-chat controversy, not this breach specifically.",
+    "rebuttal_anticipated": "TeleMessage/administration position (where stated) has emphasized the product was marketed for records-compliance purposes and that the vulnerability was in TeleMessage's own infrastructure, not a result of any individual official's misuse.",
+    "comeback": "The Federal Records Act rationale for using an archiving tool doesn't excuse the underlying failure: officials chose a specific product marketed as preserving end-to-end encryption while archiving, and that marketing claim was false. Compliance-motivated tool selection is not a defense when the tool itself created the exposure the encryption claim was supposed to prevent -- a CISA Known Exploited Vulnerability catalog entry and mandatory federal remediation directive are not marks of a merely theoretical risk.",
+    "cause": "Structural: a records-compliance requirement (Federal Records Act) collided with officials' preference for encrypted messaging apps, producing demand for a third-party product promising both -- TM SGNL -- that in practice could not deliver both properties simultaneously. This is the same underlying tension (secure, ephemeral-feeling communication vs. official recordkeeping obligations) visible across this tracker's other Signal-related entries (Hegseth, Rubio), suggesting a pattern of senior officials adopting consumer/quasi-consumer messaging tools without adequate security vetting.",
+    "last_updated": "2026-08-12",
+    "date_added": "2026-08-12",
+    "confidence_note": "Strong sourcing: the core vulnerability and breach are corroborated by Micah Lee's original technical research, wire/trade press (CSO Online, Reuters, Security Affairs), and -- most authoritatively -- CISA's own Known Exploited Vulnerabilities catalog entry with a CVE identifier and a Binding Operational Directive remediation order, the strongest possible source type per this tracker's sourcing priorities. What's less certain: any personal disciplinary consequence for Waltz specifically tied to this incident (as opposed to the separate, earlier Yemen-strike Signal-chat controversy that ended his NSA tenure) -- reporting reviewed does not establish that connection, so this entry treats them as related but distinct episodes.",
+    "section_summaries": {
+      "incident_summary": "A Signal-clone app marketed to government officials as encrypted-and-compliant, used by then-NSA Waltz among others, turned out to store plaintext copies of messages and was hacked within minutes, exposing 60+ officials' communications; CISA formally catalogued the flaw as an actively exploited vulnerability.",
+      "confidence_note": "Well-documented via independent security research and a formal CISA finding; unclear whether this incident specifically, versus the earlier Yemen-chat controversy, drove any consequence for Waltz."
     }
   },
   {
