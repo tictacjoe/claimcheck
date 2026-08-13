@@ -7259,6 +7259,67 @@
     "last_updated": "2026-07-27"
   },
   {
+    "id": "hhs-barda-mrna-vaccine-contract-cancellation-2025",
+    "title": "HHS Cancels 22 BARDA mRNA Vaccine Contracts (~$500M) After a March 2025 NIH Data Call Targeting mRNA Research",
+    "institution": "HHS / NIH / BARDA (Biomedical Advanced Research and Development Authority)",
+    "domain": "research_suppression",
+    "status": "Finalized -- contracts terminated; scientific and public-health criticism ongoing",
+    "date_of_action": "2025-03 (NIH data call) through 2025-08-05 (BARDA contract cancellations)",
+    "what_changed": "On March 16, 2025, NIH's then-acting director Dr. Matthew Memoli instructed staff to report any mRNA-vaccine-related grants, contracts, or collaborations to HHS Secretary Robert F. Kennedy Jr.'s office and the White House -- a 'data call' that led NIH project officers to flag pending mRNA-related grant applications and, per multiple scientists who came forward, to directly tell some grant applicants to scrub mRNA vaccine references from their applications. This data-gathering exercise was the origin point for a broader wind-down: in May 2025 the administration pulled more than $700 million previously committed to Moderna for mRNA-based flu vaccine development (tracked separately as a downstream industry consequence in vaccine-manufacturers-pullback-rfk-policy-2026.json), and on August 5, 2025, HHS Secretary Kennedy announced the cancellation of 22 BARDA contracts for mRNA vaccine development, worth roughly $500 million collectively, covering projects targeting flu, COVID-19, and other respiratory pathogens -- with no new mRNA vaccine development projects to be started under the announced policy. Nature separately reported that even as HHS/BARDA wound down mRNA vaccine funding, the U.S. military continued funding mRNA vaccine research through a different funding stream, underscoring that the cancellations were a civilian-agency policy choice rather than a scientific consensus against the technology.",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr., HHS Secretary",
+      "role": "Announced and directed the August 2025 BARDA contract cancellations",
+      "note": "NIH's acting director Dr. Matthew Memoli directed the March 2025 data call that first required mRNA-related grants to be reported to Kennedy's office and the White House, the origin point for the later cancellations."
+    },
+    "estimated_impact": {
+      "summary": "Terminates federal support for 22 in-progress mRNA vaccine development contracts spanning flu, COVID-19, and other respiratory pathogens -- a technology platform that enabled the rapid development of COVID-19 vaccines -- while leaving the underlying research capacity intact only through non-HHS funding streams such as military research.",
+      "figures": [
+        {
+          "metric": "BARDA mRNA vaccine development contracts terminated",
+          "value": "22 contracts, ~$500,000,000 collectively",
+          "source": "HHS/RFK Jr. announcement, August 5, 2025, reported by NBC News, FierceBiotech, and NPR"
+        },
+        {
+          "metric": "Separate Moderna mRNA flu-vaccine development funding pulled (May 2025)",
+          "value": "$700,000,000+",
+          "source": "Reported in this tracker's vaccine-manufacturers-pullback-rfk-policy-2026.json entry"
+        }
+      ],
+      "caveat": "HHS has characterized the cancellations as reallocating funding toward 'safer, broader-spectrum vaccine platforms' rather than as an anti-vaccine action; public health experts and outlets covering the decision (NPR, PBS NewsHour) widely disputed that characterization given mRNA technology's demonstrated efficacy record. This entry documents the funding action and its scale, not an independently adjudicated scientific merits dispute."
+    },
+    "confidence_note": "HIGH confidence -- the March 2025 NIH data call is corroborated by KFF Health News (citing multiple named and anonymous NIH-funded scientists) and NPR; the August 2025 BARDA cancellations and their ~$500 million/22-contract scale are independently corroborated across NBC News, FierceBiotech, NPR, and Nature. MODERATE confidence on directly causally linking the March data call to the August cancellations as a single continuous action rather than two related-but-separate policy moments -- sourcing establishes the data call as an early step in the same overall mRNA policy shift under the same HHS leadership, not a single formal decision memo connecting them.",
+    "last_verified": "2026-08-12",
+    "date_added": "2026-08-12",
+    "last_updated": "2026-08-12",
+    "sources": [
+      {
+        "name": "KFF Health News -- 'Scientists Say NIH Officials Told Them To Scrub mRNA References on Grants'",
+        "url": "https://kffhealthnews.org/public-health/nih-grants-mrna-vaccines-trump-administration-hhs-rfk/"
+      },
+      {
+        "name": "NBC News -- 'RFK Jr. cuts $500 million in mRNA vaccine contracts, dealing major blow to promising area of research'",
+        "url": "https://www.nbcnews.com/health/health-news/rfk-jr-cuts-500-million-mrna-vaccine-contracts-dealing-major-blow-prom-rcna223281"
+      },
+      {
+        "name": "FierceBiotech -- 'HHS cancels mRNA vaccine development funded by BARDA'",
+        "url": "https://www.fiercebiotech.com/biotech/hhs-cancels-all-mrna-vaccine-development-funded-barda"
+      },
+      {
+        "name": "NPR -- 'RFK Jr. pulls $500 million in funding for mRNA vaccine development'",
+        "url": "https://www.npr.org/2025/08/05/nx-s1-5493550/rfk-jr-funding-mrna-vaccine-development"
+      },
+      {
+        "name": "Nature -- 'Exclusive: RFK Jr cancelled mRNA research -- but the US military is still funding it'",
+        "url": "https://www.nature.com/articles/d41586-025-03093-6"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "A March 2025 NIH data call requiring mRNA-related grants to be reported to RFK Jr.'s office and the White House led to HHS/BARDA canceling 22 mRNA vaccine development contracts worth ~$500 million in August 2025, with no new mRNA projects to be started.",
+      "estimated_impact": "Terminates federal civilian funding for 22 in-progress mRNA vaccine projects spanning flu, COVID-19, and other pathogens, even as the U.S. military continued separately funding mRNA vaccine research.",
+      "confidence_note": "The data call and the BARDA cancellations are each independently well-corroborated; the direct causal chain connecting them as one continuous policy action, rather than two related but separate steps, is moderately rather than fully documented."
+    }
+  },
+  {
     "id": "hhs-early-2025-workforce-purge-hiv-office-elimination",
     "title": "HHS Purged 5,200 Probationary Staff, Offered $25,000 Buyouts Agency-Wide, and Eliminated Its Entire HIV/AIDS and Infectious Disease Policy Office",
     "institution": "Department of Health and Human Services (HHS)",
@@ -7491,6 +7552,51 @@
     },
     "last_updated": "2026-08-02",
     "date_added": "2026-08-02"
+  },
+  {
+    "id": "hubbard-brook-acid-rain-monitoring-defunded-2025",
+    "title": "Trump Administration Cuts Funding for the Nation's 50-Year Acid Rain Monitoring Program at Hubbard Brook",
+    "institution": "National Science Foundation (funder of the Hubbard Brook Long-Term Ecological Research site)",
+    "domain": "data_collection_halted",
+    "status": "Funding cut as of March 2025 reporting; a separate, larger proposed FY2026 NSF budget (55% reduction, threatening up to 26 LTER sites nationwide including Hubbard Brook) was pending as of reporting reviewed -- not yet enacted, tracked here as a distinct, unresolved risk rather than an executed cut",
+    "date_of_action": "2025-03 (reported)",
+    "what_changed": "Dr. Gene Likens, the ecologist who co-discovered acid rain in the U.S. through research launched in 1963 at the Hubbard Brook Experimental Forest in New Hampshire, confirmed in March 2025 that the Trump administration had cut federal funding for his continuous rainwater-acidity monitoring program -- one of the longest unbroken datasets of its kind in the world, running since 1976. The cut comes as EPA Administrator Lee Zeldin's EPA has targeted dozens of air-quality rules for rollback, including limits on sulfur dioxide and nitrogen oxides, the two pollutants that cause acid rain (several of these rollbacks are tracked separately in this database's Corporate Deregulation tracker). Likens warned that defunding the monitoring itself compounds the risk of the emissions rollbacks: 'If the monitoring is disrupted or discontinued, we won't know what is changing.' Separately, and not conflated with the already-executed monitoring-program cut above, the administration's proposed FY2026 budget requested a 55% reduction to the National Science Foundation (to roughly $4 billion), reporting on which noted the cut could force the closure of up to 26 Long-Term Ecological Research sites nationwide, including Hubbard Brook itself -- a distinct, larger, and as of reporting reviewed still-proposed (not enacted) threat to the site's broader research funding beyond the specific acid-rain monitoring grant already cut.",
+    "primary_proponent": {
+      "name": "Trump administration federal science-funding policy",
+      "role": "No single named official is identified in sourcing reviewed as personally directing this specific monitoring-grant cut",
+      "note": "Attributed institutionally per this tracker's standing convention for undocumented individual attribution; the related, larger FY2026 NSF budget request (55% reduction) is a Trump administration budget proposal, not yet enacted."
+    },
+    "estimated_impact": {
+      "summary": "Ends continuous funding for a 49-year (at time of the cut), unbroken rainwater-acidity dataset that originally enabled the discovery of acid rain and the scientific case for the 1990 Clean Air Act amendments that curbed it -- removing the monitoring capacity needed to detect any resurgence just as EPA moves to roll back the SO2/NOx emissions rules that originally caused acid rain.",
+      "caveat": "This entry documents the specific, already-executed cut to Likens' rainwater-monitoring program reported in March 2025. It does not include dollar figures for that specific grant, which were not identified in sourcing reviewed, and it explicitly does not fold in the separate, larger, and still-proposed FY2026 NSF 55% budget-reduction threat to Hubbard Brook's broader LTER funding -- conflating an executed cut with a pending proposal would overstate what has actually happened."
+    },
+    "confidence_note": "HIGH confidence on the monitoring-program funding cut itself and Likens' warning, independently corroborated across The Guardian, the Cary Institute (Likens' research home institution, republishing the Guardian piece), and Envirotech Online's direct interview with Likens. MODERATE confidence on precisely which funding mechanism was cut (Hubbard Brook's core support comes from NSF Long-Term Ecological Research grants, per Union Leader and NSF-history reporting, but no single source in this review names the exact grant or agency line-item cut in March 2025 with full specificity) -- attributed to NSF broadly rather than a more specific mechanism.",
+    "last_verified": "2026-08-12",
+    "date_added": "2026-08-12",
+    "last_updated": "2026-08-12",
+    "sources": [
+      {
+        "name": "The Guardian -- 'US could see return of acid rain due to Trump's rollbacks, says scientist who discovered it'",
+        "url": "https://www.theguardian.com/environment/2025/mar/27/acid-rain-trump-epa"
+      },
+      {
+        "name": "Cary Institute -- republication of the Guardian acid-rain/Hubbard Brook piece",
+        "url": "https://www.caryinstitute.org/news-insights/media-coverage/us-could-see-return-acid-rain-due-trumps-rollbacks-says-scientist-who"
+      },
+      {
+        "name": "Envirotech Online -- 'Interview: Trump defunded his iconic acid rain study – what comes next?'",
+        "url": "https://www.envirotech-online.com/article/environmental-laboratory/7/international-environmental-technology/interview-trump-defunded-his-iconic-acid-rain-study-what-comes-next/3614"
+      },
+      {
+        "name": "Union Leader -- 'Trump wants to cut research centers like Hubbard Brook in NH'",
+        "url": "https://www.unionleader.com/news/environment/trump-wants-to-cut-research-centers-like-hubbard-brook-in-nh/article_a2436a64-5b6a-4ff8-9e37-17ee1c695dcb.html"
+      }
+    ],
+    "section_summaries": {
+      "what_changed": "The Trump administration cut funding for Gene Likens' 49-year continuous acid-rain monitoring program at Hubbard Brook, reported March 2025, even as EPA moves to roll back the sulfur dioxide and nitrogen oxide rules that originally caused acid rain.",
+      "estimated_impact": "Removes the monitoring capacity needed to detect any resurgence of acid rain just as the underlying emissions rules that caused it face rollback, per the program's own founding scientist.",
+      "confidence_note": "The funding cut and Likens' warning are well-corroborated across multiple outlets; the exact funding mechanism cut is not fully specified in sourcing reviewed, and a separate, larger proposed NSF budget cut threatening the site is not yet enacted and is not conflated with this already-executed cut."
+    }
   },
   {
     "id": "hud-continuum-of-care-builds-unlawful-2026",
