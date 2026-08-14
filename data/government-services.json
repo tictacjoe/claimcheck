@@ -169,6 +169,77 @@
     "last_updated": "2026-07-27"
   },
   {
+    "id": "acl-dismantlement-meals-on-wheels-2025",
+    "title": "HHS Dismantled the Administration for Community Living -- Closed All 10 Regional Offices, Fired Half Its Staff, Threatening Meals on Wheels and Services for Older and Disabled Americans",
+    "institution": "Administration for Community Living (ACL), HHS",
+    "domain": "staff_office_cuts",
+    "status": "Completed -- ACL's regional office network eliminated and roughly half its staff terminated as of late April 2025; its functions nominally absorbed into other HHS components (ACF, ASPE, CMS) with no detailed transition plan identified in reporting reviewed",
+    "date_of_action": "2025-03-27 (restructuring announced) through 2025-04-25 (dismantlement substantially complete, reported by NYT)",
+    "what_changed": "On March 27, 2025, HHS Secretary Robert F. Kennedy Jr. announced a department-wide reorganization eliminating 10,000 positions and consolidating 28 divisions into 15, including dissolving the Administration for Community Living (ACL) -- the roughly 200-person HHS agency responsible for aging and disability policy, including oversight of Older Americans Act programs like Meals on Wheels, home and community-based services, adult protective services, and caregiver support -- entirely, with its functions nominally redistributed to the Administration for Children and Families (ACF), the Office of the Assistant Secretary for Planning and Evaluation (ASPE), and the Centers for Medicare and Medicaid Services (CMS). On April 1, 2025, roughly half of ACL's approximately 200 employees were terminated, including most of the agency's leadership, policy staff, and budget staff, and all 10 of ACL's regional-office administrator positions were eliminated, closing the regional office network that coordinated directly with state and local aging/disability service organizations nationwide. By April 24-25, 2025, the New York Times reported the dismantlement substantially complete, with no detailed public plan for how the absorbing HHS components would carry out ACL's former functions. Sixty-three House Democrats, led by Reps. Schakowsky, Matsui, and Bonamici, sent HHS a formal letter demanding answers on the disbandment. Advocacy groups including Justice in Aging and USAging warned the cuts put home and community-based services, Adult Day Programs, senior-center and medical transportation, and elder-abuse/exploitation legal services at risk. This dismantlement is the same underlying event referenced by an April 2 NPR report ('HHS layoffs put seniors, disabled and LIHEAP recipients at risk') describing the elimination of entire ACL teams days into the broader HHS purge, and is distinct from this tracker's separate LIHEAP-staff-elimination entry (liheap-staff-elimination-funding-delay-trump2.json), which documents the same-week firing of the ~10-person LIHEAP energy-assistance office within a different HHS component (ACF's Office of Community Services).",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services",
+      "note": "Announced and directed the March 27, 2025 HHS reorganization that dissolved ACL as a standalone agency and eliminated its regional office network."
+    },
+    "estimated_impact": {
+      "summary": "The federal agency responsible for coordinating aging and disability services nationwide -- including Meals on Wheels oversight, home and community-based services, and elder-abuse protections -- lost its entire regional-office network and about half its staff, with advocacy groups and 63 House Democrats warning the move threatens services relied on by older adults and people with disabilities to live independently, and no detailed public transition plan identified for how the absorbing HHS offices will carry out ACL's former functions.",
+      "figures": [
+        {
+          "metric": "ACL total staff before the cut",
+          "value": "~200",
+          "source": "Reporting reviewed (Disability Scoop / related coverage)"
+        },
+        {
+          "metric": "Share of ACL staff terminated April 1, 2025",
+          "value": "~50%, including most leadership, policy, and budget staff",
+          "source": "Reporting reviewed"
+        },
+        {
+          "metric": "ACL regional-office administrator positions eliminated",
+          "value": "10 of 10 (entire regional network)",
+          "source": "Reporting reviewed"
+        },
+        {
+          "metric": "House Democrats demanding answers from HHS on the disbandment",
+          "value": "63, led by Reps. Schakowsky, Matsui, and Bonamici",
+          "source": "Rep. Bonamici press release"
+        }
+      ],
+      "caveat": "Precise total-headcount and percentage figures vary slightly across outlets (accounts of the cut range from 'at least 40%' to '~half' of ACL staff); this entry uses the most commonly cited figures. The full downstream impact on Meals on Wheels and other Older Americans Act programs is the concern raised by advocacy groups and members of Congress in the reporting window covered here, not yet a confirmed service-disruption outcome with hard numbers -- revisit if a later accounting documents specific program-level effects."
+    },
+    "confidence_note": "HIGH confidence on the core facts -- the March 27 reorganization announcement, the April 1 ACL staff cuts and regional-office closures, and the formal congressional inquiry are corroborated across NPR, NYT, Disability Scoop, Justice in Aging, USAging, and the Bonamici-led congressional letter. MODERATE confidence on exact headcount/percentage figures, which vary somewhat by source and by exactly when in the rollout they were measured.",
+    "section_summaries": {
+      "what_changed": "HHS dissolved the Administration for Community Living, closing all 10 of its regional offices and firing about half its ~200 staff in a single week in April 2025, folding its aging/disability-services functions into other HHS offices with no detailed transition plan made public.",
+      "estimated_impact": "Advocacy groups and 63 House Democrats warn the cuts threaten Meals on Wheels, home and community-based services, and elder-abuse protections relied on by millions of older and disabled Americans, though the specific program-level fallout wasn't yet quantified as of this entry.",
+      "confidence_note": "Core facts well-corroborated across multiple outlets and a formal congressional letter; exact staff-count figures vary somewhat by source."
+    },
+    "last_verified": "2026-08-14",
+    "date_added": "2026-08-14",
+    "sources": [
+      {
+        "name": "New York Times -- Trump Administration Cuts Threaten Meals on Wheels, Services for Older and Disabled Americans",
+        "url": "https://www.nytimes.com/2025/04/24/health/meals-on-wheels-disabilities-aging-trump-cutbacks.html"
+      },
+      {
+        "name": "NPR -- HHS layoffs put seniors, disabled and LIHEAP recipients at risk",
+        "url": "https://www.npr.org/sections/shots-health-news/2025/04/01/g-s1-57716/hhs-layoffs-seniors-disabled-liheap-acl"
+      },
+      {
+        "name": "Disability Scoop -- Trump Administration To Close Agency Promoting Community Living For People With IDD",
+        "url": "https://www.disabilityscoop.com/2025/03/31/trump-administration-to-close-agency-promoting-community-living-for-people-with-idd/31384/"
+      },
+      {
+        "name": "Justice in Aging -- Statement on the Elimination of the Administration for Community Living (ACL)",
+        "url": "https://justiceinaging.org/statement-on-the-elimination-of-the-administration-for-community-living-acl/"
+      },
+      {
+        "name": "Rep. Suzanne Bonamici -- Schakowsky, Matsui, Bonamici, 63 House Democrats Demand Answers on the Disbandment of the Administration for Community Living",
+        "url": "https://bonamici.house.gov/media/press-releases/schakowsky-matsui-bonamici-63-house-democrats-demand-answers-disbandment"
+      }
+    ],
+    "last_updated": "2026-08-14"
+  },
+  {
     "id": "arizona-snap-enrollment-collapse-2025-2026",
     "title": "Arizona SNAP Enrollment Cut in Half as State Adds Paperwork, Cuts Caseworkers to Avoid Federal Penalties Under Trump's Benefits Law",
     "institution": "Arizona Department of Economic Security (implementing federal SNAP rules under HR1/OBBBA)",
@@ -762,6 +833,51 @@
         "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/meeting-us-cdc-vaccine-advisers-will-not-be-held-february-2026-02-19/"
       }
     ]
+  },
+  {
+    "id": "cdc-birth-defects-disabilities-center-gutted-2025",
+    "title": "CDC Fired Nearly Half the Staff -- and the Entire Leadership Team -- of Its Birth Defects and Developmental Disabilities Center, Halting Sickle Cell Data Collection, Hearing Screening, and Adult Disability Tracking",
+    "institution": "National Center on Birth Defects and Developmental Disabilities (NCBDDD), CDC/HHS",
+    "domain": "data_collection_halted",
+    "status": "Ongoing as of April 2025 reporting -- no reversal identified in sourcing reviewed",
+    "date_of_action": "2025-04 (RIF notices delivered; reported April 10, 2025)",
+    "what_changed": "In April 2025, as part of the Trump administration's broader HHS restructuring under Secretary Robert F. Kennedy Jr., nearly half of CDC staff working on birth defects and developmental disabilities were laid off, along with the entire leadership team of the National Center on Birth Defects and Developmental Disabilities (NCBDDD). The cuts halted data collection for studying Americans with sickle cell disease, a painful blood disorder that predominantly affects Black families. They eliminated the Disability and Health Promotion Branch's federal database tracking state-level rates of adults with disabilities and stalled a pending data release documenting rising rates of cognitive disability among younger adults. The cuts also ended congressionally mandated programs that fund state early hearing detection and intervention efforts to screen and diagnose children's hearing issues, and eliminated CDC staff who partnered with Special Olympics on athlete health screenings and data collection. An HHS spokesperson, Vianca Rodriguez Feliciano, said the department was 'taking a careful look at all divisions to see where there is overlap.'",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services",
+      "note": "Directed the broader HHS restructuring that included the NCBDDD cuts; HHS spokesperson Vianca Rodriguez Feliciano provided the department's public justification."
+    },
+    "estimated_impact": {
+      "summary": "A CDC center dedicated to birth defects, developmental disabilities, and related health data lost nearly half its staff and its entire leadership, halting sickle cell disease data collection (a condition disproportionately affecting Black Americans), eliminating the only federal database tracking adult disability rates by state, and ending congressionally mandated infant hearing-screening support -- concrete data and service losses affecting some of the country's most vulnerable populations, not merely a projected risk.",
+      "figures": [
+        {
+          "metric": "Share of NCBDDD staff laid off",
+          "value": "~50% (\"nearly half\")",
+          "source": "CBS News, April 2025"
+        },
+        {
+          "metric": "NCBDDD leadership team affected",
+          "value": "Entire leadership team eliminated",
+          "source": "CBS News, April 2025"
+        }
+      ],
+      "caveat": "Precise headcount figures were not specified in sourcing reviewed -- reporting characterizes the cut as 'nearly half' of center staff without a numerical total. The full downstream effect on sickle cell patients, disability-rate tracking, and infant hearing screening nationally was the concern raised by reporting at the time, not yet independently quantified with a comprehensive outcome study."
+    },
+    "confidence_note": "HIGH confidence -- corroborated by CBS News's detailed April 2025 reporting, which named specific eliminated programs (sickle cell data collection, adult disability database, early hearing detection, Special Olympics partnership) and quoted an HHS spokesperson's response.",
+    "section_summaries": {
+      "what_changed": "CDC fired nearly half of NCBDDD's staff and its entire leadership team in April 2025, halting sickle cell data collection, eliminating the only federal adult-disability-rate database, and ending mandated infant hearing-screening support.",
+      "estimated_impact": "Concrete data and service losses hit sickle cell patients, people with disabilities, and infants needing hearing screening -- documented cuts to specific ongoing federal programs, not a projected risk.",
+      "confidence_note": "Well-corroborated by detailed CBS News reporting naming specific affected programs and an HHS spokesperson's on-record response."
+    },
+    "last_verified": "2026-08-14",
+    "date_added": "2026-08-14",
+    "sources": [
+      {
+        "name": "CBS News -- CDC cuts sickle cell, adult disability programs",
+        "url": "https://www.cbsnews.com/news/cdc-cuts-sickle-cell-adult-disability-programs/"
+      }
+    ],
+    "last_updated": "2026-08-14"
   },
   {
     "id": "cdc-childhood-vaccine-universal-recommendation-rollback-2026",
@@ -1994,7 +2110,7 @@
     "domain": "funding_redirection",
     "status": "Ongoing -- Community Health Center Fund extended only through December 2026 via the Feb. 3, 2026 Consolidated Appropriations Act, with no multi-year reauthorization secured; underlying Medicaid-revenue pressure from OBBBA continues",
     "date_of_action": "2025-03 (Medicaid funding freeze and proposed budget cuts first threaten centers) through 2026-02 (short-term Community Health Center Fund reauthorization)",
-    "what_changed": "Community health centers -- federally qualified clinics serving roughly 32-34 million patients nationally, 90% of them at or below 200% of the federal poverty level -- faced three compounding federal funding threats across 2025-2026. First, beginning around March 2025, a Trump administration freeze on already-approved federal grants left health centers in at least 10 states experiencing payment delays, on top of a broader Medicaid funding freeze and proposed budget cuts that advocates warned could force closures or service reductions; centers rely on roughly $4.4 billion in annual federal grants (versus the $5.8 billion advocates say is needed) plus Medicaid, which made up 43% of the $46.7 billion in 2023 health-center revenue nationally. Second, the Community Health Center Fund -- which provides about 70% of centers' federal funding -- was extended only to September 30, 2025, and then lapsed when Congress failed to pass renewal legislation before the government shutdown began; a temporary extension to January 30, 2026 was included in the continuing resolution that ended the 43-day shutdown in November 2025, and a further extension through December 2026 (with a modest increase to $4.6 billion for FY2026) came via the February 3, 2026 Consolidated Appropriations Act -- short-term stopgaps rather than the multi-year reauthorization advocates had sought. Third, the One Big Beautiful Bill Act's Medicaid provisions layered a projected $32 billion five-year revenue loss onto the sector, per a Commonwealth Fund estimate, compounding the grant-funding uncertainty. An analysis cited by health-center advocates found one in four community health centers could close or reduce services within two years absent increased funding, and concrete harm had already begun by late 2025: a rural New Hampshire community health center shuttered, and a Des Moines, Iowa hospital system laid off dozens of employees and closed a clinic explicitly citing its 'ongoing response to the One Big Beautiful Bill Act.'",
+    "what_changed": "Community health centers -- federally qualified clinics serving roughly 32-34 million patients nationally, 90% of them at or below 200% of the federal poverty level -- faced four compounding federal funding and administrative threats across 2025-2026. First, beginning around March 2025, a Trump administration freeze on already-approved federal grants left health centers in at least 10 states experiencing payment delays, on top of a broader Medicaid funding freeze and proposed budget cuts that advocates warned could force closures or service reductions; centers rely on roughly $4.4 billion in annual federal grants (versus the $5.8 billion advocates say is needed) plus Medicaid, which made up 43% of the $46.7 billion in 2023 health-center revenue nationally. Second, HRSA itself -- the $12-billion-a-year HHS agency that administers this and other grant programs to clinics, rural hospitals, and workforce initiatives -- lost about a quarter of its roughly 2,700-person workforce between February and August 2025 across two rounds of cuts (a 7% RIF on February 14, 2025, followed by a larger DOGE-driven reduction on March 27, 2025), including analysts, auditors, grant managers, and nursing consultants; DOGE reportedly cut 40% of staff specifically at HRSA's Bureau of Primary Health Care, the office that directly oversees the Health Center Program funding these clinics, a direct contributor to the payment-processing delays documented above. Third, the Community Health Center Fund -- which provides about 70% of centers' federal funding -- was extended only to September 30, 2025, and then lapsed when Congress failed to pass renewal legislation before the government shutdown began; a temporary extension to January 30, 2026 was included in the continuing resolution that ended the 43-day shutdown in November 2025, and a further extension through December 2026 (with a modest increase to $4.6 billion for FY2026) came via the February 3, 2026 Consolidated Appropriations Act -- short-term stopgaps rather than the multi-year reauthorization advocates had sought. Fourth, the One Big Beautiful Bill Act's Medicaid provisions layered a projected $32 billion five-year revenue loss onto the sector, per a Commonwealth Fund estimate, compounding the funding and staffing uncertainty. Trump's proposed FY2026 budget separately called for eliminating HRSA entirely, along with specific programs including rural hospital grants, workforce training, Ryan White HIV/AIDS programs, and emergency medical services for children. An analysis cited by health-center advocates found one in four community health centers could close or reduce services within two years absent increased funding, and concrete harm had already begun by late 2025: a rural New Hampshire community health center shuttered, and a Des Moines, Iowa hospital system laid off dozens of employees and closed a clinic explicitly citing its 'ongoing response to the One Big Beautiful Bill Act.'",
     "primary_proponent": {
       "name": "Trump administration (grant freeze) and Congress (Community Health Center Fund lapse, OBBBA Medicaid provisions)",
       "role": "The administration implemented the funding freeze/delays; Congress's failure to pass timely Community Health Center Fund reauthorization and its OBBBA Medicaid cuts drove the funding gap",
@@ -2032,15 +2148,25 @@
           "metric": "FY2026 Community Health Center Fund appropriation (short-term, through Dec. 2026)",
           "value": "$4.6 billion",
           "source": "2026 Consolidated Appropriations Act, Feb. 3, 2026"
+        },
+        {
+          "metric": "Share of HRSA's ~2,700-person workforce lost, Feb.-Aug. 2025",
+          "value": "~25%",
+          "source": "KFF Health News, August 2025"
+        },
+        {
+          "metric": "Staff cut specifically at HRSA's Bureau of Primary Health Care (oversees the Health Center Program)",
+          "value": "~40%",
+          "source": "Reporting reviewed, citing DOGE workforce data"
         }
       ],
       "caveat": "The 1-in-4-centers-at-risk figure and the $32 billion revenue-loss estimate are projections from health-center advocacy and research organizations (NACHC, Commonwealth Fund), not government audits -- directionally consistent across multiple independent analyses reviewed, but not independently verified government figures. Confirmed, named closures found in sourcing reviewed (rural New Hampshire, a Des Moines clinic) are illustrative rather than a comprehensive national closure count."
     },
     "confidence_note": "HIGH confidence for the funding-mechanism timeline (grant freeze, Community Health Center Fund lapse and extensions, OBBBA Medicaid provisions) -- corroborated across KFF Health News, CBS News, PBS NewsHour, Stateline, and Nebraska Examiner reporting, plus the Consolidated Appropriations Act's own text for the funding-extension dates. MODERATE confidence on the precise scale of resulting closures, since sourcing reviewed names only isolated examples rather than a comprehensive national tally.",
-    "last_verified": "2026-08-10",
+    "last_verified": "2026-08-14",
     "date_added": "2026-08-10",
     "section_summaries": {
-      "what_changed": "Community health centers serving 32-34M patients faced a 2025 grant-payment freeze, a lapsed Community Health Center Fund (only short-term extensions since), and OBBBA Medicaid cuts projected at $32B over 5 years -- with real closures/layoffs already occurring.",
+      "what_changed": "Community health centers serving 32-34M patients faced a 2025 grant-payment freeze -- worsened by HRSA itself losing a quarter of its staff (40% at the office overseeing the Health Center Program) -- a lapsed Community Health Center Fund (only short-term extensions since), and OBBBA Medicaid cuts projected at $32B over 5 years, with real closures/layoffs already occurring.",
       "estimated_impact": "A safety-net system serving 1 in 10 Americans faces compounding funding threats; advocates project 1 in 4 centers at risk within two years, though that figure is a projection, not a government audit.",
       "confidence_note": "Strongly corroborated for the funding timeline across multiple health-policy outlets; closure-scale figures are advocacy projections, not audited counts."
     },
@@ -2068,6 +2194,10 @@
       {
         "name": "CBS News -- Health centers face risks as government funding lapses",
         "url": "https://www.cbsnews.com/news/health-centers-government-funding-lapses/"
+      },
+      {
+        "name": "KFF Health News -- Deep Staff Cuts at a Little-Known Federal Agency Pose Trouble for Droves of Local Health Programs",
+        "url": "https://kffhealthnews.org/health-industry/hrsa-federal-staff-cuts-affect-health-programs-grants/"
       }
     ]
   },
@@ -7390,6 +7520,69 @@
     }
   },
   {
+    "id": "hhs-cdc-doge-grant-approval-delays-2025",
+    "title": "DOGE Bureaucratic Review Requirements Left HHS With a $1 Billion-Plus Grant Backlog, Then Left CDC Grants Frozen Under Monthly OMB Apportionment Review -- With Only Half of Laid-Off Local Health Staff Ever Rehired",
+    "institution": "HHS (Administration for Children and Families) and CDC, under DOGE/OMB review requirements",
+    "domain": "funding_redirection",
+    "status": "Both delays were eventually resolved with funds released -- ACF's backlog reported ongoing as of July 2025 with no confirmed full resolution in sourcing reviewed; the CDC-specific August 2025 freeze was resolved with roughly $200 million released about a month later",
+    "date_of_action": "2025-07-11 (HHS/ACF billion-dollar backlog reported) and 2025-07-28/08-28 (CDC-specific grant freeze reported and substantially resolved)",
+    "what_changed": "Two related but distinct DOGE-driven bureaucratic bottlenecks disrupted already-congressionally-appropriated HHS health funding in mid-to-late 2025. First, CBS News reported on July 11, 2025 that HHS faced a grant backlog that had swelled to more than $1 billion because of new bureaucratic hurdles imposed by DOGE, with multiple HHS officials (speaking without authorization) blaming the hoops for stalling grants that needed to be awarded by the September fiscal-year-end deadline; the usual months-long application window was at risk of being compressed to as little as two weeks to meet the deadline. The backlog was compounded by staffing losses: around half of the Administration for Children and Families' grants-management staff had been laid off or left, and laid-off staff had to be asked to return to help process the backlog. Second, and separately, starting around July 2025 the White House Office of Management and Budget, under Director Russ Vought, began apportioning CDC's appropriated funds on a month-by-month basis rather than in standard tranches, requiring DOGE review of every individual grant award before release. This froze tens of millions of dollars in CDC funding for public health emergency preparedness, chronic disease prevention and education, academic prevention research centers, gun violence research, and tobacco-use programs, leaving state and local health departments uncertain whether or when they would receive money Congress had already appropriated; activities including training hospital staff and first responders for disaster preparedness were put on hold. OMB approved the CDC's held-up spending plans by late August 2025, releasing at least $200 million for youth violence prevention, gun injury prevention research, public health emergency preparedness, tobacco research, and chronic disease research -- but local health departments that had already laid off staff during the funding uncertainty reported they could only rehire about half of those workers even after funding was restored.",
+    "primary_proponent": {
+      "name": "Russ Vought (OMB) and DOGE",
+      "role": "Director, Office of Management and Budget",
+      "note": "Vought's OMB directed the shift to monthly CDC apportionments requiring DOGE review of individual grant awards; the separate HHS/ACF billion-dollar backlog was attributed by HHS officials to DOGE-imposed bureaucratic hurdles and ACF grants-management staffing losses, without a single named individual identified for that specific action in sourcing reviewed."
+    },
+    "estimated_impact": {
+      "summary": "Two overlapping DOGE-related bureaucratic chokepoints delayed well over a billion dollars in already-appropriated HHS and CDC health funding through mid-to-late 2025, disrupting grant cycles for children's/family services and freezing tens of millions in CDC public-health, disaster-preparedness, and disease-prevention funding; even after CDC funds were substantially released, local health departments could only rehire about half of the staff they had laid off during the uncertainty -- a lasting workforce loss the funding restoration did not reverse.",
+      "figures": [
+        {
+          "metric": "HHS-wide grant backlog attributed to DOGE hurdles",
+          "value": "$1,000,000,000+",
+          "source": "CBS News, July 11, 2025"
+        },
+        {
+          "metric": "Share of ACF's grants-management staff laid off or departed",
+          "value": "~50%",
+          "source": "CBS News, July 11, 2025, citing HHS officials"
+        },
+        {
+          "metric": "CDC funding released after the August 2025 OMB apportionment freeze was resolved",
+          "value": "$200,000,000+ across youth/gun violence prevention, emergency preparedness, tobacco and chronic disease research",
+          "source": "Reporting reviewed, late August 2025"
+        },
+        {
+          "metric": "Share of laid-off local health department staff rehired after CDC funding was restored",
+          "value": "~50%",
+          "source": "Reporting reviewed"
+        }
+      ],
+      "caveat": "These are two related but mechanistically distinct delays (ACF grants-management staffing shortfall vs. OMB's monthly DOGE-review apportionment gate for CDC specifically), documented together here because both stem from the same broader 2025 DOGE bureaucratic-review regime applied to HHS grantmaking; sourcing reviewed does not confirm whether the ACF-wide $1 billion backlog was itself ever fully resolved, only that the narrower CDC-specific August freeze was."
+    },
+    "confidence_note": "HIGH confidence on both threads -- the HHS/ACF backlog is corroborated by CBS News's July 2025 reporting citing multiple HHS officials; the CDC-specific OMB apportionment freeze and its resolution are corroborated across The Hill and related reporting on the roughly $200 million release and the local-department rehiring shortfall.",
+    "section_summaries": {
+      "what_changed": "DOGE-imposed review requirements first left HHS with a $1B+ grant backlog (tied partly to ACF losing half its grants-management staff), then separately froze tens of millions in CDC funding under a new monthly OMB apportionment-review gate, before roughly $200M was released about a month later.",
+      "estimated_impact": "Well over a billion dollars in appropriated health funding was delayed across two overlapping bottlenecks; even after CDC funds were restored, local health departments only rehired about half the staff they'd laid off in the interim -- a lasting loss.",
+      "confidence_note": "Both threads well-corroborated across multiple outlets, though it isn't confirmed whether the broader ACF backlog was ever fully resolved."
+    },
+    "last_verified": "2026-08-14",
+    "date_added": "2026-08-14",
+    "sources": [
+      {
+        "name": "CBS News -- HHS facing billion-dollar backlog of delayed grants after DOGE",
+        "url": "https://www.cbsnews.com/news/hhs-facing-billion-dollar-backlog-of-delayed-grants-after-doge/"
+      },
+      {
+        "name": "The Hill -- Uncertainty grips health departments over CDC funding",
+        "url": "https://thehill.com/policy/healthcare/5460425-uncertainty-cdc-grants-local-health/"
+      },
+      {
+        "name": "The Hill -- White House restores stalled CDC research funds",
+        "url": "https://thehill.com/policy/healthcare/5463937-white-house-restores-stalled-cdc-research-funds/"
+      }
+    ],
+    "last_updated": "2026-08-14"
+  },
+  {
     "id": "hhs-early-2025-workforce-purge-hiv-office-elimination",
     "title": "HHS Purged 5,200 Probationary Staff, Offered $25,000 Buyouts Agency-Wide, and Eliminated Its Entire HIV/AIDS and Infectious Disease Policy Office",
     "institution": "Department of Health and Human Services (HHS)",
@@ -9401,6 +9594,50 @@
     "last_updated": "2026-08-11"
   },
   {
+    "id": "native-american-health-programs-cut-2025",
+    "title": "Tribes Lost Over $6 Million in Non-IHS Federal Health Grants and Technical Support Staff Despite RFK Jr.'s Promise to Protect Native American Health Funding",
+    "institution": "HHS agencies outside the Indian Health Service (CDC, HRSA, and others)",
+    "domain": "funding_redirection",
+    "status": "Ongoing as of June 2025 reporting -- no reversal identified in sourcing reviewed",
+    "date_of_action": "2025-02 through 2025-06 (cumulative grant cancellations and staffing losses reported)",
+    "what_changed": "Despite HHS Secretary Robert F. Kennedy Jr.'s stated commitment to protect Native American health funding by shielding the Indian Health Service (IHS) itself from cuts, tribes reported losing more than $6 million in grants from other HHS agencies -- funding that paid for community health workers, vaccinations, data modernization, and other public health efforts -- according to a May 2025 letter from the National Indian Health Board to Kennedy. The administration canceled funding for programs it classified as violating Trump's ban on diversity, equity, and inclusion initiatives, including a program supporting Native American youth interested in science and medicine careers and a program helping several tribes increase access to healthy food. Tribal health officials also reported that federal staffing cuts across HHS agencies made it substantially harder to get technical support and administer federally funded health projects, in some cases because specific staffers tribes had worked with directly were fired. Tribal leaders highlighted the contradiction between the administration's stated chronic-disease-prevention priority and its funding cuts, with one official noting it was 'very confusing to say chronic disease prevention is the No. 1 priority and then to eradicate the support needed to address chronic disease prevention in Indian Country.'",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services",
+      "note": "Publicly promised to protect Native American health funding by shielding IHS from HHS-wide cuts, while cuts to non-IHS HHS agencies serving the same tribal communities proceeded; no single official was identified in reporting as directing each individual non-IHS grant cancellation."
+    },
+    "estimated_impact": {
+      "summary": "Tribes lost over $6 million in HHS grants outside the Indian Health Service, plus DEI-flagged program cancellations and technical-support staffing losses, undercutting the administration's own stated promise to protect Native American health funding and directly contradicting its stated chronic-disease-prevention priority.",
+      "figures": [
+        {
+          "metric": "Grant funding lost by tribes from non-IHS HHS agencies",
+          "value": "$6,000,000+",
+          "source": "National Indian Health Board letter to HHS Secretary Kennedy, May 2025"
+        }
+      ],
+      "caveat": "The $6 million figure is the National Indian Health Board's own tally as presented to HHS in its letter, not an independent government audit; it also predates and does not include any subsequent cuts after May 2025 that may not be reflected in reporting reviewed."
+    },
+    "confidence_note": "HIGH confidence -- corroborated across KFF Health News, CBS News, and multiple regional outlet syndications of the same original reporting, including direct quotes from tribal health officials and the National Indian Health Board's letter.",
+    "section_summaries": {
+      "what_changed": "Despite RFK Jr.'s promise to shield Indian Health Service funding, tribes lost over $6 million in grants from other HHS agencies plus DEI-flagged program cancellations and technical-support staff, undercutting the administration's own stated protections.",
+      "estimated_impact": "Real dollar losses and staffing gaps hit tribal community health worker programs, vaccination efforts, and chronic-disease prevention -- directly contradicting the administration's stated priorities.",
+      "confidence_note": "Well-corroborated across multiple outlets citing the same National Indian Health Board letter and tribal officials' on-record statements."
+    },
+    "last_verified": "2026-08-14",
+    "date_added": "2026-08-14",
+    "sources": [
+      {
+        "name": "KFF Health News -- Native Americans Hurt by Federal Health Cuts, Despite RFK Jr.'s Promises of Protection",
+        "url": "https://kffhealthnews.org/news/article/native-americans-federal-health-cuts-rfk-jr-promise-indian-health-service/"
+      },
+      {
+        "name": "CBS News -- RFK Jr. is struggling to keep his promise to protect Native Americans from health cuts",
+        "url": "https://www.cbsnews.com/news/rfk-jr-native-americans-health-cuts/"
+      }
+    ],
+    "last_updated": "2026-08-14"
+  },
+  {
     "id": "ncar-supercomputer-removal-2026",
     "title": "Trump Administration Moves to Remove Supercomputers From NCAR, Disrupting Weather and Climate Research for 1,500+ Scientists",
     "institution": "National Science Foundation / National Center for Atmospheric Research (NCAR)",
@@ -10162,6 +10399,77 @@
         "url": "https://www.cspi.org/case/nih-grants-termination"
       }
     ]
+  },
+  {
+    "id": "ninds-lab-heads-coding-error-rif-2025",
+    "title": "NIH Fired 11 of Its Most Senior Neuroscience Lab Heads -- Including a Breakthrough Prize Winner -- in a Reduction-in-Force Attributed to a 'Coding Error,' Kept Them Terminated for Seven Weeks While RFK Jr. Told Congress No Scientists Had Been Fired",
+    "institution": "National Institute of Neurological Disorders and Stroke (NIH/HHS)",
+    "domain": "staff_office_cuts",
+    "status": "Reversed -- HHS formally revoked all 30 reduction-in-force notices on May 21, 2025, before the June 2, 2025 termination date took effect",
+    "date_of_action": "2025-04-01/02 (RIF notices issued) through 2025-05-21 (formal revocation)",
+    "what_changed": "On April 1-2, 2025, as part of the Trump administration's broader HHS-wide reduction in force under Secretary Robert F. Kennedy Jr., 30 employees at the National Institute of Neurological Disorders and Stroke (NINDS) received reduction-in-force (RIF) notices, including 11 of the institute's most senior lab heads and distinguished investigators: Richard Youle, Miguel Holmgren, Steve Jacobson, Dorian McGavern, Joseph Mindell, Katherine Roche, Zu-Hang Sheng, David R. Sibley, Kenton Swartz, Susan Wray, and Ling-Gang Wu, plus senior associate scientist Silvina Horowitz. Youle, at NIH since 1978 and winner of the $3 million 2021 Breakthrough Prize in Life Sciences for identifying a cellular mechanism behind Parkinson's disease, was among those terminated. NIH and HHS officials later attributed the firings to a 'coding error' in the RIF process that swept up senior investigators who were not supposed to be included. Despite verbal reassurances from NIH leadership, including Director Jay Bhattacharya, that the layoffs would be rescinded, the RIF notices remained formally in effect for seven weeks. On May 14, 2025, testifying before the Senate health committee, Kennedy stated, 'As far as I know, we have not fired any working scientists... our policy was to make sure none of them were lost and that that research continues' -- a claim contradicted by the NINDS scientists' still-active termination notices at the time he made it. HHS did not formally revoke the RIF notices until May 21, 2025, via email, days before the scheduled June 2 termination date. The 11 affected labs employed roughly 100 total staff, described by reporting as mainly young trainees whose research and career trajectories were disrupted during the seven-week uncertainty. After news of his firing broke, Youle received four outside job offers, three of them from institutions abroad.",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services",
+      "note": "Directed the broader HHS-wide reduction in force that swept up the NINDS lab heads, and personally told the Senate health committee on May 14, 2025 that no working scientists had been fired while the NINDS RIF notices remained formally active."
+    },
+    "estimated_impact": {
+      "summary": "Eleven of NIH's most senior neuroscience investigators, including a Breakthrough Prize-winning Parkinson's researcher, were formally terminated for seven weeks due to an error in the administration's mass layoff process; roughly 100 lab staff, mostly young trainees, had their research and careers disrupted, and at least one senior investigator was recruited abroad as a direct result.",
+      "figures": [
+        {
+          "metric": "NINDS employees issued RIF notices",
+          "value": "30, including 11 lab heads/distinguished investigators",
+          "source": "The Transmitter, May 2025"
+        },
+        {
+          "metric": "Total staff across the 11 affected labs",
+          "value": "~100, mainly young trainees",
+          "source": "CBS News, May 2025"
+        },
+        {
+          "metric": "Days the RIF notices remained formally active",
+          "value": "~50 days (April 1/2 to May 21, 2025)",
+          "source": "The Transmitter, May 2025"
+        },
+        {
+          "metric": "Outside job offers received by Richard Youle after his firing became public",
+          "value": "4 (3 from institutions outside the U.S.)",
+          "source": "Reporting reviewed"
+        }
+      ],
+      "caveat": "The RIF notices were ultimately revoked and no NINDS lab head was actually terminated on the June 2 deadline -- this is documented here as an attempted, later-reversed action with real seven-week disruption, not as permanent job loss. HHS's characterization of the firings as a 'coding error' rather than a deliberate targeting of these specific scientists is the administration's own explanation and is presented as such, not verified independently."
+    },
+    "confidence_note": "HIGH confidence on the core timeline -- the April RIF notices, the 11 named lab heads, Kennedy's May 14 Senate testimony, and the May 21 formal revocation are corroborated across Science/AAAS, The Transmitter, and CBS News. The 'coding error' explanation is HHS's own stated account, not independently verified.",
+    "section_summaries": {
+      "what_changed": "A 'coding error' in HHS's mass RIF process erroneously fired 11 of NIH's most senior neuroscience lab heads, including a Breakthrough Prize-winning Parkinson's researcher; the notices stayed formally active for seven weeks, through and past Kennedy's Senate testimony denying any working scientists had been fired, before being revoked.",
+      "estimated_impact": "About 100 lab staff, mostly trainees, had research and careers disrupted for seven weeks, and the affected Parkinson's researcher fielded job offers from abroad -- a concrete instance of the broader U.S. scientist brain-drain this database tracks elsewhere.",
+      "confidence_note": "Core timeline well-corroborated across multiple science-press and general-news outlets; the 'coding error' framing is HHS's own account."
+    },
+    "last_verified": "2026-08-14",
+    "date_added": "2026-08-14",
+    "sources": [
+      {
+        "name": "Wired -- Trump Administration Fired a Doctor Who Made a Breakthrough Parkinson's Discovery",
+        "url": "https://www.wired.com/story/doctor-breakthrough-parkinsons-research-nih-purge/"
+      },
+      {
+        "name": "Science/AAAS -- After 'coding error' triggers firings, top NIH scientists called back to work",
+        "url": "https://www.science.org/content/article/after-coding-error-triggers-firings-top-nih-scientists-called-back-work"
+      },
+      {
+        "name": "CBS News -- RFK Jr. told Congress no working scientists were fired, but these top NIH brain scientists are still facing job cuts",
+        "url": "https://www.cbsnews.com/news/rfk-jr-claims-no-working-scientists-fired-nih-cuts/"
+      },
+      {
+        "name": "The Transmitter -- Exclusive: Layoffs revoked at U.S. National Institute of Neurological Disorders and Stroke",
+        "url": "https://www.thetransmitter.org/science-and-society/exclusive-layoffs-revoked-at-u-s-national-institute-of-neurological-disorders-and-stroke/"
+      },
+      {
+        "name": "The Transmitter -- U.S. health agency purge includes 10 lab heads at National Institute of Neurological Disorders and Stroke",
+        "url": "https://www.thetransmitter.org/science-and-society/u-s-health-agency-purge-includes-10-lab-heads-at-national-institute-of-neurological-disorders-and-stroke/"
+      }
+    ],
+    "last_updated": "2026-08-14"
   },
   {
     "id": "niosh-workforce-safety-research-gutted-2025",
@@ -12649,6 +12957,68 @@
       }
     ],
     "last_updated": "2026-08-13"
+  },
+  {
+    "id": "princeton-research-funding-suspension-2025",
+    "title": "Trump Administration Suspended $210 Million in Princeton Research Grants Without Ever Stating a Clear Rationale -- the Fourth Ivy League School Hit by Federal Funding Halts",
+    "institution": "Princeton University (multiple federal agencies: Department of Energy, NASA, Department of Defense, and others)",
+    "domain": "research_suppression",
+    "status": "Partially reversed -- about half the suspended grants and funding restored by August 2025, per Princeton's president; no confirmation of any negotiated agreement behind the restoration, and no rationale for either the original suspension or the partial restoration was ever formally communicated to the university",
+    "date_of_action": "2025-04-01 (suspension first reported) through 2025-08 (partial restoration reported)",
+    "what_changed": "On April 1, 2025, Princeton University disclosed that multiple federal agencies -- including the Department of Energy, NASA, and the Department of Defense -- had suspended several dozen federal research grants worth approximately $210 million, making Princeton the fourth Ivy League school to have federal funding halted or cut since the start of the Trump administration, following Columbia ($400 million canceled over antisemitism allegations), the University of Pennsylvania ($175 million paused), and Harvard (more than $9 billion in contracts and grants placed under review). Unlike the Columbia and Penn actions, which were explicitly tied to antisemitism-related demands, Princeton President Christopher Eisgruber said the administration never provided the university a clear rationale for the suspensions; he noted press reports attributed the action to an antisemitism investigation but said Princeton received no official confirmation of that connection. By August 2025, Eisgruber told the Princeton Alumni Weekly that roughly half the suspended grants and funding had been restored, again with no explanation offered and, as he clarified in a September interview with The Daily Princetonian, no negotiated deal or agreement between Princeton and the federal government behind the partial restoration. Separately, in October 2025, the administration's parallel effort to condition preferential federal funding on ideological compliance -- the Department of Education's 'Compact for Academic Excellence in Higher Education,' offered to nine universities including MIT, Penn, Brown, Dartmouth, and others -- collapsed after every university that publicly responded (starting with MIT on October 10) rejected it (see white-house-higher-ed-compact-collapse-2025.json).",
+    "primary_proponent": {
+      "name": "Trump administration (multiple federal agencies)",
+      "role": "Department of Energy, NASA, Department of Defense, and other federal grant-making agencies",
+      "note": "No single named official was identified in reporting reviewed as personally directing the Princeton suspensions, and no agency provided the university a formal stated rationale -- flagged as agency-level and unexplained, distinct from the explicit antisemitism-demand rationale given in the Columbia and Penn actions documented elsewhere in this tracker."
+    },
+    "estimated_impact": {
+      "summary": "Princeton lost access to roughly $210 million in active federal research funding across multiple agencies for several months with no stated reason, disrupting research programs university-wide before about half the funding was restored -- again without explanation -- making Princeton one of at least four Ivy League universities to have federal research funding suspended or cut in 2025 without the due-process rationale typically required before withholding awarded federal grants.",
+      "figures": [
+        {
+          "metric": "Federal research funding suspended at Princeton",
+          "value": "~$210,000,000 across several dozen grants",
+          "source": "Reporting reviewed (April 2025)"
+        },
+        {
+          "metric": "Share of suspended funding restored by August 2025",
+          "value": "~50%, per Princeton President Eisgruber",
+          "source": "Princeton Alumni Weekly, August 2025"
+        },
+        {
+          "metric": "Ivy League universities with federal funding halted or cut as of April 2025",
+          "value": "4 (Columbia, Penn, Harvard, Princeton)",
+          "source": "Reporting reviewed"
+        }
+      ],
+      "caveat": "Unlike the Columbia and Penn entries elsewhere in this tracker, no administration official or agency ever stated a rationale for the Princeton suspensions in reporting reviewed -- Eisgruber explicitly said Princeton received no official confirmation connecting the action to an antisemitism investigation despite media attribution to one. The connection to that investigation is therefore presented as unconfirmed, not established."
+    },
+    "confidence_note": "HIGH confidence on the core suspension and restoration facts and dollar figures, corroborated across CNN, the Chronicle of Higher Education, Princeton Alumni Weekly, and The Daily Princetonian (Princeton's own student paper, with direct access to Eisgruber's statements). The absence of a stated rationale is Eisgruber's own account and is presented as such.",
+    "section_summaries": {
+      "what_changed": "Multiple federal agencies suspended $210 million in Princeton research funding in April 2025 with no rationale ever given, making Princeton the fourth Ivy League school hit; about half was quietly restored by August, again unexplained.",
+      "estimated_impact": "Research across multiple federal agencies' Princeton grants was disrupted for months; Princeton joins Columbia, Penn, and Harvard as Ivy League schools losing federal funding in 2025, in a pattern the university says came with no due-process explanation.",
+      "confidence_note": "Suspension and restoration facts well-corroborated including via Princeton's own reporting; the lack of a stated rationale is the university president's own account."
+    },
+    "last_verified": "2026-08-14",
+    "date_added": "2026-08-14",
+    "sources": [
+      {
+        "name": "CNN -- Trump administration suspends dozens of research grants to Princeton",
+        "url": "https://www.cnn.com/2025/04/01/us/princeton-research-grants-suspended-trump"
+      },
+      {
+        "name": "The Chronicle of Higher Education -- Nearly Half of Princeton U.'s Federal Funding Has Reportedly Been Frozen by the Trump Administration",
+        "url": "https://www.chronicle.com/article/nearly-half-of-princeton-u-s-federal-funding-has-reportedly-been-frozen-by-the-trump-administration"
+      },
+      {
+        "name": "Princeton Alumni Weekly -- Government Restores Half of Suspended Research Grants to Princeton",
+        "url": "https://paw.princeton.edu/article/government-restores-half-suspended-research-grants-princeton"
+      },
+      {
+        "name": "The Daily Princetonian -- No deal linked to reinstated research grants, Eisgruber says",
+        "url": "https://www.dailyprincetonian.com/article/2025/09/princeton-news-adpol-eisgruber-interview-reinstated-research-grants-no-deal-federal-government"
+      }
+    ],
+    "last_updated": "2026-08-14"
   },
   {
     "id": "rfk-allies-state-vaccine-mandate-repeal-2026",
@@ -16294,6 +16664,68 @@
       }
     ],
     "last_updated": "2026-07-27"
+  },
+  {
+    "id": "white-house-higher-ed-compact-collapse-2025",
+    "title": "White House Offered Universities Preferential Federal Funding in Exchange for Government-Dictated Admissions, Hiring, and Speech Policies -- Every University That Responded Publicly Rejected It",
+    "institution": "Department of Education / White House (offered to nine universities, later opened to all U.S. higher education)",
+    "domain": "funding_redirection",
+    "status": "Collapsed -- every university that publicly responded rejected the compact; no institution is known to have signed as of this entry",
+    "date_of_action": "2025-10-01 (compact sent to nine universities) through 2025-10-20 (feedback deadline; White House opens compact to all of higher ed after first rejections)",
+    "what_changed": "On October 1, 2025, the Department of Education sent a nine-page document titled the 'Compact for Academic Excellence in Higher Education' to nine universities -- MIT, the University of Pennsylvania, the University of Virginia, the University of Arizona, the University of Texas at Austin, the University of Southern California, Vanderbilt, Dartmouth, and Brown -- offering preferential access to federal funding in exchange for the university formally committing to a ten-point policy platform set by the federal government: eliminating consideration of sex, race, ethnicity, national origin, political views, sexual orientation, gender identity, and religious affiliation in both admissions and hiring; requiring standardized SAT/ACT testing; capping foreign undergraduate enrollment at 15% overall and 5% per country; abolishing campus units the compact described as ones that 'punish, belittle, and spark violence against conservative ideas'; mandating institutional neutrality with employees barred from official-capacity political speech; requiring single-sex bathrooms and locker rooms and defining gender by 'reproductive function and biological processes'; committing to 'grade integrity' without inflation or deflation for non-academic reasons; providing free tuition for hard-science students at universities with per-undergraduate endowments over $2 million; and disclosing all foreign funding. Universities were given until October 20, 2025 to respond. MIT became the first to publicly reject the compact, on October 10, 2025, with its president stating that federal funding decisions 'should be based on scientific merit alone.' The White House responded by opening the compact to all U.S. higher-education institutions rather than limiting it to the original nine. Brown rejected it on October 15 and Penn on October 16, both citing threats to academic freedom and institutional autonomy -- Brown's president, Christina Paxson, said the compact 'by its nature and by various provisions would restrict academic freedom and undermine the autonomy of Brown's governance.' By mid-to-late October, USC, Dartmouth, UVA, and the University of Arizona had also declined; Vanderbilt provided feedback by the October 20 deadline without formally accepting or rejecting; Texas had not issued a public decision as of the reporting reviewed. No university is known to have signed the compact.",
+    "primary_proponent": {
+      "name": "Trump administration / U.S. Department of Education",
+      "role": "Drafted and distributed the compact; White House expanded its offer to all higher-education institutions after the first rejections",
+      "note": "No single named individual author of the compact was identified in reporting reviewed; presented as a coordinated Department of Education / White House initiative."
+    },
+    "estimated_impact": {
+      "summary": "The administration attempted to formally condition preferential federal research and student-aid funding on universities adopting a detailed, government-authored policy platform covering admissions, hiring, campus speech, and gender policy -- a direct attempt to leverage federal funding as ideological leverage over independent institutions -- but every university that responded publicly rejected the terms, and no institution is known to have signed, so no funding was actually redirected as a result of the compact itself.",
+      "figures": [
+        {
+          "metric": "Universities initially offered the compact",
+          "value": "9 (MIT, Penn, UVA, Arizona, UT Austin, USC, Vanderbilt, Dartmouth, Brown)",
+          "source": "Reporting reviewed, October 2025"
+        },
+        {
+          "metric": "Universities publicly rejecting the compact as of reporting reviewed",
+          "value": "7 of the original 9 (MIT, Brown, Penn, USC, Dartmouth, UVA, Arizona)",
+          "source": "CNN, October 2025"
+        },
+        {
+          "metric": "Days between the compact's distribution and MIT's public rejection",
+          "value": "9 (Oct. 1 to Oct. 10, 2025)",
+          "source": "Reporting reviewed"
+        }
+      ],
+      "caveat": "Because every university that responded publicly rejected the compact and no institution signed, this entry documents an attempted policy action that did not succeed in redirecting any actual funding -- it is included as a real, formally transmitted federal proposal (not an outside group's petition or informal recommendation) explicitly conditioning federal funding on government-dictated institutional policy, which is itself the accountability-relevant fact, independent of whether it succeeded."
+    },
+    "confidence_note": "HIGH confidence -- the compact's text, distribution list, and the sequence of public rejections are corroborated across CNN, Time, Inside Higher Ed, Higher Ed Dive, PEN America, and legal analysis from the Steptoe law firm. No university's acceptance was identified in any source reviewed.",
+    "section_summaries": {
+      "what_changed": "The Department of Education offered nine universities preferential federal funding in exchange for adopting a detailed government-dictated policy platform on admissions, hiring, and campus speech; MIT rejected it first, six more universities followed within days, and no institution signed.",
+      "estimated_impact": "No funding was actually redirected since every public respondent rejected the terms, but the attempt itself -- formally conditioning federal research funding on ideological compliance -- is the documented action.",
+      "confidence_note": "Well-corroborated across multiple outlets and legal analysis; no acceptance by any university was found in sourcing reviewed."
+    },
+    "last_verified": "2026-08-14",
+    "date_added": "2026-08-14",
+    "sources": [
+      {
+        "name": "CNN -- UVA, Dartmouth, Brown, Penn, USC, Arizona and MIT decline White House funding compact",
+        "url": "https://www.cnn.com/2025/10/16/us/trump-universities-compact-funding"
+      },
+      {
+        "name": "Time -- What to Know About Trump's Funding 'Compact' for Colleges",
+        "url": "https://time.com/7325448/trump-higher-education-universities-compact-dei-gender-academic-federal-funding/"
+      },
+      {
+        "name": "Inside Higher Ed -- Trump Opens Up Compact to All of Higher Ed. Now What?",
+        "url": "https://www.insidehighered.com/news/government/2025/10/15/trump-opens-compact-all-higher-ed-now-what"
+      },
+      {
+        "name": "Steptoe -- White House Looks to Seize Control of Higher Education Policy Through 'Compact for Academic Excellence in Higher Education'",
+        "url": "https://www.steptoe.com/en/news-publications/white-house-looks-to-seize-control-of-higher-education-policy-through-compact-for-academic-excellence-in-higher-education.html"
+      }
+    ],
+    "last_updated": "2026-08-14"
   },
   {
     "id": "white-house-iran-threat-intel-downplayed-2026",
