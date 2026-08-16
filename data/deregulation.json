@@ -500,13 +500,13 @@
       ],
       "caveat": "The February 2026 deadline-extension rule is finalized; the broader April 2026 proposal to exempt most sites from oversight entirely is still proposed, not finalized (comment period extended to June 29, 2026). Frame the two as separate but related actions -- one enacted, one pending."
     },
-    "confidence_note": "Unusually strong entry: EPA's own final rule text contains a direct admission that the delay 'may increase health risks for children,' which is about as close to an admission-against-interest as this tracker contains. Excellent for debate use precisely because it's not an outside estimate. [Rechecked 2026-07-06: no material change to the finalized Feb 10, 2026 deadline extension. The broader April 9, 2026 weakening proposal remains pending, not finalized -- its comment period has been extended/reopened at least once since (through late June 2026 per EELP tracker).] Re-verified 2026-07-18: no material change -- the April 9, 2026 broader exemption proposal remains pending (comment period reopened through June 29, 2026 per EPA's own docket), not finalized; litigation is expected regardless of outcome per legal analysts. Re-verified 2026-07-26: no material change -- the broader April 9, 2026 exemption proposal (comment period reopened through June 29, 2026) remains pending, not finalized.",
+    "confidence_note": "Unusually strong entry: EPA's own final rule text contains a direct admission that the delay 'may increase health risks for children,' which is about as close to an admission-against-interest as this tracker contains. Excellent for debate use precisely because it's not an outside estimate. [Rechecked 2026-07-06: no material change to the finalized Feb 10, 2026 deadline extension. The broader April 9, 2026 weakening proposal remains pending, not finalized -- its comment period has been extended/reopened at least once since (through late June 2026 per EELP tracker).] Re-verified 2026-07-18: no material change -- the April 9, 2026 broader exemption proposal remains pending (comment period reopened through June 29, 2026 per EPA's own docket), not finalized; litigation is expected regardless of outcome per legal analysts. Re-verified 2026-07-26: no material change -- the broader April 9, 2026 exemption proposal (comment period reopened through June 29, 2026) remains pending, not finalized. Re-verified 2026-08-16: no material change -- the broader April 9, 2026 exemption proposal (comment period reopened through June 29, 2026) remains pending, not finalized.",
     "section_summaries": {
       "what_changed": "EPA finalized a roughly 3-year delay in coal-ash cleanup and monitoring deadlines, and separately proposed exempting most sites from oversight.",
       "estimated_impact": "EPA's own final rule admits the delay 'may increase health risks for children' from coal-ash toxins like mercury, arsenic, and chromium.",
       "confidence_note": "Unusually strong -- EPA's own rule text admits increased child health risk; the broader exemption proposal remains pending, not finalized."
     },
-    "last_verified": "2026-07-26",
+    "last_verified": "2026-08-16",
     "date_added": "2026-07-03",
     "sources": [
       {
@@ -1215,14 +1215,14 @@
     "administration": "Trump II (2025-present)",
     "agency": "EPA",
     "domain": "environmental",
-    "status": "Proposed Repeal",
-    "date_of_action": "2026-03-17 (proposed) -- comment period subsequently extended to 2026-05",
+    "status": "Delayed/Paused (2-year compliance exemption for 40 facilities, ~45% of the industry, proclaimed July 17, 2025) + Proposed Repeal (broader rescission proposed March 17, 2026, not yet finalized; both actions face litigation)",
+    "date_of_action": "2025-07-17 (proclamation exempting 40 facilities, ~45% of industry, for two years); 2026-03-17 (broader repeal proposed) -- comment period on the broader proposal subsequently extended to 2026-05",
     "original_rule_summary": "A 2024 EPA rule tightened emissions standards for ethylene oxide (EtO) -- a chemical used to sterilize medical equipment and classified as a potent human carcinogen -- at commercial sterilization facilities nationwide. EPA projected the rule would cut annual EtO emissions from these facilities by roughly 90% by 2027, and it required larger sterilizers (those using at least 10 tons of EtO per year) to install stronger emissions-control technology and implement continuous monitoring.",
-    "what_changed": "On March 17, 2026, EPA proposed rescinding significant portions of the 2024 EtO rule. The proposal argues EPA overstepped its legal authority under Clean Air Act Section 112(f)(2) when it performed a new residual-risk review as part of the 2024 rulemaking, and on that basis would rescind the tighter risk-based emissions standards the 2024 rule imposed. The proposal would additionally relax technology-based emissions standards specifically for facilities using at least 10 tons of EtO per year and rescind the requirement that larger chemical sterilizers implement continuous emissions monitoring. AP reported the change would affect dozens of sterilization facilities across the country. EPA extended the public comment period on the proposal into May 2026.",
+    "what_changed": "On March 17, 2026, EPA proposed rescinding significant portions of the 2024 EtO rule. The proposal argues EPA overstepped its legal authority under Clean Air Act Section 112(f)(2) when it performed a new residual-risk review as part of the 2024 rulemaking, and on that basis would rescind the tighter risk-based emissions standards the 2024 rule imposed. The proposal would additionally relax technology-based emissions standards specifically for facilities using at least 10 tons of EtO per year and rescind the requirement that larger chemical sterilizers implement continuous emissions monitoring. AP reported the change would affect dozens of sterilization facilities across the country. EPA extended the public comment period on the proposal into May 2026. Separately -- and preceding the March 2026 proposed rescission -- President Trump signed Proclamation 10959 on July 17, 2025 (published in the Federal Register July 23, 2025), invoking Clean Air Act Section 112(i)(4) national-security authority to exempt 40 sterilization facilities, roughly 45% of the industry, from the 2024 rule's compliance deadlines for two years. EPA Administrator Lee Zeldin had invited companies to email the agency directly to request exemptions. The Southern Environmental Law Center and NRDC, representing environmental groups in North Carolina, Georgia, and Virginia, sued Trump, EPA, and Zeldin in the U.S. District Court for the District of Columbia (filed late January 2026, per MedTech Dive reporting), arguing the Clean Air Act permits this kind of exemption only when compliance technology is unavailable or genuine national-security interests are at stake -- not as a general deregulatory tool.",
     "primary_proponent": {
-      "name": "U.S. Environmental Protection Agency",
-      "role": "Proposing agency",
-      "note": "Sourcing reviewed did not identify a specific named EPA official (e.g., Administrator) quoted as personally driving this specific rulemaking beyond the agency's own legal-authority rationale in the proposed rule; attributed institutionally pending more specific sourcing."
+      "name": "Lee Zeldin",
+      "role": "EPA Administrator",
+      "note": "Directly tied to the July 2025 exemption action: Zeldin invited companies to email EPA requesting exemptions from the 2024 rule, which fed into the July 17, 2025 presidential proclamation exempting ~45% of the industry. Sourcing reviewed did not separately identify a specific named official driving the March 2026 proposed rescission beyond the agency's own legal-authority rationale in that proposed rule -- the two actions are distinct and this note attributes each accordingly."
     },
     "corporate_beneficiaries": [
       "Commercial sterilization facility operators subject to the 2024 rule's technology and monitoring requirements (not further individually named in sourcing reviewed)"
@@ -1234,13 +1234,18 @@
           "metric": "Projected annual EtO emissions reduction from commercial sterilizers under the 2024 rule (now at risk)",
           "value": "~90% by 2027",
           "source": "EPA's own 2024 rule impact projection, cited by AP News"
+        },
+        {
+          "metric": "Sterilization facilities exempted by the July 2025 proclamation",
+          "value": "40 facilities (~45% of the commercial sterilization industry)",
+          "source": "Presidential Proclamation 10959, Federal Register (2025-07-23), corroborated by Earthjustice and MedTech Dive"
         }
       ],
       "caveat": "The 90% figure is EPA's own projection for the 2024 rule taking full effect, not an independently modeled estimate of the rollback's specific incremental health cost; no independent quantified estimate of premature mortalities or cancer cases specifically attributable to this rollback proposal was identified in sourcing reviewed."
     },
-    "confidence_note": "HIGH confidence on the regulatory facts -- the 2024 rule's terms, the March 17, 2026 proposed rollback, its stated legal-authority rationale, and the extended comment period are all corroborated across AP News, the Federal Register notice itself, the Harvard Environmental and Energy Law Program's rule tracker, and SBA Office of Advocacy summaries. MODERATE confidence on the health-impact framing, since the 90% figure is EPA's own original projection for the rule being rolled back, not an independent estimate of this specific proposal's incremental harm, and this entry does not have an independently-sourced named individual driving the rollback -- present the health impact and proponent framing accordingly.",
+    "confidence_note": "HIGH confidence on the regulatory facts -- the 2024 rule's terms, the March 17, 2026 proposed rollback, its stated legal-authority rationale, and the extended comment period are all corroborated across AP News, the Federal Register notice itself, the Harvard Environmental and Energy Law Program's rule tracker, and SBA Office of Advocacy summaries. Re-verified 2026-08-16: found and added a materially earlier, separate rollback action -- the July 17, 2025 presidential proclamation (Proclamation 10959, primary-sourced to the Federal Register) exempting 40 facilities for two years following Zeldin's invitation for exemption requests -- which also resolves this entry's prior gap on a named proponent for at least that action. Also added: pending SELC/NRDC litigation (D.D.C., filed ~late January 2026 per MedTech Dive) challenging the proclamation's legal basis. MODERATE confidence remains on the health-impact framing overall, since the 90% figure is EPA's own original projection for the rule being rolled back, not an independent estimate of either rollback action's specific incremental harm.",
     "short_summary": "EPA proposed rescinding a 2024 rule's ~90% emissions cut for a known carcinogen at sterilization plants.",
-    "last_verified": "2026-08-05",
+    "last_verified": "2026-08-16",
     "date_added": "2026-08-05",
     "sources": [
       {
@@ -1254,8 +1259,25 @@
       {
         "name": "Harvard Environmental & Energy Law Program -- Ethylene Oxide (EtO) Emissions Standards for Commercial Sterilizers tracker",
         "url": "https://eelp.law.harvard.edu/tracker/ethylene-oxide-eto-emissions-standards-for-commercial-sterilizers/"
+      },
+      {
+        "name": "Federal Register -- Proclamation 10959, Regulatory Relief for Certain Stationary Sources To Promote American Security With Respect to Sterile Medical Equipment",
+        "url": "https://www.federalregister.gov/documents/2025/07/23/2025-13924/regulatory-relief-for-certain-stationary-sources-to-promote-american-security-with-respect-to"
+      },
+      {
+        "name": "Earthjustice -- EPA Bows to Corporate Polluters, Abandons Duty to Protect Public from Sterilizers' Ethylene Oxide Emissions",
+        "url": "https://earthjustice.org/press/2026/epa-bows-to-corporate-polluters-abandons-duty-to-protect-public-from-sterilizers-ethylene-oxide-emissions"
+      },
+      {
+        "name": "MedTech Dive -- Lawsuit challenges ethylene oxide exemptions for device sterilizers",
+        "url": "https://www.medtechdive.com/news/lawsuit-challenges-ethylene-oxide-exemptions-for-device-sterilizers/811107/"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "EPA proposed rescinding a 2024 rule's ~90% emissions cut for a known carcinogen at sterilization plants; separately, a July 2025 presidential proclamation already exempted 45% of the industry for two years, and both actions now face litigation.",
+      "estimated_impact": "The 90% figure is EPA's own projection for the full 2024 rule, not an independent estimate of either rollback action's incremental harm; the 2025 proclamation alone already exempted ~45% of the industry for two years.",
+      "confidence_note": "High confidence on content and timeline across both actions, now including a named proponent (Zeldin) for the 2025 exemption and pending litigation challenging it; health-impact figure remains EPA's own original projection, not an independent estimate of either rollback's incremental harm."
+    }
   },
   {
     "id": "epa-ghg-reporting-program-elimination-2025",
@@ -1296,9 +1318,9 @@
       ],
       "caveat": "This is a data-collection/transparency rollback rather than a rule directly permitting higher emissions -- its harm is to monitoring and accountability capacity, not a direct, quantifiable increase in pollution. The $2.4 billion savings figure is EPA's own estimate, not independently verified."
     },
-    "confidence_note": "HIGH confidence on the proposal's content, the bipartisan Senate opposition (Whitehouse/Cramer), and the House Democratic letter (Casten) -- corroborated across ESG Dive, the American Action Forum, the Senate EPW Committee's own press release, Fox News, and the Bipartisan Policy Center. The 2026 status (deadline extension finalized separately, core elimination still pending) is corroborated via Federal Register notices and EHSLeaders trade reporting.",
+    "confidence_note": "HIGH confidence on the proposal's content, the bipartisan Senate opposition (Whitehouse/Cramer), and the House Democratic letter (Casten) -- corroborated across ESG Dive, the American Action Forum, the Senate EPW Committee's own press release, Fox News, and the Bipartisan Policy Center. The 2026 status (deadline extension finalized separately, core elimination still pending) is corroborated via Federal Register notices and EHSLeaders trade reporting. Re-verified 2026-08-16: no material change -- the core elimination proposal remains unfinalized; the February 2026 deadline extension to October 30, 2026 is the only piece EPA has finalized so far.",
     "short_summary": "EPA proposed ending mandatory greenhouse-gas emissions reporting for ~8,000 facilities, drawing rare bipartisan Senate opposition.",
-    "last_verified": "2026-08-11",
+    "last_verified": "2026-08-16",
     "date_added": "2026-08-11",
     "sources": [
       {
@@ -1342,7 +1364,7 @@
     "status": "Proposed Repeal -- rulemaking process underway as of ProPublica's June 2026 reporting",
     "date_of_action": "2026-06 (reporting on the rollback effort)",
     "original_rule_summary": "In 2024, the Biden administration issued the first-ever federal methane emission regulations targeting low-producing 'stripper' wells -- older wells that individually produce little oil or gas but, in aggregate, emit outsized quantities of methane, a highly potent greenhouse gas, relative to their energy output.",
-    "what_changed": "The Trump EPA is engineering a rollback of the 2024 stripper-well methane rules. ProPublica reported the rulemaking effort is being led in significant part by Aaron Szabo, a former lobbyist for Hilcorp -- a privately held oil and gas company owned by Texas billionaire Jeffery Hildebrand -- whom Trump named to a top EPA post. Hilcorp specializes in buying up old, low-producing stripper wells and is one of the industry's largest methane emitters relative to its output. Hildebrand and his wife have donated more than $15 million to Trump and other Republican federal candidates since 2020, giving substantially more after the 2024 methane rule was issued.",
+    "what_changed": "The Trump EPA is engineering a rollback of the 2024 stripper-well methane rules. ProPublica reported the rulemaking effort is being led in significant part by Aaron Szabo, a former lobbyist for Hilcorp -- a privately held oil and gas company owned by Texas billionaire Jeffery Hildebrand -- whom Trump named to a top EPA post. Hilcorp specializes in buying up old, low-producing stripper wells and is one of the industry's largest methane emitters relative to its output. Hildebrand and his wife have donated more than $15 million to Trump and other Republican federal candidates since 2020, giving substantially more after the 2024 methane rule was issued. Separately, per the same June 2026 Source New Mexico reporting, Republican lawmakers have introduced legislation that would permanently exempt stripper wells from EPA methane regulation entirely -- a legislative track running alongside the administrative rollback effort.",
     "primary_proponent": {
       "name": "Aaron Szabo",
       "role": "EPA official; former lobbyist for Hilcorp",
@@ -1352,18 +1374,28 @@
       "Hilcorp (Jeffery Hildebrand, owner) -- specializes in low-producing stripper wells and is one of the industry's largest methane emitters relative to output"
     ],
     "estimated_health_impact": {
-      "summary": "No independent, quantified estimate of methane emissions or climate/health impact from this specific rollback was found in reporting reviewed -- the documented harm at this stage is the removal of the first-ever federal emissions constraint on a well category the rule's primary beneficiary specializes in, engineered in part by that beneficiary's own former lobbyist now inside the agency.",
+      "summary": "No independent, quantified estimate of methane emissions or climate/health impact from this specific rollback was found in reporting reviewed -- the documented harm at this stage is the removal of the first-ever federal emissions constraint on a well category the rule's primary beneficiary specializes in, engineered in part by that beneficiary's own former lobbyist now inside the agency. A Clean Air Task Force analysis of EPA-reported facility data, reported by Source New Mexico in June 2026, quantifies the disparity this rollback would protect: stripper wells produce roughly 6% of US oil and natural gas but account for roughly half of the oil and gas sector's methane emissions, and Hilcorp -- the rule's primary beneficiary -- was found to be the single largest methane emitter in the entire US oil and gas industry, with methane emissions intensity roughly six times the national average.",
       "figures": [
         {
           "metric": "Hildebrand/wife political donations to Trump and Republican candidates since 2020",
           "value": "$15,000,000+",
           "source": "ProPublica, citing FEC filings"
+        },
+        {
+          "metric": "Stripper wells' share of US oil & gas production vs. their share of sector methane emissions",
+          "value": "~6% of production; ~50% of methane emissions",
+          "source": "Clean Air Task Force analysis of EPA-reported data, cited by Source New Mexico (2026-06-22)"
+        },
+        {
+          "metric": "Hilcorp's methane emissions intensity vs. industry",
+          "value": "~6x the national average; #1 methane emitter in the US oil & gas industry",
+          "source": "Clean Air Task Force analysis, cited by Source New Mexico (2026-06-22)"
         }
       ],
-      "caveat": "This entry's strongest evidence is the conflict-of-interest and beneficiary pattern (a former industry lobbyist now leading the agency effort to repeal rules affecting his former client's business model), not yet a quantified emissions or health-impact estimate, since the rule remains in the proposal/rulemaking stage as of this entry's sourcing."
+      "caveat": "This entry's strongest evidence remains the conflict-of-interest and beneficiary pattern (a former industry lobbyist now leading the agency effort to repeal rules affecting his former client's business model). As of the 2026-08-16 recheck, independent reporting now also quantifies the underlying emissions disparity (stripper wells' outsized methane share relative to their production share, and Hilcorp's position as the industry's top methane emitter) via Clean Air Task Force analysis of EPA-reported data -- but this is still a baseline characterization of the well category and company being protected, not an independently modeled estimate of this specific rollback's incremental emissions increase, since the rule remains in the proposal/rulemaking stage."
     },
-    "confidence_note": "Strong sourcing on the rulemaking effort, Szabo's former lobbying role, and Hildebrand/Hilcorp's position as primary beneficiary -- this is ProPublica's own original investigative reporting, corroborated by The Week, WBUR, and independent Alaska-focused reporting (Hilcorp is a major Alaska operator). The donation figures come from FEC filings via ProPublica. As a Proposed Repeal, this entry should be rechecked periodically for finalization status.",
-    "last_verified": "2026-08-05",
+    "confidence_note": "Strong sourcing on the rulemaking effort, Szabo's former lobbying role, and Hildebrand/Hilcorp's position as primary beneficiary -- this is ProPublica's own original investigative reporting, corroborated by The Week, WBUR, and independent Alaska-focused reporting (Hilcorp is a major Alaska operator). The donation figures come from FEC filings via ProPublica. As a Proposed Repeal, this entry should be rechecked periodically for finalization status. Re-verified 2026-08-16: no finalization yet -- rulemaking remains in progress. Added a Clean Air Task Force emissions-disparity analysis (via Source New Mexico, 2026-06-22) that independently corroborates the well-category/company beneficiary framing with quantified figures, and noted a parallel legislative effort to permanently exempt stripper wells. The CATF figures are sourced through secondary reporting rather than the CATF analysis directly -- treat as well-corroborated (consistent with long-standing, independently reported findings on Hilcorp's emissions profile dating to 2021-2022) but not primary-sourced.",
+    "last_verified": "2026-08-16",
     "date_added": "2026-08-05",
     "sources": [
       {
@@ -1377,12 +1409,16 @@
       {
         "name": "WBUR Here & Now -- As Trump cuts climate regulations, this obscure but influential oil company stands to benefit",
         "url": "https://www.wbur.org/hereandnow/2026/06/17/trump-climate-regulations"
+      },
+      {
+        "name": "Source New Mexico -- Trump plans to protect methane-leaking stripper wells. This billionaire donor will benefit.",
+        "url": "https://sourcenm.com/2026/06/22/trump-plans-to-protect-methane-leaking-stripper-wells-this-billionaire-donor-will-benefit/"
       }
     ],
     "short_summary": "EPA is rolling back stripper-well methane rules, led in part by a former lobbyist for the rule's main beneficiary.",
     "section_summaries": {
       "what_changed": "EPA is unwinding 2024 methane rules for low-producing wells, with the effort led in part by a former lobbyist for Hilcorp -- the company that specializes in exactly the well type the rule targeted.",
-      "estimated_impact": "No quantified emissions estimate yet exists; the documented impact so far is the conflict-of-interest pattern and the removal of the first-ever federal constraint on this well category.",
+      "estimated_impact": "A Clean Air Task Force analysis quantifies the disparity: stripper wells are ~6% of US oil and gas production but ~50% of the sector's methane emissions, and Hilcorp is the industry's #1 methane emitter -- corroborating, with figures, the conflict-of-interest pattern already documented.",
       "confidence_note": "Strong: original ProPublica investigative reporting, independently corroborated, with donation figures sourced to FEC filings."
     }
   },
@@ -1490,13 +1526,13 @@
       ],
       "caveat": "EPA's stated rationale is that RMP-reportable accidents already declined substantially (147 to 81, 2014-2023) before the 2024 SCCAP requirements took effect, which the agency argues shows the prior, less stringent framework was already working, and that realigning with OSHA's existing PSM standard removes genuine duplication rather than protection. Public health, labor, and environmental groups (Union of Concerned Scientists, various labor unions who testified at the March 2026 hearing) dispute that the accident-decline trend justifies removing forward-looking safeguards like natural-hazard assessment, given the increasing frequency of hurricanes and extreme weather cited as a specific risk factor. This entry describes a proposed, not yet finalized, rule -- EPA has stated an intent to finalize in late 2026, and the specific provisions could still change before then."
     },
-    "confidence_note": "High confidence on the rule's content, timeline, and both sides' stated rationale, sourced to EPA's own Federal Register notice and fact sheet plus multiple independent law-firm summaries (Holland & Knight, Holland & Hart, DLA Piper, Beveridge & Diamond, Haynes Boone) that are consistent with each other on the substantive changes. The cost-savings and accident-decline figures are EPA's own; the population and past-cost figures are EPA's own from the prior (2024) rulemaking it is now rolling back, which is a useful internal-consistency data point. Because this is a proposed rather than final rule, `status` and the specific provisions should be rechecked before EPA's expected late-2026 final action. Re-verified 2026-07-18: no material change -- comment period closed May 11, 2026 as previously noted, EPA has not yet issued a final rule; status unchanged. Re-verified 2026-07-26: no material change -- comment period closed May 11, 2026 as previously noted; EPA has not yet issued a final rule.",
+    "confidence_note": "High confidence on the rule's content, timeline, and both sides' stated rationale, sourced to EPA's own Federal Register notice and fact sheet plus multiple independent law-firm summaries (Holland & Knight, Holland & Hart, DLA Piper, Beveridge & Diamond, Haynes Boone) that are consistent with each other on the substantive changes. The cost-savings and accident-decline figures are EPA's own; the population and past-cost figures are EPA's own from the prior (2024) rulemaking it is now rolling back, which is a useful internal-consistency data point. Because this is a proposed rather than final rule, `status` and the specific provisions should be rechecked before EPA's expected late-2026 final action. Re-verified 2026-07-18: no material change -- comment period closed May 11, 2026 as previously noted, EPA has not yet issued a final rule; status unchanged. Re-verified 2026-07-26: no material change -- comment period closed May 11, 2026 as previously noted; EPA has not yet issued a final rule. Re-verified 2026-08-16: no material change -- comment period closed May 11, 2026 as previously noted; EPA has not yet issued a final rule.",
     "section_summaries": {
       "what_changed": "EPA proposed rolling back most 2024 chemical-safety rules for high-risk plants: narrower audits, less public disclosure, fewer worker protections.",
       "estimated_impact": "EPA's own 2024 rulemaking tied over $540M/year in accident costs, and a real prevented-explosion case, to the safeguards now being rolled back.",
       "confidence_note": "High confidence on content and figures, both EPA's own across two rulemakings; still a proposal, not final, as of comment close in May 2026."
     },
-    "last_verified": "2026-07-26",
+    "last_verified": "2026-08-16",
     "date_added": "2026-07-16",
     "sources": [
       {
@@ -1586,7 +1622,7 @@
     "status": "Proposed Repeal",
     "date_of_action": "2026-05-14 (proposed rule announced)",
     "original_rule_summary": "The Biden-era rule required a 50% reduction through 2032 in criteria pollutants (ozone, particulate matter, carbon monoxide, nitrogen dioxide, sulfur dioxide, lead) for light-duty vehicles and a 58% cut for medium-duty vehicles, phased in starting with model year 2027.",
-    "what_changed": "EPA proposed delaying enforcement of the Biden-era vehicle pollution standards by two years, pushing the compliance deadline to model year 2029. The agency argued that slowing electric vehicle sales make the original timeline difficult for automakers to meet. In the interim, automakers would continue following the existing, less-stringent Tier 3 standards through 2028, which EPA states already deliver up to an 80% reduction in emissions. EPA's own estimate projects the delay will save automakers $1.7 billion. Automakers have publicly backed the delay.",
+    "what_changed": "EPA proposed delaying enforcement of the Biden-era vehicle pollution standards by two years, pushing the compliance deadline to model year 2029. The agency argued that slowing electric vehicle sales make the original timeline difficult for automakers to meet. In the interim, automakers would continue following the existing, less-stringent Tier 3 standards through 2028, which EPA states already deliver up to an 80% reduction in emissions. EPA's own estimate projects the delay will save automakers $1.7 billion. Automakers have publicly backed the delay. EPA structured this as a two-part rulemaking: this proposal is 'Part 1' (the two-year phase-in delay). EPA has stated it will separately pursue 'Part 2,' a broader reconsideration of the Tier 4 program that could revise the underlying PM, NMOG+NOx, CO, and formaldehyde emissions standards themselves, along with test procedures -- not just the compliance timeline. As of this recheck, EPA has not announced a timeline for Part 2.",
     "primary_proponent": {
       "name": "EPA Administrator (agency action)",
       "role": "U.S. Environmental Protection Agency",
@@ -1604,11 +1640,11 @@
           "source": "EPA press release, May 2026"
         }
       ],
-      "caveat": "The $1.7 billion figure is EPA's own cost-savings estimate for industry, not an independent health-harm estimate; no comparably specific mortality/illness figure from EPA or an independent source was found for this specific delay as of this entry's sourcing."
+      "caveat": "The $1.7 billion figure is EPA's own cost-savings estimate for industry, not an independent health-harm estimate; no comparably specific mortality/illness figure from EPA or an independent source was found for this specific delay as of this entry's sourcing. The Part 2 reconsideration, if it proceeds, could weaken the underlying emissions standards themselves rather than just delaying them -- a larger potential impact than this entry currently documents, worth tracking separately once EPA announces its scope and timeline."
     },
-    "confidence_note": "HIGH confidence on the proposed delay's terms and the $1.7 billion figure -- both come directly from EPA's own press release and are corroborated by Reuters and multiple trade/policy outlets. This is a Proposed Repeal, not yet finalized -- worth rechecking for a final rule.",
+    "confidence_note": "HIGH confidence on the proposed delay's terms and the $1.7 billion figure -- both come directly from EPA's own press release and are corroborated by Reuters and multiple trade/policy outlets. This is a Proposed Repeal, not yet finalized -- worth rechecking for a final rule. Re-verified 2026-08-16: Part 1 (this delay) remains proposed, not finalized (EPA has signaled a late-2026 target). Added sourcing on the Part 1/Part 2 structure -- Part 2's broader standards reconsideration has no announced timeline as of this recheck.",
     "short_summary": "EPA proposed a two-year delay of Biden-era vehicle pollution standards, to model year 2029, saving automakers an estimated $1.7 billion.",
-    "last_verified": "2026-08-02",
+    "last_verified": "2026-08-16",
     "date_added": "2026-08-02",
     "sources": [
       {
@@ -1622,10 +1658,14 @@
       {
         "name": "Detroit News -- 'Automakers back EPA's plan for two-year delay on emissions cuts'",
         "url": "https://www.detroitnews.com/story/business/autos/2026/06/03/automakers-back-epas-plan-for-two-year-delay-on-emissions-cuts/90385520007/"
+      },
+      {
+        "name": "Beveridge & Diamond -- EPA Proposes to Delay Tier 4 Light- and Medium-Duty Vehicle Emissions Standards by Two Model Years",
+        "url": "https://www.bdlaw.com/publications/epa-proposes-to-delay-tier-4-light-and-medium-duty-vehicle-emissions-standards-by-two-model-years/"
       }
     ],
     "section_summaries": {
-      "what_changed": "EPA proposed a two-year delay of Biden-era vehicle pollution standards, to model year 2029, saving automakers an estimated $1.7 billion.",
+      "what_changed": "EPA proposed a two-year delay of Biden-era vehicle pollution standards, to model year 2029, saving automakers an estimated $1.7 billion. EPA has framed this as Part 1 of a two-part rulemaking; Part 2 would separately reconsider the underlying standards themselves, with no announced timeline yet.",
       "estimated_impact": "Environmental and public-health groups say the delay means higher tailpipe pollution exposure for longer, increasing preventable illness tied to ozone and particulate matter.",
       "confidence_note": "The proposed delay's terms and the $1.7 billion figure come directly from EPA's own press release, corroborated by Reuters and multiple trade/policy outlets."
     }
