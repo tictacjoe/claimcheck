@@ -993,6 +993,51 @@ function oneLinerFor(entry, cfg) {
    test -- otherwise a short term like "epa" matches inside unrelated
    words such as "department". Regex mode is unaffected since it's an
    explicit opt-in to pattern matching, boundaries and all. */
+/* Builds the search haystack out of only the fields actually rendered
+   somewhere in the UI for this entry -- title, card meta line, and the
+   expandable detail body -- rather than the entire raw record. Fields
+   like `cause`, `rebuttal_anticipated`, `comeback`, and evidence
+   descriptions hold real analysis text but are never shown anywhere,
+   collapsed or expanded; matching against them produced results a
+   user could never trace back to a visible reason, which read as
+   false positives. Field lists here intentionally mirror what
+   buildEntryCard()/buildDetailHtml() actually render for each kind --
+   keep the two in sync when either changes. */
+function visibleSearchText(entry, cfg) {
+  const parts = [entry[cfg.titleField]];
+  if (cfg.kind === "deregulation") {
+    parts.push(
+      entry.agency, entry.domain, entry.status, entry.date_of_action,
+      entry.short_summary, entry.what_changed,
+      entry.section_summaries?.what_changed, entry.section_summaries?.estimated_impact, entry.section_summaries?.confidence_note,
+      entry.primary_proponent?.name, entry.primary_proponent?.role, entry.primary_proponent?.note,
+      entry.estimated_health_impact?.summary, entry.confidence_note
+    );
+    (entry.estimated_health_impact?.figures || []).forEach(f => parts.push(f.metric, f.value, f.source));
+    (entry.sources || []).forEach(s => parts.push(s.name));
+  } else if (cfg.kind === "prosecution") {
+    parts.push(
+      entry.offense_category, entry.offense_category_raw, entry.status_category, entry.status,
+      entry.last_updated,
+      entry.section_summaries?.incident_summary, entry.section_summaries?.confidence_note,
+      entry.incident_summary, entry.confidence_note
+    );
+  } else if (cfg.kind === "govservices") {
+    parts.push(
+      entry.institution, entry.domain, entry.date_of_action,
+      entry.what_changed,
+      entry.section_summaries?.what_changed, entry.section_summaries?.estimated_impact, entry.section_summaries?.confidence_note,
+      entry.primary_proponent?.name, entry.primary_proponent?.role, entry.primary_proponent?.note,
+      entry.estimated_impact?.summary, entry.estimated_impact?.caveat, entry.confidence_note
+    );
+    (entry.estimated_impact?.figures || []).forEach(f => parts.push(f.metric, f.value, f.source));
+    (entry.sources || []).forEach(s => parts.push(s.name));
+  } else if (cfg.kind === "tracker") {
+    parts.push(entry.date, entry.what_happened, entry.source_name);
+  }
+  return parts.filter(Boolean).join(" \n ");
+}
+
 function matchesTerm(haystack, term, useRegex) {
   if (!term) return true;
   if (useRegex) {
@@ -1142,7 +1187,7 @@ function renderEntries() {
   const countEl = document.getElementById("count");
 
   const filtered = cfg.data.filter(e => {
-    const matchesSearch = matchesTerm(JSON.stringify(e).toLowerCase(), searchTerm, false);
+    const matchesSearch = matchesTerm(visibleSearchText(e, cfg), searchTerm, false);
     const matchesFilter = !filterValue || e[cfg.filterField] === filterValue;
     return matchesSearch && matchesFilter;
   });
@@ -1254,7 +1299,7 @@ function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
     if (key === "tracker") return;
     const cfg = TRACKERS[key];
     cfg.data.forEach(entry => {
-      const haystack = JSON.stringify(entry);
+      const haystack = visibleSearchText(entry, cfg);
       const result = matchesTerm(haystack, term, useRegex);
       if (result === null) { hadRegexError = true; return; }
       if (result) allMatches.push({ entry, cfg, sourceLabel: cfg.label });
@@ -1272,7 +1317,7 @@ function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
   // Reporting's own tab search box doesn't support regex, so this count
   // needs to match what actually shows up after following the link.
   const reportingMatchCount = TRACKERS.tracker.data.filter(entry =>
-    matchesTerm(JSON.stringify(entry), term, false)
+    matchesTerm(visibleSearchText(entry, TRACKERS.tracker), term, false)
   ).length;
   const reportingLink = buildReportingLink(term, reportingMatchCount);
 
