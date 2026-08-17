@@ -1033,9 +1033,9 @@
     "title": "CDC Suspended Diagnostic Testing for Rabies, Pox Viruses, and Dozens of Other Infectious Diseases as Staffing Collapsed Under Kennedy",
     "institution": "Centers for Disease Control and Prevention",
     "domain": "data_collection_halted",
-    "status": "Ongoing as of this entry's addition -- testing paused with staffing continuing to shrink toward the specific July 2026 thresholds described below",
+    "status": "Ongoing as of July 2026 reporting -- a government spokesperson called the pause temporary in April 2026 and said some tests would resume 'in the coming weeks,' but that timeline was not met; as of July 2026 there was no full public accounting of what testing capacity has been restored, remains reduced, or has been permanently discontinued",
     "date_of_action": "2026 (staffing decline through early 2026, testing pause announced ~April 1-2, 2026)",
-    "what_changed": "The CDC suspended diagnostic testing for rabies, a group of pox viruses that includes smallpox and mpox, Epstein-Barr virus, and roughly 30 other infectious diseases, after mass layoffs, hiring freezes, and resignations under HHS Secretary Robert F. Kennedy Jr. depleted the specialized laboratory teams responsible for the testing. The New Republic reported that by July 2026, the rabies team would be down to just one person with the clinical expertise needed to advise state and local health officials, and the pox virus team would have zero such specialists remaining. Overall staffing in the affected testing programs fell by an estimated 20-25%, with the pox virus and rabies labs specifically losing about half their prior staff. State and local health departments, which rely on CDC's specialized testing and expertise when they cannot perform certain diagnostic work themselves, lost access to that support as the suspension took effect.",
+    "what_changed": "The CDC suspended diagnostic testing for rabies, a group of pox viruses that includes smallpox and mpox, Epstein-Barr virus, and roughly 30 other infectious diseases, after mass layoffs, hiring freezes, and resignations under HHS Secretary Robert F. Kennedy Jr. depleted the specialized laboratory teams responsible for the testing. The New Republic reported that by July 2026, the rabies team would be down to just one person with the clinical expertise needed to advise state and local health officials, and the pox virus team would have zero such specialists remaining. Overall staffing in the affected testing programs fell by an estimated 20-25%, with the pox virus and rabies labs specifically losing about half their prior staff. State and local health departments, which rely on CDC's specialized testing and expertise when they cannot perform certain diagnostic work themselves, lost access to that support as the suspension took effect. A CDC/HHS spokesperson described the suspension as part of 'a routine review to uphold our commitment to high quality laboratory testing' and said some paused tests would resume within weeks; as of a July 2026 status check, that restoration had not been publicly confirmed, and New York and California state public health labs had stepped in to provide some backup testing capacity for services CDC paused.",
     "primary_proponent": {
       "name": "Robert F. Kennedy Jr.",
       "role": "Secretary of Health and Human Services",
@@ -1065,10 +1065,10 @@
           "source": "The New Republic, April 2026"
         }
       ],
-      "caveat": "Sourcing frames the projected July 2026 staffing thresholds (1 rabies expert, 0 pox-virus experts) as based on already-in-motion departures as of the reporting, not a hypothetical worst-case projection unconnected to documented staffing trends."
+      "caveat": "Sourcing frames the projected July 2026 staffing thresholds (1 rabies expert, 0 pox-virus experts) as based on already-in-motion departures as of the reporting, not a hypothetical worst-case projection unconnected to documented staffing trends. As of this recheck (August 2026), sourcing found no public confirmation that any of the paused tests have resumed at CDC; state labs in NY and CA are documented as providing partial backup capacity, not a restoration of CDC's own testing."
     },
-    "confidence_note": "HIGH confidence -- the testing suspension, the affected disease list, and the specific staffing figures are independently corroborated across The New Republic, NBC News, The Hill, KFF Health News, and multiple wire pickups, several of which cite CDC's own internal staffing data.",
-    "last_verified": "2026-08-06",
+    "confidence_note": "HIGH confidence -- the testing suspension, the affected disease list, and the specific staffing figures are independently corroborated across The New Republic, NBC News, The Hill, KFF Health News, and multiple wire pickups, several of which cite CDC's own internal staffing data. Re-verified August 2026: CIDRAP's July 2026 follow-up corroborates the pause remaining in effect with no clear public restoration timeline, consistent with the original reporting.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-06",
     "sources": [
       {
@@ -1082,9 +1082,13 @@
       {
         "name": "KFF Health News -- 'CDC Puts Rabies And Pox Virus Testing On Hold As Staff Dwindles'",
         "url": "https://kffhealthnews.org/morning-breakout/cdc-puts-rabies-and-pox-virus-testing-on-hold-as-staff-dwindles/"
+      },
+      {
+        "name": "CIDRAP -- 'State public health labs step up as CDC pauses testing for various pathogens, including rabies, mpox'",
+        "url": "https://www.cidrap.umn.edu/rabies/state-public-health-labs-step-cdc-pauses-testing-various-pathogens-including-rabies-mpox"
       }
     ],
-    "last_updated": "2026-08-06",
+    "last_updated": "2026-08-17",
     "section_summaries": {
       "what_changed": "CDC suspended diagnostic testing for rabies, pox viruses (smallpox, mpox), and ~30 other diseases after RFK Jr.-era layoffs, hiring freezes, and resignations gutted the specialized lab teams; by July 2026 the rabies team would have just 1 clinical expert and the pox team 0.",
       "estimated_impact": "State and local health departments lost access to CDC's specialized disease testing and expertise at a time it would be needed for outbreak response.",
@@ -3351,7 +3355,7 @@
     "title": "DOJ Reassigned the Senior Attorneys Running Its 60-Year-Old Program Accrediting Non-Lawyers to Help Indigent Immigrants, Freezing Its Core Functions",
     "institution": "Department of Justice / Executive Office for Immigration Review",
     "domain": "staff_office_cuts",
-    "status": "Ongoing as of this entry's addition -- applications continue to accumulate (40-60 per week) with no staff authorized to process them, and no reversal identified in sourcing reviewed",
+    "status": "Ongoing -- as of late April 2026 reporting, the program had not approved a single new accreditation application since the March 2026 reassignments, and Illinois-based immigration advocacy organizations independently described the office as being 'quietly gutted'; applications continue to accumulate (40-60 per week) with no staff authorized to process them, and no reversal identified in sourcing reviewed",
     "date_of_action": "2026-03 (senior attorneys reassigned)",
     "what_changed": "CBS News reported DOJ abruptly reassigned the handful of senior attorneys who operate the Recognition and Accreditation program -- a more than 60-year-old program, administered by DOJ's Executive Office for Immigration Review, that accredits non-attorneys working for largely faith-based legal-aid organizations (such as Catholic Charities and Jewish Family Services) so they are legally authorized to assist low-income immigrants with matters ranging from naturalization petitions to representation in immigration court. The reassignment orders came from Jamee Comans, Acting Assistant Director for DOJ's Office of Policy, which administers the program. Most of the reassigned attorneys were told they would now work as entry-level law clerks in immigration courts -- a role typically reserved for people fresh out of law school -- while only two support staff remained in the accreditation office, neither with legal authority to approve or renew accreditation applications. A DOJ official told CBS the program 'isn't ending or being abolished' and 'will continue,' but confirmed the office kept receiving 40-60 new applications per week even after the reassignment, with no staff able to act on them, creating a growing backlog.",
     "primary_proponent": {
@@ -3371,12 +3375,17 @@
           "metric": "Support staff remaining in the accreditation office after senior attorneys' reassignment",
           "value": "2 (with no legal authority to approve or renew applications)",
           "source": "CBS News, March 2026"
+        },
+        {
+          "metric": "New accreditation applications approved since the March 2026 reassignment (as of late April 2026 reporting)",
+          "value": "0",
+          "source": "CBS News follow-up, cited in WBEZ Chicago / Chicago Sun-Times, April 30, 2026"
         }
       ],
       "caveat": "A DOJ official told CBS the program is not being formally ended or abolished and framed the reassignment as continuing under a different staffing structure; this entry documents the functional freeze in application processing that resulted, not a claim the program has been formally terminated."
     },
-    "confidence_note": "HIGH confidence -- the reassignment, its scope, Comans's role in ordering it, the resulting two-person skeleton staff without approval authority, and the accumulating weekly application backlog are all drawn directly from CBS News's reporting, including on-record confirmation from a DOJ official of the ongoing backlog. Independent corroboration from the ABA Journal and other outlets confirms the same core account.",
-    "last_verified": "2026-08-06",
+    "confidence_note": "HIGH confidence -- the reassignment, its scope, Comans's role in ordering it, the resulting two-person skeleton staff without approval authority, and the accumulating weekly application backlog are all drawn directly from CBS News's reporting, including on-record confirmation from a DOJ official of the ongoing backlog. Independent corroboration from the ABA Journal and other outlets confirms the same core account. Re-verified August 2026: independent Illinois reporting (WBEZ Chicago, Chicago Sun-Times, April 30, 2026) corroborates the ongoing application freeze from local advocacy organizations' direct experience, consistent with CBS's national reporting.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-06",
     "sources": [
       {
@@ -3390,9 +3399,13 @@
       {
         "name": "ABA Journal -- 'DOJ guts program helping immigrants receive affordable legal representation'",
         "url": "https://www.abajournal.com/news/article/doj-guts-program-helping-indigent-immigrants-with-affordable-legal-representation"
+      },
+      {
+        "name": "WBEZ Chicago -- 'Illinois advocacy groups say DOJ \"quietly gutting\" legal aid services for low-income immigrants'",
+        "url": "https://www.wbez.org/immigration/2026/04/30/illinois-advocacy-groups-department-justice-gutting-legal-aid-services-low-income-immigrants"
       }
     ],
-    "last_updated": "2026-08-06",
+    "last_updated": "2026-08-17",
     "section_summaries": {
       "what_changed": "DOJ reassigned the senior attorneys running its 60-year-old program that accredits non-attorneys to provide affordable legal aid to indigent immigrants, leaving only two support staff with no authority to approve or renew applications, even as 40-60 new applications kept arriving weekly.",
       "estimated_impact": "The program's core approval function is frozen, disrupting legal-aid capacity for low-income immigrants who rely on accredited non-attorney representatives, even though DOJ says the program itself isn't being formally abolished.",
@@ -5871,8 +5884,8 @@
     "title": "FedRAMP Approved Microsoft's Government Cloud Despite Reviewers Calling It Unassessable and 'a Pile of Shit,' Citing How Embedded It Already Was Across Government",
     "institution": "Federal Risk and Authorization Management Program (FedRAMP), General Services Administration",
     "domain": "staff_office_cuts",
-    "status": "Finalized -- GCC High was authorized despite unresolved security concerns; no reversal identified in sourcing reviewed",
-    "date_of_action": "Review conducted over roughly 3-5 years, concerns documented from late 2024; authorization finalized and reported March 2026",
+    "status": "Finalized December 26, 2024 -- GCC High was authorized despite unresolved security concerns; ProPublica's March 2026 investigative report brought the authorization decision and reviewers' internal doubts to public light over a year after the fact; no reversal identified in sourcing reviewed",
+    "date_of_action": "FedRAMP's review ran roughly three years (ending initial talks October 2023), then resumed under a new team in summer 2024; GCC High was authorized December 26, 2024. ProPublica's investigation into the authorization -- including reviewers' documented lack of confidence -- was published and widely reported in March 2026, roughly 14 months after the authorization itself, not concurrent with it.",
     "what_changed": "A ProPublica investigation found federal cybersecurity reviewers concluded Microsoft's Government Community Cloud High (GCC High) -- cloud infrastructure widely used across federal agencies to store sensitive government data -- lacked proper documentation of how it encrypts data in transit, a basic security requirement that competitors Amazon and Google routinely documented for their own competing federal cloud products. FedRAMP spent 480 hours and conducted 18 technical deep-dive reviews over roughly three years and still concluded it had a 'lack of confidence' in GCC High's overall security posture; one FedRAMP reviewer was quoted describing the product as 'a pile of shit.' Despite these unresolved concerns, FedRAMP authorized GCC High anyway. ProPublica's reporting found the authorization decision was shaped by how deeply embedded Microsoft's cloud products already were across the federal government -- rejecting the authorization would have been highly disruptive -- and by internal deference to Microsoft evident in memos, logs, and interviews, even as Microsoft had separately suffered major prior breaches. ProPublica's reporting also connects the deference and the review's ultimate outcome to FedRAMP's own staffing cuts, which reduced the program's capacity to hold a vendor as large as Microsoft to the same documentation standard applied to smaller competitors.",
     "primary_proponent": {
       "name": "FedRAMP / General Services Administration",
@@ -5900,8 +5913,8 @@
       ],
       "caveat": "ProPublica's reporting documents the review's own conclusions and the authorization decision's timing, but does not quantify a specific breach or exploited vulnerability resulting from the unresolved encryption-documentation gap as of this entry's addition -- present this as a documented oversight-capacity failure and unverified-risk finding, not a confirmed successful attack."
     },
-    "confidence_note": "HIGH confidence -- the review's findings (the encryption-documentation gap, the 480-hour/18-review process, the 'pile of shit' quote, and the 'lack of confidence' conclusion) and the authorization decision itself are drawn from ProPublica's own investigation, including internal memos, logs, and interviews, and independently corroborated by Boing Boing, Let's Data Science, and Bruce Schneier's security-industry commentary. MODERATE confidence on the specific causal role of FedRAMP staffing cuts in the outcome, since that connection is ProPublica's own analytical framing rather than an on-record admission from FedRAMP that staffing capacity drove the authorization decision.",
-    "last_verified": "2026-08-06",
+    "confidence_note": "HIGH confidence -- the review's findings (the encryption-documentation gap, the 480-hour/18-review process, the 'pile of shit' quote, and the 'lack of confidence' conclusion) and the authorization decision itself are drawn from ProPublica's own investigation, including internal memos, logs, and interviews, and independently corroborated by Boing Boing, Let's Data Science, and Bruce Schneier's security-industry commentary. MODERATE confidence on the specific causal role of FedRAMP staffing cuts in the outcome, since that connection is ProPublica's own analytical framing rather than an on-record admission from FedRAMP that staffing capacity drove the authorization decision. CORRECTION (2026-08-17 recheck): this entry's original date_of_action field conflated the authorization date with the date ProPublica's investigation was published, describing both as occurring 'March 2026.' Primary-source confirmation directly from ProPublica's own article establishes the authorization was finalized December 26, 2024; the investigative report that surfaced it publicly ran about 14 months later, in March 2026. This is a factual correction to the entry's timeline, not a change to the underlying findings, which remain HIGH confidence as before.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-06",
     "sources": [
       {
@@ -5921,7 +5934,8 @@
       "what_changed": "ProPublica found FedRAMP reviewers spent 480 hours and 18 technical reviews over ~3-5 years concluding they lacked confidence in Microsoft's GCC High cloud's security -- Microsoft couldn't even document its encryption-in-transit, unlike competitors -- yet FedRAMP authorized it anyway, citing the product's deep entrenchment across government and its own reduced review capacity.",
       "estimated_impact": "Sensitive federal data now sits on cloud infrastructure the government's own reviewers said they couldn't verify as secure, an unresolved-risk finding rather than a confirmed breach.",
       "confidence_note": "Findings and the authorization decision are well-documented via ProPublica's own investigation of internal records; the specific causal role of FedRAMP staffing cuts is ProPublica's analytical framing, not an on-record FedRAMP admission."
-    }
+    },
+    "last_updated": "2026-08-17"
   },
   {
     "id": "fema-bric-program-elimination-reinstatement-2025",
@@ -6360,9 +6374,9 @@
     "title": "Visa Renewal Slowdown for Foreign Doctors From 'National Security Risk' Countries Is Costing Rural Hospitals Physicians",
     "institution": "State Department / USCIS visa processing",
     "domain": "staff_office_cuts",
-    "status": "Ongoing as of this entry's addition -- no resolution or policy change identified in sourcing reviewed",
+    "status": "Partially narrowed but core harm ongoing -- USCIS exempted physicians already present in the U.S. from Proclamation 10998's visa-renewal hold, first reported in early May 2026 (about three months before this entry's original write-up), but doctors from the 39 designated countries who are currently abroad remain blocked from returning, the exemption's application procedure is undocumented, and hospitals in several states were still reporting cancelled clinics and disrupted coverage as of reporting reviewed for this recheck",
     "date_of_action": "2026 (reported April 2026)",
-    "what_changed": "Politico reported that Trump officials are slow-walking visa renewals for foreign-born doctors from countries the administration labels national security risks, leaving many physicians unable to continue working legally as their visa status lapses during the delay. Hospitals -- particularly in rural and underserved areas that rely heavily on foreign-trained physicians to fill positions U.S. medical graduates often don't take -- are already losing doctors to missed start dates, interrupted fellowships, and lapsed renewal deadlines caused by the processing slowdown, not by any finding of individual wrongdoing or security risk specific to the affected physicians.",
+    "what_changed": "Politico reported that Trump officials are slow-walking visa renewals for foreign-born doctors from countries the administration labels national security risks, leaving many physicians unable to continue working legally as their visa status lapses during the delay. Hospitals -- particularly in rural and underserved areas that rely heavily on foreign-trained physicians to fill positions U.S. medical graduates often don't take -- are already losing doctors to missed start dates, interrupted fellowships, and lapsed renewal deadlines caused by the processing slowdown, not by any finding of individual wrongdoing or security risk specific to the affected physicians. The slowdown stems from Presidential Proclamation 10998 (issued December 16, 2025, effective January 1, 2026), which imposed a full entry suspension for nationals of 19 countries and a partial suspension for 20 more (39 total), including Nigeria, Venezuela, and Cuba; USCIS paused visa renewals and status updates for people from those countries even though the underlying travel ban does not apply to visa holders already in the U.S. By early May 2026, USCIS quietly exempted physicians already present in the U.S. from the renewal-processing hold, updating its website and having DHS confirm that medical-physician applications would continue processing -- but the exemption does not extend to physicians from the 39 countries who are currently outside the U.S., who remain blocked from returning, and immigration attorneys have described the exemption's own application procedure as unclear and not made public.",
     "primary_proponent": {
       "name": "State Department / Trump administration",
       "role": "Visa processing and national-security screening policy",
@@ -6370,19 +6384,43 @@
     },
     "estimated_impact": {
       "summary": "A visa-processing slowdown targeting doctors from designated countries -- not individualized security findings against specific physicians -- is directly reducing physician staffing at hospitals, with the effect concentrated in rural and underserved communities that depend most heavily on foreign-trained doctors to fill positions that would otherwise go unfilled.",
-      "figures": [],
-      "caveat": "Sourcing reviewed (Politico's reporting) documents the pattern and specific examples of missed start dates and interrupted fellowships but did not include an aggregate national count of affected physicians or hospitals as of this entry's addition."
+      "figures": [
+        {
+          "metric": "Countries subject to full or partial entry/visa-renewal suspension under Proclamation 10998",
+          "value": "39 (19 full, 20 partial)",
+          "source": "Proclamation 10998, December 16, 2025"
+        },
+        {
+          "metric": "Physician H-1B visa holders affected",
+          "value": "10,000+",
+          "source": "Reason / PBS NewsHour reporting, 2026"
+        },
+        {
+          "metric": "Physician J-1 visa holders affected",
+          "value": "17,000+",
+          "source": "Reason / PBS NewsHour reporting, 2026"
+        }
+      ],
+      "caveat": "Sourcing reviewed documents specific hospital-level examples (Ohio, Pennsylvania, Michigan) and the aggregate visa-holder figures above, but did not include a single consolidated national count of hospitals or patients affected as of this recheck. The in-country physician exemption reduces but does not eliminate the described harm -- physicians abroad remain blocked, and the exemption's mechanics are not publicly documented."
     },
-    "confidence_note": "MODERATE-HIGH confidence -- Politico's reporting is the primary source identified for this specific pattern, documenting the visa slowdown's mechanism and its hospital-staffing consequences; broader independent corroboration and an aggregate quantified impact figure were not identified in sourcing reviewed as of this entry's addition.",
-    "last_verified": "2026-08-06",
+    "confidence_note": "MODERATE-HIGH confidence -- Politico's reporting is the primary source identified for this specific pattern, documenting the visa slowdown's mechanism and its hospital-staffing consequences; broader independent corroboration and an aggregate quantified impact figure were not identified in sourcing reviewed as of this entry's addition. CORRECTION (2026-08-17 recheck): the entry's original status/estimated_impact framing -- 'no resolution or policy change identified in sourcing reviewed' -- missed that USCIS had already exempted in-country physicians from the freeze, reported starting early May 2026, roughly three months before this entry's original write date (2026-08-06). That reporting existed at write-time but was not reflected in original sourcing. This recheck corrects the status to reflect the partial exemption while preserving the entry's core finding that the underlying harm (visa-status lapses disrupting hospital staffing) continues for physicians outside the U.S.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-06",
     "sources": [
       {
         "name": "Politico -- 'A slowdown in visa processing is wreaking havoc on foreign doctors' lives'",
         "url": "https://www.politico.com/news/2026/04/01/a-slowdown-in-visa-processing-is-wreaking-havoc-on-foreign-doctors-lives-00853010"
+      },
+      {
+        "name": "PBS NewsHour -- 'Foreign medical residents fill critical positions at U.S. hospitals but many now face visa issues'",
+        "url": "https://www.pbs.org/newshour/health/foreign-medical-residents-fill-critical-positions-at-u-s-hospitals-but-many-now-face-visa-issues"
+      },
+      {
+        "name": "Reason -- 'Why Trump quietly carved out doctors from his own visa freeze'",
+        "url": "https://reason.com/2026/08/02/trump-blinks-on-doctor-visas/"
       }
     ],
-    "last_updated": "2026-08-06",
+    "last_updated": "2026-08-17",
     "section_summaries": {
       "what_changed": "Trump officials are slow-walking visa renewals for foreign doctors from designated 'national security risk' countries, causing many to lose legal work status; rural and underserved hospitals are already losing physicians to missed start dates and lapsed renewals.",
       "estimated_impact": "Hospital physician staffing is being reduced by a blanket visa-processing policy, not individualized security findings, with the harm concentrated in the communities most dependent on foreign-trained doctors.",
@@ -8159,9 +8197,9 @@
     "title": "HUD Proposed Shifting Two-Thirds of Its $3.9B Homeless-Services Program From Permanent Supportive Housing to Short-Term Shelter, Risking Eviction for 170,000 People",
     "institution": "Department of Housing and Urban Development",
     "domain": "funding_redirection",
-    "status": "Blocked by a federal court as of January 2026, but litigation continued and advocates described the risk as still live as of March 2026 reporting",
+    "status": "Blocked by federal courts three times as of August 2026, but not permanently resolved -- the original Nov/Dec 2025 NOFOs were vacated in a June 29, 2026 summary judgment, and a subsequent FY2026 NOFO was blocked again on August 7, 2026 for skipping required notice-and-comment procedure; because the court declined to issue a permanent injunction, HUD retains the ability to attempt a similar shift for FY2027, leaving the underlying eviction risk to formerly homeless people unresolved",
     "date_of_action": "2025-11 (NOFO released) through 2026-01 (court blocks it, HUD reinstates prior NOFO) and ongoing litigation into 2026-03",
-    "what_changed": "In November 2025, HUD released a Notice of Funding Opportunity for its Continuum of Care Program -- which funds shelters, permanent supportive housing, and other homelessness responses -- proposing to shift roughly two-thirds of the program's $3.9 billion budget away from permanent supportive housing and toward transitional housing and other short-term interventions. Advocacy groups estimated up to 170,000 formerly homeless people already housed through these programs, including veterans, could be evicted and forced back into homelessness if facilities lost their permanent-housing funding and had to convert to short-term models. Nonprofits and local governments sued to block the change. On December 23, 2025, a federal judge ordered HUD to revert to the original, Biden-era NOFO pending a final ruling, and HUD reinstated the prior funding notice on January 9, 2026. California Attorney General Rob Bonta separately secured a court order blocking the changes, which he said would also have pressured shelters to discriminate against transgender people and encouraged criminalization of homelessness. Despite the reinstatement, CNN's March 29, 2026 reporting described the eviction risk to formerly homeless people, including veterans, as still live, reflecting that the underlying litigation over HUD's authority to make the shift had not been finally resolved.",
+    "what_changed": "In November 2025, HUD released a Notice of Funding Opportunity for its Continuum of Care Program -- which funds shelters, permanent supportive housing, and other homelessness responses -- proposing to shift roughly two-thirds of the program's $3.9 billion budget away from permanent supportive housing and toward transitional housing and other short-term interventions. Advocacy groups estimated up to 170,000 formerly homeless people already housed through these programs, including veterans, could be evicted and forced back into homelessness if facilities lost their permanent-housing funding and had to convert to short-term models. Nonprofits and local governments sued to block the change. On December 23, 2025, a federal judge ordered HUD to revert to the original, Biden-era NOFO pending a final ruling, and HUD reinstated the prior funding notice on January 9, 2026. California Attorney General Rob Bonta separately secured a court order blocking the changes, which he said would also have pressured shelters to discriminate against transgender people and encouraged criminalization of homelessness. Despite the reinstatement, CNN's March 29, 2026 reporting described the eviction risk to formerly homeless people, including veterans, as still live, reflecting that the underlying litigation over HUD's authority to make the shift had not been finally resolved. Litigation continued through mid-2026: on June 29, 2026, the same U.S. District Court (Rhode Island) issued summary judgment vacating HUD's November and December 2025 NOFOs as arbitrary and capricious and exceeding the agency's statutory authority, finding HUD had failed to adequately consider the effects of abandoning its 'Housing First' approach. HUD then issued a new FY2026 NOFO in June 2026 -- a $4.04 billion allocation that again set aside roughly $1.3 billion for new temporary-housing and treatment programs instead of permanent supportive housing. On August 7, 2026, District Judge Mary McElroy blocked that FY2026 NOFO too, ruling HUD had again violated the Administrative Procedure Act by skipping the required public notice-and-comment process. The court again declined to issue a permanent injunction, leaving HUD free to attempt similar changes for FY2027.",
     "primary_proponent": {
       "name": "Department of Housing and Urban Development",
       "role": "Federal agency administering the Continuum of Care Program",
@@ -8179,12 +8217,17 @@
           "metric": "Formerly homeless people, including veterans, at risk of eviction if the shift proceeds",
           "value": "up to 170,000",
           "source": "Advocacy groups, cited by CNN, March 2026"
+        },
+        {
+          "metric": "FY2026 Continuum of Care allocation (separate NOFO from the $3.9B figure above, which was the FY2025 program's budget)",
+          "value": "$4.04 billion, with ~$1.3B set aside for new temporary-housing/treatment programs",
+          "source": "HUD's June 1, 2026 NOFO, cited in Davis Vanguard, August 2026"
         }
       ],
       "caveat": "The specific funding shift was blocked by a federal court as of December 2025/January 2026, and HUD reinstated the prior funding notice -- this entry documents a proposed and judicially blocked action, not a change that has actually taken effect, though continued litigation left the underlying risk unresolved as of the most recent reporting reviewed."
     },
-    "confidence_note": "HIGH confidence -- the NOFO's terms, the $3.9 billion program scope, the 170,000-person risk estimate, the December 2025 court order, and HUD's January 2026 reinstatement of the prior notice are all independently corroborated across Shelterforce, CNN, Yahoo News, and California AG Bonta's own press release confirming a court order in the state's favor. MODERATE confidence on the precise current legal status as of mid-2026, since sourcing reviewed did not identify a final resolution of the underlying litigation.",
-    "last_verified": "2026-08-06",
+    "confidence_note": "HIGH confidence -- the NOFO's terms, the $3.9 billion program scope, the 170,000-person risk estimate, the December 2025 court order, and HUD's January 2026 reinstatement of the prior notice are all independently corroborated across Shelterforce, CNN, Yahoo News, and California AG Bonta's own press release confirming a court order in the state's favor. MODERATE confidence on the precise current legal status as of mid-2026, since sourcing reviewed did not identify a final resolution of the underlying litigation. Re-verified August 2026: the June 29, 2026 and August 7, 2026 rulings are corroborated across Davis Vanguard, Smart Cities Dive, and Housing Online/NH&RA reporting. The $4.04 billion figure is a separate FY2026 allocation from the $3.9 billion FY2025 figure already in this entry -- not a conflicting count of the same thing.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-06",
     "sources": [
       {
@@ -8198,9 +8241,17 @@
       {
         "name": "California Attorney General -- 'Attorney General Bonta Secures Court Order Blocking HUD Changes that Would Worsen Homelessness Crisis'",
         "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-secures-court-order-blocking-hud-changes-would-worsen"
+      },
+      {
+        "name": "Davis Vanguard -- 'Federal Judge Vacates Trump Administration's 2026 Homelessness Funding Plan'",
+        "url": "https://davisvanguard.org/2026/08/judge-strikes-hud-funding-overhaul/"
+      },
+      {
+        "name": "Smart Cities Dive -- 'Judge rules against HUD's \"rapid, untimely overhaul\" of homeless funding'",
+        "url": "https://www.smartcitiesdive.com/news/hud-coc-grant-housing-first-ruling-homeless-funding/824352/"
       }
     ],
-    "last_updated": "2026-08-06",
+    "last_updated": "2026-08-17",
     "section_summaries": {
       "what_changed": "HUD proposed shifting ~2/3 of its $3.9B homeless-services funding from permanent supportive housing to short-term shelter, risking eviction for up to 170,000 formerly homeless people including veterans; a court blocked the change in Dec. 2025 and HUD reinstated the prior funding notice, but litigation continued and the risk remained live as of March 2026.",
       "estimated_impact": "A federal court blocked the funding shift, but continued litigation left up to 170,000 formerly homeless people at ongoing risk.",
@@ -8711,8 +8762,8 @@
       ],
       "caveat": "The Guardian's reporting connects the unresolved timeline to the IRS's reduced staffing capacity as context and characterization, not as an on-record IRS admission that understaffing specifically caused the technical error or the delay in fixing it."
     },
-    "confidence_note": "HIGH confidence on the core facts -- the $51 million figure, the affected organizations, the discovery timeline, and the IRS staffing reduction -- independently corroborated across The Guardian, The Mirror US, and Inkl's coverage of the same CPA findings. MODERATE confidence on the causal link between the staffing cuts and the error's occurrence or unresolved status specifically, since that connection is reporters' contextual framing rather than an on-record IRS statement attributing the problem to reduced capacity.",
-    "last_verified": "2026-08-06",
+    "confidence_note": "HIGH confidence on the core facts -- the $51 million figure, the affected organizations, the discovery timeline, and the IRS staffing reduction -- independently corroborated across The Guardian, The Mirror US, and Inkl's coverage of the same CPA findings. MODERATE confidence on the causal link between the staffing cuts and the error's occurrence or unresolved status specifically, since that connection is reporters' contextual framing rather than an on-record IRS statement attributing the problem to reduced capacity. Re-verified August 2026: no further public reporting on a fix timeline, resolution, or updated disclosure figures was identified since the original March 2026 coverage; status stands as previously documented.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-06",
     "sources": [
       {
@@ -8724,7 +8775,7 @@
         "url": "https://www.inkl.com/news/irs-glitch-masked-51m-in-political-donations-finance-watchdog-says"
       }
     ],
-    "last_updated": "2026-08-06",
+    "last_updated": "2026-08-17",
     "section_summaries": {
       "what_changed": "A campaign-finance watchdog found a technical error at the IRS left $51M in political donations undisclosed for the second half of 2025, affecting major groups from both parties; the IRS gave no fix timeline as of March 2026, after its workforce had shrunk ~27% under DOGE cuts.",
       "estimated_impact": "A significant campaign-finance transparency gap went undetected by the IRS itself and remained unresolved for at least a month after outside watchdogs found it, amid the agency's broader staffing collapse.",
