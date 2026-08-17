@@ -250,7 +250,7 @@
     "domain": "funding_redirection",
     "status": "Ongoing -- enrollment decline continuing as of May 2026, steeper federal error-rate penalties phase in starting October 2027",
     "date_of_action": "2025-07 (HR1/OBBBA enacted) through 2026-05 (enrollment data)",
-    "what_changed": "Following passage of Trump's HR1 ('One Big Beautiful Bill') tax and spending law, which imposes steep financial penalties on states with high SNAP payment error rates (Arizona's 2025 error rate was 10.8%, putting the state at risk of up to $300 million in penalties by fiscal year 2028 if the rate continues) and shifts more administrative costs onto states, Arizona increased the paperwork required of SNAP applicants while simultaneously cutting the caseworker staff available to process it. The number of Department of Economic Security staff reviewing SNAP eligibility fell from 1,370 in July 2024 to 880 by mid-2026. As a direct result, Arizona's SNAP enrollment collapsed from approximately 910,000 people in June 2025 to about 452,000 by May 2026 -- roughly a 50% decline in under a year. Applicants have described being unable to reach a caseworker despite placing up to 100 phone calls to the program. Food bank visits in the state now exceed SNAP enrollment for the first time, as many people who remain legally eligible for benefits are unable to navigate the increased paperwork burden with reduced staff support to process it. Update 2026-07-28: HR1 cuts SNAP by an estimated $187 billion nationally over the next decade, per NBC News reporting -- Arizona's enrollment collapse documented in this entry (roughly 200,000 children among those losing benefits) is one state-level instance of that broader national reduction, with food banks nationally reporting record demand as a result.",
+    "what_changed": "Following passage of Trump's HR1 ('One Big Beautiful Bill') tax and spending law, which imposes steep financial penalties on states with high SNAP payment error rates (Arizona's 2025 error rate was 10.8%, putting the state at risk of up to $300 million in penalties by fiscal year 2028 if the rate continues) and shifts more administrative costs onto states, Arizona increased the paperwork required of SNAP applicants while simultaneously cutting the caseworker staff available to process it. The number of Department of Economic Security staff reviewing SNAP eligibility fell from 1,370 in July 2024 to 880 by mid-2026. As a direct result, Arizona's SNAP enrollment collapsed from approximately 910,000 people in June 2025 to about 452,000 by May 2026 -- roughly a 50% decline in under a year. Applicants have described being unable to reach a caseworker despite placing up to 100 phone calls to the program. Food bank visits in the state now exceed SNAP enrollment for the first time, as many people who remain legally eligible for benefits are unable to navigate the increased paperwork burden with reduced staff support to process it. Update 2026-07-28: HR1 cuts SNAP by an estimated $187 billion nationally over the next decade, per NBC News reporting -- Arizona's enrollment collapse documented in this entry (roughly 200,000 children among those losing benefits) is one state-level instance of that broader national reduction, with food banks nationally reporting record demand as a result. Update 2026-08-17: USDA's official FY2025 SNAP payment error rate for Arizona, released June 24, 2026, confirmed the 10.8% figure already in this entry (up from 8.84% in FY2024). Reporting on the resulting penalty exposure varies by outlet -- figures of $208 million, roughly $200 million, and up to $280 million have all been reported, in addition to this entry's existing $300 million figure -- reflecting different assumptions/timing rather than a single authoritative number; treat the penalty size as a reported range (~$200-300 million), not a fixed figure. On the underlying penalty structure: the cost-share penalty HR1 created does not take effect until fiscal year 2028 (starting October 1, 2027); states with an error rate under 6% in either FY2025 or FY2026 owe no cost share. Arizona's stated goal is to bring its FY2026 error rate (the fiscal year ending September 30, 2026) under 6%, but that official rate will not be published until June 2027 -- meaning whether Arizona's paperwork/staffing response actually achieves its stated goal will not be independently verifiable for many months yet.",
     "primary_proponent": {
       "name": "Donald Trump",
       "role": "President",
@@ -292,13 +292,13 @@
       ],
       "caveat": "This entry documents a state-level implementation response to a federal law's incentive structure (HR1's error-rate penalties), not a direct federal action cutting Arizona's caseworker staff -- Arizona's own choices about how to respond to the federal penalty risk (adding paperwork, cutting staff rather than investing more in accuracy) are a proximate cause alongside the federal law's penalty design. Other states may respond differently to the same federal incentive structure."
     },
-    "confidence_note": "HIGH confidence -- corroborated across US News (original detailed report, widely syndicated to Detroit News, SRN News, Yahoo), Jezebel, Copper Courier, and Popular Info, with consistent enrollment, staffing, and error-rate figures across outlets. Re-verified 2026-07-28: NBC News confirms the national scale of the underlying HR1 SNAP cut (~$187 billion over a decade) that this entry's Arizona case study illustrates at the state level.",
+    "confidence_note": "HIGH confidence -- corroborated across US News (original detailed report, widely syndicated to Detroit News, SRN News, Yahoo), Jezebel, Copper Courier, and Popular Info, with consistent enrollment, staffing, and error-rate figures across outlets. Re-verified 2026-07-28: NBC News confirms the national scale of the underlying HR1 SNAP cut (~$187 billion over a decade) that this entry's Arizona case study illustrates at the state level. Update 2026-08-17: the FY2025 error-rate figure and penalty-structure timeline are corroborated by Arizona DES's own blog, AZPM, and the Arizona Center for Economic Progress; the range of differing penalty-dollar estimates across outlets ($200M-$300M) is presented as a range specifically because no single figure could be confirmed as authoritative across sources.",
     "section_summaries": {
       "what_changed": "Facing steep federal penalties under Trump's HR1 for SNAP payment errors, Arizona added paperwork requirements while cutting caseworker staff from 1,370 to 880, and enrollment collapsed from 910,000 to 452,000 in under a year.",
       "estimated_impact": "Food bank visits now exceed SNAP enrollment in Arizona for the first time, as eligible families struggle to navigate increased paperwork with fewer caseworkers available to help -- people describe placing 100 calls without reaching anyone.",
       "confidence_note": "Well-corroborated across multiple independent outlets with consistent enrollment, staffing, and error-rate figures."
     },
-    "last_verified": "2026-07-28",
+    "last_verified": "2026-08-17",
     "date_added": "2026-07-27",
     "sources": [
       {
@@ -316,9 +316,17 @@
       {
         "name": "NBC News -- Trump food stamp cuts leave children in Arizona hungry",
         "url": "https://www.nbcnews.com/news/us-news/trump-food-stamp-cuts-children-arizona-hungry-big-beautiful-bill-rcna343922"
+      },
+      {
+        "name": "Arizona Department of Economic Security -- Navigating the Impact of H.R. 1 on SNAP",
+        "url": "https://des.az.gov/blog/navigating-impact-hr-1-snap"
+      },
+      {
+        "name": "Arizona Center for Economic Progress -- What to know about USDA's new SNAP payment error rate for Arizona",
+        "url": "https://azeconcenter.org/what-to-know-about-usdas-new-snap-payment-error-rate-for-arizona/"
       }
     ],
-    "last_updated": "2026-07-27"
+    "last_updated": "2026-08-17"
   },
   {
     "id": "army-europe-africa-donahue-ouster-trump2",
@@ -7264,7 +7272,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing -- cuts implemented 2025, staffing partially recovered to 45 by September 2025 (still far below the original 126), GAO findings on resulting oversight gaps published June 30, 2026",
     "date_of_action": "2025-05 (Hegseth memo ordering the cuts) through 2026-06-30 (GAO report on resulting impact)",
-    "what_changed": "In May 2025, Defense Secretary Pete Hegseth ordered DOT&E -- the Pentagon's independent office responsible for testing weapons systems before they reach troops -- cut from 126 authorized civilian positions to 30, a 76% reduction. The memo Hegseth issued eliminated all but one Senior Executive Service position in the office and ended contractor support within seven days. Reduction-in-force notices were issued between June and October 2025; staffing partially recovered to 45 positions by September 2025, still well below the original authorized level. Hegseth's memo projected the cuts would save $300 million annually and framed the changes as intended to 'improve the lethality, readiness, and efficiency of our Armed Forces,' later stating 'speed to delivery is now our organizing principle.' A GAO report released June 30, 2026, based on an audit conducted January through June 2026, found the reduced staff has produced concrete oversight gaps: DOT&E's list of programs under independent oversight dropped from 265 in fiscal 2024 to 173 in fiscal 2025, and as of February 2026 the office was overseeing only 15 of roughly 110 active programs under the Pentagon's fast-track Middle Tier Acquisition pathway. Remaining 'action officers' have been assigned more programs than before, including programs in warfare areas -- electronic warfare specifically identified -- outside their area of expertise.",
+    "what_changed": "In May 2025, Defense Secretary Pete Hegseth ordered DOT&E -- the Pentagon's independent office responsible for testing weapons systems before they reach troops -- cut from 126 authorized civilian positions to 30, a 76% reduction. The memo Hegseth issued eliminated all but one Senior Executive Service position in the office and ended contractor support within seven days. Reduction-in-force notices were issued between June and October 2025; staffing partially recovered to 45 positions by September 2025, still well below the original authorized level. Hegseth's memo projected the cuts would save $300 million annually and framed the changes as intended to 'improve the lethality, readiness, and efficiency of our Armed Forces,' later stating 'speed to delivery is now our organizing principle.' A GAO report released June 30, 2026, based on an audit conducted January through June 2026, found the reduced staff has produced concrete oversight gaps: DOT&E's list of programs under independent oversight dropped from 265 in fiscal 2024 to 173 in fiscal 2025, and as of February 2026 the office was overseeing only 15 of roughly 110 active programs under the Pentagon's fast-track Middle Tier Acquisition pathway. Remaining 'action officers' have been assigned more programs than before, including programs in warfare areas -- electronic warfare specifically identified -- outside their area of expertise. Re-verified 2026-08-17: no Pentagon rebuttal to the GAO findings, and no further congressional action beyond the original Senate Armed Services Committee request that led to the June 30, 2026 GAO report, identified as of this update.",
     "primary_proponent": {
       "name": "Pete Hegseth",
       "role": "Secretary of Defense",
@@ -7301,13 +7309,13 @@
       ],
       "caveat": "No documented on-record response from Hegseth or the Pentagon to the GAO's specific findings was identified in reporting reviewed for this entry -- DOD's public rationale is limited to the original May 2025 memo's stated goals (speed, lethality, cost savings), not a direct rebuttal of the oversight-gap findings. GAO's report describes increased risk of undetected flaws reaching fielded weapons systems; it does not (as of this entry) document a specific weapons failure directly traced to the reduced testing oversight."
     },
-    "confidence_note": "HIGH confidence -- the staffing cut figures and program-oversight-gap findings come directly from a GAO report (the government's own independent auditor), corroborated in press coverage by Military Times, Breaking Defense, Federal News Network, Bloomberg, DefenseScoop, and Yahoo News. Hegseth's own memo and public statements on rationale are on the record. No dispute identified over the underlying facts of the cut or GAO's findings; the only gap is the absence of a specific Pentagon rebuttal to GAO in reporting reviewed.",
+    "confidence_note": "HIGH confidence -- the staffing cut figures and program-oversight-gap findings come directly from a GAO report (the government's own independent auditor), corroborated in press coverage by Military Times, Breaking Defense, Federal News Network, Bloomberg, DefenseScoop, and Yahoo News. Hegseth's own memo and public statements on rationale are on the record. No dispute identified over the underlying facts of the cut or GAO's findings; the only gap is the absence of a specific Pentagon rebuttal to GAO in reporting reviewed. Re-verified 2026-08-17: no material change to report.",
     "section_summaries": {
       "what_changed": "Hegseth cut the Pentagon's independent weapons-testing office by 76% in 2025; a June 2026 GAO audit found the reduced staff now oversees far fewer programs, with remaining reviewers stretched across areas including electronic warfare outside their expertise.",
       "estimated_impact": "GAO's own audit found DOT&E's oversight coverage dropped by over a third of its program list in one year and now covers just 15 of ~110 fast-track acquisition programs, raising the risk of undetected weapons defects reaching troops.",
       "confidence_note": "GAO-sourced figures, well-corroborated across multiple independent defense-trade and wire outlets; no Pentagon rebuttal to the specific findings identified."
     },
-    "last_verified": "2026-07-27",
+    "last_verified": "2026-08-17",
     "date_added": "2026-07-27",
     "sources": [
       {
@@ -7331,7 +7339,7 @@
         "url": "https://defensescoop.com/2025/05/28/hegseth-restructure-odote-test-evaluation-office-workforce/"
       }
     ],
-    "last_updated": "2026-07-27"
+    "last_updated": "2026-08-17"
   },
   {
     "id": "hegseth-flu-vaccine-mandate-rollback-outbreak-2026",
@@ -7454,9 +7462,9 @@
     "title": "Hegseth Orders Termination of Most Pentagon Union Contracts on 24 Hours' Notice, Unions Sue",
     "institution": "Department of Defense",
     "domain": "staff_office_cuts",
-    "status": "Ongoing -- lawsuit filed and pending in U.S. District Court for Maryland as of this entry",
+    "status": "Ongoing -- lawsuit pending in U.S. District Court for Maryland; the unions filed a motion for a preliminary injunction on July 20, 2026 before Judge Stephanie A. Gallagher, seeking to halt Hegseth's directive and force DoD to rescind the termination notices; no ruling identified as of this update",
     "date_of_action": "2026-04 (Hegseth directive) through 2026-07 (union lawsuit filed)",
-    "what_changed": "In April 2026, Defense Secretary Pete Hegseth directed the Department of Defense to terminate most of its collective bargaining agreements with federal employee unions, giving only 24 hours' notice. The move implements, at DoD specifically, a broader Trump executive order stripping collective bargaining rights from federal employees at agencies with national security functions -- an order that explicitly exempted 'local employing offices' covering police officers, firefighters, and security guards. Two unions, the American Federation of Government Employees (AFGE) and the National Federation of Federal Employees (NFFE), sued in U.S. District Court for Maryland, alleging Hegseth's implementation violated the Administrative Procedure Act by failing to explain the abrupt policy reversal after DoD had continued honoring the agreements for nearly a year, providing no implementation plan (which the unions say caused widespread 'confusion and misinformation'), and acting without adequate notice or procedural safeguards. The lawsuit also alleges DoD swept in employees -- including dispatchers, IT workers, and other staff who work alongside exempted first responders -- whose bargaining rights should have remained protected under the terms of Trump's own executive order.",
+    "what_changed": "In April 2026, Defense Secretary Pete Hegseth directed the Department of Defense to terminate most of its collective bargaining agreements with federal employee unions, giving only 24 hours' notice. The move implements, at DoD specifically, a broader Trump executive order stripping collective bargaining rights from federal employees at agencies with national security functions -- an order that explicitly exempted 'local employing offices' covering police officers, firefighters, and security guards. Two unions, the American Federation of Government Employees (AFGE) and the National Federation of Federal Employees (NFFE), sued in U.S. District Court for Maryland, alleging Hegseth's implementation violated the Administrative Procedure Act by failing to explain the abrupt policy reversal after DoD had continued honoring the agreements for nearly a year, providing no implementation plan (which the unions say caused widespread 'confusion and misinformation'), and acting without adequate notice or procedural safeguards. The lawsuit also alleges DoD swept in employees -- including dispatchers, IT workers, and other staff who work alongside exempted first responders -- whose bargaining rights should have remained protected under the terms of Trump's own executive order. Update 2026-08-17: on July 20, 2026, the more than 20 AFGE and NFFE affiliates party to the lawsuit filed a motion asking U.S. District Court Judge Stephanie A. Gallagher for a preliminary injunction to halt implementation of Hegseth's April 9, 2026 directive and order DoD to rescind the collective-bargaining-agreement termination notices already issued. No ruling on the motion was identified as of this update. For context (not part of this entry's own claim, since it's a different agency and case), a federal judge separately ordered the VA in August 2026 to maintain collective bargaining with AFGE in an analogous dispute, after previously ordering the VA to restore union contracts it had similarly terminated -- illustrating that this kind of directive has not fared well in court elsewhere, though that is not itself a ruling in this DoD case.",
     "primary_proponent": {
       "name": "Pete Hegseth",
       "role": "Secretary of Defense",
@@ -7478,21 +7486,25 @@
       ],
       "caveat": "This entry documents the unions' allegations as stated in their lawsuit; no Pentagon or Hegseth response to the specific allegations was identified in sourcing reviewed, and the litigation is pending, so the legal questions raised (APA violation, improper scope beyond the executive order's stated exemptions) are unresolved, not adjudicated facts."
     },
-    "confidence_note": "MODERATE-HIGH confidence on the core facts (the April 2026 directive, the 24-hour notice period, the lawsuit and its allegations) since they're drawn from detailed Defense One reporting on the filed lawsuit, but the entry relies on a single detailed source rather than multiple independent outlets, and no Pentagon response was available to present the other side.",
+    "confidence_note": "MODERATE-HIGH confidence on the core facts (the April 2026 directive, the 24-hour notice period, the lawsuit and its allegations) since they're drawn from detailed Defense One reporting on the filed lawsuit, but the entry relies on a single detailed source rather than multiple independent outlets, and no Pentagon response was available to present the other side. Update 2026-08-17: the injunction motion and Judge Gallagher's assignment are corroborated across AFGE's own statements, Defense One, and Government Executive reporting on the filing.",
     "section_summaries": {
       "what_changed": "Hegseth ordered most Pentagon union contracts terminated with 24 hours' notice in April 2026; AFGE and NFFE sued, alleging APA violations and improper termination of contracts for employees who should have been exempt.",
       "estimated_impact": "Pentagon civilian employees lost bargaining protections abruptly, including some categories the underlying executive order didn't intend to reach, according to the unions' suit.",
       "confidence_note": "Based on detailed single-source reporting of the filed lawsuit; no Pentagon response identified, and the litigation's legal questions remain unresolved."
     },
-    "last_verified": "2026-07-27",
+    "last_verified": "2026-08-17",
     "date_added": "2026-07-27",
     "sources": [
       {
         "name": "Defense One — Unions sue Hegseth over Pentagon worker rights",
         "url": "https://www.defenseone.com/policy/2026/07/unions-sue-hegseth-pentagon-worker-rights/414675/"
+      },
+      {
+        "name": "Defense One -- Unions ask for injunction restoring collective bargaining at Defense",
+        "url": "https://www.defenseone.com/policy/2026/07/unions-ask-injunction-restoring-collective-bargaining-defense/414965/"
       }
     ],
-    "last_updated": "2026-07-27"
+    "last_updated": "2026-08-17"
   },
   {
     "id": "hhs-barda-mrna-vaccine-contract-cancellation-2025",
@@ -8143,9 +8155,9 @@
     "title": "Six Months After Promising Body Cameras for All Immigration Agents, DHS Still Hasn't Deployed Them -- Agents in Subsequent Fatal Shootings Had None",
     "institution": "Department of Homeland Security / Immigration and Customs Enforcement",
     "domain": "data_collection_halted",
-    "status": "Ongoing -- partial deployment as of the most recent reporting reviewed (~3,000 of ~13,000 ICE agents equipped as of February 2026), full nationwide rollout not completed as promised",
+    "status": "Ongoing -- as of this update ICE says it expects to have every field officer equipped with a body camera by the end of August 2026, an acceleration from the partial deployment (~3,000 of ~13,000) documented above; this is the agency's own stated target, not yet independently confirmed as completed, and a separate dispute has emerged over ICE's policy allowing leadership to withhold or indefinitely delay footage after in-custody deaths or serious injuries",
     "date_of_action": "2026-01 (body camera pledge made) through 2026-07 (still not fully deployed, additional fatal shootings without cameras)",
-    "what_changed": "After immigration agents fatally shot two U.S. citizens (Alex Pretti, a VA hospital ICU nurse, and Renee Good) in Minneapolis in January 2026, then-DHS Secretary Kristi Noem pledged to rapidly expand body camera deployment to immigration agents nationwide. Congress allocated $20 million in FY2026 DHS funding for body camera procurement, deployment, and operations, with plans to purchase more than 5,000 body-worn cameras; as of February 2026, roughly 3,000 of approximately 13,000 ICE agents wore body cameras, with another 6,000 in the deployment pipeline. Nearly six months after the pledge, none of the officers involved in two subsequent fatal ICE shootings -- of Lorenzo Salgado Araujo and Johan Duran Guerrero -- were wearing body cameras, according to NPR reporting; a separate fatal shooting in Houston also involved ICE agents without body cameras despite the DHS funding allocation.",
+    "what_changed": "After immigration agents fatally shot two U.S. citizens (Alex Pretti, a VA hospital ICU nurse, and Renee Good) in Minneapolis in January 2026, then-DHS Secretary Kristi Noem pledged to rapidly expand body camera deployment to immigration agents nationwide. Congress allocated $20 million in FY2026 DHS funding for body camera procurement, deployment, and operations, with plans to purchase more than 5,000 body-worn cameras; as of February 2026, roughly 3,000 of approximately 13,000 ICE agents wore body cameras, with another 6,000 in the deployment pipeline. Nearly six months after the pledge, none of the officers involved in two subsequent fatal ICE shootings -- of Lorenzo Salgado Araujo and Johan Duran Guerrero -- were wearing body cameras, according to NPR reporting; a separate fatal shooting in Houston also involved ICE agents without body cameras despite the DHS funding allocation. Update 2026-08-17: on August 7-8, 2026, ICE Acting Director David J. Venturella said the agency expects to complete nationwide body-camera deployment to every field officer by the end of August 2026 -- a significant acceleration from the ~3,000-of-13,000 partial deployment this entry documents as of February 2026, following the additional fatal shootings without cameras already covered above. Independent confirmation that the rollout was actually completed by the announced deadline was not available as of this update, since the deadline itself had not yet arrived. Separately, ICE's body-camera policy has drawn scrutiny for provisions that let agency leadership withhold or indefinitely delay release of footage following serious injuries or deaths in custody; Venturella defended the restrictions as protecting investigations and privacy and consistent with other federal law enforcement agencies' policies, while reporting noted this means the expanded camera coverage will not automatically translate into public access to the footage.",
     "primary_proponent": {
       "name": "Department of Homeland Security",
       "role": "Federal agency (pledge made under then-Secretary Kristi Noem)",
@@ -8177,13 +8189,13 @@
       ],
       "caveat": "DHS's stated pledge and the appropriated $20 million funding are both real and on the record -- this entry documents an implementation gap between the pledge/funding and actual deployment pace, not a claim that DHS took no action at all. Partial deployment (~3,000 agents) had occurred by the time of the most recent fatal shootings reviewed for this entry, meaning the gap is one of incomplete rollout speed and coverage, not zero progress."
     },
-    "confidence_note": "HIGH confidence -- corroborated across NPR (the original detailed report), CNN, US News, and Fox News/AOL coverage of the original Noem pledge, with consistent figures on funding and deployment pace across outlets.",
+    "confidence_note": "HIGH confidence -- corroborated across NPR (the original detailed report), CNN, US News, and Fox News/AOL coverage of the original Noem pledge, with consistent figures on funding and deployment pace across outlets. Update 2026-08-17: the end-of-August completion target and Venturella's statement are corroborated across NBC News, CNN, the Washington Post/AP, and CNBC. This is the agency's own announced target, not an independently verified completion -- worth rechecking directly once the deadline has passed rather than assuming it was met.",
     "section_summaries": {
       "what_changed": "DHS pledged rapid nationwide body camera deployment for ICE agents after January 2026 Minneapolis shootings killed two U.S. citizens, backed by $20 million in federal funding, but six months later only about a quarter of agents were equipped.",
       "estimated_impact": "Agents involved in at least three subsequent fatal shootings, including two specifically named in NPR's reporting, had no body cameras despite the pledge and funding, leaving no video record of those encounters.",
       "confidence_note": "Well-corroborated across NPR, CNN, and US News with consistent funding and deployment figures."
     },
-    "last_verified": "2026-07-27",
+    "last_verified": "2026-08-17",
     "date_added": "2026-07-27",
     "sources": [
       {
@@ -8197,9 +8209,17 @@
       {
         "name": "US News — DHS Was Granted $20M for Body Cameras. ICE Agents in Fatal Houston Shooting Had None",
         "url": "https://www.usnews.com/news/politics/articles/2026-07-10/dhs-was-granted-20m-for-body-cameras-ice-agents-in-fatal-houston-shooting-had-none"
+      },
+      {
+        "name": "NBC News -- All ICE officers will have body cameras by end of August, director says",
+        "url": "https://www.nbcnews.com/news/us-news/ice-body-cameras-rcna591483"
+      },
+      {
+        "name": "AP via Washington Post -- ICE says it expects to equip every field officer with body cameras by the end of August",
+        "url": "https://www.washingtonpost.com/politics/2026/08/08/ice-body-camera-policy-associated-press/fa7fa5b0-935d-11f1-9fdc-0a725c989a7b_story.html"
       }
     ],
-    "last_updated": "2026-07-27"
+    "last_updated": "2026-08-17"
   },
   {
     "id": "ies-nces-research-contract-cancellations-trump2",
@@ -11756,7 +11776,7 @@
     "domain": "funding_redirection",
     "status": "Ongoing -- eligibility changes took effect July 1, 2026; New York State has taken some mitigating action but has not restored coverage to all affected enrollees",
     "date_of_action": "2026-07-01 (eligibility changes take effect, following earlier-2026 enactment of HR1)",
-    "what_changed": "HR1, the reconciliation law Trump signed in 2026 and that the administration has branded the 'One Big Beautiful Bill,' cut federal funding underlying New York's Essential Plan -- a Basic Health Program that had provided low-cost coverage to low- and middle-income residents who earn too much for Medicaid but still qualify for ACA marketplace subsidy support. As of July 1, 2026, New Yorkers earning between 200% and 250% of the federal poverty level (a single-person household income of roughly $31,920 to $39,900 per year) lost eligibility for subsidized Essential Plan coverage entirely, and an estimated 450,000 New Yorkers lost coverage as a result. The law is projected to eliminate $7.5 billion in annual federal funding for the program, which had covered nearly 1.7 million low- and middle-income New Yorkers before the cuts. New York Governor Kathy Hochul's administration used a Basic Health Program waiver mechanism to access billions in a federal trust fund and partially mitigate the impact, preserving coverage for a majority of enrollees, but did not fully offset the loss for the affected income band. Additional Medicaid work-requirement provisions in the same law are expected to strip coverage from hundreds of thousands more Americans nationally beginning in 2027.",
+    "what_changed": "HR1, the reconciliation law Trump signed in 2026 and that the administration has branded the 'One Big Beautiful Bill,' cut federal funding underlying New York's Essential Plan -- a Basic Health Program that had provided low-cost coverage to low- and middle-income residents who earn too much for Medicaid but still qualify for ACA marketplace subsidy support. As of July 1, 2026, New Yorkers earning between 200% and 250% of the federal poverty level (a single-person household income of roughly $31,920 to $39,900 per year) lost eligibility for subsidized Essential Plan coverage entirely, and an estimated 450,000 New Yorkers lost coverage as a result. The law is projected to eliminate $7.5 billion in annual federal funding for the program, which had covered nearly 1.7 million low- and middle-income New Yorkers before the cuts. New York Governor Kathy Hochul's administration used a Basic Health Program waiver mechanism to access billions in a federal trust fund and partially mitigate the impact, preserving coverage for a majority of enrollees, but did not fully offset the loss for the affected income band. Additional Medicaid work-requirement provisions in the same law are expected to strip coverage from hundreds of thousands more Americans nationally beginning in 2027. Re-verified 2026-08-17: no material change to the ~450,000-affected figure or the state's mitigation approach; no further developments beyond what's already documented were identified as of this update.",
     "primary_proponent": {
       "name": "Donald Trump",
       "role": "President",
@@ -11788,13 +11808,13 @@
       ],
       "caveat": "New York's own mitigation response (using a Basic Health Program waiver to access federal trust-fund money) means the 450,000 figure reflects the gap remaining after the state's partial fix, not the full scale of the original federal cut -- other states without a comparable Basic Health Program waiver mechanism may see different outcomes from the same federal law. This entry documents New York's specific, well-reported impact rather than a national tally, which was not identified in sourcing reviewed."
     },
-    "confidence_note": "HIGH confidence on the core facts (eligibility change effective date, income thresholds, ~450,000 affected, HR1 as the causal federal law) -- corroborated across City & State New York and New York State of Health's own published impact analysis. MODERATE confidence on the precise total dollar figure ($7.5 billion) and the exact mechanics of New York's mitigation, since only one detailed secondary source was reviewed for this entry beyond the state's own materials.",
+    "confidence_note": "HIGH confidence on the core facts (eligibility change effective date, income thresholds, ~450,000 affected, HR1 as the causal federal law) -- corroborated across City & State New York and New York State of Health's own published impact analysis. MODERATE confidence on the precise total dollar figure ($7.5 billion) and the exact mechanics of New York's mitigation, since only one detailed secondary source was reviewed for this entry beyond the state's own materials. Re-verified 2026-08-17: no material change to report.",
     "section_summaries": {
       "what_changed": "HR1 cut federal funding for New York's Essential Plan, stripping subsidized coverage eligibility from residents earning 200-250% of the federal poverty level effective July 1, 2026.",
       "estimated_impact": "About 450,000 New Yorkers lost coverage out of nearly 1.7 million enrollees, even after the state used a federal waiver to partially mitigate the $7.5 billion funding cut; more losses are expected nationally in 2027 from related Medicaid work requirements.",
       "confidence_note": "Core facts corroborated by New York State's own published impact data and press coverage; broader national scope and precise cut mechanics rest on more limited sourcing."
     },
-    "last_verified": "2026-07-27",
+    "last_verified": "2026-08-17",
     "date_added": "2026-07-27",
     "sources": [
       {
@@ -11810,7 +11830,7 @@
         "url": "https://info.nystateofhealth.ny.gov/sites/default/files/Impact%20of%20HR1%20Legislation%20on%20Essential%20Plan%20April%202026.pdf"
       }
     ],
-    "last_updated": "2026-07-27"
+    "last_updated": "2026-08-17"
   },
   {
     "id": "oas-mission-diplomat-exodus-rizzuto-2026",
@@ -16688,9 +16708,9 @@
     "title": "White House Plan Shifts $200 Billion in Annual Federal Research Funding Away From Universities, Peer Review, Toward Political-Appointee Discretion",
     "institution": "Office of Science and Technology Policy (OSTP) / Office of Management and Budget (OMB) -- government-wide federal R&D funding",
     "domain": "research_suppression",
-    "status": "Plan unveiled -- directives to shape federal R&D funding for the remainder of Trump's second term, implementation across federal research agencies ongoing as of this entry",
+    "status": "Plan formalized as 'Science: A New Golden Age' (OSTP/OMB report and companion FY2028 R&D Priorities Memorandum, released July 21, 2026); federal research agencies with $3B+ in research budget authority must submit implementation action plans within 90 days; a bipartisan Senate continuing-resolution provision released August 2, 2026 would block the related grant-review rule from taking effect through December 11, 2026, pending House passage and the President's signature",
     "date_of_action": "2026-07 (plan unveiled)",
-    "what_changed": "The White House unveiled a plan, co-signed by OSTP Director Michael Kratsios and OMB Director Russell Vought, to reshape the roughly $200 billion annual federal research and development budget for the remainder of Trump's second term. The plan directs every federal research agency to supplement traditional, consensus-driven peer review with faster funding mechanisms -- described as 'golden tickets,' 'fast grants,' and portable awards that follow individual researchers rather than their host institutions -- shifting emphasis toward individual scientists and away from universities as institutions, which could particularly affect large universities reliant on federal grants. The plan directs research priorities toward artificial intelligence specifically, alongside stated goals of deploying a functioning quantum computer by 2028 and having 10 new large nuclear reactors under construction by 2030. A related proposed OMB rule would give political appointees greater direct influence over individual grant decisions, aligning funded research more closely with administration priorities rather than independent scientific merit review alone.",
+    "what_changed": "The White House unveiled a plan, co-signed by OSTP Director Michael Kratsios and OMB Director Russell Vought, to reshape the roughly $200 billion annual federal research and development budget for the remainder of Trump's second term. The plan directs every federal research agency to supplement traditional, consensus-driven peer review with faster funding mechanisms -- described as 'golden tickets,' 'fast grants,' and portable awards that follow individual researchers rather than their host institutions -- shifting emphasis toward individual scientists and away from universities as institutions, which could particularly affect large universities reliant on federal grants. The plan directs research priorities toward artificial intelligence specifically, alongside stated goals of deploying a functioning quantum computer by 2028 and having 10 new large nuclear reactors under construction by 2030. A related proposed OMB rule would give political appointees greater direct influence over individual grant decisions, aligning funded research more closely with administration priorities rather than independent scientific merit review alone. Update 2026-08-17: the plan was formally released July 21, 2026 as the OSTP report 'Science: A New Golden Age,' paired with a joint Kratsios-Vought FY2028 R&D Priorities Memorandum; every federal research agency with at least $3 billion in research budget authority must submit an implementation action plan within 90 days (i.e., by roughly mid-October 2026) detailing how it will adopt the new funding mechanisms. A separate, related proposed OMB rule giving political appointees greater influence over individual grant decisions has drawn bipartisan Senate pushback: a draft continuing-resolution provision released August 2, 2026 states the rule 'shall not be issued or finalized' and, if already in effect, 'shall not have force or take effect through December 11, 2026.' The provision still requires House passage and the President's signature to take effect, so it is a pending legislative check on the plan, not yet a resolution of the underlying dispute.",
     "primary_proponent": {
       "name": "Michael Kratsios",
       "role": "Director, Office of Science and Technology Policy",
@@ -16717,13 +16737,13 @@
       ],
       "caveat": "The plan's stated rationale -- that traditional peer review is too slow and consensus-driven, and that individual-researcher-focused, faster mechanisms could accelerate breakthrough research -- is a genuine, debatable policy position on scientific funding methodology, not solely a pretext; skeptics cited in reporting warn specifically about AI models' error-proneness and the risk of narrowing research diversity, which is a distinct concern from the political-appointee-influence question. Present both the efficiency rationale and the independence concerns."
     },
-    "confidence_note": "HIGH confidence -- based on detailed original Wall Street Journal reporting, corroborated across TradingView, Yahoo Finance, and multiple independent newsletter/analysis pieces (Kyle Saunders, Higher Ed Science) with consistent figures and named officials (Kratsios, Vought).",
+    "confidence_note": "HIGH confidence -- based on detailed original Wall Street Journal reporting, corroborated across TradingView, Yahoo Finance, and multiple independent newsletter/analysis pieces (Kyle Saunders, Higher Ed Science) with consistent figures and named officials (Kratsios, Vought). Update 2026-08-17: the report's formal name, the 90-day agency deadline, and the Senate CR provision are corroborated across Nature, STAT News, Higher Ed Dive, and the Washington Post's coverage of the bipartisan Senate response.",
     "section_summaries": {
       "what_changed": "The White House unveiled a plan reshaping the $200 billion annual federal R&D budget, shifting funding away from universities and traditional peer review toward AI-focused, appointee-influenced mechanisms benefiting individual researchers.",
       "estimated_impact": "Nearly the entire federal research budget faces new appointee-influenced funding pathways prioritizing AI and specific technology goals (quantum computing by 2028, 10 nuclear reactors by 2030), with critics warning of narrowed research diversity and reduced scientific independence.",
       "confidence_note": "Well-corroborated via detailed original WSJ reporting and consistent independent pickup, with named officials and figures."
     },
-    "last_verified": "2026-07-27",
+    "last_verified": "2026-08-17",
     "date_added": "2026-07-27",
     "sources": [
       {
@@ -16737,9 +16757,17 @@
       {
         "name": "Yahoo Finance — Trump is pulling billions in research money out of America's universities — and handing it to AI and scientists instead",
         "url": "https://finance.yahoo.com/technology/ai/articles/trump-pulling-billions-research-money-203000932.html"
+      },
+      {
+        "name": "Nature -- Controversial White House plan to overhaul US science funding faces Senate opposition",
+        "url": "https://www.nature.com/articles/d41586-026-02436-1"
+      },
+      {
+        "name": "STAT News -- Senate measure would block Trump plan to politicize federal grants, for now",
+        "url": "https://www.statnews.com/2026/08/02/senate-would-block-white-house-control-over-research-grants/"
       }
     ],
-    "last_updated": "2026-07-27"
+    "last_updated": "2026-08-17"
   },
   {
     "id": "white-house-higher-ed-compact-collapse-2025",
