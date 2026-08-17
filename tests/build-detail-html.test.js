@@ -169,6 +169,21 @@ test("tracker (Reporting) highlights the search term in the body", () => {
   );
 });
 
+test("tracker (Reporting) highlights the search term inside the source name", () => {
+  const entry = {
+    what_happened: "Some unrelated announcement.",
+    source_name: "Civil Rights Group Sues Over New Policy",
+    source_url: "https://example.com/post",
+  };
+  const cfg = { kind: "tracker" };
+  const result = buildDetailHtml(entry, cfg, "civil rights", false);
+
+  assert(
+    result.includes('<mark class="hl">Civil Rights</mark>'),
+    "should wrap the matched term in the source name with a <mark> highlight"
+  );
+});
+
 test("tracker (Reporting) with no active search term leaves body unhighlighted but escaped", () => {
   const entry = {
     what_happened: "Rules & <regulations> changed.",

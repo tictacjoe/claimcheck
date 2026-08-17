@@ -1072,7 +1072,7 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
   }
   if (cfg.kind === "tracker") {
     return '<div class="field-label">What happened</div><div class="field-value">' + highlightMatches(entry.what_happened || "", term, useRegex) + '</div>' +
-      (entry.source_name ? '<div class="field-label">Source</div><ul class="exhibit-list"><li><a href="' + entry.source_url + '" target="_blank" rel="noopener">' + entry.source_name + '</a></li></ul>' : '<div class="field-label">Source</div><div class="field-value" style="color:var(--ink-faint);font-style:italic;">not cited in original post</div>');
+      (entry.source_name ? '<div class="field-label">Source</div><ul class="exhibit-list"><li><a href="' + entry.source_url + '" target="_blank" rel="noopener">' + highlightMatches(entry.source_name, term, useRegex) + '</a></li></ul>' : '<div class="field-label">Source</div><div class="field-value" style="color:var(--ink-faint);font-style:italic;">not cited in original post</div>');
   }
   if (cfg.kind === "govservices") {
     return '<div class="field-label">Institution</div><div class="field-value">' + (entry.institution || "") + '</div>' +
