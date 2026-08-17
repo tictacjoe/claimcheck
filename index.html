@@ -151,6 +151,18 @@
     cursor: pointer;
   }
   .regex-toggle input { cursor: pointer; }
+  .clear-search-btn {
+    font-family: ui-monospace, monospace;
+    font-size: 0.95rem;
+    line-height: 1;
+    color: var(--ink-faint);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.3rem 0.4rem;
+    flex-shrink: 0;
+  }
+  .clear-search-btn:hover { color: var(--brass); }
   .regex-error {
     max-width: 700px;
     margin: 0.5rem auto 0;
@@ -455,6 +467,7 @@
   <div class="global-search-box" id="search-mode-box">
     <span class="search-icon">🔍</span>
     <input type="text" id="global-search" placeholder="Search everything — try &quot;EPA&quot;, &quot;Supreme Court&quot;, or a name...">
+    <button id="global-search-clear-btn" class="clear-search-btn" type="button" title="Clear search text">✕</button>
     <label class="regex-toggle"><input type="checkbox" id="global-oneliner"> 1-liners</label>
     <label class="regex-toggle"><input type="checkbox" id="global-regex"> regex</label>
   </div>
@@ -476,6 +489,7 @@
 <main>
   <div class="controls" id="tab-controls">
     <input type="text" id="search" placeholder="Search entries...">
+    <button id="search-clear-btn" class="clear-search-btn" type="button" title="Clear search text">✕</button>
     <select id="filter"></select>
     <label class="regex-toggle" id="sort-added-label"><input type="checkbox" id="sort-newest-added"> most recent entries first</label>
   </div>
@@ -1145,7 +1159,13 @@ function renderTabs() {
     const btn = document.createElement("button");
     btn.textContent = TRACKERS[key].label + " (" + TRACKERS[key].data.length + ")";
     btn.className = key === activeTracker ? "active" : "";
-    btn.onclick = () => { activeTracker = key; filterValue = ""; searchTerm = ""; document.getElementById("search").value = ""; renderDispatch(); };
+    // Deliberately does NOT clear searchTerm or the #search input --
+    // switching tabs should carry an active search term over to the
+    // newly-selected tracker, not silently discard it. filterValue is
+    // still reset since each tracker's filter dropdown has a different,
+    // tracker-specific set of options (domain vs. status category etc.)
+    // that wouldn't carry over meaningfully.
+    btn.onclick = () => { activeTracker = key; filterValue = ""; renderDispatch(); };
     nav.appendChild(btn);
   });
 }
@@ -1434,6 +1454,20 @@ document.getElementById("sort-newest-added").addEventListener("change", renderEn
 document.getElementById("global-search").addEventListener("input", renderDispatch);
 document.getElementById("global-regex").addEventListener("change", renderDispatch);
 document.getElementById("global-oneliner").addEventListener("change", renderDispatch);
+
+document.getElementById("search-clear-btn").addEventListener("click", () => {
+  const el = document.getElementById("search");
+  el.value = "";
+  searchTerm = "";
+  renderEntries();
+  el.focus();
+});
+document.getElementById("global-search-clear-btn").addEventListener("click", () => {
+  const el = document.getElementById("global-search");
+  el.value = "";
+  renderDispatch();
+  el.focus();
+});
 
 /* Floating nav actions: Back to Top just scrolls; Start Over resets
    every piece of search/filter state to the fresh-load default
