@@ -932,8 +932,8 @@ function escapeHtml(str) {
 /* escape-html:end */
 
 /* summary-line:start */
-function summaryLineHtml(summary) {
-  return summary ? '<p class="field-summary">' + summary + '</p>' : '';
+function summaryLineHtml(summary, term, useRegex) {
+  return summary ? '<p class="field-summary">' + highlightMatches(summary, term, useRegex) + '</p>' : '';
 }
 /* summary-line:end */
 
@@ -1076,35 +1076,43 @@ function matchesTerm(haystack, term, useRegex) {
    tracker kind's fields, not two drifting copies. */
 /* build-detail-html:start */
 function buildDetailHtml(entry, cfg, term, useRegex) {
+  // Same highlighting the card's title/meta line already gets --
+  // every free-text field rendered here that visibleSearchText() also
+  // searches needs to go through this, or a match found only inside
+  // (say) a confidence note or a source name would filter the entry in
+  // but never show the reader why.
+  const hl = (text) => highlightMatches(text || "", term, useRegex);
+  const summary = (text) => summaryLineHtml(text, term, useRegex);
+
   if (cfg.kind === "deregulation") {
-    return '<div class="field-label">What changed</div><div class="field-value">' + summaryLineHtml(entry.section_summaries?.what_changed) + (entry.what_changed || "") + '</div>' +
-      '<div class="field-label">Primary proponent</div><div class="field-value"><strong>' + (entry.primary_proponent?.name || "") + '</strong> — ' + (entry.primary_proponent?.role || "") + (entry.primary_proponent?.note ? '<br><em>' + entry.primary_proponent.note + '</em>' : '') + '</div>' +
-      '<div class="field-label">Estimated impact</div><div class="field-value">' + summaryLineHtml(entry.section_summaries?.estimated_impact) + (entry.estimated_health_impact?.summary || "") + '</div>' +
-      (entry.estimated_health_impact?.figures?.length ? '<ul class="exhibit-list">' + entry.estimated_health_impact.figures.map(f => '<li>' + f.metric + ': <strong>' + f.value + '</strong> (' + f.source + ')</li>').join("") + '</ul>' : '') +
-      '<div class="field-label">Confidence note</div><div class="confidence-box">' + summaryLineHtml(entry.section_summaries?.confidence_note) + (entry.confidence_note || "") + '</div>' +
-      '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + s.url + '" target="_blank" rel="noopener">' + s.name + '</a></li>').join("") + '</ul>';
+    return '<div class="field-label">What changed</div><div class="field-value">' + summary(entry.section_summaries?.what_changed) + hl(entry.what_changed) + '</div>' +
+      '<div class="field-label">Primary proponent</div><div class="field-value"><strong>' + hl(entry.primary_proponent?.name) + '</strong> — ' + hl(entry.primary_proponent?.role) + (entry.primary_proponent?.note ? '<br><em>' + hl(entry.primary_proponent.note) + '</em>' : '') + '</div>' +
+      '<div class="field-label">Estimated impact</div><div class="field-value">' + summary(entry.section_summaries?.estimated_impact) + hl(entry.estimated_health_impact?.summary) + '</div>' +
+      (entry.estimated_health_impact?.figures?.length ? '<ul class="exhibit-list">' + entry.estimated_health_impact.figures.map(f => '<li>' + hl(f.metric) + ': <strong>' + hl(f.value) + '</strong> (' + hl(f.source) + ')</li>').join("") + '</ul>' : '') +
+      '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + hl(entry.confidence_note) + '</div>' +
+      '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + s.url + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>';
   }
   if (cfg.kind === "tracker") {
-    return '<div class="field-label">What happened</div><div class="field-value">' + highlightMatches(entry.what_happened || "", term, useRegex) + '</div>' +
-      (entry.source_name ? '<div class="field-label">Source</div><ul class="exhibit-list"><li><a href="' + entry.source_url + '" target="_blank" rel="noopener">' + highlightMatches(entry.source_name, term, useRegex) + '</a></li></ul>' : '<div class="field-label">Source</div><div class="field-value" style="color:var(--ink-faint);font-style:italic;">not cited in original post</div>');
+    return '<div class="field-label">What happened</div><div class="field-value">' + hl(entry.what_happened) + '</div>' +
+      (entry.source_name ? '<div class="field-label">Source</div><ul class="exhibit-list"><li><a href="' + entry.source_url + '" target="_blank" rel="noopener">' + hl(entry.source_name) + '</a></li></ul>' : '<div class="field-label">Source</div><div class="field-value" style="color:var(--ink-faint);font-style:italic;">not cited in original post</div>');
   }
   if (cfg.kind === "govservices") {
-    return '<div class="field-label">Institution</div><div class="field-value">' + (entry.institution || "") + '</div>' +
-      '<div class="field-label">What changed</div><div class="field-value">' + summaryLineHtml(entry.section_summaries?.what_changed) + (entry.what_changed || "") + '</div>' +
-      '<div class="field-label">Primary proponent</div><div class="field-value"><strong>' + (entry.primary_proponent?.name || "") + '</strong> — ' + (entry.primary_proponent?.role || "") + (entry.primary_proponent?.note ? '<br><em>' + entry.primary_proponent.note + '</em>' : '') + '</div>' +
-      '<div class="field-label">Estimated impact</div><div class="field-value">' + summaryLineHtml(entry.section_summaries?.estimated_impact) + (entry.estimated_impact?.summary || "") + '</div>' +
-      (entry.estimated_impact?.figures?.length ? '<ul class="exhibit-list">' + entry.estimated_impact.figures.map(f => '<li>' + f.metric + ': <strong>' + f.value + '</strong> (' + f.source + ')</li>').join("") + '</ul>' : '') +
-      (entry.estimated_impact?.caveat ? '<div class="field-label">Caveat</div><div class="field-value" style="font-style:italic;">' + entry.estimated_impact.caveat + '</div>' : '') +
-      '<div class="field-label">Confidence note</div><div class="confidence-box">' + summaryLineHtml(entry.section_summaries?.confidence_note) + (entry.confidence_note || "") + '</div>' +
-      '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + s.url + '" target="_blank" rel="noopener">' + s.name + '</a></li>').join("") + '</ul>';
+    return '<div class="field-label">Institution</div><div class="field-value">' + hl(entry.institution) + '</div>' +
+      '<div class="field-label">What changed</div><div class="field-value">' + summary(entry.section_summaries?.what_changed) + hl(entry.what_changed) + '</div>' +
+      '<div class="field-label">Primary proponent</div><div class="field-value"><strong>' + hl(entry.primary_proponent?.name) + '</strong> — ' + hl(entry.primary_proponent?.role) + (entry.primary_proponent?.note ? '<br><em>' + hl(entry.primary_proponent.note) + '</em>' : '') + '</div>' +
+      '<div class="field-label">Estimated impact</div><div class="field-value">' + summary(entry.section_summaries?.estimated_impact) + hl(entry.estimated_impact?.summary) + '</div>' +
+      (entry.estimated_impact?.figures?.length ? '<ul class="exhibit-list">' + entry.estimated_impact.figures.map(f => '<li>' + hl(f.metric) + ': <strong>' + hl(f.value) + '</strong> (' + hl(f.source) + ')</li>').join("") + '</ul>' : '') +
+      (entry.estimated_impact?.caveat ? '<div class="field-label">Caveat</div><div class="field-value" style="font-style:italic;">' + hl(entry.estimated_impact.caveat) + '</div>' : '') +
+      '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + hl(entry.confidence_note) + '</div>' +
+      '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + s.url + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>';
   }
   // prosecution (default)
-  return '<div class="field-label">Violation Type</div><div class="field-value">' + (entry.offense_category || "") + '</div>' +
-    '<div class="field-label">Status Stage</div><div class="field-value">' + (entry.status_category || "") + '</div>' +
-    '<div class="field-label">Alleged Violation (full legal citation)</div><div class="field-value">' + (entry.offense_category_raw || entry.offense_category || "") + '</div>' +
-    '<div class="field-label">Incident summary</div><div class="field-value">' + summaryLineHtml(entry.section_summaries?.incident_summary) + (entry.incident_summary || "") + '</div>' +
-    '<div class="field-label">Status</div><div class="field-value">' + (entry.status || "") + '</div>' +
-    '<div class="field-label">Confidence note</div><div class="confidence-box">' + summaryLineHtml(entry.section_summaries?.confidence_note) + (entry.confidence_note || "") + '</div>';
+  return '<div class="field-label">Violation Type</div><div class="field-value">' + hl(entry.offense_category) + '</div>' +
+    '<div class="field-label">Status Stage</div><div class="field-value">' + hl(entry.status_category) + '</div>' +
+    '<div class="field-label">Alleged Violation (full legal citation)</div><div class="field-value">' + hl(entry.offense_category_raw || entry.offense_category) + '</div>' +
+    '<div class="field-label">Incident summary</div><div class="field-value">' + summary(entry.section_summaries?.incident_summary) + hl(entry.incident_summary) + '</div>' +
+    '<div class="field-label">Status</div><div class="field-value">' + hl(entry.status) + '</div>' +
+    '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + hl(entry.confidence_note) + '</div>';
 }
 /* build-detail-html:end */
 

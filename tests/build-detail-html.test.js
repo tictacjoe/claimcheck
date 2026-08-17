@@ -128,6 +128,30 @@ test("govservices with summaries", () => {
   assert(whatChangedIndex < whatChangedContentIndex, "what_changed summary should come before content");
 });
 
+test("govservices (Government Service Redirection) highlights the search term throughout the body", () => {
+  const entry = {
+    institution: "U.S. Department of Education, Office for Civil Rights",
+    what_changed: "Reduced staffing significantly.",
+    estimated_impact: {
+      summary: "Slower complaint processing.",
+      caveat: "Civil rights groups dispute the agency's framing."
+    },
+    confidence_note: "Civil rights advocates corroborate the timeline.",
+    primary_proponent: { name: "Jane Smith", role: "Secretary", note: "" },
+    sources: []
+  };
+  const cfg = { kind: "govservices" };
+  const result = buildDetailHtml(entry, cfg, "civil rights", false);
+
+  // institution, caveat, and confidence_note each contain a separate
+  // match -- all three were previously rendered raw/unhighlighted.
+  assert.equal(
+    (result.match(/<mark class="hl">/g) || []).length,
+    3,
+    "should highlight the term in institution, caveat, and confidence_note"
+  );
+});
+
 test("prosecution with summaries", () => {
   const entry = {
     offense_category: "Fraud",
@@ -152,6 +176,28 @@ test("prosecution with summaries", () => {
   const incidentIndex = result.indexOf("Allegedly submitted fraudulent documents");
   const incidentContentIndex = result.indexOf("False statements on federal forms");
   assert(incidentIndex < incidentContentIndex, "incident_summary summary should come before content");
+});
+
+test("prosecution (Cabinet-Level) highlights the search term throughout the body", () => {
+  const entry = {
+    offense_category: "Civil Rights Violation",
+    status_category: "Investigation",
+    offense_category_raw: "42 USC 1983",
+    incident_summary: "Alleged violation of civil rights during the raid.",
+    status: "Under investigation.",
+    confidence_note: "Civil rights attorneys corroborate the account."
+  };
+  const cfg = { kind: "prosecution" };
+  const result = buildDetailHtml(entry, cfg, "civil rights", false);
+
+  // offense_category, incident_summary, and confidence_note each
+  // contain a separate match -- all three were previously rendered
+  // raw/unhighlighted (only the card's collapsed meta line was).
+  assert.equal(
+    (result.match(/<mark class="hl">/g) || []).length,
+    3,
+    "should highlight the term in offense_category, incident_summary, and confidence_note"
+  );
 });
 
 test("tracker (Reporting) highlights the search term in the body", () => {
