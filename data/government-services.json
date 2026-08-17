@@ -6,7 +6,7 @@
     "domain": "funding_redirection",
     "status": "Ongoing -- enhanced subsidies lapsed at the end of 2025 and were not renewed by Congress; enrollment data through February 2026 shows the decline continuing",
     "date_of_action": "2025-12 (enhanced ACA subsidies expire) through 2026-02 (enrollment data showing the decline)",
-    "what_changed": "Enhanced ACA marketplace subsidies -- expanded tax credits that had made coverage more affordable for millions -- expired at the end of 2025 after Congress did not act to extend them. In February 2026, Trump officials proposed new ACA plan options featuring lower monthly premiums but deductibles exceeding $15,000 for individuals and $31,000 for families -- a structural shift officials framed as expanding choice, which critics say would leave enrollees exposed to catastrophic out-of-pocket costs before coverage meaningfully applies. A KFF poll reported in March 2026 found roughly 8 in 10 Americans with ACA marketplace plans were already paying higher health care costs following the subsidy expiration, with many enrollees cutting back on essentials like food and gas to afford coverage, while others reported reducing medication use or dropping coverage entirely as premiums and out-of-pocket costs rose. By April 2026, the coverage loss was also straining hospitals directly, not just enrollees: a healthcare-finance analysis found U.S. hospitals face an estimated $68.6 billion in lost revenue across 2026-2027 from rising uninsurance tied to the subsidy expiration and Medicaid changes combined. Florida -- one of ten states that never expanded Medicaid, leaving its hospitals with no expanded state safety net to absorb the loss -- was hit hardest: Bloomberg reported the state lost more than 440,000 marketplace enrollees in 2026, with between 750,000 and 1 million Floridians at risk of losing coverage overall given the state's above-average reliance on the enhanced subsidies; Florida, Georgia, and Texas together accounted for over 43% of national marketplace enrollment for the 2026 plan year. Individual Florida-serving hospital systems quantified their own exposure: HCA Healthcare projected a $1-1.2 billion 2026 hit from the lost subsidies, and AdventHealth projected roughly $1.5 billion in lost annual gross patient revenue from combined Medicaid and marketplace cuts. Federal data released in mid-2026 then showed the fuller national scope: roughly 2.6 million fewer Americans had ACA marketplace coverage in February 2026 than a year earlier, with Ohio and Oklahoma each losing nearly a third of their enrollees -- steeper drops than any other state -- and average costs for enrollees who wanted to keep their existing plans had risen 114% following the subsidy expiration. HHS, under Secretary Robert F. Kennedy Jr., attributed a significant share of the enrollment decline to a federal crackdown on 'phantom' or fraudulent enrollments -- citing an estimated 2.6 million improper or phantom enrollments nationally, including more than 1 million without a valid Social Security number, and suggesting nearly half of ACA enrollment growth from 2021-2024 may have been improper. Independent analysts and state officials disputed that framing, saying the enrollment collapse was more directly attributable to the subsidy expiration itself, sharply higher post-expiration premiums, and separately tightened eligibility rules restricting which immigrants can access subsidized coverage. CNBC reported the premium increases affected roughly 22 million Americans -- over 90% of ACA marketplace enrollees nationwide -- with premiums more than doubling for many after the subsidy expiration.",
+    "what_changed": "Enhanced ACA marketplace subsidies -- expanded tax credits that had made coverage more affordable for millions -- expired at the end of 2025 after Congress did not act to extend them. In February 2026, Trump officials proposed new ACA plan options featuring lower monthly premiums but deductibles exceeding $15,000 for individuals and $31,000 for families -- a structural shift officials framed as expanding choice, which critics say would leave enrollees exposed to catastrophic out-of-pocket costs before coverage meaningfully applies. A KFF poll reported in March 2026 found roughly 8 in 10 Americans with ACA marketplace plans were already paying higher health care costs following the subsidy expiration, with many enrollees cutting back on essentials like food and gas to afford coverage, while others reported reducing medication use or dropping coverage entirely as premiums and out-of-pocket costs rose. By April 2026, the coverage loss was also straining hospitals directly, not just enrollees: a healthcare-finance analysis found U.S. hospitals face an estimated $68.6 billion in lost revenue across 2026-2027 from rising uninsurance tied to the subsidy expiration and Medicaid changes combined. Florida -- one of ten states that never expanded Medicaid, leaving its hospitals with no expanded state safety net to absorb the loss -- was hit hardest: Bloomberg reported the state lost more than 440,000 marketplace enrollees in 2026, with between 750,000 and 1 million Floridians at risk of losing coverage overall given the state's above-average reliance on the enhanced subsidies; Florida, Georgia, and Texas together accounted for over 43% of national marketplace enrollment for the 2026 plan year. Individual Florida-serving hospital systems quantified their own exposure: HCA Healthcare projected a $1-1.2 billion 2026 hit from the lost subsidies, and AdventHealth projected roughly $1.5 billion in lost annual gross patient revenue from combined Medicaid and marketplace cuts. Federal data released in mid-2026 then showed the fuller national scope: roughly 2.6 million fewer Americans had ACA marketplace coverage in February 2026 than a year earlier, with Ohio and Oklahoma each losing nearly a third of their enrollees -- steeper drops than any other state -- and average costs for enrollees who wanted to keep their existing plans had risen 114% following the subsidy expiration. HHS, under Secretary Robert F. Kennedy Jr., attributed a significant share of the enrollment decline to a federal crackdown on 'phantom' or fraudulent enrollments -- citing an estimated 2.6 million improper or phantom enrollments nationally, including more than 1 million without a valid Social Security number, and suggesting nearly half of ACA enrollment growth from 2021-2024 may have been improper. Independent analysts and state officials disputed that framing, saying the enrollment collapse was more directly attributable to the subsidy expiration itself, sharply higher post-expiration premiums, and separately tightened eligibility rules restricting which immigrants can access subsidized coverage. CNBC reported the premium increases affected roughly 22 million Americans -- over 90% of ACA marketplace enrollees nationwide -- with premiums more than doubling for many after the subsidy expiration. Update: Congress did not restore the enhanced subsidies -- the House passed a three-year extension 230-196 (17 Republicans joining) in January 2026, but the Senate's parallel effort (the Lower Health Care Costs Act, S.3385) fell short of the 60 votes needed to advance, and no extension has passed as of this re-verification. Separately, KFF's analysis of 2027 marketplace rate filings from 276 insurers found a proposed median premium increase of 15% for 2027 -- a second consecutive year of double-digit marketplace premium increases (2026's finalized median increase was 20%) -- turning this entry's earlier forward-looking analyst warning about a smaller, sicker 2027 risk pool into an observed data point rather than a projection.",
     "primary_proponent": {
       "name": "Robert F. Kennedy Jr.",
       "role": "Secretary of Health and Human Services",
@@ -56,15 +56,15 @@
           "source": "Bloomberg, April 2026"
         }
       ],
-      "caveat": "HHS's fraud/'phantom enrollment' figure and the overall enrollment-decline figure are coincidentally similar in scale (~2.6 million each) but represent different HHS and independent-analyst framings of the same underlying decline -- this entry presents both explanations as competing, disputed accounts rather than treating either as settled. Independent analysts and state officials attribute the bulk of the decline to subsidy expiration and premium increases, not fraud; HHS's own estimate of historical improper-enrollment growth (2021-2024) is itself a contested figure disputed by ACA-marketplace advocates, though a detailed rebuttal was not reviewed for this entry. Separately, insurance-market analysts warned in May 2026 reporting that the enrollment drop -- disproportionately among healthier, price-sensitive enrollees who leave first when subsidies shrink -- will leave insurers pricing 2027 plans against a smaller, sicker risk pool, projecting a further round of rate increases; this is a forward-looking analyst projection, not yet an observed 2027 rate figure, and should be framed as such."
+      "caveat": "HHS's fraud/'phantom enrollment' figure and the overall enrollment-decline figure are coincidentally similar in scale (~2.6 million each) but represent different HHS and independent-analyst framings of the same underlying decline -- this entry presents both explanations as competing, disputed accounts rather than treating either as settled. Independent analysts and state officials attribute the bulk of the decline to subsidy expiration and premium increases, not fraud; HHS's own estimate of historical improper-enrollment growth (2021-2024) is itself a contested figure disputed by ACA-marketplace advocates, though a detailed rebuttal was not reviewed for this entry. Separately, insurance-market analysts warned in May 2026 reporting that the enrollment drop -- disproportionately among healthier, price-sensitive enrollees who leave first when subsidies shrink -- will leave insurers pricing 2027 plans against a smaller, sicker risk pool, projecting a further round of rate increases; this projection is now partially realized: KFF's analysis of insurers' 2027 rate filings (276 insurers, all states + DC) found a proposed median 15% increase, confirming a second straight year of double-digit hikes, though final (not just proposed) 2027 rates were not yet locked in as of this re-verification."
     },
-    "confidence_note": "HIGH confidence on the core enrollment-decline figures and state-level breakdowns, sourced to federal data and corroborated across PBS News, CNBC, Washington Times, and HHS's own ASPE enrollment report. MODERATE confidence on attributing primary causation to either explanation (subsidy expiration/premiums vs. fraud crackdown) -- this is a genuinely disputed empirical question between HHS and independent analysts, not a settled one, and should be presented as such in debate use. The 2027 rate-hike warning is a LOWER-confidence forward projection from insurance-market analysts, not a realized figure. Re-verified 2026-08-06: the hospital revenue-loss figures are HIGH confidence -- the $68.6B combined 2026-2027 estimate and Florida's specific enrollee-loss and hospital-system figures ($1-1.2B HCA, ~$1.5B AdventHealth) are directly sourced to Bloomberg's dedicated Florida reporting and a FierceHealthcare analysis, not modeled by this entry.",
+    "confidence_note": "HIGH confidence on the core enrollment-decline figures and state-level breakdowns, sourced to federal data and corroborated across PBS News, CNBC, Washington Times, and HHS's own ASPE enrollment report. MODERATE confidence on attributing primary causation to either explanation (subsidy expiration/premiums vs. fraud crackdown) -- this is a genuinely disputed empirical question between HHS and independent analysts, not a settled one, and should be presented as such in debate use. The 2027 rate-hike warning is a LOWER-confidence forward projection from insurance-market analysts, not a realized figure. Re-verified 2026-08-06: the hospital revenue-loss figures are HIGH confidence -- the $68.6B combined 2026-2027 estimate and Florida's specific enrollee-loss and hospital-system figures ($1-1.2B HCA, ~$1.5B AdventHealth) are directly sourced to Bloomberg's dedicated Florida reporting and a FierceHealthcare analysis, not modeled by this entry. Re-verified 2026-08-17: the 2027 rate-filing data (median 15% proposed increase) is HIGH confidence, sourced to KFF's own analysis of insurers' public filings; final 2027 rates were not yet locked in as of this re-verification, so this remains proposed rather than finalized. The Senate's failure to advance a subsidy-extension bill (S.3385, short of 60 votes) is HIGH confidence, corroborated by CNBC and Ballotpedia reporting on the January 2026 House vote and its Senate reception.",
     "section_summaries": {
       "what_changed": "Enhanced ACA subsidies expired at the end of 2025 without congressional renewal; 2.6 million fewer Americans had marketplace coverage a year later, with Ohio and Oklahoma losing nearly a third of enrollees each, while HHS blamed the drop mainly on enrollment fraud rather than the subsidy lapse. Officials also proposed new low-premium/high-deductible ($15K individual/$31K family) ACA plan options.",
       "estimated_impact": "Premiums rose 114% on average for enrollees keeping coverage; independent analysts dispute HHS's fraud framing and point to the subsidy expiration and tightened immigrant eligibility rules as the more direct causes.",
       "confidence_note": "Enrollment figures are federally sourced and well-corroborated; the competing causal explanations (fraud vs. subsidy expiration) remain a genuinely disputed question between HHS and independent analysts."
     },
-    "last_verified": "2026-08-06",
+    "last_verified": "2026-08-17",
     "date_added": "2026-07-27",
     "sources": [
       {
@@ -106,9 +106,13 @@
       {
         "name": "FierceHealthcare -- Providers face $32.1B in lost 2026 revenue if enhanced ACA subsidies expire",
         "url": "https://www.fiercehealthcare.com/providers/providers-face-321b-lost-2026-revenue-if-aca-enhanced-premiums-expire"
+      },
+      {
+        "name": "KFF -- How Much and Why ACA Marketplace Premiums Are Going Up in 2027",
+        "url": "https://www.kff.org/affordable-care-act/how-much-and-why-aca-marketplace-premiums-are-going-up-in-2027/"
       }
     ],
-    "last_updated": "2026-08-06"
+    "last_updated": "2026-08-17"
   },
   {
     "id": "acl-disability-research-grants-cut-2026",
@@ -13943,9 +13947,9 @@
     "title": "770,000+ Children Lost SNAP Benefits in the Year After Trump's Domestic Policy Law, Despite Promises Children Would Be Protected",
     "institution": "USDA / Supplemental Nutrition Assistance Program (SNAP)",
     "domain": "funding_redirection",
-    "status": "Ongoing -- ProPublica's analysis covers the 12 months following the law's July 2025 enactment, published June 2026",
+    "status": "Ongoing and worse than first measured -- ProPublica's original 12-state analysis (776,134 children) was superseded in scope by a 19-state CBPP analysis (1.06M+ children, 44% of all losses) reported July 23, 2026",
     "date_of_action": "2025-07-04 (One Big Beautiful Bill Act signed) through 2026-06 (ProPublica analysis published)",
-    "what_changed": "A ProPublica analysis published June 17, 2026 found at least 776,134 children stopped receiving SNAP benefits in the 12 states that report participation by age, in the year following Trump's signing of the One Big Beautiful Bill Act on July 4, 2025 -- legislation that cut roughly $186 billion from SNAP over a decade, the largest cut in the program's history, imposed new work requirements on older adults and parents of teenagers, and shifted billions in administrative and benefit costs onto states. Children made up nearly half of everyone cut from the program across the states studied. The impact was highly uneven: Arizona alone lost 205,223 children from its SNAP rolls since July 2025, a 55% decline (driven in part by the state's own error-rate-penalty response, tracked separately in this database), while Louisiana recorded the second-steepest child decline at 22%. Republicans had promised during the law's passage that children and other vulnerable groups would be shielded from its effects.",
+    "what_changed": "A ProPublica analysis published June 17, 2026 found at least 776,134 children stopped receiving SNAP benefits in the 12 states that report participation by age, in the year following Trump's signing of the One Big Beautiful Bill Act on July 4, 2025 -- legislation that cut roughly $186 billion from SNAP over a decade, the largest cut in the program's history, imposed new work requirements on older adults and parents of teenagers, and shifted billions in administrative and benefit costs onto states. Children made up nearly half of everyone cut from the program across the states studied. The impact was highly uneven: Arizona alone lost 205,223 children from its SNAP rolls since July 2025, a 55% decline (driven in part by the state's own error-rate-penalty response, tracked separately in this database), while Louisiana recorded the second-steepest child decline at 22%. Republicans had promised during the law's passage that children and other vulnerable groups would be shielded from its effects. A subsequent Center on Budget and Policy Priorities analysis, reported by Newsweek on July 23, 2026, extended the picture across 19 states (versus the original ProPublica analysis's 12) and found more than 1.06 million children had lost SNAP benefits since the law's enactment, with children accounting for 44% of all enrollment losses in those states -- a materially larger scope than the 776,134/12-state figure this entry was originally built around, though the two analyses use overlapping but not identical state samples.",
     "primary_proponent": {
       "name": "Trump administration / Congressional Republicans (One Big Beautiful Bill Act)",
       "role": "Signed and enacted the underlying SNAP funding cuts and work-requirement changes",
@@ -13973,12 +13977,17 @@
           "metric": "Louisiana child SNAP decline",
           "value": "22%",
           "source": "ProPublica, citing Louisiana state SNAP data"
+        },
+        {
+          "metric": "Children who lost SNAP across 19 states examined (broader follow-on analysis)",
+          "value": "1,060,000+ (44% of all enrollment losses in those states)",
+          "source": "Center on Budget and Policy Priorities analysis, reported by Newsweek, July 23, 2026"
         }
       ],
       "caveat": "The 776,134 figure covers only the 12 states that publicly report SNAP participation broken out by age, so it understates the true national child-loss total. Some of the decline reflects state-level administrative-burden responses to the law's error-rate penalties (see this tracker's separate Arizona SNAP entry) rather than direct federal eligibility changes alone -- both mechanisms trace back to the same underlying federal law."
     },
-    "confidence_note": "Strong sourcing: this is ProPublica's own original data analysis of state-reported SNAP participation figures, corroborated by independent secondary coverage (Newsweek, IBTimes UK, the Equal Justice Initiative) and citing on-record commentary from the Center on Budget and Policy Priorities. The state-level breakdowns come from state agencies' own published data, not modeled estimates.",
-    "last_verified": "2026-08-05",
+    "confidence_note": "Strong sourcing: this is ProPublica's own original data analysis of state-reported SNAP participation figures, corroborated by independent secondary coverage (Newsweek, IBTimes UK, the Equal Justice Initiative) and citing on-record commentary from the Center on Budget and Policy Priorities. The state-level breakdowns come from state agencies' own published data, not modeled estimates. Re-verified 2026-08-17: a broader 19-state CBPP analysis (reported by Newsweek, July 23, 2026) corroborates and extends the original ProPublica finding with a larger child-loss total; both are original analyses of state-reported administrative data, not modeled estimates, so treating them as consistent rather than conflicting.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-05",
     "sources": [
       {
@@ -13992,6 +14001,10 @@
       {
         "name": "Equal Justice Initiative -- Nearly Half of People Who Have Lost SNAP Benefits Are Children",
         "url": "https://eji.org/news/nearly-half-of-people-who-have-lost-snap-benefits-are-children/"
+      },
+      {
+        "name": "Newsweek -- Map Shows How Many Children Have Lost SNAP Benefits Under New Rules",
+        "url": "https://www.newsweek.com/map-shows-how-many-children-lost-snap-benefits-new-rules-12229283"
       }
     ],
     "section_summaries": {
@@ -13999,7 +14012,7 @@
       "estimated_impact": "Children made up nearly half of everyone cut from SNAP across the 12 states studied, with Arizona (55% child decline) and Louisiana (22%) hit hardest.",
       "confidence_note": "Strong: ProPublica's own original analysis of state-reported data, independently corroborated and citing on-record policy-analyst commentary."
     },
-    "last_updated": "2026-08-05"
+    "last_updated": "2026-08-17"
   },
   {
     "id": "snap-shutdown-funding-freeze-trump2",
@@ -14760,9 +14773,9 @@
     "title": "State Department Ordered Nonprofit Public Libraries to Stop Processing Passport Applications, Affecting ~1,400 Libraries",
     "institution": "U.S. Department of State",
     "domain": "funding_redirection",
-    "status": "In effect as of February 13, 2026 -- bipartisan congressional pushback ongoing, no reversal confirmed in sourcing reviewed",
+    "status": "In effect as of February 13, 2026 -- bipartisan H.R. 6997 (Community Passport Services Access Act) was introduced January 9, 2026 to reverse the change, but had not passed either chamber as of this re-verification; no administrative reversal confirmed in sourcing reviewed",
     "date_of_action": "2025 (cease-and-desist letters begin, per reporting) through 2026-02-13 (effective date reported)",
-    "what_changed": "The State Department began issuing cease-and-desist letters to nonprofit public libraries starting in late fall 2025, informing them they were no longer authorized to participate in the Passport Acceptance Facility program, with the order taking effect February 13, 2026. A State Department spokesperson said the change was required because federal law and regulations 'clearly prohibit non-governmental organizations' from collecting and retaining passport-application fees. The American Library Association estimated approximately 1,400 public libraries nationwide -- about 15% of all public libraries -- could be affected, ending a long-standing, convenient passport-application channel for many communities, particularly ones without a nearby post office or passport agency. A bipartisan group of members of Congress from Connecticut, Pennsylvania, New York, New Jersey, and Maryland sent a letter to Secretary of State Marco Rubio asking him to extend the existing library program until Congress finds a permanent solution.",
+    "what_changed": "The State Department began issuing cease-and-desist letters to nonprofit public libraries starting in late fall 2025, informing them they were no longer authorized to participate in the Passport Acceptance Facility program, with the order taking effect February 13, 2026. A State Department spokesperson said the change was required because federal law and regulations 'clearly prohibit non-governmental organizations' from collecting and retaining passport-application fees. The American Library Association estimated approximately 1,400 public libraries nationwide -- about 15% of all public libraries -- could be affected, ending a long-standing, convenient passport-application channel for many communities, particularly ones without a nearby post office or passport agency. A bipartisan group of members of Congress from Connecticut, Pennsylvania, New York, New Jersey, and Maryland sent a letter to Secretary of State Marco Rubio asking him to extend the existing library program until Congress finds a permanent solution. A bipartisan coalition led by Rep. Brian Fitzpatrick, and including Reps. John Joyce, Madeleine Dean, Mary Gay Scanlon, Chrissy Houlahan, Robert Bresnahan, and Lloyd Smucker, introduced H.R. 6997, the Community Passport Services Access Act, on January 9, 2026, which would amend the Passport Act of 1920 to let qualifying 501(c)(3) nonprofit public libraries continue serving as passport acceptance facilities and retain the execution fee. As of this re-verification the bill had roughly 14 cosponsors but had not received a floor vote in either chamber.",
     "primary_proponent": {
       "name": "Marco Rubio",
       "role": "Secretary of State",
@@ -14779,10 +14792,10 @@
       ],
       "caveat": "This entry documents a service-access change rather than a claim that State's stated legal rationale is pretextual -- the bipartisan congressional pushback concerns the change's public-service impact and timing, not necessarily a dispute over the underlying legal interpretation."
     },
-    "confidence_note": "HIGH confidence -- the cease-and-desist letters, the effective date, State's stated rationale, the ALA's impact estimate, and the bipartisan congressional letter are all independently corroborated across AP-sourced reporting (US News, Press Democrat, WHYY, PBS NewsHour) and the senators' own published letter.",
-    "last_verified": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the cease-and-desist letters, the effective date, State's stated rationale, the ALA's impact estimate, and the bipartisan congressional letter are all independently corroborated across AP-sourced reporting (US News, Press Democrat, WHYY, PBS NewsHour) and the senators' own published letter. Re-verified 2026-08-17: no reversal or floor vote identified; H.R. 6997 remains pending, per Congress.gov and sponsor press releases.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-05",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-17",
     "sources": [
       {
         "name": "AP via U.S. News -- 'State Department Orders Nonprofit Libraries to Stop Processing Passport Applications'",
@@ -14791,6 +14804,10 @@
       {
         "name": "Sen. Fetterman's office -- Letter to Sec. Rubio RE Passports at Libraries",
         "url": "https://www.fetterman.senate.gov/wp-content/uploads/2026/02/Letter-to-Sec.-Rubio-RE-Passports-at-Libraries.pdf"
+      },
+      {
+        "name": "Congress.gov -- H.R.6997, Community Passport Services Access Act (119th Congress)",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/6997"
       }
     ],
     "section_summaries": {
@@ -14867,9 +14884,9 @@
     "title": "DHS Spent at Least $40 Million to Deport ~300 Migrants to Third Countries With No Connection to Them",
     "institution": "Department of Homeland Security / Department of State",
     "domain": "funding_redirection",
-    "status": "Ongoing practice as of this entry's addition -- the Senate Foreign Relations Committee Democratic staff report was published Feb. 2026; no administration response confirmed in sourcing reviewed",
+    "status": "Practice ongoing under a First Circuit stay -- a federal district judge ruled the expedited third-country removal practice unconstitutional/unlawful on February 25, 2026, but the First Circuit stayed that ruling on March 16, 2026 pending appeal, so deportations continued through this entry's original August 2026 sourcing; Democratic senators' and representatives' April 2026 request for an IG investigation had not produced a review as of the DHS OIG's own response citing a shutdown; the Senate Foreign Relations Committee Democratic staff report (the basis for this entry's cost figures) was published against this unresolved legal backdrop, not after a settled ruling",
     "date_of_action": "2025-2026 (practice expanded over the prior year per the report)",
-    "what_changed": "A Senate Foreign Relations Committee Democratic staff report found the Trump administration spent at least $40 million to deport roughly 300 migrants to third countries -- nations other than their own, where they typically have no prior connection -- rather than to their countries of origin, as immigration officials expanded the practice over the prior year. The report identified lump-sum payments ranging from $4.7 million to $7.5 million made to five countries (Equatorial Guinea, Rwanda, El Salvador, Eswatini, and Palau) in exchange for accepting deportees; El Salvador received roughly 250 Venezuelan nationals, while the other four countries received far fewer (as few as 29 to Equatorial Guinea, and none confirmed sent to Palau as of the report). Separate reporting on the same underlying data found some individual deportations cost as much as $1 million each. Sen. Jeanne Shaheen, the committee's top Democrat, characterized the practice as 'the epitome' of 'fraud, waste, and abuse.'",
+    "what_changed": "A Senate Foreign Relations Committee Democratic staff report found the Trump administration spent at least $40 million to deport roughly 300 migrants to third countries -- nations other than their own, where they typically have no prior connection -- rather than to their countries of origin, as immigration officials expanded the practice over the prior year. The report identified lump-sum payments ranging from $4.7 million to $7.5 million made to five countries (Equatorial Guinea, Rwanda, El Salvador, Eswatini, and Palau) in exchange for accepting deportees; El Salvador received roughly 250 Venezuelan nationals, while the other four countries received far fewer (as few as 29 to Equatorial Guinea, and none confirmed sent to Palau as of the report). Separate reporting on the same underlying data found some individual deportations cost as much as $1 million each. Sen. Jeanne Shaheen, the committee's top Democrat, characterized the practice as 'the epitome' of 'fraud, waste, and abuse.' This entry's original status characterization ('no administration response confirmed') omitted substantial court and congressional action that predates this entry's own date_added: on February 25, 2026, U.S. District Judge Brian E. Murphy (D. Mass.) ruled in D.V.D. v. DHS that the administration's expedited third-country removal practice is unlawful, violating due-process guarantees and the Convention Against Torture's non-refoulement principle, because it gave migrants no meaningful opportunity to contest removal to a country where they feared persecution or torture. The Supreme Court had twice stayed an earlier, broader version of Murphy's injunction in 2025 without ruling on the merits. The Trump administration (DOJ) appealed Murphy's February ruling to the First Circuit, which stayed the district court's decision on March 16, 2026, allowing third-country deportations to continue while the appeal on the merits proceeds -- so the underlying legality question remains unresolved, not resolved in the administration's favor. Separately, on April 7, 2026, Sen. Elizabeth Warren, Sen. Chris Van Hollen, Rep. Delia Ramirez, and Rep. Troy Carter sent a letter demanding that the DHS and State Department inspectors general investigate the deportation program; DHS's Office of Inspector General responded that a government shutdown at the time prevented it from opening new reviews.",
     "primary_proponent": {
       "name": "Department of Homeland Security / Department of State",
       "role": "Agencies negotiating and executing the third-country deportation agreements and lump-sum payments",
@@ -14899,12 +14916,12 @@
           "source": "Yahoo/AOL, citing the same underlying report"
         }
       ],
-      "caveat": "This is a Democratic-staff congressional report, not an independent GAO or Inspector General audit -- its figures are drawn from administration data obtained via oversight channels but the characterization ('fraud, waste, and abuse') is the minority party's own assessment. No administration rebuttal of the specific dollar figures was identified in sourcing reviewed."
+      "caveat": "This is a Democratic-staff congressional report, not an independent GAO or Inspector General audit -- its figures are drawn from administration data obtained via oversight channels but the characterization ('fraud, waste, and abuse') is the minority party's own assessment. No administration rebuttal of the specific dollar figures was identified in sourcing reviewed. This entry was corrected 2026-08-17: it originally stated no administration response had been identified, but a federal court had already ruled the practice unlawful (Feb. 25, 2026, later stayed on appeal) and Democratic lawmakers had already formally demanded an IG investigation (April 2026) -- both before this entry's own August 2026 sourcing was compiled. The dollar and deportee-count figures themselves are unaffected by this correction."
     },
-    "confidence_note": "MODERATE-HIGH confidence -- the dollar figures and country-by-country breakdown are drawn directly from the Senate Foreign Relations Committee's own published report and independently corroborated by AP-sourced wire coverage (ABC affiliates, Good Morning America); no administration dispute of the specific figures was identified, though the report's framing is from Democratic committee staff rather than a nonpartisan auditor.",
-    "last_verified": "2026-08-05",
+    "confidence_note": "MODERATE-HIGH confidence -- the dollar figures and country-by-country breakdown are drawn directly from the Senate Foreign Relations Committee's own published report and independently corroborated by AP-sourced wire coverage (ABC affiliates, Good Morning America); no administration dispute of the specific figures was identified, though the report's framing is from Democratic committee staff rather than a nonpartisan auditor. CORRECTED 2026-08-17: the entry's original status field incorrectly implied no administration or legal response existed; in fact a federal court had already found the practice unlawful (Feb. 2026, stayed on appeal in March 2026) and Democratic lawmakers had already sought an IG investigation (April 2026), both predating this entry's own date_added. Status and what_changed have been rewritten to reflect the actual, unresolved legal posture. Court-ruling and appeal-stay facts are HIGH confidence, corroborated across NBC News, CBS News, Washington Post, Bloomberg Law, and Fox News; the IG-investigation-request facts are HIGH confidence, sourced to the senators' own published letter.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-05",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-17",
     "sources": [
       {
         "name": "Senate Foreign Relations Committee (Minority) -- 'At What Cost? Inside the Trump Administration's Secret Deportation Deals'",
@@ -14917,6 +14934,18 @@
       {
         "name": "ABC7 -- 'US spent $40M on roughly 300 deportations to nations other than their own, Democratic report says'",
         "url": "https://abc7news.com/post/donald-trump-deportation-news-us-spent-40m-roughly-300-deportations-nations-other-own-democratic-report-says/18599935/"
+      },
+      {
+        "name": "Washington Post -- Trump's third-country deportation policy is unlawful, judge finds",
+        "url": "https://www.washingtonpost.com/immigration/2026/02/25/federal-judge-migrants-deportations-trump-ruling/"
+      },
+      {
+        "name": "The Hill -- Appeals court allows Trump to swiftly deport migrants to third countries",
+        "url": "https://thehill.com/regulation/court-battles/5786361-trump-administration-deportations-appeal/"
+      },
+      {
+        "name": "Sen. Warren et al. -- Letter to DHS/State Inspectors General on third-country deportations (April 7, 2026)",
+        "url": "https://www.warren.senate.gov/newsroom/press-releases/warren-van-hollen-ramirez-carter-demand-investigation-into-trump-admins-unlawful-and-costly-system-of-third-country-deportations/"
       }
     ],
     "section_summaries": {
@@ -16812,7 +16841,7 @@
     "domain": "research_suppression",
     "status": "Ongoing as of this entry's addition (Feb. 2026 reporting)",
     "date_of_action": "2025-2026 (ongoing industry response to federal policy shift)",
-    "what_changed": "The New York Times reported that vaccine manufacturers are scaling back research programs, canceling planned factory investments, and laying off workers in response to federal vaccine policy under HHS Secretary RFK Jr. turning increasingly hostile toward vaccines. Moderna paused a late-stage vaccine trial as part of this broader pullback. This industry-wide contraction is a downstream consequence of, and connects to, several federal actions this tracker separately documents -- including FDA's refusal to even review Moderna's mRNA flu vaccine application (fda-moderna-mrna-flu-vaccine-refusal-2026.json) and RFK Jr. allies' state-level campaign against school vaccine mandates (rfk-allies-state-vaccine-mandate-repeal-2026.json) -- representing the private-sector investment and R&D response to a federal policy environment manufacturers now judge as unfavorable to vaccine development.",
+    "what_changed": "The New York Times reported that vaccine manufacturers are scaling back research programs, canceling planned factory investments, and laying off workers in response to federal vaccine policy under HHS Secretary RFK Jr. turning increasingly hostile toward vaccines. Moderna paused a late-stage vaccine trial as part of this broader pullback. This industry-wide contraction is a downstream consequence of, and connects to, several federal actions this tracker separately documents -- including FDA's refusal to even review Moderna's mRNA flu vaccine application (fda-moderna-mrna-flu-vaccine-refusal-2026.json) and RFK Jr. allies' state-level campaign against school vaccine mandates (rfk-allies-state-vaccine-mandate-repeal-2026.json) -- representing the private-sector investment and R&D response to a federal policy environment manufacturers now judge as unfavorable to vaccine development. Update: on August 5, 2026, the FDA reversed its earlier refusal and approved Moderna's mRNA flu vaccine (branded mFlusiva) for adults 50-64 and 65+, after Moderna agreed to conduct a postmarket confirmatory trial in the older age group; late-stage trial data found it roughly 27% more effective than a standard-dose flu shot for people 50 and older. This is a notable partial counterpoint within the broader pullback this entry documents -- one product from one manufacturer ultimately reached approval despite RFK Jr.'s public skepticism of mRNA technology -- but reporting reviewed does not indicate the industry-wide R&D and factory-investment contraction the New York Times described has otherwise reversed.",
     "primary_proponent": {
       "name": "HHS Secretary Robert F. Kennedy Jr.",
       "role": "Federal official whose policy direction manufacturers cite as driving the industry pullback",
@@ -16820,16 +16849,20 @@
     },
     "estimated_impact": {
       "summary": "A broad industry-wide pullback in vaccine R&D investment, factory construction, and employment -- including a major manufacturer (Moderna) pausing a late-stage trial -- represents a longer-term reduction in future vaccine development capacity and pipeline, distinct from any single federal action's immediate effect.",
-      "caveat": "This entry documents an industry-response trend reported by the New York Times rather than a single discrete federal action; the precise causal weight of federal policy versus other market factors (e.g., post-pandemic vaccine demand normalization) in manufacturers' investment decisions is not fully isolated in sourcing reviewed."
+      "caveat": "This entry documents an industry-response trend reported by the New York Times rather than a single discrete federal action; the precise causal weight of federal policy versus other market factors (e.g., post-pandemic vaccine demand normalization) in manufacturers' investment decisions is not fully isolated in sourcing reviewed. Update 2026-08-17: the FDA's August 5, 2026 approval of Moderna's mRNA flu vaccine (after initially refusing to review it) complicates a simple 'hostile environment causes pullback' narrative for this one product, but does not resolve whether the broader industry-wide pullback (other manufacturers, other pipelines) has eased; no reporting reviewed indicates it has."
     },
-    "confidence_note": "MODERATE-HIGH confidence -- The New York Times' reporting is the primary source identified, and the Moderna late-stage trial pause is a specific, verifiable data point within it; the broader industry-wide characterization (multiple manufacturers scaling back) relies on the Times' own investigative synthesis rather than a single manufacturer's public disclosure for every claim.",
-    "last_verified": "2026-08-05",
+    "confidence_note": "MODERATE-HIGH confidence -- The New York Times' reporting is the primary source identified, and the Moderna late-stage trial pause is a specific, verifiable data point within it; the broader industry-wide characterization (multiple manufacturers scaling back) relies on the Times' own investigative synthesis rather than a single manufacturer's public disclosure for every claim. Re-verified 2026-08-17: FDA's reversal and approval of Moderna's mRNA flu vaccine is HIGH confidence, corroborated across The Hill, Washington Post, and NBC News; whether this changes manufacturers' broader investment pullback is not addressed in sourcing reviewed and is treated as an open question, not resolved.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-05",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-17",
     "sources": [
       {
         "name": "New York Times -- 'Vaccine manufacturers are scaling back research, canceling factory plans, and laying off workers' (RFK vaccine policy environment)",
         "url": "https://www.nytimes.com/2026/02/16/health/rfk-vaccine-manufacturers.html"
+      },
+      {
+        "name": "NBC News -- FDA reverses course, will review Moderna's mRNA flu vaccine",
+        "url": "https://www.nbcnews.com/health/health-news/fda-reverses-course-will-review-modernas-mrna-flu-vaccine-rcna259531"
       }
     ],
     "section_summaries": {
@@ -16843,9 +16876,9 @@
     "title": "Vance's Anti-Fraud Task Force Suspended Medicare Reimbursements for Hundreds of LA Hospices; At Least 43 Legitimate Providers Caught Up",
     "institution": "Centers for Medicare and Medicaid Services (CMS) / VP-led anti-fraud task force",
     "domain": "funding_redirection",
-    "status": "Ongoing -- suspensions continuing through mid-2026, with legitimate providers seeking reinstatement",
+    "status": "Ongoing and expanded -- LA-area suspensions grew to 773 hospices/23 home health agencies by mid-May 2026, CMS layered on a nationwide six-month new-enrollment moratorium May 13, 2026, and DOJ named hospice/home health a top national fraud priority in August 2026; legitimate providers identified by the Washington Post were still seeking reinstatement as of this re-verification, with CMS's administrator publicly disputing that framing",
     "date_of_action": "2026-04 through 2026-06 (suspension count grew from 70 to 447 hospices over this period)",
-    "what_changed": "Vice President JD Vance's anti-fraud task force, working through CMS, suspended Medicare reimbursements for 447 hospices and 23 home health agencies in the Los Angeles area -- a Southern California region both state and federal authorities have identified as a hospice-fraud hot spot -- over more than $600 million in suspected fraud, up roughly 539% from the 70 suspensions reported at the start of April 2026. CMS also paired the suspensions with nationwide site inspections, expanded background checks for high-risk agencies, and a new public hospice-scoring system. The Washington Post identified at least 43 of the suspended agencies as legitimate providers now seeking to get their funding restored, despite clean records, accreditation, and no formal complaints -- including one hospice whose owner and nurse wife served a couple dozen patients at a time, held the industry's most rigorous and expensive accreditation, and had no formal complaint in five years, yet received a CMS letter accusing the company of fraud and cutting off its reimbursements. Vance and other officials have publicly downplayed evidence of this collateral damage.",
+    "what_changed": "Vice President JD Vance's anti-fraud task force, working through CMS, suspended Medicare reimbursements for 447 hospices and 23 home health agencies in the Los Angeles area -- a Southern California region both state and federal authorities have identified as a hospice-fraud hot spot -- over more than $600 million in suspected fraud, up roughly 539% from the 70 suspensions reported at the start of April 2026. CMS also paired the suspensions with nationwide site inspections, expanded background checks for high-risk agencies, and a new public hospice-scoring system. The Washington Post identified at least 43 of the suspended agencies as legitimate providers now seeking to get their funding restored, despite clean records, accreditation, and no formal complaints -- including one hospice whose owner and nurse wife served a couple dozen patients at a time, held the industry's most rigorous and expensive accreditation, and had no formal complaint in five years, yet received a CMS letter accusing the company of fraud and cutting off its reimbursements. Vance and other officials have publicly downplayed evidence of this collateral damage. Update: on May 13, 2026, CMS announced a six-month nationwide moratorium on new Medicare enrollments for hospice and home health agencies (existing providers unaffected), intensifying investigations during the pause. By that same date, per STAT News citing CMS data, the LA-area suspension count had grown to 773 hospices and 23 home health agencies, with $70 million in payments actually suspended -- a different metric than, and not a simple continuation of, this entry's earlier $600M 'suspected fraud' total tied to the 447-hospice count; sourcing reviewed does not cleanly reconcile the two dollar figures, which appear to measure different things (total suspected fraud exposure vs. payments actually withheld), and this entry does not assert a resolved progression between them. CMS Administrator Mehmet Oz has publicly claimed 'at least half of the hospices in the entire area around Los Angeles are fraudulent,' disputing the Washington Post's collateral-damage framing. Separately, in August 2026 the Justice Department named home health and hospice among its top fraud-enforcement priorities nationally, expanding its Health Care Fraud Strike Force to roughly 500 attorneys and staff by August 24, 2026. Industry groups warned in late-July 2026 reporting that the sector's damaged reputation amid the crackdown risks harming patients' willingness to enter hospice care, independent of the underlying fraud findings.",
     "primary_proponent": {
       "name": "JD Vance",
       "role": "Vice President; leads the administration's anti-fraud task force",
@@ -16873,12 +16906,22 @@
           "metric": "Legitimate hospice agencies identified by the Washington Post as wrongfully suspended, seeking reinstatement",
           "value": "43+",
           "source": "Washington Post"
+        },
+        {
+          "metric": "LA-area hospices/home health agencies with suspended payments (mid-May 2026)",
+          "value": "773 hospices + 23 home health agencies; $70,000,000 in payments suspended",
+          "source": "STAT News, May 13, 2026, citing CMS"
+        },
+        {
+          "metric": "Nationwide new-enrollment moratorium for hospice/home health, announced May 13, 2026",
+          "value": "6 months (extendable to 12 months per CMS rules)",
+          "source": "CMS announcement; STAT News, Washington Times, May 13, 2026"
         }
       ],
-      "caveat": "This is a genuinely mixed case: Los Angeles is an authentic, well-documented hospice-fraud hot spot, and CMS's task force has surfaced real fraud alongside legitimate providers -- this entry does not dispute that fraud exists, only that the enforcement method (suspension first, based on suspicion, before individualized proof) has demonstrably swept up businesses with clean records and full accreditation. The 43-provider figure is the Washington Post's own count of cases it verified as legitimate, not the task force's total suspension count, and should be cited as such."
+      "caveat": "This is a genuinely mixed case: Los Angeles is an authentic, well-documented hospice-fraud hot spot, and CMS's task force has surfaced real fraud alongside legitimate providers -- this entry does not dispute that fraud exists, only that the enforcement method (suspension first, based on suspicion, before individualized proof) has demonstrably swept up businesses with clean records and full accreditation. The 43-provider figure is the Washington Post's own count of cases it verified as legitimate, not the task force's total suspension count, and should be cited as such. The 773-hospice/$70M figure (mid-May 2026) and the original 447-hospice/$600M figure (through mid-June 2026) come from different outlets measuring what appear to be different quantities (payments actually suspended vs. total suspected fraud exposure); this entry presents both without asserting they describe a single clean progression, per the underlying sourcing's own lack of reconciliation."
     },
-    "confidence_note": "Strong sourcing: the suspension totals and dollar figures are corroborated across Fox News, Washington Examiner, Hospice News, and ABC affiliate reporting citing CMS data -- pro-administration-leaning outlets reporting the same figures. The collateral-damage finding (43 legitimate providers) comes from the Washington Post's own reporting with a specific, named, detailed case example, independently identified rather than sourced from the task force itself.",
-    "last_verified": "2026-08-05",
+    "confidence_note": "Strong sourcing: the suspension totals and dollar figures are corroborated across Fox News, Washington Examiner, Hospice News, and ABC affiliate reporting citing CMS data -- pro-administration-leaning outlets reporting the same figures. The collateral-damage finding (43 legitimate providers) comes from the Washington Post's own reporting with a specific, named, detailed case example, independently identified rather than sourced from the task force itself. Re-verified 2026-08-17: the May 13, 2026 nationwide moratorium and the 773-hospice figure are HIGH confidence, corroborated across STAT News, Washington Times, and AHA News, all citing the same CMS action; the $70M vs. $600M figures could not be reconciled from sourcing reviewed and are flagged rather than merged. Oz's public 'at least half' claim and the DOJ's August 2026 strike-force expansion are each corroborated by a single outlet (Hospice News/Fox News reporting on Oz; Home Health Care News on DOJ) and are MODERATE confidence pending broader corroboration.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-05",
     "sources": [
       {
@@ -16892,6 +16935,18 @@
       {
         "name": "Hospice News -- Anti-Fraud Task Force Suspends 447 Hospices",
         "url": "https://hospicenews.com/2026/04/15/anti-fraud-task-force-suspends-447-hospices/"
+      },
+      {
+        "name": "STAT News -- Medicare halts enrollment of new hospice, home health providers",
+        "url": "https://www.statnews.com/2026/05/13/medicare-halts-enrollment-of-new-hospice-home-health-providers/"
+      },
+      {
+        "name": "Home Health Care News -- DOJ Names Home Health, Hospice Among Top Fraud Enforcement Priorities",
+        "url": "https://homehealthcarenews.com/2026/08/doj-names-home-health-hospice-among-top-fraud-enforcement-priorities/"
+      },
+      {
+        "name": "U.S. News / KFF Health News -- Hospice's Bad Reputation Amid Fraud Crisis Will Hurt Patients, Industry Experts Warn",
+        "url": "https://www.usnews.com/news/health-news/articles/2026-07-30/hospices-bad-reputation-amid-fraud-crisis-will-hurt-patients-industry-experts-warn"
       }
     ],
     "section_summaries": {
@@ -16899,7 +16954,7 @@
       "estimated_impact": "Providers lost their primary funding source based on suspicion rather than individualized proof, and specific legitimate operators -- fully accredited, no complaints in years -- are now fighting to get reinstated while officials downplay the collateral damage.",
       "confidence_note": "Strong: suspension figures corroborated across multiple outlets including administration-friendly ones; the collateral-damage finding comes from the Washington Post's own independently verified reporting."
     },
-    "last_updated": "2026-08-05"
+    "last_updated": "2026-08-17"
   },
   {
     "id": "voa-usagm-dismantlement-trump2",
