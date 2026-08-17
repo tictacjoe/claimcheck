@@ -8208,9 +8208,9 @@
     "title": "Trump Administration Froze $16B in Committed Funding for the Hudson River Tunnel Project, Threatening Construction Shutdown",
     "institution": "U.S. Department of Transportation",
     "domain": "funding_redirection",
-    "status": "Litigation ongoing as of this entry's addition -- New York and New Jersey filed suit in the Southern District of New York seeking emergency relief; DOT had not resumed funding as of the suit's filing",
+    "status": "Resolved in the states' favor -- a federal judge permanently restored the funding on June 29, 2026, ruling the freeze 'flagrantly violated federal law'; the 2nd Circuit had already declined to block a February 2026 order requiring interim resumption, and construction has continued since February 13, 2026 without further interruption",
     "date_of_action": "2025-09-30 (DOT announces indefinite funding suspension) through 2026-02-04 (NY/NJ file suit)",
-    "what_changed": "On September 30, 2025, DOT announced it would indefinitely suspend payment of all previously-committed federal funds for the Gateway Program's Hudson Tunnel Project -- a roughly $16 billion effort to build new rail tunnels under the Hudson River and rehabilitate the existing, more-than-a-century-old crossing between New Jersey and New York City -- pending a newly announced compliance review. The White House budget director stated officials believed the project's spending was based on 'unconstitutional diversity, equity, and inclusion principles,' and DOT said it was reviewing for 'unconstitutional practices.' After roughly four months of the states covering costs with limited operating funds, they warned construction would be forced to shut down entirely by February 6, 2026 without resumed federal funding, immediately costing an estimated 1,000 workers their jobs. On February 4, 2026, New York Attorney General Letitia James and New Jersey Acting Attorney General Jennifer Davenport filed suit in the Southern District of New York against the Trump administration, seeking emergency relief to stop the indefinite funding freeze.",
+    "what_changed": "On September 30, 2025, DOT announced it would indefinitely suspend payment of all previously-committed federal funds for the Gateway Program's Hudson Tunnel Project -- a roughly $16 billion effort to build new rail tunnels under the Hudson River and rehabilitate the existing, more-than-a-century-old crossing between New Jersey and New York City -- pending a newly announced compliance review. The White House budget director stated officials believed the project's spending was based on 'unconstitutional diversity, equity, and inclusion principles,' and DOT said it was reviewing for 'unconstitutional practices.' After roughly four months of the states covering costs with limited operating funds, they warned construction would be forced to shut down entirely by February 6, 2026 without resumed federal funding, immediately costing an estimated 1,000 workers their jobs. On February 4, 2026, New York Attorney General Letitia James and New Jersey Acting Attorney General Jennifer Davenport filed suit in the Southern District of New York against the Trump administration, seeking emergency relief to stop the indefinite funding freeze. Update 2026-08-17 (correction -- this entry's original 'litigation ongoing' framing is now outdated): the 2nd U.S. Circuit Court of Appeals declined to block a lower-court order requiring DOT to resume payments, and funding resumed on an interim basis, with construction restarting February 13, 2026. On June 29, 2026, U.S. District Judge Jeannette Vargas issued a permanent ruling: the administration's September 2025 funding freeze 'flagrantly violate[d] federal law' because DOT skipped required procedures and never gave the Gateway Development Commission an opportunity to object -- a point the government itself did not dispute. The court rejected DOT's argument that the dispute belonged in the Court of Federal Claims, finding New York and New Jersey could challenge the freeze under the Administrative Procedure Act since the states were not parties to the underlying funding agreements. The Gateway Development Commission said the project -- slated for completion in 2035 -- remained on schedule before the freeze and has made 'significant progress' since funding resumed.",
     "primary_proponent": {
       "name": "U.S. Department of Transportation",
       "role": "Federal agency administering the previously-committed Gateway Program funding",
@@ -8233,14 +8233,19 @@
           "metric": "Duration of funding suspension before states sued",
           "value": "~4 months (2025-09-30 to 2026-02-04)",
           "source": "DOT announcement date and lawsuit filing date"
+        },
+        {
+          "metric": "Outcome and date of permanent ruling",
+          "value": "Funding freeze ruled 'flagrantly' illegal and permanently set aside, June 29, 2026 (Judge Jeannette Vargas, SDNY)",
+          "source": "Bloomberg, New Jersey Monitor, NY AG press release"
         }
       ],
       "caveat": "DOT and the White House frame the freeze as a legitimate compliance review of the project's DEI-related practices rather than a punitive or politically-motivated funding cutoff; the states dispute that characterization in their suit, and no court ruling on the merits was identified in sourcing reviewed as of this entry's addition."
     },
-    "confidence_note": "HIGH confidence -- the funding freeze, its DEI-related stated rationale, the timeline, and the resulting lawsuit are independently corroborated by the New York and New Jersey Attorneys General's own official press releases, Reuters, ABC7 New York, and Fox News, none of which is disputed by DOT.",
-    "last_verified": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the funding freeze, its DEI-related stated rationale, the timeline, and the resulting lawsuit are independently corroborated by the New York and New Jersey Attorneys General's own official press releases, Reuters, ABC7 New York, and Fox News, none of which is disputed by DOT. Re-verified 2026-08-17, correction: the interim February 2026 resumption (following the 2nd Circuit's refusal to block it) and the June 29, 2026 permanent ruling are corroborated across Bloomberg, the Rail Passengers Association, New Jersey Monitor, ABC7 New York, and the New York and New Jersey Attorneys General's own press releases. This entry is retained because the freeze itself, its DEI-related stated rationale, and the states' need to litigate to restore already-committed funding remain documented accountability-relevant facts, even though the outcome ultimately favored the project; status and estimated-impact have been rewritten to reflect resolution.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-05",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-17",
     "sources": [
       {
         "name": "Reuters -- 'New York, New Jersey sue Trump administration over tunnel funding halt'",
@@ -8257,6 +8262,14 @@
       {
         "name": "ABC7 New York -- 'NY, NJ sue Trump administration over $16 billion funding freeze for the Gateway Project'",
         "url": "https://abc7ny.com/post/ny-nj-sue-trump-administration-16-billion-funding-freeze-gateway-project-hudson-river-tunnels/18541160/"
+      },
+      {
+        "name": "Bloomberg -- NY-NJ Gateway Tunnel Funding Freeze Ruled Flagrantly Illegal",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-30/ny-nj-gateway-tunnel-funding-freeze-ruled-flagrantly-illegal"
+      },
+      {
+        "name": "Rail Passengers Association -- Federal Appeals Court Orders Trump Administration to Resume Gateway Tunnel Funding",
+        "url": "https://www.railpassengers.org/happening-now/news/blog/federal-court-orders-trump-administration-to-resume-gateway-funding/"
       }
     ],
     "section_summaries": {
@@ -8551,7 +8564,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing as of this entry's addition (February 2026 reporting) -- no indication in sourcing reviewed that DOJ has added prosecutorial capacity to offset the habeas caseload surge",
     "date_of_action": "2025-2026 (surge intensifying alongside expanded immigration-detention enforcement)",
-    "what_changed": "A sharp increase in immigration detentions under the administration's enforcement push has produced a corresponding wave of habeas corpus petitions -- detainees' court challenges to the legality of their detention -- that CBS News's reporting describes as overwhelming U.S. Attorney's offices nationwide. Prosecutors are being pulled away from criminal casework to respond to the volume of habeas filings, straining offices already reduced by earlier staffing cuts and departures. The strain compounds separately-documented office-specific staffing collapses this tracker records elsewhere (e.g. the Minnesota U.S. Attorney's Office exodus, prosecution/cabinet-level/bondi-doj-renee-good-widow-investigation-2026.json), applying the same underlying dynamic -- civil/immigration litigation demand outpacing available career prosecutorial staff -- at a national scale rather than a single office.",
+    "what_changed": "A sharp increase in immigration detentions under the administration's enforcement push has produced a corresponding wave of habeas corpus petitions -- detainees' court challenges to the legality of their detention -- that CBS News's reporting describes as overwhelming U.S. Attorney's offices nationwide. Prosecutors are being pulled away from criminal casework to respond to the volume of habeas filings, straining offices already reduced by earlier staffing cuts and departures. The strain compounds separately-documented office-specific staffing collapses this tracker records elsewhere (e.g. the Minnesota U.S. Attorney's Office exodus, prosecution/cabinet-level/bondi-doj-renee-good-widow-investigation-2026.json), applying the same underlying dynamic -- civil/immigration litigation demand outpacing available career prosecutorial staff -- at a national scale rather than a single office. Update 2026-08-17: subsequent reporting has quantified the surge far more precisely than was available when this entry was added. Habeas petitions related to immigration detention rose roughly 36-fold nationally, from about 222 filed in 2024 to approximately 8,000 filed in 2025; one federal district alone received nearly 3,900 immigration habeas petitions in just the first five months of 2026, and the federal court in Minnesota received more than 1,200 such cases in the first half of 2026, up from just 12 two years earlier. DOJ's own Executive Office for United States Attorneys has acknowledged the strain directly: it sent a request to the civil chiefs of all 93 U.S. Attorney's offices asking them to report their pending immigration-habeas caseloads and civil-AUSA staffing levels since the start of fiscal year 2025, as of a January 26, 2026 data pull -- confirming DOJ leadership is tracking the capacity strain this entry documents, even though sourcing reviewed does not show additional prosecutorial capacity has been added to offset it.",
     "primary_proponent": {
       "name": "Department of Justice / Executive Office for Immigration enforcement policy",
       "role": "Federal agencies whose expanded detention enforcement drove the underlying habeas caseload surge",
@@ -8561,21 +8574,44 @@
       "summary": "CBS News's reporting describes the habeas surge as a 'tsunami' straining U.S. Attorney's offices across the country, with career prosecutors diverted from criminal casework -- a nationwide capacity strain distinct from, but structurally similar to, the office-specific staffing collapses documented elsewhere in this tracker.",
       "figures": [
         {
-          "metric": "Scope of impact",
-          "value": "Described as affecting U.S. Attorney's offices 'across America,' not limited to border-adjacent districts",
-          "source": "CBS News"
+          "metric": "Immigration habeas petitions filed nationally, 2024 vs. 2025",
+          "value": "~222 (2024) -> ~8,000 (2025), roughly a 36-fold increase",
+          "source": "TRAC Reports / Bloomberg Law"
+        },
+        {
+          "metric": "Habeas petitions in one federal district, first 5 months of 2026",
+          "value": "~3,900",
+          "source": "El Paso Matters"
+        },
+        {
+          "metric": "Habeas cases in the District of Minnesota, first half of 2026 vs. 2 years earlier",
+          "value": "1,200+ (2026) vs. 12 (two years earlier)",
+          "source": "Bloomberg Law, citing court records"
+        },
+        {
+          "metric": "DOJ's own data request to all 93 U.S. Attorney's offices on habeas caseload/staffing",
+          "value": "Sent by the Executive Office for U.S. Attorneys, covering data as of Jan. 26, 2026",
+          "source": "Bloomberg Law"
         }
       ],
       "caveat": "This entry documents a resource-strain consequence of detention-enforcement volume and existing staffing levels rather than a discrete rule, memo, or directive -- precise nationwide figures on prosecutor-hours diverted or criminal-case delays caused were not available in sourcing reviewed."
     },
-    "confidence_note": "MODERATE-HIGH confidence -- CBS News's reporting is the primary source identified and describes a nationwide pattern corroborated by the same underlying dynamic (habeas surge, staffing strain) independently documented in this tracker's office-specific entries; no independent DOJ data confirming the precise national scale was identified.",
-    "last_verified": "2026-08-05",
+    "confidence_note": "MODERATE-HIGH confidence -- CBS News's reporting is the primary source identified and describes a nationwide pattern corroborated by the same underlying dynamic (habeas surge, staffing strain) independently documented in this tracker's office-specific entries; no independent DOJ data confirming the precise national scale was identified. Re-verified 2026-08-17: the precise national and district-level figures are corroborated across TRAC Reports (a nonpartisan data clearinghouse), Bloomberg Law, and El Paso Matters, all independently reporting figures consistent with CBS News's original 'tsunami' characterization. The EOUSA data request to all 93 offices is a notable upgrade in sourcing strength -- it is DOJ's own internal acknowledgment that the strain is real and being measured, not just an outside characterization.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-05",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-17",
     "sources": [
       {
         "name": "CBS News -- 'Tsunami' of immigration detention cases strains DOJ, U.S. Attorney's offices across America",
         "url": "https://www.cbsnews.com/news/tsunami-immigration-detention-cases-strains-doj-us-attorneys-offices-across-america/"
+      },
+      {
+        "name": "TRAC Reports -- Surge in Immigration Lawsuits Hits Record High in 2026",
+        "url": "https://tracreports.org/reports/773/"
+      },
+      {
+        "name": "Bloomberg Law -- Immigration Detention Cases Weigh on Courts, Months After Spike",
+        "url": "https://news.bloomberglaw.com/us-law-week/immigration-detention-cases-weigh-on-courts-months-after-spike"
       }
     ],
     "section_summaries": {
@@ -9544,7 +9580,7 @@
     "domain": "funding_redirection",
     "status": "Ongoing -- backlog reported as of early June 2026, with no reporting reviewed indicating it had been cleared",
     "date_of_action": "2026-06 (backlog reported); consolidation of grant-approval authority into the Secretary's office occurred earlier in 2025-2026",
-    "what_changed": "More than 1,400 active NPS grants worth roughly $362 million are sitting unapproved at the Department of the Interior, awaiting political review after the department consolidated grants-management sign-off into Secretary Doug Burgum's office. The stalled projects include nonprofit youth-program deployments to clear trails, work to prevent washouts during heavy rain, and wildlife surveys. Interior is managing the backlog with a significantly reduced staff, after the department shed roughly 13,000 employees (about 20% of its workforce) in 2025, including about 4,000 at NPS specifically. An Interior Department spokesperson described the added review layer as a 'common-sense stewardship measure' intended to 'streamline internal processes' and 'reduce unnecessary bureaucracy.'",
+    "what_changed": "More than 1,400 active NPS grants worth roughly $362 million are sitting unapproved at the Department of the Interior, awaiting political review after the department consolidated grants-management sign-off into Secretary Doug Burgum's office. The stalled projects include nonprofit youth-program deployments to clear trails, work to prevent washouts during heavy rain, and wildlife surveys. Interior is managing the backlog with a significantly reduced staff, after the department shed roughly 13,000 employees (about 20% of its workforce) in 2025, including about 4,000 at NPS specifically. An Interior Department spokesperson described the added review layer as a 'common-sense stewardship measure' intended to 'streamline internal processes' and 'reduce unnecessary bureaucracy.' Update 2026-08-17: more than 70 House Democrats, led by Rep. Don Beyer, sent a formal letter to Interior demanding the department address the grant backlog, specifically citing delayed trail maintenance, wildfire prevention, and other critical projects -- widening the congressional pressure on this issue beyond the earlier individual questioning from Rep. Elfreth and Sen. Merkley already documented here. No reporting reviewed indicates the backlog has been cleared or the additional review layer removed.",
     "primary_proponent": {
       "name": "Doug Burgum",
       "role": "Secretary of the Interior",
@@ -9576,13 +9612,13 @@
       ],
       "caveat": "The $362M/1,400-grant figure is a snapshot as of early June 2026, not a fixed total -- it will move as some grants clear review and new ones enter the queue. Interior's own framing (a routine stewardship/anti-bureaucracy measure) is a genuinely different characterization from the backlog framing and is presented here as the department's stated position, not adopted as fact."
     },
-    "confidence_note": "Strong sourcing: NOTUS's reporting is corroborated by contemporaneous coverage (Salt Lake Tribune) and by Rep. Elfreth's and Ranking Member Merkley's direct questioning of Burgum in committee about the grants-approval process, indicating the backlog is acknowledged in a congressional-oversight setting, not just reported by outside journalists. The $362M/1,400-grant figure comes from Interior Department data itself via NOTUS's analysis, not an outside advocacy estimate.",
+    "confidence_note": "Strong sourcing: NOTUS's reporting is corroborated by contemporaneous coverage (Salt Lake Tribune) and by Rep. Elfreth's and Ranking Member Merkley's direct questioning of Burgum in committee about the grants-approval process, indicating the backlog is acknowledged in a congressional-oversight setting, not just reported by outside journalists. The $362M/1,400-grant figure comes from Interior Department data itself via NOTUS's analysis, not an outside advocacy estimate. Re-verified 2026-08-17: the 70+ House Democrats' letter is corroborated by Rep. Beyer's own published press release; no reporting reviewed shows the backlog resolved, so the entry's core status is unchanged.",
     "section_summaries": {
       "what_changed": "Interior consolidated grants sign-off into Burgum's office, and 1,400 NPS grants worth $362M -- trail work, flood/washout prevention, wildlife surveys -- are now stalled awaiting that review.",
       "estimated_impact": "Congressionally appropriated conservation and maintenance funding sits unspent behind a new political-review layer, on top of an NPS workforce already cut by about a quarter.",
       "confidence_note": "Strong: the backlog figures trace to Interior's own data and were raised directly to Burgum in congressional committee questioning, not just outside reporting."
     },
-    "last_verified": "2026-08-05",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-05",
     "sources": [
       {
@@ -9600,9 +9636,13 @@
       {
         "name": "Sen. Jeff Merkley -- Ranking Member Merkley Presses Secretary Burgum on Misusing National Park Service Funding for America 250",
         "url": "https://www.merkley.senate.gov/ranking-member-merkley-presses-secretary-burgum-on-misusing-national-park-service-funding-for-america-250/"
+      },
+      {
+        "name": "Rep. Don Beyer -- 70+ House Democrats Demand NPS Address Multimillion-Dollar Grant Backlog",
+        "url": "https://beyer.house.gov/news/documentsingle.aspx?DocumentID=9170"
       }
     ],
-    "last_updated": "2026-08-05"
+    "last_updated": "2026-08-17"
   },
   {
     "id": "national-park-service-lease-terminations-2025",
@@ -11966,8 +12006,8 @@
       "figures": [],
       "caveat": "No numeric staff-loss total (e.g., total headcount reduction) was found in reporting reviewed -- the documented impact is the departure of specific senior leadership roles (deputy chief of mission, chief of staff, political counselor), not a quantified overall reduction in mission staffing."
     },
-    "confidence_note": "Strong sourcing: this is Reuters' own exclusive reporting, based on accounts from people familiar with the situation, and is corroborated by wire syndication across U.S. News and other outlets. No numeric total staff-loss figure exists to cite, which should be flagged when using this entry in debate.",
-    "last_verified": "2026-08-05",
+    "confidence_note": "Strong sourcing: this is Reuters' own exclusive reporting, based on accounts from people familiar with the situation, and is corroborated by wire syndication across U.S. News and other outlets. No numeric total staff-loss figure exists to cite, which should be flagged when using this entry in debate. Re-verified 2026-08-17: no material developments (further departures, a leadership change, or an official response) found beyond Reuters' original June 2026 reporting already documented here.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-05",
     "sources": [
       {
@@ -11980,7 +12020,7 @@
       "estimated_impact": "The mission lost much of its senior Latin America policy expertise in a short period, though no numeric total staffing loss has been reported.",
       "confidence_note": "Strong: Reuters' own exclusive reporting, corroborated via wire syndication; no total headcount figure exists to cite."
     },
-    "last_updated": "2026-08-05"
+    "last_updated": "2026-08-17"
   },
   {
     "id": "obbba-medicaid-abortion-provider-defund-2025-2026",
@@ -13260,7 +13300,7 @@
     "domain": "protection_rollback",
     "status": "Ongoing as of this entry's addition -- bills introduced in at least 9 states as of February 2026, with the coordinating group (the Medical Freedom Act Coalition) stating its goal is eventually introducing repeal legislation in all 50 states; most bills' prospects were described as uncertain",
     "date_of_action": "2026 (state legislative sessions, campaign ongoing)",
-    "what_changed": "Allies of HHS Secretary Robert F. Kennedy Jr., organized under the Medical Freedom Act Coalition, launched a coordinated campaign to repeal or weaken state laws requiring childhood vaccinations (including for measles and polio) as a condition of school and day care attendance. Bills eliminating or weakening these mandates were introduced in at least nine states, including Florida, West Virginia, South Carolina, California, Connecticut, Maine, and New York, as of February 2026. Public health experts warned that dismantling school-entry vaccine requirements could sharply reduce immunization rates and trigger outbreaks of vaccine-preventable diseases -- a concern the campaign coincides with an active South Carolina measles outbreak that had affected more than 900 people, including at least 19 hospitalized with complications including pneumonia and brain swelling, as of the reporting reviewed. This state-level campaign follows a separately-documented federal-level push (RFK Jr.'s own reexamination of the childhood vaccine schedule) this tracker records elsewhere.",
+    "what_changed": "Allies of HHS Secretary Robert F. Kennedy Jr., organized under the Medical Freedom Act Coalition, launched a coordinated campaign to repeal or weaken state laws requiring childhood vaccinations (including for measles and polio) as a condition of school and day care attendance. Bills eliminating or weakening these mandates were introduced in at least nine states, including Florida, West Virginia, South Carolina, California, Connecticut, Maine, and New York, as of February 2026. Public health experts warned that dismantling school-entry vaccine requirements could sharply reduce immunization rates and trigger outbreaks of vaccine-preventable diseases -- a concern the campaign coincides with an active South Carolina measles outbreak that had affected more than 900 people, including at least 19 hospitalized with complications including pneumonia and brain swelling, as of the reporting reviewed. This state-level campaign follows a separately-documented federal-level push (RFK Jr.'s own reexamination of the childhood vaccine schedule) this tracker records elsewhere. Update 2026-08-17: results have been mixed across the campaign's target states. In Florida, a Medical Freedom Act proposal expanding vaccine exemptions passed the state Senate but was never taken up in the House; a similar bill filed during an April 2026 special session also died, meaning Florida's mandates remain in place for now, though reporting (Jacksonville Today, WLRN, WUSF, Aug. 10-12, 2026) describes growing vaccine hesitancy even without a legislative repeal. By contrast, Idaho -- which passed its own Medical Freedom Act barring schools from requiring vaccines before this campaign's national coordination began -- is now advancing an expansion bill (HB574) to remove that law's healthcare-worker carve-out, illustrating the campaign's uneven state-by-state trajectory: stalled in some legislatures, entrenched and expanding in others.",
     "primary_proponent": {
       "name": "Medical Freedom Act Coalition (RFK Jr.-aligned advocacy network)",
       "role": "State-level advocacy coalition coordinating the multi-state legislative campaign",
@@ -13278,14 +13318,19 @@
           "metric": "South Carolina measles outbreak size (concurrent)",
           "value": "900+ cases, 19+ hospitalized with complications incl. pneumonia and brain swelling",
           "source": "New York Times"
+        },
+        {
+          "metric": "State-level campaign outcomes as of August 2026",
+          "value": "Florida: Senate-passed bill died without a House vote (twice); Idaho: existing ban being expanded via HB574",
+          "source": "Jacksonville Today/WLRN/WUSF, Aug. 2026"
         }
       ],
       "caveat": "This entry documents a coordinated advocacy and legislative campaign, not yet a completed nationwide policy change -- most of the introduced state bills' prospects were described as uncertain, and the campaign's ultimate legislative success rate was not yet determinable as of this entry's addition."
     },
-    "confidence_note": "HIGH confidence -- the campaign's existence, its state-by-state scope, and the coalition's stated 50-state goal are corroborated by GV Wire and STAT News reporting; the concurrent South Carolina measles outbreak figures are independently corroborated by the New York Times' own coverage.",
-    "last_verified": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the campaign's existence, its state-by-state scope, and the coalition's stated 50-state goal are corroborated by GV Wire and STAT News reporting; the concurrent South Carolina measles outbreak figures are independently corroborated by the New York Times' own coverage. Re-verified 2026-08-17: Florida's stalled bills and Idaho's expansion effort are corroborated by Florida public-radio reporting (WLRN, WUSF, Jacksonville Today, all citing the same underlying legislative record) and IMA Health's coverage of the coalition's state-by-state strategy. The campaign's overall 50-state ambition remains unresolved -- some states have blocked it, at least one (Idaho) is extending an already-enacted version.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-05",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-17",
     "sources": [
       {
         "name": "GV Wire -- 'Kennedy Allies Target States to Overturn Vaccine Mandates for Schoolchildren'",
@@ -13313,7 +13358,7 @@
     "domain": "research_suppression",
     "status": "Ongoing -- journal given a deadline to respond as of this entry's sourcing",
     "date_of_action": "2026-06 (Kennedy's letter) through 2026-07 (Johnson's follow-up letter to Elsevier made public)",
-    "what_changed": "HHS Secretary Robert F. Kennedy Jr. sent a letter demanding the editor of Toxicology Reports explain the journal's retraction of a single-author study by vaccine critic Neil Z. Miller, which had used Vaccine Adverse Event Reporting System (VAERS) data to claim 75% of reported SIDS cases occurred within seven days of a vaccination. The journal's April 9, 2026 retraction notice cited serious methodological flaws in the paper's use of VAERS data to infer a vaccine-SIDS correlation and warned of 'potential implications for medical practice' if the flawed conclusions were relied upon. Kennedy called the retraction notice 'woefully insufficient' and demanded the journal explain, by June 25, how the retraction decision was reached and what experts were consulted. Sen. Ron Johnson separately sent a letter dated June 29 (made public July 13) directly to both the Toxicology Reports editor-in-chief and Elsevier's CEO, demanding release of all internal records related to the retraction decision. Miller's study had previously been cited to support CDC/ACIP childhood immunization schedule changes made under Kennedy.",
+    "what_changed": "HHS Secretary Robert F. Kennedy Jr. sent a letter dated June 11, 2026 demanding the editor of Toxicology Reports explain the journal's retraction of a single-author study by vaccine critic Neil Z. Miller, which had used Vaccine Adverse Event Reporting System (VAERS) data to claim 75% of reported SIDS cases occurred within seven days of a vaccination. The journal's April 9, 2026 retraction notice cited serious methodological flaws in the paper's use of VAERS data to infer a vaccine-SIDS correlation and warned of 'potential implications for medical practice' if the flawed conclusions were relied upon. Kennedy called the retraction notice 'woefully insufficient' and demanded the journal explain, by June 25, how the retraction decision was reached and what experts were consulted. Sen. Ron Johnson separately sent a letter dated June 29 (made public July 13) directly to both the Toxicology Reports editor-in-chief and Elsevier's CEO, demanding release of all internal records related to the retraction decision. Miller's study had previously been cited to support CDC/ACIP childhood immunization schedule changes made under Kennedy. Update 2026-08-17: no reporting reviewed shows the journal's response to Kennedy's June 25 deadline or any change to the retraction decision itself -- editor-in-chief Lawrence H. Lash's original determination that Miller's response failed to 'satisfactorily address' the identified methodological flaws appears to still stand as of the most recent sourcing found. The pressure campaign itself continues to be the documented impact, not a reversed outcome.",
     "primary_proponent": {
       "name": "Robert F. Kennedy Jr.",
       "role": "Secretary of Health and Human Services",
@@ -13324,8 +13369,8 @@
       "figures": [],
       "caveat": "No quantified impact (e.g., a reversed retraction, disciplinary action against the journal) had occurred as of this entry's sourcing -- the documented impact so far is the pressure campaign itself (two separate federal officials demanding a journal justify or reverse a peer-reviewed editorial decision), not yet a confirmed outcome. The journal's own retraction rationale (methodological flaws in VAERS-data use) is treated here as the journal's stated position, consistent with independent science-integrity commentary (Retraction Watch) rather than adopted uncritically."
     },
-    "confidence_note": "Strong sourcing: Kennedy's letter and its contents are corroborated across The Guardian, The Hill, Inside Higher Ed, and Just The News. Johnson's follow-up letter to Elsevier is independently reported. Retraction Watch -- a specialist outlet focused on scientific retractions, not a political or health-advocacy source -- independently characterizes Kennedy's broader approach to retractions as inconsistent/selectively applied ('politicizing'), which is useful context on pattern but is Retraction Watch's own characterization, not an official finding.",
-    "last_verified": "2026-08-05",
+    "confidence_note": "Strong sourcing: Kennedy's letter and its contents are corroborated across The Guardian, The Hill, Inside Higher Ed, and Just The News. Johnson's follow-up letter to Elsevier is independently reported. Retraction Watch -- a specialist outlet focused on scientific retractions, not a political or health-advocacy source -- independently characterizes Kennedy's broader approach to retractions as inconsistent/selectively applied ('politicizing'), which is useful context on pattern but is Retraction Watch's own characterization, not an official finding. Re-verified 2026-08-17: no material new development found; Techdirt and Retraction Watch's coverage confirms the same June 11/June 25 timeline and editor's name already reflected here, with no reported outcome to the deadline.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-05",
     "sources": [
       {
@@ -13350,7 +13395,7 @@
       "estimated_impact": "No reversal has occurred yet -- the documented impact is the pressure campaign itself, using federal office to challenge an editorial decision grounded in identified methodological flaws.",
       "confidence_note": "Strong: corroborated across multiple outlets including Retraction Watch, a specialist outlet independent of the political debate."
     },
-    "last_updated": "2026-08-05"
+    "last_updated": "2026-08-17"
   },
   {
     "id": "rfk-jr-measles-data-diversion-2025",
