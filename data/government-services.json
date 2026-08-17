@@ -3328,7 +3328,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing — the initial January-March 2025 reassignments were followed by a sustained attorney exodus documented through mid-2026, with no indication of reversal",
     "date_of_action": "2025-01-27 (initial reassignments) through 2025-03-25 (formal DOJ-wide reorganization memo), with effects documented into 2026",
-    "what_changed": "In the days immediately following Trump's January 20, 2025 inauguration, DOJ began reassigning senior career officials across multiple divisions -- national security, civil rights, and public corruption staff were transferred into a newly created Sanctuary Cities Enforcement Working Group, often into roles outside their expertise. The Environment and Natural Resources Division (ENRD) was hit hardest: all four Environmental Enforcement Section chiefs, including section chief Tom Mariani (who had led the section since 2016), were told they were being involuntarily transferred to the working group; Mariani chose retirement instead, leaving in February 2025. The division's civil-rights-focused work was also frozen -- DOJ reportedly halted all Civil Rights Division cases pending review. Separately, career staff working on environmental-justice and diversity initiatives were placed on administrative leave, incoming Honors Program job offers to new attorneys were rescinded, and DOJ requested a list of probationary employees from the White House, raising concerns about a broader mass-firing push. On March 25, 2025, Deputy Attorney General Todd Blanche issued a formal memorandum cementing a sweeping DOJ-wide reorganization, including further ENRD reassignments to the Office of Sanctuary Cities. Follow-up reporting over a year later (Inside Climate News and E&E News, July-August 2026) found the damage was substantial and lasting: ENRD, which began 2025 with roughly 400 attorneys, had lost at least a third of its lawyers, representing more than 260 combined years of legal experience among just the 11 senior attorneys and managers interviewed; and DOJ's civil environmental lawsuits referred by EPA fell to just 16 in Trump's first year back in office, a 76% drop from the first year of the Biden administration.",
+    "what_changed": "In the days immediately following Trump's January 20, 2025 inauguration, DOJ began reassigning senior career officials across multiple divisions -- national security, civil rights, and public corruption staff were transferred into a newly created Sanctuary Cities Enforcement Working Group, often into roles outside their expertise. The Environment and Natural Resources Division (ENRD) was hit hardest: all four Environmental Enforcement Section chiefs, including section chief Tom Mariani (who had led the section since 2016), were told they were being involuntarily transferred to the working group; Mariani chose retirement instead, leaving in February 2025. The division's civil-rights-focused work was also frozen -- DOJ reportedly halted all Civil Rights Division cases pending review. Separately, career staff working on environmental-justice and diversity initiatives were placed on administrative leave, incoming Honors Program job offers to new attorneys were rescinded, and DOJ requested a list of probationary employees from the White House, raising concerns about a broader mass-firing push. On March 25, 2025, Deputy Attorney General Todd Blanche issued a formal memorandum cementing a sweeping DOJ-wide reorganization, including further ENRD reassignments to the Office of Sanctuary Cities. Follow-up reporting over a year later (Inside Climate News and E&E News, July-August 2026) found the damage was substantial and lasting: ENRD, which began 2025 with roughly 400 attorneys, had lost at least a third of its lawyers, representing more than 260 combined years of legal experience among just the 11 senior attorneys and managers interviewed; and DOJ's civil environmental lawsuits referred by EPA fell to just 16 in Trump's first year back in office, a 76% drop from the first year of the Biden administration. A separate, October 2025 Bloomberg Law report adds a concrete budget-request figure to this attrition: the administration's FY2026 budget request sought $90 million for ENRD, a 22.5% drop from FY2025, and proposed cutting division staffing from 641 to 449 positions, including 79 attorney positions. The same report quotes former Environmental Enforcement Section head Tom Mariani putting the section's own headcount at roughly 120 lawyers in February 2025, down to 65-70 by October 2025 -- a steeper, more specific decline than the single-digit-months-later 'at least a third' figure this entry already cites from the later Inside Climate News/E&E News reporting, and consistent with it.",
     "primary_proponent": {
       "name": "Todd Blanche",
       "role": "Deputy Attorney General",
@@ -3351,12 +3351,17 @@
           "metric": "DOJ civil environmental lawsuits referred by EPA, Trump's first year back in office",
           "value": "16 cases, a 76% drop from the Biden administration's first year",
           "source": "E&E News / Inside Climate News reporting (2026)"
+        },
+        {
+          "metric": "FY2026 budget request for ENRD",
+          "value": "$90 million, a 22.5% drop from FY2025; proposed staffing cut from 641 to 449 positions (79 attorney positions)",
+          "source": "Bloomberg Law (2025-10-09)"
         }
       ],
       "caveat": "The attorney-departure and years-of-experience figures are compiled by reporters from interviews with former ENRD attorneys, not an official DOJ report -- DOJ has not published comparable workforce data itself. The EPA-referral lawsuit count is independently reported and the easiest of the three figures to verify against public case filings."
     },
-    "confidence_note": "HIGH confidence on the initial reassignments (corroborated by the New York Times' contemporaneous January 2025 reporting) and on the year-later impact figures (corroborated by both Inside Climate News and E&E News/Politico, drawing on named former DOJ attorneys). MODERATE confidence on the precise administrative-leave and Honors-Program-rescission details, which rest on the single original NYT report and were not independently re-confirmed in later reporting reviewed for this entry.",
-    "last_verified": "2026-08-08",
+    "confidence_note": "HIGH confidence on the initial reassignments (corroborated by the New York Times' contemporaneous January 2025 reporting) and on the year-later impact figures (corroborated by both Inside Climate News and E&E News/Politico, drawing on named former DOJ attorneys). MODERATE confidence on the precise administrative-leave and Honors-Program-rescission details, which rest on the single original NYT report and were not independently re-confirmed in later reporting reviewed for this entry. Re-verified 2026-08-17: no new developments found since the FY2026 budget-request and section-headcount figures added this update (Bloomberg Law, 2025-10-09, which predates this entry's original 2026-08-08 write date but was not yet incorporated); no indication of reversal or further escalation in the roughly six weeks since.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-08",
     "sources": [
       {
@@ -3374,6 +3379,10 @@
       {
         "name": "E&E News (Politico) -- section chief reassignments",
         "url": "https://www.eenews.net/articles/doj-environment-section-chiefs-reassigned-to-work-on-immigration/"
+      },
+      {
+        "name": "Bloomberg Law -- DOJ Legal Delays Slow Environmental Cases and Frustrate Lawyers",
+        "url": "https://news.bloomberglaw.com/environment-and-energy/doj-legal-delays-slow-environmental-cases-and-frustrate-lawyers"
       }
     ]
   },
@@ -3751,7 +3760,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing -- FY2026 cuts already implemented and reducing recovery missions; FY2027 budget capped lower still; new Pentagon oversight (Anthony Tata, assigned June 2026) has pledged to seek roughly $40 million in restored funding via pending congressional legislation, not yet secured",
     "date_of_action": "2025-02 (Hegseth-era Pentagon-wide cost-cutting first put DPAA's budget at risk) through 2026 (FY2026 cuts implemented; FY2027 funding capped)",
-    "what_changed": "As part of Defense Secretary Pete Hegseth's broader Pentagon-wide cost-cutting purge that began in February 2025, the Defense POW/MIA Accounting Agency -- the agency responsible for recovering and identifying America's missing servicemembers from past conflicts -- saw its budget cut across two consecutive fiscal years. The FY2026 budget request was $171.3 million for Operation and Maintenance, an 11% reduction from the previously planned $191.4 million, including the loss of 26 civilian billets; the agency's total budget fell from $185 million in FY2025 to $167 million as enacted for FY2026, with FY2027 projected to be capped at $160 million. The funding shortfall forced DPAA to cut its recovery and investigative teams operating in Vietnam from 27 to seven and in Laos from 13 to five, and reduced planned field missions from 105 to 66 -- a 59% reduction. In June 2026, Anthony Tata was assigned Pentagon oversight of DPAA and sought to reassure affected families that he had Trump and Hegseth's full support, pledging to work toward restoring roughly $40 million of the cuts through a bill then pending before Congress.",
+    "what_changed": "As part of Defense Secretary Pete Hegseth's broader Pentagon-wide cost-cutting purge that began in February 2025, the Defense POW/MIA Accounting Agency -- the agency responsible for recovering and identifying America's missing servicemembers from past conflicts -- saw its budget cut across two consecutive fiscal years. The FY2026 budget request was $171.3 million for Operation and Maintenance, an 11% reduction from the previously planned $191.4 million, including the loss of 26 civilian billets; the agency's total budget fell from $185 million in FY2025 to $167 million as enacted for FY2026, with FY2027 projected to be capped at $160 million. The funding shortfall forced DPAA to cut its recovery and investigative teams operating in Vietnam from 27 to seven and in Laos from 13 to five, and reduced planned field missions from 105 to 66 -- a 59% reduction. In June 2026, Anthony Tata was assigned Pentagon oversight of DPAA and sought to reassure affected families that he had Trump and Hegseth's full support, pledging to work toward restoring roughly $40 million of the cuts through a bill then pending before Congress. A July 26, 2026 South Texas Public Radio / American Homefront Project report ('Time is passing') adds a Cambodia-specific figure this entry did not previously capture: recovery/investigative teams there were also cut, from three to one, alongside the Vietnam and Laos cuts already documented. As of that report, no restoration funding had been secured -- Sen. Fischer's push (a bill she introduced in the Senate, distinct from the general FY2026/FY2027 NDAA cycle) remained pending, and Tata's outreach to Congress had not yet produced enacted relief. Separately, CRS's DPAA budget primer (updated 2026-03-09) shows the enacted FY2026 NDAA authorized and Congress appropriated DPAA's full agency-wide budget at $171.8 million, matching the administration's original request exactly -- indicating that a $19 million above-request add Sen. Fischer secured at the Senate Armed Services Committee markup stage in July 2025 did not survive to final enactment. (This $171.8 million CRS figure is DPAA's total appropriated budget across all accounts; it is not directly comparable to the $167 million O&M-specific figure already cited in this entry from DPAA's own O&M budget justification, and this entry does not attempt to reconcile the two beyond noting neither reflects the requested restoration.) Fischer's FY2027 NDAA push for the $40 million restoration referenced in this entry was confirmed still pending as of a June 11, 2026 press release, in which she urged 'swift passage through the Senate' -- consistent with this entry's existing framing that the restoration is sought, not secured.",
     "primary_proponent": {
       "name": "Pete Hegseth",
       "role": "Secretary of Defense",
@@ -3789,12 +3798,17 @@
           "metric": "Civilian billets lost, FY2026 request",
           "value": "26",
           "source": "FY2026 DPAA budget justification (comptroller.war.gov)"
+        },
+        {
+          "metric": "Recovery/investigative teams cut, Cambodia",
+          "value": "3 to 1",
+          "source": "South Texas Public Radio / American Homefront Project (2026-07-26)"
         }
       ],
       "caveat": "The ~$40 million restoration Tata pledged to pursue was, as of the June 2026 reporting reviewed for this entry, still pending in a bill before Congress -- not yet enacted or guaranteed."
     },
-    "confidence_note": "HIGH confidence -- corroborated by DPAA's own official FY2026 budget justification documents, Military Times, and CommonDefense reporting on Tata's June 2026 assignment and restoration pledge.",
-    "last_verified": "2026-08-08",
+    "confidence_note": "HIGH confidence -- corroborated by DPAA's own official FY2026 budget justification documents, Military Times, and CommonDefense reporting on Tata's June 2026 assignment and restoration pledge. Re-verified 2026-08-17: no restoration enacted as of this update. HIGH confidence on the Cambodia team-cut figure (independently reported) and on the FY2026 enacted-vs-requested funding match (CRS, an authoritative nonpartisan source); MODERATE confidence on how the CRS total-agency figure relates to this entry's existing O&M-specific figures, which this update does not claim to fully reconcile.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-08",
     "sources": [
       {
@@ -3812,6 +3826,18 @@
       {
         "name": "Washington Post -- As Trump guts agencies, Hegseth's purge puts POW/MIA agency at risk (2025-02-23)",
         "url": "https://www.washingtonpost.com/national-security/2025/02/23/trump-musk-pentagon-cuts/"
+      },
+      {
+        "name": "South Texas Public Radio / American Homefront Project -- 'Time is passing': Federal budget cuts have slowed efforts to find missing Vietnam-era troops",
+        "url": "https://www.tpr.org/military-veterans-issues/2026-07-26/time-is-passing-federal-budget-cuts-have-slowed-efforts-to-find-missing-vietnam-era-troops"
+      },
+      {
+        "name": "CRS -- Defense POW/MIA Accounting Agency (In Focus), updated 2026-03-09",
+        "url": "https://www.everycrsreport.com/reports/IF13175.html"
+      },
+      {
+        "name": "Sen. Deb Fischer -- Fischer Secures Key Provisions in NDAA to Bolster National Defense (FY2027 NDAA, 2026-06-11)",
+        "url": "https://www.fischer.senate.gov/public/index.cfm/2026/6/fischer-secures-key-provisions-in-ndaa-to-bolster-national-defense"
       }
     ],
     "section_summaries": {
@@ -10796,9 +10822,9 @@
     "title": "NIOSH Loses 85-90% of Staff, Gutting Firefighter Cancer Research, the 9/11 World Trade Center Health Program, and Fatality Investigations",
     "institution": "National Institute for Occupational Safety and Health (NIOSH), Department of Health and Human Services (part of CDC)",
     "domain": "staff_office_cuts",
-    "status": "Ongoing as of mid-2025 reporting -- a partial reinstatement followed public backlash, but the entry's own sources describe only 'a fraction' restored, with downstream program disruptions (WTC Health Program, firefighter cancer/fatality research, dangerous-occupation safety training) continuing",
+    "status": "Mixed as of this update -- two genuinely separate problems that this entry's original framing did not distinguish. (1) The WTC Health Program's chronic funding-formula shortfall, which this entry's sources describe as part of the same crisis, was permanently fixed by the Consolidated Appropriations Act, 2026 (P.L. 119-75), signed February 3, 2026 -- funding is now secured through 2040. That fix predates this entry's own 2026-08-08 write date and was not reflected in the original entry. (2) The underlying NIOSH/WTC Health Program STAFFING crisis this entry actually documents is not resolved by that funding fix: congressional letters in 2026 describe roughly 30% of the WTC Health Program's 120 authorized positions still vacant, backlogged treatment authorizations, and disrupted ongoing treatment for ill survivors, and a bipartisan group of lawmakers was still pressing HHS Secretary Kennedy in July 2026 to reappoint Dr. John Howard as NIOSH director and WTC Health Program administrator, a position he had not yet been reappointed to as of that letter.",
     "date_of_action": "2025-02-21 (initial WTC Health Program staffing cut reported) through 2025-06-03 (training-program funding shortfalls reported)",
-    "what_changed": "On February 21, 2025, the New York Times reported layoffs and buyouts had already cut about 20% of staffing at the World Trade Center Health Program specifically, jeopardizing research grants and delaying certifications critical to treating 9/11 responders and survivors -- a cut initially reinstated after pushback from lawmakers and veterans' groups, though the program's staffing crisis recurred and deepened in the following months as described below. Beginning February 20, 2025, Trump administration cuts began hitting NIOSH more broadly, the CDC institute responsible for occupational safety and health research. Early casualties included Patrick Montague, an investigator for the National Firefighter Registry for Cancer, fired along with colleagues in his program citing probationary status. By April 3, 2025, hundreds of NIOSH staff had been fired, including key personnel from the World Trade Center Health Program -- which provides medical care to 9/11 first responders and survivors -- and the program's longtime director, Dr. John Howard, was also removed. By April 13, the Guardian reported the WTC Health Program had been plunged into disarray, with cancer treatment, PTSD care, and other services for 9/11 survivors and first responders disrupted with no public transparency about what coverage remained available. By April 22, ProPublica reported the purge had eliminated 7 of the 8 members of NIOSH's firefighter fatality investigation team, halting major studies into firefighter cancer risk alongside the WTC-program disruption. On May 12, more than 100 current and former NIOSH employees sent a joint letter to Congress warning that mass purges were putting American workers at risk, stating more than 90% of NIOSH staff had received layoff notices and that critical programs -- the 9/11 Health Program and black lung screening among them -- had already been disrupted. By May 27, the Guardian confirmed an 85% NIOSH staff purge, with only a fraction of positions reinstated after public backlash. By early June, Reuters reported the cuts -- nearly 900 staff purged in April alone -- were forcing shutdowns of occupational-safety training programs specifically serving fishermen, farmers, and loggers, among America's most dangerous occupations, with key training centers warning they would run out of funding by summer or fall 2025.",
+    "what_changed": "On February 21, 2025, the New York Times reported layoffs and buyouts had already cut about 20% of staffing at the World Trade Center Health Program specifically, jeopardizing research grants and delaying certifications critical to treating 9/11 responders and survivors -- a cut initially reinstated after pushback from lawmakers and veterans' groups, though the program's staffing crisis recurred and deepened in the following months as described below. Beginning February 20, 2025, Trump administration cuts began hitting NIOSH more broadly, the CDC institute responsible for occupational safety and health research. Early casualties included Patrick Montague, an investigator for the National Firefighter Registry for Cancer, fired along with colleagues in his program citing probationary status. By April 3, 2025, hundreds of NIOSH staff had been fired, including key personnel from the World Trade Center Health Program -- which provides medical care to 9/11 first responders and survivors -- and the program's longtime director, Dr. John Howard, was also removed. By April 13, the Guardian reported the WTC Health Program had been plunged into disarray, with cancer treatment, PTSD care, and other services for 9/11 survivors and first responders disrupted with no public transparency about what coverage remained available. By April 22, ProPublica reported the purge had eliminated 7 of the 8 members of NIOSH's firefighter fatality investigation team, halting major studies into firefighter cancer risk alongside the WTC-program disruption. On May 12, more than 100 current and former NIOSH employees sent a joint letter to Congress warning that mass purges were putting American workers at risk, stating more than 90% of NIOSH staff had received layoff notices and that critical programs -- the 9/11 Health Program and black lung screening among them -- had already been disrupted. By May 27, the Guardian confirmed an 85% NIOSH staff purge, with only a fraction of positions reinstated after public backlash. By early June, Reuters reported the cuts -- nearly 900 staff purged in April alone -- were forcing shutdowns of occupational-safety training programs specifically serving fishermen, farmers, and loggers, among America's most dangerous occupations, with key training centers warning they would run out of funding by summer or fall 2025. Update, 2026-08-17: two later developments clarify how this crisis evolved. First, the WTC Health Program's separate, longstanding funding-formula shortfall -- which periodically threatened the program's ability to pay for care independent of the 2025 NIOSH staffing purge -- was permanently fixed via a bipartisan provision (led by Rep. Andrew Garbarino, Speaker Mike Johnson, Rep. Brett Guthrie, Sen. Kirsten Gillibrand, and Sen. Chuck Schumer) in the Consolidated Appropriations Act, 2026 (P.L. 119-75), signed by President Trump February 3, 2026, securing funding through 2040. This resolves the funding-formula problem specifically; it does not restore the staff this entry documents being purged in 2025. Second, on the staffing side, HHS Secretary Robert F. Kennedy Jr. said in April 2026 he was 'fixing' the WTC Health Program's problems, but reporting found only four job vacancies had actually been posted against the program's need. A bipartisan, bicameral letter led by Sen. Gillibrand and Rep. Garbarino, sent July 10, 2026 ahead of the September 2026 25th anniversary of the September 11 attacks, urged Kennedy to reappoint Dr. John Howard to a new six-year term as NIOSH director and WTC Health Program administrator, while acknowledging HHS had taken 'recent steps' on staffing shortages, delayed research grants, and pending petitions for additional covered conditions -- language consistent with the vacancy rate cited above, not with the crisis being over.",
     "primary_proponent": {
       "name": "Department of Government Efficiency (DOGE) / Robert F. Kennedy Jr.",
       "role": "DOGE directed the initial workforce cuts; RFK Jr., as HHS Secretary overseeing CDC and NIOSH, bears institutional responsibility for the agency's subsequent management",
@@ -10826,12 +10852,17 @@
           "metric": "Firefighter fatality investigation team members removed",
           "value": "7 of 8",
           "source": "ProPublica (2025-04-22)"
+        },
+        {
+          "metric": "WTC Health Program-linked positions vacant, 2026 congressional letters",
+          "value": "roughly 30% of 120 authorized positions",
+          "source": "Congressional letters to HHS, cited in reporting reviewed 2026-08-17"
         }
       ],
-      "caveat": "The 90%+ (letter), 85% (Guardian), and ~900-in-April (Reuters) figures come from three different outlets at three different points and may reflect slightly different denominators or measurement windows -- treat them as converging evidence of a very large-scale purge (roughly 85-90% of staff) rather than three independent confirmations of one precise number."
+      "caveat": "The 90%+ (letter), 85% (Guardian), and ~900-in-April (Reuters) figures come from three different outlets at three different points and may reflect slightly different denominators or measurement windows -- treat them as converging evidence of a very large-scale purge (roughly 85-90% of staff) rather than three independent confirmations of one precise number. The 30%-vacancy figure comes from congressional letters describing HHS's own reporting to Congress, not an independently audited HHS staffing count."
     },
-    "confidence_note": "HIGH confidence -- this is one of the most thoroughly, independently corroborated entries added this session, with seven separate reporting events across NBC News, USA Today, The Guardian (twice), ProPublica, and Reuters spanning February through June 2025, each documenting a different facet (initial firings, WTC program disruption, fatality-team purge, employee letter to Congress, confirmed 85% figure, downstream training-program shutdowns) of the same escalating crisis.",
-    "last_verified": "2026-08-08",
+    "confidence_note": "HIGH confidence -- this is one of the most thoroughly, independently corroborated entries added this session, with seven separate reporting events across NBC News, USA Today, The Guardian (twice), ProPublica, and Reuters spanning February through June 2025, each documenting a different facet (initial firings, WTC program disruption, fatality-team purge, employee letter to Congress, confirmed 85% figure, downstream training-program shutdowns) of the same escalating crisis. Re-verified 2026-08-17, real correction to framing (not to any specific factual claim): the original 2026-08-08 entry described the WTC Health Program crisis as a single ongoing problem with 'only a fraction restored,' without noting that its funding-formula shortfall -- as opposed to its DOGE-driven staffing purge -- had already been permanently resolved by P.L. 119-75 six months earlier (signed 2026-02-03). That fact existed at this entry's original write time and should have been reflected. The staffing crisis this entry is actually about remains open: HIGH confidence on the funding-formula fix (official public law, widely reported); MODERATE confidence on the 30% current-vacancy figure (traces to congressional correspondence citing HHS's own figures, not independently audited).",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-08",
     "sources": [
       {
@@ -10865,6 +10896,18 @@
       {
         "name": "Reuters -- Trump cuts threaten safety training for workers in America's most dangerous jobs",
         "url": "https://www.reuters.com/world/us/trump-cuts-threaten-safety-training-workers-americas-most-dangerous-jobs-2025-05-31/"
+      },
+      {
+        "name": "FireRescue1 -- World Trade Center Health Program receives permanent funding as staffing cuts delay care for 9/11 survivors",
+        "url": "https://www.firerescue1.com/9-11/9-11-health-program-wins-permanent-funding-but-staffing-cuts-threaten-care"
+      },
+      {
+        "name": "Sen. Kirsten Gillibrand -- Gillibrand Leads Bipartisan, Bicameral Letter Urging Reappointment Of Dr. John Howard To Lead World Trade Center Health Program (2026-07-10)",
+        "url": "https://www.gillibrand.senate.gov/news/press/release/gillibrand-leads-bipartisan-bicameral-letter-urging-reappointment-of-dr-john-howard-to-lead-world-trade-center-health-program/"
+      },
+      {
+        "name": "NY1 -- HHS Secretary Kennedy says he's 'fixing' World Trade Center Health Program (2026-04-03)",
+        "url": "https://ny1.com/nyc/all-boroughs/news/2026/04/03/hhs-secretary-kennedy-says-he-s--fixing--world-trade-center-health-program"
       }
     ]
   },
@@ -10917,13 +10960,13 @@
       ],
       "caveat": "The administration frames the cuts as fiscal discipline and a redirection away from programs it considers outside NIST's core mission - the FY2026 budget documents specifically criticize environmental-sustainability research grants as advancing 'a radical climate agenda,' and argue MEP has outgrown its original rationale after 37 years. House appropriators, controlled by the same party as the administration, disagreed on the scale of cuts and restored $980 million to NIST's Scientific and Technical Research and Services program (a $237 million increase over the administration's request) and full funding for MEP, suggesting the final outcome remains contested within Congress rather than settled. Congressional critics (the Maryland/Colorado delegation letter) warn of a 'brain drain' effect and cite estimates that federal MEP dollars generate nine times their value in economic output, though that multiplier figure originates from program advocates rather than an independent audit."
     },
-    "confidence_note": "High confidence on the staffing-loss figures, which come from NIST's own director speaking on the record at a public advisory board meeting, and on the budget figures, which come directly from NIST's FY2026 Congressional Budget Submission. Moderate confidence on downstream real-world impact (e.g., effects on the AI Risk Management Framework or post-quantum cryptography rollout), which is based on expert commentary rather than a formal audit. Re-verified 2026-07-20: this is now one of the clearer documented cases in this tracker of an agency proceeding with workforce cuts to a program Congress has affirmatively and fully funded, rather than merely a disputed budget proposal -- MEP's RIF notices went out despite, not because of, the enacted appropriation. Frame as a live congressional-oversight dispute (Coons letter, not yet answered as of this update), not a resolved question either direction. Re-verified 2026-07-26: the new MEP funding opportunity is corroborated by NIST's own announcement, Advanced Manufacturing, and Mirage News; no response to Sen. Coons's oversight letter identified as of this update. Re-verified 2026-08-08: the Atomic Spectroscopy Group elimination (WIRED, March 2025) is a specific, named program cut layered onto the broader staffing losses this entry already tracks -- added as additional texture, not a separate action.",
+    "confidence_note": "High confidence on the staffing-loss figures, which come from NIST's own director speaking on the record at a public advisory board meeting, and on the budget figures, which come directly from NIST's FY2026 Congressional Budget Submission. Moderate confidence on downstream real-world impact (e.g., effects on the AI Risk Management Framework or post-quantum cryptography rollout), which is based on expert commentary rather than a formal audit. Re-verified 2026-07-20: this is now one of the clearer documented cases in this tracker of an agency proceeding with workforce cuts to a program Congress has affirmatively and fully funded, rather than merely a disputed budget proposal -- MEP's RIF notices went out despite, not because of, the enacted appropriation. Frame as a live congressional-oversight dispute (Coons letter, not yet answered as of this update), not a resolved question either direction. Re-verified 2026-07-26: the new MEP funding opportunity is corroborated by NIST's own announcement, Advanced Manufacturing, and Mirage News; no response to Sen. Coons's oversight letter identified as of this update. Re-verified 2026-08-08: the Atomic Spectroscopy Group elimination (WIRED, March 2025) is a specific, named program cut layered onto the broader staffing losses this entry already tracks -- added as additional texture, not a separate action. Re-verified 2026-08-17: the July 2026 Manufacturing Extension Partnership Notice of Funding Opportunity (14 centers) is now confirmed at $46.5 million total (announced 2026-06-22, per NIST's own release and Manufacturing Dive); no response to Sen. Coons's oversight letter about the earlier RIF notices has been identified as of this update. No other material change found.",
     "section_summaries": {
       "what_changed": "NIST lost over 700 staff to resignations and early exits; even after Congress fully funded its manufacturing-extension program, the agency laid off that program's entire staff regardless. A specific research group maintaining foundational atomic measurement data was also eliminated.",
       "estimated_impact": "Industry and other federal agencies lean on NIST for encryption, AI-safety, and manufacturing-support standards -- exactly the capacity now strained by staff losses and threatened cuts.",
       "confidence_note": "Staffing figures trace to on-record comments from NIST's director, and budget figures to its own filings; broader real-world impact rests on expert commentary, not a formal audit."
     },
-    "last_verified": "2026-08-08",
+    "last_verified": "2026-08-17",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -10961,9 +11004,13 @@
       {
         "name": "WIRED -- Trump Admin Moves to Eliminate NIST's Atomic Spectroscopy Group",
         "url": "https://www.wired.com/story/nist-doge-layoffs-atomic-spectroscopy/"
+      },
+      {
+        "name": "Manufacturing Dive -- NIST pledges $46.5M for new Manufacturing Extension Partnership centers",
+        "url": "https://www.manufacturingdive.com/news/MEP-program-NIST-funding-AI-robotics/826280/"
       }
     ],
-    "last_updated": "2026-08-08"
+    "last_updated": "2026-08-17"
   },
   {
     "id": "nlrb-quorum-loss-wilcox-firing-trump2",
@@ -11064,8 +11111,8 @@
       ],
       "caveat": "The February 2025 erroneous-firing episode is documented as a process failure rather than a quantified figure; the escalation from initial cuts to the October shutdown furloughs and the December policy shift is documented across five independent outlets over nearly a year, but no single official NNSA report consolidating the full-year impact was found in sourcing reviewed for this entry."
     },
-    "confidence_note": "HIGH confidence -- corroborated across NBC News, the New York Times, USA Today, Reuters, CBS News, CNN, and The Hill, each documenting a different stage of the same escalating crisis over roughly ten months. The convergence of independent national-security, general-news, and Senate-hearing sourcing on the same underlying staffing trajectory makes this one of the more thoroughly corroborated entries in this tracker.",
-    "last_verified": "2026-08-08",
+    "confidence_note": "HIGH confidence -- corroborated across NBC News, the New York Times, USA Today, Reuters, CBS News, CNN, and The Hill, each documenting a different stage of the same escalating crisis over roughly ten months. The convergence of independent national-security, general-news, and Senate-hearing sourcing on the same underlying staffing trajectory makes this one of the more thoroughly corroborated entries in this tracker. Re-verified 2026-08-17: a GAO report (GAO-26-107904, published 2026-07-15) found NNSA began but did not complete a formal analysis of its science, technology, and engineering workforce needs, and recommended it do so -- a finding about incomplete long-term workforce planning, not a new staffing-cut or crisis event, so it is noted here for context rather than treated as escalation. No other material developments identified since last verification.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-08",
     "sources": [
       {
@@ -11099,6 +11146,10 @@
       {
         "name": "The Hill -- NNSA furloughs staff amid government shutdown",
         "url": "https://thehill.com/policy/energy-environment/5564461-nnsa-furloughs-staff-government-shutdown/"
+      },
+      {
+        "name": "GAO -- National Nuclear Security Administration: Additional Actions Needed to Plan for Science, Technology, and Engineering Facilities and Workforce Investments (GAO-26-107904, 2026-07-15)",
+        "url": "https://www.gao.gov/products/gao-26-107904"
       }
     ]
   },
@@ -11488,9 +11539,9 @@
     "title": "NSF Fires 168 Staff Including Antarctic Program Managers, Disrupting U.S. Polar Research Logistics",
     "institution": "National Science Foundation",
     "domain": "staff_office_cuts",
-    "status": "Implemented -- February 18, 2025 firings took effect; downstream disruption to Antarctic program management reported as ongoing as of the sourcing reviewed",
+    "status": "Escalated, not just implemented -- the February 2025 firings were followed roughly a year later by a structural reorganization (April 2026) that further reduced and reassigned Office of Polar Programs staff specifically",
     "date_of_action": "2025-02-18 (NSF firings) through at least 2025-03-10 (reported downstream Antarctic Program disruption)",
-    "what_changed": "On February 18, 2025, DOGE-driven cuts eliminated 168 NSF positions -- roughly 10% of the agency's staff -- including probationary employees and expert appointments. Several of those fired were program managers for the U.S. Antarctic Program, the office responsible for maintaining communication with the Antarctic infrastructure and logistics contractor, planning scientist deployments to the continent, and tracking budgets and funding for operations and maintenance work at the three permanent U.S. Antarctic stations (McMurdo, Palmer, and the Amundsen-Scott South Pole Station), which host research including the South Pole and BICEP telescopes, the IceCube neutrino detector, and long-running atmospheric climate monitoring. One scientist whose NSF project manager was fired told WIRED, 'Without them, everything stops.' By early March 2025, researchers reported losing clarity on reporting structures and proposal-submission processes, and warned that a shutdown of the South Pole station in particular would be 'basically nearly impossible to bring... back up' given the logistical difficulty of restarting polar operations. Around the same time, NSF also removed gender-inclusive housing-preference language from Antarctic staffer forms for McMurdo Station. Scientists and members of Congress warned the disruption risked ceding ground at the South Pole: reporting identified Germany, Canada, Spain, and China as already recruiting displaced or frustrated American Antarctic researchers, and raised concern that Russia and China could expand their own polar presence into any resulting U.S. capability gap. House Science Committee leaders Zoe Lofgren and Valerie Foushee separately criticized the broader wave of NSF firings publicly and pressed the National Science Board to intervene.",
+    "what_changed": "On February 18, 2025, DOGE-driven cuts eliminated 168 NSF positions -- roughly 10% of the agency's staff -- including probationary employees and expert appointments. Several of those fired were program managers for the U.S. Antarctic Program, the office responsible for maintaining communication with the Antarctic infrastructure and logistics contractor, planning scientist deployments to the continent, and tracking budgets and funding for operations and maintenance work at the three permanent U.S. Antarctic stations (McMurdo, Palmer, and the Amundsen-Scott South Pole Station), which host research including the South Pole and BICEP telescopes, the IceCube neutrino detector, and long-running atmospheric climate monitoring. One scientist whose NSF project manager was fired told WIRED, 'Without them, everything stops.' By early March 2025, researchers reported losing clarity on reporting structures and proposal-submission processes, and warned that a shutdown of the South Pole station in particular would be 'basically nearly impossible to bring... back up' given the logistical difficulty of restarting polar operations. Around the same time, NSF also removed gender-inclusive housing-preference language from Antarctic staffer forms for McMurdo Station. Scientists and members of Congress warned the disruption risked ceding ground at the South Pole: reporting identified Germany, Canada, Spain, and China as already recruiting displaced or frustrated American Antarctic researchers, and raised concern that Russia and China could expand their own polar presence into any resulting U.S. capability gap. House Science Committee leaders Zoe Lofgren and Valerie Foushee separately criticized the broader wave of NSF firings publicly and pressed the National Science Board to intervene. Update, 2026-08-17: as part of NSF's broader elimination of all 37 of its divisions (announced to staff May 8, 2025, driven in part by a proposed 55% FY2026 budget cut), the Office of Polar Programs -- previously housed in the Geosciences Directorate -- was moved by April 16, 2026 into a newly created Office of Research Infrastructure under NSF's Office of the Director. NSF's own announcement and subsequent reporting describe further staff reassignments and reductions specifically within the Office of Polar Programs as part of this move, on top of the February 2025 program-manager firings this entry already documents, deepening rather than resolving the disruption to Antarctic program logistics and support.",
     "primary_proponent": {
       "name": "Department of Government Efficiency (DOGE)",
       "role": "Directed the February 2025 firings across NSF as part of a broader federal workforce-reduction mandate",
@@ -11512,8 +11563,8 @@
       ],
       "caveat": "Scientists quoted in sourcing reviewed spoke anonymously citing fear of retaliation, and no official NSF statement quantifying the specific number of Antarctic program managers (a subset of the 168 total) was identified. The claim that China, Russia, or other nations could gain lasting strategic advantage in Antarctica as a direct result is a warning from scientists and reporting at the time, not yet a confirmed outcome in sourcing reviewed."
     },
-    "confidence_note": "MODERATE-HIGH confidence. The 168-position, ~10%-of-staff firing figure is corroborated across WIRED, The Week, and CleanTechnica, and the broader NSF firings were criticized on the record by House Science Committee leaders. The specific Antarctic program-management impact and researcher quotes trace primarily to WIRED's reporting, corroborated in narrower form by CleanTechnica; no second fully independent outlet with its own named sourcing on the Antarctic-specific impact was identified, so treat the Antarctic-specific detail as MODERATE and the overall NSF firing figure as HIGH.",
-    "last_verified": "2026-08-08",
+    "confidence_note": "MODERATE-HIGH confidence. The 168-position, ~10%-of-staff firing figure is corroborated across WIRED, The Week, and CleanTechnica, and the broader NSF firings were criticized on the record by House Science Committee leaders. The specific Antarctic program-management impact and researcher quotes trace primarily to WIRED's reporting, corroborated in narrower form by CleanTechnica; no second fully independent outlet with its own named sourcing on the Antarctic-specific impact was identified, so treat the Antarctic-specific detail as MODERATE and the overall NSF firing figure as HIGH. Re-verified 2026-08-17: the April 2026 Office of Polar Programs reorganization (move from Geosciences Directorate to a new Office of Research Infrastructure, with further OPP-specific staff reductions) is corroborated by NSF's own public updates and independent reporting (Science/AAAS); status updated from 'Implemented' to 'Escalated' to reflect that this is an ongoing structural process, not a single closed 2025 event.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-08",
     "sources": [
       {
@@ -11531,6 +11582,14 @@
       {
         "name": "House Committee on Science, Space, and Technology Democrats -- Committee Leaders Lofgren and Stevens Statement on NSF Employee Firings by DOGE",
         "url": "https://democrats-science.house.gov/news/press-releases/committee-leaders-lofgren-and-stevens-statement-on-nsf-employee-firings-by-doge"
+      },
+      {
+        "name": "NSF -- Update on science support and infrastructure in Antarctica",
+        "url": "https://www.nsf.gov/news/news_summ.jsp?cntn_id=309388"
+      },
+      {
+        "name": "Science (AAAS) -- Exclusive: NSF faces radical shake-up as officials abolish its 37 divisions",
+        "url": "https://www.science.org/content/article/exclusive-nsf-faces-radical-shake-officials-abolish-its-37-divisions"
       }
     ],
     "section_summaries": {
