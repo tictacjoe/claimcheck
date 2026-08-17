@@ -3050,7 +3050,7 @@
       "caveat": "The $120 billion figure Collins gave Congress in May 2025 is dramatically larger than the $1.8 billion figure the VA itself announced in March for a similar-scale contract count, and no source reviewed reconciles the two -- DOGE has faced broader, separate criticism for overstating savings figures in its public accounting, which this entry notes as relevant context without independently adjudicating which VA figure (if either) is accurate."
     },
     "confidence_note": "HIGH confidence on the cancellation campaign itself, the backlash, and the reduction from 875 to 585 contracts, corroborated across CNBC, NBC News, and Senate oversight correspondence (Blumenthal, King). MODERATE confidence on any single dollar figure given the documented inconsistency between the VA's own March 2025 accounting and Collins's May 2025 congressional testimony -- flagged explicitly rather than resolved, since no source reviewed explains the discrepancy.",
-    "last_verified": "2026-08-10",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-10",
     "sources": [
       {
@@ -4371,7 +4371,7 @@
       "caveat": "This is a documented exploration, not a completed or even formally proposed sale -- ED's own February 2026 statement is explicit that no final action or decision had been made. The entry should be presented as a live policy question with a disputed legal premise (whether a no-net-cost sale is achievable, and whether borrower protections would legally survive), not as a completed privatization."
     },
     "confidence_note": "HIGH confidence for the timeline of reported talks, the congressional letter, and ED's own confirmatory response -- corroborated across Politico's original reporting, Higher Ed Dive, Protect Borrowers, and Sen. Warren's office's published letters and ED's written response. The portfolio-value figures vary somewhat by source and date (face value vs. fair value, and differing snapshots between $1.6T and $1.77T), noted above rather than resolved to one number.",
-    "last_verified": "2026-08-10",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-10",
     "section_summaries": {
       "what_changed": "Trump administration officials held talks with finance executives from Oct. 2025 about selling the ~$1.6-1.77T federal student loan portfolio to private investors; 40+ Democrats objected on legal grounds, and ED confirmed in Feb. 2026 that exploration continued with no final decision made.",
@@ -5905,7 +5905,7 @@
       "caveat": "This is a self-selected survey of fired workers conducted by a peer advocacy group of fellow fired employees, not an independent, randomly sampled clinical study -- the 95%/PTSD figures likely reflect a population motivated to respond because they experienced significant harm, and should be read as documenting the existence and severity of harm within an affected, engaged subset rather than as a precise government-wide psychological-impact rate. The underlying legal question (whether the mass firing was lawful) has already been resolved against OPM by a federal court; what remains undocumented in reporting reviewed is any systemic remedy (reinstatement, backpay, or compensation) for the harm this survey describes."
     },
     "confidence_note": "HIGH confidence on the survey's existence, methodology (300+ respondents, conducted by former fired federal workers), and headline findings (95% ongoing effects, ~50% PTSD-like symptoms, ~25% new medication), corroborated by Federal News Network and Government Executive's direct reporting on the survey release, with the underlying Alsup ruling and 25,000-worker firing scale corroborated by earlier NPR and Washington Post reporting. The March 2025 NBC News reporting (20 fired workers interviewed directly, veteran-specific detail) independently corroborates that the harm described in the 2026 survey was present and reported within weeks of the firings, not a delayed or survey-artifact effect. MODERATE confidence on generalizing the survey's percentages to the full population of ~25,000 fired workers, given the self-selected respondent pool noted above.",
-    "last_verified": "2026-08-10",
+    "last_verified": "2026-08-17",
     "sources": [
       {
         "name": "Federal News Network -- Many fired probationary employees have not 'moved on,' survey shows",
@@ -6804,9 +6804,9 @@
     "title": "State Department Froze Fulbright/Gilman/Critical Language Funding; Entire Oversight Board Resigned Over Political Vetting of Recipients",
     "institution": "State Department -- Bureau of Educational and Cultural Affairs / Fulbright Foreign Scholarship Board",
     "domain": "funding_redirection",
-    "status": "Ongoing -- the political-vetting dispute and board vacancy remain unresolved as of the reporting reviewed; the FY2026 draft appropriations bill restored substantial Fulbright funding despite the administration's proposed elimination",
+    "status": "Split status, corrected 2026-08-17: the funding question is resolved -- the FY2026 Consolidated Appropriations Act (P.L. 119-75) was signed into law February 3, 2026, enacting $273.4 million specifically for Fulbright ($667 million for State Department educational/cultural exchange programs overall), rejecting the administration's proposed near-total elimination. The political-vetting dispute and Fulbright Foreign Scholarship Board vacancy remain unresolved -- no replacement board members had been named as of the State Department's own June 17, 2026 board page, more than a year after the June 2025 mass resignation.",
     "date_of_action": "2025-02-13 (ECA funding pause begins) through 2025-06-12 (Fulbright board mass resignation)",
-    "what_changed": "On February 13, 2025, the State Department's Bureau of Educational and Cultural Affairs (ECA) paused disbursements for its exchange programs -- including Fulbright, the Gilman International Scholarship, IDEAS, and the Critical Language Scholarship program -- initially described as a 15-day pause but extended well beyond that window, leaving over 10,000 students and professionals in active exchanges without stipends for housing, food, and travel, both in the U.S. and abroad; funding began to be restored in the following months. Separately, State Department officials led by Darren Beattie, Under Secretary for Public Diplomacy and Public Affairs, intervened to reject more than 20% of the Fulbright Foreign Scholarship Board's selected finalists for the 2025-2026 academic year -- a last-minute override the board called unauthorized -- and subjected an additional roughly 1,200 already-selected foreign recipients to a new, unauthorized ideological review process that could still result in their rejection, spanning fields from architecture and biology to medical science and music. On June 12, 2025, 11 of the board's 12 presidentially-appointed members resigned en masse, writing that the administration had 'injected politics and ideological mandates' into award decisions and that senior administration officials had refused to respond to the board's repeated legal objections, raised both verbally and in writing. Trump's FY2026 budget proposal separately sought to eliminate nearly all Fulbright funding; the draft FY2026 appropriations bill reviewed by Congress instead included $287.8 million for the program, indicating congressional resistance to the proposed elimination.",
+    "what_changed": "On February 13, 2025, the State Department's Bureau of Educational and Cultural Affairs (ECA) paused disbursements for its exchange programs -- including Fulbright, the Gilman International Scholarship, IDEAS, and the Critical Language Scholarship program -- initially described as a 15-day pause but extended well beyond that window, leaving over 10,000 students and professionals in active exchanges without stipends for housing, food, and travel, both in the U.S. and abroad; funding began to be restored in the following months. Separately, State Department officials led by Darren Beattie, Under Secretary for Public Diplomacy and Public Affairs, intervened to reject more than 20% of the Fulbright Foreign Scholarship Board's selected finalists for the 2025-2026 academic year -- a last-minute override the board called unauthorized -- and subjected an additional roughly 1,200 already-selected foreign recipients to a new, unauthorized ideological review process that could still result in their rejection, spanning fields from architecture and biology to medical science and music. On June 12, 2025, 11 of the board's 12 presidentially-appointed members resigned en masse, writing that the administration had 'injected politics and ideological mandates' into award decisions and that senior administration officials had refused to respond to the board's repeated legal objections, raised both verbally and in writing. Trump's FY2026 budget proposal separately sought to eliminate nearly all Fulbright funding; a July 2025 House committee draft instead included $287.8 million for the program, and the appropriations process ultimately resolved the same way -- Congress passed and Trump signed the FY2026 Consolidated Appropriations Act (P.L. 119-75) on February 3, 2026, enacting $273.4 million for Fulbright specifically (a modest trim from the July draft figure, still a $5 million cut to Title VI/Fulbright-Hays combined year over year) within $667 million for State Department educational/cultural exchange programs overall -- a $74 million (10%) reduction from FY2025 but a large restoration relative to the administration's request to all but eliminate the program. That funding resolution was already six months old by the time this entry was first written (2026-08-10) and drafted around 'draft appropriations bill' language; it is corrected here rather than presented as still-pending. The board vacancy is a separate, still-unresolved question: sourcing reviewed found no indication as of mid-2026 that the administration has nominated replacements for the 11 members who resigned in June 2025.",
     "primary_proponent": {
       "name": "Darren Beattie",
       "role": "Under Secretary of State for Public Diplomacy and Public Affairs",
@@ -6831,15 +6831,20 @@
           "source": "Reporting cited by CNN / Inside Higher Ed"
         },
         {
-          "metric": "FY2026 draft congressional appropriations for Fulbright, despite the administration's proposed elimination",
-          "value": "$287,800,000",
-          "source": "Draft FY2026 appropriations bill, per reporting"
+          "metric": "FY2026 enacted appropriation for Fulbright specifically (P.L. 119-75, signed 2026-02-03)",
+          "value": "$273,400,000",
+          "source": "GovInfo (official Public Law text) / NAFSA analysis"
+        },
+        {
+          "metric": "FY2026 enacted appropriation for State Dept. educational/cultural exchange programs overall",
+          "value": "$667,000,000 (down $74M / 10% from FY2025)",
+          "source": "NAFSA analysis of P.L. 119-75"
         }
       ],
-      "caveat": "The board's resignation letter is a primary-source-adjacent account of the vetting dispute, but the State Department's own stated rationale for the specific finalist rejections was not detailed in sourcing reviewed. The FY2026 funding comparison (proposal vs. draft appropriations bill) reflects the state of play as of the reporting reviewed, not necessarily final enacted appropriations."
+      "caveat": "The board's resignation letter is a primary-source-adjacent account of the vetting dispute, but the State Department's own stated rationale for the specific finalist rejections was not detailed in sourcing reviewed. The FY2026 funding question is now resolved by enacted law (P.L. 119-75, 2026-02-03) rather than a still-open proposal-vs-draft comparison; the board-vacancy question remains open."
     },
-    "confidence_note": "HIGH confidence -- corroborated across CNN, NPR, ABC News, Inside Higher Ed, NAFSA, ICEF Monitor, and Newsweek, including the board's own on-record resignation letter and named officials on both sides of the dispute.",
-    "last_verified": "2026-08-10",
+    "confidence_note": "HIGH confidence -- corroborated across CNN, NPR, ABC News, Inside Higher Ed, NAFSA, ICEF Monitor, and Newsweek, including the board's own on-record resignation letter and named officials on both sides of the dispute. CORRECTED 2026-08-17: this entry was first written 2026-08-10 describing FY2026 Fulbright funding as resting on a 'draft appropriations bill,' but the FY2026 Consolidated Appropriations Act (P.L. 119-75) had already been signed into law on 2026-02-03 -- six months before the entry's own write date -- enacting $273.4M for Fulbright specifically. Verified directly against the official Public Law text on GovInfo (govinfo.gov/app/details/PLAW-119publ75) and cross-checked against NAFSA's FY2026 exchange-funding analysis, both primary/near-primary sources, not just a search-engine summary. This is the same 'aged-backlog, forward-check-missed-at-build-time' pattern documented elsewhere in this tracker's standing lessons (niosh batch 13, noaa-office-space-commerce batch 14) -- the omission is flagged here rather than silently appended.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-10",
     "sources": [
       {
@@ -6861,12 +6866,20 @@
       {
         "name": "NPR -- Almost all of the Fulbright board resigns, citing Trump administration interference",
         "url": "https://www.npr.org/2025/06/12/nx-s1-5431470/fulbright-board-resigns-political-interference"
+      },
+      {
+        "name": "GovInfo -- Public Law 119-75, Consolidated Appropriations Act, 2026 (official text, signed 2026-02-03)",
+        "url": "https://www.govinfo.gov/app/details/PLAW-119publ75"
+      },
+      {
+        "name": "NAFSA -- FY2026 Funding for International Education and Exchange Programs",
+        "url": "https://www.nafsa.org/fy2026-funding-international-education-and-exchange-programs"
       }
     ],
     "section_summaries": {
-      "what_changed": "State Dept froze Fulbright/Gilman/Critical Language funding for months starting Feb 2025, then overrode 20%+ of Fulbright's selected finalists on ideological grounds, prompting 11 of 12 board members to resign in June 2025.",
-      "estimated_impact": "10,000+ exchange participants lost stipends for months; the board responsible for insulating Fulbright from political interference resigned en masse; Congress resisted the administration's bid to eliminate FY2026 funding.",
-      "confidence_note": "Well-corroborated across major outlets and the board's own resignation letter; the department's rationale for specific rejections remains undocumented in sourcing reviewed."
+      "what_changed": "State Dept froze Fulbright/Gilman/Critical Language funding for months starting Feb 2025, then overrode 20%+ of Fulbright's selected finalists on ideological grounds, prompting 11 of 12 board members to resign in June 2025; Congress enacted $273.4M for Fulbright in the FY2026 appropriations act signed 2026-02-03, rejecting the administration's proposed near-elimination.",
+      "estimated_impact": "10,000+ exchange participants lost stipends for months; the board responsible for insulating Fulbright from political interference resigned en masse and remains unreplaced a year-plus later; Congress rejected the administration's bid to eliminate FY2026 funding, enacting $273.4M instead.",
+      "confidence_note": "Well-corroborated across major outlets and the board's own resignation letter; the department's rationale for specific rejections remains undocumented. Funding status corrected 2026-08-17 from 'draft bill' framing to enacted law, verified against the official Public Law text."
     }
   },
   {
@@ -9195,9 +9208,9 @@
     "title": "446 Hospitals Across 44 States Found at High Risk of Closing or Cutting Services Because of Republican Medicaid Cuts",
     "institution": "Centers for Medicare & Medicaid Services / hospitals nationwide reliant on Medicaid funding",
     "domain": "funding_redirection",
-    "status": "Ongoing -- risk assessment based on funding changes already enacted (OBBBA) and being implemented (work-requirements rule documented separately in this tracker)",
+    "status": "Ongoing -- risk assessment based on funding changes already enacted (OBBBA) and being implemented (work-requirements rule documented separately in this tracker). Updated 2026-08-17: several individually-named hospitals disputed the risk analysis's methodology as applied to them, and separately, confirmed maternity/OB service closures at specific hospitals since publication show the risk has begun materializing in at least some cases, not just as a projection.",
     "date_of_action": "2025-07 (OBBBA Medicaid funding provisions signed into law) through 2026-04 (hospital risk analysis published)",
-    "what_changed": "An earlier analysis, published November 17, 2025 by Harvard T.H. Chan School of Public Health's Healthcare Quality and Outcomes Lab (researchers Jose Figueroa and Thomas Tsai) in collaboration with the New York Times, examined data on more than 4,400 U.S. hospitals from the American Hospital Association, Medicare's Healthcare Cost Report Information System, AHRQ, and the Private Equity Stakeholder Project, and identified 109 hospitals -- those serving 25%+ Medicaid patients, financially distressed, and already caring for vulnerable populations -- as facing the greatest risk from OBBBA's Medicaid cuts. 85% of those 109 highest-risk hospitals are in urban areas, and are therefore ineligible for the $50 billion Rural Health Transformation Fund OBBBA created to cushion rural hospitals from the same cuts; the researchers noted these urban safety-net hospitals disproportionately serve low-income and racial-minority patient populations. A new analysis found that 446 hospitals across 44 states and Washington, D.C. are at high risk of closing or cutting services as a result of Medicaid funding reductions enacted in the One Big Beautiful Bill Act (OBBBA), the same law whose work-requirements provisions are documented separately in this tracker (medicaid-work-requirements-cms-rule-2026.json). Many of the at-risk hospitals already operate at a financial loss and rely heavily on Medicaid reimbursement to remain viable; NBC News reported the cuts put jobs, maternity care, mental health services, and general local access to treatment at risk in the affected communities, particularly in rural and underserved areas where Medicaid patients make up an outsized share of hospital revenue. Trump himself connected these funding pressures directly to military spending priorities: speaking at a private White House Easter luncheon in April 2026, NBC News reported he said the federal government could not fund Medicaid, Medicare, and child care because military spending had to come first, arguing those responsibilities should shift to the states.",
+    "what_changed": "An earlier analysis, published November 17, 2025 by Harvard T.H. Chan School of Public Health's Healthcare Quality and Outcomes Lab (researchers Jose Figueroa and Thomas Tsai) in collaboration with the New York Times, examined data on more than 4,400 U.S. hospitals from the American Hospital Association, Medicare's Healthcare Cost Report Information System, AHRQ, and the Private Equity Stakeholder Project, and identified 109 hospitals -- those serving 25%+ Medicaid patients, financially distressed, and already caring for vulnerable populations -- as facing the greatest risk from OBBBA's Medicaid cuts. 85% of those 109 highest-risk hospitals are in urban areas, and are therefore ineligible for the $50 billion Rural Health Transformation Fund OBBBA created to cushion rural hospitals from the same cuts; the researchers noted these urban safety-net hospitals disproportionately serve low-income and racial-minority patient populations. A new analysis, published by Public Citizen on March 31, 2026 (identified by name via HFMA's follow-up reporting; the original entry cited it only as 'an analysis' via NBC News's coverage), found that 446 hospitals across 44 states and Washington, D.C. are at high risk of closing or cutting services as a result of Medicaid funding reductions enacted in the One Big Beautiful Bill Act (OBBBA), the same law whose work-requirements provisions are documented separately in this tracker (medicaid-work-requirements-cms-rule-2026.json). Public Citizen's methodology flagged hospitals with a 20%+ Medicaid payer mix and negative net margins over 2022-2024. Many of the at-risk hospitals already operate at a financial loss and rely heavily on Medicaid reimbursement to remain viable; NBC News reported the cuts put jobs, maternity care, mental health services, and general local access to treatment at risk in the affected communities, particularly in rural and underserved areas where Medicaid patients make up an outsized share of hospital revenue. Trump himself connected these funding pressures directly to military spending priorities: speaking at a private White House Easter luncheon in April 2026, NBC News reported he said the federal government could not fund Medicaid, Medicare, and child care because military spending had to come first, arguing those responsibilities should shift to the states. At least four individually-named hospitals on or near the flagged list publicly disputed the risk assessment as applied to them, per HFMA's follow-up reporting: Northwest Mississippi Regional Medical Center's CEO said the analysis's 2022-2024 data window captured a temporary financial disruption from the hospital's May 2023 reacquisition by the county, not its actual trajectory; Minden Medical Center (Louisiana) said flatly it was not at risk of closing; Welch Community Hospital (West Virginia) said the analysis ignored that it is a state-operated facility funded by legislative appropriations rather than exposed to the federal Medicaid cuts the same way; and Metropolitan Hospital Center (NYC Health + Hospitals) pointed to record patient-care revenue and staff expansion as evidence it was securely positioned rather than at risk. None of these four rebuttals were independently adjudicated in sourcing reviewed -- they are hospital self-assessments, not a third-party re-analysis -- but they are documented here for balance given the risk analysis is itself already presented as a projection rather than a confirmed count. Separately, since the risk analysis's publication, at least three hospitals have confirmed actual Medicaid-cuts-linked service closures rather than projected risk: St. Mary's Sacred Heart Hospital (Lavonia, GA) closed its labor-and-delivery unit and OB/GYN center in fall 2025; Centra Southside Community Hospital (Farmville, VA) closed labor-and-delivery and OB/GYN surgical services; and Greene County General Hospital (Linton, IN) ended obstetrics services in January 2026. A broader 2026 rural-hospital report (Center for Healthcare Quality and Payment Reform) found 139 rural hospitals have closed labor-and-delivery units since 2020 (a 13% drop nationally), with OBBBA's Medicaid cuts cited as an accelerating pressure on top of pre-existing rural obstetric-unit attrition, not the sole cause -- the report does not attribute the full 139-hospital figure to OBBBA specifically, and this entry does not either.",
     "primary_proponent": {
       "name": "Congressional Republicans / Trump administration",
       "role": "Enacted and implemented the OBBBA's Medicaid funding reductions",
@@ -9214,18 +9227,23 @@
         {
           "metric": "Hospitals found at high risk of closing or cutting services",
           "value": "446",
-          "source": "Analysis cited by NBC News, April 2026"
+          "source": "Public Citizen analysis, March 31, 2026, cited by NBC News, April 2026"
         },
         {
           "metric": "States (plus D.C.) with at-risk hospitals",
           "value": "44 + D.C.",
-          "source": "Analysis cited by NBC News, April 2026"
+          "source": "Public Citizen analysis, March 31, 2026"
+        },
+        {
+          "metric": "Rural hospitals that have closed labor-and-delivery units since 2020 (national, not OBBBA-attributed specifically)",
+          "value": "139 (13% drop)",
+          "source": "Center for Healthcare Quality and Payment Reform, 2026 report"
         }
       ],
-      "caveat": "This is a risk analysis projecting financial vulnerability based on current Medicaid funding levels and hospital operating margins, not a confirmed count of hospitals that have already closed or cut services as a direct, adjudicated result of the OBBBA cuts specifically."
+      "caveat": "This is fundamentally a risk analysis projecting financial vulnerability based on hospital operating margins and Medicaid payer mix, not a confirmed, adjudicated count of hospitals that closed specifically because of OBBBA. Two things cut in opposite directions on that caveat as of the 2026-08-17 update: several individually-named hospitals dispute being at risk at all (see what_changed), while at least three other hospitals have confirmed actual maternity/OB service closures since the analysis published -- so the 446 figure should be read as a contested, imperfect risk projection that has started to show some real-world confirmation, not as a settled prediction in either direction."
     },
-    "confidence_note": "MODERATE-HIGH confidence -- the 446-hospital figure and its state-level scope come from a specific analysis cited by NBC News; sourcing reviewed did not independently verify the analysis's full methodology (e.g., which organization produced it or its underlying risk-scoring criteria) beyond NBC's reporting. The underlying OBBBA Medicaid funding cuts are well-documented public record. Present the 446 figure as a credentialed risk projection, not a confirmed closure count. Re-verified 2026-08-06: NBC News independently corroborates Trump's own April 2026 statement explicitly tying reduced federal support for Medicaid, Medicare, and child care to military spending priorities and a preference for shifting those costs to states.",
-    "last_verified": "2026-08-10",
+    "confidence_note": "MODERATE-HIGH confidence -- the 446-hospital figure and its state-level scope are now attributed to Public Citizen's March 31, 2026 report (20%+ Medicaid payer mix, negative 2022-2024 net margins), identified via HFMA's follow-up coverage; the original entry cited only NBC News's reporting on an unnamed analysis, which understated confidence in a verifiable, named methodology. The underlying OBBBA Medicaid funding cuts are well-documented public record. Re-verified 2026-08-06: NBC News independently corroborates Trump's own April 2026 statement explicitly tying reduced federal support for Medicaid, Medicare, and child care to military spending priorities and a preference for shifting those costs to states. Updated 2026-08-17: added the Public Citizen attribution, four hospitals' documented rebuttals of their own risk classification, and three confirmed post-publication OB/maternity service closures tied to Medicaid cuts (St. Mary's Sacred Heart GA, Centra Southside VA, Greene County General IN) -- present the 446 figure as contested and partially-confirmed, not as either a debunked or a fully-validated projection.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-06",
     "sources": [
       {
@@ -9243,13 +9261,25 @@
       {
         "name": "Healthcare Dive -- Urban safety-net hospitals vulnerable to Medicaid cuts: analysis",
         "url": "https://www.healthcaredive.com/news/urban-safety-net-hospitals-vulnerable-medicaid-cuts/805932/"
+      },
+      {
+        "name": "HFMA -- 'Flagged hospitals say they are not financially endangered'",
+        "url": "https://www.hfma.org/fast-finance/medicaid-cuts-hospital-closures-risk-analysis/"
+      },
+      {
+        "name": "Medical Daily -- Rural America Is Running Out of Places to Give Birth, and the Pace Is Accelerating",
+        "url": "https://www.medicaldaily.com/rural-hospitals-labor-delivery-closures-2026-maternal-mortality-476274"
+      },
+      {
+        "name": "19th News -- Medicaid cuts threaten services for pregnant people in rural America",
+        "url": "https://19thnews.org/2025/08/pregnancy-rural-america-maternity-ward-closures-medicaid/"
       }
     ],
-    "last_updated": "2026-08-06",
+    "last_updated": "2026-08-17",
     "section_summaries": {
-      "what_changed": "An analysis found 446 hospitals across 44 states and D.C. are at high risk of closing or cutting services due to OBBBA's Medicaid funding cuts, many already operating at a loss and heavily reliant on Medicaid reimbursement; an earlier Harvard analysis (Nov. 2025) had already flagged 109 hospitals, 85% urban, as highest-risk and ineligible for OBBBA's rural-hospital backstop fund.",
-      "estimated_impact": "Nearly 450 hospitals face financial risk, threatening jobs, maternity care, mental health services, and local treatment access in affected communities.",
-      "confidence_note": "The 446-hospital figure comes from a specific analysis cited by NBC News; the analysis's full methodology wasn't independently verified beyond that reporting."
+      "what_changed": "Public Citizen's March 2026 analysis found 446 hospitals across 44 states and D.C. at high risk of closing/cutting services from OBBBA's Medicaid cuts; four named hospitals disputed their risk classification, while three others (GA, VA, IN) confirmed actual OB/maternity closures since publication; an earlier Harvard analysis (Nov. 2025) had already flagged 109 hospitals, 85% urban, as highest-risk and ineligible for OBBBA's rural-hospital backstop fund.",
+      "estimated_impact": "Nearly 450 hospitals face financial risk, threatening jobs, maternity care, mental health services, and local treatment access in affected communities; the risk projection is now both disputed by some flagged hospitals and partially confirmed by others' actual closures.",
+      "confidence_note": "The 446-hospital figure is now attributed to Public Citizen by name with its methodology; four hospitals dispute the classification, three have confirmed post-publication closures -- present as contested and partially-confirmed."
     }
   },
   {
@@ -9782,7 +9812,7 @@
       "caveat": "No source reviewed provided a final, comprehensive accounting of how many of the 34 buildings were ultimately closed, reversed, or corrected as of this entry's last verification -- the terminations were structured to arrive in phases through 2026, and this entry captures the initial scope plus the specific reversals/corrections documented so far, not a final tally."
     },
     "confidence_note": "HIGH confidence for the initial list's existence and scope (Washington Post, Frommers compiling the GSA list, congressional letters from Klobuchar/Smith) and for the two specific reversal/correction cases (Newsminer/Fairbanks, Real Change/Seattle). MODERATE confidence on the overall current status of all 34 sites, since no single source reviewed tracks a complete, updated tally.",
-    "last_verified": "2026-08-10",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-10",
     "section_summaries": {
       "what_changed": "GSA/DOGE listed 34 NPS buildings including visitor centers and museums for lease termination in phases through 2026; at least two sites were reversed or corrected after local pushback revealed errors.",
