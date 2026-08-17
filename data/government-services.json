@@ -432,8 +432,8 @@
       ],
       "caveat": "Figures are from internal Army budget documents as characterized by reporters (ABC News, CNN, and syndicated wire coverage); no independent GAO or Inspector General accounting has yet confirmed the exact shortfall total."
     },
-    "confidence_note": "HIGH confidence -- corroborated across multiple independent outlets (ABC News, CNN, Hoodline, and wide wire syndication) citing internal Army budget documents and named cost drivers; the specific dollar figures for III Armored Corps and the D.C. Guard deployment are independently reported by more than one outlet. Re-verified 2026-08-02: the specific fuel-cost figures ($1B+ unplanned cost, per-barrel price increase, Air Force's 10% fuel-consumption overage) are corroborated by ABC News's original reporting and wide syndication (Newsweek, Mediaite, Newsmax).",
-    "last_verified": "2026-08-02",
+    "confidence_note": "HIGH confidence -- corroborated across multiple independent outlets (ABC News, CNN, Hoodline, and wide wire syndication) citing internal Army budget documents and named cost drivers; the specific dollar figures for III Armored Corps and the D.C. Guard deployment are independently reported by more than one outlet. Re-verified 2026-08-02: the specific fuel-cost figures ($1B+ unplanned cost, per-barrel price increase, Air Force's 10% fuel-consumption overage) are corroborated by ABC News's original reporting and wide syndication (Newsweek, Mediaite, Newsmax). Re-verified 2026-08-17: no material developments beyond the figures already documented here found in current searches; the Iran-war/border-deployment/D.C.-Guard cost drivers and the fuel-price figures remain the most recent reporting available.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-02",
     "sources": [
       {
@@ -458,7 +458,7 @@
       "estimated_impact": "III Armored Corps alone lost ~$292 million in training funds; officials warned of broader readiness degradation across the force.",
       "confidence_note": "Well-corroborated across multiple independent outlets citing internal Army budget documents."
     },
-    "last_updated": "2026-08-02"
+    "last_updated": "2026-08-17"
   },
   {
     "id": "bird-flu-surveillance-collapse-resurgence-2025",
@@ -6335,7 +6335,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing, with a genuine mixed 2026 update -- the Forest Service met its 2026 seasonal wildland-firefighter hiring goal (crediting recent pay raises), even as permanent-staff attrition (~6,000 lost since January 2025) and consolidation continue, and the 2026 fire season itself has been severe",
     "date_of_action": "2025-02 (initial layoffs) through 2025-08 (peak fire-season staffing crisis and reorganization announcement)",
-    "what_changed": "In February 2025, the Trump administration laid off approximately 700 Forest Service employees who support wildland fire operations -- human resource managers, ecologists, and trail-crew workers who hold 'red card' fire-response certifications even though their primary jobs are not firefighting. Many were subsequently rehired, but the administration then pushed remaining staff toward deferred-resignation and early-retirement offers; ultimately at least 1,800 fire-qualified ('red-carded') employees left the agency, out of 4,800 total Forest Service departures in 2025 (more than 13% of the agency's total workforce). Internal Forest Service data reviewed by ProPublica, High Country News, and Capital & Main found at least 5,000 firefighting positions vacant as of mid-July 2025 -- directly contradicting the agency's own public claim of having exceeded its 2025 hiring goal (11,364 firefighters on board by end of July). USDA spokesperson Cat McRae disputed the vacancy data as reflecting 'outdated org charts and unfunded positions'; ProPublica confirmed its analysis had already excluded unfunded positions. Days after that public dispute, a memo Forest Service Chief Tom Schultz sent to agency leadership -- obtained by High Country News -- stated plainly: 'As expected, the 2025 Fire Year is proving to be extremely challenging... we know the demand for resources outpaces their availability,' and directed that all red-carded employees, including IT and HR staff, be made available for fire assignments. At an internal spring planning meeting, one employee was told directly, 'Help is not on the way' -- a phrase the employee said they had 'never been told before' in their career. The agency subsequently took the unusual step of waiving a statutory 1,039-hour cap on seasonal-employee work hours (raising it to 1,560 hours) and asked 1,400 firefighting-qualified former employees to return; as of August 12, only 100 had accepted. Separately, USDA announced a reorganization eliminating the Forest Service's nine regional offices and consolidating them into five 'hub' locations, with Secretary Brooke Rollins acknowledging up to half of affected staff may not relocate. For the 2026 fire season, the Forest Service set a goal of 11,300 wildland firefighters onboard by mid-July and reported 11,816 onboard as of July 6, 2026 -- 104% of goal, which Chief Tom Schultz attributed to recent pay raises improving seasonal recruitment. This is a genuine, verifiable improvement on that specific metric, distinct from the broader permanent-workforce attrition: the agency has still lost close to 6,000 permanent staff (rangers, timber technicians, and others who also held fire-response 'red card' certifications) to layoffs, buyouts, and early retirement since January 2025, and outside observers (including Washington's public lands commissioner) warn this erodes surge capacity in a severe fire year even with seasonal hiring goals met. As of mid-July 2026, more than 17,000 personnel were assigned to 46 large, uncontained fires nationwide, with over 3.6 million acres burned for the year. Update 2026-07-26: the 2026 fire season's severity escalated further -- on July 18, 2026, the country reached 'Preparedness Level 5,' the highest level on the scale measuring how taxed wildfire resources are nationally, only the third time since 2010 that threshold has been reached this early in the season (after 2021 and 2024). This reinforces, rather than changes, the entry's existing point: seasonal hiring goals being met doesn't resolve the separate concern about permanent-staff attrition eroding surge capacity in a severe fire year. Update 2026-07-28: NPR reported that fire-prevention work itself, not just firefighter staffing, declined sharply in 2025 -- prescribed burning fell to about 900,000 acres, roughly half of the 1.6 million-plus acres burned in each of 2023 and 2024, and total vegetation-management work (which reduces the dense underbrush that fuels catastrophic fires) fell to 2.6 million acres in 2025 from more than 4 million acres in 2024, a decline of almost 1.5 million acres. This directly connects the staffing losses already documented in this entry to a concrete reduction in the preventive work meant to reduce wildfire severity, distinct from firefighting-response capacity alone.",
+    "what_changed": "In February 2025, the Trump administration laid off approximately 700 Forest Service employees who support wildland fire operations -- human resource managers, ecologists, and trail-crew workers who hold 'red card' fire-response certifications even though their primary jobs are not firefighting. Many were subsequently rehired, but the administration then pushed remaining staff toward deferred-resignation and early-retirement offers; ultimately at least 1,800 fire-qualified ('red-carded') employees left the agency, out of 4,800 total Forest Service departures in 2025 (more than 13% of the agency's total workforce). Internal Forest Service data reviewed by ProPublica, High Country News, and Capital & Main found at least 5,000 firefighting positions vacant as of mid-July 2025 -- directly contradicting the agency's own public claim of having exceeded its 2025 hiring goal (11,364 firefighters on board by end of July). USDA spokesperson Cat McRae disputed the vacancy data as reflecting 'outdated org charts and unfunded positions'; ProPublica confirmed its analysis had already excluded unfunded positions. Days after that public dispute, a memo Forest Service Chief Tom Schultz sent to agency leadership -- obtained by High Country News -- stated plainly: 'As expected, the 2025 Fire Year is proving to be extremely challenging... we know the demand for resources outpaces their availability,' and directed that all red-carded employees, including IT and HR staff, be made available for fire assignments. At an internal spring planning meeting, one employee was told directly, 'Help is not on the way' -- a phrase the employee said they had 'never been told before' in their career. The agency subsequently took the unusual step of waiving a statutory 1,039-hour cap on seasonal-employee work hours (raising it to 1,560 hours) and asked 1,400 firefighting-qualified former employees to return; as of August 12, only 100 had accepted. Separately, USDA announced a reorganization eliminating the Forest Service's nine regional offices and consolidating them into five 'hub' locations, with Secretary Brooke Rollins acknowledging up to half of affected staff may not relocate. For the 2026 fire season, the Forest Service set a goal of 11,300 wildland firefighters onboard by mid-July and reported 11,816 onboard as of July 6, 2026 -- 104% of goal, which Chief Tom Schultz attributed to recent pay raises improving seasonal recruitment. This is a genuine, verifiable improvement on that specific metric, distinct from the broader permanent-workforce attrition: the agency has still lost close to 6,000 permanent staff (rangers, timber technicians, and others who also held fire-response 'red card' certifications) to layoffs, buyouts, and early retirement since January 2025, and outside observers (including Washington's public lands commissioner) warn this erodes surge capacity in a severe fire year even with seasonal hiring goals met. As of mid-July 2026, more than 17,000 personnel were assigned to 46 large, uncontained fires nationwide, with over 3.6 million acres burned for the year. Update 2026-07-26: the 2026 fire season's severity escalated further -- on July 18, 2026, the country reached 'Preparedness Level 5,' the highest level on the scale measuring how taxed wildfire resources are nationally, only the third time since 2010 that threshold has been reached this early in the season (after 2021 and 2024). This reinforces, rather than changes, the entry's existing point: seasonal hiring goals being met doesn't resolve the separate concern about permanent-staff attrition eroding surge capacity in a severe fire year. Update 2026-07-28: NPR reported that fire-prevention work itself, not just firefighter staffing, declined sharply in 2025 -- prescribed burning fell to about 900,000 acres, roughly half of the 1.6 million-plus acres burned in each of 2023 and 2024, and total vegetation-management work (which reduces the dense underbrush that fuels catastrophic fires) fell to 2.6 million acres in 2025 from more than 4 million acres in 2024, a decline of almost 1.5 million acres. This directly connects the staffing losses already documented in this entry to a concrete reduction in the preventive work meant to reduce wildfire severity, distinct from firefighting-response capacity alone. Update 2026-08-17: By mid-August 2026, the fire season had grown into one of the most severe on record -- more than 100 wildfires were burning across 15 states, with 6.4 million acres burned nationwide through August 12, the most for that date on record, and crews had responded to over 46,500 wildfires for the year. The Forest Service's elite interagency hotshot crews, reserved for the most difficult assignments, were down roughly 15% in available numbers. Frontline strain reached the point that Washington state requested National Guard personnel and 250 active-duty Army soldiers to supplement firefighting capacity, and the season produced 12 firefighter entrapments -- the highest year-to-date total since 2006. The administration's response has been to stand up a new U.S. Wildland Fire Service intended to consolidate operations across agencies, an efficiency bet not yet tested against a season this severe. USDA continues to maintain frontline firefighter numbers exceed prior administrations' levels; the separate, disputed permanent-staff attrition this entry documents (roughly 5,800-6,000 lost since January 2025 depending on source) remains the underlying strain outside observers point to.",
     "primary_proponent": {
       "name": "Brooke Rollins",
       "role": "Secretary of Agriculture",
@@ -6398,17 +6398,47 @@
           "metric": "Total vegetation-management acreage, 2025 vs. 2024",
           "value": "2.6M acres in 2025, down from 4M+ acres in 2024",
           "source": "NPR, May 2026"
+        },
+        {
+          "metric": "Wildfires burning simultaneously, mid-August 2026",
+          "value": "100+ across 15 states",
+          "source": "YourNews, Aug. 15, 2026"
+        },
+        {
+          "metric": "Acres burned nationwide through Aug. 12, 2026",
+          "value": "6.4 million (highest on record for that date)",
+          "source": "YourNews, Aug. 15, 2026"
+        },
+        {
+          "metric": "Total wildfires responded to in 2026",
+          "value": "46,500+",
+          "source": "YourNews, Aug. 15, 2026"
+        },
+        {
+          "metric": "Elite hotshot crew availability reduction",
+          "value": "~15%",
+          "source": "YourNews, Aug. 15, 2026"
+        },
+        {
+          "metric": "Firefighter entrapments, 2026 (highest since 2006)",
+          "value": "12",
+          "source": "YourNews, Aug. 15, 2026"
+        },
+        {
+          "metric": "Military personnel deployed to backfill Washington state firefighting capacity",
+          "value": "250 active-duty Army soldiers, plus National Guard",
+          "source": "YourNews, Aug. 15, 2026"
         }
       ],
       "caveat": "USDA's dispute of the vacancy figures is a genuine, specific rebuttal (citing 'outdated org charts and unfunded positions'), not a blanket denial -- though ProPublica's confirmation that its own data excluded unfunded positions undercuts that specific rebuttal. The practice of Forest Service staffing targets running below actual operational need reportedly predates this administration (a former agency official who co-authored a 2009-2011 personnel needs assessment said selective firefighter counting 'dates back years'), so some caution is warranted before treating the underlying vacancy-counting dispute as unique to 2025 -- what is specific to this period is the scale of departures and Chief Schultz's own memo acknowledging the resulting strain."
     },
-    "confidence_note": "Very strong, multi-outlet investigative sourcing (ProPublica, High Country News, Capital & Main, Yale E360, Colorado Newsline all independently corroborating the same core figures) plus a genuinely rare document -- an internal Forest Service Chief's memo obtained by a news outlet that directly documents the agency's own leadership acknowledging the shortfall in near-real-time, contemporaneous with USDA's public denial. This internal-vs-external contradiction, documented on both sides, is unusually strong evidentiary material for this kind of tracker entry. Re-verified 2026-07-20: the 2026 seasonal-hiring goal being met is a real, sourced fact and shouldn't be omitted or downplayed -- but it answers a narrower question (seasonal firefighter headcount) than the permanent-staff attrition and red-card-capacity concerns this entry was built around, which independent sourcing says remain unresolved. Present both: the agency's legitimate 2026 hiring win, and the continuing structural capacity concern outside observers raise about a bad fire year testing a smaller permanent workforce. Re-verified 2026-07-26: the Preparedness Level 5 date and historical comparison are corroborated by NOTUS and Spokesman-Review reporting citing the Forest Service chief directly. Re-verified 2026-07-28: NPR (widely syndicated across public radio affiliates) corroborates a concrete downstream effect of the staffing crisis already documented here -- prescribed burning and vegetation-management acreage both fell sharply in 2025, directly tying the personnel losses to reduced wildfire-prevention capacity, not just firefighting response capacity.",
+    "confidence_note": "Very strong, multi-outlet investigative sourcing (ProPublica, High Country News, Capital & Main, Yale E360, Colorado Newsline all independently corroborating the same core figures) plus a genuinely rare document -- an internal Forest Service Chief's memo obtained by a news outlet that directly documents the agency's own leadership acknowledging the shortfall in near-real-time, contemporaneous with USDA's public denial. This internal-vs-external contradiction, documented on both sides, is unusually strong evidentiary material for this kind of tracker entry. Re-verified 2026-07-20: the 2026 seasonal-hiring goal being met is a real, sourced fact and shouldn't be omitted or downplayed -- but it answers a narrower question (seasonal firefighter headcount) than the permanent-staff attrition and red-card-capacity concerns this entry was built around, which independent sourcing says remain unresolved. Present both: the agency's legitimate 2026 hiring win, and the continuing structural capacity concern outside observers raise about a bad fire year testing a smaller permanent workforce. Re-verified 2026-07-26: the Preparedness Level 5 date and historical comparison are corroborated by NOTUS and Spokesman-Review reporting citing the Forest Service chief directly. Re-verified 2026-07-28: NPR (widely syndicated across public radio affiliates) corroborates a concrete downstream effect of the staffing crisis already documented here -- prescribed burning and vegetation-management acreage both fell sharply in 2025, directly tying the personnel losses to reduced wildfire-prevention capacity, not just firefighting response capacity. Re-verified 2026-08-17: YourNews (Aug. 15, 2026) reports the 2026 fire season has become one of the most severe on record -- 100+ simultaneous wildfires across 15 states, 6.4M acres burned through Aug. 12 (highest on record for that date), a ~15% reduction in elite hotshot crew availability, and Washington state's need for National Guard and 250 active-duty Army soldiers to supplement firefighting capacity. This corroborates, rather than changes, the entry's existing throughline: administration claims of full seasonal staffing coexist with real capacity strain during an exceptionally severe fire year.",
     "section_summaries": {
       "what_changed": "Layoffs and buyouts pushed thousands of fire-qualified Forest Service staff out, and a leaked internal memo confirmed real strain even as USDA disputed reports of vacant firefighting jobs.",
       "estimated_impact": "This entry rests on the Agriculture Secretary's own public claims contradicting her agency chief's leaked memo, backed by frontline surveys showing high vacancy rates in some units. Prescribed burning and vegetation management both roughly halved in 2025, tying the staffing losses directly to reduced fire-prevention work, not just response capacity.",
       "confidence_note": "Very strongly documented across multiple investigative outlets plus a rare leaked memo; meeting this year's seasonal target doesn't resolve the separate permanent-staff attrition concern."
     },
-    "last_verified": "2026-07-28",
+    "last_verified": "2026-08-17",
     "date_added": "2026-07-10",
     "sources": [
       {
@@ -6442,9 +6472,13 @@
       {
         "name": "NPR -- Trump administration falls behind on wildfire prevention with risky fire season ahead",
         "url": "https://www.npr.org/2026/05/04/nx-s1-5801475/forest-service-wildfire-prevention-vegetation-burns"
+      },
+      {
+        "name": "YourNews -- Record Wildfire Season Tests Forest Service as Staffing Cuts and Extreme Fire Conditions Collide",
+        "url": "https://yournews.com/2026/08/15/7161818/record-wildfire-season-tests-forest-service-as-staffing-cuts-and/"
       }
     ],
-    "last_updated": "2026-07-28"
+    "last_updated": "2026-08-17"
   },
   {
     "id": "forest-service-hq-relocation-2026",
@@ -7409,9 +7443,9 @@
     "title": "CNN Investigation: Hegseth's Culture of Loyalty Tests and Suspicion Has Sidelined Military Planners During an Active War",
     "institution": "Department of Defense (Pentagon)",
     "domain": "staff_office_cuts",
-    "status": "Ongoing as of the June 9, 2026 CNN investigation's publication; no policy reversal or independent review identified in reporting reviewed",
+    "status": "Ongoing as of the June 9, 2026 CNN investigation's publication; no policy reversal or independent review identified in reporting reviewed, though the House has since passed a bipartisan NDAA provision (not yet enacted -- stalled in the Senate as of this update) that would require the Pentagon to disclose reasons for senior-officer firings within five days",
     "date_of_action": "2026-06-09 (CNN investigation published, describing conditions developing over the preceding year-plus)",
-    "what_changed": "A CNN investigation published June 9, 2026, based on interviews with 15 current and former Pentagon officials, documented how Secretary of Defense Pete Hegseth has cultivated a pervasive culture of suspicion and loyalty-testing that has fractured the department's leadership and disrupted operational decision-making. Per the investigation, Hegseth has fired more than two dozen senior officers, subjected staff to polygraph tests and nondisclosure agreements, and left military planners sidelined during active conflict decision-making -- specifically during the ongoing Iran war. Officials described Hegseth as deeply distrustful of those around him, civilian and military alike, and quick to interpret proximity to power as a threat. One Pentagon official characterized the resulting internal environment as 'a year-plus later, there is a lack of clear internal processes within the Pentagon ... caused by mass paranoia,' with survivability inside the building described as depending on avoiding Hegseth's attention. The investigation specifically identified operational consequences, not just a personnel or morale issue: military planners were excluded from strategic decision-making during live conflict operations.",
+    "what_changed": "A CNN investigation published June 9, 2026, based on interviews with 15 current and former Pentagon officials, documented how Secretary of Defense Pete Hegseth has cultivated a pervasive culture of suspicion and loyalty-testing that has fractured the department's leadership and disrupted operational decision-making. Per the investigation, Hegseth has fired more than two dozen senior officers, subjected staff to polygraph tests and nondisclosure agreements, and left military planners sidelined during active conflict decision-making -- specifically during the ongoing Iran war. Officials described Hegseth as deeply distrustful of those around him, civilian and military alike, and quick to interpret proximity to power as a threat. One Pentagon official characterized the resulting internal environment as 'a year-plus later, there is a lack of clear internal processes within the Pentagon ... caused by mass paranoia,' with survivability inside the building described as depending on avoiding Hegseth's attention. The investigation specifically identified operational consequences, not just a personnel or morale issue: military planners were excluded from strategic decision-making during live conflict operations. Update 2026-08-17: Congress has taken a concrete, bipartisan institutional response to the firings pattern documented in the CNN investigation. On June 4, 2026, the House Armed Services Committee adopted -- by bipartisan voice vote, without objection -- a provision introduced by Rep. Pat Ryan (D-N.Y.) requiring the Pentagon to notify Congress within five days of the specific performance concerns or reasons behind any senior military officer's firing, transfer, or relief of duty. The provision was included in the full FY2027 National Defense Authorization Act, which the House passed 216-212 on July 22, 2026, though it remains stalled in the Senate as of the most recent reporting reviewed. Coverage of the provision's origin specifically cited Hegseth's firing of Gen. Randy George, the Army's Chief of Staff, as a case that led some House Republicans -- not just Democrats -- to voice opposition to the pace and opacity of the firings.",
     "primary_proponent": {
       "name": "Pete Hegseth",
       "role": "Secretary of Defense",
@@ -7429,12 +7463,22 @@
           "metric": "Senior officers fired under the described loyalty-culture pattern",
           "value": "20+ (\"more than two dozen\")",
           "source": "CNN, June 9, 2026"
+        },
+        {
+          "metric": "House Armed Services Committee vote adopting the officer-firing-disclosure provision",
+          "value": "Bipartisan voice vote, no objection (June 4, 2026)",
+          "source": "The Hill, Stars and Stripes"
+        },
+        {
+          "metric": "Full House vote on FY2027 NDAA (including the provision)",
+          "value": "216-212 (July 22, 2026)",
+          "source": "Breaking Defense, wire coverage"
         }
       ],
       "caveat": "This entry documents a qualitative institutional-culture investigation based on interviews, not a quantified policy action with a discrete dollar or staffing figure; DOD did not provide an on-record rebuttal to the specific characterizations in reporting reviewed. The specific removed officers and the operational decisions affected are not individually named in the sourcing reviewed beyond the aggregate figures and characterizations above."
     },
-    "confidence_note": "HIGH confidence on the investigation's existence, its sourcing base (15 officials), and its headline findings, corroborated by CNN's original reporting and wide independent pickup (IBTimes UK, Raw Story, Ms. Now/MSNBC, PolitiZoom). MODERATE confidence on the precise operational impact during the Iran war specifically, since the 'planners sidelined' finding is characterized by officials in aggregate rather than tied to a single, independently documented decision point.",
-    "last_verified": "2026-08-02",
+    "confidence_note": "HIGH confidence on the investigation's existence, its sourcing base (15 officials), and its headline findings, corroborated by CNN's original reporting and wide independent pickup (IBTimes UK, Raw Story, Ms. Now/MSNBC, PolitiZoom). MODERATE confidence on the precise operational impact during the Iran war specifically, since the 'planners sidelined' finding is characterized by officials in aggregate rather than tied to a single, independently documented decision point. Re-verified 2026-08-17: the House Armed Services Committee's bipartisan officer-firing-disclosure provision (adopted June 4, 2026; included in the full NDAA the House passed 216-212 on July 22, 2026) is corroborated across The Hill, Stars and Stripes, and Breaking Defense. It remains stalled in the Senate per Breaking Defense's July 2026 reporting, so it is a congressional response to the pattern documented here, not yet an enacted check on it.",
+    "last_verified": "2026-08-17",
     "sources": [
       {
         "name": "CNN -- Inside Hegseth's Pentagon, where distrust and suspicions of loyalty are rampant",
@@ -7447,6 +7491,14 @@
       {
         "name": "Ms. Now -- Hegseth's 'Pentagon Purge': 2 officers say they were forced out for questioning policies",
         "url": "https://www.ms.now/news/hegseth-pentagon-purge-officers-forced-out"
+      },
+      {
+        "name": "The Hill -- House panel adopts measure on fired senior officers, putting pressure on Pete Hegseth, Pentagon",
+        "url": "https://thehill.com/homenews/house/5910394-house-committee-military-firings/"
+      },
+      {
+        "name": "Breaking Defense -- House passes 2027 NDAA while measure remains stalled in the Senate",
+        "url": "https://breakingdefense.com/2026/07/house-passes-2027-ndaa-while-measure-remains-stalled-in-the-senate/"
       }
     ],
     "section_summaries": {
@@ -7454,7 +7506,7 @@
       "estimated_impact": "Officials describe the internal environment as 'mass paranoia' with documented operational consequences -- planners excluded from strategic decisions during active conflict, not merely a morale problem.",
       "confidence_note": "Well-corroborated investigative reporting from a substantial interview base; individual removed officers and specific decisions affected aren't separately documented in sourcing reviewed."
     },
-    "last_updated": "2026-08-02",
+    "last_updated": "2026-08-17",
     "date_added": "2026-08-02"
   },
   {
@@ -7742,7 +7794,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing -- OPM final rule in effect since February 2026, HHS implementation underway as of May 2026",
     "date_of_action": "2026-02 (OPM final rule) through 2026-05 (HHS supervisor memo)",
-    "what_changed": "The Office of Personnel Management issued a final rule in February 2026 implementing 'Schedule Policy/Career' (the revived Schedule F framework), estimated to affect roughly 50,000 federal positions government-wide by stripping them of traditional competitive-service protections and making them removable at will, without advance notice or the right to appeal to the Merit Systems Protection Board. A May 2026 memo sent to HHS supervisors announced that over 100 HHS positions were being moved into this category, with CDC separately reclassifying a number of science-focused roles -- including research biologists, epidemiologists, and other health scientists -- into the same at-will status. Trump subsequently signed an executive order in June 2026 formally converting nearly 10,000 career federal workers government-wide into Schedule Policy/Career.",
+    "what_changed": "The Office of Personnel Management issued a final rule in February 2026 implementing 'Schedule Policy/Career' (the revived Schedule F framework), estimated to affect roughly 50,000 federal positions government-wide by stripping them of traditional competitive-service protections and making them removable at will, without advance notice or the right to appeal to the Merit Systems Protection Board. A May 2026 memo sent to HHS supervisors announced that over 100 HHS positions were being moved into this category, with CDC separately reclassifying a number of science-focused roles -- including research biologists, epidemiologists, and other health scientists -- into the same at-will status. Trump subsequently signed an executive order in June 2026 formally converting nearly 10,000 career federal workers government-wide into Schedule Policy/Career. Update 2026-08-17: Implementation continues incrementally rather than in one mass action -- CDC officials have said several hundred GS-15 positions (not thousands) were 'tentatively identified' for the initial reclassification tranche, with additional rounds expected to follow. Separately, the framework faces active litigation: AFGE, AFSCME, the AFL-CIO, PEER, and Democracy Forward filed a Second Amended Complaint on March 4, 2026 expanding their challenge to the entire Schedule Policy/Career framework; as of the most recent reporting reviewed, a motion for a preliminary injunction in that case remained under advisement following an April 30, 2026 hearing, with the case proceeding to summary judgment on the merits regardless of the injunction's outcome. No court has yet ruled on the framework's legality.",
     "primary_proponent": {
       "name": "Robert F. Kennedy Jr.",
       "role": "Secretary of Health and Human Services",
@@ -7769,8 +7821,8 @@
       ],
       "caveat": "The 50,000 figure is a government-wide OPM estimate at the time of the final rule, not an HHS-specific count; the 100+ HHS figure is from an initial internal memo and may have grown as implementation continued through mid-2026."
     },
-    "confidence_note": "HIGH confidence -- the OPM final rule, the HHS supervisor memo, and the subsequent executive order are all independently corroborated across multiple outlets (FedSmith, STAT News, Federal News Network, Government Executive, NARFE), with consistent figures across close reporting dates.",
-    "last_verified": "2026-08-02",
+    "confidence_note": "HIGH confidence -- the OPM final rule, the HHS supervisor memo, and the subsequent executive order are all independently corroborated across multiple outlets (FedSmith, STAT News, Federal News Network, Government Executive, NARFE), with consistent figures across close reporting dates. Re-verified 2026-08-17: implementation is proceeding in incremental rounds rather than a single mass reclassification, and the framework's legality remains unresolved in active litigation (preliminary-injunction motion under advisement as of an April 30, 2026 hearing) -- neither development changes the entry's core facts, but both are worth tracking for a future update if the litigation resolves.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-02",
     "sources": [
       {
@@ -7790,7 +7842,8 @@
       "what_changed": "HHS moved 100+ positions, including CDC scientists, into the revived Schedule F 'at-will' category as part of a government-wide OPM rule ultimately converting nearly 10,000 career federal workers.",
       "estimated_impact": "Career public-health scientists and other HHS staff lost standard due-process and appeal protections against removal.",
       "confidence_note": "Well-corroborated across multiple independent outlets with consistent figures."
-    }
+    },
+    "last_updated": "2026-08-17"
   },
   {
     "id": "house-wic-fruit-vegetable-benefit-cut-2026",
@@ -7799,7 +7852,7 @@
     "domain": "funding_redirection",
     "status": "Passed the House (213-210) June 2026; pending Senate action -- not yet law as of this entry's sourcing",
     "date_of_action": "2026-06-04 (House floor vote)",
-    "what_changed": "The House passed a fiscal year agriculture appropriations bill by a 213-210 vote, with five Republicans voting against and four Democrats (Reps. Donald Davis, Adam Gray, Vicente Gonzalez, and Marie Glusenkamp Perez) voting for it, providing the margin of passage. The bill, aiming to trim 1.5% from federal agriculture spending, underfunds WIC overall and specifically cuts the program's Cash Value Benefit for fruits and vegetables. Per the Center on Budget and Policy Priorities, the bill would cut WIC fruit-and-vegetable funding by $141 million, affecting benefits for nearly 5.4 million enrolled children and pregnant/postpartum women. The National WIC Association estimated the specific benefit reduction: from $52 to $13 per month for breastfeeding mothers, and from $26 to $10 per month for young children. The bill also fails to make WIC's pandemic-era virtual/telehealth service option permanent. As of this entry's sourcing, the bill awaits Senate action and is not yet law.",
+    "what_changed": "The House passed a fiscal year agriculture appropriations bill by a 213-210 vote, with five Republicans voting against and four Democrats (Reps. Donald Davis, Adam Gray, Vicente Gonzalez, and Marie Glusenkamp Perez) voting for it, providing the margin of passage. The bill, aiming to trim 1.5% from federal agriculture spending, underfunds WIC overall and specifically cuts the program's Cash Value Benefit for fruits and vegetables. Per the Center on Budget and Policy Priorities, the bill would cut WIC fruit-and-vegetable funding by $141 million, affecting benefits for nearly 5.4 million enrolled children and pregnant/postpartum women. The National WIC Association estimated the specific benefit reduction: from $52 to $13 per month for breastfeeding mothers, and from $26 to $10 per month for young children. The bill also fails to make WIC's pandemic-era virtual/telehealth service option permanent. As of this entry's sourcing, the bill awaits Senate action and is not yet law. Update 2026-08-17: This bill is the FY2027 agriculture appropriations process (H.R. 8646), separate from the FY2026 agriculture appropriations act Congress had already enacted on November 12, 2025 as part of the shutdown-ending minibus (P.L. 119-37) -- that earlier, FY2026 bill fully funded WIC and rejected the fruit-and-vegetable cuts House Republicans had also proposed for that fiscal year. The FY2027 fight covered in this entry is a renewed version of the same dispute for the following fiscal year. As of the most recent reporting reviewed, the Senate Appropriations Committee had twice postponed its planned markup of the FY2027 Agriculture bill (originally set for early June 2026, then rescheduled to June 25) after committee leadership failed to reach a bipartisan agreement on overall discretionary spending levels -- so the House-passed cuts described in this entry remain pending, with no Senate committee action yet as of this update.",
     "primary_proponent": {
       "name": "House Republican leadership (bill passed primarily on a party-line vote, 213-210, with 4 Democratic votes providing the margin)",
       "role": "House majority controlling the agriculture appropriations process",
@@ -7836,8 +7889,8 @@
       ],
       "caveat": "This bill has passed only the House as of this entry's sourcing and is not yet law -- the Senate could reject, modify, or decline to take up the House's specific WIC provisions before any final appropriations bill is enacted. Bill proponents frame the overall package as a modest 1.5% agriculture-spending trim within broader fiscal constraints, not a targeted attack on nutrition assistance specifically."
     },
-    "confidence_note": "HIGH confidence on the House vote, its margin, and the specific benefit-reduction figures, corroborated across the Washington Post, CBPP, Newsweek, The New Republic, Common Dreams, and the Food Research & Action Center, with CBPP and the National WIC Association as the specific figures' primary sources (a nonpartisan budget-policy research organization and the program's own national advocacy association, respectively). Entry should be rechecked once the Senate acts, since House-passed appropriations language frequently changes before final enactment.",
-    "last_verified": "2026-08-02",
+    "confidence_note": "HIGH confidence on the House vote, its margin, and the specific benefit-reduction figures, corroborated across the Washington Post, CBPP, Newsweek, The New Republic, Common Dreams, and the Food Research & Action Center, with CBPP and the National WIC Association as the specific figures' primary sources (a nonpartisan budget-policy research organization and the program's own national advocacy association, respectively). Entry should be rechecked once the Senate acts, since House-passed appropriations language frequently changes before final enactment. Re-verified 2026-08-17: confirmed this entry concerns the FY2027 appropriations cycle specifically, not the FY2026 cycle already resolved favorably for WIC in November 2025 -- flagging explicitly since the two years' fights involve nearly identical dollar figures and House-vs-Senate dynamics and could otherwise be conflated. Senate Agriculture-subcommittee markup remains stalled over broader topline disagreements as of the most recent reporting reviewed; status otherwise unchanged from last check.",
+    "last_verified": "2026-08-17",
     "sources": [
       {
         "name": "Washington Post -- House bill rolls back food aid for pregnant women, children",
@@ -7861,7 +7914,7 @@
       "estimated_impact": "Monthly produce benefits for breastfeeding mothers and young children would fall from $52/$26 to $13/$10, a targeted cut to a nutrition program at a time of rising grocery prices.",
       "confidence_note": "Well-corroborated House-passage facts and figures from CBPP and the National WIC Association; the bill is not yet law and could still change in the Senate."
     },
-    "last_updated": "2026-08-02",
+    "last_updated": "2026-08-17",
     "date_added": "2026-08-02"
   },
   {
@@ -8339,8 +8392,8 @@
       ],
       "caveat": "The appointment rescission is confirmed and current; the projected staff-cut figure (120 positions) is the ILO's own forward-looking projection contingent on continued nonpayment through September 2026, not yet a realized cut as of this entry's sourcing."
     },
-    "confidence_note": "HIGH confidence -- based on Reuters' direct reporting (an exclusive) corroborated by multiple syndicated and independent outlets (Yahoo/AOL, Times of Israel, Investing.com), with specific figures attributed to the ILO itself.",
-    "last_verified": "2026-08-02",
+    "confidence_note": "HIGH confidence -- based on Reuters' direct reporting (an exclusive) corroborated by multiple syndicated and independent outlets (Yahoo/AOL, Times of Israel, Investing.com), with specific figures attributed to the ILO itself. Re-verified 2026-08-17: no change -- U.S. arrears remain unpaid per the most recent reporting reviewed (figures consistent with those already documented here), and the ILO's September 2026 liquidity-gap deadline has not yet arrived as of this update.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-02",
     "sources": [
       {
@@ -8356,7 +8409,8 @@
       "what_changed": "The ILO rescinded a U.S. official's deputy director-general appointment after the U.S. failed to pay $328 million in dues, and warned of a liquidity crisis that could cost the agency 120 jobs if the arrears go unpaid through September 2026.",
       "estimated_impact": "The U.S. lost its customary leadership seat at a major international labor body over unpaid dues, with a knock-on staffing-cut risk to the institution itself.",
       "confidence_note": "Well-sourced to Reuters' direct reporting with figures attributed to the ILO."
-    }
+    },
+    "last_updated": "2026-08-17"
   },
   {
     "id": "imls-dismantlement-reversed-trump2",
