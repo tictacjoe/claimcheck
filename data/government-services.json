@@ -12093,9 +12093,9 @@
     "title": "Office of Government Ethics goes over a year without a permanent or acting director after Trump firing",
     "institution": "U.S. Office of Government Ethics",
     "domain": "staff_office_cuts",
-    "status": "Ongoing -- no permanent or acting director in place as of May 2026 reporting, more than a year after the firing",
+    "status": "Ongoing in practice -- no confirmed director has served since the February 2025 firing, but Trump nominated a permanent successor on June 24, 2026 (Michael Chamberlain), correcting this entry's earlier 'no nominee put forward' framing; the nomination remains pending in the Senate Homeland Security and Governmental Affairs Committee as of the most recent reporting reviewed, with no confirmation hearing yet scheduled",
     "date_of_action": "2025-02 (firing) through 2026-05 (ongoing vacancy)",
-    "what_changed": "In February 2025, Trump removed David Huitema as Director of the Office of Government Ethics -- the federal agency responsible for monitoring executive-branch financial conflicts of interest and ethics violations -- despite Huitema having been confirmed by the Senate in November 2024 to a five-year term. More than a year later, as of May 2026, no permanent or acting director has been named; a series of acting directors filled the role temporarily before the position went fully vacant, with no one currently serving in an acting capacity and no nominee put forward. Senate Democrats, led by Sens. Elissa Slotkin and Adam Schiff, sent a formal letter pressing the White House on the vacancy. Critics say the leadership gap has curtailed, delayed, or put on hold some of the office's work; the agency had not published its usual annual increase in ethics-violation fines for 2026 as of this reporting.",
+    "what_changed": "In February 2025, Trump removed David Huitema as Director of the Office of Government Ethics -- the federal agency responsible for monitoring executive-branch financial conflicts of interest and ethics violations -- despite Huitema having been confirmed by the Senate in November 2024 to a five-year term. More than a year later, as of May 2026, no permanent or acting director has been named; a series of acting directors filled the role temporarily before the position went fully vacant, with no one currently serving in an acting capacity and no nominee put forward. Senate Democrats, led by Sens. Elissa Slotkin and Adam Schiff, sent a formal letter pressing the White House on the vacancy. Critics say the leadership gap has curtailed, delayed, or put on hold some of the office's work; the agency had not published its usual annual increase in ethics-violation fines for 2026 as of this reporting. Update 2026-08-17 (correction): this entry previously stated no nominee had been put forward; that is no longer accurate. On June 24, 2026, Trump nominated Michael Chamberlain -- director of Protect the Public's Trust, a conservative-leaning watchdog group he founded in 2021 that frequently targeted Biden-administration officials with ethics complaints, and a first-Trump-administration veteran -- to serve a five-year term as OGE Director. The nomination was referred to the Senate Homeland Security and Governmental Affairs Committee and, as of the most recent reporting reviewed, had not yet received a confirmation hearing date. Watchdog groups (Center for Western Priorities) raised concerns that Chamberlain's own organization misrepresented its IRS nonprofit status in public-records requests and that his selection reflects a partisan rather than independent approach to the office. The underlying vacancy -- no one confirmed or serving in an acting capacity -- continues while the nomination is pending.",
     "primary_proponent": {
       "name": "Donald Trump",
       "role": "President",
@@ -12108,12 +12108,17 @@
           "metric": "Time elapsed with no permanent OGE director",
           "value": "15+ months (Feb. 2025 firing to May 2026 reporting)",
           "source": "CBS News, Senate Democrats' letter"
+        },
+        {
+          "metric": "OGE director nominee put forward, and date",
+          "value": "Michael Chamberlain, nominated June 24, 2026 (pending Senate committee review)",
+          "source": "E&E News/POLITICO, Center for Western Priorities, June 2026"
         }
       ],
       "caveat": "The specific claim that the agency's usual 2026 fines-increase publication was skipped is sourced to reporting characterizing the office's curtailed activity, not an OGE self-report explaining the omission; the office continues to function at a staff level even without a director."
     },
-    "confidence_note": "HIGH confidence -- Huitema's removal and the subsequent extended vacancy are corroborated by CBS News, Snopes' fact-check, and a formal bipartisan-targeted Senate Democrats' letter (Slotkin, Schiff, and colleagues) that is itself a public record of the vacancy's duration and effects.",
-    "last_verified": "2026-08-02",
+    "confidence_note": "HIGH confidence -- Huitema's removal and the subsequent extended vacancy are corroborated by CBS News, Snopes' fact-check, and a formal bipartisan-targeted Senate Democrats' letter (Slotkin, Schiff, and colleagues) that is itself a public record of the vacancy's duration and effects. Re-verified 2026-08-17, correction: the entry's original 'no nominee put forward' claim is now stale -- Trump nominated Michael Chamberlain on June 24, 2026 (corroborated by E&E News/POLITICO, Center for Western Priorities, and a contemporaneous X post from a credentialed reporter citing the nomination text directly). The nomination remains pending in committee, unconfirmed, so the underlying vacancy this entry documents continues in practice, but the entry now reflects that a nominee exists.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-02",
     "sources": [
       {
@@ -12127,13 +12132,18 @@
       {
         "name": "Snopes -- 'Did Trump fire ethics watchdog overseeing executive branch?'",
         "url": "https://www.snopes.com/fact-check/trump-government-ethics-watchdog/"
+      },
+      {
+        "name": "Center for Western Priorities -- Trump nominates political operative to top government ethics job",
+        "url": "https://westernpriorities.org/2026/06/trump-nominates-political-operative-to-top-government-ethics-job/"
       }
     ],
     "section_summaries": {
       "what_changed": "Trump fired the Senate-confirmed OGE Director in February 2025 and left the post -- and eventually even the acting-director role -- vacant for over a year despite Senate Democrats' formal inquiry.",
       "estimated_impact": "The federal ethics-oversight office has operated without any director for 15+ months, with reported effects on its enforcement and publication functions.",
       "confidence_note": "Well-corroborated via CBS News, a Snopes fact-check, and a formal Senate Democrats' letter documenting the vacancy."
-    }
+    },
+    "last_updated": "2026-08-17"
   },
   {
     "id": "omb-political-grant-review-proposal-2026",
@@ -12640,7 +12650,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing -- Inspector General found continued noncompliance as of May 2026; Congress has not acted on Pentagon's 2025 proposal to repeal the underlying statutes",
     "date_of_action": "2026-05 (Inspector General report and congressional hearing)",
-    "what_changed": "A Department of War Inspector General report found the Pentagon had begun dismantling its Civilian Harm Mitigation and Response Action Plan and associated Civilian Protection Center of Excellence -- programs Congress mandated by statute to reduce and respond to civilian casualties in U.S. military operations -- even though no formal decision to end them had been announced. The IG found meetings had stopped, staff had been reassigned away from the program, funding was cut, and the data-tracking system used to log civilian-harm incidents had been abandoned, leaving the military without the personnel, tools, or infrastructure needed to comply with the two federal statutes requiring the program. The Pentagon had separately sent Congress a proposal in May 2025 to repeal the underlying laws, but Congress has not acted on it. At a May 2026 House Armed Services Committee hearing, lawmakers pressed Army Secretary Dan Driscoll and the Acting Army Chief of Staff on the cuts; a group of 11 senators led by Elizabeth Warren and Chris Van Hollen separately opened an inquiry demanding the Pentagon account for the dismantling.",
+    "what_changed": "A Department of War Inspector General report found the Pentagon had begun dismantling its Civilian Harm Mitigation and Response Action Plan and associated Civilian Protection Center of Excellence -- programs Congress mandated by statute to reduce and respond to civilian casualties in U.S. military operations -- even though no formal decision to end them had been announced. The IG found meetings had stopped, staff had been reassigned away from the program, funding was cut, and the data-tracking system used to log civilian-harm incidents had been abandoned, leaving the military without the personnel, tools, or infrastructure needed to comply with the two federal statutes requiring the program. The Pentagon had separately sent Congress a proposal in May 2025 to repeal the underlying laws, but Congress has not acted on it. At a May 2026 House Armed Services Committee hearing, lawmakers pressed Army Secretary Dan Driscoll and the Acting Army Chief of Staff on the cuts; a group of 11 senators led by Elizabeth Warren and Chris Van Hollen separately opened an inquiry demanding the Pentagon account for the dismantling. Update 2026-08-17: the Pentagon's FY2026 budget request has since made the dismantling explicit, asking Congress to formally 'disestablish' the program rather than continuing the de facto wind-down the IG documented; the program's personnel has shrunk by roughly 90% since March 2025. A group of Democratic lawmakers wrote Hegseth again in July 2026 stating the gutted program leaves the Pentagon unable to comply with the law and its congressionally mandated CHMR responsibilities. The consequences of that capacity loss became concrete on August 11, 2026, when the Pentagon submitted its delayed annual civilian-casualty report to Congress: it found just 153 civilians killed and 243 injured by U.S. military operations in 2025 -- far below the Yemen Data Project's independent estimate of at least 238 killed and 467 injured -- and recorded zero civilian casualties from the Caribbean/eastern Pacific boat-strike campaign despite dozens of strikes since September 2025. One official directly involved described the report to reporters as a 'total whitewash'; UN experts, legal specialists, and several Latin American governments have separately questioned the legal basis for the boat strikes as extrajudicial killings. The report also covered U.S. operations in Iran and Somalia.",
     "primary_proponent": {
       "name": "Pete Hegseth",
       "role": "Secretary of Defense (Secretary of War)",
@@ -12658,12 +12668,27 @@
           "metric": "Senators formally demanding accounting for the cuts",
           "value": "11 (led by Warren and Van Hollen)",
           "source": "Sen. Warren's July 2026 letter to Secretary Hegseth"
+        },
+        {
+          "metric": "Program personnel reduction since March 2025",
+          "value": "~90%",
+          "source": "The Intercept, Aug. 11, 2026"
+        },
+        {
+          "metric": "Pentagon's FY2026 civilian-casualty report findings vs. independent estimate",
+          "value": "Pentagon: 153 killed/243 injured (2025) vs. Yemen Data Project: 238+ killed/467+ injured",
+          "source": "The Intercept, CBS News, Aug. 2026"
+        },
+        {
+          "metric": "Civilian casualties Pentagon attributed to Caribbean/Pacific boat strikes since Sept. 2025",
+          "value": "0, per the Pentagon's own report, despite dozens of strikes",
+          "source": "The Intercept, Aug. 11, 2026"
         }
       ],
       "caveat": "The IG report documents a pattern of de facto dismantling (meetings stopped, staff reassigned, funding cut, data system abandoned) rather than a single formal decision, which is itself part of the finding -- the Pentagon avoided the accountability that would come with an announced policy change."
     },
-    "confidence_note": "HIGH confidence -- based on a Department of War Inspector General finding, the strongest source type this tracker prioritizes, and independently corroborated across multiple outlets (Washington Times, Army Times, Stars and Stripes, The Intercept) plus a formal Senate oversight letter.",
-    "last_verified": "2026-08-02",
+    "confidence_note": "HIGH confidence -- based on a Department of War Inspector General finding, the strongest source type this tracker prioritizes, and independently corroborated across multiple outlets (Washington Times, Army Times, Stars and Stripes, The Intercept) plus a formal Senate oversight letter. Re-verified 2026-08-17: the FY2026 budget's explicit 'disestablish' request and the 90% personnel-reduction figure are corroborated by The Intercept's August 2026 reporting; the civilian-casualty report's findings and the 'total whitewash' characterization are corroborated across The Intercept, CBS News, RT (citing the same underlying report), and Raw Story's reporting on internal administration friction over the report. This is a direct, concrete illustration of the capacity loss the original IG finding warned about -- the report's implausibly low figures and zero-casualty finding for an active strike campaign are exactly the kind of accountability failure the dismantled program was supposed to prevent.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-02",
     "sources": [
       {
@@ -12677,13 +12702,22 @@
       {
         "name": "Sen. Elizabeth Warren -- Letter from Senator Warren and colleagues to Secretary Hegseth on the CHMR-AP IG Report",
         "url": "https://www.warren.senate.gov/wp-content/uploads/2026/07/Letter-from-Senator-Warren-Colleagues-to-Secretary-Hegseth-on-CHMR-AP-IG-Report.pdf"
+      },
+      {
+        "name": "The Intercept -- 'Total Whitewash': New Pentagon Report Claims U.S. Killed No Civilians in Boat Strikes",
+        "url": "https://theintercept.com/2026/08/11/war-department-civilian-casualties-boat-strikes-yemen/"
+      },
+      {
+        "name": "CBS News -- U.S. military operations killed 153 civilians last year, Pentagon says",
+        "url": "https://www.cbsnews.com/news/pentagon-military-operations-civilian-casualties-2025-yemen-houthis-trump-hegseth/"
       }
     ],
     "section_summaries": {
       "what_changed": "A DoD Inspector General found the Pentagon quietly dismantled its congressionally mandated civilian-harm-reduction program -- cutting funding, reassigning staff, and abandoning its casualty-tracking system without a formal decision to end it.",
       "estimated_impact": "The military can no longer comply with two federal statutes requiring a functioning civilian-casualty policy, per the Pentagon's own watchdog.",
       "confidence_note": "Based on a formal Inspector General finding, the strongest source type this tracker prioritizes; well-corroborated elsewhere."
-    }
+    },
+    "last_updated": "2026-08-17"
   },
   {
     "id": "pentagon-civilian-hiring-freeze-limbo-2025",
@@ -14201,7 +14235,7 @@
     "domain": "staff_office_cuts",
     "status": "Ongoing -- 107 of 195 ambassador posts vacant as of late June 2026 reporting",
     "date_of_action": "2026-05 through 2026-07 (reporting period)",
-    "what_changed": "More than 100 of the United States' 195 ambassador posts remained vacant nearly 18 months into Trump's second term -- 109 of 195 as of mid-May 2026 and 107 of 195 as of late June 2026 -- more than double the vacancy rate at the equivalent point in Trump's first term, when 45 posts were vacant. Vacancies include strategically significant posts: Ukraine, Russia, Saudi Arabia, the United Arab Emirates, Qatar, Germany, Australia, and South Korea, among others. Of 101 ambassador nominations made during the second term, only 9 have gone to career Foreign Service diplomats, a sharp departure from traditional practice of pairing political and career appointees. In place of confirmed ambassadors, the administration has relied on political allies, megadonors, and informal special envoys to handle diplomacy in many of these countries.",
+    "what_changed": "More than 100 of the United States' 195 ambassador posts remained vacant nearly 18 months into Trump's second term -- 109 of 195 as of mid-May 2026 and 107 of 195 as of late June 2026 -- more than double the vacancy rate at the equivalent point in Trump's first term, when 45 posts were vacant. Vacancies include strategically significant posts: Ukraine, Russia, Saudi Arabia, the United Arab Emirates, Qatar, Germany, Australia, and South Korea, among others. Of 101 ambassador nominations made during the second term, only 9 have gone to career Foreign Service diplomats, a sharp departure from traditional practice of pairing political and career appointees. In place of confirmed ambassadors, the administration has relied on political allies, megadonors, and informal special envoys to handle diplomacy in many of these countries. Update 2026-08-17: the Senate confirmed a batch of Trump's nominees in early August 2026, including 11 ambassadors and 5 more to ambassador-rank positions -- among them David Brat (Australia) and Michael Kavoukjian (Norway) -- narrowing the vacancy count somewhat. Despite that batch, the underlying pattern this entry documents persists: a Semafor report published August 6, 2026 found Middle East ambassadorships continuing to sit vacant, with the administration relying on special envoys rather than confirmed ambassadors, and broader reporting from earlier in the year found the vacancy pattern extended heavily into Africa (37 of 51 posts without ambassadors as of May 2026) following Secretary Rubio's December 2025 recall of roughly 30 career ambassadors.",
     "primary_proponent": {
       "name": "Donald Trump",
       "role": "President (nomination authority)",
@@ -14224,12 +14258,17 @@
           "metric": "Career diplomats among second-term ambassador nominees",
           "value": "9 of 101",
           "source": "Multi-outlet reporting (AP-sourced)"
+        },
+        {
+          "metric": "Ambassador/ambassador-rank nominees confirmed in early August 2026 batch",
+          "value": "16 (11 ambassadors + 5 ambassador-rank positions)",
+          "source": "U.S. News, Aug. 7, 2026"
         }
       ],
       "caveat": "Vacancy counts are point-in-time snapshots that shift as nominations are made and confirmed; the underlying pattern (historically low career-diplomat share, doubled vacancy rate vs. first term) is the more durable claim than any single day's exact count."
     },
-    "confidence_note": "HIGH confidence -- vacancy figures and the first-term comparison are corroborated across multiple independent outlets (Ballotpedia News, AP-sourced wire coverage syndicated widely, IAMOVERS, The Print) with consistent figures across close reporting dates.",
-    "last_verified": "2026-08-02",
+    "confidence_note": "HIGH confidence -- vacancy figures and the first-term comparison are corroborated across multiple independent outlets (Ballotpedia News, AP-sourced wire coverage syndicated widely, IAMOVERS, The Print) with consistent figures across close reporting dates. Re-verified 2026-08-17: the early-August 2026 confirmation batch (U.S. News) is real and narrows the raw vacancy count somewhat, but Semafor's August 6, 2026 reporting on continuing Middle East vacancies and reliance on special envoys shows the entry's core throughline -- historically high vacancies and a preference for informal envoys over confirmed ambassadors -- remains current. No updated total vacancy count (as opposed to the confirmation batch itself) was found in sourcing reviewed, so the exact current 'X of 195' figure is not restated here pending a source that recalculates it post-confirmation.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-02",
     "sources": [
       {
@@ -14243,13 +14282,22 @@
       {
         "name": "The Print -- 'US diplomacy has been hollowed out by Trump. More than half of ambassador posts empty'",
         "url": "https://theprint.in/feature/us-diplomacy-has-been-hollowed-out-by-trump-more-than-half-of-ambassador-posts-empty/2989035/"
+      },
+      {
+        "name": "Semafor -- Middle East ambassadorships sit vacant as Trump relies on special envoys",
+        "url": "https://www.semafor.com/article/08/06/2026/middle-east-ambassadorships-sit-vacant-as-trump-relies-on-special-envoys"
+      },
+      {
+        "name": "U.S. News -- US Senate Confirms Dozens of Trump Nominees, Filling Gaps in Diplomatic Corps",
+        "url": "https://www.usnews.com/news/world/articles/2026-08-07/us-senate-confirms-dozens-of-trump-nominees-filling-gaps-in-diplomatic-corps"
       }
     ],
     "section_summaries": {
       "what_changed": "Over half of U.S. ambassador posts sit vacant nearly 18 months into Trump's second term, more than double the vacancy rate at the same point in his first term, with only 9 of 101 nominees being career diplomats.",
       "estimated_impact": "107 of 195 ambassador posts vacant as of late June 2026, including at Ukraine, Russia, Saudi Arabia, and other strategically significant countries.",
       "confidence_note": "Well-corroborated across multiple independent outlets with consistent vacancy figures."
-    }
+    },
+    "last_updated": "2026-08-17"
   },
   {
     "id": "state-department-diplomat-evaluation-overhaul-2026",
@@ -14269,8 +14317,8 @@
       "figures": [],
       "caveat": "No specific figure for the number of officers expected to be pushed out under the new system was identified in reporting reviewed; AFSA's and reporters' characterizations are qualitative assessments of the system's design and likely effects, not a quantified projection."
     },
-    "confidence_note": "HIGH confidence on the mechanics of the new evaluation system and AFSA's formal objection, corroborated across multiple independent outlets (Federal News Network in two separate pieces, ABC News, Newsmax, Daily Wire) including State's own internal directive to managers to revise already-submitted scores.",
-    "last_verified": "2026-08-02",
+    "confidence_note": "HIGH confidence on the mechanics of the new evaluation system and AFSA's formal objection, corroborated across multiple independent outlets (Federal News Network in two separate pieces, ABC News, Newsmax, Daily Wire) including State's own internal directive to managers to revise already-submitted scores. Re-verified 2026-08-17: AFSA's July-August 2026 Foreign Service Journal continues to describe the EER rollout as a 'fiasco' harming nearly everyone in the Service, consistent with the concerns already documented here; no material new development (litigation outcome, policy reversal, or further directive) was found beyond what this entry already reflects.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-02",
     "sources": [
       {
@@ -14290,7 +14338,8 @@
       "what_changed": "State rolled out a zero-sum diplomat evaluation system forcing officers to compete for capped top ratings, then directed managers to lower already-submitted scores -- drawing formal objection from the Foreign Service's own union.",
       "estimated_impact": "The Foreign Service union warns the system increases bias and politicization risk and is positioned to push out more diplomats after 2025's mass layoffs.",
       "confidence_note": "Well-corroborated across multiple independent outlets, including State's own internal directive to managers."
-    }
+    },
+    "last_updated": "2026-08-17"
   },
   {
     "id": "state-department-iran-war-evacuation-capacity-2026",
@@ -15230,9 +15279,9 @@
     "title": "USAID DRC mission closure and CDC global-health staffing cuts hampered detection and response to 2026 Ebola outbreak",
     "institution": "USAID (dissolved into State Department) / CDC global health security programs",
     "domain": "staff_office_cuts",
-    "status": "Ongoing -- outbreak still active and growing as of late July 2026; USAID's DRC mission and broader global-health staffing cuts remain in effect, unreversed",
+    "status": "Ongoing -- outbreak has become the deadliest DRC Ebola outbreak on record as of mid-August 2026 reporting; USAID's DRC mission and broader global-health staffing cuts remain in effect, unreversed",
     "date_of_action": "2025 (USAID DRC mission closure, CDC global-health staffing cuts) -- outbreak detected April 2026, still growing as of July 2026",
-    "what_changed": "A Bundibugyo-strain Ebola outbreak, first detected in April 2026 in DRC's Ituri province, grew into the fastest-growing Ebola outbreak on record, reaching 3,442 confirmed cases and 1,521 deaths in the DRC by late July 2026, with additional cases and deaths in neighboring Uganda; WHO and Africa CDC declared it a Public Health Emergency of International Concern. USAID's DRC mission had been shuttered in 2025 as part of the agency's broader 83% program-termination and dissolution into the State Department (see this tracker's usaid-dismantlement entry); the International Rescue Committee said the resulting reduction in country-level surveillance capacity contributed to delayed detection, and Bloomberg's public-health commentary and multiple outlets identified reduced CDC staffing and USAID/WHO funding cuts as having limited the surveillance, laboratory, and response-team capacity available to catch and contain the outbreak early. The disease is reported to have spread undetected for several weeks before health authorities officially confirmed it on May 15, 2026.",
+    "what_changed": "A Bundibugyo-strain Ebola outbreak, first detected in April 2026 in DRC's Ituri province, grew into the fastest-growing Ebola outbreak on record, reaching 3,442 confirmed cases and 1,521 deaths in the DRC by late July 2026, with additional cases and deaths in neighboring Uganda; WHO and Africa CDC declared it a Public Health Emergency of International Concern. USAID's DRC mission had been shuttered in 2025 as part of the agency's broader 83% program-termination and dissolution into the State Department (see this tracker's usaid-dismantlement entry); the International Rescue Committee said the resulting reduction in country-level surveillance capacity contributed to delayed detection, and Bloomberg's public-health commentary and multiple outlets identified reduced CDC staffing and USAID/WHO funding cuts as having limited the surveillance, laboratory, and response-team capacity available to catch and contain the outbreak early. The disease is reported to have spread undetected for several weeks before health authorities officially confirmed it on May 15, 2026. Update 2026-08-17: the outbreak has continued to accelerate sharply. By August 15-16, 2026, DRC's public health institute reported 4,945 confirmed cases and 2,325 deaths, surpassing the 2,299-death toll of the 2018-2020 DRC outbreak to become the deadliest Ebola outbreak in the country's history, and the second-largest and fastest-growing Ebola outbreak on record globally. The single deadliest week so far (August 3-9) saw 579 new cases and 304 deaths. The outbreak has spread from Ituri into five additional DRC provinces (North Kivu, South Kivu, Haut-Uele, Tshopo, and Bas-Uele) and to Uganda's capital, Kampala. Uganda itself declared its own linked outbreak over on July 28, 2026.",
     "primary_proponent": {
       "name": "Trump administration (USAID dissolution and CDC global-health staffing decisions)",
       "role": "Executive branch policy dismantling USAID and reducing CDC global-health staffing in 2025",
@@ -15255,12 +15304,27 @@
           "metric": "USAID program terminations enabling the DRC mission closure (context, from existing usaid-dismantlement entry)",
           "value": "83% of USAID programs (~5,200 contracts)",
           "source": "Secretary of State Rubio, March 2025, cited in this tracker's usaid-dismantlement-trump2.json entry"
+        },
+        {
+          "metric": "Confirmed DRC cases, mid-August 2026",
+          "value": "4,945",
+          "source": "DRC public health institute, cited by UPI/Al Jazeera, Aug. 16, 2026"
+        },
+        {
+          "metric": "Confirmed DRC deaths, mid-August 2026 (surpasses 2018-2020 outbreak's 2,299-death record)",
+          "value": "2,325",
+          "source": "DRC public health institute, cited by UPI/Al Jazeera, Aug. 16, 2026"
+        },
+        {
+          "metric": "Single deadliest week of the outbreak (Aug. 3-9, 2026)",
+          "value": "579 new cases, 304 deaths",
+          "source": "WHO/ECDC situation reporting"
         }
       ],
       "caveat": "IMPORTANT: reporting reviewed does not establish that surveillance/aid cuts caused the outbreak's origin -- scientists attribute that to a suspected wildlife (fruit bat) spillover event, a cause independent of any U.S. policy. The defensible, well-sourced claim is narrower: cuts to USAID's in-country presence and CDC global-health staffing reduced the surveillance and response capacity available once the outbreak began, plausibly contributing to weeks of undetected spread before the May 15, 2026 official confirmation -- this is the framing used throughout this entry, and should not be broadened to a causation claim about the outbreak's origin."
     },
-    "confidence_note": "MODERATE-HIGH confidence on the surveillance-capacity-reduction claim, corroborated across multiple independent outlets (Bloomberg, Infection Control Today, Think Global Health, NPR, the Borgen Project) and the International Rescue Committee's direct field assessment. LOW confidence on any claim that cuts caused the outbreak itself, which independent reporting attributes to an unrelated wildlife spillover event -- this entry should be framed strictly as a response/detection-capacity claim, not an origin-causation claim, matching the standard this tracker applies to similarly structured claims (see the WHO-withdrawal-surveillance-access-loss entry for the same distinction).",
-    "last_verified": "2026-08-02",
+    "confidence_note": "MODERATE-HIGH confidence on the surveillance-capacity-reduction claim, corroborated across multiple independent outlets (Bloomberg, Infection Control Today, Think Global Health, NPR, the Borgen Project) and the International Rescue Committee's direct field assessment. LOW confidence on any claim that cuts caused the outbreak itself, which independent reporting attributes to an unrelated wildlife spillover event -- this entry should be framed strictly as a response/detection-capacity claim, not an origin-causation claim, matching the standard this tracker applies to similarly structured claims (see the WHO-withdrawal-surveillance-access-loss entry for the same distinction). Re-verified 2026-08-17: the escalation to the deadliest DRC Ebola outbreak on record is corroborated across UN News, Al Jazeera, UPI, and WHO/ECDC situation reporting, all citing the same DRC public-health-institute figures. This is an update to scale and severity, not a change to the entry's core causal framing -- the caveat above (cuts affected detection/response capacity, not the outbreak's biological origin) continues to apply.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-02",
     "sources": [
       {
@@ -15278,13 +15342,22 @@
       {
         "name": "Politico -- 'Relief group says Trump cuts forced it to scale back surveillance in Ebola-affected region'",
         "url": "https://www.politico.com/news/2026/05/19/relief-group-says-trump-cuts-forced-it-to-scale-back-surveillance-in-ebola-affected-region-00928578"
+      },
+      {
+        "name": "UPI -- Ebola outbreak becomes DRC's deadliest with more than 2,300 deaths",
+        "url": "https://www.upi.com/Top_News/World-News/2026/08/16/drc-Ebola-outbreak-update/4271786931290/"
+      },
+      {
+        "name": "Al Jazeera -- DRC Ebola death toll passes 2,000 amid fastest-growing outbreak on record",
+        "url": "https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record"
       }
     ],
     "section_summaries": {
       "what_changed": "The 2026 DRC Ebola outbreak became the fastest-growing on record after spreading undetected for weeks; USAID's DRC mission closure and CDC global-health staffing cuts had already reduced the surveillance capacity available to catch it early.",
       "estimated_impact": "3,442 confirmed cases and 1,521 deaths as of late July 2026, in a country where U.S. surveillance capacity had been reduced -- though the outbreak's biological origin is unrelated to those cuts.",
       "confidence_note": "Well-corroborated on the capacity-reduction claim across multiple outlets and IRC's field assessment; the outbreak's origin itself is attributed to an unrelated wildlife spillover event, and this entry is framed accordingly."
-    }
+    },
+    "last_updated": "2026-08-17"
   },
   {
     "id": "usaid-dismantlement-trump2",
@@ -16545,8 +16618,8 @@
     "institution": "Department of Veterans Affairs -- West Los Angeles VA campus / National Center for Warrior Independence",
     "domain": "funding_redirection",
     "status": "Ongoing -- executive order signed and a 120-day implementation-plan deadline set for VA Secretary Collins, but the administration's budget proposal includes no funding for the promised housing as of May 2026 reporting; VA's appeal of the court-ordered housing requirement remained pending",
-    "date_of_action": "2026-01 (executive order establishing the Center) through 2026-05 (budget proposal and NPR reporting showing no funding, and confirmation the court-order appeal continues)",
-    "what_changed": "Trump signed an executive order directing VA Secretary Doug Collins to establish a National Center for Warrior Independence on the West Los Angeles VA campus, with a goal of housing up to 6,000 homeless veterans by January 1, 2028, and to produce an implementation plan within 120 days. Despite the public commitment, Trump's proposed budget for the initiative funds zero dollars toward the housing itself; reporting did not identify which existing programs' funding, if any, would be reallocated toward the project. Separately and simultaneously, the VA is appealing a federal court ruling in ongoing West LA veteran-housing litigation that requires the agency to build 1,800 units of permanent housing for disabled and homeless veterans on the same 388-acre campus -- meaning the administration is both publicly promising expanded veteran housing on the campus and actively contesting a court order requiring a specific, legally mandated amount of it. Key implementation details of the administration's own plan -- including which existing funding streams would be redirected -- remained undisclosed as of this reporting.",
+    "date_of_action": "2025-05 (executive order establishing the Center, signed May 9, 2025) through 2026-08 (RFP issued and construction contract expected, but still far short of the full housing goal)",
+    "what_changed": "Trump signed an executive order on May 9, 2025 (correcting this entry's earlier '2026-01' date) directing VA Secretary Doug Collins to establish a National Center for Warrior Independence on the West Los Angeles VA campus, with a goal of housing up to 6,000 homeless veterans by January 1, 2028, and to produce an implementation plan within 120 days. Despite the public commitment, Trump's proposed budget for the initiative funds zero dollars toward the housing itself; reporting did not identify which existing programs' funding, if any, would be reallocated toward the project. Separately and simultaneously, the VA is appealing a federal court ruling in ongoing West LA veteran-housing litigation that requires the agency to build 1,800 units of permanent housing for disabled and homeless veterans on the same 388-acre campus -- meaning the administration is both publicly promising expanded veteran housing on the campus and actively contesting a court order requiring a specific, legally mandated amount of it. Key implementation details of the administration's own plan -- including which existing funding streams would be redirected -- remained undisclosed as of this reporting. Update 2026-08-17 (correction and moderate development): this entry previously dated the executive order to January 2026; the Federal Register and White House both confirm it was actually signed May 9, 2025 -- corrected above. Separately, the 'zero funding' picture has partly changed since this entry's last check: the VA issued a request for proposals on May 21, 2026 for roughly 220 temporary housing units at the West LA campus's north campus, with a construction contract worth up to $30 million expected to be awarded by August 2026 and units delivered by the end of calendar year 2026. VA's stated plan is to reach capacity for 1,670 veterans by the end of 2026 and 2,048 by 2027 -- real, funded progress, but well short of the 6,000-veteran goal promised by January 2028. VA documents describe a $721.7 million total estimated project cost 'considering new and requests for previously authorized funds,' though reporting reviewed does not clearly establish which specific appropriations line items constitute that total, or whether it includes new congressionally appropriated money as opposed to redirected/previously authorized VA capital funds (the funding source dispute already noted in this entry's caveat).",
     "primary_proponent": {
       "name": "Donald Trump",
       "role": "President",
@@ -16569,12 +16642,32 @@
           "metric": "Court-ordered permanent housing units the VA is appealing",
           "value": "1,800",
           "source": "Federal court ruling in West LA veteran-housing litigation, cited by NPR/Spectrum News"
+        },
+        {
+          "metric": "Temporary housing units VA issued an RFP for, May 21, 2026",
+          "value": "~220 units, north campus",
+          "source": "VA News, American Legion, May 2026"
+        },
+        {
+          "metric": "Expected construction contract value, awarded by ~August 2026",
+          "value": "up to $30 million",
+          "source": "American Legion, citing VA RFP terms"
+        },
+        {
+          "metric": "VA's stated on-campus housing capacity targets",
+          "value": "1,670 by end of 2026; 2,048 by 2027 (vs. the 6,000 goal by Jan. 2028)",
+          "source": "VA program documents"
+        },
+        {
+          "metric": "Total estimated project cost, new and previously authorized funds combined",
+          "value": "$721.7 million",
+          "source": "VA program documents cited in House Veterans Affairs Committee materials, May 2026"
         }
       ],
       "caveat": "Reporting is not unanimous on the funding-source question -- some outlets (Fox News) reported the center would draw on funds 'previously spent' on housing for undocumented immigrants, while NPR's reporting emphasizes the budget proposal itself allocates no funding to the housing construction; this entry presents the zero-budgeted-funding finding as the better-corroborated claim (NPR, citing the administration's own budget document) while noting the funding-source dispute exists."
     },
-    "confidence_note": "HIGH confidence on the executive order's terms, the budget's lack of dedicated funding (sourced to NPR's review of the administration's own budget proposal), and the VA's active appeal of the 1,800-unit court order (corroborated by NPR, Spectrum News, and Task & Purpose). MODERATE confidence on the specific claim that no funding will ever materialize for the project, since the 120-day implementation plan directed by the executive order had not yet been produced as of this entry's sourcing and could still identify a funding source.",
-    "last_verified": "2026-08-02",
+    "confidence_note": "HIGH confidence on the executive order's terms, the budget's lack of dedicated funding (sourced to NPR's review of the administration's own budget proposal), and the VA's active appeal of the 1,800-unit court order (corroborated by NPR, Spectrum News, and Task & Purpose). MODERATE confidence on the specific claim that no funding will ever materialize for the project, since the 120-day implementation plan directed by the executive order had not yet been produced as of this entry's sourcing and could still identify a funding source. Re-verified 2026-08-17, correction and update: the executive-order date is corrected to May 9, 2025 (Federal Register, White House presidential-actions archive -- both primary sources). The RFP, $30 million contract, and interim capacity targets are corroborated by VA's own press release and the American Legion; the $721.7 million total-cost figure comes from VA materials submitted to the House Veterans Affairs Committee. This is a real, if partial, complication of the entry's 'zero funding' framing -- construction funding now exists for a fraction of the promised capacity, while the full 6,000-veteran, January 2028 commitment remains unfunded and the specific appropriations sourcing for the $721.7 million figure remains unclear in reporting reviewed.",
+    "last_verified": "2026-08-17",
     "date_added": "2026-08-02",
     "sources": [
       {
@@ -16588,13 +16681,22 @@
       {
         "name": "Spectrum News -- 'Despite new laws, court order, housing for vets faces delays'",
         "url": "https://spectrumlocalnews.com/ca/california/housing/2026/01/24/veteran-housing-homelessness-west-la-va-campus-veterans-affairs"
+      },
+      {
+        "name": "VA News -- VA issues RFP to build housing for 220 Veterans at West L.A. campus",
+        "url": "https://news.va.gov/press-room/va-issues-rfp-to-build-housing-for-220-veterans-at-west-l-a-campus/"
+      },
+      {
+        "name": "The American Legion -- VA issues request for proposals to build housing for 220 veterans at West Los Angeles campus",
+        "url": "https://www.legion.org/information-center/news/homeless-veterans/2026/may/va-issues-request-for-proposals-to-build-housing-for-220-veterans-at-west-los-angeles-campus"
       }
     ],
     "section_summaries": {
       "what_changed": "Trump ordered VA to house 6,000 homeless veterans on the West LA campus by 2028, but his own budget funds none of it -- while the VA separately appeals a court order requiring 1,800 units of permanent veteran housing on the same campus.",
       "estimated_impact": "The administration is publicly promising housing it hasn't funded while actively resisting the one legally enforceable housing requirement that already exists for the same site.",
       "confidence_note": "The executive order, the budget's lack of dedicated funding, and the pending court appeal are all well-corroborated; whether funding will ultimately materialize depends on an implementation plan not yet produced."
-    }
+    },
+    "last_updated": "2026-08-17"
   },
   {
     "id": "vaccine-manufacturers-pullback-rfk-policy-2026",
