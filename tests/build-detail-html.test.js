@@ -17,12 +17,18 @@ function extractFunction(source, name) {
 const indexHtmlPath = path.join(__dirname, "..", "index.html");
 const source = fs.readFileSync(indexHtmlPath, "utf8");
 
-// Extract both functions -- summaryLineHtml first, then buildDetailHtml
+// Extract all the functions buildDetailHtml transitively depends on --
+// summaryLineHtml for the curated trackers, escapeHtml/highlightMatches
+// for the tracker (Reporting) kind's search-term highlighting.
+const escapeHtmlFunctionSource = extractFunction(source, "escape-html");
 const summaryLineFunctionSource = extractFunction(source, "summary-line");
+const highlightMatchesFunctionSource = extractFunction(source, "highlight-matches");
 const buildDetailHtmlFunctionSource = extractFunction(source, "build-detail-html");
 
-// Eval both together so buildDetailHtml can call summaryLineHtml
-const combined = summaryLineFunctionSource + "\n" + buildDetailHtmlFunctionSource;
+// Eval them all together so buildDetailHtml can call summaryLineHtml and
+// highlightMatches (which itself calls escapeHtml/escapeRegExp).
+const combined = escapeHtmlFunctionSource + "\n" + summaryLineFunctionSource + "\n" +
+  highlightMatchesFunctionSource + "\n" + buildDetailHtmlFunctionSource;
 const buildDetailHtml = (0, eval)(`${combined}\nbuildDetailHtml;`);
 
 test("deregulation with summaries", () => {
@@ -146,4 +152,31 @@ test("prosecution with summaries", () => {
   const incidentIndex = result.indexOf("Allegedly submitted fraudulent documents");
   const incidentContentIndex = result.indexOf("False statements on federal forms");
   assert(incidentIndex < incidentContentIndex, "incident_summary summary should come before content");
+});
+
+test("tracker (Reporting) highlights the search term in the body", () => {
+  const entry = {
+    what_happened: "The EPA announced new rules today.",
+    source_name: "Example Substack",
+    source_url: "https://example.com/post",
+  };
+  const cfg = { kind: "tracker" };
+  const result = buildDetailHtml(entry, cfg, "EPA", false);
+
+  assert(
+    result.includes('<mark class="hl">EPA</mark>'),
+    "should wrap the matched term in the body text with a <mark> highlight"
+  );
+});
+
+test("tracker (Reporting) with no active search term leaves body unhighlighted but escaped", () => {
+  const entry = {
+    what_happened: "Rules & <regulations> changed.",
+    source_name: "",
+  };
+  const cfg = { kind: "tracker" };
+  const result = buildDetailHtml(entry, cfg, "", false);
+
+  assert(!result.includes('<mark class="hl">'), "should not highlight anything when no term is active");
+  assert(result.includes("Rules &amp; &lt;regulations&gt; changed."), "should still HTML-escape the raw body text");
 });

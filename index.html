@@ -908,12 +908,14 @@ function classifyStatus(raw) {
   return "Other/Unclassified";
 }
 
+/* escape-html:start */
 function escapeHtml(str) {
   return String(str)
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;");
 }
+/* escape-html:end */
 
 /* summary-line:start */
 function summaryLineHtml(summary) {
@@ -921,6 +923,7 @@ function summaryLineHtml(summary) {
 }
 /* summary-line:end */
 
+/* highlight-matches:start */
 function escapeRegExp(str) {
   return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
@@ -943,6 +946,7 @@ function highlightMatches(text, term, useRegex) {
     return escaped; // invalid regex -- matchesTerm() upstream already surfaces the error banner
   }
 }
+/* highlight-matches:end */
 
 /* One-liner generation is deliberately template-based rather than
    free-text, so it stays deterministic and traceable back to the
@@ -1057,7 +1061,7 @@ function matchesTerm(haystack, term, useRegex) {
    so there's exactly one place that knows how to render each
    tracker kind's fields, not two drifting copies. */
 /* build-detail-html:start */
-function buildDetailHtml(entry, cfg) {
+function buildDetailHtml(entry, cfg, term, useRegex) {
   if (cfg.kind === "deregulation") {
     return '<div class="field-label">What changed</div><div class="field-value">' + summaryLineHtml(entry.section_summaries?.what_changed) + (entry.what_changed || "") + '</div>' +
       '<div class="field-label">Primary proponent</div><div class="field-value"><strong>' + (entry.primary_proponent?.name || "") + '</strong> — ' + (entry.primary_proponent?.role || "") + (entry.primary_proponent?.note ? '<br><em>' + entry.primary_proponent.note + '</em>' : '') + '</div>' +
@@ -1067,7 +1071,7 @@ function buildDetailHtml(entry, cfg) {
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + s.url + '" target="_blank" rel="noopener">' + s.name + '</a></li>').join("") + '</ul>';
   }
   if (cfg.kind === "tracker") {
-    return '<div class="field-label">What happened</div><div class="field-value">' + (entry.what_happened || "") + '</div>' +
+    return '<div class="field-label">What happened</div><div class="field-value">' + highlightMatches(entry.what_happened || "", term, useRegex) + '</div>' +
       (entry.source_name ? '<div class="field-label">Source</div><ul class="exhibit-list"><li><a href="' + entry.source_url + '" target="_blank" rel="noopener">' + entry.source_name + '</a></li></ul>' : '<div class="field-label">Source</div><div class="field-value" style="color:var(--ink-faint);font-style:italic;">not cited in original post</div>');
   }
   if (cfg.kind === "govservices") {
@@ -1124,7 +1128,7 @@ function buildEntryCard(entry, cfg, docketLabel, sourceLabel, term, useRegex) {
         '<div class="entry-meta">' + metaHtml + '</div>' +
       '</div>' +
     '</div>' +
-    '<div class="entry-detail">' + buildDetailHtml(entry, cfg) + '</div>';
+    '<div class="entry-detail">' + buildDetailHtml(entry, cfg, term, useRegex) + '</div>';
 
   div.querySelector(".entry-head").addEventListener("click", () => div.classList.toggle("open"));
   return div;
@@ -1371,7 +1375,7 @@ function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
 
     const detail = document.createElement("div");
     detail.className = "oneliner-detail";
-    detail.innerHTML = buildDetailHtml(m.entry, m.cfg);
+    detail.innerHTML = buildDetailHtml(m.entry, m.cfg, term, useRegex);
 
     row.addEventListener("click", () => {
       row.classList.toggle("open");
