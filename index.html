@@ -1103,20 +1103,24 @@ function buildEntryCard(entry, cfg, docketLabel, sourceLabel, term, useRegex) {
   const rawTitle = entry[cfg.titleField] || "Untitled";
   const title = cfg.kind === "tracker" ? truncate(rawTitle, 110) : rawTitle;
   // Highlights the active search term in the free-text fields most
-  // likely to contain it (title, summary, category labels) -- dates
-  // and domain tags are left alone since they're never what matched.
+  // likely to contain it (title, summary, category labels, and
+  // date_of_action -- unlike a plain date, date_of_action is often a
+  // compound string with real prose, e.g. "2025-03 (initial cuts)
+  // through 2026-04 (ongoing)", and visibleSearchText() includes it in
+  // the match haystack, so it needs highlighting too). Domain tags are
+  // still left alone since they're a fixed vocabulary, never what matched.
   const hl = (text) => highlightMatches(text || "", term, useRegex);
 
   let metaHtml = sourceLabel ? '<span class="source-tag">' + sourceLabel + '</span>' : "";
   if (cfg.kind === "deregulation") {
     metaHtml += '<span class="domain-tag" style="background:' + domainColor(entry.domain) + '22; color:' + domainColor(entry.domain) + '">' + entry.domain + '</span>' +
-               '<span>' + hl(entry.agency) + '</span><span>' + (entry.date_of_action || "") + '</span>' +
+               '<span>' + hl(entry.agency) + '</span><span>' + hl(entry.date_of_action) + '</span>' +
                '<span>' + hl(entry.short_summary || truncate(entry.what_changed || "", 100)) + '</span>';
   } else if (cfg.kind === "tracker") {
     metaHtml += '<span>' + (entry.date || "") + '</span>';
   } else if (cfg.kind === "govservices") {
     metaHtml += '<span class="domain-tag" style="background:' + domainColor(entry.domain) + '22; color:' + domainColor(entry.domain) + '">' + govservicesDomainLabel(entry.domain) + '</span>' +
-               '<span>' + hl(entry.institution) + '</span><span>' + (entry.date_of_action || "") + '</span>';
+               '<span>' + hl(entry.institution) + '</span><span>' + hl(entry.date_of_action) + '</span>';
   } else {
     metaHtml += '<span>' + hl(entry.offense_category) + '</span><span>' + hl(entry.status_category) + '</span><span>updated ' + (entry.last_updated || "") + '</span>';
   }
