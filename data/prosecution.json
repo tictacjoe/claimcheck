@@ -6875,15 +6875,27 @@
         "description": "Courthouse News Service's reporting confirms civil rights attorney Nekima Levy Armstrong was among the other co-defendants who pleaded not guilty in the same case",
         "source_url": "https://www.courthousenews.com/journalist-don-lemon-pleads-not-guilty-to-federal-charges-over-minnesota-church-protest/",
         "maps_to_element": "Broader scope of defendants beyond Lemon"
+      },
+      {
+        "type": "public_record",
+        "description": "ABC News reports that on August 7, 2026, Lemon's attorneys filed a motion to dismiss the indictment on vindictive-prosecution grounds, citing President Trump's public attacks on Lemon and hostile statements from DOJ officials, and arguing the government pursued \"extraordinary channels\" to arrest and investigate him -- including rejecting his offer to self-surrender and using unconventional warrant procedures. No ruling on the motion had been reported as of this update.",
+        "source_url": "https://abcnews.com/US/vindictive-motivations-don-lemon-seeks-dismiss-charges-stemming/story?id=135457988",
+        "maps_to_element": "Post-arraignment defense challenge to the prosecution's motive"
+      },
+      {
+        "type": "public_record",
+        "description": "Newsweek reports that on February 24, 2026, Judge Douglas Micko rejected the government's request for a 90-day discovery-deadline extension under the Speedy Trial Act, granting only 30 days and finding the case not \"complex\" since all nine defendants face identical charges arising from \"the same discrete course of conduct\" -- a procedural ruling that predates this entry's original write date but was not previously incorporated.",
+        "source_url": "https://www.newsweek.com/don-lemon-scores-legal-win-church-protest-case-11587100",
+        "maps_to_element": "Pretrial procedural history"
       }
     ],
-    "status": "Ongoing as of this entry's addition (February 2026) -- defendants pleaded not guilty; the judge's finding regarding at least two defendants' lack of evidence had not yet resulted in charges being formally dropped as of the reporting reviewed.",
+    "status": "Ongoing as of this update -- defendants pleaded not guilty at the February 13, 2026 arraignment; a February 24, 2026 order held the case was not complex enough to warrant the government's requested 90-day discovery extension, granting only 30 days; on August 7, 2026, Lemon's attorneys filed a motion to dismiss on vindictive-prosecution grounds. No ruling on the dismissal motion, and no trial date, had been reported as of this update; the judge's earlier finding regarding at least two defendants' lack of evidence had not resulted in charges being formally dropped as of the reporting reviewed.",
     "rebuttal_anticipated": "Likely defense: the FACE Act and conspiracy charges rest on planning and coordination evidence distinct from any individual defendant's own physical conduct, journalists present at unlawful conduct are not automatically immune from conspiracy liability if evidence shows coordination, and the case remains in early pretrial stages where the government has not yet been required to present its full evidentiary case.",
     "comeback": "The specific fact distinguishing this from an ordinary close pretrial dispute is that the finding of no evidence came from the presiding federal judge himself, in a formal filing to a federal appeals court -- not from a defense motion or outside commentary -- directly undercutting the prosecution's conspiracy theory as to at least the two defendants he specifically addressed, which is the same office (Rosen's) already documented pursuing an aggressive theory of conspiracy liability against protest-adjacent individuals in this tracker's separate Minneapolis Antifa-indictment entry.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] A second, distinct application of the same broader pattern this tracker documents of U.S. Attorney Rosen's office pursuing conspiracy charges against individuals connected to anti-ICE protest activity based on presence, association, or documentation rather than evidence of personal unlawful conduct (see also rosen-minnesota-nspm7-antifa-prosecutions-2026.json).",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-19",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence -- the charges, arraignment, Lemon's account, and Judge Schiltz's specific finding are all independently corroborated across ABC News, Courthouse News, and MSNBC/ms.now, with Schiltz's finding drawn from his own formal filing rather than characterization.",
+    "confidence_note": "HIGH confidence -- the charges, arraignment, Lemon's account, and Judge Schiltz's specific finding are all independently corroborated across ABC News, Courthouse News, and MSNBC/ms.now, with Schiltz's finding drawn from his own formal filing rather than characterization. Re-verified 2026-08-19: the August 7, 2026 vindictive-prosecution motion and the February 24, 2026 discovery-scheduling order are both independently reported (ABC News, Newsweek); no ruling on the dismissal motion identified in sourcing reviewed.",
     "section_summaries": {
       "incident_summary": "Don Lemon and eight co-defendants, including a civil rights attorney, were federally charged with conspiracy and FACE Act violations over an anti-ICE protest at a Minnesota church; the presiding federal judge himself found no evidence of criminal conduct or conspiracy as to at least two defendants, undercutting the prosecution's own theory.",
       "confidence_note": "Independently corroborated across multiple outlets, with the key judicial finding drawn from the judge's own formal court filing rather than any party's characterization."
@@ -6930,15 +6942,21 @@
         "description": "Reason magazine's analysis concludes the case 'has concerning First Amendment implications,' given the reliance on organizing activity, group membership, and ideology to establish conspiracy liability rather than evidence of the charged defendants' own violent conduct",
         "source_url": "https://reason.com/2026/06/25/doj-case-against-minneapolis-antifa-groups-has-concerning-first-amendment-implications/",
         "maps_to_element": "First Amendment freedom-of-association concerns"
+      },
+      {
+        "type": "reporting",
+        "description": "KARE11 reports arraignments were held for the indicted defendants in early July 2026; Erik Davis's attorney, Jordan Kushner, characterized his client's arraignment as routine and reiterated that the only conduct alleged against Davis in the indictment is participating in organizing meetings, consistent with this entry's existing account. No dismissal, plea agreement, or trial date identified in sourcing reviewed as of this update.",
+        "source_url": "https://www.kare11.com/article/news/local/arraignments-held-for-people-indicted-in-federal-conspiracy-case/89-368e2217-1efd-4059-8b0c-ed7a69bd6dde",
+        "maps_to_element": "Re-verification of case status and Davis's specific alleged conduct"
       }
     ],
     "status": "Indictment announced June 2026; prosecution ongoing as of this entry's addition, with pretrial proceedings underway. Davis faces up to six years in prison if convicted. No trial date confirmed in sourcing reviewed.",
     "rebuttal_anticipated": "Likely defense: federal prosecutors have discretion to charge conspiracy based on an organizer's role in planning and directing a group's actions even without personal violence, and NSPM-7 reflects a legitimate policy judgment that organized, coordinated resistance to federal law enforcement operations (including at a facility housing federal agents and detainees) warrants a stronger prosecutorial response than isolated protest activity.",
     "comeback": "The specific facts distinguishing this from ordinary conspiracy prosecution are that DOJ's own announcement invoked a presidential terrorism-adjacent memorandum rather than standard conspiracy statutes alone, that at least one charged defendant's cited conduct is limited to organizing-meeting participation, protest-logistics messaging, and political ideology rather than any act of violence, and that outside legal commentary across the ideological spectrum (including a libertarian-leaning outlet) has independently flagged First Amendment concerns with the theory of liability used.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the same broader pattern this tracker documents elsewhere (the Patel-driven conspiracy prosecutions of Comey/Brennan/Schiff/James, and DOJ's subpoenas of ICE critics and journalists) of using federal prosecutorial tools against organizers, critics, and reporters connected to stories or activity the administration finds embarrassing or oppositional, rather than reserving conspiracy charges for defendants tied to specific unlawful acts.",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-19",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence on the underlying facts (the indictment, the specific charges, NSPM-7 being invoked, Davis's cited conduct) -- corroborated across multiple independent outlets spanning the ideological spectrum (Fox 9 local news, Common Dreams, The Appeal, CBS Minnesota, Reason). MODERATE confidence on the informant claim, which is attributed to defense counsel's belief rather than confirmed by prosecutors or independent reporting.",
+    "confidence_note": "HIGH confidence on the underlying facts (the indictment, the specific charges, NSPM-7 being invoked, Davis's cited conduct) -- corroborated across multiple independent outlets spanning the ideological spectrum (Fox 9 local news, Common Dreams, The Appeal, CBS Minnesota, Reason). MODERATE confidence on the informant claim, which is attributed to defense counsel's belief rather than confirmed by prosecutors or independent reporting. Re-verified 2026-08-19: no material change; arraignments proceeded as expected and no dismissal, plea, or trial date has been reported.",
     "section_summaries": {
       "incident_summary": "U.S. Attorney Daniel Rosen indicted 15 alleged Minneapolis antifa-linked organizers, invoking NSPM-7, on conspiracy and related charges tied to anti-ICE protests at the Whipple federal building; one defendant, a Macalester College professor, is charged based on organizing-meeting participation and political ideology rather than any accusation of personal violence.",
       "confidence_note": "Core facts are well-corroborated across ideologically diverse outlets; the informant claim is defense counsel's belief, not independently confirmed."
@@ -7226,15 +7244,21 @@
         "description": "The Washington Post's reporting confirms Hurley's exit follows a pattern of senior Treasury departures under Bessent, including Deputy Secretary Michael Faulkender and two successive chiefs of staff",
         "source_url": "https://www.washingtonpost.com/business/2026/02/25/sanctions-chief-treasury/",
         "maps_to_element": "Broader pattern of senior Treasury turnover"
+      },
+      {
+        "type": "public_record",
+        "description": "USCIB confirms the U.S. Senate confirmed John Hurley as U.S. Ambassador to the OECD on August 10, 2026; his position as Under Secretary of the Treasury for Terrorism and Financial Intelligence had already ended April 28, 2026.",
+        "source_url": "https://uscib.org/john-hurley-confirmation-oecd/",
+        "maps_to_element": "Resolution of Hurley's post-Treasury status"
       }
     ],
-    "status": "Ongoing as of this entry's addition -- Hurley's departure was reported February 25, 2026, though later reporting (April 2026) indicates he may instead be named to an OECD ambassador role rather than fully leaving government, suggesting the situation remained fluid.",
+    "status": "Resolved as to Hurley's own employment status -- his position as Under Secretary for Terrorism and Financial Intelligence ended April 28, 2026, and the Senate confirmed him as U.S. Ambassador to the OECD on August 10, 2026. This resolves the fluidity noted in earlier reporting about whether he would remain in government; it does not resolve the separate factual uncertainty introduced by Hurley's own on-record denial of the Washington Post article's premise (see confidence_note), nor does it confirm whether the underlying Somali-community financial-surveillance program itself has continued, changed, or ended -- no reporting on the program's current status was identified in this update.",
     "rebuttal_anticipated": "Likely defense: Treasury has legitimate authority to conduct enhanced financial surveillance in connection with documented fraud concerns (referencing the same Feeding Our Future-related fraud issues this tracker's Minnesota entries document), and internal policy disagreements between career/senior officials and political leadership are a normal feature of government rather than evidence of improper discriminatory targeting.",
     "comeback": "The specific concern raised by Treasury's own sanctions chief -- not an outside critic -- was that the surveillance targeted a community defined by ethnicity/national origin rather than a facially neutral fraud-detection criterion, a distinction that matters because it raises equal-protection and discriminatory-targeting concerns beyond ordinary anti-fraud enforcement; that even some administration allies reportedly share this unease strengthens rather than undermines the substance of the objection.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of Minnesota's Somali and immigrant communities facing enhanced federal scrutiny tied to the administration's fraud-enforcement and immigration priorities in the state (see also the Minnesota U.S. Attorney's Office turmoil documented in bondi-doj-renee-good-widow-investigation-2026.json).",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-19",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence on Hurley's objection, its timing, and his resignation decision -- corroborated directly by The Washington Post's sourced reporting. MODERATE confidence on the program's ultimate scope and legal basis, since the surveillance program's specific parameters were not fully detailed in sourcing reviewed, and Hurley's own on-record denial of the article's premise (per the Post's own reporting) introduces some factual uncertainty about the full picture.",
+    "confidence_note": "HIGH confidence on Hurley's objection, its timing, and his resignation decision -- corroborated directly by The Washington Post's sourced reporting. MODERATE confidence on the program's ultimate scope and legal basis, since the surveillance program's specific parameters were not fully detailed in sourcing reviewed, and Hurley's own on-record denial of the article's premise (per the Post's own reporting) introduces some factual uncertainty about the full picture. Update 2026-08-19: Hurley's OECD ambassadorship was confirmed by the Senate August 10, 2026, resolving the employment-status question as fluid reporting had left it in April 2026. This does not resolve Hurley's own on-record denial of the original Washington Post story's premise, which still introduces factual uncertainty about the full picture, nor does it speak to the surveillance program's current operational status.",
     "section_summaries": {
       "incident_summary": "Treasury's sanctions chief John Hurley resigned after his objections to White House-directed financial surveillance of Minneapolis's Somali community -- which he warned raised data-privacy issues -- went unheeded by Secretary Bessent.",
       "confidence_note": "Well-corroborated by The Washington Post's sourced reporting, though Hurley himself denied the article's premise, introducing some factual uncertainty."
@@ -7439,15 +7463,27 @@
         "description": "Courthouse News's reporting confirms the 9th Circuit had already stayed Donato's injunction pending appeal since August 2025, and characterizes the order as stripping bargaining rights from roughly two-thirds of the federal workforce",
         "source_url": "https://www.courthousenews.com/ninth-circuit-lifts-block-on-trump-limits-to-collective-bargaining-for-federal-workers/",
         "maps_to_element": "Scale of the order's effect and the procedural history"
+      },
+      {
+        "type": "public_record",
+        "description": "The 9th Circuit's own order and amended opinion (No. 25-4014, filed February 26, 2026, amended June 17, 2026) states the order \"shall constitute the mandate of the court\" and that \"no petitions for panel rehearing or rehearing en banc shall be permitted\" -- affirmatively foreclosing further Ninth Circuit review of the retaliation-claim ruling, rather than merely leaving further appeal unconfirmed.",
+        "source_url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/06/17/25-4014.pdf",
+        "maps_to_element": "Finality of the Ninth Circuit's ruling on the retaliation claim"
+      },
+      {
+        "type": "reporting",
+        "description": "FedSmith's coverage of the June 17, 2026 order confirms it forecloses further panel or en banc rehearing and that the panel explicitly declined to address AFGE's separate claim that the executive order exceeded the President's statutory authority -- that claim remains pending at the district court, distinct from the resolved First Amendment retaliation claim.",
+        "source_url": "https://www.fedsmith.com/2026/06/18/national-security-federal-unions-ninth-circuit-mandate/",
+        "maps_to_element": "Scope of what the Ninth Circuit's finality actually resolved"
       }
     ],
-    "status": "Resolved on appeal as of February 26, 2026 -- the 9th Circuit's reversal allows the order to take effect; a further appeal (en banc or to the Supreme Court) was not confirmed in sourcing reviewed as of this entry's addition.",
+    "status": "Resolved on appeal as to the First Amendment retaliation claim: the panel's February 26, 2026 ruling was amended June 17, 2026, with the amended opinion ordered to constitute the mandate of the court and an explicit statement that no petition for panel rehearing or rehearing en banc would be permitted -- foreclosing further Ninth Circuit review, not merely an unconfirmed absence of appeal as earlier reporting had it. The panel did not address AFGE's separate claim that the executive order exceeded the President's statutory authority under 5 U.S.C. Section 7103(b)(1); that claim remains pending before the district court. No Supreme Court certiorari petition was identified in sourcing reviewed.",
     "rebuttal_anticipated": "Likely defense: the 9th Circuit -- an independent Article III court, not the administration itself -- reviewed the retaliation claim on the merits and rejected it, finding the order legitimately grounded in national security concerns and that Trump would have issued it regardless of any retaliatory motive, which is the strongest possible institutional validation of the order's lawfulness.",
     "comeback": "The appellate panel's reasoning rests on a but-for causation standard, not a finding that no retaliatory motive was present -- meaning the order can be simultaneously partly retaliatory in intent and still lawful under this specific legal test, a narrower vindication than an outright finding of clean motive; the sheer scale (two-thirds of the federal workforce losing bargaining rights via a single order citing broad national-security grounds) remains a significant labor-rights rollback regardless of the retaliation claim's specific legal outcome.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of the administration using national-security or efficiency rationales to justify large-scale rollbacks of federal-employee protections (see also hegseth-pentagon-union-contracts-terminated-2026.json for the Pentagon-specific analog).",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-19",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence -- the ruling, its date, its reasoning, and the order's scope are independently corroborated across Government Executive, Reuters (via Investing.com), Courthouse News, and Federal News Network, with no facts disputed by any party.",
+    "confidence_note": "HIGH confidence -- the ruling, its date, its reasoning, and the order's scope are independently corroborated across Government Executive, Reuters (via Investing.com), Courthouse News, and Federal News Network, with no facts disputed by any party. Correction 2026-08-19: this entry's original framing -- that further appeal was \"not confirmed in sourcing reviewed\" -- understated what had already occurred before this entry's own August 5, 2026 write date: the panel's June 17, 2026 amended opinion explicitly foreclosed further panel or en banc rehearing and ordered issuance of the mandate. The statutory-authority claim remains live at the district court, so this is not a complete resolution of the underlying litigation, only of the retaliation-claim appeal.",
     "section_summaries": {
       "incident_summary": "The 9th Circuit reversed a lower-court injunction and allowed Trump's 2025 executive order stripping collective bargaining rights from roughly two-thirds of the federal workforce to take effect, rejecting unions' retaliation claim on a but-for basis while crediting the order's stated national-security rationale.",
       "confidence_note": "Well-corroborated across multiple outlets with no facts disputed by any party; this entry documents a judicially-sustained action, not an unresolved allegation."
@@ -7637,15 +7673,21 @@
         "description": "Follow-up ProPublica reporting confirms a member of Congress (Rep. Norma Torres) is pushing for legislation banning this kind of special treatment for pardoned drug traffickers specifically in response to this case",
         "source_url": "https://www.propublica.org/article/trump-bureau-prisons-pardons-juan-orlando-hernandez-norma-torres",
         "maps_to_element": "Congressional response to the special-treatment pattern"
+      },
+      {
+        "type": "reporting",
+        "description": "Reporting on the FY2027 Commerce-Justice-Science Appropriations bill markup confirms the House Appropriations Committee voted along party lines (31 Republicans opposed, 27 Democrats in favor) against including Rep. Norma Torres's amendment -- which would have barred BOP and other agencies from using taxpayer funds to give convicted drug and child traffickers special accommodations, transportation, or detainer removals not available to other inmates -- in its proposed 2027 spending bill. The vote occurred in May 2026, before this entry's own August 5, 2026 write date, which had described the legislative response as merely \"pending.\"",
+        "source_url": "https://www.radiofree.org/2026/06/11/lawmaker-pushes-for-ban-on-special-treatment-for-convicted-drug-traffickers-after-propublica-report/",
+        "maps_to_element": "Outcome of the congressional response to this entry's documented special-treatment pattern"
       }
     ],
-    "status": "Resolved as a completed pardon and release -- Hernández returned to Honduras (per later reporting). Rep. Torres's proposed legislative response was pending as of the reporting reviewed.",
+    "status": "Resolved as a completed pardon and release -- Hernandez returned to Honduras. Rep. Torres's proposed legislative response (an appropriations-bill amendment barring taxpayer-funded special treatment for pardoned drug and child traffickers) was defeated on a party-line House Appropriations Committee vote in May 2026, not merely \"pending\" as earlier reporting had it. Separately and on a different accountability track -- Hernandez's own conduct rather than any U.S. official's -- Hernandez faces an ongoing Honduran domestic prosecution (the \"Pandora II\" fraud and money-laundering case); a Tegucigalpa judge denied prosecutors' pretrial-detention request on August 3, 2026, and the case's initial hearing has been rescheduled multiple times since. That Honduran proceeding is not integrated into this entry's elements or cause, which concern U.S. officials' pardon and BOP conduct, not Hernandez's own criminal exposure.",
     "rebuttal_anticipated": "Likely defense: a full presidential pardon eliminates the underlying legal basis for continued detention or an immigration detainer tied to the pardoned conviction, and BOP's logistical arrangements for a former head of state's release, while unusual, reflect legitimate security and diplomatic considerations rather than favoritism.",
     "comeback": "Immigration law experts specifically dispute that a pardon routinely results in detainer removal for other pardoned drug offenders, and the specific choice to fund a dedicated tactical-team drive to a luxury hotel -- rather than standard release transport -- goes beyond any security rationale tied to the pardon itself, especially set against the administration's simultaneous, aggressive ICE enforcement posture toward far less serious immigration violations documented elsewhere in this tracker.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of pardon power benefiting politically-connected recipients with preferential post-pardon treatment from federal agencies (see also trump-kidan-donor-pardon-2026.json), here extended to a foreign head of state convicted of large-scale narcotics trafficking.",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-19",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence -- the pardon, the detainer removal timing, and the tactical-team transport are all independently corroborated by ProPublica's own documented investigation (records and named sources), Bloomberg's feature reporting, and wide wire pickup, with no facts disputed by BOP or the White House in sourcing reviewed.",
+    "confidence_note": "HIGH confidence -- the pardon, the detainer removal timing, and the tactical-team transport are all independently corroborated by ProPublica's own documented investigation (records and named sources), Bloomberg's feature reporting, and wide wire pickup, with no facts disputed by BOP or the White House in sourcing reviewed. Correction 2026-08-19: the entry's original \"pending\" framing of Rep. Torres's legislative response was already stale at write time -- the House Appropriations Committee had voted it down in May 2026, roughly three months before this entry's August 5, 2026 write date.",
     "section_summaries": {
       "incident_summary": "After pardoning Honduras's former president Hernández -- erasing a 45-year cocaine-trafficking sentence -- BOP rushed to remove his ICE detainer and paid a tactical team to drive him to the Waldorf Astoria, treatment immigration experts say is atypical even for pardoned drug offenders.",
       "confidence_note": "Independently corroborated by ProPublica's documented investigation and Bloomberg's reporting, with no facts disputed by BOP or the White House."
@@ -7864,15 +7906,21 @@
         "description": "Snopes' fact-check corroborates the pardon-to-life-sentence timeline and confirms Johnson attempted to bribe a victim using anticipated Jan. 6 restitution funds",
         "source_url": "https://www.snopes.com/fact-check/jan-6-trump-pardon-sex-abuse/",
         "maps_to_element": "Attempted bribery using anticipated restitution funds"
+      },
+      {
+        "type": "reporting",
+        "description": "Re-verification search found no reporting of an appeal outcome, sentence modification, or other post-sentencing development in Johnson's case since his March 2026 life sentence; contemporaneous reporting noted only that the trial court would separately decide whether to allow an appeal, with no outcome identified in sourcing reviewed.",
+        "source_url": "https://www.nbcnews.com/politics/justice-department/jan-6-rioter-pardoned-trump-jan-6-case-gets-life-sentence-child-sex-cr-rcna261963",
+        "maps_to_element": "Re-verification of case finality"
       }
     ],
     "status": "Resolved as a criminal matter -- Johnson was convicted and sentenced to life in prison in March 2026. This entry documents the case as an illustration of the blanket-pardon accountability pattern this tracker follows, not an ongoing investigation.",
     "rebuttal_anticipated": "Likely defense: a pardon for a specific past offense (Jan. 6 conduct) does not immunize a recipient from prosecution for later, unrelated crimes, and no evidence suggests Trump had any knowledge of or responsibility for Johnson's subsequent conduct -- the criminal justice system functioned correctly in charging, convicting, and sentencing Johnson for the new offense.",
     "comeback": "This entry does not allege Trump bears legal responsibility for Johnson's later crime -- the accountability question it documents is the wisdom and process of a blanket, non-individualized clemency grant to hundreds of defendants, of which this is reported as one of multiple subsequent-crime cases, raising a policy question about whether categorical pardons without individualized risk assessment carry a documented public-safety cost.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level accountability question about categorical, non-individualized clemency rather than any specific legal violation by Trump personally.",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-19",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence -- the pardon, arrest, conviction, and sentencing are all independently corroborated by NPR, NBC News, and Snopes' fact-check, with no facts disputed by any party.",
+    "confidence_note": "HIGH confidence -- the pardon, arrest, conviction, and sentencing are all independently corroborated by NPR, NBC News, and Snopes' fact-check, with no facts disputed by any party. Re-verified 2026-08-19: no material change; no appeal outcome or other post-sentencing development identified.",
     "section_summaries": {
       "incident_summary": "Andrew Paul Johnson, pardoned by Trump for Jan. 6 conduct in a blanket clemency grant, was arrested months later for child molestation and sentenced to life in prison in March 2026 -- reported as one of multiple cases of pardoned Jan. 6 defendants committing new crimes.",
       "confidence_note": "Well-corroborated across NPR, NBC News, and an independent fact-check, with no facts disputed."
