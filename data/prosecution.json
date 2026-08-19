@@ -3149,15 +3149,21 @@
         "description": "The Project on Government Oversight's reporting, based on an email it obtained, confirms the investigation's scope and details, and separately documents DHS's request that IG Cuffari turn over a list of his office's active investigations as relevant context",
         "source_url": "https://www.pogo.org/investigates/dhs-treatment-of-whistleblowers-under-investigation-by-gao",
         "maps_to_element": "Independent documentary confirmation and the DHS-IG-independence context"
+      },
+      {
+        "type": "reporting",
+        "description": "Re-verified 2026-08-18: no findings or conclusions from GAO's review have been published in sourcing reviewed; GAO has not confirmed an estimated completion date, and the investigation remains open.",
+        "source_url": "https://www.pogo.org/investigates/dhs-treatment-of-whistleblowers-under-investigation-by-gao",
+        "maps_to_element": "Investigation status as of this update"
       }
     ],
     "status": "Ongoing as of this entry's addition (February 2026 launch) -- no findings or conclusions had been published in sourcing reviewed as of this entry's addition.",
     "rebuttal_anticipated": "Likely defense: a GAO review spanning multiple administrations, including years before the current one, is a routine, bipartisan-appropriate oversight exercise rather than evidence of current administration-specific wrongdoing, and DHS requesting a list of its own IG's active investigations is a legitimate internal management inquiry rather than interference.",
     "comeback": "This entry does not assert GAO has found wrongdoing -- it documents that Congress found DHS whistleblower handling serious enough to warrant a formal, multi-year GAO review with direct whistleblower interviews, occurring in the same period DHS separately sought visibility into its own Inspector General's active investigation list, a combination worth tracking for its eventual findings rather than asserting a conclusion prematurely.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of DHS oversight and accountability mechanisms facing structural strain under the current administration (see also the ICE biometric-surveillance IG audit and DHS critic-subpoena entries), though this entry concerns a multi-administration review rather than a claim specific to the current administration alone.",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-18",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence on the investigation's existence, scope, and requesters -- independently corroborated by The Hill and POGO's own documentary reporting (an email POGO obtained directly). This entry documents an open inquiry, not a completed finding, so no confidence assessment of underlying wrongdoing is applicable yet.",
+    "confidence_note": "HIGH confidence on the investigation's existence, scope, and requesters -- independently corroborated by The Hill and POGO's own documentary reporting (an email POGO obtained directly). This entry documents an open inquiry, not a completed finding, so no confidence assessment of underlying wrongdoing is applicable yet. Re-verified 2026-08-18: no material change -- investigation remains open with no published findings.",
     "section_summaries": {
       "incident_summary": "GAO opened a formal, multi-administration investigation into DHS's handling of whistleblower complaints (2017-2025) at congressional Democrats' request, seeking direct whistleblower interviews, launched around the same time DHS asked its own Inspector General for a list of active investigations.",
       "confidence_note": "Well-corroborated by The Hill and POGO's own documentary reporting; this documents an open inquiry, not yet a completed finding."
@@ -3460,15 +3466,21 @@
         "description": "The Week's reporting confirms Driscoll had resisted the pressure to remove Butler for months given Butler's contributions to Army transformation efforts, and that Hegseth's underlying objection was Butler's connection to Milley rather than performance",
         "source_url": "https://theweek.com/politics/pete-hegseth-dan-driscoll-david-butler",
         "maps_to_element": "Months of resistance from Butler's own chain of command; stated motive"
+      },
+      {
+        "type": "reporting",
+        "description": "Re-verified 2026-08-18: no further developments identified since Butler's retirement -- no reversal, reinstatement, or additional Pentagon statement on the matter located in sourcing reviewed.",
+        "source_url": "https://thehill.com/policy/defense/5741827-hegseth-ousts-top-army-advisor/",
+        "maps_to_element": "Confirms resolved status stands"
       }
     ],
     "status": "Resolved as a personnel matter -- Butler transitioned out of his position and retired after 28 years of service, as of reporting reviewed.",
     "rebuttal_anticipated": "Likely defense: the Secretary of Defense has broad authority over senior personnel assignments within the Department of Defense, public affairs officers serve at leadership's discretion given the sensitivity of their role, and disagreements over personnel choices between the Defense Secretary and a service secretary are a normal, internal management dynamic rather than evidence of improper motive.",
     "comeback": "The specific facts distinguishing this from ordinary personnel discretion are that the officer's own service secretary resisted the removal for months on substantive performance grounds, that the stated trigger was a past professional association with a Trump critic rather than any current performance issue, and that the removal occurred while Driscoll -- the officer directly affected -- was abroad on a sensitive diplomatic mission, limiting his ability to contest the decision in real time.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of career personnel across agencies facing removal for associations or histories connected to Trump critics rather than for performance in their current roles (see also the Ed Martin and Mizelle entries, though this is a Defense Department example rather than DOJ).",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-18",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence -- the removal, its timing during Driscoll's Geneva trip, Butler's Milley association, and Driscoll's months of resistance are corroborated across Fox News sourcing, The Hill, and The Week, with no facts disputed by the Pentagon in sourcing reviewed.",
+    "confidence_note": "HIGH confidence -- the removal, its timing during Driscoll's Geneva trip, Butler's Milley association, and Driscoll's months of resistance are corroborated across Fox News sourcing, The Hill, and The Week, with no facts disputed by the Pentagon in sourcing reviewed. Re-verified 2026-08-18: no material change since Butler's retirement.",
     "section_summaries": {
       "incident_summary": "Hegseth ordered Army Secretary Driscoll to remove Col. Dave Butler as Chief of Army Public Affairs -- reportedly over Butler's past association with Trump-critic Gen. Milley rather than performance -- overriding months of Driscoll's resistance; Butler retired after 28 years rather than being reassigned.",
       "confidence_note": "Well-corroborated across multiple outlets with no facts disputed by the Pentagon."
@@ -3552,15 +3564,21 @@
         "description": "Military.com's reporting confirms the order ends Pentagon-funded attendance at several elite universities, situating it within the administration's broader funding-pressure campaign against universities",
         "source_url": "https://www.military.com/feature/2026/02/28/pete-hegseth-orders-end-pentagon-funded-attendance-several-elite-universities.html",
         "maps_to_element": "Broader context of administration funding pressure on universities"
+      },
+      {
+        "type": "reporting",
+        "description": "Re-verified 2026-08-18: no legal challenge specific to the Pentagon's military-education cutoff identified. Harvard's active federal lawsuits -- in which judges have twice ruled in Harvard's favor, now on appeal -- concern a separate action, the administration's roughly $2.2 billion research-funding freeze, not this military-education relationship cutoff, which remains unlitigated as of this update.",
+        "source_url": "https://www.highereddive.com/news/department-defense-war-pete-hegseth-harvard-university-cut-ties/811740/",
+        "maps_to_element": "Confirms the status line's 'no legal challenge outcome identified' remains accurate, and distinguishes this action from Harvard's separate funding-freeze litigation"
       }
     ],
     "status": "Finalized as policy, effective the 2026-27 academic year; Hegseth has since (as of July 2026 reporting) announced replacement schools for the military fellowship program previously run through the affected institutions. No legal challenge outcome identified in sourcing reviewed.",
     "rebuttal_anticipated": "Likely defense: the Secretary of Defense has broad discretion over where the military invests its professional-education resources, no university has an entitlement to a Pentagon-funded relationship, and the decision reflects a legitimate assessment that these programs were not producing officers aligned with military mission needs.",
     "comeback": "Hegseth's own stated rationale is explicitly viewpoint-based rather than programmatic -- he did not cite curriculum quality, cost-effectiveness, or a specific compliance failure, but rather officers returning with ideological views he disfavors, a categorical judgment applied simultaneously across multiple elite universities rather than an individualized assessment of any one program's military value. This pattern of using federal relationships/funding as leverage against institutions over their perceived political viewpoint, rather than program-specific performance, is the same concern this tracker documents in the administration's DHS critic-subpoena and DOJ-politicization entries.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of federal relationships and funding being conditioned on institutions' or individuals' perceived political alignment rather than neutral, program-specific criteria.",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-18",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence -- Hegseth's own on-record statements, quoted directly by CBS News, are the primary evidence and are not disputed by the Pentagon or Harvard in sourcing reviewed.",
+    "confidence_note": "HIGH confidence -- Hegseth's own on-record statements, quoted directly by CBS News, are the primary evidence and are not disputed by the Pentagon or Harvard in sourcing reviewed. Re-verified 2026-08-18: no legal challenge to this specific action identified; not to be confused with Harvard's separate, ongoing litigation over the ~$2.2B research-funding freeze.",
     "section_summaries": {
       "incident_summary": "Hegseth ended Pentagon military training, fellowships, and certificate programs with Harvard and several other elite universities, explicitly citing officers returning with 'globalist and radical ideologies' rather than any programmatic-quality concern.",
       "confidence_note": "Hegseth's own on-record statements are the primary evidence, directly quoted by CBS News and undisputed by the Pentagon."
@@ -3602,15 +3620,33 @@
         "description": "Military Times reporting confirms the February 28, 2026 strike date, the 175+ death toll cited by Iranian officials, and CENTCOM Commander Admiral Brad Cooper's May 2026 congressional testimony that the investigation was 'complex,' plus the Pentagon's 'no updates to announce' response to the senators' July 2026 demand",
         "source_url": "https://www.militarytimes.com/news/pentagon-congress/2026/07/13/lawmakers-demand-pentagon-release-findings-from-probe-of-iran-school-strike/",
         "maps_to_element": "Strike killed a large number of civilian children; investigation timeline and stonewalling"
+      },
+      {
+        "type": "public_record",
+        "description": "The Pentagon's own Inspector General, in a report dated May 13, 2026, found DoD had systematically failed to implement its Civilian Harm Mitigation and Response Action Plan (CHMR-AP) under Hegseth's leadership -- all eleven of the plan's objectives were reclassified 'at risk,' and DoD had failed to comply with congressionally-mandated civilian-protection obligations. This report predates the entry's own July 27, 2026 write date by over two months and was not previously incorporated.",
+        "source_url": "https://www.warren.senate.gov/newsroom/press-releases/warren-colleagues-press-hegseth-on-pentagon-gutting-civilian-protection-efforts-amid-war-in-iran/",
+        "maps_to_element": "Command-level institutional failure underlying the strike and the delayed accountability response"
+      },
+      {
+        "type": "public_record",
+        "description": "On July 6, 2026, Sen. Elizabeth Warren and eight Senate colleagues (Hirono, Duckworth, Murray, Gillibrand, Kim, Kelly, Crow, Jacobs) sent a formal letter to Hegseth citing the IG report's findings, asserting the Pentagon had defunded and deprioritized civilian-harm-prevention programs and put both service members and civilians at risk -- specifically citing the Minab strike among the casualties driving their concern.",
+        "source_url": "https://www.warren.senate.gov/wp-content/uploads/2026/07/Letter-from-Senator-Warren-Colleagues-to-Secretary-Hegseth-on-CHMR-AP-IG-Report.pdf",
+        "maps_to_element": "Senior officials face specific, sourced allegations tying the IG findings directly to this strike"
+      },
+      {
+        "type": "public_record",
+        "description": "The Senate Armed Services Committee approved its FY2026 NDAA text 18-9 in mid-June 2026, including a provision restricting Defense Secretary Hegseth's office travel funds to 25% of the normal level until the Department submits complete, unredacted civilian-harm investigations -- including the Minab strike and three 2025 Yemen strikes -- with all supporting documents, to the committee. A related amendment to bar military funds for operations against Iran without congressional authorization failed 13-14. This committee-level action predates the entry's own write date and had not been incorporated. Final Senate floor and conference disposition of the travel-fund provision is unconfirmed as of this update.",
+        "source_url": "https://www.militarytimes.com/news/pentagon-congress/2026/06/18/senate-eyes-hegseth-travel-cuts-without-probes-into-iran-school-bombing-boat-strikes/",
+        "maps_to_element": "Congress escalated from requesting disclosure to attaching funding leverage, before this entry was written"
       }
     ],
-    "status": "Ongoing as of July 2026 -- investigation findings remain unreleased to Congress and the public; no standard post-strike intelligence review has been ordered as of the most recent reporting reviewed",
+    "status": "Ongoing as of July 2026 -- investigation findings remain unreleased to Congress and the public; no standard post-strike intelligence review has been ordered as of the most recent reporting reviewed Update 2026-08-18: this recheck found the entry's July 27, 2026 write date had already missed two developments that predated it -- a May 13, 2026 DoD Inspector General report finding systemic, department-wide failure to implement the Civilian Harm Mitigation and Response Action Plan under Hegseth (all 11 objectives 'at risk'), and the Senate Armed Services Committee's mid-June 2026 vote (18-9) to cut Hegseth's office travel funds to 25% of normal levels until unredacted Minab and Yemen-strike investigations are delivered to Congress. As of this update, there is no evidence the investigation has been released to Congress or the public, and the travel-fund provision's fate beyond committee passage (full Senate floor vote, conference, enactment) remains unconfirmed.",
     "rebuttal_anticipated": "Likely defense: wartime targeting decisions inherently involve imperfect, time-sensitive intelligence, and demanding a full public accounting of an active military campaign's internal investigation risks operational security; the initial investigation attributing the strike to 'outdated intelligence' may itself represent a good-faith, if tragic, acknowledgment of error rather than concealment.",
     "comeback": "The specific facts distinguishing this from an ordinary wartime targeting tragedy are that commanders are reported to have had explicit, documented warnings the intelligence was stale before striking, that the standard, more rigorous review such incidents normally receive was never ordered months later, and that findings have been restricted even from other parts of the military and intelligence community -- not merely the public -- specifically, per CNN's sourcing, because of White House pressure to portray the broader campaign favorably. An operational-security rationale does not explain withholding an unclassified summary from Congress, which senators have specifically requested.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of military and intelligence findings being withheld or restricted specifically where they might reflect poorly on the administration's stated narrative (see also this tracker's Hegseth boat-strike 'leave no survivors' entry and the Kuwait drone-strike command-negligence allegations reported around the same time), rather than for genuine operational-security reasons. Separately documented in this tracker's Government Services database (hegseth-civilian-harm-office-cuts-2026.json): Hegseth cut the Pentagon's dedicated civilian-harm-mitigation staff from ~200 to fewer than 40 over senior generals' objections before this strike, and substituted AI assessments for the removed human expertise -- an institutional, temporally-adjacent fact pattern, not a confirmed causal finding.",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-18",
     "date_added": "2026-07-27",
-    "confidence_note": "HIGH confidence on the strike's occurrence, death toll, and the investigation's existence and delay -- corroborated across CNN (two separate exclusive reports), Military Times, Sen. Reed's official press release, and additional wire/regional coverage (JPost, NBC News, Al Jazeera). MODERATE-HIGH confidence on the more serious allegations (commanders knowingly bypassing stale-intelligence warnings, deliberate information restriction driven by White House pressure), since these rest on CNN's sourced-but-anonymous reporting rather than documentary evidence or on-record confirmation from Hegseth, Cooper, or the Pentagon, none of which have been obtained as of this entry.",
+    "confidence_note": "HIGH confidence on the strike's occurrence, death toll, and the investigation's existence and delay -- corroborated across CNN (two separate exclusive reports), Military Times, Sen. Reed's official press release, and additional wire/regional coverage (JPost, NBC News, Al Jazeera). MODERATE-HIGH confidence on the more serious allegations (commanders knowingly bypassing stale-intelligence warnings, deliberate information restriction driven by White House pressure), since these rest on CNN's sourced-but-anonymous reporting rather than documentary evidence or on-record confirmation from Hegseth, Cooper, or the Pentagon, none of which have been obtained as of this entry. Real-correction note, 2026-08-18 recheck: the entry's own date_added/last_updated (2026-07-27/08-05) postdated both the May 13, 2026 IG report and the June 18, 2026 Senate Armed Services Committee vote by weeks to months, and neither had been incorporated despite being directly on-topic -- the same omission-at-build-time pattern documented elsewhere in this sweep. HIGH confidence on the IG report's existence and findings and the July 6 senators' letter (direct press release and PDF letter). HIGH confidence on the NDAA committee-level vote itself (corroborated across Military Times, Defense News, Federal Times, and multiple wire-service pickups), but the travel-fund provision's ultimate enactment status was not confirmed in sourcing reviewed as of this update -- described here only as having cleared committee, not as law.",
     "section_summaries": {
       "incident_summary": "A U.S. strike killed 168 children and 14 teachers at an Iranian school after commanders bypassed warnings that targeting intelligence was outdated; CENTCOM has since failed to order the standard post-strike review and, per CNN sourcing, restricted findings under White House pressure to avoid undermining the Iran campaign's public narrative.",
       "confidence_note": "Strike facts and investigation delay are well-corroborated across multiple outlets and a Senate press release; the more serious bypassed-warnings and deliberate-restriction allegations rest on anonymous CNN sourcing without official confirmation."
@@ -4182,15 +4218,21 @@
         "description": "Biometric Update's reporting confirms senators formally urged the DHS Inspector General to investigate ICE and CBP's expanding use of biometric and surveillance data prior to the audit being confirmed",
         "source_url": "https://www.biometricupdate.com/202601/senators-urge-dhs-watchdog-to-probe-expanding-use-of-biometric-and-surveillance-data-by-ice-cbp",
         "maps_to_element": "External congressional concern predating the confirmed audit"
+      },
+      {
+        "type": "reporting",
+        "description": "Re-verified 2026-08-18: no audit findings, report, or public conclusion on the legality of ICE/OBIM's biometric-surveillance practices identified in sourcing reviewed since the audit's February 2026 launch.",
+        "source_url": "https://cyberscoop.com/dhs-ig-audit-ice-obim-biometric-data-privacy-facial-recognition/",
+        "maps_to_element": "Investigation status as of this update"
       }
     ],
     "status": "Audit ongoing as of this entry's addition (February 2026) -- no findings or conclusions on legality had been published in sourcing reviewed. Auditors indicated the scope could expand beyond ICE/OBIM to other DHS components.",
     "rebuttal_anticipated": "Likely defense: facial recognition and biometric database tools are lawful, widely-used law enforcement technologies, DHS has statutory authority to verify immigration status, and the launching of an IG audit reflects the oversight system functioning as intended rather than evidence of an underlying violation.",
     "comeback": "The specific facts distinguishing this from routine, well-established law-enforcement technology use are the scale of the combined database (200+ million images spanning three federal agencies), documented use against minors lacking any independent basis for suspicion beyond not carrying ID, and that the audit was prompted in part by senators' formal concerns rather than being a purely internal, routine review -- all reasons the IG's audit is examining whether the practices exceed DHS's lawful authority rather than merely documenting settled, uncontroversial practice.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with a broader pattern this tracker documents of DHS/ICE surveillance and data-collection capabilities expanding faster than independent oversight can evaluate their legality (see also dhs-critic-data-subpoenas-2026.json), with this entry specifically concerning DHS's own biometric infrastructure rather than compelled third-party data.",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-18",
     "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence on the audit's existence, scope, and the underlying technology facts (Mobile Fortify's 200M+ image pool, the documented teenager identification footage) -- corroborated across 404 Media, CyberScoop, Biometric Update, and the American Immigration Council. The audit's ultimate legal conclusions are not yet available, so this entry documents an ongoing investigation and its factual predicate, not a completed legal finding.",
+    "confidence_note": "HIGH confidence on the audit's existence, scope, and the underlying technology facts (Mobile Fortify's 200M+ image pool, the documented teenager identification footage) -- corroborated across 404 Media, CyberScoop, Biometric Update, and the American Immigration Council. The audit's ultimate legal conclusions are not yet available, so this entry documents an ongoing investigation and its factual predicate, not a completed legal finding. Re-verified 2026-08-18: no material change -- audit remains open with no published findings.",
     "section_summaries": {
       "incident_summary": "DHS's Inspector General opened a formal audit into whether ICE's rapidly-expanded facial-recognition and biometric surveillance tools -- including a 200-million-image database used to identify teenagers lacking ID -- violate federal law, after senators formally urged the probe.",
       "confidence_note": "The audit's existence and the underlying technology's scale are well-corroborated across multiple outlets; the audit's legal conclusions were not yet available as of this entry's addition."
@@ -4305,14 +4347,20 @@
         "description": "Associated Press wire coverage corroborating the visits and the 'attempt at intimidation' characterization from the legal groups involved",
         "source_url": "https://apnews.com/article/border-immigration-children-legal-services-homeland-security-investigations-035cd451ecc8449ad0919a02dc141555",
         "maps_to_element": "Independent wire-service corroboration of the incident"
+      },
+      {
+        "type": "reporting",
+        "description": "Re-verified 2026-08-18: no follow-up warrant, subpoena, agency statement, or legal consequence identified since the June 2026 visits. Human Rights Watch's July 15, 2026 report continues to characterize the episode as an intimidation tactic without documenting any further agency action against the three organizations.",
+        "source_url": "https://www.hrw.org/news/2026/07/15/trump-administration-scrutinizes-groups-representing-children",
+        "maps_to_element": "Confirms status remains a completed, unfollowed episode as of this update"
       }
     ],
     "status": "Reported as a completed episode -- no follow-up warrant, subpoena, or charges against any organization identified in reporting reviewed as of this entry's sourcing",
     "rebuttal_anticipated": "DHS/HHS could argue federal investigators are permitted to make voluntary, non-compulsory inquiries at any organization without a warrant, that no rights were violated since the organizations were free to refuse (and did), and that scrutiny of organizations handling federal funds or vulnerable populations is a legitimate oversight function regardless of the organizations' advocacy mission.",
     "comeback": "A voluntary-inquiry framing is undercut by the operation's own shape: two separate federal agencies coordinated visits to multiple organizations that share only one thing in common -- representing migrant children against the government's own immigration enforcement -- within a 48-hour window, sought categories of records that would normally require a warrant or subpoena to compel, and to date have offered no public explanation of what conduct prompted the sweep, a pattern consistent with pressure/intimidation rather than a neutral compliance inquiry.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader documented pattern in this tracker of federal investigative visits/subpoenas being directed at organizations and individuals critical of or adversarial to the administration's immigration enforcement (see also this tracker's DHS administrative-subpoena-abuse and Pirro anonymous-ICE-critic-subpoena entries).",
-    "confidence_note": "Strong sourcing: the visits, the three organizations involved, the absence of any warrant or subpoena, and the organizations' on-record statements are corroborated across ABC News, AP, and Migrant Insider. MODERATE confidence on investigative intent/purpose specifically, since no agency has publicly stated a rationale for the visits.",
-    "last_updated": "2026-08-05",
+    "confidence_note": "Strong sourcing: the visits, the three organizations involved, the absence of any warrant or subpoena, and the organizations' on-record statements are corroborated across ABC News, AP, and Migrant Insider. MODERATE confidence on investigative intent/purpose specifically, since no agency has publicly stated a rationale for the visits. Re-verified 2026-08-18: no material change since the June 2026 visits.",
+    "last_updated": "2026-08-18",
     "date_added": "2026-08-05",
     "section_summaries": {
       "incident_summary": "ICE HSI and HHS OIG agents showed up unannounced at three nonprofits representing migrant children seeking client and financial records with no warrant or subpoena; all three refused and the agents left empty-handed.",
