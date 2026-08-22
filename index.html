@@ -445,6 +445,24 @@
     font-style: italic;
   }
 
+  /* Community Topics: a strong visual pointer to a fuller, already-
+     researched curated entry, shown at the very top of the detail view
+     -- deliberately more prominent than confidence-box (solid border on
+     all sides, not just left) since the whole point is "look here
+     first, this entry's own research is lighter." */
+  .related-callout {
+    background: var(--verified-bg);
+    border: 1px solid var(--verified);
+    border-radius: 3px;
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 0.9rem;
+    font-size: 0.88rem;
+  }
+  .related-callout .field-label { margin-top: 0; }
+  .related-callout a { color: var(--verified); font-weight: 600; text-decoration: none; }
+  .related-callout a:hover { text-decoration: underline; }
+  .related-callout ul { margin: 0.2rem 0 0; padding-left: 1.1rem; }
+
   .empty-state {
     text-align: center;
     padding: 3rem 1rem;
@@ -1188,10 +1206,21 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>';
   }
   if (cfg.kind === "communitytopics") {
-    return '<div class="field-label">Verdict</div><div class="field-value">' + hl(verdictLabel(entry.verdict)) + '</div>' +
+    // Related-entry callout renders FIRST, before Verdict -- when a
+    // Community Topics entry has a real match in a curated tracker,
+    // that fuller, more rigorously-researched record is more valuable
+    // than this entry's own lighter research, so it belongs at the top
+    // rather than buried after everything else.
+    const relatedHtml = entry.related_entries?.length
+      ? '<div class="related-callout"><div class="field-label">Already documented — see the fuller record</div><ul>' +
+        entry.related_entries.map(r =>
+          '<li><a href="#" class="related-entry-link" data-tracker="' + escapeHtml(r.tracker || "") + '" data-id="' + escapeHtml(r.id || "") + '">' + hl(r.note) + '</a></li>'
+        ).join("") + '</ul></div>'
+      : '';
+    return relatedHtml +
+      '<div class="field-label">Verdict</div><div class="field-value">' + hl(verdictLabel(entry.verdict)) + '</div>' +
       '<div class="field-label">Summary</div><div class="field-value">' + hl(entry.summary) + '</div>' +
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>' +
-      (entry.related_entries?.length ? '<div class="field-label">Related entries</div><ul class="exhibit-list">' + entry.related_entries.map(r => '<li>' + hl(r.note) + '</li>').join("") + '</ul>' : '') +
       (entry.submitter_source_link ? '<div class="field-label">Submitter-provided source</div><div class="field-value"><a href="' + escapeHtml(safeHref(entry.submitter_source_link)) + '" target="_blank" rel="noopener">' + hl(entry.submitter_source_link) + '</a></div>' : '') +
       '<div class="field-label">Submitted</div><div class="field-value">' + hl(entry.date_submitted) + '</div>';
   }
@@ -1250,6 +1279,7 @@ function buildEntryCard(entry, cfg, docketLabel, sourceLabel, term, useRegex) {
     '<div class="entry-detail">' + buildDetailHtml(entry, cfg, term, useRegex) + '</div>';
 
   div.querySelector(".entry-head").addEventListener("click", () => div.classList.toggle("open"));
+  wireRelatedEntryLinks(div);
   return div;
 }
 
@@ -1413,6 +1443,76 @@ function jumpToReportingSearch(term) {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
+/* Community Topics' related_entries.tracker values use the same names
+   as community-topics/SCHEMA.md and the other tracker's own docs
+   ("government-services", matching its directory name) rather than the
+   TRACKERS object's internal key ("govservices") -- this maps between
+   the two. */
+const RELATED_TRACKER_FIELD_TO_KEY = {
+  deregulation: "deregulation",
+  prosecution: "prosecution",
+  "government-services": "govservices",
+};
+
+/* matchesTerm()'s plain-mode match wraps the whole term in \b...\b --
+   correct for short user-typed keywords, but breaks for a full entry
+   title used verbatim as the term: many titles/rule_names in this data
+   end in a parenthetical, e.g. "...(not a specific rule -- ...)". \b
+   only matches at a transition between a word and non-word character,
+   so if the term's last character is itself non-word (")") and it's
+   followed in the haystack by another non-word character (a space, from
+   visibleSearchText()'s " \n " field joiner), there's no boundary there
+   at all and the whole match silently fails -- zero results, not an
+   error. Trimming leading/trailing non-word characters fixes this: \b
+   only constrains the two ends of the pattern, never characters in the
+   middle, so a trimmed title is still guaranteed to appear verbatim
+   inside the haystack (it's a substring of the untrimmed title, which
+   visibleSearchText() always includes in full). Found via manual
+   verification after this feature's first version silently returned
+   "0 of 56 entries shown" for exactly this reason. */
+function trimToWordBoundary(str) {
+  return String(str || "").replace(/^[^A-Za-z0-9]+/, "").replace(/[^A-Za-z0-9]+$/, "");
+}
+
+/* Jumps from a Community Topics entry to the specific curated entry its
+   related_entries pointed at. Looks the target entry up by its
+   tracker-specific identifying field (idField) so the search term used
+   is that entry's actual title/official-string, not the bare id/slug --
+   the slug itself is never part of visibleSearchText()'s haystack, so
+   searching by it directly would silently match nothing. Falls back to
+   searching by the raw id if the target can't be found (renamed,
+   removed) -- same "don't crash, just land on an honest empty result"
+   posture as jumpToReportingSearch above. */
+function jumpToRelatedEntry(trackerField, id) {
+  const key = RELATED_TRACKER_FIELD_TO_KEY[trackerField];
+  const targetCfg = key && TRACKERS[key];
+  if (!targetCfg) return;
+  const targetEntry = (targetCfg.data || []).find(e => e[targetCfg.idField] === id);
+  document.getElementById("global-search").value = "";
+  activeTracker = key;
+  filterValue = "";
+  searchTerm = targetEntry ? trimToWordBoundary(targetEntry[targetCfg.titleField]) : id;
+  document.getElementById("search").value = searchTerm;
+  document.getElementById("filter").value = "";
+  renderDispatch();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+/* Wires click handling onto any .related-entry-link anchors just
+   inserted via innerHTML -- buildDetailHtml() returns a plain string,
+   so listeners can't be attached until after the HTML lands in the DOM.
+   Called from both places detail HTML gets inserted (the tabbed/global
+   card view and the one-liner expand-on-click view) so the two stay in
+   sync rather than one silently missing the wiring. */
+function wireRelatedEntryLinks(container) {
+  container.querySelectorAll(".related-entry-link").forEach(a => {
+    a.addEventListener("click", (e) => {
+      e.preventDefault();
+      jumpToRelatedEntry(a.dataset.tracker, a.dataset.id);
+    });
+  });
+}
+
 function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
   const container = document.getElementById("entries");
   const countEl = document.getElementById("count");
@@ -1501,6 +1601,7 @@ function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
     const detail = document.createElement("div");
     detail.className = "oneliner-detail";
     detail.innerHTML = buildDetailHtml(m.entry, m.cfg, term, useRegex);
+    wireRelatedEntryLinks(detail);
 
     row.addEventListener("click", () => {
       row.classList.toggle("open");
