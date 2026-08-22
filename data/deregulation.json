@@ -1164,14 +1164,14 @@
   },
   {
     "id": "epa-civil-enforcement-collapse-2025",
-    "rule_name": "EPA civil enforcement of environmental laws against polluters (not a specific rule -- documents an enforcement-practice collapse achieved without formally repealing underlying statutes/rules)",
+    "rule_name": "EPA civil/criminal enforcement and compliance monitoring of environmental laws against polluters -- including Clean Water Act violations specifically (not a specific rule -- documents an enforcement-practice collapse achieved without formally repealing underlying statutes/rules)",
     "administration": "Trump II (2025-present)",
     "agency": "EPA / DOJ (DOJ files civil enforcement referrals on EPA's behalf)",
     "domain": "environmental",
     "status": "Finalized as a completed calendar-year figure (2025); ongoing as an enforcement posture into 2026",
     "date_of_action": "2025 (calendar year), report published 2026-02-05",
     "original_rule_summary": "Historically, DOJ files civil court complaints on EPA's behalf against companies found violating environmental laws (Clean Air Act, Clean Water Act, and related statutes), a routine enforcement mechanism independent of any specific rule needing to change.",
-    "what_changed": "The Environmental Integrity Project, an independent watchdog group, found DOJ filed just 16 civil enforcement complaints on EPA's behalf in 2025 -- the lowest first-year enforcement total on record, below even Trump's own first term (2017), representing a 76% decline compared to the Biden administration's first year and an 81% decline compared to Trump's first term. EPA Administrator Lee Zeldin's agency disputed the findings in response to NPR's reporting. The decline was achieved through enforcement-referral practice rather than any formal rule repeal, meaning the underlying environmental standards remain on the books but are not being actively enforced against violators at anything close to historical rates.",
+    "what_changed": "The Environmental Integrity Project, an independent watchdog group, found DOJ filed just 16 civil enforcement complaints on EPA's behalf in 2025 -- the lowest first-year enforcement total on record, below even Trump's own first term (2017), representing a 76% decline compared to the Biden administration's first year and an 81% decline compared to Trump's first term. EPA Administrator Lee Zeldin's agency disputed the findings in response to NPR's reporting. The decline was achieved through enforcement-referral practice rather than any formal rule repeal, meaning the underlying environmental standards remain on the books but are not being actively enforced against violators at anything close to historical rates. The same February 5, 2026 Environmental Integrity Project report that documented the 16-complaint civil-referral figure also found broader, budget-driven enforcement cuts across the agency: a 30% reduction in civil enforcement funding (from $201.3 million to $61.1 million -- figures as reported, though the described cut and the before/after totals do not arithmetically match and should be verified against the report directly before citing the dollar figures in debate), a 49% cut to criminal enforcement funding (from $60 million to $29.6 million), and a 35% reduction in compliance-monitoring funding. Water-infrastructure funding was cut by approximately 90%. On Clean Water Act enforcement specifically, the report found 3,001 facilities nationwide in 'significant noncompliance' with the Act for three or more years as of January 2026, and only 12% of facilities with air-pollution violations received any enforcement action over the prior year (the reviewed reporting did not isolate an equivalent percentage specific to water-pollution violations). Total EPA penalties collected through September 2025 were $41 million, $8 million less than the same period in the first year of the Biden administration after adjusting for inflation -- described as the weakest EPA enforcement performance in 20 years across seven separate enforcement categories tracked in the report.",
     "primary_proponent": {
       "name": "Lee Zeldin",
       "role": "EPA Administrator",
@@ -1182,13 +1182,50 @@
     ],
     "estimated_health_impact": {
       "summary": "Earthjustice's analysis argues the enforcement collapse undercuts Zeldin's public statements characterizing EPA enforcement as still serious, since sharply reduced referral volume means fewer violations are being formally addressed regardless of the underlying rules' continued existence -- a form of de facto deregulation achieved without any of the formal rulemaking process (public comment, judicial review) that a rule repeal would require.",
-      "caveat": "EPA disputed the Environmental Integrity Project's methodology/findings without providing its own competing enforcement-count figure in the sourcing reviewed; a single-year figure can be affected by case-timing and referral-pipeline factors, though the reported 76-81% declines relative to comparable first-year baselines suggest more than ordinary year-to-year variance."
+      "caveat": "EPA disputed the Environmental Integrity Project's methodology/findings without providing its own competing enforcement-count figure in the sourcing reviewed; a single-year figure can be affected by case-timing and referral-pipeline factors, though the reported 76-81% declines relative to comparable first-year baselines suggest more than ordinary year-to-year variance. The civil-enforcement-funding percentage and its underlying dollar figures (30% cut, $201.3M to $61.1M) as reported in secondary coverage do not arithmetically reconcile -- treat the percentage as the reported headline figure and verify the underlying dollar amounts against the Environmental Integrity Project's report directly before citing them specifically. The 12%-enforcement-rate figure is specific to air-pollution violations, not water -- no equivalent water-specific enforcement-rate percentage was found in the reporting reviewed, though the 3,001-facility Clean Water Act noncompliance count is water-specific and independently reported.",
+      "figures": [
+        {
+          "metric": "Civil enforcement funding cut",
+          "value": "30% (reported as $201.3M to $61.1M)",
+          "source": "Environmental Integrity Project, Feb. 5, 2026 report"
+        },
+        {
+          "metric": "Criminal enforcement funding cut",
+          "value": "49% ($60M to $29.6M)",
+          "source": "Environmental Integrity Project, Feb. 5, 2026 report"
+        },
+        {
+          "metric": "Compliance monitoring funding cut",
+          "value": "35%",
+          "source": "Environmental Integrity Project, Feb. 5, 2026 report"
+        },
+        {
+          "metric": "Water infrastructure funding cut",
+          "value": "~90%",
+          "source": "Environmental Integrity Project, Feb. 5, 2026 report"
+        },
+        {
+          "metric": "Facilities in 'significant noncompliance' with the Clean Water Act, 3+ years, as of Jan. 2026",
+          "value": "3,001",
+          "source": "Environmental Integrity Project, Feb. 5, 2026 report"
+        },
+        {
+          "metric": "Facilities with air-pollution violations receiving any enforcement action, prior year",
+          "value": "12%",
+          "source": "Environmental Integrity Project, Feb. 5, 2026 report"
+        },
+        {
+          "metric": "Total EPA penalties collected through Sept. 2025",
+          "value": "$41 million (vs. $49M inflation-adjusted in the comparable Biden-era period)",
+          "source": "Environmental Integrity Project, Feb. 5, 2026 report"
+        }
+      ]
     },
-    "confidence_note": "HIGH confidence -- the 16-complaint figure and its historical-comparison percentages are independently reported by NPR, Inside Climate News, and the Environmental Integrity Project's own report; EPA's dispute of the finding is noted but EPA did not provide a competing figure in sourcing reviewed.",
-    "short_summary": "DOJ filed just 16 civil enforcement complaints on EPA's behalf in 2025 -- a record low, down 76-81% from comparable first-year baselines -- achieving a de facto enforcement rollback without any formal rule repeal.",
-    "last_verified": "2026-08-05",
+    "confidence_note": "HIGH confidence -- the 16-complaint figure and its historical-comparison percentages are independently reported by NPR, Inside Climate News, and the Environmental Integrity Project's own report; EPA's dispute of the finding is noted but EPA did not provide a competing figure in sourcing reviewed. Re-verified 2026-08-22: added the same Feb. 5, 2026 Environmental Integrity Project report's broader funding-cut and Clean Water Act-specific figures (3,001 facilities in significant noncompliance, 90% water-infrastructure funding cut, 12% air-violation enforcement rate, $41M total penalties) -- same underlying report already cited for the 16-complaint figure, not a new source. Prompted by a public submission via the site's claim-suggestion form asking about worsening water pollution; this entry's enforcement-collapse framing (rather than a direct pollution-level measurement) is the accurate, sourced way to substantiate that concern, since no source reviewed measures water pollution levels directly.",
+    "short_summary": "DOJ filed just 16 civil enforcement complaints on EPA's behalf in 2025 -- a record low -- while a broader Feb. 2026 watchdog report found deep cuts to enforcement funding and 3,001 facilities in ongoing Clean Water Act noncompliance.",
+    "last_verified": "2026-08-22",
     "date_added": "2026-08-05",
-    "last_updated": "2026-08-05",
+    "last_updated": "2026-08-22",
     "sources": [
       {
         "name": "NPR -- 'Trump's EPA issues record low legal actions against polluters, watchdog group finds'",
@@ -1204,8 +1241,8 @@
       }
     ],
     "section_summaries": {
-      "what_changed": "DOJ filed just 16 civil enforcement complaints on EPA's behalf in 2025, the lowest first-year total on record, down 76-81% from comparable first-year baselines under Biden and Trump's own first term.",
-      "estimated_impact": "Achieves a de facto rollback of environmental enforcement without any formal rule repeal, since the underlying standards remain on the books but are not being actively enforced.",
+      "what_changed": "DOJ filed just 16 civil enforcement complaints on EPA's behalf in 2025, the lowest first-year total on record, down 76-81% from comparable first-year baselines under Biden and Trump's own first term. The same watchdog report found deep funding cuts across civil enforcement (-30%), criminal enforcement (-49%), compliance monitoring (-35%), and water infrastructure (-90%), plus 3,001 facilities in ongoing Clean Water Act noncompliance.",
+      "estimated_impact": "Achieves a de facto rollback of environmental enforcement without any formal rule repeal, since the underlying standards remain on the books but are not being actively enforced. Water infrastructure funding and Clean Water Act enforcement specifically were both cut sharply, per the same report.",
       "confidence_note": "Independently reported by NPR, Inside Climate News, and the watchdog group's own report; EPA disputed the finding without offering a competing figure."
     }
   },
