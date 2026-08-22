@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "id": "uss-abraham-lincoln-deployment-crisis-2026",
+    "topic": "USS Abraham Lincoln's record-length deployment and reported crew welfare crisis",
+    "verdict": "confirmed",
+    "summary": "The USS Abraham Lincoln, deployed to the Middle East since November 21, 2025 amid the Iran war, spent over 250 days at sea -- including more than 200 consecutive days without a port call, the longest continuous carrier deployment in the modern U.S. Navy. Multiple outlets reported a crew mental-health crisis severe enough that sailors attempted to go overboard, alongside food and water shortages and broken plumbing/sanitation. Defense Secretary Pete Hegseth publicly called the reports 'completely misrepresented'; President Trump said the carrier had not been deployed 'nearly long enough.' Thirteen Senate Democrats, including the full Senate Armed Services Committee minority, sent Hegseth a formal letter demanding answers and a bipartisan congressional delegation visit. The Lincoln was relieved by the USS George Washington and began its return to San Diego around August 20, 2026.",
+    "sources": [
+      {
+        "name": "NPR -- New aircraft carrier heads toward Mideast after reports of issues on long-deployed USS Lincoln",
+        "url": "https://www.npr.org/2026/08/14/nx-s1-5931183/new-aircraft-carrier-heads-toward-mideast-after-reports-of-issues-on-long-deployed-uss-lincoln"
+      },
+      {
+        "name": "Al Jazeera -- USS Lincoln woes highlight US Navy limits in prolonged Iran war: Experts",
+        "url": "https://www.aljazeera.com/news/2026/8/19/uss-lincoln-woes-highlight-us-navy-limits-in-prolonged-iran-war-experts"
+      },
+      {
+        "name": "The Hill -- Pete Hegseth pushes back on USS Abraham Lincoln deployment amid reports of sailors' mental health",
+        "url": "https://thehill.com/policy/defense/6028091-pete-hegseth-uss-abraham-lincoln-conditions-middle-east/"
+      },
+      {
+        "name": "Sen. Patty Murray -- Murray, Senate Democrats Demand Accountability from Hegseth After Reports of Crisis Aboard USS Abraham Lincoln",
+        "url": "https://www.murray.senate.gov/murray-senate-democrats-demand-accountability-from-hegseth-after-reports-of-crisis-aboard-uss-abraham-lincoln/"
+      },
+      {
+        "name": "Forbes -- USS Abraham Lincoln Is Returning to the US, Report Says",
+        "url": "https://www.forbes.com/sites/zacharyfolk/2026/08/20/uss-abraham-lincoln-is-coming-home-report-says/"
+      }
+    ],
+    "related_entries": [
+      {
+        "tracker": "government-services",
+        "id": "troops-relocated-hotels-iran-war-2026",
+        "note": "Same broader Iran-war military-welfare thread -- a separate incident (base relocations after Iranian strikes), not the same story as the Lincoln's deployment crisis"
+      }
+    ],
+    "submitter_source_link": null,
+    "date_submitted": "2026-08-22",
+    "date_added": "2026-08-22"
+  }
+]
