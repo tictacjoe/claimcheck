@@ -5440,6 +5440,55 @@
     "last_updated": "2026-08-17"
   },
   {
+    "id": "fda-bird-flu-milk-testing-suspended-2025",
+    "title": "FDA Suspended a 40-Lab Bird Flu Milk-Testing Exercise After Eliminating Its Food Safety Lab, Then Suspended Grade-A Milk Testing Outright",
+    "institution": "Food and Drug Administration (FDA), Department of Health and Human Services",
+    "domain": "staff_office_cuts",
+    "status": "Testing suspended as of April 2025; no confirmed restoration identified in sourcing reviewed as of this entry's addition",
+    "date_of_action": "2025-04-03 (VLIRN exercise suspension notice) through 2025-04-23 (grade-A milk testing program suspension reported)",
+    "what_changed": "As part of the broader 2025 HHS staffing reductions (which cut roughly 3,500 FDA employees overall), the FDA eliminated its Human Food Program's Moffett Center food-safety laboratory in Illinois, including a key quality-assurance officer. On April 3, 2025, the FDA-backed Veterinary Laboratory Investigation and Response Network (VLIRN) informed its roughly 40 member laboratories -- a mix of federal, state, and private labs across the country -- that a planned nationwide exercise to confirm those labs' ability to detect H5N1 avian influenza in milk had to be suspended because of the Illinois lab's elimination and the loss of the quality-assurance function it provided. Three weeks later, CBS News and other outlets reported the FDA had gone further, suspending its own testing program for grade 'A' milk and other dairy products -- the routine surveillance testing distinct from the VLIRN inter-laboratory readiness exercise -- citing the same food-safety-division staffing cuts.",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services",
+      "note": "Directed the department-wide staffing reductions that eliminated the Moffett Center lab and food-safety-division staff; no single named official was identified in sourcing reviewed as personally directing the bird-flu-testing suspension specifically."
+    },
+    "corporate_beneficiaries": [],
+    "estimated_impact": {
+      "summary": "The combination of a canceled inter-laboratory readiness exercise and a suspended routine milk-testing program came at a moment the H5N1 avian influenza outbreak was actively spreading through dairy cattle and poultry -- reducing federal capacity to confirm the reliability of the lab network relied on to detect the virus in the milk supply and to conduct the FDA's own routine surveillance testing, at the same time this database's separate entries document a broader, sustained federal bird-flu-surveillance capacity collapse through 2025.",
+      "figures": [
+        {
+          "metric": "Laboratories in the suspended VLIRN readiness exercise",
+          "value": "~40",
+          "source": "Reporting on the April 3, 2025 VLIRN member notice"
+        }
+      ],
+      "caveat": "No agency-produced quantified public-health-outcome estimate (e.g., cases or deaths attributable to the testing suspension specifically) was found in sourcing reviewed -- the documented impact is the loss of testing/verification capacity itself, at a time of active outbreak spread, not a measured harm figure. This entry is distinct from this tracker's existing usda-bird-flu-response-staff-accidental-firing-2025 (a February 2025 USDA staffing error, different agency and mechanism) and bird-flu-surveillance-collapse-resurgence-2025 (a November 2025 entry documenting the broader, later poultry-flock resurgence and surveillance-capacity gap) -- this entry documents a third, FDA-specific, April 2025 episode within the same broader pattern."
+    },
+    "confidence_note": "HIGH confidence -- the Moffett Center elimination, VLIRN exercise suspension, and grade-A milk testing suspension are corroborated across CBS News, Yahoo/AOL wire coverage, and Crooks and Liars' contemporaneous reporting, all citing the same underlying FDA/VLIRN communications and agency officials. No subsequent confirmation of the testing programs' restoration was found in sourcing reviewed as of this entry's addition -- worth a follow-up check in a future batch given this tracker's related bird-flu entries show the broader surveillance gap persisting at least into 2026.",
+    "last_verified": "2026-08-22",
+    "date_added": "2026-08-22",
+    "sources": [
+      {
+        "name": "CBS News -- FDA bird flu testing efforts disrupted by RFK Jr.'s layoffs, officials say",
+        "url": "https://www.cbsnews.com/news/fda-bird-flu-testing-efforts-disrupted-rfk-jr-layoffs/"
+      },
+      {
+        "name": "Crooks and Liars -- The FDA Just Stopped Doing Avian Flu Testing On Milk",
+        "url": "https://crooksandliars.com/2025/04/fda-just-stopped-doing-avian-flu-testing"
+      },
+      {
+        "name": "Yahoo News -- The FDA Is Pausing Bird Flu Milk Testing After More Than 20,000 HHS Job Cuts",
+        "url": "https://www.yahoo.com/news/fda-pausing-bird-flu-milk-152900530.html"
+      }
+    ],
+    "short_summary": "FDA eliminated its Illinois food-safety lab, suspending a 40-lab bird flu readiness exercise and then its own milk-testing program.",
+    "section_summaries": {
+      "what_changed": "FDA eliminated its Moffett Center food-safety lab, forcing suspension of a 40-lab bird flu testing readiness exercise and, three weeks later, its own routine grade-A milk testing program.",
+      "estimated_impact": "Reduced federal capacity to verify bird-flu detection in the milk supply during an active outbreak, part of a broader pattern of federal bird-flu-surveillance capacity loss documented elsewhere in this tracker.",
+      "confidence_note": "Well-corroborated across CBS News and independent wire/trade reporting; no confirmed restoration of the suspended testing found as of this recheck."
+    }
+  },
+  {
     "id": "fda-cber-vaccine-leadership-turmoil",
     "title": "FDA vaccine/biologics division leadership purge and COVID vaccine access restriction",
     "institution": "FDA — Center for Biologics Evaluation and Research (CBER)",
@@ -5629,6 +5678,66 @@
         "url": "https://www.cbsnews.com/news/fda-food-safety-james-jones-resigns-warning-rfk-jr/"
       }
     ]
+  },
+  {
+    "id": "fda-inspection-capacity-collapse-2025",
+    "title": "FDA Cut 170 Inspection-Support Staff, Curtailing Routine Food and Drug Safety Inspections -- Foreign Inspections Later Fell to a Decade Low",
+    "institution": "Food and Drug Administration (FDA), Department of Health and Human Services",
+    "domain": "staff_office_cuts",
+    "status": "Implemented -- 2025 staffing cuts confirmed to have caused a sustained, measurable drop in foreign inspection volume through at least November 2025",
+    "date_of_action": "2025-04 through 2025-05 (staffing cuts and planning disclosures) through 2025-11 (foreign-inspection-volume impact reported)",
+    "what_changed": "As part of the broader 2025 HHS-wide staffing reduction, the FDA cut roughly 170 staff from its Office of Inspections and Investigations -- the administrative and management support staff who coordinate and schedule the agency's food and drug safety inspectors, distinct from the inspectors themselves, who were not directly targeted. CBS News and NPR reported in April-May 2025 that FDA leadership was planning to cut back on routine 'surveillance inspections' -- proactive, scheduled checks not tied to a specific safety complaint -- reserving remaining inspection capacity for higher-priority cases such as facilities already flagged for safety risks or follow-up visits confirming a prior violation had been corrected. HHS stated the layoffs, ordered by Secretary Robert F. Kennedy Jr., would not directly cut FDA's inspector headcount, but acknowledged the loss of administrative and logistical support staff would likely cause delays and disruption to inspection scheduling and travel approvals. By November 2025, the Louisiana Illuminator reported that foreign food-safety inspections had fallen to their lowest level in more than a decade, an outcome FDA insiders and reporting attributed to the combined effect of the staffing cuts, slowed travel approvals for inspectors, and reduced logistical support -- compounding an inspection shortfall that had already failed to meet the agency's own foreign and domestic inspection targets since 2018.",
+    "primary_proponent": {
+      "name": "Robert F. Kennedy Jr.",
+      "role": "Secretary of Health and Human Services",
+      "note": "Directed the department-wide staffing reductions that included the FDA's Office of Inspections and Investigations; no single named official was identified in sourcing reviewed as personally directing the inspections-support cuts specifically, distinct from HHS's broader reduction under Kennedy's direction."
+    },
+    "corporate_beneficiaries": [
+      "Domestic and foreign food and drug manufacturers subject to reduced routine surveillance-inspection frequency"
+    ],
+    "estimated_impact": {
+      "summary": "The loss of inspection-support staff shifted FDA's posture from proactive, routine surveillance inspections toward a narrower, complaint- and risk-driven inspection model -- a real, measured reduction in oversight capacity that had, by November 2025, produced a concrete, quantifiable drop in foreign food-safety inspection volume to its lowest level in over a decade, on top of an agency that had already missed its own inspection targets since 2018.",
+      "figures": [
+        {
+          "metric": "FDA Office of Inspections and Investigations staff cut, 2025",
+          "value": "~170",
+          "source": "CBS News, citing agency officials"
+        },
+        {
+          "metric": "Foreign food-safety inspection volume, as of Nov 2025 reporting",
+          "value": "lowest level in more than a decade",
+          "source": "Louisiana Illuminator"
+        }
+      ],
+      "caveat": "HHS's official position is that FDA's frontline inspectors were not themselves cut and that inspections continue for higher-priority cases -- the documented harm is specifically to routine surveillance-inspection frequency and, later, measured foreign-inspection volume, not a claim that all FDA inspection activity ceased. This entry is distinct from this tracker's existing fda-drug-review-support-staff-cuts-2025 entry, which documents a separate, later (April 2025) ~3,500-person FDA-wide cut affecting drug-review responsiveness rather than inspection capacity specifically, though both trace back to the same broader HHS staffing reduction."
+    },
+    "confidence_note": "HIGH confidence -- the 170-staff figure and the shift toward risk-based (rather than routine) inspections are corroborated across CBS News, NPR, and multiple trade-press outlets (Becker's Hospital Review, the FDA Group), all citing agency officials and internal planning. The November 2025 foreign-inspection-volume finding is independently corroborated by the Louisiana Illuminator's dedicated reporting. Distinguished from this tracker's fda-drug-review-support-staff-cuts-2025 (a separate, larger, later cut affecting drug-review responsiveness) and fda-food-safety-device-tobacco-staff-cuts-2025 (an earlier, narrower February 2025 cut to product-review staff specifically) -- this entry's focus is inspection-scheduling and travel-support capacity specifically.",
+    "last_verified": "2026-08-22",
+    "date_added": "2026-08-22",
+    "sources": [
+      {
+        "name": "CBS News -- FDA planning for fewer food and drug inspections due to layoffs, officials say",
+        "url": "https://www.cbsnews.com/news/fda-food-drug-inspections-layoffs/"
+      },
+      {
+        "name": "NPR -- How FDA cuts could make the food and drug supply less safe",
+        "url": "https://www.npr.org/sections/shots-health-news/2025/04/18/nx-s1-5364544/fda-inspections-layoffs-food-and-drug-supply-less-safe"
+      },
+      {
+        "name": "Louisiana Illuminator -- Foreign food safety inspections hit historic low after Trump cuts",
+        "url": "https://lailluminator.com/2025/11/07/food-safety/"
+      },
+      {
+        "name": "House Oversight Democrats -- Oversight Democrats Urge HHS Secretary RFK Jr. to Halt Purge of FDA Staff, Warn of Risk",
+        "url": "https://oversightdemocrats.house.gov/news/press-releases/oversight-democrats-urge-hhs-secretary-rfk-jr-halt-purge-fda-staff-warn"
+      }
+    ],
+    "short_summary": "FDA cut 170 inspection-support staff in 2025; foreign food-safety inspections fell to a decade low by November.",
+    "section_summaries": {
+      "what_changed": "FDA cut roughly 170 staff supporting its food and drug safety inspectors, shifting to a narrower, risk-based inspection model instead of routine surveillance checks.",
+      "estimated_impact": "By November 2025, foreign food-safety inspections had fallen to their lowest level in more than a decade -- a measured, real-world consequence, not just a modeled risk.",
+      "confidence_note": "Well-corroborated across CBS News, NPR, and the Louisiana Illuminator's dedicated later reporting on inspection-volume impact."
+    }
   },
   {
     "id": "fda-moderna-mrna-flu-vaccine-refusal-2026",
@@ -7960,9 +8069,9 @@
     "title": "HHS Purged 5,200 Probationary Staff, Offered $25,000 Buyouts Agency-Wide, and Eliminated Its Entire HIV/AIDS and Infectious Disease Policy Office",
     "institution": "Department of Health and Human Services (HHS)",
     "domain": "staff_office_cuts",
-    "status": "Completed as to the HIV/AIDS policy office elimination and February 2025 probationary terminations; buyout program concluded with hundreds of acceptances",
+    "status": "Completed as to the HIV/AIDS policy office elimination and February 2025 probationary terminations; buyout program concluded with hundreds of acceptances. The broader agency-wide restructuring this entry's early-2025 phase was part of continued through 2025: the Supreme Court cleared the way for HHS to finalize its mass layoffs in July 2025, cumulative departures reached roughly 20,500 (18% of the workforce) by August 2025, and CDC saw a further, separate round of shutdown-era layoffs partially reversed in October 2025.",
     "date_of_action": "2025-02-14 (probationary terminations) through 2025-04-01 (HIV/AIDS and infectious-disease office layoffs take effect)",
-    "what_changed": "On February 14, 2025 -- the day after Robert F. Kennedy Jr. was sworn in as HHS Secretary -- HHS terminated roughly 5,200 probationary employees agency-wide (including 1,300 at the CDC alone), notifying most that morning and placing them on four weeks of paid administrative leave. Mother Jones reported the purge as part of a broader climate of pressured departures inside HHS, warning it was destabilizing the agency's infectious-disease response and public-health research capacity at a moment of active bird flu and measles outbreaks. The following month, HHS under Kennedy's direction offered buyouts of up to $25,000 to most of its roughly 80,000 employees -- the workforce responsible for researching disease, inspecting food, and administering Medicare and Medicaid -- an offer hundreds of employees accepted. Separately, on March 29, 2025, Forbes and CBS News reported Kennedy planned to lay off the entire Office of Infectious Disease and HIV/AIDS Policy (OIDP), the HHS office that led the 'Let's Get Real' childhood-vaccination-hesitancy campaign and coordinated the cross-agency Ending the HIV Epidemic initiative; the office's elimination took effect around April 1, 2025 and was confirmed by the Washington Blade and multiple HIV-policy organizations, with OIDP's Executive Director of the President's Advisory Council on HIV/AIDS (PACHA) among those let go and remaining HIV functions folded into a separate HHS treatment program over the objections of HIV-policy advocates, who noted prevention, surveillance, and treatment are distinct functions. CDC's separate Division of HIV Prevention was eliminated around the same time. The office cuts came bundled inside Kennedy's broader restructuring plan, reported by NPR and BioPharma Dive as targeting roughly 10,000 direct layoffs and an eventual workforce reduction, including buyout acceptances and other departures, of up to 20,000 -- about a quarter of HHS's workforce -- restructuring HHS's internal organization from 28 divisions down to 15 -- a reduction affecting HHS's 82,000-person workforce that this entry documents in its early-2025 phase (the probationary purge, the buyout offer, and the OIDP/HIV office elimination specifically); later, sub-agency-specific HHS restructuring actions are tracked in their own dedicated entries (see samhsa-staff-cuts-regional-office-closures-trump2 for SAMHSA's portion of the same reorganization). In May 2025, HHS resumed efforts to terminate thousands of probationary employees who had been placed on paid administrative leave following a court-ordered pause earlier in February, restarting a strand of the same early-2025 purge this entry documents rather than representing a new, separate action.",
+    "what_changed": "On February 14, 2025 -- the day after Robert F. Kennedy Jr. was sworn in as HHS Secretary -- HHS terminated roughly 5,200 probationary employees agency-wide (including 1,300 at the CDC alone), notifying most that morning and placing them on four weeks of paid administrative leave. Mother Jones reported the purge as part of a broader climate of pressured departures inside HHS, warning it was destabilizing the agency's infectious-disease response and public-health research capacity at a moment of active bird flu and measles outbreaks. The following month, HHS under Kennedy's direction offered buyouts of up to $25,000 to most of its roughly 80,000 employees -- the workforce responsible for researching disease, inspecting food, and administering Medicare and Medicaid -- an offer hundreds of employees accepted. Separately, on March 29, 2025, Forbes and CBS News reported Kennedy planned to lay off the entire Office of Infectious Disease and HIV/AIDS Policy (OIDP), the HHS office that led the 'Let's Get Real' childhood-vaccination-hesitancy campaign and coordinated the cross-agency Ending the HIV Epidemic initiative; the office's elimination took effect around April 1, 2025 and was confirmed by the Washington Blade and multiple HIV-policy organizations, with OIDP's Executive Director of the President's Advisory Council on HIV/AIDS (PACHA) among those let go and remaining HIV functions folded into a separate HHS treatment program over the objections of HIV-policy advocates, who noted prevention, surveillance, and treatment are distinct functions. CDC's separate Division of HIV Prevention was eliminated around the same time. The office cuts came bundled inside Kennedy's broader restructuring plan, reported by NPR and BioPharma Dive as targeting roughly 10,000 direct layoffs and an eventual workforce reduction, including buyout acceptances and other departures, of up to 20,000 -- about a quarter of HHS's workforce -- restructuring HHS's internal organization from 28 divisions down to 15 -- a reduction affecting HHS's 82,000-person workforce that this entry documents in its early-2025 phase (the probationary purge, the buyout offer, and the OIDP/HIV office elimination specifically); later, sub-agency-specific HHS restructuring actions are tracked in their own dedicated entries (see samhsa-staff-cuts-regional-office-closures-trump2 for SAMHSA's portion of the same reorganization). In May 2025, HHS resumed efforts to terminate thousands of probationary employees who had been placed on paid administrative leave following a court-ordered pause earlier in February, restarting a strand of the same early-2025 purge this entry documents rather than representing a new, separate action. Additional detail on the scale of the April 2025 restructuring phase: the Guardian reported on April 2, 2025 that the cuts hit programs on black lung disease (tracked in more detail in this database's msha-silica-niosh-rollback-trump2 and niosh-workforce-safety-research-gutted-2025 entries), infertility research, tobacco control, and entire divisions handling environmental health and climate-related health response -- additional named programs cut within the same restructuring this entry already documents, alongside maternal and child health programs Politico separately reported cut around April 7, 2025. That same week, Kennedy told ABC News some cut programs, including the CDC's childhood lead-poisoning prevention program, had been wrongly eliminated and would be reinstated; Politico separately reported Kennedy's claim that 20% of purged staff would be rehired was not supported by any rehiring plan sources were aware of. The restructuring's next major phase came via litigation: after a federal judge's May 2025 preliminary injunction had blocked planned RIFs at 22 agencies including HHS, the Supreme Court stayed that injunction on July 8, 2025 in an 8-1 ruling (while explicitly declining to rule on the RIFs' underlying legality), clearing the way for HHS to finalize the separations of employees who had been on paid administrative leave -- HHS notified affected employees they were officially separated effective July 14, 2025. By late August 2025, ProPublica's cumulative analysis found more than 20,500 HHS employees, or roughly 18% of the department's workforce, had left or been pushed out since January 2025 -- an analysis ProPublica itself described as an undercount, since it excluded employees still on administrative leave awaiting separation. A further, distinct round of cuts hit CDC specifically in October 2025: amid the federal government shutdown, CDC sent roughly 1,300 layoff notices, then reversed about 740 of them within days after public backlash, attributing the overreach to a 'coding error' -- the reinstated staff included employees responding to active measles and Ebola outbreaks, global-health office personnel, and nearly all staff who compile the CDC's Morbidity and Mortality Weekly Report. This October 2025 CDC episode is a separate incident from the coding-error RIF documented in this database's ninds-lab-heads-coding-error-rif-2025 entry (a different April 2025 NIH/NINDS action). Other sub-threads within this same broader 2025 restructuring -- SAMHSA's regional office closures, CDC's ACIP vaccine-panel purge -- are tracked in their own dedicated entries (samhsa-staff-cuts-regional-office-closures-trump2, cdc-acip-vaccine-panel-purge-trump2) rather than duplicated here.",
     "primary_proponent": {
       "name": "Robert F. Kennedy Jr.",
       "role": "Secretary of Health and Human Services",
@@ -7989,8 +8098,8 @@
       ],
       "caveat": "The amfAR HIV-impact projection is a broader estimate covering federal HIV funding and grant cuts generally, not a figure isolated specifically to the OIDP office elimination documented here -- present it as related context, not a direct causal claim tied only to this office's closure. HHS has not disputed the specific staffing figures reported by FierceHealthcare, PBS, and NPR."
     },
-    "confidence_note": "Well-corroborated on all three component facts: the February probationary purge and CDC-specific 1,300 figure are reported consistently across FierceHealthcare, NPR, and BioSpace; the $25,000 buyout offer is reported by PBS NewsHour and corroborated by contemporaneous coverage of the broader HHS restructuring; the OIDP/HIV office elimination and its April 2025 effective date are corroborated by Forbes, CBS News, the Washington Blade, KFF, and the HIV+Hepatitis Policy Institute, with congressional oversight Democrats formally raising the issue in a July 17, 2025 letter. Updated 2026-08-12 (round 4 batch 25, cluster c0146): added the 28-to-15 division consolidation detail and the May 2025 resumption of probationary terminations, both minor extensions of facts already substantively documented in this entry, not new developments.",
-    "last_verified": "2026-08-12",
+    "confidence_note": "Well-corroborated on all three component facts: the February probationary purge and CDC-specific 1,300 figure are reported consistently across FierceHealthcare, NPR, and BioSpace; the $25,000 buyout offer is reported by PBS NewsHour and corroborated by contemporaneous coverage of the broader HHS restructuring; the OIDP/HIV office elimination and its April 2025 effective date are corroborated by Forbes, CBS News, the Washington Blade, KFF, and the HIV+Hepatitis Policy Institute, with congressional oversight Democrats formally raising the issue in a July 17, 2025 letter. Updated 2026-08-12 (round 4 batch 25, cluster c0146): added the 28-to-15 division consolidation detail and the May 2025 resumption of probationary terminations, both minor extensions of facts already substantively documented in this entry, not new developments. Re-verified 2026-08-22: added the Guardian's April 2, 2025 reporting naming additional cut programs (infertility, tobacco control, environmental health, climate response), Kennedy's contradicted 20%-rehiring claim (Politico), the July 8, 2025 Supreme Court stay in Trump v. AFGE clearing the way for HHS to finalize its RIFs (corroborated across FierceHealthcare, CNN, and Government Executive), ProPublica's August 2025 cumulative figure of ~20,500 departures (18% of HHS's workforce), and CDC's October 2025 shutdown-era ~1,300-notice/~740-reversed 'coding error' episode (corroborated across Clinical Advisor, Science/AAAS, and C&EN). All are genuinely new facts extending this entry's timeline through October 2025, not corrections to what was already documented; declined several other same-cluster candidate records describing SAMHSA-specific cuts (already covered by samhsa-staff-cuts-regional-office-closures-trump2), ACIP vaccine-panel dismantling (already covered by cdc-acip-vaccine-panel-purge-trump2), and later, separate 2025 Loomer-driven personnel actions at other agencies (State Department, FDA vaccine leadership, West Point, NGA) as out of scope for this HHS-focused entry.",
+    "last_verified": "2026-08-22",
     "date_added": "2026-08-11",
     "sources": [
       {
@@ -8024,12 +8133,36 @@
       {
         "name": "HIV+Hepatitis Policy Institute -- Statement on elimination of HHS Office of Infectious Diseases & HIV Policy & Other HHS staff cuts",
         "url": "https://hivhep.org/press-releases/statement-on-elimination-of-hhs-office-of-infectious-diseases-hiv-policy-other-hhs-staff-cuts/"
+      },
+      {
+        "name": "The Guardian -- HHS layoffs hit black lung, infertility, tobacco, and climate health programs",
+        "url": "https://www.theguardian.com/us-news/2025/apr/02/hhs-cdc-fda-layoffs"
+      },
+      {
+        "name": "FierceHealthcare -- Supreme Court reopens floodgates for federal agency mass layoffs, agency restructurings",
+        "url": "https://www.fiercehealthcare.com/regulatory/supreme-court-reopens-floodgates-federal-agency-mass-layoffs-agency-restructurings"
+      },
+      {
+        "name": "CNN -- HHS carries out mass firings across health agencies after Supreme Court decision",
+        "url": "https://www.cnn.com/2025/07/14/health/hhs-layoffs-supreme-court"
+      },
+      {
+        "name": "ProPublica -- How Many Federal Health Workers Have RFK Jr. and the Trump Administration Cut?",
+        "url": "https://projects.propublica.org/federal-health-worker-cuts-rfk-trump-administration/"
+      },
+      {
+        "name": "Clinical Advisor -- 700+ CDC Layoffs Reversed Amid Backlash Over Cuts to Disease Response Teams",
+        "url": "https://www.clinicaladvisor.com/news/740-cdc-layoffs-reversed/"
+      },
+      {
+        "name": "Science/AAAS -- Whiplash at CDC as hundreds of employees are terminated, then reinstated",
+        "url": "https://www.science.org/content/article/whiplash-cdc-hundreds-employees-are-terminated-then-reinstated"
       }
     ],
     "section_summaries": {
-      "what_changed": "In HHS Secretary Kennedy's first weeks, HHS purged 5,200 probationary staff, offered $25,000 buyouts agency-wide, and eliminated its entire Office of Infectious Disease and HIV/AIDS Policy along with CDC's HIV Prevention Division.",
+      "what_changed": "In HHS Secretary Kennedy's first weeks, HHS purged 5,200 probationary staff, offered $25,000 buyouts agency-wide, and eliminated its entire Office of Infectious Disease and HIV/AIDS Policy along with CDC's HIV Prevention Division. The restructuring continued through 2025: a Supreme Court ruling let HHS finalize its RIFs in July, cumulative departures reached ~20,500 by August, and CDC saw a further shutdown-era layoff round partially reversed in October.",
       "estimated_impact": "The cuts stripped named childhood-vaccination-outreach and HIV-prevention policy capacity early in Kennedy's tenure, ahead of the larger agency-wide restructuring; broader HIV-funding-cut projections (not isolated to this office) warn of up to 143,000 additional HIV infections by 2030.",
-      "confidence_note": "Strongly corroborated across FierceHealthcare, PBS, NPR, Forbes, CBS News, and HIV-policy organizations; congressional Democrats formally raised the HIV office elimination in a July 2025 oversight letter."
+      "confidence_note": "Strongly corroborated across FierceHealthcare, PBS, NPR, Forbes, CBS News, and HIV-policy organizations; congressional Democrats formally raised the HIV office elimination in a July 2025 oversight letter. The July 2025 Supreme Court ruling, August 2025 cumulative-departure figure, and October 2025 CDC episode are all independently well-corroborated additions."
     }
   },
   {

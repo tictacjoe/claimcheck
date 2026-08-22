@@ -7460,6 +7460,84 @@
     }
   },
   {
+    "official": "Leland Dudek, Acting Commissioner of the Social Security Administration",
+    "offense_category": "Canceling a State's Vital-Records Service Contract as Admitted Political Retaliation Against Its Governor -- an abuse-of-power and improper-use-of-office claim, not a criminal charge",
+    "contested": false,
+    "incident_summary": "On March 5, 2025, Acting SSA Commissioner Leland Dudek ordered the cancellation of the agency's longstanding contracts with the State of Maine that automatically processed Social Security numbers for newborns at hospitals and death certificates from funeral homes -- contracts that, if actually terminated, would have forced Maine parents to travel to a federal Social Security office in person to register a newborn. Emails later obtained by the Bangor Daily News showed Dudek ordered the cancellation explicitly as retaliation against Democratic Governor Janet Mills, after watching her publicly clash with President Trump over transgender-athlete policy at a White House event -- Dudek wrote to staff, 'Please cancel the contracts. While our improper payments will go up, and fraudsters may compromise identities, no money will go from the public trust to a petulant child,' and separately told reporters he had been 'ticked' at Mills for 'not being real cordial to the president.' SSA reversed the cancellation within 48 hours amid bipartisan backlash and calls for Dudek's resignation, and Dudek apologized to Mainers -- though he later offered additional, non-retaliatory justifications for the brief cancellation in September 2025 reporting.",
+    "elements_required": [
+      "Dudek, as Acting Commissioner, ordered cancellation of a specific state's federal service contract",
+      "Dudek's own contemporaneous email and on-the-record remarks admit the decision was motivated by personal irritation at the governor's political conduct, not a stated policy or fraud rationale",
+      "The action targeted a Democratic-led state specifically, following a public Trump-Mills confrontation",
+      "The action was reversed only after public exposure and bipartisan criticism, not through an independent internal check that caught it beforehand"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "Bangor Daily News obtained and published Dudek's internal email ordering cancellation of Maine's newborn SSN and death-certificate contracts, admitting he was retaliating against Gov. Mills",
+        "source_url": "https://www.bangordailynews.com/2025/03/25/politics/washington/maine-social-security-leland-dudek-contract-cancellation-janet-mills-payback-new-parents-newborns-babies/",
+        "maps_to_element": "Dudek's own words establishing improper motive"
+      },
+      {
+        "type": "news_report",
+        "description": "Portland Press Herald reported Dudek told reporters he ended the newborn-registration program because he was 'ticked' at Mills for 'not being real cordial to the president'",
+        "source_url": "https://www.pressherald.com/2025/03/25/social-security-official-ended-program-for-maine-newborns-because-he-was-ticked-at-mills/",
+        "maps_to_element": "On-the-record admission of retaliatory motive, corroborating the email"
+      },
+      {
+        "type": "news_report",
+        "description": "Bangor Daily News reported bipartisan calls for Dudek's resignation as acting SSA commissioner following the disclosure",
+        "source_url": "https://www.bangordailynews.com/2025/04/02/politics/washington/social-securitys-acting-leader-call-to-resign-maine-contract-cuts/",
+        "maps_to_element": "Contemporaneous accountability response"
+      },
+      {
+        "type": "news_report",
+        "description": "Central Maine reported Dudek later, in September 2025, offered additional non-retaliatory reasons for the brief cancellation",
+        "source_url": "https://www.centralmaine.com/2025/09/09/former-social-security-leader-gives-new-reasons-for-brief-cancellation-of-maine-birth-registry-contracts/",
+        "maps_to_element": "Subsequent official response/rebuttal on the record"
+      }
+    ],
+    "status": "Reversed within 48 hours of the March 5, 2025 order, following public disclosure and bipartisan criticism. Dudek apologized to Mainers. No further contracts or agency action against Maine specifically have been identified in sourcing reviewed as of this entry's addition.",
+    "rebuttal_anticipated": "Dudek could argue (and later did, per the September 2025 Central Maine follow-up) that the cancellation was also motivated by legitimate agency concerns -- e.g., that the automated hospital/funeral-home data-sharing arrangement created fraud or improper-payment risk -- rather than purely personal retaliation, and that the 48-hour reversal shows the system self-corrected.",
+    "comeback": "Dudek's own contemporaneous email explicitly frames the cancellation as punitive ('no money will go from the public trust to a petulant child') and his own on-the-record quote to reporters cites personal irritation at Mills, not a fraud or improper-payment analysis conducted in advance -- any fraud-risk rationale he raised months later, after the fact, does not establish that it was the actual basis for the March 5 decision. That the action was reversed only after press exposure and bipartisan backlash, rather than through internal review before implementation, is itself part of the accountability concern.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a pattern of a federal official using control over a routine, universally-relied-on public service (newborn Social Security registration) as leverage against a state whose governor had drawn the President's public displeasure.",
+    "last_updated": "2026-08-22",
+    "date_added": "2026-08-22",
+    "confidence_note": "HIGH confidence -- Dudek's own email (obtained via public records request by the Bangor Daily News) and his own on-the-record quotes to two separate outlets (Bangor Daily News, Portland Press Herald) establish the admitted retaliatory motive directly, without relying on characterization by political opponents. The 48-hour reversal and bipartisan resignation calls are independently corroborated by NBC Boston and additional Bangor Daily News follow-up reporting. Dudek's later (September 2025) alternative justification is noted as his own subsequent rebuttal, not adopted as fact."
+  },
+  {
+    "official": "Attorney General Pam Bondi (retaining Christopher Stanley's DOJ role and security clearance) / Elon Musk, former DOGE leader (placed Stanley at DOJ)",
+    "offense_category": "Granting and Maintaining an Active Federal Security Clearance and a Senior DOJ Advisory Role for an Individual With an Extensively Documented History of Hacking and Piracy-Site Operation -- an institutional-accountability and vetting-failure claim, not a criminal charge against Stanley personally",
+    "contested": false,
+    "incident_summary": "Christopher Stanley, a 33-year-old engineer who previously worked at Musk's companies X and SpaceX, was placed as a senior adviser in the Deputy Attorney General's office at the Department of Justice as part of DOGE's government-wide personnel push. Reuters reported on April 2, 2025 that Stanley operated a series of websites and forums beginning in 2006, at age 15, several of which distributed pirated ebooks, bootleg software, and video-game cheats, and that he had bragged online about hacking exploits -- conduct he had publicly tried to distance himself from in a 2010 post, but records show he continued discussing software piracy and cyber exploits afterward. The Justice Department confirmed Stanley holds an active security clearance, and Attorney General Pam Bondi stated she has 'full trust and confidence in Chris's ability to help the federal government.' The Internet Archive removed Stanley's old websites following Reuters' outreach for comment, ahead of publication.",
+    "elements_required": [
+      "Stanley was placed in a senior advisory role inside the Deputy Attorney General's office, a position with access to sensitive DOJ functions",
+      "Stanley holds an active federal security clearance, confirmed by DOJ",
+      "Reporting documents a specific, extensive, named history of piracy-site operation and self-described hacking activity, continuing well past the age at which it could be dismissed as youthful conduct",
+      "DOJ leadership (Bondi) publicly affirmed confidence in Stanley after the reporting, rather than reviewing or revoking his clearance"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "Reuters reported Stanley's history operating piracy/hacking-adjacent websites since age 15, his active DOJ security clearance, and AG Bondi's public statement of confidence in him",
+        "source_url": "https://www.reuters.com/technology/cybersecurity/doge-official-doj-bragged-about-hacking-distributing-pirated-software-2025-04-02/",
+        "maps_to_element": "Documentation of the vetting gap, clearance status, and DOJ leadership's response"
+      },
+      {
+        "type": "news_report",
+        "description": "Wizcase and Fast Company reported additional detail on Stanley's role as a senior DOJ adviser and his prior hacking/piracy activity coming under scrutiny following the Reuters report",
+        "source_url": "https://www.wizcase.com/news/doj-adviser-christopher-stanley-hacking-past/",
+        "maps_to_element": "Independent corroboration of the role and history"
+      }
+    ],
+    "status": "Stanley remained in his DOJ advisory role with an active security clearance as of the original April 2025 reporting; no subsequent removal, clearance review, or further disciplinary action has been identified in sourcing reviewed as of this entry's addition. This entry follows the same institutional-vetting-failure pattern already documented for DOGE personnel elsewhere in this tracker (see doge-coristine-vetting-failure-2025 for a parallel case involving a different individual placed at OPM and later SSA).",
+    "rebuttal_anticipated": "DOJ or DOGE could argue Stanley's early-career conduct (starting at age 15) is immaterial to his present technical qualifications, that no instance of him personally misusing DOJ systems or data has been documented, and that AG Bondi's public confidence statement reflects a considered judgment rather than a failure to vet.",
+    "comeback": "This entry does not allege Stanley has misused DOJ data or systems -- the accountability question is that DOJ placed, and continues to retain with an active security clearance, an individual with an extensively documented and self-acknowledged history of hacking and piracy-site operation that continued well past adolescence (Reuters found continued discussion of the conduct after Stanley's own 2010 attempt to distance himself from it), in a senior advisory role inside the office that oversees DOJ's most sensitive operations, without evidence of any additional review following the public disclosure.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] A second, independent instance -- alongside Edward Coristine's -- of DOGE placing personnel with documented, specific red flags into sensitive federal roles without apparent additional vetting, suggesting an institutional pattern rather than an isolated lapse.",
+    "last_updated": "2026-08-22",
+    "date_added": "2026-08-22",
+    "confidence_note": "HIGH confidence -- Reuters' original reporting is a named-source, on-the-record investigation that DOJ itself responded to (confirming the clearance and providing Bondi's statement), independently corroborated by Wizcase and Fast Company. No subsequent developments (removal, clearance review) were found in this recheck's research, which is itself notable given the parallel Coristine case's eventual escalation -- worth a follow-up search in a future batch to check for any later developments specific to Stanley."
+  },
+  {
     "official": "Robert F. Kennedy Jr., HHS Secretary",
     "offense_category": "Bipartisan Former-Surgeons-General Warning of Public-Health Endangerment -- an institutional-credibility claim resting on the collective professional judgment of former senior federal health officials, not a criminal charge",
     "contested": true,
@@ -8451,6 +8529,39 @@
       "incident_summary": "In March 2025, Trump appointed Michael Flynn (convicted of lying to the FBI) and Maureen Bannon to West Point's board, his own indicted aide Walt Nauta to the Naval Academy's board, and Charlie Kirk and Sen. Tommy Tuberville to the Air Force Academy's board -- installing personally loyal or legally-compromised figures across all three service academies' civilian oversight boards simultaneously.",
       "confidence_note": "Well-corroborated across multiple independent outlets naming the same appointees; this is a documented politicization pattern, not an alleged legal violation, and is marked contested accordingly."
     }
+  },
+  {
+    "official": "President Trump, acting on activist Laura Loomer's recommendation",
+    "offense_category": "Firing National Security Council Staff Based on an Outside Activist's Unofficial Loyalty Test, Rather Than Any Documented Performance or Security Concern",
+    "contested": false,
+    "incident_summary": "On April 2, 2025, far-right activist Laura Loomer met privately with President Trump in the Oval Office and presented a list of roughly a dozen NSC officials she characterized as insufficiently loyal to the President, naming and vilifying specific staff members during the meeting. The next day, Trump fired six National Security Council officials as a direct result: Brian Walsh (director for intelligence), Thomas Boodry (senior director for legislative affairs), David Feith (senior director for technology and national security), Maggie Dougherty (senior director for international organizations), and at least two others. National Security Adviser Michael Waltz joined the meeting partway through and briefly defended some of his staff, but had little apparent ability to prevent the firings. This is the same April 2-4, 2025 Loomer-driven purge that separately resulted in the firing of NSA Director Gen. Timothy Haugh and his civilian deputy Wendy Noble (see nsa-haugh-loomer-purge-2025 for that entry) -- Loomer's list covered roughly a dozen officials across multiple institutions in a single meeting, and this entry documents the National Security Council-specific firings from that same list.",
+    "elements_required": [
+      "Loomer, an activist holding no official government position, presented a list of named NSC officials to the President and urged their removal",
+      "Six specific, named NSC officials were fired the following day with no other documented performance or security justification offered",
+      "The National Security Adviser present at the meeting had limited or no ability to protect his own staff from the firings",
+      "This is corroborated as the same causal meeting that produced the NSA/Cyber Command firings tracked in this database's separate entry"
+    ],
+    "evidence": [
+      {
+        "type": "news_report",
+        "description": "CNN reported the Oval Office meeting in which Loomer presented a list attacking the character and loyalty of numerous NSC officials, and the six resulting firings",
+        "source_url": "https://www.cnn.com/2025/04/03/politics/nsc-firings-trump-laura-loomer-meeting/index.html",
+        "maps_to_element": "Documentation of the meeting mechanism and the resulting firings"
+      },
+      {
+        "type": "news_report",
+        "description": "Forbes and the Spokesman-Review named the specific NSC officials fired -- Brian Walsh, Thomas Boodry, David Feith, and Maggie Dougherty among them -- and reported Waltz's limited defense of his staff during the meeting",
+        "source_url": "https://www.forbes.com/sites/conormurray/2025/04/03/trump-fires-nsc-officials-after-meeting-with-far-right-conspiracy-theorist-laura-loomer/",
+        "maps_to_element": "Named officials and Waltz's role"
+      }
+    ],
+    "status": "Firings finalized April 3, 2025; no subsequent reinstatement of these NSC officials has been identified in sourcing reviewed as of this entry's addition. This is one piece of a broader, ongoing pattern of Loomer-influenced personnel actions tracked elsewhere in this database (the NSA/Cyber Command firings from the same meeting; later, separate Loomer-driven ousters at other agencies in 2025 were identified in candidate-discovery research but are not yet independently drafted as their own entries).",
+    "rebuttal_anticipated": "The White House could argue the President retains unreviewable discretion to remove NSC staff (who serve at his pleasure, unlike Senate-confirmed officials), that Loomer's role was merely to raise concerns rather than dictate outcomes, and that loyalty to the President's agenda is a legitimate factor in staffing a body as sensitive as the NSC.",
+    "comeback": "The distinction this entry draws is not whether the President has legal authority to remove at-will NSC staff -- he does -- but that the removals were driven by an unofficial outside activist with no security clearance review process or documented performance concern, rather than any internal personnel process, and that the National Security Adviser nominally in charge of the staff had little practical ability to intervene, raising accountability and process concerns about how national-security personnel decisions are actually being made.",
+    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Part of a broader 2025 pattern, documented in multiple entries in this tracker, of Loomer functioning as an de facto loyalty-vetting gatekeeper for national-security and other sensitive personnel decisions outside any formal process.",
+    "last_updated": "2026-08-22",
+    "date_added": "2026-08-22",
+    "confidence_note": "HIGH confidence -- independently corroborated across CNN, Forbes, the Spokesman-Review, and Yahoo/AP wire coverage, all naming the same meeting mechanism and overlapping sets of fired officials. Cross-referenced against this database's existing nsa-haugh-loomer-purge-2025 entry, which documents the same April 2-4, 2025 meeting's NSA/Cyber Command-specific firings -- the two entries describe the same causal event but distinct sets of affected officials at different institutions, consistent with this tracker's practice of separate entries per affected institution."
   },
   {
     "official": "Donald Trump, President",
