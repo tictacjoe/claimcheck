@@ -978,9 +978,29 @@ function escapeHtml(str) {
   return String(str)
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;");
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
 }
 /* escape-html:end */
+
+/* Validates a URL before it's ever written into an href="..." attribute.
+   Entry data includes URLs from three sources of very different trust
+   levels: sources[].url and source_url are authored by Claude/Joe during
+   research and drafting; submitter_source_link comes straight from an
+   anonymous public form submission with no review gate before it's
+   stored. Rejects anything that isn't a plain http(s) URL -- in
+   particular a javascript: URI, which would otherwise execute when
+   clicked -- falling back to "#" (a safe, inert anchor) rather than
+   silently dropping the link entirely. Used together with escapeHtml()
+   on the same value, since a raw URL can also contain a `"` that would
+   otherwise break out of the href attribute. */
+function safeHref(url) {
+  try {
+    const parsed = new URL(String(url), location.href);
+    if (parsed.protocol === "http:" || parsed.protocol === "https:") return parsed.href;
+  } catch (e) { /* falls through to the safe default below */ }
+  return "#";
+}
 
 /* summary-line:start */
 function summaryLineHtml(summary, term, useRegex) {
@@ -1151,11 +1171,11 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
       '<div class="field-label">Estimated impact</div><div class="field-value">' + summary(entry.section_summaries?.estimated_impact) + hl(entry.estimated_health_impact?.summary) + '</div>' +
       (entry.estimated_health_impact?.figures?.length ? '<ul class="exhibit-list">' + entry.estimated_health_impact.figures.map(f => '<li>' + hl(f.metric) + ': <strong>' + hl(f.value) + '</strong> (' + hl(f.source) + ')</li>').join("") + '</ul>' : '') +
       '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + hl(entry.confidence_note) + '</div>' +
-      '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + s.url + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>';
+      '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>';
   }
   if (cfg.kind === "tracker") {
     return '<div class="field-label">What happened</div><div class="field-value">' + hl(entry.what_happened) + '</div>' +
-      (entry.source_name ? '<div class="field-label">Source</div><ul class="exhibit-list"><li><a href="' + entry.source_url + '" target="_blank" rel="noopener">' + hl(entry.source_name) + '</a></li></ul>' : '<div class="field-label">Source</div><div class="field-value" style="color:var(--ink-faint);font-style:italic;">not cited in original post</div>');
+      (entry.source_name ? '<div class="field-label">Source</div><ul class="exhibit-list"><li><a href="' + escapeHtml(safeHref(entry.source_url)) + '" target="_blank" rel="noopener">' + hl(entry.source_name) + '</a></li></ul>' : '<div class="field-label">Source</div><div class="field-value" style="color:var(--ink-faint);font-style:italic;">not cited in original post</div>');
   }
   if (cfg.kind === "govservices") {
     return '<div class="field-label">Institution</div><div class="field-value">' + hl(entry.institution) + '</div>' +
@@ -1165,14 +1185,14 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
       (entry.estimated_impact?.figures?.length ? '<ul class="exhibit-list">' + entry.estimated_impact.figures.map(f => '<li>' + hl(f.metric) + ': <strong>' + hl(f.value) + '</strong> (' + hl(f.source) + ')</li>').join("") + '</ul>' : '') +
       (entry.estimated_impact?.caveat ? '<div class="field-label">Caveat</div><div class="field-value" style="font-style:italic;">' + hl(entry.estimated_impact.caveat) + '</div>' : '') +
       '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + hl(entry.confidence_note) + '</div>' +
-      '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + s.url + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>';
+      '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>';
   }
   if (cfg.kind === "communitytopics") {
     return '<div class="field-label">Verdict</div><div class="field-value">' + hl(verdictLabel(entry.verdict)) + '</div>' +
       '<div class="field-label">Summary</div><div class="field-value">' + hl(entry.summary) + '</div>' +
-      '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + s.url + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>' +
+      '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>' +
       (entry.related_entries?.length ? '<div class="field-label">Related entries</div><ul class="exhibit-list">' + entry.related_entries.map(r => '<li>' + hl(r.note) + '</li>').join("") + '</ul>' : '') +
-      (entry.submitter_source_link ? '<div class="field-label">Submitter-provided source</div><div class="field-value"><a href="' + entry.submitter_source_link + '" target="_blank" rel="noopener">' + hl(entry.submitter_source_link) + '</a></div>' : '') +
+      (entry.submitter_source_link ? '<div class="field-label">Submitter-provided source</div><div class="field-value"><a href="' + escapeHtml(safeHref(entry.submitter_source_link)) + '" target="_blank" rel="noopener">' + hl(entry.submitter_source_link) + '</a></div>' : '') +
       '<div class="field-label">Submitted</div><div class="field-value">' + hl(entry.date_submitted) + '</div>';
   }
   // prosecution (default)
