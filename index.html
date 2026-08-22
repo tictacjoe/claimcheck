@@ -554,8 +554,47 @@ const TRACKERS = {
     filterLabel: null,
     statusField: null,
     kind: "tracker",
+  },
+  communitytopics: {
+    label: "Community Topics",
+    data: [],
+    titleField: "topic",
+    idField: "id",
+    dateField: "date_submitted",
+    dateAddedField: "date_added",
+    filterField: "verdict",
+    filterLabel: "verdict",
+    statusField: "verdict",
+    kind: "communitytopics",
   }
 };
+
+/* Community Topics' verdict values are snake_case in the data
+   (confirmed, partially_confirmed, unable_to_verify,
+   misleading_as_stated) -- this converts them to the plain-language
+   display label shown on the badge, in the filter dropdown, and in
+   one-liners. Deliberately distinct wording from the curated trackers'
+   "Verified"/"Contested" stamps, since this tracker's whole point is a
+   lower, explicitly-labeled bar. */
+function verdictLabel(verdict) {
+  const map = {
+    confirmed: "Confirmed",
+    partially_confirmed: "Partially Confirmed",
+    unable_to_verify: "Unable to Verify",
+    misleading_as_stated: "Misleading as Stated",
+  };
+  return map[verdict] || verdict || "Unrated";
+}
+
+function verdictColor(verdict) {
+  const map = {
+    confirmed: "#4B6B4F",
+    partially_confirmed: "#8B6F3E",
+    unable_to_verify: "#5C5A52",
+    misleading_as_stated: "#7A3E4B",
+  };
+  return map[verdict] || "#5C5A52";
+}
 
 /* Converts raw scraped posts (one JSON object per Substack post, each
    containing multiple dated entries) into a flat list of individually
@@ -748,6 +787,15 @@ function impactScore(entry, cfg) {
     const hasFiguresBonus = figs.length > 0 ? 2 : 0;
     return Math.round((magnitudeScore + hasFiguresBonus) * 10) / 10;
   }
+  if (cfg.kind === "communitytopics") {
+    // No quantified figures in this schema -- verdict tier is the only
+    // structured strength signal, roughly parallel to prosecution's
+    // confidence-tier scoring above so cross-database global search
+    // doesn't always sink or float these entries relative to the
+    // curated trackers.
+    const tierScore = { confirmed: 8, partially_confirmed: 5, misleading_as_stated: 4, unable_to_verify: 1 };
+    return tierScore[entry.verdict] || 0;
+  }
   return 0;
 }
 
@@ -773,6 +821,9 @@ function impactScoreLabel(entry, cfg) {
     if (!figs.length) return "no quantified figures";
     const top = figs.reduce((a, b) => extractLargestNumber(b.value) > extractLargestNumber(a.value) ? b : a);
     return "largest figure: " + top.value;
+  }
+  if (cfg.kind === "communitytopics") {
+    return "verdict: " + verdictLabel(entry.verdict);
   }
   return "";
 }
@@ -999,6 +1050,10 @@ function oneLinerFor(entry, cfg) {
     }
     return line;
   }
+  if (cfg.kind === "communitytopics") {
+    return "[" + verdictLabel(entry.verdict) + "] " + entry.topic +
+      (entry.summary ? " \u2014 " + truncate(entry.summary, 100) : "");
+  }
   return JSON.stringify(entry).slice(0, 150);
 }
 
@@ -1052,6 +1107,12 @@ function visibleSearchText(entry, cfg) {
     (entry.sources || []).forEach(s => parts.push(s.name));
   } else if (cfg.kind === "tracker") {
     parts.push(entry.date, entry.what_happened, entry.source_name);
+  } else if (cfg.kind === "communitytopics") {
+    parts.push(
+      verdictLabel(entry.verdict), entry.summary, entry.date_submitted
+    );
+    (entry.sources || []).forEach(s => parts.push(s.name));
+    (entry.related_entries || []).forEach(r => parts.push(r.note));
   }
   return parts.filter(Boolean).join(" \n ");
 }
@@ -1106,6 +1167,14 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
       '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + hl(entry.confidence_note) + '</div>' +
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + s.url + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>';
   }
+  if (cfg.kind === "communitytopics") {
+    return '<div class="field-label">Verdict</div><div class="field-value">' + hl(verdictLabel(entry.verdict)) + '</div>' +
+      '<div class="field-label">Summary</div><div class="field-value">' + hl(entry.summary) + '</div>' +
+      '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + s.url + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>' +
+      (entry.related_entries?.length ? '<div class="field-label">Related entries</div><ul class="exhibit-list">' + entry.related_entries.map(r => '<li>' + hl(r.note) + '</li>').join("") + '</ul>' : '') +
+      (entry.submitter_source_link ? '<div class="field-label">Submitter-provided source</div><div class="field-value"><a href="' + entry.submitter_source_link + '" target="_blank" rel="noopener">' + hl(entry.submitter_source_link) + '</a></div>' : '') +
+      '<div class="field-label">Submitted</div><div class="field-value">' + hl(entry.date_submitted) + '</div>';
+  }
   // prosecution (default)
   return '<div class="field-label">Violation Type</div><div class="field-value">' + hl(entry.offense_category) + '</div>' +
     '<div class="field-label">Status Stage</div><div class="field-value">' + hl(entry.status_category) + '</div>' +
@@ -1143,6 +1212,10 @@ function buildEntryCard(entry, cfg, docketLabel, sourceLabel, term, useRegex) {
   } else if (cfg.kind === "govservices") {
     metaHtml += '<span class="domain-tag" style="background:' + domainColor(entry.domain) + '22; color:' + domainColor(entry.domain) + '">' + govservicesDomainLabel(entry.domain) + '</span>' +
                '<span>' + hl(entry.institution) + '</span><span>' + hl(entry.date_of_action) + '</span>';
+  } else if (cfg.kind === "communitytopics") {
+    metaHtml += '<span class="domain-tag" style="background:' + verdictColor(entry.verdict) + '22; color:' + verdictColor(entry.verdict) + '">' + hl(verdictLabel(entry.verdict)) + '</span>' +
+               '<span>submitted ' + (entry.date_submitted || "") + '</span>' +
+               '<span>' + hl(truncate(entry.summary || "", 100)) + '</span>';
   } else {
     metaHtml += '<span>' + hl(entry.offense_category) + '</span><span>' + hl(entry.status_category) + '</span><span>updated ' + (entry.last_updated || "") + '</span>';
   }
@@ -1203,7 +1276,7 @@ function renderFilterOptions(cfg) {
     values = [...new Set(cfg.data.map(e => e[cfg.filterField]).filter(Boolean))].sort();
   }
   sel.innerHTML = '<option value="">all ' + pluralize(cfg.filterLabel) + '</option>' +
-    values.map(v => '<option value="' + v + '">' + (cfg.kind === "govservices" ? govservicesDomainLabel(v) : v) + '</option>').join("");
+    values.map(v => '<option value="' + v + '">' + (cfg.kind === "govservices" ? govservicesDomainLabel(v) : cfg.kind === "communitytopics" ? verdictLabel(v) : v) + '</option>').join("");
   sel.value = filterValue;
 }
 
@@ -1361,7 +1434,7 @@ function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
     allMatches.sort((a, b) => impactScore(b.entry, b.cfg) - impactScore(a.entry, a.cfg));
   }
 
-  countEl.textContent = allMatches.length + " result(s) across 3 databases for \"" + term + "\"" +
+  countEl.textContent = allMatches.length + " result(s) across 4 databases for \"" + term + "\"" +
     (useRegex ? " (regex)" : "") + (useOneLiners ? " — 1-liner view" : "");
 
   container.innerHTML = "";
@@ -1369,7 +1442,7 @@ function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
   if (allMatches.length === 0) {
     const empty = document.createElement("div");
     empty.className = "empty-state";
-    empty.textContent = "No matches in Corporate Deregulation, Cabinet-Level Legal Exposure, or Government Service Redirection.";
+    empty.textContent = "No matches in Corporate Deregulation, Cabinet-Level Legal Exposure, Government Service Redirection, or Community Topics.";
     container.appendChild(empty);
     if (reportingLink) container.appendChild(reportingLink);
     return;
@@ -1507,11 +1580,12 @@ document.getElementById("start-over-btn").addEventListener("click", () => {
 async function loadAllData() {
   document.getElementById("entries").innerHTML = '<div class="empty-state">Loading data\u2026</div>';
 
-  const [prosecutionResult, deregulationResult, trackerResult, govservicesResult] = await Promise.allSettled([
+  const [prosecutionResult, deregulationResult, trackerResult, govservicesResult, communitytopicsResult] = await Promise.allSettled([
     fetch("data/prosecution.json").then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }),
     fetch("data/deregulation.json").then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }),
     fetch("data/tracker.json").then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }),
     fetch("data/government-services.json").then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }),
+    fetch("data/community-topics.json").then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }),
   ]);
 
   const loadErrors = [];
@@ -1549,6 +1623,12 @@ async function loadAllData() {
     TRACKERS.govservices.data = govservicesResult.value;
   } else {
     loadErrors.push("government-services.json (" + govservicesResult.reason.message + ")");
+  }
+
+  if (communitytopicsResult.status === "fulfilled") {
+    TRACKERS.communitytopics.data = communitytopicsResult.value;
+  } else {
+    loadErrors.push("community-topics.json (" + communitytopicsResult.reason.message + ")");
   }
 
   renderDispatch();

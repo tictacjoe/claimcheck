@@ -16,12 +16,14 @@ Directory assumptions (override with flags if yours differ):
     prosecution/cabinet-level/*.json
     deregulation/entries/*.json
     government-services/entries/*.json
+    community-topics/entries/*.json
     tracker/output/posts.json
 
   Site repo:     ~/gjoe/tap-site/
     data/prosecution.json
     data/deregulation.json
     data/government-services.json
+    data/community-topics.json
     data/tracker.json
     publish_exclude.txt   <- entry IDs to exclude, one per line, '#' for comments
 
@@ -159,6 +161,19 @@ def main():
         print(f"  {len(included)} entries published, {excl_count} excluded")
     else:
         print(f"  WARNING: {govservices_src} not found, skipping")
+    print()
+
+    # --- community topics ---
+    print("=== community-topics ===")
+    communitytopics_src = working / "community-topics" / "entries"
+    if communitytopics_src.exists():
+        included, excl_count = publish_json_entries(
+            communitytopics_src, site / "data" / "community-topics.json",
+            excluded_ids, dry_run=args.dry_run
+        )
+        print(f"  {len(included)} entries published, {excl_count} excluded")
+    else:
+        print(f"  WARNING: {communitytopics_src} not found, skipping")
     print()
 
     # --- tracker ---
