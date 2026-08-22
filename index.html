@@ -541,7 +541,7 @@ const TRACKERS = {
     label: "Cabinet-Level Legal Exposure",
     data: [],
     titleField: "official",
-    idField: "official",
+    idField: "id",
     dateField: "last_updated",
     dateAddedField: "date_added",
     filterField: "status_category",
@@ -1240,6 +1240,12 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
 function buildEntryCard(entry, cfg, docketLabel, sourceLabel, term, useRegex) {
   const div = document.createElement("div");
   div.className = "entry";
+  // Stamped so jumpToRelatedEntry() can locate this exact card by id
+  // afterward, without relying on text search -- necessary because
+  // several tracker kinds' titleField is not reliably unique per entry
+  // (many prosecution entries about the same official share the exact
+  // same `official` string).
+  if (cfg.idField) div.dataset.entryId = entry[cfg.idField] || "";
   const rawTitle = entry[cfg.titleField] || "Untitled";
   const title = cfg.kind === "tracker" ? truncate(rawTitle, 110) : rawTitle;
   // Highlights the active search term in the free-text fields most
@@ -1454,48 +1460,44 @@ const RELATED_TRACKER_FIELD_TO_KEY = {
   "government-services": "govservices",
 };
 
-/* matchesTerm()'s plain-mode match wraps the whole term in \b...\b --
-   correct for short user-typed keywords, but breaks for a full entry
-   title used verbatim as the term: many titles/rule_names in this data
-   end in a parenthetical, e.g. "...(not a specific rule -- ...)". \b
-   only matches at a transition between a word and non-word character,
-   so if the term's last character is itself non-word (")") and it's
-   followed in the haystack by another non-word character (a space, from
-   visibleSearchText()'s " \n " field joiner), there's no boundary there
-   at all and the whole match silently fails -- zero results, not an
-   error. Trimming leading/trailing non-word characters fixes this: \b
-   only constrains the two ends of the pattern, never characters in the
-   middle, so a trimmed title is still guaranteed to appear verbatim
-   inside the haystack (it's a substring of the untrimmed title, which
-   visibleSearchText() always includes in full). Found via manual
-   verification after this feature's first version silently returned
-   "0 of 56 entries shown" for exactly this reason. */
-function trimToWordBoundary(str) {
-  return String(str || "").replace(/^[^A-Za-z0-9]+/, "").replace(/[^A-Za-z0-9]+$/, "");
-}
-
 /* Jumps from a Community Topics entry to the specific curated entry its
-   related_entries pointed at. Looks the target entry up by its
-   tracker-specific identifying field (idField) so the search term used
-   is that entry's actual title/official-string, not the bare id/slug --
-   the slug itself is never part of visibleSearchText()'s haystack, so
-   searching by it directly would silently match nothing. Falls back to
-   searching by the raw id if the target can't be found (renamed,
-   removed) -- same "don't crash, just land on an honest empty result"
-   posture as jumpToReportingSearch above. */
+   related_entries pointed at. Switches tabs with search/filter cleared
+   (so every entry in the target tracker stays browsable, not just the
+   one being jumped to), then locates the exact rendered card by its
+   stamped data-entry-id and opens + scrolls to it directly.
+
+   Deliberately does NOT use the text-search box for this, even though
+   that's how jumpToReportingSearch (above) does its equivalent jump --
+   an earlier version of this function searched by the target's title
+   instead, which silently returned the WRONG entry whenever multiple
+   entries share the same title. This is common in the prosecution
+   tracker specifically: many entries about the same official use the
+   exact same `official` string verbatim (e.g. 11 different Hegseth
+   entries), so title-based search can't distinguish between them no
+   matter how exact the match is. Locating the actual DOM node built for
+   this specific entry sidesteps that ambiguity entirely -- it doesn't
+   go through text matching at all. */
 function jumpToRelatedEntry(trackerField, id) {
   const key = RELATED_TRACKER_FIELD_TO_KEY[trackerField];
   const targetCfg = key && TRACKERS[key];
   if (!targetCfg) return;
-  const targetEntry = (targetCfg.data || []).find(e => e[targetCfg.idField] === id);
   document.getElementById("global-search").value = "";
   activeTracker = key;
   filterValue = "";
-  searchTerm = targetEntry ? trimToWordBoundary(targetEntry[targetCfg.titleField]) : id;
-  document.getElementById("search").value = searchTerm;
+  searchTerm = "";
+  document.getElementById("search").value = "";
   document.getElementById("filter").value = "";
   renderDispatch();
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  const card = document.querySelector('.entry[data-entry-id="' + CSS.escape(id) + '"]');
+  if (card) {
+    card.classList.add("open");
+    card.scrollIntoView({ behavior: "smooth", block: "start" });
+  } else {
+    // Target renamed/removed since this link was written -- land on the
+    // tracker's tab (already switched above) rather than crash or show
+    // a misleading result.
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
 }
 
 /* Wires click handling onto any .related-entry-link anchors just
