@@ -1,5 +1,42 @@
 [
   {
+    "id": "snap-benefits-losses-nationwide-2026",
+    "topic": "Widespread loss of SNAP (food stamp) benefits nationwide",
+    "submitted_claim": "people are losing food stamps",
+    "verdict": "confirmed",
+    "summary": "SNAP participation has dropped by more than 4.5 million people (about 11%) between July 2025, when Trump signed the 'One Big Beautiful Bill Act' (OBBBA) reconciliation law, and April 2026. The law raised the work-requirement age ceiling from 54 to 64, added documentation burdens, cut off eligibility for several immigrant categories (refugees, asylum seekers, domestic-violence and trafficking survivors), and changed benefit-calculation rules -- on top of a separate, temporary withholding of benefits during the October-November 2025 government shutdown. This is a broad, ongoing nationwide trend rather than a single action -- see the related curated entries below for specific documented instances (a shutdown-specific funding freeze, a national child-impact analysis, and a state-level enrollment collapse in Arizona).",
+    "sources": [
+      {
+        "name": "CBPP -- SNAP Tracker: People Are Losing Food Assistance as the Republican Reconciliation Law Is Implemented",
+        "url": "https://www.cbpp.org/research/food-assistance/snap-tracker-people-are-losing-food-assistance-as-the-republican-megabill"
+      },
+      {
+        "name": "NPR -- Over 4 million people are no longer receiving food aid amid sweeping changes to SNAP",
+        "url": "https://www.npr.org/2026/08/03/nx-s1-5906797/snap-food-stamp-federal-changes-what-to-know"
+      }
+    ],
+    "related_entries": [
+      {
+        "tracker": "government-services",
+        "id": "snap-shutdown-funding-freeze-trump2",
+        "note": "A specific, temporary instance of the broader trend -- SNAP benefits withheld nationwide during the Oct-Nov 2025 government shutdown"
+      },
+      {
+        "tracker": "government-services",
+        "id": "snap-770000-children-lost-benefits-2026",
+        "note": "National-scope documentation of the broader trend's impact specifically on children (776,000+) in the year after OBBBA's passage"
+      },
+      {
+        "tracker": "government-services",
+        "id": "arizona-snap-enrollment-collapse-2025-2026",
+        "note": "A state-level instance of the broader trend -- Arizona enrollment cut in half as the state cuts caseworkers to avoid OBBBA payment-error penalties"
+      }
+    ],
+    "submitter_source_link": null,
+    "date_submitted": "2026-08-23",
+    "date_added": "2026-08-23"
+  },
+  {
     "id": "uss-abraham-lincoln-deployment-crisis-2026",
     "topic": "USS Abraham Lincoln's record-length deployment and reported crew welfare crisis",
     "submitted_claim": "lincoln aircraft carrier",
