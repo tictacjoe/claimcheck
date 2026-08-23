@@ -463,6 +463,24 @@
   .related-callout a:hover { text-decoration: underline; }
   .related-callout ul { margin: 0.2rem 0 0; padding-left: 1.1rem; }
 
+  /* Community Topics: shown instead of related-callout when this
+     submission cleared a curated tracker's bar at first triage and was
+     added there directly rather than researched at this tracker's own
+     lighter tier -- distinct brass accent (the site's general link/accent
+     color) rather than related-callout's verified-green, since this
+     isn't "see also," it's "this is what the submission became." */
+  .promoted-callout {
+    background: var(--brass-light);
+    border: 1px solid var(--brass);
+    border-radius: 3px;
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 0.9rem;
+    font-size: 0.88rem;
+  }
+  .promoted-callout .field-label { margin-top: 0; }
+  .promoted-callout a { color: var(--brass); font-weight: 600; text-decoration: none; }
+  .promoted-callout a:hover { text-decoration: underline; }
+
   .empty-state {
     text-align: center;
     padding: 3rem 1rem;
@@ -1206,18 +1224,38 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>';
   }
   if (cfg.kind === "communitytopics") {
-    // Related-entry callout renders FIRST, before Verdict -- when a
-    // Community Topics entry has a real match in a curated tracker,
-    // that fuller, more rigorously-researched record is more valuable
-    // than this entry's own lighter research, so it belongs at the top
-    // rather than buried after everything else.
+    // promoted_to callout renders before related_entries, and both
+    // render before Verdict -- in practice an entry has at most one of
+    // the two (promoted_to means the topic itself became a curated
+    // entry; related_entries means a *different*, already-existing
+    // curated entry substantially overlaps this topic), but the check
+    // order matters if that ever isn't true: "this is what the
+    // submission became" outranks "here's something related."
+    // promoted_to is a single "tracker/id" string per
+    // community-topics/SCHEMA.md, not an object -- split on the first
+    // "/" (tracker field names never contain one).
+    const promotedHtml = entry.promoted_to
+      ? (() => {
+          const slash = entry.promoted_to.indexOf("/");
+          const trackerField = slash === -1 ? entry.promoted_to : entry.promoted_to.slice(0, slash);
+          const id = slash === -1 ? "" : entry.promoted_to.slice(slash + 1);
+          const targetKey = RELATED_TRACKER_FIELD_TO_KEY[trackerField];
+          const trackerLabel = targetKey ? TRACKERS[targetKey].label : trackerField;
+          return '<div class="promoted-callout"><div class="field-label">Added to a curated tracker</div>' +
+            '<a href="#" class="related-entry-link" data-tracker="' + escapeHtml(trackerField) + '" data-id="' + escapeHtml(id) + '">→ See the full entry in ' + escapeHtml(trackerLabel) + '</a></div>';
+        })()
+      : '';
+    // Related-entry callout -- when a Community Topics entry has a real
+    // match in a curated tracker, that fuller, more rigorously-researched
+    // record is more valuable than this entry's own lighter research, so
+    // it belongs at the top rather than buried after everything else.
     const relatedHtml = entry.related_entries?.length
       ? '<div class="related-callout"><div class="field-label">Already documented — see the fuller record</div><ul>' +
         entry.related_entries.map(r =>
           '<li><a href="#" class="related-entry-link" data-tracker="' + escapeHtml(r.tracker || "") + '" data-id="' + escapeHtml(r.id || "") + '">' + hl(r.note) + '</a></li>'
         ).join("") + '</ul></div>'
       : '';
-    return relatedHtml +
+    return promotedHtml + relatedHtml +
       '<div class="field-label">Verdict</div><div class="field-value">' + hl(verdictLabel(entry.verdict)) + '</div>' +
       '<div class="field-label">Summary</div><div class="field-value">' + hl(entry.summary) + '</div>' +
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>' +
