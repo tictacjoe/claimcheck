@@ -1105,6 +1105,55 @@ function classifyOffenseCategory(raw) {
     [/politicization of intelligence|tradecraft/, "Intelligence Politicization"],
     [/first amendment/, "First Amendment Retaliation"],
     [/unlawful agency action/, "Unlawful Agency Action"],
+    [/federal records act/, "Federal Records Act Violation"],
+    [/whistleblower protection act|whistleblower-disclosure and congressional-notification|intelligence community whistleblower/, "Whistleblower Protection Act Violation"],
+    [/inspector general act/, "Inspector General Act Violation"],
+  ];
+
+  for (const [pattern, label] of rules) {
+    if (pattern.test(text)) return label;
+  }
+  return "Other/Unclassified";
+}
+
+/* Roughly two-thirds of entries describe lawful-but-concerning conduct --
+   e.g. a pardon, a personnel removal, an appointment -- that the
+   entry's own offense_category text explicitly disclaims as a legal
+   violation ("clemency is a constitutional power, not itself
+   unlawful"; "a personnel-authority action within [official]'s legal
+   power"). Folding those into Violation Type would misrepresent the
+   entry as alleging illegality it doesn't allege. This is a second,
+   separate classification -- only consulted when classifyOffenseCategory
+   returns "Other/Unclassified" -- naming the *pattern of concern*
+   without claiming it's a violation. The later rules (due-process,
+   public-integrity, civil-liberties, institutional-credibility,
+   institutional-accountability) aren't conduct patterns like the
+   earlier ones -- they're quoting a small, repeated self-labeling
+   vocabulary entries themselves use to state why they belong in this
+   tracker despite alleging no violation ("an institutional-accountability
+   claim... not a criminal charge"), which is a more directly-grounded
+   signal than a keyword guess at the conduct type. Order matters, same
+   convention as the two functions above: first match wins, so the
+   generic institutional-accountability catch-all runs last. */
+function classifyConcernType(raw) {
+  if (!raw) return "Other/Unclassified";
+  const text = raw.toLowerCase();
+
+  const rules = [
+    [/pardon|clemency|commutation/, "Pardon / Clemency Pattern"],
+    [/purge|retaliatory firing|retaliation against|removal of a senior|firing the nation's|firing national security|removal of the army|removal of a career|firing fbi personnel|firing of career|removed.*without stated cause|politicized removal/, "Retaliatory or Politicized Personnel Action"],
+    [/vetting|unqualified|unvetted|non-credentialed|research-compromised|politically-screened hiring|politically screened/, "Politicized or Unqualified Appointment/Hiring"],
+    [/misrepresentation|false statements|contradicted|mischaracteri|inaccurate public/, "Public Misrepresentation to Public or Congress"],
+    [/subpoena|abuse.of.(investigative.)?power/, "Investigative Power Used Against Critics/Institutions"],
+    [/prosecutorial discretion|prosecutorial misconduct|grand jury (overreach|misconduct|pressure)|dismissal of a pending federal|dismiss.*indictment|institutional.integrity|institutional.independence|prosecutorial.independence|rule.of.law/, "Institutional Independence / Prosecutorial Integrity Concern"],
+    [/politicization of a merit|racial and gender lines|politicization of/, "Politicization of Merit-Based Process"],
+    [/conflict of interest|personal.*benefit|undisclosed.*ties|business ties|financial ties/, "Conflict of Interest / Undisclosed Ties (Non-Adjudicated)"],
+    [/due.process/, "Due Process Concern"],
+    [/public.integrity/, "Public Integrity Concern"],
+    [/civil.liberties/, "Civil Liberties / Discriminatory Targeting Concern"],
+    [/institutional.credibility/, "Institutional Credibility Concern"],
+    [/perjury|referred for investigation/, "Referred for Investigation (Not Charged)"],
+    [/institutional.accountability/, "Institutional Accountability Concern (General)"],
   ];
 
   for (const [pattern, label] of rules) {
@@ -1287,6 +1336,7 @@ function visibleSearchText(entry, cfg) {
   } else if (cfg.kind === "prosecution") {
     parts.push(
       entry.offense_category, entry.offense_category_raw, entry.status_category, entry.status,
+      entry.concern_type,
       entry.last_updated,
       entry.section_summaries?.incident_summary, entry.section_summaries?.confidence_note,
       entry.incident_summary, entry.confidence_note
@@ -1405,6 +1455,9 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
   }
   // prosecution (default)
   return '<div class="field-label">Violation Type</div><div class="field-value">' + hl(entry.offense_category) + '</div>' +
+    (entry.concern_type && entry.concern_type !== "Other/Unclassified"
+      ? '<div class="field-label">Accountability Concern Type</div><div class="field-value">' + hl(entry.concern_type) + ' <em>(not alleged as a legal violation)</em></div>'
+      : '') +
     '<div class="field-label">Status Stage</div><div class="field-value">' + hl(entry.status_category) + '</div>' +
     '<div class="field-label">Alleged Violation (full legal citation)</div><div class="field-value">' + hl(entry.offense_category_raw || entry.offense_category) + '</div>' +
     '<div class="field-label">Incident summary</div><div class="field-value">' + summary(entry.section_summaries?.incident_summary) + hl(entry.incident_summary) + '</div>' +
@@ -1963,6 +2016,7 @@ async function loadAllData() {
       e.offense_category_raw = e.offense_category;
       e.offense_category = classifyOffenseCategory(e.offense_category);
       e.status_category = classifyStatus(e.status);
+      e.concern_type = e.offense_category === "Other/Unclassified" ? classifyConcernType(e.offense_category_raw) : null;
     });
   } else {
     loadErrors.push("prosecution.json (" + prosecutionResult.reason.message + ")");
