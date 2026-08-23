@@ -1165,7 +1165,7 @@ function visibleSearchText(entry, cfg) {
     parts.push(entry.date, entry.what_happened, entry.source_name);
   } else if (cfg.kind === "communitytopics") {
     parts.push(
-      verdictLabel(entry.verdict), entry.summary, entry.date_submitted
+      verdictLabel(entry.verdict), entry.summary, entry.submitted_claim, entry.date_submitted
     );
     (entry.sources || []).forEach(s => parts.push(s.name));
     (entry.related_entries || []).forEach(r => parts.push(r.note));
@@ -1256,6 +1256,7 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
         ).join("") + '</ul></div>'
       : '';
     return promotedHtml + relatedHtml +
+      (entry.submitted_claim ? '<div class="field-label">As submitted</div><div class="confidence-box">' + hl(entry.submitted_claim) + '</div>' : '') +
       '<div class="field-label">Verdict</div><div class="field-value">' + hl(verdictLabel(entry.verdict)) + '</div>' +
       '<div class="field-label">Summary</div><div class="field-value">' + hl(entry.summary) + '</div>' +
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>' +
