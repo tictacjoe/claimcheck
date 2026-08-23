@@ -135,6 +135,111 @@
   }
   .nav-action-btn:hover { background: var(--brass); color: var(--paper-card); border-color: var(--brass); }
 
+  /* ================= SUGGEST-A-TOPIC MODAL ================= */
+  .suggest-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(29, 34, 32, 0.55);
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .suggest-backdrop[hidden] { display: none; }
+  .suggest-modal {
+    background: var(--paper-card);
+    border: 1px solid var(--rule-strong);
+    border-radius: 6px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    max-width: 480px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 1.5rem;
+    position: relative;
+  }
+  .suggest-modal h2 {
+    font-family: Georgia, serif;
+    font-size: 1.3rem;
+    margin: 0 0 0.5rem;
+    color: var(--ink);
+  }
+  .suggest-modal p.suggest-desc {
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    margin: 0 0 1.1rem;
+    line-height: 1.4;
+  }
+  .suggest-close-btn {
+    position: absolute;
+    top: 0.9rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-family: ui-monospace, monospace;
+    font-size: 1rem;
+    color: var(--ink-faint);
+    cursor: pointer;
+    line-height: 1;
+  }
+  .suggest-close-btn:hover { color: var(--flag); }
+  .suggest-field-label {
+    font-family: ui-monospace, monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--brass);
+    margin: 0.9rem 0 0.35rem;
+  }
+  .suggest-modal textarea,
+  .suggest-modal input[type="url"] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid var(--rule-strong);
+    border-radius: 4px;
+    padding: 0.55rem 0.7rem;
+    font-family: ui-monospace, 'SF Mono', 'Courier New', monospace;
+    font-size: 0.9rem;
+    color: var(--ink);
+    background: var(--paper);
+    outline: none;
+  }
+  .suggest-modal textarea:focus,
+  .suggest-modal input[type="url"]:focus { border-color: var(--brass); }
+  .suggest-modal textarea { min-height: 5rem; resize: vertical; }
+  .suggest-submit-row {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    margin-top: 1.3rem;
+  }
+  .suggest-submit-btn {
+    font-family: ui-monospace, monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background: var(--brass);
+    color: var(--paper-card);
+    border: 1px solid var(--brass);
+    padding: 0.55rem 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .suggest-submit-btn:hover { opacity: 0.88; }
+  .suggest-submit-btn:disabled { opacity: 0.5; cursor: default; }
+  .suggest-fallback-link {
+    font-size: 0.75rem;
+    color: var(--ink-faint);
+  }
+  .suggest-fallback-link a { color: var(--ink-faint); }
+  .suggest-success {
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .suggest-success .stamp-check { font-size: 2rem; color: var(--verified); }
+  .suggest-success p { color: var(--ink-soft); font-size: 0.9rem; margin: 0.6rem 0 0; }
+
   @media (max-width: 600px) {
     .nav-actions { right: 0.75rem; bottom: 0.75rem; }
     .nav-action-btn { padding: 0.45rem 0.7rem; font-size: 0.68rem; }
@@ -514,9 +619,44 @@
 <div class="nav-actions">
   <button id="back-to-top-btn" class="nav-action-btn" type="button" title="Scroll to the top of the page">↑ Back to Top</button>
   <button id="start-over-btn" class="nav-action-btn" type="button" title="Clear search/filters and return to the default view">↻ Start Over</button>
-  <a id="suggest-claim-link" class="nav-action-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSeje_96qI3OzIVhd-4Ngb5WPA_6NmO20vY6AfcIFq_9b8jAFA/viewform" target="_blank" rel="noopener" title="Suggest a topic, claim, story, or government action for The Accountability Project to evaluate">✎ Suggest a Topic</a>
+  <button id="suggest-claim-link" class="nav-action-btn" type="button" title="Suggest a topic, claim, story, or government action for The Accountability Project to evaluate">✎ Suggest a Topic</button>
   <a id="about-link" class="nav-action-btn" href="about.html" title="How The Accountability Project verifies its entries and presents information">ℹ About</a>
 </div>
+
+<!-- Suggest-a-Topic modal: posts to the same Google Form the site used to
+     link out to (docs/tap-submission-triage.md), styled to match the site
+     instead of leaving for Google's default Forms UI. See the JS section
+     near the bottom for the hidden-iframe submission mechanism and why. -->
+<div class="suggest-backdrop" id="suggest-backdrop" hidden>
+  <div class="suggest-modal" role="dialog" aria-modal="true" aria-labelledby="suggest-modal-title">
+    <button class="suggest-close-btn" id="suggest-close-btn" type="button" title="Close">✕</button>
+    <div id="suggest-form-view">
+      <h2 id="suggest-modal-title">Suggest a Topic</h2>
+      <p class="suggest-desc">Suggest a topic, claim, story, or government action for The Accountability Project to research and add. Describe it below; a source link is optional but helpful.</p>
+      <label class="suggest-field-label" for="suggest-claim-input">Claim</label>
+      <textarea id="suggest-claim-input" required></textarea>
+      <label class="suggest-field-label" for="suggest-source-input">Source link if available</label>
+      <input type="url" id="suggest-source-input" placeholder="https://...">
+      <div class="suggest-submit-row">
+        <button class="suggest-submit-btn" id="suggest-submit-btn" type="button">Submit</button>
+        <span class="suggest-fallback-link">Trouble submitting? <a href="https://docs.google.com/forms/d/e/1FAIpQLSeje_96qI3OzIVhd-4Ngb5WPA_6NmO20vY6AfcIFq_9b8jAFA/viewform" target="_blank" rel="noopener">Use the form directly →</a></span>
+      </div>
+    </div>
+    <div id="suggest-success-view" class="suggest-success" hidden>
+      <div class="stamp-check">✓</div>
+      <p>Thanks — your submission was received. TAP reviews new submissions periodically and adds real, sourced topics to the site.</p>
+    </div>
+  </div>
+</div>
+<iframe name="suggest-target-frame" id="suggest-target-frame" style="display:none;" title="Submission target (hidden)"></iframe>
+<form id="suggest-hidden-form"
+      action="https://docs.google.com/forms/d/e/1FAIpQLSeje_96qI3OzIVhd-4Ngb5WPA_6NmO20vY6AfcIFq_9b8jAFA/formResponse"
+      method="POST"
+      target="suggest-target-frame"
+      style="display:none;">
+  <input type="text" name="entry.677815272" id="suggest-hidden-claim">
+  <input type="text" name="entry.1667762837" id="suggest-hidden-source">
+</form>
 
 <p class="browse-instead" id="browse-instead">— search or browse by database —</p>
 
@@ -1732,6 +1872,71 @@ document.getElementById("start-over-btn").addEventListener("click", () => {
   filterValue = "";
   renderDispatch();
   window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+/* Suggest-a-Topic modal: styled to match the site instead of sending
+   visitors to Google's default Forms UI, but still submits to the exact
+   same Google Form/Sheet -- same two fields (entry.677815272 = Claim,
+   entry.1667762837 = source link), same formResponse endpoint, same
+   submission triage pipeline (docs/tap-submission-triage.md). The
+   hidden <form target="suggest-target-frame"> posts into a hidden
+   <iframe> rather than fetch() -- this is the same mechanism Google's
+   own iframe-embed feature uses, not a fragile workaround, but a
+   cross-origin iframe's load can't tell this page whether Google
+   actually accepted the submission (that's a browser security
+   boundary, not a Google quirk). So the "received" confirmation below
+   is optimistic, shown after a fixed delay rather than a real success
+   signal -- the fallback link straight to the real form exists for the
+   rare case something's actually wrong. */
+const suggestBackdrop = document.getElementById("suggest-backdrop");
+const suggestClaimInput = document.getElementById("suggest-claim-input");
+const suggestSourceInput = document.getElementById("suggest-source-input");
+const suggestSubmitBtn = document.getElementById("suggest-submit-btn");
+const suggestFormView = document.getElementById("suggest-form-view");
+const suggestSuccessView = document.getElementById("suggest-success-view");
+
+function openSuggestModal() {
+  suggestFormView.hidden = false;
+  suggestSuccessView.hidden = true;
+  suggestClaimInput.value = "";
+  suggestSourceInput.value = "";
+  suggestSubmitBtn.disabled = false;
+  suggestSubmitBtn.textContent = "Submit";
+  suggestBackdrop.hidden = false;
+  suggestClaimInput.focus();
+}
+
+function closeSuggestModal() {
+  suggestBackdrop.hidden = true;
+}
+
+document.getElementById("suggest-claim-link").addEventListener("click", openSuggestModal);
+document.getElementById("suggest-close-btn").addEventListener("click", closeSuggestModal);
+suggestBackdrop.addEventListener("click", (e) => {
+  if (e.target === suggestBackdrop) closeSuggestModal();
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && !suggestBackdrop.hidden) closeSuggestModal();
+});
+
+suggestSubmitBtn.addEventListener("click", () => {
+  const claim = suggestClaimInput.value.trim();
+  if (!claim) {
+    suggestClaimInput.focus();
+    return;
+  }
+  document.getElementById("suggest-hidden-claim").value = claim;
+  document.getElementById("suggest-hidden-source").value = suggestSourceInput.value.trim();
+  suggestSubmitBtn.disabled = true;
+  suggestSubmitBtn.textContent = "Submitting…";
+  document.getElementById("suggest-hidden-form").submit();
+  // No readable confirmation from the cross-origin iframe -- see the
+  // comment above this block. A short delay lets the POST actually
+  // leave the browser before showing the optimistic success state.
+  setTimeout(() => {
+    suggestFormView.hidden = true;
+    suggestSuccessView.hidden = false;
+  }, 900);
 });
 
 /* Loads the three published JSON files. Uses Promise.allSettled
