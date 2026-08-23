@@ -37,6 +37,42 @@
     "date_added": "2026-08-23"
   },
   {
+    "id": "trump-presidential-wealth-growth-2026",
+    "topic": "Trump's personal net worth has grown substantially since returning to office, largely via crypto ventures",
+    "submitted_claim": "trump made 2 billion dollars since becoming president",
+    "verdict": "partially_confirmed",
+    "summary": "Trump's personal wealth has grown substantially since his January 2025 inauguration, primarily through cryptocurrency ventures (World Liberty Financial, a Trump-branded stablecoin and meme coin) and licensing deals for branded products (Bibles, watches, sneakers, guitars, fragrances). The specific '$2 billion' figure in the submission isn't the number tracking sources actually support, though: estimates vary widely by which two dates are compared and are highly volatile because crypto holdings dominate the total -- Forbes-based reporting places the change anywhere from roughly flat ($6.7 billion at his January 23, 2025 inauguration vs. $6.6 billion in January 2026) to as much as a $4.1 billion increase measured from a 2024 pre-election baseline. This tracker separately documents two specific mechanisms behind that growth in more legal-rigor detail -- see related entries below.",
+    "sources": [
+      {
+        "name": "Forbes -- The Definitive Net Worth Of Donald Trump",
+        "url": "https://www.forbes.com/sites/danalexander/article/the-definitive-networth-of-donaldtrump/"
+      },
+      {
+        "name": "TIME -- 3 Ways Trump's Wealth Has Soared Since He Returned to Office",
+        "url": "https://time.com/7342470/trump-net-worth-wealth-crypto/"
+      },
+      {
+        "name": "Yahoo Finance -- How Much Richer Donald Trump Has Gotten Over the Last 5 Years",
+        "url": "https://finance.yahoo.com/news/much-richer-donald-trump-gotten-135504690.html"
+      }
+    ],
+    "related_entries": [
+      {
+        "tracker": "prosecution",
+        "id": "trump-crypto-pardon-pattern-2025",
+        "note": "Documents one specific mechanism behind this wealth growth -- a pardon pattern tied to crypto-industry campaign spending and a direct $2 billion transaction benefiting the Trump family's own stablecoin venture"
+      },
+      {
+        "tracker": "prosecution",
+        "id": "trump-uae-chip-exports-crypto-conflict-2026",
+        "note": "Documents a separate specific mechanism -- an export-control decision benefiting the same UAE investor behind that stablecoin deal"
+      }
+    ],
+    "submitter_source_link": null,
+    "date_submitted": "2026-08-23",
+    "date_added": "2026-08-23"
+  },
+  {
     "id": "uss-abraham-lincoln-deployment-crisis-2026",
     "topic": "USS Abraham Lincoln's record-length deployment and reported crew welfare crisis",
     "submitted_claim": "lincoln aircraft carrier",
