@@ -41,5 +41,24 @@
     "submitter_source_link": null,
     "date_submitted": "2026-08-22",
     "date_added": "2026-08-22"
+  },
+  {
+    "id": "uss-abraham-lincoln-sailor-deaths-claim-2026",
+    "topic": "Claim that sailors are dying aboard the USS Abraham Lincoln",
+    "verdict": "misleading_as_stated",
+    "summary": "Iran's Tasnim news agency reported on August 11-12, 2026 that seven U.S. sailors were killed and several wounded in a violent brawl aboard the USS Abraham Lincoln, a claim quickly amplified by other Iranian and Syrian state outlets (PressTV, SANA). U.S. Central Command flatly denied the report, stating 'this report is false' and that no service members aboard the carrier had died. CENTCOM did confirm a real, separate incident -- one sailor went overboard on August 3 and was quickly and safely recovered. The underlying story of a genuine crew-welfare crisis aboard the Lincoln (record-length deployment, mental-health strain, suicide-attempt reports, poor living conditions) is independently documented -- see the Community Topics entry on the deployment/crew-welfare crisis -- but the specific 'sailors are dying' claim traces to unverified wartime propaganda from Iranian state media, not any confirmed incident.",
+    "sources": [
+      {
+        "name": "Newsweek -- CENTCOM slams 'false' Iran claim that 7 sailors died in USS Lincoln brawl",
+        "url": "https://www.newsweek.com/us-slams-false-iran-claim-that-seven-sailors-died-in-uss-lincoln-brawl-12321713"
+      },
+      {
+        "name": "JFeed -- USS Abraham Lincoln Sailor Deaths: Navy Issues Denial",
+        "url": "https://www.jfeed.com/news-world/uss-abraham-lincoln-sailor-deaths-denial"
+      }
+    ],
+    "submitter_source_link": null,
+    "date_submitted": "2026-08-23",
+    "date_added": "2026-08-23"
   }
 ]
