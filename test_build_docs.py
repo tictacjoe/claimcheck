@@ -210,6 +210,31 @@ def test_extract_title_and_summary_skips_straight_to_heading_and_paragraph():
     )
 
 
+def test_extract_title_and_summary_stops_at_list_immediately_after_prose():
+    text = (
+        "# A Reporting Database Backlog Triage Sweep\n\n"
+        "## Concept & Purpose\n"
+        "A Reporting Database Backlog Triage Sweep is a hybrid data-mining "
+        "and editorial curation workflow. It scans the reporting datastore "
+        "to discover, cluster, research, and promote high-impact stories "
+        "into the three structured, curated trackers:\n"
+        "- **Cabinet-Level Legal Exposure** tracks prosecutions.\n"
+        "- **Corporate Deregulation** tracks rollbacks.\n"
+        "- **Government Service Redirection** tracks cuts.\n\n"
+        "More text in a later paragraph that should not be included.\n"
+    )
+
+    title, summary = extract_title_and_summary(text)
+
+    assert title == "A Reporting Database Backlog Triage Sweep"
+    assert "It scans the reporting datastore" in summary
+    assert "into the three structured, curated trackers:" in summary
+    assert "Cabinet-Level Legal Exposure" not in summary
+    assert "Corporate Deregulation" not in summary
+    assert "Government Service Redirection" not in summary
+    assert "- " not in summary
+
+
 from build_docs import render_page, render_index
 
 

@@ -102,10 +102,10 @@ def extract_title_and_summary(markdown_text: str) -> tuple:
     for line in lines:
         stripped = line.strip()
         if not in_summary:
-            if not stripped or stripped.startswith("#") or stripped.startswith(">") or stripped.startswith("---"):
+            if not stripped or stripped.startswith("#") or stripped.startswith(">") or stripped.startswith("---") or _LIST_ITEM_RE.match(line):
                 continue
             in_summary = True
-        if not stripped:
+        if not stripped or _LIST_ITEM_RE.match(line):
             break
         summary_lines.append(stripped)
 
