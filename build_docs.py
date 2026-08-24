@@ -371,6 +371,9 @@ def build_docs(working: Path, site: Path) -> None:
             raw = md_file.read_text(encoding="utf-8")
         except (OSError, UnicodeDecodeError) as exc:
             print(f"  WARNING: skipping {md_file.name}: {exc}")
+            stale_output = output_dir / f"{md_file.stem}.html"
+            if stale_output.exists():
+                print(f"  WARNING: reports/{stale_output.name} was NOT pruned (previous output kept)")
             continue
 
         title, summary = extract_title_and_summary(raw)

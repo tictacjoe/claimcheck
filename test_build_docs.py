@@ -502,3 +502,69 @@ def test_build_docs_renders_markdown_in_index_summary(tmp_path):
     assert "<code>code</code>" in index_html
     assert "**bold text**" not in index_html
     assert "`code`" not in index_html
+
+
+def test_build_docs_warns_when_stale_output_survives_read_failure(tmp_path, capsys):
+    """When a .md file fails to read, but a previous .html exists for it,
+    the "was NOT pruned" warning should be printed."""
+    working = tmp_path / "tap-data"
+    site = tmp_path / "tap-site"
+    reports_dir = working / "docs" / "reports"
+    reports_dir.mkdir(parents=True)
+
+    # Create a good report so build_docs can generate at least one output
+    (reports_dir / "tap-project-overview.md").write_text(
+        "# Overview\n\nGood content.\n"
+    )
+    # Create the broken report
+    broken_md = reports_dir / "tap-sweep-broken.md"
+    broken_md.write_bytes(b"\xff\xfe not valid utf-8")
+
+    # First build: creates tap-project-overview.html, skips tap-sweep-broken.md (no html created for it)
+    build_docs(working, site)
+    assert (site / "reports" / "tap-project-overview.html").exists()
+    assert not (site / "reports" / "tap-sweep-broken.html").exists()
+
+    # Second run: Simulate the first run having succeeded in creating an html for tap-sweep-broken,
+    # then this run the .md file becomes unreadable. We create the stale html manually.
+    stale_broken_output = site / "reports" / "tap-sweep-broken.html"
+    stale_broken_output.write_text("<html><body>Stale broken content</body></html>")
+
+    # Now run build_docs again with the broken .md file
+    capsys.readouterr()  # Clear previous output
+    build_docs(working, site)
+    captured = capsys.readouterr()
+
+    # Both warnings should appear
+    assert "WARNING: skipping tap-sweep-broken.md" in captured.out
+    assert "was NOT pruned (previous output kept)" in captured.out
+    assert "tap-sweep-broken.html" in captured.out
+    # The stale file should still exist (not pruned)
+    assert stale_broken_output.exists()
+
+
+def test_build_docs_no_warning_when_no_stale_output_exists(tmp_path, capsys):
+    """When a .md file fails to read, but NO previous .html exists for it,
+    the "was NOT pruned" warning should NOT be printed."""
+    working = tmp_path / "tap-data"
+    site = tmp_path / "tap-site"
+    reports_dir = working / "docs" / "reports"
+    reports_dir.mkdir(parents=True)
+
+    # Create a good report so we have at least one output
+    (reports_dir / "tap-project-overview.md").write_text(
+        "# Overview\n\nGood content.\n"
+    )
+    # Create a broken report that has never been successfully built before
+    (reports_dir / "tap-sweep-never-built.md").write_bytes(b"\xff\xfe not valid utf-8")
+
+    capsys.readouterr()  # Clear previous output
+    build_docs(working, site)
+    captured = capsys.readouterr()
+
+    # The skip warning should appear
+    assert "WARNING: skipping tap-sweep-never-built.md" in captured.out
+    # But the "was NOT pruned" warning should NOT appear (no prior .html to warn about)
+    assert "was NOT pruned" not in captured.out
+    # The stale file should not exist (it was never created)
+    assert not (site / "reports" / "tap-sweep-never-built.html").exists()
