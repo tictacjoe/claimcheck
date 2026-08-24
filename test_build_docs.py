@@ -71,3 +71,58 @@ def test_rewrite_report_links_handles_multiple_links_in_one_line():
 
     assert "](./tap-sweep-reporting-database-updates.html)" in result
     assert "](./tap-sweep-reporting-backlog-triage.html)" in result
+
+
+from build_docs import convert_report
+
+
+def test_convert_report_preserves_footnote_anchor_and_return_link():
+    working = Path("/tmp/example/tap-data")
+    site = Path("/tmp/example/tap-site")
+    text = (
+        "The sweep begins with an automated scanning script."
+        '<a id="ref-scanning-script"></a><sup>[tn](#scanning-script)</sup>\n\n'
+        "## Technical Appendix\n\n"
+        "### Scanning Script\n"
+        f"Command: `python3 {working}/prosecution/find_stale_prosecution_entries.py`  \n"
+        "[↩ Return to text](#ref-scanning-script)\n"
+    )
+
+    html = convert_report(text, working, site)
+
+    assert '<a id="ref-scanning-script"></a>' in html
+    assert '<a href="#scanning-script">tn</a>' in html
+    assert '<a href="#ref-scanning-script">↩ Return to text</a>' in html
+
+
+def test_convert_report_strips_absolute_paths_in_code_spans():
+    working = Path("/tmp/example/tap-data")
+    site = Path("/tmp/example/tap-site")
+    text = f"Location: `{working}/prosecution/cabinet-level/`"
+
+    html = convert_report(text, working, site)
+
+    assert str(working) not in html
+    assert "<code>prosecution/cabinet-level/</code>" in html
+
+
+def test_convert_report_rewrites_report_links():
+    working = Path("/tmp/example/tap-data")
+    site = Path("/tmp/example/tap-site")
+    text = "See [the guide](./tap-sweep-cabinet-legal-exposure.md) for details."
+
+    html = convert_report(text, working, site)
+
+    assert '<a href="./tap-sweep-cabinet-legal-exposure.html">' in html
+    assert ".md" not in html
+
+
+def test_convert_report_renders_fenced_code_blocks():
+    working = Path("/tmp/example/tap-data")
+    site = Path("/tmp/example/tap-site")
+    text = "```markdown\nThe sweep begins.<sup>[tn](#slug)</sup>\n```\n"
+
+    html = convert_report(text, working, site)
+
+    assert "<pre>" in html
+    assert "<code" in html

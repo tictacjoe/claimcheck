@@ -52,6 +52,17 @@ def rewrite_report_links(text: str) -> str:
     return _MD_LINK_RE.sub(r"](\1.html)", text)
 
 
+def convert_report(markdown_text: str, working_dir: Path, site_dir: Path) -> str:
+    """Apply the text transforms, then convert Markdown to an HTML
+    fragment. Raw inline HTML (the <a id>/<sup> footnote markup) passes
+    through the `markdown` library untouched by default -- confirmed
+    empirically with markdown 3.10.3 -- which is what keeps the
+    two-way footnote navigation working after conversion."""
+    text = simplify_paths(markdown_text, working_dir, site_dir)
+    text = rewrite_report_links(text)
+    return markdown.markdown(text, extensions=["fenced_code"])
+
+
 def main():
     pass
 
