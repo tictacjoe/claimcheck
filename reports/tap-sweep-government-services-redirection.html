@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Accountability Project — Government Service Redirection Update Sweeps — The Accountability Project</title>
+<style>
+  :root {
+    --paper: #EDEFE7;
+    --paper-card: #F7F8F2;
+    --ink: #1D2220;
+    --ink-soft: #52564F;
+    --ink-faint: #8A8D82;
+    --rule: #C7CABB;
+    --rule-strong: #A9AC9A;
+    --brass: #96762C;
+    --brass-light: #EFE7D2;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+    line-height: 1.6;
+  }
+
+  header.masthead {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 1.5rem;
+    text-align: center;
+    border-bottom: 3px double var(--rule-strong);
+  }
+  header.masthead h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+  }
+  header.masthead .tagline {
+    margin: 0.6rem 0 0;
+    font-size: 0.85rem;
+    letter-spacing: 0.03em;
+    color: var(--brass);
+    font-style: italic;
+  }
+
+  main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  main h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 0.4rem;
+    margin-top: 2.5rem;
+  }
+  main h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--brass);
+    margin-top: 2rem;
+  }
+
+  main p { color: var(--ink-soft); }
+  main strong { color: var(--ink); }
+  main a { color: var(--brass); }
+
+  main blockquote {
+    margin: 1.5rem 0;
+    padding: 0.8rem 1.2rem;
+    border-left: 3px solid var(--brass);
+    background: var(--paper-card);
+    font-style: italic;
+    color: var(--ink-soft);
+  }
+
+  main pre {
+    background: var(--paper-card);
+    border: 1px solid var(--rule);
+    padding: 1rem;
+    overflow-x: auto;
+    font-size: 0.85rem;
+  }
+  main code {
+    font-family: ui-monospace, monospace;
+    background: var(--paper-card);
+    padding: 0.1rem 0.3rem;
+    font-size: 0.9em;
+  }
+  main pre code {
+    background: none;
+    padding: 0;
+  }
+
+  main hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 2.5rem 0;
+  }
+
+  main sup a {
+    color: var(--brass);
+    text-decoration: none;
+  }
+  main sup a:hover { text-decoration: underline; }
+
+  .report-index { list-style: none; padding: 0; }
+  .report-index li {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .report-index li a {
+    font-size: 1.1rem;
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .report-index li a:hover { color: var(--brass); }
+  .report-index li p {
+    margin: 0.4rem 0 0;
+    color: var(--ink-soft);
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+    font-family: ui-monospace, monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--brass);
+    text-decoration: none;
+  }
+  .back-link:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<header class="masthead">
+<h1>The Accountability Project — Government Service Redirection Update Sweeps</h1>
+<p class="tagline">The Accountability Project — Reports</p>
+</header>
+<main>
+<h1>The Accountability Project — Government Service Redirection Update Sweeps</h1>
+<h2>Concept &amp; Purpose</h2>
+<p>A Government Service Redirection (GSR) Update Sweep is a systematic review process that tracks the deliberate degradation of federal institutional capacity. </p>
+<p>Unlike Corporate Deregulation (which tracks public-facing industry rules) or Cabinet-Level Legal Exposure (which tracks individual criminal or statutory liability), GSR tracks actions where the machinery of government itself is suppressed, defunded, dismantled, or redirected across five distinct domains:</p>
+<ul>
+<li><strong><code>research_suppression</code>:</strong> Halting, censoring, or delaying scientific research (e.g. NIH mRNA reviews, CDC measles forecast suppression).</li>
+<li><strong><code>funding_redirection</code>:</strong> Unlawful impoundments, grant clawbacks, or cancelled agency contracts.</li>
+<li><strong><code>staff_office_cuts</code>:</strong> Mass firings, forced resignations, office closures, and quorum-loss / vacancy crises.</li>
+<li><strong><code>data_collection_halted</code>:</strong> Deleting federal datasets or cancelling recurring statistical surveys (e.g. USDA food security reports).</li>
+<li><strong><code>protection_rollback</code>:</strong> Rescinding internal health and safety protections for populations under direct federal care (e.g. military vaccine mandates, VA healthcare directives).</li>
+</ul>
+<h2>Stage 1: Institutional Backlog &amp; Staleness Detection</h2>
+<p>The sweep begins by running the GSR staleness scanner.<a id="ref-gsr-staleness-scanner"></a><sup><a href="#gsr-staleness-scanner">tn</a></sup></p>
+<p>The script audits every JSON entry in the datastore<a id="ref-entry-datastore"></a><sup><a href="#entry-datastore">tn</a></sup> and flags:</p>
+<ul>
+<li><strong>Unsettled Statuses:</strong> Entries whose <code>status</code> contains "ongoing", "pending", "unresolved", "unsettled", or "litigation".</li>
+<li><strong>Verification Age Check:</strong> Entries where <code>last_verified</code> is older than 60 days.</li>
+</ul>
+<h2>Stage 2: Watchdog, Institutional Record &amp; Impact Research</h2>
+<p>Because TAP entries require a high level of empirical rigor, research is prioritized against authoritative institutional sources:</p>
+<ul>
+<li><strong>Priority Sourcing Hierarchy:</strong></li>
+<li><em>Formal Watchdog &amp; Oversight Findings:</em> Government Accountability Office (GAO) Impoundment Control Act legal decisions, Inspector General reports, and Federal Vacancies Reform Act rulings.</li>
+<li><em>Named Proponents on Record:</em> Verifying the specific official (e.g., OMB Director, agency secretary, or acting administrator) who signed the order or directive.</li>
+<li><em>Quantified Institutional Impact:</em> Documenting hard numbers (grant dollars withheld, employee headcounts reduced, or specific datasets removed) from authoritative sources.</li>
+<li><em>Multi-Outlet Corroboration:</em> Requiring independent reporting from two or more major news organizations before upgrading confidence.</li>
+<li><strong>Per-Batch Research Notes:</strong> If an entry involves a Real Correction (such as court-ordered release of frozen NIH research funds or an official reversal), the full search trail is documented in a research brief file.<a id="ref-correction-file"></a><sup><a href="#correction-file">tn</a></sup></li>
+</ul>
+<h2>Stage 3: Schema Validation &amp; Domain Integrity</h2>
+<p>The updates are written programmatically, validating against the schema file:<a id="ref-schema"></a><sup><a href="#schema">tn</a></sup></p>
+<ul>
+<li><strong><code>primary_proponent</code>:</strong> Validates that a named individual and their specific role/action are recorded.</li>
+<li><strong><code>estimated_impact.figures[]</code>:</strong> Ensures every quantified metric includes explicit attribution to who produced the estimate.</li>
+<li><strong>Timestamp Rules:</strong> Updates <code>last_verified</code> to the entry's verification date while keeping <code>date_added</code> immutable.</li>
+<li><strong><code>section_summaries</code> Completeness Gate:</strong> Re-runs the validation script<a id="ref-summary-script"></a><sup><a href="#summary-script">tn</a></sup> to confirm every entry's <code>section_summaries</code> object has non-empty <code>what_changed</code>, <code>estimated_impact</code>, and <code>confidence_note</code> values before publishing.</li>
+</ul>
+<h2>Stage 4: Two-Repository Publishing &amp; Live Deployment</h2>
+<p>The sweep concludes by compiling and deploying the public feeds:</p>
+<ul>
+<li><strong>Private Research Repository:<a id="ref-private-research-repository"></a><sup><a href="#private-research-repository">tn</a></sup></strong> Staged, committed with detailed batch metrics, and pushed.</li>
+<li><strong>Publication Engine:<a id="ref-publication-engine"></a><sup><a href="#publication-engine">tn</a></sup></strong> Transforms the raw JSON entries into the public government services dataset<a id="ref-primary-json"></a><sup><a href="#primary-json">tn</a></sup> and updates the frontend's per-domain filters and labels.</li>
+<li><strong>Public Web Repository:<a id="ref-public-web-repository"></a><sup><a href="#public-web-repository">tn</a></sup></strong> Committed and pushed, instantly publishing the verified updates live to the web portal.<a id="ref-public-web-portal"></a><sup><a href="#public-web-portal">tn</a></sup></li>
+</ul>
+<hr />
+<h2>Technical Appendix</h2>
+<h3>GSR Staleness Scanner</h3>
+<p>Command: <code>python3 government-services/find_stale_entries.py government-services/entries</code><br />
+<a href="#ref-gsr-staleness-scanner">↩ Return to text</a></p>
+<h3>Entry Datastore</h3>
+<p>Location: <code>government-services/entries/</code><br />
+<a href="#ref-entry-datastore">↩ Return to text</a></p>
+<h3>Correction File</h3>
+<p>Location template: <code>tracker/output/research-briefs/gsr-recheck-batchNN-notes.md</code><br />
+<a href="#ref-correction-file">↩ Return to text</a></p>
+<h3>Schema</h3>
+<p>Location: <code>government-services/SCHEMA.md</code><br />
+<a href="#ref-schema">↩ Return to text</a></p>
+<h3>Summary Script</h3>
+<p>Validation script: <code>python3 government-services/validate_section_summaries.py</code><br />
+<a href="#ref-summary-script">↩ Return to text</a></p>
+<h3>Private Research Repository</h3>
+<p>Location: <code>tap-data</code><br />
+<a href="#ref-private-research-repository">↩ Return to text</a></p>
+<h3>Publication Engine</h3>
+<p>Command: <code>python3 /home/joe/gjoe/tap-site/publish.py --working tap-data --site /home/joe/gjoe/tap-site</code><br />
+<a href="#ref-publication-engine">↩ Return to text</a></p>
+<h3>Primary JSON</h3>
+<p>Location: <code>/home/joe/gjoe/tap-site/data/government-services.json</code><br />
+<a href="#ref-primary-json">↩ Return to text</a></p>
+<h3>Public Web Repository</h3>
+<p>Location: <code>/home/joe/gjoe/tap-site</code><br />
+<a href="#ref-public-web-repository">↩ Return to text</a></p>
+<h3>Public Web Portal</h3>
+<p>Location: GitHub Pages at <code>https://tictacjoe.github.io/tap/</code><br />
+<a href="#ref-public-web-portal">↩ Return to text</a></p>
+<a class="back-link" href="index.html">&larr; All Reports</a>
+<a class="back-link" href="../index.html">&larr; Back to The Accountability Project</a>
+</main>
+</body>
+</html>

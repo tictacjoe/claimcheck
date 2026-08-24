@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Accountability Project — Reporting Database Backlog Triage Sweeps — The Accountability Project</title>
+<style>
+  :root {
+    --paper: #EDEFE7;
+    --paper-card: #F7F8F2;
+    --ink: #1D2220;
+    --ink-soft: #52564F;
+    --ink-faint: #8A8D82;
+    --rule: #C7CABB;
+    --rule-strong: #A9AC9A;
+    --brass: #96762C;
+    --brass-light: #EFE7D2;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+    line-height: 1.6;
+  }
+
+  header.masthead {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 1.5rem;
+    text-align: center;
+    border-bottom: 3px double var(--rule-strong);
+  }
+  header.masthead h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+  }
+  header.masthead .tagline {
+    margin: 0.6rem 0 0;
+    font-size: 0.85rem;
+    letter-spacing: 0.03em;
+    color: var(--brass);
+    font-style: italic;
+  }
+
+  main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  main h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 0.4rem;
+    margin-top: 2.5rem;
+  }
+  main h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--brass);
+    margin-top: 2rem;
+  }
+
+  main p { color: var(--ink-soft); }
+  main strong { color: var(--ink); }
+  main a { color: var(--brass); }
+
+  main blockquote {
+    margin: 1.5rem 0;
+    padding: 0.8rem 1.2rem;
+    border-left: 3px solid var(--brass);
+    background: var(--paper-card);
+    font-style: italic;
+    color: var(--ink-soft);
+  }
+
+  main pre {
+    background: var(--paper-card);
+    border: 1px solid var(--rule);
+    padding: 1rem;
+    overflow-x: auto;
+    font-size: 0.85rem;
+  }
+  main code {
+    font-family: ui-monospace, monospace;
+    background: var(--paper-card);
+    padding: 0.1rem 0.3rem;
+    font-size: 0.9em;
+  }
+  main pre code {
+    background: none;
+    padding: 0;
+  }
+
+  main hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 2.5rem 0;
+  }
+
+  main sup a {
+    color: var(--brass);
+    text-decoration: none;
+  }
+  main sup a:hover { text-decoration: underline; }
+
+  .report-index { list-style: none; padding: 0; }
+  .report-index li {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .report-index li a {
+    font-size: 1.1rem;
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .report-index li a:hover { color: var(--brass); }
+  .report-index li p {
+    margin: 0.4rem 0 0;
+    color: var(--ink-soft);
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+    font-family: ui-monospace, monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--brass);
+    text-decoration: none;
+  }
+  .back-link:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<header class="masthead">
+<h1>The Accountability Project — Reporting Database Backlog Triage Sweeps</h1>
+<p class="tagline">The Accountability Project — Reports</p>
+</header>
+<main>
+<h1>The Accountability Project — Reporting Database Backlog Triage Sweeps</h1>
+<h2>Concept &amp; Purpose</h2>
+<p>A Reporting Database Backlog Triage Sweep is a hybrid data-mining and editorial curation workflow. It scans the reporting datastore<a id="ref-reporting-datastore"></a><sup><a href="#reporting-datastore">tn</a></sup> to discover, cluster, research, and promote high-impact stories into the three structured, curated trackers:</p>
+<ul>
+<li><strong>Cabinet-Level Legal Exposure</strong><a id="ref-legal-exposure-datastore"></a><sup><a href="#legal-exposure-datastore">tn</a></sup></li>
+<li><strong>Corporate Deregulation</strong><a id="ref-deregulation-datastore"></a><sup><a href="#deregulation-datastore">tn</a></sup></li>
+<li><strong>Government Service Redirection</strong><a id="ref-service-redirection-datastore"></a><sup><a href="#service-redirection-datastore">tn</a></sup></li>
+</ul>
+<p>This process bridges the gap between raw news volume and rigorous, source-verified database claims.</p>
+<h2>Stage 1: Automated Candidate Mining</h2>
+<p>The sweep initiates by running the candidate update script.<a id="ref-candidate-update-script"></a><sup><a href="#candidate-update-script">tn</a></sup></p>
+<ul>
+<li>The classifier searches the raw reporting corpus for statutory violations, regulatory rollbacks, agency impoundments, and watchdog findings.</li>
+<li>Extracted hits are appended to the candidates JSON file<a id="ref-extracted-candidate-hits"></a><sup><a href="#extracted-candidate-hits">tn</a></sup> with a default status of <code>"status": "untriaged"</code>.</li>
+<li>Stable IDs prevent duplicate ingestion across overlapping scan ranges.</li>
+</ul>
+<h2>Stage 2: Semantic Clustering &amp; Deduplication</h2>
+<p>When dealing with large candidate backlogs (100+ untriaged items), multiple news articles often cover the same ongoing real-world event. To eliminate redundant research passes:</p>
+<ul>
+<li><strong>Threshold Sweep:</strong><a id="ref-threshold-sweep"></a><sup><a href="#threshold-sweep">tn</a></sup> Evaluates cluster size distributions across similarity thresholds.</li>
+<li><strong>Apply Clustering:</strong><a id="ref-clustering-script"></a><sup><a href="#clustering-script">tn</a></sup> Groups stories by event, stamping each record with a <code>cluster_id</code> and designating one <code>is_representative</code> candidate per cluster.</li>
+</ul>
+<h2>Stage 3: Batch Export &amp; AI Research Pre-Pass</h2>
+<p>For each representative candidate cluster:</p>
+<ul>
+<li><strong>Batch Slicing:</strong> Export candidate batches using the batching script.<a id="ref-batching-script"></a><sup><a href="#batching-script">tn</a></sup></li>
+<li><strong>AI Pre-Pass Research:</strong> Execute the research pre-pass prompt<a id="ref-pre-pass-prompt"></a><sup><a href="#pre-pass-prompt">tn</a></sup> to independently query primary legal dockets, Federal Register filings, and agency inspector general reports.</li>
+<li><strong>URL &amp; Citation Verification:</strong> Run the verification script<a id="ref-verification-script"></a><sup><a href="#verification-script">tn</a></sup> to validate that all referenced URLs and citations are live, accessible, and factually corroborating.</li>
+</ul>
+<h2>Stage 4: Human-in-the-Loop Triage Decision &amp; Promotion</h2>
+<p>Each candidate is evaluated against strict project inclusion criteria:</p>
+<ul>
+<li><strong>Promotion to Curated Trackers:</strong> If a candidate meets the evidentiary threshold (a named official, a specific statutory/regulatory violation, and 2+ independent sources), a new JSON entry is created in the target tracker and stamped with <code>date_added</code>.</li>
+<li><strong>Declining Candidates:</strong> If the candidate lacks direct agency action or constitutes general political commentary, it is marked <code>"status": "declined"</code> in the candidates dataset<a id="ref-candidates-file"></a><sup><a href="#candidates-file">tn</a></sup> with an explicit reason recorded.</li>
+<li><strong>Audit Logging:</strong> All decisions and rationale are appended to the triage history file.<a id="ref-triage-history-file"></a><sup><a href="#triage-history-file">tn</a></sup></li>
+</ul>
+<h2>Stage 5: Two-Repository Publishing &amp; Live Deployment</h2>
+<p>Once triage is complete:</p>
+<ul>
+<li><strong>Private Research Repository:</strong> Staged, committed with batch triage metrics, and pushed.<a id="ref-private-research-repository"></a><sup><a href="#private-research-repository">tn</a></sup></li>
+<li><strong>Publication Engine:</strong> The compiler<a id="ref-publication-engine"></a><sup><a href="#publication-engine">tn</a></sup> regenerates all live JSON feeds and updates candidate counters.</li>
+<li><strong>Public Web Repository:</strong> Changes are committed and pushed, deploying promoted updates to the web portal.<a id="ref-public-web-repository"></a><sup><a href="#public-web-repository">tn</a></sup></li>
+</ul>
+<hr />
+<h2>Technical Appendix</h2>
+<h3>Reporting Datastore</h3>
+<p>Location: <code>tracker/output/posts.json</code><br />
+<a href="#ref-reporting-datastore">↩ Return to text</a></p>
+<h3>Legal Exposure Datastore</h3>
+<p>Location: <code>prosecution/cabinet-level/</code><br />
+<a href="#ref-legal-exposure-datastore">↩ Return to text</a></p>
+<h3>Deregulation Datastore</h3>
+<p>Location: <code>deregulation/entries/</code><br />
+<a href="#ref-deregulation-datastore">↩ Return to text</a></p>
+<h3>Service Redirection Datastore</h3>
+<p>Location: <code>government-services/entries/</code><br />
+<a href="#ref-service-redirection-datastore">↩ Return to text</a></p>
+<h3>Candidate Update Script</h3>
+<p>Command (incremental mode): <code>python3 tracker/find_candidate_entries.py --since-date YYYY-MM-DD</code><br />
+Command (30-day rolling sweep): <code>python3 tracker/find_candidate_entries.py --days 30</code><br />
+<a href="#ref-candidate-update-script">↩ Return to text</a></p>
+<h3>Extracted Candidate Hits</h3>
+<p>Location: <code>tracker/output/candidates.json</code><br />
+<a href="#ref-extracted-candidate-hits">↩ Return to text</a></p>
+<h3>Threshold Sweep</h3>
+<p>Command: <code>python3 tracker/cluster_candidates.py tracker/output/candidates.json --sweep</code><br />
+<a href="#ref-threshold-sweep">↩ Return to text</a></p>
+<h3>Clustering Script</h3>
+<p>Command: <code>python3 tracker/cluster_candidates.py tracker/output/candidates.json --threshold 0.20</code><br />
+<a href="#ref-clustering-script">↩ Return to text</a></p>
+<h3>Batching Script</h3>
+<p>Script: <code>tracker/export_cluster_batch.py</code><br />
+<a href="#ref-batching-script">↩ Return to text</a></p>
+<h3>Pre-Pass Prompt</h3>
+<p>Prompt template: <code>tracker/research_brief_prompt.md</code><br />
+<a href="#ref-pre-pass-prompt">↩ Return to text</a></p>
+<h3>Verification Script</h3>
+<p>Validation script: <code>python3 tracker/verify_research_brief.py</code><br />
+<a href="#ref-verification-script">↩ Return to text</a></p>
+<h3>Candidates File</h3>
+<p>Location: <code>tracker/output/candidates.json</code><br />
+<a href="#ref-candidates-file">↩ Return to text</a></p>
+<h3>Triage History File</h3>
+<p>Location: <code>docs/tap-candidate-triage-history.md</code><br />
+<a href="#ref-triage-history-file">↩ Return to text</a></p>
+<h3>Private Research Repository</h3>
+<p>Command: <code>cd tap-data &amp;&amp; git add tracker/output/candidates.json docs/tap-candidate-triage-history.md &amp;&amp; git commit -m "triage: candidate discovery batch" &amp;&amp; git push</code><br />
+<a href="#ref-private-research-repository">↩ Return to text</a></p>
+<h3>Publication Engine</h3>
+<p>Command: <code>python3 /home/joe/gjoe/tap-site/publish.py --working tap-data --site /home/joe/gjoe/tap-site</code><br />
+<a href="#ref-publication-engine">↩ Return to text</a></p>
+<h3>Public Web Repository</h3>
+<p>Location: <code>/home/joe/gjoe/tap-site</code> (Hosted at <code>https://tictacjoe.github.io/tap/</code>)<br />
+<a href="#ref-public-web-repository">↩ Return to text</a></p>
+<a class="back-link" href="index.html">&larr; All Reports</a>
+<a class="back-link" href="../index.html">&larr; Back to The Accountability Project</a>
+</main>
+</body>
+</html>
