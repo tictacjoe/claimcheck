@@ -169,3 +169,36 @@ def test_extract_title_and_summary_skips_straight_to_heading_and_paragraph():
         "A Cabinet-Level Legal Exposure Update Sweep is a systematic, "
         "multi-stage audit and verification pipeline."
     )
+
+
+from build_docs import render_page, render_index
+
+
+def test_render_page_includes_title_body_and_back_links():
+    html = render_page(
+        "Cabinet-Level Legal Exposure",
+        "<p>Body content here.</p>",
+        back_links=[("All Reports", "index.html"), ("Back to The Accountability Project", "../index.html")],
+    )
+
+    assert "<title>Cabinet-Level Legal Exposure — The Accountability Project</title>" in html
+    assert "<h1>Cabinet-Level Legal Exposure</h1>" in html
+    assert "<p>Body content here.</p>" in html
+    assert '<a class="back-link" href="index.html">&larr; All Reports</a>' in html
+    assert '<a class="back-link" href="../index.html">&larr; Back to The Accountability Project</a>' in html
+
+
+def test_render_index_lists_reports_with_overview_first():
+    reports = [
+        {"slug": "tap-sweep-corporate-deregulation", "title": "Corporate Deregulation", "summary": "Tracks rollbacks."},
+        {"slug": "tap-project-overview", "title": "Overview", "summary": "The project overview."},
+        {"slug": "tap-sweep-cabinet-legal-exposure", "title": "Cabinet-Level Legal Exposure", "summary": "Tracks liability."},
+    ]
+
+    html = render_index(reports)
+
+    overview_pos = html.index("tap-project-overview.html")
+    cabinet_pos = html.index("tap-sweep-cabinet-legal-exposure.html")
+    dereg_pos = html.index("tap-sweep-corporate-deregulation.html")
+    assert overview_pos < cabinet_pos < dereg_pos
+    assert "<p>The project overview.</p>" in html
