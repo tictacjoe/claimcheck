@@ -33,6 +33,26 @@ def test_simplify_paths_leaves_unrelated_text_untouched():
     assert result == text
 
 
+def test_simplify_paths_strips_bare_working_dir_path():
+    working = Path("/tmp/example/tap-data")
+    site = Path("/tmp/example/tap-site")
+    text = f"Location: `{working}`"
+
+    result = simplify_paths(text, working, site)
+
+    assert result == "Location: ``"
+
+
+def test_simplify_paths_strips_bare_site_dir_path():
+    working = Path("/tmp/example/tap-data")
+    site = Path("/tmp/example/tap-site")
+    text = f"Location: `{site}`"
+
+    result = simplify_paths(text, working, site)
+
+    assert result == "Location: ``"
+
+
 def test_rewrite_report_links_converts_md_to_html():
     text = "See [the guide](./tap-sweep-cabinet-legal-exposure.md) for details."
 

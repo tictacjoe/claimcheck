@@ -38,6 +38,8 @@ def simplify_paths(text: str, working_dir: Path, site_dir: Path) -> str:
     full absolute paths untouched."""
     text = text.replace(f"{working_dir}/", "")
     text = text.replace(f"{site_dir}/", "")
+    text = text.replace(str(working_dir), "")
+    text = text.replace(str(site_dir), "")
     return text
 
 
