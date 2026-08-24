@@ -100,6 +100,14 @@ def test_ensure_blank_line_before_lists_leaves_consecutive_items_as_is():
     assert result == text
 
 
+def test_ensure_blank_line_before_lists_ignores_unspaced_list_inside_fence():
+    text = "```\nTrackers:\n- one\n- two\n```\n"
+
+    result = ensure_blank_line_before_lists(text)
+
+    assert result == text
+
+
 from build_docs import convert_report
 
 
@@ -257,6 +265,28 @@ def test_render_page_includes_title_body_and_back_links():
     assert '<a class="back-link" href="../index.html">&larr; Back to The Accountability Project</a>' in html
 
 
+def test_render_page_escapes_ampersand_in_title():
+    html_out = render_page(
+        "Footnotes & References Guide",
+        "<p>Body content here.</p>",
+        back_links=[],
+    )
+
+    assert "Footnotes &amp; References Guide" in html_out
+    assert "Footnotes & References Guide" not in html_out
+
+
+def test_render_index_escapes_ampersand_in_title():
+    reports = [
+        {"slug": "tap-footnotes-and-references-guide", "title": "Footnotes & References Guide", "summary": "How footnotes work."},
+    ]
+
+    html_out = render_index(reports)
+
+    assert "Footnotes &amp; References Guide" in html_out
+    assert "Footnotes & References Guide" not in html_out
+
+
 def test_render_index_lists_reports_with_overview_first():
     reports = [
         {"slug": "tap-sweep-corporate-deregulation", "title": "Corporate Deregulation", "summary": "Tracks rollbacks."},
@@ -307,6 +337,31 @@ def test_build_docs_writes_one_html_file_per_report_and_an_index(tmp_path):
     index_html = (site / "reports" / "index.html").read_text()
     assert "tap-project-overview.html" in index_html
     assert "tap-sweep-cabinet-legal-exposure.html" in index_html
+
+
+def test_build_docs_does_not_duplicate_title_as_second_h1(tmp_path):
+    working = tmp_path / "tap-data"
+    site = tmp_path / "tap-site"
+    reports_dir = working / "docs" / "reports"
+    reports_dir.mkdir(parents=True)
+
+    (reports_dir / "tap-project-overview.md").write_text(
+        "# The Accountability Project — Overview\n\n"
+        "## Introduction\n\n"
+        "The Accountability Project began in early 2025.\n"
+    )
+
+    build_docs(working, site)
+
+    overview_html = (site / "reports" / "tap-project-overview.html").read_text()
+    # The masthead's <h1>{title}</h1> (from render_page) must still be
+    # present exactly once -- the body must NOT re-render the source's
+    # leading "# Title" line as a second <h1>.
+    assert overview_html.count("<h1>The Accountability Project — Overview</h1>") == 1
+    assert overview_html.count("<h1") == 1
+    # The rest of the body must still render normally.
+    assert "<h2" in overview_html
+    assert "The Accountability Project began in early 2025." in overview_html
 
 
 def test_build_docs_ignores_drafts_subfolder(tmp_path):

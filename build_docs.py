@@ -19,6 +19,7 @@ Usage:
 """
 
 import argparse
+import html
 import re
 import sys
 from pathlib import Path
@@ -53,6 +54,7 @@ def rewrite_report_links(text: str) -> str:
 
 
 _LIST_ITEM_RE = re.compile(r'^\s*(?:[-*+]|\d+\.)\s')
+_FENCE_RE = re.compile(r'^\s*```')
 
 
 def ensure_blank_line_before_lists(text: str) -> str:
@@ -60,11 +62,25 @@ def ensure_blank_line_before_lists(text: str) -> str:
     immediately follows non-blank, non-list text with no separating blank
     line -- CommonMark (and python-markdown) requires that blank line to
     recognize the list at all; without it, the whole block renders as one
-    <p> with literal list-marker characters."""
+    <p> with literal list-marker characters.
+
+    Fenced code blocks (```` ``` ````, plain or language-tagged like
+    ```` ```python ````) are passed through untouched -- list-shaped lines
+    inside a code sample (e.g. markdown-syntax examples) must not be
+    rewritten."""
     lines = text.split("\n")
     result = []
     prev_is_list_or_blank = True
+    in_fence = False
     for line in lines:
+        if _FENCE_RE.match(line):
+            in_fence = not in_fence
+            result.append(line)
+            prev_is_list_or_blank = False
+            continue
+        if in_fence:
+            result.append(line)
+            continue
         is_list = bool(_LIST_ITEM_RE.match(line))
         if is_list and not prev_is_list_or_blank:
             result.append("")
@@ -285,7 +301,10 @@ def render_page(title: str, body_html: str, back_links: list) -> str:
         f'<a class="back-link" href="{href}">&larr; {label}</a>'
         for label, href in back_links
     )
-    return _PAGE_TEMPLATE.format(title=title, css=_TEMPLATE_CSS, body=body_html, back_links=links_html)
+    # title comes from the report's raw Markdown H1 and is interpolated
+    # raw into HTML below (<title>, <h1>) -- escape it. body_html already
+    # comes from markdown.markdown(), which handles its own escaping.
+    return _PAGE_TEMPLATE.format(title=html.escape(title), css=_TEMPLATE_CSS, body=body_html, back_links=links_html)
 
 
 def render_index(reports: list) -> str:
@@ -299,7 +318,9 @@ def render_index(reports: list) -> str:
 
     ordered = sorted(reports, key=sort_key)
     items = "\n".join(
-        f'<li><a href="{r["slug"]}.html">{r["title"]}</a><p>{r["summary"]}</p></li>'
+        # r["title"] is raw text from the report's Markdown H1 -- escape
+        # it. r["summary"] already comes from markdown.markdown() output.
+        f'<li><a href="{r["slug"]}.html">{html.escape(r["title"])}</a><p>{r["summary"]}</p></li>'
         for r in ordered
     )
     body = f'<ul class="report-index">\n{items}\n</ul>'
@@ -339,7 +360,18 @@ def build_docs(working: Path, site: Path) -> None:
         summary_html = convert_report(summary, working, site)
         if summary_html.startswith("<p>") and summary_html.endswith("</p>"):
             summary_html = summary_html[len("<p>"):-len("</p>")]
-        body_html = convert_report(raw, working, site)
+        # The masthead (render_page) already shows the title as an <h1>;
+        # strip the leading "# Title" line here so the body doesn't
+        # re-emit it as a second <h1>. Only strips a genuine top-level
+        # heading -- "# " exactly, never "## " or deeper -- and only the
+        # very first line, leaving everything else (blank lines, later
+        # headings) untouched.
+        body_lines = raw.splitlines(keepends=True)
+        if body_lines and body_lines[0].startswith("# "):
+            body_text = "".join(body_lines[1:])
+        else:
+            body_text = raw
+        body_html = convert_report(body_text, working, site)
         page_html = render_page(title, body_html, back_links=[
             ("All Reports", "index.html"),
             ("Back to The Accountability Project", "../index.html"),
