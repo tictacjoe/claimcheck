@@ -202,3 +202,102 @@ def test_render_index_lists_reports_with_overview_first():
     dereg_pos = html.index("tap-sweep-corporate-deregulation.html")
     assert overview_pos < cabinet_pos < dereg_pos
     assert "<p>The project overview.</p>" in html
+
+
+from build_docs import build_docs
+
+
+def test_build_docs_writes_one_html_file_per_report_and_an_index(tmp_path):
+    working = tmp_path / "tap-data"
+    site = tmp_path / "tap-site"
+    reports_dir = working / "docs" / "reports"
+    reports_dir.mkdir(parents=True)
+
+    (reports_dir / "tap-project-overview.md").write_text(
+        "# The Accountability Project — Overview\n\n"
+        "## Introduction\n\n"
+        "The Accountability Project began in early 2025.\n"
+    )
+    (reports_dir / "tap-sweep-cabinet-legal-exposure.md").write_text(
+        "# The Accountability Project — Cabinet-Level Legal Exposure "
+        "Update Sweeps\n\n"
+        "## Concept & Purpose\n"
+        "A Cabinet-Level Legal Exposure Update Sweep tracks statutory "
+        "liability.\n"
+    )
+
+    build_docs(working, site)
+
+    overview_html = (site / "reports" / "tap-project-overview.html").read_text()
+    assert "<h1>The Accountability Project — Overview</h1>" in overview_html
+    assert "The Accountability Project began in early 2025." in overview_html
+
+    cabinet_html = (site / "reports" / "tap-sweep-cabinet-legal-exposure.html").read_text()
+    assert "Cabinet-Level Legal Exposure Update Sweeps" in cabinet_html
+
+    index_html = (site / "reports" / "index.html").read_text()
+    assert "tap-project-overview.html" in index_html
+    assert "tap-sweep-cabinet-legal-exposure.html" in index_html
+
+
+def test_build_docs_ignores_drafts_subfolder(tmp_path):
+    working = tmp_path / "tap-data"
+    site = tmp_path / "tap-site"
+    reports_dir = working / "docs" / "reports"
+    drafts_dir = reports_dir / "drafts"
+    drafts_dir.mkdir(parents=True)
+
+    (reports_dir / "tap-project-overview.md").write_text(
+        "# Overview\n\nReal content.\n"
+    )
+    (drafts_dir / "tap-project-overview-v1.md").write_text(
+        "# Old Draft\n\nSuperseded content.\n"
+    )
+
+    build_docs(working, site)
+
+    assert (site / "reports" / "tap-project-overview.html").exists()
+    assert not (site / "reports" / "tap-project-overview-v1.html").exists()
+
+
+def test_build_docs_excludes_video_narration_script(tmp_path):
+    working = tmp_path / "tap-data"
+    site = tmp_path / "tap-site"
+    reports_dir = working / "docs" / "reports"
+    reports_dir.mkdir(parents=True)
+
+    (reports_dir / "tap-project-overview.md").write_text(
+        "# Overview\n\nReal content.\n"
+    )
+    (reports_dir / "video_narration_script.md").write_text(
+        "# TAP Video Presentation — Narration Scripts\n\n"
+        "## Slide 1\nWelcome to The Accountability Project.\n"
+    )
+
+    build_docs(working, site)
+
+    assert (site / "reports" / "tap-project-overview.html").exists()
+    assert not (site / "reports" / "video_narration_script.html").exists()
+    index_html = (site / "reports" / "index.html").read_text()
+    assert "video_narration_script" not in index_html
+
+
+def test_build_docs_skips_unreadable_file_and_continues(tmp_path, capsys):
+    working = tmp_path / "tap-data"
+    site = tmp_path / "tap-site"
+    reports_dir = working / "docs" / "reports"
+    reports_dir.mkdir(parents=True)
+
+    (reports_dir / "tap-project-overview.md").write_text(
+        "# Overview\n\nGood content that should still convert.\n"
+    )
+    # Invalid UTF-8 bytes -- read_text(encoding="utf-8") will raise.
+    (reports_dir / "tap-sweep-broken.md").write_bytes(b"\xff\xfe not valid utf-8")
+
+    build_docs(working, site)
+
+    captured = capsys.readouterr()
+    assert "WARNING" in captured.out
+    assert "tap-sweep-broken.md" in captured.out
+    assert (site / "reports" / "tap-project-overview.html").exists()
+    assert not (site / "reports" / "tap-sweep-broken.html").exists()

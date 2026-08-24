@@ -284,8 +284,76 @@ def render_index(reports: list) -> str:
     return render_page("Reports", body, back_links=[("Back to The Accountability Project", "../index.html")])
 
 
+# video_narration_script.md is video-presentation narration cues, not a
+# standalone report -- it stays in docs/reports/ for VS Code editing but
+# is never converted or published.
+_EXCLUDED_REPORTS = {"video_narration_script.md"}
+
+
+def build_docs(working: Path, site: Path) -> None:
+    """Convert every *.md file directly in working/docs/reports/ (never
+    its drafts/ subfolder -- Path.glob("*.md") only matches direct
+    children -- and never _EXCLUDED_REPORTS) into a styled HTML page
+    under site/reports/, plus an index page listing all of them."""
+    reports_dir = working / "docs" / "reports"
+    output_dir = site / "reports"
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    reports = []
+    for md_file in sorted(reports_dir.glob("*.md")):
+        if md_file.name in _EXCLUDED_REPORTS:
+            continue
+        try:
+            raw = md_file.read_text(encoding="utf-8")
+        except (OSError, UnicodeDecodeError) as exc:
+            print(f"  WARNING: skipping {md_file.name}: {exc}")
+            continue
+
+        title, summary = extract_title_and_summary(raw)
+        body_html = convert_report(raw, working, site)
+        page_html = render_page(title, body_html, back_links=[
+            ("All Reports", "index.html"),
+            ("Back to The Accountability Project", "../index.html"),
+        ])
+
+        slug = md_file.stem
+        (output_dir / f"{slug}.html").write_text(page_html, encoding="utf-8")
+        reports.append({"slug": slug, "title": title, "summary": summary})
+        print(f"  converted: {md_file.name} -> reports/{slug}.html")
+
+    index_html = render_index(reports)
+    (output_dir / "index.html").write_text(index_html, encoding="utf-8")
+    print(f"  wrote reports/index.html ({len(reports)} report(s))")
+
+
 def main():
-    pass
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--working", default=str(Path.home() / "gjoe/tap-data"),
+                         help="Path to the private working repo")
+    parser.add_argument("--site", default=str(Path.home() / "gjoe/tap-site"),
+                         help="Path to the public site repo")
+    args = parser.parse_args()
+
+    working = Path(args.working)
+    site = Path(args.site)
+
+    if not working.exists():
+        print(f"ERROR: working repo not found at {working}")
+        sys.exit(1)
+    if not site.exists():
+        print(f"ERROR: site repo not found at {site}")
+        sys.exit(1)
+
+    print("=== reports ===")
+    build_docs(working, site)
+    print()
+    print("---")
+    print("Done. Now review and commit in the site repo:")
+    print(f"  cd {site}")
+    print(f"  git diff reports/")
+    print(f"  git add reports/")
+    print(f"  git commit -m \"docs: publish updated reports\"")
+    print(f"  git push")
 
 
 if __name__ == "__main__":
