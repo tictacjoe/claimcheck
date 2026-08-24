@@ -82,7 +82,7 @@ def convert_report(markdown_text: str, working_dir: Path, site_dir: Path) -> str
     text = simplify_paths(markdown_text, working_dir, site_dir)
     text = rewrite_report_links(text)
     text = ensure_blank_line_before_lists(text)
-    return markdown.markdown(text, extensions=["fenced_code"])
+    return markdown.markdown(text, extensions=["fenced_code", "toc"])
 
 
 def extract_title_and_summary(markdown_text: str) -> tuple:

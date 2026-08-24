@@ -120,6 +120,11 @@ def test_convert_report_preserves_footnote_anchor_and_return_link():
     assert '<a id="ref-scanning-script"></a>' in html
     assert '<a href="#scanning-script">tn</a>' in html
     assert '<a href="#ref-scanning-script">↩ Return to text</a>' in html
+    # The forward link's target must actually resolve: the "### Scanning
+    # Script" heading needs an id="scanning-script" attribute (generated
+    # by the `toc` markdown extension), not just plain text. Without this,
+    # href="#scanning-script" points at nothing.
+    assert '<h3 id="scanning-script">Scanning Script</h3>' in html
 
 
 def test_convert_report_strips_absolute_paths_in_code_spans():
