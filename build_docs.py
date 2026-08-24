@@ -346,10 +346,27 @@ def build_docs(working: Path, site: Path) -> None:
     output_dir = site / "reports"
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    md_files = [
+        md_file for md_file in sorted(reports_dir.glob("*.md"))
+        if md_file.name not in _EXCLUDED_REPORTS
+    ]
+
+    # site/reports/ is a fully generated directory -- nothing in it is
+    # hand-authored, everything comes from this function -- so prune any
+    # existing *.html file that won't be (re)written this run (e.g. its
+    # .md source was deleted). Compute the full set of expected outputs
+    # first (every slug about to be generated, plus the always-rewritten
+    # index.html) so a report that's merely being regenerated is never
+    # mistaken for stale.
+    expected_names = {f"{md_file.stem}.html" for md_file in md_files}
+    expected_names.add("index.html")
+    for existing in sorted(output_dir.glob("*.html")):
+        if existing.name not in expected_names:
+            existing.unlink()
+            print(f"  pruned stale: reports/{existing.name}")
+
     reports = []
-    for md_file in sorted(reports_dir.glob("*.md")):
-        if md_file.name in _EXCLUDED_REPORTS:
-            continue
+    for md_file in md_files:
         try:
             raw = md_file.read_text(encoding="utf-8")
         except (OSError, UnicodeDecodeError) as exc:

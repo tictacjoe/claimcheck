@@ -449,6 +449,41 @@ def test_build_docs_skips_unreadable_file_and_continues(tmp_path, capsys):
     assert not (site / "reports" / "tap-sweep-broken.html").exists()
 
 
+def test_build_docs_prunes_stale_html_when_source_md_removed(tmp_path):
+    working = tmp_path / "tap-data"
+    site = tmp_path / "tap-site"
+    reports_dir = working / "docs" / "reports"
+    reports_dir.mkdir(parents=True)
+
+    (reports_dir / "tap-project-overview.md").write_text(
+        "# Overview\n\nReal content.\n"
+    )
+    removed_md = reports_dir / "tap-sweep-old-report.md"
+    removed_md.write_text(
+        "# Old Report\n\nContent that will be deleted.\n"
+    )
+
+    build_docs(working, site)
+
+    overview_output = site / "reports" / "tap-project-overview.html"
+    removed_output = site / "reports" / "tap-sweep-old-report.html"
+    assert overview_output.exists()
+    assert removed_output.exists()
+
+    # Simulate Joe deleting the report's .md source.
+    removed_md.unlink()
+
+    build_docs(working, site)
+
+    assert not removed_output.exists()
+    assert overview_output.exists()
+    assert "Real content." in overview_output.read_text()
+
+    index_html = (site / "reports" / "index.html").read_text()
+    assert "tap-project-overview.html" in index_html
+    assert "tap-sweep-old-report" not in index_html
+
+
 def test_build_docs_renders_markdown_in_index_summary(tmp_path):
     working = tmp_path / "tap-data"
     site = tmp_path / "tap-site"
