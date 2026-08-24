@@ -73,6 +73,33 @@ def test_rewrite_report_links_handles_multiple_links_in_one_line():
     assert "](./tap-sweep-reporting-backlog-triage.html)" in result
 
 
+from build_docs import ensure_blank_line_before_lists
+
+
+def test_ensure_blank_line_before_lists_inserts_missing_blank_line():
+    text = "Trackers:\n- Item One\n- Item Two\n"
+
+    result = ensure_blank_line_before_lists(text)
+
+    assert result == "Trackers:\n\n- Item One\n- Item Two\n"
+
+
+def test_ensure_blank_line_before_lists_leaves_existing_blank_line_untouched():
+    text = "Trackers:\n\n- Item One\n- Item Two\n"
+
+    result = ensure_blank_line_before_lists(text)
+
+    assert result == text
+
+
+def test_ensure_blank_line_before_lists_leaves_consecutive_items_as_is():
+    text = "- Item One\n- Item Two\n- Item Three\n"
+
+    result = ensure_blank_line_before_lists(text)
+
+    assert result == text
+
+
 from build_docs import convert_report
 
 
@@ -126,6 +153,18 @@ def test_convert_report_renders_fenced_code_blocks():
 
     assert "<pre>" in html
     assert "<code" in html
+
+
+def test_convert_report_renders_list_that_immediately_follows_prose():
+    working = Path("/tmp/example/tap-data")
+    site = Path("/tmp/example/tap-site")
+    text = "Trackers:\n- Item One\n- Item Two\n"
+
+    html = convert_report(text, working, site)
+
+    assert "<ul>" in html
+    assert "<li>Item One</li>" in html
+    assert " - Item One" not in html
 
 
 from build_docs import extract_title_and_summary

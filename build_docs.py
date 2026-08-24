@@ -52,6 +52,27 @@ def rewrite_report_links(text: str) -> str:
     return _MD_LINK_RE.sub(r"](\1.html)", text)
 
 
+_LIST_ITEM_RE = re.compile(r'^\s*(?:[-*+]|\d+\.)\s')
+
+
+def ensure_blank_line_before_lists(text: str) -> str:
+    """Insert a blank line before a Markdown list's first item when it
+    immediately follows non-blank, non-list text with no separating blank
+    line -- CommonMark (and python-markdown) requires that blank line to
+    recognize the list at all; without it, the whole block renders as one
+    <p> with literal list-marker characters."""
+    lines = text.split("\n")
+    result = []
+    prev_is_list_or_blank = True
+    for line in lines:
+        is_list = bool(_LIST_ITEM_RE.match(line))
+        if is_list and not prev_is_list_or_blank:
+            result.append("")
+        result.append(line)
+        prev_is_list_or_blank = is_list or line.strip() == ""
+    return "\n".join(result)
+
+
 def convert_report(markdown_text: str, working_dir: Path, site_dir: Path) -> str:
     """Apply the text transforms, then convert Markdown to an HTML
     fragment. Raw inline HTML (the <a id>/<sup> footnote markup) passes
@@ -60,6 +81,7 @@ def convert_report(markdown_text: str, working_dir: Path, site_dir: Path) -> str
     two-way footnote navigation working after conversion."""
     text = simplify_paths(markdown_text, working_dir, site_dir)
     text = rewrite_report_links(text)
+    text = ensure_blank_line_before_lists(text)
     return markdown.markdown(text, extensions=["fenced_code"])
 
 
