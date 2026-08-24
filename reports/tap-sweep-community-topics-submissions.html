@@ -150,7 +150,6 @@
 <p class="tagline">The Accountability Project — Reports</p>
 </header>
 <main>
-<h1 id="the-accountability-project-community-topics-and-submission-sweeps">The Accountability Project — Community Topics and Submission Sweeps</h1>
 <h2 id="concept-purpose">Concept &amp; Purpose</h2>
 <p>A Community Topics and Submission Sweep is an interactive intake and verification workflow that bridges public oversight and rigorous data auditing. While the primary curated trackers focus strictly on named individual statutory liability, formal agency rule rollbacks, and institutional degradation, citizen readers frequently surface emerging policy questions, viral social media claims, and local impacts that merit rigorous, independent examination.</p>
 <p>The Community Topics pipeline provides a dedicated, lightweight fact-checking layer for public submissions. Rather than discarding suggestions that fall outside the narrow parameters of the curated trackers, the sweep investigates each real topic, stamps it with an objective verdict, contextualizes it with verified primary sources, and publishes a transparent audit record on the public site.</p>
@@ -186,7 +185,7 @@
 <hr />
 <h2 id="technical-appendix">Technical Appendix</h2>
 <h3 id="intake-modal">Intake Modal</h3>
-<p>Interface: Plain HTML form in <code>/home/joe/gjoe/tap-site/index.html</code> submitting asynchronously to Google Form response endpoints.<br />
+<p>Interface: Plain HTML form in <code>index.html</code> submitting asynchronously to Google Form response endpoints.<br />
 <a href="#ref-intake-modal">↩ Return to text</a></p>
 <h3 id="intake-sheet">Intake Sheet</h3>
 <p>Location: Google Sheet <code>14PaLmsWsZiJl7it4XVROmc4bhDSvXsKum8w5VkREQgs</code> (Tab: <code>Form Responses 1</code>)<br />
@@ -213,13 +212,13 @@
 <p>Location: <code>tap-data</code><br />
 <a href="#ref-private-research-repository">↩ Return to text</a></p>
 <h3 id="publication-engine">Publication Engine</h3>
-<p>Command: <code>python3 /home/joe/gjoe/tap-site/publish.py --working tap-data --site /home/joe/gjoe/tap-site</code><br />
+<p>Command: <code>python3 publish.py --working tap-data --site tap-site</code><br />
 <a href="#ref-publication-engine">↩ Return to text</a></p>
 <h3 id="primary-json">Primary JSON</h3>
-<p>Location: <code>/home/joe/gjoe/tap-site/data/community-topics.json</code><br />
+<p>Location: <code>data/community-topics.json</code><br />
 <a href="#ref-primary-json">↩ Return to text</a></p>
 <h3 id="public-web-repository">Public Web Repository</h3>
-<p>Location: <code>/home/joe/gjoe/tap-site</code><br />
+<p>Location: <code>tap-site</code><br />
 <a href="#ref-public-web-repository">↩ Return to text</a></p>
 <h3 id="public-web-portal">Public Web Portal</h3>
 <p>Location: GitHub Pages at <code>https://tictacjoe.github.io/tap/</code><br />
