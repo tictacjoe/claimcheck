@@ -40,7 +40,7 @@ def test_simplify_paths_strips_bare_working_dir_path():
 
     result = simplify_paths(text, working, site)
 
-    assert result == "Location: ``"
+    assert result == "Location: `tap-data`"
 
 
 def test_simplify_paths_strips_bare_site_dir_path():
@@ -50,7 +50,7 @@ def test_simplify_paths_strips_bare_site_dir_path():
 
     result = simplify_paths(text, working, site)
 
-    assert result == "Location: ``"
+    assert result == "Location: `tap-site`"
 
 
 def test_rewrite_report_links_converts_md_to_html():
@@ -323,3 +323,23 @@ def test_build_docs_skips_unreadable_file_and_continues(tmp_path, capsys):
     assert "tap-sweep-broken.md" in captured.out
     assert (site / "reports" / "tap-project-overview.html").exists()
     assert not (site / "reports" / "tap-sweep-broken.html").exists()
+
+
+def test_build_docs_renders_markdown_in_index_summary(tmp_path):
+    working = tmp_path / "tap-data"
+    site = tmp_path / "tap-site"
+    reports_dir = working / "docs" / "reports"
+    reports_dir.mkdir(parents=True)
+
+    (reports_dir / "tap-project-overview.md").write_text(
+        "# Overview\n\n"
+        "This uses **bold text** and `code`.\n"
+    )
+
+    build_docs(working, site)
+
+    index_html = (site / "reports" / "index.html").read_text()
+    assert "<strong>bold text</strong>" in index_html
+    assert "<code>code</code>" in index_html
+    assert "**bold text**" not in index_html
+    assert "`code`" not in index_html

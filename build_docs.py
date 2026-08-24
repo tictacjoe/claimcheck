@@ -38,8 +38,8 @@ def simplify_paths(text: str, working_dir: Path, site_dir: Path) -> str:
     full absolute paths untouched."""
     text = text.replace(f"{working_dir}/", "")
     text = text.replace(f"{site_dir}/", "")
-    text = text.replace(str(working_dir), "")
-    text = text.replace(str(site_dir), "")
+    text = text.replace(str(working_dir), working_dir.name)
+    text = text.replace(str(site_dir), site_dir.name)
     return text
 
 
@@ -314,6 +314,9 @@ def build_docs(working: Path, site: Path) -> None:
             continue
 
         title, summary = extract_title_and_summary(raw)
+        summary_html = convert_report(summary, working, site)
+        if summary_html.startswith("<p>") and summary_html.endswith("</p>"):
+            summary_html = summary_html[len("<p>"):-len("</p>")]
         body_html = convert_report(raw, working, site)
         page_html = render_page(title, body_html, back_links=[
             ("All Reports", "index.html"),
@@ -322,7 +325,7 @@ def build_docs(working: Path, site: Path) -> None:
 
         slug = md_file.stem
         (output_dir / f"{slug}.html").write_text(page_html, encoding="utf-8")
-        reports.append({"slug": slug, "title": title, "summary": summary})
+        reports.append({"slug": slug, "title": title, "summary": summary_html})
         print(f"  converted: {md_file.name} -> reports/{slug}.html")
 
     index_html = render_index(reports)
