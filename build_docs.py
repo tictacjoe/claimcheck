@@ -63,6 +63,34 @@ def convert_report(markdown_text: str, working_dir: Path, site_dir: Path) -> str
     return markdown.markdown(text, extensions=["fenced_code"])
 
 
+def extract_title_and_summary(markdown_text: str) -> tuple:
+    """Pull the H1 title and a one-line description (the first real
+    paragraph, skipping headings, blockquotes, and horizontal rules)
+    out of a report's raw Markdown, for the index page listing."""
+    lines = markdown_text.splitlines()
+
+    title = ""
+    for line in lines:
+        if line.startswith("# "):
+            title = line[2:].strip()
+            break
+
+    summary_lines = []
+    in_summary = False
+    for line in lines:
+        stripped = line.strip()
+        if not in_summary:
+            if not stripped or stripped.startswith("#") or stripped.startswith(">") or stripped.startswith("---"):
+                continue
+            in_summary = True
+        if not stripped:
+            break
+        summary_lines.append(stripped)
+
+    summary = " ".join(summary_lines)
+    return title, summary
+
+
 def main():
     pass
 

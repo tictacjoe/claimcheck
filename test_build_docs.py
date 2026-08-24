@@ -126,3 +126,46 @@ def test_convert_report_renders_fenced_code_blocks():
 
     assert "<pre>" in html
     assert "<code" in html
+
+
+from build_docs import extract_title_and_summary
+
+
+def test_extract_title_and_summary_skips_blockquote_before_first_heading():
+    text = (
+        "# The Accountability Project — Overview\n\n"
+        '> "While headlines flood, the record stands."\n\n'
+        "## Introduction\n\n"
+        "The Accountability Project began in early 2025 as a personal "
+        "reference archive of news reports.\n\n"
+        "More text in a later paragraph that should not be included.\n"
+    )
+
+    title, summary = extract_title_and_summary(text)
+
+    assert title == "The Accountability Project — Overview"
+    assert summary == (
+        "The Accountability Project began in early 2025 as a personal "
+        "reference archive of news reports."
+    )
+
+
+def test_extract_title_and_summary_skips_straight_to_heading_and_paragraph():
+    text = (
+        "# The Accountability Project — Cabinet-Level Legal Exposure "
+        "Update Sweeps\n\n"
+        "## Concept & Purpose\n"
+        "A Cabinet-Level Legal Exposure Update Sweep is a systematic, "
+        "multi-stage audit and verification pipeline.\n"
+    )
+
+    title, summary = extract_title_and_summary(text)
+
+    assert title == (
+        "The Accountability Project — Cabinet-Level Legal Exposure "
+        "Update Sweeps"
+    )
+    assert summary == (
+        "A Cabinet-Level Legal Exposure Update Sweep is a systematic, "
+        "multi-stage audit and verification pipeline."
+    )
