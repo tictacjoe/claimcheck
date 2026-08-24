@@ -150,11 +150,11 @@
 <p class="tagline">The Accountability Project — Reports</p>
 </header>
 <main>
-<h1>The Accountability Project — Community Topics and Submission Sweeps</h1>
-<h2>Concept &amp; Purpose</h2>
+<h1 id="the-accountability-project-community-topics-and-submission-sweeps">The Accountability Project — Community Topics and Submission Sweeps</h1>
+<h2 id="concept-purpose">Concept &amp; Purpose</h2>
 <p>A Community Topics and Submission Sweep is an interactive intake and verification workflow that bridges public oversight and rigorous data auditing. While the primary curated trackers focus strictly on named individual statutory liability, formal agency rule rollbacks, and institutional degradation, citizen readers frequently surface emerging policy questions, viral social media claims, and local impacts that merit rigorous, independent examination.</p>
 <p>The Community Topics pipeline provides a dedicated, lightweight fact-checking layer for public submissions. Rather than discarding suggestions that fall outside the narrow parameters of the curated trackers, the sweep investigates each real topic, stamps it with an objective verdict, contextualizes it with verified primary sources, and publishes a transparent audit record on the public site.</p>
-<h2>Stage 1: Public Intake &amp; Queue Auditing</h2>
+<h2 id="stage-1-public-intake-queue-auditing">Stage 1: Public Intake &amp; Queue Auditing</h2>
 <p>The intake lifecycle begins when a reader submits a topic through the in-page submission modal on the live site.<a id="ref-intake-modal"></a><sup><a href="#intake-modal">tn</a></sup></p>
 <p>Submissions are captured in a structured intake sheet,<a id="ref-intake-sheet"></a><sup><a href="#intake-sheet">tn</a></sup> recording the submission timestamp, the raw claim description, and an optional source link. During a triage sweep:</p>
 <ul>
@@ -162,21 +162,21 @@
 <li><strong>Batch Partitioning:</strong> To maintain deep factual rigor and prevent superficial skimming, submissions are audited in focused batches of approximately 6 items.</li>
 <li><strong>Scope Verification:</strong> Each item is checked to confirm it pertains to federal government activity, agency directives, or public policy.</li>
 </ul>
-<h2>Stage 2: Targeted Primary Research &amp; Fit Classification</h2>
+<h2 id="stage-2-targeted-primary-research-fit-classification">Stage 2: Targeted Primary Research &amp; Fit Classification</h2>
 <p>For every submission in the batch, researchers execute 1 to 3 targeted web searches across official agency releases, court records, Federal Register notices, and established investigative reporting.<a id="ref-research-standard"></a><sup><a href="#research-standard">tn</a></sup> Each submission is classified into one of three distinct outcomes:</p>
 <ul>
 <li><strong>Direct Promotion to Curated Tracker:</strong> If a submission clears the strict evidentiary standard (a named official, a specific statutory or regulatory violation, and 2+ independent primary sources), it is converted into a full curated entry.<a id="ref-promoted-entry"></a><sup><a href="#promoted-entry">tn</a></sup> A lightweight pointer entry is created in Community Topics to ensure the submitter's query remains publicly traceable.</li>
 <li><strong>Community Topics Fact-Check:</strong> If the topic is authentic and verifiable but represents a broad policy trend, an agency-wide shift without single-official liability, or a disputed factual claim, it is authored as an entry in the fifth datastore.<a id="ref-community-datastore"></a><sup><a href="#community-datastore">tn</a></sup> Every entry receives an objective verdict (<code>confirmed</code>, <code>partially_confirmed</code>, <code>unable_to_verify</code>, or <code>misleading_as_stated</code>), a 2-4 sentence plain-language summary, and corroborating citations.</li>
 <li><strong>Off-Site Decline:</strong> Submissions representing commercial spam, non-governmental commentary, or exact duplicates are marked as declined directly in the intake queue with an explicit reason recorded.</li>
 </ul>
-<h2>Stage 3: Schema Validation &amp; Traceability Enforcement</h2>
+<h2 id="stage-3-schema-validation-traceability-enforcement">Stage 3: Schema Validation &amp; Traceability Enforcement</h2>
 <p>All verified Community Topics entries are authored programmatically, enforcing strict schema compliance:<a id="ref-schema-file"></a><sup><a href="#schema-file">tn</a></sup></p>
 <ul>
 <li><strong>Preserving Raw Submissions:</strong> The submitter's exact wording is preserved verbatim in the submitted claim field,<a id="ref-verbatim-claim"></a><sup><a href="#verbatim-claim">tn</a></sup> ensuring transparency while presenting a cleaned topic headline for site navigation.</li>
 <li><strong>Cross-Tracker Promotion Anchors:</strong> If an item was promoted to a curated tracker, a cross-reference tag<a id="ref-promotion-link"></a><sup><a href="#promotion-link">tn</a></sup> creates an interactive link connecting the community card directly to the detailed tracker record.</li>
 <li><strong>Schema Validation Gate:</strong> Re-runs programmatic validation scripts to verify that all required fields, verdict enums, source URLs, and date formats conform to project specifications before building.</li>
 </ul>
-<h2>Stage 4: Two-Repository Publishing &amp; Live Deployment</h2>
+<h2 id="stage-4-two-repository-publishing-live-deployment">Stage 4: Two-Repository Publishing &amp; Live Deployment</h2>
 <p>The sweep concludes by synchronizing the local research datastore and deploying the static public feed:</p>
 <ul>
 <li><strong>Private Research Repository:<a id="ref-private-research-repository"></a><sup><a href="#private-research-repository">tn</a></sup></strong> Validated records are staged, committed with batch triage metrics, and pushed.</li>
@@ -184,44 +184,44 @@
 <li><strong>Public Web Repository:<a id="ref-public-web-repository"></a><sup><a href="#public-web-repository">tn</a></sup></strong> Changes are committed and pushed, instantly publishing the verified fact-checks and promoted topics to the web portal.<a id="ref-public-web-portal"></a><sup><a href="#public-web-portal">tn</a></sup></li>
 </ul>
 <hr />
-<h2>Technical Appendix</h2>
-<h3>Intake Modal</h3>
+<h2 id="technical-appendix">Technical Appendix</h2>
+<h3 id="intake-modal">Intake Modal</h3>
 <p>Interface: Plain HTML form in <code>/home/joe/gjoe/tap-site/index.html</code> submitting asynchronously to Google Form response endpoints.<br />
 <a href="#ref-intake-modal">↩ Return to text</a></p>
-<h3>Intake Sheet</h3>
+<h3 id="intake-sheet">Intake Sheet</h3>
 <p>Location: Google Sheet <code>14PaLmsWsZiJl7it4XVROmc4bhDSvXsKum8w5VkREQgs</code> (Tab: <code>Form Responses 1</code>)<br />
 <a href="#ref-intake-sheet">↩ Return to text</a></p>
-<h3>Research Standard</h3>
+<h3 id="research-standard">Research Standard</h3>
 <p>Workflow guide: <code>docs/tap-submission-triage.md</code> (Section 4: Per-row triage standards)<br />
 <a href="#ref-research-standard">↩ Return to text</a></p>
-<h3>Promoted Entry</h3>
+<h3 id="promoted-entry">Promoted Entry</h3>
 <p>Integration specification: <code>community-topics/SCHEMA.md</code> (Immediate integration guidelines)<br />
 <a href="#ref-promoted-entry">↩ Return to text</a></p>
-<h3>Community Datastore</h3>
+<h3 id="community-datastore">Community Datastore</h3>
 <p>Location: <code>community-topics/entries/</code><br />
 <a href="#ref-community-datastore">↩ Return to text</a></p>
-<h3>Schema File</h3>
+<h3 id="schema-file">Schema File</h3>
 <p>Location: <code>community-topics/SCHEMA.md</code><br />
 <a href="#ref-schema-file">↩ Return to text</a></p>
-<h3>Verbatim Claim</h3>
+<h3 id="verbatim-claim">Verbatim Claim</h3>
 <p>Field definition: <code>submitted_claim</code> (Preserves raw intake Sheet text for public display)<br />
 <a href="#ref-verbatim-claim">↩ Return to text</a></p>
-<h3>Promotion Link</h3>
+<h3 id="promotion-link">Promotion Link</h3>
 <p>Field definition: <code>promoted_to</code> (Renders clickable link jumping directly to target curated card)<br />
 <a href="#ref-promotion-link">↩ Return to text</a></p>
-<h3>Private Research Repository</h3>
+<h3 id="private-research-repository">Private Research Repository</h3>
 <p>Location: <code>tap-data</code><br />
 <a href="#ref-private-research-repository">↩ Return to text</a></p>
-<h3>Publication Engine</h3>
+<h3 id="publication-engine">Publication Engine</h3>
 <p>Command: <code>python3 /home/joe/gjoe/tap-site/publish.py --working tap-data --site /home/joe/gjoe/tap-site</code><br />
 <a href="#ref-publication-engine">↩ Return to text</a></p>
-<h3>Primary JSON</h3>
+<h3 id="primary-json">Primary JSON</h3>
 <p>Location: <code>/home/joe/gjoe/tap-site/data/community-topics.json</code><br />
 <a href="#ref-primary-json">↩ Return to text</a></p>
-<h3>Public Web Repository</h3>
+<h3 id="public-web-repository">Public Web Repository</h3>
 <p>Location: <code>/home/joe/gjoe/tap-site</code><br />
 <a href="#ref-public-web-repository">↩ Return to text</a></p>
-<h3>Public Web Portal</h3>
+<h3 id="public-web-portal">Public Web Portal</h3>
 <p>Location: GitHub Pages at <code>https://tictacjoe.github.io/tap/</code><br />
 <a href="#ref-public-web-portal">↩ Return to text</a></p>
 <a class="back-link" href="index.html">&larr; All Reports</a>

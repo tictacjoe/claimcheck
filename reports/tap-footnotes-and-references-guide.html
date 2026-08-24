@@ -150,12 +150,12 @@
 <p class="tagline">The Accountability Project — Reports</p>
 </header>
 <main>
-<h1>The Accountability Project (TAP) — Technical Footnotes &amp; References Guide</h1>
+<h1 id="the-accountability-project-tap-technical-footnotes-references-guide">The Accountability Project (TAP) — Technical Footnotes &amp; References Guide</h1>
 <blockquote>
 <p><strong>Standard Specification:</strong> Single-file reporting architecture with unnumbered <code>[tn]</code> superscript callouts and two-way clickable return navigation (<code>↩ Return to text</code>) for VS Code, Markdown, and published HTML web feeds.</p>
 </blockquote>
 <hr />
-<h2>1. Overview &amp; Core Philosophy</h2>
+<h2 id="1-overview-core-philosophy">1. Overview &amp; Core Philosophy</h2>
 <p>TAP reports use a <strong>two-way hyperlink architecture</strong> that keeps policy prose completely clean for congressional and public readers while providing instant, clickable technical deep-dives for developers and data analysts:</p>
 <ol>
 <li><strong>Single Master File:</strong> No duplicate <code>-executive.md</code> files or compile scripts. All prose and technical notes live in one self-contained document.</li>
@@ -166,9 +166,9 @@
 <li><strong>Universal Compatibility:</strong> Works 100% natively in VS Code Markdown Preview, GitHub Pages (<code>tap-site</code>), mobile browsers, and PDF exports without requiring third-party plugins.</li>
 </ol>
 <hr />
-<h2>2. The Two-Part Syntax Standard</h2>
+<h2 id="2-the-two-part-syntax-standard">2. The Two-Part Syntax Standard</h2>
 <p>Every technical note consists of a matching <strong>Callout in the text</strong> and a <strong>Definition in the Technical Appendix</strong>.</p>
-<h3>Part 1: In-Text Callout (In Your Paragraph)</h3>
+<h3 id="part-1-in-text-callout-in-your-paragraph">Part 1: In-Text Callout (In Your Paragraph)</h3>
 <p>Place the return anchor <code>&lt;a id="ref-slug"&gt;&lt;/a&gt;</code> immediately followed by the superscript link <code>&lt;sup&gt;[tn](#slug)&lt;/sup&gt;</code> right after the relevant word or punctuation:</p>
 <pre><code class="language-markdown">The sweep begins with an automated scanning script.&lt;a id=&quot;ref-scanning-script&quot;&gt;&lt;/a&gt;&lt;sup&gt;[tn](#scanning-script)&lt;/sup&gt;
 </code></pre>
@@ -177,7 +177,7 @@
 <li><code>&lt;sup&gt;[tn](#scanning-script)&lt;/sup&gt;</code> displays the elevated <code>[tn]</code> link and points down to the appendix.</li>
 </ul>
 <hr />
-<h3>Part 2: Appendix Definition (At the Bottom of the File)</h3>
+<h3 id="part-2-appendix-definition-at-the-bottom-of-the-file">Part 2: Appendix Definition (At the Bottom of the File)</h3>
 <p>At the bottom of the document under <code>## Technical Appendix</code>, create the matching heading and append the return link:</p>
 <pre><code class="language-markdown">### Scanning Script
 Command: `python3 prosecution/find_stale_prosecution_entries.py prosecution/cabinet-level`  
@@ -188,21 +188,21 @@ Command: `python3 prosecution/find_stale_prosecution_entries.py prosecution/cabi
 <li><code>[↩ Return to text](#ref-scanning-script)</code> provides the one-click return jump to the paragraph.</li>
 </ul>
 <hr />
-<h2>3. Step-by-Step: Adding a New Technical Note</h2>
+<h2 id="3-step-by-step-adding-a-new-technical-note">3. Step-by-Step: Adding a New Technical Note</h2>
 <p>Whenever you want to attach technical details to a sentence, follow these three steps:</p>
-<h3>Step 1: Choose a Short Slug Name</h3>
+<h3 id="step-1-choose-a-short-slug-name">Step 1: Choose a Short Slug Name</h3>
 <p>Choose a short, descriptive name in lowercase with hyphens (e.g. <code>schema-validators</code>, <code>database-location</code>, <code>staleness-scanner</code>).</p>
-<h3>Step 2: Paste the Callout in Your Text</h3>
+<h3 id="step-2-paste-the-callout-in-your-text">Step 2: Paste the Callout in Your Text</h3>
 <pre><code class="language-markdown">Every output must pass through programmatic validation gates.&lt;a id=&quot;ref-my-slug&quot;&gt;&lt;/a&gt;&lt;sup&gt;[tn](#my-slug)&lt;/sup&gt;
 </code></pre>
-<h3>Step 3: Add the Note to the Technical Appendix</h3>
+<h3 id="step-3-add-the-note-to-the-technical-appendix">Step 3: Add the Note to the Technical Appendix</h3>
 <p>Scroll down to the bottom of the file under <code>## Technical Appendix</code> and add:</p>
 <pre><code class="language-markdown">### My Slug Title
 Technical details, script commands, or schema rules go here.  
 [↩ Return to text](#ref-my-slug)
 </code></pre>
 <hr />
-<h2>4. Slug Naming Rules &amp; Pitfalls to Avoid</h2>
+<h2 id="4-slug-naming-rules-pitfalls-to-avoid">4. Slug Naming Rules &amp; Pitfalls to Avoid</h2>
 <ol>
 <li><strong>Always Include the Leading <code>#</code> in Links:</strong></li>
 <li>Correct: <code>&lt;sup&gt;[tn](#scanning-script)&lt;/sup&gt;</code> and <code>[↩ Return to text](#ref-scanning-script)</code></li>
@@ -214,7 +214,7 @@ Technical details, script commands, or schema rules go here.
 <li>Slugs should always be <strong>all lowercase</strong> with words separated by hyphens (e.g. <code>#publication-engine</code>).</li>
 </ol>
 <hr />
-<h2>5. Complete Copy-and-Paste Boilerplate Template</h2>
+<h2 id="5-complete-copy-and-paste-boilerplate-template">5. Complete Copy-and-Paste Boilerplate Template</h2>
 <pre><code class="language-markdown"># Report Title
 
 ## Stage 1: Overview
@@ -234,7 +234,7 @@ Location: `data/incoming_news/`
 [↩ Return to text](#ref-json-storage)
 </code></pre>
 <hr />
-<h2>6. How to Test and Preview in VS Code</h2>
+<h2 id="6-how-to-test-and-preview-in-vs-code">6. How to Test and Preview in VS Code</h2>
 <ol>
 <li>Open any report in VS Code (e.g. <code>tap-sweep-cabinet-legal-exposure.md</code>).</li>
 <li>Press <code>Ctrl+K</code> then <code>V</code> (or click <strong>Open Preview to the Side</strong> in the upper-right corner).</li>

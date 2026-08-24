@@ -150,10 +150,10 @@
 <p class="tagline">The Accountability Project — Reports</p>
 </header>
 <main>
-<h1>The Accountability Project — Cabinet-Level Legal Exposure Update Sweeps</h1>
-<h2>Concept &amp; Purpose</h2>
+<h1 id="the-accountability-project-cabinet-level-legal-exposure-update-sweeps">The Accountability Project — Cabinet-Level Legal Exposure Update Sweeps</h1>
+<h2 id="concept-purpose">Concept &amp; Purpose</h2>
 <p>A Cabinet-Level Legal Exposure Update Sweep is a systematic, multi-stage audit and verification pipeline designed to maintain high evidentiary standards across legal exposure records for federal officials. Because court proceedings, Inspector General investigations, congressional subpoenas, and agency actions evolve continuously, this sweep ensures that every statutory violation record remains accurate, corroborated, and legally sound.</p>
-<h2>Stage 1: Multi-Factor Staleness &amp; Exposure Detection</h2>
+<h2 id="stage-1-multi-factor-staleness-exposure-detection">Stage 1: Multi-Factor Staleness &amp; Exposure Detection</h2>
 <p>The sweep begins with an automated scanning script.<a id="ref-scanning-script"></a><sup><a href="#scanning-script">tn</a></sup></p>
 <p>The script audits every JSON entry in the datastore<a id="ref-datastore-location"></a><sup><a href="#datastore-location">tn</a></sup> against four distinct trigger conditions:</p>
 <ul>
@@ -162,7 +162,7 @@
 <li><strong>Low or Moderate Confidence:</strong> Flags any entry where <code>confidence_note</code> indicates open evidentiary gaps.</li>
 <li><strong>Calendar Age Check:</strong> Flags entries where <code>last_updated</code> exceeds 60 days — a backstop to periodically recheck records that aren't forced to update by one of the other built-in mechanisms.</li>
 </ul>
-<h2>Stage 2: Batching &amp; Deep-Dive Primary Research</h2>
+<h2 id="stage-2-batching-deep-dive-primary-research">Stage 2: Batching &amp; Deep-Dive Primary Research</h2>
 <p>To prevent superficial skimming, flagged entries are partitioned into controlled batches of approximately 6 files. For each entry in the batch:</p>
 <ul>
 <li><strong>Full Context Ingestion:</strong> The engine reads the official's identity, the underlying statute (such as the Hatch Act, Antideficiency Act, Impoundment Control Act, or FACA), the legal elements required, and existing citations.</li>
@@ -172,14 +172,14 @@
 <li><strong>Moderate Update:</strong> Substantive new legal milestones occurred (e.g., motion filed, subpoena issued, or hearing held). The <code>status</code> and <code>evidence[]</code> arrays are expanded with verified facts.</li>
 <li><strong>Real Correction:</strong> The entry was factually superseded (e.g., a lawsuit was dismissed or a policy rescinded). The entry is updated directly, and a dedicated research brief is generated as a file<a id="ref-correction-research-brief"></a><sup><a href="#correction-research-brief">tn</a></sup> documenting the search trail and discarded near-misses.</li>
 </ul>
-<h2>Stage 3: Programmatic JSON Mutation &amp; Schema Validation</h2>
+<h2 id="stage-3-programmatic-json-mutation-schema-validation">Stage 3: Programmatic JSON Mutation &amp; Schema Validation</h2>
 <p>Updates are written programmatically via Python scripts that enforce strict schema constraints:</p>
 <ul>
 <li>Preserves Unicode formatting (literal em-dashes and quotes rather than escaped <code>\uXXXX</code> strings).</li>
 <li>Enforces 2-space indentation and exact field ordering (<code>id</code>, <code>official</code>, <code>offense_category</code>, <code>incident_summary</code>, <code>contested</code>, <code>elements_required</code>, <code>evidence</code>, <code>status</code>, <code>rebuttal_anticipated</code>, <code>comeback</code>, <code>cause</code>, <code>last_updated</code>, <code>date_added</code>, <code>confidence_note</code>, <code>section_summaries</code>).</li>
 <li>Re-runs the validators,<a id="ref-schema-validators"></a><sup><a href="#schema-validators">tn</a></sup> which check that every entry's <code>section_summaries</code> object has non-empty <code>incident_summary</code> and <code>confidence_note</code> values, to confirm zero schema violations or malformed JSON blocks.</li>
 </ul>
-<h2>Stage 4: Two-Repository Publishing &amp; Live Deployment</h2>
+<h2 id="stage-4-two-repository-publishing-live-deployment">Stage 4: Two-Repository Publishing &amp; Live Deployment</h2>
 <p>The sweep finishes by executing the synchronized two-repository release process:</p>
 <ul>
 <li><strong>Private Research Repository:<a id="ref-private-research-repository"></a><sup><a href="#private-research-repository">tn</a></sup></strong> Staged, committed with batch-specific metrics, and pushed.</li>
@@ -187,29 +187,29 @@
 <li><strong>Public Web Repository:<a id="ref-public-web-repository"></a><sup><a href="#public-web-repository">tn</a></sup></strong> Changes are committed and pushed, automatically deploying the verified updates to the web portal.<a id="ref-public-web-portal"></a><sup><a href="#public-web-portal">tn</a></sup></li>
 </ul>
 <hr />
-<h2>Technical Appendix</h2>
-<h3>Scanning Script</h3>
+<h2 id="technical-appendix">Technical Appendix</h2>
+<h3 id="scanning-script">Scanning Script</h3>
 <p>Command: <code>python3 prosecution/find_stale_prosecution_entries.py prosecution/cabinet-level</code><br />
 <a href="#ref-scanning-script">↩ Return to text</a></p>
-<h3>Datastore Location</h3>
+<h3 id="datastore-location">Datastore Location</h3>
 <p>Location: <code>prosecution/cabinet-level/</code><br />
 <a href="#ref-datastore-location">↩ Return to text</a></p>
-<h3>Correction Research Brief</h3>
+<h3 id="correction-research-brief">Correction Research Brief</h3>
 <p>Location template: <code>tracker/output/research-briefs/cabinet-recheck-batchNN-notes.md</code><br />
 <a href="#ref-correction-research-brief">↩ Return to text</a></p>
-<h3>Schema Validators</h3>
+<h3 id="schema-validators">Schema Validators</h3>
 <p>Validation script: <code>python3 prosecution/validate_section_summaries.py</code><br />
 <a href="#ref-schema-validators">↩ Return to text</a></p>
-<h3>Private Research Repository</h3>
+<h3 id="private-research-repository">Private Research Repository</h3>
 <p>Location: <code>tap-data</code><br />
 <a href="#ref-private-research-repository">↩ Return to text</a></p>
-<h3>Publication Engine</h3>
+<h3 id="publication-engine">Publication Engine</h3>
 <p>Command: <code>python3 /home/joe/gjoe/tap-site/publish.py --working tap-data --site /home/joe/gjoe/tap-site</code><br />
 <a href="#ref-publication-engine">↩ Return to text</a></p>
-<h3>Public Web Repository</h3>
+<h3 id="public-web-repository">Public Web Repository</h3>
 <p>Location: <code>/home/joe/gjoe/tap-site</code><br />
 <a href="#ref-public-web-repository">↩ Return to text</a></p>
-<h3>Public Web Portal</h3>
+<h3 id="public-web-portal">Public Web Portal</h3>
 <p>Location: GitHub Pages at <code>https://tictacjoe.github.io/tap/</code><br />
 <a href="#ref-public-web-portal">↩ Return to text</a></p>
 <a class="back-link" href="index.html">&larr; All Reports</a>
