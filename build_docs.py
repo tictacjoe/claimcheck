@@ -286,8 +286,12 @@ def render_index(reports: list) -> str:
 
 # video_narration_script.md is video-presentation narration cues, not a
 # standalone report -- it stays in docs/reports/ for VS Code editing but
-# is never converted or published.
-_EXCLUDED_REPORTS = {"video_narration_script.md"}
+# is never converted or published. tap-docs-audit-and-publishing-report.md
+# is a private engineering session report about auditing and designing this
+# build_docs.py feature -- it contains internal project-management narrative
+# and references to git commits/VS Code scratch files, not public-facing
+# content for the Reports section.
+_EXCLUDED_REPORTS = {"video_narration_script.md", "tap-docs-audit-and-publishing-report.md"}
 
 
 def build_docs(working: Path, site: Path) -> None:

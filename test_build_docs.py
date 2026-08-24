@@ -282,6 +282,28 @@ def test_build_docs_excludes_video_narration_script(tmp_path):
     assert "video_narration_script" not in index_html
 
 
+def test_build_docs_excludes_tap_docs_audit_and_publishing_report(tmp_path):
+    working = tmp_path / "tap-data"
+    site = tmp_path / "tap-site"
+    reports_dir = working / "docs" / "reports"
+    reports_dir.mkdir(parents=True)
+
+    (reports_dir / "tap-project-overview.md").write_text(
+        "# Overview\n\nReal content.\n"
+    )
+    (reports_dir / "tap-docs-audit-and-publishing-report.md").write_text(
+        "# Internal Audit and Publishing Report\n\n"
+        "## Engineering Session\nPrivate project-management narrative and git references.\n"
+    )
+
+    build_docs(working, site)
+
+    assert (site / "reports" / "tap-project-overview.html").exists()
+    assert not (site / "reports" / "tap-docs-audit-and-publishing-report.html").exists()
+    index_html = (site / "reports" / "index.html").read_text()
+    assert "tap-docs-audit-and-publishing-report" not in index_html
+
+
 def test_build_docs_skips_unreadable_file_and_continues(tmp_path, capsys):
     working = tmp_path / "tap-data"
     site = tmp_path / "tap-site"
