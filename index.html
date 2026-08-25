@@ -465,18 +465,30 @@
     display: flex;
     gap: 0.6rem;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
   }
-  .entry-meta span:not(:first-child):not(.domain-tag):not(.source-tag) {
+  .entry-meta > span:not(:first-child):not(.domain-tag):not(.source-tag):not(.meta-field) {
     position: relative;
     padding-left: 0.75rem;
   }
-  .entry-meta span:not(:first-child):not(.domain-tag):not(.source-tag)::before {
+  .entry-meta > span:not(:first-child):not(.domain-tag):not(.source-tag):not(.meta-field)::before {
     content: "•";
     position: absolute;
     left: 0;
     color: var(--rule-strong);
   }
+  .meta-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .meta-field-label {
+    font-size: 0.62rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--brass);
+  }
+  .meta-field-value { color: var(--ink-faint); }
   .domain-tag {
     display: inline-block;
     padding: 0.1rem 0.5rem;
@@ -1505,7 +1517,10 @@ function buildEntryCard(entry, cfg, docketLabel, sourceLabel, term, useRegex) {
                '<span>submitted ' + (entry.date_submitted || "") + '</span>' +
                '<span>' + hl(truncate(entry.summary || "", 100)) + '</span>';
   } else {
-    metaHtml += '<span>' + hl(entry.offense_category) + '</span><span>' + hl(entry.status_category) + '</span><span>updated ' + (entry.last_updated || "") + '</span>';
+    metaHtml += '<span class="meta-field"><span class="meta-field-label">Violation Type</span><span class="meta-field-value">' + hl(entry.offense_category) + '</span></span>' +
+               '<span class="meta-field"><span class="meta-field-label">Status Stage</span><span class="meta-field-value">' + hl(entry.status_category) + '</span></span>' +
+               (entry.concern_type ? '<span class="meta-field"><span class="meta-field-label">Concern</span><span class="meta-field-value">' + hl(entry.concern_type) + '</span></span>' : '') +
+               '<span>updated ' + (entry.last_updated || "") + '</span>';
   }
 
   div.innerHTML =
