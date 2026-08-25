@@ -706,7 +706,7 @@
     <input type="text" id="search" placeholder="Search entries...">
     <button id="search-clear-btn" class="clear-search-btn" type="button" title="Clear search text">✕</button>
     <select id="filter"></select>
-    <label class="regex-toggle" id="sort-added-label"><input type="checkbox" id="sort-newest-added"> most recent entries first</label>
+    <select id="sort-order"></select>
   </div>
   <div class="result-count" id="count"></div>
   <div id="entries"></div>
@@ -835,6 +835,7 @@ function flattenTrackerPosts(posts) {
 let activeTracker = "deregulation";
 let searchTerm = "";
 let filterValue = "";
+let sortValue = "";
 
 function stampClass(entry, cfg) {
   if (cfg.kind === "deregulation") {
@@ -1025,6 +1026,18 @@ function impactScore(entry, cfg) {
     return tierScore[entry.verdict] || 0;
   }
   return 0;
+}
+
+/* Backing signal for the "most covered" sort option -- how much
+   documentation supports an entry. Most trackers carry a `sources`
+   array, but prosecution has no `sources` field at all (one stray
+   legacy entry aside) and uses `evidence` instead; Reporting has a
+   single source_name/source_url pair rather than an array, so it's
+   0-or-1 there. */
+function coverageCount(entry, cfg) {
+  if (cfg.kind === "prosecution") return (entry.evidence || []).length;
+  if (cfg.kind === "tracker") return entry.source_name ? 1 : 0;
+  return (entry.sources || []).length;
 }
 
 /* Human-readable label for why something scored the way it did --
@@ -1633,7 +1646,7 @@ function renderTabs() {
     // still reset since each tracker's filter dropdown has a different,
     // tracker-specific set of options (domain vs. status category etc.)
     // that wouldn't carry over meaningfully.
-    btn.onclick = () => { activeTracker = key; filterValue = ""; renderDispatch(); };
+    btn.onclick = () => { activeTracker = key; filterValue = ""; sortValue = ""; renderDispatch(); };
     nav.appendChild(btn);
   });
 }
@@ -1667,14 +1680,31 @@ function renderFilterOptions(cfg) {
   sel.value = filterValue;
 }
 
-/* The "newest added first" toggle only makes sense for the three
-   curated trackers, which carry a hand-stamped date_added field --
-   Reporting is a mechanical Substack scrape ingested in batches, not
-   a target for individually-added claims, so it has no dateAddedField
-   and the toggle is hidden rather than sorting on an absent value. */
+/* Builds the sort-order dropdown's options per tracker -- mirrors
+   renderFilterOptions()'s pattern of rebuilding a <select>'s contents
+   on every tab switch, then restoring the current selection from the
+   sortValue global (the DOM element itself doesn't survive innerHTML
+   rebuilds). "Default" always means whatever renderEntries() falls
+   back to below when sortValue is "" -- impact score for most
+   trackers, date-of-action recency for Government Service
+   Redirection -- so it's never mislabeled here.
+   "Most recent entries added" only makes sense for the curated
+   trackers, which carry a hand-stamped date_added field -- Reporting
+   is a mechanical Substack scrape ingested in batches, not a target
+   for individually-added claims, so it has no dateAddedField and the
+   option is omitted rather than sorting on an absent value.
+   "Most covered" is omitted for Reporting too -- entries there carry
+   a single source_name/source_url pair, not the array coverageCount()
+   needs to produce a meaningful ordering. */
 function renderSortToggle(cfg) {
-  const label = document.getElementById("sort-added-label");
-  label.style.display = cfg.dateAddedField ? "" : "none";
+  const sel = document.getElementById("sort-order");
+  const options = [['', 'Default']];
+  if (cfg.dateAddedField) options.push(['added', 'Most recent entries added']);
+  options.push(['activity', 'Most recent activity']);
+  options.push(['impact', 'Biggest impact first']);
+  if (cfg.kind !== "tracker") options.push(['covered', 'Most covered']);
+  sel.innerHTML = options.map(([v, label]) => '<option value="' + v + '">' + label + '</option>').join("");
+  sel.value = sortValue;
 }
 
 function renderEntries() {
@@ -1688,32 +1718,35 @@ function renderEntries() {
     return matchesSearch && matchesFilter;
   });
 
-  // "Newest added first" overrides every other default sort when
-  // checked -- it's an explicit ask for "what's new in the database,"
-  // not the usual impact/recency-of-event ordering below. date_added
-  // is always a plain YYYY-MM-DD stamped once at creation (never a
-  // compound range like date_of_action can be), so a straight string
-  // comparison sorts correctly with no extractFirstDate() parsing
-  // needed. Missing values sort last (empty string collates lowest).
-  const sortNewestAdded = cfg.dateAddedField &&
-    document.getElementById("sort-newest-added").checked;
-
-  // Prioritization lives inside the browse tabs themselves -- every
-  // tab's entries are sorted by the same impact heuristic used
-  // elsewhere, whether or not a search/filter is active. No separate
-  // "top priorities" section needed. Government Service Redirection
-  // is the exception -- sorted reverse-chronologically by date of
-  // action instead, since this tracker updates frequently and recency
-  // is the more useful default ordering for it. date_of_action here
-  // is often a compound string ("2025-03 (initial cuts) through
-  // 2026-04 (ongoing)") that native Date.parse cannot handle at all
-  // (returns NaN on the whole string) -- extractFirstDate() pulls out
-  // just the first YYYY-MM or YYYY-MM-DD substring instead.
-  if (sortNewestAdded) {
+  // An explicit sort choice overrides each tracker's default ordering
+  // below. "added" (date_added) is always a plain YYYY-MM-DD stamped
+  // once at creation (never a compound range like date_of_action can
+  // be), so a straight string comparison sorts correctly with no
+  // extractFirstDate() parsing needed -- missing values sort last
+  // (empty string collates lowest). "activity" uses each tracker's own
+  // dateField (date_of_action, last_updated, date, or date_submitted)
+  // through extractFirstDate(), which handles both plain dates and
+  // compound strings like "2025-03 (initial cuts) through 2026-04
+  // (ongoing)" that native Date.parse can't parse at all.
+  if (sortValue === "added" && cfg.dateAddedField) {
     filtered.sort((a, b) => (b[cfg.dateAddedField] || "").localeCompare(a[cfg.dateAddedField] || ""));
+  } else if (sortValue === "activity") {
+    filtered.sort((a, b) => extractFirstDate(b[cfg.dateField]) - extractFirstDate(a[cfg.dateField]));
+  } else if (sortValue === "impact") {
+    filtered.sort((a, b) => impactScore(b, cfg) - impactScore(a, cfg));
+  } else if (sortValue === "covered") {
+    filtered.sort((a, b) => coverageCount(b, cfg) - coverageCount(a, cfg));
   } else if (cfg.kind === "govservices") {
+    // Default ordering: Government Service Redirection is sorted
+    // reverse-chronologically by date of action instead of impact
+    // score, since this tracker updates frequently and recency is the
+    // more useful default here. Impact score is still available as an
+    // explicit choice above.
     filtered.sort((a, b) => extractFirstDate(b.date_of_action) - extractFirstDate(a.date_of_action));
   } else {
+    // Default ordering for every other tracker: the same impact
+    // heuristic used elsewhere, whether or not a search/filter is
+    // active. No separate "top priorities" section needed.
     filtered.sort((a, b) => impactScore(b, cfg) - impactScore(a, cfg));
   }
 
@@ -1773,6 +1806,7 @@ function jumpToReportingSearch(term) {
   document.getElementById("global-search").value = "";
   activeTracker = "tracker";
   filterValue = "";
+  sortValue = "";
   searchTerm = term;
   document.getElementById("search").value = term;
   document.getElementById("filter").value = "";
@@ -1802,6 +1836,7 @@ function goToTrackerHome(key) {
   document.getElementById("global-search").value = "";
   activeTracker = key;
   filterValue = "";
+  sortValue = "";
   searchTerm = "";
   document.getElementById("search").value = "";
   document.getElementById("filter").value = "";
@@ -2005,7 +2040,10 @@ document.getElementById("filter").addEventListener("change", (e) => {
   filterValue = e.target.value;
   renderEntries();
 });
-document.getElementById("sort-newest-added").addEventListener("change", renderEntries);
+document.getElementById("sort-order").addEventListener("change", (e) => {
+  sortValue = e.target.value;
+  renderEntries();
+});
 document.getElementById("global-search").addEventListener("input", renderDispatch);
 document.getElementById("global-regex").addEventListener("change", renderDispatch);
 document.getElementById("global-oneliner").addEventListener("change", renderDispatch);
@@ -2038,10 +2076,11 @@ document.getElementById("start-over-btn").addEventListener("click", () => {
   document.getElementById("global-oneliner").checked = false;
   document.getElementById("search").value = "";
   document.getElementById("filter").value = "";
-  document.getElementById("sort-newest-added").checked = false;
+  document.getElementById("sort-order").value = "";
   activeTracker = "deregulation";
   searchTerm = "";
   filterValue = "";
+  sortValue = "";
   renderDispatch();
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
