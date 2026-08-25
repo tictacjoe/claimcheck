@@ -497,6 +497,31 @@
     letter-spacing: 0.02em;
   }
 
+  /* User Topics card-level coverage indicator -- same color language as
+     the detail view's .promoted-callout/.related-callout (brass for
+     "this became a curated entry," verified-green for "a different
+     curated entry already covers this"), condensed to a pill so it
+     fits the card's meta line. */
+  .coverage-tag {
+    display: inline-block;
+    padding: 0.1rem 0.5rem;
+    border-radius: 2px;
+    font-size: 0.68rem;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .coverage-tag-promoted { background: var(--brass-light); color: var(--brass); }
+  .coverage-tag-related { background: var(--verified-bg); color: var(--verified); }
+  .coverage-tag:hover { text-decoration: underline; }
+
+  /* User Topics detail view: link back to the tab's own plain,
+     unfiltered list -- same brass link color as the callout links
+     above it, but plain inline text rather than a pill/callout box
+     since it's a simple "go back" action, not a coverage fact. */
+  .back-home-link { color: var(--brass); font-weight: 600; text-decoration: none; }
+  .back-home-link:hover { text-decoration: underline; }
+
   /* ---- signature element: rotated ink stamp ---- */
   .stamp {
     position: absolute;
@@ -562,7 +587,7 @@
     font-style: italic;
   }
 
-  /* Community Topics: a strong visual pointer to a fuller, already-
+  /* User Topics: a strong visual pointer to a fuller, already-
      researched curated entry, shown at the very top of the detail view
      -- deliberately more prominent than confidence-box (solid border on
      all sides, not just left) since the whole point is "look here
@@ -580,7 +605,7 @@
   .related-callout a:hover { text-decoration: underline; }
   .related-callout ul { margin: 0.2rem 0 0; padding-left: 1.1rem; }
 
-  /* Community Topics: shown instead of related-callout when this
+  /* User Topics: shown instead of related-callout when this
      submission cleared a curated tracker's bar at first triage and was
      added there directly rather than researched at this tracker's own
      lighter tier -- distinct brass accent (the site's general link/accent
@@ -616,6 +641,7 @@
 
 <header class="masthead">
   <h1>The Accountability Project</h1>
+  <p class="tagline">While headlines flood, the record stands.</p>
   <p class="subhead">The Accountability Project's data is sourced and built to hold up when challenged. Enter a keyword, statement, or topic — or browse by database. Every entry backed by a verifiable citation.</p>
   <div class="global-search-box" id="search-mode-box">
     <span class="search-icon">🔍</span>
@@ -745,7 +771,7 @@ const TRACKERS = {
     kind: "tracker",
   },
   communitytopics: {
-    label: "Community Topics",
+    label: "User Topics",
     data: [],
     titleField: "topic",
     idField: "id",
@@ -758,7 +784,7 @@ const TRACKERS = {
   }
 };
 
-/* Community Topics' verdict values are snake_case in the data
+/* User Topics' verdict values are snake_case in the data
    (confirmed, partially_confirmed, unable_to_verify,
    misleading_as_stated) -- this converts them to the plain-language
    display label shown on the badge, in the filter dropdown, and in
@@ -1448,7 +1474,7 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
             '<a href="#" class="related-entry-link" data-tracker="' + escapeHtml(trackerField) + '" data-id="' + escapeHtml(id) + '">→ See the full entry in ' + escapeHtml(trackerLabel) + '</a></div>';
         })()
       : '';
-    // Related-entry callout -- when a Community Topics entry has a real
+    // Related-entry callout -- when a User Topics entry has a real
     // match in a curated tracker, that fuller, more rigorously-researched
     // record is more valuable than this entry's own lighter research, so
     // it belongs at the top rather than buried after everything else.
@@ -1464,7 +1490,8 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
       '<div class="field-label">Summary</div><div class="field-value">' + hl(entry.summary) + '</div>' +
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>' +
       (entry.submitter_source_link ? '<div class="field-label">Submitter-provided source</div><div class="field-value"><a href="' + escapeHtml(safeHref(entry.submitter_source_link)) + '" target="_blank" rel="noopener">' + hl(entry.submitter_source_link) + '</a></div>' : '') +
-      '<div class="field-label">Submitted</div><div class="field-value">' + hl(entry.date_submitted) + '</div>';
+      '<div class="field-label">Submitted</div><div class="field-value">' + hl(entry.date_submitted) + '</div>' +
+      '<div class="field-value" style="margin-top:0.9rem;"><a href="#" class="tracker-home-link back-home-link" data-tracker-key="communitytopics">← Back to User Topics</a></div>';
   }
   // prosecution (default)
   return '<div class="field-label">Violation Type</div><div class="field-value">' + hl(entry.offense_category) + '</div>' +
@@ -1513,8 +1540,36 @@ function buildEntryCard(entry, cfg, docketLabel, sourceLabel, term, useRegex) {
     metaHtml += '<span class="domain-tag" style="background:' + domainColor(entry.domain) + '22; color:' + domainColor(entry.domain) + '">' + govservicesDomainLabel(entry.domain) + '</span>' +
                '<span>' + hl(entry.institution) + '</span><span>' + hl(entry.date_of_action) + '</span>';
   } else if (cfg.kind === "communitytopics") {
+    // Coverage indicator -- surfaces on the card itself (not just the
+    // detail view) whether this topic already has a fuller record in a
+    // curated tracker. Same precedence as buildDetailHtml()'s callouts:
+    // promoted_to ("this topic became a curated entry") outranks
+    // related_entries ("a different, already-existing entry overlaps
+    // it") -- an entry has at most one of the two in practice. Reuses
+    // the related-entry-link jump mechanism, so clicking it here jumps
+    // straight to the linked entry exactly like the detail-view callout
+    // does.
+    const coverageHtml = (() => {
+      if (entry.promoted_to) {
+        const slash = entry.promoted_to.indexOf("/");
+        const trackerField = slash === -1 ? entry.promoted_to : entry.promoted_to.slice(0, slash);
+        const id = slash === -1 ? "" : entry.promoted_to.slice(slash + 1);
+        const targetKey = RELATED_TRACKER_FIELD_TO_KEY[trackerField];
+        const trackerLabel = targetKey ? TRACKERS[targetKey].label : trackerField;
+        return '<a href="#" class="related-entry-link coverage-tag coverage-tag-promoted" data-tracker="' + escapeHtml(trackerField) + '" data-id="' + escapeHtml(id) + '">→ In ' + escapeHtml(trackerLabel) + '</a>';
+      }
+      if (entry.related_entries?.length) {
+        const r = entry.related_entries[0];
+        const targetKey = RELATED_TRACKER_FIELD_TO_KEY[r.tracker];
+        const trackerLabel = targetKey ? TRACKERS[targetKey].label : r.tracker;
+        return '<a href="#" class="related-entry-link coverage-tag coverage-tag-related" data-tracker="' + escapeHtml(r.tracker || "") + '" data-id="' + escapeHtml(r.id || "") + '">→ Also in ' + escapeHtml(trackerLabel) + '</a>';
+      }
+      return '';
+    })();
     metaHtml += '<span class="domain-tag" style="background:' + verdictColor(entry.verdict) + '22; color:' + verdictColor(entry.verdict) + '">' + hl(verdictLabel(entry.verdict)) + '</span>' +
+               coverageHtml +
                '<span>submitted ' + (entry.date_submitted || "") + '</span>' +
+               (entry.submitted_claim ? '<span>“' + hl(truncate(entry.submitted_claim, 100)) + '”</span>' : '') +
                '<span>' + hl(truncate(entry.summary || "", 100)) + '</span>';
   } else {
     metaHtml += '<span class="meta-field"><span class="meta-field-label">Violation Type</span><span class="meta-field-value">' + hl(entry.offense_category) + '</span></span>' +
@@ -1697,7 +1752,7 @@ function jumpToReportingSearch(term) {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-/* Community Topics' related_entries.tracker values use the same names
+/* User Topics' related_entries.tracker values use the same names
    as community-topics/SCHEMA.md and the other tracker's own docs
    ("government-services", matching its directory name) rather than the
    TRACKERS object's internal key ("govservices") -- this maps between
@@ -1708,11 +1763,28 @@ const RELATED_TRACKER_FIELD_TO_KEY = {
   "government-services": "govservices",
 };
 
-/* Jumps from a Community Topics entry to the specific curated entry its
-   related_entries pointed at. Switches tabs with search/filter cleared
-   (so every entry in the target tracker stays browsable, not just the
-   one being jumped to), then locates the exact rendered card by its
-   stamped data-entry-id and opens + scrolls to it directly.
+/* Switches to a tracker's tab with search/filter cleared, landing on
+   its plain, unfiltered list. The shared "go to this tracker's home
+   view" step behind both jumpToRelatedEntry() (which then also opens a
+   specific card on top of it) and the User Topics detail view's own
+   "Back to User Topics" link (which doesn't target any specific card,
+   just wants the tab reset to its default list). */
+function goToTrackerHome(key) {
+  if (!TRACKERS[key]) return;
+  document.getElementById("global-search").value = "";
+  activeTracker = key;
+  filterValue = "";
+  searchTerm = "";
+  document.getElementById("search").value = "";
+  document.getElementById("filter").value = "";
+  renderDispatch();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+/* Jumps from a User Topics entry to the specific curated entry its
+   related_entries pointed at. Switches tabs via goToTrackerHome(), then
+   locates the exact rendered card by its stamped data-entry-id and
+   opens + scrolls to it directly.
 
    Deliberately does NOT use the text-search box for this, even though
    that's how jumpToReportingSearch (above) does its equivalent jump --
@@ -1727,38 +1799,41 @@ const RELATED_TRACKER_FIELD_TO_KEY = {
    go through text matching at all. */
 function jumpToRelatedEntry(trackerField, id) {
   const key = RELATED_TRACKER_FIELD_TO_KEY[trackerField];
-  const targetCfg = key && TRACKERS[key];
-  if (!targetCfg) return;
-  document.getElementById("global-search").value = "";
-  activeTracker = key;
-  filterValue = "";
-  searchTerm = "";
-  document.getElementById("search").value = "";
-  document.getElementById("filter").value = "";
-  renderDispatch();
+  if (!key || !TRACKERS[key]) return;
+  goToTrackerHome(key);
+  // Target renamed/removed since this link was written -- goToTrackerHome()
+  // already landed on the tracker's tab and scrolled to top, so there's
+  // nothing more to do rather than crash or show a misleading result.
   const card = document.querySelector('.entry[data-entry-id="' + CSS.escape(id) + '"]');
   if (card) {
     card.classList.add("open");
     card.scrollIntoView({ behavior: "smooth", block: "start" });
-  } else {
-    // Target renamed/removed since this link was written -- land on the
-    // tracker's tab (already switched above) rather than crash or show
-    // a misleading result.
-    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 }
 
-/* Wires click handling onto any .related-entry-link anchors just
-   inserted via innerHTML -- buildDetailHtml() returns a plain string,
-   so listeners can't be attached until after the HTML lands in the DOM.
-   Called from both places detail HTML gets inserted (the tabbed/global
-   card view and the one-liner expand-on-click view) so the two stay in
-   sync rather than one silently missing the wiring. */
+/* Wires click handling onto any .related-entry-link/.tracker-home-link
+   anchors just inserted via innerHTML -- buildDetailHtml() returns a
+   plain string, so listeners can't be attached until after the HTML
+   lands in the DOM. Called from both places detail HTML gets inserted
+   (the tabbed/global card view and the one-liner expand-on-click view)
+   so the two stay in sync rather than one silently missing the wiring. */
 function wireRelatedEntryLinks(container) {
   container.querySelectorAll(".related-entry-link").forEach(a => {
     a.addEventListener("click", (e) => {
       e.preventDefault();
+      // Card-level coverage tags (User Topics) live inside .entry-head,
+      // which has its own click listener that toggles the card open --
+      // without this, clicking the tag would also flip the card open
+      // right before navigating away to a different tab.
+      e.stopPropagation();
       jumpToRelatedEntry(a.dataset.tracker, a.dataset.id);
+    });
+  });
+  container.querySelectorAll(".tracker-home-link").forEach(a => {
+    a.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      goToTrackerHome(a.dataset.trackerKey);
     });
   });
 }
@@ -1812,7 +1887,7 @@ function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
   if (allMatches.length === 0) {
     const empty = document.createElement("div");
     empty.className = "empty-state";
-    empty.textContent = "No matches in Corporate Deregulation, Cabinet-Level Legal Exposure, Government Service Redirection, or Community Topics.";
+    empty.textContent = "No matches in Corporate Deregulation, Cabinet-Level Legal Exposure, Government Service Redirection, or User Topics.";
     container.appendChild(empty);
     if (reportingLink) container.appendChild(reportingLink);
     return;
