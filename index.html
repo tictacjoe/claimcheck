@@ -861,6 +861,19 @@ function stampLabel(entry, cfg) {
   return entry.contested ? "Contested" : "Documented";
 }
 
+/* Some filter fields (deregulation's domain, in particular) carry a
+   "base / subcategory" or "base (subcategory)" value in the raw data --
+   e.g. "consumer_safety / disability housing accommodation" -- so the
+   full detail stays visible on each entry's tag. The filter dropdown
+   should only ever list the base categories, not every subcategory
+   variant, so this strips anything from the first "/" or "(" onward
+   for both building the option list and matching the active filter. */
+function filterBaseValue(value) {
+  if (!value) return value;
+  const m = value.match(/^([^/(]+?)\s*[/(]/);
+  return m ? m[1].trim() : value;
+}
+
 function domainColor(domain) {
   const map = {
     environmental: "#4B6B4F", labor: "#3E5C76", financial: "#8B6F3E",
@@ -1647,7 +1660,7 @@ function renderFilterOptions(cfg) {
     const present = new Set(cfg.data.map(e => e[cfg.filterField]).filter(Boolean));
     values = CANONICAL_CATEGORY_ORDER.filter(c => present.has(c));
   } else {
-    values = [...new Set(cfg.data.map(e => e[cfg.filterField]).filter(Boolean))].sort();
+    values = [...new Set(cfg.data.map(e => filterBaseValue(e[cfg.filterField])).filter(Boolean))].sort();
   }
   sel.innerHTML = '<option value="">all ' + pluralize(cfg.filterLabel) + '</option>' +
     values.map(v => '<option value="' + v + '">' + (cfg.kind === "govservices" ? govservicesDomainLabel(v) : cfg.kind === "communitytopics" ? verdictLabel(v) : v) + '</option>').join("");
@@ -1671,7 +1684,7 @@ function renderEntries() {
 
   const filtered = cfg.data.filter(e => {
     const matchesSearch = matchesTerm(visibleSearchText(e, cfg), searchTerm, false);
-    const matchesFilter = !filterValue || e[cfg.filterField] === filterValue;
+    const matchesFilter = !filterValue || filterBaseValue(e[cfg.filterField]) === filterValue;
     return matchesSearch && matchesFilter;
   });
 
