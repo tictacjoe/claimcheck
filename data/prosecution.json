@@ -1607,50 +1607,6 @@
     }
   },
   {
-    "id": "casey-means-surgeon-general-vaccine-stance-2026",
-    "official": "Dr. Casey Means, Surgeon General nominee",
-    "offense_category": "Surgeon General Nominee's Refusal to Reject a Debunked Vaccine-Autism Link, Despite Endorsing Vaccines Generally -- an accountability-relevant confirmation-process concern about the nation's leading public-health messaging role, not an allegation of a completed action",
-    "incident_summary": "Dr. Casey Means, President Trump's nominee for Surgeon General, testified before the Senate HELP Committee amid scrutiny over her positions on vaccines, contraception, and antidepressant use during pregnancy. When directly questioned by Sens. Bill Cassidy (R-LA) and Bernie Sanders (I-VT) about whether vaccines cause autism -- a claim HHS Secretary RFK Jr. has made and decades of scientific research have debunked -- Means declined to say she did not believe vaccines cause autism, instead saying 'no stone should be left unturned' in researching autism's causes. She did state that vaccines save lives and that 'anti-vaccine rhetoric has never been a part of my message,' but repeatedly redirected specific questions about recommending vaccines like MMR and the flu shot back to the importance of 'informed conversations between parents and physicians' rather than affirmatively encouraging vaccination.",
-    "contested": true,
-    "elements_required": [
-      "Means was directly and repeatedly asked by senators from both parties whether vaccines cause autism -- a specific, falsifiable scientific question with a well-established answer",
-      "She declined to give a direct 'no' despite the question's clear scientific answer, instead using open-ended language ('no stone should be left unturned') that leaves room for the debunked claim",
-      "She did affirmatively state vaccines save lives and disclaimed anti-vaccine rhetoric, distinguishing her position from an outright vaccine-autism endorsement",
-      "As the nominee for the nation's top public-health messaging role, her specific word choices carry outsized signaling weight for public vaccine confidence, distinct from a private citizen's views"
-    ],
-    "evidence": [
-      {
-        "type": "public_record",
-        "description": "CIDRAP's reporting on the Senate hearing confirms Means's specific 'no stone should be left unturned' response when directly asked about the vaccine-autism link, and that she stopped short of urging universal vaccination",
-        "source_url": "https://www.cidrap.umn.edu/public-health/us-surgeon-general-nominee-dodges-vaccine-questions-senate-hearing",
-        "maps_to_element": "Means's specific evasive language on the vaccine-autism question"
-      },
-      {
-        "type": "public_record",
-        "description": "NPR's reporting confirms Means was questioned by both Sen. Cassidy (R) and Sen. Sanders (I) -- a bipartisan line of questioning -- and that she affirmed vaccines save lives while disclaiming anti-vaccine rhetoric",
-        "source_url": "https://www.npr.org/2026/02/25/nx-s1-5725399/surgeon-general-casey-means-vaccines-birth-control",
-        "maps_to_element": "Bipartisan nature of the questioning and Means's affirmative pro-vaccine statements"
-      },
-      {
-        "type": "public_record",
-        "description": "STAT News, the Washington Post, and NBC News reported that on April 30, 2026 -- more than three months before this entry's original addition -- President Trump withdrew Means's nomination for Surgeon General and nominated Dr. Nicole Saphier, a radiologist and Fox News contributor, in her place; Trump publicly blamed Sen. Bill Cassidy (R-LA), who chairs the confirming committee, for blocking Means, and reporting specified that opposition centered specifically on her non-committal stance on standard childhood immunizations -- the same evasive vaccine-autism answers this entry documents",
-        "source_url": "https://www.statnews.com/2026/04/30/trump-withdraws-casey-means-nomination-surgeon-general-taps-nicole-saphier/",
-        "maps_to_element": "Update: the specific conduct this entry documents (Means's evasive vaccine-autism answers) is reported to be the proximate cause of her nomination's failure -- a real-world accountability consequence entirely missing from the entry's original 'nomination pending' status"
-      }
-    ],
-    "status": "Withdrawn as of April 30, 2026 -- more than three months before this entry's original write date. President Trump pulled Means's nomination and nominated Dr. Nicole Saphier instead, blaming Sen. Bill Cassidy (chair of the confirming Senate HELP Committee) for blocking her; reporting on the withdrawal specifically identified Means's non-committal stance on standard childhood immunizations -- the same evasive vaccine-autism answers this entry documents -- as central to the opposition that sank her confirmation. This entry's original 'nomination pending' status was already stale at the moment it was written.",
-    "rebuttal_anticipated": "Likely defense: 'no stone should be left unturned' reflects scientific open-mindedness rather than endorsing the debunked claim, Means explicitly stated vaccines save lives and disclaimed anti-vaccine rhetoric, and emphasizing informed parent-physician conversations is a legitimate public-health communication approach rather than discouraging vaccination.",
-    "comeback": "The specific concern is that the vaccine-autism question has a clear, well-established scientific answer (no causal link), unlike genuinely open scientific questions -- declining to state that answer directly, even while affirming vaccines' general value, leaves ambiguity a Surgeon General nominee's platform specifically should not leave, given the office's outsized influence on public vaccine confidence and the active, ongoing measles outbreak this tracker separately documents.",
-    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Consistent with the broader pattern this tracker documents of HHS-aligned officials and nominees declining to affirmatively counter vaccine misinformation even while formally disclaiming it (see also rfk-jr-vaccine-autism-reexamination-2026.json).",
-    "last_updated": "2026-08-18",
-    "date_added": "2026-08-05",
-    "confidence_note": "HIGH confidence -- Means's specific quoted responses and the senators who questioned her are directly corroborated across CIDRAP and NPR's reporting on the hearing itself, not characterization from secondary sources. Update 2026-08-18: HIGH confidence on the April 30, 2026 withdrawal, its timing, and the stated reason, independently corroborated across STAT News, The Washington Post, NBC News, CNN, and The Hill.",
-    "section_summaries": {
-      "incident_summary": "Surgeon General nominee Casey Means declined to directly reject the debunked vaccine-autism link when questioned by senators from both parties, instead saying 'no stone should be left unturned,' while affirming vaccines save lives and disclaiming anti-vaccine rhetoric.",
-      "confidence_note": "Directly corroborated by reporting on the hearing itself, including Means's own quoted statements."
-    }
-  },
-  {
     "id": "chavez-deremer-retaliation-resignation-2026",
     "official": "Lori Chavez-DeRemer, then-Secretary of Labor (resigned April 2026)",
     "offense_category": "Retaliation Against Employees Who Reported Sexual Misconduct by the Secretary's Own Husband, Alongside a Broader Inspector General Misconduct Investigation -- an EEO-complaint-substantiated accountability claim distinct from her husband's underlying alleged conduct or the IG's separate personal-conduct/travel-fraud findings, both of which are separate matters",
@@ -7094,15 +7050,21 @@
         "description": "Sen. Bill Cassidy -- a physician and one of the key Republican votes that confirmed Kennedy, who had personally extracted several of the specific commitments above -- told CBS's Face the Nation on June 25, 2026 that Kennedy's commitments 'have been violated' and that Kennedy had built U.S. public health policy 'upon a foundation of lies'",
         "source_url": "https://www.cbsnews.com/news/bill-cassidy-rfk-jr-public-health-foundation-of-lies-face-the-nation/",
         "maps_to_element": "On-record confirmation of the broken-assurance claim from the senator who extracted the commitments, not merely outside critics"
+      },
+      {
+        "type": "public_record",
+        "description": "On October 7, 2025, six former U.S. Surgeons General -- spanning both Republican and Democratic administrations -- issued a rare joint public warning in a Washington Post op-ed that Kennedy is 'endangering the health of the nation,' citing the politicization of public health messaging, the gutting of mRNA vaccine research funding, and vaccine-access restrictions as 'a profound and immediate threat.' HHS spokesperson Andrew Nixon responded that 'the same officials who presided over the decline in America's public health are now criticizing the first Secretary to confront it head-on.' Folded in from this tracker's former standalone surgeons-general-rfk-warning-2025.json entry (retired 2026-08-25): that entry alleged no action or violation by Kennedy in its own right, only third-party reaction to the pattern already documented here, so it is retained as corroborating evidence rather than a separate entry.",
+        "source_url": "https://www.theguardian.com/us-news/2025/oct/07/us-surgeons-general-rfk",
+        "maps_to_element": "Bipartisan, on-record professional corroboration of the credibility/consistency claim from six former holders of the nation's top public-health office"
       }
     ],
     "status": "This commission's announcement is a completed, dated event, now documented as the starting point of a much longer chain of vaccine-policy actions -- see the separately-tracked `rfk-jr-vaccine-autism-reexamination-2026.json` and `trump-childhood-vaccine-eo-2026.json` entries in this database for the commission's downstream outcomes through 2026.",
     "rebuttal_anticipated": "Kennedy and HHS have publicly defended the administration's health policy changes as necessary reforms, and could argue the commission itself was framed broadly rather than as a vaccine-specific inquiry. Kennedy's actual on-record position, per HHS spokesperson statements and Kennedy's own public comments through mid-2026, is that he 'continues to follow through on his commitments' and has kept all promises made during confirmation, rejecting Cassidy's criticism directly.",
     "comeback": "This entry does not allege the commission itself was unlawful -- the accountability question is the tension between Kennedy's specific, on-record confirmation-process assurances and his first-month decision to launch a commission whose explicit subject included the childhood vaccine schedule. That tension is no longer inferred from a single contemporaneous report: PolitiFact's February 2026 fact-check documented the specific quoted promises against the specific actions that followed, and Sen. Cassidy -- one of the Republican senators who personally extracted those commitments and voted to confirm Kennedy on the strength of them -- said on national television in June 2026 that they 'have been violated' and that Kennedy built public health policy 'upon a foundation of lies.' Kennedy disputes this and maintains he has kept his word.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level consistency/credibility question about Kennedy's confirmation-process assurances, rather than a specific legal violation.",
-    "last_updated": "2026-08-19",
+    "last_updated": "2026-08-25",
     "date_added": "2026-08-08",
-    "confidence_note": "HIGH confidence -- upgraded from this entry's original MODERATE-HIGH tier. The February 2025 commission announcement and its tension with Kennedy's confirmation-process assurances is no longer sourced to a single contemporaneous report alone: PolitiFact's dated, sourced fact-check documents the specific promises and the specific actions that broke them, and Sen. Cassidy -- a Republican who helped confirm Kennedy and personally extracted several of the commitments -- has since gone on the record agreeing they were broken. Both developments predate this entry's own Aug. 8, 2026 write date by roughly six months and six weeks respectively and were not incorporated when the entry was drafted; added 2026-08-19. This entry's significance still rests substantially on hindsight as the documented starting point of a much larger, separately-tracked chain of subsequent vaccine-policy actions elsewhere in this database."
+    "confidence_note": "HIGH confidence -- upgraded from this entry's original MODERATE-HIGH tier. The February 2025 commission announcement and its tension with Kennedy's confirmation-process assurances is no longer sourced to a single contemporaneous report alone: PolitiFact's dated, sourced fact-check documents the specific promises and the specific actions that broke them, and Sen. Cassidy -- a Republican who helped confirm Kennedy and personally extracted several of the commitments -- has since gone on the record agreeing they were broken. Both developments predate this entry's own Aug. 8, 2026 write date by roughly six months and six weeks respectively and were not incorporated when the entry was drafted; added 2026-08-19. This entry's significance still rests substantially on hindsight as the documented starting point of a much larger, separately-tracked chain of subsequent vaccine-policy actions elsewhere in this database. Updated 2026-08-25: folded in the former standalone surgeons-general-rfk-warning-2025.json entry as corroborating evidence (see evidence array) -- that entry's offense_category described a reaction to Kennedy's tenure rather than any action or violation by him, so it did not stand on its own as a Cabinet-Level entry."
   },
   {
     "id": "rfk-jr-retsef-levi-vaccine-safety-task-force-2026",
@@ -7568,7 +7530,7 @@
   {
     "id": "sonderling-imls-unlawful-actions-2025",
     "official": "Keith Sonderling, Acting Secretary of Labor (nominated for permanent position); also Acting Director, Office of Government Ethics; concurrently held acting roles at IMLS and Commerce during the relevant period",
-    "offense_category": "Unlawful Agency Action (specific statutory/procedural basis not fully detailed in available reporting, but a federal court has ruled against the actions on the merits) — NOT criminally charged; addressed via civil litigation, currently on appeal",
+    "offense_category": "Administrative Procedure Act Violation (5 U.S.C. §706(2)(A), arbitrary-and-capricious agency action) and Impoundment Control Act concerns (unilateral termination of congressionally-appropriated grants) — per Rhode Island v. Trump / ALA v. Sonderling, in which the U.S. District Court for the District of Rhode Island ruled the IMLS dismantlement 'arbitrary and capricious and contrary to federal law'; NOT criminally charged, resolved via civil litigation (permanent bar, withdrawn appeal, binding settlement)",
     "incident_summary": "As acting director of the Institute of Museum and Library Services (IMLS) beginning March 2025, Sonderling placed many agency staff members on administrative leave, sent termination notices to most of them, began canceling grants and contracts, and fired all members of the National Museum and Library Services Board -- actions taken 'in an effort to minimize the agency to its constitutional framework.' A federal judge later blocked these actions, and the case remains on appeal as of this entry's last update.",
     "contested": false,
     "elements_required": [
@@ -7631,12 +7593,12 @@
     "rebuttal_anticipated": "[DRAFT] Likely defense: an acting director has legitimate authority to restructure an agency consistent with the president's stated policy of minimizing agencies 'to their constitutional framework,' and any procedural defects identified by the court can be remedied through proper process rather than indicating bad faith or unlawful intent.",
     "comeback": "[DRAFT - needs your input] Whatever policy authority exists to restructure an agency, it doesn't override the court's actual finding that these specific actions were unlawful -- the fact that an appeal is pending doesn't change that a federal judge, applying the relevant legal standard, already ruled against the administration on the merits once. The 'consistent with stated policy' framing also doesn't address why the same individual was simultaneously holding five different acting/deputy positions across multiple agencies, a structural pattern that itself raises the institutional-design concerns documented in this dataset's Rubio entry.",
     "cause": "[Interpretive, not sourced -- flag as analysis in debate] Possible structural cause, consistent with patterns documented elsewhere in this dataset (Rubio's concentration of acting roles, the broader DOGE-driven restructuring efforts at multiple agencies): a strategy of installing trusted officials in acting capacities across numerous agencies simultaneously to execute rapid, sweeping structural changes before formal legal or congressional process can meaningfully intervene -- worth treating as a cross-cutting administration-wide pattern rather than specific to Sonderling alone.",
-    "last_updated": "2026-08-18",
+    "last_updated": "2026-08-25",
     "date_added": "2026-07-03",
-    "confidence_note": "HIGH confidence on the core fact (a federal court blocked Sonderling's IMLS actions) -- this is a direct, reported judicial outcome, not contested allegation. MODERATE confidence on the precise legal theory underlying the court's ruling, since available reporting describes the outcome (actions blocked) without detailing the specific statutory or constitutional basis for the ruling -- worth researching the underlying case directly (likely available via PACER or legal databases) for a more precise legal citation if this entry is used in detailed debate prep. This is a real, court-confirmed instance of unlawful agency action, even though the precise doctrinal basis needs further specification. Re-verified 2026-07-18: confidence is now HIGH on both the fact and the outcome -- the litigation is confirmed fully resolved (permanent bar, withdrawn appeal, binding settlement), correcting the prior version's 'outcome not yet final' language and the note that the precise legal theory needed further research; it does not, but the underlying result (administration lost, IMLS preserved) is now unambiguous. Re-verified 2026-07-26: the IMLS matter itself remains fully resolved as previously documented; the confirmation-vote delay is a procedural update, not evidence of the nomination faltering on substance. Re-verified 2026-08-18: committee vote outcome (12-11, party-line) confirmed; nomination now pending a full Senate floor vote with no date set. Does not change the underlying HIGH confidence on the IMLS matter itself, which remains resolved.",
+    "confidence_note": "HIGH confidence on the core fact (a federal court blocked Sonderling's IMLS actions) -- this is a direct, reported judicial outcome, not contested allegation. Re-verified 2026-07-18: confidence is now HIGH on both the fact and the outcome -- the litigation is confirmed fully resolved (permanent bar, withdrawn appeal, binding settlement), correcting the prior version's 'outcome not yet final' language. Re-verified 2026-07-26: the IMLS matter itself remains fully resolved as previously documented; the confirmation-vote delay is a procedural update, not evidence of the nomination faltering on substance. Re-verified 2026-08-18: committee vote outcome (12-11, party-line) confirmed; nomination now pending a full Senate floor vote with no date set. Does not change the underlying HIGH confidence on the IMLS matter itself, which remains resolved. Reclassified 2026-08-25: this entry's offense_category previously stated the precise statutory basis was 'not fully detailed in available reporting,' but the companion Government Services entry (imls-dismantlement-reversed-trump2.json) already quotes the court's actual holding -- the dismantlement was 'arbitrary and capricious and contrary to federal law,' the operative APA standard (5 U.S.C. §706(2)(A)) -- so offense_category now cites that directly rather than leaving the theory unspecified.",
     "section_summaries": {
       "incident_summary": "Sonderling gutted the federal library and museum agency's staff and board, only for a judge to block the whole effort.",
-      "confidence_note": "This is now fully resolved, not just blocked — a permanent bar and binding settlement confirm the administration's loss stuck."
+      "confidence_note": "This is now fully resolved, not just blocked — a permanent bar and binding settlement confirm the administration's loss stuck, and the legal theory (APA arbitrary-and-capricious) is now specified."
     }
   },
   {
@@ -7718,40 +7680,6 @@
     "last_updated": "2026-08-22",
     "date_added": "2026-08-22",
     "confidence_note": "HIGH confidence -- Reuters' original reporting is a named-source, on-the-record investigation that DOJ itself responded to (confirming the clearance and providing Bondi's statement), independently corroborated by Wizcase and Fast Company. No subsequent developments (removal, clearance review) were found in this recheck's research, which is itself notable given the parallel Coristine case's eventual escalation -- worth a follow-up search in a future batch to check for any later developments specific to Stanley."
-  },
-  {
-    "id": "surgeons-general-rfk-warning-2025",
-    "official": "Robert F. Kennedy Jr., HHS Secretary",
-    "offense_category": "Bipartisan Former-Surgeons-General Warning of Public-Health Endangerment -- an institutional-credibility claim resting on the collective professional judgment of former senior federal health officials, not a criminal charge",
-    "contested": true,
-    "incident_summary": "On October 7, 2025, six former U.S. Surgeons General -- spanning both Republican and Democratic administrations -- issued a rare joint public warning, in a Washington Post op-ed, that RFK Jr. is 'endangering the health of the nation.' The former Surgeons General condemned what they described as the politicization of public health under his leadership, the gutting of mRNA vaccine research funding, and restrictions on vaccine access, characterizing his actions collectively as 'a profound and immediate threat.' The warning came roughly eight months into Kennedy's tenure as HHS Secretary, following a documented pattern of specific actions already tracked elsewhere in this database, including CDC Director Susan Monarez's August 2025 firing after clashing with Kennedy over vaccine policy and sustained leadership turnover at CDC.",
-    "elements_required": [
-      "Six former U.S. Surgeons General, from both political parties, jointly signed and published a warning about a sitting HHS Secretary's conduct in office",
-      "The warning specifically identified concrete actions -- politicization of public health messaging, mRNA research funding cuts, and vaccine-access restrictions -- rather than offering only general criticism",
-      "The joint, bipartisan nature of the warning is itself notable: this tracker found no comparable precedent of a bipartisan former-Surgeons-General group issuing a joint public warning about a sitting HHS Secretary",
-      "The warning followed, rather than preceded, a documented pattern of specific personnel and policy actions already independently sourced elsewhere in this database"
-    ],
-    "evidence": [
-      {
-        "type": "public_record",
-        "description": "The Guardian reported on the six former Surgeons Generals' joint Washington Post op-ed, condemning Kennedy's politicization of public health, gutting of mRNA research, and restriction of vaccine access, and calling his actions 'a profound and immediate threat'",
-        "source_url": "https://www.theguardian.com/us-news/2025/oct/07/us-surgeons-general-rfk",
-        "maps_to_element": "The joint warning itself, its bipartisan composition, and its specific stated grounds"
-      },
-      {
-        "type": "news_report",
-        "description": "ABC News reported HHS spokesperson Andrew Nixon's on-record response to the six former Surgeons General's op-ed: that 'the same officials who presided over the decline in America's public health are now criticizing the first Secretary to confront it head-on,' and that HHS 'remain[s] committed to restoring trust, reforming broken health systems'",
-        "source_url": "https://abcnews.com/Health/hhs-hits-back-former-surgeons-general-wrote-op/story?id=126333161",
-        "maps_to_element": "The administration's actual on-record response, replacing this entry's originally speculative rebuttal framing"
-      }
-    ],
-    "status": "The warning itself is a completed, on-the-record statement. No reporting reviewed for this entry indicates HHS or Kennedy substantively altered policy in response.",
-    "rebuttal_anticipated": "HHS's actual on-record response, via spokesperson Andrew Nixon, characterized the six former Surgeons General as 'the same officials who presided over the decline in America's public health' now 'criticizing the first Secretary to confront it head-on,' and said HHS 'remain[s] committed to restoring trust, reforming broken health systems, and ensuring that every American has access to real choice in their health care.'",
-    "comeback": "This entry does not resolve the underlying policy dispute over vaccine science or mRNA research funding -- the accountability question is that six former Surgeons General, spanning both parties and therefore not simply expressing partisan opposition, took the unusual step of jointly and publicly warning that a sitting cabinet secretary's specific actions endangered public health. HHS's actual response did not dispute the specific factual predicates cited (the ACIP overhaul, the mRNA funding cuts, Monarez's firing) but instead recharacterized the signatories themselves as representing a prior public-health establishment Kennedy was appointed to challenge.",
-    "cause": "[Interpretive, not sourced -- flag as analysis in debate] Illustrates a policy-level accountability question about the credibility and public-health consequences of Kennedy's tenure, rather than a specific legal violation.",
-    "last_updated": "2026-08-19",
-    "date_added": "2026-08-08",
-    "confidence_note": "HIGH confidence that the warning was issued as described -- corroborated by The Guardian's direct reporting on the Washington Post op-ed. The `contested: true` flag reflects that HHS disputes the underlying characterization of its policies, not that the op-ed's existence or signatories are in question. This entry rests on a single secondary source (The Guardian) reporting on the primary Washington Post op-ed rather than the op-ed itself -- worth pulling the original op-ed directly if greater sourcing precision is needed. Re-verified 2026-08-19: no material change; HHS's actual on-record response (spokesperson Andrew Nixon, via ABC News) has been folded into rebuttal_anticipated/comeback above, replacing the entry's original speculative framing of what the administration 'could' argue."
   },
   {
     "id": "treasury-hurley-somali-surveillance-resignation-2026",
