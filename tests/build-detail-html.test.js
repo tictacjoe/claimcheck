@@ -144,10 +144,13 @@ test("govservices (Government Service Redirection) highlights the search term th
   const result = buildDetailHtml(entry, cfg, "civil rights", false);
 
   // institution, caveat, and confidence_note each contain a separate
-  // match -- all three were previously rendered raw/unhighlighted.
+  // match of the phrase "civil rights" -- all three were previously
+  // rendered raw/unhighlighted. Multi-word terms highlight each word
+  // independently (matching matchesTerm()'s AND-of-words behavior), so
+  // each of the 3 occurrences produces 2 <mark> tags.
   assert.equal(
     (result.match(/<mark class="hl">/g) || []).length,
-    3,
+    6,
     "should highlight the term in institution, caveat, and confidence_note"
   );
 });
@@ -191,11 +194,14 @@ test("prosecution (Cabinet-Level) highlights the search term throughout the body
   const result = buildDetailHtml(entry, cfg, "civil rights", false);
 
   // offense_category, incident_summary, and confidence_note each
-  // contain a separate match -- all three were previously rendered
-  // raw/unhighlighted (only the card's collapsed meta line was).
+  // contain a separate match of the phrase "civil rights" -- all three
+  // were previously rendered raw/unhighlighted (only the card's
+  // collapsed meta line was). Multi-word terms highlight each word
+  // independently (matching matchesTerm()'s AND-of-words behavior), so
+  // each of the 3 occurrences produces 2 <mark> tags.
   assert.equal(
     (result.match(/<mark class="hl">/g) || []).length,
-    3,
+    6,
     "should highlight the term in offense_category, incident_summary, and confidence_note"
   );
 });

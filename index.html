@@ -1279,16 +1279,24 @@ function escapeRegExp(str) {
 
 /* Escapes the text first (so entry data can never inject stray HTML),
    then wraps matches of the search term in <mark>. In plain-text mode
-   the term itself is regex-escaped and wrapped in \b word boundaries
-   so special characters like "?" or "(" are matched literally and
-   only whole-word matches are highlighted, mirroring matchesTerm()'s
-   plain-mode behavior -- only in regex mode does the term act as an
+   the term is split into words (mirroring matchesTerm()'s plain-mode
+   behavior), each regex-escaped and wrapped in \b word boundaries so
+   special characters like "?" or "(" are matched literally and only
+   whole-word matches are highlighted, and any of the words lights up
+   wherever it appears -- only in regex mode does the term act as an
    actual unbounded pattern. */
 function highlightMatches(text, term, useRegex) {
   const escaped = escapeHtml(text);
   if (!term) return escaped;
   try {
-    const pattern = useRegex ? term : ("\\b" + escapeRegExp(term) + "\\b");
+    let pattern;
+    if (useRegex) {
+      pattern = term;
+    } else {
+      const words = term.trim().split(/\s+/).filter(Boolean);
+      if (!words.length) return escaped;
+      pattern = words.map(w => "\\b" + escapeRegExp(w) + "\\b").join("|");
+    }
     const re = new RegExp(pattern, "gi");
     return escaped.replace(re, (match) => "<mark class=\"hl\">" + match + "</mark>");
   } catch (err) {
@@ -1346,10 +1354,14 @@ function oneLinerFor(entry, cfg) {
    returns null so the caller can show an error rather than silently
    falling back to a different match behavior.
 
-   Plain mode uses \b word boundaries rather than a raw substring
-   test -- otherwise a short term like "epa" matches inside unrelated
-   words such as "department". Regex mode is unaffected since it's an
-   explicit opt-in to pattern matching, boundaries and all. */
+   Plain mode splits the term on whitespace and requires every word to
+   appear somewhere in the haystack (each still \b-bounded, so "epa"
+   still won't match inside "department") -- an earlier version required
+   the whole term to appear as one literal phrase in that exact word
+   order, so "aircraft carrier lincoln" failed to match an entry that
+   only ever wrote "the aircraft carrier USS Abraham Lincoln". Regex
+   mode is unaffected since it's an explicit opt-in to pattern matching,
+   phrase order and all. */
 /* Builds the search haystack out of only the fields actually rendered
    somewhere in the UI for this entry -- title, card meta line, and the
    expandable detail body -- rather than the entire raw record. Fields
@@ -1402,6 +1414,7 @@ function visibleSearchText(entry, cfg) {
   return parts.filter(Boolean).join(" \n ");
 }
 
+/* matches-term:start */
 function matchesTerm(haystack, term, useRegex) {
   if (!term) return true;
   if (useRegex) {
@@ -1412,9 +1425,11 @@ function matchesTerm(haystack, term, useRegex) {
       return null; // signals invalid regex to the caller
     }
   }
-  const re = new RegExp("\\b" + escapeRegExp(term) + "\\b", "i");
-  return re.test(haystack);
+  const words = term.trim().split(/\s+/).filter(Boolean);
+  if (!words.length) return true;
+  return words.every(w => new RegExp("\\b" + escapeRegExp(w) + "\\b", "i").test(haystack));
 }
+/* matches-term:end */
 
 /* Shared detail-html builder -- used both by the full docket card
    (tabbed/global card view) and by the one-liner expand-on-click,
