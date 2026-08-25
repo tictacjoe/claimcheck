@@ -85,32 +85,13 @@ def convert_report(markdown_text: str) -> str:
     return markdown.markdown(text, extensions=["fenced_code"])
 
 
-def extract_title_and_summary(markdown_text: str) -> tuple:
-    """Pull the H1 title and a one-line description (the first real
-    paragraph, skipping headings, blockquotes, and horizontal rules)
-    out of a report's raw Markdown, for the index page listing."""
-    lines = markdown_text.splitlines()
-
-    title = ""
-    for line in lines:
+def extract_title(markdown_text: str) -> str:
+    """Pull the H1 title out of a report's raw Markdown, for the index
+    page listing."""
+    for line in markdown_text.splitlines():
         if line.startswith("# "):
-            title = line[2:].strip()
-            break
-
-    summary_lines = []
-    in_summary = False
-    for line in lines:
-        stripped = line.strip()
-        if not in_summary:
-            if not stripped or stripped.startswith("#") or stripped.startswith(">") or stripped.startswith("---") or _LIST_ITEM_RE.match(line):
-                continue
-            in_summary = True
-        if not stripped or _LIST_ITEM_RE.match(line):
-            break
-        summary_lines.append(stripped)
-
-    summary = " ".join(summary_lines)
-    return title, summary
+            return line[2:].strip()
+    return ""
 
 
 # CSS lifted from about.html's <style> block, plus additions for
@@ -231,10 +212,6 @@ _TEMPLATE_CSS = """
     font-weight: 600;
   }
   .report-index li a:hover { color: var(--brass); }
-  .report-index li p {
-    margin: 0.4rem 0 0;
-    color: var(--ink-soft);
-  }
 
   .back-link {
     display: inline-block;
@@ -261,7 +238,7 @@ _PAGE_TEMPLATE = """<!DOCTYPE html>
 <body>
 <header class="masthead">
 <h1>{title}</h1>
-<p class="tagline">The Accountability Project — Reports</p>
+<p class="tagline">The Accountability Project — Docs</p>
 </header>
 <main>
 {body}
@@ -286,9 +263,8 @@ def render_page(title: str, body_html: str, back_links: list) -> str:
 
 
 def render_index(reports: list) -> str:
-    """`reports` is a list of {"slug", "title", "summary"} dicts.
-    tap-project-overview always sorts first; the rest alphabetically
-    by title."""
+    """`reports` is a list of {"slug", "title"} dicts. tap-project-overview
+    always sorts first; the rest alphabetically by title."""
     def sort_key(report):
         if report["slug"] == "tap-project-overview":
             return (0, "")
@@ -296,13 +272,12 @@ def render_index(reports: list) -> str:
 
     ordered = sorted(reports, key=sort_key)
     items = "\n".join(
-        # r["title"] is raw text from the report's Markdown H1 -- escape
-        # it. r["summary"] already comes from markdown.markdown() output.
-        f'<li><a href="{r["slug"]}.html">{html.escape(r["title"])}</a><p>{r["summary"]}</p></li>'
+        # r["title"] is raw text from the report's Markdown H1 -- escape it.
+        f'<li><a href="{r["slug"]}.html">{html.escape(r["title"])}</a></li>'
         for r in ordered
     )
     body = f'<ul class="report-index">\n{items}\n</ul>'
-    return render_page("Reports", body, back_links=[("Back to The Accountability Project", "../index.html")])
+    return render_page("Docs", body, back_links=[("Back to The Accountability Project", "../index.html")])
 
 
 # Reserved for any future webdocs/ file that shouldn't be published (e.g.
@@ -352,10 +327,7 @@ def build_docs(working: Path, site: Path) -> None:
                 print(f"  WARNING: docs/{stale_output.name} was NOT pruned (previous output kept)")
             continue
 
-        title, summary = extract_title_and_summary(raw)
-        summary_html = convert_report(summary)
-        if summary_html.startswith("<p>") and summary_html.endswith("</p>"):
-            summary_html = summary_html[len("<p>"):-len("</p>")]
+        title = extract_title(raw)
         # The masthead (render_page) already shows the title as an <h1>;
         # strip the leading "# Title" line here so the body doesn't
         # re-emit it as a second <h1>. Only strips a genuine top-level
@@ -369,13 +341,13 @@ def build_docs(working: Path, site: Path) -> None:
             body_text = raw
         body_html = convert_report(body_text)
         page_html = render_page(title, body_html, back_links=[
-            ("All Reports", "index.html"),
+            ("All Docs", "index.html"),
             ("Back to The Accountability Project", "../index.html"),
         ])
 
         slug = md_file.stem
         (output_dir / f"{slug}.html").write_text(page_html, encoding="utf-8")
-        reports.append({"slug": slug, "title": title, "summary": summary_html})
+        reports.append({"slug": slug, "title": title})
         print(f"  converted: {md_file.name} -> docs/{slug}.html")
 
     index_html = render_index(reports)

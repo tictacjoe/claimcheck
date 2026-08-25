@@ -89,72 +89,24 @@ def test_convert_report_renders_list_that_immediately_follows_prose():
     assert " - Item One" not in html
 
 
-from build_docs import extract_title_and_summary
+from build_docs import extract_title
 
 
-def test_extract_title_and_summary_skips_blockquote_before_first_heading():
+def test_extract_title_returns_h1_text():
     text = (
         "# The Accountability Project — Overview\n\n"
         '> "While headlines flood, the record stands."\n\n'
         "## Introduction\n\n"
-        "The Accountability Project began in early 2025 as a personal "
-        "reference archive of news reports.\n\n"
-        "More text in a later paragraph that should not be included.\n"
+        "The Accountability Project began in early 2025.\n"
     )
 
-    title, summary = extract_title_and_summary(text)
-
-    assert title == "The Accountability Project — Overview"
-    assert summary == (
-        "The Accountability Project began in early 2025 as a personal "
-        "reference archive of news reports."
-    )
+    assert extract_title(text) == "The Accountability Project — Overview"
 
 
-def test_extract_title_and_summary_skips_straight_to_heading_and_paragraph():
-    text = (
-        "# The Accountability Project — Cabinet-Level Legal Exposure "
-        "Update Sweeps\n\n"
-        "## Concept & Purpose\n"
-        "A Cabinet-Level Legal Exposure Update Sweep is a systematic, "
-        "multi-stage audit and verification pipeline.\n"
-    )
+def test_extract_title_returns_empty_string_when_no_h1():
+    text = "## Introduction\n\nNo top-level heading here.\n"
 
-    title, summary = extract_title_and_summary(text)
-
-    assert title == (
-        "The Accountability Project — Cabinet-Level Legal Exposure "
-        "Update Sweeps"
-    )
-    assert summary == (
-        "A Cabinet-Level Legal Exposure Update Sweep is a systematic, "
-        "multi-stage audit and verification pipeline."
-    )
-
-
-def test_extract_title_and_summary_stops_at_list_immediately_after_prose():
-    text = (
-        "# A Reporting Database Backlog Triage Sweep\n\n"
-        "## Concept & Purpose\n"
-        "A Reporting Database Backlog Triage Sweep is a hybrid data-mining "
-        "and editorial curation workflow. It scans the reporting datastore "
-        "to discover, cluster, research, and promote high-impact stories "
-        "into the three structured, curated trackers:\n"
-        "- **Cabinet-Level Legal Exposure** tracks prosecutions.\n"
-        "- **Corporate Deregulation** tracks rollbacks.\n"
-        "- **Government Service Redirection** tracks cuts.\n\n"
-        "More text in a later paragraph that should not be included.\n"
-    )
-
-    title, summary = extract_title_and_summary(text)
-
-    assert title == "A Reporting Database Backlog Triage Sweep"
-    assert "It scans the reporting datastore" in summary
-    assert "into the three structured, curated trackers:" in summary
-    assert "Cabinet-Level Legal Exposure" not in summary
-    assert "Corporate Deregulation" not in summary
-    assert "Government Service Redirection" not in summary
-    assert "- " not in summary
+    assert extract_title(text) == ""
 
 
 from build_docs import render_page, render_index
@@ -164,13 +116,13 @@ def test_render_page_includes_title_body_and_back_links():
     html = render_page(
         "Cabinet-Level Legal Exposure",
         "<p>Body content here.</p>",
-        back_links=[("All Reports", "index.html"), ("Back to The Accountability Project", "../index.html")],
+        back_links=[("All Docs", "index.html"), ("Back to The Accountability Project", "../index.html")],
     )
 
     assert "<title>Cabinet-Level Legal Exposure — The Accountability Project</title>" in html
     assert "<h1>Cabinet-Level Legal Exposure</h1>" in html
     assert "<p>Body content here.</p>" in html
-    assert '<a class="back-link" href="index.html">&larr; All Reports</a>' in html
+    assert '<a class="back-link" href="index.html">&larr; All Docs</a>' in html
     assert '<a class="back-link" href="../index.html">&larr; Back to The Accountability Project</a>' in html
 
 
@@ -187,7 +139,7 @@ def test_render_page_escapes_ampersand_in_title():
 
 def test_render_index_escapes_ampersand_in_title():
     reports = [
-        {"slug": "tap-footnotes-and-references-guide", "title": "Footnotes & References Guide", "summary": "How footnotes work."},
+        {"slug": "tap-footnotes-and-references-guide", "title": "Footnotes & References Guide"},
     ]
 
     html_out = render_index(reports)
@@ -198,9 +150,9 @@ def test_render_index_escapes_ampersand_in_title():
 
 def test_render_index_lists_reports_with_overview_first():
     reports = [
-        {"slug": "tap-sweep-corporate-deregulation", "title": "Corporate Deregulation", "summary": "Tracks rollbacks."},
-        {"slug": "tap-project-overview", "title": "Overview", "summary": "The project overview."},
-        {"slug": "tap-sweep-cabinet-legal-exposure", "title": "Cabinet-Level Legal Exposure", "summary": "Tracks liability."},
+        {"slug": "tap-sweep-corporate-deregulation", "title": "Corporate Deregulation"},
+        {"slug": "tap-project-overview", "title": "Overview"},
+        {"slug": "tap-sweep-cabinet-legal-exposure", "title": "Cabinet-Level Legal Exposure"},
     ]
 
     html = render_index(reports)
@@ -209,7 +161,8 @@ def test_render_index_lists_reports_with_overview_first():
     cabinet_pos = html.index("tap-sweep-cabinet-legal-exposure.html")
     dereg_pos = html.index("tap-sweep-corporate-deregulation.html")
     assert overview_pos < cabinet_pos < dereg_pos
-    assert "<p>The project overview.</p>" in html
+    # Link-only index -- no narrative/summary text follows each entry.
+    assert "<p>" not in html
 
 
 from build_docs import build_docs
@@ -399,7 +352,7 @@ def test_build_docs_does_not_prune_hand_authored_md_files(tmp_path):
     assert (site / "docs" / "tap-project-overview.html").exists()
 
 
-def test_build_docs_renders_markdown_in_index_summary(tmp_path):
+def test_build_docs_index_is_link_only_no_narrative(tmp_path):
     working = tmp_path / "tap-data"
     site = tmp_path / "tap-site"
     reports_dir = working / "docs" / "reports" / "webdocs"
@@ -407,16 +360,16 @@ def test_build_docs_renders_markdown_in_index_summary(tmp_path):
 
     (reports_dir / "tap-project-overview.md").write_text(
         "# Overview\n\n"
-        "This uses **bold text** and `code`.\n"
+        "This paragraph should never appear on the index page.\n"
     )
 
     build_docs(working, site)
 
     index_html = (site / "docs" / "index.html").read_text()
-    assert "<strong>bold text</strong>" in index_html
-    assert "<code>code</code>" in index_html
-    assert "**bold text**" not in index_html
-    assert "`code`" not in index_html
+    assert 'href="tap-project-overview.html"' in index_html
+    assert "This paragraph should never appear on the index page." not in index_html
+    # No <p> at all inside the report-index list items -- links only.
+    assert "<p>" not in index_html
 
 
 def test_build_docs_warns_when_stale_output_survives_read_failure(tmp_path, capsys):
