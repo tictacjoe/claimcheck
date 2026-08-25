@@ -1,56 +1,6 @@
 from pathlib import Path
 
-from build_docs import simplify_paths, rewrite_report_links
-
-
-def test_simplify_paths_strips_working_repo_prefix():
-    working = Path("/tmp/example/tap-data")
-    site = Path("/tmp/example/tap-site")
-    text = f"Command: `python3 {working}/prosecution/find_stale_prosecution_entries.py`"
-
-    result = simplify_paths(text, working, site)
-
-    assert result == "Command: `python3 prosecution/find_stale_prosecution_entries.py`"
-
-
-def test_simplify_paths_strips_site_repo_prefix():
-    working = Path("/tmp/example/tap-data")
-    site = Path("/tmp/example/tap-site")
-    text = f"Location: `{site}/data/community-topics.json`"
-
-    result = simplify_paths(text, working, site)
-
-    assert result == "Location: `data/community-topics.json`"
-
-
-def test_simplify_paths_leaves_unrelated_text_untouched():
-    working = Path("/tmp/example/tap-data")
-    site = Path("/tmp/example/tap-site")
-    text = "This sentence has no local paths in it at all."
-
-    result = simplify_paths(text, working, site)
-
-    assert result == text
-
-
-def test_simplify_paths_strips_bare_working_dir_path():
-    working = Path("/tmp/example/tap-data")
-    site = Path("/tmp/example/tap-site")
-    text = f"Location: `{working}`"
-
-    result = simplify_paths(text, working, site)
-
-    assert result == "Location: `tap-data`"
-
-
-def test_simplify_paths_strips_bare_site_dir_path():
-    working = Path("/tmp/example/tap-data")
-    site = Path("/tmp/example/tap-site")
-    text = f"Location: `{site}`"
-
-    result = simplify_paths(text, working, site)
-
-    assert result == "Location: `tap-site`"
+from build_docs import rewrite_report_links
 
 
 def test_rewrite_report_links_converts_md_to_html():
@@ -111,69 +61,28 @@ def test_ensure_blank_line_before_lists_ignores_unspaced_list_inside_fence():
 from build_docs import convert_report
 
 
-def test_convert_report_preserves_footnote_anchor_and_return_link():
-    working = Path("/tmp/example/tap-data")
-    site = Path("/tmp/example/tap-site")
-    text = (
-        "The sweep begins with an automated scanning script."
-        '<a id="ref-scanning-script"></a><sup>[tn](#scanning-script)</sup>\n\n'
-        "## Technical Appendix\n\n"
-        "### Scanning Script\n"
-        f"Command: `python3 {working}/prosecution/find_stale_prosecution_entries.py`  \n"
-        "[↩ Return to text](#ref-scanning-script)\n"
-    )
-
-    html = convert_report(text, working, site)
-
-    assert '<a id="ref-scanning-script"></a>' in html
-    assert '<a href="#scanning-script">tn</a>' in html
-    assert '<a href="#ref-scanning-script">↩ Return to text</a>' in html
-    # The forward link's target must actually resolve: the "### Scanning
-    # Script" heading needs an id="scanning-script" attribute (generated
-    # by the `toc` markdown extension), not just plain text. Without this,
-    # href="#scanning-script" points at nothing.
-    assert '<h3 id="scanning-script">Scanning Script</h3>' in html
-
-
-def test_convert_report_strips_absolute_paths_in_code_spans():
-    working = Path("/tmp/example/tap-data")
-    site = Path("/tmp/example/tap-site")
-    text = f"Location: `{working}/prosecution/cabinet-level/`"
-
-    html = convert_report(text, working, site)
-
-    assert str(working) not in html
-    assert "<code>prosecution/cabinet-level/</code>" in html
-
-
 def test_convert_report_rewrites_report_links():
-    working = Path("/tmp/example/tap-data")
-    site = Path("/tmp/example/tap-site")
     text = "See [the guide](./tap-sweep-cabinet-legal-exposure.md) for details."
 
-    html = convert_report(text, working, site)
+    html = convert_report(text)
 
     assert '<a href="./tap-sweep-cabinet-legal-exposure.html">' in html
     assert ".md" not in html
 
 
 def test_convert_report_renders_fenced_code_blocks():
-    working = Path("/tmp/example/tap-data")
-    site = Path("/tmp/example/tap-site")
-    text = "```markdown\nThe sweep begins.<sup>[tn](#slug)</sup>\n```\n"
+    text = "```markdown\nThe sweep begins.\n```\n"
 
-    html = convert_report(text, working, site)
+    html = convert_report(text)
 
     assert "<pre>" in html
     assert "<code" in html
 
 
 def test_convert_report_renders_list_that_immediately_follows_prose():
-    working = Path("/tmp/example/tap-data")
-    site = Path("/tmp/example/tap-site")
     text = "Trackers:\n- Item One\n- Item Two\n"
 
-    html = convert_report(text, working, site)
+    html = convert_report(text)
 
     assert "<ul>" in html
     assert "<li>Item One</li>" in html
@@ -309,7 +218,7 @@ from build_docs import build_docs
 def test_build_docs_writes_one_html_file_per_report_and_an_index(tmp_path):
     working = tmp_path / "tap-data"
     site = tmp_path / "tap-site"
-    reports_dir = working / "docs" / "reports"
+    reports_dir = working / "docs" / "reports" / "webdocs"
     reports_dir.mkdir(parents=True)
 
     (reports_dir / "tap-project-overview.md").write_text(
@@ -327,14 +236,14 @@ def test_build_docs_writes_one_html_file_per_report_and_an_index(tmp_path):
 
     build_docs(working, site)
 
-    overview_html = (site / "reports" / "tap-project-overview.html").read_text()
+    overview_html = (site / "docs" / "tap-project-overview.html").read_text()
     assert "<h1>The Accountability Project — Overview</h1>" in overview_html
     assert "The Accountability Project began in early 2025." in overview_html
 
-    cabinet_html = (site / "reports" / "tap-sweep-cabinet-legal-exposure.html").read_text()
+    cabinet_html = (site / "docs" / "tap-sweep-cabinet-legal-exposure.html").read_text()
     assert "Cabinet-Level Legal Exposure Update Sweeps" in cabinet_html
 
-    index_html = (site / "reports" / "index.html").read_text()
+    index_html = (site / "docs" / "index.html").read_text()
     assert "tap-project-overview.html" in index_html
     assert "tap-sweep-cabinet-legal-exposure.html" in index_html
 
@@ -342,7 +251,7 @@ def test_build_docs_writes_one_html_file_per_report_and_an_index(tmp_path):
 def test_build_docs_does_not_duplicate_title_as_second_h1(tmp_path):
     working = tmp_path / "tap-data"
     site = tmp_path / "tap-site"
-    reports_dir = working / "docs" / "reports"
+    reports_dir = working / "docs" / "reports" / "webdocs"
     reports_dir.mkdir(parents=True)
 
     (reports_dir / "tap-project-overview.md").write_text(
@@ -353,7 +262,7 @@ def test_build_docs_does_not_duplicate_title_as_second_h1(tmp_path):
 
     build_docs(working, site)
 
-    overview_html = (site / "reports" / "tap-project-overview.html").read_text()
+    overview_html = (site / "docs" / "tap-project-overview.html").read_text()
     # The masthead's <h1>{title}</h1> (from render_page) must still be
     # present exactly once -- the body must NOT re-render the source's
     # leading "# Title" line as a second <h1>.
@@ -364,74 +273,55 @@ def test_build_docs_does_not_duplicate_title_as_second_h1(tmp_path):
     assert "The Accountability Project began in early 2025." in overview_html
 
 
-def test_build_docs_ignores_drafts_subfolder(tmp_path):
+def test_build_docs_ignores_nested_subfolder(tmp_path):
     working = tmp_path / "tap-data"
     site = tmp_path / "tap-site"
-    reports_dir = working / "docs" / "reports"
-    drafts_dir = reports_dir / "drafts"
-    drafts_dir.mkdir(parents=True)
+    reports_dir = working / "docs" / "reports" / "webdocs"
+    nested_dir = reports_dir / "drafts"
+    nested_dir.mkdir(parents=True)
 
     (reports_dir / "tap-project-overview.md").write_text(
         "# Overview\n\nReal content.\n"
     )
-    (drafts_dir / "tap-project-overview-v1.md").write_text(
+    (nested_dir / "tap-project-overview-v1.md").write_text(
         "# Old Draft\n\nSuperseded content.\n"
     )
 
     build_docs(working, site)
 
-    assert (site / "reports" / "tap-project-overview.html").exists()
-    assert not (site / "reports" / "tap-project-overview-v1.html").exists()
+    assert (site / "docs" / "tap-project-overview.html").exists()
+    assert not (site / "docs" / "tap-project-overview-v1.html").exists()
 
 
-def test_build_docs_excludes_video_narration_script(tmp_path):
+def test_build_docs_ignores_files_outside_webdocs_subfolder(tmp_path):
     working = tmp_path / "tap-data"
     site = tmp_path / "tap-site"
     reports_dir = working / "docs" / "reports"
-    reports_dir.mkdir(parents=True)
+    webdocs_dir = reports_dir / "webdocs"
+    webdocs_dir.mkdir(parents=True)
 
-    (reports_dir / "tap-project-overview.md").write_text(
+    (webdocs_dir / "tap-project-overview.md").write_text(
         "# Overview\n\nReal content.\n"
     )
-    (reports_dir / "video_narration_script.md").write_text(
-        "# TAP Video Presentation — Narration Scripts\n\n"
-        "## Slide 1\nWelcome to The Accountability Project.\n"
-    )
-
-    build_docs(working, site)
-
-    assert (site / "reports" / "tap-project-overview.html").exists()
-    assert not (site / "reports" / "video_narration_script.html").exists()
-    index_html = (site / "reports" / "index.html").read_text()
-    assert "video_narration_script" not in index_html
-
-
-def test_build_docs_excludes_tap_docs_audit_and_publishing_report(tmp_path):
-    working = tmp_path / "tap-data"
-    site = tmp_path / "tap-site"
-    reports_dir = working / "docs" / "reports"
-    reports_dir.mkdir(parents=True)
-
-    (reports_dir / "tap-project-overview.md").write_text(
-        "# Overview\n\nReal content.\n"
-    )
+    # A file sitting directly in docs/reports/ (not in webdocs/) should be
+    # ignored entirely -- only webdocs/*.md is the source scope now.
     (reports_dir / "tap-docs-audit-and-publishing-report.md").write_text(
         "# Internal Audit and Publishing Report\n\n"
-        "## Engineering Session\nPrivate project-management narrative and git references.\n"
+        "## Engineering Session\nPrivate project-management narrative.\n"
     )
 
     build_docs(working, site)
 
-    assert (site / "reports" / "tap-project-overview.html").exists()
-    assert not (site / "reports" / "tap-docs-audit-and-publishing-report.html").exists()
-    index_html = (site / "reports" / "index.html").read_text()
+    assert (site / "docs" / "tap-project-overview.html").exists()
+    assert not (site / "docs" / "tap-docs-audit-and-publishing-report.html").exists()
+    index_html = (site / "docs" / "index.html").read_text()
     assert "tap-docs-audit-and-publishing-report" not in index_html
 
 
 def test_build_docs_skips_unreadable_file_and_continues(tmp_path, capsys):
     working = tmp_path / "tap-data"
     site = tmp_path / "tap-site"
-    reports_dir = working / "docs" / "reports"
+    reports_dir = working / "docs" / "reports" / "webdocs"
     reports_dir.mkdir(parents=True)
 
     (reports_dir / "tap-project-overview.md").write_text(
@@ -445,14 +335,14 @@ def test_build_docs_skips_unreadable_file_and_continues(tmp_path, capsys):
     captured = capsys.readouterr()
     assert "WARNING" in captured.out
     assert "tap-sweep-broken.md" in captured.out
-    assert (site / "reports" / "tap-project-overview.html").exists()
-    assert not (site / "reports" / "tap-sweep-broken.html").exists()
+    assert (site / "docs" / "tap-project-overview.html").exists()
+    assert not (site / "docs" / "tap-sweep-broken.html").exists()
 
 
 def test_build_docs_prunes_stale_html_when_source_md_removed(tmp_path):
     working = tmp_path / "tap-data"
     site = tmp_path / "tap-site"
-    reports_dir = working / "docs" / "reports"
+    reports_dir = working / "docs" / "reports" / "webdocs"
     reports_dir.mkdir(parents=True)
 
     (reports_dir / "tap-project-overview.md").write_text(
@@ -465,8 +355,8 @@ def test_build_docs_prunes_stale_html_when_source_md_removed(tmp_path):
 
     build_docs(working, site)
 
-    overview_output = site / "reports" / "tap-project-overview.html"
-    removed_output = site / "reports" / "tap-sweep-old-report.html"
+    overview_output = site / "docs" / "tap-project-overview.html"
+    removed_output = site / "docs" / "tap-sweep-old-report.html"
     assert overview_output.exists()
     assert removed_output.exists()
 
@@ -479,15 +369,40 @@ def test_build_docs_prunes_stale_html_when_source_md_removed(tmp_path):
     assert overview_output.exists()
     assert "Real content." in overview_output.read_text()
 
-    index_html = (site / "reports" / "index.html").read_text()
+    index_html = (site / "docs" / "index.html").read_text()
     assert "tap-project-overview.html" in index_html
     assert "tap-sweep-old-report" not in index_html
+
+
+def test_build_docs_does_not_prune_hand_authored_md_files(tmp_path):
+    """site/docs/ can also hold hand-authored .md reference files
+    (e.g. tap-about.md) alongside the generated .html pages -- the
+    prune logic only ever globs and deletes *.html, never *.md."""
+    working = tmp_path / "tap-data"
+    site = tmp_path / "tap-site"
+    reports_dir = working / "docs" / "reports" / "webdocs"
+    reports_dir.mkdir(parents=True)
+
+    (reports_dir / "tap-project-overview.md").write_text(
+        "# Overview\n\nReal content.\n"
+    )
+
+    output_dir = site / "docs"
+    output_dir.mkdir(parents=True)
+    hand_authored = output_dir / "tap-about.md"
+    hand_authored.write_text("# About\n\nHand-authored reference content.\n")
+
+    build_docs(working, site)
+
+    assert hand_authored.exists()
+    assert hand_authored.read_text() == "# About\n\nHand-authored reference content.\n"
+    assert (site / "docs" / "tap-project-overview.html").exists()
 
 
 def test_build_docs_renders_markdown_in_index_summary(tmp_path):
     working = tmp_path / "tap-data"
     site = tmp_path / "tap-site"
-    reports_dir = working / "docs" / "reports"
+    reports_dir = working / "docs" / "reports" / "webdocs"
     reports_dir.mkdir(parents=True)
 
     (reports_dir / "tap-project-overview.md").write_text(
@@ -497,7 +412,7 @@ def test_build_docs_renders_markdown_in_index_summary(tmp_path):
 
     build_docs(working, site)
 
-    index_html = (site / "reports" / "index.html").read_text()
+    index_html = (site / "docs" / "index.html").read_text()
     assert "<strong>bold text</strong>" in index_html
     assert "<code>code</code>" in index_html
     assert "**bold text**" not in index_html
@@ -509,7 +424,7 @@ def test_build_docs_warns_when_stale_output_survives_read_failure(tmp_path, caps
     the "was NOT pruned" warning should be printed."""
     working = tmp_path / "tap-data"
     site = tmp_path / "tap-site"
-    reports_dir = working / "docs" / "reports"
+    reports_dir = working / "docs" / "reports" / "webdocs"
     reports_dir.mkdir(parents=True)
 
     # Create a good report so build_docs can generate at least one output
@@ -522,12 +437,12 @@ def test_build_docs_warns_when_stale_output_survives_read_failure(tmp_path, caps
 
     # First build: creates tap-project-overview.html, skips tap-sweep-broken.md (no html created for it)
     build_docs(working, site)
-    assert (site / "reports" / "tap-project-overview.html").exists()
-    assert not (site / "reports" / "tap-sweep-broken.html").exists()
+    assert (site / "docs" / "tap-project-overview.html").exists()
+    assert not (site / "docs" / "tap-sweep-broken.html").exists()
 
     # Second run: Simulate the first run having succeeded in creating an html for tap-sweep-broken,
     # then this run the .md file becomes unreadable. We create the stale html manually.
-    stale_broken_output = site / "reports" / "tap-sweep-broken.html"
+    stale_broken_output = site / "docs" / "tap-sweep-broken.html"
     stale_broken_output.write_text("<html><body>Stale broken content</body></html>")
 
     # Now run build_docs again with the broken .md file
@@ -548,7 +463,7 @@ def test_build_docs_no_warning_when_no_stale_output_exists(tmp_path, capsys):
     the "was NOT pruned" warning should NOT be printed."""
     working = tmp_path / "tap-data"
     site = tmp_path / "tap-site"
-    reports_dir = working / "docs" / "reports"
+    reports_dir = working / "docs" / "reports" / "webdocs"
     reports_dir.mkdir(parents=True)
 
     # Create a good report so we have at least one output
@@ -567,4 +482,4 @@ def test_build_docs_no_warning_when_no_stale_output_exists(tmp_path, capsys):
     # But the "was NOT pruned" warning should NOT appear (no prior .html to warn about)
     assert "was NOT pruned" not in captured.out
     # The stale file should not exist (it was never created)
-    assert not (site / "reports" / "tap-sweep-never-built.html").exists()
+    assert not (site / "docs" / "tap-sweep-never-built.html").exists()

@@ -106,12 +106,6 @@
     margin: 2.5rem 0;
   }
 
-  main sup a {
-    color: var(--brass);
-    text-decoration: none;
-  }
-  main sup a:hover { text-decoration: underline; }
-
   .report-index { list-style: none; padding: 0; }
   .report-index li {
     margin-bottom: 1.5rem;
@@ -150,72 +144,40 @@
 <p class="tagline">The Accountability Project — Reports</p>
 </header>
 <main>
-<h2 id="concept-purpose">Concept &amp; Purpose</h2>
+<h2>Concept &amp; Purpose</h2>
 <p>A Corporate Deregulation Update Sweep is a structured audit and verification workflow that tracks federal agency rule rollbacks, compliance stays, and statutory rollbacks across environmental, labor, consumer safety, and financial domains (EPA, OSHA, DOL, DOE, CFPB, FCC, DOT, MSHA, USDA, and other regulatory bodies).</p>
 <p>Its core design principle is <strong>evidentiary rigor over advocacy framing</strong>: distinguishing the verifiable regulatory action on the Federal Register from modeled economic or health impacts (which must be explicitly attributed to named sources, like the agency's own cost-benefit analysis or academic policy trackers).</p>
-<h2 id="stage-1-rule-lifecycle-staleness-detection">Stage 1: Rule-Lifecycle &amp; Staleness Detection</h2>
-<p>The sweep begins by running the deregulation staleness scanner.<a id="ref-staleness-scanner"></a><sup><a href="#staleness-scanner">tn</a></sup></p>
-<p>The script audits every JSON entry in the datastore<a id="ref-deregulation-datastore"></a><sup><a href="#deregulation-datastore">tn</a></sup> focusing on the regulatory lifecycle:</p>
+<h2>Stage 1: Rule-Lifecycle &amp; Staleness Detection</h2>
+<p>The sweep begins by running the deregulation staleness scanner.</p>
+<p>The script audits every JSON entry in the datastore focusing on the regulatory lifecycle:</p>
 <ul>
 <li><strong>Non-Finalized Rule Statuses:</strong> It specifically flags rules whose <code>status</code> contains "Proposed" or "Delayed/Paused", because pending rules are subject to public comment periods, congressional review, or judicial stays.</li>
 <li><strong>Verification Age Check:</strong> Flags entries where <code>last_verified</code> is older than 60 days.</li>
 </ul>
-<h2 id="stage-2-federal-register-regulatory-docket-impact-research">Stage 2: Federal Register, Regulatory Docket &amp; Impact Research</h2>
+<h2>Stage 2: Federal Register, Regulatory Docket &amp; Impact Research</h2>
 <p>For all flagged entries (processed in focused batches of approximately 6):</p>
 <ul>
 <li><strong>Federal Register &amp; Court Docket Searches:</strong> Targeted searches check whether proposed rules were finalized, comment periods closed, compliance dates arrived, or federal courts issued stays under the Administrative Procedure Act (APA).</li>
 <li><strong>Resolving Internal Flags:</strong> If an entry contains a flagged follow-up question (for example, whether a passing compliance deadline altered enforcement under the MSHA silica rule), the sweep resolves that question directly in the primary text.</li>
 <li><strong>Attributed Impact Verification:</strong> Verifies that figures in <code>estimated_health_impact</code> (e.g. premature mortalities or financial harm) are explicitly cited to named models (e.g., NYU Policy Integrity tracker, agency Regulatory Impact Analyses).</li>
-<li><strong>Per-Batch Research Notes:</strong> If an entry undergoes a Real Correction (e.g., a rule previously described as active was stayed by a court), the search trail and legal analysis are written to a research brief file.<a id="ref-recheck-notes-file"></a><sup><a href="#recheck-notes-file">tn</a></sup></li>
+<li><strong>Per-Batch Research Notes:</strong> If an entry undergoes a Real Correction (e.g., a rule previously described as active was stayed by a court), the search trail and legal analysis are written to a research brief file.</li>
 </ul>
-<h2 id="stage-3-schema-conformance-named-accountability-enforcement">Stage 3: Schema Conformance &amp; Named Accountability Enforcement</h2>
-<p>The updates are written programmatically, verifying strict adherence to the schema file:<a id="ref-schema-file"></a><sup><a href="#schema-file">tn</a></sup></p>
+<h2>Stage 3: Schema Conformance &amp; Named Accountability Enforcement</h2>
+<p>The updates are written programmatically, verifying strict adherence to the schema file:</p>
 <ul>
 <li><strong><code>primary_proponent</code>:</strong> Requires a specific named individual (the agency head or deputy driving the rollback) rather than a generic administration label.</li>
 <li><strong><code>corporate_beneficiaries</code>:</strong> Validates that listed corporate or trade association beneficiaries are tied to on-the-record lobbying filings or public support.</li>
 <li><strong><code>short_summary</code>:</strong> Hand-crafted, 80–110 character sentence leading directly with the concrete action ("Repealed X," "Removed the requirement that...").</li>
 <li><strong>Timestamp Integrity:</strong> Bumps <code>last_verified</code> to the current date while preserving <code>date_added</code> (the fixed historical record of when the entry entered the database).</li>
-<li><strong><code>section_summaries</code> Completeness Gate:</strong> Re-runs the validation script<a id="ref-section-summary-script"></a><sup><a href="#section-summary-script">tn</a></sup> to confirm every entry's <code>section_summaries</code> object has non-empty <code>what_changed</code>, <code>estimated_impact</code>, and <code>confidence_note</code> values before publishing.</li>
+<li><strong><code>section_summaries</code> Completeness Gate:</strong> Re-runs the validation script to confirm every entry's <code>section_summaries</code> object has non-empty <code>what_changed</code>, <code>estimated_impact</code>, and <code>confidence_note</code> values before publishing.</li>
 </ul>
-<h2 id="stage-4-two-repository-publishing-live-deployment">Stage 4: Two-Repository Publishing &amp; Live Deployment</h2>
+<h2>Stage 4: Two-Repository Publishing &amp; Live Deployment</h2>
 <p>The sweep completes with atomic synchronization and static compilation:</p>
 <ul>
-<li><strong>Private Research Repository:<a id="ref-private-research-repository"></a><sup><a href="#private-research-repository">tn</a></sup></strong> Staged, validated, committed with batch summaries, and pushed.</li>
-<li><strong>Publication Engine:<a id="ref-publication-engine"></a><sup><a href="#publication-engine">tn</a></sup></strong> Compiles the raw JSON files into the public deregulation dataset,<a id="ref-primary-json"></a><sup><a href="#primary-json">tn</a></sup> updates domain category counts (<code>environmental</code>, <code>labor</code>, <code>consumer_safety</code>, <code>financial</code>), and refreshes client-side search indices.</li>
-<li><strong>Public Web Repository:<a id="ref-public-web-repository"></a><sup><a href="#public-web-repository">tn</a></sup></strong> Committed and pushed, instantly deploying the updated deregulation tracker to the web portal.<a id="ref-public-web-portal"></a><sup><a href="#public-web-portal">tn</a></sup></li>
+<li><strong>Private Research Repository:</strong> Staged, validated, committed with batch summaries, and pushed.</li>
+<li><strong>Publication Engine:</strong> Compiles the raw JSON files into the public deregulation dataset, updates domain category counts (<code>environmental</code>, <code>labor</code>, <code>consumer_safety</code>, <code>financial</code>), and refreshes client-side search indices.</li>
+<li><strong>Public Web Repository:</strong> Committed and pushed, instantly deploying the updated deregulation tracker to the web portal.</li>
 </ul>
-<hr />
-<h2 id="technical-appendix">Technical Appendix</h2>
-<h3 id="staleness-scanner">Staleness Scanner</h3>
-<p>Command: <code>python3 deregulation/find_stale_entries.py deregulation/entries</code><br />
-<a href="#ref-staleness-scanner">↩ Return to text</a></p>
-<h3 id="deregulation-datastore">Deregulation Datastore</h3>
-<p>Location: <code>deregulation/entries/</code><br />
-<a href="#ref-deregulation-datastore">↩ Return to text</a></p>
-<h3 id="recheck-notes-file">Recheck Notes File</h3>
-<p>Location template: <code>tracker/output/research-briefs/deregulation-recheck-batchNN-notes.md</code><br />
-<a href="#ref-recheck-notes-file">↩ Return to text</a></p>
-<h3 id="schema-file">Schema File</h3>
-<p>Location: <code>deregulation/SCHEMA.md</code><br />
-<a href="#ref-schema-file">↩ Return to text</a></p>
-<h3 id="section-summary-script">Section Summary Script</h3>
-<p>Validation script: <code>python3 deregulation/validate_section_summaries.py</code><br />
-<a href="#ref-section-summary-script">↩ Return to text</a></p>
-<h3 id="private-research-repository">Private Research Repository</h3>
-<p>Location: <code>tap-data</code><br />
-<a href="#ref-private-research-repository">↩ Return to text</a></p>
-<h3 id="publication-engine">Publication Engine</h3>
-<p>Command: <code>python3 publish.py --working tap-data --site tap-site</code><br />
-<a href="#ref-publication-engine">↩ Return to text</a></p>
-<h3 id="primary-json">Primary JSON</h3>
-<p>Location: <code>data/deregulation.json</code><br />
-<a href="#ref-primary-json">↩ Return to text</a></p>
-<h3 id="public-web-repository">Public Web Repository</h3>
-<p>Location: <code>tap-site</code><br />
-<a href="#ref-public-web-repository">↩ Return to text</a></p>
-<h3 id="public-web-portal">Public Web Portal</h3>
-<p>Location: GitHub Pages at <code>https://tictacjoe.github.io/tap/</code><br />
-<a href="#ref-public-web-portal">↩ Return to text</a></p>
 <a class="back-link" href="index.html">&larr; All Reports</a>
 <a class="back-link" href="../index.html">&larr; Back to The Accountability Project</a>
 </main>

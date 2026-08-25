@@ -3,9 +3,9 @@
 build_docs.py
 
 Converts the Markdown reports in the PRIVATE working repo's
-docs/reports/ (~/gjoe/tap-data/docs/reports/*.md, non-recursive --
-never docs/reports/drafts/) into styled public HTML pages in the
-PUBLIC site repo (~/gjoe/tap-site/reports/).
+docs/reports/webdocs/ (~/gjoe/tap-data/docs/reports/webdocs/*.md,
+non-recursive) into styled public HTML pages in the PUBLIC site repo
+(~/gjoe/tap-site/docs/).
 
 This does NOT commit or push anything -- it only writes files into the
 site repo's working directory. You review with `git diff` in the site
@@ -30,18 +30,6 @@ except ImportError:
     print("ERROR: the 'markdown' package is required.")
     print("Install it with: pip install --break-system-packages markdown")
     sys.exit(1)
-
-
-def simplify_paths(text: str, working_dir: Path, site_dir: Path) -> str:
-    """Strip the private/public repo's absolute path prefixes so the
-    generated public HTML doesn't expose local machine paths. Only runs
-    on the in-memory copy being converted -- the .md source keeps its
-    full absolute paths untouched."""
-    text = text.replace(f"{working_dir}/", "")
-    text = text.replace(f"{site_dir}/", "")
-    text = text.replace(str(working_dir), working_dir.name)
-    text = text.replace(str(site_dir), site_dir.name)
-    return text
 
 
 _MD_LINK_RE = re.compile(r"\]\(([^)]+?)\.md\)")
@@ -89,16 +77,12 @@ def ensure_blank_line_before_lists(text: str) -> str:
     return "\n".join(result)
 
 
-def convert_report(markdown_text: str, working_dir: Path, site_dir: Path) -> str:
+def convert_report(markdown_text: str) -> str:
     """Apply the text transforms, then convert Markdown to an HTML
-    fragment. Raw inline HTML (the <a id>/<sup> footnote markup) passes
-    through the `markdown` library untouched by default -- confirmed
-    empirically with markdown 3.10.3 -- which is what keeps the
-    two-way footnote navigation working after conversion."""
-    text = simplify_paths(markdown_text, working_dir, site_dir)
-    text = rewrite_report_links(text)
+    fragment."""
+    text = rewrite_report_links(markdown_text)
     text = ensure_blank_line_before_lists(text)
-    return markdown.markdown(text, extensions=["fenced_code", "toc"])
+    return markdown.markdown(text, extensions=["fenced_code"])
 
 
 def extract_title_and_summary(markdown_text: str) -> tuple:
@@ -130,8 +114,8 @@ def extract_title_and_summary(markdown_text: str) -> tuple:
 
 
 # CSS lifted from about.html's <style> block, plus additions for
-# elements about.html doesn't use: h3, blockquote, pre/code, hr, sup
-# links (the footnote markup), and the report-index listing.
+# elements about.html doesn't use: h3, blockquote, pre/code, hr, and
+# the report-index listing.
 _TEMPLATE_CSS = """
   :root {
     --paper: #EDEFE7;
@@ -234,12 +218,6 @@ _TEMPLATE_CSS = """
     margin: 2.5rem 0;
   }
 
-  main sup a {
-    color: var(--brass);
-    text-decoration: none;
-  }
-  main sup a:hover { text-decoration: underline; }
-
   .report-index { list-style: none; padding: 0; }
   .report-index li {
     margin-bottom: 1.5rem;
@@ -327,23 +305,20 @@ def render_index(reports: list) -> str:
     return render_page("Reports", body, back_links=[("Back to The Accountability Project", "../index.html")])
 
 
-# video_narration_script.md is video-presentation narration cues, not a
-# standalone report -- it stays in docs/reports/ for VS Code editing but
-# is never converted or published. tap-docs-audit-and-publishing-report.md
-# is a private engineering session report about auditing and designing this
-# build_docs.py feature -- it contains internal project-management narrative
-# and references to git commits/VS Code scratch files, not public-facing
-# content for the Reports section.
-_EXCLUDED_REPORTS = {"video_narration_script.md", "tap-docs-audit-and-publishing-report.md"}
+# Reserved for any future webdocs/ file that shouldn't be published (e.g.
+# a draft accidentally left out of docs/reports/drafts/) -- empty for now,
+# since docs/reports/webdocs/ only ever holds files meant to go public.
+_EXCLUDED_REPORTS = set()
 
 
 def build_docs(working: Path, site: Path) -> None:
-    """Convert every *.md file directly in working/docs/reports/ (never
-    its drafts/ subfolder -- Path.glob("*.md") only matches direct
-    children -- and never _EXCLUDED_REPORTS) into a styled HTML page
-    under site/reports/, plus an index page listing all of them."""
-    reports_dir = working / "docs" / "reports"
-    output_dir = site / "reports"
+    """Convert every *.md file directly in working/docs/reports/webdocs/
+    (Path.glob("*.md") only matches direct children, so any nested
+    subfolder is skipped automatically; also never _EXCLUDED_REPORTS)
+    into a styled HTML page under site/docs/, plus an index page listing
+    all of them."""
+    reports_dir = working / "docs" / "reports" / "webdocs"
+    output_dir = site / "docs"
     output_dir.mkdir(parents=True, exist_ok=True)
 
     md_files = [
@@ -351,19 +326,20 @@ def build_docs(working: Path, site: Path) -> None:
         if md_file.name not in _EXCLUDED_REPORTS
     ]
 
-    # site/reports/ is a fully generated directory -- nothing in it is
-    # hand-authored, everything comes from this function -- so prune any
-    # existing *.html file that won't be (re)written this run (e.g. its
-    # .md source was deleted). Compute the full set of expected outputs
-    # first (every slug about to be generated, plus the always-rewritten
-    # index.html) so a report that's merely being regenerated is never
-    # mistaken for stale.
+    # site/docs/ is a fully generated directory for these report pages --
+    # so prune any existing *.html file that won't be (re)written this run
+    # (e.g. its .md source was deleted). Compute the full set of expected
+    # outputs first (every slug about to be generated, plus the
+    # always-rewritten index.html) so a report that's merely being
+    # regenerated is never mistaken for stale. Hand-authored .md reference
+    # files that also live in site/docs/ (tap-about.md, etc.) are untouched
+    # -- this only ever globs and deletes *.html.
     expected_names = {f"{md_file.stem}.html" for md_file in md_files}
     expected_names.add("index.html")
     for existing in sorted(output_dir.glob("*.html")):
         if existing.name not in expected_names:
             existing.unlink()
-            print(f"  pruned stale: reports/{existing.name}")
+            print(f"  pruned stale: docs/{existing.name}")
 
     reports = []
     for md_file in md_files:
@@ -373,11 +349,11 @@ def build_docs(working: Path, site: Path) -> None:
             print(f"  WARNING: skipping {md_file.name}: {exc}")
             stale_output = output_dir / f"{md_file.stem}.html"
             if stale_output.exists():
-                print(f"  WARNING: reports/{stale_output.name} was NOT pruned (previous output kept)")
+                print(f"  WARNING: docs/{stale_output.name} was NOT pruned (previous output kept)")
             continue
 
         title, summary = extract_title_and_summary(raw)
-        summary_html = convert_report(summary, working, site)
+        summary_html = convert_report(summary)
         if summary_html.startswith("<p>") and summary_html.endswith("</p>"):
             summary_html = summary_html[len("<p>"):-len("</p>")]
         # The masthead (render_page) already shows the title as an <h1>;
@@ -391,7 +367,7 @@ def build_docs(working: Path, site: Path) -> None:
             body_text = "".join(body_lines[1:])
         else:
             body_text = raw
-        body_html = convert_report(body_text, working, site)
+        body_html = convert_report(body_text)
         page_html = render_page(title, body_html, back_links=[
             ("All Reports", "index.html"),
             ("Back to The Accountability Project", "../index.html"),
@@ -400,11 +376,11 @@ def build_docs(working: Path, site: Path) -> None:
         slug = md_file.stem
         (output_dir / f"{slug}.html").write_text(page_html, encoding="utf-8")
         reports.append({"slug": slug, "title": title, "summary": summary_html})
-        print(f"  converted: {md_file.name} -> reports/{slug}.html")
+        print(f"  converted: {md_file.name} -> docs/{slug}.html")
 
     index_html = render_index(reports)
     (output_dir / "index.html").write_text(index_html, encoding="utf-8")
-    print(f"  wrote reports/index.html ({len(reports)} report(s))")
+    print(f"  wrote docs/index.html ({len(reports)} report(s))")
 
 
 def main():
@@ -431,8 +407,8 @@ def main():
     print("---")
     print("Done. Now review and commit in the site repo:")
     print(f"  cd {site}")
-    print(f"  git diff reports/")
-    print(f"  git add reports/")
+    print(f"  git diff docs/")
+    print(f"  git add docs/")
     print(f"  git commit -m \"docs: publish updated reports\"")
     print(f"  git push")
 

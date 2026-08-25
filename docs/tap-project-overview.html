@@ -106,12 +106,6 @@
     margin: 2.5rem 0;
   }
 
-  main sup a {
-    color: var(--brass);
-    text-decoration: none;
-  }
-  main sup a:hover { text-decoration: underline; }
-
   .report-index { list-style: none; padding: 0; }
   .report-index li {
     margin-bottom: 1.5rem;
@@ -153,13 +147,13 @@
 <blockquote>
 <p><em>"While headlines flood, the record stands."</em></p>
 </blockquote>
-<h2 id="introduction">Introduction</h2>
+<h2>Introduction</h2>
 <p>The Accountability Project began in early 2025 as a personal reference archive of news reports about changes happening in the federal government. The flood of news made it difficult to keep up with the many impactful and concerning events being reported, and much was lost in the churn of the daily news cycle. As the volume and velocity of information increased, I began exploring ways to grow and manage this archive using AI-based tools.</p>
 <p>Over the next 18 months, the project evolved beyond an automated news archive into a tool that could maintain a verifiable accounting of government activity, with a strong focus on attribution. TAP finds, retrieves, and evaluates information related to government activity using automated, code-enforced accuracy, attribution, and sourcing checks, and then contextualizes that information into reliable, ongoing larger narratives to help provide a big-picture view of events.</p>
 <p>The system is currently focused on vetting and contextualizing information into three specific areas of government activity: the redirection or weakening of government services, potential legal exposure for high-ranking government officials, and corporate deregulation. These topics can change without changing the underlying processing logic or tooling.</p>
 <p>Through batch-driven update sweeps, well-sourced reporting and data is ingested, clustered by event, and evaluated for integration into ongoing narratives about the same or similar events. Quality control is enforced through strict programmatic validation checks. It is a structured system that combines carefully controlled AI assistance with code-enforced quality gates. These gates are designed to prevent AI hallucinations, expose inconsistencies, enforce quality control standards around attribution, sourcing, and data quality — and update the larger event narratives with new, vetted information.</p>
 <hr />
-<h2 id="core-philosophy-ai-as-a-practical-research-assistant">Core Philosophy: AI as a Practical Research Assistant</h2>
+<h2>Core Philosophy: AI as a Practical Research Assistant</h2>
 <p>TAP demonstrates how intentionally designed AI-based routines can serve as a reliable research automation tool when constrained by strict, software-imposed guardrails:</p>
 <ul>
 <li><strong>Filtering the Noise, Capturing the Signal:</strong> During batch ingestion passes, the system sifts through large volumes of daily reporting to identify items such as statutory violations, unlawful impoundments, and regulatory rollbacks that might otherwise be overlooked.</li>
@@ -169,39 +163,39 @@
 <li><strong>Named Personal Accountability:</strong> Whether identifying a Cabinet official facing statutory liability, an agency administrator driving a regulatory rollback, or a director authorizing an unlawful impoundment, actions are tied whenever possible to the specific named official who signed, directed, or executed the order, establishing a clear chain of personal responsibility.</li>
 </ul>
 <hr />
-<h2 id="programmatic-quality-gates-automated-verification">Programmatic Quality Gates &amp; Automated Verification</h2>
+<h2>Programmatic Quality Gates &amp; Automated Verification</h2>
 <p>A central principle of TAP is that factual integrity and anti-hallucination safeguards do not rely solely on manual proofreading, the exact bottleneck in the problem of scale the system was built to overcome. Instead, the architecture enforces verification through code-enforced quality gates that block unverified, incomplete, or malformed data from compiling into the datastore:</p>
 <ol>
 <li><strong>Strict Code Validation Over Generative Output:</strong> While AI models assist in scanning and synthesizing source material and public records, every output in the TAP system must pass through a series of validation scripts. These gates check far more than syntax and citations: they require that specific evidentiary questions are answered, primary source and record existence is verified, and required confidence caveats are articulated before any build can succeed.</li>
 <li><strong>Live Research &amp; Primary-Source Corroboration:</strong> Before any candidate can advance, live AI-driven research checks referenced primary sources — including court dockets, Federal Register entries, agency rulemaking filings, Government Accountability Office (GAO) decisions, Inspector General reports, and investigative reporting from established news organizations — confirming that cited sources resolve and contain the claimed factual material.</li>
-<li><strong>Strict Schema Type Enforcement:</strong><a id="ref-schema-enforcement"></a><sup><a href="#schema-enforcement">tn</a></sup> Every tracker enforces a strict data schema requiring named proponents, specific statutory violation citations, evidence mappings, and confidence notes. Files lacking complete fields are rejected.</li>
-<li><strong>Continuous Case Re-Verification:</strong><a id="ref-staleness-scanners"></a><sup><a href="#staleness-scanners">tn</a></sup> The system eliminates guesswork regarding when to re-verify cases by continuously auditing active litigation, court stays, and public comment closures to keep oversight records permanently fresh.</li>
+<li><strong>Strict Schema Type Enforcement:</strong> Every tracker enforces a strict data schema requiring named proponents, specific statutory violation citations, evidence mappings, and confidence notes. Files lacking complete fields are rejected.</li>
+<li><strong>Continuous Case Re-Verification:</strong> The system eliminates guesswork regarding when to re-verify cases by continuously auditing active litigation, court stays, and public comment closures to keep oversight records permanently fresh.</li>
 </ol>
 <hr />
-<h2 id="the-five-specialized-functional-areas">The Five Specialized Functional Areas</h2>
+<h2>The Five Specialized Functional Areas</h2>
 <p>The TAP architecture is divided into five distinct, specialized datastores:</p>
-<h3 id="cabinet-level-legal-exposure">Cabinet-Level Legal Exposure</h3>
+<h3>Cabinet-Level Legal Exposure</h3>
 <ul>
 <li><strong>Provides answers to questions like:</strong> <em>Did a specific federal official violate statutory law, what legal elements apply, and what are the expected counter-arguments?</em></li>
 <li><strong>Scope:</strong> Tracks individual statutory and legal exposure across Cabinet secretaries and political appointees (including the Hatch Act, Antideficiency Act, Impoundment Control Act, Federal Advisory Committee Act, Whistleblower Protection Act, federal procurement rules, and related statutes and constitutional doctrines).</li>
 <li><strong>Key Deliverables:</strong> Statutory element breakdowns, court and Inspector General findings, and paired Anticipated Rebuttals &amp; Ready Comebacks.</li>
 <li><strong><a href="./tap-sweep-cabinet-legal-exposure.html">Detailed Guide</a></strong></li>
 </ul>
-<h3 id="corporate-deregulation">Corporate Deregulation</h3>
+<h3>Corporate Deregulation</h3>
 <ul>
 <li><strong>Provides answers to questions like:</strong> <em>What public health, environmental, labor, or financial rule was rolled back, which corporate interests lobbied for it, and what is the attributed public harm?</em></li>
 <li><strong>Scope:</strong> Tracks federal agency rule rollbacks across EPA, OSHA, DOL, DOE, CFPB, FCC, DOT, MSHA, USDA, and other regulatory bodies.</li>
 <li><strong>Key Deliverables:</strong> Federal Register rulemaking tracking (e.g. <em>Proposed</em>, <em>Delayed/Paused</em>, <em>Finalized</em>, or <em>Judicially Stayed</em>), named corporate beneficiaries, and attributed health/economic impact models.</li>
 <li><strong><a href="./tap-sweep-corporate-deregulation.html">Detailed Guide</a></strong></li>
 </ul>
-<h3 id="government-service-redirection">Government Service Redirection</h3>
+<h3>Government Service Redirection</h3>
 <ul>
 <li><strong>Provides answers to questions like:</strong> <em>What federal institutional capacity was suppressed or dismantled, how much appropriated money was frozen, and what did oversight bodies or courts find?</em></li>
 <li><strong>Scope:</strong> Tracks the degradation of government functions across 5 domains: <code>research_suppression</code>, <code>funding_redirection</code>, <code>staff_office_cuts</code>, <code>data_collection_halted</code>, and <code>protection_rollback</code>.</li>
 <li><strong>Key Deliverables:</strong> Quantified institutional losses (such as grant dollars frozen, employee headcounts reduced, research programs halted, or datasets deleted) backed by formal GAO Impoundment Control Act legal decisions, Inspector General reports, federal court rulings, and official agency disclosures.</li>
 <li><strong><a href="./tap-sweep-government-services-redirection.html">Detailed Guide</a></strong></li>
 </ul>
-<h3 id="reporting-candidate-ingestion">Reporting &amp; Candidate Ingestion</h3>
+<h3>Reporting &amp; Candidate Ingestion</h3>
 <ul>
 <li><strong>Primary Function:</strong> <em>Monitoring, deduplicating, and triaging raw investigative journalism into the structured datastores.</em></li>
 <li><strong>Scope:</strong> Operates an on-demand news scraping and topic-based story clustering pipeline over thousands of raw news articles.</li>
@@ -210,7 +204,7 @@
 <li><a href="./tap-sweep-reporting-database-updates.html">Ingestion Pipeline</a></li>
 <li><a href="./tap-sweep-reporting-backlog-triage.html">Backlog Triage &amp; Clustering</a></li>
 </ul>
-<h3 id="community-topics-public-submissions">Community Topics &amp; Public Submissions</h3>
+<h3>Community Topics &amp; Public Submissions</h3>
 <ul>
 <li><strong>Provides answers to questions like:</strong> <em>What emerging claims, policy questions, or local impacts are citizens raising, and how do they hold up against primary-source verification?</em></li>
 <li><strong>Scope:</strong> Operates an in-site topic intake and lightweight fact-checking pipeline for reader-submitted suggestions.</li>
@@ -218,14 +212,14 @@
 <li><strong><a href="./tap-sweep-community-topics-submissions.html">Detailed Guide</a></strong></li>
 </ul>
 <hr />
-<h2 id="technical-assurance-data-integrity">Technical Assurance &amp; Data Integrity</h2>
+<h2>Technical Assurance &amp; Data Integrity</h2>
 <ol>
-<li><strong>Dual-Repository Architecture:</strong> TAP separates the private working research repository<a id="ref-private-research-repository"></a><sup><a href="#private-research-repository">tn</a></sup> from the web publishing repository<a id="ref-public-web-repository"></a><sup><a href="#public-web-repository">tn</a></sup>. Because the live site is generated as static files rather than querying a live database server, there is no database server to compromise, crash, or expose to injection attacks, ensuring high-speed and secure delivery to the hosting platform. Rather than using a typical, monolithic database, data is stored as discrete, reusable JSON files, making individual entries easier to inspect, version, and reuse independently.</li>
+<li><strong>Dual-Repository Architecture:</strong> TAP separates the private working research repository from the web publishing repository. Because the live site is generated as static files rather than querying a live database server, there is no database server to compromise, crash, or expose to injection attacks, ensuring high-speed and secure delivery to the hosting platform. Rather than using a typical, monolithic database, data is stored as discrete, reusable JSON files, making individual entries easier to inspect, version, and reuse independently.</li>
 <li><strong>Version-Controlled Audit Trails:</strong> All data changes, verification notes, and triage records are tracked in Git histories, ensuring that every published claim is auditable and traceable back to its source.</li>
 <li><strong>Auditable Data:</strong> Data feeds, search tables, and published entries are structured for verification by authorized users of the system.</li>
 </ol>
 <hr />
-<h2 id="how-researchers-analysts-congressional-staff-might-utilize-tap">How Researchers, Analysts &amp; Congressional Staff Might Utilize TAP</h2>
+<h2>How Researchers, Analysts &amp; Congressional Staff Might Utilize TAP</h2>
 <p>Since my background is in building IT systems rather than policy analysis, I can only imagine some of the practical ways Congressional researchers might put TAP to work:</p>
 <ul>
 <li><strong>Hearing Preparation &amp; Briefings:</strong> Pulling verified statutory violation records and ready rebuttal comebacks for Member Q&amp;A or public testimony.</li>
@@ -233,20 +227,6 @@
 <li><strong>Public Comment &amp; Legal Filings:</strong> Tracking open comment deadlines and contested agency rulemakings.</li>
 <li><strong>Media &amp; Fact-Checking:</strong> Rapid verification of attributed impact figures, primary sources, and timelines during public debate.</li>
 </ul>
-<hr />
-<h2 id="technical-appendix">Technical Appendix</h2>
-<h3 id="schema-enforcement">Schema Enforcement</h3>
-<p>Validation: Programmatically enforced against <code>*/SCHEMA.md</code> field specifications to block malformed JSON records from compiling into the datastore.<br />
-<a href="#ref-schema-enforcement">↩ Return to text</a></p>
-<h3 id="staleness-scanners">Staleness Scanners</h3>
-<p>Command: Dedicated audit scripts (<code>python3 prosecution/find_stale_prosecution_entries.py</code>, <code>python3 deregulation/find_stale_entries.py</code>, <code>python3 government-services/find_stale_entries.py</code>) scan entries against explicit criteria, automatically queuing them for update sweeps.<br />
-<a href="#ref-staleness-scanners">↩ Return to text</a></p>
-<h3 id="private-research-repository">Private Research Repository</h3>
-<p>Location: <code>tap-data</code><br />
-<a href="#ref-private-research-repository">↩ Return to text</a></p>
-<h3 id="public-web-repository">Public Web Repository</h3>
-<p>Location: <code>tap-site</code><br />
-<a href="#ref-public-web-repository">↩ Return to text</a></p>
 <a class="back-link" href="index.html">&larr; All Reports</a>
 <a class="back-link" href="../index.html">&larr; Back to The Accountability Project</a>
 </main>
