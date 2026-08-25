@@ -73,6 +73,3 @@ faith.
 
 Search or browse. Search by keyword, statement, or topic across
 everything, or browse tracker by tracker to stay within one kind of claim.
-
-The underlying idea is simple: The Accountability Project exists so that a claim can be
-handed to someone skeptical of it, and the receipts are already attached.
