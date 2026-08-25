@@ -7883,7 +7883,7 @@
     "id": "hegseth-pentagon-union-contracts-terminated-2026",
     "title": "Hegseth Orders Termination of Most Pentagon Union Contracts on 24 Hours' Notice, Unions Sue",
     "institution": "Department of Defense",
-    "domain": "staff_office_cuts",
+    "domain": "protection_rollback",
     "status": "Ongoing -- lawsuit pending in U.S. District Court for Maryland; the unions filed a motion for a preliminary injunction on July 20, 2026 before Judge Stephanie A. Gallagher, seeking to halt Hegseth's directive and force DoD to rescind the termination notices; no ruling identified as of this update",
     "date_of_action": "2026-04 (Hegseth directive) through 2026-07 (union lawsuit filed)",
     "what_changed": "In April 2026, Defense Secretary Pete Hegseth directed the Department of Defense to terminate most of its collective bargaining agreements with federal employee unions, giving only 24 hours' notice. The move implements, at DoD specifically, a broader Trump executive order stripping collective bargaining rights from federal employees at agencies with national security functions -- an order that explicitly exempted 'local employing offices' covering police officers, firefighters, and security guards. Two unions, the American Federation of Government Employees (AFGE) and the National Federation of Federal Employees (NFFE), sued in U.S. District Court for Maryland, alleging Hegseth's implementation violated the Administrative Procedure Act by failing to explain the abrupt policy reversal after DoD had continued honoring the agreements for nearly a year, providing no implementation plan (which the unions say caused widespread 'confusion and misinformation'), and acting without adequate notice or procedural safeguards. The lawsuit also alleges DoD swept in employees -- including dispatchers, IT workers, and other staff who work alongside exempted first responders -- whose bargaining rights should have remained protected under the terms of Trump's own executive order. Update 2026-08-17: on July 20, 2026, the more than 20 AFGE and NFFE affiliates party to the lawsuit filed a motion asking U.S. District Court Judge Stephanie A. Gallagher for a preliminary injunction to halt implementation of Hegseth's April 9, 2026 directive and order DoD to rescind the collective-bargaining-agreement termination notices already issued. No ruling on the motion was identified as of this update. For context (not part of this entry's own claim, since it's a different agency and case), a federal judge separately ordered the VA in August 2026 to maintain collective bargaining with AFGE in an analogous dispute, after previously ordering the VA to restore union contracts it had similarly terminated -- illustrating that this kind of directive has not fared well in court elsewhere, though that is not itself a ruling in this DoD case.",
@@ -7926,7 +7926,7 @@
         "url": "https://www.defenseone.com/policy/2026/07/unions-ask-injunction-restoring-collective-bargaining-defense/414965/"
       }
     ],
-    "last_updated": "2026-08-17"
+    "last_updated": "2026-08-25"
   },
   {
     "id": "hhs-barda-mrna-vaccine-contract-cancellation-2025",
