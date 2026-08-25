@@ -2,9 +2,7 @@
 
 *"While headlines flood, the record stands."*
 
-The Accountability Project is a sourced database of documented government actions, built
-on one core commitment: every claim should be falsifiable and checkable,
-not just asserted. Nothing on the site asks to be taken on faith.
+The Accountability Project is a sourced database of documented government actions. Every claim is sourced and checkable — never just asserted.
 
 ## How accuracy is built in
 
