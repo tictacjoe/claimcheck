@@ -3,7 +3,7 @@ Every entry in The Accountability Project is sourced and built to hold up when c
 Enter a keyword, statement, or topic — or browse by database:
 
 - Corporate Deregulation
-- Cabinet-Level Legal Exposure
+- Cabinet-Level Accountability
 - Government Service Redirection
 - Reporting
 

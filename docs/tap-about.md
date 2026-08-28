@@ -9,19 +9,23 @@ The Accountability Project consolidates the daily flood of headlines into cohesi
 **Primary sources come first, wherever they exist.** Each of the three
 curated trackers ranks its sourcing differently based on what's actually
 available for that subject matter — Corporate Deregulation and
-Cabinet-Level Legal Exposure lean most heavily on agency filings, court
+Cabinet-Level Accountability lean most heavily on agency filings, court
 dockets, and official statements; Government Service Redirection leans
 more on investigative and mainstream reporting, since primary
 documentation is often thinner for that kind of change. In every case, the
 strongest available source type is used first, and the entry says which
 kind of source it's relying on.
 
-**Claims are framed to a legal standard, not a political one.** Especially
-in the Cabinet-Level Legal Exposure tracker, each entry lays out the
-actual legal elements that would need to be proven, then maps specific
-evidence to each element. Alleged conduct and proven conduct are always
-kept distinct — an open investigation is never presented as a settled
-finding.
+**Claims are framed to a legal standard, not a political one — and never
+framed as one they don't make.** In the Cabinet-Level Accountability
+tracker, entries alleging an actual statutory or constitutional violation
+lay out the legal elements that would need to be proven, then map
+specific evidence to each element. Entries about conduct that's lawful
+but still accountability-relevant — a pardon, a personnel removal, an
+appointment — are labeled as an accountability concern instead, never
+dressed up as an alleged violation. Alleged conduct and proven conduct
+are always kept distinct — an open investigation is never presented as a
+settled finding.
 
 **Every entry carries a confidence note.** This is a plain-language flag
 for how strongly a claim should be relied on — whether the sourcing is
@@ -54,7 +58,7 @@ Four trackers, organized by kind of claim, not by target:
 | Tracker | What it covers |
 |---|---|
 | Corporate Deregulation | Actions reducing or removing regulatory oversight of corporate or industry activity |
-| Cabinet-Level Legal Exposure | Documented prosecution exposure for current officials, framed to legal standards |
+| Cabinet-Level Accountability | Documented prosecution exposure and other accountability-relevant conduct for current officials — legal claims framed to legal standards, non-legal conduct labeled as such |
 | Government Service Redirection | Changes in how government services are delivered, funded, or reassigned |
 | Reporting | A running archive of relevant news coverage — broader in scope, sourced to established news organizations by design |
 

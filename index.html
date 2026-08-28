@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A sourced record of corporate deregulation, cabinet-level legal exposure, government service redirection, and daily reporting. Type a claim and see exactly what's documented — every entry sourced, nothing asserted without a citation.">
+<meta name="description" content="A sourced record of corporate deregulation, cabinet-level accountability, government service redirection, and daily reporting. Type a claim and see exactly what's documented — every entry sourced, nothing asserted without a citation.">
 <title>The Accountability Project</title>
 <style>
   :root {
@@ -735,7 +735,7 @@ const TRACKERS = {
     kind: "deregulation",
   },
   prosecution: {
-    label: "Cabinet-Level Legal Exposure",
+    label: "Cabinet-Level Accountability",
     data: [],
     titleField: "official",
     idField: "id",
@@ -1953,7 +1953,7 @@ function renderGlobalResults(term, useRegex, useOneLiners, useImpactSort) {
   if (allMatches.length === 0) {
     const empty = document.createElement("div");
     empty.className = "empty-state";
-    empty.textContent = "No matches in Corporate Deregulation, Cabinet-Level Legal Exposure, Government Service Redirection, or User Topics.";
+    empty.textContent = "No matches in Corporate Deregulation, Cabinet-Level Accountability, Government Service Redirection, or User Topics.";
     container.appendChild(empty);
     if (reportingLink) container.appendChild(reportingLink);
     return;
