@@ -879,7 +879,15 @@ let activeTracker = "deregulation";
 let searchTerm = "";
 let filterValue = "";
 let sortValue = "";
-let groupMode = "";
+
+/* Cabinet-Level Accountability lands grouped by individual by default
+   (Joe's call -- most useful first view given how many entries repeat
+   the same official); every other tracker has no group-mode control at
+   all, so "" (flat cards) is the only sensible default there. */
+function defaultGroupModeFor(key) {
+  return key === "prosecution" ? "individual" : "";
+}
+let groupMode = defaultGroupModeFor(activeTracker);
 
 function stampClass(entry, cfg) {
   if (cfg.kind === "deregulation") {
@@ -1693,7 +1701,7 @@ function renderTabs() {
     // still reset since each tracker's filter dropdown has a different,
     // tracker-specific set of options (domain vs. status category etc.)
     // that wouldn't carry over meaningfully.
-    btn.onclick = () => { activeTracker = key; filterValue = ""; sortValue = ""; groupMode = ""; renderDispatch(); };
+    btn.onclick = () => { activeTracker = key; filterValue = ""; sortValue = ""; groupMode = defaultGroupModeFor(key); renderDispatch(); };
     nav.appendChild(btn);
   });
 }
@@ -1953,7 +1961,7 @@ function goToTrackerHome(key) {
   activeTracker = key;
   filterValue = "";
   sortValue = "";
-  groupMode = "";
+  groupMode = defaultGroupModeFor(key);
   searchTerm = "";
   document.getElementById("search").value = "";
   document.getElementById("filter").value = "";
@@ -1986,6 +1994,12 @@ function jumpToRelatedEntry(trackerField, id) {
   // nothing more to do rather than crash or show a misleading result.
   const card = document.querySelector('.entry[data-entry-id="' + CSS.escape(id) + '"]');
   if (card) {
+    // Cabinet-Level Accountability defaults to grouped view -- if this
+    // card landed inside a collapsed .official-group, opening just the
+    // card leaves it in a display:none ancestor. Open the group too so
+    // the deep link actually shows something.
+    const group = card.closest(".official-group");
+    if (group) group.classList.add("open");
     card.classList.add("open");
     card.scrollIntoView({ behavior: "smooth", block: "start" });
   }
