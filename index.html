@@ -1391,11 +1391,10 @@ function oneLinerFor(entry, cfg) {
 /* Builds the search haystack out of only the fields actually rendered
    somewhere in the UI for this entry -- title, card meta line, and the
    expandable detail body -- rather than the entire raw record. Fields
-   like `cause`, `rebuttal_anticipated`, `comeback`, and evidence
-   descriptions hold real analysis text but are never shown anywhere,
-   collapsed or expanded; matching against them produced results a
-   user could never trace back to a visible reason, which read as
-   false positives. Field lists here intentionally mirror what
+   like evidence descriptions hold real analysis text but are never
+   shown anywhere, collapsed or expanded; matching against them produced
+   results a user could never trace back to a visible reason, which read
+   as false positives. Field lists here intentionally mirror what
    buildEntryCard()/buildDetailHtml() actually render for each kind --
    keep the two in sync when either changes. */
 function visibleSearchText(entry, cfg) {
@@ -1416,7 +1415,8 @@ function visibleSearchText(entry, cfg) {
       entry.concern_type,
       entry.last_updated,
       entry.section_summaries?.incident_summary, entry.section_summaries?.confidence_note,
-      entry.incident_summary, entry.confidence_note
+      entry.incident_summary, entry.confidence_note,
+      entry.cause, entry.rebuttal_anticipated, entry.comeback
     );
   } else if (cfg.kind === "govservices") {
     parts.push(
@@ -1543,7 +1543,10 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
     '<div class="field-label">Alleged Violation (full legal citation)</div><div class="field-value">' + hl(entry.offense_category_raw || entry.offense_category) + '</div>' +
     '<div class="field-label">Incident summary</div><div class="field-value">' + summary(entry.section_summaries?.incident_summary) + hl(entry.incident_summary) + '</div>' +
     '<div class="field-label">Status</div><div class="field-value">' + hl(entry.status) + '</div>' +
-    '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + hl(entry.confidence_note) + '</div>';
+    '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + hl(entry.confidence_note) + '</div>' +
+    '<div class="field-label">Root Cause</div><div class="field-value">' + hl(entry.cause) + '</div>' +
+    '<div class="field-label">Anticipated Defense</div><div class="field-value">' + hl(entry.rebuttal_anticipated) + '</div>' +
+    '<div class="field-label">TAP\'s Rebuttal</div><div class="field-value">' + hl(entry.comeback) + '</div>';
 }
 /* build-detail-html:end */
 

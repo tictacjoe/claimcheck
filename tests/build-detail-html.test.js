@@ -188,22 +188,55 @@ test("prosecution (Cabinet-Level) highlights the search term throughout the body
     offense_category_raw: "42 USC 1983",
     incident_summary: "Alleged violation of civil rights during the raid.",
     status: "Under investigation.",
-    confidence_note: "Civil rights attorneys corroborate the account."
+    confidence_note: "Civil rights attorneys corroborate the account.",
+    cause: "A civil rights enforcement gap enabled this.",
+    rebuttal_anticipated: "Officials may cite civil rights training as a defense.",
+    comeback: "That civil rights training claim doesn't survive scrutiny."
   };
   const cfg = { kind: "prosecution" };
   const result = buildDetailHtml(entry, cfg, "civil rights", false);
 
-  // offense_category, incident_summary, and confidence_note each
-  // contain a separate match of the phrase "civil rights" -- all three
-  // were previously rendered raw/unhighlighted (only the card's
-  // collapsed meta line was). Multi-word terms highlight each word
-  // independently (matching matchesTerm()'s AND-of-words behavior), so
-  // each of the 3 occurrences produces 2 <mark> tags.
+  // offense_category, incident_summary, confidence_note, cause,
+  // rebuttal_anticipated, and comeback each contain a separate match of
+  // the phrase "civil rights" -- all six are rendered raw/unhighlighted
+  // without this fix (only the card's collapsed meta line was hit for
+  // the pre-existing fields; cause/rebuttal_anticipated/comeback weren't
+  // rendered at all). Multi-word terms highlight each word independently
+  // (matching matchesTerm()'s AND-of-words behavior), so each of the 6
+  // occurrences produces 2 <mark> tags.
   assert.equal(
     (result.match(/<mark class="hl">/g) || []).length,
-    6,
-    "should highlight the term in offense_category, incident_summary, and confidence_note"
+    12,
+    "should highlight the term in offense_category, incident_summary, confidence_note, cause, rebuttal_anticipated, and comeback"
   );
+});
+
+test("prosecution renders Root Cause, Anticipated Defense, and TAP's Rebuttal after Confidence note", () => {
+  const entry = {
+    offense_category: "Fraud",
+    status_category: "Investigation",
+    offense_category_raw: "18 USC § 1001",
+    incident_summary: "False statements on federal forms.",
+    status: "Under investigation by DOJ.",
+    confidence_note: "Strong evidence.",
+    cause: "Structural incentive analysis goes here.",
+    rebuttal_anticipated: "The likely defense goes here.",
+    comeback: "Why that defense doesn't hold up goes here."
+  };
+  const cfg = { kind: "prosecution" };
+  const result = buildDetailHtml(entry, cfg);
+
+  assert(result.includes('<div class="field-label">Root Cause</div><div class="field-value">Structural incentive analysis goes here.</div>'), "should render cause under a Root Cause label");
+  assert(result.includes('<div class="field-label">Anticipated Defense</div><div class="field-value">The likely defense goes here.</div>'), "should render rebuttal_anticipated under an Anticipated Defense label");
+  assert(result.includes("<div class=\"field-label\">TAP's Rebuttal</div><div class=\"field-value\">Why that defense doesn't hold up goes here.</div>"), "should render comeback under a TAP's Rebuttal label");
+
+  const confidenceIndex = result.indexOf("Confidence note");
+  const causeIndex = result.indexOf("Root Cause");
+  const rebuttalIndex = result.indexOf("Anticipated Defense");
+  const comebackIndex = result.indexOf("TAP's Rebuttal");
+  assert(confidenceIndex < causeIndex, "Root Cause should come after Confidence note");
+  assert(causeIndex < rebuttalIndex, "Anticipated Defense should come after Root Cause");
+  assert(rebuttalIndex < comebackIndex, "TAP's Rebuttal should come after Anticipated Defense");
 });
 
 test("tracker (Reporting) highlights the search term in the body", () => {
