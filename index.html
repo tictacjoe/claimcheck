@@ -549,6 +549,48 @@
   .entry.open .entry-detail { display: block; }
   .entry.open .entry-head { background: var(--brass-light); }
 
+  /* Cabinet-Level Accountability's "List by individual" grouping --
+     same collapsed-header/expand-on-click idiom as .entry-head, one
+     level up: a person's name instead of an entry title, a caret
+     instead of the detail body showing/hiding. */
+  .official-group {
+    border: 1px solid var(--rule-strong);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    background: var(--paper);
+    overflow: hidden;
+  }
+  .official-group-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    padding: 0.9rem 1rem;
+    cursor: pointer;
+  }
+  .official-group-head:hover { background: var(--brass-light); }
+  .official-group.open .official-group-head { background: var(--brass-light); }
+  .official-group-caret {
+    font-family: ui-monospace, monospace;
+    font-size: 0.7rem;
+    color: var(--brass);
+    flex-shrink: 0;
+    transition: transform 0.15s ease;
+  }
+  .official-group.open .official-group-caret { transform: rotate(90deg); }
+  .official-group-name { font-size: 1.05rem; font-weight: bold; }
+  .official-group-count {
+    font-family: ui-monospace, monospace;
+    font-size: 0.75rem;
+    color: var(--ink-faint);
+  }
+  .official-group-body {
+    display: none;
+    padding: 0 1rem 1rem;
+    border-top: 1px dashed var(--rule-strong);
+  }
+  .official-group.open .official-group-body { display: block; }
+  .official-group-body .entry { margin-top: 1rem; margin-bottom: 0; }
+
   .field-label {
     font-family: ui-monospace, monospace;
     font-size: 0.68rem;
@@ -707,6 +749,7 @@
     <button id="search-clear-btn" class="clear-search-btn" type="button" title="Clear search text">✕</button>
     <select id="filter"></select>
     <select id="sort-order"></select>
+    <select id="group-mode"></select>
   </div>
   <div class="result-count" id="count"></div>
   <div id="entries"></div>
@@ -836,6 +879,7 @@ let activeTracker = "deregulation";
 let searchTerm = "";
 let filterValue = "";
 let sortValue = "";
+let groupMode = "";
 
 function stampClass(entry, cfg) {
   if (cfg.kind === "deregulation") {
@@ -1649,7 +1693,7 @@ function renderTabs() {
     // still reset since each tracker's filter dropdown has a different,
     // tracker-specific set of options (domain vs. status category etc.)
     // that wouldn't carry over meaningfully.
-    btn.onclick = () => { activeTracker = key; filterValue = ""; sortValue = ""; renderDispatch(); };
+    btn.onclick = () => { activeTracker = key; filterValue = ""; sortValue = ""; groupMode = ""; renderDispatch(); };
     nav.appendChild(btn);
   });
 }
@@ -1708,6 +1752,69 @@ function renderSortToggle(cfg) {
   if (cfg.kind !== "tracker") options.push(['covered', 'Most covered']);
   sel.innerHTML = options.map(([v, label]) => '<option value="' + v + '">' + label + '</option>').join("");
   sel.value = sortValue;
+}
+
+/* "List by individual" only makes sense for Cabinet-Level Accountability
+   -- the only tracker where the same named person routinely accumulates
+   several entries under an `official` field. Hidden for every other
+   tracker, same display:none convention renderFilterOptions() uses when
+   a tracker has no filterField. */
+function renderGroupToggle(cfg) {
+  const sel = document.getElementById("group-mode");
+  if (cfg.kind !== "prosecution") { sel.style.display = "none"; return; }
+  sel.style.display = "";
+  sel.innerHTML = '<option value="">Individual cards</option><option value="individual">List by individual</option>';
+  sel.value = groupMode;
+}
+
+/* Groups entries by the named official, not the raw `official` string --
+   the same person's exact string varies over time as their title
+   changes (e.g. "Todd Blanche, Acting Attorney General" vs. "Todd
+   Blanche, Deputy Attorney General"), which would otherwise fragment one
+   person into several groups. The name is everything before the first
+   comma; the handful of entries with no named individual (e.g.
+   "Department of Justice leadership (...)") have no comma and fall back
+   to using their full string as their own one-off group, so nothing is
+   silently dropped. */
+function officialGroupKey(entry) {
+  const raw = (entry.official || "").trim();
+  const idx = raw.indexOf(",");
+  return idx === -1 ? raw : raw.slice(0, idx).trim();
+}
+
+/* Renders the already-filtered-and-sorted entries as collapsed,
+   click-to-expand groups instead of a flat card list -- same
+   header/toggle-"open" idiom buildEntryCard() uses per card, one level
+   up. Group order is entry count descending (ties broken alphabetically)
+   per Joe's call; each group's internal card order is whatever
+   renderEntries() already sorted `entries` into, untouched. */
+function renderGroupedEntries(entries, cfg, container) {
+  const groups = new Map();
+  entries.forEach(e => {
+    const key = officialGroupKey(e);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(e);
+  });
+  const sortedGroups = [...groups.entries()].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+
+  container.innerHTML = "";
+  sortedGroups.forEach(([name, groupEntries]) => {
+    const div = document.createElement("div");
+    div.className = "official-group";
+    div.innerHTML =
+      '<div class="official-group-head">' +
+        '<span class="official-group-caret">▶</span>' +
+        '<span class="official-group-name">' + escapeHtml(name) + '</span>' +
+        '<span class="official-group-count">' + groupEntries.length + (groupEntries.length === 1 ? ' entry' : ' entries') + '</span>' +
+      '</div>' +
+      '<div class="official-group-body"></div>';
+    div.querySelector(".official-group-head").addEventListener("click", () => div.classList.toggle("open"));
+    const body = div.querySelector(".official-group-body");
+    groupEntries.forEach(entry => {
+      body.appendChild(buildEntryCard(entry, cfg, null, null, searchTerm, false));
+    });
+    container.appendChild(div);
+  });
 }
 
 function renderEntries() {
@@ -1769,6 +1876,11 @@ function renderEntries() {
     return;
   }
 
+  if (groupMode === "individual" && cfg.kind === "prosecution") {
+    renderGroupedEntries(toRender, cfg, container);
+    return;
+  }
+
   container.innerHTML = "";
   toRender.forEach((entry, i) => {
     container.appendChild(buildEntryCard(entry, cfg, "NO. " + String(i + 1).padStart(2, "0"), null, searchTerm, false));
@@ -1810,6 +1922,7 @@ function jumpToReportingSearch(term) {
   activeTracker = "tracker";
   filterValue = "";
   sortValue = "";
+  groupMode = "";
   searchTerm = term;
   document.getElementById("search").value = term;
   document.getElementById("filter").value = "";
@@ -1840,6 +1953,7 @@ function goToTrackerHome(key) {
   activeTracker = key;
   filterValue = "";
   sortValue = "";
+  groupMode = "";
   searchTerm = "";
   document.getElementById("search").value = "";
   document.getElementById("filter").value = "";
@@ -2031,6 +2145,7 @@ function renderDispatch() {
     renderTabs();
     renderFilterOptions(TRACKERS[activeTracker]);
     renderSortToggle(TRACKERS[activeTracker]);
+    renderGroupToggle(TRACKERS[activeTracker]);
     renderEntries();
   }
 }
@@ -2045,6 +2160,10 @@ document.getElementById("filter").addEventListener("change", (e) => {
 });
 document.getElementById("sort-order").addEventListener("change", (e) => {
   sortValue = e.target.value;
+  renderEntries();
+});
+document.getElementById("group-mode").addEventListener("change", (e) => {
+  groupMode = e.target.value;
   renderEntries();
 });
 document.getElementById("global-search").addEventListener("input", renderDispatch);
@@ -2080,10 +2199,12 @@ document.getElementById("start-over-btn").addEventListener("click", () => {
   document.getElementById("search").value = "";
   document.getElementById("filter").value = "";
   document.getElementById("sort-order").value = "";
+  document.getElementById("group-mode").value = "";
   activeTracker = "deregulation";
   searchTerm = "";
   filterValue = "";
   sortValue = "";
+  groupMode = "";
   renderDispatch();
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
