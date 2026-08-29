@@ -694,16 +694,18 @@
     position: fixed;
     top: 24px;
     left: 24px;
-    width: 380px;
+    width: 420px;
     max-width: calc(100vw - 48px);
-    background: var(--ink);
+    background: rgba(29, 34, 32, 0.82);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     color: var(--paper-card);
-    border: 1px solid var(--brass);
-    border-radius: 8px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
-    padding: 18px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+    padding: 24px 26px;
     z-index: 1001;
-    font-family: Georgia, 'Iowan Old Style', serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     box-sizing: border-box;
     animation: demoSlideUp 0.2s ease-out;
     transition: top 0.3s ease-in-out, left 0.3s ease-in-out;
@@ -738,19 +740,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 
   .demo-step-badge {
     font-family: ui-monospace, 'SF Mono', monospace;
     font-size: 11px;
     color: var(--brass-light);
-    background: rgba(150, 118, 44, 0.25);
-    padding: 2px 8px;
-    border-radius: 12px;
-    border: 1px solid rgba(150, 118, 44, 0.5);
+    background: none;
+    padding: 0;
+    border: none;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
+    opacity: 0.75;
   }
 
   .demo-close-btn {
@@ -761,36 +763,38 @@
     cursor: pointer;
     padding: 0 4px;
     line-height: 1;
+    opacity: 0.6;
   }
-  .demo-close-btn:hover { color: var(--paper-card); }
+  .demo-close-btn:hover { color: var(--paper-card); opacity: 1; }
 
   .demo-title {
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
     color: var(--paper-card);
-    margin: 0 0 6px 0;
-    line-height: 1.3;
+    margin: 0 0 10px 0;
+    line-height: 1.25;
   }
 
   .demo-desc {
-    font-size: 13px;
-    color: var(--rule);
-    line-height: 1.45;
-    margin: 0 0 14px 0;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.82);
+    line-height: 1.55;
+    margin: 0 0 18px 0;
+    font-weight: 400;
   }
 
   .demo-progress-bar-bg {
-    height: 3px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 2px;
-    margin-bottom: 12px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.12);
+    margin-bottom: 16px;
     overflow: hidden;
   }
 
   .demo-progress-bar-fill {
     height: 100%;
     width: 0%;
-    background: var(--brass);
+    background: var(--brass-light);
     transition: width 0.1s linear;
   }
 
@@ -802,34 +806,34 @@
   }
 
   .demo-action-btn {
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid var(--ink-soft);
-    color: var(--paper-card);
-    padding: 5px 12px;
-    border-radius: 4px;
-    font-size: 12px;
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.55);
+    padding: 5px 4px;
+    font-size: 13px;
     cursor: pointer;
-    font-family: ui-monospace, 'SF Mono', monospace;
-    transition: background 0.15s, border-color 0.15s;
+    font-family: inherit;
+    transition: color 0.15s;
   }
   .demo-action-btn:hover {
-    background: var(--brass);
-    border-color: var(--brass);
-    color: var(--ink);
+    color: var(--paper-card);
+    background: none;
   }
 
   .demo-action-btn.primary {
     background: var(--brass);
     color: var(--ink);
-    font-weight: bold;
-    border-color: var(--brass);
+    font-weight: 600;
+    padding: 7px 16px;
+    border-radius: 20px;
   }
   .demo-action-btn.primary:hover {
     background: var(--brass-light);
+    color: var(--ink);
   }
 
   .demo-nav-btn {
-    font-size: 11px;
+    font-size: 13px;
   }
 </style>
 </head>
@@ -2530,6 +2534,7 @@ const TapDemoTour = (() => {
   let isRunning = false;
   let isPaused = false;
   let timer = null;
+  let repositionTimers = [];
   let progressInterval = null;
   let progressPct = 0;
   const STEP_DURATION = 8500; // ms per step in auto-play mode
@@ -2810,10 +2815,19 @@ const TapDemoTour = (() => {
 
     if (step.action) step.action();
 
-    setTimeout(() => {
+    // Positioned twice: an early pass so the spotlight/card appear
+    // promptly, then a corrective pass once each step's own async
+    // work -- tab switches, typed search, smooth-scrollIntoView calls --
+    // has actually settled. Without the second pass, a still-animating
+    // scroll leaves the card anchored to the target's pre-scroll
+    // position, which on a long scroll (e.g. the Reporting tracker)
+    // means it lands overlapping the target instead of beside it.
+    const reposition = () => {
       const targetEl = step.target ? step.target() : null;
       positionCardAndSpotlight(targetEl);
-    }, 250);
+    };
+    repositionTimers.push(setTimeout(reposition, 250));
+    repositionTimers.push(setTimeout(reposition, 700));
 
     if (!isPaused) {
       startProgressTimer();
@@ -2842,6 +2856,8 @@ const TapDemoTour = (() => {
 
   function clearTimers() {
     if (timer) clearTimeout(timer);
+    repositionTimers.forEach(id => clearTimeout(id));
+    repositionTimers = [];
     if (progressInterval) clearInterval(progressInterval);
     const bar = document.getElementById("demo-progress-bar-fill");
     if (bar) bar.style.width = "0%";
