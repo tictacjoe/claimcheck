@@ -691,8 +691,8 @@
 
   .demo-card {
     position: fixed;
-    bottom: 24px;
-    right: 24px;
+    top: 24px;
+    left: 24px;
     width: 380px;
     max-width: calc(100vw - 48px);
     background: var(--ink);
@@ -704,12 +704,33 @@
     z-index: 1001;
     font-family: Georgia, 'Iowan Old Style', serif;
     box-sizing: border-box;
-    animation: demoSlideUp 0.3s ease-out;
+    animation: demoSlideUp 0.2s ease-out;
+    transition: top 0.3s ease-in-out, left 0.3s ease-in-out;
   }
 
   @keyframes demoSlideUp {
-    from { opacity: 0; transform: translateY(16px); }
+    from { opacity: 0; transform: translateY(-8px); }
     to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Small triangle pointer connecting the card back to the spotlighted
+     element -- orientation flips to match whichever side of the target
+     the card was placed on (see positionCardAndSpotlight in the JS). */
+  .demo-card-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 24px;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+  }
+  .demo-card-arrow.arrow-down {
+    bottom: -9px;
+    border-top: 9px solid var(--brass);
+  }
+  .demo-card-arrow.arrow-up {
+    top: -9px;
+    border-bottom: 9px solid var(--brass);
   }
 
   .demo-card-header {
@@ -2553,9 +2574,9 @@ const TapDemoTour = (() => {
       }
     },
     {
-      title: "Four-Part Evidentiary Structure",
-      desc: "Every Cabinet-Level Accountability entry is structured into Claim, Policy Driver / Root Cause, Anticipated Defense, and TAP's Fact-Based Rebuttal with direct statutory citations.",
-      target: () => document.querySelector(".entry"),
+      title: "Filter & Sort Any Database",
+      desc: "Narrow results by domain, status, or category, then sort by biggest impact, most recent activity, or newest additions -- every tracker exposes its own relevant filters.",
+      target: () => document.getElementById("tab-controls"),
       action: async () => {
         const oneLiner = document.getElementById("global-oneliner");
         if (oneLiner && oneLiner.checked) {
@@ -2567,14 +2588,45 @@ const TapDemoTour = (() => {
           globalSearch.value = "";
           globalSearch.dispatchEvent(new Event("input", { bubbles: true }));
         }
+        const tabBtn = Array.from(document.querySelectorAll("#tabs button"))
+          .find(b => b.textContent.startsWith("Corporate Deregulation"));
+        if (tabBtn) tabBtn.click();
+        await new Promise(r => setTimeout(r, 200));
+        const filterSelect = document.getElementById("filter");
+        if (filterSelect) {
+          const hasEnvironmental = Array.from(filterSelect.options).some(o => o.value === "environmental");
+          filterSelect.value = hasEnvironmental ? "environmental" : (filterSelect.options[1]?.value || "");
+          filterSelect.dispatchEvent(new Event("change", { bubbles: true }));
+        }
+        await new Promise(r => setTimeout(r, 200));
+        const sortSelect = document.getElementById("sort-order");
+        if (sortSelect) {
+          sortSelect.value = "impact";
+          sortSelect.dispatchEvent(new Event("change", { bubbles: true }));
+        }
+        await new Promise(r => setTimeout(r, 300));
+        document.getElementById("tab-controls")?.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    },
+    {
+      title: "Four-Part Evidentiary Structure",
+      desc: "Every Cabinet-Level Accountability entry is structured into Claim, Policy Driver / Root Cause, Anticipated Defense, and TAP's Fact-Based Rebuttal with direct statutory citations.",
+      target: () => document.querySelector(".entry"),
+      action: async () => {
+        const filterSelect = document.getElementById("filter");
+        if (filterSelect && filterSelect.value) {
+          filterSelect.value = "";
+          filterSelect.dispatchEvent(new Event("change", { bubbles: true }));
+        }
         // Tab buttons carry no id/data-* attribute -- only label text
         // (plus a live entry count) -- so match on the label prefix.
         const tabBtn = Array.from(document.querySelectorAll("#tabs button"))
           .find(b => b.textContent.startsWith("Cabinet-Level Accountability"));
         if (tabBtn) tabBtn.click();
         await new Promise(r => setTimeout(r, 200));
-        // This tab defaults to grouped-by-individual view (see Step 5) --
-        // force flat cards so a single .entry is directly clickable here.
+        // This tab defaults to grouped-by-individual view (see the next
+        // step) -- force flat cards so a single .entry is directly
+        // clickable here.
         const groupSelect = document.getElementById("group-mode");
         if (groupSelect) {
           groupSelect.value = "";
@@ -2606,6 +2658,62 @@ const TapDemoTour = (() => {
       }
     },
     {
+      title: "Government Service Redirection",
+      desc: "Tracks government services, offices, and programs that were cut, defunded, or redirected -- by institution, domain, and estimated real-world impact.",
+      target: () => document.querySelector(".entry"),
+      action: async () => {
+        const tabBtn = Array.from(document.querySelectorAll("#tabs button"))
+          .find(b => b.textContent.startsWith("Government Service Redirection"));
+        if (tabBtn) tabBtn.click();
+        await new Promise(r => setTimeout(r, 300));
+        const firstEntry = document.querySelector(".entry");
+        if (firstEntry) {
+          firstEntry.scrollIntoView({ behavior: "smooth", block: "center" });
+          if (!firstEntry.classList.contains("open")) {
+            const head = firstEntry.querySelector(".entry-head");
+            if (head) head.click();
+          }
+        }
+      }
+    },
+    {
+      title: "Reporting Since January 2025",
+      desc: "A high-volume news-scrape tracker with over 13,000 entries -- every article ingested since Inauguration Day, searchable and sortable by most recent activity.",
+      target: () => document.getElementById("count"),
+      action: async () => {
+        const tabBtn = Array.from(document.querySelectorAll("#tabs button"))
+          .find(b => b.textContent.startsWith("Reporting since Jan. 2025"));
+        if (tabBtn) tabBtn.click();
+        await new Promise(r => setTimeout(r, 300));
+        const sortSelect = document.getElementById("sort-order");
+        if (sortSelect) {
+          sortSelect.value = "activity";
+          sortSelect.dispatchEvent(new Event("change", { bubbles: true }));
+        }
+        await new Promise(r => setTimeout(r, 200));
+        document.getElementById("count")?.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    },
+    {
+      title: "Community-Submitted Topics",
+      desc: "Every claim submitted through Suggest a Topic lands here first, rated Confirmed, Partially Confirmed, Unable to Verify, or Misleading as Stated -- topics that check out get promoted into TAP's main trackers.",
+      target: () => document.getElementById("filter"),
+      action: async () => {
+        const tabBtn = Array.from(document.querySelectorAll("#tabs button"))
+          .find(b => b.textContent.startsWith("User Topics"));
+        if (tabBtn) tabBtn.click();
+        await new Promise(r => setTimeout(r, 300));
+        const filterSelect = document.getElementById("filter");
+        if (filterSelect) {
+          const hasConfirmed = Array.from(filterSelect.options).some(o => o.value === "confirmed");
+          filterSelect.value = hasConfirmed ? "confirmed" : "";
+          filterSelect.dispatchEvent(new Event("change", { bubbles: true }));
+        }
+        await new Promise(r => setTimeout(r, 200));
+        document.getElementById("tab-controls")?.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    },
+    {
       title: "Community Sourcing & Open Methodology",
       desc: "Submit new claims directly into our automated triage pipeline. Full verification standards and technical process guides are published openly under Docs.",
       target: () => document.querySelector(".nav-actions"),
@@ -2623,21 +2731,62 @@ const TapDemoTour = (() => {
     }
   ];
 
-  function positionSpotlight(targetEl) {
+  // Positions the spotlight over targetEl, then docks the narration card
+  // directly against it (below by default, flipping above when there's
+  // not enough room beneath), with a small triangle arrow connecting the
+  // two. Falls back to a fixed top-left card with no arrow when a step
+  // has no target element.
+  function positionCardAndSpotlight(targetEl) {
     const spotlight = document.getElementById("demo-spotlight");
-    if (!spotlight) return;
+    const card = document.getElementById("demo-card");
+    const arrow = document.getElementById("demo-card-arrow");
+    if (!card) return;
+
     if (!targetEl) {
-      spotlight.style.display = "none";
+      if (spotlight) spotlight.style.display = "none";
+      if (arrow) arrow.style.display = "none";
+      card.style.top = "24px";
+      card.style.left = "24px";
       return;
     }
+
     const rect = targetEl.getBoundingClientRect();
     const scrollY = window.pageYOffset || document.documentElement.scrollTop;
     const scrollX = window.pageXOffset || document.documentElement.scrollLeft;
-    spotlight.style.display = "block";
-    spotlight.style.top = `${rect.top + scrollY - 6}px`;
-    spotlight.style.left = `${rect.left + scrollX - 6}px`;
-    spotlight.style.width = `${rect.width + 12}px`;
-    spotlight.style.height = `${rect.height + 12}px`;
+
+    if (spotlight) {
+      spotlight.style.display = "block";
+      spotlight.style.top = `${rect.top + scrollY - 6}px`;
+      spotlight.style.left = `${rect.left + scrollX - 6}px`;
+      spotlight.style.width = `${rect.width + 12}px`;
+      spotlight.style.height = `${rect.height + 12}px`;
+    }
+
+    const margin = 16;
+    const cardW = card.offsetWidth || 380;
+    const cardH = card.offsetHeight || 200;
+    const spaceBelow = window.innerHeight - rect.bottom;
+    const spaceAbove = rect.top;
+    const placeBelow = spaceBelow >= cardH + margin || spaceBelow >= spaceAbove;
+
+    let top = placeBelow ? rect.bottom + margin : rect.top - cardH - margin;
+    top = Math.max(8, Math.min(top, window.innerHeight - cardH - 8));
+
+    let left = rect.left + rect.width / 2 - cardW / 2;
+    left = Math.max(12, Math.min(left, window.innerWidth - cardW - 12));
+
+    card.style.top = `${top}px`;
+    card.style.left = `${left}px`;
+
+    if (arrow) {
+      arrow.style.display = "block";
+      arrow.classList.remove("arrow-up", "arrow-down");
+      arrow.classList.add(placeBelow ? "arrow-up" : "arrow-down");
+      const arrowCenter = rect.left + rect.width / 2;
+      let arrowLeft = arrowCenter - left - 9;
+      arrowLeft = Math.max(14, Math.min(arrowLeft, cardW - 32));
+      arrow.style.left = `${arrowLeft}px`;
+    }
   }
 
   function renderStep() {
@@ -2662,7 +2811,7 @@ const TapDemoTour = (() => {
 
     setTimeout(() => {
       const targetEl = step.target ? step.target() : null;
-      positionSpotlight(targetEl);
+      positionCardAndSpotlight(targetEl);
     }, 250);
 
     if (!isPaused) {
@@ -2805,7 +2954,7 @@ if (document.readyState === "loading") {
 <div id="demo-spotlight" class="demo-spotlight" style="display: none;"></div>
 <div id="demo-card" class="demo-card" style="display: none;" role="region" aria-label="Guided Tour">
   <div class="demo-card-header">
-    <span id="demo-step-badge" class="demo-step-badge">Step 1 of 6</span>
+    <span id="demo-step-badge" class="demo-step-badge">Step 1 of 10</span>
     <button id="demo-close-btn" class="demo-close-btn" type="button" title="Exit Tour (Esc)">✕</button>
   </div>
   <div class="demo-progress-bar-bg">
@@ -2820,6 +2969,7 @@ if (document.readyState === "loading") {
     </div>
     <button id="demo-next-btn" class="demo-action-btn primary" type="button" title="Next Step (Right Arrow)">Next ▶</button>
   </div>
+  <div id="demo-card-arrow" class="demo-card-arrow arrow-up"></div>
 </div>
 </body>
 </html>
