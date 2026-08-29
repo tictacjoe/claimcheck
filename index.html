@@ -2665,21 +2665,21 @@ const TapDemoTour = (() => {
     },
     {
       title: "Government Service Redirection",
-      desc: "Tracks government services, offices, and programs that were cut, defunded, or redirected -- by institution, domain, and estimated real-world impact.",
-      target: () => document.querySelector(".entry"),
+      desc: "Tracks government services, offices, and programs that were cut, defunded, or redirected -- filter by domain, like Research Suppression or Funding Redirection, to focus on one kind of rollback.",
+      target: () => document.getElementById("tab-controls"),
       action: async () => {
         const tabBtn = Array.from(document.querySelectorAll("#tabs button"))
           .find(b => b.textContent.startsWith("Government Service Redirection"));
         if (tabBtn) tabBtn.click();
         await new Promise(r => setTimeout(r, 300));
-        const firstEntry = document.querySelector(".entry");
-        if (firstEntry) {
-          firstEntry.scrollIntoView({ behavior: "smooth", block: "center" });
-          if (!firstEntry.classList.contains("open")) {
-            const head = firstEntry.querySelector(".entry-head");
-            if (head) head.click();
-          }
+        const filterSelect = document.getElementById("filter");
+        if (filterSelect) {
+          const hasDomain = Array.from(filterSelect.options).some(o => o.value === "protection_rollback");
+          filterSelect.value = hasDomain ? "protection_rollback" : (filterSelect.options[1]?.value || "");
+          filterSelect.dispatchEvent(new Event("change", { bubbles: true }));
         }
+        await new Promise(r => setTimeout(r, 300));
+        document.getElementById("tab-controls")?.scrollIntoView({ behavior: "smooth", block: "center" });
       }
     },
     {
