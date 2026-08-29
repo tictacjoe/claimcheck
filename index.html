@@ -677,6 +677,138 @@
     .entry-head { flex-direction: column; gap: 0.3rem; padding-right: 1rem; }
     .stamp { position: static; transform: rotate(-3deg); display: inline-block; margin-top: 0.4rem; }
   }
+
+  /* ================= DEMO MODE & GUIDED TOUR ================= */
+  .demo-spotlight {
+    position: absolute;
+    pointer-events: none;
+    border: 2px solid var(--brass);
+    box-shadow: 0 0 0 9999px rgba(29, 34, 32, 0.55), 0 0 20px rgba(150, 118, 44, 0.4);
+    border-radius: 6px;
+    transition: all 0.4s ease-in-out;
+    z-index: 1000;
+  }
+
+  .demo-card {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 380px;
+    max-width: calc(100vw - 48px);
+    background: var(--ink);
+    color: var(--paper-card);
+    border: 1px solid var(--brass);
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    padding: 18px 20px;
+    z-index: 1001;
+    font-family: Georgia, 'Iowan Old Style', serif;
+    box-sizing: border-box;
+    animation: demoSlideUp 0.3s ease-out;
+  }
+
+  @keyframes demoSlideUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .demo-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .demo-step-badge {
+    font-family: ui-monospace, 'SF Mono', monospace;
+    font-size: 11px;
+    color: var(--brass-light);
+    background: rgba(150, 118, 44, 0.25);
+    padding: 2px 8px;
+    border-radius: 12px;
+    border: 1px solid rgba(150, 118, 44, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .demo-close-btn {
+    background: transparent;
+    border: none;
+    color: var(--ink-faint);
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0 4px;
+    line-height: 1;
+  }
+  .demo-close-btn:hover { color: var(--paper-card); }
+
+  .demo-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--paper-card);
+    margin: 0 0 6px 0;
+    line-height: 1.3;
+  }
+
+  .demo-desc {
+    font-size: 13px;
+    color: var(--rule);
+    line-height: 1.45;
+    margin: 0 0 14px 0;
+  }
+
+  .demo-progress-bar-bg {
+    height: 3px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+
+  .demo-progress-bar-fill {
+    height: 100%;
+    width: 0%;
+    background: var(--brass);
+    transition: width 0.1s linear;
+  }
+
+  .demo-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .demo-action-btn {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid var(--ink-soft);
+    color: var(--paper-card);
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: ui-monospace, 'SF Mono', monospace;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .demo-action-btn:hover {
+    background: var(--brass);
+    border-color: var(--brass);
+    color: var(--ink);
+  }
+
+  .demo-action-btn.primary {
+    background: var(--brass);
+    color: var(--ink);
+    font-weight: bold;
+    border-color: var(--brass);
+  }
+  .demo-action-btn.primary:hover {
+    background: var(--brass-light);
+  }
+
+  .demo-nav-btn {
+    font-size: 11px;
+  }
 </style>
 </head>
 <body>
@@ -699,6 +831,7 @@
 <div class="nav-actions">
   <button id="back-to-top-btn" class="nav-action-btn" type="button" title="Scroll to the top of the page">↑ Back to Top</button>
   <button id="start-over-btn" class="nav-action-btn" type="button" title="Clear search/filters and return to the default view">↻ Start Over</button>
+  <button id="demo-tour-btn" class="nav-action-btn" type="button" title="Start automated or interactive video walkthrough tour">▶ Demo Tour</button>
   <button id="suggest-claim-link" class="nav-action-btn" type="button" title="Suggest a topic, claim, story, or government action for The Accountability Project to evaluate">✎ Suggest a Topic</button>
   <a id="about-link" class="nav-action-btn" href="about.html" title="How The Accountability Project verifies its entries and presents information">ℹ About</a>
   <a id="reports-link" class="nav-action-btn" href="docs/index.html" title="Process guides and technical reports documenting how The Accountability Project works">📄 Docs</a>
@@ -2363,7 +2496,330 @@ async function loadAllData() {
 }
 
 loadAllData();
+
+/* ====================================================================
+   DEMO MODE / GUIDED TOUR CONTROLLER
+   Provides hands-free auto-play for video recording and step-by-step
+   interactive tours of TAP's core capabilities.
+==================================================================== */
+
+const TapDemoTour = (() => {
+  let currentStep = 0;
+  let isRunning = false;
+  let isPaused = false;
+  let timer = null;
+  let progressInterval = null;
+  let progressPct = 0;
+  const STEP_DURATION = 8500; // ms per step in auto-play mode
+
+  const steps = [
+    {
+      title: "The Accountability Project (TAP)",
+      desc: "Consolidates thousands of daily government actions into structured, code-vetted records where nothing is asserted without citation.",
+      target: () => document.querySelector(".masthead"),
+      action: async () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    },
+    {
+      title: "Real-Time Cross-Database Search",
+      desc: "Instant query engine searches across Corporate Deregulation, Cabinet Accountability, Service Redirections, and Reporting simultaneously.",
+      target: () => document.getElementById("search-mode-box"),
+      action: async () => {
+        const searchInput = document.getElementById("global-search");
+        if (!searchInput) return;
+        searchInput.focus();
+        searchInput.value = "";
+        const query = "EPA";
+        for (let i = 0; i < query.length; i++) {
+          await new Promise(r => setTimeout(r, 120));
+          searchInput.value += query[i];
+          searchInput.dispatchEvent(new Event("input", { bubbles: true }));
+        }
+      }
+    },
+    {
+      title: "Rapid Briefing Scanner",
+      desc: "Toggle 1-Liners mode to condense extensive dossiers into instant summary rows — ideal for rapid scanning during hearing preparation.",
+      target: () => document.querySelector("label:has(#global-oneliner)") || document.getElementById("global-oneliner"),
+      action: async () => {
+        const oneLiner = document.getElementById("global-oneliner");
+        if (oneLiner && !oneLiner.checked) {
+          oneLiner.checked = true;
+          oneLiner.dispatchEvent(new Event("change", { bubbles: true }));
+        }
+        await new Promise(r => setTimeout(r, 400));
+        window.scrollBy({ top: 180, behavior: "smooth" });
+      }
+    },
+    {
+      title: "Four-Part Evidentiary Structure",
+      desc: "Every Cabinet-Level Accountability entry is structured into Claim, Policy Driver / Root Cause, Anticipated Defense, and TAP's Fact-Based Rebuttal with direct statutory citations.",
+      target: () => document.querySelector(".entry"),
+      action: async () => {
+        const oneLiner = document.getElementById("global-oneliner");
+        if (oneLiner && oneLiner.checked) {
+          oneLiner.checked = false;
+          oneLiner.dispatchEvent(new Event("change", { bubbles: true }));
+        }
+        const globalSearch = document.getElementById("global-search");
+        if (globalSearch) {
+          globalSearch.value = "";
+          globalSearch.dispatchEvent(new Event("input", { bubbles: true }));
+        }
+        // Tab buttons carry no id/data-* attribute -- only label text
+        // (plus a live entry count) -- so match on the label prefix.
+        const tabBtn = Array.from(document.querySelectorAll("#tabs button"))
+          .find(b => b.textContent.startsWith("Cabinet-Level Accountability"));
+        if (tabBtn) tabBtn.click();
+        await new Promise(r => setTimeout(r, 200));
+        // This tab defaults to grouped-by-individual view (see Step 5) --
+        // force flat cards so a single .entry is directly clickable here.
+        const groupSelect = document.getElementById("group-mode");
+        if (groupSelect) {
+          groupSelect.value = "";
+          groupSelect.dispatchEvent(new Event("change", { bubbles: true }));
+        }
+        await new Promise(r => setTimeout(r, 300));
+        const firstEntry = document.querySelector(".entry");
+        if (firstEntry) {
+          firstEntry.scrollIntoView({ behavior: "smooth", block: "center" });
+          if (!firstEntry.classList.contains("open")) {
+            const head = firstEntry.querySelector(".entry-head");
+            if (head) head.click();
+          }
+        }
+      }
+    },
+    {
+      title: "List by Individual",
+      desc: "Consolidate every entry tied to the same official into one collapsible profile -- useful for building a complete record on a single person ahead of a hearing or oversight letter.",
+      target: () => document.getElementById("group-mode"),
+      action: async () => {
+        const groupSelect = document.getElementById("group-mode");
+        if (groupSelect) {
+          groupSelect.value = "individual";
+          groupSelect.dispatchEvent(new Event("change", { bubbles: true }));
+        }
+        await new Promise(r => setTimeout(r, 300));
+        window.scrollBy({ top: 120, behavior: "smooth" });
+      }
+    },
+    {
+      title: "Community Sourcing & Open Methodology",
+      desc: "Submit new claims directly into our automated triage pipeline. Full verification standards and technical process guides are published openly under Docs.",
+      target: () => document.querySelector(".nav-actions"),
+      action: async () => {
+        const suggestBtn = document.getElementById("suggest-claim-link");
+        if (suggestBtn) {
+          suggestBtn.click();
+          await new Promise(r => setTimeout(r, 2200));
+          const closeBtn = document.getElementById("suggest-close-btn");
+          if (closeBtn) closeBtn.click();
+        }
+        const navActions = document.querySelector(".nav-actions");
+        if (navActions) navActions.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    }
+  ];
+
+  function positionSpotlight(targetEl) {
+    const spotlight = document.getElementById("demo-spotlight");
+    if (!spotlight) return;
+    if (!targetEl) {
+      spotlight.style.display = "none";
+      return;
+    }
+    const rect = targetEl.getBoundingClientRect();
+    const scrollY = window.pageYOffset || document.documentElement.scrollTop;
+    const scrollX = window.pageXOffset || document.documentElement.scrollLeft;
+    spotlight.style.display = "block";
+    spotlight.style.top = `${rect.top + scrollY - 6}px`;
+    spotlight.style.left = `${rect.left + scrollX - 6}px`;
+    spotlight.style.width = `${rect.width + 12}px`;
+    spotlight.style.height = `${rect.height + 12}px`;
+  }
+
+  function renderStep() {
+    clearTimers();
+    const step = steps[currentStep];
+    const card = document.getElementById("demo-card");
+    const badge = document.getElementById("demo-step-badge");
+    const title = document.getElementById("demo-title");
+    const desc = document.getElementById("demo-desc");
+    const prevBtn = document.getElementById("demo-prev-btn");
+    const nextBtn = document.getElementById("demo-next-btn");
+
+    if (!card) return;
+    card.style.display = "block";
+    if (badge) badge.textContent = `Step ${currentStep + 1} of ${steps.length}`;
+    if (title) title.textContent = step.title;
+    if (desc) desc.textContent = step.desc;
+    if (prevBtn) prevBtn.disabled = currentStep === 0;
+    if (nextBtn) nextBtn.textContent = currentStep === steps.length - 1 ? "Finish ✓" : "Next ▶";
+
+    if (step.action) step.action();
+
+    setTimeout(() => {
+      const targetEl = step.target ? step.target() : null;
+      positionSpotlight(targetEl);
+    }, 250);
+
+    if (!isPaused) {
+      startProgressTimer();
+    }
+  }
+
+  function startProgressTimer() {
+    progressPct = 0;
+    const bar = document.getElementById("demo-progress-bar-fill");
+    const startTime = Date.now();
+    progressInterval = setInterval(() => {
+      const elapsed = Date.now() - startTime;
+      progressPct = Math.min(100, (elapsed / STEP_DURATION) * 100);
+      if (bar) bar.style.width = `${progressPct}%`;
+      if (elapsed >= STEP_DURATION) {
+        clearInterval(progressInterval);
+        if (currentStep < steps.length - 1) {
+          currentStep++;
+          renderStep();
+        } else {
+          stop();
+        }
+      }
+    }, 50);
+  }
+
+  function clearTimers() {
+    if (timer) clearTimeout(timer);
+    if (progressInterval) clearInterval(progressInterval);
+    const bar = document.getElementById("demo-progress-bar-fill");
+    if (bar) bar.style.width = "0%";
+  }
+
+  function next() {
+    if (currentStep < steps.length - 1) {
+      currentStep++;
+      renderStep();
+    } else {
+      stop();
+    }
+  }
+
+  function prev() {
+    if (currentStep > 0) {
+      currentStep--;
+      renderStep();
+    }
+  }
+
+  function togglePause() {
+    isPaused = !isPaused;
+    const pauseBtn = document.getElementById("demo-pause-btn");
+    if (isPaused) {
+      clearTimers();
+      if (pauseBtn) pauseBtn.textContent = "▶ Resume";
+    } else {
+      if (pauseBtn) pauseBtn.textContent = "⏸ Pause";
+      startProgressTimer();
+    }
+  }
+
+  function start(startIndex = 0) {
+    isRunning = true;
+    isPaused = false;
+    currentStep = startIndex;
+    const pauseBtn = document.getElementById("demo-pause-btn");
+    if (pauseBtn) pauseBtn.textContent = "⏸ Pause";
+    renderStep();
+  }
+
+  function stop() {
+    isRunning = false;
+    clearTimers();
+    const card = document.getElementById("demo-card");
+    const spotlight = document.getElementById("demo-spotlight");
+    if (card) card.style.display = "none";
+    if (spotlight) spotlight.style.display = "none";
+
+    // Clean teardown: reset search & filters
+    const startOverBtn = document.getElementById("start-over-btn");
+    if (startOverBtn) startOverBtn.click();
+  }
+
+  function init() {
+    const launchBtn = document.getElementById("demo-tour-btn");
+    if (launchBtn) launchBtn.addEventListener("click", () => start(0));
+
+    const closeBtn = document.getElementById("demo-close-btn");
+    if (closeBtn) closeBtn.addEventListener("click", stop);
+
+    const nextBtn = document.getElementById("demo-next-btn");
+    if (nextBtn) nextBtn.addEventListener("click", next);
+
+    const prevBtn = document.getElementById("demo-prev-btn");
+    if (prevBtn) prevBtn.addEventListener("click", prev);
+
+    const pauseBtn = document.getElementById("demo-pause-btn");
+    if (pauseBtn) pauseBtn.addEventListener("click", togglePause);
+
+    // Keyboard controls
+    window.addEventListener("keydown", (e) => {
+      if (!isRunning) {
+        if (e.shiftKey && (e.key === "D" || e.key === "d")) {
+          e.preventDefault();
+          start(0);
+        }
+        return;
+      }
+      if (e.key === "Escape") {
+        stop();
+      } else if (e.key === "ArrowRight") {
+        next();
+      } else if (e.key === "ArrowLeft") {
+        prev();
+      } else if (e.key === " ") {
+        e.preventDefault();
+        togglePause();
+      }
+    });
+
+    // Auto-launch via URL query param: ?tour=1 or ?demo=1
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("tour") === "1" || params.get("demo") === "1") {
+      setTimeout(() => start(0), 600);
+    }
+  }
+
+  return { init, start, stop, next, prev };
+})();
+
+// Initialize on DOM load
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", TapDemoTour.init);
+} else {
+  TapDemoTour.init();
+}
 </script>
 <script data-goatcounter="https://tap.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<div id="demo-spotlight" class="demo-spotlight" style="display: none;"></div>
+<div id="demo-card" class="demo-card" style="display: none;" role="region" aria-label="Guided Tour">
+  <div class="demo-card-header">
+    <span id="demo-step-badge" class="demo-step-badge">Step 1 of 6</span>
+    <button id="demo-close-btn" class="demo-close-btn" type="button" title="Exit Tour (Esc)">✕</button>
+  </div>
+  <div class="demo-progress-bar-bg">
+    <div id="demo-progress-bar-fill" class="demo-progress-bar-fill"></div>
+  </div>
+  <h3 id="demo-title" class="demo-title"></h3>
+  <p id="demo-desc" class="demo-desc"></p>
+  <div class="demo-actions">
+    <div style="display: flex; gap: 4px;">
+      <button id="demo-prev-btn" class="demo-action-btn demo-nav-btn" type="button" title="Previous Step (Left Arrow)">◀ Prev</button>
+      <button id="demo-pause-btn" class="demo-action-btn demo-nav-btn" type="button" title="Pause/Resume Auto-Play (Space)">⏸ Pause</button>
+    </div>
+    <button id="demo-next-btn" class="demo-action-btn primary" type="button" title="Next Step (Right Arrow)">Next ▶</button>
+  </div>
+</div>
 </body>
 </html>
