@@ -94,6 +94,30 @@ def extract_title(markdown_text: str) -> str:
     return ""
 
 
+def strip_leading_h1(markdown_text: str) -> str:
+    """Remove the report's own top-level "# Title" line so the body
+    doesn't re-emit it as a second <h1> below the masthead's -- the
+    masthead (render_page) already shows the title once.
+
+    Skips past any leading blank lines and single-line HTML comments
+    first (generate_webdocs.py prepends an AUTO_GENERATED_HEADER comment
+    before the real H1), so the H1 line is found and removed regardless
+    of what precedes it. Only removes a genuine top-level heading ("# "
+    exactly, never "## " or deeper) and only that one line -- everything
+    else, including the leading blanks/comment, is left untouched. If no
+    such line appears before real content starts, the text is returned
+    unchanged."""
+    lines = markdown_text.splitlines(keepends=True)
+    for i, line in enumerate(lines):
+        stripped = line.strip()
+        if stripped == "" or (stripped.startswith("<!--") and stripped.endswith("-->")):
+            continue
+        if line.startswith("# "):
+            return "".join(lines[:i] + lines[i + 1:])
+        break
+    return markdown_text
+
+
 # CSS lifted from about.html's <style> block, plus additions for
 # elements about.html doesn't use: h3, blockquote, pre/code, hr, and
 # the report-index listing.
@@ -328,17 +352,7 @@ def build_docs(working: Path, site: Path) -> None:
             continue
 
         title = extract_title(raw)
-        # The masthead (render_page) already shows the title as an <h1>;
-        # strip the leading "# Title" line here so the body doesn't
-        # re-emit it as a second <h1>. Only strips a genuine top-level
-        # heading -- "# " exactly, never "## " or deeper -- and only the
-        # very first line, leaving everything else (blank lines, later
-        # headings) untouched.
-        body_lines = raw.splitlines(keepends=True)
-        if body_lines and body_lines[0].startswith("# "):
-            body_text = "".join(body_lines[1:])
-        else:
-            body_text = raw
+        body_text = strip_leading_h1(raw)
         body_html = convert_report(body_text)
         page_html = render_page(title, body_html, back_links=[
             ("All Docs", "index.html"),
