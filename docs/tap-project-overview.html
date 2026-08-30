@@ -149,7 +149,7 @@
 <h2>Introduction</h2>
 <p>The Accountability Project began in early 2025 as a personal reference archive of news reports about changes happening in the federal government. The flood of news made it difficult to keep up with the many impactful and concerning events being reported, and much was lost in the churn of the daily news cycle. As the volume and velocity of information increased, I began exploring ways to grow and manage this archive using AI-based tools.</p>
 <p>Over the next 18 months, the project evolved beyond an automated news archive into a tool that could maintain a verifiable accounting of government activity, with a strong focus on attribution. TAP finds, retrieves, and evaluates information related to government activity using automated, code-enforced accuracy, attribution, and sourcing checks, and then contextualizes that information into reliable, ongoing larger narratives to help provide a big-picture view of events.</p>
-<p>The system is currently focused on vetting and contextualizing information into three specific areas of government activity: the redirection or weakening of government services, potential legal exposure for high-ranking government officials, and corporate deregulation. These topics can change without changing the underlying processing logic or tooling.</p>
+<p>The system is currently focused on vetting and contextualizing information into three specific areas of government activity: the redirection of government services, concerning actions taken by specific, high-ranking government officials, including potential legal exposure, and corporate deregulation. These topics can change without changing the underlying processing logic or tooling.</p>
 <p>Through batch-driven update sweeps, well-sourced reporting and data is ingested, clustered by event, and evaluated for integration into ongoing narratives about the same or similar events. Quality control is enforced through strict programmatic validation checks. It is a structured system that combines carefully controlled AI assistance with code-enforced quality gates. These gates are designed to prevent AI hallucinations, expose inconsistencies, enforce quality control standards around attribution, sourcing, and data quality — and update the larger event narratives with new, vetted information.</p>
 <hr />
 <h2>Core Philosophy: AI as a Practical Research Assistant</h2>
@@ -175,15 +175,15 @@
 <p>The TAP architecture is divided into five distinct, specialized datastores:</p>
 <h3>Cabinet-Level Accountability</h3>
 <ul>
-<li><strong>Provides answers to questions like:</strong> <em>Did a specific federal official violate statutory law [note: need wording like, or do something concerning that is not a violation but is potential liability], what legal elements apply, and what are the expected counter-arguments?</em></li>
+<li><strong>Provides answers to questions like:</strong> <em>Did a specific federal official violate statutory law, what legal elements apply, and what are the expected counter-arguments?</em></li>
 <li><strong>Scope:</strong> Tracks individual statutory and legal exposure across Cabinet secretaries and political appointees (including the Hatch Act, Antideficiency Act, Impoundment Control Act, Federal Advisory Committee Act, Whistleblower Protection Act, federal procurement rules, and related statutes and constitutional doctrines).</li>
 <li><strong>Key Deliverables:</strong> Statutory element breakdowns, court and Inspector General findings, and paired Anticipated Rebuttals &amp; Ready Comebacks, surfaced on the public site alongside each entry's Root Cause analysis.</li>
 </ul>
 <h3>Corporate Deregulation</h3>
 <ul>
-<li><strong>Provides answers to questions like:</strong> <em>What public health, environmental, labor, or financial rule was rolled back, which corporate interests lobbied for it, and what is the ~~attributed public~~ [estimated impact?]</em></li>
+<li><strong>Provides answers to questions like:</strong> <em>What public health, environmental, labor, or financial rule was rolled back, which corporate interests lobbied for it, and what is the estimated impact</em></li>
 <li><strong>Scope:</strong> Tracks federal agency rule rollbacks across EPA, OSHA, DOL, DOE, CFPB, FCC, DOT, MSHA, USDA, and other regulatory bodies.</li>
-<li><strong>Key Deliverables:</strong> ~~Federal Register rulemaking~~ [corporate deregulation tracking] (e.g. <em>Proposed</em>, <em>Delayed/Paused</em>, <em>Finalized</em>, or <em>Judicially Stayed</em>), named corporate beneficiaries, and attributed health/economic impact models.</li>
+<li><strong>Key Deliverables:</strong> Corporate deregulation tracking (e.g. <em>Proposed</em>, <em>Delayed/Paused</em>, <em>Finalized</em>, or <em>Judicially Stayed</em>), named corporate beneficiaries, and attributed health/economic impact models.</li>
 </ul>
 <h3>Government Service Redirection</h3>
 <ul>
