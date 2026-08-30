@@ -175,40 +175,33 @@
 <p>The TAP architecture is divided into five distinct, specialized datastores:</p>
 <h3>Cabinet-Level Accountability</h3>
 <ul>
-<li><strong>Provides answers to questions like:</strong> <em>Did a specific federal official violate statutory law, what legal elements apply, and what are the expected counter-arguments?</em></li>
+<li><strong>Provides answers to questions like:</strong> <em>Did a specific federal official violate statutory law [note: need wording like, or do something concerning that is not a violation but is potential liability], what legal elements apply, and what are the expected counter-arguments?</em></li>
 <li><strong>Scope:</strong> Tracks individual statutory and legal exposure across Cabinet secretaries and political appointees (including the Hatch Act, Antideficiency Act, Impoundment Control Act, Federal Advisory Committee Act, Whistleblower Protection Act, federal procurement rules, and related statutes and constitutional doctrines).</li>
 <li><strong>Key Deliverables:</strong> Statutory element breakdowns, court and Inspector General findings, and paired Anticipated Rebuttals &amp; Ready Comebacks, surfaced on the public site alongside each entry's Root Cause analysis.</li>
-<li><strong><a href="./tap-sweep-cabinet-legal-exposure.html">Detailed Guide</a></strong></li>
 </ul>
 <h3>Corporate Deregulation</h3>
 <ul>
-<li><strong>Provides answers to questions like:</strong> <em>What public health, environmental, labor, or financial rule was rolled back, which corporate interests lobbied for it, and what is the attributed public harm?</em></li>
+<li><strong>Provides answers to questions like:</strong> <em>What public health, environmental, labor, or financial rule was rolled back, which corporate interests lobbied for it, and what is the ~~attributed public~~ [estimated impact?]</em></li>
 <li><strong>Scope:</strong> Tracks federal agency rule rollbacks across EPA, OSHA, DOL, DOE, CFPB, FCC, DOT, MSHA, USDA, and other regulatory bodies.</li>
-<li><strong>Key Deliverables:</strong> Federal Register rulemaking tracking (e.g. <em>Proposed</em>, <em>Delayed/Paused</em>, <em>Finalized</em>, or <em>Judicially Stayed</em>), named corporate beneficiaries, and attributed health/economic impact models.</li>
-<li><strong><a href="./tap-sweep-corporate-deregulation.html">Detailed Guide</a></strong></li>
+<li><strong>Key Deliverables:</strong> ~~Federal Register rulemaking~~ [corporate deregulation tracking] (e.g. <em>Proposed</em>, <em>Delayed/Paused</em>, <em>Finalized</em>, or <em>Judicially Stayed</em>), named corporate beneficiaries, and attributed health/economic impact models.</li>
 </ul>
 <h3>Government Service Redirection</h3>
 <ul>
 <li><strong>Provides answers to questions like:</strong> <em>What federal institutional capacity was suppressed or dismantled, how much appropriated money was frozen, and what did oversight bodies or courts find?</em></li>
 <li><strong>Scope:</strong> Tracks the degradation of government functions across 5 domains: <code>research_suppression</code>, <code>funding_redirection</code>, <code>staff_office_cuts</code>, <code>data_collection_halted</code>, and <code>protection_rollback</code>.</li>
 <li><strong>Key Deliverables:</strong> Quantified institutional losses (such as grant dollars frozen, employee headcounts reduced, research programs halted, or datasets deleted) backed by formal GAO Impoundment Control Act legal decisions, Inspector General reports, federal court rulings, and official agency disclosures.</li>
-<li><strong><a href="./tap-sweep-government-services-redirection.html">Detailed Guide</a></strong></li>
 </ul>
 <h3>Reporting &amp; Candidate Ingestion</h3>
 <ul>
 <li><strong>Primary Function:</strong> <em>Monitoring, deduplicating, and triaging raw investigative journalism into the structured datastores.</em></li>
 <li><strong>Scope:</strong> Operates an on-demand news scraping and topic-based story clustering pipeline over thousands of raw news articles.</li>
 <li><strong>Key Deliverables:</strong> Automated archive ingestion, topic-based multi-day story clustering, and programmatic research pre-passes that promote verified claims into the curated trackers.</li>
-<li><strong>Detailed Guides:</strong></li>
-<li><a href="./tap-sweep-reporting-database-updates.html">Ingestion Pipeline</a></li>
-<li><a href="./tap-sweep-reporting-backlog-triage.html">Backlog Triage &amp; Clustering</a></li>
 </ul>
 <h3>User Topics &amp; Public Submissions</h3>
 <ul>
 <li><strong>Provides answers to questions like:</strong> <em>What emerging claims, policy questions, or local impacts are citizens raising, and how do they hold up against primary-source verification?</em></li>
 <li><strong>Scope:</strong> Operates an in-site topic intake and lightweight fact-checking pipeline for reader-submitted suggestions.</li>
 <li><strong>Key Deliverables:</strong> Objective factual verdicts (<code>confirmed</code>, <code>partially_confirmed</code>, <code>unable_to_verify</code>, <code>misleading_as_stated</code>), plain-language summaries, preserved verbatim submissions, and cross-tracker promotion links.</li>
-<li><strong><a href="./tap-sweep-community-topics-submissions.html">Detailed Guide</a></strong></li>
 </ul>
 <hr />
 <h2>Technical Assurance &amp; Data Integrity</h2>
@@ -218,7 +211,7 @@
 <li><strong>Auditable Data:</strong> Data feeds, search tables, and published entries are structured for verification by authorized users of the system.</li>
 </ol>
 <hr />
-<h2>How Researchers, Analysts &amp; Congressional Staff Might Utilize TAP</h2>
+<h2>How Researchers and Analysts Might Utilize TAP</h2>
 <p>Since my background is in building IT systems rather than policy analysis, I can only imagine some of the practical ways Congressional researchers might put TAP to work:</p>
 <ul>
 <li><strong>Hearing Preparation &amp; Briefings:</strong> Pulling verified statutory violation records, and, for Cabinet-Level Accountability entries, the underlying rebuttal/comeback research (now surfaced on the public site) for Member Q&amp;A or public testimony.</li>
