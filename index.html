@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A sourced record of corporate deregulation, cabinet-level accountability, government service redirection, and daily reporting. Type a claim and see exactly what's documented — every entry sourced, nothing asserted without a citation.">
+<meta name="description" content="A sourced record of corporate deregulation, cabinet-level accountability, government service redirection, and daily reporting. Type a topic and see exactly what's documented — every entry sourced, nothing asserted without a citation.">
 <title>The Accountability Project</title>
 <style>
   :root {
@@ -857,8 +857,8 @@
 <div class="nav-actions">
   <button id="back-to-top-btn" class="nav-action-btn" type="button" title="Scroll to the top of the page">↑ Back to Top</button>
   <button id="start-over-btn" class="nav-action-btn" type="button" title="Clear search/filters and return to the default view">↻ Start Over</button>
-  <button id="demo-tour-btn" class="nav-action-btn" type="button" title="Start automated or interactive video walkthrough tour">▶ Demo Tour</button>
-  <button id="suggest-claim-link" class="nav-action-btn" type="button" title="Suggest a topic, claim, story, or government action for The Accountability Project to evaluate">✎ Suggest a Topic</button>
+  <button id="demo-tour-btn" class="nav-action-btn" type="button" title="Start automated or interactive video walkthrough tour" hidden>▶ Demo Tour</button>
+  <button id="suggest-claim-link" class="nav-action-btn" type="button" title="Suggest a topic, story, or government action for The Accountability Project to evaluate">✎ Suggest a Topic</button>
   <a id="about-link" class="nav-action-btn" href="about.html" title="How The Accountability Project verifies its entries and presents information">ℹ About</a>
   <a id="reports-link" class="nav-action-btn" href="docs/index.html" title="Process guides and technical reports documenting how The Accountability Project works">📄 Docs</a>
 </div>
@@ -872,8 +872,8 @@
     <button class="suggest-close-btn" id="suggest-close-btn" type="button" title="Close">✕</button>
     <div id="suggest-form-view">
       <h2 id="suggest-modal-title">Suggest a Topic</h2>
-      <p class="suggest-desc">Suggest a topic, claim, story, or government action for The Accountability Project to research and add. Describe it below; a source link is optional but helpful.</p>
-      <label class="suggest-field-label" for="suggest-claim-input">Claim</label>
+      <p class="suggest-desc">Suggest a topic, story, or government action for The Accountability Project to research and add. Describe it below; a source link is optional but helpful.</p>
+      <label class="suggest-field-label" for="suggest-claim-input">Topic</label>
       <textarea id="suggest-claim-input" required></textarea>
       <label class="suggest-field-label" for="suggest-source-input">Source link if available</label>
       <input type="url" id="suggest-source-input" placeholder="https://...">
@@ -2702,7 +2702,7 @@ const TapDemoTour = (() => {
     },
     {
       title: "Community-Submitted Topics",
-      desc: "Every claim submitted through Suggest a Topic lands here first, rated Confirmed, Partially Confirmed, Unable to Verify, or Misleading as Stated -- topics that check out get promoted into TAP's main trackers.",
+      desc: "Every topic submitted through Suggest a Topic lands here first, rated Confirmed, Partially Confirmed, Unable to Verify, or Misleading as Stated -- topics that check out get promoted into TAP's main trackers.",
       target: () => document.getElementById("filter"),
       action: async () => {
         const tabBtn = Array.from(document.querySelectorAll("#tabs button"))
@@ -2721,7 +2721,7 @@ const TapDemoTour = (() => {
     },
     {
       title: "Community Sourcing & Open Methodology",
-      desc: "Submit new claims directly into our automated triage pipeline. Full verification standards and technical process guides are published openly under Docs.",
+      desc: "Submit new topics directly into our automated triage pipeline. Full verification standards and technical process guides are published openly under Docs.",
       target: () => document.querySelector(".nav-actions"),
       action: async () => {
         const suggestBtn = document.getElementById("suggest-claim-link");
