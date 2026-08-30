@@ -27,6 +27,41 @@
     "date_added": "2026-08-26"
   },
   {
+    "id": "hr-9492-clear-act-dhs-logging-2026",
+    "topic": "Bipartisan bill (H.R. 9492, the CLEAR Act) would require DHS to report on gaps in meeting federal cybersecurity event-logging requirements",
+    "submitted_claim": "hr-9492 is in committee",
+    "verdict": "confirmed",
+    "summary": "H.R. 9492, the Cybersecurity Logging Enforcement and Accountability Reporting (CLEAR) Act, is a real bill, introduced June 25, 2026 by Rep. James Walkinshaw (D-VA-11) and Rep. Don Bacon (R-NE-02) after a GAO report found federal agencies -- DHS included -- falling short of event-logging requirements set by Executive Order 14028, OMB Memorandum M-26-14, and NIST SP 800-53. It would require the DHS Secretary to report to Congress within 180 days of enactment on what's needed to close those gaps. The bill was referred to the House Homeland Security Committee's Subcommittee on Cybersecurity and Infrastructure Protection on July 7, 2026 and remains there, not yet voted on -- the submission's 'in committee' description checks out as of this writing.",
+    "sources": [
+      {
+        "name": "Congress.gov -- H.R.9492, 119th Congress: Cybersecurity Logging Enforcement and Accountability Reporting Act",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/9492"
+      },
+      {
+        "name": "Rep. James Walkinshaw -- Walkinshaw, Bacon Introduce Bipartisan Bill to Strengthen DHS Cybersecurity After Federal Watchdog Finds Compliance Gaps",
+        "url": "https://walkinshaw.house.gov/news/documentsingle.aspx?DocumentID=657"
+      },
+      {
+        "name": "MeriTalk -- House Lawmakers Introduce Bipartisan Bill Requiring DHS Cyber Logging Report",
+        "url": "https://www.meritalk.com/articles/house-lawmakers-introduce-bipartisan-bill-requiring-dhs-cyber-logging-report/"
+      },
+      {
+        "name": "FedScoop -- Only 3 agencies have hit deadline for cyber event logging standards, GAO finds",
+        "url": "https://fedscoop.com/only-3-agencies-have-hit-deadline-for-cyber-event-logging-standards-gao-finds/"
+      }
+    ],
+    "related_entries": [
+      {
+        "tracker": "government-services",
+        "id": "cisa-cyber-workforce-cuts-trump2",
+        "note": "Same DHS/CISA cybersecurity-capacity theme; GAO's own reporting cites staffing shortages as one of the primary reasons agencies government-wide have fallen short of event-logging requirements, alongside this entry's documented CISA workforce losses"
+      }
+    ],
+    "submitter_source_link": null,
+    "date_submitted": "2026-08-26",
+    "date_added": "2026-08-30"
+  },
+  {
     "id": "snap-benefits-losses-nationwide-2026",
     "topic": "Widespread loss of SNAP (food stamp) benefits nationwide",
     "submitted_claim": "people are losing food stamps",
@@ -62,6 +97,35 @@
     "submitter_source_link": null,
     "date_submitted": "2026-08-23",
     "date_added": "2026-08-23"
+  },
+  {
+    "id": "strait-of-hormuz-shipping-status-2026",
+    "topic": "Is the Strait of Hormuz \"wide open\" to shipping?",
+    "submitted_claim": "the straight of Hormuz is wide open to shipping",
+    "verdict": "misleading_as_stated",
+    "summary": "The narrow part of this claim checks out: on August 28, 2026, CENTCOM commander Adm. Brad Cooper announced that international shipping lanes through the Strait of Hormuz had been cleared of Iranian sea mines, and President Trump made similar public claims -- a real milestone after Iran's IRGC closed the strait following February 2026 US-Israeli strikes, and after a subsequent brief reopening (the June 2026 Islamabad Memorandum) collapsed under renewed attacks. But \"wide open\" overstates the actual shipping picture: as of late August 2026, only a dozen to a couple dozen ships per day were transiting the strait, compared to roughly 130 per day before the war, and shipping companies themselves remain unconvinced it's genuinely safe to resume normal traffic. Mines being cleared from the shipping lanes is not the same as shipping having actually returned to normal.",
+    "sources": [
+      {
+        "name": "Axios -- \"That sucker is open\": U.S. gains the upper hand in the battle for Hormuz",
+        "url": "https://www.axios.com/2026/08/28/trump-iran-hormuz-war-oil"
+      },
+      {
+        "name": "MS NOW -- Trump says the Strait of Hormuz is open. But traffic is nowhere near what it used to be.",
+        "url": "https://www.ms.now/news/trump-strait-hormuz-iran-war-ships-cargo-oil"
+      },
+      {
+        "name": "RedState -- CENTCOM Commander Explains Major Milestones Just Achieved in Strait of Hormuz",
+        "url": "https://redstate.com/nick-arama/2026/08/28/centcom-update-n2206177"
+      },
+      {
+        "name": "straits.live -- Is the Strait of Hormuz Open? (independent day-by-day shipping tracker)",
+        "url": "https://straits.live/is-the-strait-of-hormuz-open"
+      }
+    ],
+    "related_entries": [],
+    "submitter_source_link": null,
+    "date_submitted": "2026-08-30",
+    "date_added": "2026-08-30"
   },
   {
     "id": "trump-presidential-wealth-growth-2026",
