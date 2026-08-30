@@ -82,7 +82,7 @@ def convert_report(markdown_text: str) -> str:
     fragment."""
     text = rewrite_report_links(markdown_text)
     text = ensure_blank_line_before_lists(text)
-    return markdown.markdown(text, extensions=["fenced_code"])
+    return markdown.markdown(text, extensions=["fenced_code", "tables"])
 
 
 def extract_title(markdown_text: str) -> str:
@@ -222,6 +222,25 @@ _TEMPLATE_CSS = """
     border-top: 1px solid var(--rule);
     margin: 2.5rem 0;
   }
+
+  main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.2rem 0;
+    font-size: 0.95rem;
+  }
+  main th, main td {
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  main th {
+    color: var(--ink);
+    font-weight: 600;
+    border-bottom: 2px solid var(--rule-strong);
+  }
+  main td { color: var(--ink-soft); }
 
   .report-index { list-style: none; padding: 0; }
   .report-index li {
