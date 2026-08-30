@@ -287,6 +287,7 @@ _PAGE_TEMPLATE = """<!DOCTYPE html>
 {body}
 {back_links}
 </main>
+<script data-goatcounter="https://tap-site.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
 """
