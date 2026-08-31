@@ -9347,8 +9347,8 @@
       ],
       "caveat": "The Guardian's reporting connects the unresolved timeline to the IRS's reduced staffing capacity as context and characterization, not as an on-record IRS admission that understaffing specifically caused the technical error or the delay in fixing it."
     },
-    "confidence_note": "HIGH confidence on the core facts -- the $51 million figure, the affected organizations, the discovery timeline, and the IRS staffing reduction -- independently corroborated across The Guardian, The Mirror US, and Inkl's coverage of the same CPA findings. MODERATE confidence on the causal link between the staffing cuts and the error's occurrence or unresolved status specifically, since that connection is reporters' contextual framing rather than an on-record IRS statement attributing the problem to reduced capacity. Re-verified August 2026: no further public reporting on a fix timeline, resolution, or updated disclosure figures was identified since the original March 2026 coverage; status stands as previously documented.",
-    "last_verified": "2026-08-17",
+    "confidence_note": "HIGH confidence on the core facts -- the $51 million figure, the affected organizations, the discovery timeline, and the IRS staffing reduction -- independently corroborated across The Guardian, The Mirror US, and Inkl's coverage of the same CPA findings. MODERATE confidence on the causal link between the staffing cuts and the error's occurrence or unresolved status specifically, since that connection is reporters' contextual framing rather than an on-record IRS statement attributing the problem to reduced capacity. Re-verified August 2026: no further public reporting on a fix timeline, resolution, or updated disclosure figures was identified since the original March 2026 coverage; status stands as previously documented. Re-verified 2026-08-30 (GSR recheck batch 39): no material change -- still no fix timeline, resolution, or updated disclosure figures found in sourcing reviewed.",
+    "last_verified": "2026-08-30",
     "date_added": "2026-08-06",
     "sources": [
       {
@@ -9360,7 +9360,7 @@
         "url": "https://www.inkl.com/news/irs-glitch-masked-51m-in-political-donations-finance-watchdog-says"
       }
     ],
-    "last_updated": "2026-08-17",
+    "last_updated": "2026-08-30",
     "section_summaries": {
       "what_changed": "A campaign-finance watchdog found a technical error at the IRS left $51M in political donations undisclosed for the second half of 2025, affecting major groups from both parties; the IRS gave no fix timeline as of March 2026, after its workforce had shrunk ~27% under DOGE cuts.",
       "estimated_impact": "A significant campaign-finance transparency gap went undetected by the IRS itself and remained unresolved for at least a month after outside watchdogs found it, amid the agency's broader staffing collapse.",
@@ -10375,9 +10375,9 @@
     "title": "GSA/DOGE Listed 34 National Park Service Buildings for Lease Termination, Including Visitor Centers and Museums Housing Artifacts",
     "institution": "National Park Service (NPS); General Services Administration (GSA)",
     "domain": "staff_office_cuts",
-    "status": "Ongoing in phases through 2026; at least two individual sites (Fairbanks, AK and Seattle, WA) reversed or found to have been included in error",
+    "status": "Ongoing in phases through 2026; at least two individual sites (Fairbanks, AK and Seattle, WA) reversed or found to have been included in error; the leasing-authority bill Congress introduced in response has since advanced out of committee",
     "date_of_action": "2025-03-06 (list publicly reported) through 2026 (phased terminations continuing)",
-    "what_changed": "On March 6, 2025, the Washington Post reported that GSA, working with DOGE, had targeted the leases of at least 34 National Park Service buildings for termination as part of the administration's broader federal real-estate cost-cutting push -- including visitor centers, law enforcement offices, park headquarters, and museum/archive space housing millions of cultural artifacts. GSA said terminating the leases could save taxpayers millions of dollars; terminations were structured to arrive in waves stretching from 2025 into 2026, with example dates including a planned September 30, 2025 termination for Seattle's Klondike Gold Rush National Historical Park visitor center and a planned end-of-May-2026 termination for a National Park Service building in Fairbanks, Alaska. Park advocates warned the closures would degrade the visitor experience, particularly during peak summer season, threaten artifact preservation, and disrupt law-enforcement and emergency operations at affected parks. At least two individual terminations were subsequently reversed or corrected: GSA restored the Fairbanks-area Alaska Public Lands Information Center lease roughly 10 days after terminating it, following pressure from Sen. Dan Sullivan; and the Klondike Gold Rush visitor center lease in Seattle was found to have been placed on the termination list in error -- the lease had actually been extended by Historic Seattle in September 2024 through 2030, with GSA apparently unaware of the extension when it added the site to the list. Members of Congress, including Sens. Amy Klobuchar and Tina Smith, formally urged GSA not to proceed with terminations affecting other specific NPS buildings; a bill, the National Park System Long-Term Lease Investment Act (S.2498/H.R.4931), was introduced in Congress during this period aimed at giving NPS more stable, long-term leasing authority, though it had not been enacted as of this entry's last verification.",
+    "what_changed": "On March 6, 2025, the Washington Post reported that GSA, working with DOGE, had targeted the leases of at least 34 National Park Service buildings for termination as part of the administration's broader federal real-estate cost-cutting push -- including visitor centers, law enforcement offices, park headquarters, and museum/archive space housing millions of cultural artifacts. GSA said terminating the leases could save taxpayers millions of dollars; terminations were structured to arrive in waves stretching from 2025 into 2026, with example dates including a planned September 30, 2025 termination for Seattle's Klondike Gold Rush National Historical Park visitor center and a planned end-of-May-2026 termination for a National Park Service building in Fairbanks, Alaska. Park advocates warned the closures would degrade the visitor experience, particularly during peak summer season, threaten artifact preservation, and disrupt law-enforcement and emergency operations at affected parks. At least two individual terminations were subsequently reversed or corrected: GSA restored the Fairbanks-area Alaska Public Lands Information Center lease roughly 10 days after terminating it, following pressure from Sen. Dan Sullivan; and the Klondike Gold Rush visitor center lease in Seattle was found to have been placed on the termination list in error -- the lease had actually been extended by Historic Seattle in September 2024 through 2030, with GSA apparently unaware of the extension when it added the site to the list. Members of Congress, including Sens. Amy Klobuchar and Tina Smith, formally urged GSA not to proceed with terminations affecting other specific NPS buildings; a bill, the National Park System Long-Term Lease Investment Act (S.2498/H.R.4931), was introduced in Congress during this period aimed at giving NPS more stable, long-term leasing authority, though it had not been enacted as of this entry's last verification. Update 2026-08-30 (GSR recheck batch 39): H.R. 4931 advanced out of the House Natural Resources Committee markup on July 22, 2026, alongside several other public-lands bills, moving it a step closer to a House floor vote -- no floor vote had occurred as of this update. The bill's actual mechanism, allowing NPS to extend certain existing leases held 5+ years without competitive rebidding when the Director finds it in the park unit's best interest, drew formal opposition from the National Parks Conservation Association, which argued in December 2025 testimony to the same committee that extending leases without fair-market-rent consideration risks the government failing to secure optimal uses for the 340+ structures NPS currently leases -- a concern in tension with the bill's stated purpose of encouraging private investment in maintaining park assets. No comprehensive updated tally of the original 34 sites' current status was found in sourcing reviewed.",
     "primary_proponent": {
       "name": "General Services Administration, with DOGE (Department of Government Efficiency)",
       "role": "GSA administered the lease-termination list; DOGE's broader federal-real-estate cost-cutting push provided the policy driver",
@@ -10395,17 +10395,22 @@
           "metric": "Visitor centers among those slated for closure",
           "value": "8",
           "source": "Washington Post, March 2025"
+        },
+        {
+          "metric": "NPS structures currently under lease, systemwide (cited by NPCA opposing the response bill's fair-market-rent waiver)",
+          "value": "340+",
+          "source": "National Parks Conservation Association testimony, December 2025"
         }
       ],
       "caveat": "No source reviewed provided a final, comprehensive accounting of how many of the 34 buildings were ultimately closed, reversed, or corrected as of this entry's last verification -- the terminations were structured to arrive in phases through 2026, and this entry captures the initial scope plus the specific reversals/corrections documented so far, not a final tally."
     },
-    "confidence_note": "HIGH confidence for the initial list's existence and scope (Washington Post, Frommers compiling the GSA list, congressional letters from Klobuchar/Smith) and for the two specific reversal/correction cases (Newsminer/Fairbanks, Real Change/Seattle). MODERATE confidence on the overall current status of all 34 sites, since no single source reviewed tracks a complete, updated tally.",
-    "last_verified": "2026-08-17",
+    "confidence_note": "HIGH confidence for the initial list's existence and scope (Washington Post, Frommers compiling the GSA list, congressional letters from Klobuchar/Smith) and for the two specific reversal/correction cases (Newsminer/Fairbanks, Real Change/Seattle). MODERATE confidence on the overall current status of all 34 sites, since no single source reviewed tracks a complete, updated tally. Updated 2026-08-30 (GSR recheck batch 39): the July 22, 2026 committee markup and NPCA's opposition are HIGH confidence, corroborated across Legis1 and E&E News reporting on the markup plus NPCA's own published testimony; no House floor vote has been scheduled as of this update.",
+    "last_verified": "2026-08-30",
     "date_added": "2026-08-10",
     "section_summaries": {
-      "what_changed": "GSA/DOGE listed 34 NPS buildings including visitor centers and museums for lease termination in phases through 2026; at least two sites were reversed or corrected after local pushback revealed errors.",
+      "what_changed": "GSA/DOGE listed 34 NPS buildings including visitor centers and museums for lease termination in phases through 2026; at least two sites were reversed or corrected after local pushback revealed errors. The congressional response bill, H.R. 4931, advanced out of committee July 22, 2026 over NPCA's fair-market-rent objections.",
       "estimated_impact": "34 buildings including 8 visitor centers were targeted, with at least two documented cases where facilities should not have been on the list in the first place.",
-      "confidence_note": "Strongly corroborated for the initial list and two specific reversal cases; no source gives a complete current tally of all 34 sites."
+      "confidence_note": "Strongly corroborated for the initial list and two specific reversal cases; no source gives a complete current tally of all 34 sites. The committee markup and NPCA opposition are independently corroborated."
     },
     "sources": [
       {
@@ -10435,6 +10440,18 @@
       {
         "name": "Congress.gov -- S.2498, National Park System Long-Term Lease Investment Act",
         "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2498"
+      },
+      {
+        "name": "Legis1 -- Public Lands Bills Advance in House Committee",
+        "url": "https://legis1.com/news/public-lands-bills-committee-advances-management"
+      },
+      {
+        "name": "E&E News -- Natural Resources approves wildlife, land bills",
+        "url": "https://www.eenews.net/articles/natural-resources-approves-wildlife-land-bills/"
+      },
+      {
+        "name": "National Parks Conservation Association -- Position on H.R. 4931 & H.R. 5063",
+        "url": "https://www.npca.org/articles/11226-position-on-h-r-4931-h-r-5063"
       }
     ]
   },
@@ -10560,9 +10577,9 @@
     "title": "Tribes Lost Over $6 Million in Non-IHS Federal Health Grants and Technical Support Staff Despite RFK Jr.'s Promise to Protect Native American Health Funding",
     "institution": "HHS agencies outside the Indian Health Service (CDC, HRSA, and others)",
     "domain": "funding_redirection",
-    "status": "Ongoing as of June 2025 reporting -- no reversal identified in sourcing reviewed",
+    "status": "Ongoing -- a third, distinct funding threat (ACA enhanced-subsidy expiration hitting tribal marketplace-coverage programs) identified alongside the original non-IHS grant cuts and the FY2026 IHS appropriations fight; no reversal identified in sourcing reviewed for any of the three threads",
     "date_of_action": "2025-02 through 2025-06 (cumulative grant cancellations and staffing losses reported)",
-    "what_changed": "Despite HHS Secretary Robert F. Kennedy Jr.'s stated commitment to protect Native American health funding by shielding the Indian Health Service (IHS) itself from cuts, tribes reported losing more than $6 million in grants from other HHS agencies -- funding that paid for community health workers, vaccinations, data modernization, and other public health efforts -- according to a May 2025 letter from the National Indian Health Board to Kennedy. The administration canceled funding for programs it classified as violating Trump's ban on diversity, equity, and inclusion initiatives, including a program supporting Native American youth interested in science and medicine careers and a program helping several tribes increase access to healthy food. Tribal health officials also reported that federal staffing cuts across HHS agencies made it substantially harder to get technical support and administer federally funded health projects, in some cases because specific staffers tribes had worked with directly were fired. Tribal leaders highlighted the contradiction between the administration's stated chronic-disease-prevention priority and its funding cuts, with one official noting it was 'very confusing to say chronic disease prevention is the No. 1 priority and then to eradicate the support needed to address chronic disease prevention in Indian Country.' Update 2026-08-18 (GSR recheck batch 22): the non-IHS pattern documented above continued into 2026 -- CDC's Healthy Tribes program (culturally tailored public health initiatives) was reported terminated, and further reductions were reported at SAMHSA (Tribal Behavioral Health and Opioid Response grants, Native Connections), HRSA, the Administration for Community Living, and NIH, with the administration's FY2026 budget proposal separately seeking to eliminate roughly $128 million in Tribal set-aside mental/behavioral health funding and the Food is Medicine program. On the IHS side specifically -- which RFK Jr.'s promise covered -- Congress rejected the administration's proposed nearly-30%/$900 million FY2026 IHS cut: the enacted FY2026 appropriations package instead increased IHS funding roughly 1.1-1.3% over FY2025 (about $8.05 billion total, plus $5.31 billion in FY2027 advance appropriations), including a $41 million boost to the Special Diabetes Program for Indians (its largest in 22 years) and a $5 million increase for Urban Indian Health. This means the entry's core distinction -- IHS protected, non-IHS agencies cut -- held up and sharpened over the following year: Congress affirmatively reinforced IHS funding while the non-IHS cuts this entry documents continued and expanded.",
+    "what_changed": "Despite HHS Secretary Robert F. Kennedy Jr.'s stated commitment to protect Native American health funding by shielding the Indian Health Service (IHS) itself from cuts, tribes reported losing more than $6 million in grants from other HHS agencies -- funding that paid for community health workers, vaccinations, data modernization, and other public health efforts -- according to a May 2025 letter from the National Indian Health Board to Kennedy. The administration canceled funding for programs it classified as violating Trump's ban on diversity, equity, and inclusion initiatives, including a program supporting Native American youth interested in science and medicine careers and a program helping several tribes increase access to healthy food. Tribal health officials also reported that federal staffing cuts across HHS agencies made it substantially harder to get technical support and administer federally funded health projects, in some cases because specific staffers tribes had worked with directly were fired. Tribal leaders highlighted the contradiction between the administration's stated chronic-disease-prevention priority and its funding cuts, with one official noting it was 'very confusing to say chronic disease prevention is the No. 1 priority and then to eradicate the support needed to address chronic disease prevention in Indian Country.' Update 2026-08-18 (GSR recheck batch 22): the non-IHS pattern documented above continued into 2026 -- CDC's Healthy Tribes program (culturally tailored public health initiatives) was reported terminated, and further reductions were reported at SAMHSA (Tribal Behavioral Health and Opioid Response grants, Native Connections), HRSA, the Administration for Community Living, and NIH, with the administration's FY2026 budget proposal separately seeking to eliminate roughly $128 million in Tribal set-aside mental/behavioral health funding and the Food is Medicine program. On the IHS side specifically -- which RFK Jr.'s promise covered -- Congress rejected the administration's proposed nearly-30%/$900 million FY2026 IHS cut: the enacted FY2026 appropriations package instead increased IHS funding roughly 1.1-1.3% over FY2025 (about $8.05 billion total, plus $5.31 billion in FY2027 advance appropriations), including a $41 million boost to the Special Diabetes Program for Indians (its largest in 22 years) and a $5 million increase for Urban Indian Health. This means the entry's core distinction -- IHS protected, non-IHS agencies cut -- held up and sharpened over the following year: Congress affirmatively reinforced IHS funding while the non-IHS cuts this entry documents continued and expanded. Update 2026-08-30 (GSR recheck batch 39): identified a third, mechanically distinct funding threat missed by the entry's prior two updates -- the December 31, 2025 expiration of enhanced ACA marketplace subsidies has directly strained tribal health organizations' insurance-assistance programs, which help Native Americans access care outside limited IHS facilities. Tuba City Regional Health Care Corp. (Navajo Nation, Arizona) reported its patient-coverage costs rising roughly 170% to nearly $38,000/month without the enhanced subsidies; Fort Peck Tribes (Montana) said it is now 'limiting who gets help'; and Blackfeet Nation (Montana) paused employer-sponsored coverage for 52 people in January 2026. National Indian Health Board CEO A.C. Locklear warned that reduced access to general primary care compounds existing health disparities. This is a third, distinct mechanism from the entry's existing two threads (non-IHS HHS grant/staffing cuts, and the IHS budget-appropriations fight) -- it affects tribal organizations' own insurance-navigation and coverage-assistance programs rather than direct federal grants or IHS appropriations, and predates but was not previously captured by this entry's 2026-08-18 update.",
     "primary_proponent": {
       "name": "Robert F. Kennedy Jr.",
       "role": "Secretary of Health and Human Services",
@@ -10575,17 +10592,27 @@
           "metric": "Grant funding lost by tribes from non-IHS HHS agencies",
           "value": "$6,000,000+",
           "source": "National Indian Health Board letter to HHS Secretary Kennedy, May 2025"
+        },
+        {
+          "metric": "Tuba City Regional Health Care Corp. monthly patient-coverage cost increase after enhanced ACA subsidies expired",
+          "value": "~170% increase, to nearly $38,000/month",
+          "source": "KFF Health News, February 2026"
+        },
+        {
+          "metric": "Native Americans projected to become uninsured in 2026 due to enhanced-subsidy expiration",
+          "value": "125,000",
+          "source": "Urban Institute, cited by KFF Health News, February 2026"
         }
       ],
-      "caveat": "The $6 million figure is the National Indian Health Board's own tally as presented to HHS in its letter, not an independent government audit; it also predates and does not include any subsequent cuts after May 2025 that may not be reflected in reporting reviewed."
+      "caveat": "The $6 million figure is the National Indian Health Board's own tally as presented to HHS in its letter, not an independent government audit; it also predates and does not include any subsequent cuts after May 2025 that may not be reflected in reporting reviewed. The ACA-subsidy figures are a separate, later-2026 development documenting a distinct funding mechanism (marketplace-coverage cost strain), not additional losses on top of the original $6 million grant figure."
     },
-    "confidence_note": "HIGH confidence -- corroborated across KFF Health News, CBS News, and multiple regional outlet syndications of the same original reporting, including direct quotes from tribal health officials and the National Indian Health Board's letter. Added 2026-08-18 (GSR recheck batch 22): the 2026 non-IHS program continuations (Healthy Tribes, SAMHSA cuts) are sourced to a citizenportal.ai aggregation of tribal-advocacy reporting -- MODERATE confidence, single-aggregator sourcing not independently cross-checked against original outlets. The enacted FY2026 IHS appropriations figures are HIGH confidence, corroborated across NIHB's own funding-package analysis and NCUIH's budget analysis.",
+    "confidence_note": "HIGH confidence -- corroborated across KFF Health News, CBS News, and multiple regional outlet syndications of the same original reporting, including direct quotes from tribal health officials and the National Indian Health Board's letter. Added 2026-08-18 (GSR recheck batch 22): the 2026 non-IHS program continuations (Healthy Tribes, SAMHSA cuts) are sourced to a citizenportal.ai aggregation of tribal-advocacy reporting -- MODERATE confidence, single-aggregator sourcing not independently cross-checked against original outlets. The enacted FY2026 IHS appropriations figures are HIGH confidence, corroborated across NIHB's own funding-package analysis and NCUIH's budget analysis. Updated 2026-08-30 (GSR recheck batch 39): the ACA enhanced-subsidy strain on tribal health organizations is HIGH confidence, sourced directly to KFF Health News' February 2026 reporting with named organizations (Tuba City Regional Health Care Corp., Fort Peck Tribes, Blackfeet Nation) and an on-record NIHB CEO quote; the Urban Institute uninsurance projection is that organization's own modeling, cited by KFF, not independently verified by this entry.",
     "section_summaries": {
-      "what_changed": "Despite RFK Jr.'s promise to shield Indian Health Service funding, tribes lost over $6 million in grants from other HHS agencies plus DEI-flagged program cancellations and technical-support staff, undercutting the administration's own stated protections.",
-      "estimated_impact": "Real dollar losses and staffing gaps hit tribal community health worker programs, vaccination efforts, and chronic-disease prevention -- directly contradicting the administration's stated priorities.",
-      "confidence_note": "Well-corroborated across multiple outlets citing the same National Indian Health Board letter and tribal officials' on-record statements."
+      "what_changed": "Despite RFK Jr.'s promise to shield Indian Health Service funding, tribes lost over $6 million in grants from other HHS agencies plus DEI-flagged program cancellations and technical-support staff. A third thread, the expiration of enhanced ACA marketplace subsidies, has separately strained tribal health organizations' own insurance-assistance programs.",
+      "estimated_impact": "Real dollar losses and staffing gaps hit tribal community health worker programs, vaccination efforts, and chronic-disease prevention. Tribal health orgs also face steep marketplace-premium cost increases (e.g. ~170% at one Navajo Nation provider) since enhanced ACA subsidies lapsed.",
+      "confidence_note": "Well-corroborated across multiple outlets citing the same National Indian Health Board letter, tribal officials' on-record statements, and KFF Health News' named-organization ACA-subsidy reporting."
     },
-    "last_verified": "2026-08-18",
+    "last_verified": "2026-08-30",
     "date_added": "2026-08-14",
     "sources": [
       {
@@ -10603,9 +10630,13 @@
       {
         "name": "National Indian Health Board -- What the FY 2026 Funding Package Means for Tribal Health Systems",
         "url": "https://www.nihb.org/what-the-fy-2026-funding-package-means-for-tribal-health-systems/"
+      },
+      {
+        "name": "KFF Health News -- End of Enhanced Obamacare Subsidies Puts Tribal Health Lifeline at Risk",
+        "url": "https://kffhealthnews.org/insurance/tribal-health-enhanced-obamacare-subsidies-funding-shortages/"
       }
     ],
-    "last_updated": "2026-08-18"
+    "last_updated": "2026-08-30"
   },
   {
     "id": "ncar-supercomputer-removal-2026",
@@ -13415,9 +13446,9 @@
     "title": "OPM Omitted Retirement Services Staff Departures From Oversight Response Amid a Record Retirement-Case Backlog",
     "institution": "Office of Personnel Management (OPM), Retirement Services division",
     "domain": "staff_office_cuts",
-    "status": "Improving on backlog volume, unresolved on the disclosure allegation -- the pending retirement-case backlog fell to 33,851 as of June 30, 2026 (down roughly 48% from the February 2026 peak of 65,237), even as average processing time rose to about 108 days; OPM completed a July 1, 2026 transition ending paper-based retirement processing for over 95% of applications. No correction or fuller accounting from OPM in response to the original omission allegation was identified in sourcing reviewed.",
+    "status": "Improving on backlog volume, unresolved and now independently corroborated on the disclosure/transparency allegation -- the pending retirement-case backlog fell further to 24,784 as of July 31, 2026 (down roughly 62% from the February 2026 peak of 65,237), even as average processing time held near 98-109 days; a separate GAO report (GAO-26-108916, Aug. 14, 2026) found OPM refused to turn over requested documentation or answer written questions during GAO's own review of the same office cuts. No correction or fuller accounting from OPM in response to either the House Democrats' original omission allegation or GAO's own request was identified in sourcing reviewed.",
     "date_of_action": "2025 (workforce reductions); reported 2026-04",
-    "what_changed": "House Democrats alleged that OPM, in its initial written response to congressional oversight inquiries about a growing retirement-case backlog, disclosed losing only about 35 customer service representatives but omitted that more than 100 staff in its Retirement Services division had departed -- a figure House Democrats say is drawn from data OPM's own Office of Inspector General cited. Lawmakers attributed the workforce losses to the administration's deferred resignation program, reductions in force, and termination of probationary employees. The pending retirement-case backlog reached 65,237 cases at its February 2026 peak before declining to 55,681 as of March 31, 2026 -- roughly 20,000 cases higher than the prior historical peak of about 36,000 claims reached in 2022, meaning even the post-peak backlog level remains well above any pre-2025 benchmark. Update 2026-08-17: the backlog continued declining after the 55,681 figure already in this entry, falling for a fourth consecutive month to 33,851 in June 2026 (a 12.2% drop from May, and roughly 48% below February's record peak), even as average processing time rose to about 108 days -- a case where the raw case count improved while individual wait times did not. Separately, OPM marked its 'Last Day of Paper' on July 1, 2026, ending paper-based retirement-application processing after more than 65 years for over 95% of applications, moving nearly all filings to its Online Retirement Application system and committing to issue a first pension payment within 7 days of retirement for complete digital applications submitted by the separation date. Sourcing reviewed did not identify any OPM response to House Democrats' original allegation that its disclosure of Retirement Services staff losses (~35 disclosed vs. 100+ alleged) was incomplete.",
+    "what_changed": "House Democrats alleged that OPM, in its initial written response to congressional oversight inquiries about a growing retirement-case backlog, disclosed losing only about 35 customer service representatives but omitted that more than 100 staff in its Retirement Services division had departed -- a figure House Democrats say is drawn from data OPM's own Office of Inspector General cited. Lawmakers attributed the workforce losses to the administration's deferred resignation program, reductions in force, and termination of probationary employees. The pending retirement-case backlog reached 65,237 cases at its February 2026 peak before declining to 55,681 as of March 31, 2026 -- roughly 20,000 cases higher than the prior historical peak of about 36,000 claims reached in 2022, meaning even the post-peak backlog level remains well above any pre-2025 benchmark. Update 2026-08-17: the backlog continued declining after the 55,681 figure already in this entry, falling for a fourth consecutive month to 33,851 in June 2026 (a 12.2% drop from May, and roughly 48% below February's record peak), even as average processing time rose to about 108 days -- a case where the raw case count improved while individual wait times did not. Separately, OPM marked its 'Last Day of Paper' on July 1, 2026, ending paper-based retirement-application processing after more than 65 years for over 95% of applications, moving nearly all filings to its Online Retirement Application system and committing to issue a first pension payment within 7 days of retirement for complete digital applications submitted by the separation date. Sourcing reviewed did not identify any OPM response to House Democrats' original allegation that its disclosure of Retirement Services staff losses (~35 disclosed vs. 100+ alleged) was incomplete. Update 2026-08-30 (GSR recheck batch 39): the backlog fell for a fifth consecutive month, to 24,784 pending cases as of July 31, 2026 -- OPM processed 17,841 claims in July (14,000 digitally) while receiving 10,538 new applications, a net reduction of more than 9,000 cases in a single month and the lowest level since the retirement surge began, though still above OPM's own goal of 13,000 or fewer pending claims. Separately and independently of the House Democrats' allegation, a Government Accountability Office report (GAO-26-108916, dated August 14, 2026) examining OPM's Retirement Services staffing cuts found the office lost 16% of its full-time-equivalent positions (165 people) between fiscal 2024 and fiscal 2026, with 57% of departing staff holding 11+ years of federal service -- and, more directly relevant to this entry's transparency theme, that OPM 'never turned that material over' when GAO requested documentation on the changes it had made to its offices and programs since 2025, and separately declined GAO's requests for a meeting or answers to written questions. This is a second, independent federal oversight body (GAO, distinct from the House Democrats who made the original omission allegation) documenting the same pattern of OPM incompleteness/non-cooperation with oversight into the same underlying staffing cuts.",
     "primary_proponent": {
       "name": "Office of Personnel Management leadership (institutional; no single official named in sourcing as personally directing the incomplete disclosure)",
       "role": "Federal human-resources agency responsible for processing retirement claims for the federal workforce",
@@ -13445,17 +13476,27 @@
           "metric": "Prior historical peak backlog (2022)",
           "value": "~36,000",
           "source": "OPM data, cited by Government Executive"
+        },
+        {
+          "metric": "Pending retirement-case backlog, July 31, 2026",
+          "value": "24,784",
+          "source": "OPM data, cited by FedSmith, August 2026"
+        },
+        {
+          "metric": "OPM Retirement Services FTE reduction, FY2024-FY2026",
+          "value": "16% (165 positions)",
+          "source": "GAO report GAO-26-108916, August 14, 2026, cited by My Federal Retirement"
         }
       ],
-      "caveat": "This entry documents both the alleged incomplete disclosure and the underlying backlog figures, which are independently sourced from OPM's own data; the two claims should be presented distinctly -- the backlog scale is not itself disputed, while the characterization of the initial disclosure as an intentional omission versus an incomplete first response is House Democrats' characterization, not an independently adjudicated finding."
+      "caveat": "This entry documents both the alleged incomplete disclosure and the underlying backlog figures, which are independently sourced from OPM's own data; the two claims should be presented distinctly -- the backlog scale is not itself disputed, while the characterization of the initial disclosure as an intentional omission versus an incomplete first response is House Democrats' characterization, not an independently adjudicated finding. The GAO's finding that OPM withheld documentation and declined meetings/written questions is the GAO's own account of its review, an independent federal oversight body separate from the House Democrats making the original allegation."
     },
-    "confidence_note": "HIGH confidence on the backlog figures themselves, sourced directly to OPM's own data as reported by Government Executive. MODERATE-HIGH confidence on the omission allegation, since it is House Democrats' characterization of OPM's response, corroborated by Government Executive's citation of OPM's own Inspector General data showing the fuller departure figure -- no OPM rebuttal or alternative accounting was identified in sourcing reviewed. Re-verified 2026-08-17: the June 2026 backlog figure and the July 1, 2026 'Last Day of Paper' transition are HIGH confidence, sourced to OPM's own press release (opm.gov) and corroborated by FedSmith, NARFE, and Government Executive. The original omission allegation remains at its prior confidence level -- no OPM rebuttal or fuller accounting was found.",
+    "confidence_note": "HIGH confidence on the backlog figures themselves, sourced directly to OPM's own data as reported by Government Executive. MODERATE-HIGH confidence on the omission allegation, since it is House Democrats' characterization of OPM's response, corroborated by Government Executive's citation of OPM's own Inspector General data showing the fuller departure figure -- no OPM rebuttal or alternative accounting was identified in sourcing reviewed. Re-verified 2026-08-17: the June 2026 backlog figure and the July 1, 2026 'Last Day of Paper' transition are HIGH confidence, sourced to OPM's own press release (opm.gov) and corroborated by FedSmith, NARFE, and Government Executive. The original omission allegation remains at its prior confidence level -- no OPM rebuttal or fuller accounting was found. Updated 2026-08-30 (GSR recheck batch 39): the July 2026 backlog figure is HIGH confidence, sourced to OPM's own data as reported by FedSmith. The GAO non-cooperation finding is HIGH confidence -- a formal GAO report (GAO-26-108916) is the strongest source type this tracker prioritizes, though the report itself was accessed via My Federal Retirement's summary rather than the GAO report directly; the 16%/165-position FTE figure is GAO's own count.",
     "section_summaries": {
-      "what_changed": "House Democrats say OPM's oversight response disclosed losing ~35 Retirement Services staff while omitting that 100+ had actually departed, as the federal retirement-case backlog ran roughly 20,000 cases above its prior historical peak.",
-      "estimated_impact": "Tens of thousands of federal retirees face delayed benefits processing; the alleged incomplete disclosure obscured the staffing losses driving that backlog from the oversight process.",
-      "confidence_note": "Backlog figures are HIGH confidence, drawn directly from OPM's own data; the omission characterization is House Democrats' claim, corroborated by OPM's own IG data but not independently adjudicated."
+      "what_changed": "House Democrats say OPM's oversight response disclosed losing ~35 Retirement Services staff while omitting that 100+ had actually departed, as the federal retirement-case backlog ran roughly 20,000 cases above its prior historical peak. A separate GAO review independently found OPM withheld documentation and declined to answer its questions.",
+      "estimated_impact": "Tens of thousands of federal retirees face delayed benefits processing; the alleged incomplete disclosure obscured the staffing losses driving that backlog from the oversight process. GAO's own count puts the Retirement Services FTE loss at 16% (165 positions), with 57% of departures holding 11+ years of service.",
+      "confidence_note": "Backlog figures are HIGH confidence, drawn directly from OPM's own data; the omission characterization is House Democrats' claim, now corroborated by a second, independent GAO finding of OPM non-cooperation with oversight."
     },
-    "last_verified": "2026-08-17",
+    "last_verified": "2026-08-30",
     "date_added": "2026-08-06",
     "sources": [
       {
@@ -13469,9 +13510,13 @@
       {
         "name": "FedTools -- OPM Retirement Backlog Down 48%, Yet Your Wait Rose to 108 Days",
         "url": "https://www.fedtools.com/blog/opm-retirement-processing-times-2026"
+      },
+      {
+        "name": "My Federal Retirement -- OPM Cut Retirement Staff 16% -- What It Means for You",
+        "url": "https://www.myfederalretirement.com/opm-retirement-services-staff-cut/"
       }
     ],
-    "last_updated": "2026-08-17"
+    "last_updated": "2026-08-30"
   },
   {
     "id": "orr-migrant-children-ice-data-sharing-2025",
@@ -14036,7 +14081,7 @@
     "domain": "research_suppression",
     "status": "Implemented and ongoing -- Hegseth has publicly reaffirmed the policy through at least October 2025",
     "date_of_action": "2025-03 (initial cuts and studies canceled) through 2025-10 (Hegseth's continued public defense of the policy)",
-    "what_changed": "Beginning around March 2025, the Pentagon, working with DOGE, began eliminating climate-related programs and research it labeled 'wasteful' and outside the military's 'core mission' of 'deterring, fighting and winning wars,' per Pentagon press secretary John Ullyot. The cuts included canceling multiple in-progress studies, among them research examining whether a hotter planet could fuel greater instability in Africa, and the Pentagon spent weeks combing through outside contracts specifically searching for the word 'climate' with the intent of zeroing out any related work. Defense Secretary Pete Hegseth has been the policy's most vocal proponent, later stating flatly that the Department of Defense 'does not do climate change crap.' Military officials, national-security analysts, and reporting reviewed by CNN and NPR warned the cuts sever climate-preparedness work directly tied to military readiness -- climate-linked extreme weather has sidelined more than 10,000 troops since 2018, flooded military bases, and damaged runways and other infrastructure -- treating climate resilience as a threat-multiplier planning function distinct from climate-policy advocacy. As of October 2025 reporting, the Pentagon had continued retreating from climate-related work even as heat and storm impacts on troops and bases continued.",
+    "what_changed": "Beginning around March 2025, the Pentagon, working with DOGE, began eliminating climate-related programs and research it labeled 'wasteful' and outside the military's 'core mission' of 'deterring, fighting and winning wars,' per Pentagon press secretary John Ullyot. The cuts included canceling multiple in-progress studies, among them research examining whether a hotter planet could fuel greater instability in Africa, and the Pentagon spent weeks combing through outside contracts specifically searching for the word 'climate' with the intent of zeroing out any related work. Defense Secretary Pete Hegseth has been the policy's most vocal proponent, later stating flatly that the Department of Defense 'does not do climate change crap.' Military officials, national-security analysts, and reporting reviewed by CNN and NPR warned the cuts sever climate-preparedness work directly tied to military readiness -- climate-linked extreme weather has sidelined more than 10,000 troops since 2018, flooded military bases, and damaged runways and other infrastructure -- treating climate resilience as a threat-multiplier planning function distinct from climate-policy advocacy. As of October 2025 reporting, the Pentagon had continued retreating from climate-related work even as heat and storm impacts on troops and bases continued. Update 2026-08-30 (GSR recheck batch 39): identified the concrete budget scale behind the qualitative 'purging' this entry documents -- the Pentagon's FY2026 budget request specifically proposed cutting $1.6 billion in what it labeled 'wasteful' climate spending (including a $6 million grant to decarbonize Navy ship emissions), and the Department separately canceled 91 climate- and social-science-research studies outright, a move it said would save $30 million; those 91 canceled studies were designed to help military planners anticipate emerging security threats, including climate change, extremism, and disinformation. For context, DOD had sought roughly $5 billion for climate initiatives in its FY2024 budget request, including efforts to harden bases against extreme weather and reduce battlefield fuel dependence -- illustrating the scale of the reversal. No sourcing reviewed found a Pentagon or Hegseth statement, policy change, or readiness incident dated after the July 6, 2026 Warren letter already cited in this entry's confidence note.",
     "primary_proponent": {
       "name": "Defense Secretary Pete Hegseth",
       "role": "Secretary of Defense",
@@ -14049,12 +14094,27 @@
           "metric": "Troops sidelined by climate-linked extreme weather since 2018, cited as the readiness stakes of the cuts",
           "value": "10,000+",
           "source": "NPR, March 2025, citing Pentagon-adjacent readiness reporting"
+        },
+        {
+          "metric": "FY2026 Pentagon budget request's proposed cut to climate spending",
+          "value": "$1.6 billion",
+          "source": "PRX/The World, October 2025, citing DOD FY2026 budget documents"
+        },
+        {
+          "metric": "Climate/social-science research studies canceled outright, with stated savings",
+          "value": "91 studies / $30 million",
+          "source": "PRX/The World, October 2025"
+        },
+        {
+          "metric": "DOD's own FY2024 budget request for climate initiatives, for scale comparison",
+          "value": "~$5 billion",
+          "source": "PRX/The World, October 2025, citing prior-administration DOD budget requests"
         }
       ],
       "caveat": "The Pentagon's own position is that this work was genuinely outside the military's core mission and constituted waste, not that readiness was harmed -- a real, stated policy disagreement rather than a hidden rationale, and should be presented alongside the readiness-risk warnings rather than treated as settled in either direction. No sourcing reviewed quantifies a specific, already-realized readiness failure directly caused by the cuts themselves, as distinct from the general pattern of climate-linked disruption cited above as context."
     },
-    "confidence_note": "HIGH confidence on the cuts themselves and Hegseth's own public statements -- corroborated across CNN, NPR, Scientific American, and Louisiana Illuminator/E&E News reporting spanning March through October 2025. The readiness-risk claim is a genuinely contested policy question (see caveat), presented here with the Pentagon's own stated rationale included rather than omitted. Re-verified 2026-08-17: the policy remains in effect with no reversal identified. Congressional pressure has continued but not produced a change -- Sen. Elizabeth Warren and colleagues sent a further letter to Secretary Hegseth on Pentagon climate/readiness policy dated July 6, 2026; no Pentagon response or policy change was identified in sourcing reviewed as of this update. No other material developments found since last verification.",
-    "last_verified": "2026-08-17",
+    "confidence_note": "HIGH confidence on the cuts themselves and Hegseth's own public statements -- corroborated across CNN, NPR, Scientific American, and Louisiana Illuminator/E&E News reporting spanning March through October 2025. The readiness-risk claim is a genuinely contested policy question (see caveat), presented here with the Pentagon's own stated rationale included rather than omitted. Re-verified 2026-08-17: the policy remains in effect with no reversal identified. Congressional pressure has continued but not produced a change -- Sen. Elizabeth Warren and colleagues sent a further letter to Secretary Hegseth on Pentagon climate/readiness policy dated July 6, 2026; no Pentagon response or policy change was identified in sourcing reviewed as of this update. No other material developments found since last verification. Updated 2026-08-30 (GSR recheck batch 39): the $1.6 billion FY2026 cut figure and 91-studies/$30 million cancellation figure are HIGH confidence, sourced to PRX/The World's October 2025 reporting citing DOD budget documents directly; no material developments dated after the July 6, 2026 Warren letter were found.",
+    "last_verified": "2026-08-30",
     "date_added": "2026-08-09",
     "sources": [
       {
@@ -14076,11 +14136,15 @@
       {
         "name": "Louisiana Illuminator -- Pentagon retreats from climate fight even as heat and storms slam troops",
         "url": "https://lailluminator.com/2025/10/14/military-climate/"
+      },
+      {
+        "name": "PRX/The World -- Pentagon could cut $1.6 billion in funding for climate research",
+        "url": "https://theworld.org/segments/2025/10/14/pentagon-could-cut-1-6-billion-in-funding-for-climate-research"
       }
     ],
     "section_summaries": {
-      "what_changed": "The Pentagon, with DOGE, began eliminating climate-related research and programs starting March 2025, canceling studies and purging contracts containing the word 'climate,' with Secretary Hegseth publicly saying DOD 'does not do climate change crap.'",
-      "estimated_impact": "Military and outside analysts warn this severs readiness-relevant planning work, given climate-linked weather has already sidelined 10,000+ troops since 2018 -- though the Pentagon disputes that framing and maintains the work was genuinely outside its mission.",
+      "what_changed": "The Pentagon, with DOGE, began eliminating climate-related research and programs starting March 2025, canceling studies and purging contracts containing the word 'climate,' with Secretary Hegseth publicly saying DOD 'does not do climate change crap.' Its FY2026 budget request specifically proposed a $1.6 billion cut, and 91 studies were canceled outright.",
+      "estimated_impact": "Military and outside analysts warn this severs readiness-relevant planning work, given climate-linked weather has already sidelined 10,000+ troops since 2018 -- though the Pentagon disputes that framing and maintains the work was genuinely outside its mission. The cuts represent a reversal from DOD's own ~$5 billion FY2024 climate-initiative request.",
       "confidence_note": "Well-corroborated across multiple outlets from March through October 2025; the readiness-impact question remains a genuine, unresolved policy dispute."
     }
   },
@@ -17318,7 +17382,7 @@
     "domain": "funding_redirection",
     "status": "Ongoing -- suspension began April 10, 2026 as a stated temporary cash-conservation measure; as of a June 2026 update, USPS no longer expects to exhaust cash reserves in early 2027, but warns the suspension only delays, not resolves, its long-term financial position",
     "date_of_action": "2026-04-09 (announced); 2026-04-10 (suspension began)",
-    "what_changed": "The USPS Board of Governors suspended the agency's biweekly employer contributions to the Federal Employees Retirement System (FERS), covering roughly 99% of career postal workers, beginning April 10, 2026. The move defers roughly $200 million every two weeks (about $400 million/month, an estimated $2.5 billion for the fiscal year) that would otherwise fund employee retirement benefits, redirecting it to preserve operating cash. USPS stated this was necessary because it faced a severe cash crisis, with projections at the time showing it could run out of cash as early as February 2027 absent action; employee-side FERS payroll deductions continue to be withheld and forwarded to OPM as normal, and USPS says current employees' and retirees' benefits are not immediately affected. USPS separately sought a 4-cent stamp price increase around the same time. Reporting attributes the underlying cash crisis to multiple compounding factors: two decades of declining first-class mail volume, growing competition from private carriers (including Amazon's own delivery operations), a 2006 law requiring USPS to pre-fund 75 years of retiree health benefits within 10 years, a $634 million first-quarter FY2026 spike in workers' compensation costs, and -- per multiple outlets -- the effects of the administration's global tariffs, high inflation, and gasoline-price spikes on USPS's own costs and mail volume.",
+    "what_changed": "The USPS Board of Governors suspended the agency's biweekly employer contributions to the Federal Employees Retirement System (FERS), covering roughly 99% of career postal workers, beginning April 10, 2026. The move defers roughly $200 million every two weeks (about $400 million/month, an estimated $2.5 billion for the fiscal year) that would otherwise fund employee retirement benefits, redirecting it to preserve operating cash. USPS stated this was necessary because it faced a severe cash crisis, with projections at the time showing it could run out of cash as early as February 2027 absent action; employee-side FERS payroll deductions continue to be withheld and forwarded to OPM as normal, and USPS says current employees' and retirees' benefits are not immediately affected. USPS separately sought a 4-cent stamp price increase around the same time. Reporting attributes the underlying cash crisis to multiple compounding factors: two decades of declining first-class mail volume, growing competition from private carriers (including Amazon's own delivery operations), a 2006 law requiring USPS to pre-fund 75 years of retiree health benefits within 10 years, a $634 million first-quarter FY2026 spike in workers' compensation costs, and -- per multiple outlets -- the effects of the administration's global tariffs, high inflation, and gasoline-price spikes on USPS's own costs and mail volume. Update 2026-08-30 (GSR recheck batch 39): the 4-cent stamp price increase this entry documents as 'sought' took effect July 12, 2026, raising the First-Class Mail Forever stamp from 78 to 82 cents, per USPS's own pricing announcement and multiple outlets' coverage of the change taking effect. No resumption date for the suspended FERS contributions has been announced; no material change to the underlying cash-crisis narrative or the FY2031-2035 shortfall projection already documented in this entry's estimated_impact was found in sourcing reviewed.",
     "primary_proponent": {
       "name": "USPS Board of Governors / David Steiner, Postmaster General",
       "role": "USPS's governing board and chief executive",
@@ -17346,17 +17410,22 @@
           "metric": "USPS net loss, full FY2025",
           "value": "$9,500,000,000",
           "source": "USPS financial reporting, cited by multiple outlets"
+        },
+        {
+          "metric": "Forever stamp price increase, effective July 12, 2026",
+          "value": "78 cents -> 82 cents (4 cents)",
+          "source": "USPS pricing announcement, cited by Rolling Out and other outlets, July 2026"
         }
       ],
       "caveat": "This entry documents a genuinely multi-causal financial crisis; sourcing does not establish the administration's tariff policy as the primary or sole driver, alongside long-predating structural factors (declining mail volume, the 2006 retiree-health pre-funding law, Amazon competition, rising workers' comp costs). Present as a contested/mixed-causation story, not a single-cause administration action, while still noting the pension deferral itself is the concrete action fitting this tracker's funding_redirection domain."
     },
-    "confidence_note": "HIGH confidence on the core facts of the suspension, its dollar figures, and USPS's own stated cash-crisis rationale -- corroborated across Federal News Network, CBS News, Fox Business, USA Today, and USPS's own news release. MODERATE confidence on how much weight to assign administration policy (tariffs) versus long-predating structural causes in explaining the crisis -- reporting presents this as multi-causal, not attributing the crisis primarily to a single administration decision the way other entries in this tracker document a single named official's deliberate action (e.g. Noem's MS-ISAC defunding). Re-verified 2026-08-17: no material change found -- the suspension remains in effect with no announced resumption date; USPS's own June 2026 update (already cited) remains the most current authoritative statement on the suspension continuing through the fiscal year.",
+    "confidence_note": "HIGH confidence on the core facts of the suspension, its dollar figures, and USPS's own stated cash-crisis rationale -- corroborated across Federal News Network, CBS News, Fox Business, USA Today, and USPS's own news release. MODERATE confidence on how much weight to assign administration policy (tariffs) versus long-predating structural causes in explaining the crisis -- reporting presents this as multi-causal, not attributing the crisis primarily to a single administration decision the way other entries in this tracker document a single named official's deliberate action (e.g. Noem's MS-ISAC defunding). Re-verified 2026-08-17: no material change found -- the suspension remains in effect with no announced resumption date; USPS's own June 2026 update (already cited) remains the most current authoritative statement on the suspension continuing through the fiscal year. Updated 2026-08-30 (GSR recheck batch 39): the stamp price increase's effective date and final figures are HIGH confidence, confirmed as implemented (not merely proposed) via USPS's own pricing announcement and corroborated across outlet coverage of the July 12, 2026 change. No resumption date for the FERS suspension or other material change was found.",
     "section_summaries": {
-      "what_changed": "USPS's Board of Governors suspended ~$2.5B in FY2026 employer pension contributions to preserve cash amid a severe financial crisis, deferring rather than resolving the underlying shortfall.",
+      "what_changed": "USPS's Board of Governors suspended ~$2.5B in FY2026 employer pension contributions to preserve cash amid a severe financial crisis, deferring rather than resolving the underlying shortfall. The stamp price increase this entry documented as proposed took effect July 12, 2026 (78 to 82 cents).",
       "estimated_impact": "The deferred contributions total roughly $2.5 billion for the fiscal year; USPS itself says this only delays a recurring cash-shortfall risk projected for FY2031-2035.",
       "confidence_note": "Well-documented core facts; the crisis is genuinely multi-causal, with administration tariff policy cited as one contributing factor among several long-predating structural causes."
     },
-    "last_verified": "2026-08-17",
+    "last_verified": "2026-08-30",
     "date_added": "2026-08-06",
     "sources": [
       {
@@ -17374,9 +17443,13 @@
       {
         "name": "Federal News Network -- USPS staves off immediate cash crisis, but warns of continuing financial woes",
         "url": "https://federalnewsnetwork.com/agency-oversight/2026/06/usps-staves-off-immediate-cash-crisis-but-warns-of-continuing-financial-woes/"
+      },
+      {
+        "name": "Rolling Out -- US Postal Service raises stamp price to 82 cents amid cash crunch",
+        "url": "https://rollingout.com/2026/07/12/usps-raises-stamp-price-to-82-cents-amid/"
       }
     ],
-    "last_updated": "2026-08-17"
+    "last_updated": "2026-08-30"
   },
   {
     "id": "uspstf-disruption-rfk-jr-2026",
