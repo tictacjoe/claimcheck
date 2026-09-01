@@ -14,3 +14,6 @@
 # confidence_note) and the exclusion was removed 2026-07-20.
 
 # Add more IDs below as needed, e.g.:
+
+# federal-ciso-role-status-2026 -- excluded 2026-09-01, per Joe's request
+federal-ciso-role-status-2026

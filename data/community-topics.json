@@ -27,37 +27,6 @@
     "date_added": "2026-08-26"
   },
   {
-    "id": "federal-ciso-role-status-2026",
-    "topic": "The federal CISO role already exists -- it's not something that needs implementing",
-    "submitted_claim": "implementing a federal ciso is a good idea",
-    "verdict": "misleading_as_stated",
-    "summary": "The submission frames a federal Chief Information Security Officer as something that would need to be created. It already exists: the Office of the Federal CISO was established in 2016 within OMB's Office of the Federal CIO, and the role is currently held on an acting basis by Mike Duffy, who chairs the government-wide CISO Council. As of 2026, the real live issue isn't the role's existence but its authority -- White House cyber officials have discussed a push to 'empower CISOs' to make faster strategic decisions, against a backdrop of broader federal cybersecurity leadership turnover (CISA's own director post has sat unfilled pending a Senate vote, with an acting director in place, and CISA has lost roughly a third of its workforce since January 2025 -- see the related entry below).",
-    "sources": [
-      {
-        "name": "Wikipedia -- Federal Chief Information Security Officer",
-        "url": "https://en.wikipedia.org/wiki/Federal_Chief_Information_Security_Officer"
-      },
-      {
-        "name": "CyberScoop -- Acting Federal CISO Mike Duffy lays out his priorities for 2026",
-        "url": "https://cyberscoop.com/radio/acting-federal-ciso-mike-duffy-lays-out-his-priorities-for-2026/"
-      },
-      {
-        "name": "FedScoop -- White House looks to pilot AI, 'empower CISOs' in push to improve cyber resilience",
-        "url": "https://fedscoop.com/white-house-looks-pilot-ai-empower-cisos-push-improve-cyber-resilience/"
-      }
-    ],
-    "related_entries": [
-      {
-        "tracker": "government-services",
-        "id": "cisa-cyber-workforce-cuts-trump2",
-        "note": "The broader federal cybersecurity workforce/leadership context (CISA workforce losses) this submission's underlying concern connects to, distinct from the Federal CISO role itself"
-      }
-    ],
-    "submitter_source_link": null,
-    "date_submitted": "2026-09-01",
-    "date_added": "2026-09-01"
-  },
-  {
     "id": "hr-9492-clear-act-dhs-logging-2026",
     "topic": "Bipartisan bill (H.R. 9492, the CLEAR Act) would require DHS to report on gaps in meeting federal cybersecurity event-logging requirements",
     "submitted_claim": "hr-9492 is in committee",
