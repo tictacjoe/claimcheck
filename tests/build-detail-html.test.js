@@ -299,6 +299,7 @@ test("deregulation shows last verified date and a request-update button", () => 
   assert(result.includes('data-tracker="deregulation"'), "button should carry the tracker key");
   assert(result.includes('data-entry-id="some-rule-id"'), "button should carry the entry id");
   assert(result.includes('data-entry-title="Some Rule"'), "button should carry the entry title");
+  assert(result.includes('data-last-verified="2026-08-01"'), "button should carry the current last_verified date, so the click-time lock can detect a later recheck");
 });
 
 test("prosecution falls back to a placeholder when last_verified is missing", () => {
@@ -315,6 +316,7 @@ test("prosecution falls back to a placeholder when last_verified is missing", ()
   const result = buildDetailHtml(entry, cfg);
 
   assert(result.includes('<span class="field-value">Last verified not yet recorded</span>'), "should show the fallback text when last_verified is absent");
+  assert(result.includes('data-last-verified=""'), "should carry an empty data-last-verified when the entry has no last_verified value");
 });
 
 test("govservices request-update button carries the correct tracker and entry id", () => {

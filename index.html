@@ -1703,7 +1703,7 @@ function buildUpdateRequestHtml(entry, cfg) {
   const lastVerified = entry.last_verified || "not yet recorded";
   return '<div class="update-request-row">' +
     '<span class="field-value">Last verified ' + escapeHtml(lastVerified) + '</span>' +
-    '<button class="suggest-submit-btn request-update-btn" type="button" data-tracker="' + escapeHtml(cfg.kind) + '" data-entry-id="' + escapeHtml(entry[cfg.idField] || "") + '" data-entry-title="' + escapeHtml(entry[cfg.titleField] || "") + '">Request an update for this entry</button>' +
+    '<button class="suggest-submit-btn request-update-btn" type="button" data-tracker="' + escapeHtml(cfg.kind) + '" data-entry-id="' + escapeHtml(entry[cfg.idField] || "") + '" data-entry-title="' + escapeHtml(entry[cfg.titleField] || "") + '" data-last-verified="' + escapeHtml(entry.last_verified || "") + '">Request an update for this entry</button>' +
     '</div>';
 }
 /* build-update-request-html:end */
@@ -2245,11 +2245,21 @@ function wireUpdateRequestButtons(container) {
   container.querySelectorAll(".request-update-btn").forEach(btn => {
     const trackerKey = btn.dataset.tracker;
     const entryId = btn.dataset.entryId;
+    const currentLastVerified = btn.dataset.lastVerified;
     const storageKey = "tap-update-requested:" + trackerKey + ":" + entryId;
-    if (localStorage.getItem(storageKey)) {
+    const storedLastVerified = localStorage.getItem(storageKey);
+    // The lock is scoped to a specific last_verified value, not permanent --
+    // it stays locked only as long as the entry hasn't actually been
+    // rechecked since this visitor's click. Once last_verified moves past
+    // what was stored at click time, the flag is stale: clear it and let
+    // the button unlock, rather than leaving it disabled forever.
+    if (storedLastVerified !== null && storedLastVerified === currentLastVerified) {
       btn.disabled = true;
       btn.textContent = "Update requested ✓";
       return;
+    }
+    if (storedLastVerified !== null) {
+      localStorage.removeItem(storageKey);
     }
     btn.addEventListener("click", () => {
       document.getElementById("update-request-hidden-tracker").value = trackerKey;
@@ -2258,7 +2268,7 @@ function wireUpdateRequestButtons(container) {
       btn.disabled = true;
       btn.textContent = "Submitting…";
       document.getElementById("update-request-hidden-form").submit();
-      localStorage.setItem(storageKey, "1");
+      localStorage.setItem(storageKey, currentLastVerified);
       // Same "let the POST actually leave the browser" delay pattern
       // as the Suggest-a-Topic submit handler above.
       setTimeout(() => {
