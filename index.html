@@ -932,7 +932,7 @@ const TRACKERS = {
     data: [],
     titleField: "rule_name",
     idField: "id",
-    dateField: "date_of_action",
+    dateField: "last_verified",
     dateAddedField: "date_added",
     filterField: "domain",
     filterLabel: "domain",
@@ -1615,7 +1615,7 @@ function visibleSearchText(entry, cfg) {
   const parts = [entry[cfg.titleField]];
   if (cfg.kind === "deregulation") {
     parts.push(
-      entry.agency, entry.domain, entry.status, entry.date_of_action,
+      entry.agency, entry.domain, entry.status, entry.date_of_action, entry.last_verified,
       entry.short_summary, entry.what_changed,
       entry.section_summaries?.what_changed, entry.section_summaries?.estimated_impact, entry.section_summaries?.confidence_note,
       entry.primary_proponent?.name, entry.primary_proponent?.role, entry.primary_proponent?.note,
@@ -1791,6 +1791,7 @@ function buildEntryCard(entry, cfg, docketLabel, sourceLabel, term, useRegex) {
   if (cfg.kind === "deregulation") {
     metaHtml += '<span class="domain-tag" style="background:' + domainColor(entry.domain) + '22; color:' + domainColor(entry.domain) + '">' + entry.domain + '</span>' +
                '<span>' + hl(entry.agency) + '</span><span>' + hl(entry.date_of_action) + '</span>' +
+               (entry.last_verified ? '<span>verified ' + hl(entry.last_verified) + '</span>' : '') +
                '<span>' + hl(entry.short_summary || truncate(entry.what_changed || "", 100)) + '</span>';
   } else if (cfg.kind === "tracker") {
     metaHtml += '<span>' + (entry.date || "") + '</span>';
