@@ -164,6 +164,26 @@
     "date_added": "2026-08-23"
   },
   {
+    "id": "tsa-faa-aviation-cybersecurity-coordination-gaps-2026",
+    "topic": "GAO finds TSA/FAA aviation cybersecurity oversight gaps",
+    "submitted_claim": "TSA is having issues achieving compatibility with FAA for data sharing around cybersecurity.",
+    "verdict": "partially_confirmed",
+    "summary": "A July 2026 GAO report ('Aviation Cybersecurity: FAA and TSA Are Collaborating on Cybersecurity but Need to Address Key Shortfalls,' GAO-26-107693) confirms real oversight gaps between the two agencies, but not the specific 'data sharing compatibility' problem submitted -- the report describes unclear, overlapping jurisdictional roles, not a technical interoperability issue. TSA's 2018 Cybersecurity Roadmap is outdated and doesn't clearly define which office is responsible for what, which has left some airlines confused about whether FAA or TSA is their cybersecurity regulator. FAA, separately, has only fully implemented 3 of 7 objectives in its own cybersecurity strategy and did not report all of its cybersecurity spending to OMB across fiscal years 2024-2026. GAO issued five recommendations, including that TSA update its roadmap and clearly communicate roles and responsibilities to stakeholders.",
+    "sources": [
+      {
+        "name": "GAO -- Aviation Cybersecurity: FAA and TSA Are Collaborating on Cybersecurity but Need to Address Key Shortfalls (GAO-26-107693)",
+        "url": "https://www.gao.gov/products/gao-26-107693"
+      },
+      {
+        "name": "Cybersecurity Dive -- Gaps in network security, oversight strategy hamper US's aviation cybersecurity regulators",
+        "url": "https://www.cybersecuritydive.com/news/aviation-cybersecurity-faa-tsa-gao-report/825416/"
+      }
+    ],
+    "submitter_source_link": "https://www.gao.gov/products/gao-26-107693",
+    "date_submitted": "2026-08-31",
+    "date_added": "2026-09-01"
+  },
+  {
     "id": "uss-abraham-lincoln-deployment-crisis-2026",
     "topic": "USS Abraham Lincoln's record-length deployment and reported crew welfare crisis",
     "submitted_claim": "lincoln aircraft carrier",
