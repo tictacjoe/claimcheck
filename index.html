@@ -1671,6 +1671,23 @@ function matchesTerm(haystack, term, useRegex) {
 }
 /* matches-term:end */
 
+/* Freshness date + one-click flag, shared by the three curated
+   trackers' detail views -- kept separate from buildDetailHtml()
+   itself (rather than inlined three times) so its tests can cover
+   the date-fallback and data-attribute logic once instead of three
+   times over. Pure/testable: no DOM, no localStorage -- see
+   wireUpdateRequestButtons() for the browser-only click wiring that
+   reads this markup's data-* attributes afterward. */
+/* build-update-request-html:start */
+function buildUpdateRequestHtml(entry, cfg) {
+  const lastVerified = entry.last_verified || "not yet recorded";
+  return '<div class="update-request-row">' +
+    '<span class="field-value">Last verified ' + escapeHtml(lastVerified) + '</span>' +
+    '<button class="suggest-submit-btn request-update-btn" type="button" data-tracker="' + escapeHtml(cfg.kind) + '" data-entry-id="' + escapeHtml(entry[cfg.idField] || "") + '" data-entry-title="' + escapeHtml(entry[cfg.titleField] || "") + '">Request an update for this entry</button>' +
+    '</div>';
+}
+/* build-update-request-html:end */
+
 /* Shared detail-html builder -- used both by the full docket card
    (tabbed/global card view) and by the one-liner expand-on-click,
    so there's exactly one place that knows how to render each
@@ -1691,7 +1708,8 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
       '<div class="field-label">Estimated impact</div><div class="field-value">' + summary(entry.section_summaries?.estimated_impact) + hl(entry.estimated_health_impact?.summary) + '</div>' +
       (entry.estimated_health_impact?.figures?.length ? '<ul class="exhibit-list">' + entry.estimated_health_impact.figures.map(f => '<li>' + hl(f.metric) + ': <strong>' + hl(f.value) + '</strong> (' + hl(f.source) + ')</li>').join("") + '</ul>' : '') +
       '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + hl(entry.confidence_note) + '</div>' +
-      '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>';
+      '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>' +
+      buildUpdateRequestHtml(entry, cfg);
   }
   if (cfg.kind === "tracker") {
     return '<div class="field-label">What happened</div><div class="field-value">' + hl(entry.what_happened) + '</div>' +
@@ -1705,7 +1723,8 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
       (entry.estimated_impact?.figures?.length ? '<ul class="exhibit-list">' + entry.estimated_impact.figures.map(f => '<li>' + hl(f.metric) + ': <strong>' + hl(f.value) + '</strong> (' + hl(f.source) + ')</li>').join("") + '</ul>' : '') +
       (entry.estimated_impact?.caveat ? '<div class="field-label">Caveat</div><div class="field-value" style="font-style:italic;">' + hl(entry.estimated_impact.caveat) + '</div>' : '') +
       '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + hl(entry.confidence_note) + '</div>' +
-      '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>';
+      '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>' +
+      buildUpdateRequestHtml(entry, cfg);
   }
   if (cfg.kind === "communitytopics") {
     // promoted_to callout renders before related_entries, and both
@@ -1760,7 +1779,8 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
     '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + hl(entry.confidence_note) + '</div>' +
     '<div class="field-label">Root Cause</div><div class="field-value">' + hl(entry.cause) + '</div>' +
     '<div class="field-label">Anticipated Defense</div><div class="field-value">' + hl(entry.rebuttal_anticipated) + '</div>' +
-    '<div class="field-label">TAP\'s Rebuttal</div><div class="field-value">' + hl(entry.comeback) + '</div>';
+    '<div class="field-label">TAP\'s Rebuttal</div><div class="field-value">' + hl(entry.comeback) + '</div>' +
+    buildUpdateRequestHtml(entry, cfg);
 }
 /* build-detail-html:end */
 

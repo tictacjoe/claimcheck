@@ -23,12 +23,14 @@ const source = fs.readFileSync(indexHtmlPath, "utf8");
 const escapeHtmlFunctionSource = extractFunction(source, "escape-html");
 const summaryLineFunctionSource = extractFunction(source, "summary-line");
 const highlightMatchesFunctionSource = extractFunction(source, "highlight-matches");
+const buildUpdateRequestHtmlFunctionSource = extractFunction(source, "build-update-request-html");
 const buildDetailHtmlFunctionSource = extractFunction(source, "build-detail-html");
 
 // Eval them all together so buildDetailHtml can call summaryLineHtml and
-// highlightMatches (which itself calls escapeHtml/escapeRegExp).
+// highlightMatches (which itself calls escapeHtml/escapeRegExp), plus
+// buildUpdateRequestHtml (which calls escapeHtml directly).
 const combined = escapeHtmlFunctionSource + "\n" + summaryLineFunctionSource + "\n" +
-  highlightMatchesFunctionSource + "\n" + buildDetailHtmlFunctionSource;
+  highlightMatchesFunctionSource + "\n" + buildUpdateRequestHtmlFunctionSource + "\n" + buildDetailHtmlFunctionSource;
 const buildDetailHtml = (0, eval)(`${combined}\nbuildDetailHtml;`);
 
 test("deregulation with summaries", () => {
@@ -279,4 +281,54 @@ test("tracker (Reporting) with no active search term leaves body unhighlighted b
 
   assert(!result.includes('<mark class="hl">'), "should not highlight anything when no term is active");
   assert(result.includes("Rules &amp; &lt;regulations&gt; changed."), "should still HTML-escape the raw body text");
+});
+
+test("deregulation shows last verified date and a request-update button", () => {
+  const entry = {
+    id: "some-rule-id",
+    rule_name: "Some Rule",
+    last_verified: "2026-08-01",
+    primary_proponent: {},
+    estimated_health_impact: {},
+  };
+  const cfg = { kind: "deregulation", idField: "id", titleField: "rule_name" };
+  const result = buildDetailHtml(entry, cfg);
+
+  assert(result.includes('<span class="field-value">Last verified 2026-08-01</span>'), "should show the last_verified date");
+  assert(result.includes('class="suggest-submit-btn request-update-btn"'), "should include the request-update button");
+  assert(result.includes('data-tracker="deregulation"'), "button should carry the tracker key");
+  assert(result.includes('data-entry-id="some-rule-id"'), "button should carry the entry id");
+  assert(result.includes('data-entry-title="Some Rule"'), "button should carry the entry title");
+});
+
+test("prosecution falls back to a placeholder when last_verified is missing", () => {
+  const entry = {
+    id: "some-official-id",
+    official: "Some Official, Some Title",
+    offense_category: "Fraud",
+    status_category: "Investigation",
+    incident_summary: "Summary.",
+    status: "Under investigation.",
+    confidence_note: "Strong evidence.",
+  };
+  const cfg = { kind: "prosecution", idField: "id", titleField: "official" };
+  const result = buildDetailHtml(entry, cfg);
+
+  assert(result.includes('<span class="field-value">Last verified not yet recorded</span>'), "should show the fallback text when last_verified is absent");
+});
+
+test("govservices request-update button carries the correct tracker and entry id", () => {
+  const entry = {
+    id: "some-action-id",
+    title: "Some Action",
+    institution: "Some Agency",
+    last_verified: "2026-07-15",
+    estimated_impact: {},
+  };
+  const cfg = { kind: "govservices", idField: "id", titleField: "title" };
+  const result = buildDetailHtml(entry, cfg);
+
+  assert(result.includes('<span class="field-value">Last verified 2026-07-15</span>'), "should show the last_verified date");
+  assert(result.includes('data-tracker="govservices"'), "button should carry the govservices tracker key");
+  assert(result.includes('data-entry-id="some-action-id"'), "button should carry the entry id");
 });
