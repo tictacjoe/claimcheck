@@ -944,7 +944,7 @@ const TRACKERS = {
     data: [],
     titleField: "official",
     idField: "id",
-    dateField: "last_updated",
+    dateField: "last_verified",
     dateAddedField: "date_added",
     filterField: "status_category",
     filterLabel: "status",
@@ -1627,7 +1627,7 @@ function visibleSearchText(entry, cfg) {
     parts.push(
       entry.offense_category, entry.offense_category_raw, entry.status_category, entry.status,
       entry.concern_type,
-      entry.last_updated,
+      entry.last_verified,
       entry.section_summaries?.incident_summary, entry.section_summaries?.confidence_note,
       entry.incident_summary, entry.confidence_note,
       entry.cause, entry.rebuttal_anticipated, entry.comeback
@@ -1834,7 +1834,7 @@ function buildEntryCard(entry, cfg, docketLabel, sourceLabel, term, useRegex) {
     metaHtml += '<span class="meta-field"><span class="meta-field-label">Violation Type</span><span class="meta-field-value">' + hl(entry.offense_category) + '</span></span>' +
                '<span class="meta-field"><span class="meta-field-label">Status Stage</span><span class="meta-field-value">' + hl(entry.status_category) + '</span></span>' +
                (entry.concern_type ? '<span class="meta-field"><span class="meta-field-label">Concern</span><span class="meta-field-value">' + hl(entry.concern_type) + '</span></span>' : '') +
-               '<span>updated ' + (entry.last_updated || "") + '</span>';
+               '<span>verified ' + (entry.last_verified || "") + '</span>';
   }
 
   div.innerHTML =
@@ -2005,7 +2005,7 @@ function renderEntries() {
   // be), so a straight string comparison sorts correctly with no
   // extractFirstDate() parsing needed -- missing values sort last
   // (empty string collates lowest). "activity" uses each tracker's own
-  // dateField (date_of_action, last_updated, date, or date_submitted)
+  // dateField (date_of_action, last_verified, date, or date_submitted)
   // through extractFirstDate(), which handles both plain dates and
   // compound strings like "2025-03 (initial cuts) through 2026-04
   // (ongoing)" that native Date.parse can't parse at all.
