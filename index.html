@@ -910,6 +910,17 @@
   <input type="text" name="entry.1667762837" id="suggest-hidden-source">
 </form>
 
+<iframe name="update-request-target-frame" id="update-request-target-frame" style="display:none;" title="Update request target (hidden)"></iframe>
+<form id="update-request-hidden-form"
+      action="https://docs.google.com/forms/d/e/1FAIpQLSctoSsk2R_vnSgL0oHXtoMw8aLa092sW0Huio6bjDSKJxXfsA/formResponse"
+      method="POST"
+      target="update-request-target-frame"
+      style="display:none;">
+  <input type="text" name="entry.1741903163" id="update-request-hidden-tracker">
+  <input type="text" name="entry.296946726" id="update-request-hidden-entry-id">
+  <input type="text" name="entry.694581047" id="update-request-hidden-title">
+</form>
+
 <p class="browse-instead" id="browse-instead">— search or browse by database —</p>
 
 <nav class="tabs" id="tabs"></nav>
@@ -1877,6 +1888,7 @@ function buildEntryCard(entry, cfg, docketLabel, sourceLabel, term, useRegex) {
 
   div.querySelector(".entry-head").addEventListener("click", () => div.classList.toggle("open"));
   wireRelatedEntryLinks(div);
+  wireUpdateRequestButtons(div);
   return div;
 }
 
@@ -2220,6 +2232,38 @@ function wireRelatedEntryLinks(container) {
       e.preventDefault();
       e.stopPropagation();
       goToTrackerHome(a.dataset.trackerKey);
+    });
+  });
+}
+
+/* Browser-only counterpart to buildUpdateRequestHtml() -- reads the
+   data-* attributes that pure function rendered, same split
+   wireRelatedEntryLinks() uses one level up. Not covered by the Node
+   test harness (it uses localStorage, which doesn't exist there);
+   verified manually in a browser instead. */
+function wireUpdateRequestButtons(container) {
+  container.querySelectorAll(".request-update-btn").forEach(btn => {
+    const trackerKey = btn.dataset.tracker;
+    const entryId = btn.dataset.entryId;
+    const storageKey = "tap-update-requested:" + trackerKey + ":" + entryId;
+    if (localStorage.getItem(storageKey)) {
+      btn.disabled = true;
+      btn.textContent = "Update requested ✓";
+      return;
+    }
+    btn.addEventListener("click", () => {
+      document.getElementById("update-request-hidden-tracker").value = trackerKey;
+      document.getElementById("update-request-hidden-entry-id").value = entryId;
+      document.getElementById("update-request-hidden-title").value = btn.dataset.entryTitle;
+      btn.disabled = true;
+      btn.textContent = "Submitting…";
+      document.getElementById("update-request-hidden-form").submit();
+      localStorage.setItem(storageKey, "1");
+      // Same "let the POST actually leave the browser" delay pattern
+      // as the Suggest-a-Topic submit handler above.
+      setTimeout(() => {
+        btn.textContent = "Update requested ✓";
+      }, 900);
     });
   });
 }
