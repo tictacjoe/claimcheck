@@ -459,7 +459,12 @@
         "url": "https://vargas.house.gov/media/press-releases/reps-juan-vargas-sean-casten-lead-40-colleagues-in-calling-on-trump-admin-for-answers-on-disbandment-of-climate-and-financial-risk-oversight-committees"
       }
     ],
-    "short_summary": "Fed, FDIC, and Treasury quit the global NGFS climate-risk network, then FSOC dissolved its own two climate-financial-risk committees."
+    "short_summary": "Fed, FDIC, and Treasury quit the global NGFS climate-risk network, then FSOC dissolved its own two climate-financial-risk committees.",
+    "section_summaries": {
+      "what_changed": "In 2025, the FDIC, Treasury, and Federal Reserve all withdrew from the NGFS climate-risk network, and FSOC voted to dissolve its own climate-risk committees.",
+      "estimated_impact": "Eliminates federal regulators' capacity to monitor climate-driven financial risk -- an oversight loss, not a direct physical or environmental harm.",
+      "confidence_note": "HIGH confidence, corroborated by Reuters and Treasury's own meeting record; bundles several separate agency actions taken across different dates."
+    }
   },
   {
     "id": "coal-ash-disposal-rollback-trump2",

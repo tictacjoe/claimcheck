@@ -1388,7 +1388,12 @@
         "url": "https://gwenmoore.house.gov/uploadedfiles/letter_to_rfk_city_of_milwaukees_epi_aid_request.pdf"
       }
     ],
-    "last_updated": "2026-08-12"
+    "last_updated": "2026-08-12",
+    "section_summaries": {
+      "what_changed": "CDC's entire childhood lead-poisoning prevention team was eliminated, then denied Milwaukee's request for field help during a school lead crisis.",
+      "estimated_impact": "A standing federal expert-response capacity for childhood lead poisoning was unavailable at the exact moment a mid-size city needed it.",
+      "confidence_note": "Strong multi-outlet corroboration (CNN, U.S. News, Wisconsin Examiner, EHN, UPI), including a named official's on-record quote."
+    }
   },
   {
     "id": "cdc-leadership-vacancy-crisis-2026",
@@ -2213,7 +2218,12 @@
         "name": "Military Times -- Coast Guard data breach impacts pay of 1,135 service members",
         "url": "https://www.militarytimes.com/news/your-military/2025/02/18/coast-guard-data-breach-impacts-pay-of-1135-service-members/"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "A security breach in the Coast Guard's payroll system, first flagged by a junior petty officer, delayed pay for 1,135 service members.",
+      "estimated_impact": "Delayed pay for over a thousand active-duty service members, caught only through a junior enlisted member's own vigilance.",
+      "confidence_note": "MODERATE-HIGH confidence, based on a single specialized Military Times report with specific, verifiable figures."
+    }
   },
   {
     "id": "columbia-400m-funding-cut-antisemitism-2025",
@@ -2301,7 +2311,12 @@
         "name": "Reuters -- Trump administration asks top China export policy official to resign",
         "url": "https://www.reuters.com/world/us/trump-administration-asks-top-china-export-policy-official-resign-sources-say-2025-02-21/"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "The administration forced out Commerce's top career official overseeing export restrictions on advanced Chinese technology exports.",
+      "estimated_impact": "Removed a senior career official responsible for enforcing China-related export controls amid active U.S.-China tech tensions.",
+      "confidence_note": "HIGH confidence, based on Reuters reporting citing multiple sources familiar with the matter and naming the official's role."
+    }
   },
   {
     "id": "community-health-centers-funding-crisis-2025-2026",
@@ -2594,7 +2609,12 @@
         "name": "Associated Press / ABC News -- Critics warn staff cuts at federal agencies overseeing US dams",
         "url": "https://abcnews.go.com/US/wireStory/critics-warn-staff-cuts-federal-agencies-overseeing-us-119824450"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "Federal workforce purges cut hundreds of jobs at the Bureau of Reclamation and Army Corps of Engineers, agencies responsible for dam safety.",
+      "estimated_impact": "Reduced specialized engineering and inspection capacity at agencies overseeing dams, where technical failure risks public safety.",
+      "confidence_note": "MODERATE confidence -- a single AP wire report citing named experts, without a specific agency-level headcount figure."
+    }
   },
   {
     "id": "disease-surveillance-cuts-emerging-threats-2026",
@@ -3626,7 +3646,12 @@
         "name": "Law360 -- DOJ Enviro Deputy AG Leaves Post",
         "url": "https://www.law360.com/energy/articles/2515606"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "DOJ purged senior environmental-enforcement staff, later renaming the division and cutting its case activity by roughly three-quarters.",
+      "estimated_impact": "Substantially reduced federal environmental law-enforcement capacity, in both lost legal expertise and a sharp drop in case activity.",
+      "confidence_note": "HIGH confidence on the reassignments and impact figures, corroborated by the New York Times, Inside Climate News, and E&E News."
+    }
   },
   {
     "id": "doj-immigrant-legal-aid-accreditation-frozen-2026",
@@ -4019,7 +4044,12 @@
         "name": "USA Today -- Transportation Dept buyout",
         "url": "https://www.usatoday.com/story/news/politics/2025/04/01/transportation-dept-buyout/82756419007/"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "DOT fired 788 safety-adjacent employees, then offered further buyouts while explicitly excluding public-safety and cybersecurity staff.",
+      "estimated_impact": "Reduced DOT staffing in highway-death data, pipeline safety, and recall-processing functions, though buyouts tried to protect core safety roles.",
+      "confidence_note": "HIGH confidence on both the March layoffs and April buyout offer, corroborated by Politico and USA Today with specific dates."
+    }
   },
   {
     "id": "dpaa-mia-recovery-budget-cuts-2025",
@@ -4399,7 +4429,12 @@
         "name": "The Hill -- Department of Education cuts, Trump, Musk, DOGE, research funding",
         "url": "https://thehill.com/homenews/education/5151673-department-of-education-cuts-trump-musk-doge-research-funding/"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "The administration cut over $1 billion in Education Department contracts, including $600 million in teacher-training grants.",
+      "estimated_impact": "Eliminated funding for teacher training and the department's core education-research infrastructure, cutting classroom and research capacity.",
+      "confidence_note": "MODERATE-HIGH confidence -- a single contemporaneous report with specific, itemized dollar figures, not multi-outlet corroborated."
+    }
   },
   {
     "id": "education-dept-community-schools-grants-cancellation-2026",
@@ -5520,7 +5555,12 @@
         "name": "Associated Press -- FAA firings, Trump, DOGE, safety, airlines",
         "url": "https://apnews.com/article/faa-firings-trump-doge-safety-airlines-27390c6a7aac58063652302df5a243d3"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "The FAA fired roughly 400 safety-adjacent staff in February 2025, despite recent fatal crashes drawing attention to safety staffing.",
+      "estimated_impact": "Reduced FAA capacity in inspector support, air-traffic-control maintenance, and navigation-chart upkeep amid heightened safety scrutiny.",
+      "confidence_note": "HIGH confidence, corroborated by The Guardian and the AP, with the AP detailing affected functions and the union's dispute."
+    }
   },
   {
     "id": "faa-shutdown-flight-reduction-trump2",
@@ -5694,7 +5734,12 @@
         "url": "https://www.arnoldporter.com/en/perspectives/blogs/enforcement-edge/2025/12/doj-issues-sweeping-new-domestic-terrorism-directive"
       }
     ],
-    "last_updated": "2026-08-30"
+    "last_updated": "2026-08-30",
+    "section_summaries": {
+      "what_changed": "FBI leadership reassigned agents out of its domestic-terrorism unit and scrapped a tracking tool, part of a larger counterterrorism pullback.",
+      "estimated_impact": "A Senate oversight report called the combined cuts a broad pullback, set against FBI data showing domestic terrorism cases had quadrupled.",
+      "confidence_note": "Strong initial Reuters sourcing; the broader pullback and later Senate figures rest on oversight letters and a committee report."
+    }
   },
   {
     "id": "fda-bird-flu-milk-testing-suspended-2025",
@@ -5960,7 +6005,12 @@
         "name": "CBS News -- FDA food safety James Jones resigns, warning re RFK Jr.",
         "url": "https://www.cbsnews.com/news/fda-food-safety-james-jones-resigns-warning-rfk-jr/"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "The FDA fired food-safety, device, and tobacco-oversight staff in a roughly 5,200-worker HHS purge; its food-safety director resigned in protest.",
+      "estimated_impact": "Reduced FDA capacity to review food additives, medical devices, and tobacco products for safety, within a much larger HHS-wide cut.",
+      "confidence_note": "HIGH confidence -- The Guardian's reporting is corroborated by the New York Times and CBS News on the director's resignation letter."
+    }
   },
   {
     "id": "fda-inspection-capacity-collapse-2025",
@@ -7956,7 +8006,12 @@
         "name": "NPR -- NIH, NCI, breast cancer research, Harvard, Joan Brugge",
         "url": "https://www.npr.org/sections/shots-health-news/2025/12/09/nx-s1-5630892/nih-nci-breast-cancer-research-harvard-joan-brugge"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "The administration froze $2.6 billion in Harvard research funding after the university refused campus-policy demands.",
+      "estimated_impact": "A university-wide freeze halted active medical research broadly; one documented case shows researcher departures despite a court order.",
+      "confidence_note": "HIGH confidence -- the freeze is corroborated by the AP, and the breast-cancer case is independently corroborated by NPR."
+    }
   },
   {
     "id": "healthcare-worker-emigration-canada-2026",
@@ -8636,7 +8691,12 @@
         "name": "CBS News -- Trump HHS poverty levels Medicaid benefits",
         "url": "https://www.cbsnews.com/news/trump-hhs-poverty-levels-medicaid-benefits/"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "HHS fired its entire team responsible for calculating the federal poverty guidelines used to set Medicaid and SNAP eligibility.",
+      "estimated_impact": "Eliminated the sole federal technical capacity to update poverty guidelines that gate eligibility for major assistance programs.",
+      "confidence_note": "HIGH confidence on the core claim, though it rests on a single CBS News report, not yet multi-outlet corroborated."
+    }
   },
   {
     "id": "hhs-schedule-f-civil-service-reclassification-2026",
@@ -10465,7 +10525,12 @@
         "url": "https://officeofbudget.od.nih.gov/pdfs/FY26/cy/FY-2026-Appropriations-(P.L.119-75_P.L.119-74)).pdf"
       }
     ],
-    "last_updated": "2026-08-17"
+    "last_updated": "2026-08-17",
+    "section_summaries": {
+      "what_changed": "NCI lost hundreds of staff and $180 million in grants in 2025, and a proposed 37% FY2026 budget cut was later rejected by Congress.",
+      "estimated_impact": "The world's largest cancer-research funder lost staff and cancelled major grants, though the threatened deeper cut did not happen.",
+      "confidence_note": "The 2025 cuts are corroborated by The Guardian and NYT Magazine; a later correction confirmed Congress rejected the 37% cut."
+    }
   },
   {
     "id": "national-climate-assessment-dismantlement-2025",
@@ -11722,7 +11787,12 @@
         "name": "Notus -- DOGE fired NIH employees responsible for lab leak prevention",
         "url": "https://www.notus.org/health-science/doge-fired-nih-employees-lab-leak-prevention"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "NIH fired 20 staff responsible for laboratory safety and preventing pathogen leaks, part of the broader February 2025 purge.",
+      "estimated_impact": "Reduced NIH's biosafety staffing for lab-safety oversight, though the affected headcount is small relative to other cuts.",
+      "confidence_note": "MODERATE confidence -- a single specialized-outlet report, plausible given the broader documented purge but not re-verified."
+    }
   },
   {
     "id": "nih-vaccine-hesitancy-research-grants-terminated-2025",
@@ -11973,7 +12043,12 @@
         "name": "NY1 -- HHS Secretary Kennedy says he's 'fixing' World Trade Center Health Program (2026-04-03)",
         "url": "https://ny1.com/nyc/all-boroughs/news/2026/04/03/hhs-secretary-kennedy-says-he-s--fixing--world-trade-center-health-program"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "NIOSH lost 85-90% of its staff in early 2025, disrupting the 9/11 World Trade Center Health Program and firefighter cancer research.",
+      "estimated_impact": "Near-total, partially reversed loss of federal occupational-safety research capacity, with documented harm to 9/11 responder care.",
+      "confidence_note": "HIGH confidence, independently corroborated across seven reporting events spanning NBC, USA Today, The Guardian, and Reuters."
+    }
   },
   {
     "id": "nist-workforce-standards-cuts",
@@ -12250,7 +12325,12 @@
         "url": "https://www.stimson.org/2026/securing-the-future-building-the-us-nuclear-security-workforce-pipeline/"
       }
     ],
-    "last_updated": "2026-08-30"
+    "last_updated": "2026-08-30",
+    "section_summaries": {
+      "what_changed": "NNSA's staffing crisis escalated from accidental February 2025 firings to an October shutdown furlough that halted weapons work entirely.",
+      "estimated_impact": "Escalating loss of nuclear-weapons-complex staffing, culminating in the first complete halt to weapons assembly work in history.",
+      "confidence_note": "HIGH confidence, corroborated across NBC, the New York Times, USA Today, Reuters, CBS News, CNN, and The Hill."
+    }
   },
   {
     "id": "noaa-climate-research-defunding-trump2",
@@ -12576,7 +12656,12 @@
         "name": "The Guardian -- Trump cuts NOAA, spam emails",
         "url": "https://www.theguardian.com/us-news/2025/apr/01/trump-cuts-noaa-spam-emails"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "NOAA's workforce collapsed by roughly a quarter over six weeks in March 2025, with disaster training cancelled and privatization floated.",
+      "estimated_impact": "A rapid ~25% NOAA workforce reduction compounded by cancelled disaster training and a floated privatization proposal.",
+      "confidence_note": "HIGH confidence on the overall pattern, independently corroborated across the AP, The Hill, ABC News, and The Guardian."
+    }
   },
   {
     "id": "nrc-hanson-firing-independence-erosion-trump2",
@@ -12821,7 +12906,12 @@
         "url": "https://www.pacermonitor.com/public/case/58623413/AMERICAN_ASSOCIATION_OF_PHYSICS_TEACHERS,_INC_et_al_v_NATIONAL_SCIENCE_FOUNDATION_et_al"
       }
     ],
-    "last_updated": "2026-08-31"
+    "last_updated": "2026-08-31",
+    "section_summaries": {
+      "what_changed": "DOGE terminated 1,752 active NSF grants worth $1.4 billion for DEI-related language, bypassing peer review.",
+      "estimated_impact": "Over a thousand peer-reviewed grants were cut administratively; courts have since restored only a quarter-billion of the $1.4 billion.",
+      "confidence_note": "Corroborated by contemporaneous trade press; the Ninth Circuit's reinstatement order is HIGH confidence, from its own opinion."
+    }
   },
   {
     "id": "nsf-grant-terminations-peer-review-trump2",
@@ -13961,7 +14051,12 @@
         "name": "National Center for Youth Law -- Diego N. v. HHS case page (>300 children figure, per plaintiffs' complaint)",
         "url": "https://youthlaw.org/cases/diego-n-v-hhs/"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "ORR reimposed fingerprint vetting and began sharing sponsor immigration data with ICE, ending a two-decade confidentiality wall.",
+      "estimated_impact": "Sharing over 460,000 leads with ICE drove more than 12,000 arrests and roughly sextupled children's time in federal custody.",
+      "confidence_note": "HIGH confidence on the policy changes, corroborated by the NYT, Reuters, and Migration Policy Institute."
+    }
   },
   {
     "id": "patel-fbi-field-office-purge-2025-2026",
@@ -14192,7 +14287,12 @@
         "name": "NPR -- Child research, Trump grants cut, artificial heart",
         "url": "https://www.npr.org/2025/10/09/nx-s1-5498641/child-research-trump-grants-cut-artificial-heart"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "The administration cancelled $12.5 million in combined NIH and Pentagon funding for a nearly-finished Cornell infant heart pump.",
+      "estimated_impact": "Halted a nearly-completed medical device with direct, named-patient stakes for infants with congenital heart defects.",
+      "confidence_note": "HIGH confidence, corroborated by the New York Times's initial reporting and NPR's more detailed follow-up."
+    }
   },
   {
     "id": "pentagon-civilian-harm-reduction-program-dismantled-2026",
@@ -15831,7 +15931,12 @@
         "url": "https://www.science.org/content/article/nih-lifts-ban-funding-research-south-africa"
       }
     ],
-    "last_updated": "2026-08-30"
+    "last_updated": "2026-08-30",
+    "section_summaries": {
+      "what_changed": "NIH, CDC, and USAID cut roughly $400 million in annual HIV/TB research funding to South Africa; NIH partially reversed it in August 2026.",
+      "estimated_impact": "South Africa lost funding researchers say supported up to 70% of its HIV/TB research, threatening two decades of epidemic progress.",
+      "confidence_note": "Multi-source corroboration on the cuts; the 2026 partial reversal is HIGH confidence but new funding isn't expected before 2027."
+    }
   },
   {
     "id": "ssa-staffing-service-collapse-trump2",
@@ -17570,7 +17675,12 @@
         "name": "The Hill -- Trump moves hamper bird flu response as egg prices spike",
         "url": "https://thehill.com/policy/healthcare/5154415-trump-moves-hamper-bird-flu-response-as-egg-prices-spike/"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "USDA mistakenly fired bird-flu-response staff in February 2025, followed by further staffing losses at FDA and USDA lab roles.",
+      "estimated_impact": "Temporarily reduced bird-flu-response capacity during an active outbreak, though USDA's swift reversal limited the gap.",
+      "confidence_note": "MODERATE-HIGH confidence -- the firing/rehire episode rests on one NBC report; the broader pattern is corroborated by The Hill."
+    }
   },
   {
     "id": "usda-conservation-agricultural-grants-frozen-2025",
@@ -17604,7 +17714,12 @@
         "name": "NBC News -- Farmers federal funding freeze Trump administration scramble to respond",
         "url": "https://www.nbcnews.com/news/us-news/farmers-federal-funding-freeze-trump-administration-scramble-respond-rcna191544"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "The administration froze billions in federal conservation and agricultural grants, leaving farmers with underway projects unfunded.",
+      "estimated_impact": "Left farmers who had already begun irrigation and fencing projects without expected reimbursement, a direct financial exposure.",
+      "confidence_note": "MODERATE-HIGH confidence -- a single NBC News report describing farmer-level impacts, without a precise aggregate figure."
+    }
   },
   {
     "id": "usda-food-for-progress-grants-canceled-2025",
@@ -18281,7 +18396,12 @@
         "name": "Wired -- DOGE USDS purge, Veterans Affairs site cybersecurity",
         "url": "https://www.wired.com/story/doge-usds-purge-veterans-affairs-site-cybersecurity/"
       }
-    ]
+    ],
+    "section_summaries": {
+      "what_changed": "DOGE's purge fired VA.gov's cybersecurity lead, leaving the veterans' benefits portal without a full-time security chief.",
+      "estimated_impact": "Removed dedicated cybersecurity leadership for a federal portal handling sensitive data for millions of veterans.",
+      "confidence_note": "MODERATE-HIGH confidence, based on a single but specialized and technically detailed Wired report."
+    }
   },
   {
     "id": "va-healthcare-staffing-shortage-trump2",
