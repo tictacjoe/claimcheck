@@ -17,3 +17,6 @@
 
 # federal-ciso-role-status-2026 -- excluded 2026-09-01, per Joe's request
 federal-ciso-role-status-2026
+
+# strait-of-hormuz-shipping-status-2026 -- excluded 2026-09-03, per Joe's request
+strait-of-hormuz-shipping-status-2026

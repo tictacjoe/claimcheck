@@ -123,35 +123,6 @@
     "date_added": "2026-08-23"
   },
   {
-    "id": "strait-of-hormuz-shipping-status-2026",
-    "topic": "Is the Strait of Hormuz \"wide open\" to shipping?",
-    "submitted_claim": "the straight of Hormuz is wide open to shipping",
-    "verdict": "misleading_as_stated",
-    "summary": "The narrow part of this claim checks out: on August 28, 2026, CENTCOM commander Adm. Brad Cooper announced that international shipping lanes through the Strait of Hormuz had been cleared of Iranian sea mines, and President Trump made similar public claims -- a real milestone after Iran's IRGC closed the strait following February 2026 US-Israeli strikes, and after a subsequent brief reopening (the June 2026 Islamabad Memorandum) collapsed under renewed attacks. But \"wide open\" overstates the actual shipping picture: as of late August 2026, only a dozen to a couple dozen ships per day were transiting the strait, compared to roughly 130 per day before the war, and shipping companies themselves remain unconvinced it's genuinely safe to resume normal traffic. Mines being cleared from the shipping lanes is not the same as shipping having actually returned to normal.",
-    "sources": [
-      {
-        "name": "Axios -- \"That sucker is open\": U.S. gains the upper hand in the battle for Hormuz",
-        "url": "https://www.axios.com/2026/08/28/trump-iran-hormuz-war-oil"
-      },
-      {
-        "name": "MS NOW -- Trump says the Strait of Hormuz is open. But traffic is nowhere near what it used to be.",
-        "url": "https://www.ms.now/news/trump-strait-hormuz-iran-war-ships-cargo-oil"
-      },
-      {
-        "name": "RedState -- CENTCOM Commander Explains Major Milestones Just Achieved in Strait of Hormuz",
-        "url": "https://redstate.com/nick-arama/2026/08/28/centcom-update-n2206177"
-      },
-      {
-        "name": "straits.live -- Is the Strait of Hormuz Open? (independent day-by-day shipping tracker)",
-        "url": "https://straits.live/is-the-strait-of-hormuz-open"
-      }
-    ],
-    "related_entries": [],
-    "submitter_source_link": null,
-    "date_submitted": "2026-08-30",
-    "date_added": "2026-08-30"
-  },
-  {
     "id": "trump-presidential-wealth-growth-2026",
     "topic": "Trump's personal net worth has grown substantially since returning to office, largely via crypto ventures",
     "submitted_claim": "trump made 2 billion dollars since becoming president",
