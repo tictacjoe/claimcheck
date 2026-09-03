@@ -1700,7 +1700,7 @@ function visibleSearchText(entry, cfg) {
       entry.short_summary, entry.what_changed,
       entry.section_summaries?.what_changed, entry.section_summaries?.estimated_impact, entry.section_summaries?.confidence_note,
       entry.primary_proponent?.name, entry.primary_proponent?.role, entry.primary_proponent?.note,
-      entry.estimated_health_impact?.summary, entry.confidence_note
+      entry.estimated_health_impact?.summary, entry.estimated_health_impact?.caveat, entry.confidence_note
     );
     (entry.estimated_health_impact?.figures || []).forEach(f => parts.push(f.metric, f.value, f.source));
     (entry.sources || []).forEach(s => parts.push(s.name));
@@ -1818,6 +1818,7 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
       '<div class="field-label">Primary proponent</div><div class="field-value"><strong>' + hl(entry.primary_proponent?.name) + '</strong> — ' + hl(entry.primary_proponent?.role) + (entry.primary_proponent?.note ? '<br><em>' + hl(entry.primary_proponent.note) + '</em>' : '') + '</div>' +
       '<div class="field-label">Estimated impact</div><div class="field-value">' + summary(entry.section_summaries?.estimated_impact) + hl(entry.estimated_health_impact?.summary) + '</div>' +
       (entry.estimated_health_impact?.figures?.length ? '<ul class="exhibit-list">' + entry.estimated_health_impact.figures.map(f => '<li>' + hl(f.metric) + ': <strong>' + hl(f.value) + '</strong> (' + hl(f.source) + ')</li>').join("") + '</ul>' : '') +
+      (entry.estimated_health_impact?.caveat ? '<div class="field-label">Caveat</div><div class="field-value" style="font-style:italic;">' + hl(entry.estimated_health_impact.caveat) + '</div>' : '') +
       '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + paragraphizeUpdates(entry.confidence_note, hl) + '</div>' +
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>' +
       buildUpdateRequestHtml(entry, cfg);
