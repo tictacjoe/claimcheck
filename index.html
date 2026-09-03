@@ -462,6 +462,20 @@
     font-size: 1.05rem;
     font-weight: bold;
   }
+  .share-link-btn {
+    font-family: ui-monospace, monospace;
+    font-size: 0.65rem;
+    color: var(--ink-faint);
+    background: transparent;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 0.05rem 0.4rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  .share-link-btn:hover { color: var(--brass); border-color: var(--brass); }
   .entry-meta {
     font-family: ui-monospace, monospace;
     font-size: 0.7rem;
@@ -1954,10 +1968,14 @@ function buildEntryCard(entry, cfg, docketLabel, sourceLabel, term, useRegex) {
                '<span>verified ' + (entry.last_verified || "") + '</span>';
   }
 
+  const shareBtnHtml = cfg.idField
+    ? ' <button type="button" class="share-link-btn" data-share-tracker="' + escapeHtml(cfg.kind) + '" data-share-id="' + escapeHtml(entry[cfg.idField] || "") + '" title="Copy a link to this entry">🔗 Copy link</button>'
+    : "";
+
   div.innerHTML =
     '<div class="entry-head">' +
       '<div class="entry-title-block">' +
-        '<p class="entry-title">' + hl(title) + '</p>' +
+        '<p class="entry-title">' + hl(title) + shareBtnHtml + '</p>' +
         '<div class="entry-meta">' + metaHtml + '</div>' +
       '</div>' +
     '</div>' +
@@ -1966,7 +1984,33 @@ function buildEntryCard(entry, cfg, docketLabel, sourceLabel, term, useRegex) {
   div.querySelector(".entry-head").addEventListener("click", () => div.classList.toggle("open"));
   wireRelatedEntryLinks(div);
   wireUpdateRequestButtons(div);
+  wireShareLinkButtons(div);
   return div;
+}
+
+// Browser-only counterpart to the .share-link-btn markup above --
+// copies the entry's shareable URL to the clipboard and shows brief
+// "Copied!" feedback on the button itself. stopPropagation() is
+// required because .entry-head has its own click listener that
+// toggles the card open/closed, same reason wireRelatedEntryLinks()
+// needs it for its coverage-tag links.
+function wireShareLinkButtons(container) {
+  container.querySelectorAll(".share-link-btn").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const url = buildShareUrl(btn.dataset.shareTracker, btn.dataset.shareId);
+      const original = btn.textContent;
+      const showCopied = () => {
+        btn.textContent = "Copied!";
+        setTimeout(() => { btn.textContent = original; }, 1200);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(showCopied).catch(() => window.prompt("Copy this link:", url));
+      } else {
+        window.prompt("Copy this link:", url);
+      }
+    });
+  });
 }
 
 function renderTabs() {
@@ -2305,24 +2349,63 @@ function goToTrackerHome(key) {
    matter how exact the match is. Locating the actual DOM node built for
    this specific entry sidesteps that ambiguity entirely -- it doesn't
    go through text matching at all. */
+// Locates a rendered card by its stamped data-entry-id and opens +
+// scrolls to it. Shared by jumpToRelatedEntry() (after switching tabs)
+// and openEntryFromHash() (after the initial page load lands on a
+// shared-link URL) -- both need the exact same "find it, expand its
+// group if collapsed, open it, scroll to it" sequence. Silently no-ops
+// if the id isn't found (renamed/removed entry, or a stale/bad link)
+// rather than crashing or showing a misleading result.
+function openCardById(id) {
+  const card = document.querySelector('.entry[data-entry-id="' + CSS.escape(id) + '"]');
+  if (!card) return;
+  // Cabinet-Level Accountability defaults to grouped view -- if this
+  // card landed inside a collapsed .official-group, opening just the
+  // card leaves it in a display:none ancestor. Open the group too so
+  // the deep link actually shows something.
+  const group = card.closest(".official-group");
+  if (group) group.classList.add("open");
+  card.classList.add("open");
+  card.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 function jumpToRelatedEntry(trackerField, id) {
   const key = RELATED_TRACKER_FIELD_TO_KEY[trackerField];
   if (!key || !TRACKERS[key]) return;
   goToTrackerHome(key);
-  // Target renamed/removed since this link was written -- goToTrackerHome()
-  // already landed on the tracker's tab and scrolled to top, so there's
-  // nothing more to do rather than crash or show a misleading result.
-  const card = document.querySelector('.entry[data-entry-id="' + CSS.escape(id) + '"]');
-  if (card) {
-    // Cabinet-Level Accountability defaults to grouped view -- if this
-    // card landed inside a collapsed .official-group, opening just the
-    // card leaves it in a display:none ancestor. Open the group too so
-    // the deep link actually shows something.
-    const group = card.closest(".official-group");
-    if (group) group.classList.add("open");
-    card.classList.add("open");
-    card.scrollIntoView({ behavior: "smooth", block: "start" });
-  }
+  openCardById(id);
+}
+
+// Shareable-link support: a card's "Copy link" button writes
+// #<trackerKey>/<entryId> (trackerKey is a TRACKERS key, which is
+// always identical to that tracker's own cfg.kind); this reads that
+// hash back on initial load, switches to the right tab via
+// goToTrackerHome() (not a bare activeTracker assignment -- Cabinet-
+// Level Accountability's groupMode still holds whatever the page's
+// very first tracker defaulted to at this point, so skipping the reset
+// would render prosecution as a flat list instead of its normal
+// grouped-by-official view), and opens + scrolls to the card via the
+// same openCardById() used for in-page related-entry jumps. Only
+// trackers with a unique idField are linkable -- Reporting (kind
+// "tracker") has none, so a hash naming it (or any unknown/malformed
+// hash) is silently ignored rather than producing a misleading partial
+// jump. Deliberately one-shot: doesn't keep rewriting the hash as the
+// visitor browses afterward.
+function openEntryFromHash() {
+  const hash = window.location.hash.replace(/^#/, "");
+  const slash = hash.indexOf("/");
+  if (slash === -1) return;
+  const key = decodeURIComponent(hash.slice(0, slash));
+  const id = decodeURIComponent(hash.slice(slash + 1));
+  if (!TRACKERS[key] || !TRACKERS[key].idField || !id) return;
+  goToTrackerHome(key);
+  openCardById(id);
+}
+
+// Builds the shareable URL for one entry -- the counterpart
+// openEntryFromHash() parses back on load.
+function buildShareUrl(trackerKey, entryId) {
+  return window.location.origin + window.location.pathname + "#" + encodeURIComponent(trackerKey) + "/" + encodeURIComponent(entryId);
 }
 
 /* Wires click handling onto any .related-entry-link/.tracker-home-link
@@ -2727,6 +2810,7 @@ async function loadAllData() {
   }
 
   renderDispatch();
+  openEntryFromHash();
 
   if (loadErrors.length) {
     const banner = document.createElement("div");
