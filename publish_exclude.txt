@@ -23,3 +23,6 @@ strait-of-hormuz-shipping-status-2026
 
 # uss-abraham-lincoln-sailor-deaths-claim-2026 -- excluded 2026-09-03, per Joe's request
 uss-abraham-lincoln-sailor-deaths-claim-2026
+
+# military-payroll-reduction-claim-2026 -- excluded 2026-09-03, per Joe's request
+military-payroll-reduction-claim-2026
