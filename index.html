@@ -643,6 +643,8 @@
     font-size: 0.85rem;
     font-style: italic;
   }
+  .confidence-box p { margin: 0 0 0.65rem; }
+  .confidence-box p:last-child { margin-bottom: 0; }
 
   /* User Topics: a strong visual pointer to a fuller, already-
      researched curated entry, shown at the very top of the detail view
@@ -1768,7 +1770,10 @@ function buildUpdateRequestHtml(entry, cfg) {
    through hl() individually so search-term highlighting still works. */
 function paragraphizeUpdates(text, hl) {
   if (!text) return "";
-  const marker = /\bUpdate\b[^.:]{0,60}:/g;
+  // 130, not 60: government-services entries' "(correction -- ...)"
+  // annotations run long, and the real corpus needs up to 121 chars
+  // between "Update" and its colon to all match.
+  const marker = /\bUpdate\b[^.:]{0,130}:/g;
   const starts = [0];
   let m;
   while ((m = marker.exec(text)) !== null) {
@@ -1795,11 +1800,11 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
   const summary = (text) => summaryLineHtml(text, term, useRegex);
 
   if (cfg.kind === "deregulation") {
-    return '<div class="field-label">What changed</div><div class="field-value">' + summary(entry.section_summaries?.what_changed) + hl(entry.what_changed) + '</div>' +
+    return '<div class="field-label">What changed</div><div class="field-value">' + summary(entry.section_summaries?.what_changed) + paragraphizeUpdates(entry.what_changed, hl) + '</div>' +
       '<div class="field-label">Primary proponent</div><div class="field-value"><strong>' + hl(entry.primary_proponent?.name) + '</strong> — ' + hl(entry.primary_proponent?.role) + (entry.primary_proponent?.note ? '<br><em>' + hl(entry.primary_proponent.note) + '</em>' : '') + '</div>' +
       '<div class="field-label">Estimated impact</div><div class="field-value">' + summary(entry.section_summaries?.estimated_impact) + hl(entry.estimated_health_impact?.summary) + '</div>' +
       (entry.estimated_health_impact?.figures?.length ? '<ul class="exhibit-list">' + entry.estimated_health_impact.figures.map(f => '<li>' + hl(f.metric) + ': <strong>' + hl(f.value) + '</strong> (' + hl(f.source) + ')</li>').join("") + '</ul>' : '') +
-      '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + hl(entry.confidence_note) + '</div>' +
+      '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + paragraphizeUpdates(entry.confidence_note, hl) + '</div>' +
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>' +
       buildUpdateRequestHtml(entry, cfg);
   }
@@ -1809,12 +1814,12 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
   }
   if (cfg.kind === "govservices") {
     return '<div class="field-label">Institution</div><div class="field-value">' + hl(entry.institution) + '</div>' +
-      '<div class="field-label">What changed</div><div class="field-value">' + summary(entry.section_summaries?.what_changed) + hl(entry.what_changed) + '</div>' +
+      '<div class="field-label">What changed</div><div class="field-value">' + summary(entry.section_summaries?.what_changed) + paragraphizeUpdates(entry.what_changed, hl) + '</div>' +
       '<div class="field-label">Primary proponent</div><div class="field-value"><strong>' + hl(entry.primary_proponent?.name) + '</strong> — ' + hl(entry.primary_proponent?.role) + (entry.primary_proponent?.note ? '<br><em>' + hl(entry.primary_proponent.note) + '</em>' : '') + '</div>' +
       '<div class="field-label">Estimated impact</div><div class="field-value">' + summary(entry.section_summaries?.estimated_impact) + hl(entry.estimated_impact?.summary) + '</div>' +
       (entry.estimated_impact?.figures?.length ? '<ul class="exhibit-list">' + entry.estimated_impact.figures.map(f => '<li>' + hl(f.metric) + ': <strong>' + hl(f.value) + '</strong> (' + hl(f.source) + ')</li>').join("") + '</ul>' : '') +
       (entry.estimated_impact?.caveat ? '<div class="field-label">Caveat</div><div class="field-value" style="font-style:italic;">' + hl(entry.estimated_impact.caveat) + '</div>' : '') +
-      '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + hl(entry.confidence_note) + '</div>' +
+      '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + paragraphizeUpdates(entry.confidence_note, hl) + '</div>' +
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>' +
       buildUpdateRequestHtml(entry, cfg);
   }
@@ -1866,9 +1871,9 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
       : '') +
     '<div class="field-label">Status Stage</div><div class="field-value">' + hl(entry.status_category) + '</div>' +
     '<div class="field-label">Alleged Violation (full legal citation)</div><div class="field-value">' + hl(entry.offense_category_raw || entry.offense_category) + '</div>' +
-    '<div class="field-label">Incident summary</div><div class="field-value">' + summary(entry.section_summaries?.incident_summary) + hl(entry.incident_summary) + '</div>' +
+    '<div class="field-label">Incident summary</div><div class="field-value">' + summary(entry.section_summaries?.incident_summary) + paragraphizeUpdates(entry.incident_summary, hl) + '</div>' +
     '<div class="field-label">Status</div><div class="field-value">' + paragraphizeUpdates(entry.status, hl) + '</div>' +
-    '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + hl(entry.confidence_note) + '</div>' +
+    '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + paragraphizeUpdates(entry.confidence_note, hl) + '</div>' +
     '<div class="field-label">Root Cause</div><div class="field-value">' + hl(entry.cause) + '</div>' +
     '<div class="field-label">Anticipated Defense</div><div class="field-value">' + hl(entry.rebuttal_anticipated) + '</div>' +
     '<div class="field-label">TAP\'s Rebuttal</div><div class="field-value">' + hl(entry.comeback) + '</div>' +

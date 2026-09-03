@@ -36,6 +36,12 @@ const combined = escapeHtmlFunctionSource + "\n" + summaryLineFunctionSource + "
   paragraphizeUpdatesFunctionSource + "\n" + buildDetailHtmlFunctionSource;
 const buildDetailHtml = (0, eval)(`${combined}\nbuildDetailHtml;`);
 
+// paragraphizeUpdates has no dependencies of its own, so it's also
+// evaluated standalone to test its marker regex directly rather than
+// only through one field's wiring in buildDetailHtml.
+const paragraphizeUpdates = (0, eval)(`${paragraphizeUpdatesFunctionSource}\nparagraphizeUpdates;`);
+const identity = (text) => text || "";
+
 test("deregulation with summaries", () => {
   const entry = {
     what_changed: "Agency repealed the rule.",
@@ -400,4 +406,185 @@ test("govservices request-update button carries the correct tracker and entry id
   assert(result.includes('<span class="field-value">Last verified 2026-07-15</span>'), "should show the last_verified date");
   assert(result.includes('data-tracker="govservices"'), "button should carry the govservices tracker key");
   assert(result.includes('data-entry-id="some-action-id"'), "button should carry the entry id");
+});
+
+test("paragraphizeUpdates splits on an Update marker with a long parenthetical annotation (regression for the old 60-char cap)", () => {
+  // Real production shape from government-services/entries -- an
+  // annotation like "(correction -- this entry's original 'litigation
+  // ongoing' framing is now outdated)" runs well past 60 characters
+  // before its colon, which the original cap missed entirely.
+  const text = "Original finding here. Update 2026-08-17 (correction -- this entry's original 'litigation ongoing' framing is now outdated): the court declined to block the order.";
+  const result = paragraphizeUpdates(text, identity);
+
+  assert.equal((result.match(/<p>/g) || []).length, 2, "the long-annotation marker should still start its own paragraph");
+  assert(result.includes("<p>Original finding here.</p>"), "lead-in text should be its own paragraph");
+  assert(
+    result.includes("<p>Update 2026-08-17 (correction -- this entry's original 'litigation ongoing' framing is now outdated): the court declined to block the order.</p>"),
+    "the long-annotation Update marker should start the second paragraph"
+  );
+});
+
+test("prosecution Incident summary renders as a single paragraph when there are no Update markers", () => {
+  const entry = {
+    offense_category: "Fraud",
+    status_category: "Investigation",
+    incident_summary: "False statements on federal forms.",
+    status: "Under investigation.",
+    confidence_note: "Strong evidence.",
+  };
+  const cfg = { kind: "prosecution" };
+  const result = buildDetailHtml(entry, cfg);
+
+  assert(
+    result.includes('<div class="field-label">Incident summary</div><div class="field-value"><p>False statements on federal forms.</p></div>'),
+    "incident_summary with no Update marker should render as one <p> inside field-value"
+  );
+});
+
+test("prosecution Incident summary splits into separate paragraphs at each Update marker", () => {
+  const entry = {
+    offense_category: "Fraud",
+    status_category: "Investigation",
+    incident_summary: "Initial account here. Update 2026-07-26: additional detail surfaced.",
+    status: "Under investigation.",
+    confidence_note: "Strong evidence.",
+  };
+  const cfg = { kind: "prosecution" };
+  const result = buildDetailHtml(entry, cfg);
+
+  const start = result.indexOf('<div class="field-label">Incident summary</div><div class="field-value">');
+  const end = result.indexOf('<div class="field-label">Status</div>');
+  const html = result.slice(start, end);
+
+  assert.equal((html.match(/<p>/g) || []).length, 2, "should split into 2 paragraphs, one per Update marker plus the lead-in text");
+  assert(html.includes("<p>Initial account here.</p>"), "lead-in text before the marker should be its own paragraph");
+  assert(html.includes("<p>Update 2026-07-26: additional detail surfaced.</p>"), "the Update marker should start its own paragraph");
+});
+
+test("govservices What changed renders as a single paragraph when there are no Update markers", () => {
+  const entry = {
+    institution: "Some Agency",
+    what_changed: "Reduced staffing by 30%.",
+    estimated_impact: {},
+    confidence_note: "Moderately confident.",
+  };
+  const cfg = { kind: "govservices" };
+  const result = buildDetailHtml(entry, cfg);
+
+  assert(
+    result.includes('<div class="field-label">What changed</div><div class="field-value"><p>Reduced staffing by 30%.</p></div>'),
+    "what_changed with no Update marker should render as one <p> inside field-value"
+  );
+});
+
+test("govservices What changed splits into separate paragraphs at each Update marker", () => {
+  const entry = {
+    institution: "Some Agency",
+    what_changed: "Initial cuts announced. Update 2026-08-02: further reductions confirmed.",
+    estimated_impact: {},
+    confidence_note: "Moderately confident.",
+  };
+  const cfg = { kind: "govservices" };
+  const result = buildDetailHtml(entry, cfg);
+
+  const start = result.indexOf('<div class="field-label">What changed</div><div class="field-value">');
+  const end = result.indexOf('<div class="field-label">Primary proponent</div>');
+  const html = result.slice(start, end);
+
+  assert.equal((html.match(/<p>/g) || []).length, 2, "should split into 2 paragraphs, one per Update marker plus the lead-in text");
+  assert(html.includes("<p>Initial cuts announced.</p>"), "lead-in text before the marker should be its own paragraph");
+  assert(html.includes("<p>Update 2026-08-02: further reductions confirmed.</p>"), "the Update marker should start its own paragraph");
+});
+
+test("deregulation What changed renders as a single paragraph when there are no Update markers", () => {
+  const entry = {
+    what_changed: "Agency repealed the rule.",
+    estimated_health_impact: {},
+    confidence_note: "High confidence.",
+    primary_proponent: {},
+  };
+  const cfg = { kind: "deregulation" };
+  const result = buildDetailHtml(entry, cfg);
+
+  assert(
+    result.includes('<div class="field-label">What changed</div><div class="field-value"><p>Agency repealed the rule.</p></div>'),
+    "what_changed with no Update marker should render as one <p> inside field-value"
+  );
+});
+
+test("deregulation What changed splits into separate paragraphs at each Update marker", () => {
+  const entry = {
+    what_changed: "Rule repealed outright. Update 2026-08-02: a challenge was filed.",
+    estimated_health_impact: {},
+    confidence_note: "High confidence.",
+    primary_proponent: {},
+  };
+  const cfg = { kind: "deregulation" };
+  const result = buildDetailHtml(entry, cfg);
+
+  const start = result.indexOf('<div class="field-label">What changed</div><div class="field-value">');
+  const end = result.indexOf('<div class="field-label">Primary proponent</div>');
+  const html = result.slice(start, end);
+
+  assert.equal((html.match(/<p>/g) || []).length, 2, "should split into 2 paragraphs, one per Update marker plus the lead-in text");
+  assert(html.includes("<p>Rule repealed outright.</p>"), "lead-in text before the marker should be its own paragraph");
+  assert(html.includes("<p>Update 2026-08-02: a challenge was filed.</p>"), "the Update marker should start its own paragraph");
+});
+
+test("prosecution Confidence note splits into separate paragraphs at each Update marker", () => {
+  const entry = {
+    offense_category: "Fraud",
+    status_category: "Investigation",
+    incident_summary: "Summary.",
+    status: "Under investigation.",
+    confidence_note: "Well-sourced initially. Update 2026-08-02: a second outlet corroborated.",
+  };
+  const cfg = { kind: "prosecution" };
+  const result = buildDetailHtml(entry, cfg);
+
+  const start = result.indexOf('<div class="field-label">Confidence note</div><div class="confidence-box">');
+  const end = result.indexOf('<div class="field-label">Root Cause</div>');
+  const html = result.slice(start, end);
+
+  assert.equal((html.match(/<p>/g) || []).length, 2, "should split into 2 paragraphs, one per Update marker plus the lead-in text");
+  assert(html.includes("<p>Well-sourced initially.</p>"), "lead-in text before the marker should be its own paragraph");
+  assert(html.includes("<p>Update 2026-08-02: a second outlet corroborated.</p>"), "the Update marker should start its own paragraph");
+});
+
+test("govservices Confidence note splits into separate paragraphs at each Update marker", () => {
+  const entry = {
+    institution: "Some Agency",
+    what_changed: "Reduced staffing.",
+    estimated_impact: {},
+    confidence_note: "Well-sourced initially. Update 2026-08-02: a second outlet corroborated.",
+  };
+  const cfg = { kind: "govservices" };
+  const result = buildDetailHtml(entry, cfg);
+
+  const start = result.indexOf('<div class="field-label">Confidence note</div><div class="confidence-box">');
+  const end = result.indexOf('<div class="field-label">Sources</div>');
+  const html = result.slice(start, end);
+
+  assert.equal((html.match(/<p>/g) || []).length, 2, "should split into 2 paragraphs, one per Update marker plus the lead-in text");
+  assert(html.includes("<p>Well-sourced initially.</p>"), "lead-in text before the marker should be its own paragraph");
+  assert(html.includes("<p>Update 2026-08-02: a second outlet corroborated.</p>"), "the Update marker should start its own paragraph");
+});
+
+test("deregulation Confidence note splits into separate paragraphs at each Update marker", () => {
+  const entry = {
+    what_changed: "Rule repealed outright.",
+    estimated_health_impact: {},
+    primary_proponent: {},
+    confidence_note: "Well-sourced initially. Update 2026-08-02: a second outlet corroborated.",
+  };
+  const cfg = { kind: "deregulation" };
+  const result = buildDetailHtml(entry, cfg);
+
+  const start = result.indexOf('<div class="field-label">Confidence note</div><div class="confidence-box">');
+  const end = result.indexOf('<div class="field-label">Sources</div>');
+  const html = result.slice(start, end);
+
+  assert.equal((html.match(/<p>/g) || []).length, 2, "should split into 2 paragraphs, one per Update marker plus the lead-in text");
+  assert(html.includes("<p>Well-sourced initially.</p>"), "lead-in text before the marker should be its own paragraph");
+  assert(html.includes("<p>Update 2026-08-02: a second outlet corroborated.</p>"), "the Update marker should start its own paragraph");
 });
