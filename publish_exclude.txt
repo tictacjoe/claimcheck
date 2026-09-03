@@ -26,3 +26,6 @@ uss-abraham-lincoln-sailor-deaths-claim-2026
 
 # military-payroll-reduction-claim-2026 -- excluded 2026-09-03, per Joe's request
 military-payroll-reduction-claim-2026
+
+# cisa-understaffing-and-august-2026-guidance -- excluded 2026-09-03, per Joe's request
+cisa-understaffing-and-august-2026-guidance

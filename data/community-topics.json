@@ -1,32 +1,5 @@
 [
   {
-    "id": "cisa-understaffing-and-august-2026-guidance",
-    "topic": "CISA is understaffed, and still published new cybersecurity guidance in August 2026",
-    "submitted_claim": "cisa is understaffed and is due to publish cybersecurity guidelines in august of 2026",
-    "verdict": "confirmed",
-    "summary": "Both halves of this submission check out. CISA has lost roughly a third of its workforce since January 2025 -- see the related entry below for the full, extensively documented record. Despite that, CISA did publish new cybersecurity guidance in August 2026: an Open Source Software security guide covering dependency tracking and OSS AI evaluation (published early August), and a Logging Reference Architecture released August 20, 2026, developed with OMB and the CISO Council to help federal agencies build required Agency Logging Plans (due to OMB and CISA by November 18, 2026).",
-    "sources": [
-      {
-        "name": "CISA -- CISA Releases Foundational, Flexible Guidance to Help Federal Agencies Implement Effective Logging, Visibility and Operational Standards",
-        "url": "https://www.cisa.gov/news-events/news/cisa-releases-foundational-flexible-guidance-help-federal-agencies-implement-effective-logging"
-      },
-      {
-        "name": "Help Net Security -- CISA lays out new guidance for using open-source software",
-        "url": "https://www.helpnetsecurity.com/2026/08/03/cisa-oss-security-guidance/"
-      }
-    ],
-    "related_entries": [
-      {
-        "tracker": "government-services",
-        "id": "cisa-cyber-workforce-cuts-trump2",
-        "note": "The full documented record of CISA's workforce losses referenced by this submission"
-      }
-    ],
-    "submitter_source_link": null,
-    "date_submitted": "2026-08-25",
-    "date_added": "2026-08-26"
-  },
-  {
     "id": "hr-9492-clear-act-dhs-logging-2026",
     "topic": "Bipartisan bill (H.R. 9492, the CLEAR Act) would require DHS to report on gaps in meeting federal cybersecurity event-logging requirements",
     "submitted_claim": "hr-9492 is in committee",
