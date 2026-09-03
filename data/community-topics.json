@@ -62,6 +62,30 @@
     "date_added": "2026-08-30"
   },
   {
+    "id": "military-payroll-reduction-claim-2026",
+    "topic": "Claim that military payroll is being reduced",
+    "submitted_claim": "military payroll being reduced",
+    "verdict": "misleading_as_stated",
+    "summary": "Military payroll was not reduced in 2026 -- active-duty and drilling Guard/Reserve troops received a 3.8% pay raise effective January 2026, continuing an annual increase rather than a cut, though it was smaller than the 4.5-5.2% raises of 2023-2025. Real compensation pressure came from a different source: a 2026 Basic Allowance for Housing (BAH) formula change requires nearly one million troops who receive BAH to absorb an additional $93-$212 per month in housing costs out of pocket. Separately, two 2026 government shutdowns created real uncertainty over on-time paychecks for some service members -- the Coast Guard's top officer warned mid-shutdown that existing funds might not cover a mid-May 2026 payroll -- but the Pay Our Troops Act kept active-duty pay flowing throughout, paid retroactively where delayed, so no actual payroll cut occurred.",
+    "sources": [
+      {
+        "name": "Military.com",
+        "url": "https://www.military.com/daily-news/2025/12/19/trump-signs-law-2026-military-pay-raise-heres-how-much-youll-get.html"
+      },
+      {
+        "name": "Newsweek",
+        "url": "https://www.newsweek.com/donald-trump-military-pay-funding-government-shutdown-10884094"
+      },
+      {
+        "name": "MOAA",
+        "url": "https://www.moaa.org/content/publications-and-media/news-articles/2026-news-articles/finance/protecting-servicemember-pay-partial-shutdown-ends,-but-next-one-could-be-just-months-away/"
+      }
+    ],
+    "submitter_source_link": null,
+    "date_submitted": "2026-09-02",
+    "date_added": "2026-09-03"
+  },
+  {
     "id": "snap-benefits-losses-nationwide-2026",
     "topic": "Widespread loss of SNAP (food stamp) benefits nationwide",
     "submitted_claim": "people are losing food stamps",
@@ -162,6 +186,27 @@
     "submitter_source_link": null,
     "date_submitted": "2026-08-23",
     "date_added": "2026-08-23"
+  },
+  {
+    "id": "trump-truth-api-insider-trading-topic-2026",
+    "topic": "Trump Media's 'Truth API' and insider-trading concerns",
+    "submitted_claim": "insider trading via truth social api",
+    "verdict": "confirmed",
+    "summary": "Independently verified and added directly to Cabinet-Level Accountability -- see full entry for the sourced record of Trump Media's paid early-access product, Trump's personal profit stake, and the pending congressional SEC referral and House Judiciary investigation.",
+    "sources": [
+      {
+        "name": "Fortune",
+        "url": "https://fortune.com/2026/08/04/insider-trading-trump-truth-social-early-access/"
+      },
+      {
+        "name": "Rep. Ritchie Torres official statement",
+        "url": "https://ritchietorres.house.gov/posts/rep-torres-presses-sec-on-trump-medias-new-insider-trading-api"
+      }
+    ],
+    "submitter_source_link": null,
+    "date_submitted": "2026-09-02",
+    "date_added": "2026-09-03",
+    "promoted_to": "prosecution/trump-truth-api-insider-trading-2026"
   },
   {
     "id": "tsa-faa-aviation-cybersecurity-coordination-gaps-2026",

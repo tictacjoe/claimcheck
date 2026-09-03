@@ -699,7 +699,7 @@
     "administration": "Trump II",
     "agency": "Department of Energy",
     "domain": "cross-cutting (structural/process rule, energy/environmental focus)",
-    "status": "Ongoing -- a federal court has ruled part of the cancellations illegal; broader rollback (223 projects, $82.9B) continues per a July 2026 BlueGreen Alliance analysis",
+    "status": "Ongoing -- a federal court has ruled part of the cancellations illegal; broader rollback (223 projects, $82.9B) continues per a July 2026 BlueGreen Alliance analysis Update 2026-09-03: two specific court wins for terminated grantees, both predating this entry's prior 2026-07-27 verification but not previously named here, are now documented -- in January 2026, U.S. District Judge Amit Mehta ordered DOE to reinstate 7 awards worth $27.6 million to Saint Paul, Minnesota-area plaintiffs; on June 12, 2026, a federal court settlement (a separate but related suit led by a coalition including the American Institute of Chemical Engineers) required DOE to reinstate 11 more awards worth $82.1 million to grantees in New York, Oregon, Connecticut, Minnesota, and Colorado, with DOE agreeing not to contest that a 'primary reason' for the terminations was the awardee being in a 'Blue State.' Two further, more sweeping cases were reported still pending as of August 2026: one from a coalition of states including California and New York, and a separate one from the University of California system. FactCheck.org published an August 2026 analysis ('Wright's Hairsplitting Statements About Canceled Energy Grants in Blue States') concluding Secretary Wright's public merit-based framing does not hold up against DOE's own court admissions -- consistent with, and reinforcing, this entry's existing framing.",
     "date_of_action": "2025 (grant cancellations begin) through 2026-07 (court admission and BlueGreen Alliance analysis)",
     "original_rule_summary": "Biden-era clean energy incentives -- including manufacturing and project grants funded through the Inflation Reduction Act and related programs -- had been awarded or were pending to hundreds of clean energy and manufacturing projects nationwide, including in Republican- and Democratic-leaning states alike, based on standard DOE project-merit review criteria.",
     "what_changed": "A July 14, 2026 analysis by the labor-and-environmental coalition BlueGreen Alliance found that 223 clean energy manufacturing and project awards, representing $82.9 billion in investment and 111,765 projected jobs, have been delayed or canceled during Trump's second term, attributing the rollback to Trump's tax and spending law (which repealed or curtailed Biden-era clean energy incentives) and other administration actions reducing federal support for renewable energy and electric vehicles. Separately, in court filings unsealed around July 25, 2026, federal lawyers acknowledged that the Department of Energy canceled $7.6 billion in grants for clean energy projects specifically located in the 16 states that voted for Kamala Harris in the 2024 election -- an admission that the cancellations were based 'solely on the political identity of the grant recipient's state,' contradicting Energy Secretary Chris Wright's repeated public statements that the projects were canceled because they failed to adequately advance national energy needs or represented poor investments. DOE's own lawyers acknowledged using keywords related to diversity, gender, vaccine hesitancy, and COVID-19 to screen projects for cancellation. A federal court has since ruled that the administration illegally blocked billions of dollars in clean energy grants to Democratic-leaning states.",
@@ -740,13 +740,13 @@
       ],
       "caveat": "The $82.9 billion/223-project figure (BlueGreen Alliance, a labor-and-environmental advocacy coalition, not a neutral government auditor) attributes the broader rollback generally to Trump's tax law and administration policy, while the $7.6 billion figure is independently and more directly established via DOE's own court admission -- present the two figures with their different evidentiary weight rather than treating them as equally certain. A federal court has ruled on the legality of the $7.6 billion in state-targeted cancellations specifically; the broader $82.9 billion figure has not been the subject of a comparable legal finding."
     },
-    "confidence_note": "HIGH confidence on the $7.6 billion state-targeting admission, since it comes directly from DOE's own federal court filings, corroborated across Fortune, ABC News, NBC Washington, Yahoo, and Utility Dive, and has already been the basis for a federal court ruling against the administration. MODERATE-HIGH confidence on the broader $82.9 billion/223-project/111,765-job figures, which are corroborated across Reuters-sourced wire coverage (GV Wire, Virginia Business, Spokesman-Review, US News) but originate from an advocacy-coalition analysis (BlueGreen Alliance) rather than a government or fully independent academic source.",
+    "confidence_note": "HIGH confidence on the $7.6 billion state-targeting admission, since it comes directly from DOE's own federal court filings, corroborated across Fortune, ABC News, NBC Washington, Yahoo, and Utility Dive, and has already been the basis for a federal court ruling against the administration. MODERATE-HIGH confidence on the broader $82.9 billion/223-project/111,765-job figures, which are corroborated across Reuters-sourced wire coverage (GV Wire, Virginia Business, Spokesman-Review, US News) but originate from an advocacy-coalition analysis (BlueGreen Alliance) rather than a government or fully independent academic source. Re-verified 2026-09-03: added the January 2026 ($27.6M/7 awards) and June 2026 ($82.1M/11 awards) court-ordered/settled reinstatements, both HIGH confidence (court orders/settlements, corroborated across Utility Dive, Smart Cities Dive, ACHR News, and E&E News/Politico), plus an August 2026 FactCheck.org analysis corroborating this entry's Wright-contradiction framing. No new development identified on the broader $82.9B/223-project BlueGreen Alliance figure itself.",
     "section_summaries": {
       "what_changed": "DOE canceled hundreds of clean energy projects worth $82.9 billion under Trump's second term, and admitted in court that $7.6 billion of those cancellations specifically targeted the 16 states that voted for Harris -- directly contradicting Energy Secretary Chris Wright's public claims that cancellations were merit-based.",
       "estimated_impact": "223 projects and 111,765 projected jobs were delayed or canceled; a federal court has already ruled the politically-targeted portion of the cancellations illegal.",
       "confidence_note": "The $7.6B political-targeting admission is directly documented in DOE's own court filings and independently corroborated; the broader $82.9B figure comes from an advocacy-coalition analysis, not a government auditor, though it is widely wire-corroborated."
     },
-    "last_verified": "2026-07-27",
+    "last_verified": "2026-09-03",
     "date_added": "2026-07-27",
     "sources": [
       {
@@ -764,6 +764,14 @@
       {
         "name": "GV Wire (Reuters) — Trump Cuts to Clean Energy Linked to $83 Billion in Delayed or Canceled Projects",
         "url": "https://gvwire.com/2026/07/14/trump-cuts-to-clean-energy-linked-to-83-billion-in-delayed-or-canceled-projects/"
+      },
+      {
+        "name": "Utility Dive -- Judge overturns DOE's cancellation of $82.1M in clean energy grants",
+        "url": "https://www.utilitydive.com/news/judge-overturns-doe-cancellation-clean-energy-grants/822818/"
+      },
+      {
+        "name": "FactCheck.org -- Wright's Hairsplitting Statements About Canceled Energy Grants in Blue States",
+        "url": "https://www.factcheck.org/2026/08/wrights-hairsplitting-statements-about-canceled-energy-grants-in-blue-states/"
       }
     ],
     "short_summary": "DOE canceled $82.9B/223 clean energy projects (111,765 jobs) under Trump; court filings show $7.6B of that specifically targeted the 16 states that voted for Harris, contradicting Sec. Wright's public merit-based justification -- a court has already ruled this illegal."
@@ -2318,10 +2326,10 @@
     "administration": "Trump II (2025-present)",
     "agency": "EPA",
     "domain": "environmental",
-    "status": "Fully Repealed",
-    "date_of_action": "2025 (cites Executive Order 14,154, 'Unleashing American Energy')",
+    "status": "Fully Repealed. A coalition of 24 states, 10 cities, and 5 counties (led by New York Attorney General Letitia James) filed suit in the U.S. Court of Appeals for the D.C. Circuit on 2026-03-19 challenging the repeal; the American Public Health Association, Sierra Club, and other public-health/environmental groups filed a separate petition for review in the same court. Litigation was ongoing as of this update (2026-09-03), with the U.S. Supreme Court seen by legal analysts as the likely ultimate destination given the stakes. No court ruling on the merits has been identified yet.",
+    "date_of_action": "2025 (Executive Order 14,154, 'Unleashing American Energy', directed the review); EPA's final rule rescinding the underlying 2009 Greenhouse Gas Endangerment Finding and eliminating GHG emission standards for light-, medium-, and heavy-duty vehicles/engines was finalized 2026-02-12 (published in the Federal Register 2026-02-18), effective 2026-04-26",
     "original_rule_summary": "EPA tailpipe emissions standards for new light- and medium-duty vehicles beginning model year 2027, designed to cut vehicle greenhouse gas emissions and accelerate the market shift toward more efficient and electric vehicles; also produced fuel-cost savings for individual drivers.",
-    "what_changed": "EPA fully repealed the standards, citing Executive Order 14,154. The repeal removes both the emissions limits and the associated fuel-economy-driven consumer savings that came with them.",
+    "what_changed": "EPA fully repealed the standards, citing Executive Order 14,154. The repeal removes both the emissions limits and the associated fuel-economy-driven consumer savings that came with them. EPA's Feb. 12, 2026 final rule went further than a standalone repeal of this one rule: it rescinded the 2009 Endangerment Finding itself, the underlying legal finding that GHG emissions from motor vehicles endanger public health, on the theory that EPA lacks statutory authority under Clean Air Act Section 202(a) to regulate vehicle GHG emissions without it -- eliminating not just the light/medium-duty MY2027+ standards this entry tracks, but GHG standards for heavy-duty vehicles/engines as well.",
     "primary_proponent": {
       "name": "Lee Zeldin",
       "role": "EPA Administrator",
@@ -2357,18 +2365,26 @@
       ],
       "caveat": "Institute for Policy Integrity is an NYU academic policy center, not a neutral government source, but its methodology is built from the agencies' own prior regulatory impact analyses of the rules being repealed -- cite it as 'built from EPA's own prior cost-benefit analysis of the standard being repealed' rather than as an independent outside estimate."
     },
-    "confidence_note": "Strong, quantified, and traceable to agency-originated modeling (the underlying numbers trace back to EPA's own RIA for the rule before repeal). Good headline figure for debate use: 2,577 estimated annual premature mortalities at risk is the largest single figure in the entire current-term tracker.",
+    "confidence_note": "Strong, quantified, and traceable to agency-originated modeling (the underlying numbers trace back to EPA's own RIA for the rule before repeal). Good headline figure for debate use: 2,577 estimated annual premature mortalities at risk is the largest single figure in the entire current-term tracker. Re-verified 2026-09-03: the repeal's actual legal mechanism (rescinding the 2009 Endangerment Finding, not just repealing this one MY2027+ standard) and the broader vehicle-class scope are now documented in `date_of_action`/`what_changed` above, corroborated across the EPA's own Federal Register final rule and multiple law-firm summaries (DLA Piper, Holland & Knight, Kirkland & Ellis). Active D.C. Circuit litigation (24-state coalition plus a separate public-health/environmental coalition) is noted in `status`; no ruling on the merits yet.",
     "section_summaries": {
       "what_changed": "EPA fully repealed light/medium-duty vehicle GHG standards, citing EO 14,154, eliminating both emissions limits and fuel-savings benefits.",
       "estimated_impact": "By dollar value, this ranks as the biggest rollback tracked in the current term once fuel, health, and climate losses are added together.",
       "confidence_note": "Figures trace back to EPA's own pre-repeal analysis, and the mortality toll here outranks every other entry in the tracker."
     },
-    "last_verified": "2026-07-03",
+    "last_verified": "2026-09-03",
     "date_added": "2026-07-03",
     "sources": [
       {
         "name": "Institute for Policy Integrity, NYU School of Law — Tracking the Damages of Regulatory Rollbacks",
         "url": "https://policyintegrity.org/tracking-regulatory-rollbacks"
+      },
+      {
+        "name": "EPA / Federal Register -- Rescission of the Greenhouse Gas Endangerment Finding and Motor Vehicle Greenhouse Gas Emission Standards Under the Clean Air Act (final rule)",
+        "url": "https://www.federalregister.gov/documents/2026/02/18/2026-03157/rescission-of-the-greenhouse-gas-endangerment-finding-and-motor-vehicle-greenhouse-gas-emission"
+      },
+      {
+        "name": "Capture Cascade Timeline -- 24 States and 15 Local Governments Sue EPA Over Repeal of Greenhouse Gas Endangerment Finding",
+        "url": "https://capturecascade.org/event/2026-03-19--24-states-sue-epa-endangerment-finding-repeal"
       }
     ],
     "short_summary": "Repealed vehicle emissions standards for new cars, trucks, and SUVs."
@@ -2446,7 +2462,7 @@
     "administration": "Trump I (2017-2021)",
     "agency": "EPA",
     "domain": "environmental",
-    "status": "Weakened (legal underpinning removed, standards technically left in place)",
+    "status": "Weakened (legal underpinning removed, standards technically left in place) Re-verified 2026-09-03: no change to the 2020 finding reversal this entry tracks or its current legal status. Note for context (a distinct, later action, not folded into this entry's own figures): on 2026-02-20, EPA finalized a separate rule repealing the 2024 (Biden-era) MATS amendments -- the strengthened filterable particulate matter standard, its continuous-monitoring requirement, and the lignite-specific mercury standard -- reinstating the pre-2024 (2012-baseline) standards, effective 2026-04-27. That 2026 repeal is a different rule change on the same underlying MATS program, from the current Trump II administration rather than the 2020 Trump I cost-benefit finding reversal this entry documents; it is not otherwise reflected in this entry's own figures or status.",
     "date_of_action": "2020-04",
     "original_rule_summary": "2012 Obama-era EPA rule requiring coal- and oil-fired power plants to limit emissions of mercury and other toxic air pollutants; credited with reducing mercury pollution from coal plants by over 80%.",
     "what_changed": "EPA finalized a reversal of the 'appropriate and necessary' cost-benefit finding underlying MATS, arguing the rule's compliance costs ($9.6 billion/year) outweighed its directly monetized benefits ($4-6 million/year in mercury-specific benefits), while excluding the much larger 'co-benefits' from reduced particulate matter exposure from that calculation. The numeric emissions standards were left technically in place, but the legal foundation was weakened, exposing the rule to future rollback or non-enforcement.",
@@ -2475,13 +2491,13 @@
       ],
       "caveat": "The 2020 finding reversal did not itself change emissions in the short term since numeric standards stayed in place; the health risk is prospective -- it removed the legal basis that makes the standards defensible against future non-enforcement or repeal."
     },
-    "confidence_note": "Strong, agency's-own-numbers framing: the cost-benefit dispute is about whether to count co-benefits the EPA itself originally calculated, not a competing outside estimate. Good for a standards-based debate framing -- ask why co-benefits were excluded only for this rule.",
+    "confidence_note": "Strong, agency's-own-numbers framing: the cost-benefit dispute is about whether to count co-benefits the EPA itself originally calculated, not a competing outside estimate. Good for a standards-based debate framing -- ask why co-benefits were excluded only for this rule. Re-verified 2026-09-03: confirmed no change to the underlying 2020 finding-reversal facts. The 2026-02-20 repeal of the 2024 MATS amendments (see status) is corroborated across EPA's own Federal Register filing, EDF, and the Environmental Protection Network, and may warrant its own separate entry given its scope and distinct administration/timeframe -- flagged for Joe's call rather than folded in here.",
     "section_summaries": {
       "what_changed": "EPA reversed MATS's 'appropriate and necessary' legal finding, arguing costs outweighed benefits only by excluding particulate co-benefits.",
       "estimated_impact": "Those excluded particulate co-benefits made up most of MATS's total $37-90 billion in annual benefits versus roughly $9.6 billion in costs.",
       "confidence_note": "Strong, uses EPA's own original numbers -- the dispute is whether to count co-benefits EPA itself calculated, not a competing outside estimate."
     },
-    "last_verified": "2026-07-03",
+    "last_verified": "2026-09-03",
     "date_added": "2026-07-03",
     "sources": [
       {
@@ -2491,6 +2507,10 @@
       {
         "name": "NRDC — How EPA Rollbacks Will Cost Us",
         "url": "https://www.nrdc.org/stories/how-epa-rollbacks-will-cost-us-dollars-and-lives"
+      },
+      {
+        "name": "Federal Register -- National Emission Standards for Hazardous Air Pollutants: Coal- and Oil-Fired Electric Utility Steam Generating Units: Final Repeal (2026-02-24)",
+        "url": "https://www.federalregister.gov/documents/2026/02/24/2026-03638/national-emission-standards-for-hazardous-air-pollutants-coal--and-oil-fired-electric-utility-steam"
       }
     ],
     "short_summary": "Excluded major health co-benefits from the cost-benefit case for mercury limits."

@@ -9642,6 +9642,61 @@
     }
   },
   {
+    "id": "trump-truth-api-insider-trading-2026",
+    "official": "Donald Trump, President",
+    "offense_category": "Personal Financial Conflict of Interest / Securities Law -- Trump Media sells Wall Street firms paid, accelerated access to Trump's own market-moving Truth Social posts, with Trump personally profiting as ~41% owner -- NOT charged, contested, under congressional investigation, included for reference only",
+    "incident_summary": "On August 1, 2026, Trump Media & Technology Group launched 'Truth API,' a paid subscription service selling Wall Street firms machine-readable, accelerated access to posts from Truth Social's most-influential accounts -- including President Trump's own -- milliseconds ahead of the platform's ordinary public feed, priced at $60,000-$100,000 per month; Fortune reported five subscribing firms generating roughly $6 million in annualized revenue as of early August 2026, growing to 'nearly a dozen' firms by mid-August. Trump owns approximately 41% of Trump Media (Nasdaq: DJT) and personally profits from this recurring subscription revenue, even as he continues to use Truth Social routinely to announce or discuss tariffs, foreign-policy actions, and individual companies -- posts capable of moving securities and commodities markets. Legal and ethics experts identified this as a structural conflict distinct from ordinary data licensing: NYU economics professor Gian Luca Clementi called it 'insider trading by definition'; Richard Painter, a former White House chief ethics counsel, warned it could violate federal law; and Renee Jones, a Boston College law professor and former senior SEC Division of Corporation Finance official, said 'material nonpublic information belongs to the U.S. government or to the American people, not to Truth Social or President Trump.' Rep. Ritchie Torres (D-NY) sent a letter to SEC Chairman Paul Atkins around July 21, 2026 -- ahead of the product's launch -- asking the Commission to evaluate whether Truth API implicates federal securities law, market-manipulation protections, or broker-dealer obligations, and to coordinate with the CFTC and the Office of Government Ethics. Rep. Jamie Raskin, ranking member of the House Judiciary Committee, separately opened a formal committee investigation on July 31, 2026, demanding records identifying the subscribing firms and the accounts available through the service. Senate Minority Leader Chuck Schumer publicly called the arrangement 'the definition of insider trading.'",
+    "contested": true,
+    "elements_required": [
+      "A company substantially owned by the sitting President (Trump Media, ~41% Trump-owned) sells paying subscribers accelerated, advance access to the President's own official communications",
+      "Those communications routinely contain information capable of moving securities and commodities markets (tariff announcements, foreign-policy actions, company-specific statements)",
+      "The President personally profits from the subscription revenue through his ownership stake, creating a direct financial incentive tied to the timing and content of his own official statements",
+      "The arrangement has drawn formal review, not just partisan criticism -- a sitting member of Congress referred it to the SEC for a securities-law evaluation, and the House Judiciary Committee opened its own investigation"
+    ],
+    "evidence": [
+      {
+        "type": "public_record",
+        "description": "Fortune reporting (Aug. 4, 2026) on Truth API's launch, pricing ($100,000/month, five subscribing firms generating ~$6 million annualized), Trump's ~41% Trump Media ownership stake, and on-record criticism from NYU economist Gian Luca Clementi ('insider trading by definition'), former White House chief ethics counsel Richard Painter, and former senior SEC official Renee Jones",
+        "source_url": "https://fortune.com/2026/08/04/insider-trading-trump-truth-social-early-access/",
+        "maps_to_element": "Product structure, Trump's ownership/profit stake, and expert conflict-of-interest characterization"
+      },
+      {
+        "type": "public_record",
+        "description": "NPR reporting (Aug. 1, 2026) on Truth Social's launch of paid early access to Trump's posts",
+        "source_url": "https://www.npr.org/2026/08/01/nx-s1-5912219/trump-truth-social-access-insider-trading",
+        "maps_to_element": "Launch date and product description"
+      },
+      {
+        "type": "public_record",
+        "description": "Fortune reporting (Aug. 12, 2026) that nearly a dozen firms were paying up to $100,000/month for early access to Trump's posts",
+        "source_url": "https://fortune.com/2026/08/12/trump-media-truth-api-insider-trading/",
+        "maps_to_element": "Subscriber growth and market-moving-content concern"
+      },
+      {
+        "type": "public_record",
+        "description": "Rep. Ritchie Torres's official statement describing his letter to SEC Chairman Paul Atkins requesting an evaluation of whether Truth API implicates federal securities law, market-manipulation protections, or broker-dealer obligations, and coordination with the CFTC and Office of Government Ethics",
+        "source_url": "https://ritchietorres.house.gov/posts/rep-torres-presses-sec-on-trump-medias-new-insider-trading-api",
+        "maps_to_element": "Formal SEC referral by a sitting member of Congress"
+      },
+      {
+        "type": "public_record",
+        "description": "Axios reporting (Jul. 21, 2026) that Rep. Torres asked the SEC to investigate Truth Social's plan to monetize accelerated access to Trump's posts, ahead of the product's public launch",
+        "source_url": "https://www.axios.com/2026/07/21/trump-truth-social-api-posts",
+        "maps_to_element": "Timing of the SEC referral relative to launch"
+      }
+    ],
+    "status": "Truth API launched and operating as of August 1, 2026. Rep. Torres's SEC referral and Rep. Raskin's House Judiciary Committee investigation are both pending as of this entry's write date (September 3, 2026) -- no SEC enforcement action, subpoena, or committee finding has been identified.",
+    "rebuttal_anticipated": "Likely defense: charging clients for faster access to a public figure's posts is an unremarkable data-licensing business practice comparable to other proprietary market-data feeds, and Trump's posts are made in his personal/political capacity rather than as an exercise of government authority, so no confidential government information is actually being sold.",
+    "comeback": "What distinguishes this from an ordinary third-party data vendor is that Trump Media isn't distributing someone else's news -- it is selling advance access to the President's own communications while he simultaneously controls their timing and content in his official capacity, and profiting personally from that access through his ownership stake. A former senior SEC official (Jones) and a former White House chief ethics counsel (Painter) have both identified this specific structural alignment -- not the general practice of a company selling data -- as the legally significant distinction, and it's exactly the question Rep. Torres's SEC referral and Rep. Raskin's House Judiciary investigation were opened to resolve.",
+    "last_verified": "2026-09-03",
+    "date_added": "2026-09-03",
+    "confidence_note": "HIGH confidence on the underlying facts: Truth API's existence, pricing, launch date, subscriber growth, Trump's ~41% Trump Media ownership stake, and the Torres SEC letter and Raskin House Judiciary investigation are corroborated across Fortune, NPR, Axios, and Rep. Torres's own official statement. MODERATE/contested on whether the arrangement constitutes an actual securities-law violation -- that legal question is exactly what the pending SEC referral and House Judiciary investigation were opened to resolve, and no enforcement action or judicial finding exists yet; framed here as a well-sourced, actively-investigated conflict-of-interest concern, not a proven violation.",
+    "section_summaries": {
+      "incident_summary": "Trump Media launched a $60,000-$100,000/month subscription selling Wall Street firms accelerated access to Trump's own Truth Social posts, with Trump personally profiting as ~41% owner; Congress opened an SEC referral and a House Judiciary investigation over insider-trading and conflict-of-interest concerns.",
+      "confidence_note": "The product, its pricing, and the congressional referrals are well-corroborated; whether it constitutes an actual securities-law violation is the open question those referrals were opened to resolve, not yet an adjudicated fact."
+    }
+  },
+  {
     "id": "trump-uae-chip-exports-crypto-conflict-2026",
     "official": "Donald Trump, President",
     "offense_category": "Personal Financial Conflict of Interest / Overriding National Security Warnings for Personal Gain -- Commerce Department eased export controls on advanced AI chips and military-related technology to the UAE despite internal staff warnings about diversion to China, benefiting a foreign government with hundreds of millions to billions of dollars in financial ties to Trump's personal crypto venture -- NOT charged, contested facts, included for reference only",
