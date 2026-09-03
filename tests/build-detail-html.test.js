@@ -24,13 +24,16 @@ const escapeHtmlFunctionSource = extractFunction(source, "escape-html");
 const summaryLineFunctionSource = extractFunction(source, "summary-line");
 const highlightMatchesFunctionSource = extractFunction(source, "highlight-matches");
 const buildUpdateRequestHtmlFunctionSource = extractFunction(source, "build-update-request-html");
+const paragraphizeUpdatesFunctionSource = extractFunction(source, "paragraphize-updates");
 const buildDetailHtmlFunctionSource = extractFunction(source, "build-detail-html");
 
 // Eval them all together so buildDetailHtml can call summaryLineHtml and
 // highlightMatches (which itself calls escapeHtml/escapeRegExp), plus
-// buildUpdateRequestHtml (which calls escapeHtml directly).
+// buildUpdateRequestHtml (which calls escapeHtml directly) and
+// paragraphizeUpdates (used for the Cabinet-Level Status field).
 const combined = escapeHtmlFunctionSource + "\n" + summaryLineFunctionSource + "\n" +
-  highlightMatchesFunctionSource + "\n" + buildUpdateRequestHtmlFunctionSource + "\n" + buildDetailHtmlFunctionSource;
+  highlightMatchesFunctionSource + "\n" + buildUpdateRequestHtmlFunctionSource + "\n" +
+  paragraphizeUpdatesFunctionSource + "\n" + buildDetailHtmlFunctionSource;
 const buildDetailHtml = (0, eval)(`${combined}\nbuildDetailHtml;`);
 
 test("deregulation with summaries", () => {
@@ -239,6 +242,70 @@ test("prosecution renders Root Cause, Anticipated Defense, and TAP's Rebuttal af
   assert(confidenceIndex < causeIndex, "Root Cause should come after Confidence note");
   assert(causeIndex < rebuttalIndex, "Anticipated Defense should come after Root Cause");
   assert(rebuttalIndex < comebackIndex, "TAP's Rebuttal should come after Anticipated Defense");
+});
+
+test("prosecution Status field renders as a single paragraph when there are no Update markers", () => {
+  const entry = {
+    offense_category: "Fraud",
+    status_category: "Investigation",
+    incident_summary: "Summary.",
+    status: "Under investigation by DOJ.",
+    confidence_note: "Strong evidence.",
+  };
+  const cfg = { kind: "prosecution" };
+  const result = buildDetailHtml(entry, cfg);
+
+  assert(
+    result.includes('<div class="field-label">Status</div><div class="field-value"><p>Under investigation by DOJ.</p></div>'),
+    "status with no Update marker should render as one <p> inside field-value"
+  );
+});
+
+test("prosecution Status field splits into separate paragraphs at each Update marker", () => {
+  const entry = {
+    offense_category: "Fraud",
+    status_category: "Investigation",
+    incident_summary: "Summary.",
+    status: "Initial finding here. Update 2026-07-26: first update text. Update 2026-08-02 (real correction): second update text.",
+    confidence_note: "Strong evidence.",
+  };
+  const cfg = { kind: "prosecution" };
+  const result = buildDetailHtml(entry, cfg);
+
+  const statusStart = result.indexOf('<div class="field-label">Status</div><div class="field-value">');
+  const statusEnd = result.indexOf('<div class="field-label">Confidence note</div>');
+  const statusHtml = result.slice(statusStart, statusEnd);
+
+  assert.equal((statusHtml.match(/<p>/g) || []).length, 3, "should split into 3 paragraphs, one per Update marker plus the lead-in text");
+  assert(statusHtml.includes("<p>Initial finding here.</p>"), "lead-in text before the first marker should be its own paragraph");
+  assert(statusHtml.includes("<p>Update 2026-07-26: first update text.</p>"), "each Update marker should start its own paragraph");
+  assert(statusHtml.includes("<p>Update 2026-08-02 (real correction): second update text.</p>"), "an annotated Update marker should also start its own paragraph");
+});
+
+test("prosecution Status field does not false-split on a forward self-reference like \"(see Update below)\"", () => {
+  const entry = {
+    offense_category: "Fraud",
+    status_category: "Investigation",
+    incident_summary: "Summary.",
+    status: "The DOJ did not appeal (see Update below). No charges have been filed against Powell as of this entry Update: Powell's chair term ended May 15, 2026.",
+    confidence_note: "Strong evidence.",
+  };
+  const cfg = { kind: "prosecution" };
+  const result = buildDetailHtml(entry, cfg);
+
+  const statusStart = result.indexOf('<div class="field-label">Status</div><div class="field-value">');
+  const statusEnd = result.indexOf('<div class="field-label">Confidence note</div>');
+  const statusHtml = result.slice(statusStart, statusEnd);
+
+  assert.equal((statusHtml.match(/<p>/g) || []).length, 2, "the parenthetical \"(see Update below)\" mention must not itself start a paragraph");
+  assert(
+    statusHtml.includes("<p>The DOJ did not appeal (see Update below). No charges have been filed against Powell as of this entry</p>"),
+    "text up to the real Update marker should stay one paragraph, including the false-positive mention"
+  );
+  assert(
+    statusHtml.includes("<p>Update: Powell's chair term ended May 15, 2026.</p>"),
+    "the real, colon-terminated Update marker should start the second paragraph"
+  );
 });
 
 test("tracker (Reporting) highlights the search term in the body", () => {

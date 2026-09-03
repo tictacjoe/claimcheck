@@ -605,6 +605,8 @@
   }
   .field-label:first-child { margin-top: 1rem; }
   .field-value { font-size: 0.92rem; }
+  .field-value p { margin: 0 0 0.65rem; }
+  .field-value p:last-child { margin-bottom: 0; }
   .field-summary {
     font-weight: 700;
     margin: 0 0 0.35rem;
@@ -1755,6 +1757,33 @@ function buildUpdateRequestHtml(entry, cfg) {
    (tabbed/global card view) and by the one-liner expand-on-click,
    so there's exactly one place that knows how to render each
    tracker kind's fields, not two drifting copies. */
+/* paragraphize-updates:start */
+/* Cabinet-Level `status` fields accumulate one clause per recheck,
+   each marked "Update[ YYYY-MM-DD][ annotation]:" -- splits the raw
+   text on that marker so it renders as separate paragraphs instead of
+   one ever-growing block, without changing the underlying data.
+   Requires a colon shortly after the word so a forward self-reference
+   like "(see Update below)" -- which is never itself followed by a
+   colon -- doesn't get treated as a marker. Each paragraph is passed
+   through hl() individually so search-term highlighting still works. */
+function paragraphizeUpdates(text, hl) {
+  if (!text) return "";
+  const marker = /\bUpdate\b[^.:]{0,60}:/g;
+  const starts = [0];
+  let m;
+  while ((m = marker.exec(text)) !== null) {
+    starts.push(m.index);
+  }
+  starts.push(text.length);
+  const paragraphs = [];
+  for (let i = 0; i < starts.length - 1; i++) {
+    const chunk = text.slice(starts[i], starts[i + 1]).trim();
+    if (chunk) paragraphs.push(chunk);
+  }
+  return paragraphs.map(p => "<p>" + hl(p) + "</p>").join("");
+}
+/* paragraphize-updates:end */
+
 /* build-detail-html:start */
 function buildDetailHtml(entry, cfg, term, useRegex) {
   // Same highlighting the card's title/meta line already gets --
@@ -1838,7 +1867,7 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
     '<div class="field-label">Status Stage</div><div class="field-value">' + hl(entry.status_category) + '</div>' +
     '<div class="field-label">Alleged Violation (full legal citation)</div><div class="field-value">' + hl(entry.offense_category_raw || entry.offense_category) + '</div>' +
     '<div class="field-label">Incident summary</div><div class="field-value">' + summary(entry.section_summaries?.incident_summary) + hl(entry.incident_summary) + '</div>' +
-    '<div class="field-label">Status</div><div class="field-value">' + hl(entry.status) + '</div>' +
+    '<div class="field-label">Status</div><div class="field-value">' + paragraphizeUpdates(entry.status, hl) + '</div>' +
     '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + hl(entry.confidence_note) + '</div>' +
     '<div class="field-label">Root Cause</div><div class="field-value">' + hl(entry.cause) + '</div>' +
     '<div class="field-label">Anticipated Defense</div><div class="field-value">' + hl(entry.rebuttal_anticipated) + '</div>' +
