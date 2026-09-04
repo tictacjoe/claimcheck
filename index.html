@@ -649,6 +649,16 @@
   .exhibit-list a { color: var(--brass); text-decoration: none; }
   .exhibit-list a:hover { text-decoration: underline; }
 
+  .figure-group-label {
+    font-family: ui-monospace, monospace;
+    font-size: 0.62rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--ink-faint);
+    margin: 0.6rem 0 0.2rem;
+  }
+  .figure-group-label:first-child { margin-top: 0.3rem; }
+
   .confidence-box {
     background: var(--brass-light);
     border-left: 3px solid var(--brass);
@@ -1218,6 +1228,42 @@ function extractLargestNumber(str) {
     maxVal = Math.max(maxVal, raw * mult);
   }
   return maxVal;
+}
+
+/* Deregulation and Government-Services figures arrays mix
+   incompatible metric types with no type field of their own --
+   dollar costs/savings, health/mortality counts, and other scale
+   figures (acreage, percentages, plain counts) all sit in one flat
+   list, keyed only by a free-text `metric` label. Classify each by
+   keyword before rendering so a reader isn't left comparing a $1.7B
+   contract value against "9 statutes waived" in the same undifferen-
+   tiated bullet. Health check runs before the dollar-sign check
+   because a figure like "Annual Monetized Health Benefits at Risk"
+   carries a dollar value but is conceptually a health figure, not a
+   financial one. */
+const FIGURE_HEALTH_KEYWORDS = /death|mortalit|illness|disease|cancer|injur|exposure|black lung|silicosis|musculoskeletal|\bmsd\b|medical|hazard|poison|contaminat|birth defect|\bhealth\b|\bsafety\b/i;
+const FIGURE_FINANCIAL_KEYWORDS = /\bcost|saving|spending|funding|budget|\bfee\b|penalt|investment|\bprice|revenue|payment|threshold|compensation|contract|taxpayer|benefit/i;
+const FIGURE_CATEGORY_ORDER = ["Health & safety", "Financial", "Scale & scope"];
+
+function figureCategory(fig) {
+  const metric = fig.metric || "";
+  const value = fig.value || "";
+  if (FIGURE_HEALTH_KEYWORDS.test(metric) || FIGURE_HEALTH_KEYWORDS.test(value)) return "Health & safety";
+  if (/\$/.test(value) || FIGURE_FINANCIAL_KEYWORDS.test(metric)) return "Financial";
+  return "Scale & scope";
+}
+
+/* Shared by both schemas that carry a figures array (deregulation's
+   estimated_health_impact.figures, govservices' estimated_impact.figures)
+   so the grouping logic and markup only exist in one place. */
+function buildFiguresHtml(figs, hl) {
+  if (!figs || !figs.length) return "";
+  const groups = {};
+  figs.forEach(f => { (groups[figureCategory(f)] = groups[figureCategory(f)] || []).push(f); });
+  return FIGURE_CATEGORY_ORDER.filter(cat => groups[cat]).map(cat =>
+    '<div class="figure-group-label">' + cat + '</div>' +
+    '<ul class="exhibit-list">' + groups[cat].map(f => '<li>' + hl(f.metric) + ': <strong>' + hl(f.value) + '</strong> (' + hl(f.source) + ')</li>').join("") + '</ul>'
+  ).join("");
 }
 
 /* Impact scoring is inherently a heuristic, not an objective measure
@@ -1817,7 +1863,7 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
     return '<div class="field-label">What changed</div><div class="field-value">' + summary(entry.section_summaries?.what_changed) + paragraphizeUpdates(entry.what_changed, hl) + '</div>' +
       '<div class="field-label">Primary proponent</div><div class="field-value"><strong>' + hl(entry.primary_proponent?.name) + '</strong> — ' + hl(entry.primary_proponent?.role) + (entry.primary_proponent?.note ? '<br><em>' + hl(entry.primary_proponent.note) + '</em>' : '') + '</div>' +
       '<div class="field-label">Estimated impact</div><div class="field-value">' + summary(entry.section_summaries?.estimated_impact) + hl(entry.estimated_health_impact?.summary) + '</div>' +
-      (entry.estimated_health_impact?.figures?.length ? '<ul class="exhibit-list">' + entry.estimated_health_impact.figures.map(f => '<li>' + hl(f.metric) + ': <strong>' + hl(f.value) + '</strong> (' + hl(f.source) + ')</li>').join("") + '</ul>' : '') +
+      buildFiguresHtml(entry.estimated_health_impact?.figures, hl) +
       (entry.estimated_health_impact?.caveat ? '<div class="field-label">Caveat</div><div class="field-value" style="font-style:italic;">' + hl(entry.estimated_health_impact.caveat) + '</div>' : '') +
       '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + paragraphizeUpdates(entry.confidence_note, hl) + '</div>' +
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>' +
@@ -1832,7 +1878,7 @@ function buildDetailHtml(entry, cfg, term, useRegex) {
       '<div class="field-label">What changed</div><div class="field-value">' + summary(entry.section_summaries?.what_changed) + paragraphizeUpdates(entry.what_changed, hl) + '</div>' +
       '<div class="field-label">Primary proponent</div><div class="field-value"><strong>' + hl(entry.primary_proponent?.name) + '</strong> — ' + hl(entry.primary_proponent?.role) + (entry.primary_proponent?.note ? '<br><em>' + hl(entry.primary_proponent.note) + '</em>' : '') + '</div>' +
       '<div class="field-label">Estimated impact</div><div class="field-value">' + summary(entry.section_summaries?.estimated_impact) + hl(entry.estimated_impact?.summary) + '</div>' +
-      (entry.estimated_impact?.figures?.length ? '<ul class="exhibit-list">' + entry.estimated_impact.figures.map(f => '<li>' + hl(f.metric) + ': <strong>' + hl(f.value) + '</strong> (' + hl(f.source) + ')</li>').join("") + '</ul>' : '') +
+      buildFiguresHtml(entry.estimated_impact?.figures, hl) +
       (entry.estimated_impact?.caveat ? '<div class="field-label">Caveat</div><div class="field-value" style="font-style:italic;">' + hl(entry.estimated_impact.caveat) + '</div>' : '') +
       '<div class="field-label">Confidence note</div><div class="confidence-box">' + summary(entry.section_summaries?.confidence_note) + paragraphizeUpdates(entry.confidence_note, hl) + '</div>' +
       '<div class="field-label">Sources</div><ul class="exhibit-list">' + (entry.sources || []).map(s => '<li><a href="' + escapeHtml(safeHref(s.url)) + '" target="_blank" rel="noopener">' + hl(s.name) + '</a></li>').join("") + '</ul>' +
