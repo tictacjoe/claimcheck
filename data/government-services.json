@@ -5601,13 +5601,13 @@
       ],
       "caveat": "This entry is best understood as a downstream consequence of the broader shutdown (a Congress-White House funding standoff) rather than an independent FAA policy choice -- the FAA/DOT's own framing throughout was that they were responding to a crisis, not creating one. The measure was also broadly described as the technically correct safety response by outside aviation safety experts, not merely criticized. This is a case where the tracker should document real, significant harm from a service disruption without implying the FAA acted in bad faith or unsafely -- quite the opposite is the more accurate reading of the sourcing."
     },
-    "confidence_note": "Extremely well-documented in real time by essentially every major outlet (NPR, CNBC, CBS, NBC, Bloomberg) plus the FAA's own official press release with exact percentage ramp-up dates. This is one of the most concretely dated and quantified entries in the tracker, since the FAA published an actual emergency order with a specific schedule.",
+    "confidence_note": "Extremely well-documented in real time by essentially every major outlet (NPR, CNBC, CBS, NBC, Bloomberg) plus the FAA's own official press release with exact percentage ramp-up dates. This is one of the most concretely dated and quantified entries in the tracker, since the FAA published an actual emergency order with a specific schedule. Update: as of September 2026, a separate, ongoing dispute has FAA Administrator Bedford withholding 2.8 of a congressionally-mandated 3.8% controller pay raise (Public Law 119-86, $140M appropriated) pending his own discretionary sign-off on scheduling/staffing improvements -- a different fact pattern than this entry's tracked flight-capacity cuts, but evidence the underlying controller-staffing strain behind this episode hasn't fully resolved. Not incorporated as a change to this entry's own status.",
     "section_summaries": {
       "what_changed": "As unpaid controllers missed shifts in the record 2025 shutdown, officials ordered a phased flight-capacity cut at 40 airports, triggering thousands of cancellations within days.",
       "estimated_impact": "Safety experts called the cuts reasonable, not punitive, while flagging real economic costs; one airline alone canceled over 12,000 passengers' flights the first day.",
       "confidence_note": "Covered live by nearly every major outlet, and anchored to the FAA's own emergency order with exact dates -- among the most precisely quantified entries in this tracker."
     },
-    "last_verified": "2026-07-07",
+    "last_verified": "2026-09-06",
     "date_added": "2026-07-07",
     "sources": [
       {
@@ -5629,6 +5629,10 @@
       {
         "name": "NBC News — What to know about FAA flight cuts",
         "url": "https://www.nbcnews.com/news/us-news/faa-flights-canceled-airport-cuts-government-shutdown-what-know-rcna242488"
+      },
+      {
+        "name": "Simple Flying — FAA Administrator Blasted For Refusing Pay Raises To Overworked ATC",
+        "url": "https://simpleflying.com/faa-administrator-blasted-refusing-pay-raises-overworked-atc/"
       }
     ]
   },
@@ -11348,9 +11352,9 @@
     "title": "National Endowment for the Humanities Grants Terminated, Staff Cut, Funds Redirected",
     "institution": "National Endowment for the Humanities (NEH)",
     "domain": "funding_redirection",
-    "status": "Largely Complete (staff cuts and grant terminations executed; council dissolved)",
+    "status": "Partially Reversed (grant terminations ruled unconstitutional and reinstatement process underway as of mid-2026; staff cuts and Council dissolution unaffected by the ruling)",
     "date_of_action": "2025-04-02 (initial grant terminations) through 2025-10-01 (National Council on the Humanities firings)",
-    "what_changed": "Beginning April 2025, NEH terminated more than 1,000 previously-awarded, congressionally-funded grants covering fiscal years 2021-2025, informing 56 state and jurisdiction humanities councils their funding was being 'repurposed in a new direction in furtherance of President Trump's agenda.' NEH then placed the majority of its staff on immediate administrative leave, followed by formal termination notices to 65% of its ~180 employees (about 117 people) in April 2025 -- letters described the cuts as necessary to comply with a Trump executive order directing DOGE to eliminate 'waste, bloat, and insularity.' NEH Chair Shelly C. Lowe, the first Native American to head the agency, was forced out about a month before the mass layoffs. In October 2025, during the government shutdown, all but 4 of the 26 members of the National Council on the Humanities (the body that advises NEH on funding priorities) were fired by email from the White House Office of Presidential Personnel. Separately, the 2025 tax-and-spending law directed NEH to contribute $40 million toward constructing Trump's proposed 'National Garden of American Heroes' sculpture garden -- redirecting endowment funds toward a specific administration priority rather than the competitive peer-reviewed grants the agency traditionally funds.",
+    "what_changed": "Beginning April 2025, NEH terminated more than 1,000 previously-awarded, congressionally-funded grants covering fiscal years 2021-2025, informing 56 state and jurisdiction humanities councils their funding was being 'repurposed in a new direction in furtherance of President Trump's agenda.' NEH then placed the majority of its staff on immediate administrative leave, followed by formal termination notices to 65% of its ~180 employees (about 117 people) in April 2025 -- letters described the cuts as necessary to comply with a Trump executive order directing DOGE to eliminate 'waste, bloat, and insularity.' NEH Chair Shelly C. Lowe, the first Native American to head the agency, was forced out about a month before the mass layoffs. In October 2025, during the government shutdown, all but 4 of the 26 members of the National Council on the Humanities (the body that advises NEH on funding priorities) were fired by email from the White House Office of Presidential Personnel. Separately, the 2025 tax-and-spending law directed NEH to contribute $40 million toward constructing Trump's proposed 'National Garden of American Heroes' sculpture garden -- redirecting endowment funds toward a specific administration priority rather than the competitive peer-reviewed grants the agency traditionally funds. Update: On May 7, 2026, U.S. District Judge Colleen McMahon (S.D.N.Y.) ruled in American Council of Learned Societies v. NEH -- brought by ACLS, the American Historical Association, and the Modern Language Association -- that the mass termination of more than 1,400 grants was 'unlawful, unconstitutional, ultra vires, and without legal effect,' violating the First Amendment and the Fifth Amendment's equal-protection component, and undertaken without statutory authority. NEH has since begun a reinstatement process: starting June 30, 2026, the agency began sending affected recipients a 'Reinstatement Assurances Form' asking whether they still want the award, disclosing any personnel changes since termination, confirming continued capacity to complete the project, and specifying whether a restart period or reimbursement is needed. This is not automatic restoration -- it functions closer to a new award action, requiring a fresh institutional review of personnel, budget, subrecipient status, and timeline for each grant. The ruling does not affect the separate staff terminations or the National Council on the Humanities dissolution described above.",
     "primary_proponent": {
       "name": "White House Office of Presidential Personnel / DOGE",
       "role": "Executed the staff and council terminations",
@@ -11380,15 +11384,15 @@
           "source": "The Art Newspaper, citing the 2025 tax-and-spending law"
         }
       ],
-      "caveat": "This entry covers NEH specifically; the same DOGE-driven pattern was applied concurrently to the related Institute of Museum and Library Services (IMLS) and National Endowment for the Arts (NEA) -- worth building as separate, related entries rather than conflating all three into one, since each has its own specific timeline and figures."
+      "caveat": "This entry covers NEH specifically; the same DOGE-driven pattern was applied concurrently to the related Institute of Museum and Library Services (IMLS) and National Endowment for the Arts (NEA) -- worth building as separate, related entries rather than conflating all three into one, since each has its own specific timeline and figures. Update: the May 2026 court ruling and ongoing reinstatement process meaningfully mitigate the grant-termination harm (the largest of the figures above), but do not erase it -- reinstatement requires each recipient to clear a fresh institutional review, is not guaranteed, and does not touch the separate staff-cut or Council-dissolution harms."
     },
-    "confidence_note": "Strong multi-outlet sourcing (NPR, Inside Higher Ed, The Art Newspaper, Rep. Chellie Pingree's official statement, and a detailed CBPP legal/policy analysis citing court filings from State of Rhode Island et al. v. Trump et al.). The $40M sculpture-garden redirection is a particularly strong, concrete example of funds moving from competitive peer-reviewed grants to a specific administration priority -- useful as a quantified 'redirection' example, not just a cut.",
+    "confidence_note": "Strong multi-outlet sourcing (NPR, Inside Higher Ed, The Art Newspaper, Rep. Chellie Pingree's official statement, and a detailed CBPP legal/policy analysis citing court filings from State of Rhode Island et al. v. Trump et al.). The $40M sculpture-garden redirection is a particularly strong, concrete example of funds moving from competitive peer-reviewed grants to a specific administration priority -- useful as a quantified 'redirection' example, not just a cut. Update: the May 7, 2026 ACLS v. NEH ruling is a real, significant partial reversal of the grant-termination harm specifically -- present the entry as 'grants ruled unconstitutional, reinstatement underway but not automatic' rather than either 'fully undone' or unchanged from the original framing. Staff cuts and Council dissolution remain in effect and are unaffected by this ruling.",
     "section_summaries": {
-      "what_changed": "NEH canceled over a thousand already-awarded grants, cut most of its staff, forced out its chair beforehand, and later redirected $40 million toward a presidential sculpture-garden project.",
-      "estimated_impact": "As the nation's largest humanities funder, NEH's cuts reached named projects nationwide, including a Tulsa Race Massacre survivor-history collection and a historic-records digitization effort.",
-      "confidence_note": "Strongly corroborated across multiple outlets and a detailed policy write-up drawing on litigation records; the sculpture-garden funding redirect is an unusually concrete, quantified example."
+      "what_changed": "NEH canceled over a thousand already-awarded grants, cut most of its staff, forced out its chair beforehand, and later redirected $40 million toward a presidential sculpture-garden project. A federal judge has since ruled the grant terminations unconstitutional, and NEH is now processing reinstatement requests -- though recipients must clear a fresh review, not an automatic restoration.",
+      "estimated_impact": "As the nation's largest humanities funder, NEH's cuts reached named projects nationwide, including a Tulsa Race Massacre survivor-history collection and a historic-records digitization effort. The grant-termination harm is now partially, not fully, mitigated by the ongoing court-ordered reinstatement process.",
+      "confidence_note": "Strongly corroborated across multiple outlets and a detailed policy write-up drawing on litigation records; the sculpture-garden funding redirect is an unusually concrete, quantified example. The May 2026 ruling and reinstatement process are also well-documented and should be presented as a real but partial and non-automatic reversal."
     },
-    "last_verified": "2026-07-07",
+    "last_verified": "2026-09-06",
     "date_added": "2026-07-07",
     "sources": [
       {
@@ -11414,6 +11418,14 @@
       {
         "name": "Rep. Chellie Pingree (House Appropriations) — official statement",
         "url": "https://pingree.house.gov/news/documentsingle.aspx?DocumentID=6675"
+      },
+      {
+        "name": "Forbes (Michael T. Nietzel) — Judge Rules That Feds' Mass Termination Of Humanities Grants Was Illegal",
+        "url": "https://www.forbes.com/sites/michaeltnietzel/2026/05/08/judge-rules-that-feds-mass-termination-of--humanities-grants-was-illegal/"
+      },
+      {
+        "name": "CASRAI — NEH Grant Reinstatement: Assurances Form (2026)",
+        "url": "https://casrai.org/news/neh-grant-reinstatement-assurances-form-2026"
       }
     ]
   },
