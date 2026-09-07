@@ -8,7 +8,7 @@
     "status": "Fully Enacted (in effect; individual agency sunset rules being implemented through 2026)",
     "date_of_action": "2025-04-09",
     "original_rule_summary": "No prior rule -- this is a new process mandate targeting energy-related regulations under statutes including the Clean Air Act, Federal Power Act, Natural Gas Act, Atomic Energy Act, Endangered Species Act, and appliance efficiency standards.",
-    "what_changed": "Directs covered agencies (EPA, DOE, FERC, NRC, DOI bureaus, Army Corps, BLM, BOEM) to issue a 'sunset rule' by September 30, 2025 (later extended to September 30, 2026 for some agencies) inserting a 'Conditional Sunset Date' into covered existing regulations -- one year after the sunset rule's effective date, unless the agency affirmatively extends it (up to 5 more years at a time, following a public comment opportunity). All new energy-related regulations must include a sunset date no more than 5 years out. If an agency does not act to extend a regulation before its sunset date, the regulation automatically expires and is removed from the Code of Federal Regulations -- no additional agency action or public process is required for the expiration itself.",
+    "what_changed": "Directs covered agencies (EPA, DOE, FERC, NRC, DOI bureaus, Army Corps, BLM, BOEM) to issue a 'sunset rule' by September 30, 2025 (later extended to September 30, 2026 for some agencies) inserting a 'Conditional Sunset Date' into covered existing regulations -- one year after the sunset rule's effective date, unless the agency affirmatively extends it (up to 5 more years at a time, following a public comment opportunity). All new energy-related regulations must include a sunset date no more than 5 years out. If an agency does not act to extend a regulation before its sunset date, the regulation automatically expires and is removed from the Code of Federal Regulations -- no additional agency action or public process is required for the expiration itself. Update: DOE withdrew its own direct final rule implementing the sunset mandate (covering 21 parts of Title 10 CFR) on July 28, 2026, after receiving adverse public comments arguing the sunset process 'bypasses meaningful public input and fails to adequately assess whether the sunsets are consistent with underlying statutory mandates.' DOE will instead proceed through standard notice-and-comment rulemaking on a companion proposed rule it had already filed -- a second agency (alongside NRC) where sunset implementation has hit real friction rather than proceeding cleanly.",
     "primary_proponent": {
       "name": "Donald Trump",
       "role": "President",
@@ -22,13 +22,13 @@
       "figures": [],
       "caveat": "No quantified health impact figure exists for the EO itself, since it is a process mechanism rather than a rule targeting a specific pollutant or practice -- and as of mid-2026, agencies are still in the process of identifying which specific regulations are 'covered' and issuing their individual sunset rules (e.g. NRC's Dec. 2025 proposal found most of its regulations could NOT be sunset because they're statutorily required for safety, and only sunset a small number of unused/obsolete rules). The real-world impact will depend heavily on which agencies let which specific regulations lapse -- track individual agency sunset-rule outcomes as they finalize."
     },
-    "confidence_note": "Strong 'process is the harm' entry, similar to EO 14192 but energy-specific and more severe in mechanism -- automatic expiration by default, rather than requiring agencies to affirmatively act to repeal. Worth noting the NRC's early implementation actually sunset very few regulations (found most were statutorily protected), which is a useful nuance: the mechanism is structurally risky, but agency-by-agency outcomes so far are mixed, not uniformly severe.",
+    "confidence_note": "Strong 'process is the harm' entry, similar to EO 14192 but energy-specific and more severe in mechanism -- automatic expiration by default, rather than requiring agencies to affirmatively act to repeal. Worth noting the NRC's early implementation actually sunset very few regulations (found most were statutorily protected), which is a useful nuance: the mechanism is structurally risky, but agency-by-agency outcomes so far are mixed, not uniformly severe. Update: DOE's July 2026 withdrawal-and-restart adds a second data point to that mixed-outcomes pattern -- two of the covered agencies have now hit procedural friction rather than smoothly implementing the sunset mandate as designed.",
     "section_summaries": {
-      "what_changed": "Agencies must give existing rules automatic expiration dates; unless renewed, they lapse from the CFR with no further action needed.",
+      "what_changed": "Agencies must give existing rules automatic expiration dates; unless renewed, they lapse from the CFR with no further action needed. DOE has since withdrawn its own implementing rule after public pushback and restarted via standard rulemaking.",
       "estimated_impact": "Flips the default from rules staying in force to lapsing automatically, risking rolling gaps in emissions, safety, and species protections.",
-      "confidence_note": "A structurally risky mechanism, though NRC's early rollout sunset few rules since most turned out statutorily protected -- a real mixed-outcomes nuance."
+      "confidence_note": "A structurally risky mechanism, though both NRC and now DOE have hit friction in early rollout -- a real mixed-outcomes nuance, not uniformly severe."
     },
-    "last_verified": "2026-07-03",
+    "last_verified": "2026-09-06",
     "date_added": "2026-07-03",
     "sources": [
       {
@@ -42,6 +42,10 @@
       {
         "name": "American Nuclear Society — NRC proposes rule changes in response to EO",
         "url": "https://www.ans.org/news/article-7613/nrc-proposes-rule-changes-in-response-to-eo/"
+      },
+      {
+        "name": "Foley & Lardner — DOE Withdraws Direct Final Rule on Zero-Based Regulating, Will Proceed Through Standard Notice-and-Comment Rulemaking",
+        "url": "https://www.foley.com/insights/publications/2026/07/doe-withdraws-direct-final-rule-on-zero-based-regulating-will-proceed-through-standard-notice-and-comment-rulemaking/"
       }
     ],
     "short_summary": "Energy/environmental rules now auto-expire after 1 year unless agencies act to renew them."
@@ -323,7 +327,7 @@
     "status": "Fully Repealed (ability-to-repay provision)",
     "date_of_action": "2019-02-06 (proposed); 2020-07 (finalized)",
     "original_rule_summary": "2017 CFPB rule (under Director Richard Cordray) requiring payday and short-term title lenders to verify a borrower's actual ability to repay a loan before issuing it -- an underwriting requirement developed over 5 years of CFPB research, aimed at preventing debt-trap cycles from loans with APRs often exceeding 390%.",
-    "what_changed": "The Trump-era CFPB proposed and later finalized removal of the ability-to-repay ('underwriting') provision, while leaving in place separate provisions restricting how lenders can debit a borrower's bank account. CFPB's own senior officials stated the rescission stemmed from a view that there wasn't enough evidence the practice was 'unfair and abusive' -- despite the agency's own prior 5-year research record concluding the opposite.",
+    "what_changed": "The Trump-era CFPB proposed and later finalized removal of the ability-to-repay ('underwriting') provision, while leaving in place separate provisions restricting how lenders can debit a borrower's bank account. CFPB's own senior officials stated the rescission stemmed from a view that there wasn't enough evidence the practice was 'unfair and abusive' -- despite the agency's own prior 5-year research record concluding the opposite. Update: CFPB's 2026 regulatory agenda (published July 2026) designates the remaining provisions of the 2017 rule -- including the payment/account-debiting restrictions left untouched by the 2020 rollback, and their compliance dates -- for a further rulemaking, explicitly categorized as deregulatory under Executive Order 14192; a Notice of Proposed Rulemaking is anticipated for July 2026. This is a planned, not-yet-enacted second-round action on the same underlying rule -- nothing has changed yet.",
     "primary_proponent": {
       "name": "Mick Mulvaney",
       "role": "Acting CFPB Director",
@@ -343,13 +347,13 @@
       ],
       "caveat": "The $7B figure is a financial-savings estimate, not a direct health/mortality figure -- the health linkage (debt-trap stress correlating with mental and physical health harm) is drawn from general research on financial stress, not a rule-specific health study."
     },
-    "confidence_note": "Strong sourcing on the regulatory action, the proponent (Mulvaney, with documented conflicts of interest), and a real agency-originated dollar figure. The mental/physical health linkage should be framed as 'debt-trap stress is well-documented to correlate with anxiety and physical health harm' rather than implying a rule-specific quantified health study exists.",
+    "confidence_note": "Strong sourcing on the regulatory action, the proponent (Mulvaney, with documented conflicts of interest), and a real agency-originated dollar figure. The mental/physical health linkage should be framed as 'debt-trap stress is well-documented to correlate with anxiety and physical health harm' rather than implying a rule-specific quantified health study exists. Update: the 2026 agenda item targeting the rule's remaining provisions is a proposal, not a final action -- do not describe it as completed until an actual NPRM or final rule is confirmed.",
     "section_summaries": {
-      "what_changed": "CFPB dropped the requirement that payday lenders verify borrowers can repay loans, despite its own 5-year research finding the practice unfair.",
+      "what_changed": "CFPB dropped the requirement that payday lenders verify borrowers can repay loans, despite its own 5-year research finding the practice unfair. CFPB's 2026 agenda now also proposes rolling back the rule's remaining (payment-restriction) provisions, though nothing is final yet.",
       "estimated_impact": "CFPB's own estimate: the dropped repayment-check rule would have saved consumers (and cost lenders) $7 billion a year, on top of debt-trap stress harms.",
       "confidence_note": "Well-sourced on the rollback and Mulvaney's conflicts of interest; frame health harm as debt-stress correlation, not a rule-specific health study."
     },
-    "last_verified": "2026-07-03",
+    "last_verified": "2026-09-06",
     "date_added": "2026-07-03",
     "sources": [
       {
@@ -363,6 +367,10 @@
       {
         "name": "Consumer Reports Advocacy — Actions Taken By Acting CFPB Director Mick Mulvaney",
         "url": "https://advocacy.consumerreports.org/research/actions-taken-by-acting-cfpb-director-mick-mulvaney-that-undermine-the-cfpbs-ability-to-protect-consumers/"
+      },
+      {
+        "name": "Consumer Financial Services Law Monitor — CFPB Releases 2026 Regulatory Agenda Detailing Planned Rulemakings",
+        "url": "https://www.consumerfinancialserviceslawmonitor.com/2026/07/cfpb-releases-2026-regulatory-agenda-detailing-planned-rulemakings/"
       }
     ],
     "short_summary": "Payday lenders no longer required to verify borrowers can actually repay loans."
@@ -376,7 +384,7 @@
     "status": "Fully Repealed and replaced",
     "date_of_action": "2019-06",
     "original_rule_summary": "2015 Obama-era EPA rule setting the first-ever national carbon dioxide emission limits for existing power plants, aimed at cutting power-sector greenhouse gas emissions roughly 32% below 2005 levels by 2030.",
-    "what_changed": "EPA repealed the Clean Power Plan outright and replaced it with the much weaker Affordable Clean Energy Rule, which set no binding numeric emissions targets and instead directed states to require only modest efficiency upgrades ('heat rate improvements') at individual coal plants, explicitly rejecting the prior rule's system-wide approach of shifting generation toward cleaner sources.",
+    "what_changed": "EPA repealed the Clean Power Plan outright and replaced it with the much weaker Affordable Clean Energy Rule, which set no binding numeric emissions targets and instead directed states to require only modest efficiency upgrades ('heat rate improvements') at individual coal plants, explicitly rejecting the prior rule's system-wide approach of shifting generation toward cleaner sources. Update: EPA also rescinded the 2009 Greenhouse Gas Endangerment Finding in February 2026, targeting motor-vehicle GHG standards specifically rather than this entry's power-plant rule -- see the separately-tracked \"endangerment-finding-rescission-trump2\" entry for full detail (litigation status, EPA's cost claims, National Academies' rebuttal). Noted here only as broader legal-context for the regulatory environment this rule now sits in, not as a second rollback of the ACE Rule itself.",
     "primary_proponent": {
       "name": "Andrew Wheeler",
       "role": "EPA Administrator (finalized the rule; the repeal process began under predecessor Scott Pruitt)",
@@ -397,13 +405,13 @@
       ],
       "caveat": "This is EPA's own regulatory impact analysis comparing ACE to alternative approaches, not an outside advocacy estimate -- a notably strong data point since the agency implementing the rollback produced the mortality estimate itself."
     },
-    "confidence_note": "Very strong for debate: the mortality estimate came from EPA's own regulatory impact analysis, not an opposing advocacy group. This is close to an admission-against-interest and should be framed that way.",
+    "confidence_note": "Very strong for debate: the mortality estimate came from EPA's own regulatory impact analysis, not an opposing advocacy group. This is close to an admission-against-interest and should be framed that way. Update: the Feb. 2026 Endangerment Finding rescission targets vehicle/mobile-source standards, not this entry's power-plant rule -- see the dedicated \"endangerment-finding-rescission-trump2\" entry, do not duplicate its detail here.",
     "section_summaries": {
-      "what_changed": "EPA scrapped binding plant-by-plant emissions targets for coal power and replaced them with a much weaker per-plant efficiency-upgrade requirement.",
+      "what_changed": "EPA scrapped binding plant-by-plant emissions targets for coal power and replaced them with a much weaker per-plant efficiency-upgrade requirement. (EPA separately rescinded the Endangerment Finding underpinning federal GHG authority in Feb. 2026 -- see the dedicated entry for that action.)",
       "estimated_impact": "EPA's own analysis found the replacement could cause more pollution and premature deaths than the original rule, via a coal-plant 'rebound effect.'",
       "confidence_note": "Very strong for debate -- the premature-death estimate comes from EPA's own impact analysis, close to an admission against interest."
     },
-    "last_verified": "2026-07-03",
+    "last_verified": "2026-09-06",
     "date_added": "2026-07-03",
     "sources": [
       {
@@ -413,6 +421,10 @@
       {
         "name": "Wikipedia — Environmental policy of the first Donald Trump administration",
         "url": "https://en.wikipedia.org/wiki/Environmental_policy_of_the_first_Donald_Trump_administration"
+      },
+      {
+        "name": "Federal Register — Rescission of the Greenhouse Gas Endangerment Finding and Motor Vehicle Greenhouse Gas Emission Standards Under the Clean Air Act",
+        "url": "https://www.federalregister.gov/documents/2026/02/18/2026-03157/rescission-of-the-greenhouse-gas-endangerment-finding-and-motor-vehicle-greenhouse-gas-emission"
       }
     ],
     "short_summary": "Replaced binding power-plant carbon caps with a weaker efficiency-only standard."
@@ -1796,13 +1808,13 @@
       "figures": [],
       "caveat": "This is fundamentally a digital-access/market-structure issue, not a health rollback in the sense of the environmental or labor entries in this tracker -- use the telehealth-throttling angle cautiously as a theoretical risk, not a documented realized harm."
     },
-    "confidence_note": "Very well-documented, uncontroversial factually (clear vote, clear date, clear named proponent). Weakest entry in the tracker for a health-impact argument specifically -- best used for a consumer/market-access argument, not paired with the health-focused entries.",
+    "confidence_note": "Very well-documented, uncontroversial factually (clear vote, clear date, clear named proponent). Weakest entry in the tracker for a health-impact argument specifically -- best used for a consumer/market-access argument, not paired with the health-focused entries. Update: 2026-09-06 recheck sweep surfaced a January 2, 2025 Sixth Circuit ruling striking down the FCC's 2024 'Safeguarding Order' net-neutrality reinstatement attempt -- verified real, but predates this entry's prior verification and doesn't change current framing; not incorporated as a new development.",
     "section_summaries": {
       "what_changed": "FCC voted 3-2 to reclassify broadband as lightly regulated, dropping bans on blocking, throttling, and paid prioritization by ISPs.",
       "estimated_impact": "Little direct physical health impact; the main health-adjacent worry is theoretical throttling of telehealth traffic, not a documented real harm.",
       "confidence_note": "Well-documented and uncontroversial factually, but the weakest entry here for a health argument -- better used for a consumer/market-access angle."
     },
-    "last_verified": "2026-07-03",
+    "last_verified": "2026-09-06",
     "date_added": "2026-07-03",
     "sources": [
       {
@@ -2296,13 +2308,13 @@
       "figures": [],
       "caveat": "No quantified health/safety figure exists for this rule -- it is a liability-allocation rule, not a safety standard itself. The health-relevant argument is indirect: reduced accountability for the entity best positioned to enforce safety standards across a franchise/contractor network."
     },
-    "confidence_note": "Solid on the facts and timeline (Federal Register citation, clear before/after standard). Two things to flag: (1) this is a Trump II action from Feb. 2026, not Trump I as an earlier version of this tracker listed -- the 2020 rule referenced here was Trump I, but the specific rollback being tracked (reversing the 2023 expansion) happened this year; (2) no individual proponent is clearly named in sourcing, unlike most other entries in this tracker.",
+    "confidence_note": "Solid on the facts and timeline (Federal Register citation, clear before/after standard). Two things to flag: (1) this is a Trump II action from Feb. 2026, not Trump I as an earlier version of this tracker listed -- the 2020 rule referenced here was Trump I, but the specific rollback being tracked (reversing the 2023 expansion) happened this year; (2) no individual proponent is clearly named in sourcing, unlike most other entries in this tracker. Update: 2026-09-06 recheck sweep surfaced NLRB General Counsel Crystal Carey's August 2026 Memorandum GC 26-04 -- verified its 13 targeted precedents (severance agreements, captive-audience meetings, bargaining orders, remedies, dues checkoff, etc.) do not include the joint-employer standard. No development found specific to this entry's own tracked rule.",
     "section_summaries": {
       "what_changed": "NLRB withdrew the 2023 joint-employer rule and reinstated the narrower 2020 standard, requiring direct and exercised control to count.",
       "estimated_impact": "Minimal direct health impact; the real harm is reduced corporate accountability, since parent firms are less liable for a contractor's safety violations.",
       "confidence_note": "Solid on facts, but this is a Trump II action from 2026, not Trump I as an earlier tracker version listed -- no individual proponent is named."
     },
-    "last_verified": "2026-07-03",
+    "last_verified": "2026-09-06",
     "date_added": "2026-07-03",
     "sources": [
       {
@@ -2714,13 +2726,13 @@
       ],
       "caveat": "No agency or independent body has published a quantified estimate of additional deaths/injuries directly attributable to this specific reporting rollback -- the harm argument is about degraded detection/prevention capacity, not a modeled body count. Present it that way rather than implying a specific casualty figure."
     },
-    "confidence_note": "Frame as a transparency/detection-capacity rollback, not a body-count claim -- this is the more defensible, harder-to-rebut version of the argument. Unions (IBEW) and NELP are the sourced critics; note them as advocacy voices, not neutral analysts.",
+    "confidence_note": "Frame as a transparency/detection-capacity rollback, not a body-count claim -- this is the more defensible, harder-to-rebut version of the argument. Unions (IBEW) and NELP are the sourced critics; note them as advocacy voices, not neutral analysts. Update: 2026-09-06 recheck sweep surfaced a July 21, 2026 Fifth Circuit ruling vacating an OSHA rule requiring mental-health-illness logging on OSHA 300 forms -- verified this concerns a separate OSHA rule, not the 2019 Forms 300/301 electronic-submission rollback tracked here. No development found specific to this entry's own tracked rule.",
     "section_summaries": {
       "what_changed": "OSHA dropped the requirement to submit detailed injury logs, leaving only aggregated summary data; anti-retaliation protections stayed in place.",
       "estimated_impact": "The harm here is blindness, not body count -- regulators lose the itemized data needed to spot injury patterns and aim enforcement.",
       "confidence_note": "The stronger, harder-to-rebut argument is reduced injury-detection capacity, not a death count -- and unions/NELP are advocacy sources, not neutral analysts."
     },
-    "last_verified": "2026-07-03",
+    "last_verified": "2026-09-06",
     "date_added": "2026-07-03",
     "sources": [
       {
